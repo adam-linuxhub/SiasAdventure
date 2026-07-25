@@ -1,0 +1,77 @@
+[
+{
+"id":1,
+"subject":"Maths",
+"question":"What is 7 × 8?",
+"answers":[
+"54",
+"56",
+"64",
+"48"
+],
+"correct":1,
+"hint":"Think about your 7 times table.",
+"explanation":"7 × 8 = 56. Multiplication is repeated addition."
+},
+
+{
+"id":2,
+"subject":"Grammar",
+"question":"Which word is a noun?",
+"answers":[
+"Run",
+"Happy",
+"Dog",
+"Quickly"
+],
+"correct":2,
+"hint":"A noun is a person, place or thing.",
+"explanation":"Dog is a noun because it is a thing."
+},
+
+{
+"id":3,
+"subject":"Spelling",
+"question":"Which spelling is correct?",
+"answers":[
+"Receive",
+"Recieve",
+"Receeve",
+"Resieve"
+],
+"correct":0,
+"hint":"Remember: 'i before e except after c'.",
+"explanation":"Receive is the correct spelling."
+},
+
+{
+"id":4,
+"subject":"Verbal Reasoning",
+"question":"Which word is closest in meaning to 'large'?",
+"answers":[
+"Tiny",
+"Small",
+"Big",
+"Short"
+],
+"correct":2,
+"hint":"Think of the opposite of small.",
+"explanation":"Big means large."
+},
+
+{
+"id":5,
+"subject":"Non-Verbal Reasoning",
+"question":"A shape has 4 equal sides. What is it?",
+"answers":[
+"Triangle",
+"Square",
+"Circle",
+"Oval"
+],
+"correct":1,
+"hint":"Think of a shape like a window.",
+"explanation":"A square has four equal sides."
+}
+
+]

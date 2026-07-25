@@ -1,0 +1,20 @@
+:root {
+
+    /* Magical sky theme */
+
+    --sky-top: #8ED8FF;
+    --sky-bottom: #DFF6FF;
+
+    --magic-blue: #4FA3E3;
+
+    --purple: #8064D9;
+
+    --gold: #FFD54F;
+
+    --white: #FFFFFF;
+
+    --shadow: rgba(0,0,0,0.15);
+
+    --cloud: rgba(255,255,255,0.75);
+
+}

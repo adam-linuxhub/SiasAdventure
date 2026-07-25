@@ -1,13 +1,3 @@
-:root {
-
-    --sky: #dff5ff;
-    --grass: #a8df8e;
-    --purple: #8064d9;
-    --gold: #ffd54f;
-    --white: #ffffff;
-    --shadow: rgba(0,0,0,0.15);
-
-}
 
 
 * {
@@ -23,16 +13,16 @@ body {
 
     min-height: 100vh;
 
-    font-family: "Comic Sans MS", "Nunito", sans-serif;
+    font-family: "Nunito", "Comic Sans MS", sans-serif;
 
     background:
         linear-gradient(
-            var(--sky),
-            var(--grass)
+            180deg,
+            var(--sky-top),
+            var(--sky-bottom)
         );
 
 }
-
 
 .adventure-container {
 
@@ -136,7 +126,6 @@ body {
 
 .magic-button {
 
-
     display:block;
 
     width:300px;
@@ -153,15 +142,25 @@ body {
 
     border-radius:50px;
 
-    background:var(--purple);
+    background:
+        linear-gradient(
+            135deg,
+            #7B61FF,
+            #4FA3E3
+        );
 
     color:white;
 
     cursor:pointer;
 
+    box-shadow:
+        0 6px 15px rgba(0,0,0,0.2);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
 }
-
-
 
 .magic-button:hover {
 
@@ -173,10 +172,14 @@ body {
 
 .secondary {
 
-    background:#5bbcff;
+    background:
+        linear-gradient(
+            135deg,
+            #5BB8FF,
+            #70E1F5
+        );
 
 }
-
 
 
 .player-stats {
@@ -227,5 +230,144 @@ body {
         font-size:2rem;
 
     }
+
+}
+
+.question-layout {
+
+display:flex;
+
+gap:30px;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+
+.question-area {
+
+background:white;
+
+padding:25px;
+
+border-radius:30px;
+
+max-width:700px;
+
+}
+
+
+.hint-area {
+
+background:white;
+
+padding:25px;
+
+border-radius:30px;
+
+width:250px;
+
+}
+
+
+.answer-option {
+
+display:block;
+
+padding:15px;
+
+margin:10px;
+
+border-radius:20px;
+
+background:#eef7ff;
+
+cursor:pointer;
+
+font-size:1.2rem;
+
+}
+
+
+.answer-option:hover {
+
+background:#d7efff;
+
+}
+
+
+.explanation {
+
+margin:20px;
+
+padding:20px;
+
+background:#fff7c2;
+
+border-radius:20px;
+
+font-size:1.2rem;
+
+}
+
+
+.hidden {
+
+display:none;
+
+}
+
+
+.hint-box p {
+
+display:none;
+
+}
+
+
+.hint-box:hover p {
+
+display:block;
+
+}
+
+body::before {
+
+    content:"";
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background-image:
+        radial-gradient(
+            white 2px,
+            transparent 2px
+        );
+
+    background-size:
+        80px 80px;
+
+    opacity:0.25;
+
+    pointer-events:none;
+
+}
+
+.character-card,
+.adventure-panel,
+.player-stats,
+.question-area,
+.hint-area {
+
+    border: 3px solid rgba(255,255,255,0.8);
+
+    backdrop-filter: blur(5px);
 
 }
