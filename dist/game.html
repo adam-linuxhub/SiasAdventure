@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sia's Adventure | Academy of Knowledge</title>
+    <link rel="icon" href="images/ui/star.png">
+  <script type="module" crossorigin src="/assets/game-BBgh3LhT.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/style-CQyF9PL7.js">
+  <link rel="stylesheet" crossorigin href="/assets/style-Bjzy1oOt.css">
+</head>
+
+<body>
+
+    <main class="adventure-container">
+
+        <header class="game-header">
+
+            <h1 class="academy-title">✨ Sia's Adventure ✨</h1>
+
+
+        </header>
+
+
+        <section class="game-stage">
+
+            <!-- ==========================
+                 Main Question Panel
+            =========================== -->
+
+            <div class="question-area">
+
+<div class="wizard-header">
+
+    <div class="character-image wizard">
+
+        <img
+            src="/assets/wizzy-DbYoABQA.png"
+            alt="Wizzy">
+
+    </div>
+
+    <div class="wizard-message">
+
+        <div class="speech-bubble">
+
+            <h2>Wizzy's Challenge</h2>
+
+                <p id="wizzy-message">
+
+                    Welcome back, Sia!
+
+                    <br><br>
+
+                    Let's keep learning and having fun!
+
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+                <div class="question-card">
+
+                    <p id="question-text">
+                        Loading question...
+                    </p>
+
+                    <form id="answer-form" autocomplete="off">
+
+                        <div id="answers"></div>
+
+                    </form>
+
+                </div>
+
+                <div id="explanation"
+                     class="explanation hidden">
+                </div>
+
+                <div class="buttons">
+
+                    <button
+                        type="button"
+                        class="magic-button"
+                        id="submit-answer">
+                        Submit
+                    </button>
+
+                    <button
+                        type="button"
+                        class="magic-button secondary"
+                        id="dont-know">
+                        I Don't Know
+                    </button>
+                    <button
+                        type="button"
+                        class="magic-button"
+                        id="next-question">
+                        Next Question ✨
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- ==========================
+                 Hootie Hint Helper
+            =========================== -->
+
+            <aside class="hootie-helper">
+
+                <div class="hootie-image">
+
+                    <img
+                        src="/assets/hootie-B7F1PQV5.png"
+                        alt="Hootie">
+
+                </div>
+
+                <div class="hint-box">
+
+                    <span>
+                        Need a clue?<br>Click Hootie!
+                    </span>
+
+                    <p id="hint-text"></p>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+
+        <section class="player-stats">
+
+            <h3>Adventure Progress</h3>
+
+            <div class="xp-bar">
+
+                <div
+                    id="xp-progress"
+                    class="xp-progress">
+                </div>
+
+            </div>
+
+            <div class="bottom-stats">
+
+    <span>
+        ⭐ Stars:
+        <strong id="stars">0</strong>
+    </span>
+
+    <span>
+        🏆 Level:
+        <strong id="level">
+            Explorer
+        </strong>
+    </span>
+
+</div>
+
+        </section>
+
+        <!-- Hop Celebration -->
+
+<!-- ==========================
+     Hop Celebration
+========================== -->
+
+
+<div id="hop-celebration">
+
+    <img
+        src="/assets/hop-DKKx4U84.png"
+        alt="Hop">
+
+    <div id="hop-message" class="hop-message">
+
+    Great job, Sia!
+
+    </div>
+
+</div>
+<audio id="correct-sound"></audio>
+
+<audio id="wrong-sound"></audio>
+
+<audio id="treasure-sound"></audio>
+<footer>
+
+    Version 1.0
+
+</footer>
+    </main>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+import"./style-CQyF9PL7.js";console.log(`✨ Sia's Adventure loaded`);function e(){window.location.href=`game.html`}function t(){window.location.href=`game.html`}function n(){window.location.href=`dashboard.html`}window.startAdventure=e,window.continueAdventure=t,window.openDashboard=n,console.log(`Sia's Adventure started`);
