@@ -4,27 +4,20 @@
 
 const QuestionEngine = {
 
-    shuffledQuestions: [],
+    questionQueue: [],
     currentIndex: 0,
 
     initialise(questions) {
 
-        this.shuffledQuestions = [...questions];
+        this.questionQueue = [...questions];
 
         // Fisher-Yates shuffle
-        for (let i = this.shuffledQuestions.length - 1; i > 0; i--) {
+        for (let i = this.questionQueue.length - 1; i > 0; i--) {
 
             const j = Math.floor(Math.random() * (i + 1));
 
-            [
-                this.shuffledQuestions[i],
-                this.shuffledQuestions[j]
-            ] =
-            [
-                this.shuffledQuestions[j],
-                this.shuffledQuestions[i]
-            ];
-
+            [this.questionQueue[i], this.questionQueue[j]] =
+            [this.questionQueue[j], this.questionQueue[i]];
         }
 
         this.currentIndex = 0;
@@ -33,20 +26,15 @@ const QuestionEngine = {
 
     getRandomQuestion(player, questions) {
 
-        if (this.shuffledQuestions.length === 0) {
-
+        if (this.questionQueue.length === 0) {
             this.initialise(questions);
-
         }
 
-        if (this.currentIndex >= this.shuffledQuestions.length) {
-
+        if (this.currentIndex >= this.questionQueue.length) {
             this.initialise(questions);
-
         }
 
-        return this.shuffledQuestions[this.currentIndex++];
-
+        return this.questionQueue[this.currentIndex++];
     }
 
 };

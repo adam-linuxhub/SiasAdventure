@@ -74,6 +74,8 @@ const wizzyIncorrectMessages = [
 
 ];
 
+const subject =
+    localStorage.getItem("subject") || "mixed";
 
 /*==================================================
   HOP CELEBRATIONS
@@ -97,12 +99,31 @@ const hopMessages = [
 
 ];
 
+function getQuestionFile() {
+
+    switch (subject) {
+
+        case "maths":
+            return "questions/maths.json";
+
+        case "mixed":
+            // For now, Mixed uses the Maths questions.
+            // As more subjects are added, we'll expand this.
+            return "questions/maths.json";
+
+        default:
+            return "questions/maths.json";
+
+    }
+
+}
 
 /*==================================================
   START GAME
 ==================================================*/
 
-fetch("questions/maths.json")
+
+fetch(getQuestionFile())
 
     .then(response => {
 
@@ -127,7 +148,7 @@ fetch("questions/maths.json")
         initialiseGame();
 
     })
-
+    
     .catch(error => {
 
         console.error(error);
@@ -718,5 +739,71 @@ function typeWizzyMessage(text) {
         index++;
 
     }, 28);
+
+}
+
+function loadSingleSubject(subject) {
+
+    fetch(`questions/${subject}.json`)
+
+        .then(response => {
+
+            if (!response.ok)
+                throw new Error("Unable to load questions.");
+
+            return response.json();
+
+        })
+
+        .then(data => {
+
+            questions = data;
+
+            QuestionEngine.initialise(questions);
+
+            initialiseGame();
+
+        })
+
+        .catch(showLoadError);
+
+}
+
+
+function loadMixedQuestions() {
+
+    Promise.all([
+
+        fetch("questions/maths.json").then(r => r.json()),
+        fetch("questions/grammar.json").then(r => r.json()),
+        fetch("questions/spelling.json").then(r => r.json()),
+        fetch("questions/punctuation.json").then(r => r.json()),
+        fetch("questions/verbal.json").then(r => r.json()),
+        fetch("questions/nonverbal.json").then(r => r.json())
+
+    ])
+
+    .then(allQuestions => {
+
+        questions = allQuestions.flat();
+
+        QuestionEngine.initialise(questions);
+
+        initialiseGame();
+
+    })
+
+    .catch(showLoadError);
+
+}
+
+
+function showLoadError(error) {
+
+    console.error(error);
+
+    alert(
+        "Sorry, the question bank could not be loaded."
+    );
 
 }

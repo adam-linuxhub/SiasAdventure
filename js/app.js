@@ -1,7 +1,12 @@
-console.log("✨ Sia's Adventure loaded");
-
-
 function startAdventure(){
+
+    const subject =
+        document.getElementById("subject").value;
+
+    localStorage.setItem(
+        "subject",
+        subject
+    );
 
     window.location.href = "game.html";
 
