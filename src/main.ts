@@ -1,3 +1,4 @@
+import "./style.css";
 import { HomeScreen } from "./ui/HomeScreen";
 
 const homeScreen = new HomeScreen();
