@@ -2,193 +2,208 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Sia's Adventure - Quiz</title>
-
+    <title>Sia's Adventure | Academy of Knowledge</title>
+    <link rel="icon" href="images/ui/star.png">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
 
+    <main class="adventure-container">
 
-<main class="adventure-container">
+        <header class="game-header">
 
-
-<header class="game-header">
-
-<h1>
-✨ Sia's Adventure ✨
-</h1>
+            <h1 class="academy-title">✨ Sia's Adventure ✨</h1>
 
 
-<div class="player-bar">
-
-<span>
-⭐ Stars: <strong id="stars">0</strong>
-</span>
+        </header>
 
 
-<span>
-🏆 Level: <strong id="level">Explorer</strong>
-</span>
+        <section class="game-stage">
 
+            <!-- ==========================
+                 Main Question Panel
+            =========================== -->
+
+            <div class="question-area">
+
+<div class="wizard-header">
+
+    <div class="character-image wizard">
+
+        <img
+            src="images/characters/wizzy.png"
+            alt="Wizzy">
+
+    </div>
+
+    <div class="wizard-message">
+
+        <div class="speech-bubble">
+
+            <h2>Wizzy's Challenge</h2>
+
+                <p id="wizzy-message">
+
+                    Welcome back, Sia!
+
+                    <br><br>
+
+                    Let's keep learning and having fun!
+
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+                <div class="question-card">
+
+                    <p id="question-text">
+                        Loading question...
+                    </p>
+
+                    <form id="answer-form" autocomplete="off">
+
+                        <div id="answers"></div>
+
+                    </form>
+
+                </div>
+
+                <div id="explanation"
+                     class="explanation hidden">
+                </div>
+
+                <div class="buttons">
+
+                    <button
+                        type="button"
+                        class="magic-button"
+                        id="submit-answer">
+                        Submit
+                    </button>
+
+                    <button
+                        type="button"
+                        class="magic-button secondary"
+                        id="dont-know">
+                        I Don't Know
+                    </button>
+                    <button
+                        type="button"
+                        class="magic-button"
+                        id="next-question">
+                        Next Question ✨
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- ==========================
+                 Hootie Hint Helper
+            =========================== -->
+
+            <aside class="hootie-helper">
+
+                <div class="hootie-image">
+
+                    <img
+                        src="images/characters/hootie.png"
+                        alt="Hootie">
+
+                </div>
+
+                <div class="hint-box">
+
+                    <span>
+                        Need a clue?<br>Click Hootie!
+                    </span>
+
+                    <p id="hint-text"></p>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+
+        <section class="player-stats">
+
+            <h3>Adventure Progress</h3>
+
+            <div class="xp-bar">
+
+                <div
+                    id="xp-progress"
+                    class="xp-progress">
+                </div>
+
+            </div>
+
+            <div class="bottom-stats">
+
+    <span>
+        ⭐ Stars:
+        <strong id="stars">0</strong>
+    </span>
+
+    <span>
+        🏆 Level:
+        <strong id="level">
+            Explorer
+        </strong>
+    </span>
 
 </div>
 
+        </section>
 
-</header>
+        <!-- Hop Celebration -->
 
-
-
-<section class="question-layout">
-
-
-<div class="question-area">
+<!-- ==========================
+     Hop Celebration
+========================== -->
 
 
-<div class="character-image wizard">
+<div id="hop-celebration">
 
-🧙‍♂️
+    <img
+        src="images/characters/hop.png"
+        alt="Hop">
 
-</div>
+    <div id="hop-message" class="hop-message">
 
+    Great job, Sia!
 
-<h2>
-Wizzy's Question
-</h2>
-
-
-<div class="question-card">
-
-
-<p id="question-text">
-
-Loading question...
-
-</p>
-
-
-<form id="answer-form">
-
-
-<div id="answers">
+    </div>
 
 </div>
+<audio id="correct-sound"></audio>
 
+<audio id="wrong-sound"></audio>
 
-</form>
+<audio id="treasure-sound"></audio>
+<footer>
 
+    Version 1.0
 
-</div>
+</footer>
+    </main>
 
 
-<div id="explanation"
-class="explanation hidden">
-
-</div>
-
-
-
-<div class="buttons">
-
-
-<button 
-class="magic-button"
-id="submit-answer">
-
-Submit
-
-</button>
-
-
-<button
-class="magic-button secondary"
-id="dont-know">
-
-I Don't Know
-
-</button>
-
-
-</div>
-
-
-</div>
-
-
-
-
-<aside class="hint-area">
-
-
-<div class="character-image owl">
-
-🦉
-
-</div>
-
-
-<h2>
-Hootie
-</h2>
-
-
-<div class="hint-box">
-
-
-Hover here for a hint
-
-
-<p id="hint-text">
-
-</p>
-
-
-</div>
-
-
-</aside>
-
-
-</section>
-
-
-
-<section>
-
-
-<h3>
-Adventure Progress
-</h3>
-
-
-<div class="xp-bar">
-
-<div 
-id="xp-progress"
-class="xp-progress">
-
-</div>
-
-</div>
-
-
-</section>
-
-
-
-</main>
-
-
-
-<script src="js/storage.js"></script>
-<script src="js/game.js"></script>
-
+    <script src="js/storage.js"></script>
+    <script src="js/levels.js"></script>
+    <script src="js/treasure.js"></script>
+    <script src="js/questionEngine.js"></script>
+    <script src="js/game.js"></script>
 
 </body>
 

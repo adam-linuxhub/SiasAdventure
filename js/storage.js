@@ -18,15 +18,25 @@ load(){
 
     return {
 
-        stars:0,
+        name:"Sia",
 
         xp:0,
 
-        level:"Explorer",
+        stars:0,
+
+        level:1,
+
+        levelName:"Explorer",
+
+        treasureChests:0,
+
+        badges:[],
 
         questionsAnswered:0,
 
-        correct:0
+        correct:0,
+
+        incorrect:0
 
     };
 

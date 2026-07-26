@@ -1,90 +1,217 @@
-let questions = [];
+/*==================================================
+  SIA'S ADVENTURE
+  game.js
+==================================================*/
 
-let currentQuestion;
-
-let player;
-
-
-
-fetch("data/questions.json")
-
-.then(response => response.json())
-
-.then(data => {
-
-    questions=data;
-
-    startGame();
-
-});
+/*==================================================
+  GAME DATA
+==================================================*/
 
 
+/*==================================================
+  WIZZY DIALOGUE
+==================================================*/
 
-function startGame(){
+const wizzyWelcomeMessages = [
 
+    "Welcome back, Sia! Ready for another adventure?",
 
-player =
-PlayerStorage.load();
+    "Let's earn another star today!",
 
+    "Every question makes you stronger.",
 
-updateStats();
+    "I know you can solve this one!",
 
+    "You're becoming a brilliant explorer!",
 
-currentQuestion =
-questions[
-Math.floor(
-Math.random()*questions.length
-)
+    "Let's see how clever you are!",
+
+    "Magic happens when we keep learning!",
+
+    "Fantastic! Here's your next challenge.",
+
+    "Believe in yourself—you've got this!",
+
+    "Let's have some fun learning together!"
+
 ];
 
 
-displayQuestion();
+const wizzyCorrectMessages = [
 
+    "Fantastic!",
+
+    "Brilliant thinking!",
+
+    "Excellent work!",
+
+    "Amazing!",
+
+    "You're becoming a real explorer!",
+
+    "Wizzy is very proud of you!",
+
+    "Another star earned!",
+
+    "Wonderful work!"
+
+];
+
+
+const wizzyIncorrectMessages = [
+
+    "Good try!",
+
+    "Every mistake helps us learn.",
+
+    "Don't worry—we'll get it next time.",
+
+    "Keep practising!",
+
+    "You're getting stronger every question.",
+
+    "Let's learn this together."
+
+];
+
+
+/*==================================================
+  HOP CELEBRATIONS
+==================================================*/
+
+const hopMessages = [
+
+    "Treasure awaits!",
+
+    "Hop is cheering for you!",
+
+    "Amazing work!",
+
+    "Another star collected!",
+
+    "Fantastic exploring!",
+
+    "You're on a roll!",
+
+    "Keep going!"
+
+];
+
+
+/*==================================================
+  START GAME
+==================================================*/
+
+fetch("questions/maths.json")
+
+    .then(response => {
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Unable to load questions."
+            );
+
+        }
+
+        return response.json();
+
+    })
+
+    .then(data => {
+
+        questions = data;
+
+        QuestionEngine.initialise(questions);
+
+        initialiseGame();
+
+    })
+
+    .catch(error => {
+
+        console.error(error);
+
+        alert(
+            "Sorry, the question bank could not be loaded."
+        );
+
+    });
+
+function initialiseGame() {
+
+    player = PlayerStorage.load();
+
+    updateStats();
+
+    loadRandomQuestion();
 
 }
 
 
+/*==================================================
+  LOAD QUESTION
+==================================================*/
 
-function displayQuestion(){
+function loadRandomQuestion() {
 
+    if (questions.length === 0) {
 
-document
-.getElementById(
-"question-text"
-)
-.textContent =
-currentQuestion.question;
+    alert("No questions available.");
 
+    return;
 
+}
 
-const answers =
-document.getElementById(
-"answers"
-);
+    currentQuestion =
+        QuestionEngine.getRandomQuestion(
+            player,
+            questions
+        );
+    displayQuestion();
 
+}
 
+/*==================================================
+  DISPLAY QUESTION
+==================================================*/
 
-answers.innerHTML="";
+function displayQuestion() {
 
+    hideExplanation();
 
+    clearAnswerSelection();
+document.getElementById("submit-answer").style.display = "inline-block";
+document.getElementById("dont-know").style.display = "inline-block";
 
-currentQuestion.answers.forEach(
-(answer,index)=>{
+document.getElementById("submit-answer").disabled = false;
+document.getElementById("dont-know").disabled = false;
 
+document.getElementById("next-question").style.display = "none";
 
-const label =
-document.createElement(
-"label"
-);
+    showRandomWizzyMessage();
+ 
+    document.getElementById("question-text").textContent =
+        currentQuestion.question;
 
+    document.getElementById("hint-text").textContent =
+        currentQuestion.hint;
 
-label.className =
-"answer-option";
+    const answers =
+        document.getElementById("answers");
 
+    answers.innerHTML = "";
+
+    currentQuestion.answers.forEach((answer, index) => {
+
+        const label =
+            document.createElement("label");
+
+        label.className = "answer-option";
 
 label.innerHTML = `
 
-<input 
+<input
 type="radio"
 name="answer"
 value="${index}">
@@ -93,214 +220,503 @@ ${answer}
 
 `;
 
+    label.querySelector("input").addEventListener("change", () => {
 
+        document
+            .querySelectorAll(".answer-option")
+            .forEach(option =>
+                option.classList.remove("selected")
+            );
 
-answers.appendChild(label);
+        label.classList.add("selected");
 
+    });
 
-});
+    answers.appendChild(label);
 
+    });
 
+}
+
+/*==================================================
+  ANSWER CHECKING
+==================================================*/
+
+function checkAnswer(selectedAnswer) {
+
+    levelUp = false;
+
+    const explanation =
+        document.getElementById("explanation");
+
+    const answerOptions =
+        document.querySelectorAll(".answer-option");
+
+    // Prevent answering twice
+    answerOptions.forEach(option => {
+
+        option.style.pointerEvents = "none";
+
+    });
+
+    document.getElementById("submit-answer").style.display = "none";
+    document.getElementById("dont-know").style.display = "none";
+
+    document.getElementById("next-question").style.display = "inline-block";
+
+    // Highlight answers
+    answerOptions.forEach((option, index) => {
+
+        if (index === currentQuestion.correct) {
+
+            option.classList.add("correct");
+
+        }
+
+        if (
+            index === selectedAnswer &&
+            selectedAnswer !== currentQuestion.correct
+        ) {
+
+            option.classList.add("incorrect");
+
+        }
+
+    });
+
+    player.questionsAnswered++;
+
+    if (selectedAnswer === currentQuestion.correct) {
+
+        player.correct++;
+
+        player.xp += currentQuestion.xp ?? 10;
+
+        player.stars += 5;
+
+        levelUp = Levels.checkLevel(player);
+
+        showHop();
+
+    }
+    else {
+
+        showIncorrectExplanation();
+
+    }
+
+    PlayerStorage.save(player);
+
+    updateStats();
+
+    if (levelUp) {
+
+        showLevelUp();
+
+    }
+    else if (selectedAnswer === currentQuestion.correct) {
+
+        showCorrectExplanation();
+
+    }
+
+    explanation.classList.remove("hidden");
+
+    document.getElementById("next-question").style.display =
+        "inline-block";
+
+}
+
+/*==================================================
+  EVENT HANDLERS
+==================================================*/
 
 document
-.getElementById(
-"hint-text"
-)
-.textContent =
-currentQuestion.hint;
-
-
-}
-
-
+    .getElementById("submit-answer")
+    .addEventListener("click", submitAnswer);
 
 document
-.getElementById(
-"submit-answer"
-)
-.onclick =
-function(){
+    .getElementById("dont-know")
+    .addEventListener("click", dontKnow);
+
+document
+    .getElementById("next-question")
+    .addEventListener("click", nextQuestion);
 
 
-const selected =
-document.querySelector(
-"input[name='answer']:checked"
-);
+/*==================================================
+  SUBMIT ANSWER
+==================================================*/
 
+function submitAnswer() {
 
+    const selected =
+        document.querySelector(
+            "input[name='answer']:checked"
+        );
 
-if(!selected){
+    if (!selected) {
 
-alert(
-"Choose an answer first!"
-);
+        alert("Choose an answer first!");
 
-return;
+        return;
 
-}
+    }
 
-
-checkAnswer(
-Number(selected.value)
-);
-
-
-};
-
-
-
-function checkAnswer(answer){
-
-
-const explanation =
-document.getElementById(
-"explanation"
-);
-
-
-
-if(answer === currentQuestion.correct){
-
-
-player.correct++;
-
-player.xp +=10;
-
-player.stars +=5;
-
-
-explanation.innerHTML =
-`
-🧙 Wizzy says:
-
-Fantastic Sia! ⭐
-
-${currentQuestion.explanation}
-
-`;
-
-
+    checkAnswer(Number(selected.value));
 
 }
-else{
 
+/*==================================================
+  I DON'T KNOW
+==================================================*/
 
-explanation.innerHTML =
-`
-🧙 Wizzy says:
+function dontKnow() {
 
-Good try!
+    player.questionsAnswered++;
+
+    PlayerStorage.save(player);
+
+    updateStats();
+
+    const explanation =
+        document.getElementById("explanation");
+
+    explanation.innerHTML = `
+
+<h3>🧙 Wizzy says...</h3>
+
+<p>
+
+That's perfectly okay!
+
+Every great wizard learns by practising.
+
+</p>
+
+<p>
 
 The correct answer was:
 
-${currentQuestion.answers[currentQuestion.correct]}
+<strong>${currentQuestion.answers[currentQuestion.correct]}</strong>
 
-<br><br>
+</p>
+
+<p>
 
 ${currentQuestion.explanation}
 
+</p>
+
 `;
 
+    explanation.classList.remove("hidden");
 
+ document.getElementById("submit-answer").style.display = "none";
+document.getElementById("dont-know").style.display = "none";
+
+document.getElementById("next-question").style.display = "inline-block";
+}
+
+/*==================================================
+  NEXT QUESTION
+==================================================*/
+
+function nextQuestion() {
+
+    hideExplanation();
+    loadRandomQuestion();
 
 }
 
+/*==================================================
+  CORRECT ANSWER
+==================================================*/
 
+function showCorrectExplanation() {
 
-player.questionsAnswered++;
+    const explanation =
+        document.getElementById("explanation");
 
+    const message =
+        wizzyCorrectMessages[
+            Math.floor(
+                Math.random() *
+                wizzyCorrectMessages.length
+            )
+        ];
 
-PlayerStorage.save(player);
+    explanation.innerHTML = `
 
+<h3>🧙 Wizzy says...</h3>
 
-updateStats();
+<p><strong>${message}</strong></p>
 
-
-explanation.classList.remove(
-"hidden"
-);
-
-
-
-};
-
-
-
-document
-.getElementById(
-"dont-know"
-)
-.onclick =
-function(){
-
-
-const explanation =
-document.getElementById(
-"explanation"
-);
-
-
-explanation.innerHTML =
-`
-🧙 Wizzy says:
-
-That's okay Sia!
-
-Every wizard learns by practising.
-
-<br><br>
-
-The answer is:
-
-${currentQuestion.answers[currentQuestion.correct]}
-
-<br><br>
+<p>
 
 ${currentQuestion.explanation}
 
+</p>
+
 `;
 
+}
 
+/*==================================================
+  INCORRECT ANSWER
+==================================================*/
 
-explanation.classList.remove(
-"hidden"
-);
+function showIncorrectExplanation() {
 
+    const explanation =
+        document.getElementById("explanation");
 
-};
+    const message =
+        wizzyIncorrectMessages[
+            Math.floor(
+                Math.random() *
+                wizzyIncorrectMessages.length
+            )
+        ];
 
+    explanation.innerHTML = `
 
+<h3>🧙 Wizzy says...</h3>
 
-function updateStats(){
+<p><strong>${message}</strong></p>
 
+<p>
 
-document
-.getElementById(
-"stars"
-)
-.textContent =
-player.stars;
+The correct answer was:
 
+<strong>${currentQuestion.answers[currentQuestion.correct]}</strong>
 
+</p>
 
-document
-.getElementById(
-"level"
-)
-.textContent =
-player.level;
+<p>
 
+${currentQuestion.explanation}
 
+</p>
 
-document
-.getElementById(
-"xp-progress"
-)
-.style.width =
-Math.min(
-player.xp,
-100
-)+"%";
+`;
 
+}
+
+/*==================================================
+  HOP CELEBRATION
+==================================================*/
+
+function showHop() {
+
+    const hop =
+        document.getElementById("hop-celebration");
+
+    const hopMessage =
+        document.getElementById("hop-message");
+
+    if (hopMessage) {
+
+        hopMessage.textContent =
+            hopMessages[
+                Math.floor(
+                    Math.random() *
+                    hopMessages.length
+                )
+            ];
+
+    }
+
+    hop.style.display = "block";
+
+    setTimeout(() => {
+
+        hop.style.display = "none";
+
+    }, 2500);
+
+}
+
+/*==================================================
+  LEVEL UP
+==================================================*/
+
+function showLevelUp() {
+
+    const reward =
+        Treasure.open(player);
+
+    const explanation =
+        document.getElementById("explanation");
+
+    explanation.innerHTML = `
+
+<h2>🎁 Magical Treasure Chest!</h2>
+
+<p>
+
+🧙 Amazing, Sia!
+
+</p>
+
+<p>
+
+⭐ You reached Level ${player.level}
+
+<br>
+
+${player.levelName}
+
+</p>
+
+<p>
+
+🐇 Hop opened the treasure chest!
+
+</p>
+
+<p>
+
+🎁 ${reward.item}
+
+</p>
+
+<p>
+
+🏆 ${reward.badge}
+
+</p>
+
+<p>
+
+⭐ +50 Stars!
+
+</p>
+
+`;
+
+}
+
+/*==================================================
+  HIDE EXPLANATION
+==================================================*/
+
+function hideExplanation() {
+
+    document
+        .getElementById("explanation")
+        .classList.add("hidden");
+
+    document
+        .getElementById("next-question")
+        .style.display = "none";
+
+}
+
+/*==================================================
+  CLEAR ANSWERS
+==================================================*/
+
+function clearAnswerSelection() {
+
+    document
+        .querySelectorAll(".answer-option")
+        .forEach(option => {
+
+            option.classList.remove(
+                "correct",
+                "incorrect",
+                "selected"
+            );
+
+            option.style.pointerEvents = "auto";
+
+        });
+
+}
+
+/*==================================================
+  UPDATE PLAYER STATS
+==================================================*/
+
+function updateStats() {
+
+    document.getElementById("stars").textContent =
+        player.stars;
+
+    document.getElementById("level").textContent =
+        `${player.level} ${player.levelName}`;
+
+    document.getElementById("xp-progress").style.width =
+        `${Math.min(player.xp, 100)}%`;
+
+}
+
+/*==================================================
+  RANDOM WIZZY MESSAGE
+==================================================*/
+
+function showRandomWizzyMessage() {
+
+    const message =
+        wizzyWelcomeMessages[
+            Math.floor(
+                Math.random() *
+                wizzyWelcomeMessages.length
+            )
+        ];
+
+    typeWizzyMessage(message);
+
+}
+
+/*==================================================
+  TYPEWRITER EFFECT
+==================================================*/
+
+/*==================================================
+  TYPEWRITER EFFECT
+==================================================*/
+
+let wizzyTimer = null;
+
+function typeWizzyMessage(text) {
+
+    const element =
+        document.getElementById("wizzy-message");
+
+    if (!element) {
+
+        return;
+
+    }
+
+    if (wizzyTimer) {
+
+        clearInterval(wizzyTimer);
+
+    }
+
+    element.textContent = "";
+
+    let index = 0;
+
+    wizzyTimer = setInterval(() => {
+
+        if (index >= text.length) {
+
+            clearInterval(wizzyTimer);
+
+            wizzyTimer = null;
+
+            return;
+
+        }
+
+        element.textContent += text[index];
+
+        index++;
+
+    }, 28);
 
 }

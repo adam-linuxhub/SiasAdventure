@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/ui/star.png">
 </head>
 
 
@@ -18,12 +19,16 @@
 
         <header class="game-header">
 
-            <h1>
+            <h1 class="academy-title">
                 ✨ Sia's Adventure ✨
             </h1>
 
-            <p>
-                Your magical 11+ learning adventure begins!
+            <p class="academy-subtitle">
+                Academy of Knowledge
+            </p>
+
+            <p class="academy-description">
+                Your magical journey of learning, discovery and achievement begins.
             </p>
 
         </header>
@@ -35,7 +40,9 @@
             <div class="character-card">
 
                 <div class="character-image wizard">
-                    🧙‍♂️
+                    <img
+                        src="images/characters/wizzy.png"
+                        alt="Wizzy">
                 </div>
 
                 <h2>Wizzy</h2>
@@ -51,7 +58,9 @@
             <div class="character-card">
 
                 <div class="character-image owl">
-                    🦉
+                    <img
+                        src="images/characters/hootie.png"
+                        alt="Hootie">
                 </div>
 
                 <h2>Hootie</h2>
@@ -67,7 +76,9 @@
             <div class="character-card">
 
                 <div class="character-image rabbit">
-                    🐇
+                    <img
+                        src="images/characters/hop.png"
+                        alt="Hop">
                 </div>
 
                 <h2>Hop</h2>
@@ -90,7 +101,7 @@
             </h2>
 
 
-            <button class="magic-button"
+            <button type="button" class="magic-button"
                 onclick="startAdventure()">
 
                 ▶ Start Adventure
@@ -99,7 +110,7 @@
 
 
 
-            <button class="magic-button secondary"
+            <button type="button" class="magic-button secondary"
                 onclick="continueAdventure()">
 
                 ⭐ Continue Adventure
@@ -108,7 +119,7 @@
 
 
 
-            <button class="magic-button secondary"
+            <button type="button" class="magic-button secondary"
                 onclick="openDashboard()">
 
                 📈 My Progress
@@ -128,9 +139,11 @@
             </h3>
 
 
-            <div class="level">
+            <div
+                class="level"
+                id="current-level">
 
-                Level 1
+                Loading...
 
             </div>
 
@@ -143,12 +156,26 @@
 
 
             <p>
-                ⭐ Stars: 0
+
+            ⭐ Stars:
+            <strong id="stars">
+
+            0
+
+            </strong>
+
             </p>
 
 
             <p>
-                🎁 Treasure Chests: 0
+
+            🎁 Treasure Chests:
+            <strong id="treasure-count">
+
+            0
+
+            </strong>
+
             </p>
 
 

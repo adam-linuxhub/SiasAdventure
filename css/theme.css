@@ -1,20 +1,35 @@
 :root {
 
-    /* Magical sky theme */
+    /* Magical Sky Academy */
 
-    --sky-top: #8ED8FF;
-    --sky-bottom: #DFF6FF;
+    --sky-dark: #062B62;
 
-    --magic-blue: #4FA3E3;
+    --sky-blue: #1565C0;
 
-    --purple: #8064D9;
+    --sky-light: #90CAF9;
+
+
+    --magic-blue: #42A5F5;
+
+    --royal-purple: #5E35B1;
 
     --gold: #FFD54F;
 
-    --white: #FFFFFF;
+    --gold-dark: #D4A017;
 
-    --shadow: rgba(0,0,0,0.15);
 
-    --cloud: rgba(255,255,255,0.75);
+    --paper: rgba(255,255,255,0.92);
+
+    --glass:
+        rgba(255,255,255,0.15);
+
+
+    --text-dark:#263238;
+
+    --white:#FFFFFF;
+
+
+    --shadow:
+        rgba(0,0,0,0.25);
 
 }
