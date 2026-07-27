@@ -1,0 +1,658 @@
+/*==================================================
+    SIA'S ADVENTURE
+    START SCREEN
+==================================================*/
+
+
+/*==================================================
+    PAGE
+==================================================*/
+
+body {
+
+    overflow: hidden;
+    color: white;
+}
+
+.adventure-container {
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 24px 24px 80px;
+
+    position: relative;
+
+    box-sizing: border-box;
+}
+
+
+/*==================================================
+    TYPOGRAPHY
+==================================================*/
+
+h1,
+h2,
+h3,
+p {
+
+    color: white;
+
+    text-shadow:
+        0 2px 8px rgba(0,0,0,.85);
+}
+
+.academy-title {
+
+    margin: 0;
+
+    font-size: clamp(3rem,5vw,4.8rem);
+
+    text-align: center;
+
+    letter-spacing: 1px;
+}
+
+.academy-subtitle {
+
+    margin-top: 6px;
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    font-size: 1.35rem;
+
+    color: #ffe36e;
+}
+
+
+/*==================================================
+    STORY PANEL
+==================================================*/
+
+.story-panel {
+
+    width: min(700px,90%);
+
+    padding: 20px 28px;
+
+    margin-bottom: 16px;
+
+    border-radius: 22px;
+
+    background:
+        rgba(18,30,70,.55);
+
+    border:
+
+        1px solid rgba(255,230,120,.45);
+
+    backdrop-filter:
+
+        blur(12px);
+
+    box-shadow:
+
+        0 12px 40px rgba(0,0,0,.35),
+
+        inset 0 1px rgba(255,255,255,.15);
+}
+
+.story-panel h2 {
+
+    margin-top: 0;
+
+    color: #ffe36e;
+}
+
+.story-panel p {
+
+    line-height: 1.6;
+}
+
+.story-panel strong {
+
+    color: #ffd84d;
+}
+
+
+/*==================================================
+    CHARACTERS
+==================================================*/
+
+.characters {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-end;
+
+    gap: 60px;
+
+    margin: 8px 0;
+}
+
+.character-card {
+
+    position: relative;
+}
+
+.character-card img {
+
+    display: block;
+
+    transition:
+
+        transform .25s ease,
+
+        filter .25s ease;
+
+    cursor: pointer;
+
+    user-select: none;
+}
+
+.character-card:first-child img {
+
+    width: 150px;
+}
+
+.wizzy-card img {
+
+    width: 200px;
+}
+
+.character-card:last-child img {
+
+    width: 150px;
+}
+
+
+/*==================================================
+    HOVER
+==================================================*/
+
+.character-card:hover img {
+
+    transform:
+
+        translateY(-10px)
+
+        scale(1.05);
+
+    filter:
+
+        drop-shadow(0 0 18px rgba(255,225,120,.95))
+
+        drop-shadow(0 0 32px rgba(120,180,255,.65));
+}
+
+
+/*==================================================
+    BUTTON
+==================================================*/
+
+.button-panel {
+
+    margin-top: 8px;
+
+    display: flex;
+
+    justify-content: center;
+}
+
+
+/*==================================================
+    FOOTER
+==================================================*/
+
+.start-footer {
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    bottom: 12px;
+
+    text-align: center;
+
+    font-size: .85rem;
+
+    color: rgba(255,255,255,.7);
+
+    text-shadow:
+
+        0 2px 6px rgba(0,0,0,.8);
+}
+
+/*==================================================
+    MAGICAL SPEECH BUBBLE
+==================================================*/
+
+.speech-bubble {
+
+    position: absolute;
+
+    display: none;
+
+    width: 240px;
+
+    padding: 14px 18px;
+
+    border-radius: 18px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(58,88,170,.98),
+            rgba(22,38,88,.98)
+        );
+
+    border: 2px solid #ffd84d;
+
+    color: white;
+
+    text-align: center;
+
+    line-height: 1.45;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+
+        0 0 14px rgba(255,220,120,.45),
+
+        0 0 28px rgba(110,180,255,.35),
+
+        0 14px 28px rgba(0,0,0,.45);
+
+    pointer-events: none;
+
+    z-index: 1000;
+
+    animation:
+
+        bubblePop .22s ease;
+}
+
+.speech-name {
+
+    margin-bottom: 6px;
+
+    color: #ffe36e;
+
+    font-size: 1.1rem;
+
+    font-weight: bold;
+}
+
+.speech-bubble::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: -18px;
+
+    transform: translateX(-50%);
+
+    border: 10px solid transparent;
+
+    border-top-color: #ffd84d;
+}
+
+/*==================================================
+    CHARACTER FLOATING
+==================================================*/
+
+.character-card img {
+
+    animation:
+
+        float 4s ease-in-out infinite;
+}
+
+.character-card:first-child img {
+
+    animation-duration: 3.8s;
+}
+
+.wizzy-card img {
+
+    animation-duration: 4.6s;
+}
+
+.character-card:last-child img {
+
+    animation-duration: 4.2s;
+}
+
+/*==================================================
+    MAGIC SPARKLES
+==================================================*/
+
+.sparkle {
+
+    position: absolute;
+
+    width: 8px;
+
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #fff6b0;
+
+    pointer-events: none;
+
+    box-shadow:
+
+        0 0 8px #fff8aa,
+
+        0 0 18px #ffd84d,
+
+        0 0 26px #80c8ff;
+
+    animation:
+
+        sparkle 900ms ease-out forwards;
+}
+
+/*==================================================
+    BUBBLE POP
+==================================================*/
+
+@keyframes bubblePop {
+
+    0% {
+
+        opacity: 0;
+
+        transform:
+
+            scale(.75);
+    }
+
+    70% {
+
+        transform:
+
+            scale(1.08);
+    }
+
+    100% {
+
+        opacity: 1;
+
+        transform:
+
+            scale(1);
+    }
+}
+
+/*==================================================
+    FLOATING
+==================================================*/
+
+@keyframes float {
+
+    0%,
+    100% {
+
+        transform:
+
+            translateY(0);
+    }
+
+    50% {
+
+        transform:
+
+            translateY(-8px);
+    }
+}
+
+/*==================================================
+    SPARKLE
+==================================================*/
+
+@keyframes sparkle {
+
+    from {
+
+        opacity: 1;
+
+        transform:
+
+            translateY(0)
+
+            scale(.4);
+    }
+
+    to {
+
+        opacity: 0;
+
+        transform:
+
+            translateY(-35px)
+
+            scale(1.4);
+    }
+}
+
+/*==================================================
+    MAGICAL GLOW
+==================================================*/
+
+.character-card::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    width: 140px;
+    height: 140px;
+
+    transform:
+        translate(-50%, -50%);
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            rgba(255,230,120,.35),
+            rgba(120,180,255,.15),
+            transparent 70%
+        );
+
+    opacity: 0;
+
+    transition: opacity .3s ease;
+
+    pointer-events: none;
+
+    z-index: -1;
+}
+
+.character-card:hover::after {
+
+    opacity: 1;
+
+    animation:
+
+        glowPulse 2s ease-in-out infinite;
+}
+
+
+/*==================================================
+    BUTTON
+==================================================*/
+
+.magic-button{
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.magic-button:hover{
+
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+
+        0 0 18px rgba(255,220,120,.55);
+}
+
+
+/*==================================================
+    RESPONSIVE
+==================================================*/
+
+@media (max-width:900px){
+
+    .characters{
+
+        gap:35px;
+    }
+
+    .wizzy-card img{
+
+        width:180px;
+    }
+
+    .character-card:first-child img,
+    .character-card:last-child img{
+
+        width:135px;
+    }
+}
+
+@media (max-width:650px){
+
+    .academy-title{
+
+        font-size:2.7rem;
+    }
+
+    .academy-subtitle{
+
+        font-size:1.1rem;
+    }
+
+    .story-panel{
+
+        width:95%;
+
+        padding:16px 20px;
+    }
+
+    .characters{
+
+        gap:16px;
+    }
+
+    .wizzy-card img{
+
+        width:150px;
+    }
+
+    .character-card:first-child img,
+    .character-card:last-child img{
+
+        width:110px;
+    }
+
+    .speech-bubble{
+
+        width:190px;
+    }
+
+}
+
+
+/*==================================================
+    ANIMATIONS
+==================================================*/
+
+@keyframes glowPulse{
+
+    0%,
+    100%{
+
+        transform:
+            translate(-50%,-50%)
+            scale(.95);
+
+        opacity:.55;
+    }
+
+    50%{
+
+        transform:
+            translate(-50%,-50%)
+            scale(1.15);
+
+        opacity:1;
+    }
+}
+
+/*==================================================
+    STARS
+==================================================*/
+
+#stars {
+
+    position: absolute;
+
+    inset: 0;
+
+    overflow: hidden;
+
+    pointer-events: none;
+
+    z-index: 0;
+}
+
+.star {
+
+    position: absolute;
+
+    width: 3px;
+
+    height: 3px;
+
+    border-radius: 50%;
+
+    background: white;
+
+    opacity: .3;
+
+    animation: twinkle linear infinite;
+}
+
+@keyframes twinkle {
+
+    0%,100% {
+
+        opacity: .2;
+    }
+
+    50% {
+
+        opacity: 1;
+    }
+}
