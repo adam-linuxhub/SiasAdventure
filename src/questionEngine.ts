@@ -2,9 +2,11 @@ import type { Player } from "./types";
 
 export interface Question {
   question: string;
+  hint: string;
   answers: string[];
   correct: number;
-  explanation?: string;
+  explanation: string;
+  xp?: number;
 }
 
 export const QuestionEngine = {

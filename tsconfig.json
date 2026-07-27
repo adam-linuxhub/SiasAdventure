@@ -9,7 +9,6 @@
     "checkJs": false
   },
   "include": [
-    "js/**/*.ts",
-    "js/**/*.js"
+    "src/**/*.ts"
   ]
 }

@@ -1,4 +1,4 @@
-import type { Player } from "./storage";
+import type { Player } from "./types";
 
 interface Level {
   level: number;

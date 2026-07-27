@@ -94,6 +94,26 @@ const hopMessages = [
 
 ];
 
+function byId<T extends HTMLElement>(id: string): T {
+  const element = document.getElementById(id);
+
+  if (!element) {
+    throw new Error(`Missing element: ${id}`);
+  }
+
+  return element as T;
+}
+
+function bySelector<T extends Element>(selector: string): T {
+  const element = document.querySelector(selector);
+
+  if (!element) {
+    throw new Error(`Missing element: ${selector}`);
+  }
+
+  return element as T;
+}
+
 /*==================================================
   START GAME
 ==================================================*/
@@ -176,76 +196,68 @@ function displayQuestion() {
     hideExplanation();
 
     clearAnswerSelection();
-document.getElementById("submit-answer").style.display = "inline-block";
-document.getElementById("dont-know").style.display = "inline-block";
+byId<HTMLButtonElement>("submit-answer").style.display = "inline-block";
+byId<HTMLButtonElement>("dont-know").style.display = "inline-block";
 
-document.getElementById("submit-answer").disabled = false;
-document.getElementById("dont-know").disabled = false;
+byId<HTMLButtonElement>("submit-answer").disabled = false;
+byId<HTMLButtonElement>("dont-know").disabled = false;
 
-document.getElementById("next-question").style.display = "none";
+byId<HTMLButtonElement>("next-question").style.display = "none";
 
     showRandomWizzyMessage();
  
-    document.getElementById("question-text").textContent =
+    byId<HTMLElement>("question-text").textContent =
         currentQuestion.question;
 
-    document.getElementById("hint-text").textContent =
+    byId<HTMLElement>("hint-text").textContent =
         currentQuestion.hint;
 
-    const answers =
-        document.getElementById("answers");
+    const answers = byId<HTMLDivElement>("answers");
 
     answers.innerHTML = "";
 
-    currentQuestion.answers.forEach((answer, index) => {
+ currentQuestion.answers.forEach((answer, index) => {
+    const label = document.createElement("label");
 
-        const label =
-            document.createElement("label");
+    label.className = "answer-option";
 
-        label.className = "answer-option";
-
-label.innerHTML = `
-
+    label.innerHTML = `
 <input
 type="radio"
 name="answer"
 value="${index}">
-
 ${answer}
-
 `;
 
-    label.querySelector("input").addEventListener("change", () => {
+    label
+        .querySelector<HTMLInputElement>("input")!
+        .addEventListener("change", () => {
+            document
+                .querySelectorAll<HTMLElement>(".answer-option")
+                .forEach(option => {
+                    option.classList.remove("selected");
+                });
 
-        document
-            .querySelectorAll(".answer-option")
-            .forEach(option =>
-                option.classList.remove("selected")
-            );
-
-        label.classList.add("selected");
-
-    });
+            label.classList.add("selected");
+        });
 
     answers.appendChild(label);
-
-    });
-
+});
 }
 
 /*==================================================
   ANSWER CHECKING
 ==================================================*/
 
-function checkAnswer(selectedAnswer) {
+function checkAnswer(selectedAnswer: number): void {
 
     levelUp = false;
 
     const explanation =
-        document.getElementById("explanation");
+        byId<HTMLDivElement>("explanation");
 
     const answerOptions =
-        document.querySelectorAll(".answer-option");
+    document.querySelectorAll<HTMLElement>(".answer-option");
 
     // Prevent answering twice
     answerOptions.forEach(option => {
@@ -254,10 +266,10 @@ function checkAnswer(selectedAnswer) {
 
     });
 
-    document.getElementById("submit-answer").style.display = "none";
-    document.getElementById("dont-know").style.display = "none";
+    byId<HTMLButtonElement>("submit-answer").style.display = "none";
+    byId<HTMLButtonElement>("dont-know").style.display = "none";
 
-    document.getElementById("next-question").style.display = "inline-block";
+    byId<HTMLButtonElement>("next-question").style.display = "inline-block";
 
     // Highlight answers
     answerOptions.forEach((option, index) => {
@@ -317,7 +329,7 @@ function checkAnswer(selectedAnswer) {
 
     explanation.classList.remove("hidden");
 
-    document.getElementById("next-question").style.display =
+    byId<HTMLButtonElement>("next-question").style.display =
         "inline-block";
 
 }
@@ -326,16 +338,13 @@ function checkAnswer(selectedAnswer) {
   EVENT HANDLERS
 ==================================================*/
 
-document
-    .getElementById("submit-answer")
+byId<HTMLButtonElement>("submit-answer")
     .addEventListener("click", submitAnswer);
 
-document
-    .getElementById("dont-know")
+byId<HTMLButtonElement>("dont-know")
     .addEventListener("click", dontKnow);
 
-document
-    .getElementById("next-question")
+byId<HTMLButtonElement>("next-question")
     .addEventListener("click", nextQuestion);
 
 
@@ -346,9 +355,9 @@ document
 function submitAnswer() {
 
     const selected =
-        document.querySelector(
-            "input[name='answer']:checked"
-        );
+    document.querySelector<HTMLInputElement>(
+        "input[name='answer']:checked"
+    );
 
     if (!selected) {
 
@@ -375,7 +384,7 @@ function dontKnow() {
     updateStats();
 
     const explanation =
-        document.getElementById("explanation");
+        byId<HTMLDivElement>("explanation");
 
     explanation.innerHTML = `
 
@@ -407,10 +416,10 @@ ${currentQuestion.explanation}
 
     explanation.classList.remove("hidden");
 
- document.getElementById("submit-answer").style.display = "none";
-document.getElementById("dont-know").style.display = "none";
+ byId<HTMLButtonElement>("submit-answer").style.display = "none";
+byId<HTMLButtonElement>("dont-know").style.display = "none";
 
-document.getElementById("next-question").style.display = "inline-block";
+byId<HTMLButtonElement>("next-question").style.display = "inline-block";
 }
 
 /*==================================================
@@ -431,7 +440,7 @@ function nextQuestion() {
 function showCorrectExplanation() {
 
     const explanation =
-        document.getElementById("explanation");
+        byId<HTMLDivElement>("explanation");
 
     const message =
         wizzyCorrectMessages[
@@ -464,7 +473,7 @@ ${currentQuestion.explanation}
 function showIncorrectExplanation() {
 
     const explanation =
-        document.getElementById("explanation");
+        byId<HTMLDivElement>("explanation");
 
     const message =
         wizzyIncorrectMessages[
@@ -505,10 +514,10 @@ ${currentQuestion.explanation}
 function showHop() {
 
     const hop =
-        document.getElementById("hop-celebration");
+        byId<HTMLDivElement>("hop-celebration");
 
     const hopMessage =
-        document.getElementById("hop-message");
+        byId<HTMLElement>("hop-message");
 
     if (hopMessage) {
 
@@ -542,7 +551,7 @@ function showLevelUp() {
         Treasure.open(player);
 
     const explanation =
-        document.getElementById("explanation");
+        byId<HTMLDivElement>("explanation");
 
     explanation.innerHTML = `
 
@@ -598,12 +607,10 @@ ${player.levelName}
 
 function hideExplanation() {
 
-    document
-        .getElementById("explanation")
+    byId<HTMLDivElement>("explanation")
         .classList.add("hidden");
 
-    document
-        .getElementById("next-question")
+    byId<HTMLButtonElement>("next-question")
         .style.display = "none";
 
 }
@@ -615,8 +622,8 @@ function hideExplanation() {
 function clearAnswerSelection() {
 
     document
-        .querySelectorAll(".answer-option")
-        .forEach(option => {
+    .querySelectorAll<HTMLElement>(".answer-option")
+    .forEach(option => {
 
             option.classList.remove(
                 "correct",
@@ -636,13 +643,13 @@ function clearAnswerSelection() {
 
 function updateStats() {
 
-    document.getElementById("stars").textContent =
-        player.stars;
+    byId<HTMLElement>("stars").textContent =
+    player.stars.toString();
 
-    document.getElementById("level").textContent =
+    byId<HTMLElement>("level").textContent =
         `${player.level} ${player.levelName}`;
 
-    document.getElementById("xp-progress").style.width =
+    byId<HTMLElement>("xp-progress").style.width =
         `${Math.min(player.xp, 100)}%`;
 
 }
@@ -673,12 +680,12 @@ function showRandomWizzyMessage() {
   TYPEWRITER EFFECT
 ==================================================*/
 
-let wizzyTimer = null;
+let wizzyTimer: ReturnType<typeof setInterval> | null = null;
 
-function typeWizzyMessage(text) {
+function typeWizzyMessage(text: string): void {
 
     const element =
-        document.getElementById("wizzy-message");
+        byId<HTMLElement>("wizzy-message");
 
     if (!element) {
 
@@ -686,11 +693,9 @@ function typeWizzyMessage(text) {
 
     }
 
-    if (wizzyTimer) {
-
-        clearInterval(wizzyTimer);
-
-    }
+    if (wizzyTimer !== null) {
+    clearInterval(wizzyTimer!);
+}
 
     element.textContent = "";
 
@@ -700,7 +705,7 @@ function typeWizzyMessage(text) {
 
         if (index >= text.length) {
 
-            clearInterval(wizzyTimer);
+            clearInterval(wizzyTimer!);
 
             wizzyTimer = null;
 
