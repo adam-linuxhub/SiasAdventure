@@ -1,0 +1,904 @@
+/*==================================================
+  SIA'S ADVENTURE
+  games.css
+==================================================*/
+
+
+/*==================================================
+  RESET
+==================================================*/
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+/*==================================================
+  PAGE
+==================================================*/
+
+body{
+
+    position:relative;
+
+    font-family:
+        "Nunito",
+        Arial,
+        sans-serif;
+
+    background:
+        url("../images/backgrounds/academy.jpg")
+        center center
+        fixed;
+
+    background-size:cover;
+
+}
+
+body::after{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+        rgba(5,40,95,.35);
+
+    z-index:-1;
+
+}
+
+
+/*==================================================
+  PAGE LAYOUT
+==================================================*/
+
+.adventure-container{
+
+    width:min(1280px,95vw);
+
+    min-height:100vh;
+
+    margin:auto;
+
+    padding:20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+/*==================================================
+  HEADER
+==================================================*/
+
+.game-header{
+
+    text-align:center;
+
+    margin-bottom:15px;
+
+}
+
+.academy-title{
+
+    font-size:3.5rem;
+
+    color:white;
+
+    text-shadow:
+        0 0 15px #64B5F6,
+        3px 3px 8px rgba(0,0,0,.45);
+
+}
+
+
+/*==================================================
+  GAME STAGE
+==================================================*/
+
+.game-stage{
+
+    position:relative;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+}
+
+
+/*==================================================
+  MAIN PANEL
+==================================================*/
+
+.question-area{
+
+    width:100%;
+
+    max-width:850px;
+
+    background:white;
+
+    border-radius:35px;
+
+    padding:25px 30px;
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.22);
+
+}
+
+/*==================================================
+  WIZZY
+==================================================*/
+
+.wizard-header{
+
+    display:grid;
+
+    grid-template-columns:140px 1fr;
+
+    align-items:center;
+
+    column-gap:24px;
+
+    margin-bottom:18px;
+
+}
+
+.character-image.wizard{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.character-image.wizard img{
+
+    width:125px;
+
+    height:auto;
+
+    display:block;
+
+    animation:
+        wizzyFloat 4s ease-in-out infinite;
+
+}
+
+
+/*==================================================
+  WIZZY MESSAGE
+==================================================*/
+
+.wizard-message{
+
+    width:100%;
+
+}
+
+
+/*==================================================
+  SPEECH BUBBLE
+==================================================*/
+
+.speech-bubble{
+
+    position:relative;
+
+    width:100%;
+
+    padding:18px 22px;
+
+    background:#EEF4FF;
+
+    border-radius:22px;
+
+    box-shadow:
+        0 8px 24px rgba(0,0,0,.08);
+
+}
+
+.speech-bubble::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:-18px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    border-top:18px solid transparent;
+
+    border-bottom:18px solid transparent;
+
+    border-right:18px solid #EEF4FF;
+
+}
+
+.speech-bubble h2{
+
+    margin-bottom:8px;
+
+    font-size:2rem;
+
+    color:#1F2D5C;
+
+}
+
+.speech-bubble p{
+
+    font-size:1.2rem;
+
+    line-height:1.5;
+
+    color:#333;
+
+}
+
+
+/*==================================================
+  QUESTION
+==================================================*/
+
+.question-card{
+
+    margin-top:10px;
+
+    padding:22px;
+
+    border:1px solid #E3EEF9;
+
+    border-radius:20px;
+
+}
+
+#question-text{
+
+    margin-bottom:22px;
+
+    text-align:center;
+
+    font-size:2rem;
+
+    font-weight:700;
+
+}
+
+
+/*==================================================
+  ANSWERS
+==================================================*/
+
+#answers{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:12px;
+
+}
+
+.answer-option{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    min-height:60px;
+
+    padding:12px;
+
+    background:#E3F2FD;
+
+    border:3px solid transparent;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    user-select:none;
+
+    text-align:center;
+
+    font-size:1.1rem;
+
+    font-weight:700;
+
+    transition:
+        transform .2s,
+        background .2s,
+        border-color .2s,
+        box-shadow .2s;
+
+}
+
+.answer-option:hover{
+
+    background:#BBDEFB;
+
+    border-color:#64B5F6;
+
+    transform:translateY(-3px);
+
+}
+
+.answer-option input{
+
+    transform:scale(1.3);
+
+}
+
+.answer-option.selected{
+
+    border-color:#1976D2;
+
+    background:#D6ECFF;
+
+    box-shadow:
+        0 0 18px rgba(25,118,210,.30);
+
+}
+
+.answer-option.correct{
+
+    background:#D9F7D8;
+
+    border-color:#4CAF50;
+
+}
+
+.answer-option.incorrect{
+
+    background:#FFE3E3;
+
+    border-color:#F44336;
+
+}
+
+/*==================================================
+  EXPLANATION
+==================================================*/
+
+.explanation{
+
+    margin-top:20px;
+
+    padding:18px;
+
+    background:#FFFBE7;
+
+    border-radius:20px;
+
+    line-height:1.6;
+
+    font-size:1.05rem;
+
+}
+
+.hidden{
+
+    display:none;
+
+}
+
+
+/*==================================================
+  BUTTONS
+==================================================*/
+
+.buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    margin-top:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.magic-button{
+
+    min-width:190px;
+
+    height:56px;
+
+    border:none;
+
+    border-radius:28px;
+
+    cursor:pointer;
+
+    font-size:1.1rem;
+
+    font-weight:800;
+
+    color:#16304D;
+
+    background:
+        linear-gradient(
+            180deg,
+            #FFE082,
+            #FFB300
+        );
+
+    box-shadow:
+        0 12px 22px rgba(0,0,0,.22),
+        inset 0 2px 0 rgba(255,255,255,.6);
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+
+}
+
+.magic-button:hover{
+
+    transform:
+        translateY(-4px)
+        scale(1.03);
+
+}
+
+.magic-button:active{
+
+    transform:scale(.97);
+
+}
+
+.magic-button.secondary{
+
+    background:
+        linear-gradient(
+            135deg,
+            #42A5F5,
+            #29B6F6
+        );
+
+}
+
+
+/*==================================================
+  HOOTIE
+==================================================*/
+
+.hootie-helper{
+
+    position:absolute;
+
+    left:calc(50% + 470px);
+
+    top:40px;
+
+    width:130px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.hootie-image img{
+
+    width:110px;
+
+    height:auto;
+
+    display:block;
+
+    animation:
+        hootieFloat 5s ease-in-out infinite;
+
+}
+
+.hint-box{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:12px;
+
+    text-align:center;
+
+    font-size:.9rem;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.18);
+
+}
+
+.hint-box span{
+
+    font-weight:700;
+
+}
+
+.hint-box p{
+
+    display:none;
+
+    margin-top:10px;
+
+    color:#455A64;
+
+}
+
+.hint-box:hover p{
+
+    display:block;
+
+}
+
+
+/*==================================================
+  PROGRESS HUD
+==================================================*/
+
+.player-stats{
+
+    position:fixed;
+
+    left:50%;
+
+    bottom:12px;
+
+    transform:translateX(-50%);
+
+    width:min(850px,92vw);
+
+    padding:14px 24px;
+
+    background:rgba(255,255,255,.95);
+
+    backdrop-filter:blur(12px);
+
+    border-radius:22px;
+
+    box-shadow:
+        0 12px 35px rgba(0,0,0,.22);
+
+    z-index:500;
+
+}
+
+.stats-row{
+
+    display:grid;
+
+    grid-template-columns:170px 1fr 190px;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.stat-stars{
+
+    font-size:1.1rem;
+
+    font-weight:700;
+
+}
+
+.stat-level{
+
+    text-align:right;
+
+    font-size:1.1rem;
+
+    font-weight:700;
+
+    white-space:nowrap;
+
+}
+
+.progress-panel{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.xp-bar{
+
+    width:100%;
+
+    height:14px;
+
+    background:#CFD8DC;
+
+    border-radius:999px;
+
+    overflow:hidden;
+
+}
+
+.xp-progress{
+
+    height:100%;
+
+    width:20%;
+
+    background:
+        linear-gradient(
+            90deg,
+            #FFD54F,
+            #F9A825
+        );
+
+    transition:width .5s ease;
+
+    border-radius:999px;
+
+}
+
+.progress-label{
+
+    margin:0;
+
+    text-align:center;
+
+    font-size:0.95rem;
+
+    font-weight:800;
+
+    color:#3949AB;
+
+}
+
+
+/*==================================================
+  FOOTER
+==================================================*/
+
+footer{
+
+    margin-top:30px;
+
+    padding-bottom:20px;
+
+    text-align:center;
+
+    color:white;
+
+    opacity:.8;
+
+    font-size:.9rem;
+
+}
+
+
+/*==================================================
+  HOP CELEBRATION
+==================================================*/
+
+#hop-celebration{
+
+    display:none;
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:20px;
+
+    z-index:1000;
+
+    text-align:center;
+
+    animation:hopBounce .8s ease;
+
+}
+
+#hop-celebration img{
+
+    width:170px;
+
+    height:auto;
+
+}
+
+.hop-message{
+
+    margin-top:10px;
+
+    padding:12px 18px;
+
+    border-radius:20px;
+
+    background:white;
+
+    color:#234;
+
+    font-weight:bold;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.25);
+
+}
+
+
+/*==================================================
+  RESPONSIVE
+==================================================*/
+
+@media (max-width:1000px){
+
+    .game-stage{
+
+        display:block;
+
+    }
+
+    .wizard-header{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .speech-bubble::before{
+
+        display:none;
+
+    }
+
+    .character-image.wizard{
+
+        margin-bottom:15px;
+
+    }
+
+    .hootie-helper{
+
+        position:static;
+
+        margin:25px auto 0;
+
+    }
+
+    #answers{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media (max-width:700px){
+
+    .academy-title{
+
+        font-size:2.4rem;
+
+    }
+
+    #answers{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .buttons{
+
+        flex-direction:column;
+
+    }
+
+    .magic-button{
+
+        width:100%;
+
+    }
+
+    .bottom-stats{
+
+        flex-direction:column;
+
+        gap:15px;
+
+        text-align:center;
+
+    }
+
+}
+
+
+/*==================================================
+  ANIMATIONS
+==================================================*/
+
+@keyframes hopBounce{
+
+    0%{
+
+        transform:translateY(220px);
+
+    }
+
+    60%{
+
+        transform:translateY(-18px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes wizzyFloat{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-8px);
+
+    }
+
+}
+
+@keyframes hootieFloat{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-6px);
+
+    }
+
+}
+
