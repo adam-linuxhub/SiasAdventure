@@ -6,7 +6,7 @@ import { QuestionEngine, type Question } from "./questionEngine";
 
 let player: Player;
 let questions: Question[] = [];
-let currentQuestion: Question;
+
 let levelUp = false;
 
 const wizzyWelcomeMessages = [
@@ -178,12 +178,11 @@ function loadRandomQuestion() {
 
 }
 
-    currentQuestion =
-        QuestionEngine.getRandomQuestion(
-            player,
-            questions
-        );
-    displayQuestion();
+    QuestionEngine.getNextQuestion(
+    questions
+);
+
+displayQuestion();
 
 }
 
@@ -192,6 +191,12 @@ function loadRandomQuestion() {
 ==================================================*/
 
 function displayQuestion() {
+const currentQuestion =
+    QuestionEngine.getCurrentQuestion();
+
+if (!currentQuestion) {
+    return;
+}
 
     hideExplanation();
 
@@ -250,7 +255,12 @@ ${answer}
 ==================================================*/
 
 function checkAnswer(selectedAnswer: number): void {
+const currentQuestion =
+    QuestionEngine.getCurrentQuestion();
 
+if (!currentQuestion) {
+    return;
+}
     levelUp = false;
 
     const explanation =
@@ -291,26 +301,29 @@ function checkAnswer(selectedAnswer: number): void {
 
     });
 
-    player.questionsAnswered++;
+    const result = QuestionEngine.submitAnswer(selectedAnswer);
 
-    if (selectedAnswer === currentQuestion.correct) {
+player.questionsAnswered++;
 
-        player.correct++;
+if (result.correct) {
 
-        player.xp += currentQuestion.xp ?? 10;
+    player.correct++;
 
-        player.stars += 5;
+    player.xp += result.xpAwarded;
 
-        levelUp = Levels.checkLevel(player);
+    player.stars += result.starsAwarded;
 
-        showHop();
+    levelUp = Levels.checkLevel(player);
 
-    }
-    else {
+    showHop();
 
-        showIncorrectExplanation();
+}
+else {
 
-    }
+    showIncorrectExplanation();
+
+}
+
 
     PlayerStorage.save(player);
 
@@ -376,7 +389,12 @@ function submitAnswer() {
 ==================================================*/
 
 function dontKnow() {
+const currentQuestion =
+    QuestionEngine.getCurrentQuestion();
 
+if (!currentQuestion) {
+    return;
+}
     player.questionsAnswered++;
 
     PlayerStorage.save(player);
@@ -438,7 +456,12 @@ function nextQuestion() {
 ==================================================*/
 
 function showCorrectExplanation() {
+const currentQuestion =
+    QuestionEngine.getCurrentQuestion();
 
+if (!currentQuestion) {
+    return;
+}
     const explanation =
         byId<HTMLDivElement>("explanation");
 
@@ -471,7 +494,12 @@ ${currentQuestion.explanation}
 ==================================================*/
 
 function showIncorrectExplanation() {
+const currentQuestion =
+    QuestionEngine.getCurrentQuestion();
 
+if (!currentQuestion) {
+    return;
+}
     const explanation =
         byId<HTMLDivElement>("explanation");
 
