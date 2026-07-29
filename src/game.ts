@@ -774,34 +774,41 @@ function updateTreasureGallery() {
 
     gallery.innerHTML = "";
 
-    player.badges.forEach(badge => {
+ const items = Treasure.rewards.map(reward => ({
 
-        const card =
-            document.createElement("div");
+    icon: reward.icon,
 
-        card.className = "treasure-card";
+    name: reward.item,
 
-        card.textContent = badge;
+    rarity: reward.rarity,
 
-        gallery.appendChild(card);
+    owned: player.treasures.includes(reward.item)
 
-    });
-    
-    player.treasures.forEach(treasure => {
+}));
 
-        const card =
-            document.createElement("div");
+    items.forEach(item => {
 
-        card.className = "treasure-card";
+        const card = document.createElement("div");
 
-        card.textContent = treasure;
+        card.className =
+            `treasure-card ${item.owned ? "owned" : "locked"}`;
+
+        card.innerHTML = `
+            <div class="treasure-icon">${item.icon}</div>
+            <div class="treasure-name">${item.name}</div>
+            <div class="treasure-status rarity-${item.rarity.toLowerCase()}">
+                ${item.rarity}
+            </div>
+
+            <div class="treasure-status">
+                ${item.owned ? "Collected ✓" : "Not Found"}
+            </div>        `;
 
         gallery.appendChild(card);
 
     });
 
 }
-
 /*==================================================
   HIDE EXPLANATION
 ==================================================*/
@@ -909,6 +916,66 @@ function updateStats() {
             `${Math.min(player.xp, 100)}%`;
 
     updateTreasureGallery();
+    updateStatistics();
+}
+
+function updateStatistics() {
+
+    const accuracy =
+        player.questionsAnswered === 0
+            ? 0
+            : Math.round(
+                (player.correct / player.questionsAnswered) * 100
+            );
+
+byId<HTMLDivElement>("statistics").innerHTML = `
+
+<div class="stat-card">
+    ⭐ Stars
+    <strong>${player.stars}</strong>
+</div>
+
+<div class="stat-card">
+    🏆 Rank
+    <strong>${player.levelName}</strong>
+</div>
+
+<div class="stat-card">
+    🌍 World
+    <strong>${player.world}</strong>
+</div>
+
+<div class="stat-card">
+    ❓ Questions
+    <strong>${player.questionsAnswered}</strong>
+</div>
+
+<div class="stat-card">
+    ✅ Correct
+    <strong>${player.correct}</strong>
+</div>
+
+<div class="stat-card">
+    🎯 Accuracy
+    <strong>${accuracy}%</strong>
+</div>
+
+<div class="stat-card">
+    🎁 Chests
+    <strong>${player.treasureChests}</strong>
+</div>
+
+<div class="stat-card">
+    💎 Treasures
+    <strong>${player.treasures.length}</strong>
+</div>
+
+<div class="stat-card">
+    🏅 Badges
+    <strong>${player.badges.length}</strong>
+</div>
+
+`;
 }
 
 /*==================================================

@@ -927,32 +927,162 @@ footer{
 
 .treasure-card {
 
-    min-width: 150px;
+    min-width:170px;
+    padding:18px;
 
-    padding: 15px;
+    border-radius:18px;
 
-    border-radius: 15px;
+    text-align:center;
 
-    background: linear-gradient(
+    transition:all .25s ease;
+
+    border:3px solid transparent;
+
+}
+
+.treasure-card:hover{
+
+    transform:translateY(-5px) scale(1.04);
+
+}
+
+.treasure-card.owned{
+
+    background:linear-gradient(
         135deg,
         #fff7c2,
         #ffe08a
     );
 
-    border: 2px solid #d6a800;
+    border-color:#d6a800;
 
-    text-align: center;
-
-    font-weight: bold;
-
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-
-    transition: transform 0.2s;
+    box-shadow:0 8px 18px rgba(214,168,0,.30);
 
 }
 
-.treasure-card:hover {
+.treasure-card.locked{
 
-    transform: scale(1.05);
+    background:#ececec;
+
+    border-color:#cccccc;
+
+    color:#888;
+
+    filter:grayscale(.9);
+
+}
+
+.treasure-icon{
+
+    font-size:48px;
+
+    margin-bottom:10px;
+
+}
+
+.treasure-name{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.rarity-common{
+    color:#43A047;
+    font-weight:700;
+}
+
+.rarity-rare{
+    color:#1E88E5;
+    font-weight:700;
+}
+
+.rarity-epic{
+    color:#8E24AA;
+    font-weight:700;
+}
+
+.rarity-legendary{
+    color:#F9A825;
+    font-weight:700;
+}
+
+.treasure-card.owned .treasure-name{
+
+    color:#5a4200;
+
+}
+
+.treasure-card.locked .treasure-name{
+
+    color:#777;
+
+}
+
+
+.treasure-status{
+
+    font-size:14px;
+
+    opacity:.85;
+
+}
+
+.statistics-panel{
+
+    margin-top:30px;
+
+    padding:20px;
+
+    background:rgba(255,255,255,.9);
+
+    border-radius:20px;
+
+}
+
+#statistics{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:12px;
+
+    margin-top:15px;
+
+}
+
+.stat-card{
+
+    padding:16px;
+
+    background:linear-gradient(
+        135deg,
+        #EEF4FF,
+        #FFFFFF
+    );
+
+    border-radius:16px;
+
+    border:2px solid #D6E6FF;
+
+    text-align:center;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+.stat-card strong{
+
+    display:block;
+
+    margin-top:8px;
+
+    font-size:1.6rem;
+
+    color:#1F2D5C;
 
 }

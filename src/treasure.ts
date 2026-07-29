@@ -1,44 +1,65 @@
 import type { Player } from "./types";
 
-interface Reward {
-  item: string;
-  badge: string;
+export interface Reward {
+    item: string;
+    badge: string;
+    icon: string;
+    rarity: "Common" | "Rare" | "Epic" | "Legendary";
 }
 
-export const Treasure = {
-  open(player: Player): Reward {
-    const rewards: Reward[] = [
-      {
-        item: "🪄 Magic Wand",
+const rewards: Reward[] = [
+
+    {
+        item: "Magic Wand",
         badge: "First Spell",
-      },
-      {
-        item: "💎 Crystal Gem",
+        icon: "🪄",
+        rarity: "Common"
+    },
+
+    {
+        item: "Crystal Gem",
         badge: "Treasure Hunter",
-      },
-      {
-        item: "📚 Spell Book",
+        icon: "💎",
+        rarity: "Rare"
+    },
+
+    {
+        item: "Spell Book",
         badge: "Book Finder",
-      },
-      {
-        item: "⭐ Golden Star",
+        icon: "📚",
+        rarity: "Epic"
+    },
+
+    {
+        item: "Golden Star",
         badge: "Star Collector",
-      },
-    ];
-
-    const reward =
-      rewards[Math.floor(Math.random() * rewards.length)];
-
-    player.stars += 50;
-
-    if (!player.badges.includes(reward.badge)) {
-      player.badges.push(reward.badge);
+        icon: "⭐",
+        rarity: "Legendary"
     }
 
-    if (!player.treasures.includes(reward.item)) {
-      player.treasures.push(reward.item);
+];
+
+export const Treasure = {
+
+    rewards,
+
+    open(player: Player): Reward {
+
+        const reward =
+            rewards[Math.floor(Math.random() * rewards.length)];
+
+        player.stars += 50;
+
+        if (!player.badges.includes(reward.badge)) {
+            player.badges.push(reward.badge);
+        }
+
+        if (!player.treasures.includes(reward.item)) {
+            player.treasures.push(reward.item);
+        }
+
+        return reward;
+
     }
 
-    return reward;
-  },
 };
