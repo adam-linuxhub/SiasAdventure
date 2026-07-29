@@ -9,19 +9,23 @@ export type ActivityId = string;
 export type SkillId = string;
 
 export interface MultipleChoiceActivity {
-    id: ActivityId;
 
-    skillId: SkillId;
-
-    stage: LearningStage;
+    id: string;
 
     question: string;
 
     options: string[];
 
-    correctAnswer: string;
+    answer: number;
 
     explanation: string;
+
+    difficulty: 1 | 2 | 3 | 4 | 5;
+
+    estimatedSeconds: number;
+
+    tags: string[];
+
 }
 
 export interface SkillContent {
