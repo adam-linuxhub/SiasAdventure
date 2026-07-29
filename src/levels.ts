@@ -1,4 +1,5 @@
 import type { Player } from "./types";
+export const QUESTIONS_PER_LEVEL = 20;
 
 interface Level {
   level: number;
@@ -51,5 +52,10 @@ export const Levels = {
     }
 
     return false;
+  },
+  checkLevelComplete(player: Player): boolean {
+
+    return player.questionsThisLevel >= QUESTIONS_PER_LEVEL;
+
   },
 };

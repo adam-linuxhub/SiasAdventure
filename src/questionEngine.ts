@@ -1,5 +1,5 @@
 import type { Player } from "./types";
-
+import { QuestionSelector } from "./questionSelector";
 export interface Question {
 
     id?: string;
@@ -29,7 +29,7 @@ export interface QuestionResult {
 
     correct: boolean;
 
-    correctAnswer: number;
+    correctAnswerText: string;
 
     explanation: string;
 
@@ -84,10 +84,29 @@ export const QuestionEngine = {
 
         }
 
-        this.currentQuestion =
-            this.shuffledQuestions[this.currentIndex++];
+const remainingQuestions =
+    this.shuffledQuestions.slice(this.currentIndex);
 
-        return this.currentQuestion;
+this.currentQuestion =
+    QuestionSelector.select(remainingQuestions);
+
+const selectedIndex =
+    this.shuffledQuestions.indexOf(
+        this.currentQuestion
+    );
+
+// Move the selected question into the current position
+[
+    this.shuffledQuestions[this.currentIndex],
+    this.shuffledQuestions[selectedIndex]
+] = [
+    this.shuffledQuestions[selectedIndex],
+    this.shuffledQuestions[this.currentIndex]
+];
+
+this.currentIndex++;
+
+return this.currentQuestion;
     },
 
     getCurrentQuestion(): Question | null {
@@ -111,7 +130,10 @@ export const QuestionEngine = {
 
     correct,
 
-    correctAnswer: this.currentQuestion.correct,
+    correctAnswerText:
+    this.currentQuestion.answers[
+        this.currentQuestion.correct
+    ],
 
     explanation: this.currentQuestion.explanation,
 

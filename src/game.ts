@@ -1,8 +1,14 @@
+import { GameController } from "./gameController";
 import type { Player } from "./types";
 import { PlayerStorage } from "./storage";
 import { Levels } from "./levels";
+import { Worlds } from "./worlds";
 import { Treasure } from "./treasure";
-import { QuestionEngine, type Question } from "./questionEngine";
+import {
+    QuestionEngine,
+    type Question,
+    type QuestionResult
+} from "./questionEngine";
 
 let player: Player;
 let questions: Question[] = [];
@@ -158,6 +164,8 @@ function initialiseGame() {
 
     player = PlayerStorage.load();
 
+    PlayerStorage.loadLearning();
+
     updateStats();
 
     loadRandomQuestion();
@@ -301,26 +309,30 @@ if (!currentQuestion) {
 
     });
 
-    const result = QuestionEngine.submitAnswer(selectedAnswer);
+const gameResult =
+    GameController.answer(
+        player,
+        selectedAnswer
+    );
 
-player.questionsAnswered++;
+const result = gameResult.result;
+
+levelUp = gameResult.levelUp;
+
+const levelComplete =
+    gameResult.levelComplete;
+
+const worldComplete =
+    gameResult.worldComplete;
 
 if (result.correct) {
-
-    player.correct++;
-
-    player.xp += result.xpAwarded;
-
-    player.stars += result.starsAwarded;
-
-    levelUp = Levels.checkLevel(player);
 
     showHop();
 
 }
 else {
 
-    showIncorrectExplanation();
+    showIncorrectExplanation(result);
 
 }
 
@@ -329,14 +341,24 @@ else {
 
     updateStats();
 
-    if (levelUp) {
+    if (worldComplete) {
+
+        showWorldComplete();
+
+    }
+    else if (levelComplete) {
+
+        showLevelComplete();
+
+    }
+    else if (levelUp) {
 
         showLevelUp();
 
     }
-    else if (selectedAnswer === currentQuestion.correct) {
+    else if (result.correct) {
 
-        showCorrectExplanation();
+        showCorrectExplanation(result);
 
     }
 
@@ -455,13 +477,10 @@ function nextQuestion() {
   CORRECT ANSWER
 ==================================================*/
 
-function showCorrectExplanation() {
-const currentQuestion =
-    QuestionEngine.getCurrentQuestion();
+function showCorrectExplanation(
+    result: QuestionResult
+) {
 
-if (!currentQuestion) {
-    return;
-}
     const explanation =
         byId<HTMLDivElement>("explanation");
 
@@ -481,7 +500,7 @@ if (!currentQuestion) {
 
 <p>
 
-${currentQuestion.explanation}
+${result.explanation}
 
 </p>
 
@@ -493,13 +512,10 @@ ${currentQuestion.explanation}
   INCORRECT ANSWER
 ==================================================*/
 
-function showIncorrectExplanation() {
-const currentQuestion =
-    QuestionEngine.getCurrentQuestion();
+function showIncorrectExplanation(
+    result: QuestionResult
+) {
 
-if (!currentQuestion) {
-    return;
-}
     const explanation =
         byId<HTMLDivElement>("explanation");
 
@@ -521,13 +537,13 @@ if (!currentQuestion) {
 
 The correct answer was:
 
-<strong>${currentQuestion.answers[currentQuestion.correct]}</strong>
+<strong>${result.correctAnswerText}</strong>
 
 </p>
 
 <p>
 
-${currentQuestion.explanation}
+${result.explanation}
 
 </p>
 
@@ -629,6 +645,112 @@ ${player.levelName}
 
 }
 
+function showLevelComplete() {
+
+    player.questionsThisLevel = 0;
+
+    PlayerStorage.save(player);
+
+    explanation.innerHTML = `
+        <div class="level-complete">
+            <h2>🎉 Level Complete!</h2>
+
+            <p>You answered <strong>20 questions</strong>.</p>
+
+            <p>Keep going to complete your next level!</p>
+        </div>
+    `;
+
+}
+
+function showWorldComplete() {
+
+    const explanation =
+        byId<HTMLDivElement>("explanation");
+
+    const completedWorld =
+        Worlds.getWorld(player.world);
+
+    player.world++;
+    player.worldsCompleted++;
+
+    PlayerStorage.save(player);
+
+    const nextWorld =
+        Worlds.getNextWorld(player.world - 1);
+
+    const completedWorldName =
+        completedWorld?.name ?? `World ${player.world - 1}`;
+
+    const nextWorldName =
+        nextWorld?.name ?? "Master Explorer";
+
+    explanation.innerHTML = `
+
+    <h2>🌍 World Complete!</h2>
+
+    <p>
+
+    🧙 <strong>Fantastic, Sia!</strong>
+
+    </p>
+
+    <p>
+
+    You have completed
+
+    <strong>${completedWorldName}</strong>!
+
+    </p>
+
+    <hr>
+
+    <p>
+
+    ${nextWorld
+        ? `✨ <strong>${nextWorldName} Unlocked!</strong>`
+        : `👑 <strong>Congratulations!</strong>`}
+
+    </p>
+
+    <p>
+
+    ${nextWorld
+        ? `💎 Welcome to <strong>${nextWorldName}</strong>`
+        : `🎉 You have completed every world!`}
+
+    </p>
+
+    <p>
+
+    ⭐ Adventure Points:
+        <strong>${player.adventurePoints}</strong>
+
+        <br><br>
+
+        🏅 Worlds Completed:
+        <strong>${player.worldsCompleted}</strong>
+
+    </p>
+
+    <p>
+
+    🎒 Pack your backpack...
+
+    Your next adventure begins now!
+
+    </p>
+
+    <p>
+
+    ➡️ Click <strong>Next Question</strong> to continue.
+
+    </p>
+
+    `;
+
+}
+
 /*==================================================
   HIDE EXPLANATION
 ==================================================*/
@@ -665,6 +787,44 @@ function clearAnswerSelection() {
 
 }
 
+function lockAnswerUI(
+    selectedAnswer: number,
+    correctAnswer: number
+): void {
+
+    const answerOptions =
+        document.querySelectorAll<HTMLElement>(".answer-option");
+
+    answerOptions.forEach(option => {
+        option.style.pointerEvents = "none";
+    });
+
+    byId<HTMLButtonElement>("submit-answer").style.display = "none";
+    byId<HTMLButtonElement>("dont-know").style.display = "none";
+    byId<HTMLButtonElement>("next-question").style.display = "inline-block";
+
+    answerOptions.forEach((option, index) => {
+
+        if (index === correctAnswer) {
+
+            option.classList.add("correct");
+
+        }
+
+        if (
+            index === selectedAnswer &&
+            selectedAnswer !== correctAnswer
+        ) {
+
+            option.classList.add("incorrect");
+
+        }
+
+    });
+
+}
+
+
 /*==================================================
   UPDATE PLAYER STATS
 ==================================================*/
@@ -676,9 +836,21 @@ function updateStats() {
 
     byId<HTMLElement>("level").textContent =
         `${player.level} ${player.levelName}`;
+    
+    const world =
+    Worlds.getWorld(player.world);
 
-    byId<HTMLElement>("xp-progress").style.width =
-        `${Math.min(player.xp, 100)}%`;
+        byId<HTMLElement>("world").textContent =
+            world
+                ? `${player.world}: ${world.name}`
+                : `${player.world}`;
+
+        byId<HTMLElement>("world").title =
+            `Worlds Completed: ${player.worldsCompleted}`;
+
+        byId<HTMLElement>("xp-progress").style.width =
+            `${Math.min(player.xp, 100)}%`;
+
 
 }
 

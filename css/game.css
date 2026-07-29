@@ -616,7 +616,8 @@ body::after{
 
 }
 
-.stat-level{
+.stat-level,
+.stat-world {
 
     text-align:right;
 

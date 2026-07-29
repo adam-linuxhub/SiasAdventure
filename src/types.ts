@@ -9,4 +9,8 @@ export interface Player {
   questionsAnswered: number;
   correct: number;
   incorrect: number;
+  adventurePoints: number;
+  world: number;
+  worldsCompleted: number;
+  questionsThisLevel: number;
 }
