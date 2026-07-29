@@ -1086,3 +1086,268 @@ footer{
     color:#1F2D5C;
 
 }
+
+/*==================================================
+TREASURE BUTTON
+==================================================*/
+
+.treasure-button {
+
+    position: absolute;
+
+    right: 15px;
+
+    top: 330px;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+}
+
+
+.treasure-button img {
+
+    width: 130px;
+
+    height: auto;
+
+    display: block;
+
+}
+
+.treasure-button:hover {
+
+    transform: scale(1.08);
+
+}
+
+
+/*==================================================
+NEW STATS PANEL
+==================================================*/
+
+.player-stats {
+
+    margin-top: 20px;
+
+    padding: 18px 24px;
+
+}
+
+.stats-row {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 24px;
+
+}
+
+.bottom-row {
+
+    margin-top: 12px;
+
+}
+
+.stat-world {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    min-width: 260px;
+
+}
+
+
+/*==================================================
+MAGIC METER
+==================================================*/
+
+.magic-meter {
+
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.magic-track {
+
+    width: 100%;
+
+    height: 18px;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    background: rgba(255,255,255,0.18);
+
+    border: 2px solid rgba(255,255,255,0.35);
+
+    box-shadow:
+        inset 0 2px 6px rgba(0,0,0,.35);
+
+}
+
+.magic-fill {
+
+    width: 0%;
+
+    height: 100%;
+
+    border-radius: 12px;
+
+    background: linear-gradient(
+        90deg,
+        #4cc9ff,
+        #6d7cff,
+        #b86cff
+    );
+
+    box-shadow:
+        0 0 12px rgba(120,160,255,.8);
+
+    transition: width .5s ease;
+
+    animation: magicGlow 2.5s ease-in-out infinite;
+
+}
+
+@keyframes magicGlow {
+
+    0% {
+
+        filter: brightness(1);
+
+    }
+
+    50% {
+
+        filter: brightness(1.3);
+
+    }
+
+    100% {
+
+        filter: brightness(1);
+
+    }
+
+}
+
+.progress-percent {
+
+    min-width: 55px;
+
+    text-align: right;
+
+    font-weight: bold;
+
+}
+
+
+/*==================================================
+TREASURE COLLECTION
+==================================================*/
+
+.treasure-collection {
+
+    position: fixed;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: min(1100px, 90vw);
+
+    height: min(700px, 80vh);
+
+    padding: 30px;
+
+    background: rgba(10, 18, 45, 0.96);
+
+    border-radius: 24px;
+
+    border: 4px solid gold;
+
+    box-shadow:
+        0 0 40px rgba(0,0,0,.7);
+
+    overflow-y: auto;
+
+    z-index: 1000;
+
+}
+
+.treasure-collection.visible {
+
+    display: block;
+
+}
+
+.treasure-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 24px;
+
+}
+
+.close-button {
+
+    width: 42px;
+
+    height: 42px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    font-size: 1.4rem;
+
+    background: crimson;
+
+    color: white;
+
+}
+
+.treasure-gallery {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fill, minmax(140px,1fr));
+
+    gap: 20px;
+
+}
+.treasure-header h2 {
+
+    color: white;
+
+    font-size: 2rem;
+
+    margin: 0;
+
+    text-shadow:
+        0 2px 5px black;
+
+}

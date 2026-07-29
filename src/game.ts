@@ -5,6 +5,7 @@ import { Levels } from "./levels";
 import { Worlds } from "./worlds";
 import { Treasure } from "./treasure";
 import { Dashboard } from "./dashboard";
+import { initialiseTreasureUI } from "./treasureUI";
 import {
     QuestionEngine,
     type Question,
@@ -166,6 +167,8 @@ function initialiseGame() {
     player = PlayerStorage.load();
 
     PlayerStorage.loadLearning();
+
+    initialiseTreasureUI();
 
     updateStats();
 
@@ -856,7 +859,7 @@ function updateStats() {
         player.treasureChests.toString();
 
     byId<HTMLElement>("level").textContent =
-        `${player.level} ${player.levelName}`;
+        `${player.levelName}`;
     
     byId<HTMLElement>("level-progress").textContent =
         `${player.questionsThisLevel} / 20`;
@@ -864,10 +867,10 @@ function updateStats() {
     const world =
     Worlds.getWorld(player.world);
 
-        byId<HTMLElement>("world").textContent =
-            world
-                ? `${player.world}: ${world.name}`
-                : `${player.world}`;
+    byId<HTMLElement>("world").textContent =
+        world
+            ? world.name
+            : "";
 
         byId<HTMLElement>("world").title =
             `Worlds Completed: ${player.worldsCompleted}`;

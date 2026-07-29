@@ -2,11 +2,14 @@ import { PlayerStorage } from "./storage";
 import { Worlds } from "./worlds";
 import { Dashboard } from "./dashboard";
 
+
 const player = PlayerStorage.load();
+
 
 function byId<T extends HTMLElement>(id: string): T {
 
-    const element = document.getElementById(id);
+    const element =
+        document.getElementById(id);
 
     if (!element) {
 
@@ -18,63 +21,83 @@ function byId<T extends HTMLElement>(id: string): T {
 
 }
 
+
+/*==================================================
+  OVERALL PROGRESS
+==================================================*/
+
 function updateOverallProgress(): void {
 
     const world =
         Worlds.getWorld(player.world);
 
+
     byId<HTMLDivElement>("overall-progress").innerHTML = `
 
-        <p>
+        <div class="progress-summary">
 
-            <strong>Stars:</strong>
+            <p>
 
-            ${player.stars}
+                ⭐ <strong>Stars:</strong>
 
-        </p>
+                ${player.stars}
 
-        <p>
+            </p>
 
-            <strong>Level:</strong>
 
-            ${player.level}
-            ${player.levelName}
+            <p>
 
-        </p>
+                🏅 <strong>Rank:</strong>
 
-        <p>
+                ${player.levelName}
 
-            <strong>World:</strong>
+            </p>
 
-            ${
-                world
-                    ? `${player.world}: ${world.name}`
-                    : player.world
-            }
 
-        </p>
+            <p>
 
-        <p>
+                🌍 <strong>World:</strong>
 
-            <strong>Adventure Points:</strong>
+                ${
+                    world
+                        ? world.name
+                        : player.world
+                }
 
-            ${player.adventurePoints}
+            </p>
 
-        </p>
 
-        <p>
+            <p>
 
-            <strong>Worlds Completed:</strong>
+                💰 <strong>Treasure:</strong>
 
-            ${player.worldsCompleted}
+                ${player.treasureChests}
 
-        </p>
+            </p>
+
+
+            <p>
+
+                🌟 <strong>Worlds Completed:</strong>
+
+                ${player.worldsCompleted}
+
+            </p>
+
+
+        </div>
 
     `;
 
 }
 
+
+/*==================================================
+  LOAD DASHBOARD
+==================================================*/
+
 updateOverallProgress();
+
 
 Dashboard.renderStatistics(player);
 
@@ -83,3 +106,7 @@ Dashboard.renderTreasureGallery(player);
 Dashboard.renderSkillsReport();
 
 Dashboard.renderNeedsPractice();
+
+Dashboard.renderStrongestSkills();
+
+Dashboard.renderAchievements(player);
