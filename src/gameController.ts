@@ -73,8 +73,13 @@ export const GameController = {
 
             }
 
+        } else {
+
+            player.incorrect++;
+
         }
 
+ 
         const levelComplete =
             Levels.checkLevelComplete(player);
 

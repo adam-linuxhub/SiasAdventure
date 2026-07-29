@@ -1,0 +1,543 @@
+/*==================================================
+  PARENT DASHBOARD
+==================================================*/
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f4f7fc;
+
+    color: #333;
+
+}
+
+.dashboard-container {
+
+    max-width: 1200px;
+
+    margin: 2rem auto;
+
+    padding: 1rem;
+
+}
+
+.dashboard-title {
+
+    text-align: center;
+
+    color: #4a2c82;
+
+    margin-bottom: 2rem;
+
+}
+
+/*==================================================
+  CARDS
+==================================================*/
+
+.dashboard-card {
+
+    background: white;
+
+    border-radius: 16px;
+
+    padding: 1.5rem;
+
+    margin-bottom: 2rem;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+
+}
+
+.dashboard-card h2 {
+
+    margin-top: 0;
+
+    margin-bottom: 1.5rem;
+
+    color: #4a2c82;
+
+}
+
+/*==================================================
+  STATISTICS
+==================================================*/
+
+#statistics {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+    gap: 1rem;
+
+}
+
+.stat-card {
+
+    background: #eef4ff;
+
+    border-radius: 12px;
+
+    padding: 1rem;
+
+    text-align: center;
+
+    border: 1px solid #d8e5ff;
+
+}
+
+.stat-card strong {
+
+    display: block;
+
+    margin-top: 0.5rem;
+
+    font-size: 1.6rem;
+
+    color: #4a2c82;
+
+}
+
+/*==================================================
+  SUBJECT SUMMARY
+==================================================*/
+
+#subject-summary {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 1rem;
+
+}
+
+.subject-card {
+
+    background: #fafbff;
+
+    border: 1px solid #e4e8f3;
+
+    border-radius: 12px;
+
+    padding: 1rem;
+
+}
+
+.subject-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 0.75rem;
+
+    font-weight: bold;
+
+}
+
+.subject-stars {
+
+    color: #f5b400;
+
+    margin-bottom: 0.75rem;
+
+    font-size: 1.1rem;
+
+}
+
+.subject-progress {
+
+    height: 10px;
+
+    background: #e4e8f3;
+
+    border-radius: 999px;
+
+    overflow: hidden;
+
+}
+
+.subject-progress-bar {
+
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        #7b4cff,
+        #4dd0ff
+    );
+
+}
+
+.subject-footer {
+
+    margin-top: 0.75rem;
+
+    font-size: 0.9rem;
+
+    color: #666;
+
+}
+
+/*==================================================
+  TREASURE GALLERY
+==================================================*/
+
+#treasure-gallery {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+
+    gap: 1rem;
+
+}
+
+.treasure-card {
+
+    background: white;
+
+    border-radius: 12px;
+
+    padding: 1rem;
+
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+    border: 1px solid #ececec;
+
+}
+
+.treasure-card.locked {
+
+    opacity: 0.45;
+
+}
+
+.treasure-icon {
+
+    font-size: 2rem;
+
+    margin-bottom: 0.5rem;
+
+}
+
+.treasure-name {
+
+    font-weight: bold;
+
+    margin-bottom: 0.5rem;
+
+}
+
+.treasure-status {
+
+    font-size: 0.9rem;
+
+    margin-top: 0.25rem;
+
+}
+
+.rarity-common {
+
+    color: #666;
+
+}
+
+.rarity-rare {
+
+    color: #2196f3;
+
+}
+
+.rarity-epic {
+
+    color: #9c27b0;
+
+}
+
+.rarity-legendary {
+
+    color: #ff9800;
+
+}
+
+/*==================================================
+  SKILLS REPORT
+==================================================*/
+
+.subject-group {
+
+    margin-bottom: 2rem;
+
+}
+
+.subject-group:last-child {
+
+    margin-bottom: 0;
+
+}
+
+.subject-group h3 {
+
+    color: #4a2c82;
+
+    margin-bottom: 1rem;
+
+}
+
+.skill-card {
+
+    background: #fafbff;
+
+    border-radius: 12px;
+
+    padding: 1rem;
+
+    margin-bottom: 1rem;
+
+    border: 1px solid #e4e8f3;
+
+}
+
+.skill-card:last-child {
+
+    margin-bottom: 0;
+
+}
+
+.skill-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 0.75rem;
+
+    font-weight: bold;
+
+}
+
+.skill-name {
+
+    color: #333;
+
+}
+
+.skill-score {
+
+    color: #4a2c82;
+
+}
+
+.skill-stars {
+
+    color: #f5b400;
+
+    margin-bottom: 0.75rem;
+
+    font-size: 1.1rem;
+
+}
+
+.skill-progress {
+
+    height: 10px;
+
+    background: #e4e8f3;
+
+    border-radius: 999px;
+
+    overflow: hidden;
+
+}
+
+.skill-progress-bar {
+
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        #7b4cff,
+        #4dd0ff
+    );
+
+}
+
+.skill-footer {
+
+    margin-top: 0.75rem;
+
+    font-size: 0.9rem;
+
+    color: #666;
+
+}
+
+/*==================================================
+  PRACTICE / STRONGEST SKILLS
+==================================================*/
+
+.practice-card {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background: #fff8f0;
+
+    border-left: 5px solid #ff9800;
+
+    border-radius: 12px;
+
+    padding: 1rem;
+
+    margin-bottom: 0.75rem;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+}
+
+.practice-card:last-child {
+
+    margin-bottom: 0;
+
+}
+
+.practice-name {
+
+    font-weight: bold;
+
+}
+
+.practice-subject {
+
+    color: #666;
+
+    font-size: 0.9rem;
+
+    margin-top: 0.25rem;
+
+}
+
+.practice-score {
+
+    font-weight: bold;
+
+    color: #e65100;
+
+    font-size: 1.2rem;
+
+}
+
+/*==================================================
+  ACHIEVEMENTS
+==================================================*/
+
+#achievements {
+
+    display: grid;
+
+    gap: 1rem;
+
+}
+
+.achievement-card {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 1rem;
+
+    padding: 1rem;
+
+    background: #f9fbff;
+
+    border: 1px solid #dbe7ff;
+
+    border-radius: 12px;
+
+}
+
+.achievement-icon {
+
+    font-size: 2rem;
+
+    flex-shrink: 0;
+
+}
+
+.achievement-info {
+
+    flex: 1;
+
+}
+
+.achievement-name {
+
+    font-weight: bold;
+
+    color: #4a2c82;
+
+    margin-bottom: 0.25rem;
+
+}
+
+.achievement-description {
+
+    color: #666;
+
+    font-size: 0.95rem;
+
+}
+
+/*==================================================
+  MOBILE
+==================================================*/
+
+@media (max-width: 768px) {
+
+    .practice-card,
+
+    .subject-header,
+
+    .skill-header {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 0.5rem;
+
+    }
+
+    #statistics,
+
+    #subject-summary,
+
+    #treasure-gallery {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .achievement-card {
+
+        align-items: flex-start;
+
+    }
+
+}
