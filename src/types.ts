@@ -6,6 +6,7 @@ export interface Player {
   levelName: string;
   treasureChests: number;
   badges: string[];
+  treasures: string[];
   questionsAnswered: number;
   correct: number;
   incorrect: number;

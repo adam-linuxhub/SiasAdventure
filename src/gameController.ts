@@ -3,6 +3,7 @@ import type { Player } from "./types";
 import { Levels } from "./levels";
 import { QuestionEngine, type QuestionResult } from "./questionEngine";
 import { Worlds } from "./worlds";
+import { PlayerStorage } from "./storage";
 
 export interface GameResult {
 
@@ -25,6 +26,7 @@ export const GameController = {
 
         const result =
             QuestionEngine.submitAnswer(selectedAnswer);
+
         const question =
             QuestionEngine.getCurrentQuestion();
 
@@ -36,6 +38,7 @@ export const GameController = {
             );
 
         }
+
         player.questionsAnswered++;
         player.questionsThisLevel++;
 
@@ -75,11 +78,30 @@ export const GameController = {
         const levelComplete =
             Levels.checkLevelComplete(player);
 
+        if (levelComplete) {
+
+            player.questionsThisLevel = 0;
+
+            player.treasureChests++;
+
+        }
+
         const levelUp =
             Levels.checkLevel(player);
 
         const worldComplete =
             Worlds.checkWorld(player);
+
+        if (worldComplete) {
+
+            player.world++;
+
+            player.worldsCompleted++;
+
+        }
+
+        // Save all player changes made during this turn
+        PlayerStorage.save(player);
 
         return {
 

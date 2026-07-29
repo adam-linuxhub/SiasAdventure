@@ -15,6 +15,7 @@ export const PlayerStorage = {
       player.world ??= 1;
       player.worldsCompleted ??= 0;
       player.questionsThisLevel ??= 0;
+      player.treasures ??= [];
 
       return player;
     }
@@ -27,6 +28,7 @@ export const PlayerStorage = {
       levelName: "Explorer",
       treasureChests: 0,
       badges: [],
+      treasures: [],
       questionsAnswered: 0,
       correct: 0,
       incorrect: 0,

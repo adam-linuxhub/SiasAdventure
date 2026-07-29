@@ -336,36 +336,33 @@ else {
 
 }
 
+updateStats();
 
-    PlayerStorage.save(player);
+if (worldComplete) {
 
-    updateStats();
+    showWorldComplete();
 
-    if (worldComplete) {
+}
+else if (levelComplete) {
 
-        showWorldComplete();
+    showLevelComplete();
 
-    }
-    else if (levelComplete) {
+}
+else if (levelUp) {
 
-        showLevelComplete();
+    showLevelUp();
 
-    }
-    else if (levelUp) {
+}
+else if (result.correct) {
 
-        showLevelUp();
+    showCorrectExplanation(result);
 
-    }
-    else if (result.correct) {
+}
 
-        showCorrectExplanation(result);
+explanation.classList.remove("hidden");
 
-    }
-
-    explanation.classList.remove("hidden");
-
-    byId<HTMLButtonElement>("next-question").style.display =
-        "inline-block";
+byId<HTMLButtonElement>("next-question").style.display =
+    "inline-block";
 
 }
 
@@ -646,8 +643,11 @@ ${player.levelName}
 }
 
 function showLevelComplete() {
+    const explanation =
+    byId<HTMLDivElement>("explanation");
 
-    player.questionsThisLevel = 0;
+    const reward =
+        Treasure.open(player);
 
     PlayerStorage.save(player);
 
@@ -656,6 +656,23 @@ function showLevelComplete() {
             <h2>🎉 Level Complete!</h2>
 
             <p>You answered <strong>20 questions</strong>.</p>
+
+            <p>🎁 You earned <strong>1 Treasure Chest</strong>!</p>
+
+            <p>
+
+                ✨ Inside was:
+
+                <strong>${reward.item}</strong>
+
+            </p>
+
+            <p>
+
+                📦 Total Treasure Chests:
+                <strong>${player.treasureChests}</strong>
+
+            </p>
 
             <p>Keep going to complete your next level!</p>
         </div>
@@ -671,10 +688,9 @@ function showWorldComplete() {
     const completedWorld =
         Worlds.getWorld(player.world);
 
-    player.world++;
-    player.worldsCompleted++;
 
     PlayerStorage.save(player);
+    updateStats();
 
     const nextWorld =
         Worlds.getNextWorld(player.world - 1);
@@ -748,6 +764,41 @@ function showWorldComplete() {
     </p>
 
     `;
+
+}
+
+function updateTreasureGallery() {
+
+    const gallery =
+        byId<HTMLDivElement>("treasure-gallery");
+
+    gallery.innerHTML = "";
+
+    player.badges.forEach(badge => {
+
+        const card =
+            document.createElement("div");
+
+        card.className = "treasure-card";
+
+        card.textContent = badge;
+
+        gallery.appendChild(card);
+
+    });
+    
+    player.treasures.forEach(treasure => {
+
+        const card =
+            document.createElement("div");
+
+        card.className = "treasure-card";
+
+        card.textContent = treasure;
+
+        gallery.appendChild(card);
+
+    });
 
 }
 
@@ -832,10 +883,16 @@ function lockAnswerUI(
 function updateStats() {
 
     byId<HTMLElement>("stars").textContent =
-    player.stars.toString();
+        player.stars.toString();
+
+    byId<HTMLElement>("treasure-chests").textContent =
+        player.treasureChests.toString();
 
     byId<HTMLElement>("level").textContent =
         `${player.level} ${player.levelName}`;
+    
+    byId<HTMLElement>("level-progress").textContent =
+        `${player.questionsThisLevel} / 20`;
     
     const world =
     Worlds.getWorld(player.world);
@@ -851,7 +908,7 @@ function updateStats() {
         byId<HTMLElement>("xp-progress").style.width =
             `${Math.min(player.xp, 100)}%`;
 
-
+    updateTreasureGallery();
 }
 
 /*==================================================

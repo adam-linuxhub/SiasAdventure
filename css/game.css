@@ -617,7 +617,8 @@ body::after{
 }
 
 .stat-level,
-.stat-world {
+.stat-world,
+.stat-level-progress {
 
     text-align:right;
 
@@ -903,3 +904,55 @@ footer{
 
 }
 
+.treasure-gallery {
+
+    margin-top: 30px;
+    padding: 20px;
+
+    background: rgba(255,255,255,0.9);
+
+    border-radius: 20px;
+
+}
+
+#treasure-gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    margin-top: 15px;
+
+}
+
+.treasure-card {
+
+    min-width: 150px;
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+    background: linear-gradient(
+        135deg,
+        #fff7c2,
+        #ffe08a
+    );
+
+    border: 2px solid #d6a800;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
+    transition: transform 0.2s;
+
+}
+
+.treasure-card:hover {
+
+    transform: scale(1.05);
+
+}

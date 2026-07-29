@@ -1,5 +1,4 @@
 import type { Player } from "./types";
-import { PlayerStorage } from "./storage";
 
 interface Reward {
   item: string;
@@ -30,14 +29,15 @@ export const Treasure = {
     const reward =
       rewards[Math.floor(Math.random() * rewards.length)];
 
-    player.treasureChests++;
     player.stars += 50;
 
     if (!player.badges.includes(reward.badge)) {
       player.badges.push(reward.badge);
     }
 
-    PlayerStorage.save(player);
+    if (!player.treasures.includes(reward.item)) {
+      player.treasures.push(reward.item);
+    }
 
     return reward;
   },
