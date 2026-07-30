@@ -20,7 +20,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-001",
         skillId: "weatherAndClimate",
         question: "What is weather?",
-
+        stage: "recognise",
         options: [
             "The conditions outside at a particular time",
             "The average weather over many years",
@@ -42,7 +42,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-002",
         skillId: "weatherAndClimate",
         question: "Which of these is an example of weather?",
-
+        stage: "recognise",
         options: [
             "Rain",
             "A river",
@@ -64,7 +64,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-003",
         skillId: "weatherAndClimate",
         question: "What is climate?",
-
+        stage: "recognise",
         options: [
             "The usual weather in a place over many years",
             "Today's weather",
@@ -86,7 +86,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-004",
         skillId: "weatherAndClimate",
         question: "How many seasons are there in the UK?",
-
+        stage: "recognise",
         options: [
             "Four",
             "Two",
@@ -108,7 +108,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-005",
         skillId: "weatherAndClimate",
         question: "Which season is usually the warmest?",
-
+        stage: "recognise",
         options: [
             "Summer",
             "Winter",
@@ -130,7 +130,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-006",
         skillId: "weatherAndClimate",
         question: "Which season is usually the coldest?",
-
+        stage: "recognise",
         options: [
             "Winter",
             "Summer",
@@ -152,7 +152,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-007",
         skillId: "weatherAndClimate",
         question: "Which instrument measures temperature?",
-
+        stage: "recognise",
         options: [
             "Thermometer",
             "Compass",
@@ -174,7 +174,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-008",
         skillId: "weatherAndClimate",
         question: "Which weather condition might need an umbrella?",
-
+        stage: "recognise",
         options: [
             "Rain",
             "Sunshine",
@@ -196,7 +196,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-009",
         skillId: "weatherAndClimate",
         question: "Which weather condition might make trees sway?",
-
+        stage: "recognise",
         options: [
             "Wind",
             "Fog",
@@ -218,7 +218,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-010",
         skillId: "weatherAndClimate",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Weather can change from day to day.",
             "Weather never changes.",
@@ -240,7 +240,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-011",
         skillId: "weatherAndClimate",
         question: "What is the main difference between weather and climate?",
-
+        stage: "recognise",
         options: [
             "Weather is short-term, climate is long-term.",
             "Climate changes every hour.",
@@ -262,7 +262,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-012",
         skillId: "weatherAndClimate",
         question: "Why do we wear warm coats in winter?",
-
+        stage: "recognise",
         options: [
             "Winter is usually colder.",
             "Winter has longer rivers.",
@@ -284,7 +284,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-013",
         skillId: "weatherAndClimate",
         question: "Why might people wear hats and use sunscreen in summer?",
-
+        stage: "recognise",
         options: [
             "To protect themselves from strong sunshine",
             "To keep warm",
@@ -306,7 +306,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-014",
         skillId: "weatherAndClimate",
         question: "Why is a weather forecast useful?",
-
+        stage: "recognise",
         options: [
             "It helps people plan ahead.",
             "It changes the weather.",
@@ -328,7 +328,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-015",
         skillId: "weatherAndClimate",
         question: "Which season often has flowers beginning to bloom?",
-
+        stage: "recognise",
         options: [
             "Spring",
             "Winter",
@@ -350,7 +350,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-016",
         skillId: "weatherAndClimate",
         question: "Which season is often linked with leaves changing colour?",
-
+        stage: "recognise",
         options: [
             "Autumn",
             "Spring",
@@ -372,7 +372,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-017",
         skillId: "weatherAndClimate",
         question: "Why can weather affect our plans?",
-
+        stage: "recognise",
         options: [
             "Different weather is suitable for different activities.",
             "Weather changes maps.",
@@ -394,7 +394,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-018",
         skillId: "weatherAndClimate",
         question: "Which of these is part of a weather forecast?",
-
+        stage: "recognise",
         options: [
             "Expected rain and temperature",
             "Population size",
@@ -416,7 +416,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-019",
         skillId: "weatherAndClimate",
         question: "Why can two countries have different climates?",
-
+        stage: "recognise",
         options: [
             "They are in different parts of the world.",
             "They use different maps.",
@@ -438,7 +438,7 @@ export const weatherAndClimate: SkillContent = {
         id: "geo-weather-020",
         skillId: "weatherAndClimate",
         question: "Which sentence best describes weather and climate?",
-
+        stage: "recognise",
         options: [
             "Weather is what happens now, while climate is the usual weather over many years.",
             "Weather and climate are exactly the same thing.",

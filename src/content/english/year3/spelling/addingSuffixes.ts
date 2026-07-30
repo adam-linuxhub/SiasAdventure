@@ -20,7 +20,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-001",
         skillId: "addingSuffixes",
         question: "Which word is made by adding '-ing' to 'jump'?",
-
+        stage: "recognise",
         options: [
             "jumping",
             "jumped",
@@ -42,7 +42,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-002",
         skillId: "addingSuffixes",
         question: "Which word is made by adding '-ed' to 'play'?",
-
+        stage: "recognise",
         options: [
             "played",
             "playing",
@@ -64,7 +64,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-003",
         skillId: "addingSuffixes",
         question: "Which word means 'more tall'?",
-
+        stage: "recognise",
         options: [
             "taller",
             "tallest",
@@ -86,7 +86,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-004",
         skillId: "addingSuffixes",
         question: "Which word means 'the most small'?",
-
+        stage: "recognise",
         options: [
             "smallest",
             "smaller",
@@ -108,7 +108,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-005",
         skillId: "addingSuffixes",
         question: "Which word is correct?",
-
+        stage: "recognise",
         options: [
             "helping",
             "helpingg",
@@ -130,7 +130,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-006",
         skillId: "addingSuffixes",
         question: "Which word is correct?",
-
+        stage: "recognise",
         options: [
             "looked",
             "lookinged",
@@ -152,7 +152,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-007",
         skillId: "addingSuffixes",
         question: "Which word is made by adding '-er' to 'fast'?",
-
+        stage: "recognise",
         options: [
             "faster",
             "fastest",
@@ -174,7 +174,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-008",
         skillId: "addingSuffixes",
         question: "Which word is made by adding '-est' to 'long'?",
-
+        stage: "recognise",
         options: [
             "longest",
             "longer",
@@ -196,7 +196,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-009",
         skillId: "addingSuffixes",
         question: "Which suffix tells us an action is happening now?",
-
+        stage: "recognise",
         options: [
             "-ing",
             "-ed",
@@ -218,7 +218,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-010",
         skillId: "addingSuffixes",
         question: "Which suffix often shows an action happened in the past?",
-
+        stage: "recognise",
         options: [
             "-ed",
             "-ing",
@@ -240,7 +240,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-011",
         skillId: "addingSuffixes",
         question: "Complete the sentence: 'The rabbit is ______ across the field.'",
-
+        stage: "recognise",
         options: [
             "jumping",
             "jumped",
@@ -262,7 +262,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-012",
         skillId: "addingSuffixes",
         question: "Complete the sentence: 'Yesterday we ______ football.'",
-
+        stage: "recognise",
         options: [
             "played",
             "playing",
@@ -284,7 +284,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-013",
         skillId: "addingSuffixes",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "Sam is helping his mum.",
             "Sam is helped his mum.",
@@ -306,7 +306,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-014",
         skillId: "addingSuffixes",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "The blue whale is the largest animal.",
             "The blue whale is the larger animal.",
@@ -328,7 +328,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-015",
         skillId: "addingSuffixes",
         question: "Which word correctly adds '-ing' to 'smile'?",
-
+        stage: "recognise",
         options: [
             "smiling",
             "smileing",
@@ -350,7 +350,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-016",
         skillId: "addingSuffixes",
         question: "Which word correctly adds '-ed' to 'dance'?",
-
+        stage: "recognise",
         options: [
             "danced",
             "danceed",
@@ -372,7 +372,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-017",
         skillId: "addingSuffixes",
         question: "Which word correctly adds '-ing' to 'make'?",
-
+        stage: "recognise",
         options: [
             "making",
             "makeing",
@@ -394,7 +394,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-018",
         skillId: "addingSuffixes",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "Ella smiled at her friend.",
             "Ella smiled at her friend.",
@@ -416,7 +416,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-019",
         skillId: "addingSuffixes",
         question: "Which word compares two runners?",
-
+        stage: "recognise",
         options: [
             "faster",
             "fastest",
@@ -438,7 +438,7 @@ export const addingSuffixes: SkillContent = {
         id: "eng-suf-020",
         skillId: "addingSuffixes",
         question: "Which sentence contains a correctly spelled suffix word?",
-
+        stage: "recognise",
         options: [
             "The children were making a sandcastle.",
             "The children were makeing a sandcastle.",

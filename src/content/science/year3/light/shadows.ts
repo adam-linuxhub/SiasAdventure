@@ -20,7 +20,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-001",
         skillId: "shadows",
         question: "What causes a shadow?",
-
+        stage: "recognise",
         options: [
             "An object blocking light",
             "The wind blowing",
@@ -42,7 +42,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-002",
         skillId: "shadows",
         question: "When do you usually see your shadow outside?",
-
+        stage: "recognise",
         options: [
             "On a sunny day",
             "During heavy rain at night",
@@ -64,7 +64,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-003",
         skillId: "shadows",
         question: "What does a shadow look like?",
-
+        stage: "recognise",
         options: [
             "A dark shape",
             "A bright light",
@@ -86,7 +86,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-004",
         skillId: "shadows",
         question: "What do you need to make a shadow?",
-
+        stage: "recognise",
         options: [
             "A light source and an object",
             "Only a mirror",
@@ -108,7 +108,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-005",
         skillId: "shadows",
         question: "Which object could make a shadow?",
-
+        stage: "recognise",
         options: [
             "A book",
             "A beam of light",
@@ -130,7 +130,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-006",
         skillId: "shadows",
         question: "What happens to a shadow if the light is switched off?",
-
+        stage: "recognise",
         options: [
             "The shadow disappears",
             "The shadow gets brighter",
@@ -152,7 +152,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-007",
         skillId: "shadows",
         question: "Which light source can make shadows outside during the day?",
-
+        stage: "recognise",
         options: [
             "The Sun",
             "The Moon",
@@ -174,7 +174,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-008",
         skillId: "shadows",
         question: "Why is a shadow dark?",
-
+        stage: "recognise",
         options: [
             "Light is blocked",
             "It is painted black",
@@ -196,7 +196,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-009",
         skillId: "shadows",
         question: "Where does a shadow appear?",
-
+        stage: "recognise",
         options: [
             "On the side opposite the light source",
             "Inside the light source",
@@ -218,7 +218,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-010",
         skillId: "shadows",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Shadows are formed when light is blocked.",
             "Shadows produce light.",
@@ -240,7 +240,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-011",
         skillId: "shadows",
         question: "What happens if you move closer to a torch while making a shadow?",
-
+        stage: "recognise",
         options: [
             "Your shadow gets bigger",
             "Your shadow disappears",
@@ -262,7 +262,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-012",
         skillId: "shadows",
         question: "What happens if you move further away from a torch?",
-
+        stage: "recognise",
         options: [
             "Your shadow gets smaller",
             "Your shadow becomes colourful",
@@ -284,7 +284,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-013",
         skillId: "shadows",
         question: "Which investigation changes the size of a shadow?",
-
+        stage: "recognise",
         options: [
             "Moving the object nearer to the light",
             "Changing the colour of the object",
@@ -306,7 +306,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-014",
         skillId: "shadows",
         question: "Why does your shadow change during the day?",
-
+        stage: "recognise",
         options: [
             "The Sun appears to move across the sky",
             "Your body changes size",
@@ -328,7 +328,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-015",
         skillId: "shadows",
         question: "When is your shadow usually shortest outside?",
-
+        stage: "recognise",
         options: [
             "Around the middle of the day",
             "Early morning",
@@ -350,7 +350,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-016",
         skillId: "shadows",
         question: "What happens if there are two torches shining on one object?",
-
+        stage: "recognise",
         options: [
             "More than one shadow may appear",
             "No shadow appears",
@@ -372,7 +372,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-017",
         skillId: "shadows",
         question: "Why can't a shadow exist without light?",
-
+        stage: "recognise",
         options: [
             "A shadow is created when light is blocked",
             "Shadows make light",
@@ -394,7 +394,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-018",
         skillId: "shadows",
         question: "A child moves a toy closer to a lamp. What happens to its shadow?",
-
+        stage: "recognise",
         options: [
             "It becomes larger",
             "It disappears",
@@ -416,7 +416,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-019",
         skillId: "shadows",
         question: "What is the best way to investigate shadows?",
-
+        stage: "recognise",
         options: [
             "Change one thing at a time",
             "Change everything together",
@@ -438,7 +438,7 @@ export const shadows: SkillContent = {
         id: "sci-shadows-020",
         skillId: "shadows",
         question: "Which sentence best explains how shadows are formed?",
-
+        stage: "recognise",
         options: [
             "A shadow forms when an opaque object blocks light from a light source.",
             "Shadows make light disappear.",

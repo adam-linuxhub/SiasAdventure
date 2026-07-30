@@ -20,7 +20,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-001",
         skillId: "evaporationCondensation",
         question: "What is evaporation?",
-
+        stage: "recognise",
         options: [
             "A liquid changing into a gas",
             "A gas changing into a liquid",
@@ -42,7 +42,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-002",
         skillId: "evaporationCondensation",
         question: "What is condensation?",
-
+        stage: "recognise",
         options: [
             "A gas changing into a liquid",
             "A liquid changing into a gas",
@@ -64,7 +64,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-003",
         skillId: "evaporationCondensation",
         question: "What happens to a puddle on a warm sunny day?",
-
+        stage: "recognise",
         options: [
             "It evaporates.",
             "It freezes.",
@@ -86,7 +86,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-004",
         skillId: "evaporationCondensation",
         question: "What forms on the outside of a cold drinks can?",
-
+        stage: "recognise",
         options: [
             "Tiny drops of water",
             "Ice cubes",
@@ -108,7 +108,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-005",
         skillId: "evaporationCondensation",
         question: "Which process dries wet clothes?",
-
+        stage: "recognise",
         options: [
             "Evaporation",
             "Condensation",
@@ -130,7 +130,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-006",
         skillId: "evaporationCondensation",
         question: "What is water vapour?",
-
+        stage: "recognise",
         options: [
             "Water in its gas state",
             "Frozen water",
@@ -152,7 +152,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-007",
         skillId: "evaporationCondensation",
         question: "Which process needs cooling?",
-
+        stage: "recognise",
         options: [
             "Condensation",
             "Evaporation",
@@ -174,7 +174,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-008",
         skillId: "evaporationCondensation",
         question: "Which process happens when water is heated?",
-
+        stage: "recognise",
         options: [
             "Evaporation",
             "Freezing",
@@ -196,7 +196,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-009",
         skillId: "evaporationCondensation",
         question: "What is most likely to happen to water left in a shallow dish?",
-
+        stage: "recognise",
         options: [
             "It slowly evaporates.",
             "It freezes.",
@@ -218,7 +218,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-010",
         skillId: "evaporationCondensation",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Evaporation and condensation are opposite processes.",
             "They both make solids.",
@@ -240,7 +240,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-011",
         skillId: "evaporationCondensation",
         question: "Why do wet clothes dry faster on a warm day?",
-
+        stage: "recognise",
         options: [
             "Evaporation happens more quickly.",
             "The clothes freeze.",
@@ -262,7 +262,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-012",
         skillId: "evaporationCondensation",
         question: "Why do bathroom mirrors mist up after a hot shower?",
-
+        stage: "recognise",
         options: [
             "Water vapour condenses on the cool mirror.",
             "The mirror melts.",
@@ -284,7 +284,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-013",
         skillId: "evaporationCondensation",
         question: "Which process changes water vapour back into liquid water?",
-
+        stage: "recognise",
         options: [
             "Condensation",
             "Evaporation",
@@ -306,7 +306,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-014",
         skillId: "evaporationCondensation",
         question: "What happens to water particles during evaporation?",
-
+        stage: "recognise",
         options: [
             "They escape into the air as a gas.",
             "They become solid.",
@@ -328,7 +328,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-015",
         skillId: "evaporationCondensation",
         question: "Which situation shows condensation?",
-
+        stage: "recognise",
         options: [
             "Drops forming on a cold window",
             "A puddle drying",
@@ -350,7 +350,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-016",
         skillId: "evaporationCondensation",
         question: "What can make evaporation happen faster?",
-
+        stage: "recognise",
         options: [
             "Higher temperatures",
             "Lower temperatures",
@@ -372,7 +372,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-017",
         skillId: "evaporationCondensation",
         question: "A cold bottle is taken outside on a warm day. Why do water droplets appear on it?",
-
+        stage: "recognise",
         options: [
             "Water vapour condenses on the cold surface.",
             "Water leaks through the bottle.",
@@ -394,7 +394,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-018",
         skillId: "evaporationCondensation",
         question: "Why does a puddle disappear even if it never boils?",
-
+        stage: "recognise",
         options: [
             "Evaporation can happen below boiling point.",
             "The water becomes solid.",
@@ -416,7 +416,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-019",
         skillId: "evaporationCondensation",
         question: "Which pair shows opposite changes of state?",
-
+        stage: "recognise",
         options: [
             "Evaporation and condensation",
             "Melting and boiling",
@@ -438,7 +438,7 @@ export const evaporationCondensation: SkillContent = {
         id: "sci-evap-cond-020",
         skillId: "evaporationCondensation",
         question: "Which sentence best describes evaporation and condensation?",
-
+        stage: "recognise",
         options: [
             "Evaporation changes liquids into gases, while condensation changes gases back into liquids.",
             "Both processes turn liquids into solids.",

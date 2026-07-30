@@ -20,7 +20,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-001",
         skillId: "planet-order",
         question: "Which planet is closest to the Sun?",
-
+        stage: "recognise",
         options: [
             "Mercury",
             "Venus",
@@ -47,7 +47,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-002",
         skillId: "planet-order",
         question: "Which planet is second from the Sun?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Mercury",
@@ -74,7 +74,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-003",
         skillId: "planet-order",
         question: "Which planet is third from the Sun?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Mars",
@@ -101,7 +101,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-004",
         skillId: "planet-order",
         question: "Which planet is fourth from the Sun?",
-
+        stage: "recognise",
         options: [
             "Mars",
             "Earth",
@@ -128,7 +128,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-005",
         skillId: "planet-order",
         question: "Which planet is fifth from the Sun?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -155,7 +155,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-006",
         skillId: "planet-order",
         question: "Which planet is sixth from the Sun?",
-
+        stage: "recognise",
         options: [
             "Saturn",
             "Jupiter",
@@ -182,7 +182,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-007",
         skillId: "planet-order",
         question: "Which planet is seventh from the Sun?",
-
+        stage: "recognise",
         options: [
             "Uranus",
             "Neptune",
@@ -209,7 +209,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-008",
         skillId: "planet-order",
         question: "Which planet is eighth from the Sun?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Uranus",
@@ -236,7 +236,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-009",
         skillId: "planet-order",
         question: "Which planet comes immediately after Mercury?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Earth",
@@ -262,7 +262,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-010",
         skillId: "planet-order",
         question: "Which planet comes immediately after Venus?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Mars",
@@ -288,7 +288,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-011",
         skillId: "planet-order",
         question: "Which planet comes immediately after Earth?",
-
+        stage: "recognise",
         options: [
             "Mars",
             "Jupiter",
@@ -314,7 +314,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-012",
         skillId: "planet-order",
         question: "Which planet comes immediately after Mars?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -340,7 +340,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-013",
         skillId: "planet-order",
         question: "Which planet comes immediately after Jupiter?",
-
+        stage: "recognise",
         options: [
             "Saturn",
             "Uranus",
@@ -366,7 +366,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-014",
         skillId: "planet-order",
         question: "Which planet comes immediately after Saturn?",
-
+        stage: "recognise",
         options: [
             "Uranus",
             "Neptune",
@@ -392,7 +392,7 @@ export const planetOrder: SkillContent = {
         id: "sci-planets-order-015",
         skillId: "planet-order",
         question: "Which planet comes immediately after Uranus?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Saturn",
@@ -418,8 +418,8 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-016",
         skillId: "planet-order",
         question: "Which planet comes immediately before Earth?",
-
-    options: [
+        stage: "recognise",
+        options: [
         "Venus",
         "Mercury",
         "Mars",
@@ -444,7 +444,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-017",
     skillId: "planet-order",
     question: "Which planet comes immediately before Mars?",
-
+    stage: "recognise",
     options: [
         "Earth",
         "Venus",
@@ -470,7 +470,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-018",
     skillId: "planet-order",
     question: "Which planet comes immediately before Jupiter?",
-
+    stage: "recognise",
     options: [
         "Mars",
         "Earth",
@@ -496,7 +496,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-019",
     skillId: "planet-order",
     question: "Which planet comes immediately before Saturn?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Mars",
@@ -522,7 +522,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-020",
     skillId: "planet-order",
     question: "Which planet comes immediately before Uranus?",
-
+    stage: "recognise",
     options: [
         "Saturn",
         "Jupiter",
@@ -548,7 +548,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-021",
     skillId: "planet-order",
     question: "Which planet comes immediately before Neptune?",
-
+    stage: "recognise",
     options: [
         "Uranus",
         "Saturn",
@@ -574,7 +574,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-022",
     skillId: "planet-order",
     question: "Which planet is between Mercury and Earth?",
-
+    stage: "recognise",
     options: [
         "Venus",
         "Mars",
@@ -600,7 +600,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-023",
     skillId: "planet-order",
     question: "Which planet is between Earth and Jupiter?",
-
+    stage: "recognise",
     options: [
         "Mars",
         "Venus",
@@ -626,7 +626,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-024",
     skillId: "planet-order",
     question: "Which planet is between Jupiter and Uranus?",
-
+    stage: "recognise",
     options: [
         "Saturn",
         "Mars",
@@ -652,7 +652,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-025",
     skillId: "planet-order",
     question: "Which planet is between Saturn and Neptune?",
-
+    stage: "recognise",
     options: [
         "Uranus",
         "Jupiter",
@@ -678,7 +678,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-026",
     skillId: "planet-order",
     question: "Which two planets come before Earth?",
-
+    stage: "recognise",
     options: [
         "Mercury and Venus",
         "Venus and Mars",
@@ -704,7 +704,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-027",
     skillId: "planet-order",
     question: "Which two planets come after Saturn?",
-
+    stage: "recognise",
     options: [
         "Uranus and Neptune",
         "Jupiter and Uranus",
@@ -730,7 +730,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-028",
     skillId: "planet-order",
     question: "Which planet is exactly in the middle of the eight planets?",
-
+    stage: "recognise",
     options: [
         "There isn't one.",
         "Earth",
@@ -757,7 +757,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-029",
     skillId: "planet-order",
     question: "If you travel away from the Sun, which planet do you reach after Neptune?",
-
+    stage: "recognise",
     options: [
         "No planet",
         "Mercury",
@@ -783,7 +783,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-030",
     skillId: "planet-order",
     question: "If you travel from Mercury towards Neptune, which planet do you visit second?",
-
+    stage: "recognise",
     options: [
         "Venus",
         "Earth",
@@ -808,7 +808,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-031",
     skillId: "planet-order",
     question: "What is the correct order of the first three planets?",
-
+    stage: "recognise",
     options: [
         "Mercury, Venus, Earth",
         "Mercury, Earth, Venus",
@@ -834,7 +834,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-032",
     skillId: "planet-order",
     question: "What is the correct order of the last three planets?",
-
+    stage: "recognise",
     options: [
         "Saturn, Uranus, Neptune",
         "Jupiter, Uranus, Neptune",
@@ -860,7 +860,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-033",
     skillId: "planet-order",
     question: "Which planet is four places after Mercury?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Mars",
@@ -887,7 +887,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-034",
     skillId: "planet-order",
     question: "Which planet is two places after Earth?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Mars",
@@ -914,7 +914,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-035",
     skillId: "planet-order",
     question: "Which planet is three places before Neptune?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Mars",
@@ -941,7 +941,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-036",
     skillId: "planet-order",
     question: "Mercury, Venus, Earth, ___, Jupiter. Which planet is missing?",
-
+    stage: "recognise",
     options: [
         "Mars",
         "Saturn",
@@ -967,7 +967,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-037",
     skillId: "planet-order",
     question: "Mercury, Venus, Earth, Mars, Jupiter, ___, Uranus. Which planet is missing?",
-
+    stage: "recognise",
     options: [
         "Saturn",
         "Neptune",
@@ -993,7 +993,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-038",
     skillId: "planet-order",
     question: "Earth is the third planet. What number is Mars?",
-
+    stage: "recognise",
     options: [
         "Fourth",
         "Second",
@@ -1019,7 +1019,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-039",
     skillId: "planet-order",
     question: "Jupiter is the fifth planet. What number is Saturn?",
-
+    stage: "recognise",
     options: [
         "Sixth",
         "Fourth",
@@ -1045,7 +1045,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-040",
     skillId: "planet-order",
     question: "Which statement is correct?",
-
+    stage: "recognise",
     options: [
         "Earth comes before Mars.",
         "Mars comes before Earth.",
@@ -1071,7 +1071,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-041",
     skillId: "planet-order",
     question: "Which statement is correct?",
-
+    stage: "recognise",
     options: [
         "Saturn comes after Jupiter.",
         "Saturn comes before Jupiter.",
@@ -1097,7 +1097,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-042",
     skillId: "planet-order",
     question: "Which statement is correct?",
-
+    stage: "recognise",
     options: [
         "Uranus comes before Neptune.",
         "Neptune comes before Uranus.",
@@ -1123,7 +1123,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-043",
     skillId: "planet-order",
     question: "Which pair of planets are next to each other?",
-
+    stage: "recognise",
     options: [
         "Mars and Jupiter",
         "Earth and Jupiter",
@@ -1149,7 +1149,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-044",
     skillId: "planet-order",
     question: "Which pair of planets are NOT next to each other?",
-
+    stage: "recognise",
     options: [
         "Earth and Jupiter",
         "Mercury and Venus",
@@ -1175,7 +1175,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-045",
     skillId: "planet-order",
     question: "Starting at Mercury and moving away from the Sun, which planet is fifth?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Mars",
@@ -1200,7 +1200,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-046",
     skillId: "planet-order",
     question: "Which planet is immediately before the last planet?",
-
+    stage: "recognise",
     options: [
         "Uranus",
         "Saturn",
@@ -1226,7 +1226,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-047",
     skillId: "planet-order",
     question: "Which planet is immediately after the first planet?",
-
+    stage: "recognise",
     options: [
         "Venus",
         "Earth",
@@ -1252,7 +1252,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-048",
     skillId: "planet-order",
     question: "Which list shows all eight planets in the correct order?",
-
+    stage: "recognise",
     options: [
         "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
         "Mercury, Earth, Venus, Mars, Jupiter, Saturn, Uranus, Neptune",
@@ -1279,7 +1279,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-049",
     skillId: "planet-order",
     question: "Which sentence is true?",
-
+    stage: "recognise",
     options: [
         "Mars is closer to the Sun than Jupiter.",
         "Jupiter is closer to the Sun than Mars.",
@@ -1306,7 +1306,7 @@ export const planetOrder: SkillContent = {
     id: "sci-planets-order-050",
     skillId: "planet-order",
     question: "Sofia says the planets are in this order: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Is she correct?",
-
+    stage: "recognise",
     options: [
         "Yes, that is the correct order.",
         "No, Earth and Mars should swap places.",

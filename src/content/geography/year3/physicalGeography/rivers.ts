@@ -20,7 +20,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-001",
         skillId: "rivers",
         question: "What is a river?",
-
+        stage: "recognise",
         options: [
             "A large natural flow of water",
             "A mountain",
@@ -42,7 +42,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-002",
         skillId: "rivers",
         question: "Where does a river usually begin?",
-
+        stage: "recognise",
         options: [
             "At its source",
             "At the sea",
@@ -64,7 +64,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-003",
         skillId: "rivers",
         question: "Where does a river usually end?",
-
+        stage: "recognise",
         options: [
             "At its mouth",
             "At its source",
@@ -86,7 +86,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-004",
         skillId: "rivers",
         question: "What does water in a river do?",
-
+        stage: "recognise",
         options: [
             "Flows downhill",
             "Always flows uphill",
@@ -108,7 +108,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-005",
         skillId: "rivers",
         question: "Which of these is a natural feature?",
-
+        stage: "recognise",
         options: [
             "River",
             "Motorway",
@@ -130,7 +130,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-006",
         skillId: "rivers",
         question: "What is the beginning of a river called?",
-
+        stage: "recognise",
         options: [
             "Source",
             "Mouth",
@@ -152,7 +152,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-007",
         skillId: "rivers",
         question: "What is the end of a river called?",
-
+        stage: "recognise",
         options: [
             "Mouth",
             "Source",
@@ -174,7 +174,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-008",
         skillId: "rivers",
         question: "Which colour is rivers usually shown in on maps?",
-
+        stage: "recognise",
         options: [
             "Blue",
             "Red",
@@ -196,7 +196,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-009",
         skillId: "rivers",
         question: "Which place is a river most likely to flow into?",
-
+        stage: "recognise",
         options: [
             "The sea",
             "A school",
@@ -218,7 +218,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-010",
         skillId: "rivers",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Rivers are natural features.",
             "Rivers always flow uphill.",
@@ -240,7 +240,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-011",
         skillId: "rivers",
         question: "Why do many towns and cities grow near rivers?",
-
+        stage: "recognise",
         options: [
             "Rivers provide water and transport.",
             "Rivers stop all rain.",
@@ -262,7 +262,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-012",
         skillId: "rivers",
         question: "Why does a river flow downhill?",
-
+        stage: "recognise",
         options: [
             "Gravity pulls the water downhill.",
             "The wind pushes it.",
@@ -284,7 +284,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-013",
         skillId: "rivers",
         question: "Why are rivers important for wildlife?",
-
+        stage: "recognise",
         options: [
             "Many plants and animals live in and around them.",
             "They stop animals moving.",
@@ -306,7 +306,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-014",
         skillId: "rivers",
         question: "What happens at the mouth of a river?",
-
+        stage: "recognise",
         options: [
             "The river joins the sea, a lake or another river.",
             "The river begins.",
@@ -328,7 +328,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-015",
         skillId: "rivers",
         question: "Why are rivers shown on maps?",
-
+        stage: "recognise",
         options: [
             "They are important natural features.",
             "They change every hour.",
@@ -350,7 +350,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-016",
         skillId: "rivers",
         question: "Which activity is most likely to happen on a river?",
-
+        stage: "recognise",
         options: [
             "Boating",
             "Flying aeroplanes",
@@ -372,7 +372,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-017",
         skillId: "rivers",
         question: "If you follow a river downstream, where are you travelling?",
-
+        stage: "recognise",
         options: [
             "Towards its mouth",
             "Towards its source",
@@ -394,7 +394,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-018",
         skillId: "rivers",
         question: "Which feature is most likely to be found beside a river?",
-
+        stage: "recognise",
         options: [
             "River bank",
             "Volcano",
@@ -416,7 +416,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-019",
         skillId: "rivers",
         question: "What is one reason farmers value rivers?",
-
+        stage: "recognise",
         options: [
             "They provide water for crops and animals.",
             "They build fences.",
@@ -438,7 +438,7 @@ export const rivers: SkillContent = {
         id: "geo-rivers-020",
         skillId: "rivers",
         question: "Which sentence best describes a river?",
-
+        stage: "recognise",
         options: [
             "A natural flow of water that begins at a source and ends at a mouth.",
             "A road for cars.",

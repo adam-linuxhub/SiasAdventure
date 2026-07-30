@@ -20,7 +20,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-001",
         skillId: "simpleCircuits",
         question: "What is needed for a simple electrical circuit to work?",
-
+        stage: "recognise",
         options: [
             "A complete circuit",
             "Only a battery",
@@ -42,7 +42,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-002",
         skillId: "simpleCircuits",
         question: "Which component provides electrical energy in a simple circuit?",
-
+        stage: "recognise",
         options: [
             "Battery",
             "Bulb",
@@ -64,7 +64,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-003",
         skillId: "simpleCircuits",
         question: "What do wires do in a circuit?",
-
+        stage: "recognise",
         options: [
             "Connect the components",
             "Store electricity",
@@ -86,7 +86,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-004",
         skillId: "simpleCircuits",
         question: "What does a bulb do in a circuit?",
-
+        stage: "recognise",
         options: [
             "Produces light",
             "Stores electricity",
@@ -108,7 +108,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-005",
         skillId: "simpleCircuits",
         question: "What is a switch used for?",
-
+        stage: "recognise",
         options: [
             "To open or close the circuit",
             "To make electricity",
@@ -130,7 +130,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-006",
         skillId: "simpleCircuits",
         question: "What happens when a circuit is complete?",
-
+        stage: "recognise",
         options: [
             "Electricity flows",
             "The battery disappears",
@@ -152,7 +152,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-007",
         skillId: "simpleCircuits",
         question: "What happens if there is a gap in a circuit?",
-
+        stage: "recognise",
         options: [
             "Electricity cannot flow",
             "The bulb gets brighter",
@@ -174,7 +174,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-008",
         skillId: "simpleCircuits",
         question: "Which component can turn a bulb on and off without removing the battery?",
-
+        stage: "recognise",
         options: [
             "Switch",
             "Wire",
@@ -196,7 +196,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-009",
         skillId: "simpleCircuits",
         question: "Which of these is part of a simple circuit?",
-
+        stage: "recognise",
         options: [
             "Battery",
             "Book",
@@ -218,7 +218,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-010",
         skillId: "simpleCircuits",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "A bulb lights when the circuit is complete.",
             "A bulb lights with only one wire.",
@@ -240,7 +240,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-011",
         skillId: "simpleCircuits",
         question: "Why does a bulb not light if one wire becomes disconnected?",
-
+        stage: "recognise",
         options: [
             "The circuit is incomplete.",
             "The battery becomes empty immediately.",
@@ -262,7 +262,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-012",
         skillId: "simpleCircuits",
         question: "Why is a battery important in a simple circuit?",
-
+        stage: "recognise",
         options: [
             "It provides electrical energy.",
             "It connects the wires.",
@@ -284,7 +284,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-013",
         skillId: "simpleCircuits",
         question: "A switch is opened. What happens?",
-
+        stage: "recognise",
         options: [
             "The circuit is broken and the bulb goes out.",
             "The bulb becomes brighter.",
@@ -306,7 +306,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-014",
         skillId: "simpleCircuits",
         question: "Which group contains only circuit components?",
-
+        stage: "recognise",
         options: [
             "Battery, bulb, wire and switch",
             "Battery, pencil and ruler",
@@ -328,7 +328,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-015",
         skillId: "simpleCircuits",
         question: "Why must all the wires be connected properly?",
-
+        stage: "recognise",
         options: [
             "So electricity can flow around the circuit.",
             "To make the battery heavier.",
@@ -350,7 +350,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-016",
         skillId: "simpleCircuits",
         question: "Which change would stop a working circuit?",
-
+        stage: "recognise",
         options: [
             "Removing one wire",
             "Using the same battery",
@@ -372,7 +372,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-017",
         skillId: "simpleCircuits",
         question: "What is the purpose of a complete circuit?",
-
+        stage: "recognise",
         options: [
             "To allow electricity to flow from the battery through the components and back again.",
             "To keep the battery warm.",
@@ -394,7 +394,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-018",
         skillId: "simpleCircuits",
         question: "Which component controls the flow of electricity?",
-
+        stage: "recognise",
         options: [
             "Switch",
             "Bulb",
@@ -416,7 +416,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-019",
         skillId: "simpleCircuits",
         question: "Why does the bulb light when the switch is closed?",
-
+        stage: "recognise",
         options: [
             "Closing the switch completes the circuit.",
             "The bulb creates electricity.",
@@ -438,7 +438,7 @@ export const simpleCircuits: SkillContent = {
         id: "sci-circuit-020",
         skillId: "simpleCircuits",
         question: "Which sentence best describes a simple electrical circuit?",
-
+        stage: "recognise",
         options: [
             "A complete loop of connected components that allows electricity to flow from a battery through devices such as a bulb.",
             "A collection of electrical appliances.",

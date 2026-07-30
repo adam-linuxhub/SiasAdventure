@@ -20,7 +20,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-001",
         skillId: "muscles",
         question: "What do muscles help your body do?",
-
+        stage: "recognise",
         options: [
             "Move",
             "Make food",
@@ -47,7 +47,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-002",
         skillId: "muscles",
         question: "Muscles work together with which part of the body?",
-
+        stage: "recognise",
         options: [
             "The skeleton",
             "The hair",
@@ -74,7 +74,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-003",
         skillId: "muscles",
         question: "Which activity uses your muscles?",
-
+        stage: "recognise",
         options: [
             "Running",
             "Sleeping",
@@ -101,7 +101,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-004",
         skillId: "muscles",
         question: "What happens when muscles pull on bones?",
-
+        stage: "recognise",
         options: [
             "The body moves",
             "The bones disappear",
@@ -128,7 +128,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-005",
         skillId: "muscles",
         question: "Which body part contains muscles?",
-
+        stage: "recognise",
         options: [
             "Your arms",
             "Only your head",
@@ -154,7 +154,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-006",
         skillId: "muscles",
         question: "Why are muscles important?",
-
+        stage: "recognise",
         options: [
             "They help us move",
             "They make sunlight",
@@ -181,7 +181,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-007",
         skillId: "muscles",
         question: "Which of these actions needs muscles?",
-
+        stage: "recognise",
         options: [
             "Jumping",
             "Growing a flower",
@@ -208,7 +208,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-008",
         skillId: "muscles",
         question: "What do muscles pull on to make you move?",
-
+        stage: "recognise",
         options: [
             "Bones",
             "Hair",
@@ -235,7 +235,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-009",
         skillId: "muscles",
         question: "Which pair works together to help you move?",
-
+        stage: "recognise",
         options: [
             "Muscles and skeleton",
             "Hair and nails",
@@ -263,7 +263,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-010",
         skillId: "muscles",
         question: "Which statement is correct?",
-
+        stage: "recognise",
         options: [
             "Muscles help animals move.",
             "Muscles make food.",
@@ -289,8 +289,8 @@ export const muscles: SkillContent = {
         id: "sci-muscles-011",
             skillId: "muscles",
             question: "Why do muscles need bones to help the body move?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "Muscles pull on bones to create movement.",
             "Bones pull on muscles.",
             "Bones make muscles grow.",
@@ -317,7 +317,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-012",
         skillId: "muscles",
         question: "Which activity uses muscles?",
-
+        stage: "recognise",
         options: [
             "Climbing a ladder",
             "Growing a flower",
@@ -344,7 +344,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-013",
         skillId: "muscles",
         question: "What happens when a muscle contracts?",
-
+        stage: "recognise",
         options: [
             "It becomes shorter and pulls on a bone.",
             "It becomes longer and pushes a bone.",
@@ -371,7 +371,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-014",
         skillId: "muscles",
         question: "Which body parts work together to help you kick a ball?",
-
+        stage: "recognise",
         options: [
             "Muscles and bones",
             "Hair and skin",
@@ -398,7 +398,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-015",
         skillId: "muscles",
         question: "Which statement about muscles is true?",
-
+        stage: "recognise",
         options: [
             "Muscles help animals move.",
             "Muscles make sunlight.",
@@ -424,7 +424,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-016",
         skillId: "muscles",
         question: "Why do people need muscles?",
-
+        stage: "recognise",
         options: [
             "To move different parts of their body",
             "To make food",
@@ -451,7 +451,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-017",
         skillId: "muscles",
         question: "Which action would be difficult without muscles?",
-
+        stage: "recognise",
         options: [
             "Walking",
             "Sleeping",
@@ -478,7 +478,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-018",
         skillId: "muscles",
         question: "Which body part do muscles pull on?",
-
+        stage: "recognise",
         options: [
             "Bones",
             "Hair",
@@ -505,7 +505,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-019",
         skillId: "muscles",
         question: "A runner is sprinting. Which body systems are working together?",
-
+        stage: "recognise",
         options: [
             "Muscles and skeleton",
             "Hair and nails",
@@ -533,7 +533,7 @@ export const muscles: SkillContent = {
         id: "sci-muscles-020",
         skillId: "muscles",
         question: "Which sentence best describes the job of muscles?",
-
+        stage: "recognise",
         options: [
             "Muscles contract to pull on bones and help the body move.",
             "Muscles make food from sunlight.",

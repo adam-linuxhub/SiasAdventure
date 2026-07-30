@@ -20,7 +20,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-001",
         skillId: "mountainsAndHills",
         question: "What is a mountain?",
-
+        stage: "recognise",
         options: [
             "A very high area of land",
             "A river",
@@ -42,7 +42,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-002",
         skillId: "mountainsAndHills",
         question: "What is a hill?",
-
+        stage: "recognise",
         options: [
             "An area of raised land that is lower than a mountain",
             "A deep lake",
@@ -64,7 +64,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-003",
         skillId: "mountainsAndHills",
         question: "Which is usually taller?",
-
+        stage: "recognise",
         options: [
             "A mountain",
             "A hill",
@@ -86,7 +86,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-004",
         skillId: "mountainsAndHills",
         question: "Which of these is a natural feature?",
-
+        stage: "recognise",
         options: [
             "Mountain",
             "Motorway",
@@ -108,7 +108,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-005",
         skillId: "mountainsAndHills",
         question: "What is the top of a mountain called?",
-
+        stage: "recognise",
         options: [
             "Peak",
             "Mouth",
@@ -130,7 +130,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-006",
         skillId: "mountainsAndHills",
         question: "Mountains are usually...",
-
+        stage: "recognise",
         options: [
             "Steeper than hills",
             "Flatter than hills",
@@ -152,7 +152,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-007",
         skillId: "mountainsAndHills",
         question: "Which place is most likely to have mountains?",
-
+        stage: "recognise",
         options: [
             "The countryside",
             "A shopping centre",
@@ -174,7 +174,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-008",
         skillId: "mountainsAndHills",
         question: "Which activity is often enjoyed on mountains?",
-
+        stage: "recognise",
         options: [
             "Walking",
             "Driving trains",
@@ -196,7 +196,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-009",
         skillId: "mountainsAndHills",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Hills are usually lower than mountains.",
             "All hills are taller than mountains.",
@@ -218,7 +218,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-010",
         skillId: "mountainsAndHills",
         question: "Mountains and hills are examples of...",
-
+        stage: "recognise",
         options: [
             "Landforms",
             "Buildings",
@@ -240,7 +240,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-011",
         skillId: "mountainsAndHills",
         question: "Why do mountains often have cooler weather than low land?",
-
+        stage: "recognise",
         options: [
             "Higher places are usually colder.",
             "Mountains make ice every day.",
@@ -262,7 +262,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-012",
         skillId: "mountainsAndHills",
         question: "Why do people visit mountains?",
-
+        stage: "recognise",
         options: [
             "To enjoy the scenery and outdoor activities",
             "To see traffic lights",
@@ -284,7 +284,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-013",
         skillId: "mountainsAndHills",
         question: "How are hills different from mountains?",
-
+        stage: "recognise",
         options: [
             "Hills are usually lower and less steep.",
             "Hills are always covered in snow.",
@@ -306,7 +306,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-014",
         skillId: "mountainsAndHills",
         question: "Why are mountains important for wildlife?",
-
+        stage: "recognise",
         options: [
             "They provide habitats for many plants and animals.",
             "Nothing can live on mountains.",
@@ -328,7 +328,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-015",
         skillId: "mountainsAndHills",
         question: "Which feature would you expect to find on a mountain?",
-
+        stage: "recognise",
         options: [
             "A peak",
             "A harbour",
@@ -350,7 +350,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-016",
         skillId: "mountainsAndHills",
         question: "Which landform would usually be easier to climb?",
-
+        stage: "recognise",
         options: [
             "A hill",
             "A mountain",
@@ -372,7 +372,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-017",
         skillId: "mountainsAndHills",
         question: "Why are mountains shown on maps?",
-
+        stage: "recognise",
         options: [
             "They are important natural features.",
             "They change every day.",
@@ -394,7 +394,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-018",
         skillId: "mountainsAndHills",
         question: "Which of these is most likely to be found on a mountain?",
-
+        stage: "recognise",
         options: [
             "Rocky slopes",
             "Coral reef",
@@ -416,7 +416,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-019",
         skillId: "mountainsAndHills",
         question: "Which statement best compares hills and mountains?",
-
+        stage: "recognise",
         options: [
             "Both are raised land, but mountains are usually higher.",
             "Mountains are always flat.",
@@ -438,7 +438,7 @@ export const mountainsAndHills: SkillContent = {
         id: "geo-mountains-020",
         skillId: "mountainsAndHills",
         question: "Which sentence best describes mountains and hills?",
-
+        stage: "recognise",
         options: [
             "They are natural raised landforms that vary in height and shape.",
             "They are buildings made from stone.",

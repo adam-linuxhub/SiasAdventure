@@ -20,7 +20,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-001",
         skillId: "solidsLiquidsGases",
         question: "Which state of matter has a fixed shape?",
-
+        stage: "recognise",
         options: [
             "Solid",
             "Liquid",
@@ -42,7 +42,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-002",
         skillId: "solidsLiquidsGases",
         question: "Which state of matter takes the shape of its container but keeps the same volume?",
-
+        stage: "recognise",
         options: [
             "Liquid",
             "Solid",
@@ -64,7 +64,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-003",
         skillId: "solidsLiquidsGases",
         question: "Which state of matter spreads out to fill all the space available?",
-
+        stage: "recognise",
         options: [
             "Gas",
             "Solid",
@@ -86,7 +86,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-004",
         skillId: "solidsLiquidsGases",
         question: "Which of these is a solid?",
-
+        stage: "recognise",
         options: [
             "Brick",
             "Milk",
@@ -108,7 +108,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-005",
         skillId: "solidsLiquidsGases",
         question: "Which of these is a liquid?",
-
+        stage: "recognise",
         options: [
             "Orange juice",
             "Wood",
@@ -130,7 +130,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-006",
         skillId: "solidsLiquidsGases",
         question: "Which of these is a gas?",
-
+        stage: "recognise",
         options: [
             "Oxygen",
             "Ice",
@@ -152,7 +152,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-007",
         skillId: "solidsLiquidsGases",
         question: "What happens when you pour water into a cup?",
-
+        stage: "recognise",
         options: [
             "It takes the shape of the cup.",
             "It keeps its own shape.",
@@ -174,7 +174,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-008",
         skillId: "solidsLiquidsGases",
         question: "Which state of matter can usually be poured?",
-
+        stage: "recognise",
         options: [
             "Liquid",
             "Solid",
@@ -196,7 +196,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-009",
         skillId: "solidsLiquidsGases",
         question: "Which state of matter is air?",
-
+        stage: "recognise",
         options: [
             "Gas",
             "Solid",
@@ -218,7 +218,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-010",
         skillId: "solidsLiquidsGases",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Solids usually keep their own shape.",
             "Liquids always keep their own shape.",
@@ -240,7 +240,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-011",
         skillId: "solidsLiquidsGases",
         question: "Why does water change shape when poured into different containers?",
-
+        stage: "recognise",
         options: [
             "It is a liquid.",
             "It is a solid.",
@@ -262,7 +262,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-012",
         skillId: "solidsLiquidsGases",
         question: "Why does a balloon get bigger when you blow into it?",
-
+        stage: "recognise",
         options: [
             "The gas inside spreads out.",
             "The gas becomes a liquid.",
@@ -284,7 +284,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-013",
         skillId: "solidsLiquidsGases",
         question: "Which list contains only solids?",
-
+        stage: "recognise",
         options: [
             "Stone, pencil, spoon",
             "Milk, juice, water",
@@ -306,7 +306,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-014",
         skillId: "solidsLiquidsGases",
         question: "Which list contains only liquids?",
-
+        stage: "recognise",
         options: [
             "Milk, oil, water",
             "Air, oxygen, helium",
@@ -328,7 +328,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-015",
         skillId: "solidsLiquidsGases",
         question: "Which list contains only gases?",
-
+        stage: "recognise",
         options: [
             "Oxygen, helium, carbon dioxide",
             "Water, milk, oil",
@@ -350,7 +350,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-016",
         skillId: "solidsLiquidsGases",
         question: "Which property belongs to gases?",
-
+        stage: "recognise",
         options: [
             "They spread out to fill their container.",
             "They always keep the same shape.",
@@ -372,7 +372,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-017",
         skillId: "solidsLiquidsGases",
         question: "A cube of ice is moved from one plate to another. What happens?",
-
+        stage: "recognise",
         options: [
             "It keeps the same shape.",
             "It takes the shape of the new plate.",
@@ -394,7 +394,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-018",
         skillId: "solidsLiquidsGases",
         question: "Which statement compares solids and liquids correctly?",
-
+        stage: "recognise",
         options: [
             "Both have a fixed volume, but only solids have a fixed shape.",
             "Both fill the whole container.",
@@ -416,7 +416,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-019",
         skillId: "solidsLiquidsGases",
         question: "Why is steam able to spread through a room?",
-
+        stage: "recognise",
         options: [
             "It is a gas.",
             "It is a solid.",
@@ -438,7 +438,7 @@ export const solidsLiquidsGases: SkillContent = {
         id: "sci-states-020",
         skillId: "solidsLiquidsGases",
         question: "Which sentence best describes the three states of matter?",
-
+        stage: "recognise",
         options: [
             "Solids keep their shape, liquids flow and gases spread out to fill their container.",
             "Solids and liquids always behave the same way.",

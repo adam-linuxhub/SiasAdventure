@@ -21,7 +21,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "What is an ecosystem?",
-
+        stage: "recognise",
         options: [
             "Living things interacting with their environment",
             "Only animals in an area",
@@ -44,7 +44,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "Why are ecosystems important?",
-
+        stage: "recognise",
         options: [
             "They provide homes and resources for living things",
             "They prevent all life",
@@ -67,7 +67,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "What is biodiversity?",
-
+        stage: "recognise",
         options: [
             "The variety of living things in an area",
             "The amount of rainfall",
@@ -90,7 +90,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "Why is biodiversity important?",
-
+        stage: "recognise",
         options: [
             "Different species help keep ecosystems healthy",
             "It stops all plants growing",
@@ -113,7 +113,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "What is a habitat?",
-
+        stage: "recognise",
         options: [
             "The place where a living thing lives",
             "A type of weather",
@@ -136,7 +136,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "How can humans damage habitats?",
-
+        stage: "recognise",
         options: [
             "By activities such as deforestation and pollution",
             "By protecting nature",
@@ -159,7 +159,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "What is deforestation?",
-
+        stage: "recognise",
         options: [
             "The removal of large areas of forest",
             "The planting of trees",
@@ -182,7 +182,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "Why can deforestation be harmful?",
-
+        stage: "recognise",
         options: [
             "It can destroy habitats for plants and animals",
             "It creates more habitats",
@@ -205,7 +205,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "What is pollution?",
-
+        stage: "recognise",
         options: [
             "Harmful substances entering the environment",
             "Clean water",
@@ -228,7 +228,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "How can pollution affect animals?",
-
+        stage: "recognise",
         options: [
             "It can harm their habitats and health",
             "It always helps them",
@@ -251,7 +251,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "What does conservation mean?",
-
+        stage: "recognise",
         options: [
             "Protecting and caring for the environment",
             "Destroying habitats",
@@ -274,7 +274,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "How can people protect ecosystems?",
-
+        stage: "recognise",
         options: [
             "Reduce pollution and protect habitats",
             "Destroy forests",
@@ -297,7 +297,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "What is an endangered species?",
-
+        stage: "recognise",
         options: [
             "A species at risk of becoming extinct",
             "A common animal",
@@ -320,7 +320,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "What does extinct mean?",
-
+        stage: "recognise",
         options: [
             "A species no longer exists",
             "A species has moved location",
@@ -343,7 +343,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "Why are national parks created?",
-
+        stage: "recognise",
         options: [
             "To protect important natural areas",
             "To remove all wildlife",
@@ -366,7 +366,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "Why are trees important in ecosystems?",
-
+        stage: "recognise",
         options: [
             "They provide habitats and help absorb carbon dioxide",
             "They stop all animals living",
@@ -389,7 +389,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "How can people reduce pollution?",
-
+        stage: "recognise",
         options: [
             "Recycle, reuse and reduce waste",
             "Throw rubbish into rivers",
@@ -412,7 +412,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "Why should habitats be protected?",
-
+        stage: "recognise",
         options: [
             "To help plants and animals survive",
             "To remove biodiversity",
@@ -435,7 +435,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "How can communities help the environment?",
-
+        stage: "recognise",
         options: [
             "By working together to protect nature",
             "By increasing pollution",
@@ -458,7 +458,7 @@ export const protectingEcosystems: SkillContent = {
         skillId: "protectingEcosystems",
         question:
             "Which sentence best describes protecting ecosystems?",
-
+        stage: "recognise",
         options: [
             "Protecting ecosystems helps keep plants, animals and environments healthy",
             "Ecosystems do not need protection",

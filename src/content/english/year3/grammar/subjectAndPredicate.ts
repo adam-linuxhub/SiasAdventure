@@ -20,7 +20,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-001",
         skillId: "subjectAndPredicate",
         question: "In the sentence 'The cat slept.', what is the subject?",
-
+        stage: "recognise",
         options: [
             "The cat",
             "slept",
@@ -42,7 +42,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-002",
         skillId: "subjectAndPredicate",
         question: "In the sentence 'The dog barked loudly.', what is the predicate?",
-
+        stage: "recognise",
         options: [
             "barked loudly",
             "The dog",
@@ -64,7 +64,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-003",
         skillId: "subjectAndPredicate",
         question: "Which is the subject in 'Emma painted a picture.'?",
-
+        stage: "recognise",
         options: [
             "Emma",
             "painted",
@@ -86,7 +86,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-004",
         skillId: "subjectAndPredicate",
         question: "Which is the predicate in 'Birds sing every morning.'?",
-
+        stage: "recognise",
         options: [
             "sing every morning",
             "Birds",
@@ -108,7 +108,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-005",
         skillId: "subjectAndPredicate",
         question: "Every complete sentence needs...",
-
+        stage: "recognise",
         options: [
             "a subject and a predicate",
             "two verbs",
@@ -130,7 +130,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-006",
         skillId: "subjectAndPredicate",
         question: "Which is the subject in 'The children laughed.'?",
-
+        stage: "recognise",
         options: [
             "The children",
             "laughed",
@@ -152,7 +152,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-007",
         skillId: "subjectAndPredicate",
         question: "Which is the predicate in 'My brother plays football.'?",
-
+        stage: "recognise",
         options: [
             "plays football",
             "My brother",
@@ -174,7 +174,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-008",
         skillId: "subjectAndPredicate",
         question: "Which sentence has both a subject and a predicate?",
-
+        stage: "recognise",
         options: [
             "The rabbit hopped.",
             "The rabbit",
@@ -196,7 +196,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-009",
         skillId: "subjectAndPredicate",
         question: "Which is NOT a complete sentence?",
-
+        stage: "recognise",
         options: [
             "The tall tree",
             "The tall tree grew.",
@@ -218,7 +218,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-010",
         skillId: "subjectAndPredicate",
         question: "In 'Tom ran home.', who is the subject?",
-
+        stage: "recognise",
         options: [
             "Tom",
             "ran",
@@ -240,7 +240,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-011",
         skillId: "subjectAndPredicate",
         question: "In 'The red kite flew high.', what is the predicate?",
-
+        stage: "recognise",
         options: [
             "flew high",
             "The red kite",
@@ -262,7 +262,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-012",
         skillId: "subjectAndPredicate",
         question: "In 'Our teacher read a story.', what is the subject?",
-
+        stage: "recognise",
         options: [
             "Our teacher",
             "read",
@@ -284,7 +284,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-013",
         skillId: "subjectAndPredicate",
         question: "Which sentence has the subject 'The birds'?",
-
+        stage: "recognise",
         options: [
             "The birds built a nest.",
             "Built a nest.",
@@ -306,7 +306,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-014",
         skillId: "subjectAndPredicate",
         question: "Which part is the predicate in 'My friends visited the museum.'?",
-
+        stage: "recognise",
         options: [
             "visited the museum",
             "My friends",
@@ -328,7 +328,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-015",
         skillId: "subjectAndPredicate",
         question: "What does the predicate tell us?",
-
+        stage: "recognise",
         options: [
             "What the subject does or what happens",
             "Who the sentence is about",
@@ -350,7 +350,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-016",
         skillId: "subjectAndPredicate",
         question: "What does the subject tell us?",
-
+        stage: "recognise",
         options: [
             "Who or what the sentence is about",
             "What action happened",
@@ -372,7 +372,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-017",
         skillId: "subjectAndPredicate",
         question: "Which sentence has a compound subject?",
-
+        stage: "recognise",
         options: [
             "Jack and Mia played football.",
             "Jack played football.",
@@ -394,7 +394,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-018",
         skillId: "subjectAndPredicate",
         question: "Which sentence has the predicate 'jumped over the fence'?",
-
+        stage: "recognise",
         options: [
             "The horse jumped over the fence.",
             "The horse.",
@@ -416,7 +416,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-019",
         skillId: "subjectAndPredicate",
         question: "Choose the complete sentence.",
-
+        stage: "recognise",
         options: [
             "The baby slept peacefully.",
             "The sleepy baby",
@@ -438,7 +438,7 @@ export const subjectAndPredicate: SkillContent = {
         id: "eng-subpred-020",
         skillId: "subjectAndPredicate",
         question: "Why are subjects and predicates important?",
-
+        stage: "recognise",
         options: [
             "They help make complete sentences.",
             "They replace punctuation.",

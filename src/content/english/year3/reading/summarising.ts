@@ -21,7 +21,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Read the passage:\n\nTom woke up early. He brushed his teeth, ate breakfast and walked to school.\n\nWhich is the best summary?",
-
+        stage: "recognise",
         options: [
             "Tom got ready for school.",
             "Tom brushed his teeth.",
@@ -44,7 +44,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "What is a summary?",
-
+        stage: "recognise",
         options: [
             "A short explanation of the main points",
             "A copy of every sentence",
@@ -67,7 +67,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Read the passage:\n\nAva planted seeds in her garden. She watered them every day. Soon, colourful flowers grew.\n\nWhich is the best summary?",
-
+        stage: "recognise",
         options: [
             "Ava grew flowers by planting and caring for seeds.",
             "Ava used a watering can.",
@@ -90,7 +90,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "When writing a summary, which information should you include?",
-
+        stage: "recognise",
         options: [
             "The most important ideas",
             "Every single detail",
@@ -113,7 +113,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Read the passage:\n\nThe puppy was hungry. Sam gave it some food and fresh water. The puppy wagged its tail happily.\n\nWhich is the best summary?",
-
+        stage: "recognise",
         options: [
             "Sam cared for a hungry puppy.",
             "The puppy wagged its tail.",
@@ -136,7 +136,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Which should you remove when writing a summary?",
-
+        stage: "recognise",
         options: [
             "Unimportant details",
             "The main idea",
@@ -159,7 +159,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Read the passage:\n\nThe castle had tall towers, stone walls and a large wooden door. It was built hundreds of years ago.\n\nWhich is the best summary?",
-
+        stage: "recognise",
         options: [
             "The castle was an old building with strong features.",
             "The castle had a wooden door.",
@@ -182,7 +182,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Which word means the same as 'main idea'?",
-
+        stage: "recognise",
         options: [
             "Key point",
             "Tiny detail",
@@ -205,7 +205,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Read the passage:\n\nBen trained every week for the race. He practised running and improved his speed.\n\nWhich is the best summary?",
-
+        stage: "recognise",
         options: [
             "Ben prepared for a race through practice.",
             "Ben ran every week.",
@@ -228,7 +228,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Why do readers write summaries?",
-
+        stage: "recognise",
         options: [
             "To show they understand the important parts of a text",
             "To make the story longer",
@@ -251,7 +251,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Read the passage:\n\nThe Earth travels around the Sun. It takes one year to complete its journey. This movement causes the seasons.\n\nWhich is the best summary?",
-
+        stage: "recognise",
         options: [
             "Earth's movement around the Sun causes seasons.",
             "Earth travels around the Sun.",
@@ -274,7 +274,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Read the passage:\n\nThe rainforest is home to many plants and animals. Some animals cannot be found anywhere else in the world.\n\nWhich is the best summary?",
-
+        stage: "recognise",
         options: [
             "Rainforests are important habitats for many living things.",
             "Rainforests have plants.",
@@ -297,7 +297,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Which sentence would be least useful in a summary?",
-
+        stage: "recognise",
         options: [
             "A tiny detail that does not affect the main idea",
             "The main event",
@@ -320,7 +320,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Read the passage:\n\nA group of children cleaned a local park. They collected rubbish and planted flowers.\n\nWhich is the best summary?",
-
+        stage: "recognise",
         options: [
             "Children improved their local park.",
             "Children collected rubbish.",
@@ -343,7 +343,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "A good summary should usually be:",
-
+        stage: "recognise",
         options: [
             "Shorter than the original text",
             "Longer than the original text",
@@ -366,7 +366,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Read the passage:\n\nThe astronaut put on a spacesuit, entered the rocket and travelled into space.\n\nWhich is the best summary?",
-
+        stage: "recognise",
         options: [
             "An astronaut travelled into space.",
             "The astronaut wore a spacesuit.",
@@ -389,7 +389,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "What question can help you find the main idea?",
-
+        stage: "recognise",
         options: [
             "What is this text mostly about?",
             "What is the longest word?",
@@ -412,7 +412,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Read the passage:\n\nDogs make good pets because they can be friendly, loyal and helpful companions.\n\nWhich is the best summary?",
-
+        stage: "recognise",
         options: [
             "Dogs can be good companions.",
             "Dogs have fur.",
@@ -435,7 +435,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Which skill helps you write a good summary?",
-
+        stage: "recognise",
         options: [
             "Identifying important information",
             "Memorising every word",
@@ -458,7 +458,7 @@ export const summarising: SkillContent = {
         skillId: "summarising",
         question:
             "Which summary is best for a story about a child learning to ride a bike?",
-
+        stage: "recognise",
         options: [
             "A child practised and learned to ride a bike.",
             "The bike had two wheels.",

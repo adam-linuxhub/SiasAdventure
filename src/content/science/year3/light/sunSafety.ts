@@ -20,7 +20,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-001",
         skillId: "sunSafety",
         question: "Why should you never look directly at the Sun?",
-
+        stage: "recognise",
         options: [
             "It can damage your eyes",
             "It makes your hair wet",
@@ -42,7 +42,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-002",
         skillId: "sunSafety",
         question: "What should you wear to help protect your eyes on a sunny day?",
-
+        stage: "recognise",
         options: [
             "Sunglasses",
             "Slippers",
@@ -64,7 +64,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-003",
         skillId: "sunSafety",
         question: "Which item helps protect your face from the Sun?",
-
+        stage: "recognise",
         options: [
             "A wide-brimmed hat",
             "A ruler",
@@ -86,7 +86,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-004",
         skillId: "sunSafety",
         question: "What should you put on your skin before spending time in strong sunshine?",
-
+        stage: "recognise",
         options: [
             "Sunscreen",
             "Soap",
@@ -108,7 +108,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-005",
         skillId: "sunSafety",
         question: "Where is a good place to stay on a very sunny day?",
-
+        stage: "recognise",
         options: [
             "In the shade",
             "On a hot roof",
@@ -130,7 +130,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-006",
         skillId: "sunSafety",
         question: "Which of these is safe to do?",
-
+        stage: "recognise",
         options: [
             "Wear a hat in bright sunshine",
             "Stare at the Sun",
@@ -152,7 +152,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-007",
         skillId: "sunSafety",
         question: "Why do people wear sunglasses on sunny days?",
-
+        stage: "recognise",
         options: [
             "To help protect their eyes",
             "To keep their ears warm",
@@ -174,7 +174,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-008",
         skillId: "sunSafety",
         question: "What can happen if your skin gets too much Sun?",
-
+        stage: "recognise",
         options: [
             "It can become sunburnt",
             "It turns into stone",
@@ -196,7 +196,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-009",
         skillId: "sunSafety",
         question: "Which activity is safest on a very hot sunny day?",
-
+        stage: "recognise",
         options: [
             "Playing in the shade",
             "Looking at the Sun",
@@ -218,7 +218,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-010",
         skillId: "sunSafety",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "The Sun can damage your eyes if you look at it directly.",
             "It is safe to stare at the Sun.",
@@ -240,7 +240,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-011",
         skillId: "sunSafety",
         question: "Why is shade cooler than standing in direct sunlight?",
-
+        stage: "recognise",
         options: [
             "Less sunlight reaches you",
             "There is no air",
@@ -262,7 +262,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-012",
         skillId: "sunSafety",
         question: "Which combination gives the best protection on a sunny day?",
-
+        stage: "recognise",
         options: [
             "Hat, sunglasses and sunscreen",
             "Hat only",
@@ -284,7 +284,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-013",
         skillId: "sunSafety",
         question: "Why should children follow sun safety advice?",
-
+        stage: "recognise",
         options: [
             "To protect their eyes and skin",
             "To make the Sun brighter",
@@ -306,7 +306,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-014",
         skillId: "sunSafety",
         question: "Which action is NOT safe?",
-
+        stage: "recognise",
         options: [
             "Looking directly at the Sun",
             "Wearing sunscreen",
@@ -328,7 +328,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-015",
         skillId: "sunSafety",
         question: "A child is going to the beach on a sunny day. What should they take?",
-
+        stage: "recognise",
         options: [
             "A hat and sunscreen",
             "A torch",
@@ -350,7 +350,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-016",
         skillId: "sunSafety",
         question: "Why shouldn't you look at the Sun through binoculars or a telescope?",
-
+        stage: "recognise",
         options: [
             "It can cause even more damage to your eyes",
             "The Sun becomes smaller",
@@ -372,7 +372,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-017",
         skillId: "sunSafety",
         question: "What is the safest choice during very strong sunshine?",
-
+        stage: "recognise",
         options: [
             "Play in a shaded area",
             "Look towards the Sun",
@@ -394,7 +394,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-018",
         skillId: "sunSafety",
         question: "Why do teachers remind children to wear hats outside in summer?",
-
+        stage: "recognise",
         options: [
             "To help protect them from the Sun",
             "To make them taller",
@@ -416,7 +416,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-019",
         skillId: "sunSafety",
         question: "Which statement about the Sun is correct?",
-
+        stage: "recognise",
         options: [
             "It is our main natural source of light, but it can also damage our eyes.",
             "It is safe to stare at whenever you want.",
@@ -438,7 +438,7 @@ export const sunSafety: SkillContent = {
         id: "sci-sunsafety-020",
         skillId: "sunSafety",
         question: "Which sentence best explains good sun safety?",
-
+        stage: "recognise",
         options: [
             "Protect your eyes and skin by wearing sunscreen, a hat, sunglasses and staying in the shade.",
             "Look at the Sun for a few seconds each day.",

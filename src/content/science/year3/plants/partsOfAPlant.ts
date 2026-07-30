@@ -20,7 +20,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-001",
         skillId: "parts-of-a-plant",
         question: "Which part of a plant grows underground?",
-
+        stage: "recognise",
         options: [
             "Roots",
             "Flower",
@@ -46,7 +46,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-002",
         skillId: "parts-of-a-plant",
         question: "Which part of a plant usually grows above the ground and supports the plant?",
-
+        stage: "recognise",
         options: [
             "Stem",
             "Root",
@@ -72,7 +72,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-003",
         skillId: "parts-of-a-plant",
         question: "Which part of a plant makes food using sunlight?",
-
+        stage: "recognise",
         options: [
             "Leaves",
             "Roots",
@@ -98,7 +98,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-004",
         skillId: "parts-of-a-plant",
         question: "Which part of a plant often has colourful petals?",
-
+        stage: "recognise",
         options: [
             "Flower",
             "Root",
@@ -124,7 +124,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-005",
         skillId: "parts-of-a-plant",
         question: "Which part of a plant can grow into a new plant?",
-
+        stage: "recognise",
         options: [
             "Seed",
             "Leaf",
@@ -150,7 +150,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-006",
         skillId: "parts-of-a-plant",
         question: "What is the main job of roots?",
-
+        stage: "recognise",
         options: [
             "Hold the plant in the ground and absorb water",
             "Make seeds",
@@ -176,7 +176,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-007",
         skillId: "parts-of-a-plant",
         question: "What is the main job of the stem?",
-
+        stage: "recognise",
         options: [
             "Support the plant and carry water",
             "Make seeds",
@@ -202,7 +202,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-008",
         skillId: "parts-of-a-plant",
         question: "What is the main job of leaves?",
-
+        stage: "recognise",
         options: [
             "Make food for the plant",
             "Hold the plant in the soil",
@@ -228,7 +228,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-009",
         skillId: "parts-of-a-plant",
         question: "What is the main job of flowers?",
-
+        stage: "recognise",
         options: [
             "Help the plant make seeds",
             "Hold the plant upright",
@@ -254,7 +254,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-010",
         skillId: "parts-of-a-plant",
         question: "Which part of the plant usually absorbs water from the soil?",
-
+        stage: "recognise",
         options: [
             "Roots",
             "Leaves",
@@ -280,7 +280,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-011",
         skillId: "parts-of-a-plant",
         question: "Which part carries water from the roots to the leaves?",
-
+        stage: "recognise",
         options: [
             "Stem",
             "Flower",
@@ -306,7 +306,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-012",
         skillId: "parts-of-a-plant",
         question: "Which part uses sunlight to make food?",
-
+        stage: "recognise",
         options: [
             "Leaves",
             "Roots",
@@ -332,7 +332,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-013",
         skillId: "parts-of-a-plant",
         question: "Which plant part often attracts bees and butterflies?",
-
+        stage: "recognise",
         options: [
             "Flower",
             "Root",
@@ -359,7 +359,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-014",
         skillId: "parts-of-a-plant",
         question: "Which part of the plant grows into a new plant after germination?",
-
+        stage: "recognise",
         options: [
             "Seed",
             "Leaf",
@@ -386,7 +386,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-015",
         skillId: "parts-of-a-plant",
         question: "Which part of the plant is usually found below the soil?",
-
+        stage: "recognise",
         options: [
             "Roots",
             "Leaves",
@@ -411,8 +411,8 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-016",
             skillId: "parts-of-a-plant",
             question: "Which part of a plant helps keep it firmly in the ground?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "Roots",
             "Leaves",
             "Flowers",
@@ -437,7 +437,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-017",
         skillId: "parts-of-a-plant",
         question: "Which part of a plant supports the leaves and flowers?",
-
+        stage: "recognise",
         options: [
             "Stem",
             "Root",
@@ -463,7 +463,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-018",
         skillId: "parts-of-a-plant",
         question: "Why do plants need leaves?",
-
+        stage: "recognise",
         options: [
             "To make food",
             "To absorb water from the soil",
@@ -489,7 +489,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-019",
         skillId: "parts-of-a-plant",
         question: "Why do many flowers have brightly coloured petals?",
-
+        stage: "recognise",
         options: [
             "To attract insects",
             "To absorb water",
@@ -516,7 +516,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-020",
         skillId: "parts-of-a-plant",
         question: "What grows into a new plant?",
-
+        stage: "recognise",
         options: [
             "A seed",
             "A leaf",
@@ -542,7 +542,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-021",
         skillId: "parts-of-a-plant",
         question: "Which plant part absorbs minerals as well as water?",
-
+        stage: "recognise",
         options: [
             "Roots",
             "Flowers",
@@ -568,7 +568,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-022",
         skillId: "parts-of-a-plant",
         question: "Which part carries water from the roots to the leaves and flowers?",
-
+        stage: "recognise",
         options: [
             "Stem",
             "Flower",
@@ -594,7 +594,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-023",
         skillId: "parts-of-a-plant",
         question: "Which part of a plant is usually green?",
-
+        stage: "recognise",
         options: [
             "Leaves",
             "Roots",
@@ -620,7 +620,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-024",
         skillId: "parts-of-a-plant",
         question: "Which part usually develops into seeds after pollination?",
-
+        stage: "recognise",
         options: [
             "Flower",
             "Leaf",
@@ -647,7 +647,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-025",
         skillId: "parts-of-a-plant",
         question: "Which part of a plant starts growing first during germination?",
-
+        stage: "recognise",
         options: [
             "Root",
             "Flower",
@@ -674,7 +674,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-026",
         skillId: "parts-of-a-plant",
         question: "Lucy says, 'Leaves absorb water from the soil.' Is she correct?",
-
+        stage: "recognise",
         options: [
             "No, roots absorb water from the soil.",
             "Yes, leaves absorb water from the soil.",
@@ -701,7 +701,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-027",
         skillId: "parts-of-a-plant",
         question: "Amir says, 'The stem helps hold the plant upright.' Is he correct?",
-
+        stage: "recognise",
         options: [
             "Yes",
             "No",
@@ -727,7 +727,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-028",
         skillId: "parts-of-a-plant",
         question: "Which two plant parts work together to provide water and food for the plant?",
-
+        stage: "recognise",
         options: [
             "Roots and leaves",
             "Flowers and seeds",
@@ -754,7 +754,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-029",
         skillId: "parts-of-a-plant",
         question: "Which plant part usually grows towards the light?",
-
+        stage: "recognise",
         options: [
             "Stem",
             "Root",
@@ -780,7 +780,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-030",
         skillId: "parts-of-a-plant",
         question: "Which statement is correct?",
-
+        stage: "recognise",
         options: [
             "Roots absorb water, stems support the plant, leaves make food and flowers help produce seeds.",
             "Leaves absorb water, flowers make food and roots grow in the air.",
@@ -805,8 +805,8 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-031",
             skillId: "parts-of-a-plant",
             question: "Which part of a plant keeps it firmly anchored in the soil?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "Roots",
             "Leaves",
             "Flowers",
@@ -831,7 +831,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-032",
         skillId: "parts-of-a-plant",
         question: "Which part of a plant carries water from the roots to the leaves?",
-
+        stage: "recognise",
         options: [
             "Stem",
             "Flower",
@@ -857,7 +857,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-033",
         skillId: "parts-of-a-plant",
         question: "Which part of a plant needs sunlight to make food?",
-
+        stage: "recognise",
         options: [
             "Leaves",
             "Roots",
@@ -883,7 +883,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-034",
         skillId: "parts-of-a-plant",
         question: "Which part of a flowering plant usually produces seeds?",
-
+        stage: "recognise",
         options: [
             "Flower",
             "Leaf",
@@ -909,7 +909,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-035",
         skillId: "parts-of-a-plant",
         question: "Which statement about seeds is true?",
-
+        stage: "recognise",
         options: [
             "Seeds can grow into new plants.",
             "Seeds absorb sunlight to make food.",
@@ -935,7 +935,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-036",
         skillId: "parts-of-a-plant",
         question: "Which plant part is most important for absorbing water?",
-
+        stage: "recognise",
         options: [
             "Roots",
             "Leaves",
@@ -961,7 +961,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-037",
         skillId: "parts-of-a-plant",
         question: "Which plant part holds the leaves up to the sunlight?",
-
+        stage: "recognise",
         options: [
             "Stem",
             "Root",
@@ -987,7 +987,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-038",
         skillId: "parts-of-a-plant",
         question: "Which plant part usually contains chlorophyll?",
-
+        stage: "recognise",
         options: [
             "Leaves",
             "Roots",
@@ -1014,7 +1014,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-039",
         skillId: "parts-of-a-plant",
         question: "Which plant part is most likely to attract bees?",
-
+        stage: "recognise",
         options: [
             "Flower",
             "Root",
@@ -1041,7 +1041,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-040",
         skillId: "parts-of-a-plant",
         question: "Which statement is true about roots?",
-
+        stage: "recognise",
         options: [
             "They usually grow underground.",
             "They make food using sunlight.",
@@ -1067,7 +1067,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-041",
         skillId: "parts-of-a-plant",
         question: "Which statement is true about stems?",
-
+        stage: "recognise",
         options: [
             "They support the plant and transport water.",
             "They make seeds.",
@@ -1093,7 +1093,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-042",
         skillId: "parts-of-a-plant",
         question: "Which statement is true about leaves?",
-
+        stage: "recognise",
         options: [
             "They make food for the plant.",
             "They grow into new plants.",
@@ -1119,7 +1119,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-043",
         skillId: "parts-of-a-plant",
         question: "Which statement is true about flowers?",
-
+        stage: "recognise",
         options: [
             "They help the plant reproduce by making seeds.",
             "They absorb minerals from the soil.",
@@ -1145,7 +1145,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-044",
         skillId: "parts-of-a-plant",
         question: "Which statement is true about seeds?",
-
+        stage: "recognise",
         options: [
             "They can grow into new plants.",
             "They transport water.",
@@ -1171,7 +1171,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-045",
         skillId: "parts-of-a-plant",
         question: "Which sequence shows how water travels through a plant?",
-
+        stage: "recognise",
         options: [
             "Roots → Stem → Leaves",
             "Leaves → Stem → Roots",
@@ -1198,8 +1198,8 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-046",
             skillId: "parts-of-a-plant",
             question: "What is the main job of the roots?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "To absorb water and hold the plant in the soil",
             "To attract insects",
             "To make food using sunlight",
@@ -1224,7 +1224,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-047",
         skillId: "parts-of-a-plant",
         question: "What is the main job of the stem?",
-
+        stage: "recognise",
         options: [
             "To support the plant and transport water",
             "To make seeds",
@@ -1250,7 +1250,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-048",
         skillId: "parts-of-a-plant",
         question: "What is the main job of the leaves?",
-
+        stage: "recognise",
         options: [
             "To make food for the plant using sunlight",
             "To hold the plant in the soil",
@@ -1276,7 +1276,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-049",
         skillId: "parts-of-a-plant",
         question: "What is the main job of the flower?",
-
+        stage: "recognise",
         options: [
             "To help the plant produce seeds",
             "To carry water around the plant",
@@ -1302,7 +1302,7 @@ export const partsOfAPlant: SkillContent = {
         id: "sci-plant-parts-050",
         skillId: "parts-of-a-plant",
         question: "Which summary correctly describes the jobs of the main parts of a flowering plant?",
-
+        stage: "recognise",
         options: [
             "Roots absorb water and anchor the plant, stems support the plant and transport water, leaves make food, flowers produce seeds and seeds grow into new plants.",
             "Roots make food, stems attract insects, leaves absorb water and flowers hold the plant upright.",

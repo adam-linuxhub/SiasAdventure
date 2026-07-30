@@ -20,7 +20,7 @@ export const classification: SkillContent = {
         id: "sci-classification-001",
         skillId: "classification",
         question: "Why do scientists classify living things?",
-
+        stage: "recognise",
         options: [
             "To group similar living things together",
             "To make them grow faster",
@@ -42,7 +42,7 @@ export const classification: SkillContent = {
         id: "sci-classification-002",
         skillId: "classification",
         question: "Which of these is a mammal?",
-
+        stage: "recognise",
         options: [
             "Dog",
             "Goldfish",
@@ -64,7 +64,7 @@ export const classification: SkillContent = {
         id: "sci-classification-003",
         skillId: "classification",
         question: "Which of these is a bird?",
-
+        stage: "recognise",
         options: [
             "Pigeon",
             "Snake",
@@ -86,7 +86,7 @@ export const classification: SkillContent = {
         id: "sci-classification-004",
         skillId: "classification",
         question: "Which of these is a fish?",
-
+        stage: "recognise",
         options: [
             "Salmon",
             "Cat",
@@ -108,7 +108,7 @@ export const classification: SkillContent = {
         id: "sci-classification-005",
         skillId: "classification",
         question: "Which of these is a reptile?",
-
+        stage: "recognise",
         options: [
             "Snake",
             "Horse",
@@ -130,7 +130,7 @@ export const classification: SkillContent = {
         id: "sci-classification-006",
         skillId: "classification",
         question: "Which of these is an amphibian?",
-
+        stage: "recognise",
         options: [
             "Frog",
             "Chicken",
@@ -152,7 +152,7 @@ export const classification: SkillContent = {
         id: "sci-classification-007",
         skillId: "classification",
         question: "Which group does an oak tree belong to?",
-
+        stage: "recognise",
         options: [
             "Plants",
             "Mammals",
@@ -174,7 +174,7 @@ export const classification: SkillContent = {
         id: "sci-classification-008",
         skillId: "classification",
         question: "Which feature do birds have?",
-
+        stage: "recognise",
         options: [
             "Feathers",
             "Scales",
@@ -196,7 +196,7 @@ export const classification: SkillContent = {
         id: "sci-classification-009",
         skillId: "classification",
         question: "Which animal has scales?",
-
+        stage: "recognise",
         options: [
             "Lizard",
             "Rabbit",
@@ -218,7 +218,7 @@ export const classification: SkillContent = {
         id: "sci-classification-010",
         skillId: "classification",
         question: "Scientists classify living things by looking at their...",
-
+        stage: "recognise",
         options: [
             "Features",
             "Favourite foods",
@@ -240,7 +240,7 @@ export const classification: SkillContent = {
         id: "sci-classification-011",
         skillId: "classification",
         question: "A penguin has feathers and lays eggs. Which group does it belong to?",
-
+        stage: "recognise",
         options: [
             "Birds",
             "Fish",
@@ -262,7 +262,7 @@ export const classification: SkillContent = {
         id: "sci-classification-012",
         skillId: "classification",
         question: "A whale feeds its babies milk. Which group does it belong to?",
-
+        stage: "recognise",
         options: [
             "Mammals",
             "Fish",
@@ -284,7 +284,7 @@ export const classification: SkillContent = {
         id: "sci-classification-013",
         skillId: "classification",
         question: "Why are bats classified as mammals instead of birds?",
-
+        stage: "recognise",
         options: [
             "They have fur and feed their young milk.",
             "They have feathers.",
@@ -306,7 +306,7 @@ export const classification: SkillContent = {
         id: "sci-classification-014",
         skillId: "classification",
         question: "Which pair belongs to the same group?",
-
+        stage: "recognise",
         options: [
             "Snake and lizard",
             "Robin and frog",
@@ -328,7 +328,7 @@ export const classification: SkillContent = {
         id: "sci-classification-015",
         skillId: "classification",
         question: "A scientist discovers an animal with feathers and a beak. Which group is it most likely to belong to?",
-
+        stage: "recognise",
         options: [
             "Birds",
             "Fish",
@@ -350,7 +350,7 @@ export const classification: SkillContent = {
         id: "sci-classification-016",
         skillId: "classification",
         question: "Which feature helps identify a fish?",
-
+        stage: "recognise",
         options: [
             "Gills and fins",
             "Feathers",
@@ -372,7 +372,7 @@ export const classification: SkillContent = {
         id: "sci-classification-017",
         skillId: "classification",
         question: "Why do scientists use classification?",
-
+        stage: "recognise",
         options: [
             "It helps them identify and study living things.",
             "It makes animals stronger.",
@@ -394,7 +394,7 @@ export const classification: SkillContent = {
         id: "sci-classification-018",
         skillId: "classification",
         question: "Which group would a crocodile belong to?",
-
+        stage: "recognise",
         options: [
             "Reptiles",
             "Birds",
@@ -416,7 +416,7 @@ export const classification: SkillContent = {
         id: "sci-classification-019",
         skillId: "classification",
         question: "Which animal does NOT belong with the others?",
-
+        stage: "recognise",
         options: [
             "Shark",
             "Trout",
@@ -438,7 +438,7 @@ export const classification: SkillContent = {
         id: "sci-classification-020",
         skillId: "classification",
         question: "Which sentence best describes classification?",
-
+        stage: "recognise",
         options: [
             "Scientists group living things by their shared features.",
             "Scientists group living things by their size only.",

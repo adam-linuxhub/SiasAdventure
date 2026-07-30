@@ -20,7 +20,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-001",
         skillId: "rockTypes",
         question: "What is a rock?",
-
+        stage: "recognise",
         options: [
             "A natural material found on Earth",
             "A type of plant",
@@ -46,7 +46,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-002",
         skillId: "rockTypes",
         question: "Which of these is a rock?",
-
+        stage: "recognise",
         options: [
             "Granite",
             "Wood",
@@ -72,7 +72,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-003",
         skillId: "rockTypes",
         question: "Which rock is often used for writing on blackboards?",
-
+        stage: "recognise",
         options: [
             "Chalk",
             "Marble",
@@ -98,7 +98,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-004",
         skillId: "rockTypes",
         question: "Which rock is often used for kitchen worktops?",
-
+        stage: "recognise",
         options: [
             "Granite",
             "Chalk",
@@ -124,7 +124,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-005",
         skillId: "rockTypes",
         question: "Which word can describe a rock?",
-
+        stage: "recognise",
         options: [
             "Hard",
             "Noisy",
@@ -150,7 +150,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-006",
         skillId: "rockTypes",
         question: "Which rock is usually softer?",
-
+        stage: "recognise",
         options: [
             "Chalk",
             "Granite",
@@ -177,7 +177,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-007",
         skillId: "rockTypes",
         question: "Which rock is often used for roof tiles?",
-
+        stage: "recognise",
         options: [
             "Slate",
             "Chalk",
@@ -203,7 +203,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-008",
         skillId: "rockTypes",
         question: "What can scientists compare when looking at rocks?",
-
+        stage: "recognise",
         options: [
             "Their colour, texture and hardness",
             "Their favourite food",
@@ -229,7 +229,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-009",
         skillId: "rockTypes",
         question: "Which rock is smooth and often polished for buildings and statues?",
-
+        stage: "recognise",
         options: [
             "Marble",
             "Chalk",
@@ -255,7 +255,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-010",
         skillId: "rockTypes",
         question: "Why do scientists observe the properties of rocks?",
-
+        stage: "recognise",
         options: [
             "To identify and compare them",
             "To help rocks grow",
@@ -281,8 +281,8 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-011",
             skillId: "rockTypes",
             question: "Which rock is usually the hardest?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "Granite",
             "Chalk",
             "Clay",
@@ -308,7 +308,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-012",
         skillId: "rockTypes",
         question: "Which rock is most likely to leave a white mark when rubbed on a board?",
-
+        stage: "recognise",
         options: [
             "Chalk",
             "Granite",
@@ -334,7 +334,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-013",
         skillId: "rockTypes",
         question: "Which property would help you identify a rock?",
-
+        stage: "recognise",
         options: [
             "Its hardness",
             "Its favourite colour",
@@ -360,7 +360,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-014",
         skillId: "rockTypes",
         question: "Which rock would be best for making a strong kitchen worktop?",
-
+        stage: "recognise",
         options: [
             "Granite",
             "Chalk",
@@ -387,7 +387,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-015",
         skillId: "rockTypes",
         question: "Which pair of words could describe a rock?",
-
+        stage: "recognise",
         options: [
             "Hard and rough",
             "Hungry and noisy",
@@ -413,7 +413,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-016",
         skillId: "rockTypes",
         question: "Why is slate often used on roofs?",
-
+        stage: "recognise",
         options: [
             "It is strong and splits into flat pieces.",
             "It melts easily.",
@@ -440,7 +440,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-017",
         skillId: "rockTypes",
         question: "A rock feels rough and very hard. Which rock could it be?",
-
+        stage: "recognise",
         options: [
             "Granite",
             "Chalk",
@@ -467,7 +467,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-018",
         skillId: "rockTypes",
         question: "Which rock can be polished to make it smooth and shiny?",
-
+        stage: "recognise",
         options: [
             "Marble",
             "Chalk",
@@ -493,7 +493,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-019",
         skillId: "rockTypes",
         question: "Why do different rocks have different uses?",
-
+        stage: "recognise",
         options: [
             "They have different properties.",
             "They all weigh the same.",
@@ -520,7 +520,7 @@ export const rockTypes: SkillContent = {
         id: "sci-rock-types-020",
         skillId: "rockTypes",
         question: "Which sentence best describes how scientists compare rocks?",
-
+        stage: "recognise",
         options: [
             "They observe properties such as colour, texture and hardness.",
             "They ask the rocks where they came from.",

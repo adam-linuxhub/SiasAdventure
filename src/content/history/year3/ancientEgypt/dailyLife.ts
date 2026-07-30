@@ -21,7 +21,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Where did many Ancient Egyptians live?",
-
+        stage: "recognise",
         options: [
             "Near the River Nile",
             "On top of mountains",
@@ -44,7 +44,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "What was the main job of many Ancient Egyptians?",
-
+        stage: "recognise",
         options: [
             "Farming",
             "Building computers",
@@ -67,7 +67,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "What did Ancient Egyptian farmers grow?",
-
+        stage: "recognise",
         options: [
             "Crops such as wheat and barley",
             "Plastic plants",
@@ -90,7 +90,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "What were Ancient Egyptian homes often made from?",
-
+        stage: "recognise",
         options: [
             "Mud bricks",
             "Steel",
@@ -113,7 +113,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "What did Ancient Egyptians wear?",
-
+        stage: "recognise",
         options: [
             "Clothing made from linen",
             "Modern jeans",
@@ -136,7 +136,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Why was farming important in Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "It provided food for people",
             "It created electricity",
@@ -159,7 +159,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Which job would an Ancient Egyptian craftsman do?",
-
+        stage: "recognise",
         options: [
             "Make objects such as pottery or jewellery",
             "Build computers",
@@ -182,7 +182,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "What did scribes do in Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "Write and record information",
             "Farm fields",
@@ -205,7 +205,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Why were scribes important?",
-
+        stage: "recognise",
         options: [
             "They recorded important information",
             "They controlled the weather",
@@ -228,7 +228,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "What was a common food in Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "Bread",
             "Chocolate bars",
@@ -251,7 +251,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Why did people live near the Nile?",
-
+        stage: "recognise",
         options: [
             "It provided water and helped crops grow",
             "It had no water",
@@ -274,7 +274,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Which group had the highest status in Ancient Egyptian society?",
-
+        stage: "recognise",
         options: [
             "The pharaoh and royal family",
             "Only farmers",
@@ -297,7 +297,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "What did fishermen do in Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "Caught fish from the Nile",
             "Built pyramids",
@@ -320,7 +320,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Why were animals important in Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "They provided food, materials and help with work",
             "They replaced people",
@@ -343,7 +343,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "What material was used for making papyrus?",
-
+        stage: "recognise",
         options: [
             "A plant that grew near water",
             "Metal",
@@ -366,7 +366,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Why do historians study everyday life?",
-
+        stage: "recognise",
         options: [
             "To understand how people lived in the past",
             "To change the past",
@@ -389,7 +389,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Which person would be responsible for writing records?",
-
+        stage: "recognise",
         options: [
             "A scribe",
             "A farmer",
@@ -412,7 +412,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "What can objects from Ancient Egypt tell historians?",
-
+        stage: "recognise",
         options: [
             "How people lived and worked",
             "What will happen tomorrow",
@@ -435,7 +435,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Which statement about Ancient Egyptian society is true?",
-
+        stage: "recognise",
         options: [
             "People had different jobs and roles",
             "Everyone did exactly the same job",
@@ -458,7 +458,7 @@ export const dailyLife: SkillContent = {
         skillId: "dailyLife",
         question:
             "Which sentence best describes daily life in Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "People farmed, worked, built and lived near the Nile",
             "People used modern technology",

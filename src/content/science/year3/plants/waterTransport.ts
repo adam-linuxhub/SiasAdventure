@@ -20,7 +20,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-001",
         skillId: "water-transport",
         question: "Where does a plant take in most of its water?",
-
+        stage: "recognise",
         options: [
             "Through its roots",
             "Through its flowers",
@@ -47,7 +47,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-002",
         skillId: "water-transport",
         question: "After the roots absorb water, which part carries it around the plant?",
-
+        stage: "recognise",
         options: [
             "The stem",
             "The flower",
@@ -74,7 +74,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-003",
         skillId: "water-transport",
         question: "Where does most of the water carried by the stem go?",
-
+        stage: "recognise",
         options: [
             "The leaves",
             "The roots",
@@ -101,7 +101,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-004",
         skillId: "water-transport",
         question: "Which sequence correctly shows how water travels through a plant?",
-
+        stage: "recognise",
         options: [
             "Roots → Stem → Leaves",
             "Leaves → Stem → Roots",
@@ -127,7 +127,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-005",
         skillId: "water-transport",
         question: "Why do plants need water?",
-
+        stage: "recognise",
         options: [
             "To help them make food and grow",
             "To make rocks",
@@ -153,7 +153,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-006",
         skillId: "water-transport",
         question: "Which plant part absorbs water from the soil?",
-
+        stage: "recognise",
         options: [
             "Roots",
             "Leaves",
@@ -179,7 +179,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-007",
         skillId: "water-transport",
         question: "What carries water from the roots to the leaves?",
-
+        stage: "recognise",
         options: [
             "The stem",
             "The flower",
@@ -205,7 +205,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-008",
         skillId: "water-transport",
         question: "Which part uses the water to help make food?",
-
+        stage: "recognise",
         options: [
             "Leaves",
             "Roots",
@@ -231,7 +231,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-009",
         skillId: "water-transport",
         question: "If roots cannot absorb enough water, what is most likely to happen?",
-
+        stage: "recognise",
         options: [
             "The plant may wilt.",
             "The plant grows faster.",
@@ -257,7 +257,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-010",
         skillId: "water-transport",
         question: "Which statement is correct?",
-
+        stage: "recognise",
         options: [
             "Roots absorb water and the stem carries it to the leaves.",
             "Leaves absorb water and send it to the roots.",
@@ -283,8 +283,8 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-011",
             skillId: "water-transport",
             question: "What happens first when a plant takes in water?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "The roots absorb it from the soil.",
             "The leaves absorb it from the air.",
             "The flowers carry it to the roots.",
@@ -310,7 +310,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-012",
         skillId: "water-transport",
         question: "After water enters the roots, where does it travel next?",
-
+        stage: "recognise",
         options: [
             "Through the stem",
             "Into the flowers",
@@ -337,7 +337,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-013",
         skillId: "water-transport",
         question: "Why do leaves need water?",
-
+        stage: "recognise",
         options: [
             "To help make food for the plant",
             "To make flowers colourful",
@@ -364,7 +364,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-014",
         skillId: "water-transport",
         question: "Which plant part connects the roots to the leaves?",
-
+        stage: "recognise",
         options: [
             "Stem",
             "Flower",
@@ -390,7 +390,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-015",
         skillId: "water-transport",
         question: "Which sequence shows the correct journey of water?",
-
+        stage: "recognise",
         options: [
             "Soil → Roots → Stem → Leaves",
             "Leaves → Stem → Soil → Roots",
@@ -417,7 +417,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-016",
         skillId: "water-transport",
         question: "What do roots absorb besides water?",
-
+        stage: "recognise",
         options: [
             "Minerals",
             "Sunlight",
@@ -444,7 +444,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-017",
         skillId: "water-transport",
         question: "Which part transports water to every part of the plant?",
-
+        stage: "recognise",
         options: [
             "Stem",
             "Flower",
@@ -471,7 +471,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-018",
         skillId: "water-transport",
         question: "A plant is watered. Which part receives the water first?",
-
+        stage: "recognise",
         options: [
             "Roots",
             "Leaves",
@@ -497,7 +497,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-019",
         skillId: "water-transport",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Water moves upwards through the stem.",
             "Water moves from the leaves into the soil.",
@@ -524,7 +524,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-020",
         skillId: "water-transport",
         question: "What is the main job of the stem in water transport?",
-
+        stage: "recognise",
         options: [
             "To carry water from the roots to the leaves",
             "To absorb water from the soil",
@@ -551,7 +551,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-021",
         skillId: "water-transport",
         question: "A plant has healthy roots but a damaged stem. What is most likely to happen?",
-
+        stage: "recognise",
         options: [
             "Water will not reach the leaves properly.",
             "The roots will stop absorbing water.",
@@ -578,7 +578,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-022",
         skillId: "water-transport",
         question: "Why must water reach the leaves?",
-
+        stage: "recognise",
         options: [
             "The leaves use it to make food.",
             "The leaves turn it into roots.",
@@ -605,7 +605,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-023",
         skillId: "water-transport",
         question: "Which plant would most likely wilt first?",
-
+        stage: "recognise",
         options: [
             "A plant that cannot absorb water through its roots",
             "A plant in healthy soil",
@@ -632,7 +632,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-024",
         skillId: "water-transport",
         question: "Which sequence correctly describes water transport?",
-
+        stage: "recognise",
         options: [
             "Roots absorb → Stem carries → Leaves use",
             "Leaves absorb → Roots carry → Flowers use",
@@ -659,7 +659,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-025",
         skillId: "water-transport",
         question: "Why is water transport important?",
-
+        stage: "recognise",
         options: [
             "It helps every part of the plant receive the water it needs.",
             "It changes leaves into flowers.",
@@ -685,8 +685,8 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-026",
             skillId: "water-transport",
             question: "A plant has been watered. Which part carries the water upwards?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "The stem",
             "The flower",
             "The fruit",
@@ -712,7 +712,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-027",
         skillId: "water-transport",
         question: "Why do roots need to be in the soil?",
-
+        stage: "recognise",
         options: [
             "To absorb water and minerals",
             "To catch sunlight",
@@ -739,7 +739,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-028",
         skillId: "water-transport",
         question: "If water cannot reach the leaves, what is most likely to happen?",
-
+        stage: "recognise",
         options: [
             "The plant will struggle to make food.",
             "The flowers will become roots.",
@@ -766,7 +766,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-029",
         skillId: "water-transport",
         question: "What helps keep a plant healthy by supplying water to all its parts?",
-
+        stage: "recognise",
         options: [
             "Water transport",
             "Flower colour",
@@ -793,7 +793,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-030",
         skillId: "water-transport",
         question: "Which part of the plant uses water together with sunlight to make food?",
-
+        stage: "recognise",
         options: [
             "Leaves",
             "Roots",
@@ -820,7 +820,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-031",
         skillId: "water-transport",
         question: "Which statement best describes the job of the roots?",
-
+        stage: "recognise",
         options: [
             "They absorb water and minerals from the soil.",
             "They make food using sunlight.",
@@ -847,7 +847,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-032",
         skillId: "water-transport",
         question: "A plant is growing well. Which sequence is most likely happening?",
-
+        stage: "recognise",
         options: [
             "Roots absorb → Stem carries → Leaves use",
             "Leaves absorb → Flowers carry → Roots use",
@@ -874,7 +874,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-033",
         skillId: "water-transport",
         question: "Which part would stop working properly first if the roots dried out?",
-
+        stage: "recognise",
         options: [
             "The leaves",
             "The petals",
@@ -901,7 +901,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-034",
         skillId: "water-transport",
         question: "Why is the stem important as well as the roots?",
-
+        stage: "recognise",
         options: [
             "It carries water to the rest of the plant.",
             "It absorbs water from the air.",
@@ -928,7 +928,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-035",
         skillId: "water-transport",
         question: "A plant has healthy leaves but damaged roots. What is the most likely result?",
-
+        stage: "recognise",
         options: [
             "The leaves will eventually stop receiving enough water.",
             "The leaves will absorb water from sunlight.",
@@ -955,7 +955,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-036",
         skillId: "water-transport",
         question: "Why do plants need a continuous supply of water?",
-
+        stage: "recognise",
         options: [
             "To keep making food and growing.",
             "To change leaves into flowers.",
@@ -982,7 +982,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-037",
         skillId: "water-transport",
         question: "Which of these is NOT part of the normal path water takes through a plant?",
-
+        stage: "recognise",
         options: [
             "Seeds",
             "Roots",
@@ -1008,7 +1008,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-038",
         skillId: "water-transport",
         question: "What happens to water after it is absorbed by the roots?",
-
+        stage: "recognise",
         options: [
             "It travels upwards through the stem.",
             "It stays in the roots forever.",
@@ -1035,7 +1035,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-039",
         skillId: "water-transport",
         question: "Which plant would probably stay healthiest?",
-
+        stage: "recognise",
         options: [
             "A plant with healthy roots, stem and leaves",
             "A plant with no roots",
@@ -1062,7 +1062,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-040",
         skillId: "water-transport",
         question: "Which sentence best explains water transport in plants?",
-
+        stage: "recognise",
         options: [
             "Roots absorb water, the stem carries it and the leaves use it.",
             "Leaves absorb water and flowers carry it.",
@@ -1088,8 +1088,8 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-041",
             skillId: "water-transport",
             question: "A plant's roots are healthy, but its stem is blocked. What is most likely to happen?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "Water will not reach the leaves properly.",
             "The roots will stop absorbing water.",
             "The flowers will absorb water instead.",
@@ -1116,7 +1116,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-042",
         skillId: "water-transport",
         question: "Which plant is most likely to make food successfully?",
-
+        stage: "recognise",
         options: [
             "A plant whose roots, stem and leaves are all healthy",
             "A plant with broken roots",
@@ -1143,7 +1143,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-043",
         skillId: "water-transport",
         question: "Why is water carried to every part of a plant?",
-
+        stage: "recognise",
         options: [
             "Every part needs water to stay healthy and grow.",
             "Water only changes the colour of leaves.",
@@ -1170,7 +1170,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-044",
         skillId: "water-transport",
         question: "What would happen if a plant could not absorb minerals from the soil?",
-
+        stage: "recognise",
         options: [
             "It would not grow as well.",
             "It would grow much faster.",
@@ -1197,7 +1197,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-045",
         skillId: "water-transport",
         question: "Which statement best explains why stems are important?",
-
+        stage: "recognise",
         options: [
             "They transport water from the roots to the rest of the plant.",
             "They absorb water from the soil.",
@@ -1224,7 +1224,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-046",
         skillId: "water-transport",
         question: "A gardener forgets to water a plant for many days. Which part is affected first?",
-
+        stage: "recognise",
         options: [
             "The roots cannot absorb enough water.",
             "The flowers make extra water.",
@@ -1251,7 +1251,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-047",
         skillId: "water-transport",
         question: "Which sentence correctly describes the movement of water?",
-
+        stage: "recognise",
         options: [
             "Water moves from the soil into the roots, through the stem and to the leaves.",
             "Water moves from the leaves into the roots.",
@@ -1278,7 +1278,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-048",
         skillId: "water-transport",
         question: "Why is water transport essential for a flowering plant?",
-
+        stage: "recognise",
         options: [
             "It allows water to reach the leaves so the plant can make food and grow.",
             "It changes flowers into fruit.",
@@ -1305,7 +1305,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-049",
         skillId: "water-transport",
         question: "Which group of plant parts works together to move water around the plant?",
-
+        stage: "recognise",
         options: [
             "Roots, stem and leaves",
             "Flowers, petals and fruit",
@@ -1332,7 +1332,7 @@ export const waterTransport: SkillContent = {
         id: "sci-water-transport-050",
         skillId: "water-transport",
         question: "Which summary best describes water transport in plants?",
-
+        stage: "recognise",
         options: [
             "Roots absorb water and minerals, the stem carries them to the leaves where they help the plant make food and grow.",
             "Leaves absorb water and send it to the roots.",

@@ -21,7 +21,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "What was a pharaoh?",
-
+        stage: "recognise",
         options: [
             "The ruler of Ancient Egypt",
             "A farmer",
@@ -44,7 +44,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Why were pharaohs important?",
-
+        stage: "recognise",
         options: [
             "They ruled the country and made important decisions",
             "They only grew crops",
@@ -67,7 +67,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "What title did Ancient Egyptian rulers use?",
-
+        stage: "recognise",
         options: [
             "Pharaoh",
             "President",
@@ -90,7 +90,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Where did many pharaohs live?",
-
+        stage: "recognise",
         options: [
             "In large palaces",
             "In small tents",
@@ -113,7 +113,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "What did pharaohs often organise?",
-
+        stage: "recognise",
         options: [
             "Large building projects",
             "Computer games",
@@ -136,7 +136,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "How did Egyptians view their pharaoh?",
-
+        stage: "recognise",
         options: [
             "As a powerful and important leader",
             "As an ordinary farmer",
@@ -159,7 +159,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Which famous pharaoh's tomb was discovered in 1922?",
-
+        stage: "recognise",
         options: [
             "Tutankhamun",
             "Julius Caesar",
@@ -182,7 +182,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Why is Tutankhamun famous today?",
-
+        stage: "recognise",
         options: [
             "His tomb contained many well-preserved treasures",
             "He invented the pyramid",
@@ -205,7 +205,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "What symbol showed the power of a pharaoh?",
-
+        stage: "recognise",
         options: [
             "A crown",
             "A school uniform",
@@ -228,7 +228,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "What did pharaohs help create?",
-
+        stage: "recognise",
         options: [
             "Rules and organisation for society",
             "Modern computers",
@@ -251,7 +251,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Why were pyramids connected with pharaohs?",
-
+        stage: "recognise",
         options: [
             "They were built as tombs for some pharaohs",
             "They were houses for farmers",
@@ -274,7 +274,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "What is a ruler?",
-
+        stage: "recognise",
         options: [
             "Someone who controls and leads a country",
             "Someone who grows crops",
@@ -297,7 +297,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Why did pharaohs need workers?",
-
+        stage: "recognise",
         options: [
             "To build structures and run parts of society",
             "To replace the River Nile",
@@ -320,7 +320,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Which statement about pharaohs is correct?",
-
+        stage: "recognise",
         options: [
             "They had great power in Ancient Egypt",
             "They had no influence",
@@ -343,7 +343,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "What might historians study to learn about pharaohs?",
-
+        stage: "recognise",
         options: [
             "Tombs, statues and written records",
             "Modern newspapers",
@@ -366,7 +366,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Why were temples important in Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "They were places connected with religion and worship",
             "They were football stadiums",
@@ -389,7 +389,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "A powerful leader is someone who:",
-
+        stage: "recognise",
         options: [
             "Can make important decisions",
             "Has no responsibilities",
@@ -412,7 +412,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Why do we remember famous pharaohs today?",
-
+        stage: "recognise",
         options: [
             "They left evidence about Ancient Egyptian history",
             "They lived recently",
@@ -435,7 +435,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Which word best describes a pharaoh?",
-
+        stage: "recognise",
         options: [
             "Ruler",
             "Visitor",
@@ -458,7 +458,7 @@ export const pharaohs: SkillContent = {
         skillId: "pharaohs",
         question:
             "Why are pharaohs important when studying Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "They help us understand how Ancient Egypt was governed",
             "They explain modern technology",

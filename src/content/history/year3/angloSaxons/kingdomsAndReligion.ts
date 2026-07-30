@@ -21,7 +21,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "What were Anglo-Saxon kingdoms?",
-
+        stage: "recognise",
         options: [
             "Areas of Britain ruled by different kings",
             "Roman buildings",
@@ -44,7 +44,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "What was the leader of an Anglo-Saxon kingdom called?",
-
+        stage: "recognise",
         options: [
             "A king",
             "A pharaoh",
@@ -67,7 +67,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "Which was an Anglo-Saxon kingdom?",
-
+        stage: "recognise",
         options: [
             "Mercia",
             "Rome",
@@ -90,7 +90,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "Which other Anglo-Saxon kingdom existed?",
-
+        stage: "recognise",
         options: [
             "Wessex",
             "The Roman Empire",
@@ -113,7 +113,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "What did Anglo-Saxon kings do?",
-
+        stage: "recognise",
         options: [
             "They ruled their kingdoms and made decisions",
             "They only farmed",
@@ -136,7 +136,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "What religion did many Anglo-Saxons follow at first?",
-
+        stage: "recognise",
         options: [
             "Pagan beliefs",
             "Christianity only",
@@ -159,7 +159,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "What religion became important in Anglo-Saxon England?",
-
+        stage: "recognise",
         options: [
             "Christianity",
             "Ancient Egyptian religion",
@@ -182,7 +182,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "Who helped spread Christianity in Anglo-Saxon England?",
-
+        stage: "recognise",
         options: [
             "Missionaries",
             "Roman soldiers",
@@ -205,7 +205,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "What was a monastery?",
-
+        stage: "recognise",
         options: [
             "A place where monks lived and worked",
             "A Roman fort",
@@ -228,7 +228,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "Why were monasteries important?",
-
+        stage: "recognise",
         options: [
             "They were centres for learning and writing",
             "They were only used for battles",
@@ -251,7 +251,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "Who was Alfred the Great?",
-
+        stage: "recognise",
         options: [
             "An Anglo-Saxon king",
             "A Roman emperor",
@@ -274,7 +274,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "Why is Alfred the Great remembered?",
-
+        stage: "recognise",
         options: [
             "He defended his kingdom and encouraged learning",
             "He built pyramids",
@@ -297,7 +297,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "What did monks often do?",
-
+        stage: "recognise",
         options: [
             "Write books and study",
             "Drive cars",
@@ -320,7 +320,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "Why are written records important to historians?",
-
+        stage: "recognise",
         options: [
             "They provide information about the past",
             "They predict the future",
@@ -343,7 +343,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "What happened when Christianity spread?",
-
+        stage: "recognise",
         options: [
             "Many people changed their beliefs",
             "All kingdoms disappeared",
@@ -366,7 +366,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "Why were kings important in Anglo-Saxon society?",
-
+        stage: "recognise",
         options: [
             "They made decisions and protected their kingdoms",
             "They only worked as farmers",
@@ -389,7 +389,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "What evidence can tell us about Anglo-Saxon religion?",
-
+        stage: "recognise",
         options: [
             "Churches, objects and written records",
             "Modern buildings only",
@@ -412,7 +412,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "What was one role of monasteries?",
-
+        stage: "recognise",
         options: [
             "Teaching and preserving knowledge",
             "Building Roman armies",
@@ -435,7 +435,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "Why do we study Anglo-Saxon kingdoms?",
-
+        stage: "recognise",
         options: [
             "To understand how Britain was ruled in the past",
             "To create new kingdoms",
@@ -458,7 +458,7 @@ export const kingdomsAndReligion: SkillContent = {
         skillId: "kingdomsAndReligion",
         question:
             "Which sentence best describes Anglo-Saxon kingdoms and religion?",
-
+        stage: "recognise",
         options: [
             "Kings ruled kingdoms and Christianity became an important influence",
             "There were no leaders or beliefs",

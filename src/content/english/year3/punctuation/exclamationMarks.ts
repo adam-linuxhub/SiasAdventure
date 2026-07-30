@@ -20,7 +20,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-001",
         skillId: "exclamationMarks",
         question: "Which punctuation mark is an exclamation mark?",
-
+        stage: "recognise",
         options: [
             "!",
             ".",
@@ -42,7 +42,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-002",
         skillId: "exclamationMarks",
         question: "Which sentence uses an exclamation mark correctly?",
-
+        stage: "recognise",
         options: [
             "What a beautiful rainbow!",
             "What a beautiful rainbow.",
@@ -64,7 +64,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-003",
         skillId: "exclamationMarks",
         question: "Which sentence shows excitement?",
-
+        stage: "recognise",
         options: [
             "We won the match!",
             "We won the match.",
@@ -86,7 +86,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-004",
         skillId: "exclamationMarks",
         question: "Which punctuation mark should end this sentence? 'Watch out__'",
-
+        stage: "recognise",
         options: [
             "!",
             ".",
@@ -108,7 +108,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-005",
         skillId: "exclamationMarks",
         question: "Which sentence uses an exclamation mark correctly?",
-
+        stage: "recognise",
         options: [
             "What a clever idea!",
             "What a clever idea.",
@@ -130,7 +130,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-006",
         skillId: "exclamationMarks",
         question: "When should you use an exclamation mark?",
-
+        stage: "recognise",
         options: [
             "To show excitement or strong feelings",
             "At the end of every sentence",
@@ -152,7 +152,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-007",
         skillId: "exclamationMarks",
         question: "Which sentence is an exclamation?",
-
+        stage: "recognise",
         options: [
             "How amazing!",
             "How are you?",
@@ -174,7 +174,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-008",
         skillId: "exclamationMarks",
         question: "Which sentence ends correctly?",
-
+        stage: "recognise",
         options: [
             "Hooray!",
             "Hooray.",
@@ -196,7 +196,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-009",
         skillId: "exclamationMarks",
         question: "Which sentence does NOT need an exclamation mark?",
-
+        stage: "recognise",
         options: [
             "I have a red bike.",
             "What a surprise!",
@@ -218,7 +218,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-010",
         skillId: "exclamationMarks",
         question: "What does an exclamation mark help show?",
-
+        stage: "recognise",
         options: [
             "Strong feelings",
             "A question",
@@ -240,7 +240,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-011",
         skillId: "exclamationMarks",
         question: "Which sentence needs an exclamation mark?",
-
+        stage: "recognise",
         options: [
             "Be careful",
             "Where are you?",
@@ -262,7 +262,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-012",
         skillId: "exclamationMarks",
         question: "Which sentence is punctuated correctly?",
-
+        stage: "recognise",
         options: [
             "What a fantastic goal!",
             "What a fantastic goal?",
@@ -284,7 +284,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-013",
         skillId: "exclamationMarks",
         question: "Why do writers use exclamation marks?",
-
+        stage: "recognise",
         options: [
             "To show excitement, surprise or strong emotion",
             "To join two sentences",
@@ -306,7 +306,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-014",
         skillId: "exclamationMarks",
         question: "Which sentence expresses surprise?",
-
+        stage: "recognise",
         options: [
             "I can't believe it!",
             "I can't believe it.",
@@ -328,7 +328,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-015",
         skillId: "exclamationMarks",
         question: "Which sentence uses an exclamation mark correctly?",
-
+        stage: "recognise",
         options: [
             "What a huge dinosaur!",
             "What a huge dinosaur?",
@@ -350,7 +350,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-016",
         skillId: "exclamationMarks",
         question: "Which punctuation mark belongs at the end of 'Help__'?",
-
+        stage: "recognise",
         options: [
             "!",
             ".",
@@ -372,7 +372,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-017",
         skillId: "exclamationMarks",
         question: "Which sentence shows joy?",
-
+        stage: "recognise",
         options: [
             "We are going on holiday!",
             "We are going on holiday.",
@@ -394,7 +394,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-018",
         skillId: "exclamationMarks",
         question: "Which sentence is NOT an exclamation?",
-
+        stage: "recognise",
         options: [
             "The flowers are blooming.",
             "What beautiful flowers!",
@@ -416,7 +416,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-019",
         skillId: "exclamationMarks",
         question: "What feeling might 'Fantastic!' show?",
-
+        stage: "recognise",
         options: [
             "Excitement",
             "A question",
@@ -438,7 +438,7 @@ export const exclamationMarks: SkillContent = {
         id: "eng-exclaim-020",
         skillId: "exclamationMarks",
         question: "Which group of sentences is punctuated correctly?",
-
+        stage: "recognise",
         options: [
             "Well done! What an exciting race!",
             "Well done. What an exciting race?",

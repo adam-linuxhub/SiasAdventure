@@ -21,7 +21,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nElla put on her coat, scarf and gloves before leaving the house.\n\nWhat is the weather probably like?",
-
+        stage: "recognise",
         options: [
             "Cold",
             "Hot",
@@ -44,7 +44,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nBen rubbed his eyes and let out a big yawn.\n\nHow is Ben probably feeling?",
-
+        stage: "recognise",
         options: [
             "Tired",
             "Hungry",
@@ -67,7 +67,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nSophie held an umbrella while raindrops splashed into puddles.\n\nWhat is the weather probably like?",
-
+        stage: "recognise",
         options: [
             "Rainy",
             "Sunny",
@@ -90,7 +90,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nJack smiled from ear to ear after scoring the winning goal.\n\nHow is Jack probably feeling?",
-
+        stage: "recognise",
         options: [
             "Happy",
             "Scared",
@@ -113,7 +113,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nThe puppy wagged its tail and jumped around when Mia came home.\n\nHow does the puppy probably feel?",
-
+        stage: "recognise",
         options: [
             "Excited",
             "Sleepy",
@@ -136,7 +136,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nTom covered his ears when the fireworks began.\n\nWhy did Tom cover his ears?",
-
+        stage: "recognise",
         options: [
             "The fireworks were loud.",
             "He was hungry.",
@@ -159,7 +159,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nThe ice cream dripped down Ava's hand before she could finish it.\n\nWhat can you infer?",
-
+        stage: "recognise",
         options: [
             "The weather was warm.",
             "It was snowing.",
@@ -182,7 +182,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nLeo looked everywhere before finding his homework under the sofa.\n\nHow did Leo probably feel before he found it?",
-
+        stage: "recognise",
         options: [
             "Worried",
             "Proud",
@@ -205,7 +205,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nThe audience clapped loudly when the play finished.\n\nWhat can you infer?",
-
+        stage: "recognise",
         options: [
             "They enjoyed the play.",
             "They were leaving school.",
@@ -228,7 +228,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "What does inference mean when reading?",
-
+        stage: "recognise",
         options: [
             "Using clues to work out information that is not directly stated",
             "Copying words from the text",
@@ -251,7 +251,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nMaya carefully carried the birthday cake with both hands and walked very slowly.\n\nWhy did Maya walk slowly?",
-
+        stage: "recognise",
         options: [
             "She did not want to drop the cake.",
             "She had hurt her foot.",
@@ -274,7 +274,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nOliver closed the curtains and switched on the lamp.\n\nWhat can you infer?",
-
+        stage: "recognise",
         options: [
             "It was becoming dark.",
             "It was lunchtime.",
@@ -297,7 +297,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nThe children were wearing sun hats and drinking plenty of water during their walk.\n\nWhat can you infer?",
-
+        stage: "recognise",
         options: [
             "It was a hot day.",
             "It was snowing.",
@@ -320,7 +320,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nRuby's hands were shaking before she walked onto the stage.\n\nHow was Ruby probably feeling?",
-
+        stage: "recognise",
         options: [
             "Nervous",
             "Sleepy",
@@ -343,7 +343,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nDad swept up the broken pieces of a plate from the kitchen floor.\n\nWhat probably happened earlier?",
-
+        stage: "recognise",
         options: [
             "The plate was dropped.",
             "The plate was washed.",
@@ -366,7 +366,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nThe classroom was silent while everyone bent over their papers.\n\nWhat were the children probably doing?",
-
+        stage: "recognise",
         options: [
             "Taking a test",
             "Playing football",
@@ -389,7 +389,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nAmir packed a towel, swimming costume and goggles into his bag.\n\nWhere is Amir probably going?",
-
+        stage: "recognise",
         options: [
             "Swimming",
             "Cycling",
@@ -412,7 +412,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nThe leaves fell from the trees and children kicked through them.\n\nWhich season is it most likely to be?",
-
+        stage: "recognise",
         options: [
             "Autumn",
             "Spring",
@@ -435,7 +435,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "Read the passage:\n\nThe puppy hid under the table when it heard the thunder.\n\nWhy did the puppy hide?",
-
+        stage: "recognise",
         options: [
             "It was frightened.",
             "It was hungry.",
@@ -458,7 +458,7 @@ export const inference: SkillContent = {
         skillId: "inference",
         question:
             "When answering an inference question, what should you do?",
-
+        stage: "recognise",
         options: [
             "Use clues from the text and what you already know.",
             "Only copy words from the passage.",

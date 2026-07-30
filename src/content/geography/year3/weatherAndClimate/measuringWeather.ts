@@ -21,7 +21,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Why do scientists measure the weather?",
-
+        stage: "recognise",
         options: [
             "To understand weather patterns and make forecasts",
             "To change the weather",
@@ -44,7 +44,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Which instrument measures temperature?",
-
+        stage: "recognise",
         options: [
             "Thermometer",
             "Rain gauge",
@@ -67,7 +67,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Which instrument measures rainfall?",
-
+        stage: "recognise",
         options: [
             "Rain gauge",
             "Thermometer",
@@ -90,7 +90,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Which instrument measures wind speed?",
-
+        stage: "recognise",
         options: [
             "Anemometer",
             "Rain gauge",
@@ -113,7 +113,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "What does a wind vane show?",
-
+        stage: "recognise",
         options: [
             "The direction the wind is blowing from",
             "The temperature",
@@ -136,7 +136,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Which weather measurement tells us how hot or cold the air is?",
-
+        stage: "recognise",
         options: [
             "Temperature",
             "Rainfall",
@@ -159,7 +159,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "What does a rain gauge collect?",
-
+        stage: "recognise",
         options: [
             "Rainwater",
             "Wind",
@@ -182,7 +182,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "What unit might be used to measure rainfall?",
-
+        stage: "recognise",
         options: [
             "Millimetres",
             "Kilometres",
@@ -205,7 +205,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "What unit is used to measure temperature?",
-
+        stage: "recognise",
         options: [
             "Degrees Celsius",
             "Metres",
@@ -228,7 +228,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "What is cloud cover?",
-
+        stage: "recognise",
         options: [
             "How much of the sky is covered by clouds",
             "The height of clouds",
@@ -251,7 +251,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Why do weather stations collect data?",
-
+        stage: "recognise",
         options: [
             "To record and study weather conditions",
             "To control the weather",
@@ -274,7 +274,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "What is a weather chart used for?",
-
+        stage: "recognise",
         options: [
             "Showing and comparing weather information",
             "Showing only roads",
@@ -297,7 +297,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Why do scientists record weather over time?",
-
+        stage: "recognise",
         options: [
             "To find patterns and changes",
             "To stop weather changing",
@@ -320,7 +320,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "What is a weather diary?",
-
+        stage: "recognise",
         options: [
             "A record of daily weather observations",
             "A book of maps only",
@@ -343,7 +343,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Which information could be recorded in a weather diary?",
-
+        stage: "recognise",
         options: [
             "Temperature, rainfall and wind",
             "House prices",
@@ -366,7 +366,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "What does a forecast use weather measurements for?",
-
+        stage: "recognise",
         options: [
             "Predicting future weather",
             "Changing the climate",
@@ -389,7 +389,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Why are different instruments needed to measure weather?",
-
+        stage: "recognise",
         options: [
             "Different parts of weather need different measurements",
             "One instrument cannot measure everything",
@@ -412,7 +412,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Which instrument would you use to measure wind direction?",
-
+        stage: "recognise",
         options: [
             "Wind vane",
             "Rain gauge",
@@ -435,7 +435,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Why is accurate weather data important?",
-
+        stage: "recognise",
         options: [
             "It helps people prepare and make decisions",
             "It stops all bad weather",
@@ -458,7 +458,7 @@ export const measuringWeather: SkillContent = {
         skillId: "measuringWeather",
         question:
             "Which sentence best describes measuring weather?",
-
+        stage: "recognise",
         options: [
             "Scientists use instruments to record weather conditions",
             "Weather cannot be measured",

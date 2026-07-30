@@ -21,7 +21,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nSam rode his blue bike to the park.\n\nWhat colour was Sam's bike?",
-
+        stage: "recognise",
         options: [
             "Blue",
             "Red",
@@ -44,7 +44,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nLucy packed an apple, a sandwich and a bottle of water.\n\nWhat fruit did Lucy pack?",
-
+        stage: "recognise",
         options: [
             "An apple",
             "A banana",
@@ -67,7 +67,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nBen's football match started at 10 o'clock.\n\nWhat time did the match begin?",
-
+        stage: "recognise",
         options: [
             "10 o'clock",
             "9 o'clock",
@@ -90,7 +90,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nThe rabbit hid under a bush when it started to rain.\n\nWhere did the rabbit hide?",
-
+        stage: "recognise",
         options: [
             "Under a bush",
             "In a tree",
@@ -113,7 +113,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nMrs Green read a story to the class before lunch.\n\nWho read the story?",
-
+        stage: "recognise",
         options: [
             "Mrs Green",
             "Sam",
@@ -136,7 +136,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nElla's favourite animal is the dolphin.\n\nWhat is Ella's favourite animal?",
-
+        stage: "recognise",
         options: [
             "Dolphin",
             "Whale",
@@ -159,7 +159,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nTom wore a woolly hat because it was snowing.\n\nWhat did Tom wear?",
-
+        stage: "recognise",
         options: [
             "A woolly hat",
             "A helmet",
@@ -182,7 +182,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nThe class visited the museum on Tuesday.\n\nWhen did the class visit the museum?",
-
+        stage: "recognise",
         options: [
             "Tuesday",
             "Monday",
@@ -205,7 +205,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nThe cake had chocolate icing.\n\nWhat flavour was the icing?",
-
+        stage: "recognise",
         options: [
             "Chocolate",
             "Vanilla",
@@ -228,7 +228,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "What does retrieval mean when reading?",
-
+        stage: "recognise",
         options: [
             "Finding information that is written in the text",
             "Making up your own ending",
@@ -251,7 +251,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nAva planted sunflower seeds in April. By July, the flowers were taller than she was.\n\nWhat did Ava plant?",
-
+        stage: "recognise",
         options: [
             "Sunflower seeds",
             "Beans",
@@ -274,7 +274,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nThe library opens at 9 o'clock every weekday and closes at 5 o'clock.\n\nWhat time does the library close?",
-
+        stage: "recognise",
         options: [
             "5 o'clock",
             "4 o'clock",
@@ -297,7 +297,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nOscar found a shiny shell while walking along the beach with his grandparents.\n\nWhat did Oscar find?",
-
+        stage: "recognise",
         options: [
             "A shiny shell",
             "A crab",
@@ -320,7 +320,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nThe baby panda drank milk before falling asleep.\n\nWhat did the panda drink?",
-
+        stage: "recognise",
         options: [
             "Milk",
             "Water",
@@ -343,7 +343,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nNoah finished his homework before playing football with his friends.\n\nWhat did Noah do after finishing his homework?",
-
+        stage: "recognise",
         options: [
             "Played football",
             "Went to bed",
@@ -366,7 +366,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nThe train to York leaves from Platform 3.\n\nWhich platform does the train leave from?",
-
+        stage: "recognise",
         options: [
             "Platform 3",
             "Platform 1",
@@ -389,7 +389,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nEmily borrowed three books about dinosaurs from the library.\n\nHow many books did Emily borrow?",
-
+        stage: "recognise",
         options: [
             "Three",
             "Two",
@@ -412,7 +412,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nThe red kite flew high above the trees on a windy afternoon.\n\nWhat colour was the kite?",
-
+        stage: "recognise",
         options: [
             "Red",
             "Blue",
@@ -435,7 +435,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "Read the passage:\n\nAfter brushing his teeth, Leo packed his school bag.\n\nWhat did Leo do first?",
-
+        stage: "recognise",
         options: [
             "Brushed his teeth",
             "Packed his school bag",
@@ -458,7 +458,7 @@ export const retrieval: SkillContent = {
         skillId: "retrieval",
         question:
             "What should you do first when answering a retrieval question?",
-
+        stage: "recognise",
         options: [
             "Look back at the text to find the answer",
             "Guess the answer",

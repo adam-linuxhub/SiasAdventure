@@ -20,7 +20,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-001",
         skillId: "healthyDiet",
         question: "Why do humans need food?",
-
+        stage: "recognise",
         options: [
             "To stay healthy and have energy",
             "To change the weather",
@@ -47,7 +47,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-002",
         skillId: "healthyDiet",
         question: "Which food is a healthy snack?",
-
+        stage: "recognise",
         options: [
             "An apple",
             "A bag of sweets",
@@ -73,7 +73,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-003",
         skillId: "healthyDiet",
         question: "What helps keep your body healthy?",
-
+        stage: "recognise",
         options: [
             "Eating a balanced diet",
             "Eating only sweets",
@@ -99,7 +99,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-004",
         skillId: "healthyDiet",
         question: "Which drink is usually the healthiest choice?",
-
+        stage: "recognise",
         options: [
             "Water",
             "Fizzy drink",
@@ -125,7 +125,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-005",
         skillId: "healthyDiet",
         question: "Which food comes from the fruit group?",
-
+        stage: "recognise",
         options: [
             "Banana",
             "Chicken",
@@ -151,7 +151,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-006",
         skillId: "healthyDiet",
         question: "Why is it important to eat different kinds of food?",
-
+        stage: "recognise",
         options: [
             "Different foods provide different nutrients.",
             "So food tastes the same.",
@@ -177,7 +177,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-007",
         skillId: "healthyDiet",
         question: "Which meal is the healthiest?",
-
+        stage: "recognise",
         options: [
             "Chicken, vegetables and rice",
             "Only sweets",
@@ -203,7 +203,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-008",
         skillId: "healthyDiet",
         question: "Which food helps you eat a balanced diet?",
-
+        stage: "recognise",
         options: [
             "Vegetables",
             "Sweets",
@@ -229,7 +229,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-009",
         skillId: "healthyDiet",
         question: "What does a balanced diet include?",
-
+        stage: "recognise",
         options: [
             "A variety of different healthy foods",
             "Only fruit",
@@ -255,7 +255,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-010",
         skillId: "healthyDiet",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Humans need the right types and amounts of food.",
             "Humans should only eat sugary foods.",
@@ -280,8 +280,8 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-011",
             skillId: "healthyDiet",
             question: "Why do people need a balanced diet?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "To stay healthy and get the nutrients they need",
             "To make their bones disappear",
             "To stop drinking water",
@@ -307,7 +307,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-012",
         skillId: "healthyDiet",
         question: "Which lunch is the healthiest?",
-
+        stage: "recognise",
         options: [
             "A sandwich, carrot sticks, an apple and water",
             "Chocolate and fizzy drink",
@@ -333,7 +333,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-013",
         skillId: "healthyDiet",
         question: "Which food should usually be eaten in smaller amounts?",
-
+        stage: "recognise",
         options: [
             "Sweets",
             "Vegetables",
@@ -359,7 +359,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-014",
         skillId: "healthyDiet",
         question: "Which food is a vegetable?",
-
+        stage: "recognise",
         options: [
             "Broccoli",
             "Banana",
@@ -385,7 +385,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-015",
         skillId: "healthyDiet",
         question: "What is one reason to drink water every day?",
-
+        stage: "recognise",
         options: [
             "It helps keep your body hydrated.",
             "It replaces all food.",
@@ -411,7 +411,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-016",
         skillId: "healthyDiet",
         question: "Which choice is part of a healthy lifestyle?",
-
+        stage: "recognise",
         options: [
             "Eating a variety of healthy foods",
             "Eating sweets at every meal",
@@ -437,7 +437,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-017",
         skillId: "healthyDiet",
         question: "Which meal contains foods from different food groups?",
-
+        stage: "recognise",
         options: [
             "Fish, potatoes and peas",
             "Only biscuits",
@@ -463,7 +463,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-018",
         skillId: "healthyDiet",
         question: "Why shouldn't people eat lots of sugary foods every day?",
-
+        stage: "recognise",
         options: [
             "Too much sugar is not part of a balanced diet.",
             "Sugar helps vegetables grow.",
@@ -489,7 +489,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-019",
         skillId: "healthyDiet",
         question: "Which statement about healthy eating is correct?",
-
+        stage: "recognise",
         options: [
             "Eating different healthy foods helps your body work well.",
             "Only fruit is needed.",
@@ -515,7 +515,7 @@ export const healthyDiet: SkillContent = {
         id: "sci-healthy-diet-020",
         skillId: "healthyDiet",
         question: "What is the best summary of a healthy diet?",
-
+        stage: "recognise",
         options: [
             "Eat a variety of foods in the right amounts and drink plenty of water.",
             "Eat only sweets.",

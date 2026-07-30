@@ -20,7 +20,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-001",
         skillId: "pushesAndPulls",
         question: "What is a force?",
-
+        stage: "recognise",
         options: [
             "A push or a pull",
             "A type of magnet",
@@ -42,7 +42,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-002",
         skillId: "pushesAndPulls",
         question: "Which action is a push?",
-
+        stage: "recognise",
         options: [
             "Closing a door",
             "Opening a drawer",
@@ -64,7 +64,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-003",
         skillId: "pushesAndPulls",
         question: "Which action is a pull?",
-
+        stage: "recognise",
         options: [
             "Opening a drawer",
             "Kicking a football",
@@ -86,7 +86,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-004",
         skillId: "pushesAndPulls",
         question: "What can a force do?",
-
+        stage: "recognise",
         options: [
             "Make an object move",
             "Change the weather",
@@ -108,7 +108,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-005",
         skillId: "pushesAndPulls",
         question: "Which object are you pushing?",
-
+        stage: "recognise",
         options: [
             "A shopping trolley",
             "A kite string",
@@ -130,7 +130,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-006",
         skillId: "pushesAndPulls",
         question: "Which object are you pulling?",
-
+        stage: "recognise",
         options: [
             "A suitcase with wheels",
             "A football",
@@ -152,7 +152,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-007",
         skillId: "pushesAndPulls",
         question: "What can a force do to a moving object?",
-
+        stage: "recognise",
         options: [
             "Stop it",
             "Make it disappear",
@@ -174,7 +174,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-008",
         skillId: "pushesAndPulls",
         question: "What can a force do besides start or stop movement?",
-
+        stage: "recognise",
         options: [
             "Change the direction of movement",
             "Change the weather",
@@ -196,7 +196,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-009",
         skillId: "pushesAndPulls",
         question: "Kicking a football is mainly which type of force?",
-
+        stage: "recognise",
         options: [
             "A push",
             "A pull",
@@ -218,7 +218,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-010",
         skillId: "pushesAndPulls",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Forces are pushes and pulls.",
             "Forces only happen with magnets.",
@@ -240,7 +240,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-011",
         skillId: "pushesAndPulls",
         question: "A toy car is standing still. What could make it move?",
-
+        stage: "recognise",
         options: [
             "Pushing it",
             "Watching it",
@@ -262,7 +262,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-012",
         skillId: "pushesAndPulls",
         question: "A football is rolling. What could stop it more quickly?",
-
+        stage: "recognise",
         options: [
             "A force acting against it",
             "More sunlight",
@@ -284,7 +284,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-013",
         skillId: "pushesAndPulls",
         question: "Which activity uses both a push and a pull?",
-
+        stage: "recognise",
         options: [
             "Using a swing",
             "Reading a book",
@@ -306,7 +306,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-014",
         skillId: "pushesAndPulls",
         question: "Why does a bicycle change direction when you turn the handlebars?",
-
+        stage: "recognise",
         options: [
             "A force changes its direction",
             "The wheels stop moving",
@@ -328,7 +328,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-015",
         skillId: "pushesAndPulls",
         question: "Which force is used to open a fridge door?",
-
+        stage: "recognise",
         options: [
             "A pull",
             "A push",
@@ -350,7 +350,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-016",
         skillId: "pushesAndPulls",
         question: "A child pushes a toy car harder. What usually happens?",
-
+        stage: "recognise",
         options: [
             "It moves faster",
             "It disappears",
@@ -372,7 +372,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-017",
         skillId: "pushesAndPulls",
         question: "Which of these is an example of pulling?",
-
+        stage: "recognise",
         options: [
             "Pulling a curtain closed",
             "Kicking a ball",
@@ -394,7 +394,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-018",
         skillId: "pushesAndPulls",
         question: "What can forces change?",
-
+        stage: "recognise",
         options: [
             "The speed and direction of an object",
             "The colour of the sky",
@@ -416,7 +416,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-019",
         skillId: "pushesAndPulls",
         question: "Which investigation would help you learn about pushes?",
-
+        stage: "recognise",
         options: [
             "Rolling a toy car with different pushes",
             "Watching clouds",
@@ -438,7 +438,7 @@ export const pushesAndPulls: SkillContent = {
         id: "sci-pushpull-020",
         skillId: "pushesAndPulls",
         question: "Which sentence best describes a force?",
-
+        stage: "recognise",
         options: [
             "A force is a push or pull that can change how an object moves.",
             "A force is something only magnets have.",

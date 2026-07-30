@@ -20,7 +20,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-001",
         skillId: "stoneAge",
         question: "Why is it called the Stone Age?",
-
+        stage: "recognise",
         options: [
             "People made many tools from stone.",
             "Everything was made of stone.",
@@ -42,7 +42,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-002",
         skillId: "stoneAge",
         question: "What material was commonly used to make tools during the Stone Age?",
-
+        stage: "recognise",
         options: [
             "Stone",
             "Plastic",
@@ -64,7 +64,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-003",
         skillId: "stoneAge",
         question: "Which country are we learning about during the Stone Age?",
-
+        stage: "recognise",
         options: [
             "Britain",
             "Australia",
@@ -86,7 +86,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-004",
         skillId: "stoneAge",
         question: "Where did many early Stone Age people live?",
-
+        stage: "recognise",
         options: [
             "Caves",
             "Castles",
@@ -108,7 +108,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-005",
         skillId: "stoneAge",
         question: "What did Stone Age people hunt for food?",
-
+        stage: "recognise",
         options: [
             "Wild animals",
             "Farm animals",
@@ -130,7 +130,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-006",
         skillId: "stoneAge",
         question: "Besides hunting, how else did Stone Age people find food?",
-
+        stage: "recognise",
         options: [
             "Gathering berries, nuts and plants",
             "Shopping",
@@ -152,7 +152,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-007",
         skillId: "stoneAge",
         question: "Which of these was NOT around during the Stone Age?",
-
+        stage: "recognise",
         options: [
             "Cars",
             "Stone tools",
@@ -174,7 +174,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-008",
         skillId: "stoneAge",
         question: "Why was fire important to Stone Age people?",
-
+        stage: "recognise",
         options: [
             "It kept them warm and cooked food.",
             "It powered televisions.",
@@ -196,7 +196,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-009",
         skillId: "stoneAge",
         question: "What kind of clothes did many Stone Age people wear?",
-
+        stage: "recognise",
         options: [
             "Animal skins",
             "School uniforms",
@@ -218,7 +218,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-010",
         skillId: "stoneAge",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Stone Age people lived thousands of years ago.",
             "Stone Age people used computers.",
@@ -240,7 +240,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-011",
         skillId: "stoneAge",
         question: "Why did Stone Age people make tools from stone?",
-
+        stage: "recognise",
         options: [
             "Stone was strong and could be shaped.",
             "Stone grew on trees.",
@@ -262,7 +262,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-012",
         skillId: "stoneAge",
         question: "Why was hunting important?",
-
+        stage: "recognise",
         options: [
             "It provided food and animal skins.",
             "It helped build roads.",
@@ -284,7 +284,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-013",
         skillId: "stoneAge",
         question: "Why was gathering berries and nuts useful?",
-
+        stage: "recognise",
         options: [
             "It provided extra food.",
             "It made houses.",
@@ -306,7 +306,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-014",
         skillId: "stoneAge",
         question: "Why did people use caves for shelter?",
-
+        stage: "recognise",
         options: [
             "They gave protection from weather and animals.",
             "They had electricity.",
@@ -328,7 +328,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-015",
         skillId: "stoneAge",
         question: "How did fire improve everyday life?",
-
+        stage: "recognise",
         options: [
             "It gave warmth, light and cooked food.",
             "It powered engines.",
@@ -350,7 +350,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-016",
         skillId: "stoneAge",
         question: "Which activity would a Stone Age child most likely do?",
-
+        stage: "recognise",
         options: [
             "Help gather food",
             "Play video games",
@@ -372,7 +372,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-017",
         skillId: "stoneAge",
         question: "Why do historians study Stone Age tools?",
-
+        stage: "recognise",
         options: [
             "They help us understand how people lived.",
             "They are still used today.",
@@ -394,7 +394,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-018",
         skillId: "stoneAge",
         question: "What changed when people learned to control fire?",
-
+        stage: "recognise",
         options: [
             "They could cook food and stay warm.",
             "They invented cars.",
@@ -416,7 +416,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-019",
         skillId: "stoneAge",
         question: "Which item would you expect to find in a Stone Age settlement?",
-
+        stage: "recognise",
         options: [
             "Stone axe",
             "Television",
@@ -438,7 +438,7 @@ export const stoneAge: SkillContent = {
         id: "hist-stoneage-020",
         skillId: "stoneAge",
         question: "Which sentence best describes life in the Stone Age?",
-
+        stage: "recognise",
         options: [
             "People used stone tools, hunted, gathered food and lived without modern technology.",
             "People travelled by train and used electricity.",

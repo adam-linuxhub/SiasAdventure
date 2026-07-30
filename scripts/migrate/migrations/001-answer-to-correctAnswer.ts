@@ -1,22 +1,17 @@
 import {
-    ArrayLiteralExpression,
     Node,
     ObjectLiteralExpression,
     Project,
-    PropertyAssignment,
     SyntaxKind
 } from "ts-morph";
 
 import { Migration } from "../migration";
-import { createProject } from "../utils";
 
 export class AnswerToCorrectAnswerMigration implements Migration {
 
     readonly name = "001-answer-to-correctAnswer";
 
-    async run(): Promise<void> {
-
-        const project = createProject();
+    async run(project: Project): Promise<void> {
 
         let changedFiles = 0;
         let changedQuestions = 0;
@@ -96,9 +91,6 @@ export class AnswerToCorrectAnswerMigration implements Migration {
             }
 
             if (fileChanged) {
-
-                await file.save();
-
                 changedFiles++;
             }
         }

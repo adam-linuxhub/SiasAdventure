@@ -21,7 +21,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Why were many pyramids built in Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "As tombs for pharaohs",
             "As houses for farmers",
@@ -44,7 +44,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "What is a tomb?",
-
+        stage: "recognise",
         options: [
             "A place where someone is buried",
             "A place where crops grow",
@@ -67,7 +67,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "What shape are Egyptian pyramids famous for?",
-
+        stage: "recognise",
         options: [
             "A triangular shape with a wide base",
             "A circular shape",
@@ -90,7 +90,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "What were pyramids mostly made from?",
-
+        stage: "recognise",
         options: [
             "Large stone blocks",
             "Wood",
@@ -113,7 +113,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Why are pyramids important to historians?",
-
+        stage: "recognise",
         options: [
             "They provide evidence about Ancient Egyptian life",
             "They are modern buildings",
@@ -136,7 +136,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Which famous pyramid is located at Giza?",
-
+        stage: "recognise",
         options: [
             "The Great Pyramid",
             "The London Pyramid",
@@ -159,7 +159,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Who were pyramids often built for?",
-
+        stage: "recognise",
         options: [
             "Pharaohs",
             "School children",
@@ -182,7 +182,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "What do pyramids tell us about Ancient Egyptians?",
-
+        stage: "recognise",
         options: [
             "They had advanced building skills",
             "They could not build structures",
@@ -205,7 +205,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Why did Egyptians build tombs for pharaohs?",
-
+        stage: "recognise",
         options: [
             "They believed in an afterlife",
             "They wanted homes for workers",
@@ -228,7 +228,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Building pyramids required:",
-
+        stage: "recognise",
         options: [
             "Many workers and careful planning",
             "Only one person",
@@ -251,7 +251,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "How did Ancient Egyptians move large stone blocks?",
-
+        stage: "recognise",
         options: [
             "Using tools, ramps and teamwork",
             "Using cars",
@@ -274,7 +274,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "What does a pyramid show about Ancient Egyptian society?",
-
+        stage: "recognise",
         options: [
             "People could organise large projects",
             "People worked alone",
@@ -297,7 +297,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "What might be found inside an Ancient Egyptian tomb?",
-
+        stage: "recognise",
         options: [
             "Burial objects and treasures",
             "Modern technology",
@@ -320,7 +320,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Why were pyramids built to last a long time?",
-
+        stage: "recognise",
         options: [
             "They were made from strong stone",
             "They were made from paper",
@@ -343,7 +343,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "What can archaeologists learn from pyramids?",
-
+        stage: "recognise",
         options: [
             "How Ancient Egyptians lived and worked",
             "How modern cities are built",
@@ -366,7 +366,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Which statement is true about the Great Pyramid of Giza?",
-
+        stage: "recognise",
         options: [
             "It is one of the most famous ancient structures in the world",
             "It was built recently",
@@ -389,7 +389,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Why do historians use evidence from pyramids?",
-
+        stage: "recognise",
         options: [
             "To learn about the past",
             "To change history",
@@ -412,7 +412,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "A pyramid is an example of:",
-
+        stage: "recognise",
         options: [
             "Ancient Egyptian architecture",
             "Modern technology",
@@ -435,7 +435,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Why are pyramids still studied today?",
-
+        stage: "recognise",
         options: [
             "They reveal information about Ancient Egypt",
             "They are new buildings",
@@ -458,7 +458,7 @@ export const pyramids: SkillContent = {
         skillId: "pyramids",
         question:
             "Which sentence best describes pyramids?",
-
+        stage: "recognise",
         options: [
             "Large stone tombs built by Ancient Egyptians",
             "Modern houses made of metal",

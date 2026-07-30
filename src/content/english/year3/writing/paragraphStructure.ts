@@ -21,7 +21,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "What is a paragraph?",
-
+        stage: "recognise",
         options: [
             "A group of sentences about the same idea",
             "One single word",
@@ -44,7 +44,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Why do writers use paragraphs?",
-
+        stage: "recognise",
         options: [
             "To organise ideas and make writing easier to read",
             "To make writing confusing",
@@ -67,7 +67,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Which sentence could be the topic sentence of a paragraph about pets?",
-
+        stage: "recognise",
         options: [
             "Many people enjoy having pets at home.",
             "The dog's tail was brown.",
@@ -90,7 +90,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "What should sentences in the same paragraph usually do?",
-
+        stage: "recognise",
         options: [
             "Talk about the same main idea",
             "Discuss completely different topics",
@@ -113,7 +113,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Which group of sentences makes the best paragraph?",
-
+        stage: "recognise",
         options: [
             "All sentences about looking after a dog",
             "Sentences about dogs, cars and holidays mixed together",
@@ -136,7 +136,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Where does a new paragraph usually begin?",
-
+        stage: "recognise",
         options: [
             "When the writer starts a new idea",
             "After every word",
@@ -159,7 +159,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Which sentence would fit in a paragraph about a school trip?",
-
+        stage: "recognise",
         options: [
             "The class visited the museum and learned about history.",
             "My favourite food is pizza.",
@@ -182,7 +182,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "What is the purpose of a topic sentence?",
-
+        stage: "recognise",
         options: [
             "To introduce the main idea",
             "To end the whole story",
@@ -205,7 +205,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "A paragraph about animals should mostly include:",
-
+        stage: "recognise",
         options: [
             "Information about animals",
             "Information about space only",
@@ -228,7 +228,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Why are paragraphs helpful for readers?",
-
+        stage: "recognise",
         options: [
             "They make information easier to follow",
             "They remove the need for sentences",
@@ -251,7 +251,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Which sentence would NOT belong in a paragraph about football?",
-
+        stage: "recognise",
         options: [
             "My favourite cake is chocolate.",
             "The team scored two goals.",
@@ -274,7 +274,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Put these ideas in the best order:\n\nA. The plants grew taller.\nB. I planted seeds.\nC. I watered them every day.",
-
+        stage: "recognise",
         options: [
             "B → C → A",
             "A → B → C",
@@ -297,7 +297,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Which sentence would make a good ending to a paragraph about friendship?",
-
+        stage: "recognise",
         options: [
             "Good friends support each other and have fun together.",
             "The weather was rainy.",
@@ -320,7 +320,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Which words can help connect ideas in writing?",
-
+        stage: "recognise",
         options: [
             "Firstly, next, finally",
             "Cat, dog, fish",
@@ -343,7 +343,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "A new paragraph is often needed when:",
-
+        stage: "recognise",
         options: [
             "The focus changes to a new idea",
             "You write a longer word",
@@ -366,7 +366,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Which is the best structure for a simple story?",
-
+        stage: "recognise",
         options: [
             "Beginning, middle, ending",
             "Ending, beginning, middle",
@@ -389,7 +389,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Why should paragraphs contain related ideas?",
-
+        stage: "recognise",
         options: [
             "It helps the reader understand the writing",
             "It makes writing longer",
@@ -412,7 +412,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Which paragraph would be easiest to read?",
-
+        stage: "recognise",
         options: [
             "A paragraph with a clear topic and supporting details",
             "A paragraph with random sentences",
@@ -435,7 +435,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "What should supporting sentences do?",
-
+        stage: "recognise",
         options: [
             "Give details about the main idea",
             "Change to a completely different topic",
@@ -458,7 +458,7 @@ export const paragraphStructure: SkillContent = {
         skillId: "paragraphStructure",
         question:
             "Good paragraph structure helps writers:",
-
+        stage: "recognise",
         options: [
             "Organise ideas clearly",
             "Remove all details",

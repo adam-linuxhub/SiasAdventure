@@ -20,7 +20,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-001",
         skillId: "compassDirections",
         question: "Which direction is at the top of most maps?",
-
+        stage: "recognise",
         options: [
             "North",
             "South",
@@ -42,7 +42,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-002",
         skillId: "compassDirections",
         question: "Which direction is opposite north?",
-
+        stage: "recognise",
         options: [
             "South",
             "East",
@@ -64,7 +64,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-003",
         skillId: "compassDirections",
         question: "Which direction is opposite east?",
-
+        stage: "recognise",
         options: [
             "West",
             "North",
@@ -86,7 +86,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-004",
         skillId: "compassDirections",
         question: "Which direction is to the right of north on most maps?",
-
+        stage: "recognise",
         options: [
             "East",
             "West",
@@ -108,7 +108,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-005",
         skillId: "compassDirections",
         question: "Which direction is to the left of north on most maps?",
-
+        stage: "recognise",
         options: [
             "West",
             "East",
@@ -130,7 +130,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-006",
         skillId: "compassDirections",
         question: "How many main compass directions are there?",
-
+        stage: "recognise",
         options: [
             "Four",
             "Three",
@@ -152,7 +152,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-007",
         skillId: "compassDirections",
         question: "Which direction comes after north when moving clockwise around a compass?",
-
+        stage: "recognise",
         options: [
             "East",
             "South",
@@ -174,7 +174,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-008",
         skillId: "compassDirections",
         question: "Which tool helps people find directions?",
-
+        stage: "recognise",
         options: [
             "Compass",
             "Ruler",
@@ -196,7 +196,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-009",
         skillId: "compassDirections",
         question: "If you travel south, which direction are you moving?",
-
+        stage: "recognise",
         options: [
             "Towards the bottom of most maps",
             "Towards the top of most maps",
@@ -218,7 +218,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-010",
         skillId: "compassDirections",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "North, east, south and west are compass directions.",
             "Compass directions only work on treasure maps.",
@@ -240,7 +240,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-011",
         skillId: "compassDirections",
         question: "If your school is east of your home, which direction would you travel to get there?",
-
+        stage: "recognise",
         options: [
             "East",
             "West",
@@ -262,7 +262,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-012",
         skillId: "compassDirections",
         question: "A park is north of a library. Where is the library compared with the park?",
-
+        stage: "recognise",
         options: [
             "South",
             "East",
@@ -284,7 +284,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-013",
         skillId: "compassDirections",
         question: "Why do maps often include a compass?",
-
+        stage: "recognise",
         options: [
             "To show which way is north",
             "To measure roads",
@@ -306,7 +306,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-014",
         skillId: "compassDirections",
         question: "If you walk west and then turn around, which direction are you now facing?",
-
+        stage: "recognise",
         options: [
             "East",
             "North",
@@ -328,7 +328,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-015",
         skillId: "compassDirections",
         question: "Why are compass directions useful?",
-
+        stage: "recognise",
         options: [
             "They help describe where places are.",
             "They tell the temperature.",
@@ -350,7 +350,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-016",
         skillId: "compassDirections",
         question: "Which order is correct when moving clockwise around a compass?",
-
+        stage: "recognise",
         options: [
             "North, East, South, West",
             "North, West, South, East",
@@ -372,7 +372,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-017",
         skillId: "compassDirections",
         question: "If a river is west of a village, where is the village compared with the river?",
-
+        stage: "recognise",
         options: [
             "East",
             "North",
@@ -394,7 +394,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-018",
         skillId: "compassDirections",
         question: "Which direction would you travel if your destination is directly below you on a map?",
-
+        stage: "recognise",
         options: [
             "South",
             "North",
@@ -416,7 +416,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-019",
         skillId: "compassDirections",
         question: "Why should you know which way north is on a map?",
-
+        stage: "recognise",
         options: [
             "It helps you work out the other directions.",
             "It tells you the weather.",
@@ -438,7 +438,7 @@ export const compassDirections: SkillContent = {
         id: "geo-compass-020",
         skillId: "compassDirections",
         question: "Which sentence best describes compass directions?",
-
+        stage: "recognise",
         options: [
             "They help people describe locations and find their way.",
             "They tell the time of day.",

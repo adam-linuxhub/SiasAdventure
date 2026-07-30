@@ -20,7 +20,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-001",
         skillId: "planet-facts",
         question: "Which planet is closest to the Sun?",
-
+        stage: "recognise",
         options: [
             "Mercury",
             "Venus",
@@ -46,7 +46,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-002",
         skillId: "planet-facts",
         question: "Which planet is our home?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Mars",
@@ -72,7 +72,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-003",
         skillId: "planet-facts",
         question: "Which planet is known as the Red Planet?",
-
+        stage: "recognise",
         options: [
             "Mars",
             "Mercury",
@@ -98,7 +98,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-004",
         skillId: "planet-facts",
         question: "Which planet is the largest in our Solar System?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -124,7 +124,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-005",
         skillId: "planet-facts",
         question: "Which planet is famous for its bright rings?",
-
+        stage: "recognise",
         options: [
             "Saturn",
             "Jupiter",
@@ -150,7 +150,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-006",
         skillId: "planet-facts",
         question: "Which planet spins on its side?",
-
+        stage: "recognise",
         options: [
             "Uranus",
             "Neptune",
@@ -176,7 +176,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-007",
         skillId: "planet-facts",
         question: "Which planet is the farthest from the Sun?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Uranus",
@@ -202,7 +202,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-008",
         skillId: "planet-facts",
         question: "Which planet is the hottest?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Mercury",
@@ -228,7 +228,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-009",
         skillId: "planet-facts",
         question: "Which planet has one large moon called Earth's Moon?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Mars",
@@ -255,7 +255,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-010",
         skillId: "planet-facts",
         question: "Which planet has the Great Red Spot, a giant storm?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -282,7 +282,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-011",
         skillId: "planet-facts",
         question: "Which planet has the shortest year?",
-
+        stage: "recognise",
         options: [
             "Mercury",
             "Earth",
@@ -309,7 +309,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-012",
         skillId: "planet-facts",
         question: "Which planet has the longest year?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Saturn",
@@ -336,7 +336,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-013",
         skillId: "planet-facts",
         question: "Which planet is covered by thick yellowish clouds?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Earth",
@@ -362,7 +362,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-014",
         skillId: "planet-facts",
         question: "Which planet has Olympus Mons, the largest volcano in the Solar System?",
-
+        stage: "recognise",
         options: [
             "Mars",
             "Earth",
@@ -389,7 +389,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-015",
         skillId: "planet-facts",
         question: "Which planet is sometimes called Earth's twin because it is a similar size?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Mars",
@@ -415,8 +415,8 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-016",
             skillId: "planet-facts",
             question: "Which planet has no moons?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "Mercury and Venus",
             "Earth and Mars",
             "Jupiter and Saturn",
@@ -443,7 +443,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-017",
         skillId: "planet-facts",
         question: "Which planet has one moon?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Mars",
@@ -470,7 +470,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-018",
         skillId: "planet-facts",
         question: "Which planet is famous for having the biggest ring system?",
-
+        stage: "recognise",
         options: [
             "Saturn",
             "Jupiter",
@@ -497,7 +497,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-019",
         skillId: "planet-facts",
         question: "Which planet is the smallest in the Solar System?",
-
+        stage: "recognise",
         options: [
             "Mercury",
             "Mars",
@@ -523,7 +523,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-020",
         skillId: "planet-facts",
         question: "Which planet is the biggest in the Solar System?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -549,7 +549,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-021",
         skillId: "planet-facts",
         question: "Which planet takes about one Earth year to travel around the Sun?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Mars",
@@ -576,7 +576,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-022",
         skillId: "planet-facts",
         question: "Which planet is often called the Blue Planet because of its oceans?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Neptune",
@@ -603,7 +603,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-023",
         skillId: "planet-facts",
         question: "Which planet has two small moons called Phobos and Deimos?",
-
+        stage: "recognise",
         options: [
             "Mars",
             "Earth",
@@ -630,7 +630,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-024",
         skillId: "planet-facts",
         question: "Which planet is famous for its extremely strong winds?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Earth",
@@ -657,7 +657,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-025",
         skillId: "planet-facts",
         question: "Which planet is second from the Sun?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Mercury",
@@ -684,7 +684,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-026",
         skillId: "planet-facts",
         question: "Which planet is fourth from the Sun?",
-
+        stage: "recognise",
         options: [
             "Mars",
             "Earth",
@@ -711,7 +711,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-027",
         skillId: "planet-facts",
         question: "Which planet comes immediately before Saturn?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Mars",
@@ -738,7 +738,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-028",
         skillId: "planet-facts",
         question: "Which planet comes immediately after Saturn?",
-
+        stage: "recognise",
         options: [
             "Uranus",
             "Neptune",
@@ -765,7 +765,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-029",
         skillId: "planet-facts",
         question: "Which planet is closest in size to Earth?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Mars",
@@ -792,7 +792,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-030",
         skillId: "planet-facts",
         question: "Which planet has the most famous giant storm called the Great Red Spot?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -818,8 +818,8 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-031",
             skillId: "planet-facts",
             question: "Which planet is called an ice giant?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "Uranus",
             "Earth",
             "Mars",
@@ -845,7 +845,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-032",
         skillId: "planet-facts",
         question: "Which planet is also an ice giant?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Jupiter",
@@ -872,7 +872,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-033",
         skillId: "planet-facts",
         question: "Which planet is the second largest in the Solar System?",
-
+        stage: "recognise",
         options: [
             "Saturn",
             "Jupiter",
@@ -898,7 +898,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-034",
         skillId: "planet-facts",
         question: "Which planet has the most noticeable rings?",
-
+        stage: "recognise",
         options: [
             "Saturn",
             "Jupiter",
@@ -925,7 +925,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-035",
         skillId: "planet-facts",
         question: "Which planet is known for being very cold because it is far from the Sun?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Venus",
@@ -951,7 +951,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-036",
         skillId: "planet-facts",
         question: "Which planet is the third planet from the Sun?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Venus",
@@ -978,7 +978,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-037",
         skillId: "planet-facts",
         question: "Which planet is the seventh planet from the Sun?",
-
+        stage: "recognise",
         options: [
             "Uranus",
             "Neptune",
@@ -1005,7 +1005,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-038",
         skillId: "planet-facts",
         question: "Which planet has a thick atmosphere that makes it the hottest planet?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Mercury",
@@ -1032,7 +1032,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-039",
         skillId: "planet-facts",
         question: "Which planet is famous for its huge volcano called Olympus Mons?",
-
+        stage: "recognise",
         options: [
             "Mars",
             "Earth",
@@ -1059,7 +1059,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-040",
         skillId: "planet-facts",
         question: "Which planet has no natural moons and is closest to the Sun?",
-
+        stage: "recognise",
         options: [
             "Mercury",
             "Venus",
@@ -1086,7 +1086,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-041",
         skillId: "planet-facts",
         question: "Which planet has no natural moons and is the hottest planet?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Mercury",
@@ -1113,7 +1113,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-042",
         skillId: "planet-facts",
         question: "Which planet is larger than Earth and famous for its rings?",
-
+        stage: "recognise",
         options: [
             "Saturn",
             "Mars",
@@ -1140,7 +1140,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-043",
         skillId: "planet-facts",
         question: "Which planet rotates almost on its side?",
-
+        stage: "recognise",
         options: [
             "Uranus",
             "Neptune",
@@ -1166,7 +1166,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-044",
         skillId: "planet-facts",
         question: "Which planet has the fastest known winds in the Solar System?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Jupiter",
@@ -1193,7 +1193,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-045",
         skillId: "planet-facts",
         question: "Which planet is famous for the Great Red Spot?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -1219,8 +1219,8 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-046",
             skillId: "planet-facts",
             question: "Which statement about Mercury is true?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "It is the closest planet to the Sun.",
             "It has large rings.",
             "It is the largest planet.",
@@ -1245,7 +1245,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-047",
         skillId: "planet-facts",
         question: "Which statement about Venus is true?",
-
+        stage: "recognise",
         options: [
             "It is the hottest planet.",
             "It has beautiful rings.",
@@ -1271,7 +1271,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-048",
         skillId: "planet-facts",
         question: "Which statement about Earth is true?",
-
+        stage: "recognise",
         options: [
             "It is the only known planet with life.",
             "It has no atmosphere.",
@@ -1297,7 +1297,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-049",
         skillId: "planet-facts",
         question: "Which statement about Jupiter is true?",
-
+        stage: "recognise",
         options: [
             "It is the largest planet in the Solar System.",
             "It is the smallest planet.",
@@ -1323,7 +1323,7 @@ export const planetFacts: SkillContent = {
         id: "sci-planet-facts-050",
         skillId: "planet-facts",
         question: "Which summary correctly describes the eight planets?",
-
+        stage: "recognise",
         options: [
             "Mercury is closest to the Sun, Venus is the hottest, Earth is our home, Mars is the Red Planet, Jupiter is the largest, Saturn has the best-known rings, Uranus spins on its side and Neptune is the farthest planet.",
             "Jupiter is closest to the Sun, Earth has rings and Mars is the largest planet.",

@@ -21,7 +21,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What is climate?",
-
+        stage: "recognise",
         options: [
             "The usual weather conditions of a place over a long period of time",
             "The weather today only",
@@ -44,7 +44,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What is a climate zone?",
-
+        stage: "recognise",
         options: [
             "An area with a similar climate",
             "A type of mountain",
@@ -67,7 +67,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "Why do different places have different climates?",
-
+        stage: "recognise",
         options: [
             "Because of factors such as location, sunlight and altitude",
             "Because all places have the same weather",
@@ -90,7 +90,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "Where is the equator?",
-
+        stage: "recognise",
         options: [
             "An imaginary line around the middle of Earth",
             "At the North Pole",
@@ -113,7 +113,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "Why are places near the equator usually warmer?",
-
+        stage: "recognise",
         options: [
             "They receive more direct sunlight",
             "They are closer to mountains",
@@ -136,7 +136,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What type of climate is found near the equator?",
-
+        stage: "recognise",
         options: [
             "Tropical climate",
             "Polar climate",
@@ -159,7 +159,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What is a tropical climate usually like?",
-
+        stage: "recognise",
         options: [
             "Hot and often wet",
             "Very cold all year",
@@ -182,7 +182,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What climate is found near the North and South Poles?",
-
+        stage: "recognise",
         options: [
             "Polar climate",
             "Tropical climate",
@@ -205,7 +205,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What is a polar climate like?",
-
+        stage: "recognise",
         options: [
             "Very cold with ice and snow",
             "Hot and humid",
@@ -228,7 +228,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What type of climate does the UK have?",
-
+        stage: "recognise",
         options: [
             "Temperate climate",
             "Polar climate",
@@ -251,7 +251,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What is a temperate climate like?",
-
+        stage: "recognise",
         options: [
             "Moderate temperatures with changing seasons",
             "Always freezing",
@@ -274,7 +274,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What climate is common in deserts?",
-
+        stage: "recognise",
         options: [
             "Very dry climate",
             "Polar climate",
@@ -297,7 +297,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What is a rainforest climate usually like?",
-
+        stage: "recognise",
         options: [
             "Hot and very wet",
             "Cold and dry",
@@ -320,7 +320,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "Why do plants and animals vary between climate zones?",
-
+        stage: "recognise",
         options: [
             "They adapt to different conditions",
             "All environments are identical",
@@ -343,7 +343,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "Which climate zone would have ice sheets?",
-
+        stage: "recognise",
         options: [
             "Polar",
             "Tropical",
@@ -366,7 +366,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "Why are climate zones shown on world maps?",
-
+        stage: "recognise",
         options: [
             "To compare climates in different parts of Earth",
             "To show only roads",
@@ -389,7 +389,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "How does altitude affect climate?",
-
+        stage: "recognise",
         options: [
             "Higher places are usually colder",
             "Higher places are always warmer",
@@ -412,7 +412,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "Why is climate important for people?",
-
+        stage: "recognise",
         options: [
             "It affects how people live, work and grow food",
             "It has no effect",
@@ -435,7 +435,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "What do climate zones help geographers understand?",
-
+        stage: "recognise",
         options: [
             "Patterns of weather around the world",
             "Only individual buildings",
@@ -458,7 +458,7 @@ export const climateZones: SkillContent = {
         skillId: "climateZones",
         question:
             "Which sentence best describes climate zones?",
-
+        stage: "recognise",
         options: [
             "Areas of Earth with similar long-term weather patterns",
             "Places with the same buildings",

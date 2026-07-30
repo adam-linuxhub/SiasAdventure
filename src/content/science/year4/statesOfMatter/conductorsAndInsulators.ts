@@ -20,7 +20,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-001",
         skillId: "conductorsAndInsulators",
         question: "What is a conductor?",
-
+        stage: "recognise",
         options: [
             "A material that lets electricity pass through it",
             "A material that stops electricity",
@@ -42,7 +42,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-002",
         skillId: "conductorsAndInsulators",
         question: "What is an insulator?",
-
+        stage: "recognise",
         options: [
             "A material that stops electricity flowing through it",
             "A material that makes electricity",
@@ -64,7 +64,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-003",
         skillId: "conductorsAndInsulators",
         question: "Which material is a good electrical conductor?",
-
+        stage: "recognise",
         options: [
             "Copper",
             "Plastic",
@@ -86,7 +86,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-004",
         skillId: "conductorsAndInsulators",
         question: "Which material is an insulator?",
-
+        stage: "recognise",
         options: [
             "Plastic",
             "Copper",
@@ -108,7 +108,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-005",
         skillId: "conductorsAndInsulators",
         question: "Most metals are...",
-
+        stage: "recognise",
         options: [
             "Good conductors",
             "Good insulators",
@@ -130,7 +130,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-006",
         skillId: "conductorsAndInsulators",
         question: "Why are electrical wires usually made from copper?",
-
+        stage: "recognise",
         options: [
             "Copper is a good conductor.",
             "Copper is soft.",
@@ -152,7 +152,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-007",
         skillId: "conductorsAndInsulators",
         question: "What covers many electrical wires to help keep people safe?",
-
+        stage: "recognise",
         options: [
             "Plastic",
             "Copper",
@@ -174,7 +174,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-008",
         skillId: "conductorsAndInsulators",
         question: "Which of these is made from metal?",
-
+        stage: "recognise",
         options: [
             "Paper clip",
             "Rubber band",
@@ -196,7 +196,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-009",
         skillId: "conductorsAndInsulators",
         question: "Which material is least likely to conduct electricity?",
-
+        stage: "recognise",
         options: [
             "Rubber",
             "Copper",
@@ -218,7 +218,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-010",
         skillId: "conductorsAndInsulators",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Some materials conduct electricity better than others.",
             "All materials conduct electricity equally well.",
@@ -240,7 +240,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-011",
         skillId: "conductorsAndInsulators",
         question: "Why is plastic used to cover electrical wires?",
-
+        stage: "recognise",
         options: [
             "It is an insulator that helps protect people.",
             "It carries electricity better than copper.",
@@ -262,7 +262,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-012",
         skillId: "conductorsAndInsulators",
         question: "Which pair contains two conductors?",
-
+        stage: "recognise",
         options: [
             "Copper and aluminium",
             "Plastic and rubber",
@@ -284,7 +284,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-013",
         skillId: "conductorsAndInsulators",
         question: "Which pair contains two insulators?",
-
+        stage: "recognise",
         options: [
             "Plastic and rubber",
             "Copper and steel",
@@ -306,7 +306,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-014",
         skillId: "conductorsAndInsulators",
         question: "Why are metals commonly used inside electrical cables?",
-
+        stage: "recognise",
         options: [
             "They allow electricity to flow easily.",
             "They stop electricity flowing.",
@@ -328,7 +328,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-015",
         skillId: "conductorsAndInsulators",
         question: "Which material would be safest for the handle of an electrical tool?",
-
+        stage: "recognise",
         options: [
             "Rubber",
             "Copper",
@@ -350,7 +350,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-016",
         skillId: "conductorsAndInsulators",
         question: "Why would a plastic spoon not complete an electrical circuit?",
-
+        stage: "recognise",
         options: [
             "Plastic is an insulator.",
             "Plastic is a metal.",
@@ -372,7 +372,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-017",
         skillId: "conductorsAndInsulators",
         question: "Which object would most likely complete a simple circuit?",
-
+        stage: "recognise",
         options: [
             "Metal paper clip",
             "Rubber band",
@@ -394,7 +394,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-018",
         skillId: "conductorsAndInsulators",
         question: "Why are rubber gloves sometimes used when working with electricity?",
-
+        stage: "recognise",
         options: [
             "Rubber is an insulator.",
             "Rubber is a conductor.",
@@ -416,7 +416,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-019",
         skillId: "conductorsAndInsulators",
         question: "What do conductors and insulators have in common?",
-
+        stage: "recognise",
         options: [
             "They are both types of materials.",
             "They both stop electricity.",
@@ -438,7 +438,7 @@ export const conductorsAndInsulators: SkillContent = {
         id: "sci-conductors-020",
         skillId: "conductorsAndInsulators",
         question: "Which sentence best describes conductors and insulators?",
-
+        stage: "recognise",
         options: [
             "Conductors allow electricity to flow, while insulators reduce or stop the flow of electricity.",
             "Conductors stop electricity and insulators carry it.",

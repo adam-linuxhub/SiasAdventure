@@ -20,7 +20,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-001",
         skillId: "pronouns",
         question: "Which word is a pronoun?",
-
+        stage: "recognise",
         options: [
             "he",
             "boy",
@@ -42,7 +42,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-002",
         skillId: "pronouns",
         question: "Which word is a pronoun?",
-
+        stage: "recognise",
         options: [
             "she",
             "girl",
@@ -64,7 +64,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-003",
         skillId: "pronouns",
         question: "Which word is a pronoun?",
-
+        stage: "recognise",
         options: [
             "it",
             "cat",
@@ -86,7 +86,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-004",
         skillId: "pronouns",
         question: "Which word is a pronoun?",
-
+        stage: "recognise",
         options: [
             "they",
             "children",
@@ -108,7 +108,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-005",
         skillId: "pronouns",
         question: "Which word can replace 'Oliver'?",
-
+        stage: "recognise",
         options: [
             "he",
             "table",
@@ -130,7 +130,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-006",
         skillId: "pronouns",
         question: "Which word can replace 'Emma'?",
-
+        stage: "recognise",
         options: [
             "she",
             "happy",
@@ -152,7 +152,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-007",
         skillId: "pronouns",
         question: "Which word can replace 'the dog'?",
-
+        stage: "recognise",
         options: [
             "it",
             "bark",
@@ -174,7 +174,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-008",
         skillId: "pronouns",
         question: "Which sentence contains a pronoun?",
-
+        stage: "recognise",
         options: [
             "She laughed.",
             "The happy girl.",
@@ -196,7 +196,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-009",
         skillId: "pronouns",
         question: "Which word is NOT a pronoun?",
-
+        stage: "recognise",
         options: [
             "teacher",
             "we",
@@ -218,7 +218,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-010",
         skillId: "pronouns",
         question: "Why do we use pronouns?",
-
+        stage: "recognise",
         options: [
             "To avoid repeating nouns",
             "To replace punctuation",
@@ -240,7 +240,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-011",
         skillId: "pronouns",
         question: "Choose the best replacement: 'Lucy found Lucy's book. ____ picked it up.'",
-
+        stage: "recognise",
         options: [
             "She",
             "Book",
@@ -262,7 +262,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-012",
         skillId: "pronouns",
         question: "Which sentence uses a pronoun correctly?",
-
+        stage: "recognise",
         options: [
             "Sam found the ball. He kicked it.",
             "Sam found the ball. Ball kicked Sam.",
@@ -284,7 +284,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-013",
         skillId: "pronouns",
         question: "Which pronoun can replace 'my friends'?",
-
+        stage: "recognise",
         options: [
             "they",
             "he",
@@ -306,7 +306,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-014",
         skillId: "pronouns",
         question: "In the sentence 'The cat drank its milk.', which word is the pronoun?",
-
+        stage: "recognise",
         options: [
             "its",
             "cat",
@@ -328,7 +328,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-015",
         skillId: "pronouns",
         question: "Which sentence contains two pronouns?",
-
+        stage: "recognise",
         options: [
             "They helped us.",
             "The children helped.",
@@ -350,7 +350,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-016",
         skillId: "pronouns",
         question: "Which pronoun could replace 'the bicycle'?",
-
+        stage: "recognise",
         options: [
             "it",
             "they",
@@ -372,7 +372,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-017",
         skillId: "pronouns",
         question: "Choose the best sentence.",
-
+        stage: "recognise",
         options: [
             "Mia saw Ben. She waved to him.",
             "Mia saw Ben. Mia waved to Ben.",
@@ -394,7 +394,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-018",
         skillId: "pronouns",
         question: "Which pronoun refers to the speaker?",
-
+        stage: "recognise",
         options: [
             "I",
             "he",
@@ -416,7 +416,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-019",
         skillId: "pronouns",
         question: "Which pronoun refers to the person being spoken to?",
-
+        stage: "recognise",
         options: [
             "you",
             "he",
@@ -438,7 +438,7 @@ export const pronouns: SkillContent = {
         id: "eng-pronouns-020",
         skillId: "pronouns",
         question: "Which sentence uses pronouns correctly?",
-
+        stage: "recognise",
         options: [
             "Olivia and Noah played outside. They enjoyed it.",
             "Olivia and Noah played outside. Olivia and Noah enjoyed outside.",

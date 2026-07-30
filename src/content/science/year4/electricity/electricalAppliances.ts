@@ -20,7 +20,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-001",
         skillId: "electricalAppliances",
         question: "Which of these is an electrical appliance?",
-
+        stage: "recognise",
         options: [
             "Television",
             "Book",
@@ -42,7 +42,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-002",
         skillId: "electricalAppliances",
         question: "Which appliance usually runs on batteries?",
-
+        stage: "recognise",
         options: [
             "Torch",
             "Toaster",
@@ -64,7 +64,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-003",
         skillId: "electricalAppliances",
         question: "Which appliance is usually plugged into a wall socket?",
-
+        stage: "recognise",
         options: [
             "Kettle",
             "Remote control",
@@ -86,7 +86,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-004",
         skillId: "electricalAppliances",
         question: "What provides electricity to many homes?",
-
+        stage: "recognise",
         options: [
             "The mains electricity supply",
             "The Moon",
@@ -108,7 +108,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-005",
         skillId: "electricalAppliances",
         question: "Which item is most likely to use batteries?",
-
+        stage: "recognise",
         options: [
             "TV remote",
             "Electric cooker",
@@ -130,7 +130,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-006",
         skillId: "electricalAppliances",
         question: "Which of these needs electricity to work?",
-
+        stage: "recognise",
         options: [
             "Laptop",
             "Notebook",
@@ -152,7 +152,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-007",
         skillId: "electricalAppliances",
         question: "Which appliance helps keep food cold?",
-
+        stage: "recognise",
         options: [
             "Fridge",
             "Toaster",
@@ -174,7 +174,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-008",
         skillId: "electricalAppliances",
         question: "Which appliance is commonly found in a kitchen?",
-
+        stage: "recognise",
         options: [
             "Toaster",
             "Torch",
@@ -196,7 +196,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-009",
         skillId: "electricalAppliances",
         question: "What do batteries provide?",
-
+        stage: "recognise",
         options: [
             "Electrical energy",
             "Water",
@@ -218,7 +218,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-010",
         skillId: "electricalAppliances",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Some appliances use batteries and others use mains electricity.",
             "All appliances use batteries.",
@@ -240,7 +240,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-011",
         skillId: "electricalAppliances",
         question: "Why is a television usually plugged into a wall socket?",
-
+        stage: "recognise",
         options: [
             "It needs mains electricity.",
             "It needs water.",
@@ -262,7 +262,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-012",
         skillId: "electricalAppliances",
         question: "Which pair both usually use batteries?",
-
+        stage: "recognise",
         options: [
             "Torch and remote control",
             "Kettle and toaster",
@@ -284,7 +284,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-013",
         skillId: "electricalAppliances",
         question: "Which appliance is most suitable to take camping without mains electricity?",
-
+        stage: "recognise",
         options: [
             "Battery-powered torch",
             "Electric oven",
@@ -306,7 +306,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-014",
         skillId: "electricalAppliances",
         question: "What do a kettle, toaster and microwave have in common?",
-
+        stage: "recognise",
         options: [
             "They usually use mains electricity.",
             "They all use batteries.",
@@ -328,7 +328,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-015",
         skillId: "electricalAppliances",
         question: "Why do many portable appliances use batteries?",
-
+        stage: "recognise",
         options: [
             "They can be used away from wall sockets.",
             "They never need electricity.",
@@ -350,7 +350,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-016",
         skillId: "electricalAppliances",
         question: "Which appliance would probably stop working if there was a power cut?",
-
+        stage: "recognise",
         options: [
             "Fridge",
             "Battery torch",
@@ -372,7 +372,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-017",
         skillId: "electricalAppliances",
         question: "Which group contains only electrical appliances?",
-
+        stage: "recognise",
         options: [
             "Laptop, kettle and television",
             "Book, pencil and ruler",
@@ -394,7 +394,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-018",
         skillId: "electricalAppliances",
         question: "Why does a remote control need batteries?",
-
+        stage: "recognise",
         options: [
             "To provide electrical energy.",
             "To keep it cool.",
@@ -416,7 +416,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-019",
         skillId: "electricalAppliances",
         question: "Which appliance is least likely to be portable?",
-
+        stage: "recognise",
         options: [
             "Washing machine",
             "Torch",
@@ -438,7 +438,7 @@ export const electricalAppliances: SkillContent = {
         id: "sci-electricity-020",
         skillId: "electricalAppliances",
         question: "Which sentence best describes electrical appliances?",
-
+        stage: "recognise",
         options: [
             "Electrical appliances need electricity, which may come from batteries or the mains supply.",
             "Every appliance uses batteries.",

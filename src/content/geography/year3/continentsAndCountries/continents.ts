@@ -21,7 +21,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "What is a continent?",
-
+        stage: "recognise",
         options: [
             "A large area of land on Earth",
             "A small village",
@@ -44,7 +44,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "How many continents are there?",
-
+        stage: "recognise",
         options: [
             "Seven",
             "Five",
@@ -67,7 +67,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent is the UK part of?",
-
+        stage: "recognise",
         options: [
             "Europe",
             "Asia",
@@ -90,7 +90,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which is the largest continent?",
-
+        stage: "recognise",
         options: [
             "Asia",
             "Europe",
@@ -113,7 +113,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent is the largest desert found in?",
-
+        stage: "recognise",
         options: [
             "Africa",
             "Europe",
@@ -136,7 +136,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent contains the Amazon Rainforest?",
-
+        stage: "recognise",
         options: [
             "South America",
             "Asia",
@@ -159,7 +159,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent is covered mostly by ice?",
-
+        stage: "recognise",
         options: [
             "Antarctica",
             "Africa",
@@ -182,7 +182,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent is also a country?",
-
+        stage: "recognise",
         options: [
             "Australia",
             "Africa",
@@ -205,7 +205,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent is north of Africa?",
-
+        stage: "recognise",
         options: [
             "Europe",
             "Antarctica",
@@ -228,7 +228,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent is east of Europe?",
-
+        stage: "recognise",
         options: [
             "Asia",
             "South America",
@@ -251,7 +251,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent contains the United States?",
-
+        stage: "recognise",
         options: [
             "North America",
             "Europe",
@@ -274,7 +274,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent contains Brazil?",
-
+        stage: "recognise",
         options: [
             "South America",
             "Africa",
@@ -297,7 +297,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent contains Egypt?",
-
+        stage: "recognise",
         options: [
             "Africa",
             "Asia",
@@ -320,7 +320,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Why do geographers study continents?",
-
+        stage: "recognise",
         options: [
             "To understand how places are organised around Earth",
             "To change countries",
@@ -343,7 +343,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "What is a world map used for?",
-
+        stage: "recognise",
         options: [
             "Showing locations of continents and countries",
             "Measuring temperature",
@@ -366,7 +366,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent has the most countries?",
-
+        stage: "recognise",
         options: [
             "Africa",
             "Antarctica",
@@ -389,7 +389,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Why are continents different from each other?",
-
+        stage: "recognise",
         options: [
             "They have different climates, landscapes and cultures",
             "They are all identical",
@@ -412,7 +412,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which continent is south of Europe?",
-
+        stage: "recognise",
         options: [
             "Africa",
             "Asia",
@@ -435,7 +435,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Why are maps useful for learning continents?",
-
+        stage: "recognise",
         options: [
             "They show where continents are located",
             "They change continent sizes",
@@ -458,7 +458,7 @@ export const continents: SkillContent = {
         skillId: "continents",
         question:
             "Which sentence best describes continents?",
-
+        stage: "recognise",
         options: [
             "Continents are large areas of land containing many countries and landscapes",
             "Continents are types of weather",

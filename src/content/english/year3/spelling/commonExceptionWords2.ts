@@ -20,7 +20,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-001",
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "could",
             "coulde",
@@ -42,7 +42,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-002",
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "would",
             "wud",
@@ -64,7 +64,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-003",
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "should",
             "shud",
@@ -86,7 +86,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-004",
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "hour",
             "our",
@@ -108,7 +108,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-005",
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "move",
             "moov",
@@ -130,7 +130,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-006",
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "water",
             "watter",
@@ -152,7 +152,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-007",
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "sugar",
             "shugar",
@@ -174,7 +174,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-008",
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "pretty",
             "prety",
@@ -196,7 +196,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-009",
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "clothes",
             "cloths",
@@ -218,7 +218,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-010",
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "sure",
             "shure",
@@ -240,7 +240,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-011",
         skillId: "commonExceptionWords2",
         question: "Complete the sentence: 'I ______ help you tomorrow.'",
-
+        stage: "recognise",
         options: [
             "could",
             "cud",
@@ -262,7 +262,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-012",
         skillId: "commonExceptionWords2",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "We drank cold water after the race.",
             "We drank cold watter after the race.",
@@ -284,7 +284,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-013",
         skillId: "commonExceptionWords2",
         question: "Which sentence contains the correctly spelled word?",
-
+        stage: "recognise",
         options: [
             "The flowers need water to grow.",
             "The flowers need watter to grow.",
@@ -306,7 +306,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-014",
         skillId: "commonExceptionWords2",
         question: "Which word completes the sentence? 'I am ______ this answer is correct.'",
-
+        stage: "recognise",
         options: [
             "sure",
             "shure",
@@ -328,7 +328,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-015",
         skillId: "commonExceptionWords2",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "My favourite jumper is hanging with my clothes.",
             "My favourite jumper is hanging with my cloths.",
@@ -350,7 +350,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-016",
         skillId: "commonExceptionWords2",
         question: "Which spelling is correct?",
-
+        stage: "recognise",
         options: [
             "improve",
             "improove",
@@ -372,7 +372,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-017",
         skillId: "commonExceptionWords2",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "We should finish our homework.",
             "We shud finish our homework.",
@@ -394,7 +394,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-018",
         skillId: "commonExceptionWords2",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "Dad would like a cup of tea.",
             "Dad wud like a cup of tea.",
@@ -416,7 +416,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-019",
         skillId: "commonExceptionWords2",
         question: "Which word is spelled correctly?",
-
+        stage: "recognise",
         options: [
             "hour",
             "ourh",
@@ -438,7 +438,7 @@ export const commonExceptionWords2: SkillContent = {
         id: "eng-cew2-020",
         skillId: "commonExceptionWords2",
         question: "Which sentence contains only correctly spelled words?",
-
+        stage: "recognise",
         options: [
             "We could improve after an hour of practice.",
             "We cud improove after an hour of practice.",

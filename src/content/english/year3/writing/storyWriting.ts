@@ -21,7 +21,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "What are the main parts of a story?",
-
+        stage: "recognise",
         options: [
             "Beginning, middle and ending",
             "Title, picture and page number",
@@ -44,7 +44,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "What is a character in a story?",
-
+        stage: "recognise",
         options: [
             "A person or animal in the story",
             "The place where the story happens",
@@ -67,7 +67,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "What is the setting of a story?",
-
+        stage: "recognise",
         options: [
             "Where and when the story happens",
             "The main character",
@@ -90,7 +90,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "What usually happens at the beginning of a story?",
-
+        stage: "recognise",
         options: [
             "Characters and setting are introduced",
             "The problem is solved",
@@ -113,7 +113,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Why do stories often have a problem?",
-
+        stage: "recognise",
         options: [
             "It creates something for the characters to solve",
             "It makes the story shorter",
@@ -136,7 +136,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Which is a good story opening?",
-
+        stage: "recognise",
         options: [
             "Ella opened the mysterious door and stepped inside.",
             "The end.",
@@ -159,7 +159,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "What makes a character interesting?",
-
+        stage: "recognise",
         options: [
             "Their actions, thoughts and feelings",
             "Only their name",
@@ -182,7 +182,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Which detail helps describe a setting?",
-
+        stage: "recognise",
         options: [
             "The dark forest with tall trees",
             "The character's name only",
@@ -205,7 +205,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "What should happen in the middle of a story?",
-
+        stage: "recognise",
         options: [
             "Events happen and characters face challenges",
             "Only the title is shown",
@@ -228,7 +228,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Why do writers plan stories before writing?",
-
+        stage: "recognise",
         options: [
             "To organise ideas and structure the story",
             "To avoid having characters",
@@ -251,7 +251,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Which sentence creates the best atmosphere?",
-
+        stage: "recognise",
         options: [
             "The cold wind howled through the empty forest.",
             "The forest was there.",
@@ -274,7 +274,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Which sentence shows a character's feelings?",
-
+        stage: "recognise",
         options: [
             "Lily trembled because she was nervous.",
             "Lily walked.",
@@ -297,7 +297,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "What is a resolution in a story?",
-
+        stage: "recognise",
         options: [
             "How the problem is solved",
             "The name of the character",
@@ -320,7 +320,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Which would improve a story?",
-
+        stage: "recognise",
         options: [
             "Adding details about characters and settings",
             "Removing all descriptions",
@@ -343,7 +343,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Which word helps show the order of events in a story?",
-
+        stage: "recognise",
         options: [
             "Suddenly",
             "Blue",
@@ -366,7 +366,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "A strong story ending should:",
-
+        stage: "recognise",
         options: [
             "Finish the events and give the reader closure",
             "Introduce a new main character",
@@ -389,7 +389,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Which sentence uses imagination?",
-
+        stage: "recognise",
         options: [
             "The dragon guarded a hidden cave beneath the mountain.",
             "The table was brown.",
@@ -412,7 +412,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Why do writers use dialogue in stories?",
-
+        stage: "recognise",
         options: [
             "To show what characters say and think",
             "To remove characters",
@@ -435,7 +435,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "Before writing a story, it is useful to decide:",
-
+        stage: "recognise",
         options: [
             "Who, where, what happens and how it ends",
             "Only the last word",
@@ -458,7 +458,7 @@ export const storyWriting: SkillContent = {
         skillId: "storyWriting",
         question:
             "A successful story usually has:",
-
+        stage: "recognise",
         options: [
             "Interesting characters, a setting, events and an ending",
             "Only one sentence",

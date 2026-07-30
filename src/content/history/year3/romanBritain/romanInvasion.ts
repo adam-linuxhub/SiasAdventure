@@ -21,7 +21,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Who invaded Britain in AD 43?",
-
+        stage: "recognise",
         options: [
             "The Romans",
             "The Vikings",
@@ -44,7 +44,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Who was the Roman emperor when Britain was successfully invaded?",
-
+        stage: "recognise",
         options: [
             "Emperor Claudius",
             "Julius Caesar",
@@ -67,7 +67,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "In which year did the Roman invasion of Britain begin?",
-
+        stage: "recognise",
         options: [
             "AD 43",
             "1066",
@@ -90,7 +90,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Which Roman leader attempted to invade Britain before Claudius?",
-
+        stage: "recognise",
         options: [
             "Julius Caesar",
             "Boudica",
@@ -113,7 +113,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Why did the Romans want to invade Britain?",
-
+        stage: "recognise",
         options: [
             "For land, resources and power",
             "To build modern cities",
@@ -136,7 +136,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "What was the Roman Empire?",
-
+        stage: "recognise",
         options: [
             "A large area ruled by Rome",
             "A small village",
@@ -159,7 +159,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Who lived in Britain before the Roman invasion?",
-
+        stage: "recognise",
         options: [
             "The Celts",
             "The Romans",
@@ -182,7 +182,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "How did some Britons resist the Romans?",
-
+        stage: "recognise",
         options: [
             "They fought against the Roman army",
             "They joined every Roman army",
@@ -205,7 +205,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "What happened after the Romans conquered parts of Britain?",
-
+        stage: "recognise",
         options: [
             "Britain became part of the Roman Empire",
             "Rome disappeared immediately",
@@ -228,7 +228,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Why was the Roman army successful?",
-
+        stage: "recognise",
         options: [
             "It was well trained and organised",
             "It had no leaders",
@@ -251,7 +251,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "What was the name of the Celtic queen who fought the Romans?",
-
+        stage: "recognise",
         options: [
             "Boudica",
             "Cleopatra",
@@ -274,7 +274,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Why did Boudica rebel against the Romans?",
-
+        stage: "recognise",
         options: [
             "She opposed Roman treatment and control",
             "She wanted to become Roman emperor",
@@ -297,7 +297,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "What does invasion mean?",
-
+        stage: "recognise",
         options: [
             "Entering a country with an army to take control",
             "Trading goods peacefully",
@@ -320,7 +320,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Why did Romans build forts in Britain?",
-
+        stage: "recognise",
         options: [
             "To control and defend areas",
             "To grow crops",
@@ -343,7 +343,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Which statement about the Roman invasion is true?",
-
+        stage: "recognise",
         options: [
             "The Romans took control of much of Britain",
             "The Romans never reached Britain",
@@ -366,7 +366,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Why do historians study the Roman invasion?",
-
+        stage: "recognise",
         options: [
             "To understand how Britain changed in the past",
             "To predict the future",
@@ -389,7 +389,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "What did Romans bring to Britain?",
-
+        stage: "recognise",
         options: [
             "New buildings, roads and ways of life",
             "Cars and computers",
@@ -412,7 +412,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "What is an empire?",
-
+        stage: "recognise",
         options: [
             "A group of lands controlled by one ruler",
             "A single building",
@@ -435,7 +435,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Which person was a Roman emperor?",
-
+        stage: "recognise",
         options: [
             "Claudius",
             "Boudica",
@@ -458,7 +458,7 @@ export const romanInvasion: SkillContent = {
         skillId: "romanInvasion",
         question:
             "Which sentence best describes the Roman invasion of Britain?",
-
+        stage: "recognise",
         options: [
             "Rome conquered Britain and made it part of its empire",
             "Britain conquered Rome",

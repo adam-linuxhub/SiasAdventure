@@ -20,7 +20,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-001",
         skillId: "adjectives",
         question: "Which word is an adjective?",
-
+        stage: "recognise",
         options: [
             "happy",
             "dog",
@@ -42,7 +42,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-002",
         skillId: "adjectives",
         question: "Which word describes the noun 'car'?",
-
+        stage: "recognise",
         options: [
             "red",
             "drive",
@@ -64,7 +64,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-003",
         skillId: "adjectives",
         question: "Which word is an adjective?",
-
+        stage: "recognise",
         options: [
             "small",
             "house",
@@ -86,7 +86,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-004",
         skillId: "adjectives",
         question: "Which word tells us what the apple is like?",
-
+        stage: "recognise",
         options: [
             "juicy",
             "eat",
@@ -108,7 +108,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-005",
         skillId: "adjectives",
         question: "Which adjective describes a teddy bear?",
-
+        stage: "recognise",
         options: [
             "soft",
             "hug",
@@ -130,7 +130,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-006",
         skillId: "adjectives",
         question: "Which word is an adjective?",
-
+        stage: "recognise",
         options: [
             "tall",
             "tree",
@@ -152,7 +152,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-007",
         skillId: "adjectives",
         question: "Which adjective describes the weather?",
-
+        stage: "recognise",
         options: [
             "sunny",
             "shine",
@@ -174,7 +174,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-008",
         skillId: "adjectives",
         question: "Which sentence contains an adjective?",
-
+        stage: "recognise",
         options: [
             "The fluffy rabbit hopped.",
             "The rabbit hopped.",
@@ -196,7 +196,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-009",
         skillId: "adjectives",
         question: "Which word is NOT an adjective?",
-
+        stage: "recognise",
         options: [
             "swim",
             "cold",
@@ -218,7 +218,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-010",
         skillId: "adjectives",
         question: "Which adjective describes a lion?",
-
+        stage: "recognise",
         options: [
             "brave",
             "roar",
@@ -240,7 +240,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-011",
         skillId: "adjectives",
         question: "Which pair contains only adjectives?",
-
+        stage: "recognise",
         options: [
             "old, noisy",
             "dog, cat",
@@ -262,7 +262,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-012",
         skillId: "adjectives",
         question: "Which sentence contains two adjectives?",
-
+        stage: "recognise",
         options: [
             "The small brown dog barked.",
             "The dog barked.",
@@ -284,7 +284,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-013",
         skillId: "adjectives",
         question: "Which word best completes the sentence? 'The ____ elephant trumpeted.'",
-
+        stage: "recognise",
         options: [
             "enormous",
             "trumpeted",
@@ -306,7 +306,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-014",
         skillId: "adjectives",
         question: "Which adjective describes how something feels?",
-
+        stage: "recognise",
         options: [
             "rough",
             "touch",
@@ -328,7 +328,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-015",
         skillId: "adjectives",
         question: "In the sentence 'The shiny coin sparkled.', which word is the adjective?",
-
+        stage: "recognise",
         options: [
             "shiny",
             "coin",
@@ -350,7 +350,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-016",
         skillId: "adjectives",
         question: "Which sentence uses an adjective correctly?",
-
+        stage: "recognise",
         options: [
             "The hungry fox searched for food.",
             "The fox searched hungry.",
@@ -372,7 +372,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-017",
         skillId: "adjectives",
         question: "Which adjective best describes snow?",
-
+        stage: "recognise",
         options: [
             "white",
             "fall",
@@ -394,7 +394,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-018",
         skillId: "adjectives",
         question: "Which sentence contains an adjective describing size?",
-
+        stage: "recognise",
         options: [
             "The tiny mouse hid.",
             "The mouse hid.",
@@ -416,7 +416,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-019",
         skillId: "adjectives",
         question: "Why do writers use adjectives?",
-
+        stage: "recognise",
         options: [
             "To describe nouns in more detail",
             "To replace punctuation",
@@ -438,7 +438,7 @@ export const adjectives: SkillContent = {
         id: "eng-adj-020",
         skillId: "adjectives",
         question: "Which sentence uses adjectives correctly?",
-
+        stage: "recognise",
         options: [
             "The friendly little puppy wagged its tail.",
             "The puppy friendly wagged.",

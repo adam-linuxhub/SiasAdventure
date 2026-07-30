@@ -21,7 +21,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "How are many mountains formed?",
-
+        stage: "recognise",
         options: [
             "By movements of the Earth's crust",
             "By people building them",
@@ -44,7 +44,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What is the Earth's crust?",
-
+        stage: "recognise",
         options: [
             "The outer layer of the Earth",
             "The centre of the Earth",
@@ -67,7 +67,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What are tectonic plates?",
-
+        stage: "recognise",
         options: [
             "Large pieces of the Earth's crust that move",
             "Types of mountain animals",
@@ -90,7 +90,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What can happen when tectonic plates push together?",
-
+        stage: "recognise",
         options: [
             "Land can be pushed upwards to form mountains",
             "The Earth becomes flat",
@@ -113,7 +113,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What is a volcano?",
-
+        stage: "recognise",
         options: [
             "An opening in the Earth's crust where magma can escape",
             "A type of river",
@@ -136,7 +136,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "How can volcanoes create mountains?",
-
+        stage: "recognise",
         options: [
             "Layers of lava can build up over time",
             "They remove all land",
@@ -159,7 +159,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What is magma?",
-
+        stage: "recognise",
         options: [
             "Hot melted rock beneath the Earth's surface",
             "Cold water underground",
@@ -182,7 +182,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What is lava?",
-
+        stage: "recognise",
         options: [
             "Magma that reaches the Earth's surface",
             "Frozen water",
@@ -205,7 +205,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What is an earthquake?",
-
+        stage: "recognise",
         options: [
             "A shaking of the Earth's surface",
             "A type of mountain",
@@ -228,7 +228,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "Why do earthquakes happen?",
-
+        stage: "recognise",
         options: [
             "Because tectonic plates can move suddenly",
             "Because rivers stop flowing",
@@ -251,7 +251,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "Are mountains formed quickly?",
-
+        stage: "recognise",
         options: [
             "Usually no, they form over millions of years",
             "Always in one day",
@@ -274,7 +274,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What can wear mountains down over time?",
-
+        stage: "recognise",
         options: [
             "Weathering and erosion",
             "Traffic lights",
@@ -297,7 +297,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What is erosion?",
-
+        stage: "recognise",
         options: [
             "The wearing away and movement of rock and soil",
             "The creation of clouds",
@@ -320,7 +320,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "How can glaciers change mountains?",
-
+        stage: "recognise",
         options: [
             "By moving ice that cuts and shapes the land",
             "By creating buildings",
@@ -343,7 +343,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What is a mountain range?",
-
+        stage: "recognise",
         options: [
             "A group of mountains formed together",
             "A single river",
@@ -366,7 +366,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "Why do scientists study how mountains form?",
-
+        stage: "recognise",
         options: [
             "To understand how Earth changes",
             "To build mountains",
@@ -389,7 +389,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "What happens when lava cools?",
-
+        stage: "recognise",
         options: [
             "It becomes solid rock",
             "It becomes water",
@@ -412,7 +412,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "Which natural process can change mountains?",
-
+        stage: "recognise",
         options: [
             "Erosion",
             "Shopping",
@@ -435,7 +435,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "Why are tectonic plates important?",
-
+        stage: "recognise",
         options: [
             "Their movement helps shape Earth's surface",
             "They create rivers directly",
@@ -458,7 +458,7 @@ export const mountainFormation: SkillContent = {
         skillId: "mountainFormation",
         question:
             "Which sentence best describes mountain formation?",
-
+        stage: "recognise",
         options: [
             "Mountains form through natural processes such as plate movement and volcanoes",
             "Mountains are built by people",

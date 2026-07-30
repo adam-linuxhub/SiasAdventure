@@ -20,7 +20,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-001",
         skillId: "pitchAndVolume",
         question: "What is pitch?",
-
+        stage: "recognise",
         options: [
             "How high or low a sound is",
             "How loud or quiet a sound is",
@@ -42,7 +42,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-002",
         skillId: "pitchAndVolume",
         question: "What is volume?",
-
+        stage: "recognise",
         options: [
             "How loud or quiet a sound is",
             "How high or low a sound is",
@@ -64,7 +64,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-003",
         skillId: "pitchAndVolume",
         question: "Which animal usually makes a high-pitched sound?",
-
+        stage: "recognise",
         options: [
             "Mouse",
             "Elephant",
@@ -86,7 +86,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-004",
         skillId: "pitchAndVolume",
         question: "Which animal usually makes a low-pitched sound?",
-
+        stage: "recognise",
         options: [
             "Elephant",
             "Mouse",
@@ -108,7 +108,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-005",
         skillId: "pitchAndVolume",
         question: "What usually happens if you hit a drum harder?",
-
+        stage: "recognise",
         options: [
             "The sound becomes louder.",
             "The pitch becomes higher.",
@@ -130,7 +130,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-006",
         skillId: "pitchAndVolume",
         question: "Which sound has the highest pitch?",
-
+        stage: "recognise",
         options: [
             "A whistle",
             "A bass drum",
@@ -152,7 +152,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-007",
         skillId: "pitchAndVolume",
         question: "Which sound is likely to be the loudest?",
-
+        stage: "recognise",
         options: [
             "A firework exploding",
             "A whisper",
@@ -174,7 +174,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-008",
         skillId: "pitchAndVolume",
         question: "Which instrument can make both high and low notes?",
-
+        stage: "recognise",
         options: [
             "Piano",
             "Triangle",
@@ -196,7 +196,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-009",
         skillId: "pitchAndVolume",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Pitch and volume describe different features of sound.",
             "Pitch means loudness.",
@@ -218,7 +218,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-010",
         skillId: "pitchAndVolume",
         question: "What kind of sound is a whisper?",
-
+        stage: "recognise",
         options: [
             "Quiet",
             "Loud",
@@ -240,7 +240,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-011",
         skillId: "pitchAndVolume",
         question: "Why does a small bell usually make a higher-pitched sound than a large bell?",
-
+        stage: "recognise",
         options: [
             "It vibrates more quickly.",
             "It is heavier.",
@@ -262,7 +262,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-012",
         skillId: "pitchAndVolume",
         question: "Why does a large drum usually make a lower-pitched sound than a small drum?",
-
+        stage: "recognise",
         options: [
             "Its larger vibrating surface vibrates more slowly.",
             "It is always louder.",
@@ -284,7 +284,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-013",
         skillId: "pitchAndVolume",
         question: "What happens when you pluck a guitar string more gently?",
-
+        stage: "recognise",
         options: [
             "The sound is quieter.",
             "The pitch changes completely.",
@@ -306,7 +306,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-014",
         skillId: "pitchAndVolume",
         question: "Which change makes a sound louder?",
-
+        stage: "recognise",
         options: [
             "Making bigger vibrations",
             "Stopping the vibrations",
@@ -328,7 +328,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-015",
         skillId: "pitchAndVolume",
         question: "Which instrument is most likely to produce a low-pitched note?",
-
+        stage: "recognise",
         options: [
             "Tuba",
             "Whistle",
@@ -350,7 +350,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-016",
         skillId: "pitchAndVolume",
         question: "A violin string is tightened before being played. What usually happens?",
-
+        stage: "recognise",
         options: [
             "The pitch becomes higher.",
             "The sound becomes silent.",
@@ -372,7 +372,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-017",
         skillId: "pitchAndVolume",
         question: "Why does shouting sound louder than whispering?",
-
+        stage: "recognise",
         options: [
             "Shouting creates bigger vibrations.",
             "Shouting creates higher pitch.",
@@ -394,7 +394,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-018",
         skillId: "pitchAndVolume",
         question: "Which pair is correctly matched?",
-
+        stage: "recognise",
         options: [
             "Pitch – high or low",
             "Pitch – loud or quiet",
@@ -416,7 +416,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-019",
         skillId: "pitchAndVolume",
         question: "What mainly affects whether a sound is loud or quiet?",
-
+        stage: "recognise",
         options: [
             "The size of the vibrations",
             "The colour of the object",
@@ -438,7 +438,7 @@ export const pitchAndVolume: SkillContent = {
         id: "sci-pitch-volume-020",
         skillId: "pitchAndVolume",
         question: "Which sentence best describes pitch and volume?",
-
+        stage: "recognise",
         options: [
             "Pitch describes how high or low a sound is, while volume describes how loud or quiet it is.",
             "Pitch and volume both describe loudness.",

@@ -21,7 +21,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "Why are rivers important to humans?",
-
+        stage: "recognise",
         options: [
             "They provide water and resources people need",
             "They stop all plants growing",
@@ -44,7 +44,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "How do people use river water?",
-
+        stage: "recognise",
         options: [
             "For drinking and washing",
             "For making mountains",
@@ -67,7 +67,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "How do farmers use rivers?",
-
+        stage: "recognise",
         options: [
             "To water crops and animals",
             "To build houses only",
@@ -90,7 +90,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "What is irrigation?",
-
+        stage: "recognise",
         options: [
             "Supplying water to crops",
             "Building a bridge",
@@ -113,7 +113,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "Why have many towns been built near rivers?",
-
+        stage: "recognise",
         options: [
             "Rivers provide water and help transport goods",
             "Rivers prevent people living there",
@@ -136,7 +136,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "How can rivers help with transport?",
-
+        stage: "recognise",
         options: [
             "Boats can travel along them",
             "Cars drive inside them",
@@ -159,7 +159,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "What is hydroelectric power?",
-
+        stage: "recognise",
         options: [
             "Electricity made using moving water",
             "Electricity from sunlight only",
@@ -182,7 +182,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "What structure can be used to create hydroelectric power?",
-
+        stage: "recognise",
         options: [
             "A dam",
             "A house",
@@ -205,7 +205,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "What is pollution?",
-
+        stage: "recognise",
         options: [
             "Harmful substances entering the environment",
             "Clean water flowing",
@@ -228,7 +228,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "What can cause river pollution?",
-
+        stage: "recognise",
         options: [
             "Waste and chemicals entering the water",
             "Clean rainwater",
@@ -251,7 +251,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "Why should rivers be protected?",
-
+        stage: "recognise",
         options: [
             "To keep water safe for people and wildlife",
             "To stop all animals living",
@@ -274,7 +274,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "How can people help protect rivers?",
-
+        stage: "recognise",
         options: [
             "By reducing litter and pollution",
             "By putting rubbish in rivers",
@@ -297,7 +297,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "Why are rivers important for wildlife?",
-
+        stage: "recognise",
         options: [
             "They provide habitats and water",
             "They remove all habitats",
@@ -320,7 +320,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "What is a habitat?",
-
+        stage: "recognise",
         options: [
             "A place where living things live",
             "A type of river",
@@ -343,7 +343,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "Why are rivers useful for trade?",
-
+        stage: "recognise",
         options: [
             "Boats can transport goods",
             "They stop all movement",
@@ -366,7 +366,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "What might happen if a river becomes polluted?",
-
+        stage: "recognise",
         options: [
             "Plants and animals may be harmed",
             "The river becomes a road",
@@ -389,7 +389,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "Why do cities often develop near rivers?",
-
+        stage: "recognise",
         options: [
             "Rivers provide water and support trade",
             "Rivers prevent people living there",
@@ -412,7 +412,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "Which is a renewable source of energy from rivers?",
-
+        stage: "recognise",
         options: [
             "Hydroelectric power",
             "Coal",
@@ -435,7 +435,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "Why do people need to use water carefully?",
-
+        stage: "recognise",
         options: [
             "Fresh water is a valuable resource",
             "Water has no importance",
@@ -458,7 +458,7 @@ export const humanUsesOfRivers: SkillContent = {
         skillId: "humanUsesOfRivers",
         question:
             "Which sentence best describes how humans use rivers?",
-
+        stage: "recognise",
         options: [
             "People use rivers for water, farming, transport and energy",
             "People cannot use rivers",

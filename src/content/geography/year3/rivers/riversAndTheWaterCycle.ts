@@ -21,7 +21,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What is the water cycle?",
-
+        stage: "recognise",
         options: [
             "The continuous movement of water around Earth",
             "The journey of a train",
@@ -44,7 +44,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What happens during evaporation?",
-
+        stage: "recognise",
         options: [
             "Water turns into water vapour",
             "Water freezes into ice",
@@ -67,7 +67,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What provides the energy for evaporation?",
-
+        stage: "recognise",
         options: [
             "The Sun",
             "The Moon",
@@ -90,7 +90,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What is condensation?",
-
+        stage: "recognise",
         options: [
             "When water vapour cools and forms tiny water droplets",
             "When rivers stop flowing",
@@ -113,7 +113,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What forms when water droplets collect in the sky?",
-
+        stage: "recognise",
         options: [
             "Clouds",
             "Mountains",
@@ -136,7 +136,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What is precipitation?",
-
+        stage: "recognise",
         options: [
             "Water falling from clouds as rain, snow or hail",
             "Water flowing uphill",
@@ -159,7 +159,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "How do rivers get water?",
-
+        stage: "recognise",
         options: [
             "From rainfall and water flowing across land",
             "From underground machines",
@@ -182,7 +182,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What happens to rainwater after it reaches the ground?",
-
+        stage: "recognise",
         options: [
             "It can flow into rivers, lakes or soak into the soil",
             "It disappears forever",
@@ -205,7 +205,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What is collection in the water cycle?",
-
+        stage: "recognise",
         options: [
             "Water gathering in places such as rivers, lakes and oceans",
             "Water turning into vapour",
@@ -228,7 +228,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "Why are rivers part of the water cycle?",
-
+        stage: "recognise",
         options: [
             "They move collected water across the land",
             "They create clouds",
@@ -251,7 +251,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What happens when water vapour rises into the atmosphere?",
-
+        stage: "recognise",
         options: [
             "It can cool and form clouds",
             "It becomes soil",
@@ -274,7 +274,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "Why are rivers important for plants and animals?",
-
+        stage: "recognise",
         options: [
             "They provide water needed for life",
             "They remove all habitats",
@@ -297,7 +297,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What can happen to water in a river over time?",
-
+        stage: "recognise",
         options: [
             "It can evaporate and return to the atmosphere",
             "It stops being water",
@@ -320,7 +320,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What causes rain to fall from clouds?",
-
+        stage: "recognise",
         options: [
             "Water droplets become heavy and fall",
             "Clouds disappear instantly",
@@ -343,7 +343,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "How does the water cycle continue?",
-
+        stage: "recognise",
         options: [
             "Water keeps moving through evaporation, condensation and precipitation",
             "Water is used once and disappears",
@@ -366,7 +366,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What happens when snow and ice melt?",
-
+        stage: "recognise",
         options: [
             "They become liquid water",
             "They become clouds immediately",
@@ -389,7 +389,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "Why do rivers often increase in size downstream?",
-
+        stage: "recognise",
         options: [
             "More water joins them from rainfall and tributaries",
             "Water leaves them completely",
@@ -412,7 +412,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "What is the connection between rainfall and rivers?",
-
+        stage: "recognise",
         options: [
             "Rainfall provides water that can flow into rivers",
             "Rain stops rivers flowing",
@@ -435,7 +435,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "Which order shows part of the water cycle correctly?",
-
+        stage: "recognise",
         options: [
             "Evaporation → condensation → precipitation",
             "Rain → Sun → snow",
@@ -458,7 +458,7 @@ export const riversAndTheWaterCycle: SkillContent = {
         skillId: "riversAndTheWaterCycle",
         question:
             "Which sentence best describes rivers and the water cycle?",
-
+        stage: "recognise",
         options: [
             "Rivers move water as part of Earth's continuous water cycle",
             "Rivers are separate from the water cycle",

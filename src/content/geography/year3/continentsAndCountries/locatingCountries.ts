@@ -21,7 +21,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "What is a country?",
-
+        stage: "recognise",
         options: [
             "An area of land with its own government and borders",
             "A type of ocean",
@@ -44,7 +44,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "What do borders show on a map?",
-
+        stage: "recognise",
         options: [
             "Where one country ends and another begins",
             "Where rivers flow",
@@ -67,7 +67,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "What can we use to find where a country is located?",
-
+        stage: "recognise",
         options: [
             "A map or globe",
             "A thermometer",
@@ -90,7 +90,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "What is the equator?",
-
+        stage: "recognise",
         options: [
             "An imaginary line around the middle of Earth",
             "A country border",
@@ -113,7 +113,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "What are the two halves of Earth divided by the equator called?",
-
+        stage: "recognise",
         options: [
             "Northern and Southern Hemispheres",
             "Eastern and Western Oceans",
@@ -136,7 +136,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "Which hemisphere is the UK in?",
-
+        stage: "recognise",
         options: [
             "Northern Hemisphere",
             "Southern Hemisphere",
@@ -159,7 +159,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "Which continent is Brazil located in?",
-
+        stage: "recognise",
         options: [
             "South America",
             "Africa",
@@ -182,7 +182,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "Which continent is Japan located in?",
-
+        stage: "recognise",
         options: [
             "Asia",
             "Africa",
@@ -205,7 +205,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "Which continent is Kenya located in?",
-
+        stage: "recognise",
         options: [
             "Africa",
             "Europe",
@@ -228,7 +228,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "Which continent is Canada located in?",
-
+        stage: "recognise",
         options: [
             "North America",
             "South America",
@@ -251,7 +251,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "What is an atlas?",
-
+        stage: "recognise",
         options: [
             "A book containing maps",
             "A weather instrument",
@@ -274,7 +274,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "What does a political map show?",
-
+        stage: "recognise",
         options: [
             "Countries and their borders",
             "Only mountains",
@@ -297,7 +297,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "What does a physical map show?",
-
+        stage: "recognise",
         options: [
             "Natural features such as mountains and rivers",
             "Only country names",
@@ -320,7 +320,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "Why are grid references used on maps?",
-
+        stage: "recognise",
         options: [
             "To find exact locations",
             "To measure temperature",
@@ -343,7 +343,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "What is a capital city?",
-
+        stage: "recognise",
         options: [
             "The main city where a country's government is based",
             "The biggest mountain",
@@ -366,7 +366,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "What is the capital city of the UK?",
-
+        stage: "recognise",
         options: [
             "London",
             "Manchester",
@@ -389,7 +389,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "Why do geographers locate countries?",
-
+        stage: "recognise",
         options: [
             "To understand where places are in the world",
             "To move countries",
@@ -412,7 +412,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "Which tool helps show direction on Earth?",
-
+        stage: "recognise",
         options: [
             "A compass",
             "A thermometer",
@@ -435,7 +435,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "Why do countries have different climates?",
-
+        stage: "recognise",
         options: [
             "Their locations and physical features are different",
             "All countries have the same climate",
@@ -458,7 +458,7 @@ export const locatingCountries: SkillContent = {
         skillId: "locatingCountries",
         question:
             "Which sentence best describes locating countries?",
-
+        stage: "recognise",
         options: [
             "Maps help us find countries, continents and their positions on Earth",
             "Countries cannot be mapped",

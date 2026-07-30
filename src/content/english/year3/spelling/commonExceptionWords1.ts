@@ -20,7 +20,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-001",
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "because",
             "becuse",
@@ -42,7 +42,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-002",
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "people",
             "peeple",
@@ -64,7 +64,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-003",
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "friend",
             "freind",
@@ -86,7 +86,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-004",
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "busy",
             "bisy",
@@ -108,7 +108,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-005",
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "beautiful",
             "beutiful",
@@ -130,7 +130,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-006",
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "every",
             "evry",
@@ -152,7 +152,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-007",
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "again",
             "agen",
@@ -174,7 +174,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-008",
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "great",
             "grate",
@@ -196,7 +196,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-009",
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "door",
             "dor",
@@ -218,7 +218,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-010",
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
-
+        stage: "recognise",
         options: [
             "floor",
             "flor",
@@ -240,7 +240,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-011",
         skillId: "commonExceptionWords1",
         question: "Complete the sentence: 'I like to play with my ______.'",
-
+        stage: "recognise",
         options: [
             "friend",
             "freind",
@@ -262,7 +262,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-012",
         skillId: "commonExceptionWords1",
         question: "Complete the sentence: 'Thank you ______ helping me.'",
-
+        stage: "recognise",
         options: [
             "for",
             "four",
@@ -284,7 +284,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-013",
         skillId: "commonExceptionWords1",
         question: "Which sentence contains the correctly spelled word?",
-
+        stage: "recognise",
         options: [
             "The beautiful butterfly landed on a flower.",
             "The beutiful butterfly landed on a flower.",
@@ -306,7 +306,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-014",
         skillId: "commonExceptionWords1",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "Because it was raining, we stayed inside.",
             "Becuse it was raining, we stayed inside.",
@@ -328,7 +328,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-015",
         skillId: "commonExceptionWords1",
         question: "Which word is spelled correctly?",
-
+        stage: "recognise",
         options: [
             "people",
             "peaple",
@@ -350,7 +350,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-016",
         skillId: "commonExceptionWords1",
         question: "Which word completes the sentence? 'The shop is over ______.'",
-
+        stage: "recognise",
         options: [
             "there",
             "thair",
@@ -372,7 +372,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-017",
         skillId: "commonExceptionWords1",
         question: "Which spelling is correct?",
-
+        stage: "recognise",
         options: [
             "parents",
             "parrents",
@@ -394,7 +394,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-018",
         skillId: "commonExceptionWords1",
         question: "Which word is spelled correctly?",
-
+        stage: "recognise",
         options: [
             "everybody",
             "everyboddy",
@@ -416,7 +416,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-019",
         skillId: "commonExceptionWords1",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "The door was open.",
             "The dor was open.",
@@ -438,7 +438,7 @@ export const commonExceptionWords1: SkillContent = {
         id: "eng-cew1-020",
         skillId: "commonExceptionWords1",
         question: "Which sentence contains only correctly spelled words?",
-
+        stage: "recognise",
         options: [
             "My friend is busy because we have homework.",
             "My freind is busy becuse we have homework.",

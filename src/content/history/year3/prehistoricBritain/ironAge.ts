@@ -20,7 +20,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-001",
         skillId: "ironAge",
         question: "Why is it called the Iron Age?",
-
+        stage: "recognise",
         options: [
             "People began making tools from iron.",
             "Everything was made from iron.",
@@ -42,7 +42,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-002",
         skillId: "ironAge",
         question: "Which metal became widely used during the Iron Age?",
-
+        stage: "recognise",
         options: [
             "Iron",
             "Plastic",
@@ -64,7 +64,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-003",
         skillId: "ironAge",
         question: "Iron tools were usually stronger than tools made from...",
-
+        stage: "recognise",
         options: [
             "Bronze",
             "Plastic",
@@ -86,7 +86,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-004",
         skillId: "ironAge",
         question: "What was a hill fort?",
-
+        stage: "recognise",
         options: [
             "A settlement built on high ground",
             "A large cave",
@@ -108,7 +108,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-005",
         skillId: "ironAge",
         question: "Why were hill forts often built on hills?",
-
+        stage: "recognise",
         options: [
             "They were easier to defend.",
             "They were closer to the sea.",
@@ -130,7 +130,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-006",
         skillId: "ironAge",
         question: "What were groups of Iron Age people often called?",
-
+        stage: "recognise",
         options: [
             "Tribes",
             "Teams",
@@ -152,7 +152,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-007",
         skillId: "ironAge",
         question: "Many people living in Britain during the Iron Age were called...",
-
+        stage: "recognise",
         options: [
             "Celts",
             "Romans",
@@ -174,7 +174,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-008",
         skillId: "ironAge",
         question: "What could stronger iron tools help people do?",
-
+        stage: "recognise",
         options: [
             "Farm and build more effectively",
             "Fly aeroplanes",
@@ -196,7 +196,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-009",
         skillId: "ironAge",
         question: "Which of these would most likely be found in an Iron Age settlement?",
-
+        stage: "recognise",
         options: [
             "Iron spear",
             "Television",
@@ -218,7 +218,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-010",
         skillId: "ironAge",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Iron became an important material for tools and weapons.",
             "People travelled by train.",
@@ -240,7 +240,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-011",
         skillId: "ironAge",
         question: "Why was iron better than bronze for many tools?",
-
+        stage: "recognise",
         options: [
             "It was usually stronger and tougher.",
             "It floated on water.",
@@ -262,7 +262,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-012",
         skillId: "ironAge",
         question: "Why did people build hill forts?",
-
+        stage: "recognise",
         options: [
             "To help protect their communities",
             "To watch television",
@@ -284,7 +284,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-013",
         skillId: "ironAge",
         question: "What was one important job of a tribe?",
-
+        stage: "recognise",
         options: [
             "Working together to survive",
             "Building railways",
@@ -306,7 +306,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-014",
         skillId: "ironAge",
         question: "Why were stronger farming tools useful?",
-
+        stage: "recognise",
         options: [
             "They made farming easier and more efficient.",
             "They created electricity.",
@@ -328,7 +328,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-015",
         skillId: "ironAge",
         question: "Why was living in a tribe important?",
-
+        stage: "recognise",
         options: [
             "People could help and protect one another.",
             "People could build computers.",
@@ -350,7 +350,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-016",
         skillId: "ironAge",
         question: "Which activity was common during the Iron Age?",
-
+        stage: "recognise",
         options: [
             "Farming with iron tools",
             "Driving buses",
@@ -372,7 +372,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-017",
         skillId: "ironAge",
         question: "What advantage did a hill fort have?",
-
+        stage: "recognise",
         options: [
             "People could see danger from far away.",
             "It was underwater.",
@@ -394,7 +394,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-018",
         skillId: "ironAge",
         question: "Why do historians study Iron Age artefacts?",
-
+        stage: "recognise",
         options: [
             "They help us understand how people lived.",
             "They still produce electricity.",
@@ -416,7 +416,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-019",
         skillId: "ironAge",
         question: "Which item would most likely belong to the Iron Age?",
-
+        stage: "recognise",
         options: [
             "Iron sword",
             "Laptop",
@@ -438,7 +438,7 @@ export const ironAge: SkillContent = {
         id: "hist-iron-020",
         skillId: "ironAge",
         question: "Which sentence best describes the Iron Age?",
-
+        stage: "recognise",
         options: [
             "People used iron tools, lived in tribes and built hill forts for protection.",
             "People travelled by train and used electricity.",

@@ -20,7 +20,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-001",
         skillId: "sentenceTypes",
         question: "Which sentence is a statement?",
-
+        stage: "recognise",
         options: [
             "The sun is shining.",
             "Is the sun shining?",
@@ -42,7 +42,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-002",
         skillId: "sentenceTypes",
         question: "Which sentence is a question?",
-
+        stage: "recognise",
         options: [
             "Where is my book?",
             "My book is on the table.",
@@ -64,7 +64,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-003",
         skillId: "sentenceTypes",
         question: "Which sentence is a command?",
-
+        stage: "recognise",
         options: [
             "Wash your hands.",
             "I washed my hands.",
@@ -86,7 +86,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-004",
         skillId: "sentenceTypes",
         question: "Which sentence is an exclamation?",
-
+        stage: "recognise",
         options: [
             "What a beautiful rainbow!",
             "The rainbow is beautiful.",
@@ -108,7 +108,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-005",
         skillId: "sentenceTypes",
         question: "A statement usually ends with a...",
-
+        stage: "recognise",
         options: [
             "full stop",
             "question mark",
@@ -130,7 +130,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-006",
         skillId: "sentenceTypes",
         question: "A question usually ends with a...",
-
+        stage: "recognise",
         options: [
             "question mark",
             "full stop",
@@ -152,7 +152,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-007",
         skillId: "sentenceTypes",
         question: "Which sentence tells someone what to do?",
-
+        stage: "recognise",
         options: [
             "Put your coat away.",
             "Your coat is blue.",
@@ -174,7 +174,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-008",
         skillId: "sentenceTypes",
         question: "Which sentence shows excitement?",
-
+        stage: "recognise",
         options: [
             "What an amazing goal!",
             "The goal was amazing.",
@@ -196,7 +196,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-009",
         skillId: "sentenceTypes",
         question: "Which of these is NOT a question?",
-
+        stage: "recognise",
         options: [
             "I like pizza.",
             "Do you like pizza?",
@@ -218,7 +218,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-010",
         skillId: "sentenceTypes",
         question: "Which sentence is a statement?",
-
+        stage: "recognise",
         options: [
             "Birds can fly.",
             "Can birds fly?",
@@ -240,7 +240,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-011",
         skillId: "sentenceTypes",
         question: "Which sentence is a command?",
-
+        stage: "recognise",
         options: [
             "Please tidy your room.",
             "My room is tidy.",
@@ -262,7 +262,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-012",
         skillId: "sentenceTypes",
         question: "Which sentence is an exclamation?",
-
+        stage: "recognise",
         options: [
             "How exciting this game is!",
             "This game is exciting.",
@@ -284,7 +284,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-013",
         skillId: "sentenceTypes",
         question: "What type of sentence is 'Can you help me?'",
-
+        stage: "recognise",
         options: [
             "Question",
             "Statement",
@@ -306,7 +306,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-014",
         skillId: "sentenceTypes",
         question: "What type of sentence is 'Please be quiet.'?",
-
+        stage: "recognise",
         options: [
             "Command",
             "Statement",
@@ -328,7 +328,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-015",
         skillId: "sentenceTypes",
         question: "What type of sentence is 'The train arrived on time.'?",
-
+        stage: "recognise",
         options: [
             "Statement",
             "Question",
@@ -350,7 +350,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-016",
         skillId: "sentenceTypes",
         question: "What type of sentence is 'What a clever idea!'?",
-
+        stage: "recognise",
         options: [
             "Exclamation",
             "Statement",
@@ -372,7 +372,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-017",
         skillId: "sentenceTypes",
         question: "Which sentence is punctuated correctly as a question?",
-
+        stage: "recognise",
         options: [
             "Have you finished your homework?",
             "Have you finished your homework.",
@@ -394,7 +394,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-018",
         skillId: "sentenceTypes",
         question: "Which sentence is punctuated correctly as an exclamation?",
-
+        stage: "recognise",
         options: [
             "What a fantastic show!",
             "What a fantastic show.",
@@ -416,7 +416,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-019",
         skillId: "sentenceTypes",
         question: "Why do we use different sentence types?",
-
+        stage: "recognise",
         options: [
             "To communicate different meanings and purposes",
             "To make every sentence longer",
@@ -438,7 +438,7 @@ export const sentenceTypes: SkillContent = {
         id: "eng-sent-020",
         skillId: "sentenceTypes",
         question: "Which list contains all four sentence types?",
-
+        stage: "recognise",
         options: [
             "Statement, Question, Command, Exclamation",
             "Noun, Verb, Adjective, Adverb",

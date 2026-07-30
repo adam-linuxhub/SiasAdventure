@@ -21,7 +21,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "Where did many Anglo-Saxons live?",
-
+        stage: "recognise",
         options: [
             "In small villages",
             "In large modern cities",
@@ -44,7 +44,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What were Anglo-Saxon houses often made from?",
-
+        stage: "recognise",
         options: [
             "Wood, straw and mud",
             "Steel and glass",
@@ -67,7 +67,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What was the main job of many Anglo-Saxons?",
-
+        stage: "recognise",
         options: [
             "Farming",
             "Building computers",
@@ -90,7 +90,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What did Anglo-Saxon farmers grow?",
-
+        stage: "recognise",
         options: [
             "Crops such as wheat and barley",
             "Plastic plants",
@@ -113,7 +113,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What animals did Anglo-Saxons keep?",
-
+        stage: "recognise",
         options: [
             "Animals such as cows, sheep and pigs",
             "Dinosaurs",
@@ -136,7 +136,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What was the centre of many Anglo-Saxon villages?",
-
+        stage: "recognise",
         options: [
             "The main hall",
             "A shopping centre",
@@ -159,7 +159,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What did Anglo-Saxons eat?",
-
+        stage: "recognise",
         options: [
             "Bread, meat, fish and vegetables",
             "Pizza and chocolate",
@@ -182,7 +182,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What material was commonly used for Anglo-Saxon clothing?",
-
+        stage: "recognise",
         options: [
             "Wool and linen",
             "Plastic",
@@ -205,7 +205,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What was a blacksmith's job?",
-
+        stage: "recognise",
         options: [
             "Making objects from metal",
             "Growing crops",
@@ -228,7 +228,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "Why were craftsmen important?",
-
+        stage: "recognise",
         options: [
             "They made useful items for people",
             "They ruled every kingdom",
@@ -251,7 +251,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What was an Anglo-Saxon village usually surrounded by?",
-
+        stage: "recognise",
         options: [
             "Fields and farmland",
             "Skyscrapers",
@@ -274,7 +274,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "Why was farming important to Anglo-Saxons?",
-
+        stage: "recognise",
         options: [
             "It provided food and materials",
             "It created electricity",
@@ -297,7 +297,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What tools would Anglo-Saxon farmers use?",
-
+        stage: "recognise",
         options: [
             "Simple farming tools",
             "Computers",
@@ -320,7 +320,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "Why did Anglo-Saxons build villages close together?",
-
+        stage: "recognise",
         options: [
             "To live and work as a community",
             "To avoid all contact",
@@ -343,7 +343,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What does an archaeologist study?",
-
+        stage: "recognise",
         options: [
             "Evidence from the past",
             "Future inventions",
@@ -366,7 +366,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "What can Anglo-Saxon artefacts tell historians?",
-
+        stage: "recognise",
         options: [
             "How people lived and worked",
             "What will happen next year",
@@ -389,7 +389,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "Which person would make tools and weapons?",
-
+        stage: "recognise",
         options: [
             "A blacksmith",
             "A farmer",
@@ -412,7 +412,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "Why do historians study everyday Anglo-Saxon life?",
-
+        stage: "recognise",
         options: [
             "To understand how ordinary people lived",
             "To change the past",
@@ -435,7 +435,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "Which statement about Anglo-Saxon villages is true?",
-
+        stage: "recognise",
         options: [
             "They were communities with homes, farms and workers",
             "They had no people",
@@ -458,7 +458,7 @@ export const angloSaxonLife: SkillContent = {
         skillId: "angloSaxonLife",
         question:
             "Which sentence best describes Anglo-Saxon life?",
-
+        stage: "recognise",
         options: [
             "People lived in villages, farmed and made goods",
             "People used modern technology",

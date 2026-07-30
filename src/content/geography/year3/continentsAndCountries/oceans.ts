@@ -21,7 +21,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "What is an ocean?",
-
+        stage: "recognise",
         options: [
             "A very large area of salt water",
             "A small lake",
@@ -44,7 +44,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "How many oceans are there in the world?",
-
+        stage: "recognise",
         options: [
             "Five",
             "Seven",
@@ -67,7 +67,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Which is the largest ocean?",
-
+        stage: "recognise",
         options: [
             "Pacific Ocean",
             "Atlantic Ocean",
@@ -90,7 +90,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Which ocean is between Europe and North America?",
-
+        stage: "recognise",
         options: [
             "Atlantic Ocean",
             "Pacific Ocean",
@@ -113,7 +113,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Which ocean is around Antarctica?",
-
+        stage: "recognise",
         options: [
             "Southern Ocean",
             "Arctic Ocean",
@@ -136,7 +136,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Which ocean is near the North Pole?",
-
+        stage: "recognise",
         options: [
             "Arctic Ocean",
             "Pacific Ocean",
@@ -159,7 +159,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Which ocean is between Africa, Asia and Australia?",
-
+        stage: "recognise",
         options: [
             "Indian Ocean",
             "Atlantic Ocean",
@@ -182,7 +182,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Why are oceans important?",
-
+        stage: "recognise",
         options: [
             "They provide habitats and help regulate Earth's climate",
             "They have no effect on Earth",
@@ -205,7 +205,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "What type of water is found in oceans?",
-
+        stage: "recognise",
         options: [
             "Salt water",
             "Fresh water only",
@@ -228,7 +228,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "What are waves in the ocean?",
-
+        stage: "recognise",
         options: [
             "Movements of water caused mainly by wind",
             "Moving islands",
@@ -251,7 +251,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "What is a current?",
-
+        stage: "recognise",
         options: [
             "A moving flow of ocean water",
             "A type of beach",
@@ -274,7 +274,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Why do oceans affect climate?",
-
+        stage: "recognise",
         options: [
             "They store and move heat around Earth",
             "They stop all weather",
@@ -297,7 +297,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "What animals live in oceans?",
-
+        stage: "recognise",
         options: [
             "Marine animals such as whales and fish",
             "Only land animals",
@@ -320,7 +320,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "What is a marine habitat?",
-
+        stage: "recognise",
         options: [
             "A habitat found in the sea",
             "A desert habitat",
@@ -343,7 +343,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Why should oceans be protected?",
-
+        stage: "recognise",
         options: [
             "To protect marine life and ecosystems",
             "To remove all sea life",
@@ -366,7 +366,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "What can pollute oceans?",
-
+        stage: "recognise",
         options: [
             "Plastic and other waste",
             "Clean water",
@@ -389,7 +389,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Why are oceans shown on world maps?",
-
+        stage: "recognise",
         options: [
             "To show the location of major water areas",
             "To show only roads",
@@ -412,7 +412,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Which continent is surrounded by the Southern Ocean?",
-
+        stage: "recognise",
         options: [
             "Antarctica",
             "Europe",
@@ -435,7 +435,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "How are continents and oceans connected?",
-
+        stage: "recognise",
         options: [
             "Continents are large land areas surrounded by oceans",
             "They are completely separate",
@@ -458,7 +458,7 @@ export const oceans: SkillContent = {
         skillId: "oceans",
         question:
             "Which sentence best describes oceans?",
-
+        stage: "recognise",
         options: [
             "Oceans are large areas of salt water that support life and influence Earth",
             "Oceans are small lakes",

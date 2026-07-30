@@ -20,7 +20,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-001",
         skillId: "adverbs",
         question: "Which word is an adverb?",
-
+        stage: "recognise",
         options: [
             "quickly",
             "dog",
@@ -42,7 +42,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-002",
         skillId: "adverbs",
         question: "Which word tells how someone walked?",
-
+        stage: "recognise",
         options: [
             "slowly",
             "walk",
@@ -64,7 +64,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-003",
         skillId: "adverbs",
         question: "Which word is an adverb?",
-
+        stage: "recognise",
         options: [
             "carefully",
             "careful",
@@ -86,7 +86,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-004",
         skillId: "adverbs",
         question: "Which word tells how the baby slept?",
-
+        stage: "recognise",
         options: [
             "peacefully",
             "baby",
@@ -108,7 +108,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-005",
         skillId: "adverbs",
         question: "Which word is an adverb?",
-
+        stage: "recognise",
         options: [
             "loudly",
             "loud",
@@ -130,7 +130,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-006",
         skillId: "adverbs",
         question: "Which word tells how the bird sang?",
-
+        stage: "recognise",
         options: [
             "beautifully",
             "bird",
@@ -152,7 +152,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-007",
         skillId: "adverbs",
         question: "Which sentence contains an adverb?",
-
+        stage: "recognise",
         options: [
             "The rabbit hopped quickly.",
             "The rabbit hopped.",
@@ -174,7 +174,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-008",
         skillId: "adverbs",
         question: "Which word is an adverb?",
-
+        stage: "recognise",
         options: [
             "yesterday",
             "calendar",
@@ -196,7 +196,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-009",
         skillId: "adverbs",
         question: "Which word is NOT an adverb?",
-
+        stage: "recognise",
         options: [
             "horse",
             "carefully",
@@ -218,7 +218,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-010",
         skillId: "adverbs",
         question: "Which word describes how someone smiled?",
-
+        stage: "recognise",
         options: [
             "cheerfully",
             "smile",
@@ -240,7 +240,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-011",
         skillId: "adverbs",
         question: "Which pair contains only adverbs?",
-
+        stage: "recognise",
         options: [
             "carefully, quietly",
             "dog, cat",
@@ -262,7 +262,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-012",
         skillId: "adverbs",
         question: "Which sentence contains two adverbs?",
-
+        stage: "recognise",
         options: [
             "Ella sang beautifully yesterday.",
             "Ella sang beautifully.",
@@ -284,7 +284,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-013",
         skillId: "adverbs",
         question: "Which word best completes the sentence? 'Please speak ____.'",
-
+        stage: "recognise",
         options: [
             "clearly",
             "clear",
@@ -306,7 +306,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-014",
         skillId: "adverbs",
         question: "In the sentence 'Tom carefully painted the fence.', which word is the adverb?",
-
+        stage: "recognise",
         options: [
             "carefully",
             "Tom",
@@ -328,7 +328,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-015",
         skillId: "adverbs",
         question: "Which sentence uses an adverb correctly?",
-
+        stage: "recognise",
         options: [
             "The puppy barked loudly.",
             "The loudly puppy barked.",
@@ -350,7 +350,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-016",
         skillId: "adverbs",
         question: "Which word tells when something happened?",
-
+        stage: "recognise",
         options: [
             "today",
             "clock",
@@ -372,7 +372,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-017",
         skillId: "adverbs",
         question: "Why do writers use adverbs?",
-
+        stage: "recognise",
         options: [
             "To give more information about verbs",
             "To replace nouns",
@@ -394,7 +394,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-018",
         skillId: "adverbs",
         question: "Which word best completes the sentence? 'The children played ____.'",
-
+        stage: "recognise",
         options: [
             "happily",
             "happy",
@@ -416,7 +416,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-019",
         skillId: "adverbs",
         question: "Which sentence contains an adverb of time?",
-
+        stage: "recognise",
         options: [
             "We will visit Grandma tomorrow.",
             "Grandma baked cakes.",
@@ -438,7 +438,7 @@ export const adverbs: SkillContent = {
         id: "eng-adverbs-020",
         skillId: "adverbs",
         question: "Which sentence uses adverbs correctly?",
-
+        stage: "recognise",
         options: [
             "Oliver quietly opened the door yesterday.",
             "Oliver quiet opened the door.",

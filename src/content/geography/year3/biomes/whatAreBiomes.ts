@@ -21,7 +21,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "What is a biome?",
-
+        stage: "recognise",
         options: [
             "A large area with a similar climate, plants and animals",
             "A single type of animal",
@@ -44,7 +44,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "What helps decide which biome exists in an area?",
-
+        stage: "recognise",
         options: [
             "Climate",
             "Roads",
@@ -67,7 +67,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "What two things are found in every biome?",
-
+        stage: "recognise",
         options: [
             "Plants and animals",
             "Buildings and roads",
@@ -90,7 +90,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Why do different biomes have different plants?",
-
+        stage: "recognise",
         options: [
             "Plants adapt to different climate conditions",
             "All plants grow everywhere",
@@ -113,7 +113,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Why do animals in different biomes look different?",
-
+        stage: "recognise",
         options: [
             "They have adaptations for their environment",
             "All animals are identical",
@@ -136,7 +136,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Which biome is found near the equator?",
-
+        stage: "recognise",
         options: [
             "Tropical rainforest",
             "Polar region",
@@ -159,7 +159,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Which biome is very cold and found near the poles?",
-
+        stage: "recognise",
         options: [
             "Polar biome",
             "Rainforest",
@@ -182,7 +182,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Which biome usually has very little rainfall?",
-
+        stage: "recognise",
         options: [
             "Desert",
             "Rainforest",
@@ -205,7 +205,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "What is an ecosystem?",
-
+        stage: "recognise",
         options: [
             "Living things interacting with their environment",
             "A type of weather",
@@ -228,7 +228,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Why are plants important in ecosystems?",
-
+        stage: "recognise",
         options: [
             "They provide food and habitats",
             "They stop all animals living",
@@ -251,7 +251,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "What is a habitat?",
-
+        stage: "recognise",
         options: [
             "The place where a living thing lives",
             "A type of climate",
@@ -274,7 +274,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Why are rainforests important?",
-
+        stage: "recognise",
         options: [
             "They contain many different plants and animals",
             "They have no life",
@@ -297,7 +297,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "What does biodiversity mean?",
-
+        stage: "recognise",
         options: [
             "The variety of living things in an area",
             "The amount of rainfall",
@@ -320,7 +320,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Why are deserts difficult places for plants to survive?",
-
+        stage: "recognise",
         options: [
             "There is very little water",
             "There is too much snow",
@@ -343,7 +343,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "What is an adaptation?",
-
+        stage: "recognise",
         options: [
             "A feature that helps a living thing survive",
             "A type of weather",
@@ -366,7 +366,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "How can humans affect biomes?",
-
+        stage: "recognise",
         options: [
             "By changing habitats through activities such as farming and building",
             "Humans cannot affect nature",
@@ -389,7 +389,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Why should ecosystems be protected?",
-
+        stage: "recognise",
         options: [
             "To protect plants, animals and natural environments",
             "To remove wildlife",
@@ -412,7 +412,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Which factor is important for plant growth?",
-
+        stage: "recognise",
         options: [
             "Temperature and rainfall",
             "Road signs",
@@ -435,7 +435,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Why are biomes found in different parts of Earth?",
-
+        stage: "recognise",
         options: [
             "Different areas have different climates",
             "All places have identical conditions",
@@ -458,7 +458,7 @@ export const whatAreBiomes: SkillContent = {
         skillId: "whatAreBiomes",
         question:
             "Which sentence best describes a biome?",
-
+        stage: "recognise",
         options: [
             "A large area with a particular climate and living things adapted to it",
             "A single plant",

@@ -20,7 +20,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-001",
         skillId: "prepositions",
         question: "Which word is a preposition?",
-
+        stage: "recognise",
         options: [
             "under",
             "cat",
@@ -42,7 +42,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-002",
         skillId: "prepositions",
         question: "The ball is ____ the table.",
-
+        stage: "recognise",
         options: [
             "under",
             "jump",
@@ -64,7 +64,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-003",
         skillId: "prepositions",
         question: "Which word is a preposition?",
-
+        stage: "recognise",
         options: [
             "behind",
             "dog",
@@ -86,7 +86,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-004",
         skillId: "prepositions",
         question: "The bird is ____ the tree.",
-
+        stage: "recognise",
         options: [
             "in",
             "fly",
@@ -108,7 +108,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-005",
         skillId: "prepositions",
         question: "Which word is a preposition?",
-
+        stage: "recognise",
         options: [
             "between",
             "rabbit",
@@ -130,7 +130,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-006",
         skillId: "prepositions",
         question: "The cat sat ____ the chair.",
-
+        stage: "recognise",
         options: [
             "on",
             "sit",
@@ -152,7 +152,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-007",
         skillId: "prepositions",
         question: "Which sentence contains a preposition?",
-
+        stage: "recognise",
         options: [
             "The toy is inside the box.",
             "The toy is colourful.",
@@ -174,7 +174,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-008",
         skillId: "prepositions",
         question: "Which word tells where something is?",
-
+        stage: "recognise",
         options: [
             "next to",
             "apple",
@@ -196,7 +196,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-009",
         skillId: "prepositions",
         question: "Which word is NOT a preposition?",
-
+        stage: "recognise",
         options: [
             "teacher",
             "above",
@@ -218,7 +218,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-010",
         skillId: "prepositions",
         question: "Why do we use prepositions?",
-
+        stage: "recognise",
         options: [
             "To show where or when something happens",
             "To describe nouns",
@@ -240,7 +240,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-011",
         skillId: "prepositions",
         question: "Which word best completes the sentence? 'The shoes are ____ the bed.'",
-
+        stage: "recognise",
         options: [
             "under",
             "jump",
@@ -262,7 +262,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-012",
         skillId: "prepositions",
         question: "Which sentence uses a preposition correctly?",
-
+        stage: "recognise",
         options: [
             "The mouse hid behind the sofa.",
             "The mouse behind hid.",
@@ -284,7 +284,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-013",
         skillId: "prepositions",
         question: "In the sentence 'The book is on the desk.', which word is the preposition?",
-
+        stage: "recognise",
         options: [
             "on",
             "book",
@@ -306,7 +306,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-014",
         skillId: "prepositions",
         question: "Which word tells when something happens?",
-
+        stage: "recognise",
         options: [
             "before",
             "write",
@@ -328,7 +328,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-015",
         skillId: "prepositions",
         question: "Which sentence contains two prepositions?",
-
+        stage: "recognise",
         options: [
             "The cat slept under the table after lunch.",
             "The cat slept.",
@@ -350,7 +350,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-016",
         skillId: "prepositions",
         question: "Which preposition best completes the sentence? 'Stand ____ me.'",
-
+        stage: "recognise",
         options: [
             "beside",
             "stand",
@@ -372,7 +372,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-017",
         skillId: "prepositions",
         question: "Which sentence uses a preposition of place?",
-
+        stage: "recognise",
         options: [
             "The ball rolled into the goal.",
             "The ball rolled.",
@@ -394,7 +394,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-018",
         skillId: "prepositions",
         question: "Which preposition best completes the sentence? 'We arrived ____ lunchtime.'",
-
+        stage: "recognise",
         options: [
             "before",
             "lunch",
@@ -416,7 +416,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-019",
         skillId: "prepositions",
         question: "Which sentence contains a preposition of time?",
-
+        stage: "recognise",
         options: [
             "We will leave after dinner.",
             "We will leave soon.",
@@ -438,7 +438,7 @@ export const prepositions: SkillContent = {
         id: "eng-prep-020",
         skillId: "prepositions",
         question: "Which sentence uses prepositions correctly?",
-
+        stage: "recognise",
         options: [
             "Oliver hid behind the tree before lunch.",
             "Oliver behind hid tree.",

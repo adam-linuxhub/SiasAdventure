@@ -20,7 +20,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-001",
         skillId: "livingOrDead",
         question: "Which of these is a living thing?",
-
+        stage: "recognise",
         options: [
             "A rabbit",
             "A rock",
@@ -42,7 +42,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-002",
         skillId: "livingOrDead",
         question: "Which of these has never been alive?",
-
+        stage: "recognise",
         options: [
             "A brick",
             "A leaf",
@@ -64,7 +64,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-003",
         skillId: "livingOrDead",
         question: "Which of these is dead?",
-
+        stage: "recognise",
         options: [
             "A fallen leaf",
             "A growing flower",
@@ -86,7 +86,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-004",
         skillId: "livingOrDead",
         question: "Which of these grows?",
-
+        stage: "recognise",
         options: [
             "A seedling",
             "A plastic cup",
@@ -108,7 +108,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-005",
         skillId: "livingOrDead",
         question: "Which is a sign that something is living?",
-
+        stage: "recognise",
         options: [
             "It grows",
             "It is shiny",
@@ -130,7 +130,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-006",
         skillId: "livingOrDead",
         question: "Which of these is alive?",
-
+        stage: "recognise",
         options: [
             "An oak tree",
             "A table",
@@ -152,7 +152,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-007",
         skillId: "livingOrDead",
         question: "Which object has never been alive?",
-
+        stage: "recognise",
         options: [
             "A plastic ruler",
             "A feather",
@@ -174,7 +174,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-008",
         skillId: "livingOrDead",
         question: "Living things need...",
-
+        stage: "recognise",
         options: [
             "Food or nutrients",
             "Paint",
@@ -196,7 +196,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-009",
         skillId: "livingOrDead",
         question: "Which of these can reproduce?",
-
+        stage: "recognise",
         options: [
             "A cat",
             "A chair",
@@ -218,7 +218,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-010",
         skillId: "livingOrDead",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "All living things grow.",
             "All rocks grow.",
@@ -240,7 +240,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-011",
         skillId: "livingOrDead",
         question: "A wooden chair is made from a tree. Which is true?",
-
+        stage: "recognise",
         options: [
             "The chair has never been alive, but it came from something that was.",
             "The chair is still alive.",
@@ -262,7 +262,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-012",
         skillId: "livingOrDead",
         question: "Why is a mushroom considered living?",
-
+        stage: "recognise",
         options: [
             "It grows and reproduces.",
             "It is brown.",
@@ -284,7 +284,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-013",
         skillId: "livingOrDead",
         question: "Which item is dead rather than never alive?",
-
+        stage: "recognise",
         options: [
             "A dry twig",
             "A metal spoon",
@@ -306,7 +306,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-014",
         skillId: "livingOrDead",
         question: "Why is a rock not living?",
-
+        stage: "recognise",
         options: [
             "It does not carry out life processes.",
             "It is heavy.",
@@ -328,7 +328,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-015",
         skillId: "livingOrDead",
         question: "Which group contains only living things?",
-
+        stage: "recognise",
         options: [
             "Dog, oak tree, butterfly",
             "Rock, bird, flower",
@@ -350,7 +350,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-016",
         skillId: "livingOrDead",
         question: "Which life process helps make more of the same species?",
-
+        stage: "recognise",
         options: [
             "Reproduction",
             "Sleeping",
@@ -372,7 +372,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-017",
         skillId: "livingOrDead",
         question: "A shell washed onto the beach belonged to a snail. The shell is...",
-
+        stage: "recognise",
         options: [
             "Dead",
             "Living",
@@ -394,7 +394,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-018",
         skillId: "livingOrDead",
         question: "Which feature helps scientists decide if something is living?",
-
+        stage: "recognise",
         options: [
             "Whether it carries out life processes",
             "Its colour",
@@ -416,7 +416,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-019",
         skillId: "livingOrDead",
         question: "A seed is alive because it can...",
-
+        stage: "recognise",
         options: [
             "Grow into a new plant",
             "Roll downhill",
@@ -438,7 +438,7 @@ export const livingOrDead: SkillContent = {
         id: "sci-living-dead-020",
         skillId: "livingOrDead",
         question: "Which sentence best describes living things?",
-
+        stage: "recognise",
         options: [
             "Living things carry out life processes such as growing, reproducing and needing food.",
             "Living things are always green.",

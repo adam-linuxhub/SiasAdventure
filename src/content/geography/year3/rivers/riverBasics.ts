@@ -21,7 +21,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What is a river?",
-
+        stage: "recognise",
         options: [
             "A flowing body of water moving towards another place",
             "A mountain made of rock",
@@ -44,7 +44,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "Where does a river usually begin?",
-
+        stage: "recognise",
         options: [
             "At its source",
             "At its mouth",
@@ -67,7 +67,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What is the mouth of a river?",
-
+        stage: "recognise",
         options: [
             "The place where the river meets a sea, lake or another river",
             "The beginning of the river",
@@ -90,7 +90,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What is the path a river flows along called?",
-
+        stage: "recognise",
         options: [
             "A channel",
             "A climate",
@@ -113,7 +113,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "Which direction does water in a river usually flow?",
-
+        stage: "recognise",
         options: [
             "From higher land to lower land",
             "From lower land to higher land",
@@ -136,7 +136,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What is a tributary?",
-
+        stage: "recognise",
         options: [
             "A smaller river that joins a larger river",
             "The end of a river",
@@ -159,7 +159,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "Why are rivers important?",
-
+        stage: "recognise",
         options: [
             "They provide water and support life",
             "They stop all plants growing",
@@ -182,7 +182,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What is a river basin?",
-
+        stage: "recognise",
         options: [
             "The area of land drained by a river and its tributaries",
             "A swimming pool",
@@ -205,7 +205,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What is the source of a river?",
-
+        stage: "recognise",
         options: [
             "Where the river starts",
             "Where the river ends",
@@ -228,7 +228,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "Where are many river sources found?",
-
+        stage: "recognise",
         options: [
             "In hills or mountains",
             "In shopping centres",
@@ -251,7 +251,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What happens when small streams join together?",
-
+        stage: "recognise",
         options: [
             "They can form a larger river",
             "They disappear immediately",
@@ -274,7 +274,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What does a river carry as it flows?",
-
+        stage: "recognise",
         options: [
             "Water and sometimes sediment",
             "Only air",
@@ -297,7 +297,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What is sediment?",
-
+        stage: "recognise",
         options: [
             "Small pieces of rock and soil carried by water",
             "A type of animal",
@@ -320,7 +320,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "Why do rivers often have bends?",
-
+        stage: "recognise",
         options: [
             "Water changes direction as it moves across land",
             "Rivers are built by people",
@@ -343,7 +343,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What is a waterfall?",
-
+        stage: "recognise",
         options: [
             "Water flowing over a steep drop",
             "A frozen river",
@@ -366,7 +366,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "How do rivers help people?",
-
+        stage: "recognise",
         options: [
             "They provide water, transport and resources",
             "They prevent farming",
@@ -389,7 +389,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "What happens when a river reaches the sea?",
-
+        stage: "recognise",
         options: [
             "The river ends at its mouth",
             "The river starts again",
@@ -412,7 +412,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "Why do rivers change the land around them?",
-
+        stage: "recognise",
         options: [
             "They move water and sediment",
             "They create buildings",
@@ -435,7 +435,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "Which words describe parts of a river?",
-
+        stage: "recognise",
         options: [
             "Source, channel and mouth",
             "Roof, wall and door",
@@ -458,7 +458,7 @@ export const riverBasics: SkillContent = {
         skillId: "riverBasics",
         question:
             "Which sentence best describes a river?",
-
+        stage: "recognise",
         options: [
             "A flowing body of water that travels from its source to its mouth",
             "A type of mountain",

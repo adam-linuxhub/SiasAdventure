@@ -20,7 +20,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-001",
         skillId: "magneticMaterials",
         question: "What does a magnet do?",
-
+        stage: "recognise",
         options: [
             "It attracts some materials",
             "It creates light",
@@ -42,7 +42,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-002",
         skillId: "magneticMaterials",
         question: "Which material is magnetic?",
-
+        stage: "recognise",
         options: [
             "Iron",
             "Wood",
@@ -64,7 +64,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-003",
         skillId: "magneticMaterials",
         question: "Which object would a magnet attract?",
-
+        stage: "recognise",
         options: [
             "An iron nail",
             "A wooden spoon",
@@ -86,7 +86,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-004",
         skillId: "magneticMaterials",
         question: "Which material is NOT magnetic?",
-
+        stage: "recognise",
         options: [
             "Plastic",
             "Iron",
@@ -108,7 +108,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-005",
         skillId: "magneticMaterials",
         question: "Which metal is magnetic?",
-
+        stage: "recognise",
         options: [
             "Steel",
             "Aluminium",
@@ -130,7 +130,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-006",
         skillId: "magneticMaterials",
         question: "Which classroom object is likely to be magnetic?",
-
+        stage: "recognise",
         options: [
             "A paper clip",
             "An eraser",
@@ -152,7 +152,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-007",
         skillId: "magneticMaterials",
         question: "Which material is most likely to be attracted to a magnet?",
-
+        stage: "recognise",
         options: [
             "Nickel",
             "Paper",
@@ -174,7 +174,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-008",
         skillId: "magneticMaterials",
         question: "Can magnets attract wood?",
-
+        stage: "recognise",
         options: [
             "No",
             "Yes",
@@ -196,7 +196,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-009",
         skillId: "magneticMaterials",
         question: "Which object is least likely to be attracted to a magnet?",
-
+        stage: "recognise",
         options: [
             "A rubber band",
             "A steel screw",
@@ -218,7 +218,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-010",
         skillId: "magneticMaterials",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Not all metals are magnetic.",
             "Every metal is magnetic.",
@@ -240,7 +240,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-011",
         skillId: "magneticMaterials",
         question: "A magnet attracts an object. What is the object most likely made from?",
-
+        stage: "recognise",
         options: [
             "Iron",
             "Wood",
@@ -262,7 +262,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-012",
         skillId: "magneticMaterials",
         question: "Why doesn't a magnet attract a plastic bottle?",
-
+        stage: "recognise",
         options: [
             "Plastic is not magnetic.",
             "The bottle is too light.",
@@ -284,7 +284,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-013",
         skillId: "magneticMaterials",
         question: "Which investigation would help you find magnetic materials?",
-
+        stage: "recognise",
         options: [
             "Test different objects with a magnet",
             "Measure their height",
@@ -306,7 +306,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-014",
         skillId: "magneticMaterials",
         question: "Which pair are both magnetic?",
-
+        stage: "recognise",
         options: [
             "Iron and steel",
             "Plastic and wood",
@@ -328,7 +328,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-015",
         skillId: "magneticMaterials",
         question: "A magnet attracts one spoon but not another. What is the best explanation?",
-
+        stage: "recognise",
         options: [
             "They are made from different materials",
             "One spoon is bigger",
@@ -350,7 +350,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-016",
         skillId: "magneticMaterials",
         question: "Which material should you choose to make a fridge magnet stick?",
-
+        stage: "recognise",
         options: [
             "Steel",
             "Plastic",
@@ -372,7 +372,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-017",
         skillId: "magneticMaterials",
         question: "Why do magnets attract some objects but not others?",
-
+        stage: "recognise",
         options: [
             "Only some materials are magnetic",
             "Only large objects are magnetic",
@@ -394,7 +394,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-018",
         skillId: "magneticMaterials",
         question: "Which object would be best for testing a magnet?",
-
+        stage: "recognise",
         options: [
             "A steel paper clip",
             "A sponge",
@@ -416,7 +416,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-019",
         skillId: "magneticMaterials",
         question: "Which material would NOT be suitable for making a magnetic toy?",
-
+        stage: "recognise",
         options: [
             "Wood",
             "Iron",
@@ -438,7 +438,7 @@ export const magneticMaterials: SkillContent = {
         id: "sci-magnetic-materials-020",
         skillId: "magneticMaterials",
         question: "Which sentence best describes magnetic materials?",
-
+        stage: "recognise",
         options: [
             "Magnetic materials are attracted to magnets.",
             "All materials are magnetic.",

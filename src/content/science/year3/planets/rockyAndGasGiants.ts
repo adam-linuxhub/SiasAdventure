@@ -20,7 +20,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-001",
         skillId: "rocky-and-gas-giants",
         question: "Which of these is a rocky planet?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Jupiter",
@@ -47,7 +47,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-002",
         skillId: "rocky-and-gas-giants",
         question: "Which of these is a giant planet?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Earth",
@@ -74,7 +74,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-003",
         skillId: "rocky-and-gas-giants",
         question: "Which rocky planet do we live on?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Mars",
@@ -101,7 +101,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-004",
         skillId: "rocky-and-gas-giants",
         question: "Which of these is a giant planet?",
-
+        stage: "recognise",
         options: [
             "Saturn",
             "Mercury",
@@ -128,7 +128,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-005",
         skillId: "rocky-and-gas-giants",
         question: "Which of these is a rocky planet?",
-
+        stage: "recognise",
         options: [
             "Mars",
             "Uranus",
@@ -155,7 +155,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-006",
         skillId: "rocky-and-gas-giants",
         question: "Which of these is a giant planet?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Venus",
@@ -182,7 +182,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-007",
         skillId: "rocky-and-gas-giants",
         question: "Which group contains only rocky planets?",
-
+        stage: "recognise",
         options: [
             "Mercury, Venus, Earth and Mars",
             "Earth, Mars, Jupiter and Saturn",
@@ -208,7 +208,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-008",
         skillId: "rocky-and-gas-giants",
         question: "Which group contains only giant planets?",
-
+        stage: "recognise",
         options: [
             "Jupiter, Saturn, Uranus and Neptune",
             "Mercury, Venus, Earth and Mars",
@@ -234,7 +234,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-009",
         skillId: "rocky-and-gas-giants",
         question: "How many rocky planets are there?",
-
+        stage: "recognise",
         options: [
             "4",
             "3",
@@ -260,7 +260,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-010",
         skillId: "rocky-and-gas-giants",
         question: "How many giant planets are there?",
-
+        stage: "recognise",
         options: [
             "4",
             "3",
@@ -286,7 +286,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-011",
         skillId: "rocky-and-gas-giants",
         question: "Which rocky planet is closest to the Sun?",
-
+        stage: "recognise",
         options: [
             "Mercury",
             "Venus",
@@ -313,7 +313,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-012",
         skillId: "rocky-and-gas-giants",
         question: "Which giant planet is closest to the Sun?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -340,7 +340,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-013",
         skillId: "rocky-and-gas-giants",
         question: "Which rocky planet is farthest from the Sun?",
-
+        stage: "recognise",
         options: [
             "Mars",
             "Earth",
@@ -367,7 +367,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-014",
         skillId: "rocky-and-gas-giants",
         question: "Which giant planet is farthest from the Sun?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Uranus",
@@ -394,7 +394,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-015",
         skillId: "rocky-and-gas-giants",
         question: "Ella says, 'Earth is a giant planet.' Is she correct?",
-
+        stage: "recognise",
         options: [
             "No, Earth is a rocky planet.",
             "Yes, Earth is a giant planet.",
@@ -420,8 +420,8 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-016",
             skillId: "rocky-and-gas-giants",
             question: "Ben says, 'Jupiter is a rocky planet.' Is Ben correct?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "No, Jupiter is a giant planet.",
             "Yes, Jupiter is a rocky planet.",
             "No, Jupiter is a star.",
@@ -447,7 +447,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-017",
         skillId: "rocky-and-gas-giants",
         question: "Which pair contains two rocky planets?",
-
+        stage: "recognise",
         options: [
             "Earth and Mars",
             "Earth and Jupiter",
@@ -473,7 +473,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-018",
         skillId: "rocky-and-gas-giants",
         question: "Which pair contains two giant planets?",
-
+        stage: "recognise",
         options: [
             "Jupiter and Saturn",
             "Earth and Mars",
@@ -499,7 +499,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-019",
         skillId: "rocky-and-gas-giants",
         question: "Which planet belongs with Earth because they are both rocky planets?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Saturn",
@@ -526,7 +526,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-020",
         skillId: "rocky-and-gas-giants",
         question: "Which planet belongs with Jupiter because they are both giant planets?",
-
+        stage: "recognise",
         options: [
             "Saturn",
             "Earth",
@@ -553,7 +553,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-021",
         skillId: "rocky-and-gas-giants",
         question: "Which answer contains only rocky planets?",
-
+        stage: "recognise",
         options: [
             "Mercury, Earth and Mars",
             "Earth, Jupiter and Mars",
@@ -579,7 +579,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-022",
         skillId: "rocky-and-gas-giants",
         question: "Which answer contains only giant planets?",
-
+        stage: "recognise",
         options: [
             "Saturn, Uranus and Neptune",
             "Earth, Mars and Jupiter",
@@ -605,7 +605,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-023",
         skillId: "rocky-and-gas-giants",
         question: "Which planet is NOT a rocky planet?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Earth",
@@ -631,7 +631,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-024",
         skillId: "rocky-and-gas-giants",
         question: "Which planet is NOT a giant planet?",
-
+        stage: "recognise",
         options: [
             "Mercury",
             "Jupiter",
@@ -657,7 +657,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-025",
         skillId: "rocky-and-gas-giants",
         question: "Which rocky planet is nearest to Jupiter?",
-
+        stage: "recognise",
         options: [
             "Mars",
             "Earth",
@@ -684,7 +684,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-026",
         skillId: "rocky-and-gas-giants",
         question: "Which giant planet is nearest to Mars?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -711,7 +711,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-027",
         skillId: "rocky-and-gas-giants",
         question: "How many giant planets are larger than Earth?",
-
+        stage: "recognise",
         options: [
             "4",
             "3",
@@ -737,7 +737,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-028",
         skillId: "rocky-and-gas-giants",
         question: "How many rocky planets are closer to the Sun than Jupiter?",
-
+        stage: "recognise",
         options: [
             "4",
             "3",
@@ -763,7 +763,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-029",
         skillId: "rocky-and-gas-giants",
         question: "Which sentence is true?",
-
+        stage: "recognise",
         options: [
             "All rocky planets come before the giant planets.",
             "All giant planets come before the rocky planets.",
@@ -790,7 +790,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-030",
         skillId: "rocky-and-gas-giants",
         question: "Which statement is correct?",
-
+        stage: "recognise",
         options: [
             "There are four rocky planets and four giant planets.",
             "There are five rocky planets and three giant planets.",
@@ -816,8 +816,8 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-031",
         skillId: "rocky-and-gas-giants",
         question: "Which rocky planet is the smallest?",
-
-    options: [
+        stage: "recognise",
+        options: [
         "Mercury",
         "Venus",
         "Earth",
@@ -843,7 +843,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-032",
     skillId: "rocky-and-gas-giants",
     question: "Which giant planet is the largest?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Saturn",
@@ -870,7 +870,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-033",
     skillId: "rocky-and-gas-giants",
     question: "Which giant planet is famous for its rings?",
-
+    stage: "recognise",
     options: [
         "Saturn",
         "Jupiter",
@@ -897,7 +897,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-034",
     skillId: "rocky-and-gas-giants",
     question: "Which rocky planet is known as the Red Planet?",
-
+    stage: "recognise",
     options: [
         "Mars",
         "Mercury",
@@ -924,7 +924,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-035",
     skillId: "rocky-and-gas-giants",
     question: "Which giant planet comes immediately after the rocky planets?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Saturn",
@@ -951,7 +951,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-036",
     skillId: "rocky-and-gas-giants",
     question: "Which sentence is true?",
-
+    stage: "recognise",
     options: [
         "Mercury is a rocky planet.",
         "Mercury is a giant planet.",
@@ -978,7 +978,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-037",
     skillId: "rocky-and-gas-giants",
     question: "Which sentence is true?",
-
+    stage: "recognise",
     options: [
         "Neptune is a giant planet.",
         "Neptune is a rocky planet.",
@@ -1005,7 +1005,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-038",
     skillId: "rocky-and-gas-giants",
     question: "Which list shows only rocky planets?",
-
+    stage: "recognise",
     options: [
         "Mercury, Venus, Earth, Mars",
         "Earth, Mars, Jupiter, Saturn",
@@ -1031,7 +1031,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-039",
     skillId: "rocky-and-gas-giants",
     question: "Which list shows only giant planets?",
-
+    stage: "recognise",
     options: [
         "Jupiter, Saturn, Uranus, Neptune",
         "Mars, Jupiter, Saturn, Uranus",
@@ -1057,7 +1057,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-040",
     skillId: "rocky-and-gas-giants",
     question: "Which planet does NOT belong in this group: Mercury, Venus, Earth, Jupiter?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Mercury",
@@ -1083,7 +1083,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-041",
     skillId: "rocky-and-gas-giants",
     question: "Which planet does NOT belong in this group: Jupiter, Saturn, Uranus, Mars?",
-
+    stage: "recognise",
     options: [
         "Mars",
         "Jupiter",
@@ -1109,7 +1109,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-042",
     skillId: "rocky-and-gas-giants",
     question: "Which statement is correct?",
-
+    stage: "recognise",
     options: [
         "Rocky planets have solid surfaces.",
         "Giant planets have solid rocky surfaces.",
@@ -1135,7 +1135,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-043",
     skillId: "rocky-and-gas-giants",
     question: "Which statement is correct?",
-
+    stage: "recognise",
     options: [
         "Jupiter, Saturn, Uranus and Neptune are giant planets.",
         "Mercury, Venus, Earth and Jupiter are rocky planets.",
@@ -1161,7 +1161,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-044",
     skillId: "rocky-and-gas-giants",
     question: "Which answer correctly matches the planet to its type?",
-
+    stage: "recognise",
     options: [
         "Mars - Rocky planet",
         "Saturn - Rocky planet",
@@ -1188,7 +1188,7 @@ export const rockyAndGasGiants: SkillContent = {
     id: "sci-planets-types-045",
     skillId: "rocky-and-gas-giants",
     question: "Which answer correctly matches the planet to its type?",
-
+    stage: "recognise",
     options: [
         "Saturn - Giant planet",
         "Earth - Giant planet",
@@ -1214,7 +1214,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-046",
         skillId: "rocky-and-gas-giants",
         question: "How many rocky planets are there before the giant planets begin?",
-
+        stage: "recognise",
         options: [
             "4",
             "3",
@@ -1240,7 +1240,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-047",
         skillId: "rocky-and-gas-giants",
         question: "Which planet completes this pattern? Mercury, Venus, Earth, Mars, ___",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -1267,7 +1267,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-048",
         skillId: "rocky-and-gas-giants",
         question: "Which statement best describes the Solar System's planets?",
-
+        stage: "recognise",
         options: [
             "The first four planets are rocky and the last four are giant planets.",
             "The first four planets are giant and the last four are rocky.",
@@ -1294,7 +1294,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-049",
         skillId: "rocky-and-gas-giants",
         question: "Sam says, 'Uranus is a rocky planet because it is far from the Sun.' Is Sam correct?",
-
+        stage: "recognise",
         options: [
             "No, Uranus is a giant planet.",
             "Yes, Uranus is a rocky planet.",
@@ -1321,7 +1321,7 @@ export const rockyAndGasGiants: SkillContent = {
         id: "sci-planets-types-050",
         skillId: "rocky-and-gas-giants",
         question: "Which summary is correct?",
-
+        stage: "recognise",
         options: [
             "Mercury, Venus, Earth and Mars are rocky planets. Jupiter, Saturn, Uranus and Neptune are giant planets.",
             "Mercury, Venus, Earth and Jupiter are rocky planets.",

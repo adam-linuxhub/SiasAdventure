@@ -20,7 +20,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-001",
         skillId: "prefixesUn",
         question: "What does the prefix 'un-' usually mean?",
-
+        stage: "recognise",
         options: [
             "Not or the opposite of",
             "Very big",
@@ -42,7 +42,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-002",
         skillId: "prefixesUn",
         question: "Which word means 'not happy'?",
-
+        stage: "recognise",
         options: [
             "unhappy",
             "rehappy",
@@ -64,7 +64,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-003",
         skillId: "prefixesUn",
         question: "Which word means 'not kind'?",
-
+        stage: "recognise",
         options: [
             "unkind",
             "rekind",
@@ -86,7 +86,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-004",
         skillId: "prefixesUn",
         question: "Which word means 'not fair'?",
-
+        stage: "recognise",
         options: [
             "unfair",
             "refair",
@@ -108,7 +108,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-005",
         skillId: "prefixesUn",
         question: "Which word means 'not tidy'?",
-
+        stage: "recognise",
         options: [
             "untidy",
             "retidy",
@@ -130,7 +130,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-006",
         skillId: "prefixesUn",
         question: "Which word means 'not safe'?",
-
+        stage: "recognise",
         options: [
             "unsafe",
             "resafe",
@@ -152,7 +152,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-007",
         skillId: "prefixesUn",
         question: "Choose the correctly spelled word.",
-
+        stage: "recognise",
         options: [
             "unclean",
             "unclene",
@@ -174,7 +174,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-008",
         skillId: "prefixesUn",
         question: "Which word means 'not well'?",
-
+        stage: "recognise",
         options: [
             "unwell",
             "rewell",
@@ -196,7 +196,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-009",
         skillId: "prefixesUn",
         question: "Which word starts with the prefix 'un-'?",
-
+        stage: "recognise",
         options: [
             "unwrap",
             "wrap",
@@ -218,7 +218,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-010",
         skillId: "prefixesUn",
         question: "What does 'unlock' mean?",
-
+        stage: "recognise",
         options: [
             "Open a lock",
             "Make a lock",
@@ -240,7 +240,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-011",
         skillId: "prefixesUn",
         question: "Complete the sentence: 'The room was very ______ after the party.'",
-
+        stage: "recognise",
         options: [
             "untidy",
             "tidy",
@@ -262,7 +262,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-012",
         skillId: "prefixesUn",
         question: "Complete the sentence: 'It is ______ to run across a busy road.'",
-
+        stage: "recognise",
         options: [
             "unsafe",
             "safe",
@@ -284,7 +284,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-013",
         skillId: "prefixesUn",
         question: "Which sentence uses an 'un-' word correctly?",
-
+        stage: "recognise",
         options: [
             "The game was unfair because one team cheated.",
             "The game was fair because one team cheated.",
@@ -306,7 +306,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-014",
         skillId: "prefixesUn",
         question: "Which word means the opposite of 'lock'?",
-
+        stage: "recognise",
         options: [
             "unlock",
             "locking",
@@ -328,7 +328,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-015",
         skillId: "prefixesUn",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "Sam felt unhappy when he lost his toy.",
             "Sam felt happy when he lost his toy.",
@@ -350,7 +350,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-016",
         skillId: "prefixesUn",
         question: "Which word means the opposite of 'wrap'?",
-
+        stage: "recognise",
         options: [
             "unwrap",
             "wrapped",
@@ -372,7 +372,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-017",
         skillId: "prefixesUn",
         question: "What happens when 'un-' is added to many words?",
-
+        stage: "recognise",
         options: [
             "The meaning becomes the opposite.",
             "The word becomes longer but keeps the same meaning.",
@@ -394,7 +394,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-018",
         skillId: "prefixesUn",
         question: "Which sentence contains an 'un-' word?",
-
+        stage: "recognise",
         options: [
             "The puppy was unwell after eating too much.",
             "The puppy was well after eating too much.",
@@ -416,7 +416,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-019",
         skillId: "prefixesUn",
         question: "Which word is formed by adding 'un-' to 'kind'?",
-
+        stage: "recognise",
         options: [
             "unkind",
             "kindun",
@@ -438,7 +438,7 @@ export const prefixesUn: SkillContent = {
         id: "eng-un-020",
         skillId: "prefixesUn",
         question: "Which sentence uses the prefix 'un-' correctly?",
-
+        stage: "recognise",
         options: [
             "Please unwrap your birthday present carefully.",
             "Please wrap your birthday present carefully after opening it.",

@@ -20,7 +20,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-001",
         skillId: "synonyms",
         question: "Which word is a synonym for 'big'?",
-
+        stage: "recognise",
         options: [
             "large",
             "tiny",
@@ -42,7 +42,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-002",
         skillId: "synonyms",
         question: "Which word is a synonym for 'happy'?",
-
+        stage: "recognise",
         options: [
             "glad",
             "angry",
@@ -64,7 +64,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-003",
         skillId: "synonyms",
         question: "Which word is a synonym for 'small'?",
-
+        stage: "recognise",
         options: [
             "tiny",
             "huge",
@@ -86,7 +86,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-004",
         skillId: "synonyms",
         question: "Which word is a synonym for 'quick'?",
-
+        stage: "recognise",
         options: [
             "fast",
             "slow",
@@ -108,7 +108,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-005",
         skillId: "synonyms",
         question: "Which word is a synonym for 'begin'?",
-
+        stage: "recognise",
         options: [
             "start",
             "stop",
@@ -130,7 +130,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-006",
         skillId: "synonyms",
         question: "Which word is a synonym for 'finish'?",
-
+        stage: "recognise",
         options: [
             "end",
             "begin",
@@ -152,7 +152,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-007",
         skillId: "synonyms",
         question: "Which word is a synonym for 'smart'?",
-
+        stage: "recognise",
         options: [
             "clever",
             "lazy",
@@ -174,7 +174,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-008",
         skillId: "synonyms",
         question: "Which word is a synonym for 'look'?",
-
+        stage: "recognise",
         options: [
             "see",
             "hear",
@@ -196,7 +196,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-009",
         skillId: "synonyms",
         question: "Which word is a synonym for 'shout'?",
-
+        stage: "recognise",
         options: [
             "yell",
             "whisper",
@@ -218,7 +218,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-010",
         skillId: "synonyms",
         question: "What are synonyms?",
-
+        stage: "recognise",
         options: [
             "Words with the same or similar meanings",
             "Words with opposite meanings",
@@ -240,7 +240,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-011",
         skillId: "synonyms",
         question: "Choose the best synonym for 'cold'.",
-
+        stage: "recognise",
         options: [
             "chilly",
             "hot",
@@ -262,7 +262,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-012",
         skillId: "synonyms",
         question: "Choose the best synonym for 'beautiful'.",
-
+        stage: "recognise",
         options: [
             "pretty",
             "ugly",
@@ -284,7 +284,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-013",
         skillId: "synonyms",
         question: "Complete the sentence: 'The rabbit was _____.'",
-
+        stage: "recognise",
         options: [
             "quick",
             "fast",
@@ -306,7 +306,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-014",
         skillId: "synonyms",
         question: "Which pair of words are synonyms?",
-
+        stage: "recognise",
         options: [
             "happy and glad",
             "big and tiny",
@@ -328,7 +328,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-015",
         skillId: "synonyms",
         question: "Which pair of words are synonyms?",
-
+        stage: "recognise",
         options: [
             "start and begin",
             "open and close",
@@ -350,7 +350,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-016",
         skillId: "synonyms",
         question: "Which word could replace 'large' without changing the meaning?",
-
+        stage: "recognise",
         options: [
             "big",
             "small",
@@ -372,7 +372,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-017",
         skillId: "synonyms",
         question: "Which word could replace 'end'?",
-
+        stage: "recognise",
         options: [
             "finish",
             "begin",
@@ -394,7 +394,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-018",
         skillId: "synonyms",
         question: "Choose the best synonym for 'quiet'.",
-
+        stage: "recognise",
         options: [
             "silent",
             "noisy",
@@ -416,7 +416,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-019",
         skillId: "synonyms",
         question: "Which sentence uses a synonym correctly?",
-
+        stage: "recognise",
         options: [
             "The large elephant was huge.",
             "The large elephant was tiny.",
@@ -438,7 +438,7 @@ export const synonyms: SkillContent = {
         id: "eng-syn-020",
         skillId: "synonyms",
         question: "Why do writers use synonyms?",
-
+        stage: "recognise",
         options: [
             "To make writing more interesting and avoid repeating the same words",
             "To make words longer",

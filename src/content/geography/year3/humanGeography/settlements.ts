@@ -20,7 +20,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-001",
         skillId: "settlements",
         question: "What is a settlement?",
-
+        stage: "recognise",
         options: [
             "A place where people live",
             "A type of weather",
@@ -42,7 +42,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-002",
         skillId: "settlements",
         question: "Which is usually the smallest type of settlement?",
-
+        stage: "recognise",
         options: [
             "Village",
             "Town",
@@ -64,7 +64,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-003",
         skillId: "settlements",
         question: "Which settlement is usually larger than a village but smaller than a city?",
-
+        stage: "recognise",
         options: [
             "Town",
             "Village",
@@ -86,7 +86,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-004",
         skillId: "settlements",
         question: "Which type of settlement is usually the largest?",
-
+        stage: "recognise",
         options: [
             "City",
             "Village",
@@ -108,7 +108,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-005",
         skillId: "settlements",
         question: "People live in settlements because they provide...",
-
+        stage: "recognise",
         options: [
             "Homes",
             "Volcanoes",
@@ -130,7 +130,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-006",
         skillId: "settlements",
         question: "Which place is most likely to have the fewest people?",
-
+        stage: "recognise",
         options: [
             "Village",
             "City",
@@ -152,7 +152,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-007",
         skillId: "settlements",
         question: "Which settlement usually has the most shops?",
-
+        stage: "recognise",
         options: [
             "City",
             "Village",
@@ -174,7 +174,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-008",
         skillId: "settlements",
         question: "What is a population?",
-
+        stage: "recognise",
         options: [
             "The number of people living in a place",
             "A type of building",
@@ -196,7 +196,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-009",
         skillId: "settlements",
         question: "Which place is most likely to have a large hospital?",
-
+        stage: "recognise",
         options: [
             "City",
             "Village",
@@ -218,7 +218,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-010",
         skillId: "settlements",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "People live in villages, towns and cities.",
             "People only live in cities.",
@@ -240,7 +240,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-011",
         skillId: "settlements",
         question: "Why were many settlements built near rivers?",
-
+        stage: "recognise",
         options: [
             "Rivers provided fresh water.",
             "Rivers made computers.",
@@ -262,7 +262,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-012",
         skillId: "settlements",
         question: "Why do people build settlements near roads?",
-
+        stage: "recognise",
         options: [
             "It makes travelling and transporting goods easier.",
             "Roads provide electricity.",
@@ -284,7 +284,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-013",
         skillId: "settlements",
         question: "Why do cities usually have more schools than villages?",
-
+        stage: "recognise",
         options: [
             "More people live there.",
             "Cities are warmer.",
@@ -306,7 +306,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-014",
         skillId: "settlements",
         question: "Which settlement is most likely to have the busiest roads?",
-
+        stage: "recognise",
         options: [
             "City",
             "Village",
@@ -328,7 +328,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-015",
         skillId: "settlements",
         question: "Why do settlements often grow larger over time?",
-
+        stage: "recognise",
         options: [
             "More people move there.",
             "The buildings become taller every day.",
@@ -350,7 +350,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-016",
         skillId: "settlements",
         question: "Which place would probably have the most public transport?",
-
+        stage: "recognise",
         options: [
             "City",
             "Village",
@@ -372,7 +372,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-017",
         skillId: "settlements",
         question: "Why do settlements need shops?",
-
+        stage: "recognise",
         options: [
             "So people can buy the things they need.",
             "To make rivers flow.",
@@ -394,7 +394,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-018",
         skillId: "settlements",
         question: "Which settlement is most likely to have the greatest population?",
-
+        stage: "recognise",
         options: [
             "City",
             "Village",
@@ -416,7 +416,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-019",
         skillId: "settlements",
         question: "Why do people choose to live in settlements?",
-
+        stage: "recognise",
         options: [
             "They provide homes, jobs and services.",
             "They always have beaches.",
@@ -438,7 +438,7 @@ export const settlements: SkillContent = {
         id: "geo-settle-020",
         skillId: "settlements",
         question: "Which sentence best describes a settlement?",
-
+        stage: "recognise",
         options: [
             "A place where people live and work, such as a village, town or city.",
             "A place where only animals live.",

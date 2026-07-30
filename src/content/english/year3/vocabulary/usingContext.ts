@@ -20,7 +20,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-001",
         skillId: "usingContext",
         question: "Tom wrapped a scarf around his neck because it was freezing. What does 'freezing' most likely mean?",
-
+        stage: "recognise",
         options: [
             "Very cold",
             "Very hot",
@@ -42,7 +42,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-002",
         skillId: "usingContext",
         question: "Ella whispered so quietly that nobody else could hear her. What does 'whispered' mean?",
-
+        stage: "recognise",
         options: [
             "Spoke very softly",
             "Shouted loudly",
@@ -64,7 +64,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-003",
         skillId: "usingContext",
         question: "The puppy was exhausted after running all afternoon. What does 'exhausted' most likely mean?",
-
+        stage: "recognise",
         options: [
             "Very tired",
             "Very excited",
@@ -86,7 +86,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-004",
         skillId: "usingContext",
         question: "The glass slipped from Ben's hands and shattered into tiny pieces. What does 'shattered' mean?",
-
+        stage: "recognise",
         options: [
             "Broke into many pieces",
             "Became cleaner",
@@ -108,7 +108,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-005",
         skillId: "usingContext",
         question: "Mia smiled because her teacher praised her work. What does 'praised' mean?",
-
+        stage: "recognise",
         options: [
             "Said something nice",
             "Gave homework",
@@ -130,7 +130,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-006",
         skillId: "usingContext",
         question: "The muddy boots left dirty marks across the clean floor. What does 'muddy' mean?",
-
+        stage: "recognise",
         options: [
             "Covered in mud",
             "Very shiny",
@@ -152,7 +152,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-007",
         skillId: "usingContext",
         question: "The lion is fierce, so the other animals stay away. What does 'fierce' most likely mean?",
-
+        stage: "recognise",
         options: [
             "Dangerous",
             "Tiny",
@@ -174,7 +174,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-008",
         skillId: "usingContext",
         question: "Sam hurried because he did not want to miss the bus. What does 'hurried' mean?",
-
+        stage: "recognise",
         options: [
             "Moved quickly",
             "Sat down",
@@ -196,7 +196,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-009",
         skillId: "usingContext",
         question: "The giant tree was enormous. It was taller than every other tree in the park. What does 'enormous' mean?",
-
+        stage: "recognise",
         options: [
             "Very large",
             "Very small",
@@ -218,7 +218,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-010",
         skillId: "usingContext",
         question: "What are context clues?",
-
+        stage: "recognise",
         options: [
             "Words around an unfamiliar word that help explain its meaning",
             "Letters at the end of a word",
@@ -240,7 +240,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-011",
         skillId: "usingContext",
         question: "The path was narrow, so only one person could walk along it at a time. What does 'narrow' mean?",
-
+        stage: "recognise",
         options: [
             "Not very wide",
             "Very long",
@@ -262,7 +262,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-012",
         skillId: "usingContext",
         question: "The baby was delighted when she opened her birthday present. What does 'delighted' mean?",
-
+        stage: "recognise",
         options: [
             "Very pleased",
             "Very sleepy",
@@ -284,7 +284,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-013",
         skillId: "usingContext",
         question: "The cave was gloomy because hardly any sunlight reached inside. What does 'gloomy' most likely mean?",
-
+        stage: "recognise",
         options: [
             "Dark",
             "Warm",
@@ -306,7 +306,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-014",
         skillId: "usingContext",
         question: "The soup was steaming, so Lily waited before taking a sip. What does 'steaming' mean?",
-
+        stage: "recognise",
         options: [
             "Very hot",
             "Very cold",
@@ -328,7 +328,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-015",
         skillId: "usingContext",
         question: "Jack was nervous before the school play because lots of people were watching. What does 'nervous' mean?",
-
+        stage: "recognise",
         options: [
             "Worried",
             "Hungry",
@@ -350,7 +350,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-016",
         skillId: "usingContext",
         question: "The rabbit crept quietly through the long grass so the fox would not see it. What does 'crept' mean?",
-
+        stage: "recognise",
         options: [
             "Moved slowly and quietly",
             "Jumped high",
@@ -372,7 +372,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-017",
         skillId: "usingContext",
         question: "The classroom was silent during the test. What does 'silent' mean?",
-
+        stage: "recognise",
         options: [
             "Very quiet",
             "Very noisy",
@@ -394,7 +394,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-018",
         skillId: "usingContext",
         question: "The thirsty hikers quickly drank all their water. What does 'thirsty' mean?",
-
+        stage: "recognise",
         options: [
             "Needing a drink",
             "Feeling cold",
@@ -416,7 +416,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-019",
         skillId: "usingContext",
         question: "The football crowd cheered because their team had won. What does 'cheered' mean?",
-
+        stage: "recognise",
         options: [
             "Shouted happily",
             "Cried sadly",
@@ -438,7 +438,7 @@ export const usingContext: SkillContent = {
         id: "eng-context-020",
         skillId: "usingContext",
         question: "What is the best way to work out the meaning of an unfamiliar word while reading?",
-
+        stage: "recognise",
         options: [
             "Read the words around it for clues",
             "Skip the word every time",

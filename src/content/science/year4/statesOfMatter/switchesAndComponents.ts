@@ -20,7 +20,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-001",
         skillId: "switchesAndComponents",
         question: "What is the job of a switch in a circuit?",
-
+        stage: "recognise",
         options: [
             "To open or close the circuit",
             "To make electricity",
@@ -42,7 +42,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-002",
         skillId: "switchesAndComponents",
         question: "Which component provides electrical energy?",
-
+        stage: "recognise",
         options: [
             "Battery",
             "Bulb",
@@ -64,7 +64,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-003",
         skillId: "switchesAndComponents",
         question: "Which component lights up when electricity flows?",
-
+        stage: "recognise",
         options: [
             "Bulb",
             "Battery",
@@ -86,7 +86,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-004",
         skillId: "switchesAndComponents",
         question: "What do wires do in a circuit?",
-
+        stage: "recognise",
         options: [
             "Join the components together",
             "Store electricity",
@@ -108,7 +108,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-005",
         skillId: "switchesAndComponents",
         question: "What happens when a switch is closed?",
-
+        stage: "recognise",
         options: [
             "The circuit is complete.",
             "The battery is removed.",
@@ -130,7 +130,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-006",
         skillId: "switchesAndComponents",
         question: "What happens when a switch is open?",
-
+        stage: "recognise",
         options: [
             "The circuit is broken.",
             "The bulb becomes brighter.",
@@ -152,7 +152,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-007",
         skillId: "switchesAndComponents",
         question: "Which component is designed to control the flow of electricity?",
-
+        stage: "recognise",
         options: [
             "Switch",
             "Battery",
@@ -174,7 +174,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-008",
         skillId: "switchesAndComponents",
         question: "Which component is most likely to glow in a simple circuit?",
-
+        stage: "recognise",
         options: [
             "Bulb",
             "Battery",
@@ -196,7 +196,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-009",
         skillId: "switchesAndComponents",
         question: "Which item is NOT usually part of a simple electrical circuit?",
-
+        stage: "recognise",
         options: [
             "Book",
             "Battery",
@@ -218,7 +218,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-010",
         skillId: "switchesAndComponents",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "A switch can turn a bulb on and off.",
             "A switch makes electricity.",
@@ -240,7 +240,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-011",
         skillId: "switchesAndComponents",
         question: "Why does opening a switch make the bulb go out?",
-
+        stage: "recognise",
         options: [
             "It breaks the circuit.",
             "It removes the battery.",
@@ -262,7 +262,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-012",
         skillId: "switchesAndComponents",
         question: "Why is a battery needed in a simple circuit?",
-
+        stage: "recognise",
         options: [
             "It provides electrical energy.",
             "It connects the wires.",
@@ -284,7 +284,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-013",
         skillId: "switchesAndComponents",
         question: "Which set contains only electrical components?",
-
+        stage: "recognise",
         options: [
             "Battery, bulb, wire and switch",
             "Battery, pencil and ruler",
@@ -306,7 +306,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-014",
         skillId: "switchesAndComponents",
         question: "What is the purpose of connecting wires between components?",
-
+        stage: "recognise",
         options: [
             "To create a complete path for electricity",
             "To make the battery heavier",
@@ -328,7 +328,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-015",
         skillId: "switchesAndComponents",
         question: "Which change would allow a bulb to light after the switch has been left open?",
-
+        stage: "recognise",
         options: [
             "Close the switch.",
             "Remove the bulb.",
@@ -350,7 +350,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-016",
         skillId: "switchesAndComponents",
         question: "Why is every component connected in a complete circuit?",
-
+        stage: "recognise",
         options: [
             "So electricity can travel all the way around the circuit.",
             "To make the battery larger.",
@@ -372,7 +372,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-017",
         skillId: "switchesAndComponents",
         question: "What happens when you close a switch in a working circuit?",
-
+        stage: "recognise",
         options: [
             "Electricity begins flowing through the components.",
             "The battery disappears.",
@@ -394,7 +394,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-018",
         skillId: "switchesAndComponents",
         question: "Which component changes electrical energy into light?",
-
+        stage: "recognise",
         options: [
             "Bulb",
             "Battery",
@@ -416,7 +416,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-019",
         skillId: "switchesAndComponents",
         question: "Why is a switch useful in a torch?",
-
+        stage: "recognise",
         options: [
             "It lets you turn the light on and off without removing the battery.",
             "It makes the batteries larger.",
@@ -438,7 +438,7 @@ export const switchesAndComponents: SkillContent = {
         id: "sci-switches-020",
         skillId: "switchesAndComponents",
         question: "Which sentence best describes the purpose of electrical components?",
-
+        stage: "recognise",
         options: [
             "Each component has a different job, and together they form a complete circuit that allows electricity to flow.",
             "Every component produces electricity.",

@@ -20,7 +20,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-001",
         skillId: "soundTravelsThroughMaterials",
         question: "What does sound need to travel through?",
-
+        stage: "recognise",
         options: [
             "A material",
             "Only light",
@@ -42,7 +42,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-002",
         skillId: "soundTravelsThroughMaterials",
         question: "Which material does sound usually travel through when people are talking?",
-
+        stage: "recognise",
         options: [
             "Air",
             "Glass",
@@ -64,7 +64,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-003",
         skillId: "soundTravelsThroughMaterials",
         question: "Can sound travel through water?",
-
+        stage: "recognise",
         options: [
             "Yes",
             "No",
@@ -86,7 +86,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-004",
         skillId: "soundTravelsThroughMaterials",
         question: "Can sound travel through solid objects?",
-
+        stage: "recognise",
         options: [
             "Yes",
             "No",
@@ -108,7 +108,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-005",
         skillId: "soundTravelsThroughMaterials",
         question: "Which of these is a material that carries sound?",
-
+        stage: "recognise",
         options: [
             "Air",
             "Light",
@@ -130,7 +130,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-006",
         skillId: "soundTravelsThroughMaterials",
         question: "What happens to a sound as you move farther away from it?",
-
+        stage: "recognise",
         options: [
             "It becomes quieter.",
             "It becomes higher-pitched.",
@@ -152,7 +152,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-007",
         skillId: "soundTravelsThroughMaterials",
         question: "Which is most likely to sound louder?",
-
+        stage: "recognise",
         options: [
             "A bell beside you",
             "The same bell 200 metres away",
@@ -174,7 +174,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-008",
         skillId: "soundTravelsThroughMaterials",
         question: "Which material can carry sound?",
-
+        stage: "recognise",
         options: [
             "Water",
             "Only air",
@@ -196,7 +196,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-009",
         skillId: "soundTravelsThroughMaterials",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Sound can travel through solids, liquids and gases.",
             "Sound only travels through air.",
@@ -218,7 +218,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-010",
         skillId: "soundTravelsThroughMaterials",
         question: "What carries the sound from a ringing phone to your ears?",
-
+        stage: "recognise",
         options: [
             "The air",
             "Light",
@@ -240,7 +240,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-011",
         skillId: "soundTravelsThroughMaterials",
         question: "Why can you hear someone knocking on the other side of a wooden door?",
-
+        stage: "recognise",
         options: [
             "Sound travels through the door and the air.",
             "The door becomes transparent.",
@@ -262,7 +262,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-012",
         skillId: "soundTravelsThroughMaterials",
         question: "A diver hears another diver tapping a metal tank underwater. What does this show?",
-
+        stage: "recognise",
         options: [
             "Sound can travel through water.",
             "Water blocks all sound.",
@@ -284,7 +284,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-013",
         skillId: "soundTravelsThroughMaterials",
         question: "Why is a nearby ambulance easier to hear than one far away?",
-
+        stage: "recognise",
         options: [
             "The sound becomes quieter as distance increases.",
             "The ambulance changes pitch.",
@@ -306,7 +306,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-014",
         skillId: "soundTravelsThroughMaterials",
         question: "Which investigation would show that sound travels through solids?",
-
+        stage: "recognise",
         options: [
             "Listening through a table while someone taps it",
             "Looking at a torch",
@@ -328,7 +328,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-015",
         skillId: "soundTravelsThroughMaterials",
         question: "Which material below can carry sound?",
-
+        stage: "recognise",
         options: [
             "Metal",
             "Only air",
@@ -350,7 +350,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-016",
         skillId: "soundTravelsThroughMaterials",
         question: "What happens to sound vibrations as they travel farther from the source?",
-
+        stage: "recognise",
         options: [
             "They become weaker, so the sound is quieter.",
             "They always become higher-pitched.",
@@ -372,7 +372,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-017",
         skillId: "soundTravelsThroughMaterials",
         question: "Why can you hear a train through the railway tracks before it arrives?",
-
+        stage: "recognise",
         options: [
             "Sound travels through the metal rails.",
             "The rails glow.",
@@ -394,7 +394,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-018",
         skillId: "soundTravelsThroughMaterials",
         question: "Which statement correctly describes sound?",
-
+        stage: "recognise",
         options: [
             "Sound needs a material to travel through.",
             "Sound travels without any material.",
@@ -416,7 +416,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-019",
         skillId: "soundTravelsThroughMaterials",
         question: "Why is someone easier to hear when they are standing next to you than across a field?",
-
+        stage: "recognise",
         options: [
             "The sound has less distance to travel.",
             "Their voice changes pitch.",
@@ -438,7 +438,7 @@ export const soundTravelsThroughMaterials: SkillContent = {
         id: "sci-sound-materials-020",
         skillId: "soundTravelsThroughMaterials",
         question: "Which sentence best describes how sound travels?",
-
+        stage: "recognise",
         options: [
             "Sound travels as vibrations through solids, liquids and gases, becoming quieter as the distance from the source increases.",
             "Sound only travels through air.",

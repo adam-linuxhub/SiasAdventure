@@ -20,7 +20,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-001",
         skillId: "reflection",
         question: "Why can we see most objects?",
-
+        stage: "recognise",
         options: [
             "Light reflects from them into our eyes",
             "They make their own light",
@@ -41,7 +41,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-002",
         skillId: "reflection",
         question: "What happens when light hits a mirror?",
-
+        stage: "recognise",
         options: [
             "It reflects",
             "It disappears",
@@ -62,7 +62,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-003",
         skillId: "reflection",
         question: "Which object reflects light well?",
-
+        stage: "recognise",
         options: [
             "A mirror",
             "A sponge",
@@ -83,7 +83,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-004",
         skillId: "reflection",
         question: "Which surface reflects the most light?",
-
+        stage: "recognise",
         options: [
             "A shiny mirror",
             "A rough carpet",
@@ -104,7 +104,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-005",
         skillId: "reflection",
         question: "Can a book be seen because it reflects light?",
-
+        stage: "recognise",
         options: [
             "Yes",
             "No",
@@ -125,7 +125,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-006",
         skillId: "reflection",
         question: "Which object makes its own light?",
-
+        stage: "recognise",
         options: [
             "A candle",
             "A mirror",
@@ -146,7 +146,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-007",
         skillId: "reflection",
         question: "What do mirrors do?",
-
+        stage: "recognise",
         options: [
             "Reflect light",
             "Absorb all light",
@@ -167,7 +167,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-008",
         skillId: "reflection",
         question: "Which surface would reflect the least light?",
-
+        stage: "recognise",
         options: [
             "A dark, rough wall",
             "A shiny mirror",
@@ -188,7 +188,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-009",
         skillId: "reflection",
         question: "Why can you see yourself in a mirror?",
-
+        stage: "recognise",
         options: [
             "It reflects light from your body",
             "It makes a copy of you",
@@ -209,7 +209,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-010",
         skillId: "reflection",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Most objects reflect light.",
             "Most objects make their own light.",
@@ -230,7 +230,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-011",
         skillId: "reflection",
         question: "Why is it harder to see a black jumper at night than a white one?",
-
+        stage: "recognise",
         options: [
             "It reflects less light.",
             "It disappears.",
@@ -251,7 +251,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-012",
         skillId: "reflection",
         question: "Which material would make the best mirror?",
-
+        stage: "recognise",
         options: [
             "Smooth polished glass",
             "Cardboard",
@@ -272,7 +272,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-013",
         skillId: "reflection",
         question: "Why can you still see a tree even though it is not a light source?",
-
+        stage: "recognise",
         options: [
             "It reflects sunlight.",
             "It glows.",
@@ -293,7 +293,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-014",
         skillId: "reflection",
         question: "Which object reflects light the best?",
-
+        stage: "recognise",
         options: [
             "A shiny metal spoon",
             "A wool blanket",
@@ -314,7 +314,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-015",
         skillId: "reflection",
         question: "What must happen before you can see an object?",
-
+        stage: "recognise",
         options: [
             "Light must enter your eyes.",
             "The object must make sound.",
@@ -335,7 +335,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-016",
         skillId: "reflection",
         question: "Why are road signs often shiny?",
-
+        stage: "recognise",
         options: [
             "They reflect light from car headlights.",
             "They produce their own light.",
@@ -356,7 +356,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-017",
         skillId: "reflection",
         question: "Which statement about mirrors is correct?",
-
+        stage: "recognise",
         options: [
             "They reflect light into our eyes.",
             "They make sunlight.",
@@ -377,7 +377,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-018",
         skillId: "reflection",
         question: "Why is a shiny bicycle reflector useful?",
-
+        stage: "recognise",
         options: [
             "It reflects light from car headlights.",
             "It creates its own light.",
@@ -398,7 +398,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-019",
         skillId: "reflection",
         question: "Which surface would give the clearest reflection?",
-
+        stage: "recognise",
         options: [
             "A clean mirror",
             "A rough stone",
@@ -419,7 +419,7 @@ export const reflection: SkillContent = {
         id: "sci-reflection-020",
         skillId: "reflection",
         question: "Which sentence best explains reflection?",
-
+        stage: "recognise",
         options: [
             "Reflection happens when light bounces off a surface.",
             "Reflection happens when light disappears.",

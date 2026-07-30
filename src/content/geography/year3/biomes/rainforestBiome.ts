@@ -21,7 +21,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Where are tropical rainforests usually found?",
-
+        stage: "recognise",
         options: [
             "Near the equator",
             "Near the North Pole",
@@ -44,7 +44,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "What is the climate like in a tropical rainforest?",
-
+        stage: "recognise",
         options: [
             "Hot and wet",
             "Cold and dry",
@@ -67,7 +67,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Why do tropical rainforests have many different plants and animals?",
-
+        stage: "recognise",
         options: [
             "The warm, wet conditions support many living things",
             "Nothing can survive there",
@@ -90,7 +90,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "What does biodiversity mean?",
-
+        stage: "recognise",
         options: [
             "The variety of living things in an area",
             "The amount of rainfall",
@@ -113,7 +113,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "What is the canopy?",
-
+        stage: "recognise",
         options: [
             "The layer formed by the tops of rainforest trees",
             "The forest floor",
@@ -136,7 +136,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Which rainforest layer receives the most sunlight?",
-
+        stage: "recognise",
         options: [
             "The canopy",
             "The forest floor",
@@ -159,7 +159,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "What is the forest floor like?",
-
+        stage: "recognise",
         options: [
             "Dark because little sunlight reaches it",
             "Always covered in snow",
@@ -182,7 +182,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Why do rainforest trees grow very tall?",
-
+        stage: "recognise",
         options: [
             "They compete for sunlight",
             "They are made taller by people",
@@ -205,7 +205,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Which animal might live in a rainforest?",
-
+        stage: "recognise",
         options: [
             "Monkey",
             "Polar bear",
@@ -228,7 +228,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Why are rainforest plants important?",
-
+        stage: "recognise",
         options: [
             "They provide food and habitats for many species",
             "They stop all life",
@@ -251,7 +251,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "What is deforestation?",
-
+        stage: "recognise",
         options: [
             "The removal of large areas of forest",
             "Planting new trees",
@@ -274,7 +274,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Why are rainforests cut down?",
-
+        stage: "recognise",
         options: [
             "For activities such as farming and obtaining resources",
             "Because trees cannot grow",
@@ -297,7 +297,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Why are rainforests important for Earth?",
-
+        stage: "recognise",
         options: [
             "They support biodiversity and help regulate climate",
             "They have no effect",
@@ -320,7 +320,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "What is an indigenous community?",
-
+        stage: "recognise",
         options: [
             "A group of people who have lived in an area for a long time",
             "A type of plant",
@@ -343,7 +343,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Why are rainforest soils often thin?",
-
+        stage: "recognise",
         options: [
             "Heavy rainfall can wash nutrients away",
             "There is no rain",
@@ -366,7 +366,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "How do rainforest animals survive?",
-
+        stage: "recognise",
         options: [
             "They have adaptations suited to their environment",
             "They do not need habitats",
@@ -389,7 +389,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "What is a tropical rainforest ecosystem made up of?",
-
+        stage: "recognise",
         options: [
             "Plants, animals and their environment",
             "Only trees",
@@ -412,7 +412,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "How can people help protect rainforests?",
-
+        stage: "recognise",
         options: [
             "By conserving forests and reducing destruction",
             "By removing all trees",
@@ -435,7 +435,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Why are rainforests called 'rainforests'?",
-
+        stage: "recognise",
         options: [
             "Because they receive large amounts of rainfall",
             "Because they create all rain",
@@ -458,7 +458,7 @@ export const rainforestBiome: SkillContent = {
         skillId: "rainforestBiome",
         question:
             "Which sentence best describes a tropical rainforest?",
-
+        stage: "recognise",
         options: [
             "A warm, wet biome with many plants and animals",
             "A cold area with ice only",

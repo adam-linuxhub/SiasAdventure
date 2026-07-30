@@ -20,7 +20,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-001",
         skillId: "coasts",
         question: "What is a coast?",
-
+        stage: "recognise",
         options: [
             "The place where land meets the sea",
             "A large river",
@@ -42,7 +42,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-002",
         skillId: "coasts",
         question: "Which body of water is found next to a coast?",
-
+        stage: "recognise",
         options: [
             "The sea",
             "A volcano",
@@ -64,7 +64,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-003",
         skillId: "coasts",
         question: "Which of these is often found at the coast?",
-
+        stage: "recognise",
         options: [
             "A beach",
             "A glacier",
@@ -86,7 +86,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-004",
         skillId: "coasts",
         question: "What is a beach usually covered with?",
-
+        stage: "recognise",
         options: [
             "Sand or pebbles",
             "Snow",
@@ -108,7 +108,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-005",
         skillId: "coasts",
         question: "What is a cliff?",
-
+        stage: "recognise",
         options: [
             "A steep rock face",
             "A type of river",
@@ -130,7 +130,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-006",
         skillId: "coasts",
         question: "Which of these is a natural feature?",
-
+        stage: "recognise",
         options: [
             "Beach",
             "Pier",
@@ -152,7 +152,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-007",
         skillId: "coasts",
         question: "Which activity might people enjoy at the coast?",
-
+        stage: "recognise",
         options: [
             "Swimming",
             "Skiing",
@@ -174,7 +174,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-008",
         skillId: "coasts",
         question: "Which colour is the sea usually shown on a map?",
-
+        stage: "recognise",
         options: [
             "Blue",
             "Green",
@@ -196,7 +196,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-009",
         skillId: "coasts",
         question: "What does the sea do at the coast?",
-
+        stage: "recognise",
         options: [
             "Meets the land",
             "Flows uphill",
@@ -218,7 +218,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-010",
         skillId: "coasts",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Coasts are where land meets the sea.",
             "Every coast is covered in snow.",
@@ -240,7 +240,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-011",
         skillId: "coasts",
         question: "Why do many people visit the coast in summer?",
-
+        stage: "recognise",
         options: [
             "To enjoy beaches and the sea",
             "To harvest crops",
@@ -262,7 +262,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-012",
         skillId: "coasts",
         question: "Why are cliffs often found at the coast?",
-
+        stage: "recognise",
         options: [
             "The sea can wear away the land over time",
             "People build them every year",
@@ -284,7 +284,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-013",
         skillId: "coasts",
         question: "Why are coasts important for wildlife?",
-
+        stage: "recognise",
         options: [
             "Many plants and animals live there",
             "Nothing can live there",
@@ -306,7 +306,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-014",
         skillId: "coasts",
         question: "Which job might depend on the sea?",
-
+        stage: "recognise",
         options: [
             "Fisher",
             "Astronaut",
@@ -328,7 +328,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-015",
         skillId: "coasts",
         question: "Why are many towns built on the coast?",
-
+        stage: "recognise",
         options: [
             "People use the sea for transport, fishing and tourism",
             "The sea grows crops",
@@ -350,7 +350,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-016",
         skillId: "coasts",
         question: "What shapes a coastline over many years?",
-
+        stage: "recognise",
         options: [
             "Waves",
             "Traffic",
@@ -372,7 +372,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-017",
         skillId: "coasts",
         question: "Which natural feature is most likely to be found beside the sea?",
-
+        stage: "recognise",
         options: [
             "Sand dunes",
             "Volcano",
@@ -394,7 +394,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-018",
         skillId: "coasts",
         question: "Why are beaches popular places to visit?",
-
+        stage: "recognise",
         options: [
             "People enjoy relaxing and playing by the sea",
             "They are always covered in snow",
@@ -416,7 +416,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-019",
         skillId: "coasts",
         question: "Which feature is a natural part of many coastlines?",
-
+        stage: "recognise",
         options: [
             "Cliffs",
             "Motorway",
@@ -438,7 +438,7 @@ export const coasts: SkillContent = {
         id: "geo-coasts-020",
         skillId: "coasts",
         question: "Which sentence best describes a coast?",
-
+        stage: "recognise",
         options: [
             "A natural place where land meets the sea, often with beaches or cliffs.",
             "A large mountain range.",

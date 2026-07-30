@@ -21,7 +21,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "Who were the Anglo-Saxons?",
-
+        stage: "recognise",
         options: [
             "Groups of people who came to Britain from northern Europe",
             "A Roman army",
@@ -44,7 +44,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "When did the Anglo-Saxons begin settling in Britain?",
-
+        stage: "recognise",
         options: [
             "After the Romans left Britain",
             "Before the Romans arrived",
@@ -67,7 +67,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "Why did the Romans leave Britain?",
-
+        stage: "recognise",
         options: [
             "They needed to defend other parts of their empire",
             "They discovered America",
@@ -90,7 +90,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "Where did many Anglo-Saxons come from?",
-
+        stage: "recognise",
         options: [
             "Northern Europe",
             "South America",
@@ -113,7 +113,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "Why did Anglo-Saxons come to Britain?",
-
+        stage: "recognise",
         options: [
             "For land and opportunities to settle",
             "To build Roman roads",
@@ -136,7 +136,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "What period came after Roman Britain?",
-
+        stage: "recognise",
         options: [
             "The Anglo-Saxon period",
             "The Stone Age",
@@ -159,7 +159,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "What type of people were the Anglo-Saxons?",
-
+        stage: "recognise",
         options: [
             "Farmers, warriors and settlers",
             "Only kings",
@@ -182,7 +182,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "What did Anglo-Saxons build where they settled?",
-
+        stage: "recognise",
         options: [
             "Villages and homes",
             "Pyramids",
@@ -205,7 +205,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "What language did Anglo-Saxons speak?",
-
+        stage: "recognise",
         options: [
             "Old English",
             "Latin only",
@@ -228,7 +228,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "What happened to Britain after the Romans left?",
-
+        stage: "recognise",
         options: [
             "New groups such as the Anglo-Saxons settled there",
             "Nobody lived there",
@@ -251,7 +251,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "Which groups were part of the Anglo-Saxon settlers?",
-
+        stage: "recognise",
         options: [
             "Angles, Saxons and Jutes",
             "Romans, Vikings and Normans",
@@ -274,7 +274,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "Why do historians study Anglo-Saxon evidence?",
-
+        stage: "recognise",
         options: [
             "To understand how people lived in the past",
             "To predict the future",
@@ -297,7 +297,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "What is migration?",
-
+        stage: "recognise",
         options: [
             "Moving from one place to another",
             "Building a house",
@@ -320,7 +320,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "Why was land important to Anglo-Saxon settlers?",
-
+        stage: "recognise",
         options: [
             "They needed places to farm and build homes",
             "They wanted to build pyramids",
@@ -343,7 +343,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "Which evidence can tell us about Anglo-Saxons?",
-
+        stage: "recognise",
         options: [
             "Artefacts, buildings and written records",
             "Modern computers",
@@ -366,7 +366,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "What is a settler?",
-
+        stage: "recognise",
         options: [
             "Someone who moves to a new place to live",
             "Someone who studies history",
@@ -389,7 +389,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "How did Anglo-Saxon settlements often begin?",
-
+        stage: "recognise",
         options: [
             "With small villages and farms",
             "With large skyscrapers",
@@ -412,7 +412,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "What changed when the Anglo-Saxons settled in Britain?",
-
+        stage: "recognise",
         options: [
             "Language, culture and settlements changed",
             "Nothing changed",
@@ -435,7 +435,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "Why is the Anglo-Saxon period important?",
-
+        stage: "recognise",
         options: [
             "It helped shape British language and culture",
             "It had no impact",
@@ -458,7 +458,7 @@ export const angloSaxonArrival: SkillContent = {
         skillId: "angloSaxonArrival",
         question:
             "Which sentence best describes the arrival of the Anglo-Saxons?",
-
+        stage: "recognise",
         options: [
             "Groups from northern Europe settled in Britain after Roman rule ended",
             "Romans arrived after the Anglo-Saxons",

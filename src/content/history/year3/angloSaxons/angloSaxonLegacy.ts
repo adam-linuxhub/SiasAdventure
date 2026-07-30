@@ -21,7 +21,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "What does 'legacy' mean?",
-
+        stage: "recognise",
         options: [
             "Something from the past that still affects us today",
             "Something that will happen tomorrow",
@@ -44,7 +44,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "What language did the Anglo-Saxons help develop?",
-
+        stage: "recognise",
         options: [
             "English",
             "French",
@@ -67,7 +67,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Why are some English place names linked to the Anglo-Saxons?",
-
+        stage: "recognise",
         options: [
             "They named many settlements",
             "They built modern cities",
@@ -90,7 +90,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Which ending in a place name can come from Anglo-Saxon words?",
-
+        stage: "recognise",
         options: [
             "-ham",
             "-city",
@@ -113,7 +113,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Why do historians study Anglo-Saxon artefacts?",
-
+        stage: "recognise",
         options: [
             "To learn about how people lived in the past",
             "To predict the future",
@@ -136,7 +136,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "What did Anglo-Saxons contribute to British culture?",
-
+        stage: "recognise",
         options: [
             "Language, traditions and place names",
             "Modern computers",
@@ -159,7 +159,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "What evidence helps historians understand Anglo-Saxon life?",
-
+        stage: "recognise",
         options: [
             "Buildings, objects and writings",
             "Modern films only",
@@ -182,7 +182,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "How did Anglo-Saxon settlements influence Britain?",
-
+        stage: "recognise",
         options: [
             "Some became towns and villages that still exist today",
             "They disappeared without evidence",
@@ -205,7 +205,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Why are old English words important?",
-
+        stage: "recognise",
         options: [
             "They show how the English language developed",
             "They replaced all languages",
@@ -228,7 +228,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Which statement about Anglo-Saxon influence is true?",
-
+        stage: "recognise",
         options: [
             "Their language and culture still influence Britain today",
             "They had no impact",
@@ -251,7 +251,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Why do place names help historians?",
-
+        stage: "recognise",
         options: [
             "They give clues about people who lived there",
             "They show future events",
@@ -274,7 +274,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "What did monasteries preserve?",
-
+        stage: "recognise",
         options: [
             "Books and written knowledge",
             "Cars",
@@ -297,7 +297,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Why is Old English important?",
-
+        stage: "recognise",
         options: [
             "It helped form the English language used today",
             "It was a Roman weapon",
@@ -320,7 +320,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "What can coins and jewellery tell historians?",
-
+        stage: "recognise",
         options: [
             "Information about people and their lives",
             "Future inventions",
@@ -343,7 +343,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Why is the Anglo-Saxon period important?",
-
+        stage: "recognise",
         options: [
             "It helped shape England before the Norman invasion",
             "It happened recently",
@@ -366,7 +366,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "What is one way Anglo-Saxons influenced Britain?",
-
+        stage: "recognise",
         options: [
             "Through language and settlements",
             "Through modern technology",
@@ -389,7 +389,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Why do historians use many different sources?",
-
+        stage: "recognise",
         options: [
             "To get a clearer picture of the past",
             "To avoid evidence",
@@ -412,7 +412,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Which is an example of Anglo-Saxon influence today?",
-
+        stage: "recognise",
         options: [
             "Words and place names",
             "Modern computers",
@@ -435,7 +435,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "What does history help us understand?",
-
+        stage: "recognise",
         options: [
             "How people and societies changed over time",
             "Only the future",
@@ -458,7 +458,7 @@ export const angloSaxonLegacy: SkillContent = {
         skillId: "angloSaxonLegacy",
         question:
             "Which sentence best describes the Anglo-Saxon legacy?",
-
+        stage: "recognise",
         options: [
             "Anglo-Saxons influenced Britain's language, culture and settlements",
             "Anglo-Saxons had no influence",

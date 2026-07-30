@@ -20,7 +20,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-001",
         skillId: "homophones",
         question: "Which word means 'in that place'?",
-
+        stage: "recognise",
         options: [
             "there",
             "their",
@@ -42,7 +42,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-002",
         skillId: "homophones",
         question: "Which word shows that something belongs to people?",
-
+        stage: "recognise",
         options: [
             "their",
             "there",
@@ -64,7 +64,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-003",
         skillId: "homophones",
         question: "Which word is short for 'they are'?",
-
+        stage: "recognise",
         options: [
             "they're",
             "their",
@@ -86,7 +86,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-004",
         skillId: "homophones",
         question: "Which word means the number 2?",
-
+        stage: "recognise",
         options: [
             "two",
             "to",
@@ -108,7 +108,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-005",
         skillId: "homophones",
         question: "Which word means 'also'?",
-
+        stage: "recognise",
         options: [
             "too",
             "to",
@@ -130,7 +130,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-006",
         skillId: "homophones",
         question: "Which word is used before a place or action?",
-
+        stage: "recognise",
         options: [
             "to",
             "too",
@@ -152,7 +152,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-007",
         skillId: "homophones",
         question: "Which word means 'listen'?",
-
+        stage: "recognise",
         options: [
             "hear",
             "here",
@@ -174,7 +174,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-008",
         skillId: "homophones",
         question: "Which word means 'in this place'?",
-
+        stage: "recognise",
         options: [
             "here",
             "hear",
@@ -196,7 +196,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-009",
         skillId: "homophones",
         question: "Which word is an insect that makes honey?",
-
+        stage: "recognise",
         options: [
             "bee",
             "be",
@@ -218,7 +218,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-010",
         skillId: "homophones",
         question: "Which word means 'to exist'?",
-
+        stage: "recognise",
         options: [
             "be",
             "bee",
@@ -240,7 +240,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-011",
         skillId: "homophones",
         question: "Complete the sentence: 'Please put your books over ______.'",
-
+        stage: "recognise",
         options: [
             "there",
             "their",
@@ -262,7 +262,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-012",
         skillId: "homophones",
         question: "Complete the sentence: '______ going to the park later.'",
-
+        stage: "recognise",
         options: [
             "They're",
             "Their",
@@ -284,7 +284,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-013",
         skillId: "homophones",
         question: "Complete the sentence: 'The children packed ______ lunches.'",
-
+        stage: "recognise",
         options: [
             "their",
             "there",
@@ -306,7 +306,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-014",
         skillId: "homophones",
         question: "Complete the sentence: 'I have ______ apples.'",
-
+        stage: "recognise",
         options: [
             "two",
             "to",
@@ -328,7 +328,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-015",
         skillId: "homophones",
         question: "Complete the sentence: 'Can I come ______?'",
-
+        stage: "recognise",
         options: [
             "too",
             "to",
@@ -350,7 +350,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-016",
         skillId: "homophones",
         question: "Complete the sentence: 'Let's go ______ the playground.'",
-
+        stage: "recognise",
         options: [
             "to",
             "too",
@@ -372,7 +372,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-017",
         skillId: "homophones",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "I can hear the birds singing.",
             "I can here the birds singing.",
@@ -394,7 +394,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-018",
         skillId: "homophones",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "Please come here.",
             "Please come hear.",
@@ -416,7 +416,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-019",
         skillId: "homophones",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "We went to see the sea.",
             "We went too see the sea.",
@@ -438,7 +438,7 @@ export const homophones: SkillContent = {
         id: "eng-homo-020",
         skillId: "homophones",
         question: "Which sentence uses all the homophones correctly?",
-
+        stage: "recognise",
         options: [
             "They're taking their dog over there.",
             "Their taking they're dog over there.",

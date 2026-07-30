@@ -21,7 +21,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "What is a desert?",
-
+        stage: "recognise",
         options: [
             "A very dry area with little rainfall",
             "A place covered completely by forests",
@@ -44,7 +44,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "What is the climate like in hot deserts?",
-
+        stage: "recognise",
         options: [
             "Very dry with high temperatures",
             "Cold and snowy all year",
@@ -67,7 +67,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "Which famous desert is in Africa?",
-
+        stage: "recognise",
         options: [
             "The Sahara Desert",
             "The Amazon Rainforest",
@@ -90,7 +90,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "Why do deserts receive little rainfall?",
-
+        stage: "recognise",
         options: [
             "Air conditions make it difficult for clouds to produce rain",
             "There are no clouds anywhere",
@@ -113,7 +113,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "What is an oasis?",
-
+        stage: "recognise",
         options: [
             "A place in a desert where water is found",
             "A desert storm",
@@ -136,7 +136,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "Why are oases important?",
-
+        stage: "recognise",
         options: [
             "They provide water for plants, animals and people",
             "They remove all water",
@@ -159,7 +159,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "How do desert plants survive?",
-
+        stage: "recognise",
         options: [
             "They have adaptations to store or save water",
             "They need constant rain",
@@ -182,7 +182,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "How do some cacti survive in deserts?",
-
+        stage: "recognise",
         options: [
             "They store water in their stems",
             "They need lots of rainfall",
@@ -205,7 +205,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "How do desert animals survive?",
-
+        stage: "recognise",
         options: [
             "They have adaptations for heat and limited water",
             "They do not need food",
@@ -228,7 +228,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "Why are camels suited to desert life?",
-
+        stage: "recognise",
         options: [
             "They can survive with little water and cope with heat",
             "They need cold weather",
@@ -251,7 +251,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "What is a sand dune?",
-
+        stage: "recognise",
         options: [
             "A hill of sand shaped by wind",
             "A mountain made of rock",
@@ -274,7 +274,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "What causes sand dunes to move?",
-
+        stage: "recognise",
         options: [
             "Wind",
             "Rain only",
@@ -297,7 +297,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "Why is farming difficult in deserts?",
-
+        stage: "recognise",
         options: [
             "There is little water available",
             "There is too much rain",
@@ -320,7 +320,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "How do some people live in deserts?",
-
+        stage: "recognise",
         options: [
             "By adapting to the environment and using available resources",
             "By ignoring the climate",
@@ -343,7 +343,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "What resource is especially important in deserts?",
-
+        stage: "recognise",
         options: [
             "Water",
             "Snow",
@@ -366,7 +366,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "Why do deserts have fewer plants than rainforests?",
-
+        stage: "recognise",
         options: [
             "They receive much less rainfall",
             "They have too many rivers",
@@ -389,7 +389,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "What is desertification?",
-
+        stage: "recognise",
         options: [
             "Land becoming more like a desert",
             "A desert turning into a rainforest",
@@ -412,7 +412,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "Why should desert environments be protected?",
-
+        stage: "recognise",
         options: [
             "They contain unique plants, animals and ecosystems",
             "They have no life",
@@ -435,7 +435,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "Which animal is adapted to desert conditions?",
-
+        stage: "recognise",
         options: [
             "Camel",
             "Penguin",
@@ -458,7 +458,7 @@ export const desertBiome: SkillContent = {
         skillId: "desertBiome",
         question:
             "Which sentence best describes a desert biome?",
-
+        stage: "recognise",
         options: [
             "A dry environment where plants and animals have special adaptations",
             "A wet forest with many trees",

@@ -21,7 +21,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Read the sentences:\n\n1. Mia put on her coat.\n2. Mia left the house.\n3. Mia picked up her school bag.\n\nWhat happened first?",
-
+        stage: "recognise",
         options: [
             "Mia put on her coat.",
             "Mia left the house.",
@@ -44,7 +44,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Read the sentences:\n\nFirst, Tom planted a seed.\nNext, he watered it.\nFinally, the plant grew.\n\nWhat happened second?",
-
+        stage: "recognise",
         options: [
             "Tom watered the seed.",
             "The plant grew.",
@@ -67,7 +67,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Which word often tells us something happened at the beginning?",
-
+        stage: "recognise",
         options: [
             "First",
             "Finally",
@@ -90,7 +90,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Which word often tells us something happened at the end?",
-
+        stage: "recognise",
         options: [
             "Finally",
             "Before",
@@ -113,7 +113,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Read the sentences:\n\n1. Jake ate his breakfast.\n2. Jake woke up.\n3. Jake brushed his teeth.\n\nWhich order is correct?",
-
+        stage: "recognise",
         options: [
             "Wake up → eat breakfast → brush teeth",
             "Brush teeth → wake up → eat breakfast",
@@ -136,7 +136,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "What does sequencing mean?",
-
+        stage: "recognise",
         options: [
             "Putting events in the correct order",
             "Finding words that rhyme",
@@ -159,7 +159,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Read the sentences:\n\nFirst, Ella mixed the ingredients.\nThen, she baked the cake.\nFinally, she ate a slice.\n\nWhat happened last?",
-
+        stage: "recognise",
         options: [
             "Ella ate a slice.",
             "Ella mixed the ingredients.",
@@ -182,7 +182,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Which word could replace 'then' in a sequence?",
-
+        stage: "recognise",
         options: [
             "Next",
             "Yesterday",
@@ -205,7 +205,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Read the sentences:\n\n1. The alarm rang.\n2. Sam got out of bed.\n3. Sam went downstairs.\n\nWhat happened last?",
-
+        stage: "recognise",
         options: [
             "Sam went downstairs.",
             "The alarm rang.",
@@ -228,7 +228,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Why is sequencing important when reading?",
-
+        stage: "recognise",
         options: [
             "It helps us understand what happened and when.",
             "It makes every story shorter.",
@@ -251,7 +251,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Read the passage:\n\nFirst, Lily filled a bowl with flour. Next, she added eggs. Then, she mixed everything together.\n\nWhat did Lily do after adding eggs?",
-
+        stage: "recognise",
         options: [
             "She mixed everything together.",
             "She filled the bowl with flour.",
@@ -274,7 +274,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Put these events in order:\n\nA. The seed became a plant.\nB. The seed was planted.\nC. The seed was watered.",
-
+        stage: "recognise",
         options: [
             "B → C → A",
             "A → B → C",
@@ -297,7 +297,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Read the passage:\n\nAfter school, Noah finished his homework. Later, he played football.\n\nWhat did Noah do first?",
-
+        stage: "recognise",
         options: [
             "Finished his homework.",
             "Played football.",
@@ -320,7 +320,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Which word shows something happened before something else?",
-
+        stage: "recognise",
         options: [
             "Before",
             "Finally",
@@ -343,7 +343,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Read the passage:\n\nThe fox woke up. It searched for food. It returned to its den.\n\nWhat happened in the middle?",
-
+        stage: "recognise",
         options: [
             "The fox searched for food.",
             "The fox woke up.",
@@ -366,7 +366,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Which sequence word means the same as 'after that'?",
-
+        stage: "recognise",
         options: [
             "Then",
             "First",
@@ -389,7 +389,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Read the passage:\n\nFirst, the children built a den. Next, they decorated it. Finally, they played inside it.\n\nWhat happened before decorating the den?",
-
+        stage: "recognise",
         options: [
             "They built the den.",
             "They played inside it.",
@@ -412,7 +412,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Why do authors use words like first, next and finally?",
-
+        stage: "recognise",
         options: [
             "To show the order of events",
             "To make words rhyme",
@@ -435,7 +435,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "Read the passage:\n\nMum cooked dinner. Before eating, the family washed their hands.\n\nWhat happened first?",
-
+        stage: "recognise",
         options: [
             "Mum cooked dinner.",
             "The family ate dinner.",
@@ -458,7 +458,7 @@ export const sequencing: SkillContent = {
         skillId: "sequencing",
         question:
             "When sequencing a story, what should you look for?",
-
+        stage: "recognise",
         options: [
             "Clues that show when events happen",
             "Only the longest sentence",

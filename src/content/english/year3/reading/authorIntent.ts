@@ -21,7 +21,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "Why might an author write a text?",
-
+        stage: "recognise",
         options: [
             "To inform, entertain, persuade or explain",
             "To make every word longer",
@@ -44,7 +44,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A newspaper article explaining yesterday's weather was written to:",
-
+        stage: "recognise",
         options: [
             "Inform",
             "Entertain",
@@ -67,7 +67,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A funny story about a talking animal was probably written to:",
-
+        stage: "recognise",
         options: [
             "Entertain",
             "Persuade",
@@ -90,7 +90,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "An advert saying 'Buy this amazing toy today!' was written to:",
-
+        stage: "recognise",
         options: [
             "Persuade",
             "Inform",
@@ -113,7 +113,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A book explaining how volcanoes erupt was written to:",
-
+        stage: "recognise",
         options: [
             "Explain",
             "Entertain",
@@ -136,7 +136,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A recipe is usually written to:",
-
+        stage: "recognise",
         options: [
             "Give instructions",
             "Tell a joke",
@@ -159,7 +159,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A fairy tale about a princess and a dragon is mainly written to:",
-
+        stage: "recognise",
         options: [
             "Entertain",
             "Give scientific facts",
@@ -182,7 +182,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A leaflet explaining how to recycle is written to:",
-
+        stage: "recognise",
         options: [
             "Inform",
             "Entertain",
@@ -205,7 +205,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "Which words are clues that a text may be trying to persuade you?",
-
+        stage: "recognise",
         options: [
             "You should, best, amazing, must",
             "Once upon a time",
@@ -228,7 +228,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "Why is it useful to know an author's purpose?",
-
+        stage: "recognise",
         options: [
             "It helps you understand the text better",
             "It helps you count words",
@@ -251,7 +251,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A website explaining facts about dinosaurs is most likely written to:",
-
+        stage: "recognise",
         options: [
             "Inform",
             "Entertain only",
@@ -274,7 +274,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A poster saying 'Join our clean-up day and help save the planet!' is written to:",
-
+        stage: "recognise",
         options: [
             "Persuade",
             "Explain a science experiment",
@@ -297,7 +297,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A science book explaining the water cycle is written mainly to:",
-
+        stage: "recognise",
         options: [
             "Explain",
             "Entertain",
@@ -320,7 +320,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A joke book is mainly written to:",
-
+        stage: "recognise",
         options: [
             "Entertain",
             "Inform",
@@ -343,7 +343,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "Which feature suggests a text is meant to inform?",
-
+        stage: "recognise",
         options: [
             "Facts and information",
             "Funny characters",
@@ -366,7 +366,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A travel brochure saying 'Visit the beautiful beaches of Spain!' is trying to:",
-
+        stage: "recognise",
         options: [
             "Persuade people to visit",
             "Explain how beaches form",
@@ -389,7 +389,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A set of instructions for building a model plane is written to:",
-
+        stage: "recognise",
         options: [
             "Explain how to do something",
             "Tell a joke",
@@ -412,7 +412,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A character in a story feeling nervous before a race helps the author to:",
-
+        stage: "recognise",
         options: [
             "Entertain and engage the reader",
             "Give a set of instructions",
@@ -435,7 +435,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "Which question helps you find an author's purpose?",
-
+        stage: "recognise",
         options: [
             "Why did the author write this text?",
             "How many letters are in the title?",
@@ -458,7 +458,7 @@ export const authorIntent: SkillContent = {
         skillId: "authorIntent",
         question:
             "A good reader should think about:",
-
+        stage: "recognise",
         options: [
             "The author's reason for writing",
             "Only the pictures",

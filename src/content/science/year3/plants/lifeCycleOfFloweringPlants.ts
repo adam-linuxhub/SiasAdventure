@@ -20,7 +20,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-001",
         skillId: "life-cycle-of-flowering-plants",
         question: "What does a seed grow into?",
-
+        stage: "recognise",
         options: [
             "A new plant",
             "A rock",
@@ -47,7 +47,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-002",
         skillId: "life-cycle-of-flowering-plants",
         question: "What is the first stage in the life cycle of a flowering plant?",
-
+        stage: "recognise",
         options: [
             "Seed",
             "Flower",
@@ -73,7 +73,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-003",
         skillId: "life-cycle-of-flowering-plants",
         question: "What is it called when a seed begins to grow?",
-
+        stage: "recognise",
         options: [
             "Germination",
             "Pollination",
@@ -99,7 +99,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-004",
         skillId: "life-cycle-of-flowering-plants",
         question: "What usually grows out of a seed first?",
-
+        stage: "recognise",
         options: [
             "Roots",
             "Flowers",
@@ -126,7 +126,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-005",
         skillId: "life-cycle-of-flowering-plants",
         question: "After a seedling grows, what does it become?",
-
+        stage: "recognise",
         options: [
             "An adult plant",
             "A rock",
@@ -152,7 +152,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-006",
         skillId: "life-cycle-of-flowering-plants",
         question: "What part of the adult plant helps it reproduce?",
-
+        stage: "recognise",
         options: [
             "Flower",
             "Root",
@@ -178,7 +178,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-007",
         skillId: "life-cycle-of-flowering-plants",
         question: "What is made after successful pollination and fertilisation?",
-
+        stage: "recognise",
         options: [
             "Seeds",
             "Roots",
@@ -204,7 +204,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-008",
         skillId: "life-cycle-of-flowering-plants",
         question: "What can happen to seeds after they are made?",
-
+        stage: "recognise",
         options: [
             "They can grow into new plants.",
             "They turn into rocks.",
@@ -230,7 +230,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-009",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which stage comes after germination?",
-
+        stage: "recognise",
         options: [
             "Seedling",
             "Seed",
@@ -256,7 +256,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-010",
         skillId: "life-cycle-of-flowering-plants",
         question: "What is the correct order of the plant life cycle?",
-
+        stage: "recognise",
         options: [
             "Seed → Seedling → Adult plant → Flower → Seeds",
             "Flower → Seed → Leaf → Root",
@@ -281,8 +281,8 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-011",
             skillId: "life-cycle-of-flowering-plants",
             question: "What does a seed need before it can begin to grow?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "The right conditions",
             "Snow",
             "Plastic",
@@ -307,7 +307,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-012",
         skillId: "life-cycle-of-flowering-plants",
         question: "What is a young plant called just after germination?",
-
+        stage: "recognise",
         options: [
             "A seedling",
             "A flower",
@@ -333,7 +333,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-013",
         skillId: "life-cycle-of-flowering-plants",
         question: "What grows before flowers appear on a flowering plant?",
-
+        stage: "recognise",
         options: [
             "Leaves and stems",
             "Fruit",
@@ -359,7 +359,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-014",
         skillId: "life-cycle-of-flowering-plants",
         question: "Why does a flowering plant produce flowers?",
-
+        stage: "recognise",
         options: [
             "To reproduce and make seeds",
             "To absorb water",
@@ -385,7 +385,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-015",
         skillId: "life-cycle-of-flowering-plants",
         question: "What develops from the flower after successful pollination and fertilisation?",
-
+        stage: "recognise",
         options: [
             "Seeds",
             "Roots",
@@ -411,7 +411,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-016",
         skillId: "life-cycle-of-flowering-plants",
         question: "What can happen after seeds are spread away from the parent plant?",
-
+        stage: "recognise",
         options: [
             "They can grow into new plants.",
             "They become flowers straight away.",
@@ -437,7 +437,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-017",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which stage comes just before a flowering plant produces seeds?",
-
+        stage: "recognise",
         options: [
             "Flowering",
             "Seed",
@@ -464,7 +464,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-018",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which stage comes after a seedling?",
-
+        stage: "recognise",
         options: [
             "Adult plant",
             "Seed",
@@ -490,7 +490,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-019",
         skillId: "life-cycle-of-flowering-plants",
         question: "What is the purpose of seeds in the plant life cycle?",
-
+        stage: "recognise",
         options: [
             "To grow into new plants",
             "To absorb sunlight",
@@ -516,7 +516,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-020",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which sequence is correct?",
-
+        stage: "recognise",
         options: [
             "Seed → Germination → Seedling → Adult plant",
             "Flower → Seed → Root → Seedling",
@@ -542,7 +542,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-021",
         skillId: "life-cycle-of-flowering-plants",
         question: "Ella plants a seed and waters it. A small root grows first. What stage has begun?",
-
+        stage: "recognise",
         options: [
             "Germination",
             "Pollination",
@@ -568,7 +568,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-022",
         skillId: "life-cycle-of-flowering-plants",
         question: "Why is it important for plants to make seeds?",
-
+        stage: "recognise",
         options: [
             "So new plants can grow",
             "So roots grow faster",
@@ -595,7 +595,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-023",
         skillId: "life-cycle-of-flowering-plants",
         question: "What happens after an adult flowering plant produces seeds?",
-
+        stage: "recognise",
         options: [
             "The seeds can be dispersed and grow into new plants.",
             "The plant becomes a seedling.",
@@ -621,7 +621,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-024",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which stage happens only after a plant has grown into an adult?",
-
+        stage: "recognise",
         options: [
             "Flowering",
             "Germination",
@@ -647,7 +647,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-025",
         skillId: "life-cycle-of-flowering-plants",
         question: "Why is the life cycle called a cycle?",
-
+        stage: "recognise",
         options: [
             "Because it repeats again and again.",
             "Because plants grow in circles.",
@@ -672,8 +672,8 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-026",
             skillId: "life-cycle-of-flowering-plants",
             question: "What usually happens after a seed germinates?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "It grows into a seedling.",
             "It becomes a flower.",
             "It produces fruit immediately.",
@@ -699,7 +699,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-027",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which part of the life cycle allows a plant to produce new seeds?",
-
+        stage: "recognise",
         options: [
             "Flowering",
             "Root growth",
@@ -726,7 +726,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-028",
         skillId: "life-cycle-of-flowering-plants",
         question: "What is the main purpose of germination?",
-
+        stage: "recognise",
         options: [
             "To start the growth of a new plant",
             "To produce flowers",
@@ -752,7 +752,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-029",
         skillId: "life-cycle-of-flowering-plants",
         question: "A seed grows into a seedling. What does the seedling eventually become?",
-
+        stage: "recognise",
         options: [
             "An adult flowering plant",
             "A fruit",
@@ -779,7 +779,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-030",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which stage completes the life cycle before it begins again?",
-
+        stage: "recognise",
         options: [
             "New seeds are produced.",
             "The leaves fall off.",
@@ -806,7 +806,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-031",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which stage happens immediately before seeds are produced?",
-
+        stage: "recognise",
         options: [
             "Flowering",
             "Germination",
@@ -832,7 +832,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-032",
         skillId: "life-cycle-of-flowering-plants",
         question: "Why is seed dispersal useful for plants?",
-
+        stage: "recognise",
         options: [
             "It helps new plants grow away from the parent plant.",
             "It helps leaves make food.",
@@ -858,7 +858,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-033",
         skillId: "life-cycle-of-flowering-plants",
         question: "A flower produces seeds. What is the next stage in the life cycle?",
-
+        stage: "recognise",
         options: [
             "The seeds are dispersed and may germinate.",
             "The plant becomes a seedling.",
@@ -885,7 +885,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-034",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which sequence is correct?",
-
+        stage: "recognise",
         options: [
             "Seed → Germination → Seedling → Adult plant → Flower → Seeds",
             "Seed → Flower → Germination → Adult plant",
@@ -911,7 +911,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-035",
         skillId: "life-cycle-of-flowering-plants",
         question: "Why do flowering plants reproduce?",
-
+        stage: "recognise",
         options: [
             "To produce new plants of the same kind",
             "To make bigger leaves",
@@ -937,7 +937,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-036",
         skillId: "life-cycle-of-flowering-plants",
         question: "What is the job of a seed?",
-
+        stage: "recognise",
         options: [
             "To grow into a new plant",
             "To make food",
@@ -963,7 +963,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-037",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which stage lasts the longest in most flowering plants?",
-
+        stage: "recognise",
         options: [
             "Growing into an adult plant",
             "Being a seed",
@@ -989,7 +989,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-038",
         skillId: "life-cycle-of-flowering-plants",
         question: "A seed lands in dry soil with no water. What is most likely to happen?",
-
+        stage: "recognise",
         options: [
             "It will not germinate.",
             "It will flower immediately.",
@@ -1015,7 +1015,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-039",
         skillId: "life-cycle-of-flowering-plants",
         question: "What is the purpose of the adult plant stage?",
-
+        stage: "recognise",
         options: [
             "To grow, flower and produce seeds",
             "To become a seed again",
@@ -1041,7 +1041,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-040",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which statement best describes the life cycle of a flowering plant?",
-
+        stage: "recognise",
         options: [
             "It repeats as each new seed grows into another plant.",
             "It only happens once for all plants.",
@@ -1066,8 +1066,8 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-041",
             skillId: "life-cycle-of-flowering-plants",
             question: "A plant has produced seeds. What must happen before one of the seeds grows into a new plant?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "The seed must germinate.",
             "The seed must produce flowers.",
             "The seed must grow fruit.",
@@ -1093,7 +1093,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-042",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which stage happens immediately after an adult plant flowers?",
-
+        stage: "recognise",
         options: [
             "Seeds develop.",
             "The plant becomes a seedling.",
@@ -1120,7 +1120,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-043",
         skillId: "life-cycle-of-flowering-plants",
         question: "Why is seed dispersal important in a plant's life cycle?",
-
+        stage: "recognise",
         options: [
             "It gives seeds a chance to grow in new places.",
             "It helps flowers make food.",
@@ -1146,7 +1146,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-044",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which sequence correctly completes the life cycle?",
-
+        stage: "recognise",
         options: [
             "Adult plant → Flower → Seeds → Germination → Seedling",
             "Adult plant → Seedling → Flower → Seed",
@@ -1172,7 +1172,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-045",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which statement best explains why flowering plants make seeds every year?",
-
+        stage: "recognise",
         options: [
             "To produce the next generation of plants",
             "To make more leaves",
@@ -1199,7 +1199,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-046",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which stage comes directly before germination?",
-
+        stage: "recognise",
         options: [
             "A seed",
             "A flower",
@@ -1226,7 +1226,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-047",
         skillId: "life-cycle-of-flowering-plants",
         question: "A seed has enough water and warmth but is damaged. What is most likely?",
-
+        stage: "recognise",
         options: [
             "It may not grow into a healthy plant.",
             "It will become a flower immediately.",
@@ -1252,7 +1252,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-048",
         skillId: "life-cycle-of-flowering-plants",
         question: "What is the main purpose of the flowering stage?",
-
+        stage: "recognise",
         options: [
             "To allow the plant to reproduce by making seeds",
             "To absorb water from the soil",
@@ -1279,7 +1279,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-049",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which statement best describes the relationship between seeds and adult plants?",
-
+        stage: "recognise",
         options: [
             "Seeds grow into adult plants, which produce more seeds.",
             "Adult plants grow into seeds.",
@@ -1306,7 +1306,7 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
         id: "sci-plant-life-050",
         skillId: "life-cycle-of-flowering-plants",
         question: "Which summary best describes the life cycle of a flowering plant?",
-
+        stage: "recognise",
         options: [
             "A seed germinates into a seedling, grows into an adult plant, produces flowers, makes seeds and the cycle begins again.",
             "A flower grows into a root, then a leaf, then a seed.",

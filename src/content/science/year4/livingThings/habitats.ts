@@ -20,7 +20,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-001",
         skillId: "habitats",
         question: "What is a habitat?",
-
+        stage: "recognise",
         options: [
             "The place where a living thing lives",
             "A type of weather",
@@ -42,7 +42,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-002",
         skillId: "habitats",
         question: "Which animal is well suited to living in the sea?",
-
+        stage: "recognise",
         options: [
             "Dolphin",
             "Camel",
@@ -64,7 +64,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-003",
         skillId: "habitats",
         question: "Which habitat would you find a camel in?",
-
+        stage: "recognise",
         options: [
             "Desert",
             "Pond",
@@ -86,7 +86,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-004",
         skillId: "habitats",
         question: "Where does a frog usually live?",
-
+        stage: "recognise",
         options: [
             "Pond",
             "Desert",
@@ -108,7 +108,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-005",
         skillId: "habitats",
         question: "Which plant is most likely to grow in a woodland?",
-
+        stage: "recognise",
         options: [
             "Oak tree",
             "Seaweed",
@@ -130,7 +130,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-006",
         skillId: "habitats",
         question: "Which habitat has lots of salt water?",
-
+        stage: "recognise",
         options: [
             "Ocean",
             "Forest",
@@ -152,7 +152,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-007",
         skillId: "habitats",
         question: "Which animal is suited to an Arctic habitat?",
-
+        stage: "recognise",
         options: [
             "Polar bear",
             "Kangaroo",
@@ -174,7 +174,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-008",
         skillId: "habitats",
         question: "Why do animals need habitats?",
-
+        stage: "recognise",
         options: [
             "To find food, water and shelter",
             "To change colour",
@@ -196,7 +196,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-009",
         skillId: "habitats",
         question: "Which habitat would you find fish living in?",
-
+        stage: "recognise",
         options: [
             "River",
             "Desert",
@@ -218,7 +218,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-010",
         skillId: "habitats",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Different living things live in different habitats.",
             "Every animal lives in the same habitat.",
@@ -240,7 +240,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-011",
         skillId: "habitats",
         question: "Why is a cactus suited to the desert?",
-
+        stage: "recognise",
         options: [
             "It stores water.",
             "It has large floating leaves.",
@@ -262,7 +262,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-012",
         skillId: "habitats",
         question: "Why do fish have gills?",
-
+        stage: "recognise",
         options: [
             "To breathe underwater",
             "To climb trees",
@@ -284,7 +284,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-013",
         skillId: "habitats",
         question: "A pond dries up. What is most likely to happen to the frogs living there?",
-
+        stage: "recognise",
         options: [
             "They may move to another suitable habitat.",
             "They become fish.",
@@ -306,7 +306,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-014",
         skillId: "habitats",
         question: "Which habitat would be best for an earthworm?",
-
+        stage: "recognise",
         options: [
             "Moist soil",
             "Ocean",
@@ -328,7 +328,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-015",
         skillId: "habitats",
         question: "Why do woodland animals often have brown or green colours?",
-
+        stage: "recognise",
         options: [
             "They help them blend into their surroundings.",
             "They help them swim.",
@@ -350,7 +350,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-016",
         skillId: "habitats",
         question: "What do all habitats provide?",
-
+        stage: "recognise",
         options: [
             "The things living things need to survive",
             "The same temperature",
@@ -372,7 +372,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-017",
         skillId: "habitats",
         question: "Why would a polar bear struggle to live in a hot desert?",
-
+        stage: "recognise",
         options: [
             "It is adapted for cold habitats.",
             "It cannot walk on sand.",
@@ -394,7 +394,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-018",
         skillId: "habitats",
         question: "Why do scientists study habitats?",
-
+        stage: "recognise",
         options: [
             "To understand how living things survive",
             "To make habitats bigger",
@@ -416,7 +416,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-019",
         skillId: "habitats",
         question: "Which pair is correctly matched?",
-
+        stage: "recognise",
         options: [
             "Camel — Desert",
             "Polar bear — Rainforest",
@@ -438,7 +438,7 @@ export const habitats: SkillContent = {
         id: "sci-habitats-020",
         skillId: "habitats",
         question: "Which sentence best describes a habitat?",
-
+        stage: "recognise",
         options: [
             "A habitat is a place that provides living things with what they need to survive.",
             "A habitat is any place with trees.",

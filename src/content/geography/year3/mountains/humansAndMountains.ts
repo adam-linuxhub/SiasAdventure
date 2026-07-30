@@ -21,7 +21,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Why do some people live in mountain areas?",
-
+        stage: "recognise",
         options: [
             "They can use the land for homes, farming and work",
             "Because mountains have no challenges",
@@ -44,7 +44,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Why can living in mountains be challenging?",
-
+        stage: "recognise",
         options: [
             "Steep slopes, cold weather and difficult transport",
             "There is no land at all",
@@ -67,7 +67,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "How do people travel in mountain areas?",
-
+        stage: "recognise",
         options: [
             "Using roads, paths and sometimes cable cars",
             "Only by swimming",
@@ -90,7 +90,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Why can building roads in mountains be difficult?",
-
+        stage: "recognise",
         options: [
             "The land is steep and uneven",
             "There are no rocks",
@@ -113,7 +113,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "What is mountain farming?",
-
+        stage: "recognise",
         options: [
             "Growing crops or keeping animals in mountain areas",
             "Building cities on mountains",
@@ -136,7 +136,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Why do farmers use terraces on mountain slopes?",
-
+        stage: "recognise",
         options: [
             "To create flatter areas for growing crops",
             "To make mountains taller",
@@ -159,7 +159,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Why do tourists visit mountains?",
-
+        stage: "recognise",
         options: [
             "For activities such as walking, climbing and skiing",
             "To make mountains disappear",
@@ -182,7 +182,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "What is tourism?",
-
+        stage: "recognise",
         options: [
             "People travelling to visit places",
             "Growing crops only",
@@ -205,7 +205,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "How can tourism help mountain communities?",
-
+        stage: "recognise",
         options: [
             "It can provide jobs and income",
             "It removes all wildlife",
@@ -228,7 +228,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "What is one problem caused by too many visitors?",
-
+        stage: "recognise",
         options: [
             "Damage to the environment",
             "More mountains forming",
@@ -251,7 +251,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Why should mountain environments be protected?",
-
+        stage: "recognise",
         options: [
             "To protect plants, animals and landscapes",
             "To remove habitats",
@@ -274,7 +274,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "How can people protect mountains?",
-
+        stage: "recognise",
         options: [
             "By reducing litter and caring for nature",
             "By leaving rubbish behind",
@@ -297,7 +297,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Why are mountain plants and animals special?",
-
+        stage: "recognise",
         options: [
             "Many are adapted to mountain conditions",
             "They cannot survive anywhere",
@@ -320,7 +320,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "What resource can mountains provide?",
-
+        stage: "recognise",
         options: [
             "Water, minerals and energy",
             "Only buildings",
@@ -343,7 +343,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Why do mountain communities need to adapt?",
-
+        stage: "recognise",
         options: [
             "Because mountain conditions are different from lowland areas",
             "Because mountains never change",
@@ -366,7 +366,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "What is conservation?",
-
+        stage: "recognise",
         options: [
             "Protecting and caring for the environment",
             "Building more roads",
@@ -389,7 +389,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Why are mountains important to people?",
-
+        stage: "recognise",
         options: [
             "They provide resources, habitats and places to visit",
             "They have no value",
@@ -412,7 +412,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Which activity might happen in mountain areas?",
-
+        stage: "recognise",
         options: [
             "Skiing",
             "Sailing across oceans only",
@@ -435,7 +435,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Why are mountain environments fragile?",
-
+        stage: "recognise",
         options: [
             "Changes can damage ecosystems that recover slowly",
             "They cannot be affected",
@@ -458,7 +458,7 @@ export const humansAndMountains: SkillContent = {
         skillId: "humansAndMountains",
         question:
             "Which sentence best describes humans and mountains?",
-
+        stage: "recognise",
         options: [
             "People live, work and visit mountains while protecting their environments",
             "People cannot use mountains",

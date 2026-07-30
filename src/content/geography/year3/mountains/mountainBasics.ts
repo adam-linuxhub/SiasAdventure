@@ -21,7 +21,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What is a mountain?",
-
+        stage: "recognise",
         options: [
             "A large natural rise of land that is usually higher and steeper than a hill",
             "A flat area of land",
@@ -44,7 +44,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "How are mountains usually measured?",
-
+        stage: "recognise",
         options: [
             "By their height above sea level",
             "By their colour",
@@ -67,7 +67,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What is the highest point of a mountain called?",
-
+        stage: "recognise",
         options: [
             "The summit",
             "The valley",
@@ -90,7 +90,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What is the bottom of a mountain called?",
-
+        stage: "recognise",
         options: [
             "The foot",
             "The summit",
@@ -113,7 +113,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What is a peak?",
-
+        stage: "recognise",
         options: [
             "The pointed top of a mountain",
             "A river valley",
@@ -136,7 +136,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What is a mountain range?",
-
+        stage: "recognise",
         options: [
             "A group of mountains together",
             "A single small hill",
@@ -159,7 +159,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What is a valley?",
-
+        stage: "recognise",
         options: [
             "Low land between hills or mountains",
             "The top of a mountain",
@@ -182,7 +182,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "Why are mountain areas often colder than low land?",
-
+        stage: "recognise",
         options: [
             "Temperature decreases at higher altitudes",
             "Mountains create cold water",
@@ -205,7 +205,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What is altitude?",
-
+        stage: "recognise",
         options: [
             "Height above sea level",
             "The age of a mountain",
@@ -228,7 +228,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "Why do some mountains have snow on their tops?",
-
+        stage: "recognise",
         options: [
             "The temperature is colder at high altitudes",
             "Snow is painted there",
@@ -251,7 +251,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "Which is an example of a famous mountain range?",
-
+        stage: "recognise",
         options: [
             "The Himalayas",
             "The River Thames",
@@ -274,7 +274,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What is a mountain landscape?",
-
+        stage: "recognise",
         options: [
             "An area with mountains and related features",
             "A completely flat area",
@@ -297,7 +297,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "Why are mountains important habitats?",
-
+        stage: "recognise",
         options: [
             "They provide homes for plants and animals",
             "Nothing can live there",
@@ -320,7 +320,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What is a cliff?",
-
+        stage: "recognise",
         options: [
             "A steep rock face",
             "A flat field",
@@ -343,7 +343,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "Why do people visit mountains?",
-
+        stage: "recognise",
         options: [
             "For activities such as walking, climbing and sightseeing",
             "Because mountains are cities",
@@ -366,7 +366,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What is a ridge?",
-
+        stage: "recognise",
         options: [
             "A long narrow area of high land",
             "The bottom of a valley",
@@ -389,7 +389,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "How are mountains different from hills?",
-
+        stage: "recognise",
         options: [
             "Mountains are generally higher and steeper",
             "Mountains are always smaller",
@@ -412,7 +412,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "What can glaciers do to mountains?",
-
+        stage: "recognise",
         options: [
             "They can shape the landscape by moving ice",
             "They make mountains disappear instantly",
@@ -435,7 +435,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "Why do mountains affect the weather?",
-
+        stage: "recognise",
         options: [
             "They can change how air moves and where rain falls",
             "They control the Sun",
@@ -458,7 +458,7 @@ export const mountainBasics: SkillContent = {
         skillId: "mountainBasics",
         question:
             "Which sentence best describes mountains?",
-
+        stage: "recognise",
         options: [
             "High areas of land with steep sides and unique features",
             "Flat areas with no slopes",

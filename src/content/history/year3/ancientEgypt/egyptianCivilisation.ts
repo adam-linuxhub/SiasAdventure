@@ -21,7 +21,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Where was the Ancient Egyptian civilisation located?",
-
+        stage: "recognise",
         options: [
             "North Africa",
             "South America",
@@ -44,7 +44,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Which river was important to Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "The River Nile",
             "The River Thames",
@@ -67,7 +67,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Why was the River Nile important?",
-
+        stage: "recognise",
         options: [
             "It helped people grow crops and survive",
             "It was used only for swimming",
@@ -90,7 +90,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "What does the word 'civilisation' mean?",
-
+        stage: "recognise",
         options: [
             "A society with organised people, buildings and systems",
             "A single person",
@@ -113,7 +113,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Ancient Egypt developed around which natural feature?",
-
+        stage: "recognise",
         options: [
             "A river",
             "A mountain range",
@@ -136,7 +136,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "What did Ancient Egyptians use the Nile for?",
-
+        stage: "recognise",
         options: [
             "Farming, transport and water",
             "Building roads only",
@@ -159,7 +159,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Which continent is Egypt in today?",
-
+        stage: "recognise",
         options: [
             "Africa",
             "Asia",
@@ -182,7 +182,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Why did many people settle near the River Nile?",
-
+        stage: "recognise",
         options: [
             "There was water and fertile land",
             "There were no plants",
@@ -205,7 +205,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "What was Ancient Egypt famous for building?",
-
+        stage: "recognise",
         options: [
             "Pyramids",
             "Modern skyscrapers",
@@ -228,7 +228,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Which statement about Ancient Egypt is true?",
-
+        stage: "recognise",
         options: [
             "It was one of the world's earliest civilisations.",
             "It began only 100 years ago.",
@@ -251,7 +251,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Why did the Nile floods help farmers?",
-
+        stage: "recognise",
         options: [
             "They left rich soil for growing crops",
             "They destroyed all plants",
@@ -274,7 +274,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "What is a historian likely to study to learn about Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "Ancient objects and written evidence",
             "Modern films only",
@@ -297,7 +297,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Ancient Egyptian farmers mainly grew crops near:",
-
+        stage: "recognise",
         options: [
             "The River Nile",
             "The middle of the desert",
@@ -320,7 +320,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Why was the desert around Egypt useful for protection?",
-
+        stage: "recognise",
         options: [
             "It made it harder for enemies to attack",
             "It provided unlimited forests",
@@ -343,7 +343,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "What does 'ancient' mean?",
-
+        stage: "recognise",
         options: [
             "Very old",
             "Very new",
@@ -366,7 +366,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Which helped Ancient Egypt become successful?",
-
+        stage: "recognise",
         options: [
             "The River Nile and farming",
             "Modern technology",
@@ -389,7 +389,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Ancient Egyptians used boats on the Nile mainly for:",
-
+        stage: "recognise",
         options: [
             "Transporting people and goods",
             "Flying through the air",
@@ -412,7 +412,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "What can ruins tell historians?",
-
+        stage: "recognise",
         options: [
             "Information about how people lived in the past",
             "What will happen tomorrow",
@@ -435,7 +435,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Why do historians study Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "To understand people and life in the past",
             "To change history",
@@ -458,7 +458,7 @@ export const egyptianCivilisation: SkillContent = {
         skillId: "egyptianCivilisation",
         question:
             "Which sentence best describes Ancient Egypt?",
-
+        stage: "recognise",
         options: [
             "An ancient civilisation that grew around the River Nile",
             "A modern city built recently",

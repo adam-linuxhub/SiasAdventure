@@ -20,7 +20,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-001",
         skillId: "fossils",
         question: "What is a fossil?",
-
+        stage: "recognise",
         options: [
             "The preserved remains or trace of a living thing",
             "A type of living rock",
@@ -42,7 +42,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-002",
         skillId: "fossils",
         question: "Where are fossils usually found?",
-
+        stage: "recognise",
         options: [
             "Inside rocks",
             "In clouds",
@@ -64,7 +64,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-003",
         skillId: "fossils",
         question: "A fossil can come from a...",
-
+        stage: "recognise",
         options: [
             "Plant or animal",
             "Cloud",
@@ -86,7 +86,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-004",
         skillId: "fossils",
         question: "Which of these could become a fossil?",
-
+        stage: "recognise",
         options: [
             "A dinosaur bone",
             "A plastic bottle",
@@ -108,7 +108,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-005",
         skillId: "fossils",
         question: "What can fossils teach us?",
-
+        stage: "recognise",
         options: [
             "What living things were like long ago",
             "Tomorrow's weather",
@@ -130,7 +130,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-006",
         skillId: "fossils",
         question: "Which scientist studies fossils?",
-
+        stage: "recognise",
         options: [
             "A palaeontologist",
             "A chef",
@@ -152,7 +152,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-007",
         skillId: "fossils",
         question: "Which animal is often known from fossils?",
-
+        stage: "recognise",
         options: [
             "Dinosaur",
             "Cat",
@@ -174,7 +174,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-008",
         skillId: "fossils",
         question: "How old are many fossils?",
-
+        stage: "recognise",
         options: [
             "Millions of years old",
             "One day old",
@@ -196,7 +196,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-009",
         skillId: "fossils",
         question: "Which of these might be found as a fossil?",
-
+        stage: "recognise",
         options: [
             "A shell",
             "A balloon",
@@ -218,7 +218,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-010",
         skillId: "fossils",
         question: "Why are fossils important?",
-
+        stage: "recognise",
         options: [
             "They tell us about life in the past",
             "They make rocks grow",
@@ -240,7 +240,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-011",
         skillId: "fossils",
         question: "A fossil is discovered inside a rock. What does this tell scientists?",
-
+        stage: "recognise",
         options: [
             "A living thing existed there long ago",
             "The rock is alive",
@@ -262,7 +262,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-012",
         skillId: "fossils",
         question: "Which rock is most likely to contain fossils?",
-
+        stage: "recognise",
         options: [
             "Sedimentary rock",
             "Molten rock",
@@ -284,7 +284,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-013",
         skillId: "fossils",
         question: "What can fossils tell us about an animal?",
-
+        stage: "recognise",
         options: [
             "What it looked like",
             "Its favourite colour",
@@ -306,7 +306,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-014",
         skillId: "fossils",
         question: "Which is most likely to become a fossil?",
-
+        stage: "recognise",
         options: [
             "A hard shell",
             "A puddle",
@@ -328,7 +328,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-015",
         skillId: "fossils",
         question: "What do scientists compare when studying fossils?",
-
+        stage: "recognise",
         options: [
             "Their shapes and sizes",
             "Their voices",
@@ -350,7 +350,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-016",
         skillId: "fossils",
         question: "Why do fossils help us understand Earth's history?",
-
+        stage: "recognise",
         options: [
             "They show what lived in the past",
             "They predict earthquakes",
@@ -372,7 +372,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-017",
         skillId: "fossils",
         question: "A fossil of a fish is found on a mountain. What might this suggest?",
-
+        stage: "recognise",
         options: [
             "The area was once covered by water",
             "Fish can climb mountains",
@@ -394,7 +394,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-018",
         skillId: "fossils",
         question: "Why are dinosaur fossils exciting to scientists?",
-
+        stage: "recognise",
         options: [
             "They provide evidence about animals that are now extinct",
             "They can hatch into dinosaurs",
@@ -416,7 +416,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-019",
         skillId: "fossils",
         question: "Which statement about fossils is true?",
-
+        stage: "recognise",
         options: [
             "They provide evidence of past life",
             "They are living animals",
@@ -438,7 +438,7 @@ export const fossils: SkillContent = {
         id: "sci-fossils-020",
         skillId: "fossils",
         question: "What is the main reason scientists study fossils?",
-
+        stage: "recognise",
         options: [
             "To learn about life on Earth long ago",
             "To discover new planets",

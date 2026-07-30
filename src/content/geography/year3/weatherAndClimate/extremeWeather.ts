@@ -21,7 +21,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "What is extreme weather?",
-
+        stage: "recognise",
         options: [
             "Weather conditions that are unusually severe or dangerous",
             "Normal daily weather",
@@ -44,7 +44,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "Which is an example of extreme weather?",
-
+        stage: "recognise",
         options: [
             "A hurricane",
             "A normal sunny day",
@@ -67,7 +67,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "What is a flood?",
-
+        stage: "recognise",
         options: [
             "When water covers land that is usually dry",
             "When a river disappears",
@@ -90,7 +90,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "What can cause flooding?",
-
+        stage: "recognise",
         options: [
             "Heavy rainfall or overflowing rivers",
             "A lack of clouds",
@@ -113,7 +113,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "What is a drought?",
-
+        stage: "recognise",
         options: [
             "A long period with very little rainfall",
             "A very windy day",
@@ -136,7 +136,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "What problems can droughts cause?",
-
+        stage: "recognise",
         options: [
             "Water shortages and difficulty growing crops",
             "Too many rivers",
@@ -159,7 +159,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "What is a hurricane?",
-
+        stage: "recognise",
         options: [
             "A powerful tropical storm with strong winds",
             "A small cloud",
@@ -182,7 +182,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "What can strong winds from storms do?",
-
+        stage: "recognise",
         options: [
             "Damage buildings and trees",
             "Create mountains",
@@ -205,7 +205,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "What is a heatwave?",
-
+        stage: "recognise",
         options: [
             "A long period of unusually hot weather",
             "A cold winter",
@@ -228,7 +228,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "Why can heatwaves be dangerous?",
-
+        stage: "recognise",
         options: [
             "They can affect health and cause water shortages",
             "They create mountains",
@@ -251,7 +251,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "How can people prepare for floods?",
-
+        stage: "recognise",
         options: [
             "Using flood warnings and protection measures",
             "Ignoring weather information",
@@ -274,7 +274,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "Why are weather forecasts important during extreme weather?",
-
+        stage: "recognise",
         options: [
             "They help people prepare and stay safe",
             "They stop extreme weather happening",
@@ -297,7 +297,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "How can extreme weather affect animals?",
-
+        stage: "recognise",
         options: [
             "It can damage habitats and reduce available food",
             "It always helps animals",
@@ -320,7 +320,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "Why can flooding damage homes?",
-
+        stage: "recognise",
         options: [
             "Water can enter buildings and damage belongings",
             "Floods remove all buildings",
@@ -343,7 +343,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "Why are droughts difficult for farmers?",
-
+        stage: "recognise",
         options: [
             "Crops need water to grow",
             "Plants need less water",
@@ -366,7 +366,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "What is climate change linked to?",
-
+        stage: "recognise",
         options: [
             "Changes in Earth's climate over time",
             "Only daily weather changes",
@@ -389,7 +389,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "Why do scientists study extreme weather?",
-
+        stage: "recognise",
         options: [
             "To understand risks and improve preparation",
             "To create storms",
@@ -412,7 +412,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "Which place is more likely to experience hurricanes?",
-
+        stage: "recognise",
         options: [
             "Warm tropical coastal areas",
             "The middle of a desert only",
@@ -435,7 +435,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "What can communities do during extreme weather?",
-
+        stage: "recognise",
         options: [
             "Work together and follow safety advice",
             "Ignore warnings",
@@ -458,7 +458,7 @@ export const extremeWeather: SkillContent = {
         skillId: "extremeWeather",
         question:
             "Which sentence best describes extreme weather?",
-
+        stage: "recognise",
         options: [
             "Extreme weather is unusually severe weather that can affect people and the environment",
             "Extreme weather is normal daily weather",

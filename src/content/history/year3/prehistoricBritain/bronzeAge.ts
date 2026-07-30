@@ -20,7 +20,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-001",
         skillId: "bronzeAge",
         question: "Why is it called the Bronze Age?",
-
+        stage: "recognise",
         options: [
             "People began making tools from bronze.",
             "Everything was coloured bronze.",
@@ -42,7 +42,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-002",
         skillId: "bronzeAge",
         question: "Bronze is made by mixing which two metals?",
-
+        stage: "recognise",
         options: [
             "Copper and tin",
             "Iron and gold",
@@ -64,7 +64,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-003",
         skillId: "bronzeAge",
         question: "Bronze tools were usually stronger than tools made from...",
-
+        stage: "recognise",
         options: [
             "Stone",
             "Plastic",
@@ -86,7 +86,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-004",
         skillId: "bronzeAge",
         question: "What did many Bronze Age people grow?",
-
+        stage: "recognise",
         options: [
             "Crops",
             "Palm trees",
@@ -108,7 +108,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-005",
         skillId: "bronzeAge",
         question: "Which animals did Bronze Age farmers often keep?",
-
+        stage: "recognise",
         options: [
             "Cattle and sheep",
             "Dinosaurs",
@@ -130,7 +130,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-006",
         skillId: "bronzeAge",
         question: "What is farming?",
-
+        stage: "recognise",
         options: [
             "Growing crops and keeping animals",
             "Building castles",
@@ -152,7 +152,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-007",
         skillId: "bronzeAge",
         question: "What is trade?",
-
+        stage: "recognise",
         options: [
             "Buying, selling or exchanging goods",
             "Growing vegetables",
@@ -174,7 +174,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-008",
         skillId: "bronzeAge",
         question: "What material became more common during the Bronze Age?",
-
+        stage: "recognise",
         options: [
             "Bronze",
             "Plastic",
@@ -196,7 +196,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-009",
         skillId: "bronzeAge",
         question: "Which of these might a Bronze Age craftsperson make?",
-
+        stage: "recognise",
         options: [
             "A bronze axe",
             "A laptop",
@@ -218,7 +218,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-010",
         skillId: "bronzeAge",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "People used bronze to make many useful objects.",
             "People drove tractors.",
@@ -240,7 +240,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-011",
         skillId: "bronzeAge",
         question: "Why was bronze useful for making tools?",
-
+        stage: "recognise",
         options: [
             "It was stronger than stone.",
             "It floated on water.",
@@ -262,7 +262,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-012",
         skillId: "bronzeAge",
         question: "Why was farming important during the Bronze Age?",
-
+        stage: "recognise",
         options: [
             "It provided a steady supply of food.",
             "It made electricity.",
@@ -284,7 +284,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-013",
         skillId: "bronzeAge",
         question: "Why did people trade with other groups?",
-
+        stage: "recognise",
         options: [
             "To obtain things they did not have.",
             "To grow crops faster.",
@@ -306,7 +306,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-014",
         skillId: "bronzeAge",
         question: "How did bronze improve everyday life?",
-
+        stage: "recognise",
         options: [
             "It made stronger tools and weapons.",
             "It created electricity.",
@@ -328,7 +328,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-015",
         skillId: "bronzeAge",
         question: "Which activity became more common as farming developed?",
-
+        stage: "recognise",
         options: [
             "Living in settled communities",
             "Travelling by aeroplane",
@@ -350,7 +350,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-016",
         skillId: "bronzeAge",
         question: "Why might a farmer keep sheep?",
-
+        stage: "recognise",
         options: [
             "For wool, meat and milk",
             "To make bronze",
@@ -372,7 +372,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-017",
         skillId: "bronzeAge",
         question: "What does the word 'alloy' mean?",
-
+        stage: "recognise",
         options: [
             "A mixture of metals",
             "A sharp stone",
@@ -394,7 +394,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-018",
         skillId: "bronzeAge",
         question: "Why is the Bronze Age an important period in history?",
-
+        stage: "recognise",
         options: [
             "People developed new materials and technologies.",
             "People invented the internet.",
@@ -416,7 +416,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-019",
         skillId: "bronzeAge",
         question: "Which object would most likely belong to the Bronze Age?",
-
+        stage: "recognise",
         options: [
             "Bronze sword",
             "Plastic bottle",
@@ -438,7 +438,7 @@ export const bronzeAge: SkillContent = {
         id: "hist-bronze-020",
         skillId: "bronzeAge",
         question: "Which sentence best describes the Bronze Age?",
-
+        stage: "recognise",
         options: [
             "People used bronze tools, farmed the land and traded with others.",
             "People used electricity and cars.",

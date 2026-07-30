@@ -20,7 +20,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-001",
         skillId: "protectingHearing",
         question: "Which part of your body is used for hearing?",
-
+        stage: "recognise",
         options: [
             "Ears",
             "Eyes",
@@ -42,7 +42,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-002",
         skillId: "protectingHearing",
         question: "Very loud sounds can...",
-
+        stage: "recognise",
         options: [
             "Damage your hearing",
             "Improve your eyesight",
@@ -64,7 +64,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-003",
         skillId: "protectingHearing",
         question: "Which activity is most likely to be very loud?",
-
+        stage: "recognise",
         options: [
             "Watching fireworks",
             "Reading a book",
@@ -86,7 +86,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-004",
         skillId: "protectingHearing",
         question: "What can you wear to protect your hearing in a very noisy place?",
-
+        stage: "recognise",
         options: [
             "Ear defenders",
             "Sunglasses",
@@ -108,7 +108,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-005",
         skillId: "protectingHearing",
         question: "If music is too loud through headphones, you should...",
-
+        stage: "recognise",
         options: [
             "Turn the volume down",
             "Turn the volume up",
@@ -130,7 +130,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-006",
         skillId: "protectingHearing",
         question: "Which sound is usually safer for your ears?",
-
+        stage: "recognise",
         options: [
             "A quiet conversation",
             "A jet taking off nearby",
@@ -152,7 +152,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-007",
         skillId: "protectingHearing",
         question: "Why should you move away from a very loud sound if possible?",
-
+        stage: "recognise",
         options: [
             "The sound becomes quieter.",
             "The sound becomes higher-pitched.",
@@ -174,7 +174,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-008",
         skillId: "protectingHearing",
         question: "Which action helps protect your hearing?",
-
+        stage: "recognise",
         options: [
             "Taking breaks from loud noise",
             "Standing next to loud speakers",
@@ -196,7 +196,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-009",
         skillId: "protectingHearing",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Your hearing is important and should be protected.",
             "Loud sounds can never damage hearing.",
@@ -218,7 +218,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-010",
         skillId: "protectingHearing",
         question: "What should you do if a sound feels painfully loud?",
-
+        stage: "recognise",
         options: [
             "Move away or protect your ears",
             "Stay where you are",
@@ -240,7 +240,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-011",
         skillId: "protectingHearing",
         question: "Why are ear defenders useful?",
-
+        stage: "recognise",
         options: [
             "They reduce the amount of sound reaching your ears.",
             "They make sounds higher-pitched.",
@@ -262,7 +262,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-012",
         skillId: "protectingHearing",
         question: "Why is standing farther from a loudspeaker safer?",
-
+        stage: "recognise",
         options: [
             "The sound is quieter farther away.",
             "The speaker stops working.",
@@ -284,7 +284,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-013",
         skillId: "protectingHearing",
         question: "Which situation is best for protecting your hearing?",
-
+        stage: "recognise",
         options: [
             "Listening to music at a sensible volume",
             "Using maximum volume every day",
@@ -306,7 +306,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-014",
         skillId: "protectingHearing",
         question: "Why should workers on noisy building sites wear ear protection?",
-
+        stage: "recognise",
         options: [
             "To reduce the risk of hearing damage",
             "To improve their eyesight",
@@ -328,7 +328,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-015",
         skillId: "protectingHearing",
         question: "What is the safest choice when using headphones for a long time?",
-
+        stage: "recognise",
         options: [
             "Keep the volume low and take breaks",
             "Use the highest possible volume",
@@ -350,7 +350,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-016",
         skillId: "protectingHearing",
         question: "Which of these is most likely to damage hearing?",
-
+        stage: "recognise",
         options: [
             "Listening to loud music for a long time",
             "Talking quietly with a friend",
@@ -372,7 +372,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-017",
         skillId: "protectingHearing",
         question: "What should you do before using noisy machinery?",
-
+        stage: "recognise",
         options: [
             "Wear suitable hearing protection if needed.",
             "Cover your eyes.",
@@ -394,7 +394,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-018",
         skillId: "protectingHearing",
         question: "Why are regular quiet breaks useful in noisy places?",
-
+        stage: "recognise",
         options: [
             "They give your ears time to recover.",
             "They make sounds louder.",
@@ -416,7 +416,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-019",
         skillId: "protectingHearing",
         question: "Which advice is best for looking after your hearing?",
-
+        stage: "recognise",
         options: [
             "Avoid loud sounds when possible and use ear protection when needed.",
             "Always listen at full volume.",
@@ -438,7 +438,7 @@ export const protectingHearing: SkillContent = {
         id: "sci-hearing-020",
         skillId: "protectingHearing",
         question: "Which sentence best explains how to protect your hearing?",
-
+        stage: "recognise",
         options: [
             "Keep sounds at a sensible volume, move away from very loud noises and wear hearing protection when needed.",
             "Listen to loud sounds for as long as possible.",

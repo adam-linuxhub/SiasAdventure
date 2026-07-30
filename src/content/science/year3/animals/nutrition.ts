@@ -20,7 +20,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-001",
         skillId: "nutrition",
         question: "Why do animals need food?",
-
+        stage: "recognise",
         options: [
             "To get energy and grow",
             "To make sunlight",
@@ -47,7 +47,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-002",
         skillId: "nutrition",
         question: "Which living thing can make its own food?",
-
+        stage: "recognise",
         options: [
             "A plant",
             "A rabbit",
@@ -74,7 +74,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-003",
         skillId: "nutrition",
         question: "Animals get their food by...",
-
+        stage: "recognise",
         options: [
             "Eating plants or other animals",
             "Making it from sunlight",
@@ -100,7 +100,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-004",
         skillId: "nutrition",
         question: "Which of these is an animal?",
-
+        stage: "recognise",
         options: [
             "Fox",
             "Oak tree",
@@ -125,7 +125,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-005",
         skillId: "nutrition",
         question: "What do humans need to stay healthy?",
-
+        stage: "recognise",
         options: [
             "The right types and amounts of food",
             "Only sweets",
@@ -151,7 +151,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-006",
         skillId: "nutrition",
         question: "Which of these can NOT make its own food?",
-
+        stage: "recognise",
         options: [
             "A cat",
             "A sunflower",
@@ -177,7 +177,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-007",
         skillId: "nutrition",
         question: "What happens if an animal does not get enough food?",
-
+        stage: "recognise",
         options: [
             "It may become weak and unhealthy.",
             "It grows much faster.",
@@ -204,7 +204,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-008",
         skillId: "nutrition",
         question: "Which living thing gets energy from eating food?",
-
+        stage: "recognise",
         options: [
             "A bird",
             "A tree",
@@ -230,7 +230,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-009",
         skillId: "nutrition",
         question: "Which of these is a healthy choice to eat regularly?",
-
+        stage: "recognise",
         options: [
             "Fruit and vegetables",
             "Only sweets",
@@ -256,7 +256,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-010",
         skillId: "nutrition",
         question: "Which statement is correct?",
-
+        stage: "recognise",
         options: [
             "Animals cannot make their own food.",
             "Animals make food using sunlight.",
@@ -281,8 +281,8 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-011",
             skillId: "nutrition",
             question: "Why do humans eat different types of food?",
-
-        options: [
+            stage: "recognise",
+            options: [
             "To stay healthy and get the nutrients they need",
             "To make their own sunlight",
             "To grow leaves",
@@ -308,7 +308,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-012",
         skillId: "nutrition",
         question: "Which animal eats plants?",
-
+        stage: "recognise",
         options: [
             "Rabbit",
             "Lion",
@@ -334,7 +334,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-013",
         skillId: "nutrition",
         question: "Which animal mainly eats other animals?",
-
+        stage: "recognise",
         options: [
             "Lion",
             "Cow",
@@ -361,7 +361,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-014",
         skillId: "nutrition",
         question: "Which food is a good source of energy?",
-
+        stage: "recognise",
         options: [
             "Bread",
             "Plastic",
@@ -387,7 +387,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-015",
         skillId: "nutrition",
         question: "Why do children need healthy food?",
-
+        stage: "recognise",
         options: [
             "To help them grow and stay healthy",
             "To grow roots",
@@ -414,7 +414,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-016",
         skillId: "nutrition",
         question: "Which of these is part of a balanced diet?",
-
+        stage: "recognise",
         options: [
             "Eating a variety of foods",
             "Eating only sweets",
@@ -440,7 +440,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-017",
         skillId: "nutrition",
         question: "What do all animals have in common?",
-
+        stage: "recognise",
         options: [
             "They need food to survive",
             "They make their own food",
@@ -466,7 +466,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-018",
         skillId: "nutrition",
         question: "Which meal would usually be the healthiest?",
-
+        stage: "recognise",
         options: [
             "Chicken, vegetables and rice",
             "Only sweets",
@@ -492,7 +492,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-019",
         skillId: "nutrition",
         question: "If an animal cannot find enough food, what is likely to happen?",
-
+        stage: "recognise",
         options: [
             "It may lose energy and become unhealthy",
             "It will start making its own food",
@@ -519,7 +519,7 @@ export const nutrition: SkillContent = {
         id: "sci-nutrition-020",
         skillId: "nutrition",
         question: "Which statement best explains nutrition?",
-
+        stage: "recognise",
         options: [
             "Animals need the right types and amounts of food to stay healthy.",
             "Animals can survive without food.",

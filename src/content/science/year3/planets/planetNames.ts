@@ -20,7 +20,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-001",
     skillId: "planet-names",
     question: "Which of these is a planet?",
-
+    stage: "recognise",
     options: [
         "Earth",
         "Moon",
@@ -47,7 +47,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-002",
     skillId: "planet-names",
     question: "Which planet do we live on?",
-
+    stage: "recognise",
     options: [
         "Earth",
         "Mars",
@@ -73,7 +73,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-003",
     skillId: "planet-names",
     question: "Which of these is Mercury?",
-
+    stage: "recognise",
     options: [
         "Mercury",
         "Moon",
@@ -99,7 +99,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-004",
     skillId: "planet-names",
     question: "Which of these is Venus?",
-
+    stage: "recognise",
     options: [
         "Venus",
         "Moon",
@@ -125,7 +125,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-005",
     skillId: "planet-names",
     question: "Which of these is Earth?",
-
+    stage: "recognise",
     options: [
         "Earth",
         "Sun",
@@ -151,7 +151,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-006",
     skillId: "planet-names",
     question: "Which of these is Mars?",
-
+    stage: "recognise",
     options: [
         "Mars",
         "Moon",
@@ -177,7 +177,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-007",
     skillId: "planet-names",
     question: "Which of these is Jupiter?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Sun",
@@ -203,7 +203,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-008",
     skillId: "planet-names",
     question: "Which of these is Saturn?",
-
+    stage: "recognise",
     options: [
         "Saturn",
         "Moon",
@@ -229,7 +229,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-009",
     skillId: "planet-names",
     question: "Which of these is Uranus?",
-
+    stage: "recognise",
     options: [
         "Uranus",
         "Sun",
@@ -255,7 +255,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-010",
     skillId: "planet-names",
     question: "Which of these is Neptune?",
-
+    stage: "recognise",
     options: [
         "Neptune",
         "Galaxy",
@@ -281,7 +281,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-011",
     skillId: "planet-names",
     question: "How many planets are there in our Solar System?",
-
+    stage: "recognise",
     options: [
         "8",
         "7",
@@ -307,7 +307,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-012",
     skillId: "planet-names",
     question: "Which planet is called the Red Planet?",
-
+    stage: "recognise",
     options: [
         "Mars",
         "Earth",
@@ -333,7 +333,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-013",
     skillId: "planet-names",
     question: "Which planet is famous for its rings?",
-
+    stage: "recognise",
     options: [
         "Saturn",
         "Earth",
@@ -359,7 +359,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-014",
     skillId: "planet-names",
     question: "Which is the largest planet?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Earth",
@@ -385,7 +385,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-015",
     skillId: "planet-names",
     question: "Which planet is closest to the Sun?",
-
+    stage: "recognise",
     options: [
         "Mercury",
         "Venus",
@@ -411,7 +411,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-016",
     skillId: "planet-names",
     question: "Which planet is farthest from the Sun?",
-
+    stage: "recognise",
     options: [
         "Neptune",
         "Uranus",
@@ -437,7 +437,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-017",
     skillId: "planet-names",
     question: "Which planet do astronauts launch from?",
-
+    stage: "recognise",
     options: [
         "Earth",
         "Mars",
@@ -463,7 +463,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-018",
     skillId: "planet-names",
     question: "Which answer contains only planets?",
-
+    stage: "recognise",
     options: [
         "Earth, Mars, Saturn",
         "Earth, Moon, Mars",
@@ -489,7 +489,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-019",
     skillId: "planet-names",
     question: "Which of these is NOT a planet?",
-
+    stage: "recognise",
     options: [
         "Moon",
         "Mars",
@@ -515,7 +515,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-020",
     skillId: "planet-names",
     question: "Which planet's name begins with the letter V?",
-
+    stage: "recognise",
     options: [
         "Venus",
         "Mercury",
@@ -541,7 +541,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-021",
     skillId: "planet-names",
     question: "Ella says, 'We live on Mars.' Is she correct?",
-
+    stage: "recognise",
     options: [
         "No, we live on Earth.",
         "Yes, we live on Mars.",
@@ -568,7 +568,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-022",
     skillId: "planet-names",
     question: "Ben says, 'The Sun is a planet.' Is Ben correct?",
-
+    stage: "recognise",
     options: [
         "No, the Sun is a star.",
         "Yes, the Sun is a planet.",
@@ -595,7 +595,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-023",
     skillId: "planet-names",
     question: "Which planet comes straight after Earth as you travel away from the Sun?",
-
+    stage: "recognise",
     options: [
         "Mars",
         "Venus",
@@ -622,7 +622,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-024",
     skillId: "planet-names",
     question: "Which planet comes just before Earth?",
-
+    stage: "recognise",
     options: [
         "Venus",
         "Mars",
@@ -649,7 +649,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-025",
     skillId: "planet-names",
     question: "Which answer is the name of a planet?",
-
+    stage: "recognise",
     options: [
         "Neptune",
         "Galaxy",
@@ -675,7 +675,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-026",
     skillId: "planet-names",
     question: "Which answer is NOT the name of a planet?",
-
+    stage: "recognise",
     options: [
         "Comet",
         "Mercury",
@@ -701,7 +701,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-027",
     skillId: "planet-names",
     question: "Which planet is bigger than all the others?",
-
+    stage: "recognise",
     options: [
         "Jupiter",
         "Earth",
@@ -727,7 +727,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-028",
     skillId: "planet-names",
     question: "Which planet is the smallest?",
-
+    stage: "recognise",
     options: [
         "Mercury",
         "Mars",
@@ -753,7 +753,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-029",
     skillId: "planet-names",
     question: "Which planet is known for its beautiful rings?",
-
+    stage: "recognise",
     options: [
         "Saturn",
         "Earth",
@@ -779,7 +779,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-030",
     skillId: "planet-names",
     question: "Which planet is blue and the farthest from the Sun?",
-
+    stage: "recognise",
     options: [
         "Neptune",
         "Earth",
@@ -805,7 +805,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-031",
     skillId: "planet-names",
     question: "Which answer contains only planets?",
-
+    stage: "recognise",
     options: [
         "Mercury, Venus, Earth, Mars",
         "Mercury, Moon, Earth, Mars",
@@ -831,7 +831,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-032",
     skillId: "planet-names",
     question: "Which answer contains NO planets?",
-
+    stage: "recognise",
     options: [
         "Moon, Sun, Comet",
         "Earth, Moon, Sun",
@@ -856,7 +856,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-033",
     skillId: "planet-names",
     question: "Which of these comes first in the Solar System?",
-
+    stage: "recognise",
     options: [
         "Mercury",
         "Venus",
@@ -882,7 +882,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-034",
     skillId: "planet-names",
     question: "Which planet comes immediately before Neptune?",
-
+    stage: "recognise",
     options: [
         "Uranus",
         "Saturn",
@@ -908,7 +908,7 @@ export const planetNames: SkillContent = {
     id: "sci-planets-names-035",
     skillId: "planet-names",
     question: "Which of these is an icy giant planet?",
-
+    stage: "recognise",
     options: [
         "Uranus",
         "Mercury",
@@ -934,7 +934,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-036",
         skillId: "planet-names",
         question: "Which of these is an ice giant planet?",
-
+        stage: "recognise",
         options: [
             "Neptune",
             "Mercury",
@@ -960,7 +960,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-037",
         skillId: "planet-names",
         question: "Which planet is second from the Sun?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Mercury",
@@ -987,7 +987,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-038",
         skillId: "planet-names",
         question: "Which planet is third from the Sun?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Venus",
@@ -1014,7 +1014,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-039",
         skillId: "planet-names",
         question: "Which planet is fifth from the Sun?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Mars",
@@ -1041,7 +1041,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-040",
         skillId: "planet-names",
         question: "Which planet is sixth from the Sun?",
-
+        stage: "recognise",
         options: [
             "Saturn",
             "Jupiter",
@@ -1068,7 +1068,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-041",
         skillId: "planet-names",
         question: "Which list shows the first four planets in the correct order?",
-
+        stage: "recognise",
         options: [
             "Mercury, Venus, Earth, Mars",
             "Mercury, Earth, Venus, Mars",
@@ -1094,7 +1094,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-042",
         skillId: "planet-names",
         question: "Which list shows the last four planets in the correct order?",
-
+        stage: "recognise",
         options: [
             "Jupiter, Saturn, Uranus, Neptune",
             "Saturn, Jupiter, Uranus, Neptune",
@@ -1120,7 +1120,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-043",
         skillId: "planet-names",
         question: "Which planet comes between Venus and Mars?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Mercury",
@@ -1147,7 +1147,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-044",
         skillId: "planet-names",
         question: "Which planet comes between Saturn and Neptune?",
-
+        stage: "recognise",
         options: [
             "Uranus",
             "Jupiter",
@@ -1174,7 +1174,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-045",
         skillId: "planet-names",
         question: "Which planet is both the largest planet and a gas giant?",
-
+        stage: "recognise",
         options: [
             "Jupiter",
             "Saturn",
@@ -1200,7 +1200,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-046",
         skillId: "planet-names",
         question: "Which pair contains two planets?",
-
+        stage: "recognise",
         options: [
             "Mercury and Venus",
             "Sun and Earth",
@@ -1226,7 +1226,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-047",
         skillId: "planet-names",
         question: "Which answer contains one planet and one star?",
-
+        stage: "recognise",
         options: [
             "Earth and the Sun",
             "Earth and Mars",
@@ -1253,7 +1253,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-048",
         skillId: "planet-names",
         question: "Which planet's name comes last in the alphabet?",
-
+        stage: "recognise",
         options: [
             "Venus",
             "Uranus",
@@ -1279,7 +1279,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-049",
         skillId: "planet-names",
         question: "Which planet's name comes first in the alphabet?",
-
+        stage: "recognise",
         options: [
             "Earth",
             "Jupiter",
@@ -1305,7 +1305,7 @@ export const planetNames: SkillContent = {
         id: "sci-planets-names-050",
         skillId: "planet-names",
         question: "Which answer contains all eight planets?",
-
+        stage: "recognise",
         options: [
             "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
             "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Pluto, Neptune",

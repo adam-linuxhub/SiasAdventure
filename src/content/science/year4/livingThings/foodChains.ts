@@ -20,7 +20,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-001",
         skillId: "foodChains",
         question: "What is a food chain?",
-
+        stage: "recognise",
         options: [
             "A diagram showing who eats whom",
             "A chain made from food",
@@ -42,7 +42,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-002",
         skillId: "foodChains",
         question: "What is usually at the start of a food chain?",
-
+        stage: "recognise",
         options: [
             "A plant",
             "A fox",
@@ -64,7 +64,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-003",
         skillId: "foodChains",
         question: "Which animal eats plants?",
-
+        stage: "recognise",
         options: [
             "Rabbit",
             "Fox",
@@ -86,7 +86,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-004",
         skillId: "foodChains",
         question: "Which animal might eat a rabbit?",
-
+        stage: "recognise",
         options: [
             "Fox",
             "Grass",
@@ -108,7 +108,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-005",
         skillId: "foodChains",
         question: "In the food chain grass → rabbit → fox, what does the rabbit eat?",
-
+        stage: "recognise",
         options: [
             "Grass",
             "Fox",
@@ -130,7 +130,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-006",
         skillId: "foodChains",
         question: "In the food chain grass → rabbit → fox, what eats the rabbit?",
-
+        stage: "recognise",
         options: [
             "Fox",
             "Grass",
@@ -152,7 +152,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-007",
         skillId: "foodChains",
         question: "What do we call an animal that eats plants?",
-
+        stage: "recognise",
         options: [
             "Herbivore",
             "Carnivore",
@@ -174,7 +174,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-008",
         skillId: "foodChains",
         question: "What do we call an animal that eats other animals?",
-
+        stage: "recognise",
         options: [
             "Carnivore",
             "Herbivore",
@@ -196,7 +196,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-009",
         skillId: "foodChains",
         question: "Which living thing is a producer?",
-
+        stage: "recognise",
         options: [
             "Grass",
             "Fox",
@@ -218,7 +218,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-010",
         skillId: "foodChains",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Food chains begin with plants.",
             "Food chains always begin with foxes.",
@@ -240,7 +240,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-011",
         skillId: "foodChains",
         question: "In the food chain grass → caterpillar → bird, what is the bird?",
-
+        stage: "recognise",
         options: [
             "A carnivore",
             "A producer",
@@ -262,7 +262,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-012",
         skillId: "foodChains",
         question: "Why are plants called producers?",
-
+        stage: "recognise",
         options: [
             "They make their own food.",
             "They eat animals.",
@@ -284,7 +284,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-013",
         skillId: "foodChains",
         question: "Which food chain is correct?",
-
+        stage: "recognise",
         options: [
             "Grass → rabbit → fox",
             "Fox → rabbit → grass",
@@ -306,7 +306,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-014",
         skillId: "foodChains",
         question: "What might happen if all the rabbits disappeared from a habitat?",
-
+        stage: "recognise",
         options: [
             "Foxes might have less food.",
             "Grass would disappear immediately.",
@@ -328,7 +328,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-015",
         skillId: "foodChains",
         question: "Which animal is a herbivore?",
-
+        stage: "recognise",
         options: [
             "Caterpillar",
             "Owl",
@@ -350,7 +350,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-016",
         skillId: "foodChains",
         question: "Why is the arrow used in a food chain?",
-
+        stage: "recognise",
         options: [
             "It shows the direction that food energy moves.",
             "It shows where the animals live.",
@@ -372,7 +372,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-017",
         skillId: "foodChains",
         question: "Which food chain starts correctly?",
-
+        stage: "recognise",
         options: [
             "Oak tree → caterpillar",
             "Bird → caterpillar",
@@ -394,7 +394,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-018",
         skillId: "foodChains",
         question: "A mouse eats seeds and an owl eats the mouse. Which is the predator?",
-
+        stage: "recognise",
         options: [
             "Owl",
             "Mouse",
@@ -416,7 +416,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-019",
         skillId: "foodChains",
         question: "Which statement best explains why food chains are important?",
-
+        stage: "recognise",
         options: [
             "They show how living things depend on each other for food.",
             "They show where animals sleep.",
@@ -438,7 +438,7 @@ export const foodChains: SkillContent = {
         id: "sci-food-chains-020",
         skillId: "foodChains",
         question: "Which sentence best describes a food chain?",
-
+        stage: "recognise",
         options: [
             "A food chain shows how energy passes from plants to animals as living things eat one another.",
             "A food chain is a list of every animal in the world.",

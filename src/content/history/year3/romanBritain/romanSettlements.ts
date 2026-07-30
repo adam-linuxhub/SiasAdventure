@@ -21,7 +21,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "What is a settlement?",
-
+        stage: "recognise",
         options: [
             "A place where people live",
             "A type of weapon",
@@ -44,7 +44,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "What did the Romans build in Britain?",
-
+        stage: "recognise",
         options: [
             "Towns, roads and forts",
             "Skyscrapers",
@@ -67,7 +67,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "Why did Romans build roads?",
-
+        stage: "recognise",
         options: [
             "To help people and armies travel",
             "To grow crops",
@@ -90,7 +90,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "What was a Roman town called?",
-
+        stage: "recognise",
         options: [
             "A settlement",
             "A pyramid",
@@ -113,7 +113,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "Why were Roman towns often built near roads?",
-
+        stage: "recognise",
         options: [
             "For travel and trade",
             "To avoid visitors",
@@ -136,7 +136,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "What was a Roman fort used for?",
-
+        stage: "recognise",
         options: [
             "Housing and protecting soldiers",
             "Growing crops only",
@@ -159,7 +159,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "What was a villa?",
-
+        stage: "recognise",
         options: [
             "A large Roman house",
             "A Roman weapon",
@@ -182,7 +182,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "What buildings might be found in a Roman town?",
-
+        stage: "recognise",
         options: [
             "Baths, shops and temples",
             "Airports and cinemas",
@@ -205,7 +205,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "Why were Roman baths important?",
-
+        stage: "recognise",
         options: [
             "They were places to wash and socialise",
             "They were used to grow food",
@@ -228,7 +228,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "What did Roman engineers build?",
-
+        stage: "recognise",
         options: [
             "Roads, bridges and buildings",
             "Computers",
@@ -251,7 +251,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "Why did Roman settlements grow?",
-
+        stage: "recognise",
         options: [
             "People came to live, work and trade there",
             "Nobody visited them",
@@ -274,7 +274,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "What is trade?",
-
+        stage: "recognise",
         options: [
             "Buying and selling goods",
             "Building a house",
@@ -297,7 +297,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "Why were forts built near important areas?",
-
+        stage: "recognise",
         options: [
             "To help control Roman territory",
             "To create farms",
@@ -320,7 +320,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "What evidence shows Romans built settlements?",
-
+        stage: "recognise",
         options: [
             "Ruins, roads and buildings",
             "Modern photographs only",
@@ -343,7 +343,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "How did Roman towns change Britain?",
-
+        stage: "recognise",
         options: [
             "They introduced new ways of living and trading",
             "They removed all buildings",
@@ -366,7 +366,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "Why were markets important in Roman towns?",
-
+        stage: "recognise",
         options: [
             "People could buy and sell goods",
             "Soldiers could train there",
@@ -389,7 +389,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "Which modern city began as a Roman settlement?",
-
+        stage: "recognise",
         options: [
             "London",
             "New York",
@@ -412,7 +412,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "What was Londinium?",
-
+        stage: "recognise",
         options: [
             "A Roman settlement that became London",
             "A Roman weapon",
@@ -435,7 +435,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "Why do historians study Roman settlements?",
-
+        stage: "recognise",
         options: [
             "To learn how people lived in Roman Britain",
             "To build new Roman towns",
@@ -458,7 +458,7 @@ export const romanSettlements: SkillContent = {
         skillId: "romanSettlements",
         question:
             "Which sentence best describes Roman settlements?",
-
+        stage: "recognise",
         options: [
             "Places where Romans built towns, forts and homes",
             "Places with no people",

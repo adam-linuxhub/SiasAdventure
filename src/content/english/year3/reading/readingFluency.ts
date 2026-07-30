@@ -21,7 +21,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "What does reading fluently mean?",
-
+        stage: "recognise",
         options: [
             "Reading smoothly, accurately and with expression",
             "Reading as quickly as possible",
@@ -44,7 +44,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "Why is it important to read with expression?",
-
+        stage: "recognise",
         options: [
             "It helps show the meaning and feelings in the text",
             "It makes every word longer",
@@ -67,7 +67,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "What should you do when you see a full stop?",
-
+        stage: "recognise",
         options: [
             "Pause briefly",
             "Keep reading without stopping",
@@ -90,7 +90,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "What should your voice do when reading a question?",
-
+        stage: "recognise",
         options: [
             "Sound like you are asking something",
             "Always become louder",
@@ -113,7 +113,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "Why should readers avoid reading every word too quickly?",
-
+        stage: "recognise",
         options: [
             "They might miss the meaning",
             "The book will disappear",
@@ -136,7 +136,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "A fluent reader should:",
-
+        stage: "recognise",
         options: [
             "Recognise many words automatically",
             "Stop after every word",
@@ -159,7 +159,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "What does punctuation help a reader know?",
-
+        stage: "recognise",
         options: [
             "When to pause and how the sentence should sound",
             "How many pages are in a book",
@@ -182,7 +182,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "Which reader is most fluent?",
-
+        stage: "recognise",
         options: [
             "A reader who reads smoothly and understands the text",
             "A reader who rushes and guesses words",
@@ -205,7 +205,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "What should you do if you do not know a word?",
-
+        stage: "recognise",
         options: [
             "Try to sound it out and use clues",
             "Always skip it",
@@ -228,7 +228,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "Why do fluent readers practise reading regularly?",
-
+        stage: "recognise",
         options: [
             "Practice helps reading become smoother",
             "Practice makes books shorter",
@@ -251,7 +251,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "Which punctuation mark tells you to pause briefly?",
-
+        stage: "recognise",
         options: [
             "Comma",
             "Question mark",
@@ -274,7 +274,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "How should you read a character speaking angrily?",
-
+        stage: "recognise",
         options: [
             "Use a voice that shows anger",
             "Read in a whisper",
@@ -297,7 +297,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "Why should you look at punctuation before reading aloud?",
-
+        stage: "recognise",
         options: [
             "It helps you know how the sentence should sound",
             "It tells you the ending",
@@ -320,7 +320,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "Which is a sign of poor fluency?",
-
+        stage: "recognise",
         options: [
             "Reading slowly word-by-word without understanding",
             "Reading smoothly",
@@ -343,7 +343,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "What should you do when reading a surprising part of a story?",
-
+        stage: "recognise",
         options: [
             "Use expression to show surprise",
             "Ignore the meaning",
@@ -366,7 +366,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "Which skill helps readers understand longer texts?",
-
+        stage: "recognise",
         options: [
             "Reading fluently",
             "Skipping words",
@@ -389,7 +389,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "When reading aloud, where should you pause?",
-
+        stage: "recognise",
         options: [
             "At punctuation marks",
             "After every letter",
@@ -412,7 +412,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "What is the best way to improve reading fluency?",
-
+        stage: "recognise",
         options: [
             "Read regularly and practise aloud",
             "Avoid reading difficult books",
@@ -435,7 +435,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "Why do fluent readers group words together?",
-
+        stage: "recognise",
         options: [
             "It helps them understand the meaning",
             "It makes sentences disappear",
@@ -458,7 +458,7 @@ export const readingFluency: SkillContent = {
         skillId: "readingFluency",
         question:
             "A good reader focuses on:",
-
+        stage: "recognise",
         options: [
             "Accuracy, expression and understanding",
             "Only reading quickly",

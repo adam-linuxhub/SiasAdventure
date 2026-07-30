@@ -21,7 +21,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What is weather?",
-
+        stage: "recognise",
         options: [
             "The condition of the atmosphere at a particular time and place",
             "The shape of the land",
@@ -44,7 +44,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "Which of these is part of the weather?",
-
+        stage: "recognise",
         options: [
             "Rain",
             "A mountain",
@@ -67,7 +67,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What is temperature?",
-
+        stage: "recognise",
         options: [
             "How hot or cold something is",
             "How much rain falls",
@@ -90,7 +90,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What instrument measures temperature?",
-
+        stage: "recognise",
         options: [
             "A thermometer",
             "A compass",
@@ -113,7 +113,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What is rainfall?",
-
+        stage: "recognise",
         options: [
             "The amount of rain that falls",
             "The speed of wind",
@@ -136,7 +136,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What instrument measures rainfall?",
-
+        stage: "recognise",
         options: [
             "A rain gauge",
             "A thermometer",
@@ -159,7 +159,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What is wind?",
-
+        stage: "recognise",
         options: [
             "Moving air",
             "Falling water",
@@ -182,7 +182,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What instrument measures wind speed?",
-
+        stage: "recognise",
         options: [
             "An anemometer",
             "A thermometer",
@@ -205,7 +205,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What are clouds made from?",
-
+        stage: "recognise",
         options: [
             "Tiny water droplets or ice crystals",
             "Smoke",
@@ -228,7 +228,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "Why does weather change?",
-
+        stage: "recognise",
         options: [
             "The atmosphere is constantly changing",
             "The Earth stops moving",
@@ -251,7 +251,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What is climate?",
-
+        stage: "recognise",
         options: [
             "The usual weather conditions of a place over a long time",
             "The weather today only",
@@ -274,7 +274,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What is the difference between weather and climate?",
-
+        stage: "recognise",
         options: [
             "Weather changes quickly, while climate describes long-term patterns",
             "They are exactly the same",
@@ -297,7 +297,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What type of weather includes sunshine?",
-
+        stage: "recognise",
         options: [
             "Sunny weather",
             "Stormy weather",
@@ -320,7 +320,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What is a storm?",
-
+        stage: "recognise",
         options: [
             "A period of very strong or extreme weather",
             "A type of mountain",
@@ -343,7 +343,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "Why do people study weather?",
-
+        stage: "recognise",
         options: [
             "To help plan activities and prepare for conditions",
             "To change the weather",
@@ -366,7 +366,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What is a weather forecast?",
-
+        stage: "recognise",
         options: [
             "A prediction of future weather conditions",
             "A map of mountains",
@@ -389,7 +389,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "What causes seasons?",
-
+        stage: "recognise",
         options: [
             "The Earth's tilt as it moves around the Sun",
             "Changes in rivers",
@@ -412,7 +412,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "Why can weather be different in two places on the same day?",
-
+        stage: "recognise",
         options: [
             "Places have different locations and conditions",
             "The weather is always identical",
@@ -435,7 +435,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "Which of these is a weather measurement?",
-
+        stage: "recognise",
         options: [
             "Temperature",
             "Population",
@@ -458,7 +458,7 @@ export const weatherBasics: SkillContent = {
         skillId: "weatherBasics",
         question:
             "Which sentence best describes weather?",
-
+        stage: "recognise",
         options: [
             "Weather describes the conditions of the atmosphere at a certain time and place",
             "Weather never changes",

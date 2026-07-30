@@ -21,7 +21,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What are the three main stages of a river?",
-
+        stage: "recognise",
         options: [
             "Upper course, middle course and lower course",
             "Beginning, top and bottom",
@@ -44,7 +44,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "Where is the upper course of a river found?",
-
+        stage: "recognise",
         options: [
             "Near the source in higher land",
             "Near the sea",
@@ -67,7 +67,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What is the river usually like in the upper course?",
-
+        stage: "recognise",
         options: [
             "Narrow and fast flowing",
             "Very wide and slow",
@@ -90,7 +90,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What is a waterfall?",
-
+        stage: "recognise",
         options: [
             "Water falling over a steep drop",
             "A river drying up",
@@ -113,7 +113,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What causes erosion?",
-
+        stage: "recognise",
         options: [
             "Moving water wearing away rock and soil",
             "Plants growing",
@@ -136,7 +136,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What happens during erosion?",
-
+        stage: "recognise",
         options: [
             "Material is worn away and moved",
             "New mountains are created instantly",
@@ -159,7 +159,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What is a meander?",
-
+        stage: "recognise",
         options: [
             "A bend in a river",
             "The start of a river",
@@ -182,7 +182,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "Where are meanders commonly found?",
-
+        stage: "recognise",
         options: [
             "In the middle and lower courses of rivers",
             "Only at river sources",
@@ -205,7 +205,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What is deposition?",
-
+        stage: "recognise",
         options: [
             "When a river drops material it is carrying",
             "When a river starts",
@@ -228,7 +228,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "Where does deposition often happen?",
-
+        stage: "recognise",
         options: [
             "Where the river slows down",
             "Only at the source",
@@ -251,7 +251,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What is the middle course of a river like?",
-
+        stage: "recognise",
         options: [
             "Wider with more bends",
             "Always completely straight",
@@ -274,7 +274,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What is the lower course of a river like?",
-
+        stage: "recognise",
         options: [
             "Wide and slower near the mouth",
             "Narrow and steep",
@@ -297,7 +297,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What happens to a river as it travels downstream?",
-
+        stage: "recognise",
         options: [
             "It usually becomes wider and deeper",
             "It becomes a mountain",
@@ -320,7 +320,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What is a valley?",
-
+        stage: "recognise",
         options: [
             "Low land between hills or mountains",
             "A river source",
@@ -343,7 +343,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "How can rivers change landscapes?",
-
+        stage: "recognise",
         options: [
             "By eroding and depositing material",
             "By stopping weather",
@@ -366,7 +366,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "Why are rivers faster in the upper course?",
-
+        stage: "recognise",
         options: [
             "They often flow down steep slopes",
             "They have no water",
@@ -389,7 +389,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "What is an oxbow lake?",
-
+        stage: "recognise",
         options: [
             "A curved lake formed from a cut-off meander",
             "A lake at a river source",
@@ -412,7 +412,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "Why do rivers have different features?",
-
+        stage: "recognise",
         options: [
             "Water changes the land as it flows",
             "All rivers are identical",
@@ -435,7 +435,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "Which feature is found where a river ends?",
-
+        stage: "recognise",
         options: [
             "The mouth",
             "The source",
@@ -458,7 +458,7 @@ export const riverFeatures: SkillContent = {
         skillId: "riverFeatures",
         question:
             "Which sentence best describes a river's journey?",
-
+        stage: "recognise",
         options: [
             "A river starts at its source, flows through the land and ends at its mouth",
             "A river starts at the sea and climbs mountains",

@@ -20,7 +20,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-001",
         skillId: "howSoundsAreMade",
         question: "What causes a sound to be made?",
-
+        stage: "recognise",
         options: [
             "Vibrations",
             "Light",
@@ -42,7 +42,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-002",
         skillId: "howSoundsAreMade",
         question: "What happens when you hit a drum?",
-
+        stage: "recognise",
         options: [
             "The drum skin vibrates.",
             "The drum melts.",
@@ -64,7 +64,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-003",
         skillId: "howSoundsAreMade",
         question: "Which object is vibrating when a guitar is played?",
-
+        stage: "recognise",
         options: [
             "The strings",
             "The tuning pegs",
@@ -86,7 +86,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-004",
         skillId: "howSoundsAreMade",
         question: "What do vibrations travel through to reach your ears?",
-
+        stage: "recognise",
         options: [
             "The air",
             "Sunlight",
@@ -108,7 +108,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-005",
         skillId: "howSoundsAreMade",
         question: "Which of these makes sound by vibrating?",
-
+        stage: "recognise",
         options: [
             "A bell",
             "A shadow",
@@ -130,7 +130,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-006",
         skillId: "howSoundsAreMade",
         question: "What part of your body detects sound?",
-
+        stage: "recognise",
         options: [
             "Ears",
             "Eyes",
@@ -152,7 +152,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-007",
         skillId: "howSoundsAreMade",
         question: "What happens when an object stops vibrating?",
-
+        stage: "recognise",
         options: [
             "The sound stops.",
             "The sound gets louder.",
@@ -174,7 +174,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-008",
         skillId: "howSoundsAreMade",
         question: "Which musical instrument makes sound using vibrating strings?",
-
+        stage: "recognise",
         options: [
             "Violin",
             "Drum",
@@ -196,7 +196,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-009",
         skillId: "howSoundsAreMade",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Sound is made by vibrations.",
             "Sound is made by light.",
@@ -218,7 +218,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-010",
         skillId: "howSoundsAreMade",
         question: "What carries sound from a ringing bell to your ears?",
-
+        stage: "recognise",
         options: [
             "Vibrations travelling through the air",
             "Light rays",
@@ -240,7 +240,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-011",
         skillId: "howSoundsAreMade",
         question: "Why can you hear someone clapping their hands?",
-
+        stage: "recognise",
         options: [
             "The clapping makes vibrations that travel through the air.",
             "The hands produce light.",
@@ -262,7 +262,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-012",
         skillId: "howSoundsAreMade",
         question: "What is vibrating when someone speaks?",
-
+        stage: "recognise",
         options: [
             "Their vocal cords",
             "Their teeth",
@@ -284,7 +284,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-013",
         skillId: "howSoundsAreMade",
         question: "Which object would make a sound if it vibrated?",
-
+        stage: "recognise",
         options: [
             "A ruler hanging over the edge of a table",
             "A painted wall",
@@ -306,7 +306,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-014",
         skillId: "howSoundsAreMade",
         question: "Why is a drum quieter after you place your hand on it?",
-
+        stage: "recognise",
         options: [
             "Your hand stops the drum vibrating.",
             "The drum becomes colder.",
@@ -328,7 +328,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-015",
         skillId: "howSoundsAreMade",
         question: "Which sentence explains how sound reaches your ears?",
-
+        stage: "recognise",
         options: [
             "Vibrations travel through the air to your ears.",
             "Light carries sound.",
@@ -350,7 +350,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-016",
         skillId: "howSoundsAreMade",
         question: "Why does plucking a guitar string make a sound?",
-
+        stage: "recognise",
         options: [
             "The string vibrates.",
             "The string melts.",
@@ -372,7 +372,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-017",
         skillId: "howSoundsAreMade",
         question: "Which activity would produce the loudest sound?",
-
+        stage: "recognise",
         options: [
             "Hitting a drum firmly",
             "Touching a drum gently without moving it",
@@ -394,7 +394,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-018",
         skillId: "howSoundsAreMade",
         question: "What must happen before any sound can be heard?",
-
+        stage: "recognise",
         options: [
             "Something must vibrate.",
             "Something must glow.",
@@ -416,7 +416,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-019",
         skillId: "howSoundsAreMade",
         question: "Why can people hear a school bell from across the playground?",
-
+        stage: "recognise",
         options: [
             "The sound vibrations travel through the air.",
             "The bell sends out light.",
@@ -438,7 +438,7 @@ export const howSoundsAreMade: SkillContent = {
         id: "sci-sound-020",
         skillId: "howSoundsAreMade",
         question: "Which sentence best describes how sounds are made?",
-
+        stage: "recognise",
         options: [
             "Sounds are made when objects vibrate and the vibrations travel through a material to our ears.",
             "Sounds are made by light travelling through the air.",

@@ -20,7 +20,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-001",
         skillId: "changingState",
         question: "What is it called when a solid turns into a liquid?",
-
+        stage: "recognise",
         options: [
             "Melting",
             "Freezing",
@@ -42,7 +42,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-002",
         skillId: "changingState",
         question: "What is it called when a liquid turns into a solid?",
-
+        stage: "recognise",
         options: [
             "Freezing",
             "Melting",
@@ -64,7 +64,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-003",
         skillId: "changingState",
         question: "Ice changing into water is an example of...",
-
+        stage: "recognise",
         options: [
             "Melting",
             "Freezing",
@@ -86,7 +86,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-004",
         skillId: "changingState",
         question: "Water changing into ice is called...",
-
+        stage: "recognise",
         options: [
             "Freezing",
             "Melting",
@@ -108,7 +108,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-005",
         skillId: "changingState",
         question: "What happens to water when it boils?",
-
+        stage: "recognise",
         options: [
             "It changes into a gas.",
             "It changes into a solid.",
@@ -130,7 +130,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-006",
         skillId: "changingState",
         question: "What is water vapour?",
-
+        stage: "recognise",
         options: [
             "A gas",
             "A liquid",
@@ -152,7 +152,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-007",
         skillId: "changingState",
         question: "Which process needs heating?",
-
+        stage: "recognise",
         options: [
             "Melting",
             "Freezing",
@@ -174,7 +174,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-008",
         skillId: "changingState",
         question: "Which process needs cooling?",
-
+        stage: "recognise",
         options: [
             "Freezing",
             "Boiling",
@@ -196,7 +196,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-009",
         skillId: "changingState",
         question: "What happens when melted chocolate cools?",
-
+        stage: "recognise",
         options: [
             "It becomes solid again.",
             "It becomes a gas.",
@@ -218,7 +218,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-010",
         skillId: "changingState",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Heating and cooling can change the state of matter.",
             "Matter can never change state.",
@@ -240,7 +240,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-011",
         skillId: "changingState",
         question: "Why does an ice cube melt on a warm day?",
-
+        stage: "recognise",
         options: [
             "It gains heat from its surroundings.",
             "It loses all its water.",
@@ -262,7 +262,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-012",
         skillId: "changingState",
         question: "Why does water freeze in a freezer?",
-
+        stage: "recognise",
         options: [
             "It loses heat.",
             "It gains heat.",
@@ -284,7 +284,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-013",
         skillId: "changingState",
         question: "Which sequence is correct?",
-
+        stage: "recognise",
         options: [
             "Ice → Water → Water vapour",
             "Water → Ice → Water vapour",
@@ -306,7 +306,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-014",
         skillId: "changingState",
         question: "What happens when water vapour cools?",
-
+        stage: "recognise",
         options: [
             "It condenses into liquid water.",
             "It freezes into ice immediately.",
@@ -328,7 +328,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-015",
         skillId: "changingState",
         question: "What causes butter to melt in a hot pan?",
-
+        stage: "recognise",
         options: [
             "Heating",
             "Cooling",
@@ -350,7 +350,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-016",
         skillId: "changingState",
         question: "Which process changes a liquid into a gas?",
-
+        stage: "recognise",
         options: [
             "Boiling",
             "Freezing",
@@ -372,7 +372,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-017",
         skillId: "changingState",
         question: "Why does melted ice cream become solid again in the freezer?",
-
+        stage: "recognise",
         options: [
             "It loses heat and freezes.",
             "It gains heat.",
@@ -394,7 +394,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-018",
         skillId: "changingState",
         question: "What is condensation?",
-
+        stage: "recognise",
         options: [
             "A gas changing into a liquid",
             "A liquid changing into a gas",
@@ -416,7 +416,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-019",
         skillId: "changingState",
         question: "Which process happens when puddles slowly disappear on a warm day?",
-
+        stage: "recognise",
         options: [
             "Evaporation",
             "Freezing",
@@ -438,7 +438,7 @@ export const changingState: SkillContent = {
         id: "sci-changing-state-020",
         skillId: "changingState",
         question: "Which sentence best describes changes of state?",
-
+        stage: "recognise",
         options: [
             "Heating and cooling can change matter between solids, liquids and gases.",
             "Matter can only be a solid.",

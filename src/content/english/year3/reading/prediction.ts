@@ -21,7 +21,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nDark clouds covered the sky. Mia picked up her umbrella before leaving the house.\n\nWhat will probably happen next?",
-
+        stage: "recognise",
         options: [
             "It will rain.",
             "It will snow.",
@@ -44,7 +44,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nBen mixed flour, eggs and milk in a bowl.\n\nWhat will Ben probably do next?",
-
+        stage: "recognise",
         options: [
             "Cook the mixture.",
             "Plant flowers.",
@@ -67,7 +67,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nThe school bell rang and the children packed away their books.\n\nWhat will probably happen next?",
-
+        stage: "recognise",
         options: [
             "They will leave the classroom.",
             "They will start another lesson.",
@@ -90,7 +90,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nThe puppy ran to its bowl and wagged its tail when Sam opened a tin of dog food.\n\nWhat will probably happen next?",
-
+        stage: "recognise",
         options: [
             "The puppy will eat.",
             "The puppy will go swimming.",
@@ -113,7 +113,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nLily put on her swimming costume and goggles.\n\nWhat will she probably do next?",
-
+        stage: "recognise",
         options: [
             "Go swimming.",
             "Play football.",
@@ -136,7 +136,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nJake carefully watered the tiny plant every day.\n\nWhat will probably happen after a few weeks?",
-
+        stage: "recognise",
         options: [
             "The plant will grow.",
             "The plant will disappear.",
@@ -159,7 +159,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nTom forgot to charge his tablet before a long journey.\n\nWhat is likely to happen?",
-
+        stage: "recognise",
         options: [
             "The battery may run out.",
             "The tablet will grow bigger.",
@@ -182,7 +182,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nEmma practised her spelling every evening before the test.\n\nWhat is likely to happen?",
-
+        stage: "recognise",
         options: [
             "She may do well in the test.",
             "She will forget how to read.",
@@ -205,7 +205,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nThe football rolled towards the road.\n\nWhat will the children probably do?",
-
+        stage: "recognise",
         options: [
             "Run to stop it safely.",
             "Start eating lunch.",
@@ -228,7 +228,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "What is a prediction?",
-
+        stage: "recognise",
         options: [
             "A sensible guess about what will happen next",
             "A list of difficult words",
@@ -251,7 +251,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nSophie carried wrapping paper, tape and a birthday card into her room.\n\nWhat will Sophie probably do next?",
-
+        stage: "recognise",
         options: [
             "Wrap a present.",
             "Plant a tree.",
@@ -274,7 +274,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nThe audience became quiet and the lights dimmed.\n\nWhat will probably happen next?",
-
+        stage: "recognise",
         options: [
             "The show will begin.",
             "Everyone will leave.",
@@ -297,7 +297,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nThe baker placed the tray of biscuits into the oven.\n\nWhat will probably happen next?",
-
+        stage: "recognise",
         options: [
             "The biscuits will bake.",
             "The biscuits will freeze.",
@@ -320,7 +320,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nNoah zipped up his tent as the sky became darker.\n\nWhat will probably happen next?",
-
+        stage: "recognise",
         options: [
             "He will go to sleep.",
             "He will start school.",
@@ -343,7 +343,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nThe referee blew the whistle and pointed to the centre circle.\n\nWhat probably happened?",
-
+        stage: "recognise",
         options: [
             "A goal was scored.",
             "It started snowing.",
@@ -366,7 +366,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nOlivia checked the recipe one more time before turning on the oven.\n\nWhat will she probably do next?",
-
+        stage: "recognise",
         options: [
             "Start cooking.",
             "Go swimming.",
@@ -389,7 +389,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nThe clouds cleared and the sun came out.\n\nWhat will probably happen to the ground?",
-
+        stage: "recognise",
         options: [
             "It will begin to dry.",
             "It will become snowier.",
@@ -412,7 +412,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Read the passage:\n\nThe hamster scratched at the side of its empty food bowl.\n\nWhat will probably happen next?",
-
+        stage: "recognise",
         options: [
             "Someone will feed the hamster.",
             "The hamster will start driving.",
@@ -435,7 +435,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "Which prediction is best supported by clues in a story?",
-
+        stage: "recognise",
         options: [
             "A prediction that matches the evidence in the text",
             "A random guess",
@@ -458,7 +458,7 @@ export const prediction: SkillContent = {
         skillId: "prediction",
         question:
             "When making a prediction while reading, what should you use?",
-
+        stage: "recognise",
         options: [
             "Clues from the text and your own knowledge",
             "Only the title",

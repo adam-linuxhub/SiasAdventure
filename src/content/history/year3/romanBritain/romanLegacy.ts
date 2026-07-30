@@ -21,7 +21,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "What does 'legacy' mean?",
-
+        stage: "recognise",
         options: [
             "Something left behind from the past",
             "Something that has not happened yet",
@@ -44,7 +44,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "What did the Romans leave behind in Britain?",
-
+        stage: "recognise",
         options: [
             "Roads, towns and buildings",
             "Cars and trains",
@@ -67,7 +67,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Why are Roman roads important today?",
-
+        stage: "recognise",
         options: [
             "They show Roman engineering skills and some routes are still used",
             "They were built recently",
@@ -90,7 +90,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Which city began as a Roman settlement called Londinium?",
-
+        stage: "recognise",
         options: [
             "London",
             "Manchester",
@@ -113,7 +113,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "What language did the Romans use that influenced English?",
-
+        stage: "recognise",
         options: [
             "Latin",
             "Egyptian",
@@ -136,7 +136,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "What did Romans build that improved travel?",
-
+        stage: "recognise",
         options: [
             "Roads and bridges",
             "Airports",
@@ -159,7 +159,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "What is archaeology?",
-
+        stage: "recognise",
         options: [
             "The study of the past through remains and objects",
             "The study of future technology",
@@ -182,7 +182,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Why do we know about Roman Britain today?",
-
+        stage: "recognise",
         options: [
             "Because of evidence such as ruins, objects and writing",
             "Because Romans are still alive",
@@ -205,7 +205,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Which Roman building can still be seen in some places today?",
-
+        stage: "recognise",
         options: [
             "Baths",
             "Shopping centres",
@@ -228,7 +228,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "How did Romans change Britain?",
-
+        stage: "recognise",
         options: [
             "They introduced new buildings, roads and customs",
             "They made no changes",
@@ -251,7 +251,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Why are Roman ruins valuable evidence?",
-
+        stage: "recognise",
         options: [
             "They help historians understand Roman life",
             "They show the future",
@@ -274,7 +274,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Which modern idea was influenced by Roman organisation?",
-
+        stage: "recognise",
         options: [
             "Planning towns and roads",
             "Space travel",
@@ -297,7 +297,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Why did Roman towns become important?",
-
+        stage: "recognise",
         options: [
             "They became centres for trade and community life",
             "Nobody lived there",
@@ -320,7 +320,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "What evidence might be found at a Roman site?",
-
+        stage: "recognise",
         options: [
             "Coins, pottery and buildings",
             "Modern phones",
@@ -343,7 +343,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Why are Roman roads an example of a legacy?",
-
+        stage: "recognise",
         options: [
             "They continue to influence travel today",
             "They disappeared immediately",
@@ -366,7 +366,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "What did Romans introduce to Britain?",
-
+        stage: "recognise",
         options: [
             "New ways of building, writing and organising society",
             "Modern technology",
@@ -389,7 +389,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Why do historians compare evidence from different sources?",
-
+        stage: "recognise",
         options: [
             "To build a clearer understanding of the past",
             "To remove evidence",
@@ -412,7 +412,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Which is an example of Roman influence on Britain?",
-
+        stage: "recognise",
         options: [
             "Roads and towns",
             "Modern computers",
@@ -435,7 +435,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Why is Roman Britain still studied today?",
-
+        stage: "recognise",
         options: [
             "It helped shape parts of Britain today",
             "It happened recently",
@@ -458,7 +458,7 @@ export const romanLegacy: SkillContent = {
         skillId: "romanLegacy",
         question:
             "Which sentence best describes the Roman legacy in Britain?",
-
+        stage: "recognise",
         options: [
             "The Romans left lasting changes in roads, towns and culture",
             "The Romans had no effect",

@@ -20,7 +20,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-001",
         skillId: "antonyms",
         question: "Which word is the opposite of 'hot'?",
-
+        stage: "recognise",
         options: [
             "cold",
             "warm",
@@ -42,7 +42,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-002",
         skillId: "antonyms",
         question: "Which word is the opposite of 'big'?",
-
+        stage: "recognise",
         options: [
             "small",
             "large",
@@ -64,7 +64,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-003",
         skillId: "antonyms",
         question: "Which word is the opposite of 'happy'?",
-
+        stage: "recognise",
         options: [
             "sad",
             "glad",
@@ -86,7 +86,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-004",
         skillId: "antonyms",
         question: "Which word is the opposite of 'fast'?",
-
+        stage: "recognise",
         options: [
             "slow",
             "quick",
@@ -108,7 +108,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-005",
         skillId: "antonyms",
         question: "Which word is the opposite of 'up'?",
-
+        stage: "recognise",
         options: [
             "down",
             "high",
@@ -130,7 +130,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-006",
         skillId: "antonyms",
         question: "Which word is the opposite of 'day'?",
-
+        stage: "recognise",
         options: [
             "night",
             "morning",
@@ -152,7 +152,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-007",
         skillId: "antonyms",
         question: "Which word is the opposite of 'full'?",
-
+        stage: "recognise",
         options: [
             "empty",
             "filled",
@@ -174,7 +174,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-008",
         skillId: "antonyms",
         question: "Which word is the opposite of 'young'?",
-
+        stage: "recognise",
         options: [
             "old",
             "new",
@@ -196,7 +196,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-009",
         skillId: "antonyms",
         question: "Which word is the opposite of 'open'?",
-
+        stage: "recognise",
         options: [
             "closed",
             "wide",
@@ -218,7 +218,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-010",
         skillId: "antonyms",
         question: "What are antonyms?",
-
+        stage: "recognise",
         options: [
             "Words with opposite meanings",
             "Words with the same meaning",
@@ -240,7 +240,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-011",
         skillId: "antonyms",
         question: "Choose the antonym of 'early'.",
-
+        stage: "recognise",
         options: [
             "late",
             "soon",
@@ -262,7 +262,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-012",
         skillId: "antonyms",
         question: "Choose the antonym of 'light' (not heavy).",
-
+        stage: "recognise",
         options: [
             "heavy",
             "bright",
@@ -284,7 +284,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-013",
         skillId: "antonyms",
         question: "Which pair of words are antonyms?",
-
+        stage: "recognise",
         options: [
             "happy and sad",
             "big and large",
@@ -306,7 +306,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-014",
         skillId: "antonyms",
         question: "Complete the sentence: 'The bucket was full, but now it is ______.'",
-
+        stage: "recognise",
         options: [
             "empty",
             "full",
@@ -328,7 +328,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-015",
         skillId: "antonyms",
         question: "Which pair of words are antonyms?",
-
+        stage: "recognise",
         options: [
             "up and down",
             "cold and chilly",
@@ -350,7 +350,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-016",
         skillId: "antonyms",
         question: "Which word could replace 'slow' with its opposite?",
-
+        stage: "recognise",
         options: [
             "fast",
             "careful",
@@ -372,7 +372,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-017",
         skillId: "antonyms",
         question: "Which sentence uses antonyms correctly?",
-
+        stage: "recognise",
         options: [
             "The kitten was small, but the dog was big.",
             "The kitten was small, but the dog was tiny.",
@@ -394,7 +394,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-018",
         skillId: "antonyms",
         question: "Why do writers use antonyms?",
-
+        stage: "recognise",
         options: [
             "To compare opposite ideas",
             "To make words rhyme",
@@ -416,7 +416,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-019",
         skillId: "antonyms",
         question: "Choose the antonym of 'clean'.",
-
+        stage: "recognise",
         options: [
             "dirty",
             "tidy",
@@ -438,7 +438,7 @@ export const antonyms: SkillContent = {
         id: "eng-ant-020",
         skillId: "antonyms",
         question: "Which sentence uses antonyms correctly?",
-
+        stage: "recognise",
         options: [
             "The soup was hot, but the ice cream was cold.",
             "The soup was hot, but the tea was warm.",

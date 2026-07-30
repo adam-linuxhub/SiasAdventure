@@ -20,7 +20,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-001",
         skillId: "suffixesLy",
         question: "What does the suffix '-ly' often turn an adjective into?",
-
+        stage: "recognise",
         options: [
             "An adverb",
             "A noun",
@@ -42,7 +42,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-002",
         skillId: "suffixesLy",
         question: "Which word is made by adding '-ly' to 'quick'?",
-
+        stage: "recognise",
         options: [
             "quickly",
             "quicker",
@@ -64,7 +64,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-003",
         skillId: "suffixesLy",
         question: "Which word is made by adding '-ly' to 'slow'?",
-
+        stage: "recognise",
         options: [
             "slowly",
             "slower",
@@ -86,7 +86,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-004",
         skillId: "suffixesLy",
         question: "Which word is spelled correctly?",
-
+        stage: "recognise",
         options: [
             "carefully",
             "carefuly",
@@ -108,7 +108,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-005",
         skillId: "suffixesLy",
         question: "Which word means 'in a happy way'?",
-
+        stage: "recognise",
         options: [
             "happily",
             "happy",
@@ -130,7 +130,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-006",
         skillId: "suffixesLy",
         question: "Which word means 'in a loud way'?",
-
+        stage: "recognise",
         options: [
             "loudly",
             "loud",
@@ -152,7 +152,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-007",
         skillId: "suffixesLy",
         question: "Which sentence uses an '-ly' word correctly?",
-
+        stage: "recognise",
         options: [
             "The rabbit ran quickly.",
             "The rabbit ran quick.",
@@ -174,7 +174,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-008",
         skillId: "suffixesLy",
         question: "Which word is formed from 'kind'?",
-
+        stage: "recognise",
         options: [
             "kindly",
             "kindness",
@@ -196,7 +196,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-009",
         skillId: "suffixesLy",
         question: "Which word ends with '-ly'?",
-
+        stage: "recognise",
         options: [
             "softly",
             "soft",
@@ -218,7 +218,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-010",
         skillId: "suffixesLy",
         question: "What do many '-ly' words describe?",
-
+        stage: "recognise",
         options: [
             "How something happens",
             "Who someone is",
@@ -240,7 +240,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-011",
         skillId: "suffixesLy",
         question: "Complete the sentence: 'The baby slept ______.'",
-
+        stage: "recognise",
         options: [
             "peacefully",
             "peaceful",
@@ -262,7 +262,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-012",
         skillId: "suffixesLy",
         question: "Complete the sentence: 'Please listen ______.'",
-
+        stage: "recognise",
         options: [
             "carefully",
             "careful",
@@ -284,7 +284,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-013",
         skillId: "suffixesLy",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "The tortoise walked slowly.",
             "The tortoise walked slow.",
@@ -306,7 +306,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-014",
         skillId: "suffixesLy",
         question: "Which word tells us how the girl smiled?",
-
+        stage: "recognise",
         options: [
             "happily",
             "happy",
@@ -328,7 +328,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-015",
         skillId: "suffixesLy",
         question: "Which sentence uses an '-ly' word correctly?",
-
+        stage: "recognise",
         options: [
             "The class worked quietly.",
             "The class worked quiet.",
@@ -350,7 +350,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-016",
         skillId: "suffixesLy",
         question: "Which word is formed by adding '-ly' to 'brave'?",
-
+        stage: "recognise",
         options: [
             "bravely",
             "braveness",
@@ -372,7 +372,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-017",
         skillId: "suffixesLy",
         question: "Which sentence uses the correct spelling?",
-
+        stage: "recognise",
         options: [
             "The children played happily together.",
             "The children played happyly together.",
@@ -394,7 +394,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-018",
         skillId: "suffixesLy",
         question: "Which sentence uses an adverb ending in '-ly'?",
-
+        stage: "recognise",
         options: [
             "The puppy barked loudly.",
             "The puppy barked loud.",
@@ -416,7 +416,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-019",
         skillId: "suffixesLy",
         question: "Why do writers use many '-ly' words?",
-
+        stage: "recognise",
         options: [
             "To describe how actions happen",
             "To ask questions",
@@ -438,7 +438,7 @@ export const suffixesLy: SkillContent = {
         id: "eng-ly-020",
         skillId: "suffixesLy",
         question: "Which sentence contains two correctly spelled '-ly' words?",
-
+        stage: "recognise",
         options: [
             "The birds sang beautifully and loudly.",
             "The birds sang beautifuly and loudly.",

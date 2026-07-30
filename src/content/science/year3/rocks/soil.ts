@@ -20,7 +20,7 @@ export const soil: SkillContent = {
         id: "sci-soil-001",
         skillId: "soil",
         question: "What is soil?",
-
+        stage: "recognise",
         options: [
             "A mixture of tiny pieces of rock, air, water and dead plants and animals",
             "Only tiny rocks",
@@ -42,7 +42,7 @@ export const soil: SkillContent = {
         id: "sci-soil-002",
         skillId: "soil",
         question: "Where do most plants grow?",
-
+        stage: "recognise",
         options: [
             "In soil",
             "On clouds",
@@ -64,7 +64,7 @@ export const soil: SkillContent = {
         id: "sci-soil-003",
         skillId: "soil",
         question: "What helps to make soil over a long time?",
-
+        stage: "recognise",
         options: [
             "Broken rocks",
             "Plastic",
@@ -86,7 +86,7 @@ export const soil: SkillContent = {
         id: "sci-soil-004",
         skillId: "soil",
         question: "Which of these is a type of soil?",
-
+        stage: "recognise",
         options: [
             "Clay",
             "Concrete",
@@ -108,7 +108,7 @@ export const soil: SkillContent = {
         id: "sci-soil-005",
         skillId: "soil",
         question: "Which soil is made of large grains?",
-
+        stage: "recognise",
         options: [
             "Sandy soil",
             "Clay soil",
@@ -130,7 +130,7 @@ export const soil: SkillContent = {
         id: "sci-soil-006",
         skillId: "soil",
         question: "Which soil feels sticky when it is wet?",
-
+        stage: "recognise",
         options: [
             "Clay soil",
             "Sandy soil",
@@ -152,7 +152,7 @@ export const soil: SkillContent = {
         id: "sci-soil-007",
         skillId: "soil",
         question: "Why is soil important?",
-
+        stage: "recognise",
         options: [
             "It helps plants grow",
             "It makes the Sun shine",
@@ -174,7 +174,7 @@ export const soil: SkillContent = {
         id: "sci-soil-008",
         skillId: "soil",
         question: "Which living thing might live in soil?",
-
+        stage: "recognise",
         options: [
             "Earthworm",
             "Shark",
@@ -196,7 +196,7 @@ export const soil: SkillContent = {
         id: "sci-soil-009",
         skillId: "soil",
         question: "What can be found in healthy soil?",
-
+        stage: "recognise",
         options: [
             "Tiny living organisms",
             "Only rocks",
@@ -218,7 +218,7 @@ export const soil: SkillContent = {
         id: "sci-soil-010",
         skillId: "soil",
         question: "Why do roots grow into soil?",
-
+        stage: "recognise",
         options: [
             "To take in water and nutrients",
             "To reach the clouds",
@@ -240,7 +240,7 @@ export const soil: SkillContent = {
         id: "sci-soil-011",
         skillId: "soil",
         question: "Which soil lets water pass through it most quickly?",
-
+        stage: "recognise",
         options: [
             "Sandy soil",
             "Clay soil",
@@ -262,7 +262,7 @@ export const soil: SkillContent = {
         id: "sci-soil-012",
         skillId: "soil",
         question: "Which soil holds the most water?",
-
+        stage: "recognise",
         options: [
             "Clay soil",
             "Sandy soil",
@@ -284,7 +284,7 @@ export const soil: SkillContent = {
         id: "sci-soil-013",
         skillId: "soil",
         question: "How is soil formed?",
-
+        stage: "recognise",
         options: [
             "Rocks break down over many years",
             "Trees turn into soil overnight",
@@ -306,7 +306,7 @@ export const soil: SkillContent = {
         id: "sci-soil-014",
         skillId: "soil",
         question: "Why do gardeners often add compost to soil?",
-
+        stage: "recognise",
         options: [
             "To add nutrients for plants",
             "To make rocks harder",
@@ -328,7 +328,7 @@ export const soil: SkillContent = {
         id: "sci-soil-015",
         skillId: "soil",
         question: "Which soil would be best for a cactus?",
-
+        stage: "recognise",
         options: [
             "Sandy soil",
             "Clay soil",
@@ -350,7 +350,7 @@ export const soil: SkillContent = {
         id: "sci-soil-016",
         skillId: "soil",
         question: "What do earthworms do that helps soil?",
-
+        stage: "recognise",
         options: [
             "They mix and loosen it",
             "They turn it into rock",
@@ -372,7 +372,7 @@ export const soil: SkillContent = {
         id: "sci-soil-017",
         skillId: "soil",
         question: "Why is air in soil important?",
-
+        stage: "recognise",
         options: [
             "Plant roots need air to stay healthy",
             "It makes rocks grow",
@@ -394,7 +394,7 @@ export const soil: SkillContent = {
         id: "sci-soil-018",
         skillId: "soil",
         question: "Which statement about soil is true?",
-
+        stage: "recognise",
         options: [
             "Different soils have different properties",
             "All soils are exactly the same",
@@ -416,7 +416,7 @@ export const soil: SkillContent = {
         id: "sci-soil-019",
         skillId: "soil",
         question: "Why is healthy soil important for farming?",
-
+        stage: "recognise",
         options: [
             "It helps crops grow well",
             "It makes rain fall",
@@ -438,7 +438,7 @@ export const soil: SkillContent = {
         id: "sci-soil-020",
         skillId: "soil",
         question: "Which sentence best describes soil?",
-
+        stage: "recognise",
         options: [
             "It is a mixture that supports plants and many living things",
             "It is only broken rock",

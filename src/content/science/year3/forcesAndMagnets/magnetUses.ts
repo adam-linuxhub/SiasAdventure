@@ -20,7 +20,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-001",
         skillId: "magnetUses",
         question: "Which object commonly uses a magnet?",
-
+        stage: "recognise",
         options: [
             "A fridge door",
             "A pillow",
@@ -42,7 +42,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-002",
         skillId: "magnetUses",
         question: "Why do people put magnets on a fridge?",
-
+        stage: "recognise",
         options: [
             "To hold notes or pictures",
             "To make food colder",
@@ -64,7 +64,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-003",
         skillId: "magnetUses",
         question: "Which tool can use a magnet to pick up metal objects?",
-
+        stage: "recognise",
         options: [
             "A magnetic pickup tool",
             "A paintbrush",
@@ -86,7 +86,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-004",
         skillId: "magnetUses",
         question: "Which object is most likely to use magnets to stay closed?",
-
+        stage: "recognise",
         options: [
             "A cupboard door",
             "A balloon",
@@ -108,7 +108,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-005",
         skillId: "magnetUses",
         question: "Why might a scrapyard use a large magnet?",
-
+        stage: "recognise",
         options: [
             "To lift metal",
             "To wash cars",
@@ -130,7 +130,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-006",
         skillId: "magnetUses",
         question: "Which of these is a good use for a magnet?",
-
+        stage: "recognise",
         options: [
             "Picking up paper clips",
             "Cutting wood",
@@ -152,7 +152,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-007",
         skillId: "magnetUses",
         question: "Which everyday object often contains a magnet?",
-
+        stage: "recognise",
         options: [
             "A fridge magnet",
             "A paper cup",
@@ -174,7 +174,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-008",
         skillId: "magnetUses",
         question: "Why are magnets useful for finding dropped paper clips?",
-
+        stage: "recognise",
         options: [
             "They attract the metal paper clips",
             "They make them bigger",
@@ -196,7 +196,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-009",
         skillId: "magnetUses",
         question: "Which object would a magnet NOT help you pick up?",
-
+        stage: "recognise",
         options: [
             "A wooden block",
             "A steel screw",
@@ -218,7 +218,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-010",
         skillId: "magnetUses",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Magnets have many useful everyday jobs.",
             "Magnets only belong in science lessons.",
@@ -240,7 +240,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-011",
         skillId: "magnetUses",
         question: "Why are magnetic catches useful on cupboard doors?",
-
+        stage: "recognise",
         options: [
             "They keep the doors closed",
             "They make the doors lighter",
@@ -262,7 +262,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-012",
         skillId: "magnetUses",
         question: "Why would a mechanic use a magnetic tool?",
-
+        stage: "recognise",
         options: [
             "To pick up dropped screws",
             "To paint an engine",
@@ -284,7 +284,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-013",
         skillId: "magnetUses",
         question: "Which job is easiest with a magnet?",
-
+        stage: "recognise",
         options: [
             "Collecting scattered paper clips",
             "Picking up leaves",
@@ -306,7 +306,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-014",
         skillId: "magnetUses",
         question: "Why do some bags have magnetic fasteners?",
-
+        stage: "recognise",
         options: [
             "To help keep them closed",
             "To make them heavier",
@@ -328,7 +328,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-015",
         skillId: "magnetUses",
         question: "A child drops ten paper clips under a desk. Which tool would help most?",
-
+        stage: "recognise",
         options: [
             "A magnet",
             "A sponge",
@@ -350,7 +350,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-016",
         skillId: "magnetUses",
         question: "Why are large magnets useful in recycling centres?",
-
+        stage: "recognise",
         options: [
             "They separate metal from other materials",
             "They melt rubbish",
@@ -372,7 +372,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-017",
         skillId: "magnetUses",
         question: "Which object would NOT be held to a fridge by a magnet?",
-
+        stage: "recognise",
         options: [
             "A wooden block",
             "A shopping list",
@@ -394,7 +394,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-018",
         skillId: "magnetUses",
         question: "Why do magnetic toys work?",
-
+        stage: "recognise",
         options: [
             "Their magnets attract or repel each other",
             "They are made from plastic",
@@ -416,7 +416,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-019",
         skillId: "magnetUses",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "Magnets are useful because they attract some metals.",
             "Magnets attract every material.",
@@ -438,7 +438,7 @@ export const magnetUses: SkillContent = {
         id: "sci-magnet-uses-020",
         skillId: "magnetUses",
         question: "Which sentence best describes why magnets are useful?",
-
+        stage: "recognise",
         options: [
             "They attract magnetic materials and help solve everyday problems.",
             "They make every object stick together.",

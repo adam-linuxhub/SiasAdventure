@@ -21,7 +21,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "What is a mountain range?",
-
+        stage: "recognise",
         options: [
             "A group of mountains connected together",
             "A single small hill",
@@ -44,7 +44,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Which mountain range contains Mount Everest?",
-
+        stage: "recognise",
         options: [
             "The Himalayas",
             "The Alps",
@@ -67,7 +67,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Where are the Himalayas located?",
-
+        stage: "recognise",
         options: [
             "Asia",
             "Africa",
@@ -90,7 +90,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "What is the highest mountain above sea level?",
-
+        stage: "recognise",
         options: [
             "Mount Everest",
             "Ben Nevis",
@@ -113,7 +113,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Which mountain range is found in Europe?",
-
+        stage: "recognise",
         options: [
             "The Alps",
             "The Himalayas",
@@ -136,7 +136,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Which mountain range is found in South America?",
-
+        stage: "recognise",
         options: [
             "The Andes",
             "The Alps",
@@ -159,7 +159,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Which mountain range is found in North America?",
-
+        stage: "recognise",
         options: [
             "The Rocky Mountains",
             "The Himalayas",
@@ -182,7 +182,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "What continent is the Andes mountain range in?",
-
+        stage: "recognise",
         options: [
             "South America",
             "Europe",
@@ -205,7 +205,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Why do geographers use maps to study mountains?",
-
+        stage: "recognise",
         options: [
             "To find where mountains are located",
             "To change mountains",
@@ -228,7 +228,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "What does a globe show?",
-
+        stage: "recognise",
         options: [
             "A model of Earth",
             "Only mountains",
@@ -251,7 +251,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Why are some mountain areas difficult to live in?",
-
+        stage: "recognise",
         options: [
             "They can be steep, cold and hard to travel through",
             "They have no land",
@@ -274,7 +274,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "What is a mountain environment?",
-
+        stage: "recognise",
         options: [
             "The natural surroundings of a mountain area",
             "A type of map",
@@ -297,7 +297,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Why do tourists visit mountains?",
-
+        stage: "recognise",
         options: [
             "For activities such as climbing, walking and sightseeing",
             "To build cities",
@@ -320,7 +320,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Which mountain is in the UK?",
-
+        stage: "recognise",
         options: [
             "Ben Nevis",
             "Mount Everest",
@@ -343,7 +343,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Why are mountain ranges often shown on maps?",
-
+        stage: "recognise",
         options: [
             "They are important features of Earth's surface",
             "They are invisible",
@@ -366,7 +366,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "What can people compare about mountains around the world?",
-
+        stage: "recognise",
         options: [
             "Height, location and features",
             "Only their names",
@@ -389,7 +389,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Why do mountain climates vary?",
-
+        stage: "recognise",
         options: [
             "Height and location affect temperature and rainfall",
             "All mountains have identical weather",
@@ -412,7 +412,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "What type of map feature helps show height?",
-
+        stage: "recognise",
         options: [
             "Contour lines",
             "Road signs",
@@ -435,7 +435,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Why are mountains important around the world?",
-
+        stage: "recognise",
         options: [
             "They provide habitats, resources and influence landscapes",
             "They have no effect",
@@ -458,7 +458,7 @@ export const mountainsAroundTheWorld: SkillContent = {
         skillId: "mountainsAroundTheWorld",
         question:
             "Which sentence best describes mountains around the world?",
-
+        stage: "recognise",
         options: [
             "Mountains are found on different continents and have different features",
             "All mountains are the same",

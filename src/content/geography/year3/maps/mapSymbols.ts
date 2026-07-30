@@ -20,7 +20,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-001",
         skillId: "mapSymbols",
         question: "Why do maps use symbols?",
-
+        stage: "recognise",
         options: [
             "To show places using simple pictures",
             "To make maps heavier",
@@ -42,7 +42,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-002",
         skillId: "mapSymbols",
         question: "What tells you what map symbols mean?",
-
+        stage: "recognise",
         options: [
             "The key",
             "The title",
@@ -64,7 +64,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-003",
         skillId: "mapSymbols",
         question: "Which map feature helps you find the meaning of symbols?",
-
+        stage: "recognise",
         options: [
             "The key",
             "The road",
@@ -86,7 +86,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-004",
         skillId: "mapSymbols",
         question: "A blue line on a map often represents a...",
-
+        stage: "recognise",
         options: [
             "River",
             "Road",
@@ -108,7 +108,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-005",
         skillId: "mapSymbols",
         question: "A tree symbol on a map usually shows a...",
-
+        stage: "recognise",
         options: [
             "Woodland or forest",
             "School",
@@ -130,7 +130,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-006",
         skillId: "mapSymbols",
         question: "Why are symbols used instead of drawing real pictures?",
-
+        stage: "recognise",
         options: [
             "They keep maps simple and easy to read",
             "They make maps larger",
@@ -152,7 +152,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-007",
         skillId: "mapSymbols",
         question: "What does a map key help you do?",
-
+        stage: "recognise",
         options: [
             "Understand the symbols",
             "Measure distance",
@@ -174,7 +174,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-008",
         skillId: "mapSymbols",
         question: "Which feature would most likely have its own symbol?",
-
+        stage: "recognise",
         options: [
             "School",
             "Cloud",
@@ -196,7 +196,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-009",
         skillId: "mapSymbols",
         question: "Why do different maps use different symbols?",
-
+        stage: "recognise",
         options: [
             "Different maps show different information",
             "Every map is random",
@@ -218,7 +218,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-010",
         skillId: "mapSymbols",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "You should check the key before using a map.",
             "Maps never have symbols.",
@@ -240,7 +240,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-011",
         skillId: "mapSymbols",
         question: "Why is a map key important?",
-
+        stage: "recognise",
         options: [
             "It explains what each symbol means.",
             "It measures rainfall.",
@@ -262,7 +262,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-012",
         skillId: "mapSymbols",
         question: "If you wanted to find a park, what should you do first?",
-
+        stage: "recognise",
         options: [
             "Look at the map key for the park symbol",
             "Guess where it is",
@@ -284,7 +284,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-013",
         skillId: "mapSymbols",
         question: "Why are rivers often shown in blue?",
-
+        stage: "recognise",
         options: [
             "Blue helps people recognise water features",
             "Rivers are always dark blue",
@@ -306,7 +306,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-014",
         skillId: "mapSymbols",
         question: "What should you use if you don't recognise a symbol?",
-
+        stage: "recognise",
         options: [
             "The map key",
             "A ruler",
@@ -328,7 +328,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-015",
         skillId: "mapSymbols",
         question: "Why are symbols useful on small maps?",
-
+        stage: "recognise",
         options: [
             "There is not enough space for detailed drawings",
             "Maps cannot contain words",
@@ -350,7 +350,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-016",
         skillId: "mapSymbols",
         question: "A map showing many schools, hospitals and parks is using symbols to show...",
-
+        stage: "recognise",
         options: [
             "Important places",
             "Weather",
@@ -372,7 +372,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-017",
         skillId: "mapSymbols",
         question: "Why do map makers use the same symbol many times?",
-
+        stage: "recognise",
         options: [
             "To show every place with that feature",
             "To make the map colourful",
@@ -394,7 +394,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-018",
         skillId: "mapSymbols",
         question: "Which skill helps you read a map correctly?",
-
+        stage: "recognise",
         options: [
             "Understanding the symbols",
             "Knowing today's weather",
@@ -416,7 +416,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-019",
         skillId: "mapSymbols",
         question: "Why are map symbols useful wherever you travel?",
-
+        stage: "recognise",
         options: [
             "They help you understand maps more easily",
             "They change every hour",
@@ -438,7 +438,7 @@ export const mapSymbols: SkillContent = {
         id: "geo-mapsym-020",
         skillId: "mapSymbols",
         question: "Which sentence best describes map symbols?",
-
+        stage: "recognise",
         options: [
             "They are simple pictures that represent real places or features on a map.",
             "They are secret codes.",

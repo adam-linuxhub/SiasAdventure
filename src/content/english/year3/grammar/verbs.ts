@@ -20,7 +20,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-001",
         skillId: "verbs",
         question: "Which word is a verb?",
-
+        stage: "recognise",
         options: [
             "run",
             "dog",
@@ -42,7 +42,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-002",
         skillId: "verbs",
         question: "Which word tells what someone is doing?",
-
+        stage: "recognise",
         options: [
             "jump",
             "table",
@@ -64,7 +64,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-003",
         skillId: "verbs",
         question: "Which word is a verb?",
-
+        stage: "recognise",
         options: [
             "eat",
             "apple",
@@ -86,7 +86,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-004",
         skillId: "verbs",
         question: "Which word is a verb?",
-
+        stage: "recognise",
         options: [
             "sleep",
             "bed",
@@ -108,7 +108,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-005",
         skillId: "verbs",
         question: "Which word is a verb?",
-
+        stage: "recognise",
         options: [
             "laugh",
             "child",
@@ -130,7 +130,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-006",
         skillId: "verbs",
         question: "Which word is a verb?",
-
+        stage: "recognise",
         options: [
             "write",
             "pencil",
@@ -152,7 +152,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-007",
         skillId: "verbs",
         question: "Which sentence contains a verb?",
-
+        stage: "recognise",
         options: [
             "The bird sings.",
             "The noisy bird.",
@@ -174,7 +174,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-008",
         skillId: "verbs",
         question: "Which word is the verb?",
-
+        stage: "recognise",
         options: [
             "swim",
             "river",
@@ -196,7 +196,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-009",
         skillId: "verbs",
         question: "Which sentence contains an action verb?",
-
+        stage: "recognise",
         options: [
             "The cat climbed the tree.",
             "The tall tree.",
@@ -218,7 +218,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-010",
         skillId: "verbs",
         question: "Which word is NOT a verb?",
-
+        stage: "recognise",
         options: [
             "house",
             "dance",
@@ -240,7 +240,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-011",
         skillId: "verbs",
         question: "Which pair contains only verbs?",
-
+        stage: "recognise",
         options: [
             "run, jump",
             "dog, cat",
@@ -262,7 +262,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-012",
         skillId: "verbs",
         question: "Which sentence contains two verbs?",
-
+        stage: "recognise",
         options: [
             "Sam ran and laughed.",
             "The happy dog.",
@@ -284,7 +284,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-013",
         skillId: "verbs",
         question: "Which word is NOT a verb?",
-
+        stage: "recognise",
         options: [
             "garden",
             "sing",
@@ -306,7 +306,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-014",
         skillId: "verbs",
         question: "In the sentence 'The rabbit hopped away.', what is the verb?",
-
+        stage: "recognise",
         options: [
             "hopped",
             "rabbit",
@@ -328,7 +328,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-015",
         skillId: "verbs",
         question: "Which sentence uses a verb correctly?",
-
+        stage: "recognise",
         options: [
             "The children played outside.",
             "The children outside.",
@@ -350,7 +350,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-016",
         skillId: "verbs",
         question: "Which word completes the sentence? 'The baby ____.'",
-
+        stage: "recognise",
         options: [
             "cried",
             "cot",
@@ -372,7 +372,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-017",
         skillId: "verbs",
         question: "Which sentence contains the verb 'read'?",
-
+        stage: "recognise",
         options: [
             "We read a story.",
             "The story book.",
@@ -394,7 +394,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-018",
         skillId: "verbs",
         question: "Which word is the verb in 'Dad cooked dinner.'?",
-
+        stage: "recognise",
         options: [
             "cooked",
             "Dad",
@@ -416,7 +416,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-019",
         skillId: "verbs",
         question: "Which sentence contains only one verb?",
-
+        stage: "recognise",
         options: [
             "The girl smiled.",
             "The girl smiled and waved.",
@@ -438,7 +438,7 @@ export const verbs: SkillContent = {
         id: "eng-verbs-020",
         skillId: "verbs",
         question: "Which sentence uses verbs correctly?",
-
+        stage: "recognise",
         options: [
             "Oliver opened the door and waved.",
             "Oliver the door.",

@@ -20,7 +20,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-001",
         skillId: "waterCycle",
         question: "What is the water cycle?",
-
+        stage: "recognise",
         options: [
             "The continuous movement of water around Earth",
             "A machine that cleans water",
@@ -42,7 +42,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-002",
         skillId: "waterCycle",
         question: "What happens when the Sun warms water in lakes and oceans?",
-
+        stage: "recognise",
         options: [
             "Evaporation",
             "Freezing",
@@ -64,7 +64,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-003",
         skillId: "waterCycle",
         question: "What are clouds mostly made of?",
-
+        stage: "recognise",
         options: [
             "Tiny water droplets",
             "Smoke",
@@ -86,7 +86,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-004",
         skillId: "waterCycle",
         question: "What is condensation?",
-
+        stage: "recognise",
         options: [
             "Water vapour cooling into liquid water",
             "Ice melting",
@@ -108,7 +108,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-005",
         skillId: "waterCycle",
         question: "What is precipitation?",
-
+        stage: "recognise",
         options: [
             "Rain, snow, sleet or hail falling from clouds",
             "Water evaporating",
@@ -130,7 +130,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-006",
         skillId: "waterCycle",
         question: "Which is an example of precipitation?",
-
+        stage: "recognise",
         options: [
             "Rain",
             "Steam",
@@ -152,7 +152,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-007",
         skillId: "waterCycle",
         question: "Where does rainwater often collect?",
-
+        stage: "recognise",
         options: [
             "Rivers, lakes and oceans",
             "The Moon",
@@ -174,7 +174,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-008",
         skillId: "waterCycle",
         question: "What provides the energy for the water cycle?",
-
+        stage: "recognise",
         options: [
             "The Sun",
             "The Moon",
@@ -196,7 +196,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-009",
         skillId: "waterCycle",
         question: "What happens after water evaporates?",
-
+        stage: "recognise",
         options: [
             "It cools and forms clouds.",
             "It immediately becomes ice.",
@@ -218,7 +218,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-010",
         skillId: "waterCycle",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "The water cycle happens over and over again.",
             "Water is used only once.",
@@ -240,7 +240,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-011",
         skillId: "waterCycle",
         question: "Why do clouds form high in the sky?",
-
+        stage: "recognise",
         options: [
             "Water vapour cools and condenses there.",
             "Clouds are made by birds.",
@@ -262,7 +262,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-012",
         skillId: "waterCycle",
         question: "Why does rain fall from clouds?",
-
+        stage: "recognise",
         options: [
             "Water droplets become too heavy to stay in the cloud.",
             "Clouds melt.",
@@ -284,7 +284,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-013",
         skillId: "waterCycle",
         question: "Which sequence is correct?",
-
+        stage: "recognise",
         options: [
             "Evaporation → Condensation → Precipitation → Collection",
             "Condensation → Collection → Evaporation → Rain",
@@ -306,7 +306,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-014",
         skillId: "waterCycle",
         question: "What happens to rainwater after it reaches the ground?",
-
+        stage: "recognise",
         options: [
             "It flows into rivers, lakes or oceans, or soaks into the ground.",
             "It disappears forever.",
@@ -328,7 +328,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-015",
         skillId: "waterCycle",
         question: "Which process changes liquid water into water vapour?",
-
+        stage: "recognise",
         options: [
             "Evaporation",
             "Condensation",
@@ -350,7 +350,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-016",
         skillId: "waterCycle",
         question: "Why is the Sun important in the water cycle?",
-
+        stage: "recognise",
         options: [
             "It provides the heat needed for evaporation.",
             "It makes rain fall.",
@@ -372,7 +372,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-017",
         skillId: "waterCycle",
         question: "Which stage happens just before rain falls?",
-
+        stage: "recognise",
         options: [
             "Condensation",
             "Collection",
@@ -394,7 +394,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-018",
         skillId: "waterCycle",
         question: "Why is the water cycle described as a cycle?",
-
+        stage: "recognise",
         options: [
             "Because it repeats continuously.",
             "Because it only happens once each year.",
@@ -416,7 +416,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-019",
         skillId: "waterCycle",
         question: "Which part of the water cycle returns water to rivers and lakes?",
-
+        stage: "recognise",
         options: [
             "Precipitation",
             "Evaporation",
@@ -438,7 +438,7 @@ export const waterCycle: SkillContent = {
         id: "sci-water-cycle-020",
         skillId: "waterCycle",
         question: "Which sentence best describes the water cycle?",
-
+        stage: "recognise",
         options: [
             "Water is continuously recycled through evaporation, condensation, precipitation and collection.",
             "Water is used once and disappears.",

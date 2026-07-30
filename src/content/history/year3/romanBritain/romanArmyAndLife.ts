@@ -21,7 +21,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What was a Roman soldier called?",
-
+        stage: "recognise",
         options: [
             "A legionary",
             "A pharaoh",
@@ -44,7 +44,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What was the Roman army known for?",
-
+        stage: "recognise",
         options: [
             "Being organised and disciplined",
             "Avoiding training",
@@ -67,7 +67,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What was a group of Roman soldiers called?",
-
+        stage: "recognise",
         options: [
             "A legion",
             "A village",
@@ -90,7 +90,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What did Roman soldiers wear for protection?",
-
+        stage: "recognise",
         options: [
             "Armour",
             "School uniforms",
@@ -113,7 +113,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What weapon did Roman soldiers commonly use?",
-
+        stage: "recognise",
         options: [
             "A sword",
             "A computer",
@@ -136,7 +136,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "Why did Roman soldiers build forts?",
-
+        stage: "recognise",
         options: [
             "To control and protect areas",
             "To grow food only",
@@ -159,7 +159,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What did Roman roads help with?",
-
+        stage: "recognise",
         options: [
             "Moving soldiers and goods quickly",
             "Growing crops",
@@ -182,7 +182,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What language did Romans introduce to Britain?",
-
+        stage: "recognise",
         options: [
             "Latin",
             "Egyptian",
@@ -205,7 +205,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What were Roman baths used for?",
-
+        stage: "recognise",
         options: [
             "Washing, relaxing and socialising",
             "Growing crops",
@@ -228,7 +228,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What did Romans build in Britain?",
-
+        stage: "recognise",
         options: [
             "Roads, forts and towns",
             "Airports",
@@ -251,7 +251,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "Why were Roman soldiers trained carefully?",
-
+        stage: "recognise",
         options: [
                 "To work effectively as an army",
                 "To avoid following orders",
@@ -274,7 +274,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What was life like in a Roman town?",
-
+        stage: "recognise",
         options: [
             "People could visit shops, baths and markets",
             "Nobody lived there",
@@ -297,7 +297,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What was a villa?",
-
+        stage: "recognise",
         options: [
             "A large Roman country house",
             "A Roman weapon",
@@ -320,7 +320,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "How did Roman rule affect Britain?",
-
+        stage: "recognise",
         options: [
             "It introduced new buildings, roads and customs",
             "It had no effect",
@@ -343,7 +343,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What did Romans use coins for?",
-
+        stage: "recognise",
         options: [
             "Buying and trading goods",
             "Building walls",
@@ -366,7 +366,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "Why were Roman towns often built near roads?",
-
+        stage: "recognise",
         options: [
             "For easier travel and trade",
             "To avoid people",
@@ -389,7 +389,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "What evidence helps historians learn about Roman Britain?",
-
+        stage: "recognise",
         options: [
             "Buildings, roads, coins and written records",
             "Modern websites only",
@@ -412,7 +412,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "Which statement about Roman soldiers is true?",
-
+        stage: "recognise",
         options: [
             "They followed orders and worked together",
             "They had no training",
@@ -435,7 +435,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "Why do we still see Roman roads today?",
-
+        stage: "recognise",
         options: [
             "They were built strongly and lasted a long time",
             "They were built recently",
@@ -458,7 +458,7 @@ export const romanArmyAndLife: SkillContent = {
         skillId: "romanArmyAndLife",
         question:
             "Which sentence best describes Roman life in Britain?",
-
+        stage: "recognise",
         options: [
             "Romans brought new buildings, roads, language and customs",
             "Romans made no changes",

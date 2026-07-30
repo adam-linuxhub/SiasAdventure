@@ -20,7 +20,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-001",
         skillId: "stoneBronzeIronComparison",
         question: "Which Age came first?",
-
+        stage: "recognise",
         options: [
             "Stone Age",
             "Bronze Age",
@@ -42,7 +42,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-002",
         skillId: "stoneBronzeIronComparison",
         question: "Which Age came after the Stone Age?",
-
+        stage: "recognise",
         options: [
             "Bronze Age",
             "Iron Age",
@@ -64,7 +64,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-003",
         skillId: "stoneBronzeIronComparison",
         question: "Which Age came after the Bronze Age?",
-
+        stage: "recognise",
         options: [
             "Iron Age",
             "Stone Age",
@@ -86,7 +86,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-004",
         skillId: "stoneBronzeIronComparison",
         question: "What material gave the Stone Age its name?",
-
+        stage: "recognise",
         options: [
             "Stone",
             "Iron",
@@ -108,7 +108,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-005",
         skillId: "stoneBronzeIronComparison",
         question: "What material gave the Bronze Age its name?",
-
+        stage: "recognise",
         options: [
             "Bronze",
             "Stone",
@@ -130,7 +130,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-006",
         skillId: "stoneBronzeIronComparison",
         question: "What material gave the Iron Age its name?",
-
+        stage: "recognise",
         options: [
             "Iron",
             "Stone",
@@ -152,7 +152,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-007",
         skillId: "stoneBronzeIronComparison",
         question: "Which Age used the oldest tools?",
-
+        stage: "recognise",
         options: [
             "Stone Age",
             "Bronze Age",
@@ -174,7 +174,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-008",
         skillId: "stoneBronzeIronComparison",
         question: "Which metal was usually stronger than bronze?",
-
+        stage: "recognise",
         options: [
             "Iron",
             "Gold",
@@ -196,7 +196,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-009",
         skillId: "stoneBronzeIronComparison",
         question: "During which Age were hill forts common?",
-
+        stage: "recognise",
         options: [
             "Iron Age",
             "Stone Age",
@@ -218,7 +218,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-010",
         skillId: "stoneBronzeIronComparison",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "Tools generally became stronger over time.",
             "Stone tools were stronger than iron tools.",
@@ -240,7 +240,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-011",
         skillId: "stoneBronzeIronComparison",
         question: "Why was bronze an improvement over stone?",
-
+        stage: "recognise",
         options: [
             "Bronze tools were usually stronger and lasted longer.",
             "Bronze floated on water.",
@@ -262,7 +262,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-012",
         skillId: "stoneBronzeIronComparison",
         question: "Why was iron an improvement over bronze?",
-
+        stage: "recognise",
         options: [
             "Iron tools were generally stronger.",
             "Iron was lighter than feathers.",
@@ -284,7 +284,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-013",
         skillId: "stoneBronzeIronComparison",
         question: "Which timeline is correct?",
-
+        stage: "recognise",
         options: [
             "Stone Age → Bronze Age → Iron Age",
             "Bronze Age → Stone Age → Iron Age",
@@ -306,7 +306,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-014",
         skillId: "stoneBronzeIronComparison",
         question: "Which Age is most closely linked with Celtic tribes and hill forts?",
-
+        stage: "recognise",
         options: [
             "Iron Age",
             "Stone Age",
@@ -328,7 +328,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-015",
         skillId: "stoneBronzeIronComparison",
         question: "How did life change from the Stone Age to the Bronze Age?",
-
+        stage: "recognise",
         options: [
             "People began using bronze tools and farming became more developed.",
             "People stopped making tools.",
@@ -350,7 +350,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-016",
         skillId: "stoneBronzeIronComparison",
         question: "How did life change from the Bronze Age to the Iron Age?",
-
+        stage: "recognise",
         options: [
             "People began making stronger iron tools.",
             "People stopped farming.",
@@ -372,7 +372,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-017",
         skillId: "stoneBronzeIronComparison",
         question: "What stayed the same throughout all three Ages?",
-
+        stage: "recognise",
         options: [
             "People needed food and shelter.",
             "People used mobile phones.",
@@ -394,7 +394,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-018",
         skillId: "stoneBronzeIronComparison",
         question: "Why do historians divide prehistory into different Ages?",
-
+        stage: "recognise",
         options: [
             "Because the materials used for tools changed over time.",
             "Because people changed languages every year.",
@@ -416,7 +416,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-019",
         skillId: "stoneBronzeIronComparison",
         question: "Which set is in the correct order from oldest to newest?",
-
+        stage: "recognise",
         options: [
             "Stone tool, bronze axe, iron sword",
             "Iron sword, stone tool, bronze axe",
@@ -438,7 +438,7 @@ export const stoneBronzeIronComparison: SkillContent = {
         id: "hist-compare-020",
         skillId: "stoneBronzeIronComparison",
         question: "Which sentence best describes the Stone, Bronze and Iron Ages?",
-
+        stage: "recognise",
         options: [
             "People gradually developed stronger materials and better tools, changing how they lived.",
             "Life never changed during prehistory.",

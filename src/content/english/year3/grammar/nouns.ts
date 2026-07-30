@@ -20,7 +20,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-001",
         skillId: "nouns",
         question: "Which word is a noun?",
-
+        stage: "recognise",
         options: [
             "dog",
             "run",
@@ -42,7 +42,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-002",
         skillId: "nouns",
         question: "Which word names a person?",
-
+        stage: "recognise",
         options: [
             "teacher",
             "jump",
@@ -64,7 +64,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-003",
         skillId: "nouns",
         question: "Which word names a place?",
-
+        stage: "recognise",
         options: [
             "school",
             "sing",
@@ -86,7 +86,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-004",
         skillId: "nouns",
         question: "Which word names an object?",
-
+        stage: "recognise",
         options: [
             "book",
             "read",
@@ -108,7 +108,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-005",
         skillId: "nouns",
         question: "Which word is a proper noun?",
-
+        stage: "recognise",
         options: [
             "London",
             "city",
@@ -130,7 +130,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-006",
         skillId: "nouns",
         question: "How should a proper noun begin?",
-
+        stage: "recognise",
         options: [
             "With a capital letter",
             "With a full stop",
@@ -152,7 +152,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-007",
         skillId: "nouns",
         question: "Which word is a common noun?",
-
+        stage: "recognise",
         options: [
             "cat",
             "England",
@@ -174,7 +174,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-008",
         skillId: "nouns",
         question: "Which word is a proper noun?",
-
+        stage: "recognise",
         options: [
             "Emma",
             "girl",
@@ -196,7 +196,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-009",
         skillId: "nouns",
         question: "Which word is a noun?",
-
+        stage: "recognise",
         options: [
             "tree",
             "green",
@@ -218,7 +218,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-010",
         skillId: "nouns",
         question: "Which sentence contains a proper noun?",
-
+        stage: "recognise",
         options: [
             "Jack played football.",
             "The boy played football.",
@@ -240,7 +240,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-011",
         skillId: "nouns",
         question: "Which pair contains only nouns?",
-
+        stage: "recognise",
         options: [
             "bird, river",
             "run, jump",
@@ -262,7 +262,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-012",
         skillId: "nouns",
         question: "Which sentence uses a proper noun correctly?",
-
+        stage: "recognise",
         options: [
             "We visited Scotland.",
             "We visited scotland.",
@@ -284,7 +284,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-013",
         skillId: "nouns",
         question: "Which word is NOT a noun?",
-
+        stage: "recognise",
         options: [
             "quickly",
             "teacher",
@@ -306,7 +306,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-014",
         skillId: "nouns",
         question: "Which word is a collective noun?",
-
+        stage: "recognise",
         options: [
             "team",
             "player",
@@ -328,7 +328,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-015",
         skillId: "nouns",
         question: "Which sentence contains two nouns?",
-
+        stage: "recognise",
         options: [
             "The dog chased the ball.",
             "Run quickly now.",
@@ -350,7 +350,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-016",
         skillId: "nouns",
         question: "Which word is a proper noun?",
-
+        stage: "recognise",
         options: [
             "Friday",
             "week",
@@ -372,7 +372,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-017",
         skillId: "nouns",
         question: "Which noun names a place?",
-
+        stage: "recognise",
         options: [
             "museum",
             "write",
@@ -394,7 +394,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-018",
         skillId: "nouns",
         question: "Why does 'Lucy' begin with a capital letter?",
-
+        stage: "recognise",
         options: [
             "It is a proper noun.",
             "It is a verb.",
@@ -416,7 +416,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-019",
         skillId: "nouns",
         question: "Which sentence contains a collective noun?",
-
+        stage: "recognise",
         options: [
             "The class went outside.",
             "The teacher smiled.",
@@ -438,7 +438,7 @@ export const nouns: SkillContent = {
         id: "eng-nouns-020",
         skillId: "nouns",
         question: "Which sentence uses nouns correctly?",
-
+        stage: "recognise",
         options: [
             "Oliver visited London on Monday.",
             "oliver visited london on monday.",

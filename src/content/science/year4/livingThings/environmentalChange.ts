@@ -20,7 +20,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-001",
         skillId: "environmentalChange",
         question: "What is an environment?",
-
+        stage: "recognise",
         options: [
             "The surroundings where living things live",
             "Only the weather",
@@ -42,7 +42,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-002",
         skillId: "environmentalChange",
         question: "Which change could harm a woodland habitat?",
-
+        stage: "recognise",
         options: [
             "Cutting down many trees",
             "Planting wildflowers",
@@ -64,7 +64,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-003",
         skillId: "environmentalChange",
         question: "Which action helps wildlife?",
-
+        stage: "recognise",
         options: [
             "Planting trees",
             "Dropping litter",
@@ -86,7 +86,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-004",
         skillId: "environmentalChange",
         question: "What is pollution?",
-
+        stage: "recognise",
         options: [
             "Harmful waste in the environment",
             "A healthy habitat",
@@ -108,7 +108,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-005",
         skillId: "environmentalChange",
         question: "Why do animals need clean water?",
-
+        stage: "recognise",
         options: [
             "To survive",
             "To change colour",
@@ -130,7 +130,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-006",
         skillId: "environmentalChange",
         question: "Which activity can damage a pond habitat?",
-
+        stage: "recognise",
         options: [
             "Throwing rubbish into it",
             "Watching frogs",
@@ -152,7 +152,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-007",
         skillId: "environmentalChange",
         question: "Which action helps bees?",
-
+        stage: "recognise",
         options: [
             "Growing flowers",
             "Cutting every flower",
@@ -174,7 +174,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-008",
         skillId: "environmentalChange",
         question: "What should you do with litter?",
-
+        stage: "recognise",
         options: [
             "Put it in a bin",
             "Leave it on the ground",
@@ -196,7 +196,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-009",
         skillId: "environmentalChange",
         question: "Which living thing may lose its home if trees are cut down?",
-
+        stage: "recognise",
         options: [
             "Squirrel",
             "Shark",
@@ -218,7 +218,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-010",
         skillId: "environmentalChange",
         question: "Which statement is true?",
-
+        stage: "recognise",
         options: [
             "People can help protect habitats.",
             "Habitats never change.",
@@ -240,7 +240,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-011",
         skillId: "environmentalChange",
         question: "Why is planting trees good for wildlife?",
-
+        stage: "recognise",
         options: [
             "Trees provide food and shelter.",
             "Trees stop all rain.",
@@ -262,7 +262,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-012",
         skillId: "environmentalChange",
         question: "Why can pollution be dangerous for fish?",
-
+        stage: "recognise",
         options: [
             "It can make the water unsafe.",
             "It makes fish grow wings.",
@@ -284,7 +284,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-013",
         skillId: "environmentalChange",
         question: "A new road is built through a woodland. What could happen?",
-
+        stage: "recognise",
         options: [
             "Some animals may lose their habitat.",
             "Every animal becomes larger.",
@@ -306,7 +306,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-014",
         skillId: "environmentalChange",
         question: "Why should people recycle?",
-
+        stage: "recognise",
         options: [
             "It helps reduce waste.",
             "It makes habitats smaller.",
@@ -328,7 +328,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-015",
         skillId: "environmentalChange",
         question: "Which action would best help birds in a garden?",
-
+        stage: "recognise",
         options: [
             "Putting up a bird feeder",
             "Removing every tree",
@@ -350,7 +350,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-016",
         skillId: "environmentalChange",
         question: "Why is protecting habitats important?",
-
+        stage: "recognise",
         options: [
             "Living things depend on them for survival.",
             "Habitats are only for plants.",
@@ -372,7 +372,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-017",
         skillId: "environmentalChange",
         question: "Which activity is most environmentally friendly?",
-
+        stage: "recognise",
         options: [
             "Joining a litter pick",
             "Throwing rubbish into a river",
@@ -394,7 +394,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-018",
         skillId: "environmentalChange",
         question: "How can gardeners help insects?",
-
+        stage: "recognise",
         options: [
             "Grow a variety of flowers",
             "Remove every flowering plant",
@@ -416,7 +416,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-019",
         skillId: "environmentalChange",
         question: "Which change is most likely to improve a habitat?",
-
+        stage: "recognise",
         options: [
             "Cleaning up litter",
             "Pouring oil into a stream",
@@ -438,7 +438,7 @@ export const environmentalChange: SkillContent = {
         id: "sci-environment-020",
         skillId: "environmentalChange",
         question: "Which sentence best explains environmental change?",
-
+        stage: "recognise",
         options: [
             "Changes to habitats can help or harm living things.",
             "Habitats never change.",

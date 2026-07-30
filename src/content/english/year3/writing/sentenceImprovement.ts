@@ -21,7 +21,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Which sentence is more interesting?",
-
+        stage: "recognise",
         options: [
             "The enormous dog ran across the field.",
             "The dog ran.",
@@ -44,7 +44,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Improve this sentence:\n\nThe bird flew.",
-
+        stage: "recognise",
         options: [
             "The colourful bird flew gracefully through the sky.",
             "The bird.",
@@ -67,7 +67,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Which word is a stronger verb than 'went'?",
-
+        stage: "recognise",
         options: [
             "raced",
             "was",
@@ -90,7 +90,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Improve this sentence:\n\nThe cat sat.",
-
+        stage: "recognise",
         options: [
             "The fluffy cat curled up quietly on the soft cushion.",
             "The cat.",
@@ -113,7 +113,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Which adjective improves this sentence?\n\nThe house had a door.",
-
+        stage: "recognise",
         options: [
             "wooden",
             "went",
@@ -136,7 +136,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Why do writers add detail to sentences?",
-
+        stage: "recognise",
         options: [
             "To help readers create a clearer picture",
             "To make writing confusing",
@@ -159,7 +159,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Which sentence uses the strongest verb?",
-
+        stage: "recognise",
         options: [
             "The lion roared loudly.",
             "The lion made a sound.",
@@ -182,7 +182,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Improve this sentence:\n\nThe boy walked.",
-
+        stage: "recognise",
         options: [
             "The tired boy slowly walked home after school.",
             "The boy.",
@@ -205,7 +205,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Which word makes this sentence more descriptive?\n\nThe flower grew.",
-
+        stage: "recognise",
         options: [
             "beautiful",
             "grew",
@@ -228,7 +228,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "A good writer chooses words that are:",
-
+        stage: "recognise",
         options: [
             "Interesting and precise",
             "Always the longest",
@@ -251,7 +251,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Which sentence creates the clearest image?",
-
+        stage: "recognise",
         options: [
             "The tiny golden butterfly fluttered gently above the flowers.",
             "The butterfly moved.",
@@ -274,7 +274,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Replace the weak verb:\n\nThe dog went across the garden.",
-
+        stage: "recognise",
         options: [
             "The dog raced across the garden.",
             "The dog was across the garden.",
@@ -297,7 +297,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Which sentence uses an adverb to improve the writing?",
-
+        stage: "recognise",
         options: [
             "The girl sang beautifully.",
             "The girl sang.",
@@ -320,7 +320,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Improve this sentence:\n\nThe storm came.",
-
+        stage: "recognise",
         options: [
             "The powerful storm crashed across the dark sky.",
             "The storm.",
@@ -343,7 +343,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Which word choice is most precise?",
-
+        stage: "recognise",
         options: [
             "whispered",
             "talked",
@@ -366,7 +366,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Why are powerful verbs useful?",
-
+        stage: "recognise",
         options: [
             "They make actions clearer for the reader",
             "They remove all details",
@@ -389,7 +389,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Which sentence has the most detail?",
-
+        stage: "recognise",
         options: [
             "The old wooden ship sailed across the rough sea.",
             "The ship sailed.",
@@ -412,7 +412,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "What should you check when improving a sentence?",
-
+        stage: "recognise",
         options: [
             "Does it make the meaning clearer?",
             "Is every word the same length?",
@@ -435,7 +435,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Which sentence is the best improvement?",
-
+        stage: "recognise",
         options: [
             "The excited children raced happily towards the playground.",
             "The children.",
@@ -458,7 +458,7 @@ export const sentenceImprovement: SkillContent = {
         skillId: "sentenceImprovement",
         question:
             "Good writers improve sentences by:",
-
+        stage: "recognise",
         options: [
             "Adding useful details and choosing better words",
             "Adding random words",

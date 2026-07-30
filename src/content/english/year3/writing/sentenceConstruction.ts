@@ -21,7 +21,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which is a complete sentence?",
-
+        stage: "recognise",
         options: [
             "The dog barked.",
             "The big dog.",
@@ -44,7 +44,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "What does every complete sentence need?",
-
+        stage: "recognise",
         options: [
             "A subject and a verb",
             "A question mark",
@@ -67,7 +67,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which word is the subject in this sentence?\n\nThe rabbit jumped over the log.",
-
+        stage: "recognise",
         options: [
             "rabbit",
             "jumped",
@@ -90,7 +90,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which word is the verb in this sentence?\n\nThe rabbit jumped over the log.",
-
+        stage: "recognise",
         options: [
             "jumped",
             "rabbit",
@@ -113,7 +113,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which sentence is written correctly?",
-
+        stage: "recognise",
         options: [
             "The bird flew away.",
             "the bird flew away",
@@ -136,7 +136,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which is a sentence fragment?",
-
+        stage: "recognise",
         options: [
             "Because I was tired",
             "I went to bed early.",
@@ -159,7 +159,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Choose the best way to complete the sentence:\n\nThe children ______ in the garden.",
-
+        stage: "recognise",
         options: [
             "played",
             "happy",
@@ -182,7 +182,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which sentence has a clear subject?",
-
+        stage: "recognise",
         options: [
             "The teacher explained the lesson.",
             "Explained the lesson.",
@@ -205,7 +205,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which sentence has a verb?",
-
+        stage: "recognise",
         options: [
             "The puppy barked loudly.",
             "The fluffy puppy.",
@@ -228,7 +228,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Why do writers need complete sentences?",
-
+        stage: "recognise",
         options: [
             "They help readers understand ideas clearly.",
             "They make writing longer.",
@@ -251,7 +251,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which sentence is the strongest?",
-
+        stage: "recognise",
         options: [
             "The excited dog raced across the field.",
             "The dog went.",
@@ -274,7 +274,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Improve this sentence:\n\nThe boy ran.",
-
+        stage: "recognise",
         options: [
             "The young boy ran quickly home.",
             "Boy.",
@@ -297,7 +297,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which sentence uses the correct word order?",
-
+        stage: "recognise",
         options: [
             "The cat chased the mouse.",
             "The cat the mouse chased.",
@@ -320,7 +320,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Choose the complete sentence.",
-
+        stage: "recognise",
         options: [
             "Although it was raining, we played football.",
             "Although it was raining.",
@@ -343,7 +343,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which sentence has the correct punctuation?",
-
+        stage: "recognise",
         options: [
             "Where are you going?",
             "Where are you going.",
@@ -366,7 +366,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which sentence is a command?",
-
+        stage: "recognise",
         options: [
             "Close the door quietly.",
             "The door is closed.",
@@ -389,7 +389,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which sentence uses the correct tense?",
-
+        stage: "recognise",
         options: [
             "Yesterday, I walked to school.",
             "Yesterday, I walk to school.",
@@ -412,7 +412,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "What makes a sentence easier to understand?",
-
+        stage: "recognise",
         options: [
             "Clear word order and correct punctuation",
             "Using random words",
@@ -435,7 +435,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Which sentence contains both a subject and a verb?",
-
+        stage: "recognise",
         options: [
             "The children laughed.",
             "The happy children.",
@@ -458,7 +458,7 @@ export const sentenceConstruction: SkillContent = {
         skillId: "sentenceConstruction",
         question:
             "Before finishing a piece of writing, you should check that:",
-
+        stage: "recognise",
         options: [
             "Your sentences make sense",
             "Every word is the same length",

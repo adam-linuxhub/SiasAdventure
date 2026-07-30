@@ -20,7 +20,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-001",
         skillId: "capitalLetters",
         question: "Which sentence starts with a capital letter?",
-
+        stage: "recognise",
         options: [
             "The dog is sleeping.",
             "the dog is sleeping.",
@@ -42,7 +42,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-002",
         skillId: "capitalLetters",
         question: "Which word should begin with a capital letter?",
-
+        stage: "recognise",
         options: [
             "Emma",
             "school",
@@ -64,7 +64,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-003",
         skillId: "capitalLetters",
         question: "Which sentence is written correctly?",
-
+        stage: "recognise",
         options: [
             "My name is Jack.",
             "My name is jack.",
@@ -86,7 +86,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-004",
         skillId: "capitalLetters",
         question: "Which day of the week needs a capital letter?",
-
+        stage: "recognise",
         options: [
             "Monday",
             "school",
@@ -108,7 +108,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-005",
         skillId: "capitalLetters",
         question: "Which month begins with a capital letter?",
-
+        stage: "recognise",
         options: [
             "July",
             "summer",
@@ -130,7 +130,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-006",
         skillId: "capitalLetters",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "We visited London.",
             "We visited london.",
@@ -152,7 +152,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-007",
         skillId: "capitalLetters",
         question: "Why do we use a capital letter at the start of a sentence?",
-
+        stage: "recognise",
         options: [
             "To show where a new sentence begins",
             "To show a question",
@@ -174,7 +174,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-008",
         skillId: "capitalLetters",
         question: "Which sentence is punctuated correctly?",
-
+        stage: "recognise",
         options: [
             "My friend Olivia likes reading.",
             "my friend Olivia likes reading.",
@@ -196,7 +196,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-009",
         skillId: "capitalLetters",
         question: "Which word does NOT need a capital letter in the middle of a sentence?",
-
+        stage: "recognise",
         options: [
             "apple",
             "Tuesday",
@@ -218,7 +218,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-010",
         skillId: "capitalLetters",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "Ben and Mia played football.",
             "ben and Mia played football.",
@@ -240,7 +240,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-011",
         skillId: "capitalLetters",
         question: "Which sentence uses capital letters correctly?",
-
+        stage: "recognise",
         options: [
             "On Friday we visited Edinburgh.",
             "On friday we visited Edinburgh.",
@@ -262,7 +262,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-012",
         skillId: "capitalLetters",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "My birthday is in December.",
             "My birthday is in december.",
@@ -284,7 +284,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-013",
         skillId: "capitalLetters",
         question: "Which sentence needs one more capital letter?",
-
+        stage: "recognise",
         options: [
             "We went to paris.",
             "We went to Paris.",
@@ -306,7 +306,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-014",
         skillId: "capitalLetters",
         question: "Which sentence is written correctly?",
-
+        stage: "recognise",
         options: [
             "Sophie lives in Scotland.",
             "Sophie lives in scotland.",
@@ -328,7 +328,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-015",
         skillId: "capitalLetters",
         question: "Which sentence is correct?",
-
+        stage: "recognise",
         options: [
             "We have PE on Wednesday.",
             "We have PE on wednesday.",
@@ -350,7 +350,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-016",
         skillId: "capitalLetters",
         question: "Why do names begin with capital letters?",
-
+        stage: "recognise",
         options: [
             "To show they are special names of people or places",
             "To make them longer",
@@ -372,7 +372,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-017",
         skillId: "capitalLetters",
         question: "Which sentence uses every capital letter correctly?",
-
+        stage: "recognise",
         options: [
             "Lucy visited Cardiff on Saturday.",
             "Lucy visited cardiff on Saturday.",
@@ -394,7 +394,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-018",
         skillId: "capitalLetters",
         question: "Which word should always begin with a capital letter?",
-
+        stage: "recognise",
         options: [
             "January",
             "winter",
@@ -416,7 +416,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-019",
         skillId: "capitalLetters",
         question: "Which sentence is written correctly?",
-
+        stage: "recognise",
         options: [
             "Our teacher is Mrs Brown.",
             "Our teacher is mrs Brown.",
@@ -438,7 +438,7 @@ export const capitalLetters: SkillContent = {
         id: "eng-capitals-020",
         skillId: "capitalLetters",
         question: "What do capital letters help readers do?",
-
+        stage: "recognise",
         options: [
             "Spot the beginning of sentences and important names",
             "Find adjectives",
