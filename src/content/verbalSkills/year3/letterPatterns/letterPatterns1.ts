@@ -22,14 +22,14 @@ export default [
     hint:
         "Look at the first two letters.",
 
-    answers: [
-        "Cab",
-        "Dog",
-        "Hat",
-        "Pen"
-    ],
+    options: [
+            "Cab",
+            "Dog",
+            "Hat",
+            "Pen"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cab",
 
     explanation:
         "All the words begin with 'ca'.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Look at the last four letters.",
 
-    answers: [
-        "Wing",
-        "Wind",
-        "Wish",
-        "Wide"
-    ],
+    options: [
+            "Wing",
+            "Wind",
+            "Wish",
+            "Wide"
+        ],
 
-    correct: 0,
+    correctAnswer: "Wing",
 
     explanation:
         "All the words end with 'ing'.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Look at the word ending.",
 
-    answers: [
-        "Hook",
-        "Back",
-        "Cake",
-        "Ball"
-    ],
+    options: [
+            "Hook",
+            "Back",
+            "Cake",
+            "Ball"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hook",
 
     explanation:
         "All the words end with 'ook'.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Look at the first two letters.",
 
-    answers: [
-        "Truck",
-        "Snake",
-        "Plane",
-        "Chair"
-    ],
+    options: [
+            "Truck",
+            "Snake",
+            "Plane",
+            "Chair"
+        ],
 
-    correct: 0,
+    correctAnswer: "Truck",
 
     explanation:
         "All the words begin with 'tr'.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Look at the last three letters.",
 
-    answers: [
-        "Make",
-        "Mark",
-        "Milk",
-        "Mask"
-    ],
+    options: [
+            "Make",
+            "Mark",
+            "Milk",
+            "Mask"
+        ],
 
-    correct: 0,
+    correctAnswer: "Make",
 
     explanation:
         "All the words end with 'ake'.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Look at the first two letters.",
 
-    answers: [
-        "Shell",
-        "Chair",
-        "Smile",
-        "Stone"
-    ],
+    options: [
+            "Shell",
+            "Chair",
+            "Smile",
+            "Stone"
+        ],
 
-    correct: 0,
+    correctAnswer: "Shell",
 
     explanation:
         "All the words begin with 'sh'.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Look at the last three letters.",
 
-    answers: [
-        "Call",
-        "Cold",
-        "Card",
-        "Camp"
-    ],
+    options: [
+            "Call",
+            "Cold",
+            "Card",
+            "Camp"
+        ],
 
-    correct: 0,
+    correctAnswer: "Call",
 
     explanation:
         "All the words end with 'all'.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Look at the first two letters.",
 
-    answers: [
-        "Fruit",
-        "Grass",
-        "Bread",
-        "Cloud"
-    ],
+    options: [
+            "Fruit",
+            "Grass",
+            "Bread",
+            "Cloud"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fruit",
 
     explanation:
         "All the words begin with 'fr'.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Look at the ending.",
 
-    answers: [
-        "Fight",
-        "Finger",
-        "Figure",
-        "Forest"
-    ],
+    options: [
+            "Fight",
+            "Finger",
+            "Figure",
+            "Forest"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fight",
 
     explanation:
         "All the words end with 'ight'.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Look at the first two letters.",
 
-    answers: [
-        "Blow",
-        "Green",
-        "White",
-        "Round"
-    ],
+    options: [
+            "Blow",
+            "Green",
+            "White",
+            "Round"
+        ],
 
-    correct: 0,
+    correctAnswer: "Blow",
 
     explanation:
         "All the words begin with 'bl'.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Look at the first two letters.",
 
-    answers: [
-        "Cherry",
-        "Shirt",
-        "Clock",
-        "Thumb"
-    ],
+    options: [
+            "Cherry",
+            "Shirt",
+            "Clock",
+            "Thumb"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cherry",
 
     explanation:
         "All the words begin with 'ch'.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Look at the last four letters.",
 
-    answers: [
-        "Plain",
-        "Plant",
-        "Plate",
-        "Place"
-    ],
+    options: [
+            "Plain",
+            "Plant",
+            "Plate",
+            "Place"
+        ],
 
-    correct: 0,
+    correctAnswer: "Plain",
 
     explanation:
         "All the words end with 'ain'.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Compare the first two letters.",
 
-    answers: [
-        "Cloud",
-        "Crowd",
-        "Grass",
-        "Stone"
-    ],
+    options: [
+            "Cloud",
+            "Crowd",
+            "Grass",
+            "Stone"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cloud",
 
     explanation:
         "All the words begin with 'cl'.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Look at the last four letters.",
 
-    answers: [
-        "Spouse",
-        "Horse",
-        "Sound",
-        "Round"
-    ],
+    options: [
+            "Spouse",
+            "Horse",
+            "Sound",
+            "Round"
+        ],
 
-    correct: 0,
+    correctAnswer: "Spouse",
 
     explanation:
         "All the words end with 'ouse'.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Look at the first two letters.",
 
-    answers: [
-        "Grass",
-        "Bread",
-        "Drive",
-        "Small"
-    ],
+    options: [
+            "Grass",
+            "Bread",
+            "Drive",
+            "Small"
+        ],
 
-    correct: 0,
+    correctAnswer: "Grass",
 
     explanation:
         "All the words begin with 'gr'.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Look at the last three letters.",
 
-    answers: [
-        "Tile",
-        "Tall",
-        "Time",
-        "Tiger"
-    ],
+    options: [
+            "Tile",
+            "Tall",
+            "Time",
+            "Tiger"
+        ],
 
-    correct: 0,
+    correctAnswer: "Tile",
 
     explanation:
         "All the words end with 'ile'.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Compare the first two letters.",
 
-    answers: [
-        "Story",
-        "Chair",
-        "Bread",
-        "Cloud"
-    ],
+    options: [
+            "Story",
+            "Chair",
+            "Bread",
+            "Cloud"
+        ],
 
-    correct: 0,
+    correctAnswer: "Story",
 
     explanation:
         "All the words begin with 'st'.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Look at the final letters.",
 
-    answers: [
-        "Sight",
-        "Seat",
-        "Stone",
-        "Snow"
-    ],
+    options: [
+            "Sight",
+            "Seat",
+            "Stone",
+            "Snow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sight",
 
     explanation:
         "All the words end with 'ight'.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Look at the first two letters.",
 
-    answers: [
-        "Plate",
-        "Cloud",
-        "Drink",
-        "Shine"
-    ],
+    options: [
+            "Plate",
+            "Cloud",
+            "Drink",
+            "Shine"
+        ],
 
-    correct: 0,
+    correctAnswer: "Plate",
 
     explanation:
         "All the words begin with 'pl'.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Look at the last three letters.",
 
-    answers: [
-        "Alarm",
-        "Frame",
-        "Fruit",
-        "Forest"
-    ],
+    options: [
+            "Alarm",
+            "Frame",
+            "Fruit",
+            "Forest"
+        ],
 
-    correct: 0,
+    correctAnswer: "Alarm",
 
     explanation:
         "All the words end with 'arm'.",

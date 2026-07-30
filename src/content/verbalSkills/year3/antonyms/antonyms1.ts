@@ -22,14 +22,14 @@ export default [
     hint:
         "Look for the opposite meaning.",
 
-    answers: [
-        "Sad",
-        "Glad",
-        "Cheerful",
-        "Joyful"
-    ],
+    options: [
+            "Sad",
+            "Glad",
+            "Cheerful",
+            "Joyful"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sad",
 
     explanation:
         "'Sad' is the opposite of 'happy', making it the antonym.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about arriving after the expected time.",
 
-    answers: [
-        "Late",
-        "Soon",
-        "Quick",
-        "First"
-    ],
+    options: [
+            "Late",
+            "Soon",
+            "Quick",
+            "First"
+        ],
 
-    correct: 0,
+    correctAnswer: "Late",
 
     explanation:
         "'Late' is the opposite of 'early'.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about someone without much strength.",
 
-    answers: [
-        "Weak",
-        "Heavy",
-        "Tall",
-        "Brave"
-    ],
+    options: [
+            "Weak",
+            "Heavy",
+            "Tall",
+            "Brave"
+        ],
 
-    correct: 0,
+    correctAnswer: "Weak",
 
     explanation:
         "'Weak' is the antonym of 'strong'.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about a container with something inside.",
 
-    answers: [
-        "Full",
-        "Open",
-        "Clean",
-        "Round"
-    ],
+    options: [
+            "Full",
+            "Open",
+            "Clean",
+            "Round"
+        ],
 
-    correct: 0,
+    correctAnswer: "Full",
 
     explanation:
         "'Full' is the opposite of 'empty'.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about something made recently.",
 
-    answers: [
-        "Modern",
-        "Old",
-        "Historic",
-        "Broken"
-    ],
+    options: [
+            "Modern",
+            "Old",
+            "Historic",
+            "Broken"
+        ],
 
-    correct: 0,
+    correctAnswer: "Modern",
 
     explanation:
         "'Modern' is the opposite of 'ancient'.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about making very little sound.",
 
-    answers: [
-        "Quiet",
-        "Loud",
-        "Busy",
-        "Fast"
-    ],
+    options: [
+            "Quiet",
+            "Loud",
+            "Busy",
+            "Fast"
+        ],
 
-    correct: 0,
+    correctAnswer: "Quiet",
 
     explanation:
         "'Quiet' is the antonym of 'noisy'.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about going away.",
 
-    answers: [
-        "Leave",
-        "Enter",
-        "Visit",
-        "Stay"
-    ],
+    options: [
+            "Leave",
+            "Enter",
+            "Visit",
+            "Stay"
+        ],
 
-    correct: 0,
+    correctAnswer: "Leave",
 
     explanation:
         "'Leave' is the opposite of 'arrive'.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about saying no to something.",
 
-    answers: [
-        "Reject",
-        "Welcome",
-        "Receive",
-        "Collect"
-    ],
+    options: [
+            "Reject",
+            "Welcome",
+            "Receive",
+            "Collect"
+        ],
 
-    correct: 0,
+    correctAnswer: "Reject",
 
     explanation:
         "'Reject' means to refuse or not accept something.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about a surface that is not even.",
 
-    answers: [
-        "Rough",
-        "Soft",
-        "Flat",
-        "Clean"
-    ],
+    options: [
+            "Rough",
+            "Soft",
+            "Flat",
+            "Clean"
+        ],
 
-    correct: 0,
+    correctAnswer: "Rough",
 
     explanation:
         "'Rough' is the opposite of 'smooth'.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about not winning.",
 
-    answers: [
-        "Defeat",
-        "Success",
-        "Prize",
-        "Reward"
-    ],
+    options: [
+            "Defeat",
+            "Success",
+            "Prize",
+            "Reward"
+        ],
 
-    correct: 0,
+    correctAnswer: "Defeat",
 
     explanation:
         "'Defeat' is the opposite of 'victory'.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about someone who does not like to share.",
 
-    answers: [
-        "Greedy",
-        "Kind",
-        "Helpful",
-        "Friendly"
-    ],
+    options: [
+            "Greedy",
+            "Kind",
+            "Helpful",
+            "Friendly"
+        ],
 
-    correct: 0,
+    correctAnswer: "Greedy",
 
     explanation:
         "'Greedy' is the opposite of 'generous'.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about giving something back to its owner.",
 
-    answers: [
-        "Lend",
-        "Keep",
-        "Hide",
-        "Carry"
-    ],
+    options: [
+            "Lend",
+            "Keep",
+            "Hide",
+            "Carry"
+        ],
 
-    correct: 0,
+    correctAnswer: "Lend",
 
     explanation:
         "'Lend' is the opposite action of 'borrow'.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about leaving something out.",
 
-    answers: [
-        "Exclude",
-        "Collect",
-        "Accept",
-        "Gather"
-    ],
+    options: [
+            "Exclude",
+            "Collect",
+            "Accept",
+            "Gather"
+        ],
 
-    correct: 0,
+    correctAnswer: "Exclude",
 
     explanation:
         "'Exclude' means to leave out, the opposite of 'include'.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about becoming smaller.",
 
-    answers: [
-        "Shrink",
-        "Stretch",
-        "Increase",
-        "Grow"
-    ],
+    options: [
+            "Shrink",
+            "Stretch",
+            "Increase",
+            "Grow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Shrink",
 
     explanation:
         "'Shrink' is the opposite of 'expand'.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about something you cannot see.",
 
-    answers: [
-        "Hidden",
-        "Bright",
-        "Clear",
-        "Colourful"
-    ],
+    options: [
+            "Hidden",
+            "Bright",
+            "Clear",
+            "Colourful"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hidden",
 
     explanation:
         "'Hidden' means not able to be seen.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about losing a game.",
 
-    answers: [
-        "Defeat",
-        "Success",
-        "Champion",
-        "Reward"
-    ],
+    options: [
+            "Defeat",
+            "Success",
+            "Champion",
+            "Reward"
+        ],
 
-    correct: 0,
+    correctAnswer: "Defeat",
 
     explanation:
         "'Defeat' is the opposite of 'victory'.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about someone who cannot wait.",
 
-    answers: [
-        "Impatient",
-        "Gentle",
-        "Polite",
-        "Careful"
-    ],
+    options: [
+            "Impatient",
+            "Gentle",
+            "Polite",
+            "Careful"
+        ],
 
-    correct: 0,
+    correctAnswer: "Impatient",
 
     explanation:
         "'Impatient' means not willing to wait.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about something new for today's world.",
 
-    answers: [
-        "Modern",
-        "Historic",
-        "Old",
-        "Traditional"
-    ],
+    options: [
+            "Modern",
+            "Historic",
+            "Old",
+            "Traditional"
+        ],
 
-    correct: 0,
+    correctAnswer: "Modern",
 
     explanation:
         "'Modern' is the opposite of 'ancient'.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about the way out.",
 
-    answers: [
-        "Exit",
-        "Door",
-        "Hall",
-        "Gateway"
-    ],
+    options: [
+            "Exit",
+            "Door",
+            "Hall",
+            "Gateway"
+        ],
 
-    correct: 0,
+    correctAnswer: "Exit",
 
     explanation:
         "'Exit' is the opposite of 'entrance'.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about setting someone free.",
 
-    answers: [
-        "Release",
-        "Catch",
-        "Hold",
-        "Keep"
-    ],
+    options: [
+            "Release",
+            "Catch",
+            "Hold",
+            "Keep"
+        ],
 
-    correct: 0,
+    correctAnswer: "Release",
 
     explanation:
         "'Release' means to let go, the opposite of 'capture'.",

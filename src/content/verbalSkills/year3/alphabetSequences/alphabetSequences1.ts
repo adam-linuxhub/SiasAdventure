@@ -22,14 +22,14 @@ export default [
     hint:
         "Say the alphabet.",
 
-    answers: [
-        "E",
-        "F",
-        "G",
-        "H"
-    ],
+    options: [
+            "E",
+            "F",
+            "G",
+            "H"
+        ],
 
-    correct: 0,
+    correctAnswer: "E",
 
     explanation:
         "The letter after D is E.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Keep going through the alphabet.",
 
-    answers: [
-        "P",
-        "Q",
-        "R",
-        "S"
-    ],
+    options: [
+            "P",
+            "Q",
+            "R",
+            "S"
+        ],
 
-    correct: 0,
+    correctAnswer: "P",
 
     explanation:
         "The letter after O is P.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Count backwards one letter.",
 
-    answers: [
-        "F",
-        "E",
-        "H",
-        "D"
-    ],
+    options: [
+            "F",
+            "E",
+            "H",
+            "D"
+        ],
 
-    correct: 0,
+    correctAnswer: "F",
 
     explanation:
         "F comes immediately before G.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "This is the end of the alphabet.",
 
-    answers: [
-        "Z",
-        "A",
-        "V",
-        "Q"
-    ],
+    options: [
+            "Z",
+            "A",
+            "V",
+            "Q"
+        ],
 
-    correct: 0,
+    correctAnswer: "Z",
 
     explanation:
         "Z comes after Y.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Move back one place.",
 
-    answers: [
-        "O",
-        "N",
-        "Q",
-        "R"
-    ],
+    options: [
+            "O",
+            "N",
+            "Q",
+            "R"
+        ],
 
-    correct: 0,
+    correctAnswer: "O",
 
     explanation:
         "O comes immediately before P.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Continue the alphabet.",
 
-    answers: [
-        "K",
-        "L",
-        "M",
-        "N"
-    ],
+    options: [
+            "K",
+            "L",
+            "M",
+            "N"
+        ],
 
-    correct: 0,
+    correctAnswer: "K",
 
     explanation:
         "K comes after J.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Count backwards one letter.",
 
-    answers: [
-        "B",
-        "A",
-        "D",
-        "E"
-    ],
+    options: [
+            "B",
+            "A",
+            "D",
+            "E"
+        ],
 
-    correct: 0,
+    correctAnswer: "B",
 
     explanation:
         "B comes immediately before C.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Keep going.",
 
-    answers: [
-        "U",
-        "V",
-        "W",
-        "X"
-    ],
+    options: [
+            "U",
+            "V",
+            "W",
+            "X"
+        ],
 
-    correct: 0,
+    correctAnswer: "U",
 
     explanation:
         "U comes after T.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Move back one letter.",
 
-    answers: [
-        "M",
-        "L",
-        "O",
-        "P"
-    ],
+    options: [
+            "M",
+            "L",
+            "O",
+            "P"
+        ],
 
-    correct: 0,
+    correctAnswer: "M",
 
     explanation:
         "M comes immediately before N.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Continue the alphabet.",
 
-    answers: [
-        "H",
-        "I",
-        "J",
-        "K"
-    ],
+    options: [
+            "H",
+            "I",
+            "J",
+            "K"
+        ],
 
-    correct: 0,
+    correctAnswer: "H",
 
     explanation:
         "H comes after G.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "The letters skip one each time.",
 
-    answers: [
-        "I",
-        "H",
-        "J",
-        "K"
-    ],
+    options: [
+            "I",
+            "H",
+            "J",
+            "K"
+        ],
 
-    correct: 0,
+    correctAnswer: "I",
 
     explanation:
         "The pattern skips one letter each time: C, E, G, I.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Skip one letter each time.",
 
-    answers: [
-        "H",
-        "G",
-        "I",
-        "J"
-    ],
+    options: [
+            "H",
+            "G",
+            "I",
+            "J"
+        ],
 
-    correct: 0,
+    correctAnswer: "H",
 
     explanation:
         "The sequence is B, D, F, H.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Move back one place in the alphabet.",
 
-    answers: [
-        "K",
-        "J",
-        "M",
-        "N"
-    ],
+    options: [
+            "K",
+            "J",
+            "M",
+            "N"
+        ],
 
-    correct: 0,
+    correctAnswer: "K",
 
     explanation:
         "K comes immediately before L.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "The letters move forward three places each time.",
 
-    answers: [
-        "J",
-        "I",
-        "K",
-        "L"
-    ],
+    options: [
+            "J",
+            "I",
+            "K",
+            "L"
+        ],
 
-    correct: 0,
+    correctAnswer: "J",
 
     explanation:
         "The pattern is A, D, G, J.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "The letters move backwards, skipping one each time.",
 
-    answers: [
-        "T",
-        "U",
-        "S",
-        "R"
-    ],
+    options: [
+            "T",
+            "U",
+            "S",
+            "R"
+        ],
 
-    correct: 0,
+    correctAnswer: "T",
 
     explanation:
         "The sequence goes backwards by two letters: Z, X, V, T.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Skip one letter each time.",
 
-    answers: [
-        "S",
-        "R",
-        "T",
-        "U"
-    ],
+    options: [
+            "S",
+            "R",
+            "T",
+            "U"
+        ],
 
-    correct: 0,
+    correctAnswer: "S",
 
     explanation:
         "The pattern is M, O, Q, S.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think carefully about the alphabet.",
 
-    answers: [
-        "No letter",
-        "Z",
-        "B",
-        "Y"
-    ],
+    options: [
+            "No letter",
+            "Z",
+            "B",
+            "Y"
+        ],
 
-    correct: 0,
+    correctAnswer: "No letter",
 
     explanation:
         "A is the first letter of the alphabet, so no letter comes before it.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Move forward three letters each time.",
 
-    answers: [
-        "O",
-        "N",
-        "P",
-        "Q"
-    ],
+    options: [
+            "O",
+            "N",
+            "P",
+            "Q"
+        ],
 
-    correct: 0,
+    correctAnswer: "O",
 
     explanation:
         "The pattern is F, I, L, O.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Move backwards two letters each time.",
 
-    answers: [
-        "S",
-        "T",
-        "R",
-        "Q"
-    ],
+    options: [
+            "S",
+            "T",
+            "R",
+            "Q"
+        ],
 
-    correct: 0,
+    correctAnswer: "S",
 
     explanation:
         "The sequence is Y, W, U, S.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Move forward three letters each time.",
 
-    answers: [
-        "M",
-        "L",
-        "N",
-        "O"
-    ],
+    options: [
+            "M",
+            "L",
+            "N",
+            "O"
+        ],
 
-    correct: 0,
+    correctAnswer: "M",
 
     explanation:
         "The pattern is D, G, J, M.",

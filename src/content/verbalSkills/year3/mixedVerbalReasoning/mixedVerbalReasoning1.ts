@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about winter weather.",
 
-    answers: [
-        "Cold",
-        "Warm",
-        "Dry",
-        "Bright"
-    ],
+    options: [
+            "Cold",
+            "Warm",
+            "Dry",
+            "Bright"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cold",
 
     explanation:
         "Cold is the opposite of hot.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Only one grows on a tree.",
 
-    answers: [
-        "Pear",
-        "Carrot",
-        "Potato",
-        "Onion"
-    ],
+    options: [
+            "Pear",
+            "Carrot",
+            "Potato",
+            "Onion"
+        ],
 
-    correct: 0,
+    correctAnswer: "Pear",
 
     explanation:
         "A pear is a fruit.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Skip one letter each time.",
 
-    answers: [
-        "G",
-        "F",
-        "H",
-        "I"
-    ],
+    options: [
+            "G",
+            "F",
+            "H",
+            "I"
+        ],
 
-    correct: 0,
+    correctAnswer: "G",
 
     explanation:
         "The sequence skips one letter: A, C, E, G.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Three are animals.",
 
-    answers: [
-        "Bus",
-        "Dog",
-        "Cat",
-        "Rabbit"
-    ],
+    options: [
+            "Bus",
+            "Dog",
+            "Cat",
+            "Rabbit"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bus",
 
     explanation:
         "Bus is a vehicle. The others are animals.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about what cows produce.",
 
-    answers: [
-        "Milk",
-        "Bread",
-        "Eggs",
-        "Jam"
-    ],
+    options: [
+            "Milk",
+            "Bread",
+            "Eggs",
+            "Jam"
+        ],
 
-    correct: 0,
+    correctAnswer: "Milk",
 
     explanation:
         "Bees make honey and cows produce milk.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Look for the '-ake' ending.",
 
-    answers: [
-        "Lake",
-        "Lock",
-        "Lamp",
-        "Leaf"
-    ],
+    options: [
+            "Lake",
+            "Lock",
+            "Lamp",
+            "Leaf"
+        ],
 
-    correct: 0,
+    correctAnswer: "Lake",
 
     explanation:
         "Cake and lake both end with 'ake'.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Count back one letter.",
 
-    answers: [
-        "L",
-        "K",
-        "N",
-        "O"
-    ],
+    options: [
+            "L",
+            "K",
+            "N",
+            "O"
+        ],
 
-    correct: 0,
+    correctAnswer: "L",
 
     explanation:
         "L comes immediately before M.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about smiling.",
 
-    answers: [
-        "Glad",
-        "Sad",
-        "Slow",
-        "Tiny"
-    ],
+    options: [
+            "Glad",
+            "Sad",
+            "Slow",
+            "Tiny"
+        ],
 
-    correct: 0,
+    correctAnswer: "Glad",
 
     explanation:
         "Glad means the same as happy.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about the dinner table.",
 
-    answers: [
-        "Plate",
-        "Pillow",
-        "Window",
-        "Book"
-    ],
+    options: [
+            "Plate",
+            "Pillow",
+            "Window",
+            "Book"
+        ],
 
-    correct: 0,
+    correctAnswer: "Plate",
 
     explanation:
         "A plate belongs with cutlery at the table.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about where you learn.",
 
-    answers: [
-        "L",
-        "R",
-        "N",
-        "T"
-    ],
+    options: [
+            "L",
+            "R",
+            "N",
+            "T"
+        ],
 
-    correct: 0,
+    correctAnswer: "L",
 
     explanation:
         "Adding L makes the word SCHOOL.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about starting something.",
 
-    answers: [
-        "Start",
-        "Finish",
-        "Pause",
-        "Stop"
-    ],
+    options: [
+            "Start",
+            "Finish",
+            "Pause",
+            "Stop"
+        ],
 
-    correct: 0,
+    correctAnswer: "Start",
 
     explanation:
         "Start is a synonym for begin.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Go backwards, skipping one letter each time.",
 
-    answers: [
-        "T",
-        "U",
-        "S",
-        "R"
-    ],
+    options: [
+            "T",
+            "U",
+            "S",
+            "R"
+        ],
 
-    correct: 0,
+    correctAnswer: "T",
 
     explanation:
         "The pattern moves backwards by two letters: Z, X, V, T.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Three are flowers.",
 
-    answers: [
-        "Oak",
-        "Rose",
-        "Tulip",
-        "Daisy"
-    ],
+    options: [
+            "Oak",
+            "Rose",
+            "Tulip",
+            "Daisy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Oak",
 
     explanation:
         "Oak is a tree. The others are flowers.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about what ears do.",
 
-    answers: [
-        "Hear",
-        "Taste",
-        "Smell",
-        "Touch"
-    ],
+    options: [
+            "Hear",
+            "Taste",
+            "Smell",
+            "Touch"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hear",
 
     explanation:
         "Eyes see and ears hear.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about animals that feed their babies milk.",
 
-    answers: [
-        "Whale",
-        "Shark",
-        "Crocodile",
-        "Eagle"
-    ],
+    options: [
+            "Whale",
+            "Shark",
+            "Crocodile",
+            "Eagle"
+        ],
 
-    correct: 0,
+    correctAnswer: "Whale",
 
     explanation:
         "A whale is a mammal. The others are not.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "What do you do with music?",
 
-    answers: [
-        "Listen",
-        "Paint",
-        "Throw",
-        "Build"
-    ],
+    options: [
+            "Listen",
+            "Paint",
+            "Throw",
+            "Build"
+        ],
 
-    correct: 0,
+    correctAnswer: "Listen",
 
     explanation:
         "You read a book and listen to music.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about where you borrow books.",
 
-    answers: [
-        "Y",
-        "I",
-        "E",
-        "A"
-    ],
+    options: [
+            "Y",
+            "I",
+            "E",
+            "A"
+        ],
 
-    correct: 0,
+    correctAnswer: "Y",
 
     explanation:
         "Adding Y makes the word LIBRARY.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Look for the '-ight' ending.",
 
-    answers: [
-        "Night",
-        "Lamp",
-        "Torch",
-        "Candle"
-    ],
+    options: [
+            "Night",
+            "Lamp",
+            "Torch",
+            "Candle"
+        ],
 
-    correct: 0,
+    correctAnswer: "Night",
 
     explanation:
         "Light and night both end with 'ight'.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about arriving after the expected time.",
 
-    answers: [
-        "Late",
-        "Quick",
-        "Near",
-        "First"
-    ],
+    options: [
+            "Late",
+            "Quick",
+            "Near",
+            "First"
+        ],
 
-    correct: 0,
+    correctAnswer: "Late",
 
     explanation:
         "Late is the opposite of early.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about tools.",
 
-    answers: [
-        "Screwdriver",
-        "Blanket",
-        "Curtain",
-        "Pillow"
-    ],
+    options: [
+            "Screwdriver",
+            "Blanket",
+            "Curtain",
+            "Pillow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Screwdriver",
 
     explanation:
         "A screwdriver belongs with the other tools.",

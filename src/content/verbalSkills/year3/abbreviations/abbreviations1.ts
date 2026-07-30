@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about someone who helps sick people.",
 
-    answers: [
-        "Doctor",
-        "Driver",
-        "Director",
-        "Drawer"
-    ],
+    options: [
+            "Doctor",
+            "Driver",
+            "Director",
+            "Drawer"
+        ],
 
-    correct: 0,
+    correctAnswer: "Doctor",
 
     explanation:
         "'Dr' is the abbreviation for 'Doctor'.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "It is a title for a man.",
 
-    answers: [
-        "Mister",
-        "Master",
-        "Manager",
-        "Member"
-    ],
+    options: [
+            "Mister",
+            "Master",
+            "Manager",
+            "Member"
+        ],
 
-    correct: 0,
+    correctAnswer: "Mister",
 
     explanation:
         "'Mr' is the abbreviation for 'Mister'.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "It is a title for a married woman.",
 
-    answers: [
-        "Mistress",
-        "Missus",
-        "Madam",
-        "Mother"
-    ],
+    options: [
+            "Mistress",
+            "Missus",
+            "Madam",
+            "Mother"
+        ],
 
-    correct: 1,
+    correctAnswer: "Missus",
 
     explanation:
         "'Mrs' is traditionally read as 'Missus'.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about roads.",
 
-    answers: [
-        "Street",
-        "Station",
-        "Store",
-        "Stop"
-    ],
+    options: [
+            "Street",
+            "Station",
+            "Store",
+            "Stop"
+        ],
 
-    correct: 0,
+    correctAnswer: "Street",
 
     explanation:
         "'St' stands for 'Street' in an address.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "It is used to measure weight.",
 
-    answers: [
-        "Kilogram",
-        "Kilometre",
-        "Kitchen",
-        "King"
-    ],
+    options: [
+            "Kilogram",
+            "Kilometre",
+            "Kitchen",
+            "King"
+        ],
 
-    correct: 0,
+    correctAnswer: "Kilogram",
 
     explanation:
         "'kg' is the abbreviation for 'kilogram'.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "It is used to measure length.",
 
-    answers: [
-        "Centimetre",
-        "Centigram",
-        "Century",
-        "Classroom"
-    ],
+    options: [
+            "Centimetre",
+            "Centigram",
+            "Century",
+            "Classroom"
+        ],
 
-    correct: 0,
+    correctAnswer: "Centimetre",
 
     explanation:
         "'cm' stands for 'centimetre'.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "It is a unit of time.",
 
-    answers: [
-        "Minute",
-        "Minimum",
-        "Mine",
-        "Mind"
-    ],
+    options: [
+            "Minute",
+            "Minimum",
+            "Mine",
+            "Mind"
+        ],
 
-    correct: 0,
+    correctAnswer: "Minute",
 
     explanation:
         "'min' is the abbreviation for 'minute'.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "It is the first school day of the week.",
 
-    answers: [
-        "Monday",
-        "Month",
-        "Morning",
-        "Monitor"
-    ],
+    options: [
+            "Monday",
+            "Month",
+            "Morning",
+            "Monitor"
+        ],
 
-    correct: 0,
+    correctAnswer: "Monday",
 
     explanation:
         "'Mon' is the abbreviation for 'Monday'.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "You watch programmes on it.",
 
-    answers: [
-        "Television",
-        "Telephone",
-        "Telegraph",
-        "Teleporter"
-    ],
+    options: [
+            "Television",
+            "Telephone",
+            "Telegraph",
+            "Teleporter"
+        ],
 
-    correct: 0,
+    correctAnswer: "Television",
 
     explanation:
         "'TV' is short for 'television'.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "It is a type of computer.",
 
-    answers: [
-        "Personal Computer",
-        "Police Car",
-        "Power Cable",
-        "Paper Clip"
-    ],
+    options: [
+            "Personal Computer",
+            "Police Car",
+            "Power Cable",
+            "Paper Clip"
+        ],
 
-    correct: 0,
+    correctAnswer: "Personal Computer",
 
     explanation:
         "'PC' stands for 'Personal Computer'.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "It is the last school day of the week.",
 
-    answers: [
-        "Friday",
-        "Friend",
-        "Fright",
-        "Free"
-    ],
+    options: [
+            "Friday",
+            "Friend",
+            "Fright",
+            "Free"
+        ],
 
-    correct: 0,
+    correctAnswer: "Friday",
 
     explanation:
         "'Fri' is the abbreviation for 'Friday'.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "It is the first month of the year.",
 
-    answers: [
-        "January",
-        "June",
-        "July",
-        "Januarys"
-    ],
+    options: [
+            "January",
+            "June",
+            "July",
+            "Januarys"
+        ],
 
-    correct: 0,
+    correctAnswer: "January",
 
     explanation:
         "'Jan' is the abbreviation for 'January'.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "It is longer than a minute.",
 
-    answers: [
-        "Hour",
-        "Half",
-        "Heart",
-        "Harbour"
-    ],
+    options: [
+            "Hour",
+            "Half",
+            "Heart",
+            "Harbour"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hour",
 
     explanation:
         "'hr' is the abbreviation for 'hour'.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "It is used after many business names.",
 
-    answers: [
-        "Limited",
-        "Listed",
-        "Leader",
-        "Local"
-    ],
+    options: [
+            "Limited",
+            "Listed",
+            "Leader",
+            "Local"
+        ],
 
-    correct: 0,
+    correctAnswer: "Limited",
 
     explanation:
         "'Ltd' is short for 'Limited'.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "You might see it before a house number.",
 
-    answers: [
-        "Number",
-        "Name",
-        "Note",
-        "North"
-    ],
+    options: [
+            "Number",
+            "Name",
+            "Note",
+            "North"
+        ],
 
-    correct: 0,
+    correctAnswer: "Number",
 
     explanation:
         "'No.' is the abbreviation for 'Number'.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "It is the fourth month of the year.",
 
-    answers: [
-        "April",
-        "August",
-        "Autumn",
-        "Appointment"
-    ],
+    options: [
+            "April",
+            "August",
+            "Autumn",
+            "Appointment"
+        ],
 
-    correct: 0,
+    correctAnswer: "April",
 
     explanation:
         "'Apr' is the abbreviation for 'April'.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "It is another word for a road.",
 
-    answers: [
-        "Road",
-        "Round",
-        "Ride",
-        "Room"
-    ],
+    options: [
+            "Road",
+            "Round",
+            "Ride",
+            "Room"
+        ],
 
-    correct: 0,
+    correctAnswer: "Road",
 
     explanation:
         "'Rd' stands for 'Road'.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "It is a type of street.",
 
-    answers: [
-        "Avenue",
-        "Average",
-        "Arrival",
-        "Adventure"
-    ],
+    options: [
+            "Avenue",
+            "Average",
+            "Arrival",
+            "Adventure"
+        ],
 
-    correct: 0,
+    correctAnswer: "Avenue",
 
     explanation:
         "'Ave' stands for 'Avenue'.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "It comes after Friday.",
 
-    answers: [
-        "Saturday",
-        "Satellite",
-        "Satisfaction",
-        "Season"
-    ],
+    options: [
+            "Saturday",
+            "Satellite",
+            "Satisfaction",
+            "Season"
+        ],
 
-    correct: 0,
+    correctAnswer: "Saturday",
 
     explanation:
         "'Sat' is the abbreviation for 'Saturday'.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "It is the final month of the year.",
 
-    answers: [
-        "December",
-        "Decision",
-        "Decoration",
-        "Decimal"
-    ],
+    options: [
+            "December",
+            "Decision",
+            "Decoration",
+            "Decimal"
+        ],
 
-    correct: 0,
+    correctAnswer: "December",
 
     explanation:
         "'Dec' is the abbreviation for 'December'.",

@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about birds flying together.",
 
-    answers: [
-        "Flock",
-        "Pack",
-        "Herd",
-        "Shoal"
-    ],
+    options: [
+            "Flock",
+            "Pack",
+            "Herd",
+            "Shoal"
+        ],
 
-    correct: 0,
+    correctAnswer: "Flock",
 
     explanation:
         "A group of birds is called a flock.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Farm animals often stay together.",
 
-    answers: [
-        "Flock",
-        "School",
-        "Pack",
-        "Swarm"
-    ],
+    options: [
+            "Flock",
+            "School",
+            "Pack",
+            "Swarm"
+        ],
 
-    correct: 0,
+    correctAnswer: "Flock",
 
     explanation:
         "A group of sheep is called a flock.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about fish swimming together.",
 
-    answers: [
-        "School",
-        "Pack",
-        "Flock",
-        "Pride"
-    ],
+    options: [
+            "School",
+            "Pack",
+            "Flock",
+            "Pride"
+        ],
 
-    correct: 0,
+    correctAnswer: "School",
 
     explanation:
         "A group of fish is called a school.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "They hunt together.",
 
-    answers: [
-        "Pack",
-        "Flock",
-        "Swarm",
-        "Herd"
-    ],
+    options: [
+            "Pack",
+            "Flock",
+            "Swarm",
+            "Herd"
+        ],
 
-    correct: 0,
+    correctAnswer: "Pack",
 
     explanation:
         "A group of wolves is called a pack.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about animals grazing in a field.",
 
-    answers: [
-        "Herd",
-        "Pack",
-        "Swarm",
-        "School"
-    ],
+    options: [
+            "Herd",
+            "Pack",
+            "Swarm",
+            "School"
+        ],
 
-    correct: 0,
+    correctAnswer: "Herd",
 
     explanation:
         "A group of cows is called a herd.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about insects buzzing together.",
 
-    answers: [
-        "Swarm",
-        "Herd",
-        "Pack",
-        "School"
-    ],
+    options: [
+            "Swarm",
+            "Herd",
+            "Pack",
+            "School"
+        ],
 
-    correct: 0,
+    correctAnswer: "Swarm",
 
     explanation:
         "A group of bees is called a swarm.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about big cats living together.",
 
-    answers: [
-        "Pride",
-        "Pack",
-        "Flock",
-        "School"
-    ],
+    options: [
+            "Pride",
+            "Pack",
+            "Flock",
+            "School"
+        ],
 
-    correct: 0,
+    correctAnswer: "Pride",
 
     explanation:
         "A group of lions is called a pride.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about young dogs.",
 
-    answers: [
-        "Litter",
-        "Pack",
-        "Herd",
-        "Swarm"
-    ],
+    options: [
+            "Litter",
+            "Pack",
+            "Herd",
+            "Swarm"
+        ],
 
-    correct: 0,
+    correctAnswer: "Litter",
 
     explanation:
         "A group of puppies born together is called a litter.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about the night sky.",
 
-    answers: [
-        "Constellation",
-        "School",
-        "Swarm",
-        "Pack"
-    ],
+    options: [
+            "Constellation",
+            "School",
+            "Swarm",
+            "Pack"
+        ],
 
-    correct: 0,
+    correctAnswer: "Constellation",
 
     explanation:
         "A recognised group of stars is called a constellation.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about sport.",
 
-    answers: [
-        "Team",
-        "Pack",
-        "Swarm",
-        "School"
-    ],
+    options: [
+            "Team",
+            "Pack",
+            "Swarm",
+            "School"
+        ],
 
-    correct: 0,
+    correctAnswer: "Team",
 
     explanation:
         "A group of players working together is called a team.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "These large animals often travel together.",
 
-    answers: [
-        "Herd",
-        "Pack",
-        "Swarm",
-        "School"
-    ],
+    options: [
+            "Herd",
+            "Pack",
+            "Swarm",
+            "School"
+        ],
 
-    correct: 0,
+    correctAnswer: "Herd",
 
     explanation:
         "A group of elephants is called a herd.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "These insects live and work together.",
 
-    answers: [
-        "Colony",
-        "Pack",
-        "Flock",
-        "Herd"
-    ],
+    options: [
+            "Colony",
+            "Pack",
+            "Flock",
+            "Herd"
+        ],
 
-    correct: 0,
+    correctAnswer: "Colony",
 
     explanation:
         "A group of ants living together is called a colony.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about monkeys living in the wild.",
 
-    answers: [
-        "Troop",
-        "School",
-        "Pack",
-        "Swarm"
-    ],
+    options: [
+            "Troop",
+            "School",
+            "Pack",
+            "Swarm"
+        ],
 
-    correct: 0,
+    correctAnswer: "Troop",
 
     explanation:
         "A group of monkeys is called a troop.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about several ships travelling together.",
 
-    answers: [
-        "Fleet",
-        "Team",
-        "Pack",
-        "Colony"
-    ],
+    options: [
+            "Fleet",
+            "Team",
+            "Pack",
+            "Colony"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fleet",
 
     explanation:
         "A group of ships is called a fleet.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about a small woodland.",
 
-    answers: [
-        "Grove",
-        "Forest",
-        "Pack",
-        "School"
-    ],
+    options: [
+            "Grove",
+            "Forest",
+            "Pack",
+            "School"
+        ],
 
-    correct: 0,
+    correctAnswer: "Grove",
 
     explanation:
         "A group of trees is often called a grove.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about an organised musical group.",
 
-    answers: [
-        "Orchestra",
-        "Herd",
-        "Swarm",
-        "Pack"
-    ],
+    options: [
+            "Orchestra",
+            "Herd",
+            "Swarm",
+            "Pack"
+        ],
 
-    correct: 0,
+    correctAnswer: "Orchestra",
 
     explanation:
         "A large group of musicians playing together is called an orchestra.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about flowers planted in one place.",
 
-    answers: [
-        "Bed",
-        "Pack",
-        "School",
-        "Swarm"
-    ],
+    options: [
+            "Bed",
+            "Pack",
+            "School",
+            "Swarm"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bed",
 
     explanation:
         "A group of flowers planted together is called a flower bed.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about a panel making decisions.",
 
-    answers: [
-        "Panel",
-        "Pride",
-        "School",
-        "Pack"
-    ],
+    options: [
+            "Panel",
+            "Pride",
+            "School",
+            "Pack"
+        ],
 
-    correct: 0,
+    correctAnswer: "Panel",
 
     explanation:
         "A group of judges is commonly called a panel.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about several keys kept together.",
 
-    answers: [
-        "Bunch",
-        "Pack",
-        "Fleet",
-        "School"
-    ],
+    options: [
+            "Bunch",
+            "Pack",
+            "Fleet",
+            "School"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bunch",
 
     explanation:
         "A group of keys kept together is called a bunch of keys.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about a group performing songs.",
 
-    answers: [
-        "Choir",
-        "Pack",
-        "Herd",
-        "School"
-    ],
+    options: [
+            "Choir",
+            "Pack",
+            "Herd",
+            "School"
+        ],
 
-    correct: 0,
+    correctAnswer: "Choir",
 
     explanation:
         "A group of people singing together is called a choir.",

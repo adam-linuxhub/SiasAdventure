@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about what bees make.",
 
-    answers: [
-        "Honey",
-        "Snow",
-        "Pencil",
-        "Train"
-    ],
+    options: [
+            "Honey",
+            "Snow",
+            "Pencil",
+            "Train"
+        ],
 
-    correct: 0,
+    correctAnswer: "Honey",
 
     explanation:
         "Bees make honey, so these words are closely connected.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about where a fish lives.",
 
-    answers: [
-        "Water",
-        "Desert",
-        "Mountain",
-        "Road"
-    ],
+    options: [
+            "Water",
+            "Desert",
+            "Mountain",
+            "Road"
+        ],
 
-    correct: 0,
+    correctAnswer: "Water",
 
     explanation:
         "Fish live in water.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "What do you do with a book?",
 
-    answers: [
-        "Read",
-        "Kick",
-        "Swim",
-        "Cook"
-    ],
+    options: [
+            "Read",
+            "Kick",
+            "Swim",
+            "Cook"
+        ],
 
-    correct: 0,
+    correctAnswer: "Read",
 
     explanation:
         "You read a book.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "What can many birds do?",
 
-    answers: [
-        "Fly",
-        "Drive",
-        "Dig",
-        "Bounce"
-    ],
+    options: [
+            "Fly",
+            "Drive",
+            "Dig",
+            "Bounce"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fly",
 
     explanation:
         "Most birds can fly.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about the weather.",
 
-    answers: [
-        "Snow",
-        "Beach",
-        "Suncream",
-        "Ice cream"
-    ],
+    options: [
+            "Snow",
+            "Beach",
+            "Suncream",
+            "Ice cream"
+        ],
 
-    correct: 0,
+    correctAnswer: "Snow",
 
     explanation:
         "Snow is commonly connected with winter.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Who does a doctor help?",
 
-    answers: [
-        "Patient",
-        "Pilot",
-        "Chef",
-        "Builder"
-    ],
+    options: [
+            "Patient",
+            "Pilot",
+            "Chef",
+            "Builder"
+        ],
 
-    correct: 0,
+    correctAnswer: "Patient",
 
     explanation:
         "Doctors treat patients.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "What grows on many trees?",
 
-    answers: [
-        "Leaves",
-        "Wheels",
-        "Windows",
-        "Bricks"
-    ],
+    options: [
+            "Leaves",
+            "Wheels",
+            "Windows",
+            "Bricks"
+        ],
 
-    correct: 0,
+    correctAnswer: "Leaves",
 
     explanation:
         "Trees grow leaves.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "What do children do there?",
 
-    answers: [
-        "Learn",
-        "Sail",
-        "Fish",
-        "Camp"
-    ],
+    options: [
+            "Learn",
+            "Sail",
+            "Fish",
+            "Camp"
+        ],
 
-    correct: 0,
+    correctAnswer: "Learn",
 
     explanation:
         "Children go to school to learn.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "What does a clock show?",
 
-    answers: [
-        "Time",
-        "Colour",
-        "Weight",
-        "Height"
-    ],
+    options: [
+            "Time",
+            "Colour",
+            "Weight",
+            "Height"
+        ],
 
-    correct: 0,
+    correctAnswer: "Time",
 
     explanation:
         "A clock tells the time.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "What does a cow produce?",
 
-    answers: [
-        "Milk",
-        "Honey",
-        "Bread",
-        "Jam"
-    ],
+    options: [
+            "Milk",
+            "Honey",
+            "Bread",
+            "Jam"
+        ],
 
-    correct: 0,
+    correctAnswer: "Milk",
 
     explanation:
         "Cows produce milk.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about what firefighters put out.",
 
-    answers: [
-        "Fire",
-        "Homework",
-        "Football",
-        "Painting"
-    ],
+    options: [
+            "Fire",
+            "Homework",
+            "Football",
+            "Painting"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fire",
 
     explanation:
         "Firefighters put out fires.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "What does a key open?",
 
-    answers: [
-        "Lock",
-        "Pillow",
-        "Garden",
-        "Plate"
-    ],
+    options: [
+            "Lock",
+            "Pillow",
+            "Garden",
+            "Plate"
+        ],
 
-    correct: 0,
+    correctAnswer: "Lock",
 
     explanation:
         "A key is used to open a lock.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "What does a chef do?",
 
-    answers: [
-        "Cook",
-        "Drive",
-        "Paint",
-        "Swim"
-    ],
+    options: [
+            "Cook",
+            "Drive",
+            "Paint",
+            "Swim"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cook",
 
     explanation:
         "A chef cooks food.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "What can you borrow there?",
 
-    answers: [
-        "Books",
-        "Bicycles",
-        "Shoes",
-        "Cars"
-    ],
+    options: [
+            "Books",
+            "Bicycles",
+            "Shoes",
+            "Cars"
+        ],
 
-    correct: 0,
+    correctAnswer: "Books",
 
     explanation:
         "Libraries are places where you borrow books.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Who lives in a nest?",
 
-    answers: [
-        "Bird",
-        "Fish",
-        "Horse",
-        "Whale"
-    ],
+    options: [
+            "Bird",
+            "Fish",
+            "Horse",
+            "Whale"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bird",
 
     explanation:
         "Birds build and live in nests.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "What do you clean with it?",
 
-    answers: [
-        "Teeth",
-        "Shoes",
-        "Windows",
-        "Hair"
-    ],
+    options: [
+            "Teeth",
+            "Shoes",
+            "Windows",
+            "Hair"
+        ],
 
-    correct: 0,
+    correctAnswer: "Teeth",
 
     explanation:
         "A toothbrush is used to clean your teeth.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "What do people often use when it rains?",
 
-    answers: [
-        "Umbrella",
-        "Helmet",
-        "Pillow",
-        "Blanket"
-    ],
+    options: [
+            "Umbrella",
+            "Helmet",
+            "Pillow",
+            "Blanket"
+        ],
 
-    correct: 0,
+    correctAnswer: "Umbrella",
 
     explanation:
         "People often use an umbrella in the rain.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "What grows in many gardens?",
 
-    answers: [
-        "Flowers",
-        "Televisions",
-        "Laptops",
-        "Roads"
-    ],
+    options: [
+            "Flowers",
+            "Televisions",
+            "Laptops",
+            "Roads"
+        ],
 
-    correct: 0,
+    correctAnswer: "Flowers",
 
     explanation:
         "Flowers commonly grow in gardens.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about what a farmer grows.",
 
-    answers: [
-        "Crops",
-        "Engines",
-        "Computers",
-        "Furniture"
-    ],
+    options: [
+            "Crops",
+            "Engines",
+            "Computers",
+            "Furniture"
+        ],
 
-    correct: 0,
+    correctAnswer: "Crops",
 
     explanation:
         "Farmers grow crops and raise animals.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "What does a torch give you?",
 
-    answers: [
-        "Light",
-        "Music",
-        "Water",
-        "Wind"
-    ],
+    options: [
+            "Light",
+            "Music",
+            "Water",
+            "Wind"
+        ],
 
-    correct: 0,
+    correctAnswer: "Light",
 
     explanation:
         "A torch provides light in dark places.",

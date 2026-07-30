@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about the second action.",
 
-    answers: [
-        "Clapped once",
-        "Touched your nose",
-        "Jumped",
-        "Waved"
-    ],
+    options: [
+            "Clapped once",
+            "Touched your nose",
+            "Jumped",
+            "Waved"
+        ],
 
-    correct: 0,
+    correctAnswer: "Clapped once",
 
     explanation:
         "The last instruction is to clap once.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "You cannot colour something before drawing it.",
 
-    answers: [
-        "Draw a circle",
-        "Colour it blue",
-        "Draw a square",
-        "Rub it out"
-    ],
+    options: [
+            "Draw a circle",
+            "Colour it blue",
+            "Draw a square",
+            "Rub it out"
+        ],
 
-    correct: 0,
+    correctAnswer: "Draw a circle",
 
     explanation:
         "The first instruction is to draw the circle.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Read the word 'before'.",
 
-    answers: [
-        "Open your book",
-        "Write your name",
-        "Close your book",
-        "Stand up"
-    ],
+    options: [
+            "Open your book",
+            "Write your name",
+            "Close your book",
+            "Stand up"
+        ],
 
-    correct: 0,
+    correctAnswer: "Open your book",
 
     explanation:
         "You must open your book before writing your name.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Look for the word 'after'.",
 
-    answers: [
-        "The moon",
-        "The star",
-        "Both together",
-        "Neither"
-    ],
+    options: [
+            "The moon",
+            "The star",
+            "Both together",
+            "Neither"
+        ],
 
-    correct: 0,
+    correctAnswer: "The moon",
 
     explanation:
         "If the star is coloured after the moon, the moon comes first.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about the final action.",
 
-    answers: [
-        "A ruler",
-        "A pencil",
-        "Both",
-        "Neither"
-    ],
+    options: [
+            "A ruler",
+            "A pencil",
+            "Both",
+            "Neither"
+        ],
 
-    correct: 0,
+    correctAnswer: "A ruler",
 
     explanation:
         "The final instruction is to pick up the ruler.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "The second action comes after the date.",
 
-    answers: [
-        "Draw a picture",
-        "Write today's date",
-        "Colour the picture",
-        "Close the book"
-    ],
+    options: [
+            "Draw a picture",
+            "Write today's date",
+            "Colour the picture",
+            "Close the book"
+        ],
 
-    correct: 0,
+    correctAnswer: "Draw a picture",
 
     explanation:
         "Drawing the picture is the second instruction.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "There are three actions.",
 
-    answers: [
-        "Wave",
-        "Stand up",
-        "Sit down",
-        "Clap"
-    ],
+    options: [
+            "Wave",
+            "Stand up",
+            "Sit down",
+            "Clap"
+        ],
 
-    correct: 0,
+    correctAnswer: "Wave",
 
     explanation:
         "Waving is the middle action.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "You need to know the question first.",
 
-    answers: [
-        "Read the question",
-        "Answer it",
-        "Close the book",
-        "Ask a friend"
-    ],
+    options: [
+            "Read the question",
+            "Answer it",
+            "Close the book",
+            "Ask a friend"
+        ],
 
-    correct: 0,
+    correctAnswer: "Read the question",
 
     explanation:
         "You must read the question before answering.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Look for the word 'before'.",
 
-    answers: [
-        "Red",
-        "Green",
-        "Both together",
-        "Blue"
-    ],
+    options: [
+            "Red",
+            "Green",
+            "Both together",
+            "Blue"
+        ],
 
-    correct: 0,
+    correctAnswer: "Red",
 
     explanation:
         "The red crayon is picked up before the green crayon.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Read the word 'after'.",
 
-    answers: [
-        "Eat lunch",
-        "Wash your hands",
-        "Dry your hands",
-        "Brush your teeth"
-    ],
+    options: [
+            "Eat lunch",
+            "Wash your hands",
+            "Dry your hands",
+            "Brush your teeth"
+        ],
 
-    correct: 0,
+    correctAnswer: "Eat lunch",
 
     explanation:
         "If you wash your hands after lunch, you eat lunch first.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "There are three actions.",
 
-    answers: [
-        "Draw a circle beside the square",
-        "Draw a square",
-        "Colour the square green",
-        "Rub out the square"
-    ],
+    options: [
+            "Draw a circle beside the square",
+            "Draw a square",
+            "Colour the square green",
+            "Rub out the square"
+        ],
 
-    correct: 0,
+    correctAnswer: "Draw a circle beside the square",
 
     explanation:
         "The final instruction is to draw a circle beside the square.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Read the word 'before'.",
 
-    answers: [
-        "Pick up your bag",
-        "Open the door",
-        "Close the door",
-        "Put the bag down"
-    ],
+    options: [
+            "Pick up your bag",
+            "Open the door",
+            "Close the door",
+            "Put the bag down"
+        ],
 
-    correct: 0,
+    correctAnswer: "Pick up your bag",
 
     explanation:
         "You must pick up your bag before opening the door.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about the action just before the last one.",
 
-    answers: [
-        "Read the second page",
-        "Read the first page",
-        "Close the book",
-        "Write your name"
-    ],
+    options: [
+            "Read the second page",
+            "Read the first page",
+            "Close the book",
+            "Write your name"
+        ],
 
-    correct: 0,
+    correctAnswer: "Read the second page",
 
     explanation:
         "Reading the second page comes immediately before answering the questions.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Look carefully at the word 'after'.",
 
-    answers: [
-        "Square",
-        "Triangle",
-        "Both together",
-        "Neither"
-    ],
+    options: [
+            "Square",
+            "Triangle",
+            "Both together",
+            "Neither"
+        ],
 
-    correct: 0,
+    correctAnswer: "Square",
 
     explanation:
         "The square is coloured before the triangle.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "There are three actions in order.",
 
-    answers: [
-        "Turn around",
-        "Clap twice",
-        "Sit down",
-        "Wave"
-    ],
+    options: [
+            "Turn around",
+            "Clap twice",
+            "Sit down",
+            "Wave"
+        ],
 
-    correct: 0,
+    correctAnswer: "Turn around",
 
     explanation:
         "Turning around is the second action.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "The word 'after' tells you the order.",
 
-    answers: [
-        "Today's date",
-        "Your name",
-        "The title",
-        "The answer"
-    ],
+    options: [
+            "Today's date",
+            "Your name",
+            "The title",
+            "The answer"
+        ],
 
-    correct: 0,
+    correctAnswer: "Today's date",
 
     explanation:
         "Today's date is written before your name.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Look for the word 'finally'.",
 
-    answers: [
-        "Green book",
-        "Blue book",
-        "Red book",
-        "Yellow book"
-    ],
+    options: [
+            "Green book",
+            "Blue book",
+            "Red book",
+            "Yellow book"
+        ],
 
-    correct: 0,
+    correctAnswer: "Green book",
 
     explanation:
         "The green book is picked up last.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "You should clean it first.",
 
-    answers: [
-        "Wash the apple",
-        "Cut the apple",
-        "Eat the apple",
-        "Throw it away"
-    ],
+    options: [
+            "Wash the apple",
+            "Cut the apple",
+            "Eat the apple",
+            "Throw it away"
+        ],
 
-    correct: 0,
+    correctAnswer: "Wash the apple",
 
     explanation:
         "The apple should be washed before it is cut.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "There are three actions.",
 
-    answers: [
-        "Take out the toy",
-        "Open the box",
-        "Close the box",
-        "Put the toy away"
-    ],
+    options: [
+            "Take out the toy",
+            "Open the box",
+            "Close the box",
+            "Put the toy away"
+        ],
 
-    correct: 0,
+    correctAnswer: "Take out the toy",
 
     explanation:
         "Taking out the toy is the middle action.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about the final instruction.",
 
-    answers: [
-        "Colour both pictures",
-        "Draw a house",
-        "Draw another tree",
-        "Rub out the tree"
-    ],
+    options: [
+            "Colour both pictures",
+            "Draw a house",
+            "Draw another tree",
+            "Rub out the tree"
+        ],
 
-    correct: 0,
+    correctAnswer: "Colour both pictures",
 
     explanation:
         "After drawing the tree, the final instruction is to colour both pictures.",

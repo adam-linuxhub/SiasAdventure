@@ -22,14 +22,14 @@ export default [
     hint:
         "It changes 'teach' into 'teacher'.",
 
-    answers: [
-        "-er",
-        "-ful",
-        "-less",
-        "-ly"
-    ],
+    options: [
+            "-er",
+            "-ful",
+            "-less",
+            "-ly"
+        ],
 
-    correct: 0,
+    correctAnswer: "-er",
 
     explanation:
         "The suffix '-er' often means a person who does an action.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Add the correct suffix to 'teach'.",
 
-    answers: [
-        "Teacher",
-        "Teachful",
-        "Teachless",
-        "Teachly"
-    ],
+    options: [
+            "Teacher",
+            "Teachful",
+            "Teachless",
+            "Teachly"
+        ],
 
-    correct: 0,
+    correctAnswer: "Teacher",
 
     explanation:
         "'Teacher' is a person who teaches.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "It changes 'care' into 'careful'.",
 
-    answers: [
-        "-ful",
-        "-less",
-        "-er",
-        "-ly"
-    ],
+    options: [
+            "-ful",
+            "-less",
+            "-er",
+            "-ly"
+        ],
 
-    correct: 0,
+    correctAnswer: "-ful",
 
     explanation:
         "The suffix '-ful' means full of something.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Add the suffix meaning 'full of'.",
 
-    answers: [
-        "Careful",
-        "Careless",
-        "Carer",
-        "Carely"
-    ],
+    options: [
+            "Careful",
+            "Careless",
+            "Carer",
+            "Carely"
+        ],
 
-    correct: 0,
+    correctAnswer: "Careful",
 
     explanation:
         "'Careful' means taking care.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "It changes 'hope' into 'hopeless'.",
 
-    answers: [
-        "-less",
-        "-ful",
-        "-er",
-        "-ly"
-    ],
+    options: [
+            "-less",
+            "-ful",
+            "-er",
+            "-ly"
+        ],
 
-    correct: 0,
+    correctAnswer: "-less",
 
     explanation:
         "The suffix '-less' means without.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Add the suffix meaning 'without'.",
 
-    answers: [
-        "Fearless",
-        "Fearful",
-        "Fearer",
-        "Fearly"
-    ],
+    options: [
+            "Fearless",
+            "Fearful",
+            "Fearer",
+            "Fearly"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fearless",
 
     explanation:
         "'Fearless' means without fear.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "It changes 'quick' into 'quickly'.",
 
-    answers: [
-        "-ly",
-        "-er",
-        "-ful",
-        "-less"
-    ],
+    options: [
+            "-ly",
+            "-er",
+            "-ful",
+            "-less"
+        ],
 
-    correct: 0,
+    correctAnswer: "-ly",
 
     explanation:
         "The suffix '-ly' often changes adjectives into adverbs.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Add the correct suffix to 'quiet'.",
 
-    answers: [
-        "Quietly",
-        "Quieter",
-        "Quietful",
-        "Quietless"
-    ],
+    options: [
+            "Quietly",
+            "Quieter",
+            "Quietful",
+            "Quietless"
+        ],
 
-    correct: 0,
+    correctAnswer: "Quietly",
 
     explanation:
         "'Quietly' means in a quiet manner.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Add the suffix that means 'a person who'.",
 
-    answers: [
-        "Painter",
-        "Paintful",
-        "Paintless",
-        "Paintly"
-    ],
+    options: [
+            "Painter",
+            "Paintful",
+            "Paintless",
+            "Paintly"
+        ],
 
-    correct: 0,
+    correctAnswer: "Painter",
 
     explanation:
         "'Painter' is a person who paints.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Add the suffix meaning 'full of'.",
 
-    answers: [
-        "Colourful",
-        "Colourless",
-        "Colourer",
-        "Colourly"
-    ],
+    options: [
+            "Colourful",
+            "Colourless",
+            "Colourer",
+            "Colourly"
+        ],
 
-    correct: 0,
+    correctAnswer: "Colourful",
 
     explanation:
         "'Colourful' means having lots of colour.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Add the suffix meaning 'without'.",
 
-    answers: [
-        "Hopeless",
-        "Hopeful",
-        "Hoper",
-        "Hopely"
-    ],
+    options: [
+            "Hopeless",
+            "Hopeful",
+            "Hoper",
+            "Hopely"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hopeless",
 
     explanation:
         "'Hopeless' means having no hope.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Add the suffix that changes an adjective into an adverb.",
 
-    answers: [
-        "Cheerfully",
-        "Cheerful",
-        "Cheerless",
-        "Cheerer"
-    ],
+    options: [
+            "Cheerfully",
+            "Cheerful",
+            "Cheerless",
+            "Cheerer"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cheerfully",
 
     explanation:
         "'Cheerfully' means in a cheerful manner.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Add the suffix meaning 'a person who'.",
 
-    answers: [
-        "Baker",
-        "Bakeful",
-        "Bakeless",
-        "Bakely"
-    ],
+    options: [
+            "Baker",
+            "Bakeful",
+            "Bakeless",
+            "Bakely"
+        ],
 
-    correct: 0,
+    correctAnswer: "Baker",
 
     explanation:
         "'Baker' is a person who bakes.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Add the suffix meaning 'full of'.",
 
-    answers: [
-        "Joyful",
-        "Joyless",
-        "Joyer",
-        "Joyly"
-    ],
+    options: [
+            "Joyful",
+            "Joyless",
+            "Joyer",
+            "Joyly"
+        ],
 
-    correct: 0,
+    correctAnswer: "Joyful",
 
     explanation:
         "'Joyful' means full of joy or happiness.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Add the suffix meaning 'without'.",
 
-    answers: [
-        "Useless",
-        "Useful",
-        "User",
-        "Usely"
-    ],
+    options: [
+            "Useless",
+            "Useful",
+            "User",
+            "Usely"
+        ],
 
-    correct: 0,
+    correctAnswer: "Useless",
 
     explanation:
         "'Useless' means having no use.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Add the suffix that changes an adjective into an adverb.",
 
-    answers: [
-        "Carefully",
-        "Careful",
-        "Careless",
-        "Carer"
-    ],
+    options: [
+            "Carefully",
+            "Careful",
+            "Careless",
+            "Carer"
+        ],
 
-    correct: 0,
+    correctAnswer: "Carefully",
 
     explanation:
         "'Carefully' means in a careful manner.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Add the suffix meaning 'a person who'.",
 
-    answers: [
-        "Driver",
-        "Driveful",
-        "Driveless",
-        "Drively"
-    ],
+    options: [
+            "Driver",
+            "Driveful",
+            "Driveless",
+            "Drively"
+        ],
 
-    correct: 0,
+    correctAnswer: "Driver",
 
     explanation:
         "'Driver' is a person who drives a vehicle.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think carefully about what '-less' means.",
 
-    answers: [
-        "Harmless",
-        "Harmful",
-        "Harmer",
-        "Harmly"
-    ],
+    options: [
+            "Harmless",
+            "Harmful",
+            "Harmer",
+            "Harmly"
+        ],
 
-    correct: 0,
+    correctAnswer: "Harmless",
 
     explanation:
         "'Harmless' means not causing harm.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Add the suffix meaning 'full of'.",
 
-    answers: [
-        "Thankful",
-        "Thankless",
-        "Thanker",
-        "Thankly"
-    ],
+    options: [
+            "Thankful",
+            "Thankless",
+            "Thanker",
+            "Thankly"
+        ],
 
-    correct: 0,
+    correctAnswer: "Thankful",
 
     explanation:
         "'Thankful' means feeling or showing gratitude.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Add the suffix meaning 'without'.",
 
-    answers: [
-        "Careless",
-        "Careful",
-        "Carer",
-        "Carely"
-    ],
+    options: [
+            "Careless",
+            "Careful",
+            "Carer",
+            "Carely"
+        ],
 
-    correct: 0,
+    correctAnswer: "Careless",
 
     explanation:
         "'Careless' means not taking enough care.",

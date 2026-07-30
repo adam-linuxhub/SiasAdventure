@@ -22,14 +22,14 @@ export default [
     hint:
         "Look for the word with the closest meaning.",
 
-    answers: [
-        "Swift",
-        "Heavy",
-        "Quiet",
-        "Slow"
-    ],
+    options: [
+            "Swift",
+            "Heavy",
+            "Quiet",
+            "Slow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Swift",
 
     explanation:
         "'Rapid' means fast. 'Swift' is its synonym.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about shopping.",
 
-    answers: [
-        "Buy",
-        "Borrow",
-        "Sell",
-        "Find"
-    ],
+    options: [
+            "Buy",
+            "Borrow",
+            "Sell",
+            "Find"
+        ],
 
-    correct: 0,
+    correctAnswer: "Buy",
 
     explanation:
         "'Purchase' is another word for 'buy'.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about making no sound.",
 
-    answers: [
-        "Quiet",
-        "Bright",
-        "Loud",
-        "Warm"
-    ],
+    options: [
+            "Quiet",
+            "Bright",
+            "Loud",
+            "Warm"
+        ],
 
-    correct: 0,
+    correctAnswer: "Quiet",
 
     explanation:
         "'Silent' and 'quiet' have the same meaning.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about size.",
 
-    answers: [
-        "Small",
-        "Wide",
-        "Tall",
-        "Deep"
-    ],
+    options: [
+            "Small",
+            "Wide",
+            "Tall",
+            "Deep"
+        ],
 
-    correct: 0,
+    correctAnswer: "Small",
 
     explanation:
         "'Tiny' means very small.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about using your eyes.",
 
-    answers: [
-        "Watch",
-        "Carry",
-        "Build",
-        "Throw"
-    ],
+    options: [
+            "Watch",
+            "Carry",
+            "Build",
+            "Throw"
+        ],
 
-    correct: 0,
+    correctAnswer: "Watch",
 
     explanation:
         "'Observe' means to watch carefully.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about starting.",
 
-    answers: [
-        "Start",
-        "Finish",
-        "Rest",
-        "Wait"
-    ],
+    options: [
+            "Start",
+            "Finish",
+            "Rest",
+            "Wait"
+        ],
 
-    correct: 0,
+    correctAnswer: "Start",
 
     explanation:
         "'Begin' and 'start' are synonyms.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about someone who learns quickly.",
 
-    answers: [
-        "Smart",
-        "Lazy",
-        "Slow",
-        "Messy"
-    ],
+    options: [
+            "Smart",
+            "Lazy",
+            "Slow",
+            "Messy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Smart",
 
     explanation:
         "'Clever' and 'smart' have similar meanings.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about answering someone.",
 
-    answers: [
-        "Answer",
-        "Question",
-        "Forget",
-        "Leave"
-    ],
+    options: [
+            "Answer",
+            "Question",
+            "Forget",
+            "Leave"
+        ],
 
-    correct: 0,
+    correctAnswer: "Answer",
 
     explanation:
         "'Reply' means to answer.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about something from a long time ago.",
 
-    answers: [
-        "Old",
-        "Modern",
-        "New",
-        "Fresh"
-    ],
+    options: [
+            "Old",
+            "Modern",
+            "New",
+            "Fresh"
+        ],
 
-    correct: 0,
+    correctAnswer: "Old",
 
     explanation:
         "'Ancient' means very old.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about how someone feels after good news.",
 
-    answers: [
-        "Happy",
-        "Sad",
-        "Cross",
-        "Worried"
-    ],
+    options: [
+            "Happy",
+            "Sad",
+            "Cross",
+            "Worried"
+        ],
 
-    correct: 0,
+    correctAnswer: "Happy",
 
     explanation:
         "'Glad' is another word for 'happy'.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about having good luck.",
 
-    answers: [
-        "Lucky",
-        "Unhappy",
-        "Angry",
-        "Weak"
-    ],
+    options: [
+            "Lucky",
+            "Unhappy",
+            "Angry",
+            "Weak"
+        ],
 
-    correct: 0,
+    correctAnswer: "Lucky",
 
     explanation:
         "'Fortunate' means lucky or having good fortune.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about something very large.",
 
-    answers: [
-        "Huge",
-        "Tiny",
-        "Short",
-        "Narrow"
-    ],
+    options: [
+            "Huge",
+            "Tiny",
+            "Short",
+            "Narrow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Huge",
 
     explanation:
         "'Enormous' means extremely large or huge.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about helping someone.",
 
-    answers: [
-        "Help",
-        "Ignore",
-        "Push",
-        "Hide"
-    ],
+    options: [
+            "Help",
+            "Ignore",
+            "Push",
+            "Hide"
+        ],
 
-    correct: 0,
+    correctAnswer: "Help",
 
     explanation:
         "'Assist' means to help.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about being careful.",
 
-    answers: [
-        "Careful",
-        "Noisy",
-        "Brave",
-        "Busy"
-    ],
+    options: [
+            "Careful",
+            "Noisy",
+            "Brave",
+            "Busy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Careful",
 
     explanation:
         "'Cautious' means careful and avoiding danger.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about travelling somewhere.",
 
-    answers: [
-        "Trip",
-        "House",
-        "Garden",
-        "Picture"
-    ],
+    options: [
+            "Trip",
+            "House",
+            "Garden",
+            "Picture"
+        ],
 
-    correct: 0,
+    correctAnswer: "Trip",
 
     explanation:
         "'Journey' and 'trip' have similar meanings.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about something that breaks easily.",
 
-    answers: [
-        "Delicate",
-        "Strong",
-        "Heavy",
-        "Smooth"
-    ],
+    options: [
+            "Delicate",
+            "Strong",
+            "Heavy",
+            "Smooth"
+        ],
 
-    correct: 0,
+    correctAnswer: "Delicate",
 
     explanation:
         "'Fragile' means delicate and easy to break.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about something from long ago.",
 
-    answers: [
-        "Old",
-        "Modern",
-        "Future",
-        "Young"
-    ],
+    options: [
+            "Old",
+            "Modern",
+            "Future",
+            "Young"
+        ],
 
-    correct: 0,
+    correctAnswer: "Old",
 
     explanation:
         "'Ancient' means very old.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about responding to someone.",
 
-    answers: [
-        "Respond",
-        "Forget",
-        "Listen",
-        "Laugh"
-    ],
+    options: [
+            "Respond",
+            "Forget",
+            "Listen",
+            "Laugh"
+        ],
 
-    correct: 0,
+    correctAnswer: "Respond",
 
     explanation:
         "'Reply' and 'respond' mean the same thing.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about someone who likes to share.",
 
-    answers: [
-        "Kind",
-        "Greedy",
-        "Untidy",
-        "Loud"
-    ],
+    options: [
+            "Kind",
+            "Greedy",
+            "Untidy",
+            "Loud"
+        ],
 
-    correct: 0,
+    correctAnswer: "Kind",
 
     explanation:
         "'Generous' means willing to give and share with others.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about how you feel before falling asleep.",
 
-    answers: [
-        "Sleepy",
-        "Hungry",
-        "Excited",
-        "Healthy"
-    ],
+    options: [
+            "Sleepy",
+            "Hungry",
+            "Excited",
+            "Healthy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sleepy",
 
     explanation:
         "'Drowsy' means sleepy or ready to sleep.",

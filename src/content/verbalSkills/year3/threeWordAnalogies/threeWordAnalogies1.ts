@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about where bees live.",
 
-    answers: [
-        "Hive",
-        "Pond",
-        "Cave",
-        "Tree"
-    ],
+    options: [
+            "Hive",
+            "Pond",
+            "Cave",
+            "Tree"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hive",
 
     explanation:
         "Birds live in nests and bees live in hives.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "What are scissors used for?",
 
-    answers: [
-        "Cut",
-        "Paint",
-        "Read",
-        "Measure"
-    ],
+    options: [
+            "Cut",
+            "Paint",
+            "Read",
+            "Measure"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cut",
 
     explanation:
         "A pencil is used to write and scissors are used to cut.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about where birds fly.",
 
-    answers: [
-        "Sky",
-        "River",
-        "Ground",
-        "Cave"
-    ],
+    options: [
+            "Sky",
+            "River",
+            "Ground",
+            "Cave"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sky",
 
     explanation:
         "Fish live in water and birds fly through the sky.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about what hens produce.",
 
-    answers: [
-        "Eggs",
-        "Honey",
-        "Bread",
-        "Wool"
-    ],
+    options: [
+            "Eggs",
+            "Honey",
+            "Bread",
+            "Wool"
+        ],
 
-    correct: 0,
+    correctAnswer: "Eggs",
 
     explanation:
         "Cows produce milk and hens lay eggs.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Where does a teacher usually work?",
 
-    answers: [
-        "School",
-        "Airport",
-        "Garage",
-        "Harbour"
-    ],
+    options: [
+            "School",
+            "Airport",
+            "Garage",
+            "Harbour"
+        ],
 
-    correct: 0,
+    correctAnswer: "School",
 
     explanation:
         "Doctors work in hospitals and teachers work in schools.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about what you wear on your hands in winter.",
 
-    answers: [
-        "Glove",
-        "Sock",
-        "Hat",
-        "Scarf"
-    ],
+    options: [
+            "Glove",
+            "Sock",
+            "Hat",
+            "Scarf"
+        ],
 
-    correct: 0,
+    correctAnswer: "Glove",
 
     explanation:
         "Shoes go on feet and gloves go on hands.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about a group of houses.",
 
-    answers: [
-        "Street",
-        "Garden",
-        "Kitchen",
-        "Roof"
-    ],
+    options: [
+            "Street",
+            "Garden",
+            "Kitchen",
+            "Roof"
+        ],
 
-    correct: 0,
+    correctAnswer: "Street",
 
     explanation:
         "Trees make up a forest and houses make up a street.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "What do you do with music?",
 
-    answers: [
-        "Listen",
-        "Taste",
-        "Build",
-        "Throw"
-    ],
+    options: [
+            "Listen",
+            "Taste",
+            "Build",
+            "Throw"
+        ],
 
-    correct: 0,
+    correctAnswer: "Listen",
 
     explanation:
         "You read books and listen to music.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about when the moon is usually seen.",
 
-    answers: [
-        "Night",
-        "Morning",
-        "Noon",
-        "Afternoon"
-    ],
+    options: [
+            "Night",
+            "Morning",
+            "Noon",
+            "Afternoon"
+        ],
 
-    correct: 0,
+    correctAnswer: "Night",
 
     explanation:
         "The sun is associated with the day and the moon with the night.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "What is a paintbrush used for?",
 
-    answers: [
-        "Paint",
-        "Dig",
-        "Wash",
-        "Climb"
-    ],
+    options: [
+            "Paint",
+            "Dig",
+            "Wash",
+            "Climb"
+        ],
 
-    correct: 0,
+    correctAnswer: "Paint",
 
     explanation:
         "A knife is used to cut and a paintbrush is used to paint.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about what petals belong to.",
 
-    answers: [
-        "Flower",
-        "Garden",
-        "Grass",
-        "Seed"
-    ],
+    options: [
+            "Flower",
+            "Garden",
+            "Grass",
+            "Seed"
+        ],
 
-    correct: 0,
+    correctAnswer: "Flower",
 
     explanation:
         "Leaves grow on trees and petals are part of flowers.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about what trains travel on.",
 
-    answers: [
-        "Railway",
-        "River",
-        "Runway",
-        "Bridge"
-    ],
+    options: [
+            "Railway",
+            "River",
+            "Runway",
+            "Bridge"
+        ],
 
-    correct: 0,
+    correctAnswer: "Railway",
 
     explanation:
         "Cars travel on roads and trains travel on railways.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about the weather in summer.",
 
-    answers: [
-        "Warm",
-        "Snow",
-        "Wind",
-        "Fog"
-    ],
+    options: [
+            "Warm",
+            "Snow",
+            "Wind",
+            "Fog"
+        ],
 
-    correct: 0,
+    correctAnswer: "Warm",
 
     explanation:
         "Winter is usually cold and summer is usually warm.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about the job of your ears.",
 
-    answers: [
-        "Hear",
-        "Smell",
-        "Taste",
-        "Touch"
-    ],
+    options: [
+            "Hear",
+            "Smell",
+            "Taste",
+            "Touch"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hear",
 
     explanation:
         "Eyes are used for seeing and ears are used for hearing.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about what an artist creates.",
 
-    answers: [
-        "Painting",
-        "Bridge",
-        "Garden",
-        "Letter"
-    ],
+    options: [
+            "Painting",
+            "Bridge",
+            "Garden",
+            "Letter"
+        ],
 
-    correct: 0,
+    correctAnswer: "Painting",
 
     explanation:
         "An author writes a book and an artist creates a painting.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about the life cycle of a frog.",
 
-    answers: [
-        "Frog",
-        "Duck",
-        "Fish",
-        "Snake"
-    ],
+    options: [
+            "Frog",
+            "Duck",
+            "Fish",
+            "Snake"
+        ],
 
-    correct: 0,
+    correctAnswer: "Frog",
 
     explanation:
         "A caterpillar becomes a butterfly and a tadpole becomes a frog.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about when dinner is usually eaten.",
 
-    answers: [
-        "Evening",
-        "Night",
-        "Midday",
-        "Dawn"
-    ],
+    options: [
+            "Evening",
+            "Night",
+            "Midday",
+            "Dawn"
+        ],
 
-    correct: 0,
+    correctAnswer: "Evening",
 
     explanation:
         "Breakfast is usually eaten in the morning and dinner in the evening.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about what a key is used with.",
 
-    answers: [
-        "Lock",
-        "Window",
-        "Table",
-        "Chair"
-    ],
+    options: [
+            "Lock",
+            "Window",
+            "Table",
+            "Chair"
+        ],
 
-    correct: 0,
+    correctAnswer: "Lock",
 
     explanation:
         "A hammer is used with a nail and a key is used with a lock.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about what a kitten grows into.",
 
-    answers: [
-        "Cat",
-        "Rabbit",
-        "Mouse",
-        "Fox"
-    ],
+    options: [
+            "Cat",
+            "Rabbit",
+            "Mouse",
+            "Fox"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cat",
 
     explanation:
         "A puppy grows into a dog and a kitten grows into a cat.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about what usually goes on a plate.",
 
-    answers: [
-        "Food",
-        "Soap",
-        "Sand",
-        "Paper"
-    ],
+    options: [
+            "Food",
+            "Soap",
+            "Sand",
+            "Paper"
+        ],
 
-    correct: 0,
+    correctAnswer: "Food",
 
     explanation:
         "A cup holds drinks and a plate holds food.",

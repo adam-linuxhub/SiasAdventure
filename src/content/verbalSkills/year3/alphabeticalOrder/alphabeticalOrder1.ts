@@ -22,14 +22,14 @@ export default [
     hint:
         "Look at the first letter of each word.",
 
-    answers: [
-        "Apple",
-        "Banana",
-        "Carrot",
-        "Pear"
-    ],
+    options: [
+            "Apple",
+            "Banana",
+            "Carrot",
+            "Pear"
+        ],
 
-    correct: 0,
+    correctAnswer: "Apple",
 
     explanation:
         "'Apple' comes first because A is the earliest letter.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Compare the first letters.",
 
-    answers: [
-        "Ball",
-        "Cat",
-        "Dog",
-        "Fish"
-    ],
+    options: [
+            "Ball",
+            "Cat",
+            "Dog",
+            "Fish"
+        ],
 
-    correct: 0,
+    correctAnswer: "Ball",
 
     explanation:
         "'Ball' comes first because B comes before C, D and F.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Look for the word beginning with the latest letter.",
 
-    answers: [
-        "Ant",
-        "Bear",
-        "Monkey",
-        "Zebra"
-    ],
+    options: [
+            "Ant",
+            "Bear",
+            "Monkey",
+            "Zebra"
+        ],
 
-    correct: 3,
+    correctAnswer: "Zebra",
 
     explanation:
         "'Zebra' comes last because Z is the last starting letter.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "All the words begin with different letters.",
 
-    answers: [
-        "Book",
-        "Chair",
-        "Table",
-        "Window"
-    ],
+    options: [
+            "Book",
+            "Chair",
+            "Table",
+            "Window"
+        ],
 
-    correct: 0,
+    correctAnswer: "Book",
 
     explanation:
         "'Book' comes first because B comes before C, T and W.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "The first letters are different.",
 
-    answers: [
-        "Duck",
-        "Goat",
-        "Horse",
-        "Tiger"
-    ],
+    options: [
+            "Duck",
+            "Goat",
+            "Horse",
+            "Tiger"
+        ],
 
-    correct: 0,
+    correctAnswer: "Duck",
 
     explanation:
         "'Duck' comes first because D comes before G, H and T.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Compare the first letters.",
 
-    answers: [
-        "Car",
-        "Plane",
-        "Train",
-        "Van"
-    ],
+    options: [
+            "Car",
+            "Plane",
+            "Train",
+            "Van"
+        ],
 
-    correct: 3,
+    correctAnswer: "Van",
 
     explanation:
         "'Van' comes last because V comes after C, P and T.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Check the first letter.",
 
-    answers: [
-        "Blue",
-        "Green",
-        "Purple",
-        "Yellow"
-    ],
+    options: [
+            "Blue",
+            "Green",
+            "Purple",
+            "Yellow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Blue",
 
     explanation:
         "'Blue' comes first because B comes before G, P and Y.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Find the word beginning with the latest letter.",
 
-    answers: [
-        "Circle",
-        "Square",
-        "Triangle",
-        "Rectangle"
-    ],
+    options: [
+            "Circle",
+            "Square",
+            "Triangle",
+            "Rectangle"
+        ],
 
-    correct: 2,
+    correctAnswer: "Triangle",
 
     explanation:
         "'Triangle' comes last because T comes after C, R and S.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Compare only the first letter.",
 
-    answers: [
-        "April",
-        "June",
-        "September",
-        "December"
-    ],
+    options: [
+            "April",
+            "June",
+            "September",
+            "December"
+        ],
 
-    correct: 0,
+    correctAnswer: "April",
 
     explanation:
         "'April' comes first because A comes before D, J and S.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about the alphabet.",
 
-    answers: [
-        "Egg",
-        "Milk",
-        "Bread",
-        "Water"
-    ],
+    options: [
+            "Egg",
+            "Milk",
+            "Bread",
+            "Water"
+        ],
 
-    correct: 3,
+    correctAnswer: "Water",
 
     explanation:
         "'Water' comes last because W comes after B, E and M.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "The first two words begin with 'ap'. Compare the third letter.",
 
-    answers: [
-        "Ape",
-        "Apple",
-        "April",
-        "Arrow"
-    ],
+    options: [
+            "Ape",
+            "Apple",
+            "April",
+            "Arrow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Ape",
 
     explanation:
         "'Ape' comes first because 'ape' comes before 'app', 'apr' and 'arr'.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "All the words begin with 'ca'. Look at the third letter.",
 
-    answers: [
-        "Cake",
-        "Call",
-        "Camp",
-        "Cape"
-    ],
+    options: [
+            "Cake",
+            "Call",
+            "Camp",
+            "Cape"
+        ],
 
-    correct: 3,
+    correctAnswer: "Cape",
 
     explanation:
         "'Cape' comes last because 'cap' comes after 'cak', 'cal' and 'cam'.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "All the words begin with 'sh'. Compare the third letter.",
 
-    answers: [
-        "Shade",
-        "Shake",
-        "Shape",
-        "Shine"
-    ],
+    options: [
+            "Shade",
+            "Shake",
+            "Shape",
+            "Shine"
+        ],
 
-    correct: 0,
+    correctAnswer: "Shade",
 
     explanation:
         "'Shade' comes first because 'sha' comes before 'shi'. Within the 'sha' words, 'd' comes before 'k' and 'p'.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "The words all begin with 'st'. Compare the next letters.",
 
-    answers: [
-        "Star",
-        "Stick",
-        "Stone",
-        "Story"
-    ],
+    options: [
+            "Star",
+            "Stick",
+            "Stone",
+            "Story"
+        ],
 
-    correct: 3,
+    correctAnswer: "Story",
 
     explanation:
         "'Story' comes last because 'stor' comes after 'ston', 'star' and 'sti'.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Look carefully after the first letter.",
 
-    answers: [
-        "Bear",
-        "Bee",
-        "Bell",
-        "Berry"
-    ],
+    options: [
+            "Bear",
+            "Bee",
+            "Bell",
+            "Berry"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bear",
 
     explanation:
         "'Bear' comes first because 'bea' comes before 'bee', 'bel' and 'ber'.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Compare the letters after 'cl'.",
 
-    answers: [
-        "Class",
-        "Claw",
-        "Clay",
-        "Clock"
-    ],
+    options: [
+            "Class",
+            "Claw",
+            "Clay",
+            "Clock"
+        ],
 
-    correct: 3,
+    correctAnswer: "Clock",
 
     explanation:
         "'Clock' comes last because 'clo' comes after 'cla'.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "All the words begin with 'sp'. Compare the third letter.",
 
-    answers: [
-        "Space",
-        "Speak",
-        "Spell",
-        "Spider"
-    ],
+    options: [
+            "Space",
+            "Speak",
+            "Spell",
+            "Spider"
+        ],
 
-    correct: 0,
+    correctAnswer: "Space",
 
     explanation:
         "'Space' comes first because 'spa' comes before 'spe' and 'spi'.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "All begin with 'br'. Compare the third letter.",
 
-    answers: [
-        "Bread",
-        "Brick",
-        "Bridge",
-        "Brush"
-    ],
+    options: [
+            "Bread",
+            "Brick",
+            "Bridge",
+            "Brush"
+        ],
 
-    correct: 3,
+    correctAnswer: "Brush",
 
     explanation:
         "'Brush' comes last because 'bru' comes after 'bre' and 'bri'.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Look beyond the first two letters.",
 
-    answers: [
-        "Farm",
-        "Fast",
-        "Father",
-        "Fault"
-    ],
+    options: [
+            "Farm",
+            "Fast",
+            "Father",
+            "Fault"
+        ],
 
-    correct: 0,
+    correctAnswer: "Farm",
 
     explanation:
         "'Farm' comes first because 'far' comes before 'fas' and 'fau'.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "All begin with 'tr'. Compare the following letters.",
 
-    answers: [
-        "Track",
-        "Train",
-        "Tree",
-        "Truck"
-    ],
+    options: [
+            "Track",
+            "Train",
+            "Tree",
+            "Truck"
+        ],
 
-    correct: 3,
+    correctAnswer: "Truck",
 
     explanation:
         "'Truck' comes last because 'tru' comes after 'tra' and 'tre'.",

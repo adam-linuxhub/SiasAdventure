@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about lots of light.",
 
-    answers: [
-        "Bright",
-        "Wet",
-        "Tiny",
-        "Heavy"
-    ],
+    options: [
+            "Bright",
+            "Wet",
+            "Tiny",
+            "Heavy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bright",
 
     explanation:
         "A bright sun gives lots of light.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about winter weather.",
 
-    answers: [
-        "Cold",
-        "Hot",
-        "Dry",
-        "Bright"
-    ],
+    options: [
+            "Cold",
+            "Hot",
+            "Dry",
+            "Bright"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cold",
 
     explanation:
         "People wear coats when it is cold.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Where do birds lay eggs?",
 
-    answers: [
-        "Nest",
-        "Cave",
-        "Tent",
-        "Box"
-    ],
+    options: [
+            "Nest",
+            "Cave",
+            "Tent",
+            "Box"
+        ],
 
-    correct: 0,
+    correctAnswer: "Nest",
 
     explanation:
         "Birds build nests in trees.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think of a tool.",
 
-    answers: [
-        "Hammer",
-        "Fork",
-        "Pillow",
-        "Plate"
-    ],
+    options: [
+            "Hammer",
+            "Fork",
+            "Pillow",
+            "Plate"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hammer",
 
     explanation:
         "A hammer is used to hit nails.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Use your ears.",
 
-    answers: [
-        "Listen",
-        "Climb",
-        "Paint",
-        "Throw"
-    ],
+    options: [
+            "Listen",
+            "Climb",
+            "Paint",
+            "Throw"
+        ],
 
-    correct: 0,
+    correctAnswer: "Listen",
 
     explanation:
         "You listen to a story.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think of somewhere outside with grass.",
 
-    answers: [
-        "Field",
-        "Roof",
-        "Shelf",
-        "Cupboard"
-    ],
+    options: [
+            "Field",
+            "Roof",
+            "Shelf",
+            "Cupboard"
+        ],
 
-    correct: 0,
+    correctAnswer: "Field",
 
     explanation:
         "Rabbits commonly hop across fields.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Choose something you can drink.",
 
-    answers: [
-        "Water",
-        "Stone",
-        "Blanket",
-        "Pencil"
-    ],
+    options: [
+            "Water",
+            "Stone",
+            "Blanket",
+            "Pencil"
+        ],
 
-    correct: 0,
+    correctAnswer: "Water",
 
     explanation:
         "Water is something you drink.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "It is at the front of the classroom.",
 
-    answers: [
-        "Board",
-        "Pillow",
-        "Curtain",
-        "Sofa"
-    ],
+    options: [
+            "Board",
+            "Pillow",
+            "Curtain",
+            "Sofa"
+        ],
 
-    correct: 0,
+    correctAnswer: "Board",
 
     explanation:
         "Teachers often write on a board.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about bedtime.",
 
-    answers: [
-        "Asleep",
-        "Running",
-        "Swimming",
-        "Laughing"
-    ],
+    options: [
+            "Asleep",
+            "Running",
+            "Swimming",
+            "Laughing"
+        ],
 
-    correct: 0,
+    correctAnswer: "Asleep",
 
     explanation:
         "A baby can be fast asleep.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about watering plants.",
 
-    answers: [
-        "Water",
-        "Sand",
-        "Paper",
-        "Plastic"
-    ],
+    options: [
+            "Water",
+            "Sand",
+            "Paper",
+            "Plastic"
+        ],
 
-    correct: 0,
+    correctAnswer: "Water",
 
     explanation:
         "Flowers need water to grow.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "What does a firefighter put out?",
 
-    answers: [
-        "Fire",
-        "River",
-        "Tree",
-        "Road"
-    ],
+    options: [
+            "Fire",
+            "River",
+            "Tree",
+            "Road"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fire",
 
     explanation:
         "Firefighters use hoses to put out fires.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about road safety.",
 
-    answers: [
-        "Left",
-        "Up",
-        "Behind",
-        "Down"
-    ],
+    options: [
+            "Left",
+            "Up",
+            "Behind",
+            "Down"
+        ],
 
-    correct: 0,
+    correctAnswer: "Left",
 
     explanation:
         "You should always look left and right before crossing the road.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about where bread is baked.",
 
-    answers: [
-        "Oven",
-        "Freezer",
-        "Fridge",
-        "Sink"
-    ],
+    options: [
+            "Oven",
+            "Freezer",
+            "Fridge",
+            "Sink"
+        ],
 
-    correct: 0,
+    correctAnswer: "Oven",
 
     explanation:
         "Bread is baked in an oven.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about something very tall outdoors.",
 
-    answers: [
-        "Mountain",
-        "Pillow",
-        "Carpet",
-        "Drawer"
-    ],
+    options: [
+            "Mountain",
+            "Pillow",
+            "Carpet",
+            "Drawer"
+        ],
 
-    correct: 0,
+    correctAnswer: "Mountain",
 
     explanation:
         "Climbers climb mountains.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about where baby birds begin life.",
 
-    answers: [
-        "Egg",
-        "Leaf",
-        "Flower",
-        "Stone"
-    ],
+    options: [
+            "Egg",
+            "Leaf",
+            "Flower",
+            "Stone"
+        ],
 
-    correct: 0,
+    correctAnswer: "Egg",
 
     explanation:
         "Baby chicks hatch from eggs.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "What do you use to dry yourself?",
 
-    answers: [
-        "Towel",
-        "Plate",
-        "Book",
-        "Bucket"
-    ],
+    options: [
+            "Towel",
+            "Plate",
+            "Book",
+            "Bucket"
+        ],
 
-    correct: 0,
+    correctAnswer: "Towel",
 
     explanation:
         "A towel is used to dry your hands.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Look up after dark.",
 
-    answers: [
-        "Sky",
-        "River",
-        "Garden",
-        "Forest"
-    ],
+    options: [
+            "Sky",
+            "River",
+            "Garden",
+            "Forest"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sky",
 
     explanation:
         "Stars shine in the night sky.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "What does a dentist look at?",
 
-    answers: [
-        "Teeth",
-        "Shoes",
-        "Hair",
-        "Backpack"
-    ],
+    options: [
+            "Teeth",
+            "Shoes",
+            "Hair",
+            "Backpack"
+        ],
 
-    correct: 0,
+    correctAnswer: "Teeth",
 
     explanation:
         "Dentists examine people's teeth.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think beyond Earth.",
 
-    answers: [
-        "Space",
-        "Garden",
-        "Tunnel",
-        "Cave"
-    ],
+    options: [
+            "Space",
+            "Garden",
+            "Tunnel",
+            "Cave"
+        ],
 
-    correct: 0,
+    correctAnswer: "Space",
 
     explanation:
         "Astronauts travel into space.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "What do you borrow from a library?",
 
-    answers: [
-        "Book",
-        "Television",
-        "Bicycle",
-        "Helmet"
-    ],
+    options: [
+            "Book",
+            "Television",
+            "Bicycle",
+            "Helmet"
+        ],
 
-    correct: 0,
+    correctAnswer: "Book",
 
     explanation:
         "Libraries lend books for people to borrow.",

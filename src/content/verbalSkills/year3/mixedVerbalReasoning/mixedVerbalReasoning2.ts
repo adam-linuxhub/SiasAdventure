@@ -22,14 +22,14 @@ export default [
     hint:
         "Three are fruits.",
 
-    answers: [
-        "Carrot",
-        "Apple",
-        "Pear",
-        "Banana"
-    ],
+    options: [
+            "Carrot",
+            "Apple",
+            "Pear",
+            "Banana"
+        ],
 
-    correct: 0,
+    correctAnswer: "Carrot",
 
     explanation:
         "Carrot is a vegetable. The others are fruits.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Skip one letter each time.",
 
-    answers: [
-        "H",
-        "G",
-        "I",
-        "J"
-    ],
+    options: [
+            "H",
+            "G",
+            "I",
+            "J"
+        ],
 
-    correct: 0,
+    correctAnswer: "H",
 
     explanation:
         "The sequence skips one letter each time: B, D, F, H.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about a young cat.",
 
-    answers: [
-        "Kitten",
-        "Cub",
-        "Calf",
-        "Foal"
-    ],
+    options: [
+            "Kitten",
+            "Cub",
+            "Calf",
+            "Foal"
+        ],
 
-    correct: 0,
+    correctAnswer: "Kitten",
 
     explanation:
         "A puppy is a young dog and a kitten is a young cat.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about moving very fast.",
 
-    answers: [
-        "Fast",
-        "Slow",
-        "Heavy",
-        "Quiet"
-    ],
+    options: [
+            "Fast",
+            "Slow",
+            "Heavy",
+            "Quiet"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fast",
 
     explanation:
         "Fast is a synonym for quick.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think of a large grey animal.",
 
-    answers: [
-        "T",
-        "D",
-        "P",
-        "S"
-    ],
+    options: [
+            "T",
+            "D",
+            "P",
+            "S"
+        ],
 
-    correct: 0,
+    correctAnswer: "T",
 
     explanation:
         "Adding T makes the word ELEPHANT.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about things used for eating.",
 
-    answers: [
-        "Plate",
-        "Sock",
-        "Window",
-        "Tree"
-    ],
+    options: [
+            "Plate",
+            "Sock",
+            "Window",
+            "Tree"
+        ],
 
-    correct: 0,
+    correctAnswer: "Plate",
 
     explanation:
         "A plate belongs with the other dining items.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Say the alphabet quietly.",
 
-    answers: [
-        "R",
-        "P",
-        "S",
-        "T"
-    ],
+    options: [
+            "R",
+            "P",
+            "S",
+            "T"
+        ],
 
-    correct: 0,
+    correctAnswer: "R",
 
     explanation:
         "R comes immediately after Q.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about a full cup.",
 
-    answers: [
-        "Full",
-        "Small",
-        "Clean",
-        "Dry"
-    ],
+    options: [
+            "Full",
+            "Small",
+            "Clean",
+            "Dry"
+        ],
 
-    correct: 0,
+    correctAnswer: "Full",
 
     explanation:
         "Full is the opposite of empty.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Listen to the ending sound.",
 
-    answers: [
-        "Lake",
-        "Leaf",
-        "Lamp",
-        "Lock"
-    ],
+    options: [
+            "Lake",
+            "Leaf",
+            "Lamp",
+            "Lock"
+        ],
 
-    correct: 0,
+    correctAnswer: "Lake",
 
     explanation:
         "Cake and lake rhyme because they share the same ending sound.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about where birds move.",
 
-    answers: [
-        "Sky",
-        "Nest",
-        "Tree",
-        "Grass"
-    ],
+    options: [
+            "Sky",
+            "Nest",
+            "Tree",
+            "Grass"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sky",
 
     explanation:
         "Fish live in water and birds fly through the sky.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about giving something back.",
 
-    answers: [
-        "Return",
-        "Keep",
-        "Take",
-        "Find"
-    ],
+    options: [
+            "Return",
+            "Keep",
+            "Take",
+            "Find"
+        ],
 
-    correct: 0,
+    correctAnswer: "Return",
 
     explanation:
         "When you borrow something, you should later return it.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Move forward three letters each time.",
 
-    answers: [
-        "S",
-        "R",
-        "T",
-        "U"
-    ],
+    options: [
+            "S",
+            "R",
+            "T",
+            "U"
+        ],
 
-    correct: 0,
+    correctAnswer: "S",
 
     explanation:
         "The pattern is +3 letters: J, M, P, S.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Three are birds.",
 
-    answers: [
-        "Oak",
-        "Robin",
-        "Sparrow",
-        "Eagle"
-    ],
+    options: [
+            "Oak",
+            "Robin",
+            "Sparrow",
+            "Eagle"
+        ],
 
-    correct: 0,
+    correctAnswer: "Oak",
 
     explanation:
         "Oak is a tree. The others are birds.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "What do you do with a television?",
 
-    answers: [
-        "Watch",
-        "Write",
-        "Build",
-        "Throw"
-    ],
+    options: [
+            "Watch",
+            "Write",
+            "Build",
+            "Throw"
+        ],
 
-    correct: 0,
+    correctAnswer: "Watch",
 
     explanation:
         "You read a book and watch television.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think of an animal with eight arms.",
 
-    answers: [
-        "S",
-        "T",
-        "N",
-        "R"
-    ],
+    options: [
+            "S",
+            "T",
+            "N",
+            "R"
+        ],
 
-    correct: 0,
+    correctAnswer: "S",
 
     explanation:
         "Adding S makes the word OCTOPUS.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about another common tool.",
 
-    answers: [
-        "Screwdriver",
-        "Blanket",
-        "Curtain",
-        "Pillow"
-    ],
+    options: [
+            "Screwdriver",
+            "Blanket",
+            "Curtain",
+            "Pillow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Screwdriver",
 
     explanation:
         "A screwdriver belongs with the other tools.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Count back one letter.",
 
-    answers: [
-        "F",
-        "E",
-        "H",
-        "I"
-    ],
+    options: [
+            "F",
+            "E",
+            "H",
+            "I"
+        ],
 
-    correct: 0,
+    correctAnswer: "F",
 
     explanation:
         "F comes immediately before G.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about something very small.",
 
-    answers: [
-        "Little",
-        "Huge",
-        "Wide",
-        "Long"
-    ],
+    options: [
+            "Little",
+            "Huge",
+            "Wide",
+            "Long"
+        ],
 
-    correct: 0,
+    correctAnswer: "Little",
 
     explanation:
         "Little is another word for tiny.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Listen to the ending sound.",
 
-    answers: [
-        "Rain",
-        "Road",
-        "Truck",
-        "Plane"
-    ],
+    options: [
+            "Rain",
+            "Road",
+            "Truck",
+            "Plane"
+        ],
 
-    correct: 0,
+    correctAnswer: "Rain",
 
     explanation:
         "Train and rain rhyme because they share the same ending sound.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about the usual summer weather.",
 
-    answers: [
-        "Warm",
-        "Snow",
-        "Windy",
-        "Foggy"
-    ],
+    options: [
+            "Warm",
+            "Snow",
+            "Windy",
+            "Foggy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Warm",
 
     explanation:
         "Winter is usually cold and summer is usually warm.",

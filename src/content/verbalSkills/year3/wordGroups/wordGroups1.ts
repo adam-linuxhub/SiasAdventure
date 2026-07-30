@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about the type of food.",
 
-    answers: [
-        "Pear",
-        "Car",
-        "Chair",
-        "River"
-    ],
+    options: [
+            "Pear",
+            "Car",
+            "Chair",
+            "River"
+        ],
 
-    correct: 0,
+    correctAnswer: "Pear",
 
     explanation:
         "Apple, banana, orange and pear are all fruits.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "These are common pets.",
 
-    answers: [
-        "Hamster",
-        "Bus",
-        "Tree",
-        "Plate"
-    ],
+    options: [
+            "Hamster",
+            "Bus",
+            "Tree",
+            "Plate"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hamster",
 
     explanation:
         "Dog, cat, rabbit and hamster are common pets.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about clothes.",
 
-    answers: [
-        "Trousers",
-        "Apple",
-        "Bridge",
-        "Cloud"
-    ],
+    options: [
+            "Trousers",
+            "Apple",
+            "Bridge",
+            "Cloud"
+        ],
 
-    correct: 0,
+    correctAnswer: "Trousers",
 
     explanation:
         "They are all items of clothing.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about eating meals.",
 
-    answers: [
-        "Plate",
-        "Pillow",
-        "Window",
-        "Pencil"
-    ],
+    options: [
+            "Plate",
+            "Pillow",
+            "Window",
+            "Pencil"
+        ],
 
-    correct: 0,
+    correctAnswer: "Plate",
 
     explanation:
         "Fork, spoon, knife and plate are used at mealtimes.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about wild cats.",
 
-    answers: [
-        "Cheetah",
-        "Chicken",
-        "Rabbit",
-        "Cow"
-    ],
+    options: [
+            "Cheetah",
+            "Chicken",
+            "Rabbit",
+            "Cow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cheetah",
 
     explanation:
         "Lion, tiger, leopard and cheetah are all wild cats.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about colours.",
 
-    answers: [
-        "Yellow",
-        "Circle",
-        "Table",
-        "Flower"
-    ],
+    options: [
+            "Yellow",
+            "Circle",
+            "Table",
+            "Flower"
+        ],
 
-    correct: 0,
+    correctAnswer: "Yellow",
 
     explanation:
         "Red, blue, green and yellow are colours.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about the days of the week.",
 
-    answers: [
-        "Thursday",
-        "January",
-        "Summer",
-        "Morning"
-    ],
+    options: [
+            "Thursday",
+            "January",
+            "Summer",
+            "Morning"
+        ],
 
-    correct: 0,
+    correctAnswer: "Thursday",
 
     explanation:
         "They are all days of the week.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about shapes.",
 
-    answers: [
-        "Rectangle",
-        "Purple",
-        "Pencil",
-        "Robot"
-    ],
+    options: [
+            "Rectangle",
+            "Purple",
+            "Pencil",
+            "Robot"
+        ],
 
-    correct: 0,
+    correctAnswer: "Rectangle",
 
     explanation:
         "Circle, square, triangle and rectangle are shapes.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about vegetables.",
 
-    answers: [
-        "Cabbage",
-        "Apple",
-        "Bread",
-        "Cake"
-    ],
+    options: [
+            "Cabbage",
+            "Apple",
+            "Bread",
+            "Cake"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cabbage",
 
     explanation:
         "Carrot, pea, broccoli and cabbage are vegetables.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about musical instruments.",
 
-    answers: [
-        "Violin",
-        "Television",
-        "Window",
-        "Hammer"
-    ],
+    options: [
+            "Violin",
+            "Television",
+            "Window",
+            "Hammer"
+        ],
 
-    correct: 0,
+    correctAnswer: "Violin",
 
     explanation:
         "Piano, guitar, drum and violin are musical instruments.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about the type of animal.",
 
-    answers: [
-        "Owl",
-        "Fox",
-        "Shark",
-        "Frog"
-    ],
+    options: [
+            "Owl",
+            "Fox",
+            "Shark",
+            "Frog"
+        ],
 
-    correct: 0,
+    correctAnswer: "Owl",
 
     explanation:
         "Eagle, sparrow, robin and owl are all birds.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about plants.",
 
-    answers: [
-        "Sunflower",
-        "Oak",
-        "Grass",
-        "Fern"
-    ],
+    options: [
+            "Sunflower",
+            "Oak",
+            "Grass",
+            "Fern"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sunflower",
 
     explanation:
         "Rose, daisy, tulip and sunflower are all flowers.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about the months of the year.",
 
-    answers: [
-        "October",
-        "Friday",
-        "Winter",
-        "Morning"
-    ],
+    options: [
+            "October",
+            "Friday",
+            "Winter",
+            "Morning"
+        ],
 
-    correct: 0,
+    correctAnswer: "October",
 
     explanation:
         "January, March, July and October are all months.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about metals.",
 
-    answers: [
-        "Iron",
-        "Wood",
-        "Glass",
-        "Plastic"
-    ],
+    options: [
+            "Iron",
+            "Wood",
+            "Glass",
+            "Plastic"
+        ],
 
-    correct: 0,
+    correctAnswer: "Iron",
 
     explanation:
         "Copper, silver, gold and iron are all metals.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about animals that live in the sea.",
 
-    answers: [
-        "Shark",
-        "Horse",
-        "Tiger",
-        "Rabbit"
-    ],
+    options: [
+            "Shark",
+            "Horse",
+            "Tiger",
+            "Rabbit"
+        ],
 
-    correct: 0,
+    correctAnswer: "Shark",
 
     explanation:
         "Whale, dolphin, seal and shark are all sea animals.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about ways of travelling.",
 
-    answers: [
-        "Aeroplane",
-        "Television",
-        "Kitchen",
-        "Flower"
-    ],
+    options: [
+            "Aeroplane",
+            "Television",
+            "Kitchen",
+            "Flower"
+        ],
 
-    correct: 0,
+    correctAnswer: "Aeroplane",
 
     explanation:
         "Bus, train, bicycle and aeroplane are all forms of transport.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about tools.",
 
-    answers: [
-        "Screwdriver",
-        "Blanket",
-        "Pillow",
-        "Curtain"
-    ],
+    options: [
+            "Screwdriver",
+            "Blanket",
+            "Pillow",
+            "Curtain"
+        ],
 
-    correct: 0,
+    correctAnswer: "Screwdriver",
 
     explanation:
         "Hammer, saw, spanner and screwdriver are all tools.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about shapes.",
 
-    answers: [
-        "Hexagon",
-        "Purple",
-        "Garden",
-        "Bridge"
-    ],
+    options: [
+            "Hexagon",
+            "Purple",
+            "Garden",
+            "Bridge"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hexagon",
 
     explanation:
         "Circle, oval, pentagon and hexagon are all shapes.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about foods made from grains.",
 
-    answers: [
-        "Cereal",
-        "Banana",
-        "Cheese",
-        "Carrot"
-    ],
+    options: [
+            "Cereal",
+            "Banana",
+            "Cheese",
+            "Carrot"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cereal",
 
     explanation:
         "Bread, rice, pasta and cereal are all grain-based foods.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about members of a royal family.",
 
-    answers: [
-        "Princess",
-        "Teacher",
-        "Doctor",
-        "Farmer"
-    ],
+    options: [
+            "Princess",
+            "Teacher",
+            "Doctor",
+            "Farmer"
+        ],
 
-    correct: 0,
+    correctAnswer: "Princess",
 
     explanation:
         "King, queen, prince and princess are all members of a royal family.",

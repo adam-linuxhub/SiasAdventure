@@ -22,14 +22,14 @@ export default [
     hint:
         "Three are colours.",
 
-    answers: [
-        "Red",
-        "Blue",
-        "Green",
-        "Table"
-    ],
+    options: [
+            "Red",
+            "Blue",
+            "Green",
+            "Table"
+        ],
 
-    correct: 3,
+    correctAnswer: "Table",
 
     explanation:
         "'Table' is the odd one out because the other three are colours.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Three are animals.",
 
-    answers: [
-        "Dog",
-        "Cat",
-        "Horse",
-        "Chair"
-    ],
+    options: [
+            "Dog",
+            "Cat",
+            "Horse",
+            "Chair"
+        ],
 
-    correct: 3,
+    correctAnswer: "Chair",
 
     explanation:
         "'Chair' is the odd one out because the other three are animals.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Three are fruits.",
 
-    answers: [
-        "Apple",
-        "Banana",
-        "Orange",
-        "Carrot"
-    ],
+    options: [
+            "Apple",
+            "Banana",
+            "Orange",
+            "Carrot"
+        ],
 
-    correct: 3,
+    correctAnswer: "Carrot",
 
     explanation:
         "'Carrot' is the odd one out because the others are fruits.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Three are days of the week.",
 
-    answers: [
-        "Monday",
-        "Tuesday",
-        "Friday",
-        "January"
-    ],
+    options: [
+            "Monday",
+            "Tuesday",
+            "Friday",
+            "January"
+        ],
 
-    correct: 3,
+    correctAnswer: "January",
 
     explanation:
         "'January' is the odd one out because the others are days of the week.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Three are vehicles.",
 
-    answers: [
-        "Car",
-        "Bus",
-        "Train",
-        "Spoon"
-    ],
+    options: [
+            "Car",
+            "Bus",
+            "Train",
+            "Spoon"
+        ],
 
-    correct: 3,
+    correctAnswer: "Spoon",
 
     explanation:
         "'Spoon' is the odd one out because the others are vehicles.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Three are items of clothing.",
 
-    answers: [
-        "Hat",
-        "Coat",
-        "Socks",
-        "Plate"
-    ],
+    options: [
+            "Hat",
+            "Coat",
+            "Socks",
+            "Plate"
+        ],
 
-    correct: 3,
+    correctAnswer: "Plate",
 
     explanation:
         "'Plate' is the odd one out because the others are items of clothing.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Three are shapes.",
 
-    answers: [
-        "Circle",
-        "Square",
-        "Triangle",
-        "Window"
-    ],
+    options: [
+            "Circle",
+            "Square",
+            "Triangle",
+            "Window"
+        ],
 
-    correct: 3,
+    correctAnswer: "Window",
 
     explanation:
         "'Window' is the odd one out because the others are shapes.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Three can be found in a classroom.",
 
-    answers: [
-        "Desk",
-        "Book",
-        "Pencil",
-        "Elephant"
-    ],
+    options: [
+            "Desk",
+            "Book",
+            "Pencil",
+            "Elephant"
+        ],
 
-    correct: 3,
+    correctAnswer: "Elephant",
 
     explanation:
         "'Elephant' is the odd one out because the others are commonly found in a classroom.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Three are weather words.",
 
-    answers: [
-        "Rain",
-        "Snow",
-        "Wind",
-        "Sandwich"
-    ],
+    options: [
+            "Rain",
+            "Snow",
+            "Wind",
+            "Sandwich"
+        ],
 
-    correct: 3,
+    correctAnswer: "Sandwich",
 
     explanation:
         "'Sandwich' is the odd one out because the others describe weather.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Three are parts of the body.",
 
-    answers: [
-        "Hand",
-        "Foot",
-        "Eye",
-        "Pillow"
-    ],
+    options: [
+            "Hand",
+            "Foot",
+            "Eye",
+            "Pillow"
+        ],
 
-    correct: 3,
+    correctAnswer: "Pillow",
 
     explanation:
         "'Pillow' is the odd one out because the others are parts of the body.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Three are planets.",
 
-    answers: [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Moon"
-    ],
+    options: [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Moon"
+        ],
 
-    correct: 3,
+    correctAnswer: "Moon",
 
     explanation:
         "'Moon' is the odd one out because the others are planets.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Three are musical instruments.",
 
-    answers: [
-        "Piano",
-        "Guitar",
-        "Violin",
-        "Microphone"
-    ],
+    options: [
+            "Piano",
+            "Guitar",
+            "Violin",
+            "Microphone"
+        ],
 
-    correct: 3,
+    correctAnswer: "Microphone",
 
     explanation:
         "'Microphone' is the odd one out because the others are musical instruments.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Three are insects.",
 
-    answers: [
-        "Bee",
-        "Butterfly",
-        "Ant",
-        "Spider"
-    ],
+    options: [
+            "Bee",
+            "Butterfly",
+            "Ant",
+            "Spider"
+        ],
 
-    correct: 3,
+    correctAnswer: "Spider",
 
     explanation:
         "'Spider' is the odd one out because it is an arachnid, not an insect.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Three are pieces of furniture.",
 
-    answers: [
-        "Table",
-        "Chair",
-        "Sofa",
-        "Television"
-    ],
+    options: [
+            "Table",
+            "Chair",
+            "Sofa",
+            "Television"
+        ],
 
-    correct: 3,
+    correctAnswer: "Television",
 
     explanation:
         "'Television' is the odd one out because the others are furniture.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Three are things you can read.",
 
-    answers: [
-        "Book",
-        "Magazine",
-        "Newspaper",
-        "Scissors"
-    ],
+    options: [
+            "Book",
+            "Magazine",
+            "Newspaper",
+            "Scissors"
+        ],
 
-    correct: 3,
+    correctAnswer: "Scissors",
 
     explanation:
         "'Scissors' is the odd one out because the others are reading materials.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Three are mammals.",
 
-    answers: [
-        "Whale",
-        "Dolphin",
-        "Bat",
-        "Shark"
-    ],
+    options: [
+            "Whale",
+            "Dolphin",
+            "Bat",
+            "Shark"
+        ],
 
-    correct: 3,
+    correctAnswer: "Shark",
 
     explanation:
         "'Shark' is the odd one out because it is a fish, while the others are mammals.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Three are units of time.",
 
-    answers: [
-        "Minute",
-        "Hour",
-        "Second",
-        "Metre"
-    ],
+    options: [
+            "Minute",
+            "Hour",
+            "Second",
+            "Metre"
+        ],
 
-    correct: 3,
+    correctAnswer: "Metre",
 
     explanation:
         "'Metre' is the odd one out because it measures length, not time.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Three are drinks.",
 
-    answers: [
-        "Water",
-        "Milk",
-        "Juice",
-        "Bread"
-    ],
+    options: [
+            "Water",
+            "Milk",
+            "Juice",
+            "Bread"
+        ],
 
-    correct: 3,
+    correctAnswer: "Bread",
 
     explanation:
         "'Bread' is the odd one out because the others are drinks.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Three are used for writing.",
 
-    answers: [
-        "Pencil",
-        "Pen",
-        "Crayon",
-        "Ruler"
-    ],
+    options: [
+            "Pencil",
+            "Pen",
+            "Crayon",
+            "Ruler"
+        ],
 
-    correct: 3,
+    correctAnswer: "Ruler",
 
     explanation:
         "'Ruler' is the odd one out because it is used for measuring rather than writing.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Three are wild animals.",
 
-    answers: [
-        "Lion",
-        "Tiger",
-        "Elephant",
-        "Cow"
-    ],
+    options: [
+            "Lion",
+            "Tiger",
+            "Elephant",
+            "Cow"
+        ],
 
-    correct: 3,
+    correctAnswer: "Cow",
 
     explanation:
         "'Cow' is the odd one out because it is a farm animal, while the others are wild animals.",

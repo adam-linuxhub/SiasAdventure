@@ -22,14 +22,14 @@ export default [
     hint:
         "It is a common pet.",
 
-    answers: [
-        "A",
-        "E",
-        "I",
-        "O"
-    ],
+    options: [
+            "A",
+            "E",
+            "I",
+            "O"
+        ],
 
-    correct: 0,
+    correctAnswer: "A",
 
     explanation:
         "Adding A makes the word CAT.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "It is another common pet.",
 
-    answers: [
-        "O",
-        "A",
-        "E",
-        "U"
-    ],
+    options: [
+            "O",
+            "A",
+            "E",
+            "U"
+        ],
 
-    correct: 0,
+    correctAnswer: "O",
 
     explanation:
         "Adding O makes the word DOG.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "It shines during the day.",
 
-    answers: [
-        "U",
-        "A",
-        "E",
-        "O"
-    ],
+    options: [
+            "U",
+            "A",
+            "E",
+            "O"
+        ],
 
-    correct: 0,
+    correctAnswer: "U",
 
     explanation:
         "Adding U makes the word SUN.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "It lives in water.",
 
-    answers: [
-        "S",
-        "T",
-        "R",
-        "N"
-    ],
+    options: [
+            "S",
+            "T",
+            "R",
+            "N"
+        ],
 
-    correct: 0,
+    correctAnswer: "S",
 
     explanation:
         "Adding S makes the word FISH.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "It grows in forests and gardens.",
 
-    answers: [
-        "E",
-        "A",
-        "I",
-        "O"
-    ],
+    options: [
+            "E",
+            "A",
+            "I",
+            "O"
+        ],
 
-    correct: 0,
+    correctAnswer: "E",
 
     explanation:
         "Adding E makes the word TREE.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "You read it.",
 
-    answers: [
-        "K",
-        "L",
-        "M",
-        "T"
-    ],
+    options: [
+            "K",
+            "L",
+            "M",
+            "T"
+        ],
 
-    correct: 0,
+    correctAnswer: "K",
 
     explanation:
         "Adding K makes the word BOOK.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Children enjoy doing this.",
 
-    answers: [
-        "Y",
-        "N",
-        "T",
-        "R"
-    ],
+    options: [
+            "Y",
+            "N",
+            "T",
+            "R"
+        ],
 
-    correct: 0,
+    correctAnswer: "Y",
 
     explanation:
         "Adding Y makes the word PLAY.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "It has feathers and wings.",
 
-    answers: [
-        "D",
-        "T",
-        "K",
-        "N"
-    ],
+    options: [
+            "D",
+            "T",
+            "K",
+            "N"
+        ],
 
-    correct: 0,
+    correctAnswer: "D",
 
     explanation:
         "Adding D makes the word BIRD.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "You can drink it.",
 
-    answers: [
-        "K",
-        "D",
-        "T",
-        "P"
-    ],
+    options: [
+            "K",
+            "D",
+            "T",
+            "P"
+        ],
 
-    correct: 0,
+    correctAnswer: "K",
 
     explanation:
         "Adding K makes the word MILK.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "It jumps and croaks.",
 
-    answers: [
-        "G",
-        "K",
-        "D",
-        "T"
-    ],
+    options: [
+            "G",
+            "K",
+            "D",
+            "T"
+        ],
 
-    correct: 0,
+    correctAnswer: "G",
 
     explanation:
         "Adding G makes the word FROG.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "It is a place where children learn.",
 
-    answers: [
-        "O",
-        "A",
-        "E",
-        "U"
-    ],
+    options: [
+            "O",
+            "A",
+            "E",
+            "U"
+        ],
 
-    correct: 0,
+    correctAnswer: "O",
 
     explanation:
         "Adding O makes the word SCHOOL.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "It is the largest land animal.",
 
-    answers: [
-        "A",
-        "E",
-        "I",
-        "O"
-    ],
+    options: [
+            "A",
+            "E",
+            "I",
+            "O"
+        ],
 
-    correct: 0,
+    correctAnswer: "A",
 
     explanation:
         "Adding A makes the word ELEPHANT.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "People use it to cross a river.",
 
-    answers: [
-        "G",
-        "D",
-        "C",
-        "T"
-    ],
+    options: [
+            "G",
+            "D",
+            "C",
+            "T"
+        ],
 
-    correct: 0,
+    correctAnswer: "G",
 
     explanation:
         "Adding G makes the word BRIDGE.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "You might hear it during a storm.",
 
-    answers: [
-        "E",
-        "A",
-        "I",
-        "O"
-    ],
+    options: [
+            "E",
+            "A",
+            "I",
+            "O"
+        ],
 
-    correct: 0,
+    correctAnswer: "E",
 
     explanation:
         "Adding E makes the word THUNDER.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "You can draw or paint one.",
 
-    answers: [
-        "R",
-        "L",
-        "N",
-        "S"
-    ],
+    options: [
+            "R",
+            "L",
+            "N",
+            "S"
+        ],
 
-    correct: 0,
+    correctAnswer: "R",
 
     explanation:
         "Adding R makes the word PICTURE.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "It is the first meal of the day.",
 
-    answers: [
-        "T",
-        "D",
-        "P",
-        "K"
-    ],
+    options: [
+            "T",
+            "D",
+            "P",
+            "K"
+        ],
 
-    correct: 0,
+    correctAnswer: "T",
 
     explanation:
         "Adding T makes the word BREAKFAST.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "It is the plural of 'child'.",
 
-    answers: [
-        "E",
-        "A",
-        "I",
-        "O"
-    ],
+    options: [
+            "E",
+            "A",
+            "I",
+            "O"
+        ],
 
-    correct: 0,
+    correctAnswer: "E",
 
     explanation:
         "Adding E makes the word CHILDREN.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "It is taller than a hill.",
 
-    answers: [
-        "I",
-        "A",
-        "E",
-        "O"
-    ],
+    options: [
+            "I",
+            "A",
+            "E",
+            "O"
+        ],
 
-    correct: 0,
+    correctAnswer: "I",
 
     explanation:
         "Adding I makes the word MOUNTAIN.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "It is a place where you borrow books.",
 
-    answers: [
-        "Y",
-        "I",
-        "E",
-        "A"
-    ],
+    options: [
+            "Y",
+            "I",
+            "E",
+            "A"
+        ],
 
-    correct: 0,
+    correctAnswer: "Y",
 
     explanation:
         "Adding Y makes the word LIBRARY.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "It means an exciting journey.",
 
-    answers: [
-        "E",
-        "A",
-        "I",
-        "O"
-    ],
+    options: [
+            "E",
+            "A",
+            "I",
+            "O"
+        ],
 
-    correct: 0,
+    correctAnswer: "E",
 
     explanation:
         "Adding E makes the word ADVENTURE.",

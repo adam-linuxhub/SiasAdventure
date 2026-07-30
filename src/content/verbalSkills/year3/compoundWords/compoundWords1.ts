@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about weather and colours.",
 
-    answers: [
-        "Rain + bow",
-        "Rain + boat",
-        "Run + bow",
-        "Ring + bow"
-    ],
+    options: [
+            "Rain + bow",
+            "Rain + boat",
+            "Run + bow",
+            "Ring + bow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Rain + bow",
 
     explanation:
         "'Rainbow' is made from the words 'rain' and 'bow'.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about the game.",
 
-    answers: [
-        "Foot + ball",
-        "Feet + ball",
-        "Foot + bat",
-        "Leg + ball"
-    ],
+    options: [
+            "Foot + ball",
+            "Feet + ball",
+            "Foot + bat",
+            "Leg + ball"
+        ],
 
-    correct: 0,
+    correctAnswer: "Foot + ball",
 
     explanation:
         "'Football' is made from 'foot' and 'ball'.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about something in the sky and a plant.",
 
-    answers: [
-        "Sun + flower",
-        "Sunny + flower",
-        "Sun + tree",
-        "Sky + flower"
-    ],
+    options: [
+            "Sun + flower",
+            "Sunny + flower",
+            "Sun + tree",
+            "Sky + flower"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sun + flower",
 
     explanation:
         "'Sunflower' is made from 'sun' and 'flower'.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about furniture and a place.",
 
-    answers: [
-        "Bed + room",
-        "Bed + house",
-        "Sleep + room",
-        "Bedroom + door"
-    ],
+    options: [
+            "Bed + room",
+            "Bed + house",
+            "Sleep + room",
+            "Bedroom + door"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bed + room",
 
     explanation:
         "'Bedroom' is made from 'bed' and 'room'.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about winter.",
 
-    answers: [
-        "Snow + man",
-        "Snow + boy",
-        "Ice + man",
-        "Snow + hat"
-    ],
+    options: [
+            "Snow + man",
+            "Snow + boy",
+            "Ice + man",
+            "Snow + hat"
+        ],
 
-    correct: 0,
+    correctAnswer: "Snow + man",
 
     explanation:
         "'Snowman' is made from 'snow' and 'man'.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about cleaning your teeth.",
 
-    answers: [
-        "Tooth + brush",
-        "Teeth + brush",
-        "Tooth + paste",
-        "Brush + teeth"
-    ],
+    options: [
+            "Tooth + brush",
+            "Teeth + brush",
+            "Tooth + paste",
+            "Brush + teeth"
+        ],
 
-    correct: 0,
+    correctAnswer: "Tooth + brush",
 
     explanation:
         "'Toothbrush' is made from 'tooth' and 'brush'.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about playing outside.",
 
-    answers: [
-        "Play + ground",
-        "Game + ground",
-        "Play + park",
-        "Run + ground"
-    ],
+    options: [
+            "Play + ground",
+            "Game + ground",
+            "Play + park",
+            "Run + ground"
+        ],
 
-    correct: 0,
+    correctAnswer: "Play + ground",
 
     explanation:
         "'Playground' is made from 'play' and 'ground'.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about letters.",
 
-    answers: [
-        "Mail + box",
-        "Letter + box",
-        "Post + bag",
-        "Mail + bag"
-    ],
+    options: [
+            "Mail + box",
+            "Letter + box",
+            "Post + bag",
+            "Mail + bag"
+        ],
 
-    correct: 0,
+    correctAnswer: "Mail + box",
 
     explanation:
         "'Mailbox' is made from 'mail' and 'box'.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about the sea.",
 
-    answers: [
-        "Light + house",
-        "Lamp + house",
-        "Light + home",
-        "Sea + house"
-    ],
+    options: [
+            "Light + house",
+            "Lamp + house",
+            "Light + home",
+            "Sea + house"
+        ],
 
-    correct: 0,
+    correctAnswer: "Light + house",
 
     explanation:
         "'Lighthouse' is made from 'light' and 'house'.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about where you carry it.",
 
-    answers: [
-        "Back + pack",
-        "Bag + pack",
-        "Back + bag",
-        "Shoulder + pack"
-    ],
+    options: [
+            "Back + pack",
+            "Bag + pack",
+            "Back + bag",
+            "Shoulder + pack"
+        ],
 
-    correct: 0,
+    correctAnswer: "Back + pack",
 
     explanation:
         "'Backpack' is made from 'back' and 'pack'.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about where books are kept.",
 
-    answers: [
-        "Book + shelf",
-        "Books + case",
-        "Book + box",
-        "Shelf + room"
-    ],
+    options: [
+            "Book + shelf",
+            "Books + case",
+            "Book + box",
+            "Shelf + room"
+        ],
 
-    correct: 0,
+    correctAnswer: "Book + shelf",
 
     explanation:
         "'Bookshelf' is made from the words 'book' and 'shelf'.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about someone whose job is to stop fires.",
 
-    answers: [
-        "Fire + fighter",
-        "Fire + person",
-        "Flame + fighter",
-        "Fire + worker"
-    ],
+    options: [
+            "Fire + fighter",
+            "Fire + person",
+            "Flame + fighter",
+            "Fire + worker"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fire + fighter",
 
     explanation:
         "'Firefighter' is made from 'fire' and 'fighter'.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about the day you were born.",
 
-    answers: [
-        "Birth + day",
-        "Born + day",
-        "Baby + day",
-        "Birth + year"
-    ],
+    options: [
+            "Birth + day",
+            "Born + day",
+            "Baby + day",
+            "Birth + year"
+        ],
 
-    correct: 0,
+    correctAnswer: "Birth + day",
 
     explanation:
         "'Birthday' is made from 'birth' and 'day'.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about where aeroplanes arrive and leave.",
 
-    answers: [
-        "Air + port",
-        "Plane + port",
-        "Sky + port",
-        "Air + station"
-    ],
+    options: [
+            "Air + port",
+            "Plane + port",
+            "Sky + port",
+            "Air + station"
+        ],
 
-    correct: 0,
+    correctAnswer: "Air + port",
 
     explanation:
         "'Airport' is made from 'air' and 'port'.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about a greeting.",
 
-    answers: [
-        "Hand + shake",
-        "Hand + wave",
-        "Palm + shake",
-        "Finger + shake"
-    ],
+    options: [
+            "Hand + shake",
+            "Hand + wave",
+            "Palm + shake",
+            "Finger + shake"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hand + shake",
 
     explanation:
         "'Handshake' is made from 'hand' and 'shake'.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about light from the night sky.",
 
-    answers: [
-        "Moon + light",
-        "Moon + lamp",
-        "Night + light",
-        "Sky + light"
-    ],
+    options: [
+            "Moon + light",
+            "Moon + lamp",
+            "Night + light",
+            "Sky + light"
+        ],
 
-    correct: 0,
+    correctAnswer: "Moon + light",
 
     explanation:
         "'Moonlight' is made from 'moon' and 'light'.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about moving water.",
 
-    answers: [
-        "Water + fall",
-        "River + fall",
-        "Water + rock",
-        "Rain + fall"
-    ],
+    options: [
+            "Water + fall",
+            "River + fall",
+            "Water + rock",
+            "Rain + fall"
+        ],
 
-    correct: 0,
+    correctAnswer: "Water + fall",
 
     explanation:
         "'Waterfall' is made from 'water' and 'fall'.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about something you read.",
 
-    answers: [
-        "News + paper",
-        "New + page",
-        "Paper + book",
-        "Story + paper"
-    ],
+    options: [
+            "News + paper",
+            "New + page",
+            "Paper + book",
+            "Story + paper"
+        ],
 
-    correct: 0,
+    correctAnswer: "News + paper",
 
     explanation:
         "'Newspaper' is made from 'news' and 'paper'.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about a sea creature.",
 
-    answers: [
-        "Star + fish",
-        "Sea + fish",
-        "Star + shell",
-        "Ocean + fish"
-    ],
+    options: [
+            "Star + fish",
+            "Sea + fish",
+            "Star + shell",
+            "Ocean + fish"
+        ],
 
-    correct: 0,
+    correctAnswer: "Star + fish",
 
     explanation:
         "'Starfish' is made from 'star' and 'fish'.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about bright weather.",
 
-    answers: [
-        "Sun + shine",
-        "Sun + light",
-        "Sky + shine",
-        "Bright + sun"
-    ],
+    options: [
+            "Sun + shine",
+            "Sun + light",
+            "Sky + shine",
+            "Bright + sun"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sun + shine",
 
     explanation:
         "'Sunshine' is made from 'sun' and 'shine'.",

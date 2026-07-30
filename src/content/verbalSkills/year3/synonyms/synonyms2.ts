@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about making no noise.",
 
-    answers: [
-        "Quiet",
-        "Loud",
-        "Busy",
-        "Fast"
-    ],
+    options: [
+            "Quiet",
+            "Loud",
+            "Busy",
+            "Fast"
+        ],
 
-    correct: 0,
+    correctAnswer: "Quiet",
 
     explanation:
         "Quiet means the same as silent.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about someone who learns quickly.",
 
-    answers: [
-        "Smart",
-        "Lazy",
-        "Noisy",
-        "Tiny"
-    ],
+    options: [
+            "Smart",
+            "Lazy",
+            "Noisy",
+            "Tiny"
+        ],
 
-    correct: 0,
+    correctAnswer: "Smart",
 
     explanation:
         "Smart is a synonym for clever.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about something that takes up lots of space.",
 
-    answers: [
-        "Big",
-        "Thin",
-        "Small",
-        "Short"
-    ],
+    options: [
+            "Big",
+            "Thin",
+            "Small",
+            "Short"
+        ],
 
-    correct: 0,
+    correctAnswer: "Big",
 
     explanation:
         "Big means the same as large.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "It is something you receive on your birthday.",
 
-    answers: [
-        "Present",
-        "Letter",
-        "Parcel",
-        "Card"
-    ],
+    options: [
+            "Present",
+            "Letter",
+            "Parcel",
+            "Card"
+        ],
 
-    correct: 0,
+    correctAnswer: "Present",
 
     explanation:
         "Present is another word for gift.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about a piece of work to do.",
 
-    answers: [
-        "Task",
-        "Holiday",
-        "Game",
-        "Prize"
-    ],
+    options: [
+            "Task",
+            "Holiday",
+            "Game",
+            "Prize"
+        ],
 
-    correct: 0,
+    correctAnswer: "Task",
 
     explanation:
         "A task is a job that needs to be done.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about completing something.",
 
-    answers: [
-        "End",
-        "Begin",
-        "Start",
-        "Open"
-    ],
+    options: [
+            "End",
+            "Begin",
+            "Start",
+            "Open"
+        ],
 
-    correct: 0,
+    correctAnswer: "End",
 
     explanation:
         "End is a synonym for finish.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about not feeling well.",
 
-    answers: [
-        "Sick",
-        "Healthy",
-        "Strong",
-        "Fit"
-    ],
+    options: [
+            "Sick",
+            "Healthy",
+            "Strong",
+            "Fit"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sick",
 
     explanation:
         "Sick means the same as ill.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about the first step.",
 
-    answers: [
-        "Start",
-        "Finish",
-        "Pause",
-        "Stop"
-    ],
+    options: [
+            "Start",
+            "Finish",
+            "Pause",
+            "Stop"
+        ],
 
-    correct: 0,
+    correctAnswer: "Start",
 
     explanation:
         "Start is another word for begin.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about moving quickly.",
 
-    answers: [
-        "Fast",
-        "Slow",
-        "Heavy",
-        "Late"
-    ],
+    options: [
+            "Fast",
+            "Slow",
+            "Heavy",
+            "Late"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fast",
 
     explanation:
         "Fast is a synonym for rapid.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about something very little.",
 
-    answers: [
-        "Small",
-        "Huge",
-        "Tall",
-        "Wide"
-    ],
+    options: [
+            "Small",
+            "Huge",
+            "Tall",
+            "Wide"
+        ],
 
-    correct: 0,
+    correctAnswer: "Small",
 
     explanation:
         "Small is a synonym for tiny.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about someone who is not easily frightened.",
 
-    answers: [
-        "Courageous",
-        "Afraid",
-        "Weak",
-        "Shy"
-    ],
+    options: [
+            "Courageous",
+            "Afraid",
+            "Weak",
+            "Shy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Courageous",
 
     explanation:
         "Courageous means the same as brave.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about answering someone.",
 
-    answers: [
-        "Answer",
-        "Question",
-        "Ask",
-        "Call"
-    ],
+    options: [
+            "Answer",
+            "Question",
+            "Ask",
+            "Call"
+        ],
 
-    correct: 0,
+    correctAnswer: "Answer",
 
     explanation:
         "Answer is a synonym for reply.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about making a selection.",
 
-    answers: [
-        "Select",
-        "Lose",
-        "Hide",
-        "Drop"
-    ],
+    options: [
+            "Select",
+            "Lose",
+            "Hide",
+            "Drop"
+        ],
 
-    correct: 0,
+    correctAnswer: "Select",
 
     explanation:
         "Select means the same as choose.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about closing a door.",
 
-    answers: [
-        "Close",
-        "Open",
-        "Push",
-        "Pull"
-    ],
+    options: [
+            "Close",
+            "Open",
+            "Push",
+            "Pull"
+        ],
 
-    correct: 0,
+    correctAnswer: "Close",
 
     explanation:
         "Close is a synonym for shut.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about making no sound.",
 
-    answers: [
-        "Quiet",
-        "Busy",
-        "Loud",
-        "Cheerful"
-    ],
+    options: [
+            "Quiet",
+            "Busy",
+            "Loud",
+            "Cheerful"
+        ],
 
-    correct: 0,
+    correctAnswer: "Quiet",
 
     explanation:
         "Quiet means the same as silent.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about always telling the truth.",
 
-    answers: [
-        "Truthful",
-        "Careless",
-        "Angry",
-        "Greedy"
-    ],
+    options: [
+            "Truthful",
+            "Careless",
+            "Angry",
+            "Greedy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Truthful",
 
     explanation:
         "Truthful is a synonym for honest.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about something with nothing inside.",
 
-    answers: [
-        "Vacant",
-        "Full",
-        "Heavy",
-        "Wide"
-    ],
+    options: [
+            "Vacant",
+            "Full",
+            "Heavy",
+            "Wide"
+        ],
 
-    correct: 0,
+    correctAnswer: "Vacant",
 
     explanation:
         "Vacant means empty or unoccupied.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about getting the answer right.",
 
-    answers: [
-        "Right",
-        "Wrong",
-        "Broken",
-        "Late"
-    ],
+    options: [
+            "Right",
+            "Wrong",
+            "Broken",
+            "Late"
+        ],
 
-    correct: 0,
+    correctAnswer: "Right",
 
     explanation:
         "Right is a synonym for correct.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about someone with lots of money.",
 
-    answers: [
-        "Rich",
-        "Poor",
-        "Hungry",
-        "Tired"
-    ],
+    options: [
+            "Rich",
+            "Poor",
+            "Hungry",
+            "Tired"
+        ],
 
-    correct: 0,
+    correctAnswer: "Rich",
 
     explanation:
         "Rich means the same as wealthy.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about feeling pleased.",
 
-    answers: [
-        "Happy",
-        "Sad",
-        "Cross",
-        "Sleepy"
-    ],
+    options: [
+            "Happy",
+            "Sad",
+            "Cross",
+            "Sleepy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Happy",
 
     explanation:
         "Happy is a synonym for glad.",

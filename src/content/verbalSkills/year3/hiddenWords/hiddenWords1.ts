@@ -22,14 +22,14 @@ export default [
     hint:
         "Look for a smaller word inside the larger word.",
 
-    answers: [
-        "Cat",
-        "Fish",
-        "Dog",
-        "Bear"
-    ],
+    options: [
+            "Cat",
+            "Fish",
+            "Dog",
+            "Bear"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cat",
 
     explanation:
         "The word CAT appears at the beginning of 'catfish'.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Read the letters carefully from left to right.",
 
-    answers: [
-        "Bow",
-        "Row",
-        "Boat",
-        "Bowl"
-    ],
+    options: [
+            "Bow",
+            "Row",
+            "Boat",
+            "Bowl"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bow",
 
     explanation:
         "'Bow' appears at the end of the word 'rainbow'.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Look at the beginning of the word.",
 
-    answers: [
-        "Sun",
-        "Fun",
-        "Flower",
-        "Low"
-    ],
+    options: [
+            "Sun",
+            "Fun",
+            "Flower",
+            "Low"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sun",
 
     explanation:
         "'Sun' appears at the beginning of 'sunflower'.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "It is something you wear on your foot.",
 
-    answers: [
-        "Foot",
-        "Ball",
-        "Boot",
-        "Shoe"
-    ],
+    options: [
+            "Foot",
+            "Ball",
+            "Boot",
+            "Shoe"
+        ],
 
-    correct: 0,
+    correctAnswer: "Foot",
 
     explanation:
         "'Foot' appears at the beginning of 'football'.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Look at the start of the word.",
 
-    answers: [
-        "Play",
-        "Ground",
-        "Lay",
-        "Round"
-    ],
+    options: [
+            "Play",
+            "Ground",
+            "Lay",
+            "Round"
+        ],
 
-    correct: 0,
+    correctAnswer: "Play",
 
     explanation:
         "'Play' appears at the beginning of 'playground'.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about something you drink from.",
 
-    answers: [
-        "Tea",
-        "Pot",
-        "Tap",
-        "Top"
-    ],
+    options: [
+            "Tea",
+            "Pot",
+            "Tap",
+            "Top"
+        ],
 
-    correct: 0,
+    correctAnswer: "Tea",
 
     explanation:
         "'Tea' appears at the beginning of 'teapot'.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Look at the first four letters.",
 
-    answers: [
-        "Snow",
-        "Man",
-        "Now",
-        "Show"
-    ],
+    options: [
+            "Snow",
+            "Man",
+            "Now",
+            "Show"
+        ],
 
-    correct: 0,
+    correctAnswer: "Snow",
 
     explanation:
         "'Snow' appears at the beginning of 'snowman'.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Look at the first three letters.",
 
-    answers: [
-        "Cup",
-        "Cake",
-        "Cape",
-        "Cap"
-    ],
+    options: [
+            "Cup",
+            "Cake",
+            "Cape",
+            "Cap"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cup",
 
     explanation:
         "'Cup' appears at the beginning of 'cupcake'.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Look at the first five letters.",
 
-    answers: [
-        "Light",
-        "House",
-        "Night",
-        "Sight"
-    ],
+    options: [
+            "Light",
+            "House",
+            "Night",
+            "Sight"
+        ],
 
-    correct: 0,
+    correctAnswer: "Light",
 
     explanation:
         "'Light' appears at the beginning of 'lighthouse'.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Look at the first three letters.",
 
-    answers: [
-        "Bed",
-        "Room",
-        "Bee",
-        "Red"
-    ],
+    options: [
+            "Bed",
+            "Room",
+            "Bee",
+            "Red"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bed",
 
     explanation:
         "'Bed' appears at the beginning of 'bedroom'.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Look for a word that means to move through the air.",
 
-    answers: [
-        "Fly",
-        "Butter",
-        "Try",
-        "Flutter"
-    ],
+    options: [
+            "Fly",
+            "Butter",
+            "Try",
+            "Flutter"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fly",
 
     explanation:
         "'Fly' appears at the end of 'butterfly'.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Read the letters from left to right.",
 
-    answers: [
-        "Side",
-        "Sit",
-        "Send",
-        "Sin"
-    ],
+    options: [
+            "Side",
+            "Sit",
+            "Send",
+            "Sin"
+        ],
 
-    correct: 0,
+    correctAnswer: "Side",
 
     explanation:
         "'Side' is hidden in the word 'inside'.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Look at the end of the word.",
 
-    answers: [
-        "Day",
-        "Week",
-        "Way",
-        "Key"
-    ],
+    options: [
+            "Day",
+            "Week",
+            "Way",
+            "Key"
+        ],
 
-    correct: 0,
+    correctAnswer: "Day",
 
     explanation:
         "'Day' appears at the end of 'weekday'.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Look at the beginning of the word.",
 
-    answers: [
-        "Hand",
-        "Bag",
-        "And",
-        "Hang"
-    ],
+    options: [
+            "Hand",
+            "Bag",
+            "And",
+            "Hang"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hand",
 
     explanation:
         "'Hand' appears at the beginning of 'handbag'.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "It is something you can see in the sky at night.",
 
-    answers: [
-        "Moon",
-        "Light",
-        "Night",
-        "Moonlit"
-    ],
+    options: [
+            "Moon",
+            "Light",
+            "Night",
+            "Moonlit"
+        ],
 
-    correct: 0,
+    correctAnswer: "Moon",
 
     explanation:
         "'Moon' appears at the beginning of 'moonlight'.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Look at the end of the word.",
 
-    answers: [
-        "Shine",
-        "Sun",
-        "Ship",
-        "Line"
-    ],
+    options: [
+            "Shine",
+            "Sun",
+            "Ship",
+            "Line"
+        ],
 
-    correct: 0,
+    correctAnswer: "Shine",
 
     explanation:
         "'Shine' appears at the end of 'sunshine'.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Look at the first four letters.",
 
-    answers: [
-        "Back",
-        "Pack",
-        "Bat",
-        "Black"
-    ],
+    options: [
+            "Back",
+            "Pack",
+            "Bat",
+            "Black"
+        ],
 
-    correct: 0,
+    correctAnswer: "Back",
 
     explanation:
         "'Back' appears at the beginning of 'backpack'.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Look carefully in the middle.",
 
-    answers: [
-        "Very",
-        "Ever",
-        "Here",
-        "Where"
-    ],
+    options: [
+            "Very",
+            "Ever",
+            "Here",
+            "Where"
+        ],
 
-    correct: 0,
+    correctAnswer: "Very",
 
     explanation:
         "'Very' is hidden in the middle of 'everywhere'.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "It is found at the beginning of the word.",
 
-    answers: [
-        "Star",
-        "Fish",
-        "Start",
-        "Stare"
-    ],
+    options: [
+            "Star",
+            "Fish",
+            "Start",
+            "Stare"
+        ],
 
-    correct: 0,
+    correctAnswer: "Star",
 
     explanation:
         "'Star' appears at the beginning of 'starfish'.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Look at the end of the word.",
 
-    answers: [
-        "House",
-        "Green",
-        "Tree",
-        "Horse"
-    ],
+    options: [
+            "House",
+            "Green",
+            "Tree",
+            "Horse"
+        ],
 
-    correct: 0,
+    correctAnswer: "House",
 
     explanation:
         "'House' appears at the end of 'greenhouse'.",

@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about an animal that flies at night.",
 
-    answers: [
-        "A flying animal",
-        "A piece of sports equipment",
-        "A hat",
-        "A bird's nest"
-    ],
+    options: [
+            "A flying animal",
+            "A piece of sports equipment",
+            "A hat",
+            "A bird's nest"
+        ],
 
-    correct: 0,
+    correctAnswer: "A flying animal",
 
     explanation:
         "Here, 'bat' means the flying mammal that comes out at night.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about cricket or baseball.",
 
-    answers: [
-        "Sports equipment",
-        "A flying animal",
-        "A bird",
-        "A branch"
-    ],
+    options: [
+            "Sports equipment",
+            "A flying animal",
+            "A bird",
+            "A branch"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sports equipment",
 
     explanation:
         "Here, 'bat' means the piece of equipment used to hit a ball.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about trees in autumn.",
 
-    answers: [
-        "Parts of a plant",
-        "Walks away",
-        "Books",
-        "Shoes"
-    ],
+    options: [
+            "Parts of a plant",
+            "Walks away",
+            "Books",
+            "Shoes"
+        ],
 
-    correct: 0,
+    correctAnswer: "Parts of a plant",
 
     explanation:
         "Here, 'leaves' means the green parts of a plant.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about starting a journey.",
 
-    answers: [
-        "Departs",
-        "Plant parts",
-        "Sleeps",
-        "Stops"
-    ],
+    options: [
+            "Departs",
+            "Plant parts",
+            "Sleeps",
+            "Stops"
+        ],
 
-    correct: 0,
+    correctAnswer: "Departs",
 
     explanation:
         "Here, 'leaves' means departs.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about shutting something.",
 
-    answers: [
-        "Shut",
-        "Near",
-        "Open",
-        "Carry"
-    ],
+    options: [
+            "Shut",
+            "Near",
+            "Open",
+            "Carry"
+        ],
 
-    correct: 0,
+    correctAnswer: "Shut",
 
     explanation:
         "Here, 'close' means to shut something.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about distance.",
 
-    answers: [
-        "Near",
-        "Shut",
-        "Locked",
-        "Busy"
-    ],
+    options: [
+            "Near",
+            "Shut",
+            "Locked",
+            "Busy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Near",
 
     explanation:
         "Here, 'close' means near.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about a tree.",
 
-    answers: [
-        "The outside of a tree",
-        "The sound a dog makes",
-        "A type of bird",
-        "A leaf"
-    ],
+    options: [
+            "The outside of a tree",
+            "The sound a dog makes",
+            "A type of bird",
+            "A leaf"
+        ],
 
-    correct: 0,
+    correctAnswer: "The outside of a tree",
 
     explanation:
         "Here, 'bark' means the outer covering of a tree.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about a noisy pet.",
 
-    answers: [
-        "Make a dog sound",
-        "Tree covering",
-        "Run fast",
-        "Jump high"
-    ],
+    options: [
+            "Make a dog sound",
+            "Tree covering",
+            "Run fast",
+            "Jump high"
+        ],
 
-    correct: 0,
+    correctAnswer: "Make a dog sound",
 
     explanation:
         "Here, 'bark' means the sound a dog makes.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about using your finger.",
 
-    answers: [
-        "Show",
-        "A score",
-        "A sharp end",
-        "A place"
-    ],
+    options: [
+            "Show",
+            "A score",
+            "A sharp end",
+            "A place"
+        ],
 
-    correct: 0,
+    correctAnswer: "Show",
 
     explanation:
         "Here, 'point' means to show by using a finger.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about keeping score in a game.",
 
-    answers: [
-        "A score",
-        "Show with a finger",
-        "A pencil tip",
-        "A mountain"
-    ],
+    options: [
+            "A score",
+            "Show with a finger",
+            "A pencil tip",
+            "A mountain"
+        ],
 
-    correct: 0,
+    correctAnswer: "A score",
 
     explanation:
         "Here, 'point' means a score earned in a game.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about an animal that lives in the sea.",
 
-    answers: [
-        "A sea animal",
-        "Something used to close a letter",
-        "A badge",
-        "A rope"
-    ],
+    options: [
+            "A sea animal",
+            "Something used to close a letter",
+            "A badge",
+            "A rope"
+        ],
 
-    correct: 0,
+    correctAnswer: "A sea animal",
 
     explanation:
         "Here, 'seal' means the sea animal.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about closing something securely.",
 
-    answers: [
-        "Something used to fasten or close",
-        "A sea animal",
-        "A fish",
-        "A shell"
-    ],
+    options: [
+            "Something used to fasten or close",
+            "A sea animal",
+            "A fish",
+            "A shell"
+        ],
 
-    correct: 0,
+    correctAnswer: "Something used to fasten or close",
 
     explanation:
         "Here, 'seal' means something used to close or fasten an envelope.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about the front part of an object.",
 
-    answers: [
-        "The front of the watch",
-        "A person's head",
-        "A photograph",
-        "A smile"
-    ],
+    options: [
+            "The front of the watch",
+            "A person's head",
+            "A photograph",
+            "A smile"
+        ],
 
-    correct: 0,
+    correctAnswer: "The front of the watch",
 
     explanation:
         "Here, 'face' means the front surface of the watch.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about part of the body.",
 
-    answers: [
-        "The front of a person's head",
-        "The front of a clock",
-        "A wall",
-        "A picture"
-    ],
+    options: [
+            "The front of a person's head",
+            "The front of a clock",
+            "A wall",
+            "A picture"
+        ],
 
-    correct: 0,
+    correctAnswer: "The front of a person's head",
 
     explanation:
         "Here, 'face' means the front part of a person's head.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about leaving a vehicle.",
 
-    answers: [
-        "Leave a vehicle",
-        "A place with grass and trees",
-        "Run quickly",
-        "Take a bus"
-    ],
+    options: [
+            "Leave a vehicle",
+            "A place with grass and trees",
+            "Run quickly",
+            "Take a bus"
+        ],
 
-    correct: 0,
+    correctAnswer: "Leave a vehicle",
 
     explanation:
         "Here, 'park' means to leave a vehicle in a space.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about an outdoor public space.",
 
-    answers: [
-        "An area of grass and trees",
-        "Leave a vehicle",
-        "A school",
-        "A playground toy"
-    ],
+    options: [
+            "An area of grass and trees",
+            "Leave a vehicle",
+            "A school",
+            "A playground toy"
+        ],
 
-    correct: 0,
+    correctAnswer: "An area of grass and trees",
 
     explanation:
         "Here, 'park' means a public green space.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about the seasons.",
 
-    answers: [
-        "A season of the year",
-        "A jump",
-        "A metal coil",
-        "A river"
-    ],
+    options: [
+            "A season of the year",
+            "A jump",
+            "A metal coil",
+            "A river"
+        ],
 
-    correct: 0,
+    correctAnswer: "A season of the year",
 
     explanation:
         "Here, 'spring' means the season between winter and summer.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about jumping suddenly.",
 
-    answers: [
-        "Jump suddenly",
-        "A season",
-        "A toy",
-        "A flower"
-    ],
+    options: [
+            "Jump suddenly",
+            "A season",
+            "A toy",
+            "A flower"
+        ],
 
-    correct: 0,
+    correctAnswer: "Jump suddenly",
 
     explanation:
         "Here, 'spring' means to jump suddenly.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about using your hand.",
 
-    answers: [
-        "Move your hand as a greeting",
-        "A movement of water",
-        "A loud sound",
-        "A strong wind"
-    ],
+    options: [
+            "Move your hand as a greeting",
+            "A movement of water",
+            "A loud sound",
+            "A strong wind"
+        ],
 
-    correct: 0,
+    correctAnswer: "Move your hand as a greeting",
 
     explanation:
         "Here, 'wave' means to move your hand to greet someone.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about the sea.",
 
-    answers: [
-        "A movement of water",
-        "A hand greeting",
-        "A loud noise",
-        "A cloud"
-    ],
+    options: [
+            "A movement of water",
+            "A hand greeting",
+            "A loud noise",
+            "A cloud"
+        ],
 
-    correct: 0,
+    correctAnswer: "A movement of water",
 
     explanation:
         "Here, 'wave' means a moving swell of water in the sea.",

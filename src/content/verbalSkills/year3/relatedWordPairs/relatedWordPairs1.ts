@@ -22,14 +22,14 @@ export default [
     hint:
         "What do you use to open it?",
 
-    answers: [
-        "Key",
-        "Spoon",
-        "Hat",
-        "Book"
-    ],
+    options: [
+            "Key",
+            "Spoon",
+            "Hat",
+            "Book"
+        ],
 
-    correct: 0,
+    correctAnswer: "Key",
 
     explanation:
         "A key is used to open a lock.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about where many birds live.",
 
-    answers: [
-        "Nest",
-        "Wheel",
-        "Pillow",
-        "Plate"
-    ],
+    options: [
+            "Nest",
+            "Wheel",
+            "Pillow",
+            "Plate"
+        ],
 
-    correct: 0,
+    correctAnswer: "Nest",
 
     explanation:
         "Birds build nests.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Where does a teacher usually work?",
 
-    answers: [
-        "School",
-        "Harbour",
-        "Farm",
-        "Airport"
-    ],
+    options: [
+            "School",
+            "Harbour",
+            "Farm",
+            "Airport"
+        ],
 
-    correct: 0,
+    correctAnswer: "School",
 
     explanation:
         "Teachers work in schools.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about what bees make.",
 
-    answers: [
-        "Honey",
-        "Bread",
-        "Cheese",
-        "Soup"
-    ],
+    options: [
+            "Honey",
+            "Bread",
+            "Cheese",
+            "Soup"
+        ],
 
-    correct: 0,
+    correctAnswer: "Honey",
 
     explanation:
         "Bees make honey.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Where does a doctor often work?",
 
-    answers: [
-        "Hospital",
-        "Garage",
-        "Library",
-        "Bakery"
-    ],
+    options: [
+            "Hospital",
+            "Garage",
+            "Library",
+            "Bakery"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hospital",
 
     explanation:
         "Doctors commonly work in hospitals.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about where fish live.",
 
-    answers: [
-        "Water",
-        "Desert",
-        "Tree",
-        "Mountain"
-    ],
+    options: [
+            "Water",
+            "Desert",
+            "Tree",
+            "Mountain"
+        ],
 
-    correct: 0,
+    correctAnswer: "Water",
 
     explanation:
         "Fish live in water.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "What do you do with it?",
 
-    answers: [
-        "Write",
-        "Cook",
-        "Swim",
-        "Sleep"
-    ],
+    options: [
+            "Write",
+            "Cook",
+            "Swim",
+            "Sleep"
+        ],
 
-    correct: 0,
+    correctAnswer: "Write",
 
     explanation:
         "A pencil is used to write.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Where does it usually travel?",
 
-    answers: [
-        "Road",
-        "River",
-        "Sky",
-        "Roof"
-    ],
+    options: [
+            "Road",
+            "River",
+            "Sky",
+            "Roof"
+        ],
 
-    correct: 0,
+    correctAnswer: "Road",
 
     explanation:
         "Cars travel on roads.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "What is a knife commonly used to do?",
 
-    answers: [
-        "Cut",
-        "Bounce",
-        "Read",
-        "Sing"
-    ],
+    options: [
+            "Cut",
+            "Bounce",
+            "Read",
+            "Sing"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cut",
 
     explanation:
         "A knife is used for cutting.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "What helps keep you dry?",
 
-    answers: [
-        "Umbrella",
-        "Sunglasses",
-        "Helmet",
-        "Scarf"
-    ],
+    options: [
+            "Umbrella",
+            "Sunglasses",
+            "Helmet",
+            "Scarf"
+        ],
 
-    correct: 0,
+    correctAnswer: "Umbrella",
 
     explanation:
         "An umbrella helps protect you from the rain.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about where a chef works.",
 
-    answers: [
-        "Kitchen",
-        "Library",
-        "Garage",
-        "Playground"
-    ],
+    options: [
+            "Kitchen",
+            "Library",
+            "Garage",
+            "Playground"
+        ],
 
-    correct: 0,
+    correctAnswer: "Kitchen",
 
     explanation:
         "Chefs prepare food in kitchens.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "What does a painter use?",
 
-    answers: [
-        "Brush",
-        "Spade",
-        "Hammer",
-        "Ruler"
-    ],
+    options: [
+            "Brush",
+            "Spade",
+            "Hammer",
+            "Ruler"
+        ],
 
-    correct: 0,
+    correctAnswer: "Brush",
 
     explanation:
         "A painter uses a brush to paint.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about what spiders make.",
 
-    answers: [
-        "Web",
-        "Nest",
-        "Den",
-        "Hive"
-    ],
+    options: [
+            "Web",
+            "Nest",
+            "Den",
+            "Hive"
+        ],
 
-    correct: 0,
+    correctAnswer: "Web",
 
     explanation:
         "Spiders spin webs to catch insects.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "What does a clock tell you?",
 
-    answers: [
-        "Time",
-        "Weather",
-        "Distance",
-        "Weight"
-    ],
+    options: [
+            "Time",
+            "Weather",
+            "Distance",
+            "Weight"
+        ],
 
-    correct: 0,
+    correctAnswer: "Time",
 
     explanation:
         "A clock tells the time.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Where does a farmer usually work?",
 
-    answers: [
-        "Farm",
-        "Office",
-        "Cinema",
-        "Museum"
-    ],
+    options: [
+            "Farm",
+            "Office",
+            "Cinema",
+            "Museum"
+        ],
 
-    correct: 0,
+    correctAnswer: "Farm",
 
     explanation:
         "Farmers work on farms.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "What do you clean with it?",
 
-    answers: [
-        "Teeth",
-        "Hair",
-        "Shoes",
-        "Hands"
-    ],
+    options: [
+            "Teeth",
+            "Hair",
+            "Shoes",
+            "Hands"
+        ],
 
-    correct: 0,
+    correctAnswer: "Teeth",
 
     explanation:
         "A toothbrush is used to clean your teeth.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Where does a boat travel?",
 
-    answers: [
-        "River",
-        "Road",
-        "Railway",
-        "Field"
-    ],
+    options: [
+            "River",
+            "Road",
+            "Railway",
+            "Field"
+        ],
 
-    correct: 0,
+    correctAnswer: "River",
 
     explanation:
         "Boats travel on rivers, lakes and seas.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "What are scissors used to do?",
 
-    answers: [
-        "Cut",
-        "Write",
-        "Measure",
-        "Paint"
-    ],
+    options: [
+            "Cut",
+            "Write",
+            "Measure",
+            "Paint"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cut",
 
     explanation:
         "Scissors are used for cutting.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "What do people borrow there?",
 
-    answers: [
-        "Books",
-        "Cars",
-        "Bicycles",
-        "Televisions"
-    ],
+    options: [
+            "Books",
+            "Cars",
+            "Bicycles",
+            "Televisions"
+        ],
 
-    correct: 0,
+    correctAnswer: "Books",
 
     explanation:
         "Libraries are places where people borrow books.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "What can grow from a seed?",
 
-    answers: [
-        "Plant",
-        "Rock",
-        "Cloud",
-        "River"
-    ],
+    options: [
+            "Plant",
+            "Rock",
+            "Cloud",
+            "River"
+        ],
 
-    correct: 0,
+    correctAnswer: "Plant",
 
     explanation:
         "Seeds grow into plants when given the right conditions.",

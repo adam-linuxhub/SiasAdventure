@@ -22,14 +22,14 @@ export default [
     hint:
         "Look at the first letter.",
 
-    answers: [
-        "Apple",
-        "Banana",
-        "Carrot",
-        "Pear"
-    ],
+    options: [
+            "Apple",
+            "Banana",
+            "Carrot",
+            "Pear"
+        ],
 
-    correct: 0,
+    correctAnswer: "Apple",
 
     explanation:
         "'Apple' comes first because words beginning with A appear before B, C and P.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "All the words begin with 'b'. Look at the second letter.",
 
-    answers: [
-        "Bag",
-        "Bed",
-        "Box",
-        "Bus"
-    ],
+    options: [
+            "Bag",
+            "Bed",
+            "Box",
+            "Bus"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bag",
 
     explanation:
         "'Bag' comes first because 'ba' comes before 'be', 'bo' and 'bu'.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about books that explain words.",
 
-    answers: [
-        "Dictionary",
-        "Atlas",
-        "Recipe book",
-        "Story book"
-    ],
+    options: [
+            "Dictionary",
+            "Atlas",
+            "Recipe book",
+            "Story book"
+        ],
 
-    correct: 0,
+    correctAnswer: "Dictionary",
 
     explanation:
         "A dictionary tells you the meanings of words.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Compare the first letters.",
 
-    answers: [
-        "Cat",
-        "Dog",
-        "Fish",
-        "Horse"
-    ],
+    options: [
+            "Cat",
+            "Dog",
+            "Fish",
+            "Horse"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cat",
 
     explanation:
         "'Cat' comes first because C comes before D, F and H.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "The word should fit between the two guide words.",
 
-    answers: [
-        "Fox – Fruit",
-        "Farm – Feather",
-        "Goat – Grass",
-        "Lion – Monkey"
-    ],
+    options: [
+            "Fox – Fruit",
+            "Farm – Feather",
+            "Goat – Grass",
+            "Lion – Monkey"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fox – Fruit",
 
     explanation:
         "'Frog' comes after 'fox' and before 'fruit', so those guide words fit.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "All begin with 'sp'. Compare the third letter.",
 
-    answers: [
-        "Space",
-        "Speak",
-        "Spider",
-        "Sport"
-    ],
+    options: [
+            "Space",
+            "Speak",
+            "Spider",
+            "Sport"
+        ],
 
-    correct: 0,
+    correctAnswer: "Space",
 
     explanation:
         "'Space' comes first because 'spa' comes before 'spe', 'spi' and 'spo'.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about words.",
 
-    answers: [
-        "The meaning of a word",
-        "The weather",
-        "Road directions",
-        "Football scores"
-    ],
+    options: [
+            "The meaning of a word",
+            "The weather",
+            "Road directions",
+            "Football scores"
+        ],
 
-    correct: 0,
+    correctAnswer: "The meaning of a word",
 
     explanation:
         "A dictionary helps you find the meanings of words.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Compare the first letters.",
 
-    answers: [
-        "Ant",
-        "Bee",
-        "Duck",
-        "Zebra"
-    ],
+    options: [
+            "Ant",
+            "Bee",
+            "Duck",
+            "Zebra"
+        ],
 
-    correct: 0,
+    correctAnswer: "Ant",
 
     explanation:
         "'Ant' comes first because A comes before B, D and Z.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about making words easy to find.",
 
-    answers: [
-        "So words are easy to find",
-        "To make the book heavier",
-        "To tell stories",
-        "To group colours together"
-    ],
+    options: [
+            "So words are easy to find",
+            "To make the book heavier",
+            "To tell stories",
+            "To group colours together"
+        ],
 
-    correct: 0,
+    correctAnswer: "So words are easy to find",
 
     explanation:
         "Alphabetical order helps you find words quickly.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about alphabetical order.",
 
-    answers: [
-        "Monkey",
-        "Nose",
-        "Orange",
-        "Zebra"
-    ],
+    options: [
+            "Monkey",
+            "Nose",
+            "Orange",
+            "Zebra"
+        ],
 
-    correct: 0,
+    correctAnswer: "Monkey",
 
     explanation:
         "'Monkey' comes before 'mouse' because 'mon' comes before 'mou'.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "All the words begin with 'br'. Compare the third letter.",
 
-    answers: [
-        "Branch",
-        "Bread",
-        "Brick",
-        "Brush"
-    ],
+    options: [
+            "Branch",
+            "Bread",
+            "Brick",
+            "Brush"
+        ],
 
-    correct: 0,
+    correctAnswer: "Branch",
 
     explanation:
         "'Branch' comes first because 'bra' comes before 'bre', 'bri' and 'bru'.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "The word must fit between the guide words.",
 
-    answers: [
-        "Plane – Plant",
-        "Orange – Paper",
-        "Plate – Pocket",
-        "Queen – Rabbit"
-    ],
+    options: [
+            "Plane – Plant",
+            "Orange – Paper",
+            "Plate – Pocket",
+            "Queen – Rabbit"
+        ],
 
-    correct: 0,
+    correctAnswer: "Plane – Plant",
 
     explanation:
         "'Planet' comes after 'plane' and before 'plant'.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Compare the letters carefully.",
 
-    answers: [
-        "Smile",
-        "Smoke",
-        "Snake",
-        "Snow"
-    ],
+    options: [
+            "Smile",
+            "Smoke",
+            "Snake",
+            "Snow"
+        ],
 
-    correct: 3,
+    correctAnswer: "Snow",
 
     explanation:
         "'Snow' comes last because 'snow' comes after 'snake', 'smile' and 'smoke'.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about where words are listed alphabetically.",
 
-    answers: [
-        "Dictionary",
-        "Atlas",
-        "Cookbook",
-        "Comic"
-    ],
+    options: [
+            "Dictionary",
+            "Atlas",
+            "Cookbook",
+            "Comic"
+        ],
 
-    correct: 0,
+    correctAnswer: "Dictionary",
 
     explanation:
         "A dictionary helps you check spellings and meanings.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Look for the next word alphabetically.",
 
-    answers: [
-        "Garlic",
-        "Game",
-        "Gate",
-        "Goat"
-    ],
+    options: [
+            "Garlic",
+            "Game",
+            "Gate",
+            "Goat"
+        ],
 
-    correct: 0,
+    correctAnswer: "Garlic",
 
     explanation:
         "'Garlic' comes immediately after 'garden' because 'garl' follows 'gard'.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "The word must fit between the guide words.",
 
-    answers: [
-        "Tea – Team",
-        "Table – Tiger",
-        "Toast – Train",
-        "Umbrella – Van"
-    ],
+    options: [
+            "Tea – Team",
+            "Table – Tiger",
+            "Toast – Train",
+            "Umbrella – Van"
+        ],
 
-    correct: 0,
+    correctAnswer: "Tea – Team",
 
     explanation:
         "'Teacher' comes after 'tea' and before 'team'.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "All begin with 'tr'. Compare the next letters.",
 
-    answers: [
-        "Track",
-        "Train",
-        "Tree",
-        "Truck"
-    ],
+    options: [
+            "Track",
+            "Train",
+            "Tree",
+            "Truck"
+        ],
 
-    correct: 0,
+    correctAnswer: "Track",
 
     explanation:
         "'Track' comes first because 'tra' comes before 'tre' and 'tru'.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Look beyond the first two letters.",
 
-    answers: [
-        "Camp",
-        "Candle",
-        "Candy",
-        "Canoe"
-    ],
+    options: [
+            "Camp",
+            "Candle",
+            "Candy",
+            "Canoe"
+        ],
 
-    correct: 3,
+    correctAnswer: "Canoe",
 
     explanation:
         "'Canoe' comes last because 'cano' comes after 'cand'.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about finding words faster.",
 
-    answers: [
-        "They help you find the correct page quickly",
-        "They make the page colourful",
-        "They tell a story",
-        "They show who wrote the dictionary"
-    ],
+    options: [
+            "They help you find the correct page quickly",
+            "They make the page colourful",
+            "They tell a story",
+            "They show who wrote the dictionary"
+        ],
 
-    correct: 0,
+    correctAnswer: "They help you find the correct page quickly",
 
     explanation:
         "Guide words show the first and last words on a page, helping you find words quickly.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Look for a word that comes just before 'zebra' alphabetically.",
 
-    answers: [
-        "Zeal",
-        "Zoo",
-        "Zip",
-        "Yak"
-    ],
+    options: [
+            "Zeal",
+            "Zoo",
+            "Zip",
+            "Yak"
+        ],
 
-    correct: 0,
+    correctAnswer: "Zeal",
 
     explanation:
         "'Zeal' comes immediately before 'zebra' because 'zea' comes before 'zeb'.",

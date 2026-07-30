@@ -22,14 +22,14 @@ export default [
     hint:
         "Rearrange the letters.",
 
-    answers: [
-        "Cat",
-        "Dog",
-        "Hat",
-        "Cup"
-    ],
+    options: [
+            "Cat",
+            "Dog",
+            "Hat",
+            "Cup"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cat",
 
     explanation:
         "The letters T, A and C can be rearranged to spell CAT.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Move the letters into the correct order.",
 
-    answers: [
-        "Dog",
-        "Dig",
-        "Good",
-        "Dot"
-    ],
+    options: [
+            "Dog",
+            "Dig",
+            "Good",
+            "Dot"
+        ],
 
-    correct: 0,
+    correctAnswer: "Dog",
 
     explanation:
         "The letters G, O and D spell DOG.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "There is an animal hiding in the letters.",
 
-    answers: [
-        "Bear",
-        "Bird",
-        "Boar",
-        "Bee"
-    ],
+    options: [
+            "Bear",
+            "Bird",
+            "Boar",
+            "Bee"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bear",
 
     explanation:
         "The letters R, A, E and B can be rearranged to spell BEAR.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think of something you can step on.",
 
-    answers: [
-        "Step",
-        "Stop",
-        "Spot",
-        "Pets"
-    ],
+    options: [
+            "Step",
+            "Stop",
+            "Spot",
+            "Pets"
+        ],
 
-    correct: 0,
+    correctAnswer: "Step",
 
     explanation:
         "The letters P, E, S and T can be rearranged to spell STEP.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "It is something fruit can grow on.",
 
-    answers: [
-        "Leap",
-        "Peal",
-        "Plea",
-        "Pole"
-    ],
+    options: [
+            "Leap",
+            "Peal",
+            "Plea",
+            "Pole"
+        ],
 
-    correct: 0,
+    correctAnswer: "Leap",
 
     explanation:
         "The letters can be rearranged to spell LEAP.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "It means to begin.",
 
-    answers: [
-        "Star",
-        "Start",
-        "Arts",
-        "Stay"
-    ],
+    options: [
+            "Star",
+            "Start",
+            "Arts",
+            "Stay"
+        ],
 
-    correct: 0,
+    correctAnswer: "Star",
 
     explanation:
         "The letters R, A, T and S can be rearranged to spell STAR.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "It is something that grows in a garden.",
 
-    answers: [
-        "Wolf",
-        "Flow",
-        "Fowl",
-        "Golf"
-    ],
+    options: [
+            "Wolf",
+            "Flow",
+            "Fowl",
+            "Golf"
+        ],
 
-    correct: 1,
+    correctAnswer: "Flow",
 
     explanation:
         "The letters already spell FLOW.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think of something you can climb.",
 
-    answers: [
-        "Mile",
-        "Lime",
-        "Milk",
-        "Life"
-    ],
+    options: [
+            "Mile",
+            "Lime",
+            "Milk",
+            "Life"
+        ],
 
-    correct: 0,
+    correctAnswer: "Mile",
 
     explanation:
         "The letters L, I, M and E can be rearranged to spell MILE.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "It is a pet animal.",
 
-    answers: [
-        "Cat",
-        "Cot",
-        "Cut",
-        "Can"
-    ],
+    options: [
+            "Cat",
+            "Cot",
+            "Cut",
+            "Can"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cat",
 
     explanation:
         "The letters A, C and T can be rearranged to spell CAT.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "It is an animal with antlers.",
 
-    answers: [
-        "Deer",
-        "Read",
-        "Dare",
-        "Dear"
-    ],
+    options: [
+            "Deer",
+            "Read",
+            "Dare",
+            "Dear"
+        ],
 
-    correct: 1,
+    correctAnswer: "Read",
 
     explanation:
         "The letters D, E, A and R can be rearranged to spell READ.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Rearrange all the letters.",
 
-    answers: [
-        "Silent",
-        "Lesson",
-        "Nestle",
-        "Tinsel"
-    ],
+    options: [
+            "Silent",
+            "Lesson",
+            "Nestle",
+            "Tinsel"
+        ],
 
-    correct: 0,
+    correctAnswer: "Silent",
 
     explanation:
         "The letters in LISTEN can be rearranged to spell SILENT.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about something that can move.",
 
-    answers: [
-        "Elbow",
-        "Bowel",
-        "Below",
-        "Belows"
-    ],
+    options: [
+            "Elbow",
+            "Bowel",
+            "Below",
+            "Belows"
+        ],
 
-    correct: 0,
+    correctAnswer: "Elbow",
 
     explanation:
         "The letters B, E, L, O and W can be rearranged to spell ELBOW.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "It is another word for throwing.",
 
-    answers: [
-        "Night",
-        "Thing",
-        "Thigh",
-        "Hint"
-    ],
+    options: [
+            "Night",
+            "Thing",
+            "Thigh",
+            "Hint"
+        ],
 
-    correct: 0,
+    correctAnswer: "Night",
 
     explanation:
         "The letters can be rearranged to spell NIGHT.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "It is a container for flowers.",
 
-    answers: [
-        "Vase",
-        "Save",
-        "Wave",
-        "Seat"
-    ],
+    options: [
+            "Vase",
+            "Save",
+            "Wave",
+            "Seat"
+        ],
 
-    correct: 0,
+    correctAnswer: "Vase",
 
     explanation:
         "The letters S, A, V and E can be rearranged to spell VASE.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "It is something people race in.",
 
-    answers: [
-        "Race",
-        "Care",
-        "Acre",
-        "Cart"
-    ],
+    options: [
+            "Race",
+            "Care",
+            "Acre",
+            "Cart"
+        ],
 
-    correct: 0,
+    correctAnswer: "Race",
 
     explanation:
         "The letters C, A, R and E can be rearranged to spell RACE.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think of something you study in the past.",
 
-    answers: [
-        "Study",
-        "Dusty",
-        "Duty",
-        "Dust"
-    ],
+    options: [
+            "Study",
+            "Dusty",
+            "Duty",
+            "Dust"
+        ],
 
-    correct: 0,
+    correctAnswer: "Study",
 
     explanation:
         "The letters D, U, S, T and Y can be rearranged to spell STUDY.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "It measures how open two lines are.",
 
-    answers: [
-        "Angle",
-        "Angel",
-        "Glean",
-        "Glare"
-    ],
+    options: [
+            "Angle",
+            "Angel",
+            "Glean",
+            "Glare"
+        ],
 
-    correct: 0,
+    correctAnswer: "Angle",
 
     explanation:
         "The letters A, N, G, E and L can be rearranged to spell ANGLE.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "It means to post something.",
 
-    answers: [
-        "Lame",
-        "Mail",
-        "Meal",
-        "Male"
-    ],
+    options: [
+            "Lame",
+            "Mail",
+            "Meal",
+            "Male"
+        ],
 
-    correct: 3,
+    correctAnswer: "Male",
 
     explanation:
         "The letters M, E, A and L can be rearranged to spell MALE.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "It means to consume food.",
 
-    answers: [
-        "Seat",
-        "East",
-        "Eats",
-        "Easy"
-    ],
+    options: [
+            "Seat",
+            "East",
+            "Eats",
+            "Easy"
+        ],
 
-    correct: 2,
+    correctAnswer: "Eats",
 
     explanation:
         "The letters E, A, S and T can be rearranged to spell EATS.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "It means 'a single one'.",
 
-    answers: [
-        "Tone",
-        "Note",
-        "One",
-        "None"
-    ],
+    options: [
+            "Tone",
+            "Note",
+            "One",
+            "None"
+        ],
 
-    correct: 0,
+    correctAnswer: "Tone",
 
     explanation:
         "The letters N, O, T and E can be rearranged to spell TONE.",

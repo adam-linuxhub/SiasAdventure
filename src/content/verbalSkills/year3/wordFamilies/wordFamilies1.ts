@@ -22,14 +22,14 @@ export default [
     hint:
         "Look for a word made from the same root.",
 
-    answers: [
-        "Helpful",
-        "Happy",
-        "Heavy",
-        "Helmet"
-    ],
+    options: [
+            "Helpful",
+            "Happy",
+            "Heavy",
+            "Helmet"
+        ],
 
-    correct: 0,
+    correctAnswer: "Helpful",
 
     explanation:
         "'Help' and 'helpful' belong to the same word family.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about someone who plays.",
 
-    answers: [
-        "Player",
-        "Place",
-        "Plate",
-        "Plain"
-    ],
+    options: [
+            "Player",
+            "Place",
+            "Plate",
+            "Plain"
+        ],
 
-    correct: 0,
+    correctAnswer: "Player",
 
     explanation:
         "'Play' and 'player' belong to the same word family.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about the person who teaches.",
 
-    answers: [
-        "Teacher",
-        "Reach",
-        "Beach",
-        "Feather"
-    ],
+    options: [
+            "Teacher",
+            "Reach",
+            "Beach",
+            "Feather"
+        ],
 
-    correct: 0,
+    correctAnswer: "Teacher",
 
     explanation:
         "'Teach' and 'teacher' belong to the same word family.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about doing it again.",
 
-    answers: [
-        "Reread",
-        "Ready",
-        "Road",
-        "Readers"
-    ],
+    options: [
+            "Reread",
+            "Ready",
+            "Road",
+            "Readers"
+        ],
 
-    correct: 0,
+    correctAnswer: "Reread",
 
     explanation:
         "'Read' and 'reread' belong to the same word family.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about taking care.",
 
-    answers: [
-        "Careful",
-        "Castle",
-        "Cart",
-        "Carry"
-    ],
+    options: [
+            "Careful",
+            "Castle",
+            "Cart",
+            "Carry"
+        ],
 
-    correct: 0,
+    correctAnswer: "Careful",
 
     explanation:
         "'Care' and 'careful' belong to the same word family.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about someone showing kindness.",
 
-    answers: [
-        "Kindness",
-        "King",
-        "Kitchen",
-        "Kick"
-    ],
+    options: [
+            "Kindness",
+            "King",
+            "Kitchen",
+            "Kick"
+        ],
 
-    correct: 0,
+    correctAnswer: "Kindness",
 
     explanation:
         "'Kind' and 'kindness' belong to the same word family.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about the person who paints.",
 
-    answers: [
-        "Painter",
-        "Picture",
-        "Paper",
-        "Pattern"
-    ],
+    options: [
+            "Painter",
+            "Picture",
+            "Paper",
+            "Pattern"
+        ],
 
-    correct: 0,
+    correctAnswer: "Painter",
 
     explanation:
         "'Paint' and 'painter' belong to the same word family.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about having hope.",
 
-    answers: [
-        "Hopeful",
-        "Horse",
-        "House",
-        "Hold"
-    ],
+    options: [
+            "Hopeful",
+            "Horse",
+            "House",
+            "Hold"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hopeful",
 
     explanation:
         "'Hope' and 'hopeful' belong to the same word family.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about something that can be used.",
 
-    answers: [
-        "Useful",
-        "User",
-        "Usually",
-        "Upset"
-    ],
+    options: [
+            "Useful",
+            "User",
+            "Usually",
+            "Upset"
+        ],
 
-    correct: 0,
+    correctAnswer: "Useful",
 
     explanation:
         "'Use' and 'useful' belong to the same word family.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about someone who writes.",
 
-    answers: [
-        "Writer",
-        "Right",
-        "White",
-        "Wrist"
-    ],
+    options: [
+            "Writer",
+            "Right",
+            "White",
+            "Wrist"
+        ],
 
-    correct: 0,
+    correctAnswer: "Writer",
 
     explanation:
         "'Write' and 'writer' belong to the same word family.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about doing the action again.",
 
-    answers: [
-        "Remove",
-        "Movie",
-        "Mountain",
-        "Moment"
-    ],
+    options: [
+            "Remove",
+            "Movie",
+            "Mountain",
+            "Moment"
+        ],
 
-    correct: 0,
+    correctAnswer: "Remove",
 
     explanation:
         "'Move' and 'remove' belong to the same word family because they share the root word 'move'.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about the opposite of appearing.",
 
-    answers: [
-        "Disappear",
-        "Display",
-        "Distance",
-        "Different"
-    ],
+    options: [
+            "Disappear",
+            "Display",
+            "Distance",
+            "Different"
+        ],
 
-    correct: 0,
+    correctAnswer: "Disappear",
 
     explanation:
         "'Appear' and 'disappear' belong to the same word family.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about not agreeing.",
 
-    answers: [
-        "Disagree",
-        "Angry",
-        "Again",
-        "Across"
-    ],
+    options: [
+            "Disagree",
+            "Angry",
+            "Again",
+            "Across"
+        ],
 
-    correct: 0,
+    correctAnswer: "Disagree",
 
     explanation:
         "'Agree' and 'disagree' belong to the same word family.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about the opposite feeling.",
 
-    answers: [
-        "Unhappy",
-        "Hungry",
-        "Holiday",
-        "Helpful"
-    ],
+    options: [
+            "Unhappy",
+            "Hungry",
+            "Holiday",
+            "Helpful"
+        ],
 
-    correct: 0,
+    correctAnswer: "Unhappy",
 
     explanation:
         "'Happy' and 'unhappy' belong to the same word family.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about packing again.",
 
-    answers: [
-        "Repack",
-        "Pocket",
-        "Packet",
-        "Package"
-    ],
+    options: [
+            "Repack",
+            "Pocket",
+            "Packet",
+            "Package"
+        ],
 
-    correct: 0,
+    correctAnswer: "Repack",
 
     explanation:
         "'Pack' and 'repack' belong to the same word family.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about looking before something happens.",
 
-    answers: [
-        "Outlook",
-        "Looking",
-        "Preview",
-        "Overlook"
-    ],
+    options: [
+            "Outlook",
+            "Looking",
+            "Preview",
+            "Overlook"
+        ],
 
-    correct: 3,
+    correctAnswer: "Overlook",
 
     explanation:
         "'Look' and 'overlook' belong to the same word family because they share the root word 'look'.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about doing something again.",
 
-    answers: [
-        "Redo",
-        "Done",
-        "Doing",
-        "Door"
-    ],
+    options: [
+            "Redo",
+            "Done",
+            "Doing",
+            "Door"
+        ],
 
-    correct: 0,
+    correctAnswer: "Redo",
 
     explanation:
         "'Do' and 'redo' belong to the same word family.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about spelling incorrectly.",
 
-    answers: [
-        "Misspell",
-        "Speech",
-        "Special",
-        "Spelling"
-    ],
+    options: [
+            "Misspell",
+            "Speech",
+            "Special",
+            "Spelling"
+        ],
 
-    correct: 0,
+    correctAnswer: "Misspell",
 
     explanation:
         "'Spell' and 'misspell' belong to the same word family.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about when something cannot happen.",
 
-    answers: [
-        "Impossible",
-        "Probably",
-        "Positive",
-        "Powerful"
-    ],
+    options: [
+            "Impossible",
+            "Probably",
+            "Positive",
+            "Powerful"
+        ],
 
-    correct: 0,
+    correctAnswer: "Impossible",
 
     explanation:
         "'Possible' and 'impossible' belong to the same word family.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about the opposite meaning.",
 
-    answers: [
-        "Dishonest",
-        "Honor",
-        "Honestly",
-        "Honey"
-    ],
+    options: [
+            "Dishonest",
+            "Honor",
+            "Honestly",
+            "Honey"
+        ],
 
-    correct: 0,
+    correctAnswer: "Dishonest",
 
     explanation:
         "'Honest' and 'dishonest' belong to the same word family.",

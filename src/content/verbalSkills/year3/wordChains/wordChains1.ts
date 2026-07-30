@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about a baby dog.",
 
-    answers: [
-        "Puppy",
-        "Cub",
-        "Foal",
-        "Chick"
-    ],
+    options: [
+            "Puppy",
+            "Cub",
+            "Foal",
+            "Chick"
+        ],
 
-    correct: 0,
+    correctAnswer: "Puppy",
 
     explanation:
         "A baby dog is called a puppy.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Where do bees live?",
 
-    answers: [
-        "Hive",
-        "Tree",
-        "Burrow",
-        "Pond"
-    ],
+    options: [
+            "Hive",
+            "Tree",
+            "Burrow",
+            "Pond"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hive",
 
     explanation:
         "Bees live in a hive.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about what scissors do.",
 
-    answers: [
-        "Cut",
-        "Draw",
-        "Read",
-        "Paint"
-    ],
+    options: [
+            "Cut",
+            "Draw",
+            "Read",
+            "Paint"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cut",
 
     explanation:
         "Scissors are used to cut.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "What does a hen lay?",
 
-    answers: [
-        "Eggs",
-        "Honey",
-        "Wool",
-        "Bread"
-    ],
+    options: [
+            "Eggs",
+            "Honey",
+            "Wool",
+            "Bread"
+        ],
 
-    correct: 0,
+    correctAnswer: "Eggs",
 
     explanation:
         "Hens lay eggs.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about the colourful part of a flower.",
 
-    answers: [
-        "Petals",
-        "Shell",
-        "Fins",
-        "Fur"
-    ],
+    options: [
+            "Petals",
+            "Shell",
+            "Fins",
+            "Fur"
+        ],
 
-    correct: 0,
+    correctAnswer: "Petals",
 
     explanation:
         "Flowers have petals.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "What do you do with food?",
 
-    answers: [
-        "Eat",
-        "Kick",
-        "Throw",
-        "Build"
-    ],
+    options: [
+            "Eat",
+            "Kick",
+            "Throw",
+            "Build"
+        ],
 
-    correct: 0,
+    correctAnswer: "Eat",
 
     explanation:
         "You eat food.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Where does a boat travel?",
 
-    answers: [
-        "Water",
-        "Sky",
-        "Sand",
-        "Grass"
-    ],
+    options: [
+            "Water",
+            "Sky",
+            "Sand",
+            "Grass"
+        ],
 
-    correct: 0,
+    correctAnswer: "Water",
 
     explanation:
         "Boats travel on water.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Where does a doctor often work?",
 
-    answers: [
-        "Hospital",
-        "Library",
-        "Farm",
-        "Garage"
-    ],
+    options: [
+            "Hospital",
+            "Library",
+            "Farm",
+            "Garage"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hospital",
 
     explanation:
         "Doctors often work in hospitals.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "What can birds usually do?",
 
-    answers: [
-        "Fly",
-        "Dig",
-        "Climb",
-        "Float"
-    ],
+    options: [
+            "Fly",
+            "Dig",
+            "Climb",
+            "Float"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fly",
 
     explanation:
         "Most birds can fly.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about the weather.",
 
-    answers: [
-        "Hot",
-        "Windy",
-        "Foggy",
-        "Snowy"
-    ],
+    options: [
+            "Hot",
+            "Windy",
+            "Foggy",
+            "Snowy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hot",
 
     explanation:
         "Summer is usually hot.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about what people get from cows.",
 
-    answers: [
-        "Milk",
-        "Eggs",
-        "Honey",
-        "Silk"
-    ],
+    options: [
+            "Milk",
+            "Eggs",
+            "Honey",
+            "Silk"
+        ],
 
-    correct: 0,
+    correctAnswer: "Milk",
 
     explanation:
         "Cows produce milk, just as sheep produce wool.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "What does a password let you into?",
 
-    answers: [
-        "Account",
-        "Garden",
-        "Window",
-        "Bridge"
-    ],
+    options: [
+            "Account",
+            "Garden",
+            "Window",
+            "Bridge"
+        ],
 
-    correct: 0,
+    correctAnswer: "Account",
 
     explanation:
         "A password is used to access an account, just as a key opens a lock.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "What tool does a writer commonly use?",
 
-    answers: [
-        "Pen",
-        "Hammer",
-        "Spade",
-        "Ruler"
-    ],
+    options: [
+            "Pen",
+            "Hammer",
+            "Spade",
+            "Ruler"
+        ],
 
-    correct: 0,
+    correctAnswer: "Pen",
 
     explanation:
         "A writer uses a pen, just as a painter uses a brush.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "What does a bird build?",
 
-    answers: [
-        "Nest",
-        "Cave",
-        "Den",
-        "Hive"
-    ],
+    options: [
+            "Nest",
+            "Cave",
+            "Den",
+            "Hive"
+        ],
 
-    correct: 0,
+    correctAnswer: "Nest",
 
     explanation:
         "Birds build nests, just as spiders spin webs.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about what the ear does.",
 
-    answers: [
-        "Hear",
-        "Taste",
-        "Touch",
-        "Smell"
-    ],
+    options: [
+            "Hear",
+            "Taste",
+            "Touch",
+            "Smell"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hear",
 
     explanation:
         "Eyes see and ears hear.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about what silkworms produce.",
 
-    answers: [
-        "Silk",
-        "Cotton",
-        "Wool",
-        "Milk"
-    ],
+    options: [
+            "Silk",
+            "Cotton",
+            "Wool",
+            "Milk"
+        ],
 
-    correct: 0,
+    correctAnswer: "Silk",
 
     explanation:
         "Silkworms produce silk, just as bees produce honey.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about something a farmer grows.",
 
-    answers: [
-        "Wheat",
-        "Glass",
-        "Plastic",
-        "Paper"
-    ],
+    options: [
+            "Wheat",
+            "Glass",
+            "Plastic",
+            "Paper"
+        ],
 
-    correct: 0,
+    correctAnswer: "Wheat",
 
     explanation:
         "Farmers grow wheat, which bakers use to make bread.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about the body part birds use to fly.",
 
-    answers: [
-        "Wings",
-        "Hooves",
-        "Fins",
-        "Horns"
-    ],
+    options: [
+            "Wings",
+            "Hooves",
+            "Fins",
+            "Horns"
+        ],
 
-    correct: 0,
+    correctAnswer: "Wings",
 
     explanation:
         "Fish use gills to breathe, while birds use wings to fly.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "What does a thermometer measure?",
 
-    answers: [
-        "Temperature",
-        "Distance",
-        "Speed",
-        "Weight"
-    ],
+    options: [
+            "Temperature",
+            "Distance",
+            "Speed",
+            "Weight"
+        ],
 
-    correct: 0,
+    correctAnswer: "Temperature",
 
     explanation:
         "A clock measures time, while a thermometer measures temperature.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about what hatches from an egg.",
 
-    answers: [
-        "Chick",
-        "Leaf",
-        "Flower",
-        "Nest"
-    ],
+    options: [
+            "Chick",
+            "Leaf",
+            "Flower",
+            "Nest"
+        ],
 
-    correct: 0,
+    correctAnswer: "Chick",
 
     explanation:
         "A seed grows into a plant, and an egg can hatch into a chick.",

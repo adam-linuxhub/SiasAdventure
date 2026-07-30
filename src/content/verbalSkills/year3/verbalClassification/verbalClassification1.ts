@@ -22,14 +22,14 @@ export default [
     hint:
         "Three are fruits.",
 
-    answers: [
-        "Carrot",
-        "Apple",
-        "Banana",
-        "Pear"
-    ],
+    options: [
+            "Carrot",
+            "Apple",
+            "Banana",
+            "Pear"
+        ],
 
-    correct: 0,
+    correctAnswer: "Carrot",
 
     explanation:
         "Carrot is a vegetable. The others are fruits.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Three are common pets.",
 
-    answers: [
-        "Eagle",
-        "Dog",
-        "Cat",
-        "Rabbit"
-    ],
+    options: [
+            "Eagle",
+            "Dog",
+            "Cat",
+            "Rabbit"
+        ],
 
-    correct: 0,
+    correctAnswer: "Eagle",
 
     explanation:
         "An eagle is a bird. The others are common pets.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Three are shapes.",
 
-    answers: [
-        "Purple",
-        "Circle",
-        "Square",
-        "Triangle"
-    ],
+    options: [
+            "Purple",
+            "Circle",
+            "Square",
+            "Triangle"
+        ],
 
-    correct: 0,
+    correctAnswer: "Purple",
 
     explanation:
         "Purple is a colour. The others are shapes.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Three are days of the week.",
 
-    answers: [
-        "April",
-        "Monday",
-        "Tuesday",
-        "Friday"
-    ],
+    options: [
+            "April",
+            "Monday",
+            "Tuesday",
+            "Friday"
+        ],
 
-    correct: 0,
+    correctAnswer: "April",
 
     explanation:
         "April is a month. The others are days of the week.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Three are used for eating.",
 
-    answers: [
-        "Pillow",
-        "Fork",
-        "Spoon",
-        "Knife"
-    ],
+    options: [
+            "Pillow",
+            "Fork",
+            "Spoon",
+            "Knife"
+        ],
 
-    correct: 0,
+    correctAnswer: "Pillow",
 
     explanation:
         "A pillow is not cutlery.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Three are farm animals.",
 
-    answers: [
-        "Shark",
-        "Cow",
-        "Sheep",
-        "Horse"
-    ],
+    options: [
+            "Shark",
+            "Cow",
+            "Sheep",
+            "Horse"
+        ],
 
-    correct: 0,
+    correctAnswer: "Shark",
 
     explanation:
         "A shark lives in the sea. The others are farm animals.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Three are colours.",
 
-    answers: [
-        "Bicycle",
-        "Red",
-        "Blue",
-        "Green"
-    ],
+    options: [
+            "Bicycle",
+            "Red",
+            "Blue",
+            "Green"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bicycle",
 
     explanation:
         "A bicycle is a vehicle. The others are colours.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Three are types of transport.",
 
-    answers: [
-        "Banana",
-        "Bus",
-        "Train",
-        "Car"
-    ],
+    options: [
+            "Banana",
+            "Bus",
+            "Train",
+            "Car"
+        ],
 
-    correct: 0,
+    correctAnswer: "Banana",
 
     explanation:
         "Banana is a fruit. The others are vehicles.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Three are birds.",
 
-    answers: [
-        "Rose",
-        "Robin",
-        "Sparrow",
-        "Eagle"
-    ],
+    options: [
+            "Rose",
+            "Robin",
+            "Sparrow",
+            "Eagle"
+        ],
 
-    correct: 0,
+    correctAnswer: "Rose",
 
     explanation:
         "Rose is a flower. The others are birds.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Three are tools.",
 
-    answers: [
-        "Apple",
-        "Hammer",
-        "Saw",
-        "Spanner"
-    ],
+    options: [
+            "Apple",
+            "Hammer",
+            "Saw",
+            "Spanner"
+        ],
 
-    correct: 0,
+    correctAnswer: "Apple",
 
     explanation:
         "Apple is a fruit. The others are tools.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Three are mammals.",
 
-    answers: [
-        "Shark",
-        "Whale",
-        "Dolphin",
-        "Seal"
-    ],
+    options: [
+            "Shark",
+            "Whale",
+            "Dolphin",
+            "Seal"
+        ],
 
-    correct: 0,
+    correctAnswer: "Shark",
 
     explanation:
         "A shark is a fish. Whales, dolphins and seals are mammals.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Three are metals.",
 
-    answers: [
-        "Wood",
-        "Copper",
-        "Gold",
-        "Silver"
-    ],
+    options: [
+            "Wood",
+            "Copper",
+            "Gold",
+            "Silver"
+        ],
 
-    correct: 0,
+    correctAnswer: "Wood",
 
     explanation:
         "Wood is not a metal. Copper, gold and silver are metals.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Three are musical instruments.",
 
-    answers: [
-        "Television",
-        "Piano",
-        "Guitar",
-        "Violin"
-    ],
+    options: [
+            "Television",
+            "Piano",
+            "Guitar",
+            "Violin"
+        ],
 
-    correct: 0,
+    correctAnswer: "Television",
 
     explanation:
         "A television is not a musical instrument.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Three are flowers.",
 
-    answers: [
-        "Oak",
-        "Rose",
-        "Tulip",
-        "Daisy"
-    ],
+    options: [
+            "Oak",
+            "Rose",
+            "Tulip",
+            "Daisy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Oak",
 
     explanation:
         "An oak is a tree. The others are flowers.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Three are shapes.",
 
-    answers: [
-        "Banana",
-        "Circle",
-        "Pentagon",
-        "Hexagon"
-    ],
+    options: [
+            "Banana",
+            "Circle",
+            "Pentagon",
+            "Hexagon"
+        ],
 
-    correct: 0,
+    correctAnswer: "Banana",
 
     explanation:
         "Banana is a fruit. The others are shapes.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Three are seasons.",
 
-    answers: [
-        "Tuesday",
-        "Spring",
-        "Summer",
-        "Winter"
-    ],
+    options: [
+            "Tuesday",
+            "Spring",
+            "Summer",
+            "Winter"
+        ],
 
-    correct: 0,
+    correctAnswer: "Tuesday",
 
     explanation:
         "Tuesday is a day of the week. The others are seasons.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Three are garden tools.",
 
-    answers: [
-        "Cabbage",
-        "Hammer",
-        "Spade",
-        "Rake"
-    ],
+    options: [
+            "Cabbage",
+            "Hammer",
+            "Spade",
+            "Rake"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cabbage",
 
     explanation:
         "Cabbage is a vegetable. The others are tools.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Three are birds.",
 
-    answers: [
-        "Elephant",
-        "Robin",
-        "Penguin",
-        "Sparrow"
-    ],
+    options: [
+            "Elephant",
+            "Robin",
+            "Penguin",
+            "Sparrow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Elephant",
 
     explanation:
         "An elephant is a mammal. The others are birds.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Three are foods made from grains.",
 
-    answers: [
-        "Carrot",
-        "Bread",
-        "Rice",
-        "Pasta"
-    ],
+    options: [
+            "Carrot",
+            "Bread",
+            "Rice",
+            "Pasta"
+        ],
 
-    correct: 0,
+    correctAnswer: "Carrot",
 
     explanation:
         "Carrot is a vegetable. Bread, rice and pasta are grain-based foods.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Three are people.",
 
-    answers: [
-        "Hospital",
-        "Doctor",
-        "Nurse",
-        "Teacher"
-    ],
+    options: [
+            "Hospital",
+            "Doctor",
+            "Nurse",
+            "Teacher"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hospital",
 
     explanation:
         "A hospital is a place. The others are occupations.",

@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about the stages of growing up.",
 
-    answers: [
-        "Adult",
-        "Teacher",
-        "Parent",
-        "Friend"
-    ],
+    options: [
+            "Adult",
+            "Teacher",
+            "Parent",
+            "Friend"
+        ],
 
-    correct: 0,
+    correctAnswer: "Adult",
 
     explanation:
         "People grow from baby to toddler to child to adult.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about what flowers can produce.",
 
-    answers: [
-        "Fruit",
-        "Leaf",
-        "Soil",
-        "Root"
-    ],
+    options: [
+            "Fruit",
+            "Leaf",
+            "Soil",
+            "Root"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fruit",
 
     explanation:
         "Many flowering plants produce fruit after flowering.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about the days of the week.",
 
-    answers: [
-        "Thursday",
-        "Friday",
-        "Sunday",
-        "Saturday"
-    ],
+    options: [
+            "Thursday",
+            "Friday",
+            "Sunday",
+            "Saturday"
+        ],
 
-    correct: 0,
+    correctAnswer: "Thursday",
 
     explanation:
         "Thursday comes after Wednesday.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about the four seasons.",
 
-    answers: [
-        "Winter",
-        "Spring",
-        "June",
-        "Rain"
-    ],
+    options: [
+            "Winter",
+            "Spring",
+            "June",
+            "Rain"
+        ],
 
-    correct: 0,
+    correctAnswer: "Winter",
 
     explanation:
         "Winter follows autumn.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about meals during the day.",
 
-    answers: [
-        "Dinner",
-        "Snack",
-        "Supper",
-        "Dessert"
-    ],
+    options: [
+            "Dinner",
+            "Snack",
+            "Supper",
+            "Dessert"
+        ],
 
-    correct: 0,
+    correctAnswer: "Dinner",
 
     explanation:
         "Dinner is the next main meal after lunch.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about the life cycle of a butterfly.",
 
-    answers: [
-        "Butterfly",
-        "Bee",
-        "Spider",
-        "Bird"
-    ],
+    options: [
+            "Butterfly",
+            "Bee",
+            "Spider",
+            "Bird"
+        ],
 
-    correct: 0,
+    correctAnswer: "Butterfly",
 
     explanation:
         "A butterfly develops after the chrysalis stage.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about doing the laundry.",
 
-    answers: [
-        "Put away",
-        "Iron",
-        "Wear",
-        "Buy"
-    ],
+    options: [
+            "Put away",
+            "Iron",
+            "Wear",
+            "Buy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Put away",
 
     explanation:
         "After folding clothes, you usually put them away.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about making a cake.",
 
-    answers: [
-        "Eat",
-        "Freeze",
-        "Wash",
-        "Grow"
-    ],
+    options: [
+            "Eat",
+            "Freeze",
+            "Wash",
+            "Grow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Eat",
 
     explanation:
         "After a cake cools, it is ready to eat.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about what happens during the school day.",
 
-    answers: [
-        "Learn",
-        "Go to bed",
-        "Eat breakfast",
-        "Wake up"
-    ],
+    options: [
+            "Learn",
+            "Go to bed",
+            "Eat breakfast",
+            "Wake up"
+        ],
 
-    correct: 0,
+    correctAnswer: "Learn",
 
     explanation:
         "After arriving at school, you begin learning.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about what happens after it rains.",
 
-    answers: [
-        "Dry ground",
-        "Snow",
-        "Sunrise",
-        "Wind"
-    ],
+    options: [
+            "Dry ground",
+            "Snow",
+            "Sunrise",
+            "Wind"
+        ],
 
-    correct: 0,
+    correctAnswer: "Dry ground",
 
     explanation:
         "As the weather improves, puddles dry and the ground becomes dry again.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about the next stage of life.",
 
-    answers: [
-        "Adult",
-        "Baby",
-        "Grandparent",
-        "Teacher"
-    ],
+    options: [
+            "Adult",
+            "Baby",
+            "Grandparent",
+            "Teacher"
+        ],
 
-    correct: 0,
+    correctAnswer: "Adult",
 
     explanation:
         "The usual life stages are infant, child, teenager and adult.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about cooking an omelette.",
 
-    answers: [
-        "Cook",
-        "Freeze",
-        "Wash",
-        "Plant"
-    ],
+    options: [
+            "Cook",
+            "Freeze",
+            "Wash",
+            "Plant"
+        ],
 
-    correct: 0,
+    correctAnswer: "Cook",
 
     explanation:
         "After pouring the mixture into the pan, you cook it.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about building longer pieces of writing.",
 
-    answers: [
-        "Paragraph",
-        "Book",
-        "Page",
-        "Story"
-    ],
+    options: [
+            "Paragraph",
+            "Book",
+            "Page",
+            "Story"
+        ],
 
-    correct: 0,
+    correctAnswer: "Paragraph",
 
     explanation:
         "Letters make words, words make sentences, and sentences make paragraphs.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about what happens after becoming an adult.",
 
-    answers: [
-        "Old Dog",
-        "Puppy",
-        "Cat",
-        "Wolf"
-    ],
+    options: [
+            "Old Dog",
+            "Puppy",
+            "Cat",
+            "Wolf"
+        ],
 
-    correct: 0,
+    correctAnswer: "Old Dog",
 
     explanation:
         "An old dog comes after an adult dog.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about helping a plant grow.",
 
-    answers: [
-        "Grow",
-        "Cut",
-        "Throw",
-        "Hide"
-    ],
+    options: [
+            "Grow",
+            "Cut",
+            "Throw",
+            "Hide"
+        ],
 
-    correct: 0,
+    correctAnswer: "Grow",
 
     explanation:
         "After planting and watering, the plant grows.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about what you do during the journey.",
 
-    answers: [
-        "Travel",
-        "Go home",
-        "Buy a ticket",
-        "Leave the queue"
-    ],
+    options: [
+            "Travel",
+            "Go home",
+            "Buy a ticket",
+            "Leave the queue"
+        ],
 
-    correct: 0,
+    correctAnswer: "Travel",
 
     explanation:
         "After finding a seat, you travel on the bus.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about what happens when the picture is finished.",
 
-    answers: [
-        "Let it dry",
-        "Mix more paint",
-        "Wash the paper",
-        "Throw it away"
-    ],
+    options: [
+            "Let it dry",
+            "Mix more paint",
+            "Wash the paper",
+            "Throw it away"
+        ],
 
-    correct: 0,
+    correctAnswer: "Let it dry",
 
     explanation:
         "After painting, you let the picture dry.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about the times of day.",
 
-    answers: [
-        "Night",
-        "Breakfast",
-        "Sunshine",
-        "Midday"
-    ],
+    options: [
+            "Night",
+            "Breakfast",
+            "Sunshine",
+            "Midday"
+        ],
 
-    correct: 0,
+    correctAnswer: "Night",
 
     explanation:
         "Night follows the evening.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about what happens when everyone has finished eating.",
 
-    answers: [
-        "Wash up",
-        "Go shopping",
-        "Plant vegetables",
-        "Serve the meal"
-    ],
+    options: [
+            "Wash up",
+            "Go shopping",
+            "Plant vegetables",
+            "Serve the meal"
+        ],
 
-    correct: 0,
+    correctAnswer: "Wash up",
 
     explanation:
         "After eating, the dishes are usually washed up.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "What usually happens after you've answered?",
 
-    answers: [
-        "Check",
-        "Sleep",
-        "Erase",
-        "Forget"
-    ],
+    options: [
+            "Check",
+            "Sleep",
+            "Erase",
+            "Forget"
+        ],
 
-    correct: 0,
+    correctAnswer: "Check",
 
     explanation:
         "After answering a question, it is sensible to check your answer.",

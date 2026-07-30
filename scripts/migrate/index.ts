@@ -11,7 +11,7 @@ async function main() {
     const migrations = [
         new AnswerToCorrectAnswerMigration(),
         new AddSkillIdMigration(),
-        new AddStageMigration()
+        new AddStageMigration(),
     ];
 
     for (const migration of migrations) {

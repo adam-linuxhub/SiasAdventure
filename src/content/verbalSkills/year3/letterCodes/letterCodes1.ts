@@ -22,14 +22,14 @@ export default [
     hint:
         "Count through the alphabet.",
 
-    answers: [
-        "4",
-        "3",
-        "5",
-        "6"
-    ],
+    options: [
+            "4",
+            "3",
+            "5",
+            "6"
+        ],
 
-    correct: 0,
+    correctAnswer: "4",
 
     explanation:
         "D is the 4th letter of the alphabet.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Count to the fifth letter.",
 
-    answers: [
-        "E",
-        "D",
-        "F",
-        "G"
-    ],
+    options: [
+            "E",
+            "D",
+            "F",
+            "G"
+        ],
 
-    correct: 0,
+    correctAnswer: "E",
 
     explanation:
         "The 5th letter of the alphabet is E.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Count carefully through the alphabet.",
 
-    answers: [
-        "7",
-        "6",
-        "8",
-        "9"
-    ],
+    options: [
+            "7",
+            "6",
+            "8",
+            "9"
+        ],
 
-    correct: 0,
+    correctAnswer: "7",
 
     explanation:
         "G is the 7th letter of the alphabet.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Count to the tenth letter.",
 
-    answers: [
-        "J",
-        "I",
-        "K",
-        "L"
-    ],
+    options: [
+            "J",
+            "I",
+            "K",
+            "L"
+        ],
 
-    correct: 0,
+    correctAnswer: "J",
 
     explanation:
         "J is the 10th letter of the alphabet.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "M is in the middle of the alphabet.",
 
-    answers: [
-        "13",
-        "12",
-        "14",
-        "15"
-    ],
+    options: [
+            "13",
+            "12",
+            "14",
+            "15"
+        ],
 
-    correct: 0,
+    correctAnswer: "13",
 
     explanation:
         "M is the 13th letter of the alphabet.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "It comes after A.",
 
-    answers: [
-        "B",
-        "C",
-        "D",
-        "E"
-    ],
+    options: [
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
 
-    correct: 0,
+    correctAnswer: "B",
 
     explanation:
         "B is the 2nd letter of the alphabet.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "It is the last letter of the alphabet.",
 
-    answers: [
-        "26",
-        "25",
-        "24",
-        "27"
-    ],
+    options: [
+            "26",
+            "25",
+            "24",
+            "27"
+        ],
 
-    correct: 0,
+    correctAnswer: "26",
 
     explanation:
         "Z is the 26th letter of the alphabet.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Count to the eighteenth letter.",
 
-    answers: [
-        "R",
-        "Q",
-        "S",
-        "P"
-    ],
+    options: [
+            "R",
+            "Q",
+            "S",
+            "P"
+        ],
 
-    correct: 0,
+    correctAnswer: "R",
 
     explanation:
         "R is the 18th letter of the alphabet.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Count from A.",
 
-    answers: [
-        "6",
-        "5",
-        "7",
-        "8"
-    ],
+    options: [
+            "6",
+            "5",
+            "7",
+            "8"
+        ],
 
-    correct: 0,
+    correctAnswer: "6",
 
     explanation:
         "F is the 6th letter of the alphabet.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "It comes after N.",
 
-    answers: [
-        "O",
-        "N",
-        "P",
-        "Q"
-    ],
+    options: [
+            "O",
+            "N",
+            "P",
+            "Q"
+        ],
 
-    correct: 0,
+    correctAnswer: "O",
 
     explanation:
         "O is the 15th letter of the alphabet.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Change each number into a letter.",
 
-    answers: [
-        "CAT",
-        "CAR",
-        "CAP",
-        "CAN"
-    ],
+    options: [
+            "CAT",
+            "CAR",
+            "CAP",
+            "CAN"
+        ],
 
-    correct: 0,
+    correctAnswer: "CAT",
 
     explanation:
         "3 = C, 1 = A and 20 = T, so the word is CAT.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Convert each number to a letter.",
 
-    answers: [
-        "DOG",
-        "DIG",
-        "DOT",
-        "LOG"
-    ],
+    options: [
+            "DOG",
+            "DIG",
+            "DOT",
+            "LOG"
+        ],
 
-    correct: 0,
+    correctAnswer: "DOG",
 
     explanation:
         "4 = D, 15 = O and 7 = G, so the word is DOG.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Work out each letter's position.",
 
-    answers: [
-        "19-21-14",
-        "18-21-14",
-        "19-20-14",
-        "19-21-15"
-    ],
+    options: [
+            "19-21-14",
+            "18-21-14",
+            "19-20-14",
+            "19-21-15"
+        ],
 
-    correct: 0,
+    correctAnswer: "19-21-14",
 
     explanation:
         "S = 19, U = 21 and N = 14.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Read each letter in order.",
 
-    answers: [
-        "BUG",
-        "BIG",
-        "BAG",
-        "BUS"
-    ],
+    options: [
+            "BUG",
+            "BIG",
+            "BAG",
+            "BUS"
+        ],
 
-    correct: 0,
+    correctAnswer: "BUG",
 
     explanation:
         "2 = B, 21 = U and 7 = G, giving BUG.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Find the position of each letter.",
 
-    answers: [
-        "16-5-14",
-        "15-5-14",
-        "16-6-14",
-        "16-5-13"
-    ],
+    options: [
+            "16-5-14",
+            "15-5-14",
+            "16-6-14",
+            "16-5-13"
+        ],
 
-    correct: 0,
+    correctAnswer: "16-5-14",
 
     explanation:
         "P = 16, E = 5 and N = 14.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Turn the numbers into letters.",
 
-    answers: [
-        "HEN",
-        "TEN",
-        "HEM",
-        "HER"
-    ],
+    options: [
+            "HEN",
+            "TEN",
+            "HEM",
+            "HER"
+        ],
 
-    correct: 0,
+    correctAnswer: "HEN",
 
     explanation:
         "8 = H, 5 = E and 14 = N, so the word is HEN.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Write each letter as its alphabet number.",
 
-    answers: [
-        "13-1-16",
-        "12-1-16",
-        "13-2-16",
-        "13-1-15"
-    ],
+    options: [
+            "13-1-16",
+            "12-1-16",
+            "13-2-16",
+            "13-1-15"
+        ],
 
-    correct: 0,
+    correctAnswer: "13-1-16",
 
     explanation:
         "M = 13, A = 1 and P = 16.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Read the letters carefully.",
 
-    answers: [
-        "SHIP",
-        "SHOP",
-        "STOP",
-        "SLIP"
-    ],
+    options: [
+            "SHIP",
+            "SHOP",
+            "STOP",
+            "SLIP"
+        ],
 
-    correct: 0,
+    correctAnswer: "SHIP",
 
     explanation:
         "19 = S, 8 = H, 9 = I and 16 = P, spelling SHIP.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Remember that the same letter has the same number.",
 
-    answers: [
-        "2-15-15-11",
-        "2-15-14-11",
-        "2-14-15-11",
-        "2-15-15-10"
-    ],
+    options: [
+            "2-15-15-11",
+            "2-15-14-11",
+            "2-14-15-11",
+            "2-15-15-10"
+        ],
 
-    correct: 0,
+    correctAnswer: "2-15-15-11",
 
     explanation:
         "B = 2, O = 15, O = 15 and K = 11.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Convert each number into its letter.",
 
-    answers: [
-        "TREE",
-        "FREE",
-        "THREE",
-        "TREES"
-    ],
+    options: [
+            "TREE",
+            "FREE",
+            "THREE",
+            "TREES"
+        ],
 
-    correct: 0,
+    correctAnswer: "TREE",
 
     explanation:
         "20 = T, 18 = R, 5 = E and 5 = E, spelling TREE.",

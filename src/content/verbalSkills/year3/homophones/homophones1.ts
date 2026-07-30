@@ -22,14 +22,14 @@ export default [
     hint:
         "Choose the word about listening.",
 
-    answers: [
-        "hear",
-        "here",
-        "hare",
-        "hair"
-    ],
+    options: [
+            "hear",
+            "here",
+            "hare",
+            "hair"
+        ],
 
-    correct: 0,
+    correctAnswer: "hear",
 
     explanation:
         "'Hear' means to listen with your ears. 'Here' means this place.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Choose the word that means 'to this place'.",
 
-    answers: [
-        "here",
-        "hear",
-        "hare",
-        "hair"
-    ],
+    options: [
+            "here",
+            "hear",
+            "hare",
+            "hair"
+        ],
 
-    correct: 0,
+    correctAnswer: "here",
 
     explanation:
         "'Here' means this place.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Choose the word showing ownership.",
 
-    answers: [
-        "Their",
-        "There",
-        "They're",
-        "Them"
-    ],
+    options: [
+            "Their",
+            "There",
+            "They're",
+            "Them"
+        ],
 
-    correct: 0,
+    correctAnswer: "Their",
 
     explanation:
         "'Their' shows something belongs to someone.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Choose the word meaning 'in that place'.",
 
-    answers: [
-        "there",
-        "their",
-        "they're",
-        "them"
-    ],
+    options: [
+            "there",
+            "their",
+            "they're",
+            "them"
+        ],
 
-    correct: 0,
+    correctAnswer: "there",
 
     explanation:
         "'There' means in or at that place.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Choose the short form of 'they are'.",
 
-    answers: [
-        "They're",
-        "Their",
-        "There",
-        "Them"
-    ],
+    options: [
+            "They're",
+            "Their",
+            "There",
+            "Them"
+        ],
 
-    correct: 0,
+    correctAnswer: "They're",
 
     explanation:
         "'They're' is short for 'they are'.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Choose the word about age.",
 
-    answers: [
-        "am",
-        "ham",
-        "arm",
-        "aim"
-    ],
+    options: [
+            "am",
+            "ham",
+            "arm",
+            "aim"
+        ],
 
-    correct: 0,
+    correctAnswer: "am",
 
     explanation:
         "'Am' is the correct verb in the sentence.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Choose the word meaning the upper part.",
 
-    answers: [
-        "top",
-        "tope",
-        "tap",
-        "tip"
-    ],
+    options: [
+            "top",
+            "tope",
+            "tap",
+            "tip"
+        ],
 
-    correct: 0,
+    correctAnswer: "top",
 
     explanation:
         "'Top' means the highest part of something.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Choose the colour.",
 
-    answers: [
-        "white",
-        "right",
-        "write",
-        "wait"
-    ],
+    options: [
+            "white",
+            "right",
+            "write",
+            "wait"
+        ],
 
-    correct: 0,
+    correctAnswer: "white",
 
     explanation:
         "'White' is the colour of the horse.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Choose the word about putting words on paper.",
 
-    answers: [
-        "write",
-        "right",
-        "white",
-        "wait"
-    ],
+    options: [
+            "write",
+            "right",
+            "white",
+            "wait"
+        ],
 
-    correct: 0,
+    correctAnswer: "write",
 
     explanation:
         "'Write' means to put words on paper.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Choose the direction.",
 
-    answers: [
-        "right",
-        "write",
-        "white",
-        "rite"
-    ],
+    options: [
+            "right",
+            "write",
+            "white",
+            "rite"
+        ],
 
-    correct: 0,
+    correctAnswer: "right",
 
     explanation:
         "'Right' is the correct direction.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Choose the word meaning pleasant.",
 
-    answers: [
-        "sweet",
-        "suite",
-        "sweat",
-        "seat"
-    ],
+    options: [
+            "sweet",
+            "suite",
+            "sweat",
+            "seat"
+        ],
 
-    correct: 0,
+    correctAnswer: "sweet",
 
     explanation:
         "'Sweet' means having a pleasant smell or taste. 'Suite' is a set of rooms.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Choose the word meaning to look at written words.",
 
-    answers: [
-        "read",
-        "reed",
-        "red",
-        "road"
-    ],
+    options: [
+            "read",
+            "reed",
+            "red",
+            "road"
+        ],
 
-    correct: 0,
+    correctAnswer: "read",
 
     explanation:
         "'Read' means to look at and understand written words. 'Reed' is a tall plant.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Choose the word for a large area of salt water.",
 
-    answers: [
-        "sea",
-        "see",
-        "sew",
-        "say"
-    ],
+    options: [
+            "sea",
+            "see",
+            "sew",
+            "say"
+        ],
 
-    correct: 0,
+    correctAnswer: "sea",
 
     explanation:
         "'Sea' is a large body of salt water. 'See' means to use your eyes.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Choose the word about using your eyes.",
 
-    answers: [
-        "see",
-        "sea",
-        "sew",
-        "say"
-    ],
+    options: [
+            "see",
+            "sea",
+            "sew",
+            "say"
+        ],
 
-    correct: 0,
+    correctAnswer: "see",
 
     explanation:
         "'See' means to use your eyes. 'Sea' is a large body of water.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Choose the past tense of 'blow'.",
 
-    answers: [
-        "blew",
-        "blue",
-        "blow",
-        "bloom"
-    ],
+    options: [
+            "blew",
+            "blue",
+            "blow",
+            "bloom"
+        ],
 
-    correct: 0,
+    correctAnswer: "blew",
 
     explanation:
         "'Blew' is the past tense of 'blow'. 'Blue' is a colour.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Choose the word about using a needle and thread.",
 
-    answers: [
-        "sew",
-        "so",
-        "sow",
-        "sue"
-    ],
+    options: [
+            "sew",
+            "so",
+            "sow",
+            "sue"
+        ],
 
-    correct: 0,
+    correctAnswer: "sew",
 
     explanation:
         "'Sew' means to join fabric with a needle and thread.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Choose the number.",
 
-    answers: [
-        "four",
-        "for",
-        "fore",
-        "forth"
-    ],
+    options: [
+            "four",
+            "for",
+            "fore",
+            "forth"
+        ],
 
-    correct: 0,
+    correctAnswer: "four",
 
     explanation:
         "'Four' is the number. 'For' means intended for someone or something.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Choose the word showing who receives something.",
 
-    answers: [
-        "for",
-        "four",
-        "fore",
-        "forth"
-    ],
+    options: [
+            "for",
+            "four",
+            "fore",
+            "forth"
+        ],
 
-    correct: 0,
+    correctAnswer: "for",
 
     explanation:
         "'For' shows who something is intended for. 'Four' is the number.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Choose the dried grass.",
 
-    answers: [
-        "hay",
-        "hey",
-        "he",
-        "high"
-    ],
+    options: [
+            "hay",
+            "hey",
+            "he",
+            "high"
+        ],
 
-    correct: 0,
+    correctAnswer: "hay",
 
     explanation:
         "'Hay' is dried grass eaten by animals. 'Hey' is used to get someone's attention.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Choose the word used to call someone's attention.",
 
-    answers: [
-        "Hey",
-        "Hay",
-        "High",
-        "He"
-    ],
+    options: [
+            "Hey",
+            "Hay",
+            "High",
+            "He"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hey",
 
     explanation:
         "'Hey' is used to attract someone's attention. 'Hay' is dried grass.",

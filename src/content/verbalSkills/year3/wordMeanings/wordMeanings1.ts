@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about how quickly something happens.",
 
-    answers: [
-        "Fast",
-        "Slow",
-        "Heavy",
-        "Quiet"
-    ],
+    options: [
+            "Fast",
+            "Slow",
+            "Heavy",
+            "Quiet"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fast",
 
     explanation:
         "'Rapid' means fast or quick.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about something from a long time ago.",
 
-    answers: [
-        "Very old",
-        "Very new",
-        "Very small",
-        "Very noisy"
-    ],
+    options: [
+            "Very old",
+            "Very new",
+            "Very small",
+            "Very noisy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Very old",
 
     explanation:
         "'Ancient' means very old.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about shopping.",
 
-    answers: [
-        "Buy",
-        "Sell",
-        "Throw away",
-        "Lose"
-    ],
+    options: [
+            "Buy",
+            "Sell",
+            "Throw away",
+            "Lose"
+        ],
 
-    correct: 0,
+    correctAnswer: "Buy",
 
     explanation:
         "'Purchase' means to buy something.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about a glass ornament.",
 
-    answers: [
-        "Easy to break",
-        "Very strong",
-        "Very heavy",
-        "Very expensive"
-    ],
+    options: [
+            "Easy to break",
+            "Very strong",
+            "Very heavy",
+            "Very expensive"
+        ],
 
-    correct: 0,
+    correctAnswer: "Easy to break",
 
     explanation:
         "'Fragile' means something can break easily.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about helping someone.",
 
-    answers: [
-        "Help",
-        "Hide",
-        "Refuse",
-        "Escape"
-    ],
+    options: [
+            "Help",
+            "Hide",
+            "Refuse",
+            "Escape"
+        ],
 
-    correct: 0,
+    correctAnswer: "Help",
 
     explanation:
         "'Assist' means to help.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about avoiding danger.",
 
-    answers: [
-        "Careful",
-        "Careless",
-        "Excited",
-        "Hungry"
-    ],
+    options: [
+            "Careful",
+            "Careless",
+            "Excited",
+            "Hungry"
+        ],
 
-    correct: 0,
+    correctAnswer: "Careful",
 
     explanation:
         "'Cautious' means careful.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about using your eyes carefully.",
 
-    answers: [
-        "Watch",
-        "Forget",
-        "Break",
-        "Carry"
-    ],
+    options: [
+            "Watch",
+            "Forget",
+            "Break",
+            "Carry"
+        ],
 
-    correct: 0,
+    correctAnswer: "Watch",
 
     explanation:
         "'Observe' means to watch carefully.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about sharing with others.",
 
-    answers: [
-        "Kind and willing to share",
-        "Mean",
-        "Lazy",
-        "Untidy"
-    ],
+    options: [
+            "Kind and willing to share",
+            "Mean",
+            "Lazy",
+            "Untidy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Kind and willing to share",
 
     explanation:
         "A generous person likes to share with others.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about answering someone.",
 
-    answers: [
-        "Answer",
-        "Question",
-        "Hide",
-        "Ignore"
-    ],
+    options: [
+            "Answer",
+            "Question",
+            "Hide",
+            "Ignore"
+        ],
 
-    correct: 0,
+    correctAnswer: "Answer",
 
     explanation:
         "'Reply' means to answer.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about travelling.",
 
-    answers: [
-        "A trip",
-        "A meal",
-        "A game",
-        "A lesson"
-    ],
+    options: [
+            "A trip",
+            "A meal",
+            "A game",
+            "A lesson"
+        ],
 
-    correct: 0,
+    correctAnswer: "A trip",
 
     explanation:
         "A journey is a trip from one place to another.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about how you feel before falling asleep.",
 
-    answers: [
-        "Sleepy",
-        "Hungry",
-        "Excited",
-        "Busy"
-    ],
+    options: [
+            "Sleepy",
+            "Hungry",
+            "Excited",
+            "Busy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sleepy",
 
     explanation:
         "'Drowsy' means sleepy or ready to sleep.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about having good luck.",
 
-    answers: [
-        "Lucky",
-        "Poor",
-        "Angry",
-        "Lonely"
-    ],
+    options: [
+            "Lucky",
+            "Poor",
+            "Angry",
+            "Lonely"
+        ],
 
-    correct: 0,
+    correctAnswer: "Lucky",
 
     explanation:
         "'Fortunate' means lucky.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about something much bigger than usual.",
 
-    answers: [
-        "Very large",
-        "Very small",
-        "Very short",
-        "Very quiet"
-    ],
+    options: [
+            "Very large",
+            "Very small",
+            "Very short",
+            "Very quiet"
+        ],
 
-    correct: 0,
+    correctAnswer: "Very large",
 
     explanation:
         "'Enormous' means extremely large.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about whether you can see it.",
 
-    answers: [
-        "Able to be seen",
-        "Hidden away",
-        "Very heavy",
-        "Very old"
-    ],
+    options: [
+            "Able to be seen",
+            "Hidden away",
+            "Very heavy",
+            "Very old"
+        ],
 
-    correct: 0,
+    correctAnswer: "Able to be seen",
 
     explanation:
         "'Visible' means able to be seen.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about catching something.",
 
-    answers: [
-        "Catch",
-        "Release",
-        "Drop",
-        "Forget"
-    ],
+    options: [
+            "Catch",
+            "Release",
+            "Drop",
+            "Forget"
+        ],
 
-    correct: 0,
+    correctAnswer: "Catch",
 
     explanation:
         "'Capture' means to catch or take control of something.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about something from long ago.",
 
-    answers: [
-        "Very old",
-        "Brand new",
-        "Very fast",
-        "Very loud"
-    ],
+    options: [
+            "Very old",
+            "Brand new",
+            "Very fast",
+            "Very loud"
+        ],
 
-    correct: 0,
+    correctAnswer: "Very old",
 
     explanation:
         "'Ancient' describes something that is very old.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about waiting calmly.",
 
-    answers: [
-        "Able to wait calmly",
-        "Always shouting",
-        "Very sleepy",
-        "Always rushing"
-    ],
+    options: [
+            "Able to wait calmly",
+            "Always shouting",
+            "Very sleepy",
+            "Always rushing"
+        ],
 
-    correct: 0,
+    correctAnswer: "Able to wait calmly",
 
     explanation:
         "A patient person stays calm while waiting.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about adding something to a group.",
 
-    answers: [
-        "Contain",
-        "Remove",
-        "Hide",
-        "Throw away"
-    ],
+    options: [
+            "Contain",
+            "Remove",
+            "Hide",
+            "Throw away"
+        ],
 
-    correct: 0,
+    correctAnswer: "Contain",
 
     explanation:
         "'Include' means to contain or have as part of a group.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about speed.",
 
-    answers: [
-        "Fast",
-        "Slow",
-        "Careful",
-        "Heavy"
-    ],
+    options: [
+            "Fast",
+            "Slow",
+            "Careful",
+            "Heavy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Fast",
 
     explanation:
         "'Swift' means fast or quick.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about not wanting to do something.",
 
-    answers: [
-        "Unwilling",
-        "Excited",
-        "Helpful",
-        "Confident"
-    ],
+    options: [
+            "Unwilling",
+            "Excited",
+            "Helpful",
+            "Confident"
+        ],
 
-    correct: 0,
+    correctAnswer: "Unwilling",
 
     explanation:
         "'Reluctant' means unwilling or not eager to do something.",

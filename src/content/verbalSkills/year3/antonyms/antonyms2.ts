@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about a cup with something inside.",
 
-    answers: [
-        "Full",
-        "Wide",
-        "Tall",
-        "Clean"
-    ],
+    options: [
+            "Full",
+            "Wide",
+            "Tall",
+            "Clean"
+        ],
 
-    correct: 0,
+    correctAnswer: "Full",
 
     explanation:
         "Full is the opposite of empty.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Think about arriving after the expected time.",
 
-    answers: [
-        "Late",
-        "Quick",
-        "Near",
-        "First"
-    ],
+    options: [
+            "Late",
+            "Quick",
+            "Near",
+            "First"
+        ],
 
-    correct: 0,
+    correctAnswer: "Late",
 
     explanation:
         "Late is the opposite of early.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about a pillow.",
 
-    answers: [
-        "Soft",
-        "Heavy",
-        "Sharp",
-        "Strong"
-    ],
+    options: [
+            "Soft",
+            "Heavy",
+            "Sharp",
+            "Strong"
+        ],
 
-    correct: 0,
+    correctAnswer: "Soft",
 
     explanation:
         "Soft is the opposite of hard.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Think about moving without rushing.",
 
-    answers: [
-        "Slow",
-        "Quick",
-        "Rapid",
-        "Speedy"
-    ],
+    options: [
+            "Slow",
+            "Quick",
+            "Rapid",
+            "Speedy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Slow",
 
     explanation:
         "Slow is the opposite of fast.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about muddy boots.",
 
-    answers: [
-        "Dirty",
-        "Fresh",
-        "Dry",
-        "Neat"
-    ],
+    options: [
+            "Dirty",
+            "Fresh",
+            "Dry",
+            "Neat"
+        ],
 
-    correct: 0,
+    correctAnswer: "Dirty",
 
     explanation:
         "Dirty is the opposite of clean.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about shutting a door.",
 
-    answers: [
-        "Closed",
-        "Wide",
-        "Large",
-        "Unlocked"
-    ],
+    options: [
+            "Closed",
+            "Wide",
+            "Large",
+            "Unlocked"
+        ],
 
-    correct: 0,
+    correctAnswer: "Closed",
 
     explanation:
         "Closed is the opposite of open.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about feeling unhappy.",
 
-    answers: [
-        "Sad",
-        "Glad",
-        "Cheerful",
-        "Excited"
-    ],
+    options: [
+            "Sad",
+            "Glad",
+            "Cheerful",
+            "Excited"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sad",
 
     explanation:
         "Sad is the opposite of happy.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about the direction towards the ground.",
 
-    answers: [
-        "Down",
-        "Over",
-        "Across",
-        "Above"
-    ],
+    options: [
+            "Down",
+            "Over",
+            "Across",
+            "Above"
+        ],
 
-    correct: 0,
+    correctAnswer: "Down",
 
     explanation:
         "Down is the opposite of up.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about carrying a big box.",
 
-    answers: [
-        "Heavy",
-        "Bright",
-        "Small",
-        "Thin"
-    ],
+    options: [
+            "Heavy",
+            "Bright",
+            "Small",
+            "Thin"
+        ],
 
-    correct: 0,
+    correctAnswer: "Heavy",
 
     explanation:
         "Heavy is the opposite of light when talking about weight.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about a towel after drying.",
 
-    answers: [
-        "Dry",
-        "Cold",
-        "Warm",
-        "Deep"
-    ],
+    options: [
+            "Dry",
+            "Cold",
+            "Warm",
+            "Deep"
+        ],
 
-    correct: 0,
+    correctAnswer: "Dry",
 
     explanation:
         "Dry is the opposite of wet.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about giving something to someone for a while.",
 
-    answers: [
-        "Lend",
-        "Keep",
-        "Take",
-        "Return"
-    ],
+    options: [
+            "Lend",
+            "Keep",
+            "Take",
+            "Return"
+        ],
 
-    correct: 0,
+    correctAnswer: "Lend",
 
     explanation:
         "Lend is the opposite of borrow.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Think about going away.",
 
-    answers: [
-        "Leave",
-        "Wait",
-        "Stay",
-        "Stop"
-    ],
+    options: [
+            "Leave",
+            "Wait",
+            "Stay",
+            "Stop"
+        ],
 
-    correct: 0,
+    correctAnswer: "Leave",
 
     explanation:
         "Leave is the opposite of arrive.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about being underneath something.",
 
-    answers: [
-        "Below",
-        "Over",
-        "Higher",
-        "Beyond"
-    ],
+    options: [
+            "Below",
+            "Over",
+            "Higher",
+            "Beyond"
+        ],
 
-    correct: 0,
+    correctAnswer: "Below",
 
     explanation:
         "Below is the opposite of above.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about saying no to something.",
 
-    answers: [
-        "Refuse",
-        "Agree",
-        "Keep",
-        "Choose"
-    ],
+    options: [
+            "Refuse",
+            "Agree",
+            "Keep",
+            "Choose"
+        ],
 
-    correct: 0,
+    correctAnswer: "Refuse",
 
     explanation:
         "Refuse is the opposite of accept.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about grandparents.",
 
-    answers: [
-        "Old",
-        "New",
-        "Tiny",
-        "Small"
-    ],
+    options: [
+            "Old",
+            "New",
+            "Tiny",
+            "Small"
+        ],
 
-    correct: 0,
+    correctAnswer: "Old",
 
     explanation:
         "Old is the opposite of young.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about a very small path.",
 
-    answers: [
-        "Narrow",
-        "Broad",
-        "Large",
-        "Long"
-    ],
+    options: [
+            "Narrow",
+            "Broad",
+            "Large",
+            "Long"
+        ],
 
-    correct: 0,
+    correctAnswer: "Narrow",
 
     explanation:
         "Narrow is the opposite of wide.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about a library.",
 
-    answers: [
-        "Quiet",
-        "Busy",
-        "Crowded",
-        "Excited"
-    ],
+    options: [
+            "Quiet",
+            "Busy",
+            "Crowded",
+            "Excited"
+        ],
 
-    correct: 0,
+    correctAnswer: "Quiet",
 
     explanation:
         "Quiet is the opposite of noisy.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about not having much strength.",
 
-    answers: [
-        "Weak",
-        "Tough",
-        "Powerful",
-        "Healthy"
-    ],
+    options: [
+            "Weak",
+            "Tough",
+            "Powerful",
+            "Healthy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Weak",
 
     explanation:
         "Weak is the opposite of strong.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about something that is not true.",
 
-    answers: [
-        "Lie",
-        "Fact",
-        "Story",
-        "Answer"
-    ],
+    options: [
+            "Lie",
+            "Fact",
+            "Story",
+            "Answer"
+        ],
 
-    correct: 0,
+    correctAnswer: "Lie",
 
     explanation:
         "A lie is the opposite of the truth.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Think about not winning.",
 
-    answers: [
-        "Defeat",
-        "Success",
-        "Prize",
-        "Champion"
-    ],
+    options: [
+            "Defeat",
+            "Success",
+            "Prize",
+            "Champion"
+        ],
 
-    correct: 0,
+    correctAnswer: "Defeat",
 
     explanation:
         "Defeat is the opposite of victory.",

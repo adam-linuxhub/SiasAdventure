@@ -22,14 +22,14 @@ export default [
     hint:
         "Only the first letter is different.",
 
-    answers: [
-        "C → B",
-        "A → O",
-        "T → P",
-        "No letters change"
-    ],
+    options: [
+            "C → B",
+            "A → O",
+            "T → P",
+            "No letters change"
+        ],
 
-    correct: 0,
+    correctAnswer: "C → B",
 
     explanation:
         "Changing C to B turns CAT into BAT.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Look at the middle letter.",
 
-    answers: [
-        "O → I",
-        "D → B",
-        "G → T",
-        "O → A"
-    ],
+    options: [
+            "O → I",
+            "D → B",
+            "G → T",
+            "O → A"
+        ],
 
-    correct: 0,
+    correctAnswer: "O → I",
 
     explanation:
         "Changing O to I turns DOG into DIG.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Only one letter should change.",
 
-    answers: [
-        "HOT",
-        "HOME",
-        "HEAT",
-        "HATS"
-    ],
+    options: [
+            "HOT",
+            "HOME",
+            "HEAT",
+            "HATS"
+        ],
 
-    correct: 0,
+    correctAnswer: "HOT",
 
     explanation:
         "HAT becomes HOT by changing A to O.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Look at the middle letter.",
 
-    answers: [
-        "E → I",
-        "P → T",
-        "N → M",
-        "E → A"
-    ],
+    options: [
+            "E → I",
+            "P → T",
+            "N → M",
+            "E → A"
+        ],
 
-    correct: 0,
+    correctAnswer: "E → I",
 
     explanation:
         "Changing E to I turns PEN into PIN.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Only one letter changes.",
 
-    answers: [
-        "MOP",
-        "MOPE",
-        "CAP",
-        "MAPS"
-    ],
+    options: [
+            "MOP",
+            "MOPE",
+            "CAP",
+            "MAPS"
+        ],
 
-    correct: 0,
+    correctAnswer: "MOP",
 
     explanation:
         "MAP becomes MOP by changing A to O.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Look at the first letter.",
 
-    answers: [
-        "R → F",
-        "U → A",
-        "N → T",
-        "R → S"
-    ],
+    options: [
+            "R → F",
+            "U → A",
+            "N → T",
+            "R → S"
+        ],
 
-    correct: 0,
+    correctAnswer: "R → F",
 
     explanation:
         "Changing R to F turns RUN into FUN.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Keep the word the same length.",
 
-    answers: [
-        "BAG",
-        "BIRD",
-        "PIGLET",
-        "BIGGER"
-    ],
+    options: [
+            "BAG",
+            "BIRD",
+            "PIGLET",
+            "BIGGER"
+        ],
 
-    correct: 0,
+    correctAnswer: "BAG",
 
     explanation:
         "BIG becomes BAG by changing I to A.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Look at the first letter.",
 
-    answers: [
-        "F → B",
-        "O → A",
-        "X → T",
-        "F → D"
-    ],
+    options: [
+            "F → B",
+            "O → A",
+            "X → T",
+            "F → D"
+        ],
 
-    correct: 0,
+    correctAnswer: "F → B",
 
     explanation:
         "Changing F to B turns FOX into BOX.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Only one letter changes.",
 
-    answers: [
-        "TIP",
-        "SHIP",
-        "SOAP",
-        "SLIP"
-    ],
+    options: [
+            "TIP",
+            "SHIP",
+            "SOAP",
+            "SLIP"
+        ],
 
-    correct: 0,
+    correctAnswer: "TIP",
 
     explanation:
         "SIP becomes TIP by changing S to T.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Look at the last letter.",
 
-    answers: [
-        "G → T",
-        "L → B",
-        "O → A",
-        "L → F"
-    ],
+    options: [
+            "G → T",
+            "L → B",
+            "O → A",
+            "L → F"
+        ],
 
-    correct: 0,
+    correctAnswer: "G → T",
 
     explanation:
         "Changing G to T turns LOG into LOT.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Only one letter changes each time.",
 
-    answers: [
-        "DOT",
-        "DOG",
-        "BAT",
-        "CUT"
-    ],
+    options: [
+            "DOT",
+            "DOG",
+            "BAT",
+            "CUT"
+        ],
 
-    correct: 0,
+    correctAnswer: "DOT",
 
     explanation:
         "COT becomes DOT by changing C to D.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Change only one letter.",
 
-    answers: [
-        "PIN",
-        "TIN",
-        "PIG",
-        "PAN"
-    ],
+    options: [
+            "PIN",
+            "TIN",
+            "PIG",
+            "PAN"
+        ],
 
-    correct: 0,
+    correctAnswer: "PIN",
 
     explanation:
         "PEN becomes PIN by changing E to I.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Which word is in the middle?",
 
-    answers: [
-        "FUN",
-        "FIN",
-        "SUN",
-        "FAN"
-    ],
+    options: [
+            "FUN",
+            "FIN",
+            "SUN",
+            "FAN"
+        ],
 
-    correct: 0,
+    correctAnswer: "FUN",
 
     explanation:
         "RUN changes to FUN by changing R to F, then FUN changes to FAN by changing U to A.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Only the last letter changes.",
 
-    answers: [
-        "MOT",
-        "TOP",
-        "MAP",
-        "MOPS"
-    ],
+    options: [
+            "MOT",
+            "TOP",
+            "MAP",
+            "MOPS"
+        ],
 
-    correct: 0,
+    correctAnswer: "MOT",
 
     explanation:
         "MOP becomes MOT by changing P to T.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Change only one letter again.",
 
-    answers: [
-        "BAT",
-        "BUG",
-        "BAGS",
-        "DIG"
-    ],
+    options: [
+            "BAT",
+            "BUG",
+            "BAGS",
+            "DIG"
+        ],
 
-    correct: 0,
+    correctAnswer: "BAT",
 
     explanation:
         "BAG becomes BAT by changing G to T.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Which word fits in the middle?",
 
-    answers: [
-        "BOX",
-        "BOT",
-        "BOG",
-        "COX"
-    ],
+    options: [
+            "BOX",
+            "BOT",
+            "BOG",
+            "COX"
+        ],
 
-    correct: 0,
+    correctAnswer: "BOX",
 
     explanation:
         "FOX changes to BOX, then BOX changes to BOY by changing X to Y.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Only one letter changes.",
 
-    answers: [
-        "TOY",
-        "TAP",
-        "TEN",
-        "POT"
-    ],
+    options: [
+            "TOY",
+            "TAP",
+            "TEN",
+            "POT"
+        ],
 
-    correct: 0,
+    correctAnswer: "TOY",
 
     explanation:
         "TOP becomes TOY by changing P to Y.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Find the missing middle word.",
 
-    answers: [
-        "PEN",
-        "PAN",
-        "PIN",
-        "TEN"
-    ],
+    options: [
+            "PEN",
+            "PAN",
+            "PIN",
+            "TEN"
+        ],
 
-    correct: 0,
+    correctAnswer: "PEN",
 
     explanation:
         "HEN becomes PEN by changing H to P, then PEN becomes PIN by changing E to I.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Find the middle word.",
 
-    answers: [
-        "LOT",
-        "DOT",
-        "LOG",
-        "HOG"
-    ],
+    options: [
+            "LOT",
+            "DOT",
+            "LOG",
+            "HOG"
+        ],
 
-    correct: 0,
+    correctAnswer: "LOT",
 
     explanation:
         "LOG changes to LOT, then LOT changes to HOT by changing L to H.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "The middle word changes only one letter each time.",
 
-    answers: [
-        "BAT",
-        "BET",
-        "BAG",
-        "CAT"
-    ],
+    options: [
+            "BAT",
+            "BET",
+            "BAG",
+            "CAT"
+        ],
 
-    correct: 0,
+    correctAnswer: "BAT",
 
     explanation:
         "CAT becomes BAT by changing C to B, then BAT becomes BAD by changing T to D.",

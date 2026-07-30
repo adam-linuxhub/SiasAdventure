@@ -22,14 +22,14 @@ export default [
     hint:
         "Think about living creatures.",
 
-    answers: [
-        "Tiger",
-        "Table",
-        "Bottle",
-        "Pencil"
-    ],
+    options: [
+            "Tiger",
+            "Table",
+            "Bottle",
+            "Pencil"
+        ],
 
-    correct: 0,
+    correctAnswer: "Tiger",
 
     explanation:
         "A tiger is an animal.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Which one grows on a tree?",
 
-    answers: [
-        "Apple",
-        "Carrot",
-        "Potato",
-        "Broccoli"
-    ],
+    options: [
+            "Apple",
+            "Carrot",
+            "Potato",
+            "Broccoli"
+        ],
 
-    correct: 0,
+    correctAnswer: "Apple",
 
     explanation:
         "An apple is a fruit.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "Think about transport.",
 
-    answers: [
-        "Bus",
-        "Spoon",
-        "Pillow",
-        "Flower"
-    ],
+    options: [
+            "Bus",
+            "Spoon",
+            "Pillow",
+            "Flower"
+        ],
 
-    correct: 0,
+    correctAnswer: "Bus",
 
     explanation:
         "A bus is a vehicle.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Which one can you paint with?",
 
-    answers: [
-        "Purple",
-        "Circle",
-        "Window",
-        "Garden"
-    ],
+    options: [
+            "Purple",
+            "Circle",
+            "Window",
+            "Garden"
+        ],
 
-    correct: 0,
+    correctAnswer: "Purple",
 
     explanation:
         "Purple is a colour.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about the calendar.",
 
-    answers: [
-        "Friday",
-        "Summer",
-        "April",
-        "Morning"
-    ],
+    options: [
+            "Friday",
+            "Summer",
+            "April",
+            "Morning"
+        ],
 
-    correct: 0,
+    correctAnswer: "Friday",
 
     explanation:
         "Friday is a day of the week.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "You might sit on it.",
 
-    answers: [
-        "Chair",
-        "River",
-        "Cloud",
-        "Rocket"
-    ],
+    options: [
+            "Chair",
+            "River",
+            "Cloud",
+            "Rocket"
+        ],
 
-    correct: 0,
+    correctAnswer: "Chair",
 
     explanation:
         "A chair is a piece of furniture.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "Think about animals with feathers.",
 
-    answers: [
-        "Robin",
-        "Rabbit",
-        "Horse",
-        "Fish"
-    ],
+    options: [
+            "Robin",
+            "Rabbit",
+            "Horse",
+            "Fish"
+        ],
 
-    correct: 0,
+    correctAnswer: "Robin",
 
     explanation:
         "A robin is a bird.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Think about the calendar.",
 
-    answers: [
-        "October",
-        "Monday",
-        "Winter",
-        "Evening"
-    ],
+    options: [
+            "October",
+            "Monday",
+            "Winter",
+            "Evening"
+        ],
 
-    correct: 0,
+    correctAnswer: "October",
 
     explanation:
         "October is a month of the year.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Think about geometry.",
 
-    answers: [
-        "Triangle",
-        "Yellow",
-        "School",
-        "Window"
-    ],
+    options: [
+            "Triangle",
+            "Yellow",
+            "School",
+            "Window"
+        ],
 
-    correct: 0,
+    correctAnswer: "Triangle",
 
     explanation:
         "A triangle is a shape.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Think about jobs.",
 
-    answers: [
-        "Teacher",
-        "Mountain",
-        "Blanket",
-        "Mirror"
-    ],
+    options: [
+            "Teacher",
+            "Mountain",
+            "Blanket",
+            "Mirror"
+        ],
 
-    correct: 0,
+    correctAnswer: "Teacher",
 
     explanation:
         "A teacher is an occupation.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Think about animals with scales.",
 
-    answers: [
-        "Lizard",
-        "Robin",
-        "Rabbit",
-        "Whale"
-    ],
+    options: [
+            "Lizard",
+            "Robin",
+            "Rabbit",
+            "Whale"
+        ],
 
-    correct: 0,
+    correctAnswer: "Lizard",
 
     explanation:
         "A lizard is a reptile.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Which one can you play?",
 
-    answers: [
-        "Trumpet",
-        "Helmet",
-        "Curtain",
-        "Pillow"
-    ],
+    options: [
+            "Trumpet",
+            "Helmet",
+            "Curtain",
+            "Pillow"
+        ],
 
-    correct: 0,
+    correctAnswer: "Trumpet",
 
     explanation:
         "A trumpet is a musical instrument.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about animals with six legs.",
 
-    answers: [
-        "Butterfly",
-        "Spider",
-        "Mouse",
-        "Snake"
-    ],
+    options: [
+            "Butterfly",
+            "Spider",
+            "Mouse",
+            "Snake"
+        ],
 
-    correct: 0,
+    correctAnswer: "Butterfly",
 
     explanation:
         "A butterfly is an insect. Spiders have eight legs, so they are not insects.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Think about space.",
 
-    answers: [
-        "Mars",
-        "Moon",
-        "Comet",
-        "Rocket"
-    ],
+    options: [
+            "Mars",
+            "Moon",
+            "Comet",
+            "Rocket"
+        ],
 
-    correct: 0,
+    correctAnswer: "Mars",
 
     explanation:
         "Mars is a planet.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Think about things you can pour.",
 
-    answers: [
-        "Juice",
-        "Brick",
-        "Chair",
-        "Pencil"
-    ],
+    options: [
+            "Juice",
+            "Brick",
+            "Chair",
+            "Pencil"
+        ],
 
-    correct: 0,
+    correctAnswer: "Juice",
 
     explanation:
         "Juice is a liquid.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Think about warm-blooded animals that feed their babies milk.",
 
-    answers: [
-        "Elephant",
-        "Crocodile",
-        "Penguin",
-        "Goldfish"
-    ],
+    options: [
+            "Elephant",
+            "Crocodile",
+            "Penguin",
+            "Goldfish"
+        ],
 
-    correct: 0,
+    correctAnswer: "Elephant",
 
     explanation:
         "An elephant is a mammal.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Builders often use it.",
 
-    answers: [
-        "Hammer",
-        "Plate",
-        "Cushion",
-        "Curtain"
-    ],
+    options: [
+            "Hammer",
+            "Plate",
+            "Cushion",
+            "Curtain"
+        ],
 
-    correct: 0,
+    correctAnswer: "Hammer",
 
     explanation:
         "A hammer is a tool.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Think about the four parts of the year.",
 
-    answers: [
-        "Autumn",
-        "Tuesday",
-        "February",
-        "Morning"
-    ],
+    options: [
+            "Autumn",
+            "Tuesday",
+            "February",
+            "Morning"
+        ],
 
-    correct: 0,
+    correctAnswer: "Autumn",
 
     explanation:
         "Autumn is one of the four seasons.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Think about precious stones.",
 
-    answers: [
-        "Diamond",
-        "Steel",
-        "Clay",
-        "Wood"
-    ],
+    options: [
+            "Diamond",
+            "Steel",
+            "Clay",
+            "Wood"
+        ],
 
-    correct: 0,
+    correctAnswer: "Diamond",
 
     explanation:
         "A diamond is a gemstone.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "It shines in the daytime.",
 
-    answers: [
-        "Sun",
-        "Torch",
-        "Lamp",
-        "Candle"
-    ],
+    options: [
+            "Sun",
+            "Torch",
+            "Lamp",
+            "Candle"
+        ],
 
-    correct: 0,
+    correctAnswer: "Sun",
 
     explanation:
         "The Sun is a natural source of light. The others are man-made sources of light.",

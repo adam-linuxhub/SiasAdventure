@@ -22,14 +22,14 @@ export default [
     hint:
         "It can change 'happy' into 'unhappy'.",
 
-    answers: [
-        "un-",
-        "re-",
-        "pre-",
-        "mis-"
-    ],
+    options: [
+            "un-",
+            "re-",
+            "pre-",
+            "mis-"
+        ],
 
-    correct: 0,
+    correctAnswer: "un-",
 
     explanation:
         "The prefix 'un-' means 'not' or 'the opposite of'.",
@@ -52,14 +52,14 @@ export default [
     hint:
         "Add the correct prefix to 'happy'.",
 
-    answers: [
-        "Unhappy",
-        "Rehappy",
-        "Prehappy",
-        "Mishappy"
-    ],
+    options: [
+            "Unhappy",
+            "Rehappy",
+            "Prehappy",
+            "Mishappy"
+        ],
 
-    correct: 0,
+    correctAnswer: "Unhappy",
 
     explanation:
         "'Unhappy' means not happy.",
@@ -82,14 +82,14 @@ export default [
     hint:
         "It can change 'write' into 'rewrite'.",
 
-    answers: [
-        "re-",
-        "un-",
-        "mis-",
-        "pre-"
-    ],
+    options: [
+            "re-",
+            "un-",
+            "mis-",
+            "pre-"
+        ],
 
-    correct: 0,
+    correctAnswer: "re-",
 
     explanation:
         "The prefix 're-' means again.",
@@ -112,14 +112,14 @@ export default [
     hint:
         "Add the prefix meaning 'again'.",
 
-    answers: [
-        "Rewrite",
-        "Unwrite",
-        "Prewrite",
-        "Miswrite"
-    ],
+    options: [
+            "Rewrite",
+            "Unwrite",
+            "Prewrite",
+            "Miswrite"
+        ],
 
-    correct: 0,
+    correctAnswer: "Rewrite",
 
     explanation:
         "'Rewrite' means to write again.",
@@ -142,14 +142,14 @@ export default [
     hint:
         "Think about the word 'preview'.",
 
-    answers: [
-        "pre-",
-        "un-",
-        "re-",
-        "mis-"
-    ],
+    options: [
+            "pre-",
+            "un-",
+            "re-",
+            "mis-"
+        ],
 
-    correct: 0,
+    correctAnswer: "pre-",
 
     explanation:
         "The prefix 'pre-' means before.",
@@ -172,14 +172,14 @@ export default [
     hint:
         "Think about seeing something before everyone else.",
 
-    answers: [
-        "Preview",
-        "Review",
-        "Unview",
-        "Misview"
-    ],
+    options: [
+            "Preview",
+            "Review",
+            "Unview",
+            "Misview"
+        ],
 
-    correct: 0,
+    correctAnswer: "Preview",
 
     explanation:
         "'Preview' means to see something before it is shown.",
@@ -202,14 +202,14 @@ export default [
     hint:
         "It can change 'spell' into 'misspell'.",
 
-    answers: [
-        "mis-",
-        "un-",
-        "pre-",
-        "re-"
-    ],
+    options: [
+            "mis-",
+            "un-",
+            "pre-",
+            "re-"
+        ],
 
-    correct: 0,
+    correctAnswer: "mis-",
 
     explanation:
         "The prefix 'mis-' means wrongly or badly.",
@@ -232,14 +232,14 @@ export default [
     hint:
         "Add the prefix meaning 'wrongly'.",
 
-    answers: [
-        "Misspell",
-        "Respell",
-        "Unspell",
-        "Prespell"
-    ],
+    options: [
+            "Misspell",
+            "Respell",
+            "Unspell",
+            "Prespell"
+        ],
 
-    correct: 0,
+    correctAnswer: "Misspell",
 
     explanation:
         "'Misspell' means to spell a word incorrectly.",
@@ -262,14 +262,14 @@ export default [
     hint:
         "Add the correct prefix to 'kind'.",
 
-    answers: [
-        "Unkind",
-        "Rekind",
-        "Prekind",
-        "Miskind"
-    ],
+    options: [
+            "Unkind",
+            "Rekind",
+            "Prekind",
+            "Miskind"
+        ],
 
-    correct: 0,
+    correctAnswer: "Unkind",
 
     explanation:
         "'Unkind' means not kind.",
@@ -292,14 +292,14 @@ export default [
     hint:
         "Add the prefix meaning 'again'.",
 
-    answers: [
-        "Reread",
-        "Unread",
-        "Preread",
-        "Misread"
-    ],
+    options: [
+            "Reread",
+            "Unread",
+            "Preread",
+            "Misread"
+        ],
 
-    correct: 0,
+    correctAnswer: "Reread",
 
     explanation:
         "'Reread' means to read something again.",
@@ -321,14 +321,14 @@ export default [
     hint:
         "Add the prefix meaning 'not'.",
 
-    answers: [
-        "Impossible",
-        "Repossible",
-        "Prepossible",
-        "Mispossible"
-    ],
+    options: [
+            "Impossible",
+            "Repossible",
+            "Prepossible",
+            "Mispossible"
+        ],
 
-    correct: 0,
+    correctAnswer: "Impossible",
 
     explanation:
         "'Impossible' means something cannot happen.",
@@ -351,14 +351,14 @@ export default [
     hint:
         "Use the prefix meaning 'again'.",
 
-    answers: [
-        "Repack",
-        "Unpack",
-        "Prepack",
-        "Mispack"
-    ],
+    options: [
+            "Repack",
+            "Unpack",
+            "Prepack",
+            "Mispack"
+        ],
 
-    correct: 0,
+    correctAnswer: "Repack",
 
     explanation:
         "'Repack' means to pack something again.",
@@ -381,14 +381,14 @@ export default [
     hint:
         "Think about preparing an oven.",
 
-    answers: [
-        "Preheat",
-        "Reheat",
-        "Unheat",
-        "Misheat"
-    ],
+    options: [
+            "Preheat",
+            "Reheat",
+            "Unheat",
+            "Misheat"
+        ],
 
-    correct: 0,
+    correctAnswer: "Preheat",
 
     explanation:
         "'Preheat' means to heat something before it is needed.",
@@ -411,14 +411,14 @@ export default [
     hint:
         "Use the prefix meaning 'wrongly'.",
 
-    answers: [
-        "Misunderstand",
-        "Reunderstand",
-        "Preunderstand",
-        "Ununderstand"
-    ],
+    options: [
+            "Misunderstand",
+            "Reunderstand",
+            "Preunderstand",
+            "Ununderstand"
+        ],
 
-    correct: 0,
+    correctAnswer: "Misunderstand",
 
     explanation:
         "'Misunderstand' means to understand something incorrectly.",
@@ -441,14 +441,14 @@ export default [
     hint:
         "Add the prefix meaning 'not'.",
 
-    answers: [
-        "Unfair",
-        "Refair",
-        "Prefair",
-        "Misfair"
-    ],
+    options: [
+            "Unfair",
+            "Refair",
+            "Prefair",
+            "Misfair"
+        ],
 
-    correct: 0,
+    correctAnswer: "Unfair",
 
     explanation:
         "'Unfair' means not fair or not equal.",
@@ -471,14 +471,14 @@ export default [
     hint:
         "Use the prefix meaning 'again'.",
 
-    answers: [
-        "Retell",
-        "Untell",
-        "Pretell",
-        "Mistell"
-    ],
+    options: [
+            "Retell",
+            "Untell",
+            "Pretell",
+            "Mistell"
+        ],
 
-    correct: 0,
+    correctAnswer: "Retell",
 
     explanation:
         "'Retell' means to tell a story again.",
@@ -501,14 +501,14 @@ export default [
     hint:
         "Think about watching something another time.",
 
-    answers: [
-        "Review",
-        "Preview",
-        "Unview",
-        "Misview"
-    ],
+    options: [
+            "Review",
+            "Preview",
+            "Unview",
+            "Misview"
+        ],
 
-    correct: 0,
+    correctAnswer: "Review",
 
     explanation:
         "'Review' means to look at or examine something again.",
@@ -531,14 +531,14 @@ export default [
     hint:
         "Add the prefix meaning 'not'.",
 
-    answers: [
-        "Unknown",
-        "Reknown",
-        "Preknown",
-        "Misknown"
-    ],
+    options: [
+            "Unknown",
+            "Reknown",
+            "Preknown",
+            "Misknown"
+        ],
 
-    correct: 0,
+    correctAnswer: "Unknown",
 
     explanation:
         "'Unknown' means not known.",
@@ -561,14 +561,14 @@ export default [
     hint:
         "Use the prefix meaning 'wrongly'.",
 
-    answers: [
-        "Misjudge",
-        "Rejudge",
-        "Prejudge",
-        "Unjudge"
-    ],
+    options: [
+            "Misjudge",
+            "Rejudge",
+            "Prejudge",
+            "Unjudge"
+        ],
 
-    correct: 0,
+    correctAnswer: "Misjudge",
 
     explanation:
         "'Misjudge' means to judge incorrectly.",
@@ -591,14 +591,14 @@ export default [
     hint:
         "Use the prefix meaning 'again'.",
 
-    answers: [
-        "Reconnect",
-        "Disconnect",
-        "Preconnect",
-        "Misconnect"
-    ],
+    options: [
+            "Reconnect",
+            "Disconnect",
+            "Preconnect",
+            "Misconnect"
+        ],
 
-    correct: 0,
+    correctAnswer: "Reconnect",
 
     explanation:
         "'Reconnect' means to connect something again after it has been disconnected.",
