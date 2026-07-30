@@ -1,0 +1,501 @@
+import {
+    MultipleChoiceActivity,
+    SkillContent
+} from "../../types";
+
+export const commonExceptionWords1: SkillContent = {
+
+    skillId: "commonExceptionWords1",
+
+    title: "Common Exception Words 1",
+
+    description:
+        "Learn to read and spell common exception words that do not always follow normal spelling rules.",
+
+    version: 1,
+
+    activities: <MultipleChoiceActivity[]>[
+
+    {
+        id: "eng-cew1-001",
+
+        question: "Which is the correct spelling?",
+
+        options: [
+            "because",
+            "becuse",
+            "becaus",
+            "becose"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Because' is the correct spelling.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-002",
+
+        question: "Which is the correct spelling?",
+
+        options: [
+            "people",
+            "peeple",
+            "peple",
+            "peopl"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'People' is the correct spelling.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-003",
+
+        question: "Which is the correct spelling?",
+
+        options: [
+            "friend",
+            "freind",
+            "frend",
+            "freiend"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Remember: 'friend' has 'ie' in the middle.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-004",
+
+        question: "Which is the correct spelling?",
+
+        options: [
+            "busy",
+            "bisy",
+            "busie",
+            "bussy"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Busy' is spelled with a 'u'.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-005",
+
+        question: "Which is the correct spelling?",
+
+        options: [
+            "beautiful",
+            "beutiful",
+            "beautifull",
+            "butiful"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Beautiful' begins with 'beau-'.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-006",
+
+        question: "Which is the correct spelling?",
+
+        options: [
+            "every",
+            "evry",
+            "everey",
+            "evrey"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Every' is the correct spelling.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-007",
+
+        question: "Which is the correct spelling?",
+
+        options: [
+            "again",
+            "agen",
+            "againe",
+            "aginn"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Again' is spelled a-g-a-i-n.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-008",
+
+        question: "Which is the correct spelling?",
+
+        options: [
+            "great",
+            "grate",
+            "grete",
+            "greatt"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Great' uses the letters 'ea'.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-009",
+
+        question: "Which is the correct spelling?",
+
+        options: [
+            "door",
+            "dor",
+            "doar",
+            "dooor"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Door' contains a double 'o'.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-010",
+
+        question: "Which is the correct spelling?",
+
+        options: [
+            "floor",
+            "flor",
+            "floar",
+            "floorr"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Floor' has a double 'o'.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-011",
+
+        question: "Complete the sentence: 'I like to play with my ______.'",
+
+        options: [
+            "friend",
+            "freind",
+            "frend",
+            "freiend"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Friend' is the correct spelling.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-012",
+
+        question: "Complete the sentence: 'Thank you ______ helping me.'",
+
+        options: [
+            "for",
+            "four",
+            "fore",
+            "fur"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'For' is the correct word in this sentence.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-013",
+
+        question: "Which sentence contains the correctly spelled word?",
+
+        options: [
+            "The beautiful butterfly landed on a flower.",
+            "The beutiful butterfly landed on a flower.",
+            "The beautifull butterfly landed on a flower.",
+            "The butiful butterfly landed on a flower."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Beautiful' is spelled b-e-a-u-t-i-f-u-l.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-014",
+
+        question: "Which sentence is correct?",
+
+        options: [
+            "Because it was raining, we stayed inside.",
+            "Becuse it was raining, we stayed inside.",
+            "Becaus it was raining, we stayed inside.",
+            "Becose it was raining, we stayed inside."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Because' is a common exception word that must be learned.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-015",
+
+        question: "Which word is spelled correctly?",
+
+        options: [
+            "people",
+            "peaple",
+            "peeple",
+            "pepol"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'People' is the correct spelling.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-016",
+
+        question: "Which word completes the sentence? 'The shop is over ______.'",
+
+        options: [
+            "there",
+            "thair",
+            "thare",
+            "ther"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'There' tells us where something is.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-017",
+
+        question: "Which spelling is correct?",
+
+        options: [
+            "parents",
+            "parrents",
+            "parants",
+            "parents'"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Parents' is the correct spelling.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-018",
+
+        question: "Which word is spelled correctly?",
+
+        options: [
+            "everybody",
+            "everyboddy",
+            "everybodi",
+            "everybodyy"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Everybody' is one word.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-019",
+
+        question: "Which sentence is correct?",
+
+        options: [
+            "The door was open.",
+            "The dor was open.",
+            "The doar was open.",
+            "The dooor was open."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "'Door' contains two 'o's.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    },
+
+    {
+        id: "eng-cew1-020",
+
+        question: "Which sentence contains only correctly spelled words?",
+
+        options: [
+            "My friend is busy because we have homework.",
+            "My freind is busy becuse we have homework.",
+            "My friend is bisy becaus we have homework.",
+            "My frend is bussy becose we have homework."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "All the common exception words are spelled correctly in the first sentence.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "spelling", "common-exception-words"]
+    }
+
+    ]
+
+};

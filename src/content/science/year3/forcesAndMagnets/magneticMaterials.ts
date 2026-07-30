@@ -1,0 +1,501 @@
+import {
+    MultipleChoiceActivity,
+    SkillContent
+} from "../../../types";
+
+export const magneticMaterials: SkillContent = {
+
+    skillId: "magneticMaterials",
+
+    title: "Magnetic Materials",
+
+    description:
+        "Learn which materials are magnetic and investigate which objects are attracted to magnets.",
+
+    version: 1,
+
+    activities: <MultipleChoiceActivity[]>[
+
+    {
+        id: "sci-magnetic-materials-001",
+
+        question: "What does a magnet do?",
+
+        options: [
+            "It attracts some materials",
+            "It creates light",
+            "It makes objects heavier",
+            "It melts metal"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Magnets attract certain materials such as iron and steel.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "forces", "magnets"]
+    },
+
+    {
+        id: "sci-magnetic-materials-002",
+
+        question: "Which material is magnetic?",
+
+        options: [
+            "Iron",
+            "Wood",
+            "Plastic",
+            "Glass"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Iron is one of the materials that magnets attract.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "magnets", "materials"]
+    },
+
+    {
+        id: "sci-magnetic-materials-003",
+
+        question: "Which object would a magnet attract?",
+
+        options: [
+            "An iron nail",
+            "A wooden spoon",
+            "A plastic ruler",
+            "A rubber ball"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Iron nails are attracted to magnets.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "magnets"]
+    },
+
+    {
+        id: "sci-magnetic-materials-004",
+
+        question: "Which material is NOT magnetic?",
+
+        options: [
+            "Plastic",
+            "Iron",
+            "Steel",
+            "Nickel"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Plastic is not attracted to magnets.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "magnets", "materials"]
+    },
+
+    {
+        id: "sci-magnetic-materials-005",
+
+        question: "Which metal is magnetic?",
+
+        options: [
+            "Steel",
+            "Aluminium",
+            "Copper",
+            "Gold"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Steel contains iron, so it is usually magnetic.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "magnets", "steel"]
+    },
+
+    {
+        id: "sci-magnetic-materials-006",
+
+        question: "Which classroom object is likely to be magnetic?",
+
+        options: [
+            "A paper clip",
+            "An eraser",
+            "A wooden pencil",
+            "A plastic folder"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Most paper clips are made from steel.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "magnets", "everyday"]
+    },
+
+    {
+        id: "sci-magnetic-materials-007",
+
+        question: "Which material is most likely to be attracted to a magnet?",
+
+        options: [
+            "Nickel",
+            "Paper",
+            "Glass",
+            "Fabric"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Nickel is a magnetic metal.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "magnets", "materials"]
+    },
+
+    {
+        id: "sci-magnetic-materials-008",
+
+        question: "Can magnets attract wood?",
+
+        options: [
+            "No",
+            "Yes",
+            "Only if it is wet",
+            "Only if it is painted"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Wood is not a magnetic material.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets"]
+    },
+
+    {
+        id: "sci-magnetic-materials-009",
+
+        question: "Which object is least likely to be attracted to a magnet?",
+
+        options: [
+            "A rubber band",
+            "A steel screw",
+            "An iron bolt",
+            "A paper clip"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rubber is not magnetic.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets"]
+    },
+
+    {
+        id: "sci-magnetic-materials-010",
+
+        question: "Which statement is true?",
+
+        options: [
+            "Not all metals are magnetic.",
+            "Every metal is magnetic.",
+            "Only plastic is magnetic.",
+            "Magnets attract everything."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Only certain metals, such as iron, steel and nickel, are magnetic.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets", "materials"]
+    },
+
+    {
+        id: "sci-magnetic-materials-011",
+
+        question: "A magnet attracts an object. What is the object most likely made from?",
+
+        options: [
+            "Iron",
+            "Wood",
+            "Glass",
+            "Paper"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Magnets attract magnetic materials such as iron.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets"]
+    },
+
+    {
+        id: "sci-magnetic-materials-012",
+
+        question: "Why doesn't a magnet attract a plastic bottle?",
+
+        options: [
+            "Plastic is not magnetic.",
+            "The bottle is too light.",
+            "Plastic is too smooth.",
+            "The magnet is broken."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Magnets only attract certain materials.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets", "materials"]
+    },
+
+    {
+        id: "sci-magnetic-materials-013",
+
+        question: "Which investigation would help you find magnetic materials?",
+
+        options: [
+            "Test different objects with a magnet",
+            "Measure their height",
+            "Weigh every object",
+            "Paint each object"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Testing objects with a magnet is a simple fair test.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "working-scientifically", "magnets"]
+    },
+
+    {
+        id: "sci-magnetic-materials-014",
+
+        question: "Which pair are both magnetic?",
+
+        options: [
+            "Iron and steel",
+            "Plastic and wood",
+            "Glass and paper",
+            "Rubber and fabric"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Iron and steel are both magnetic materials.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets", "materials"]
+    },
+
+    {
+        id: "sci-magnetic-materials-015",
+
+        question: "A magnet attracts one spoon but not another. What is the best explanation?",
+
+        options: [
+            "They are made from different materials",
+            "One spoon is bigger",
+            "One spoon is cleaner",
+            "One spoon is newer"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Some metals are magnetic, while others are not.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets"]
+    },
+
+    {
+        id: "sci-magnetic-materials-016",
+
+        question: "Which material should you choose to make a fridge magnet stick?",
+
+        options: [
+            "Steel",
+            "Plastic",
+            "Wood",
+            "Glass"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Steel is attracted to magnets.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets", "everyday"]
+    },
+
+    {
+        id: "sci-magnetic-materials-017",
+
+        question: "Why do magnets attract some objects but not others?",
+
+        options: [
+            "Only some materials are magnetic",
+            "Only large objects are magnetic",
+            "Only heavy objects are magnetic",
+            "Magnets choose randomly"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Magnets attract only certain materials.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets", "materials"]
+    },
+
+    {
+        id: "sci-magnetic-materials-018",
+
+        question: "Which object would be best for testing a magnet?",
+
+        options: [
+            "A steel paper clip",
+            "A sponge",
+            "A cardboard tube",
+            "A cotton sock"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Steel paper clips are reliably attracted to magnets.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets", "investigation"]
+    },
+
+    {
+        id: "sci-magnetic-materials-019",
+
+        question: "Which material would NOT be suitable for making a magnetic toy?",
+
+        options: [
+            "Wood",
+            "Iron",
+            "Steel",
+            "Nickel"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Wood is not attracted to magnets.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets", "materials"]
+    },
+
+    {
+        id: "sci-magnetic-materials-020",
+
+        question: "Which sentence best describes magnetic materials?",
+
+        options: [
+            "Magnetic materials are attracted to magnets.",
+            "All materials are magnetic.",
+            "Magnets attract every object.",
+            "Only plastic is magnetic."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Materials such as iron, steel and nickel are magnetic because they are attracted to magnets.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "magnets", "materials"]
+    }
+
+    ]
+
+};

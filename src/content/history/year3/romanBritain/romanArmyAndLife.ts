@@ -1,0 +1,521 @@
+import {
+    MultipleChoiceActivity,
+    SkillContent
+} from "../../types";
+
+export const romanArmyAndLife: SkillContent = {
+
+    skillId: "romanArmyAndLife",
+
+    title: "The Roman Army and Life in Roman Britain",
+
+    description:
+        "Learn about Roman soldiers, the organisation of the army and how Roman rule changed life in Britain.",
+
+    version: 1,
+
+    activities: <MultipleChoiceActivity[]>[
+
+    {
+        id: "hist-ral-001",
+
+        question:
+            "What was a Roman soldier called?",
+
+        options: [
+            "A legionary",
+            "A pharaoh",
+            "A knight",
+            "A scribe"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A Roman soldier who served in a legion was called a legionary.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain", "army"]
+    },
+
+    {
+        id: "hist-ral-002",
+
+        question:
+            "What was the Roman army known for?",
+
+        options: [
+            "Being organised and disciplined",
+            "Avoiding training",
+            "Having no leaders",
+            "Using modern machines"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The Roman army was successful because soldiers were well trained and organised.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain", "army"]
+    },
+
+    {
+        id: "hist-ral-003",
+
+        question:
+            "What was a group of Roman soldiers called?",
+
+        options: [
+            "A legion",
+            "A village",
+            "A kingdom",
+            "A temple"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A Roman legion was a large group of soldiers.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain", "army"]
+    },
+
+    {
+        id: "hist-ral-004",
+
+        question:
+            "What did Roman soldiers wear for protection?",
+
+        options: [
+            "Armour",
+            "School uniforms",
+            "Modern jackets",
+            "Silk robes"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Roman soldiers wore armour and carried shields for protection.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain", "army"]
+    },
+
+    {
+        id: "hist-ral-005",
+
+        question:
+            "What weapon did Roman soldiers commonly use?",
+
+        options: [
+            "A sword",
+            "A computer",
+            "A telescope",
+            "A camera"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Roman soldiers commonly used swords called gladii.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain", "army"]
+    },
+
+    {
+        id: "hist-ral-006",
+
+        question:
+            "Why did Roman soldiers build forts?",
+
+        options: [
+            "To control and protect areas",
+            "To grow food only",
+            "To hold festivals",
+            "To avoid travelling"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Forts helped the Romans defend and control their territory.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain", "army"]
+    },
+
+    {
+        id: "hist-ral-007",
+
+        question:
+            "What did Roman roads help with?",
+
+        options: [
+            "Moving soldiers and goods quickly",
+            "Growing crops",
+            "Building pyramids",
+            "Writing books"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Roman roads helped the army travel and helped trade.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-008",
+
+        question:
+            "What language did Romans introduce to Britain?",
+
+        options: [
+            "Latin",
+            "Egyptian",
+            "Viking",
+            "French"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Latin was the language used by Romans for government and writing.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-009",
+
+        question:
+            "What were Roman baths used for?",
+
+        options: [
+            "Washing, relaxing and socialising",
+            "Growing crops",
+            "Training animals",
+            "Storing weapons only"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Public baths were important places in Roman towns.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-010",
+
+        question:
+            "What did Romans build in Britain?",
+
+        options: [
+            "Roads, forts and towns",
+            "Airports",
+            "Skyscrapers",
+            "Railways"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The Romans built many structures that changed Britain.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-011",
+
+        question:
+            "Why were Roman soldiers trained carefully?",
+
+        options: [
+                "To work effectively as an army",
+                "To avoid following orders",
+                "To stop building roads",
+                "To become farmers"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Training helped Roman soldiers fight together successfully.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain", "army"]
+    },
+
+    {
+        id: "hist-ral-012",
+
+        question:
+            "What was life like in a Roman town?",
+
+        options: [
+            "People could visit shops, baths and markets",
+            "Nobody lived there",
+            "There were no buildings",
+            "Only soldiers could enter"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Roman towns had many facilities for everyday life.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-013",
+
+        question:
+            "What was a villa?",
+
+        options: [
+            "A large Roman country house",
+            "A Roman weapon",
+            "A type of road",
+            "A soldier's helmet"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Wealthy Romans often lived in villas.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-014",
+
+        question:
+            "How did Roman rule affect Britain?",
+
+        options: [
+            "It introduced new buildings, roads and customs",
+            "It had no effect",
+            "It removed all towns",
+            "It stopped farming"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Roman rule brought many changes to Britain.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-015",
+
+        question:
+            "What did Romans use coins for?",
+
+        options: [
+            "Buying and trading goods",
+            "Building walls",
+            "Writing messages",
+            "Making armour"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Coins were used for trade and buying goods.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-016",
+
+        question:
+            "Why were Roman towns often built near roads?",
+
+        options: [
+            "For easier travel and trade",
+            "To avoid people",
+            "To stop communication",
+            "To prevent farming"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Roads connected towns and helped movement.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-017",
+
+        question:
+            "What evidence helps historians learn about Roman Britain?",
+
+        options: [
+            "Buildings, roads, coins and written records",
+            "Modern websites only",
+            "Future inventions",
+            "Stories with no evidence"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Historians use evidence from the past to understand history.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-018",
+
+        question:
+            "Which statement about Roman soldiers is true?",
+
+        options: [
+            "They followed orders and worked together",
+            "They had no training",
+            "They never travelled",
+            "They avoided all battles"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Teamwork and discipline made the Roman army powerful.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain", "army"]
+    },
+
+    {
+        id: "hist-ral-019",
+
+        question:
+            "Why do we still see Roman roads today?",
+
+        options: [
+            "They were built strongly and lasted a long time",
+            "They were built recently",
+            "They were made of plastic",
+            "They were never used"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Roman engineering helped many roads survive for centuries.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["history", "year3", "roman-britain"]
+    },
+
+    {
+        id: "hist-ral-020",
+
+        question:
+            "Which sentence best describes Roman life in Britain?",
+
+        options: [
+            "Romans brought new buildings, roads, language and customs",
+            "Romans made no changes",
+            "Romans removed all towns",
+            "Romans only lived in forests"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Roman rule had a major impact on Britain.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["history", "year3", "roman-britain"]
+    }
+
+    ]
+
+};

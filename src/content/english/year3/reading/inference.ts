@@ -1,0 +1,521 @@
+import {
+    MultipleChoiceActivity,
+    SkillContent
+} from "../../types";
+
+export const inference: SkillContent = {
+
+    skillId: "inference",
+
+    title: "Inference",
+
+    description:
+        "Learn how to use clues in a text to work out information that is not directly stated.",
+
+    version: 1,
+
+    activities: <MultipleChoiceActivity[]>[
+
+    {
+        id: "eng-inf-001",
+
+        question:
+            "Read the passage:\n\nElla put on her coat, scarf and gloves before leaving the house.\n\nWhat is the weather probably like?",
+
+        options: [
+            "Cold",
+            "Hot",
+            "Windy",
+            "Stormy"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The text doesn't say it is cold, but wearing a coat, scarf and gloves gives us that clue.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-002",
+
+        question:
+            "Read the passage:\n\nBen rubbed his eyes and let out a big yawn.\n\nHow is Ben probably feeling?",
+
+        options: [
+            "Tired",
+            "Hungry",
+            "Excited",
+            "Angry"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Yawning and rubbing your eyes are clues that someone is tired.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-003",
+
+        question:
+            "Read the passage:\n\nSophie held an umbrella while raindrops splashed into puddles.\n\nWhat is the weather probably like?",
+
+        options: [
+            "Rainy",
+            "Sunny",
+            "Snowy",
+            "Foggy"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Umbrellas, raindrops and puddles all suggest it is raining.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-004",
+
+        question:
+            "Read the passage:\n\nJack smiled from ear to ear after scoring the winning goal.\n\nHow is Jack probably feeling?",
+
+        options: [
+            "Happy",
+            "Scared",
+            "Confused",
+            "Bored"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Smiling after scoring the winning goal suggests Jack feels happy.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-005",
+
+        question:
+            "Read the passage:\n\nThe puppy wagged its tail and jumped around when Mia came home.\n\nHow does the puppy probably feel?",
+
+        options: [
+            "Excited",
+            "Sleepy",
+            "Cross",
+            "Frightened"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Wagging its tail and jumping are clues that the puppy is excited.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-006",
+
+        question:
+            "Read the passage:\n\nTom covered his ears when the fireworks began.\n\nWhy did Tom cover his ears?",
+
+        options: [
+            "The fireworks were loud.",
+            "He was hungry.",
+            "He was reading.",
+            "He was cold."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "People often cover their ears when sounds are very loud.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-007",
+
+        question:
+            "Read the passage:\n\nThe ice cream dripped down Ava's hand before she could finish it.\n\nWhat can you infer?",
+
+        options: [
+            "The weather was warm.",
+            "It was snowing.",
+            "It was bedtime.",
+            "The shop was closed."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Ice cream melts quickly in warm weather.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-008",
+
+        question:
+            "Read the passage:\n\nLeo looked everywhere before finding his homework under the sofa.\n\nHow did Leo probably feel before he found it?",
+
+        options: [
+            "Worried",
+            "Proud",
+            "Sleepy",
+            "Hungry"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Looking everywhere suggests Leo was worried he had lost it.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-009",
+
+        question:
+            "Read the passage:\n\nThe audience clapped loudly when the play finished.\n\nWhat can you infer?",
+
+        options: [
+            "They enjoyed the play.",
+            "They were leaving school.",
+            "They were tired.",
+            "They wanted lunch."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "People usually clap loudly when they enjoy a performance.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-010",
+
+        question:
+            "What does inference mean when reading?",
+
+        options: [
+            "Using clues to work out information that is not directly stated",
+            "Copying words from the text",
+            "Looking up words in a dictionary",
+            "Reading aloud"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Inference means using clues from the text together with what you already know.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-011",
+
+        question:
+            "Read the passage:\n\nMaya carefully carried the birthday cake with both hands and walked very slowly.\n\nWhy did Maya walk slowly?",
+
+        options: [
+            "She did not want to drop the cake.",
+            "She had hurt her foot.",
+            "She was looking for her shoes.",
+            "She was talking on the phone."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Carrying a cake carefully suggests she wanted to avoid dropping it.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-012",
+
+        question:
+            "Read the passage:\n\nOliver closed the curtains and switched on the lamp.\n\nWhat can you infer?",
+
+        options: [
+            "It was becoming dark.",
+            "It was lunchtime.",
+            "It was raining heavily.",
+            "It was very noisy."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "People usually switch on a lamp when it is getting dark.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-013",
+
+        question:
+            "Read the passage:\n\nThe children were wearing sun hats and drinking plenty of water during their walk.\n\nWhat can you infer?",
+
+        options: [
+            "It was a hot day.",
+            "It was snowing.",
+            "It was very windy.",
+            "It was night-time."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Sun hats and drinking water are clues that the weather is hot.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-014",
+
+        question:
+            "Read the passage:\n\nRuby's hands were shaking before she walked onto the stage.\n\nHow was Ruby probably feeling?",
+
+        options: [
+            "Nervous",
+            "Sleepy",
+            "Relaxed",
+            "Bored"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Shaking hands before a performance often show that someone is nervous.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-015",
+
+        question:
+            "Read the passage:\n\nDad swept up the broken pieces of a plate from the kitchen floor.\n\nWhat probably happened earlier?",
+
+        options: [
+            "The plate was dropped.",
+            "The plate was washed.",
+            "The plate was put away.",
+            "The plate was bought."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Broken pieces on the floor suggest the plate had been dropped.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-016",
+
+        question:
+            "Read the passage:\n\nThe classroom was silent while everyone bent over their papers.\n\nWhat were the children probably doing?",
+
+        options: [
+            "Taking a test",
+            "Playing football",
+            "Eating lunch",
+            "Singing songs"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A quiet classroom with everyone focused on papers suggests they are taking a test.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-017",
+
+        question:
+            "Read the passage:\n\nAmir packed a towel, swimming costume and goggles into his bag.\n\nWhere is Amir probably going?",
+
+        options: [
+            "Swimming",
+            "Cycling",
+            "Shopping",
+            "Camping"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "These items are all clues that Amir is going swimming.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-018",
+
+        question:
+            "Read the passage:\n\nThe leaves fell from the trees and children kicked through them.\n\nWhich season is it most likely to be?",
+
+        options: [
+            "Autumn",
+            "Spring",
+            "Summer",
+            "Winter"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Falling leaves are a clue that it is autumn.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-019",
+
+        question:
+            "Read the passage:\n\nThe puppy hid under the table when it heard the thunder.\n\nWhy did the puppy hide?",
+
+        options: [
+            "It was frightened.",
+            "It was hungry.",
+            "It wanted to sleep.",
+            "It was looking for food."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Hiding during thunder suggests the puppy felt frightened.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["english", "reading", "inference"]
+    },
+
+    {
+        id: "eng-inf-020",
+
+        question:
+            "When answering an inference question, what should you do?",
+
+        options: [
+            "Use clues from the text and what you already know.",
+            "Only copy words from the passage.",
+            "Guess without reading.",
+            "Ignore the passage."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Good readers combine clues from the text with their own knowledge to make sensible inferences.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["english", "reading", "inference"]
+    }
+
+    ]
+
+};

@@ -1,0 +1,501 @@
+import {
+    MultipleChoiceActivity,
+    SkillContent
+} from "../../../types";
+
+export const protectingHearing: SkillContent = {
+
+    skillId: "protectingHearing",
+
+    title: "Protecting Hearing",
+
+    description:
+        "Learn how loud sounds can affect hearing and discover simple ways to protect your ears.",
+
+    version: 1,
+
+    activities: <MultipleChoiceActivity[]>[
+
+    {
+        id: "sci-hearing-001",
+
+        question: "Which part of your body is used for hearing?",
+
+        options: [
+            "Ears",
+            "Eyes",
+            "Hands",
+            "Feet"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Your ears detect sound vibrations and allow you to hear.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "sound", "hearing"]
+    },
+
+    {
+        id: "sci-hearing-002",
+
+        question: "Very loud sounds can...",
+
+        options: [
+            "Damage your hearing",
+            "Improve your eyesight",
+            "Change your hair colour",
+            "Make you taller"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Very loud sounds can damage the delicate parts of your ears.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "hearing", "safety"]
+    },
+
+    {
+        id: "sci-hearing-003",
+
+        question: "Which activity is most likely to be very loud?",
+
+        options: [
+            "Watching fireworks",
+            "Reading a book",
+            "Drawing a picture",
+            "Planting seeds"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Fireworks produce very loud sounds that can affect hearing.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "hearing"]
+    },
+
+    {
+        id: "sci-hearing-004",
+
+        question: "What can you wear to protect your hearing in a very noisy place?",
+
+        options: [
+            "Ear defenders",
+            "Sunglasses",
+            "Gloves",
+            "A scarf"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Ear defenders reduce the amount of loud sound reaching your ears.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "hearing", "safety"]
+    },
+
+    {
+        id: "sci-hearing-005",
+
+        question: "If music is too loud through headphones, you should...",
+
+        options: [
+            "Turn the volume down",
+            "Turn the volume up",
+            "Shake the headphones",
+            "Cover your eyes"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Keeping the volume lower helps protect your hearing.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "hearing", "headphones"]
+    },
+
+    {
+        id: "sci-hearing-006",
+
+        question: "Which sound is usually safer for your ears?",
+
+        options: [
+            "A quiet conversation",
+            "A jet taking off nearby",
+            "A loud concert speaker",
+            "A firework exploding beside you"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Quieter sounds are much less likely to damage hearing.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "hearing"]
+    },
+
+    {
+        id: "sci-hearing-007",
+
+        question: "Why should you move away from a very loud sound if possible?",
+
+        options: [
+            "The sound becomes quieter.",
+            "The sound becomes higher-pitched.",
+            "The sound disappears.",
+            "Your ears become stronger."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Sound becomes quieter as you move farther from the source.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["science", "hearing", "distance"]
+    },
+
+    {
+        id: "sci-hearing-008",
+
+        question: "Which action helps protect your hearing?",
+
+        options: [
+            "Taking breaks from loud noise",
+            "Standing next to loud speakers",
+            "Turning music to maximum volume",
+            "Listening to loud sounds for many hours"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Giving your ears regular breaks helps protect them.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "hearing", "safety"]
+    },
+
+    {
+        id: "sci-hearing-009",
+
+        question: "Which statement is true?",
+
+        options: [
+            "Your hearing is important and should be protected.",
+            "Loud sounds can never damage hearing.",
+            "Only adults need to protect their hearing.",
+            "Ears cannot be damaged."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Looking after your hearing is important at every age.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "hearing"]
+    },
+
+    {
+        id: "sci-hearing-010",
+
+        question: "What should you do if a sound feels painfully loud?",
+
+        options: [
+            "Move away or protect your ears",
+            "Stay where you are",
+            "Listen for longer",
+            "Turn it up even more"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Moving away or using hearing protection reduces the risk of damage.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "hearing", "safety"]
+    },
+
+    {
+        id: "sci-hearing-011",
+
+        question: "Why are ear defenders useful?",
+
+        options: [
+            "They reduce the amount of sound reaching your ears.",
+            "They make sounds higher-pitched.",
+            "They stop all sounds completely.",
+            "They improve your eyesight."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Ear defenders reduce loud sounds to help protect hearing.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "hearing", "safety"]
+    },
+
+    {
+        id: "sci-hearing-012",
+
+        question: "Why is standing farther from a loudspeaker safer?",
+
+        options: [
+            "The sound is quieter farther away.",
+            "The speaker stops working.",
+            "The pitch becomes lower.",
+            "The music ends."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "As distance increases, the sound reaching your ears becomes quieter.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "distance", "hearing"]
+    },
+
+    {
+        id: "sci-hearing-013",
+
+        question: "Which situation is best for protecting your hearing?",
+
+        options: [
+            "Listening to music at a sensible volume",
+            "Using maximum volume every day",
+            "Standing beside fireworks",
+            "Putting your ear next to a loudspeaker"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Keeping music at a sensible volume helps protect your ears.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "hearing", "headphones"]
+    },
+
+    {
+        id: "sci-hearing-014",
+
+        question: "Why should workers on noisy building sites wear ear protection?",
+
+        options: [
+            "To reduce the risk of hearing damage",
+            "To improve their eyesight",
+            "To help them lift heavy objects",
+            "To make sounds louder"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Construction equipment can produce sounds loud enough to damage hearing.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "hearing", "safety"]
+    },
+
+    {
+        id: "sci-hearing-015",
+
+        question: "What is the safest choice when using headphones for a long time?",
+
+        options: [
+            "Keep the volume low and take breaks",
+            "Use the highest possible volume",
+            "Wear only one headphone at full volume",
+            "Increase the volume every hour"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Lower volume and regular breaks help protect your hearing.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "headphones", "hearing"]
+    },
+
+    {
+        id: "sci-hearing-016",
+
+        question: "Which of these is most likely to damage hearing?",
+
+        options: [
+            "Listening to loud music for a long time",
+            "Talking quietly with a friend",
+            "Reading silently",
+            "Watching fish in a pond"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Long periods of loud sound increase the risk of hearing damage.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "hearing"]
+    },
+
+    {
+        id: "sci-hearing-017",
+
+        question: "What should you do before using noisy machinery?",
+
+        options: [
+            "Wear suitable hearing protection if needed.",
+            "Cover your eyes.",
+            "Take off your shoes.",
+            "Speak more loudly."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Hearing protection helps reduce the amount of loud sound reaching your ears.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "hearing", "safety"]
+    },
+
+    {
+        id: "sci-hearing-018",
+
+        question: "Why are regular quiet breaks useful in noisy places?",
+
+        options: [
+            "They give your ears time to recover.",
+            "They make sounds louder.",
+            "They increase the pitch of sounds.",
+            "They stop sound travelling."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Reducing your exposure to loud sounds helps protect your hearing.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "hearing", "safety"]
+    },
+
+    {
+        id: "sci-hearing-019",
+
+        question: "Which advice is best for looking after your hearing?",
+
+        options: [
+            "Avoid loud sounds when possible and use ear protection when needed.",
+            "Always listen at full volume.",
+            "Stand close to loudspeakers.",
+            "Ignore painfully loud noises."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Limiting exposure to loud sounds is the best way to protect your hearing.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "hearing", "safety"]
+    },
+
+    {
+        id: "sci-hearing-020",
+
+        question: "Which sentence best explains how to protect your hearing?",
+
+        options: [
+            "Keep sounds at a sensible volume, move away from very loud noises and wear hearing protection when needed.",
+            "Listen to loud sounds for as long as possible.",
+            "Only protect your hearing indoors.",
+            "Hearing protection is never needed."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Simple choices such as reducing volume, increasing distance and wearing ear defenders help keep your hearing healthy.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["science", "sound", "hearing", "safety"]
+    }
+
+    ]
+
+};

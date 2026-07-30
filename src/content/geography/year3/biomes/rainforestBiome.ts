@@ -1,0 +1,521 @@
+import {
+    MultipleChoiceActivity,
+    SkillContent
+} from "../../types";
+
+export const rainforestBiome: SkillContent = {
+
+    skillId: "rainforestBiome",
+
+    title: "The Tropical Rainforest",
+
+    description:
+        "Learn where tropical rainforests are found, their layers, plants, animals and why they are important.",
+
+    version: 1,
+
+    activities: <MultipleChoiceActivity[]>[
+
+    {
+        id: "geo-rf-001",
+
+        question:
+            "Where are tropical rainforests usually found?",
+
+        options: [
+            "Near the equator",
+            "Near the North Pole",
+            "In very cold mountain areas",
+            "Only in Europe"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Tropical rainforests are usually found in warm areas close to the equator.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-002",
+
+        question:
+            "What is the climate like in a tropical rainforest?",
+
+        options: [
+            "Hot and wet",
+            "Cold and dry",
+            "Frozen all year",
+            "Cool with no rainfall"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rainforests have high temperatures and lots of rainfall.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-003",
+
+        question:
+            "Why do tropical rainforests have many different plants and animals?",
+
+        options: [
+            "The warm, wet conditions support many living things",
+            "Nothing can survive there",
+            "They have no sunlight",
+            "They are very dry"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rainforests have conditions that allow many species to live there.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-004",
+
+        question:
+            "What does biodiversity mean?",
+
+        options: [
+            "The variety of living things in an area",
+            "The amount of rainfall",
+            "The height of trees",
+            "The number of roads"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rainforests have high biodiversity because they contain many species.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-005",
+
+        question:
+            "What is the canopy?",
+
+        options: [
+            "The layer formed by the tops of rainforest trees",
+            "The forest floor",
+            "The roots underground",
+            "A river through the forest"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The canopy is the upper layer where tree branches and leaves meet.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-006",
+
+        question:
+            "Which rainforest layer receives the most sunlight?",
+
+        options: [
+            "The canopy",
+            "The forest floor",
+            "The roots",
+            "The soil layer"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The canopy receives most of the sunlight because it is at the top.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-007",
+
+        question:
+            "What is the forest floor like?",
+
+        options: [
+            "Dark because little sunlight reaches it",
+            "Always covered in snow",
+            "Very dry with no plants",
+            "Above the treetops"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The thick canopy blocks much of the sunlight from reaching the forest floor.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-008",
+
+        question:
+            "Why do rainforest trees grow very tall?",
+
+        options: [
+            "They compete for sunlight",
+            "They are made taller by people",
+            "There is no sunlight",
+            "They grow underwater"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Trees grow upwards to reach sunlight above other plants.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-009",
+
+        question:
+            "Which animal might live in a rainforest?",
+
+        options: [
+            "Monkey",
+            "Polar bear",
+            "Penguin",
+            "Arctic fox"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Many animals, including monkeys, live in tropical rainforests.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-010",
+
+        question:
+            "Why are rainforest plants important?",
+
+        options: [
+            "They provide food and habitats for many species",
+            "They stop all life",
+            "They remove rainfall",
+            "They create deserts"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Plants provide shelter and food for rainforest animals.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-011",
+
+        question:
+            "What is deforestation?",
+
+        options: [
+            "The removal of large areas of forest",
+            "Planting new trees",
+            "Studying animals",
+            "Measuring rainfall"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Deforestation happens when forests are cleared.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-012",
+
+        question:
+            "Why are rainforests cut down?",
+
+        options: [
+            "For activities such as farming and obtaining resources",
+            "Because trees cannot grow",
+            "Because animals remove them",
+            "Because rainforests are empty"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "People may clear rainforests for farming, roads and materials.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-013",
+
+        question:
+            "Why are rainforests important for Earth?",
+
+        options: [
+            "They support biodiversity and help regulate climate",
+            "They have no effect",
+            "They stop all rainfall",
+            "They create oceans"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rainforests are important ecosystems with many environmental roles.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-014",
+
+        question:
+            "What is an indigenous community?",
+
+        options: [
+            "A group of people who have lived in an area for a long time",
+            "A type of plant",
+            "A weather event",
+            "A mountain range"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Many indigenous communities have lived in rainforest areas for generations.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-015",
+
+        question:
+            "Why are rainforest soils often thin?",
+
+        options: [
+            "Heavy rainfall can wash nutrients away",
+            "There is no rain",
+            "The ground is frozen",
+            "Trees remove all soil"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rain can wash nutrients deeper into the ground.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-016",
+
+        question:
+            "How do rainforest animals survive?",
+
+        options: [
+            "They have adaptations suited to their environment",
+            "They do not need habitats",
+            "They cannot survive there",
+            "They all live the same way"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Animals have features that help them survive in rainforest conditions.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "animals"]
+    },
+
+    {
+        id: "geo-rf-017",
+
+        question:
+            "What is a tropical rainforest ecosystem made up of?",
+
+        options: [
+            "Plants, animals and their environment",
+            "Only trees",
+            "Only rivers",
+            "Only soil"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "An ecosystem includes living things and their surroundings.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "ecosystems"]
+    },
+
+    {
+        id: "geo-rf-018",
+
+        question:
+            "How can people help protect rainforests?",
+
+        options: [
+            "By conserving forests and reducing destruction",
+            "By removing all trees",
+            "By increasing pollution",
+            "By destroying habitats"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Conservation helps protect rainforest ecosystems.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "environment"]
+    },
+
+    {
+        id: "geo-rf-019",
+
+        question:
+            "Why are rainforests called 'rainforests'?",
+
+        options: [
+            "Because they receive large amounts of rainfall",
+            "Because they create all rain",
+            "Because they are always flooded",
+            "Because they have no trees"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The name comes from their high rainfall levels.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rainforest"]
+    },
+
+    {
+        id: "geo-rf-020",
+
+        question:
+            "Which sentence best describes a tropical rainforest?",
+
+        options: [
+            "A warm, wet biome with many plants and animals",
+            "A cold area with ice only",
+            "A dry area with little life",
+            "A place without trees"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Tropical rainforests are warm, wet ecosystems with high biodiversity.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["geography", "year3", "rainforest"]
+    }
+
+    ]
+
+};

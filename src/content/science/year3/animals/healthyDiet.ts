@@ -1,0 +1,584 @@
+import {
+    MultipleChoiceActivity,
+    SkillContent
+} from "../../../types";
+
+export const healthyDiet: SkillContent = {
+
+    skillId: "healthyDiet",
+
+    title: "Healthy Diet",
+
+    description:
+        "Learn why humans and other animals need the right types and amounts of food to stay healthy.",
+
+    version: 1,
+
+    activities: <MultipleChoiceActivity[]>[
+
+    {
+        id: "sci-healthy-diet-001",
+
+        question: "Why do humans need food?",
+
+        options: [
+            "To stay healthy and have energy",
+            "To change the weather",
+            "To make sunlight",
+            "To help plants grow"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Food gives our bodies energy and the nutrients needed to stay healthy.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: [
+            "science",
+            "animals",
+            "healthy-diet",
+            "nutrition"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-002",
+
+        question: "Which food is a healthy snack?",
+
+        options: [
+            "An apple",
+            "A bag of sweets",
+            "A chocolate bar",
+            "A fizzy drink"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Fruit is a healthy snack because it contains useful nutrients.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "food"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-003",
+
+        question: "What helps keep your body healthy?",
+
+        options: [
+            "Eating a balanced diet",
+            "Eating only sweets",
+            "Skipping every meal",
+            "Drinking only fizzy drinks"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A balanced diet includes different types of healthy foods.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "balanced-diet"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-004",
+
+        question: "Which drink is usually the healthiest choice?",
+
+        options: [
+            "Water",
+            "Fizzy drink",
+            "Energy drink",
+            "Sugary milkshake"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Water keeps your body hydrated without added sugar.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "water"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-005",
+
+        question: "Which food comes from the fruit group?",
+
+        options: [
+            "Banana",
+            "Chicken",
+            "Cheese",
+            "Fish"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Bananas are fruit and are part of a healthy balanced diet.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "fruit"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-006",
+
+        question: "Why is it important to eat different kinds of food?",
+
+        options: [
+            "Different foods provide different nutrients.",
+            "So food tastes the same.",
+            "To avoid drinking water.",
+            "Because only fruit gives energy."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Our bodies need a variety of nutrients from different foods.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "nutrition"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-007",
+
+        question: "Which meal is the healthiest?",
+
+        options: [
+            "Chicken, vegetables and rice",
+            "Only sweets",
+            "Only crisps",
+            "Only chocolate"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A balanced meal contains different food groups.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "balanced-diet"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-008",
+
+        question: "Which food helps you eat a balanced diet?",
+
+        options: [
+            "Vegetables",
+            "Sweets",
+            "Chocolate",
+            "Lollipops"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Vegetables are an important part of a healthy diet.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "vegetables"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-009",
+
+        question: "What does a balanced diet include?",
+
+        options: [
+            "A variety of different healthy foods",
+            "Only fruit",
+            "Only meat",
+            "Only cakes"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A balanced diet includes foods from different food groups.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "balanced-diet"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-010",
+
+        question: "Which statement is true?",
+
+        options: [
+            "Humans need the right types and amounts of food.",
+            "Humans should only eat sugary foods.",
+            "Water is not important.",
+            "Vegetables are unhealthy."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Eating the right types and amounts of food helps people stay healthy.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "nutrition"
+        ]
+    },
+        {
+        id: "sci-healthy-diet-011",
+
+        question: "Why do people need a balanced diet?",
+
+        options: [
+            "To stay healthy and get the nutrients they need",
+            "To make their bones disappear",
+            "To stop drinking water",
+            "To avoid eating fruit"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A balanced diet provides the nutrients your body needs to grow and stay healthy.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "balanced-diet",
+            "nutrition"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-012",
+
+        question: "Which lunch is the healthiest?",
+
+        options: [
+            "A sandwich, carrot sticks, an apple and water",
+            "Chocolate and fizzy drink",
+            "Only crisps",
+            "Only sweets"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A healthy lunch contains foods from different food groups and a healthy drink.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "balanced-diet"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-013",
+
+        question: "Which food should usually be eaten in smaller amounts?",
+
+        options: [
+            "Sweets",
+            "Vegetables",
+            "Fruit",
+            "Wholemeal bread"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Foods high in sugar should usually be eaten less often than healthier foods.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "nutrition"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-014",
+
+        question: "Which food is a vegetable?",
+
+        options: [
+            "Broccoli",
+            "Banana",
+            "Chicken",
+            "Cheese"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Broccoli is a vegetable and is an important part of a balanced diet.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "vegetables"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-015",
+
+        question: "What is one reason to drink water every day?",
+
+        options: [
+            "It helps keep your body hydrated.",
+            "It replaces all food.",
+            "It makes your bones shorter.",
+            "It stops you from exercising."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Water helps your body stay hydrated so it can work properly.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "water"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-016",
+
+        question: "Which choice is part of a healthy lifestyle?",
+
+        options: [
+            "Eating a variety of healthy foods",
+            "Eating sweets at every meal",
+            "Never drinking water",
+            "Skipping meals every day"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A healthy lifestyle includes eating a balanced variety of foods.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "balanced-diet"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-017",
+
+        question: "Which meal contains foods from different food groups?",
+
+        options: [
+            "Fish, potatoes and peas",
+            "Only biscuits",
+            "Only sweets",
+            "Only crisps"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Healthy meals usually include foods from more than one food group.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "balanced-diet"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-018",
+
+        question: "Why shouldn't people eat lots of sugary foods every day?",
+
+        options: [
+            "Too much sugar is not part of a balanced diet.",
+            "Sugar helps vegetables grow.",
+            "Sugar replaces water.",
+            "Sugar makes muscles stronger than exercise."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Sugary foods are best eaten only in small amounts as part of a balanced diet.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "sugar"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-019",
+
+        question: "Which statement about healthy eating is correct?",
+
+        options: [
+            "Eating different healthy foods helps your body work well.",
+            "Only fruit is needed.",
+            "Only meat is needed.",
+            "Only sweets are needed."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Different foods provide different nutrients that your body needs.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "nutrition"
+        ]
+    },
+
+    {
+        id: "sci-healthy-diet-020",
+
+        question: "What is the best summary of a healthy diet?",
+
+        options: [
+            "Eat a variety of foods in the right amounts and drink plenty of water.",
+            "Eat only sweets.",
+            "Drink fizzy drinks instead of water.",
+            "Only eat one type of food."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A healthy diet includes a variety of foods, the right amounts and enough water.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: [
+            "science",
+            "healthy-diet",
+            "balanced-diet",
+            "nutrition",
+            "water"
+        ]
+    }
+
+    ]
+
+};

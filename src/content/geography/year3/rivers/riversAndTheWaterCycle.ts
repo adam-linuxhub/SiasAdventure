@@ -1,0 +1,521 @@
+import {
+    MultipleChoiceActivity,
+    SkillContent
+} from "../../types";
+
+export const riversAndTheWaterCycle: SkillContent = {
+
+    skillId: "riversAndTheWaterCycle",
+
+    title: "Rivers and the Water Cycle",
+
+    description:
+        "Learn how rivers are connected to the water cycle, including evaporation, condensation and precipitation.",
+
+    version: 1,
+
+    activities: <MultipleChoiceActivity[]>[
+
+    {
+        id: "geo-wc-001",
+
+        question:
+            "What is the water cycle?",
+
+        options: [
+            "The continuous movement of water around Earth",
+            "The journey of a train",
+            "The movement of rocks only",
+            "The changing of seasons"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The water cycle describes how water moves between the land, oceans and atmosphere.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rivers", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-002",
+
+        question:
+            "What happens during evaporation?",
+
+        options: [
+            "Water turns into water vapour",
+            "Water freezes into ice",
+            "Rain falls from clouds",
+            "Water becomes soil"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Heat from the Sun causes liquid water to change into water vapour.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-003",
+
+        question:
+            "What provides the energy for evaporation?",
+
+        options: [
+            "The Sun",
+            "The Moon",
+            "Rocks",
+            "Wind only"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The Sun heats water and causes evaporation.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-004",
+
+        question:
+            "What is condensation?",
+
+        options: [
+            "When water vapour cools and forms tiny water droplets",
+            "When rivers stop flowing",
+            "When water disappears",
+            "When soil dries"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Condensation happens when water vapour cools and turns into droplets.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-005",
+
+        question:
+            "What forms when water droplets collect in the sky?",
+
+        options: [
+            "Clouds",
+            "Mountains",
+            "Rivers",
+            "Lakes"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Clouds form when many tiny water droplets gather together.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-006",
+
+        question:
+            "What is precipitation?",
+
+        options: [
+            "Water falling from clouds as rain, snow or hail",
+            "Water flowing uphill",
+            "Water becoming a cloud",
+            "Water underground only"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Precipitation is water that falls from clouds.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-007",
+
+        question:
+            "How do rivers get water?",
+
+        options: [
+            "From rainfall and water flowing across land",
+            "From underground machines",
+            "From clouds directly only",
+            "From buildings"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rain and other water sources feed rivers.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rivers"]
+    },
+
+    {
+        id: "geo-wc-008",
+
+        question:
+            "What happens to rainwater after it reaches the ground?",
+
+        options: [
+            "It can flow into rivers, lakes or soak into the soil",
+            "It disappears forever",
+            "It becomes sunlight",
+            "It turns into rocks"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Water can collect in rivers or move into the ground.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-009",
+
+        question:
+            "What is collection in the water cycle?",
+
+        options: [
+            "Water gathering in places such as rivers, lakes and oceans",
+            "Water turning into vapour",
+            "Clouds forming",
+            "Rain falling"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Collection happens when water gathers together.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-010",
+
+        question:
+            "Why are rivers part of the water cycle?",
+
+        options: [
+            "They move collected water across the land",
+            "They create clouds",
+            "They stop rainfall",
+            "They remove water from Earth"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rivers transport water through the water cycle.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rivers", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-011",
+
+        question:
+            "What happens when water vapour rises into the atmosphere?",
+
+        options: [
+            "It can cool and form clouds",
+            "It becomes soil",
+            "It becomes a river immediately",
+            "It disappears permanently"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Cooling water vapour can form clouds through condensation.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-012",
+
+        question:
+            "Why are rivers important for plants and animals?",
+
+        options: [
+            "They provide water needed for life",
+            "They remove all habitats",
+            "They prevent growth",
+            "They stop rainfall"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Many living things depend on freshwater from rivers.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rivers"]
+    },
+
+    {
+        id: "geo-wc-013",
+
+        question:
+            "What can happen to water in a river over time?",
+
+        options: [
+            "It can evaporate and return to the atmosphere",
+            "It stops being water",
+            "It becomes metal",
+            "It leaves Earth forever"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "River water can evaporate and continue through the water cycle.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-014",
+
+        question:
+            "What causes rain to fall from clouds?",
+
+        options: [
+            "Water droplets become heavy and fall",
+            "Clouds disappear instantly",
+            "Rivers push clouds",
+            "The ground moves"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "When droplets become large and heavy, they fall as precipitation.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-015",
+
+        question:
+            "How does the water cycle continue?",
+
+        options: [
+            "Water keeps moving through evaporation, condensation and precipitation",
+            "Water is used once and disappears",
+            "Only rivers move water",
+            "Only clouds contain water"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The water cycle is a continuous process.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-016",
+
+        question:
+            "What happens when snow and ice melt?",
+
+        options: [
+            "They become liquid water",
+            "They become clouds immediately",
+            "They become rocks",
+            "They disappear"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Melting changes solid water into liquid water.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-017",
+
+        question:
+            "Why do rivers often increase in size downstream?",
+
+        options: [
+            "More water joins them from rainfall and tributaries",
+            "Water leaves them completely",
+            "They become smaller",
+            "They stop flowing"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Tributaries and rainfall add more water as rivers travel.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rivers"]
+    },
+
+    {
+        id: "geo-wc-018",
+
+        question:
+            "What is the connection between rainfall and rivers?",
+
+        options: [
+            "Rainfall provides water that can flow into rivers",
+            "Rain stops rivers flowing",
+            "Rain removes all water",
+            "Rain creates mountains"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rain is an important source of water for rivers.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "year3", "rivers"]
+    },
+
+    {
+        id: "geo-wc-019",
+
+        question:
+            "Which order shows part of the water cycle correctly?",
+
+        options: [
+            "Evaporation → condensation → precipitation",
+            "Rain → Sun → snow",
+            "River → mountain → rock",
+            "Cloud → river → evaporation only"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Water evaporates, forms clouds through condensation and falls as precipitation.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["geography", "year3", "water-cycle"]
+    },
+
+    {
+        id: "geo-wc-020",
+
+        question:
+            "Which sentence best describes rivers and the water cycle?",
+
+        options: [
+            "Rivers move water as part of Earth's continuous water cycle",
+            "Rivers are separate from the water cycle",
+            "Rivers create all water",
+            "Rivers never change"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rivers are an important part of how water moves around Earth.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 25,
+
+        tags: ["geography", "year3", "rivers", "water-cycle"]
+    }
+
+    ]
+
+};

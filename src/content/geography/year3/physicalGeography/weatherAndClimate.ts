@@ -1,0 +1,501 @@
+import {
+    MultipleChoiceActivity,
+    SkillContent
+} from "../../types";
+
+export const weatherAndClimate: SkillContent = {
+
+    skillId: "weatherAndClimate",
+
+    title: "Weather and Climate",
+
+    description:
+        "Learn the difference between weather and climate, the seasons and common weather conditions.",
+
+    version: 1,
+
+    activities: <MultipleChoiceActivity[]>[
+
+    {
+        id: "geo-weather-001",
+
+        question: "What is weather?",
+
+        options: [
+            "The conditions outside at a particular time",
+            "The average weather over many years",
+            "A type of mountain",
+            "A map symbol"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Weather describes what it is like outside right now or over a short period of time.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["geography", "weather"]
+    },
+
+    {
+        id: "geo-weather-002",
+
+        question: "Which of these is an example of weather?",
+
+        options: [
+            "Rain",
+            "A river",
+            "A mountain",
+            "A road"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Rain is a weather condition.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["geography", "weather"]
+    },
+
+    {
+        id: "geo-weather-003",
+
+        question: "What is climate?",
+
+        options: [
+            "The usual weather in a place over many years",
+            "Today's weather",
+            "A strong wind",
+            "A map"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Climate describes the usual weather in a place over a long period of time.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["geography", "climate"]
+    },
+
+    {
+        id: "geo-weather-004",
+
+        question: "How many seasons are there in the UK?",
+
+        options: [
+            "Four",
+            "Two",
+            "Three",
+            "Five"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "The UK has four seasons: spring, summer, autumn and winter.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["geography", "seasons"]
+    },
+
+    {
+        id: "geo-weather-005",
+
+        question: "Which season is usually the warmest?",
+
+        options: [
+            "Summer",
+            "Winter",
+            "Autumn",
+            "Spring"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Summer is usually the warmest season in the UK.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["geography", "summer"]
+    },
+
+    {
+        id: "geo-weather-006",
+
+        question: "Which season is usually the coldest?",
+
+        options: [
+            "Winter",
+            "Summer",
+            "Spring",
+            "Autumn"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Winter is usually the coldest season.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["geography", "winter"]
+    },
+
+    {
+        id: "geo-weather-007",
+
+        question: "Which instrument measures temperature?",
+
+        options: [
+            "Thermometer",
+            "Compass",
+            "Ruler",
+            "Map"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A thermometer measures how hot or cold it is.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 15,
+
+        tags: ["geography", "temperature"]
+    },
+
+    {
+        id: "geo-weather-008",
+
+        question: "Which weather condition might need an umbrella?",
+
+        options: [
+            "Rain",
+            "Sunshine",
+            "Cloud",
+            "Fog"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Umbrellas help keep us dry when it rains.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "rain"]
+    },
+
+    {
+        id: "geo-weather-009",
+
+        question: "Which weather condition might make trees sway?",
+
+        options: [
+            "Wind",
+            "Fog",
+            "Sunshine",
+            "Cloud"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Strong winds can make trees move.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "wind"]
+    },
+
+    {
+        id: "geo-weather-010",
+
+        question: "Which statement is true?",
+
+        options: [
+            "Weather can change from day to day.",
+            "Weather never changes.",
+            "Climate changes every hour.",
+            "Every country has the same weather."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Weather changes frequently, sometimes several times in one day.",
+
+        difficulty: 1,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "weather"]
+    },
+
+    {
+        id: "geo-weather-011",
+
+        question: "What is the main difference between weather and climate?",
+
+        options: [
+            "Weather is short-term, climate is long-term.",
+            "Climate changes every hour.",
+            "Weather lasts for years.",
+            "They mean exactly the same thing."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Weather describes current conditions, while climate describes usual conditions over many years.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "weather", "climate"]
+    },
+
+    {
+        id: "geo-weather-012",
+
+        question: "Why do we wear warm coats in winter?",
+
+        options: [
+            "Winter is usually colder.",
+            "Winter has longer rivers.",
+            "Winter has more mountains.",
+            "Winter has fewer roads."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Warm clothes help keep us comfortable in cold weather.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "winter"]
+    },
+
+    {
+        id: "geo-weather-013",
+
+        question: "Why might people wear hats and use sunscreen in summer?",
+
+        options: [
+            "To protect themselves from strong sunshine",
+            "To keep warm",
+            "To stop the rain",
+            "To help them swim"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Sun hats and sunscreen help protect people from the Sun's rays.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "summer"]
+    },
+
+    {
+        id: "geo-weather-014",
+
+        question: "Why is a weather forecast useful?",
+
+        options: [
+            "It helps people plan ahead.",
+            "It changes the weather.",
+            "It measures mountains.",
+            "It builds roads."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Weather forecasts help people decide what to wear and what activities to plan.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "forecast"]
+    },
+
+    {
+        id: "geo-weather-015",
+
+        question: "Which season often has flowers beginning to bloom?",
+
+        options: [
+            "Spring",
+            "Winter",
+            "Autumn",
+            "Summer"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Many plants begin growing and flowering during spring.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "spring"]
+    },
+
+    {
+        id: "geo-weather-016",
+
+        question: "Which season is often linked with leaves changing colour?",
+
+        options: [
+            "Autumn",
+            "Spring",
+            "Summer",
+            "Winter"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "In autumn many trees change colour before their leaves fall.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "autumn"]
+    },
+
+    {
+        id: "geo-weather-017",
+
+        question: "Why can weather affect our plans?",
+
+        options: [
+            "Different weather is suitable for different activities.",
+            "Weather changes maps.",
+            "Weather moves mountains.",
+            "Weather changes compass directions."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Heavy rain, strong winds or sunshine can affect what we choose to do.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "weather"]
+    },
+
+    {
+        id: "geo-weather-018",
+
+        question: "Which of these is part of a weather forecast?",
+
+        options: [
+            "Expected rain and temperature",
+            "Population size",
+            "Mountain height",
+            "Road names"
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Forecasts often include temperature, rain, wind and sunshine.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "forecast"]
+    },
+
+    {
+        id: "geo-weather-019",
+
+        question: "Why can two countries have different climates?",
+
+        options: [
+            "They are in different parts of the world.",
+            "They use different maps.",
+            "They speak different languages.",
+            "They have different flags."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "A country's location affects its usual weather over many years.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "climate"]
+    },
+
+    {
+        id: "geo-weather-020",
+
+        question: "Which sentence best describes weather and climate?",
+
+        options: [
+            "Weather is what happens now, while climate is the usual weather over many years.",
+            "Weather and climate are exactly the same thing.",
+            "Climate changes every day.",
+            "Weather lasts for hundreds of years."
+        ],
+
+        answer: 0,
+
+        explanation:
+            "Weather describes short-term conditions, while climate describes long-term patterns.",
+
+        difficulty: 2,
+
+        estimatedSeconds: 20,
+
+        tags: ["geography", "weather", "climate", "physical-geography"]
+    }
+
+    ]
+
+};
