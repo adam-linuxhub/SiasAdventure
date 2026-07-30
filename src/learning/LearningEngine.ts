@@ -49,13 +49,13 @@ export class LearningEngine {
 
     getSkillId(): string {
 
-        return this.skill.id;
+        return this.skill.skillId;
 
     }
 
-    getSkillName(): string {
+   getSkillName(): string {
 
-        return this.skill.name;
+        return this.skill.title;
 
     }
 
@@ -187,7 +187,7 @@ export class LearningEngine {
 
         const change = this.getConfidenceChange(
 
-            activity.difficulty,
+            activity.difficulty ?? 3,
 
             correct
 

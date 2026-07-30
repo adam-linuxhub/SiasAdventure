@@ -5,30 +5,40 @@ export type LearningStage =
     | "master";
 
 export type ActivityId = string;
-
 export type SkillId = string;
 
 export interface MultipleChoiceActivity {
 
-    id: string;
+    id: ActivityId;
+
+    skillId: SkillId;
+
+    stage: LearningStage;
 
     question: string;
 
     options: string[];
 
-    answer: number;
+    correctAnswer: string;
 
     explanation: string;
 
-    difficulty: 1 | 2 | 3 | 4 | 5;
+    /*
+     * Optional metadata
+     */
 
-    estimatedSeconds: number;
+    difficulty?: 1 | 2 | 3 | 4 | 5;
 
-    tags: string[];
+    estimatedSeconds?: number;
+
+    tags?: string[];
+
+    hint?: string;
 
 }
 
 export interface SkillContent {
+
     skillId: SkillId;
 
     title: string;
@@ -38,4 +48,5 @@ export interface SkillContent {
     version: 1;
 
     activities: MultipleChoiceActivity[];
+
 }

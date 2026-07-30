@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const desertBiome: SkillContent = {
 
