@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const mapSymbols: SkillContent = {
 
@@ -28,13 +28,11 @@ export const mapSymbols: SkillContent = {
             "To decorate the map"
         ],
 
-        answer: 0,
-
         explanation:
             "Symbols help us quickly recognise different features on a map.",
 
         difficulty: 1,
-
+        correctAnswer: "To show places using simple pictures",
         estimatedSeconds: 15,
 
         tags: ["geography", "maps", "symbols"]
@@ -52,13 +50,11 @@ export const mapSymbols: SkillContent = {
             "The compass"
         ],
 
-        answer: 0,
-
         explanation:
             "A map key explains the meaning of each symbol.",
 
         difficulty: 1,
-
+        correctAnswer: "The key",
         estimatedSeconds: 15,
 
         tags: ["geography", "map-key"]
@@ -76,13 +72,11 @@ export const mapSymbols: SkillContent = {
             "The scale"
         ],
 
-        answer: 0,
-
         explanation:
             "The key explains what each symbol represents.",
 
         difficulty: 1,
-
+        correctAnswer: "The key",
         estimatedSeconds: 15,
 
         tags: ["geography", "map-key"]
@@ -100,13 +94,11 @@ export const mapSymbols: SkillContent = {
             "Footpath"
         ],
 
-        answer: 0,
-
         explanation:
             "Many maps use blue to show rivers and other water features.",
 
         difficulty: 1,
-
+        correctAnswer: "River",
         estimatedSeconds: 15,
 
         tags: ["geography", "symbols", "rivers"]
@@ -124,13 +116,11 @@ export const mapSymbols: SkillContent = {
             "Bridge"
         ],
 
-        answer: 0,
-
         explanation:
             "Tree symbols are commonly used to show wooded areas.",
 
         difficulty: 1,
-
+        correctAnswer: "Woodland or forest",
         estimatedSeconds: 15,
 
         tags: ["geography", "symbols"]
@@ -148,13 +138,11 @@ export const mapSymbols: SkillContent = {
             "They make maps colourful"
         ],
 
-        answer: 0,
-
         explanation:
             "Simple symbols help people read maps quickly.",
 
         difficulty: 1,
-
+        correctAnswer: "They keep maps simple and easy to read",
         estimatedSeconds: 15,
 
         tags: ["geography", "maps"]
@@ -172,13 +160,11 @@ export const mapSymbols: SkillContent = {
             "Count roads"
         ],
 
-        answer: 0,
-
         explanation:
             "The key explains each symbol used on the map.",
 
         difficulty: 1,
-
+        correctAnswer: "Understand the symbols",
         estimatedSeconds: 15,
 
         tags: ["geography", "map-key"]
@@ -196,13 +182,11 @@ export const mapSymbols: SkillContent = {
             "Sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "Important places such as schools often have map symbols.",
 
         difficulty: 1,
-
+        correctAnswer: "School",
         estimatedSeconds: 20,
 
         tags: ["geography", "symbols"]
@@ -220,13 +204,11 @@ export const mapSymbols: SkillContent = {
             "There are no rules"
         ],
 
-        answer: 0,
-
         explanation:
             "Maps are made for different purposes, so their symbols may vary.",
 
         difficulty: 1,
-
+        correctAnswer: "Different maps show different information",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps"]
@@ -244,13 +226,11 @@ export const mapSymbols: SkillContent = {
             "Every map uses identical symbols."
         ],
 
-        answer: 0,
-
         explanation:
             "Looking at the key helps you understand the map correctly.",
 
         difficulty: 1,
-
+        correctAnswer: "You should check the key before using a map.",
         estimatedSeconds: 20,
 
         tags: ["geography", "map-key"]
@@ -268,13 +248,11 @@ export const mapSymbols: SkillContent = {
             "It names every road."
         ],
 
-        answer: 0,
-
         explanation:
             "Without the key, many symbols would be difficult to understand.",
 
         difficulty: 2,
-
+        correctAnswer: "It explains what each symbol means.",
         estimatedSeconds: 20,
 
         tags: ["geography", "map-key"]
@@ -292,13 +270,11 @@ export const mapSymbols: SkillContent = {
             "Turn the map upside down"
         ],
 
-        answer: 0,
-
         explanation:
             "The key tells you which symbol represents a park.",
 
         difficulty: 2,
-
+        correctAnswer: "Look at the map key for the park symbol",
         estimatedSeconds: 20,
 
         tags: ["geography", "symbols"]
@@ -316,13 +292,11 @@ export const mapSymbols: SkillContent = {
             "It makes maps larger"
         ],
 
-        answer: 0,
-
         explanation:
             "Blue is commonly used to represent water on maps.",
 
         difficulty: 2,
-
+        correctAnswer: "Blue helps people recognise water features",
         estimatedSeconds: 20,
 
         tags: ["geography", "water"]
@@ -340,13 +314,11 @@ export const mapSymbols: SkillContent = {
             "The title"
         ],
 
-        answer: 0,
-
         explanation:
             "The key explains every symbol shown on the map.",
 
         difficulty: 2,
-
+        correctAnswer: "The map key",
         estimatedSeconds: 20,
 
         tags: ["geography", "map-key"]
@@ -364,13 +336,11 @@ export const mapSymbols: SkillContent = {
             "People cannot read pictures"
         ],
 
-        answer: 0,
-
         explanation:
             "Symbols save space while showing important information clearly.",
 
         difficulty: 2,
-
+        correctAnswer: "There is not enough space for detailed drawings",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps"]
@@ -388,13 +358,11 @@ export const mapSymbols: SkillContent = {
             "Seasons"
         ],
 
-        answer: 0,
-
         explanation:
             "Symbols help identify useful places quickly.",
 
         difficulty: 2,
-
+        correctAnswer: "Important places",
         estimatedSeconds: 20,
 
         tags: ["geography", "symbols"]
@@ -412,13 +380,11 @@ export const mapSymbols: SkillContent = {
             "To confuse readers"
         ],
 
-        answer: 0,
-
         explanation:
             "Using the same symbol consistently makes maps easier to understand.",
 
         difficulty: 2,
-
+        correctAnswer: "To show every place with that feature",
         estimatedSeconds: 20,
 
         tags: ["geography", "symbols"]
@@ -436,13 +402,11 @@ export const mapSymbols: SkillContent = {
             "Drawing pictures"
         ],
 
-        answer: 0,
-
         explanation:
             "Reading symbols is an important map-reading skill.",
 
         difficulty: 2,
-
+        correctAnswer: "Understanding the symbols",
         estimatedSeconds: 20,
 
         tags: ["geography", "map-skills"]
@@ -460,13 +424,11 @@ export const mapSymbols: SkillContent = {
             "They replace roads"
         ],
 
-        answer: 0,
-
         explanation:
             "Learning common symbols makes many maps easier to use.",
 
         difficulty: 2,
-
+        correctAnswer: "They help you understand maps more easily",
         estimatedSeconds: 20,
 
         tags: ["geography", "symbols"]
@@ -484,13 +446,11 @@ export const mapSymbols: SkillContent = {
             "They replace the need for a map."
         ],
 
-        answer: 0,
-
         explanation:
             "Map symbols help us quickly understand what is shown on a map.",
 
         difficulty: 2,
-
+        correctAnswer: "They are simple pictures that represent real places or features on a map.",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps", "symbols", "map-skills"]

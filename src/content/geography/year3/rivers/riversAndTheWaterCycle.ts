@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const riversAndTheWaterCycle: SkillContent = {
 
@@ -29,13 +29,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "The changing of seasons"
         ],
 
-        answer: 0,
-
         explanation:
             "The water cycle describes how water moves between the land, oceans and atmosphere.",
 
         difficulty: 1,
-
+        correctAnswer: "The continuous movement of water around Earth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "water-cycle"]
@@ -54,13 +52,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "Water becomes soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Heat from the Sun causes liquid water to change into water vapour.",
 
         difficulty: 1,
-
+        correctAnswer: "Water turns into water vapour",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -79,13 +75,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "Wind only"
         ],
 
-        answer: 0,
-
         explanation:
             "The Sun heats water and causes evaporation.",
 
         difficulty: 1,
-
+        correctAnswer: "The Sun",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -104,13 +98,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "When soil dries"
         ],
 
-        answer: 0,
-
         explanation:
             "Condensation happens when water vapour cools and turns into droplets.",
 
         difficulty: 1,
-
+        correctAnswer: "When water vapour cools and forms tiny water droplets",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -129,13 +121,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "Lakes"
         ],
 
-        answer: 0,
-
         explanation:
             "Clouds form when many tiny water droplets gather together.",
 
         difficulty: 1,
-
+        correctAnswer: "Clouds",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -154,13 +144,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "Water underground only"
         ],
 
-        answer: 0,
-
         explanation:
             "Precipitation is water that falls from clouds.",
 
         difficulty: 1,
-
+        correctAnswer: "Water falling from clouds as rain, snow or hail",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -179,13 +167,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "From buildings"
         ],
 
-        answer: 0,
-
         explanation:
             "Rain and other water sources feed rivers.",
 
         difficulty: 1,
-
+        correctAnswer: "From rainfall and water flowing across land",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -204,13 +190,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "It turns into rocks"
         ],
 
-        answer: 0,
-
         explanation:
             "Water can collect in rivers or move into the ground.",
 
         difficulty: 1,
-
+        correctAnswer: "It can flow into rivers, lakes or soak into the soil",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -229,13 +213,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "Rain falling"
         ],
 
-        answer: 0,
-
         explanation:
             "Collection happens when water gathers together.",
 
         difficulty: 1,
-
+        correctAnswer: "Water gathering in places such as rivers, lakes and oceans",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -254,13 +236,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "They remove water from Earth"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers transport water through the water cycle.",
 
         difficulty: 2,
-
+        correctAnswer: "They move collected water across the land",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "water-cycle"]
@@ -279,13 +259,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "It disappears permanently"
         ],
 
-        answer: 0,
-
         explanation:
             "Cooling water vapour can form clouds through condensation.",
 
         difficulty: 2,
-
+        correctAnswer: "It can cool and form clouds",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -304,13 +282,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "They stop rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Many living things depend on freshwater from rivers.",
 
         difficulty: 1,
-
+        correctAnswer: "They provide water needed for life",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -329,13 +305,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "It leaves Earth forever"
         ],
 
-        answer: 0,
-
         explanation:
             "River water can evaporate and continue through the water cycle.",
 
         difficulty: 2,
-
+        correctAnswer: "It can evaporate and return to the atmosphere",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -354,13 +328,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "The ground moves"
         ],
 
-        answer: 0,
-
         explanation:
             "When droplets become large and heavy, they fall as precipitation.",
 
         difficulty: 2,
-
+        correctAnswer: "Water droplets become heavy and fall",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -379,13 +351,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "Only clouds contain water"
         ],
 
-        answer: 0,
-
         explanation:
             "The water cycle is a continuous process.",
 
         difficulty: 2,
-
+        correctAnswer: "Water keeps moving through evaporation, condensation and precipitation",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -404,13 +374,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "They disappear"
         ],
 
-        answer: 0,
-
         explanation:
             "Melting changes solid water into liquid water.",
 
         difficulty: 1,
-
+        correctAnswer: "They become liquid water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -429,13 +397,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "They stop flowing"
         ],
 
-        answer: 0,
-
         explanation:
             "Tributaries and rainfall add more water as rivers travel.",
 
         difficulty: 2,
-
+        correctAnswer: "More water joins them from rainfall and tributaries",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -454,13 +420,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "Rain creates mountains"
         ],
 
-        answer: 0,
-
         explanation:
             "Rain is an important source of water for rivers.",
 
         difficulty: 1,
-
+        correctAnswer: "Rainfall provides water that can flow into rivers",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -479,13 +443,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "Cloud → river → evaporation only"
         ],
 
-        answer: 0,
-
         explanation:
             "Water evaporates, forms clouds through condensation and falls as precipitation.",
 
         difficulty: 2,
-
+        correctAnswer: "Evaporation → condensation → precipitation",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "water-cycle"]
@@ -504,13 +466,11 @@ export const riversAndTheWaterCycle: SkillContent = {
             "Rivers never change"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers are an important part of how water moves around Earth.",
 
         difficulty: 2,
-
+        correctAnswer: "Rivers move water as part of Earth's continuous water cycle",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "rivers", "water-cycle"]

@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const riverBasics: SkillContent = {
 
@@ -29,13 +29,11 @@ export const riverBasics: SkillContent = {
             "A human-made road"
         ],
 
-        answer: 0,
-
         explanation:
             "A river is a natural flow of water that moves across the land.",
 
         difficulty: 1,
-
+        correctAnswer: "A flowing body of water moving towards another place",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -54,13 +52,11 @@ export const riverBasics: SkillContent = {
             "In a town"
         ],
 
-        answer: 0,
-
         explanation:
             "The source is where a river begins, often in high land.",
 
         difficulty: 1,
-
+        correctAnswer: "At its source",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -79,13 +75,11 @@ export const riverBasics: SkillContent = {
             "The side of a mountain"
         ],
 
-        answer: 0,
-
         explanation:
             "The mouth is where a river ends and joins another body of water.",
 
         difficulty: 1,
-
+        correctAnswer: "The place where the river meets a sea, lake or another river",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -104,13 +98,11 @@ export const riverBasics: SkillContent = {
             "A coastline"
         ],
 
-        answer: 0,
-
         explanation:
             "The channel is the route the river follows.",
 
         difficulty: 1,
-
+        correctAnswer: "A channel",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -129,13 +121,11 @@ export const riverBasics: SkillContent = {
             "In circles"
         ],
 
-        answer: 0,
-
         explanation:
             "Gravity causes rivers to flow downhill from higher to lower areas.",
 
         difficulty: 1,
-
+        correctAnswer: "From higher land to lower land",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -154,13 +144,11 @@ export const riverBasics: SkillContent = {
             "A type of mountain"
         ],
 
-        answer: 0,
-
         explanation:
             "Tributaries add water to a main river.",
 
         difficulty: 1,
-
+        correctAnswer: "A smaller river that joins a larger river",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -179,13 +167,11 @@ export const riverBasics: SkillContent = {
             "They prevent animals living"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers provide water for people, animals and plants.",
 
         difficulty: 1,
-
+        correctAnswer: "They provide water and support life",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -204,13 +190,11 @@ export const riverBasics: SkillContent = {
             "The river mouth"
         ],
 
-        answer: 0,
-
         explanation:
             "A river basin includes the land where water drains into a river system.",
 
         difficulty: 2,
-
+        correctAnswer: "The area of land drained by a river and its tributaries",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "rivers"]
@@ -229,13 +213,11 @@ export const riverBasics: SkillContent = {
             "A place where fish live"
         ],
 
-        answer: 0,
-
         explanation:
             "The source is the starting point of a river.",
 
         difficulty: 1,
-
+        correctAnswer: "Where the river starts",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -254,13 +236,11 @@ export const riverBasics: SkillContent = {
             "In cities only"
         ],
 
-        answer: 0,
-
         explanation:
             "Many rivers begin in high areas where water collects.",
 
         difficulty: 1,
-
+        correctAnswer: "In hills or mountains",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -279,13 +259,11 @@ export const riverBasics: SkillContent = {
             "They stop moving"
         ],
 
-        answer: 0,
-
         explanation:
             "Small streams can join to create larger rivers.",
 
         difficulty: 2,
-
+        correctAnswer: "They can form a larger river",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -304,13 +282,11 @@ export const riverBasics: SkillContent = {
             "Buildings"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers transport water and materials such as soil and rocks.",
 
         difficulty: 2,
-
+        correctAnswer: "Water and sometimes sediment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -329,13 +305,11 @@ export const riverBasics: SkillContent = {
             "A river bridge"
         ],
 
-        answer: 0,
-
         explanation:
             "Sediment includes materials moved by rivers.",
 
         difficulty: 2,
-
+        correctAnswer: "Small pieces of rock and soil carried by water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -354,13 +328,11 @@ export const riverBasics: SkillContent = {
             "The river becomes a road"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers naturally change direction as they flow.",
 
         difficulty: 2,
-
+        correctAnswer: "Water changes direction as it moves across land",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -379,13 +351,11 @@ export const riverBasics: SkillContent = {
             "A river source"
         ],
 
-        answer: 0,
-
         explanation:
             "A waterfall forms when water falls over a steep section of land.",
 
         difficulty: 1,
-
+        correctAnswer: "Water flowing over a steep drop",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -404,13 +374,11 @@ export const riverBasics: SkillContent = {
             "They remove all wildlife"
         ],
 
-        answer: 0,
-
         explanation:
             "People use rivers for many important activities.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide water, transport and resources",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -429,13 +397,11 @@ export const riverBasics: SkillContent = {
             "The river stops being water"
         ],
 
-        answer: 0,
-
         explanation:
             "A river usually ends where it meets the sea or another body of water.",
 
         difficulty: 1,
-
+        correctAnswer: "The river ends at its mouth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -454,13 +420,11 @@ export const riverBasics: SkillContent = {
             "They remove gravity"
         ],
 
-        answer: 0,
-
         explanation:
             "Moving water can wear away and deposit materials.",
 
         difficulty: 2,
-
+        correctAnswer: "They move water and sediment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -479,13 +443,11 @@ export const riverBasics: SkillContent = {
             "Road, car and bridge"
         ],
 
-        answer: 0,
-
         explanation:
             "Source, channel and mouth are key river features.",
 
         difficulty: 1,
-
+        correctAnswer: "Source, channel and mouth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -504,13 +466,11 @@ export const riverBasics: SkillContent = {
             "A weather pattern"
         ],
 
-        answer: 0,
-
         explanation:
             "A river is a flowing natural water system.",
 
         difficulty: 2,
-
+        correctAnswer: "A flowing body of water that travels from its source to its mouth",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "rivers"]

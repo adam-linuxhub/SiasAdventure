@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const romanArmyAndLife: SkillContent = {
 
@@ -29,13 +29,11 @@ export const romanArmyAndLife: SkillContent = {
             "A scribe"
         ],
 
-        answer: 0,
-
         explanation:
             "A Roman soldier who served in a legion was called a legionary.",
 
         difficulty: 1,
-
+        correctAnswer: "A legionary",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "army"]
@@ -54,13 +52,11 @@ export const romanArmyAndLife: SkillContent = {
             "Using modern machines"
         ],
 
-        answer: 0,
-
         explanation:
             "The Roman army was successful because soldiers were well trained and organised.",
 
         difficulty: 1,
-
+        correctAnswer: "Being organised and disciplined",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "army"]
@@ -79,13 +75,11 @@ export const romanArmyAndLife: SkillContent = {
             "A temple"
         ],
 
-        answer: 0,
-
         explanation:
             "A Roman legion was a large group of soldiers.",
 
         difficulty: 1,
-
+        correctAnswer: "A legion",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "army"]
@@ -104,13 +98,11 @@ export const romanArmyAndLife: SkillContent = {
             "Silk robes"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman soldiers wore armour and carried shields for protection.",
 
         difficulty: 1,
-
+        correctAnswer: "Armour",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "army"]
@@ -129,13 +121,11 @@ export const romanArmyAndLife: SkillContent = {
             "A camera"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman soldiers commonly used swords called gladii.",
 
         difficulty: 1,
-
+        correctAnswer: "A sword",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "army"]
@@ -154,13 +144,11 @@ export const romanArmyAndLife: SkillContent = {
             "To avoid travelling"
         ],
 
-        answer: 0,
-
         explanation:
             "Forts helped the Romans defend and control their territory.",
 
         difficulty: 1,
-
+        correctAnswer: "To control and protect areas",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "army"]
@@ -179,13 +167,11 @@ export const romanArmyAndLife: SkillContent = {
             "Writing books"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman roads helped the army travel and helped trade.",
 
         difficulty: 1,
-
+        correctAnswer: "Moving soldiers and goods quickly",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -204,13 +190,11 @@ export const romanArmyAndLife: SkillContent = {
             "French"
         ],
 
-        answer: 0,
-
         explanation:
             "Latin was the language used by Romans for government and writing.",
 
         difficulty: 1,
-
+        correctAnswer: "Latin",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -229,13 +213,11 @@ export const romanArmyAndLife: SkillContent = {
             "Storing weapons only"
         ],
 
-        answer: 0,
-
         explanation:
             "Public baths were important places in Roman towns.",
 
         difficulty: 1,
-
+        correctAnswer: "Washing, relaxing and socialising",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -254,13 +236,11 @@ export const romanArmyAndLife: SkillContent = {
             "Railways"
         ],
 
-        answer: 0,
-
         explanation:
             "The Romans built many structures that changed Britain.",
 
         difficulty: 1,
-
+        correctAnswer: "Roads, forts and towns",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -279,13 +259,11 @@ export const romanArmyAndLife: SkillContent = {
                 "To become farmers"
         ],
 
-        answer: 0,
-
         explanation:
             "Training helped Roman soldiers fight together successfully.",
 
         difficulty: 2,
-
+        correctAnswer: "To work effectively as an army",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "army"]
@@ -304,13 +282,11 @@ export const romanArmyAndLife: SkillContent = {
             "Only soldiers could enter"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman towns had many facilities for everyday life.",
 
         difficulty: 2,
-
+        correctAnswer: "People could visit shops, baths and markets",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "roman-britain"]
@@ -329,13 +305,11 @@ export const romanArmyAndLife: SkillContent = {
             "A soldier's helmet"
         ],
 
-        answer: 0,
-
         explanation:
             "Wealthy Romans often lived in villas.",
 
         difficulty: 2,
-
+        correctAnswer: "A large Roman country house",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -354,13 +328,11 @@ export const romanArmyAndLife: SkillContent = {
             "It stopped farming"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman rule brought many changes to Britain.",
 
         difficulty: 2,
-
+        correctAnswer: "It introduced new buildings, roads and customs",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -379,13 +351,11 @@ export const romanArmyAndLife: SkillContent = {
             "Making armour"
         ],
 
-        answer: 0,
-
         explanation:
             "Coins were used for trade and buying goods.",
 
         difficulty: 2,
-
+        correctAnswer: "Buying and trading goods",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -404,13 +374,11 @@ export const romanArmyAndLife: SkillContent = {
             "To prevent farming"
         ],
 
-        answer: 0,
-
         explanation:
             "Roads connected towns and helped movement.",
 
         difficulty: 2,
-
+        correctAnswer: "For easier travel and trade",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -429,13 +397,11 @@ export const romanArmyAndLife: SkillContent = {
             "Stories with no evidence"
         ],
 
-        answer: 0,
-
         explanation:
             "Historians use evidence from the past to understand history.",
 
         difficulty: 2,
-
+        correctAnswer: "Buildings, roads, coins and written records",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "roman-britain"]
@@ -454,13 +420,11 @@ export const romanArmyAndLife: SkillContent = {
             "They avoided all battles"
         ],
 
-        answer: 0,
-
         explanation:
             "Teamwork and discipline made the Roman army powerful.",
 
         difficulty: 2,
-
+        correctAnswer: "They followed orders and worked together",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "army"]
@@ -479,13 +443,11 @@ export const romanArmyAndLife: SkillContent = {
             "They were never used"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman engineering helped many roads survive for centuries.",
 
         difficulty: 2,
-
+        correctAnswer: "They were built strongly and lasted a long time",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -504,13 +466,11 @@ export const romanArmyAndLife: SkillContent = {
             "Romans only lived in forests"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman rule had a major impact on Britain.",
 
         difficulty: 2,
-
+        correctAnswer: "Romans brought new buildings, roads, language and customs",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "roman-britain"]

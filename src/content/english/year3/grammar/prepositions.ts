@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const prepositions: SkillContent = {
 
@@ -28,13 +28,11 @@ export const prepositions: SkillContent = {
             "happy"
         ],
 
-        answer: 0,
-
         explanation:
             "'Under' is a preposition because it tells us where something is.",
 
         difficulty: 1,
-
+        correctAnswer: "under",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "prepositions"]
@@ -52,13 +50,11 @@ export const prepositions: SkillContent = {
             "quickly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Under' tells us where the ball is in relation to the table.",
 
         difficulty: 1,
-
+        correctAnswer: "under",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "prepositions"]
@@ -76,13 +72,11 @@ export const prepositions: SkillContent = {
             "green"
         ],
 
-        answer: 0,
-
         explanation:
             "'Behind' shows the position of one thing compared with another.",
 
         difficulty: 1,
-
+        correctAnswer: "behind",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "prepositions"]
@@ -100,13 +94,11 @@ export const prepositions: SkillContent = {
             "nest"
         ],
 
-        answer: 0,
-
         explanation:
             "'In' tells us where the bird is.",
 
         difficulty: 1,
-
+        correctAnswer: "in",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "prepositions"]
@@ -124,13 +116,11 @@ export const prepositions: SkillContent = {
             "soft"
         ],
 
-        answer: 0,
-
         explanation:
             "'Between' describes the position of something.",
 
         difficulty: 1,
-
+        correctAnswer: "between",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "prepositions"]
@@ -148,13 +138,11 @@ export const prepositions: SkillContent = {
             "cat"
         ],
 
-        answer: 0,
-
         explanation:
             "'On' tells us where the cat sat.",
 
         difficulty: 1,
-
+        correctAnswer: "on",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "prepositions"]
@@ -172,13 +160,11 @@ export const prepositions: SkillContent = {
             "The toy."
         ],
 
-        answer: 0,
-
         explanation:
             "'Inside' is a preposition showing location.",
 
         difficulty: 1,
-
+        correctAnswer: "The toy is inside the box.",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "prepositions"]
@@ -196,13 +182,11 @@ export const prepositions: SkillContent = {
             "sweet"
         ],
 
-        answer: 0,
-
         explanation:
             "'Next to' tells us the position of something.",
 
         difficulty: 1,
-
+        correctAnswer: "next to",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -220,13 +204,11 @@ export const prepositions: SkillContent = {
             "under"
         ],
 
-        answer: 0,
-
         explanation:
             "'Teacher' is a noun, not a preposition.",
 
         difficulty: 1,
-
+        correctAnswer: "teacher",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar"]
@@ -244,13 +226,11 @@ export const prepositions: SkillContent = {
             "To join sentences"
         ],
 
-        answer: 0,
-
         explanation:
             "Prepositions show relationships such as place or time.",
 
         difficulty: 1,
-
+        correctAnswer: "To show where or when something happens",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -268,13 +248,11 @@ export const prepositions: SkillContent = {
             "run"
         ],
 
-        answer: 0,
-
         explanation:
             "'Under' correctly shows the position of the shoes.",
 
         difficulty: 2,
-
+        correctAnswer: "under",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -292,13 +270,11 @@ export const prepositions: SkillContent = {
             "The mouse hid sofa."
         ],
 
-        answer: 0,
-
         explanation:
             "'Behind' correctly shows where the mouse hid.",
 
         difficulty: 2,
-
+        correctAnswer: "The mouse hid behind the sofa.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -316,13 +292,11 @@ export const prepositions: SkillContent = {
             "is"
         ],
 
-        answer: 0,
-
         explanation:
             "'On' shows the relationship between the book and the desk.",
 
         difficulty: 2,
-
+        correctAnswer: "on",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -340,13 +314,11 @@ export const prepositions: SkillContent = {
             "happy"
         ],
 
-        answer: 0,
-
         explanation:
             "'Before' is a preposition that can show time.",
 
         difficulty: 2,
-
+        correctAnswer: "before",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -364,13 +336,11 @@ export const prepositions: SkillContent = {
             "The cat purred."
         ],
 
-        answer: 0,
-
         explanation:
             "'Under' shows place and 'after' shows time.",
 
         difficulty: 2,
-
+        correctAnswer: "The cat slept under the table after lunch.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -388,13 +358,11 @@ export const prepositions: SkillContent = {
             "child"
         ],
 
-        answer: 0,
-
         explanation:
             "'Beside' tells where someone should stand.",
 
         difficulty: 2,
-
+        correctAnswer: "beside",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -412,13 +380,11 @@ export const prepositions: SkillContent = {
             "The ball bounced."
         ],
 
-        answer: 0,
-
         explanation:
             "'Into' shows where the ball moved.",
 
         difficulty: 2,
-
+        correctAnswer: "The ball rolled into the goal.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -436,13 +402,11 @@ export const prepositions: SkillContent = {
             "hungry"
         ],
 
-        answer: 0,
-
         explanation:
             "'Before' shows the time relationship.",
 
         difficulty: 2,
-
+        correctAnswer: "before",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -460,13 +424,11 @@ export const prepositions: SkillContent = {
             "We ate dinner."
         ],
 
-        answer: 0,
-
         explanation:
             "'After' tells us when the action happens.",
 
         difficulty: 2,
-
+        correctAnswer: "We will leave after dinner.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]
@@ -484,13 +446,11 @@ export const prepositions: SkillContent = {
             "Oliver tree before."
         ],
 
-        answer: 0,
-
         explanation:
             "'Behind' shows place and 'before' shows time.",
 
         difficulty: 2,
-
+        correctAnswer: "Oliver hid behind the tree before lunch.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "prepositions"]

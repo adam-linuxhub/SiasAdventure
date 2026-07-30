@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const angloSaxonLife: SkillContent = {
 
@@ -29,13 +29,11 @@ export const angloSaxonLife: SkillContent = {
             "On ships only"
         ],
 
-        answer: 0,
-
         explanation:
             "Many Anglo-Saxons lived in small farming villages.",
 
         difficulty: 1,
-
+        correctAnswer: "In small villages",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -54,13 +52,11 @@ export const angloSaxonLife: SkillContent = {
             "Plastic"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon houses were often made from natural materials such as wood and thatch.",
 
         difficulty: 1,
-
+        correctAnswer: "Wood, straw and mud",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -79,13 +75,11 @@ export const angloSaxonLife: SkillContent = {
             "Working in factories"
         ],
 
-        answer: 0,
-
         explanation:
             "Farming was very important in Anglo-Saxon society.",
 
         difficulty: 1,
-
+        correctAnswer: "Farming",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -104,13 +98,11 @@ export const angloSaxonLife: SkillContent = {
             "Tropical fruit only"
         ],
 
-        answer: 0,
-
         explanation:
             "Farmers grew crops to provide food for their communities.",
 
         difficulty: 1,
-
+        correctAnswer: "Crops such as wheat and barley",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -129,13 +121,11 @@ export const angloSaxonLife: SkillContent = {
             "Sea creatures"
         ],
 
-        answer: 0,
-
         explanation:
             "Animals provided food, materials and help with farming.",
 
         difficulty: 1,
-
+        correctAnswer: "Animals such as cows, sheep and pigs",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -154,13 +144,11 @@ export const angloSaxonLife: SkillContent = {
             "A railway station"
         ],
 
-        answer: 0,
-
         explanation:
             "The hall was an important meeting and living place.",
 
         difficulty: 1,
-
+        correctAnswer: "The main hall",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -179,13 +167,11 @@ export const angloSaxonLife: SkillContent = {
             "Only rice"
         ],
 
-        answer: 0,
-
         explanation:
             "Their diet included food they could farm, hunt or gather.",
 
         difficulty: 1,
-
+        correctAnswer: "Bread, meat, fish and vegetables",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -204,13 +190,11 @@ export const angloSaxonLife: SkillContent = {
             "Metal"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxons used materials available from sheep and plants.",
 
         difficulty: 1,
-
+        correctAnswer: "Wool and linen",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -229,13 +213,11 @@ export const angloSaxonLife: SkillContent = {
             "Building ships only"
         ],
 
-        answer: 0,
-
         explanation:
             "Blacksmiths made tools, weapons and other metal objects.",
 
         difficulty: 1,
-
+        correctAnswer: "Making objects from metal",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -254,13 +236,11 @@ export const angloSaxonLife: SkillContent = {
             "They stopped farming"
         ],
 
-        answer: 0,
-
         explanation:
             "Craftsmen created tools, clothing and objects needed by communities.",
 
         difficulty: 1,
-
+        correctAnswer: "They made useful items for people",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -279,13 +259,11 @@ export const angloSaxonLife: SkillContent = {
             "Factories"
         ],
 
-        answer: 0,
-
         explanation:
             "Most Anglo-Saxon communities depended on farming.",
 
         difficulty: 2,
-
+        correctAnswer: "Fields and farmland",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -304,13 +282,11 @@ export const angloSaxonLife: SkillContent = {
             "It replaced villages"
         ],
 
-        answer: 0,
-
         explanation:
             "Farming supported everyday life.",
 
         difficulty: 2,
-
+        correctAnswer: "It provided food and materials",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -329,13 +305,11 @@ export const angloSaxonLife: SkillContent = {
             "Robots"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxons used tools made from wood and metal.",
 
         difficulty: 2,
-
+        correctAnswer: "Simple farming tools",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -354,13 +328,11 @@ export const angloSaxonLife: SkillContent = {
             "To copy modern cities"
         ],
 
-        answer: 0,
-
         explanation:
             "Villages helped people cooperate and share resources.",
 
         difficulty: 2,
-
+        correctAnswer: "To live and work as a community",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -379,13 +351,11 @@ export const angloSaxonLife: SkillContent = {
             "Weather forecasts"
         ],
 
-        answer: 0,
-
         explanation:
             "Archaeologists study objects and remains left behind.",
 
         difficulty: 2,
-
+        correctAnswer: "Evidence from the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -404,13 +374,11 @@ export const angloSaxonLife: SkillContent = {
             "How modern cities developed"
         ],
 
-        answer: 0,
-
         explanation:
             "Artefacts provide clues about life in the past.",
 
         difficulty: 2,
-
+        correctAnswer: "How people lived and worked",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -429,13 +397,11 @@ export const angloSaxonLife: SkillContent = {
             "A fisherman"
         ],
 
-        answer: 0,
-
         explanation:
             "Blacksmiths worked with metal to create useful objects.",
 
         difficulty: 2,
-
+        correctAnswer: "A blacksmith",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -454,13 +420,11 @@ export const angloSaxonLife: SkillContent = {
             "To predict the future"
         ],
 
-        answer: 0,
-
         explanation:
             "Daily life helps us understand past societies.",
 
         difficulty: 2,
-
+        correctAnswer: "To understand how ordinary people lived",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -479,13 +443,11 @@ export const angloSaxonLife: SkillContent = {
             "They were built underwater"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon villages were organised communities.",
 
         difficulty: 2,
-
+        correctAnswer: "They were communities with homes, farms and workers",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
@@ -504,13 +466,11 @@ export const angloSaxonLife: SkillContent = {
             "People did not work"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon life was based around farming, crafts and communities.",
 
         difficulty: 2,
-
+        correctAnswer: "People lived in villages, farmed and made goods",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]

@@ -28,13 +28,11 @@ export const switchesAndComponents: SkillContent = {
             "To store electricity"
         ],
 
-        answer: 0,
-
         explanation:
             "A switch controls whether electricity can flow around a circuit.",
 
         difficulty: 1,
-
+        correctAnswer: "To open or close the circuit",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "switch"]
@@ -52,13 +50,11 @@ export const switchesAndComponents: SkillContent = {
             "Switch"
         ],
 
-        answer: 0,
-
         explanation:
             "The battery supplies electrical energy to the circuit.",
 
         difficulty: 1,
-
+        correctAnswer: "Battery",
         estimatedSeconds: 15,
 
         tags: ["science", "battery", "electricity"]
@@ -76,13 +72,11 @@ export const switchesAndComponents: SkillContent = {
             "Switch"
         ],
 
-        answer: 0,
-
         explanation:
             "The bulb changes electrical energy into light.",
 
         difficulty: 1,
-
+        correctAnswer: "Bulb",
         estimatedSeconds: 15,
 
         tags: ["science", "bulb", "electricity"]
@@ -100,13 +94,11 @@ export const switchesAndComponents: SkillContent = {
             "Make light"
         ],
 
-        answer: 0,
-
         explanation:
             "Wires connect components so electricity can flow.",
 
         difficulty: 1,
-
+        correctAnswer: "Join the components together",
         estimatedSeconds: 15,
 
         tags: ["science", "wires", "circuits"]
@@ -124,13 +116,11 @@ export const switchesAndComponents: SkillContent = {
             "The bulb breaks."
         ],
 
-        answer: 0,
-
         explanation:
             "Closing the switch completes the circuit and allows electricity to flow.",
 
         difficulty: 1,
-
+        correctAnswer: "The circuit is complete.",
         estimatedSeconds: 15,
 
         tags: ["science", "switch", "circuits"]
@@ -148,13 +138,11 @@ export const switchesAndComponents: SkillContent = {
             "The wires heat up."
         ],
 
-        answer: 0,
-
         explanation:
             "An open switch creates a gap so electricity cannot flow.",
 
         difficulty: 1,
-
+        correctAnswer: "The circuit is broken.",
         estimatedSeconds: 15,
 
         tags: ["science", "switch"]
@@ -172,13 +160,11 @@ export const switchesAndComponents: SkillContent = {
             "Wire"
         ],
 
-        answer: 0,
-
         explanation:
             "A switch allows you to turn a circuit on and off.",
 
         difficulty: 1,
-
+        correctAnswer: "Switch",
         estimatedSeconds: 15,
 
         tags: ["science", "switch"]
@@ -196,13 +182,11 @@ export const switchesAndComponents: SkillContent = {
             "Switch"
         ],
 
-        answer: 0,
-
         explanation:
             "The bulb lights when electricity flows through it.",
 
         difficulty: 1,
-
+        correctAnswer: "Bulb",
         estimatedSeconds: 20,
 
         tags: ["science", "bulb"]
@@ -220,13 +204,11 @@ export const switchesAndComponents: SkillContent = {
             "Wire"
         ],
 
-        answer: 0,
-
         explanation:
             "A book is not an electrical component.",
 
         difficulty: 1,
-
+        correctAnswer: "Book",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits"]
@@ -244,13 +226,11 @@ export const switchesAndComponents: SkillContent = {
             "A battery is a wire."
         ],
 
-        answer: 0,
-
         explanation:
             "Switches control the flow of electricity through the circuit.",
 
         difficulty: 1,
-
+        correctAnswer: "A switch can turn a bulb on and off.",
         estimatedSeconds: 20,
 
         tags: ["science", "switch", "electricity"]
@@ -268,13 +248,11 @@ export const switchesAndComponents: SkillContent = {
             "It makes the bulb invisible."
         ],
 
-        answer: 0,
-
         explanation:
             "An open switch creates a gap so electricity cannot flow.",
 
         difficulty: 2,
-
+        correctAnswer: "It breaks the circuit.",
         estimatedSeconds: 20,
 
         tags: ["science", "switch", "circuits"]
@@ -292,13 +270,11 @@ export const switchesAndComponents: SkillContent = {
             "It makes the bulb."
         ],
 
-        answer: 0,
-
         explanation:
             "Without a battery, there is no electrical energy to power the circuit.",
 
         difficulty: 2,
-
+        correctAnswer: "It provides electrical energy.",
         estimatedSeconds: 20,
 
         tags: ["science", "battery"]
@@ -316,13 +292,11 @@ export const switchesAndComponents: SkillContent = {
             "Switch, book and battery"
         ],
 
-        answer: 0,
-
         explanation:
             "These are all common parts of a simple electrical circuit.",
 
         difficulty: 2,
-
+        correctAnswer: "Battery, bulb, wire and switch",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits"]
@@ -340,13 +314,11 @@ export const switchesAndComponents: SkillContent = {
             "To stop the circuit working"
         ],
 
-        answer: 0,
-
         explanation:
             "The wires create a path for electrical current to flow.",
 
         difficulty: 2,
-
+        correctAnswer: "To create a complete path for electricity",
         estimatedSeconds: 20,
 
         tags: ["science", "wires"]
@@ -364,13 +336,11 @@ export const switchesAndComponents: SkillContent = {
             "Take away the battery."
         ],
 
-        answer: 0,
-
         explanation:
             "Closing the switch completes the circuit.",
 
         difficulty: 2,
-
+        correctAnswer: "Close the switch.",
         estimatedSeconds: 20,
 
         tags: ["science", "switch"]
@@ -388,13 +358,11 @@ export const switchesAndComponents: SkillContent = {
             "To increase the weight of the circuit."
         ],
 
-        answer: 0,
-
         explanation:
             "Electricity needs a complete loop to flow.",
 
         difficulty: 2,
-
+        correctAnswer: "So electricity can travel all the way around the circuit.",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits"]
@@ -412,13 +380,11 @@ export const switchesAndComponents: SkillContent = {
             "The circuit breaks."
         ],
 
-        answer: 0,
-
         explanation:
             "Closing the switch completes the path for electricity.",
 
         difficulty: 2,
-
+        correctAnswer: "Electricity begins flowing through the components.",
         estimatedSeconds: 20,
 
         tags: ["science", "switch", "circuits"]
@@ -436,13 +402,11 @@ export const switchesAndComponents: SkillContent = {
             "Switch"
         ],
 
-        answer: 0,
-
         explanation:
             "A bulb uses electrical energy to produce light.",
 
         difficulty: 2,
-
+        correctAnswer: "Bulb",
         estimatedSeconds: 20,
 
         tags: ["science", "bulb"]
@@ -460,13 +424,11 @@ export const switchesAndComponents: SkillContent = {
             "It stores electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "A switch controls the flow of electricity without changing the other components.",
 
         difficulty: 2,
-
+        correctAnswer: "It lets you turn the light on and off without removing the battery.",
         estimatedSeconds: 20,
 
         tags: ["science", "switch", "torch"]
@@ -484,13 +446,11 @@ export const switchesAndComponents: SkillContent = {
             "A battery works without any other components."
         ],
 
-        answer: 0,
-
         explanation:
             "Each component has a specific role in helping a circuit work correctly.",
 
         difficulty: 2,
-
+        correctAnswer: "Each component has a different job, and together they form a complete circuit that allows electricity to flow.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "components", "switch", "circuits"]

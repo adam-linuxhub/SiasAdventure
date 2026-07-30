@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const questionMarks: SkillContent = {
 
@@ -28,13 +28,11 @@ export const questionMarks: SkillContent = {
             ","
         ],
 
-        answer: 0,
-
         explanation:
             "A question mark (?) is used at the end of a question.",
 
         difficulty: 1,
-
+        correctAnswer: "?",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -52,13 +50,11 @@ export const questionMarks: SkillContent = {
             "What a warm coat!"
         ],
 
-        answer: 0,
-
         explanation:
             "Questions ask for information and end with a question mark.",
 
         difficulty: 1,
-
+        correctAnswer: "Where is my coat?",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -76,13 +72,11 @@ export const questionMarks: SkillContent = {
             ","
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence asks a question, so it needs a question mark.",
 
         difficulty: 1,
-
+        correctAnswer: "?",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -100,13 +94,11 @@ export const questionMarks: SkillContent = {
             "Can you swim,"
         ],
 
-        answer: 0,
-
         explanation:
             "Questions end with a question mark.",
 
         difficulty: 1,
-
+        correctAnswer: "Can you swim?",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -124,13 +116,11 @@ export const questionMarks: SkillContent = {
             "What a lovely picture!"
         ],
 
-        answer: 0,
-
         explanation:
             "This sentence asks for information.",
 
         difficulty: 1,
-
+        correctAnswer: "What is your favourite colour?",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -148,13 +138,11 @@ export const questionMarks: SkillContent = {
             "Before a capital letter"
         ],
 
-        answer: 0,
-
         explanation:
             "Question marks are only used at the end of questions.",
 
         difficulty: 1,
-
+        correctAnswer: "At the end of a question",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -172,13 +160,11 @@ export const questionMarks: SkillContent = {
             "What excellent homework!"
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence asks whether something has happened.",
 
         difficulty: 1,
-
+        correctAnswer: "Have you finished your homework?",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -196,13 +182,11 @@ export const questionMarks: SkillContent = {
             "Do birds fly,"
         ],
 
-        answer: 0,
-
         explanation:
             "Questions should always end with a question mark.",
 
         difficulty: 1,
-
+        correctAnswer: "Do birds fly?",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -220,13 +204,11 @@ export const questionMarks: SkillContent = {
             "Why are the birds flying?"
         ],
 
-        answer: 0,
-
         explanation:
             "'The birds are flying.' is a statement, not a question.",
 
         difficulty: 1,
-
+        correctAnswer: "The birds are flying.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -244,13 +226,11 @@ export const questionMarks: SkillContent = {
             "Who is at the door,"
         ],
 
-        answer: 0,
-
         explanation:
             "Questions end with a question mark.",
 
         difficulty: 1,
-
+        correctAnswer: "Who is at the door?",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -268,13 +248,11 @@ export const questionMarks: SkillContent = {
             "What a busy day!"
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence asks a question and should end with a question mark.",
 
         difficulty: 2,
-
+        correctAnswer: "What time does school start",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -292,13 +270,11 @@ export const questionMarks: SkillContent = {
             "Why did the baby cry,"
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence asks 'why', so it ends with a question mark.",
 
         difficulty: 2,
-
+        correctAnswer: "Why did the baby cry?",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -316,13 +292,11 @@ export const questionMarks: SkillContent = {
             "Blue"
         ],
 
-        answer: 0,
-
         explanation:
             "Words such as who, what, where, when, why and how often begin questions.",
 
         difficulty: 2,
-
+        correctAnswer: "Where",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -340,13 +314,11 @@ export const questionMarks: SkillContent = {
             "To separate words"
         ],
 
-        answer: 0,
-
         explanation:
             "Question marks tell readers that information is being asked for.",
 
         difficulty: 2,
-
+        correctAnswer: "To show that a sentence asks something",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -364,13 +336,11 @@ export const questionMarks: SkillContent = {
             "What a fast bus!"
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence asks which bus to take.",
 
         difficulty: 2,
-
+        correctAnswer: "Which bus goes to the museum?",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -388,13 +358,11 @@ export const questionMarks: SkillContent = {
             "Can penguins swim,"
         ],
 
-        answer: 0,
-
         explanation:
             "Questions always end with a question mark.",
 
         difficulty: 2,
-
+        correctAnswer: "Can penguins swim?",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -412,13 +380,11 @@ export const questionMarks: SkillContent = {
             ","
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence asks a question.",
 
         difficulty: 2,
-
+        correctAnswer: "?",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -436,13 +402,11 @@ export const questionMarks: SkillContent = {
             "It is always a statement."
         ],
 
-        answer: 0,
-
         explanation:
             "'Who' often begins a question asking about a person.",
 
         difficulty: 2,
-
+        correctAnswer: "It is usually a question.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -460,13 +424,11 @@ export const questionMarks: SkillContent = {
             "What a great day! We are going home."
         ],
 
-        answer: 0,
-
         explanation:
             "Both sentences ask for information and end with question marks.",
 
         difficulty: 2,
-
+        correctAnswer: "Where are we going? Who is coming?",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]
@@ -484,13 +446,11 @@ export const questionMarks: SkillContent = {
             "The sentence is a command."
         ],
 
-        answer: 0,
-
         explanation:
             "A question mark tells the reader that the sentence is asking for information.",
 
         difficulty: 2,
-
+        correctAnswer: "The writer is asking something.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "question-marks"]

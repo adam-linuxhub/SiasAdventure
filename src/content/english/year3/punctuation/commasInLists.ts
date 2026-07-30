@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const commasInLists: SkillContent = {
 
@@ -28,13 +28,11 @@ export const commasInLists: SkillContent = {
             "To show excitement"
         ],
 
-        answer: 0,
-
         explanation:
             "Commas help separate each item in a list so it is easier to read.",
 
         difficulty: 1,
-
+        correctAnswer: "To separate the items",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "commas", "lists"]
@@ -52,13 +50,11 @@ export const commasInLists: SkillContent = {
             "I packed socks shoes, and a hat."
         ],
 
-        answer: 0,
-
         explanation:
             "Commas separate the items in the list. In British English, a comma is not usually placed before 'and'.",
 
         difficulty: 1,
-
+        correctAnswer: "I packed socks, shoes and a hat.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "commas", "lists"]
@@ -76,13 +72,11 @@ export const commasInLists: SkillContent = {
             "Run quickly!"
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence lists three animals.",
 
         difficulty: 1,
-
+        correctAnswer: "We saw lions, tigers and zebras.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "lists"]
@@ -100,13 +94,11 @@ export const commasInLists: SkillContent = {
             "3"
         ],
 
-        answer: 0,
-
         explanation:
             "One comma separates 'apples' and 'bananas'.",
 
         difficulty: 1,
-
+        correctAnswer: "1",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "commas"]
@@ -124,13 +116,11 @@ export const commasInLists: SkillContent = {
             "Ben likes football swimming, and cycling."
         ],
 
-        answer: 0,
-
         explanation:
             "In British English, commas separate the items before the final 'and'.",
 
         difficulty: 1,
-
+        correctAnswer: "Ben likes football, swimming and cycling.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "lists"]
@@ -148,13 +138,11 @@ export const commasInLists: SkillContent = {
             "Exclamation mark"
         ],
 
-        answer: 0,
-
         explanation:
             "Commas separate items in a list.",
 
         difficulty: 1,
-
+        correctAnswer: "Comma",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "commas"]
@@ -172,13 +160,11 @@ export const commasInLists: SkillContent = {
             "The box contained crayons pencils, and rulers."
         ],
 
-        answer: 0,
-
         explanation:
             "Each item is separated with commas until the final 'and'.",
 
         difficulty: 1,
-
+        correctAnswer: "The box contained crayons, pencils and rulers.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "lists"]
@@ -196,13 +182,11 @@ export const commasInLists: SkillContent = {
             "The cake disappeared quickly."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence lists three ingredients.",
 
         difficulty: 1,
-
+        correctAnswer: "The cake had strawberries, cream and chocolate.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "lists"]
@@ -220,13 +204,11 @@ export const commasInLists: SkillContent = {
             "She bought pencils, pens and paper."
         ],
 
-        answer: 0,
-
         explanation:
             "There is no list in this sentence.",
 
         difficulty: 1,
-
+        correctAnswer: "The dog barked loudly.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation"]
@@ -244,13 +226,11 @@ export const commasInLists: SkillContent = {
             "To replace capital letters"
         ],
 
-        answer: 0,
-
         explanation:
             "Commas clearly separate each item in a list.",
 
         difficulty: 1,
-
+        correctAnswer: "To make lists easier to read",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "commas"]
@@ -268,13 +248,11 @@ export const commasInLists: SkillContent = {
             "Ella packed a torch map, compass, and water bottle."
         ],
 
-        answer: 0,
-
         explanation:
             "Each item except the last is separated with a comma.",
 
         difficulty: 2,
-
+        correctAnswer: "Ella packed a torch, map, compass and water bottle.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "lists"]
@@ -292,13 +270,11 @@ export const commasInLists: SkillContent = {
             "4"
         ],
 
-        answer: 0,
-
         explanation:
             "Four countries need two commas before the final 'and'.",
 
         difficulty: 2,
-
+        correctAnswer: "2",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "commas"]
@@ -316,13 +292,11 @@ export const commasInLists: SkillContent = {
             "The artist used red blue, green, and yellow paint."
         ],
 
-        answer: 0,
-
         explanation:
             "Commas separate each colour before the final 'and'.",
 
         difficulty: 2,
-
+        correctAnswer: "The artist used red, blue, green and yellow paint.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "lists"]
@@ -340,13 +314,11 @@ export const commasInLists: SkillContent = {
             "We bought milk bread, eggs, and cheese."
         ],
 
-        answer: 0,
-
         explanation:
             "Each item is separated by commas before the final 'and'.",
 
         difficulty: 2,
-
+        correctAnswer: "We bought milk, bread, eggs and cheese.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "lists"]
@@ -364,13 +336,11 @@ export const commasInLists: SkillContent = {
             "The garden had roses, tulips daisies and lilies."
         ],
 
-        answer: 0,
-
         explanation:
             "Commas make long lists much clearer.",
 
         difficulty: 2,
-
+        correctAnswer: "The garden had roses, tulips, daisies and lilies.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "commas"]
@@ -388,13 +358,11 @@ export const commasInLists: SkillContent = {
             "5"
         ],
 
-        answer: 0,
-
         explanation:
             "The four items are pens, pencils, rulers and rubbers.",
 
         difficulty: 2,
-
+        correctAnswer: "4",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "lists"]
@@ -412,13 +380,11 @@ export const commasInLists: SkillContent = {
             "I ate breakfast."
         ],
 
-        answer: 0,
-
         explanation:
             "A comma should separate 'pizza' and 'chips'.",
 
         difficulty: 2,
-
+        correctAnswer: "I ate pizza chips and salad.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "commas"]
@@ -436,13 +402,11 @@ export const commasInLists: SkillContent = {
             "To end the list with a full stop"
         ],
 
-        answer: 0,
-
         explanation:
             "'And' joins the final item to the rest of the list.",
 
         difficulty: 2,
-
+        correctAnswer: "To introduce the final item",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "lists"]
@@ -460,13 +424,11 @@ export const commasInLists: SkillContent = {
             "Cats dogs, rabbits, and hamsters"
         ],
 
-        answer: 0,
-
         explanation:
             "The commas correctly separate the items before the final 'and'.",
 
         difficulty: 2,
-
+        correctAnswer: "Cats, dogs, rabbits and hamsters",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "lists"]
@@ -484,13 +446,11 @@ export const commasInLists: SkillContent = {
             "To show excitement"
         ],
 
-        answer: 0,
-
         explanation:
             "Commas make lists clear and easy to understand.",
 
         difficulty: 2,
-
+        correctAnswer: "To separate each item clearly",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "commas", "lists"]

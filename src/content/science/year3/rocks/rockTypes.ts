@@ -28,13 +28,11 @@ export const rockTypes: SkillContent = {
             "A cloud in the sky"
         ],
 
-        answer: 0,
-
         explanation:
             "Rocks are natural materials that make up much of the Earth's surface.",
 
         difficulty: 1,
-
+        correctAnswer: "A natural material found on Earth",
         estimatedSeconds: 15,
 
         tags: [
@@ -56,13 +54,11 @@ export const rockTypes: SkillContent = {
             "Glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Granite is a common type of rock.",
 
         difficulty: 1,
-
+        correctAnswer: "Granite",
         estimatedSeconds: 15,
 
         tags: [
@@ -84,13 +80,11 @@ export const rockTypes: SkillContent = {
             "Slate"
         ],
 
-        answer: 0,
-
         explanation:
             "Chalk is a soft rock that has traditionally been used for writing on blackboards.",
 
         difficulty: 1,
-
+        correctAnswer: "Chalk",
         estimatedSeconds: 15,
 
         tags: [
@@ -112,13 +106,11 @@ export const rockTypes: SkillContent = {
             "Sand"
         ],
 
-        answer: 0,
-
         explanation:
             "Granite is hard and durable, making it a popular choice for worktops.",
 
         difficulty: 1,
-
+        correctAnswer: "Granite",
         estimatedSeconds: 15,
 
         tags: [
@@ -140,13 +132,11 @@ export const rockTypes: SkillContent = {
             "Sleepy"
         ],
 
-        answer: 0,
-
         explanation:
             "Rocks can be described using properties such as hard or soft.",
 
         difficulty: 1,
-
+        correctAnswer: "Hard",
         estimatedSeconds: 15,
 
         tags: [
@@ -168,13 +158,11 @@ export const rockTypes: SkillContent = {
             "Marble"
         ],
 
-        answer: 0,
-
         explanation:
             "Chalk is much softer than rocks such as granite or slate.",
 
         difficulty: 1,
-
+        correctAnswer: "Chalk",
         estimatedSeconds: 15,
 
         tags: [
@@ -197,13 +185,11 @@ export const rockTypes: SkillContent = {
             "Clay"
         ],
 
-        answer: 0,
-
         explanation:
             "Slate is strong and splits into flat sheets, making it useful for roof tiles.",
 
         difficulty: 1,
-
+        correctAnswer: "Slate",
         estimatedSeconds: 20,
 
         tags: [
@@ -225,13 +211,11 @@ export const rockTypes: SkillContent = {
             "Their names"
         ],
 
-        answer: 0,
-
         explanation:
             "Rocks can be compared by observing their properties, such as colour, texture and hardness.",
 
         difficulty: 1,
-
+        correctAnswer: "Their colour, texture and hardness",
         estimatedSeconds: 20,
 
         tags: [
@@ -253,13 +237,11 @@ export const rockTypes: SkillContent = {
             "Sand"
         ],
 
-        answer: 0,
-
         explanation:
             "Marble can be polished until it is smooth and shiny.",
 
         difficulty: 1,
-
+        correctAnswer: "Marble",
         estimatedSeconds: 20,
 
         tags: [
@@ -281,13 +263,11 @@ export const rockTypes: SkillContent = {
             "To teach rocks to move"
         ],
 
-        answer: 0,
-
         explanation:
             "Looking at a rock's properties helps scientists identify and compare different types of rocks.",
 
         difficulty: 1,
-
+        correctAnswer: "To identify and compare them",
         estimatedSeconds: 20,
 
         tags: [
@@ -309,14 +289,12 @@ export const rockTypes: SkillContent = {
             "Sand"
         ],
 
-        answer: 0,
-
         explanation:
             "Granite is a very hard rock that is often used for buildings and worktops.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "Granite",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -338,13 +316,11 @@ export const rockTypes: SkillContent = {
             "Marble"
         ],
 
-        answer: 0,
-
         explanation:
             "Chalk is soft and leaves a white powder when rubbed on a surface.",
 
         difficulty: 2,
-
+        correctAnswer: "Chalk",
         estimatedSeconds: 20,
 
         tags: [
@@ -366,13 +342,11 @@ export const rockTypes: SkillContent = {
             "Its name"
         ],
 
-        answer: 0,
-
         explanation:
             "Hardness is one of the properties scientists use to compare rocks.",
 
         difficulty: 2,
-
+        correctAnswer: "Its hardness",
         estimatedSeconds: 20,
 
         tags: [
@@ -394,13 +368,11 @@ export const rockTypes: SkillContent = {
             "Sand"
         ],
 
-        answer: 0,
-
         explanation:
             "Granite is hard, strong and long-lasting, making it a good choice for worktops.",
 
         difficulty: 2,
-
+        correctAnswer: "Granite",
         estimatedSeconds: 20,
 
         tags: [
@@ -423,13 +395,11 @@ export const rockTypes: SkillContent = {
             "Happy and sad"
         ],
 
-        answer: 0,
-
         explanation:
             "Scientists describe rocks using properties such as hardness and texture.",
 
         difficulty: 2,
-
+        correctAnswer: "Hard and rough",
         estimatedSeconds: 20,
 
         tags: [
@@ -451,13 +421,11 @@ export const rockTypes: SkillContent = {
             "It floats on water."
         ],
 
-        answer: 0,
-
         explanation:
             "Slate is strong and naturally splits into flat sheets that make good roof tiles.",
 
         difficulty: 2,
-
+        correctAnswer: "It is strong and splits into flat pieces.",
         estimatedSeconds: 20,
 
         tags: [
@@ -480,13 +448,11 @@ export const rockTypes: SkillContent = {
             "Sand"
         ],
 
-        answer: 0,
-
         explanation:
             "Granite is usually hard and often has a rough texture before it is polished.",
 
         difficulty: 2,
-
+        correctAnswer: "Granite",
         estimatedSeconds: 20,
 
         tags: [
@@ -509,13 +475,11 @@ export const rockTypes: SkillContent = {
             "Clay"
         ],
 
-        answer: 0,
-
         explanation:
             "Marble is often polished for use in buildings and statues.",
 
         difficulty: 2,
-
+        correctAnswer: "Marble",
         estimatedSeconds: 20,
 
         tags: [
@@ -537,13 +501,11 @@ export const rockTypes: SkillContent = {
             "They all come from the same place."
         ],
 
-        answer: 0,
-
         explanation:
             "The properties of a rock, such as hardness and texture, affect how it can be used.",
 
         difficulty: 2,
-
+        correctAnswer: "They have different properties.",
         estimatedSeconds: 20,
 
         tags: [
@@ -566,13 +528,11 @@ export const rockTypes: SkillContent = {
             "They check whether the rocks can move."
         ],
 
-        answer: 0,
-
         explanation:
             "Scientists identify and compare rocks by observing their physical properties.",
 
         difficulty: 2,
-
+        correctAnswer: "They observe properties such as colour, texture and hardness.",
         estimatedSeconds: 20,
 
         tags: [

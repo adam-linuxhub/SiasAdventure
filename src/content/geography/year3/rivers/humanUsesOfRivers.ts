@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const humanUsesOfRivers: SkillContent = {
 
@@ -29,13 +29,11 @@ export const humanUsesOfRivers: SkillContent = {
             "They remove all wildlife"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers provide water for drinking, farming and many other activities.",
 
         difficulty: 1,
-
+        correctAnswer: "They provide water and resources people need",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "human-use"]
@@ -54,13 +52,11 @@ export const humanUsesOfRivers: SkillContent = {
             "For stopping rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "People use freshwater from rivers for many everyday needs.",
 
         difficulty: 1,
-
+        correctAnswer: "For drinking and washing",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -79,13 +75,11 @@ export const humanUsesOfRivers: SkillContent = {
             "To stop farming"
         ],
 
-        answer: 0,
-
         explanation:
             "Farmers use river water for irrigation and livestock.",
 
         difficulty: 1,
-
+        correctAnswer: "To water crops and animals",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "farming"]
@@ -104,13 +98,11 @@ export const humanUsesOfRivers: SkillContent = {
             "Moving a village"
         ],
 
-        answer: 0,
-
         explanation:
             "Irrigation provides crops with the water they need to grow.",
 
         difficulty: 2,
-
+        correctAnswer: "Supplying water to crops",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "farming"]
@@ -129,13 +121,11 @@ export const humanUsesOfRivers: SkillContent = {
             "Rivers have no benefits"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers have helped people settle because they provide useful resources.",
 
         difficulty: 1,
-
+        correctAnswer: "Rivers provide water and help transport goods",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "settlements"]
@@ -154,13 +144,11 @@ export const humanUsesOfRivers: SkillContent = {
             "They stop movement"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers can be used as routes for boats and trade.",
 
         difficulty: 1,
-
+        correctAnswer: "Boats can travel along them",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "transport"]
@@ -179,13 +167,11 @@ export const humanUsesOfRivers: SkillContent = {
             "Energy from animals"
         ],
 
-        answer: 0,
-
         explanation:
             "Hydroelectric power uses moving water to generate electricity.",
 
         difficulty: 2,
-
+        correctAnswer: "Electricity made using moving water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "energy"]
@@ -204,13 +190,11 @@ export const humanUsesOfRivers: SkillContent = {
             "A bridge only"
         ],
 
-        answer: 0,
-
         explanation:
             "Dams can control water flow to generate electricity.",
 
         difficulty: 2,
-
+        correctAnswer: "A dam",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "energy"]
@@ -229,13 +213,11 @@ export const humanUsesOfRivers: SkillContent = {
             "Rain falling"
         ],
 
-        answer: 0,
-
         explanation:
             "Pollution can damage rivers and the living things that depend on them.",
 
         difficulty: 1,
-
+        correctAnswer: "Harmful substances entering the environment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "environment"]
@@ -254,13 +236,11 @@ export const humanUsesOfRivers: SkillContent = {
             "Plants growing"
         ],
 
-        answer: 0,
-
         explanation:
             "Waste and chemicals can make rivers unhealthy.",
 
         difficulty: 1,
-
+        correctAnswer: "Waste and chemicals entering the water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "environment"]
@@ -279,13 +259,11 @@ export const humanUsesOfRivers: SkillContent = {
             "To prevent rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy rivers support ecosystems and people.",
 
         difficulty: 1,
-
+        correctAnswer: "To keep water safe for people and wildlife",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "environment"]
@@ -304,13 +282,11 @@ export const humanUsesOfRivers: SkillContent = {
             "By removing all plants"
         ],
 
-        answer: 0,
-
         explanation:
             "Reducing pollution helps keep rivers clean.",
 
         difficulty: 1,
-
+        correctAnswer: "By reducing litter and pollution",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "environment"]
@@ -329,13 +305,11 @@ export const humanUsesOfRivers: SkillContent = {
             "They create pollution"
         ],
 
-        answer: 0,
-
         explanation:
             "Many plants and animals depend on rivers.",
 
         difficulty: 1,
-
+        correctAnswer: "They provide habitats and water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "wildlife"]
@@ -354,13 +328,11 @@ export const humanUsesOfRivers: SkillContent = {
             "A type of rock"
         ],
 
-        answer: 0,
-
         explanation:
             "A habitat provides the conditions needed for living things.",
 
         difficulty: 1,
-
+        correctAnswer: "A place where living things live",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -379,13 +351,11 @@ export const humanUsesOfRivers: SkillContent = {
             "They create factories"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers have been used as transport routes for thousands of years.",
 
         difficulty: 2,
-
+        correctAnswer: "Boats can transport goods",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "trade"]
@@ -404,13 +374,11 @@ export const humanUsesOfRivers: SkillContent = {
             "The river stops existing"
         ],
 
-        answer: 0,
-
         explanation:
             "Pollution can damage river ecosystems.",
 
         difficulty: 2,
-
+        correctAnswer: "Plants and animals may be harmed",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "environment"]
@@ -429,13 +397,11 @@ export const humanUsesOfRivers: SkillContent = {
             "Rivers cannot be used"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers have helped settlements grow throughout history.",
 
         difficulty: 2,
-
+        correctAnswer: "Rivers provide water and support trade",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "settlements"]
@@ -454,13 +420,11 @@ export const humanUsesOfRivers: SkillContent = {
             "Petrol"
         ],
 
-        answer: 0,
-
         explanation:
             "Moving water can be used as a renewable energy source.",
 
         difficulty: 2,
-
+        correctAnswer: "Hydroelectric power",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers", "energy"]
@@ -479,13 +443,11 @@ export const humanUsesOfRivers: SkillContent = {
             "All water is unlimited"
         ],
 
-        answer: 0,
-
         explanation:
             "Fresh water is important and should be managed carefully.",
 
         difficulty: 2,
-
+        correctAnswer: "Fresh water is a valuable resource",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -504,13 +466,11 @@ export const humanUsesOfRivers: SkillContent = {
             "Rivers have no purpose"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers are important resources for both humans and nature.",
 
         difficulty: 2,
-
+        correctAnswer: "People use rivers for water, farming, transport and energy",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "rivers"]

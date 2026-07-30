@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const adverbs: SkillContent = {
 
@@ -28,13 +28,11 @@ export const adverbs: SkillContent = {
             "happy"
         ],
 
-        answer: 0,
-
         explanation:
             "'Quickly' tells us how someone does something, so it is an adverb.",
 
         difficulty: 1,
-
+        correctAnswer: "quickly",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adverbs"]
@@ -52,13 +50,11 @@ export const adverbs: SkillContent = {
             "boots"
         ],
 
-        answer: 0,
-
         explanation:
             "'Slowly' tells us how the person walked.",
 
         difficulty: 1,
-
+        correctAnswer: "slowly",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adverbs"]
@@ -76,13 +72,11 @@ export const adverbs: SkillContent = {
             "jump"
         ],
 
-        answer: 0,
-
         explanation:
             "'Carefully' tells us how an action is done.",
 
         difficulty: 1,
-
+        correctAnswer: "carefully",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adverbs"]
@@ -100,13 +94,11 @@ export const adverbs: SkillContent = {
             "sleep"
         ],
 
-        answer: 0,
-
         explanation:
             "'Peacefully' tells us how the baby slept.",
 
         difficulty: 1,
-
+        correctAnswer: "peacefully",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adverbs"]
@@ -124,13 +116,11 @@ export const adverbs: SkillContent = {
             "sing"
         ],
 
-        answer: 0,
-
         explanation:
             "'Loudly' describes how someone sings.",
 
         difficulty: 1,
-
+        correctAnswer: "loudly",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adverbs"]
@@ -148,13 +138,11 @@ export const adverbs: SkillContent = {
             "tree"
         ],
 
-        answer: 0,
-
         explanation:
             "'Beautifully' tells us how the bird sang.",
 
         difficulty: 1,
-
+        correctAnswer: "beautifully",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adverbs"]
@@ -172,13 +160,11 @@ export const adverbs: SkillContent = {
             "A small rabbit."
         ],
 
-        answer: 0,
-
         explanation:
             "'Quickly' is the adverb because it describes how the rabbit hopped.",
 
         difficulty: 1,
-
+        correctAnswer: "The rabbit hopped quickly.",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adverbs"]
@@ -196,13 +182,11 @@ export const adverbs: SkillContent = {
             "clock"
         ],
 
-        answer: 0,
-
         explanation:
             "'Yesterday' can be used as an adverb because it tells us when something happened.",
 
         difficulty: 1,
-
+        correctAnswer: "yesterday",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -220,13 +204,11 @@ export const adverbs: SkillContent = {
             "slowly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Horse' is a noun because it names an animal.",
 
         difficulty: 1,
-
+        correctAnswer: "horse",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar"]
@@ -244,13 +226,11 @@ export const adverbs: SkillContent = {
             "happy"
         ],
 
-        answer: 0,
-
         explanation:
             "'Cheerfully' tells us how the person smiled.",
 
         difficulty: 1,
-
+        correctAnswer: "cheerfully",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -268,13 +248,11 @@ export const adverbs: SkillContent = {
             "happy, sad"
         ],
 
-        answer: 0,
-
         explanation:
             "'Carefully' and 'quietly' both describe actions.",
 
         difficulty: 2,
-
+        correctAnswer: "carefully, quietly",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -292,13 +270,11 @@ export const adverbs: SkillContent = {
             "Beautiful Ella sang."
         ],
 
-        answer: 0,
-
         explanation:
             "'Beautifully' tells how Ella sang and 'yesterday' tells when she sang.",
 
         difficulty: 2,
-
+        correctAnswer: "Ella sang beautifully yesterday.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -316,13 +292,11 @@ export const adverbs: SkillContent = {
             "speaker"
         ],
 
-        answer: 0,
-
         explanation:
             "'Clearly' describes how someone should speak.",
 
         difficulty: 2,
-
+        correctAnswer: "clearly",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -340,13 +314,11 @@ export const adverbs: SkillContent = {
             "fence"
         ],
 
-        answer: 0,
-
         explanation:
             "'Carefully' describes how Tom painted.",
 
         difficulty: 2,
-
+        correctAnswer: "carefully",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -364,13 +336,11 @@ export const adverbs: SkillContent = {
             "The puppy loudly."
         ],
 
-        answer: 0,
-
         explanation:
             "'Loudly' correctly describes how the puppy barked.",
 
         difficulty: 2,
-
+        correctAnswer: "The puppy barked loudly.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -388,13 +358,11 @@ export const adverbs: SkillContent = {
             "school"
         ],
 
-        answer: 0,
-
         explanation:
             "'Today' tells us when something happened, so it is an adverb.",
 
         difficulty: 2,
-
+        correctAnswer: "today",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -412,13 +380,11 @@ export const adverbs: SkillContent = {
             "To show speech"
         ],
 
-        answer: 0,
-
         explanation:
             "Adverbs describe how, when or where actions happen.",
 
         difficulty: 2,
-
+        correctAnswer: "To give more information about verbs",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -436,13 +402,11 @@ export const adverbs: SkillContent = {
             "games"
         ],
 
-        answer: 0,
-
         explanation:
             "'Happily' tells us how the children played.",
 
         difficulty: 2,
-
+        correctAnswer: "happily",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -460,13 +424,11 @@ export const adverbs: SkillContent = {
             "A happy family."
         ],
 
-        answer: 0,
-
         explanation:
             "'Tomorrow' tells us when the visit will happen.",
 
         difficulty: 2,
-
+        correctAnswer: "We will visit Grandma tomorrow.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]
@@ -484,13 +446,11 @@ export const adverbs: SkillContent = {
             "Oliver opened quiet door."
         ],
 
-        answer: 0,
-
         explanation:
             "'Quietly' tells how Oliver opened the door, and 'yesterday' tells when it happened.",
 
         difficulty: 2,
-
+        correctAnswer: "Oliver quietly opened the door yesterday.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adverbs"]

@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const storyWriting: SkillContent = {
 
@@ -29,13 +29,11 @@ export const storyWriting: SkillContent = {
             "Start and stop only"
         ],
 
-        answer: 0,
-
         explanation:
             "Most stories have a beginning, middle and ending.",
 
         difficulty: 1,
-
+        correctAnswer: "Beginning, middle and ending",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -54,13 +52,11 @@ export const storyWriting: SkillContent = {
             "The punctuation used"
         ],
 
-        answer: 0,
-
         explanation:
             "Characters are the people, animals or creatures that take part in a story.",
 
         difficulty: 1,
-
+        correctAnswer: "A person or animal in the story",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -79,13 +75,11 @@ export const storyWriting: SkillContent = {
             "The problem"
         ],
 
-        answer: 0,
-
         explanation:
             "The setting tells the reader the place and time of the story.",
 
         difficulty: 1,
-
+        correctAnswer: "Where and when the story happens",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -104,13 +98,11 @@ export const storyWriting: SkillContent = {
             "All characters disappear"
         ],
 
-        answer: 0,
-
         explanation:
             "The beginning introduces who, where and when.",
 
         difficulty: 1,
-
+        correctAnswer: "Characters and setting are introduced",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -129,13 +121,11 @@ export const storyWriting: SkillContent = {
             "It stops the story beginning"
         ],
 
-        answer: 0,
-
         explanation:
             "Problems create excitement and move the story forward.",
 
         difficulty: 1,
-
+        correctAnswer: "It creates something for the characters to solve",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -154,13 +144,11 @@ export const storyWriting: SkillContent = {
             "Because the rain."
         ],
 
-        answer: 0,
-
         explanation:
             "A good opening introduces action and makes the reader interested.",
 
         difficulty: 1,
-
+        correctAnswer: "Ella opened the mysterious door and stepped inside.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -179,13 +167,11 @@ export const storyWriting: SkillContent = {
             "The number of letters in their name"
         ],
 
-        answer: 0,
-
         explanation:
             "Details about characters help readers understand them.",
 
         difficulty: 1,
-
+        correctAnswer: "Their actions, thoughts and feelings",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -204,13 +190,11 @@ export const storyWriting: SkillContent = {
             "A punctuation mark"
         ],
 
-        answer: 0,
-
         explanation:
             "Descriptions help readers imagine where the story happens.",
 
         difficulty: 1,
-
+        correctAnswer: "The dark forest with tall trees",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -229,13 +213,11 @@ export const storyWriting: SkillContent = {
             "The ending is explained first"
         ],
 
-        answer: 0,
-
         explanation:
             "The middle usually contains the main events and problem.",
 
         difficulty: 1,
-
+        correctAnswer: "Events happen and characters face challenges",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -254,13 +236,11 @@ export const storyWriting: SkillContent = {
             "To make stories confusing"
         ],
 
-        answer: 0,
-
         explanation:
             "Planning helps writers organise their ideas.",
 
         difficulty: 1,
-
+        correctAnswer: "To organise ideas and structure the story",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -279,13 +259,11 @@ export const storyWriting: SkillContent = {
             "It happened."
         ],
 
-        answer: 0,
-
         explanation:
             "Descriptive language helps create atmosphere.",
 
         difficulty: 2,
-
+        correctAnswer: "The cold wind howled through the empty forest.",
         estimatedSeconds: 25,
 
         tags: ["english", "writing", "story-writing"]
@@ -304,13 +282,11 @@ export const storyWriting: SkillContent = {
             "Lily was there."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence explains Lily's emotion.",
 
         difficulty: 2,
-
+        correctAnswer: "Lily trembled because she was nervous.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -329,13 +305,11 @@ export const storyWriting: SkillContent = {
             "The first sentence"
         ],
 
-        answer: 0,
-
         explanation:
             "The resolution explains how the story problem is finished.",
 
         difficulty: 2,
-
+        correctAnswer: "How the problem is solved",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -354,13 +328,11 @@ export const storyWriting: SkillContent = {
             "Having no ending"
         ],
 
-        answer: 0,
-
         explanation:
             "Details make stories more interesting for readers.",
 
         difficulty: 2,
-
+        correctAnswer: "Adding details about characters and settings",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -379,13 +351,11 @@ export const storyWriting: SkillContent = {
             "Because"
         ],
 
-        answer: 0,
-
         explanation:
             "'Suddenly' helps show when something unexpected happens.",
 
         difficulty: 2,
-
+        correctAnswer: "Suddenly",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -404,13 +374,11 @@ export const storyWriting: SkillContent = {
             "Ignore the problem"
         ],
 
-        answer: 0,
-
         explanation:
             "A good ending resolves the story.",
 
         difficulty: 2,
-
+        correctAnswer: "Finish the events and give the reader closure",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -429,13 +397,11 @@ export const storyWriting: SkillContent = {
             "The pencil was sharp."
         ],
 
-        answer: 0,
-
         explanation:
             "Creative details help build an imaginative story world.",
 
         difficulty: 2,
-
+        correctAnswer: "The dragon guarded a hidden cave beneath the mountain.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -454,13 +420,11 @@ export const storyWriting: SkillContent = {
             "To change the setting"
         ],
 
-        answer: 0,
-
         explanation:
             "Dialogue helps readers understand characters.",
 
         difficulty: 2,
-
+        correctAnswer: "To show what characters say and think",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -479,13 +443,11 @@ export const storyWriting: SkillContent = {
             "Nothing at all"
         ],
 
-        answer: 0,
-
         explanation:
             "Planning key ideas helps create a structured story.",
 
         difficulty: 2,
-
+        correctAnswer: "Who, where, what happens and how it ends",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]
@@ -504,13 +466,11 @@ export const storyWriting: SkillContent = {
             "No clear ideas"
         ],
 
-        answer: 0,
-
         explanation:
             "Stories need structure and ideas that keep the reader interested.",
 
         difficulty: 2,
-
+        correctAnswer: "Interesting characters, a setting, events and an ending",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "story-writing"]

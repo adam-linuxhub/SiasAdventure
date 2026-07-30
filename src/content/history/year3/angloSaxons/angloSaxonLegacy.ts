@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const angloSaxonLegacy: SkillContent = {
 
@@ -29,13 +29,11 @@ export const angloSaxonLegacy: SkillContent = {
             "A farming tool"
         ],
 
-        answer: 0,
-
         explanation:
             "A legacy is something passed down from the past that continues to influence people.",
 
         difficulty: 1,
-
+        correctAnswer: "Something from the past that still affects us today",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -54,13 +52,11 @@ export const angloSaxonLegacy: SkillContent = {
             "Egyptian"
         ],
 
-        answer: 0,
-
         explanation:
             "Old English spoken by the Anglo-Saxons helped develop the English language.",
 
         difficulty: 1,
-
+        correctAnswer: "English",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -79,13 +75,11 @@ export const angloSaxonLegacy: SkillContent = {
             "They created computers"
         ],
 
-        answer: 0,
-
         explanation:
             "Many place names have Anglo-Saxon origins.",
 
         difficulty: 1,
-
+        correctAnswer: "They named many settlements",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -104,13 +98,11 @@ export const angloSaxonLegacy: SkillContent = {
             "-station"
         ],
 
-        answer: 0,
-
         explanation:
             "The Anglo-Saxon word 'ham' meant village or settlement.",
 
         difficulty: 1,
-
+        correctAnswer: "-ham",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -129,13 +121,11 @@ export const angloSaxonLegacy: SkillContent = {
             "To change history"
         ],
 
-        answer: 0,
-
         explanation:
             "Artefacts provide evidence about past societies.",
 
         difficulty: 1,
-
+        correctAnswer: "To learn about how people lived in the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -154,13 +144,11 @@ export const angloSaxonLegacy: SkillContent = {
             "Electricity"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon culture influenced many parts of Britain.",
 
         difficulty: 1,
-
+        correctAnswer: "Language, traditions and place names",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -179,13 +167,11 @@ export const angloSaxonLegacy: SkillContent = {
             "Computer games"
         ],
 
-        answer: 0,
-
         explanation:
             "Historians use evidence from the past to learn about people.",
 
         difficulty: 1,
-
+        correctAnswer: "Buildings, objects and writings",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -204,13 +190,11 @@ export const angloSaxonLegacy: SkillContent = {
             "They moved underwater"
         ],
 
-        answer: 0,
-
         explanation:
             "Many settlements developed into places that still exist today.",
 
         difficulty: 1,
-
+        correctAnswer: "Some became towns and villages that still exist today",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -229,13 +213,11 @@ export const angloSaxonLegacy: SkillContent = {
             "They are not studied"
         ],
 
-        answer: 0,
-
         explanation:
             "Language changes over time and Anglo-Saxon words influenced English.",
 
         difficulty: 2,
-
+        correctAnswer: "They show how the English language developed",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -254,13 +236,11 @@ export const angloSaxonLegacy: SkillContent = {
             "They replaced all history"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon influence can still be seen today.",
 
         difficulty: 2,
-
+        correctAnswer: "Their language and culture still influence Britain today",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -279,13 +259,11 @@ export const angloSaxonLegacy: SkillContent = {
             "They have no meaning"
         ],
 
-        answer: 0,
-
         explanation:
             "Place names can reveal information about the past.",
 
         difficulty: 2,
-
+        correctAnswer: "They give clues about people who lived there",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -304,13 +282,11 @@ export const angloSaxonLegacy: SkillContent = {
             "Modern machines"
         ],
 
-        answer: 0,
-
         explanation:
             "Monasteries helped preserve important written records.",
 
         difficulty: 2,
-
+        correctAnswer: "Books and written knowledge",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -329,13 +305,11 @@ export const angloSaxonLegacy: SkillContent = {
             "It stopped language changing"
         ],
 
-        answer: 0,
-
         explanation:
             "Old English was an early form of the English language.",
 
         difficulty: 2,
-
+        correctAnswer: "It helped form the English language used today",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -354,13 +328,11 @@ export const angloSaxonLegacy: SkillContent = {
             "Weather forecasts"
         ],
 
-        answer: 0,
-
         explanation:
             "Objects can provide clues about past societies.",
 
         difficulty: 2,
-
+        correctAnswer: "Information about people and their lives",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -379,13 +351,11 @@ export const angloSaxonLegacy: SkillContent = {
             "It came before the Stone Age"
         ],
 
-        answer: 0,
-
         explanation:
             "The Anglo-Saxon period was an important part of English history.",
 
         difficulty: 2,
-
+        correctAnswer: "It helped shape England before the Norman invasion",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -404,13 +374,11 @@ export const angloSaxonLegacy: SkillContent = {
             "Through cars"
         ],
 
-        answer: 0,
-
         explanation:
             "Language and settlements are important examples of Anglo-Saxon influence.",
 
         difficulty: 2,
-
+        correctAnswer: "Through language and settlements",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -429,13 +397,11 @@ export const angloSaxonLegacy: SkillContent = {
             "To ignore history"
         ],
 
-        answer: 0,
-
         explanation:
             "Different sources help historians understand events more accurately.",
 
         difficulty: 2,
-
+        correctAnswer: "To get a clearer picture of the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -454,13 +420,11 @@ export const angloSaxonLegacy: SkillContent = {
             "Electric cars"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon words and place names remain part of Britain today.",
 
         difficulty: 2,
-
+        correctAnswer: "Words and place names",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -479,13 +443,11 @@ export const angloSaxonLegacy: SkillContent = {
             "Nothing about people"
         ],
 
-        answer: 0,
-
         explanation:
             "History helps us understand changes in human societies.",
 
         difficulty: 2,
-
+        correctAnswer: "How people and societies changed over time",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
@@ -504,13 +466,11 @@ export const angloSaxonLegacy: SkillContent = {
             "They lived in modern times"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon influence remains visible in Britain today.",
 
         difficulty: 2,
-
+        correctAnswer: "Anglo-Saxons influenced Britain's language, culture and settlements",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]

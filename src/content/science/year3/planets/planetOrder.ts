@@ -28,13 +28,11 @@ export const planetOrder: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury is the first planet from the Sun.",
 
         difficulty: 1,
-
+        correctAnswer: "Mercury",
         estimatedSeconds: 10,
 
         tags: [
@@ -57,13 +55,11 @@ export const planetOrder: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus is the second planet from the Sun.",
 
         difficulty: 1,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 10,
 
         tags: [
@@ -86,13 +82,11 @@ export const planetOrder: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is the third planet from the Sun.",
 
         difficulty: 1,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 10,
 
         tags: [
@@ -115,13 +109,11 @@ export const planetOrder: SkillContent = {
             "Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Mars is the fourth planet from the Sun.",
 
         difficulty: 1,
-
+        correctAnswer: "Mars",
         estimatedSeconds: 10,
 
         tags: [
@@ -144,13 +136,11 @@ export const planetOrder: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is the fifth planet from the Sun.",
 
         difficulty: 1,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 10,
 
         tags: [
@@ -173,13 +163,11 @@ export const planetOrder: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Saturn is the sixth planet from the Sun.",
 
         difficulty: 1,
-
+        correctAnswer: "Saturn",
         estimatedSeconds: 10,
 
         tags: [
@@ -202,13 +190,11 @@ export const planetOrder: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Uranus is the seventh planet from the Sun.",
 
         difficulty: 1,
-
+        correctAnswer: "Uranus",
         estimatedSeconds: 10,
 
         tags: [
@@ -231,13 +217,11 @@ export const planetOrder: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune is the eighth and farthest planet from the Sun.",
 
         difficulty: 1,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 10,
 
         tags: [
@@ -260,13 +244,11 @@ export const planetOrder: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus comes immediately after Mercury.",
 
         difficulty: 1,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 12,
 
         tags: [
@@ -288,13 +270,11 @@ export const planetOrder: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth comes immediately after Venus.",
 
         difficulty: 1,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 12,
 
         tags: [
@@ -316,13 +296,11 @@ export const planetOrder: SkillContent = {
             "Mercury"
         ],
 
-        answer: 0,
-
         explanation:
             "Mars comes immediately after Earth.",
 
         difficulty: 1,
-
+        correctAnswer: "Mars",
         estimatedSeconds: 12,
 
         tags: [
@@ -344,13 +322,11 @@ export const planetOrder: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter comes immediately after Mars.",
 
         difficulty: 1,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 12,
 
         tags: [
@@ -372,13 +348,11 @@ export const planetOrder: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Saturn comes immediately after Jupiter.",
 
         difficulty: 1,
-
+        correctAnswer: "Saturn",
         estimatedSeconds: 12,
 
         tags: [
@@ -400,13 +374,11 @@ export const planetOrder: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Uranus comes immediately after Saturn.",
 
         difficulty: 1,
-
+        correctAnswer: "Uranus",
         estimatedSeconds: 12,
 
         tags: [
@@ -428,13 +400,11 @@ export const planetOrder: SkillContent = {
             "Earth"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune is the last planet in the Solar System.",
 
         difficulty: 1,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 12,
 
         tags: [
@@ -456,14 +426,12 @@ export const planetOrder: SkillContent = {
         "Jupiter"
     ],
 
-    answer: 0,
-
     explanation:
         "Venus is the second planet, so it comes immediately before Earth.",
 
     difficulty: 2,
-
-    estimatedSeconds: 15,
+        correctAnswer: "Venus",
+        estimatedSeconds: 15,
 
     tags: [
         "science",
@@ -484,13 +452,11 @@ export const planetOrder: SkillContent = {
         "Mercury"
     ],
 
-    answer: 0,
-
     explanation:
         "Earth is the third planet and Mars is the fourth.",
 
     difficulty: 2,
-
+    correctAnswer: "Earth",
     estimatedSeconds: 15,
 
     tags: [
@@ -512,13 +478,11 @@ export const planetOrder: SkillContent = {
         "Venus"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars is the fourth planet and Jupiter is the fifth.",
 
     difficulty: 2,
-
+    correctAnswer: "Mars",
     estimatedSeconds: 15,
 
     tags: [
@@ -540,13 +504,11 @@ export const planetOrder: SkillContent = {
         "Neptune"
     ],
 
-    answer: 0,
-
     explanation:
         "Jupiter is the fifth planet and Saturn is the sixth.",
 
     difficulty: 2,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 15,
 
     tags: [
@@ -568,13 +530,11 @@ export const planetOrder: SkillContent = {
         "Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Saturn comes immediately before Uranus.",
 
     difficulty: 2,
-
+    correctAnswer: "Saturn",
     estimatedSeconds: 15,
 
     tags: [
@@ -596,13 +556,11 @@ export const planetOrder: SkillContent = {
         "Earth"
     ],
 
-    answer: 0,
-
     explanation:
         "Uranus is the seventh planet and Neptune is the eighth.",
 
     difficulty: 2,
-
+    correctAnswer: "Uranus",
     estimatedSeconds: 15,
 
     tags: [
@@ -624,13 +582,11 @@ export const planetOrder: SkillContent = {
         "Saturn"
     ],
 
-    answer: 0,
-
     explanation:
         "Venus is between Mercury and Earth.",
 
     difficulty: 2,
-
+    correctAnswer: "Venus",
     estimatedSeconds: 15,
 
     tags: [
@@ -652,13 +608,11 @@ export const planetOrder: SkillContent = {
         "Mercury"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars comes after Earth and before Jupiter.",
 
     difficulty: 2,
-
+    correctAnswer: "Mars",
     estimatedSeconds: 15,
 
     tags: [
@@ -680,13 +634,11 @@ export const planetOrder: SkillContent = {
         "Earth"
     ],
 
-    answer: 0,
-
     explanation:
         "Saturn is between Jupiter and Uranus.",
 
     difficulty: 2,
-
+    correctAnswer: "Saturn",
     estimatedSeconds: 15,
 
     tags: [
@@ -708,13 +660,11 @@ export const planetOrder: SkillContent = {
         "Earth"
     ],
 
-    answer: 0,
-
     explanation:
         "Uranus is between Saturn and Neptune.",
 
     difficulty: 2,
-
+    correctAnswer: "Uranus",
     estimatedSeconds: 15,
 
     tags: [
@@ -736,13 +686,11 @@ export const planetOrder: SkillContent = {
         "Mercury and Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Mercury is first and Venus is second, so both come before Earth.",
 
     difficulty: 3,
-
+    correctAnswer: "Mercury and Venus",
     estimatedSeconds: 20,
 
     tags: [
@@ -764,13 +712,11 @@ export const planetOrder: SkillContent = {
         "Earth and Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "The two planets after Saturn are Uranus and Neptune.",
 
     difficulty: 3,
-
+    correctAnswer: "Uranus and Neptune",
     estimatedSeconds: 20,
 
     tags: [
@@ -792,13 +738,11 @@ export const planetOrder: SkillContent = {
         "Jupiter"
     ],
 
-    answer: 0,
-
     explanation:
         "There are eight planets, so there is no single middle planet. Mars is fourth and Jupiter is fifth.",
 
     difficulty: 3,
-
+    correctAnswer: "There isn't one.",
     estimatedSeconds: 25,
 
     tags: [
@@ -821,13 +765,11 @@ export const planetOrder: SkillContent = {
         "Earth"
     ],
 
-    answer: 0,
-
     explanation:
         "Neptune is the eighth and last planet in our Solar System.",
 
     difficulty: 3,
-
+    correctAnswer: "No planet",
     estimatedSeconds: 20,
 
     tags: [
@@ -849,13 +791,11 @@ export const planetOrder: SkillContent = {
         "Jupiter"
     ],
 
-    answer: 0,
-
     explanation:
         "After Mercury, the next planet is Venus.",
 
     difficulty: 3,
-
+    correctAnswer: "Venus",
     estimatedSeconds: 20,
 
     tags: [
@@ -876,13 +816,11 @@ export const planetOrder: SkillContent = {
         "Earth, Venus, Mercury"
     ],
 
-    answer: 0,
-
     explanation:
         "The first three planets are Mercury, Venus and Earth.",
 
     difficulty: 3,
-
+    correctAnswer: "Mercury, Venus, Earth",
     estimatedSeconds: 20,
 
     tags: [
@@ -904,13 +842,11 @@ export const planetOrder: SkillContent = {
         "Uranus, Saturn, Neptune"
     ],
 
-    answer: 0,
-
     explanation:
         "The last three planets are Saturn, Uranus and Neptune.",
 
     difficulty: 3,
-
+    correctAnswer: "Saturn, Uranus, Neptune",
     estimatedSeconds: 20,
 
     tags: [
@@ -932,13 +868,11 @@ export const planetOrder: SkillContent = {
         "Earth"
     ],
 
-    answer: 0,
-
     explanation:
         "Starting at Mercury: Venus (1), Earth (2), Mars (3), Jupiter (4).",
 
     difficulty: 4,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 25,
 
     tags: [
@@ -961,13 +895,11 @@ export const planetOrder: SkillContent = {
         "Venus"
     ],
 
-    answer: 0,
-
     explanation:
         "After Earth comes Mars, then Jupiter.",
 
     difficulty: 4,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 20,
 
     tags: [
@@ -990,13 +922,11 @@ export const planetOrder: SkillContent = {
         "Earth"
     ],
 
-    answer: 0,
-
     explanation:
         "Counting backwards from Neptune: Uranus (1), Saturn (2), Jupiter (3).",
 
     difficulty: 4,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 25,
 
     tags: [
@@ -1019,13 +949,11 @@ export const planetOrder: SkillContent = {
         "Uranus"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars comes between Earth and Jupiter.",
 
     difficulty: 4,
-
+    correctAnswer: "Mars",
     estimatedSeconds: 20,
 
     tags: [
@@ -1047,13 +975,11 @@ export const planetOrder: SkillContent = {
         "Mercury"
     ],
 
-    answer: 0,
-
     explanation:
         "Saturn comes after Jupiter and before Uranus.",
 
     difficulty: 4,
-
+    correctAnswer: "Saturn",
     estimatedSeconds: 20,
 
     tags: [
@@ -1075,13 +1001,11 @@ export const planetOrder: SkillContent = {
         "Sixth"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars comes immediately after Earth, making it the fourth planet.",
 
     difficulty: 4,
-
+    correctAnswer: "Fourth",
     estimatedSeconds: 20,
 
     tags: [
@@ -1103,13 +1027,11 @@ export const planetOrder: SkillContent = {
         "Eighth"
     ],
 
-    answer: 0,
-
     explanation:
         "Saturn comes immediately after Jupiter, so it is the sixth planet.",
 
     difficulty: 4,
-
+    correctAnswer: "Sixth",
     estimatedSeconds: 20,
 
     tags: [
@@ -1131,13 +1053,11 @@ export const planetOrder: SkillContent = {
         "Neptune comes before Saturn."
     ],
 
-    answer: 0,
-
     explanation:
         "Earth is the third planet and Mars is the fourth, so Earth comes first.",
 
     difficulty: 4,
-
+    correctAnswer: "Earth comes before Mars.",
     estimatedSeconds: 20,
 
     tags: [
@@ -1159,13 +1079,11 @@ export const planetOrder: SkillContent = {
         "Saturn is the last planet."
     ],
 
-    answer: 0,
-
     explanation:
         "Jupiter is fifth and Saturn is sixth, so Saturn comes after Jupiter.",
 
     difficulty: 5,
-
+    correctAnswer: "Saturn comes after Jupiter.",
     estimatedSeconds: 25,
 
     tags: [
@@ -1187,13 +1105,11 @@ export const planetOrder: SkillContent = {
         "Venus comes before Mercury."
     ],
 
-    answer: 0,
-
     explanation:
         "Uranus is the seventh planet and Neptune is the eighth.",
 
     difficulty: 5,
-
+    correctAnswer: "Uranus comes before Neptune.",
     estimatedSeconds: 25,
 
     tags: [
@@ -1215,13 +1131,11 @@ export const planetOrder: SkillContent = {
         "Saturn and Neptune"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars is immediately followed by Jupiter.",
 
     difficulty: 5,
-
+    correctAnswer: "Mars and Jupiter",
     estimatedSeconds: 25,
 
     tags: [
@@ -1243,13 +1157,11 @@ export const planetOrder: SkillContent = {
         "Saturn and Uranus"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars sits between Earth and Jupiter, so they are not next to each other.",
 
     difficulty: 5,
-
+    correctAnswer: "Earth and Jupiter",
     estimatedSeconds: 25,
 
     tags: [
@@ -1271,13 +1183,11 @@ export const planetOrder: SkillContent = {
         "Earth"
     ],
 
-    answer: 0,
-
     explanation:
         "Counting from the Sun gives Mercury, Venus, Earth, Mars and then Jupiter.",
 
     difficulty: 5,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 25,
 
     tags: [
@@ -1298,13 +1208,11 @@ export const planetOrder: SkillContent = {
         "Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Neptune is the last planet, so Uranus comes immediately before it.",
 
     difficulty: 5,
-
+    correctAnswer: "Uranus",
     estimatedSeconds: 25,
 
     tags: [
@@ -1326,13 +1234,11 @@ export const planetOrder: SkillContent = {
         "Mercury"
     ],
 
-    answer: 0,
-
     explanation:
         "Mercury is first and Venus comes immediately after it.",
 
     difficulty: 5,
-
+    correctAnswer: "Venus",
     estimatedSeconds: 20,
 
     tags: [
@@ -1354,13 +1260,11 @@ export const planetOrder: SkillContent = {
         "Mercury, Venus, Earth, Mars, Saturn, Jupiter, Uranus, Neptune"
     ],
 
-    answer: 0,
-
     explanation:
         "The correct order from the Sun is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
 
     difficulty: 5,
-
+    correctAnswer: "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
     estimatedSeconds: 30,
 
     tags: [
@@ -1383,13 +1287,11 @@ export const planetOrder: SkillContent = {
         "Earth is closer to the Sun than Venus."
     ],
 
-    answer: 0,
-
     explanation:
         "Mars is the fourth planet and Jupiter is the fifth, so Mars is closer to the Sun.",
 
     difficulty: 5,
-
+    correctAnswer: "Mars is closer to the Sun than Jupiter.",
     estimatedSeconds: 25,
 
     tags: [
@@ -1412,13 +1314,11 @@ export const planetOrder: SkillContent = {
         "No, Neptune should come before Uranus."
     ],
 
-    answer: 0,
-
     explanation:
         "Well done! Sofia has named all eight planets in the correct order from the Sun.",
 
     difficulty: 5,
-
+    correctAnswer: "Yes, that is the correct order.",
     estimatedSeconds: 30,
 
     tags: [

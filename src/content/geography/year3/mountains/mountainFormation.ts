@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const mountainFormation: SkillContent = {
 
@@ -29,13 +29,11 @@ export const mountainFormation: SkillContent = {
             "By weather alone"
         ],
 
-        answer: 0,
-
         explanation:
             "Many mountains form when sections of the Earth's crust move and push upwards.",
 
         difficulty: 1,
-
+        correctAnswer: "By movements of the Earth's crust",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "formation"]
@@ -54,13 +52,11 @@ export const mountainFormation: SkillContent = {
             "A river feature"
         ],
 
-        answer: 0,
-
         explanation:
             "The crust is the thin outer layer of the Earth where we live.",
 
         difficulty: 1,
-
+        correctAnswer: "The outer layer of the Earth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -79,13 +75,11 @@ export const mountainFormation: SkillContent = {
             "Ocean waves"
         ],
 
-        answer: 0,
-
         explanation:
             "Tectonic plates are large sections of the Earth's crust that slowly move.",
 
         difficulty: 2,
-
+        correctAnswer: "Large pieces of the Earth's crust that move",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "tectonic-plates"]
@@ -104,13 +98,11 @@ export const mountainFormation: SkillContent = {
             "Weather stops"
         ],
 
-        answer: 0,
-
         explanation:
             "Pressure from moving plates can create mountain ranges.",
 
         difficulty: 2,
-
+        correctAnswer: "Land can be pushed upwards to form mountains",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -129,13 +121,11 @@ export const mountainFormation: SkillContent = {
             "A weather event"
         ],
 
-        answer: 0,
-
         explanation:
             "Volcanoes allow hot material from inside Earth to reach the surface.",
 
         difficulty: 1,
-
+        correctAnswer: "An opening in the Earth's crust where magma can escape",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "volcanoes"]
@@ -154,13 +144,11 @@ export const mountainFormation: SkillContent = {
             "They create rivers only"
         ],
 
-        answer: 0,
-
         explanation:
             "Repeated volcanic eruptions can build volcanic mountains.",
 
         difficulty: 2,
-
+        correctAnswer: "Layers of lava can build up over time",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "volcanoes"]
@@ -179,13 +167,11 @@ export const mountainFormation: SkillContent = {
             "A mountain animal"
         ],
 
-        answer: 0,
-
         explanation:
             "Magma is melted rock found beneath the Earth's surface.",
 
         difficulty: 2,
-
+        correctAnswer: "Hot melted rock beneath the Earth's surface",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "volcanoes"]
@@ -204,13 +190,11 @@ export const mountainFormation: SkillContent = {
             "A river feature"
         ],
 
-        answer: 0,
-
         explanation:
             "When magma escapes from a volcano, it is called lava.",
 
         difficulty: 2,
-
+        correctAnswer: "Magma that reaches the Earth's surface",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "volcanoes"]
@@ -229,13 +213,11 @@ export const mountainFormation: SkillContent = {
             "A river movement"
         ],
 
-        answer: 0,
-
         explanation:
             "Earthquakes happen when energy is released inside the Earth.",
 
         difficulty: 1,
-
+        correctAnswer: "A shaking of the Earth's surface",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -254,13 +236,11 @@ export const mountainFormation: SkillContent = {
             "Because mountains disappear"
         ],
 
-        answer: 0,
-
         explanation:
             "Movement of tectonic plates can cause earthquakes.",
 
         difficulty: 2,
-
+        correctAnswer: "Because tectonic plates can move suddenly",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "tectonic-plates"]
@@ -279,13 +259,11 @@ export const mountainFormation: SkillContent = {
             "They are built by people"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountain formation is usually a very slow process.",
 
         difficulty: 1,
-
+        correctAnswer: "Usually no, they form over millions of years",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -304,13 +282,11 @@ export const mountainFormation: SkillContent = {
             "Sunlight only"
         ],
 
-        answer: 0,
-
         explanation:
             "Wind, water and ice can slowly wear away mountains.",
 
         difficulty: 2,
-
+        correctAnswer: "Weathering and erosion",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -329,13 +305,11 @@ export const mountainFormation: SkillContent = {
             "The growth of plants"
         ],
 
-        answer: 0,
-
         explanation:
             "Erosion changes landscapes by moving material.",
 
         difficulty: 2,
-
+        correctAnswer: "The wearing away and movement of rock and soil",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "erosion"]
@@ -354,13 +328,11 @@ export const mountainFormation: SkillContent = {
             "By making rivers disappear"
         ],
 
-        answer: 0,
-
         explanation:
             "Moving ice can carve valleys and reshape mountains.",
 
         difficulty: 2,
-
+        correctAnswer: "By moving ice that cuts and shapes the land",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -379,13 +351,11 @@ export const mountainFormation: SkillContent = {
             "A flat area"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountain ranges contain groups of connected mountains.",
 
         difficulty: 1,
-
+        correctAnswer: "A group of mountains formed together",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -404,13 +374,11 @@ export const mountainFormation: SkillContent = {
             "To change the weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Studying mountains helps us understand Earth's processes.",
 
         difficulty: 2,
-
+        correctAnswer: "To understand how Earth changes",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -429,13 +397,11 @@ export const mountainFormation: SkillContent = {
             "It becomes clouds"
         ],
 
-        answer: 0,
-
         explanation:
             "Cooling lava hardens into rock.",
 
         difficulty: 2,
-
+        correctAnswer: "It becomes solid rock",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "volcanoes"]
@@ -454,13 +420,11 @@ export const mountainFormation: SkillContent = {
             "Painting"
         ],
 
-        answer: 0,
-
         explanation:
             "Natural processes such as erosion slowly reshape mountains.",
 
         difficulty: 1,
-
+        correctAnswer: "Erosion",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -479,13 +443,11 @@ export const mountainFormation: SkillContent = {
             "They are made by humans"
         ],
 
-        answer: 0,
-
         explanation:
             "Plate movement creates many changes to Earth's surface.",
 
         difficulty: 2,
-
+        correctAnswer: "Their movement helps shape Earth's surface",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "tectonic-plates"]
@@ -504,13 +466,11 @@ export const mountainFormation: SkillContent = {
             "Mountains never change"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains form and change through natural Earth processes.",
 
         difficulty: 2,
-
+        correctAnswer: "Mountains form through natural processes such as plate movement and volcanoes",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "mountains"]

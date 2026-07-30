@@ -28,13 +28,11 @@ export const simpleCircuits: SkillContent = {
             "Only wires"
         ],
 
-        answer: 0,
-
         explanation:
             "Electricity can only flow when the circuit is complete.",
 
         difficulty: 1,
-
+        correctAnswer: "A complete circuit",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "circuits"]
@@ -52,13 +50,11 @@ export const simpleCircuits: SkillContent = {
             "Switch"
         ],
 
-        answer: 0,
-
         explanation:
             "The battery supplies the electrical energy.",
 
         difficulty: 1,
-
+        correctAnswer: "Battery",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "battery"]
@@ -76,13 +72,11 @@ export const simpleCircuits: SkillContent = {
             "Turn the circuit off"
         ],
 
-        answer: 0,
-
         explanation:
             "Wires connect the parts of a circuit so electricity can flow.",
 
         difficulty: 1,
-
+        correctAnswer: "Connect the components",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "wires"]
@@ -100,13 +94,11 @@ export const simpleCircuits: SkillContent = {
             "Provides energy"
         ],
 
-        answer: 0,
-
         explanation:
             "A bulb lights up when electricity flows through it.",
 
         difficulty: 1,
-
+        correctAnswer: "Produces light",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "bulb"]
@@ -124,13 +116,11 @@ export const simpleCircuits: SkillContent = {
             "To brighten the bulb"
         ],
 
-        answer: 0,
-
         explanation:
             "A switch controls whether electricity can flow.",
 
         difficulty: 1,
-
+        correctAnswer: "To open or close the circuit",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "switch"]
@@ -148,13 +138,11 @@ export const simpleCircuits: SkillContent = {
             "Nothing happens"
         ],
 
-        answer: 0,
-
         explanation:
             "Electricity flows around a complete circuit.",
 
         difficulty: 1,
-
+        correctAnswer: "Electricity flows",
         estimatedSeconds: 15,
 
         tags: ["science", "circuits"]
@@ -172,13 +160,11 @@ export const simpleCircuits: SkillContent = {
             "The wires glow"
         ],
 
-        answer: 0,
-
         explanation:
             "A gap creates an incomplete circuit, stopping the flow of electricity.",
 
         difficulty: 1,
-
+        correctAnswer: "Electricity cannot flow",
         estimatedSeconds: 15,
 
         tags: ["science", "circuits"]
@@ -196,13 +182,11 @@ export const simpleCircuits: SkillContent = {
             "Bulb"
         ],
 
-        answer: 0,
-
         explanation:
             "Opening or closing the switch controls the circuit.",
 
         difficulty: 1,
-
+        correctAnswer: "Switch",
         estimatedSeconds: 20,
 
         tags: ["science", "switch"]
@@ -220,13 +204,11 @@ export const simpleCircuits: SkillContent = {
             "Ruler"
         ],
 
-        answer: 0,
-
         explanation:
             "A battery is one of the basic circuit components.",
 
         difficulty: 1,
-
+        correctAnswer: "Battery",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity"]
@@ -244,13 +226,11 @@ export const simpleCircuits: SkillContent = {
             "A switch produces electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "The bulb lights only when electricity can flow around a complete circuit.",
 
         difficulty: 1,
-
+        correctAnswer: "A bulb lights when the circuit is complete.",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits"]
@@ -268,13 +248,11 @@ export const simpleCircuits: SkillContent = {
             "The switch becomes magnetic."
         ],
 
-        answer: 0,
-
         explanation:
             "Electricity cannot flow if the circuit is broken.",
 
         difficulty: 2,
-
+        correctAnswer: "The circuit is incomplete.",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits"]
@@ -292,13 +270,11 @@ export const simpleCircuits: SkillContent = {
             "It opens the switch."
         ],
 
-        answer: 0,
-
         explanation:
             "The battery supplies the energy that makes electricity flow.",
 
         difficulty: 2,
-
+        correctAnswer: "It provides electrical energy.",
         estimatedSeconds: 20,
 
         tags: ["science", "battery"]
@@ -316,13 +292,11 @@ export const simpleCircuits: SkillContent = {
             "The wires disappear."
         ],
 
-        answer: 0,
-
         explanation:
             "An open switch creates a gap in the circuit.",
 
         difficulty: 2,
-
+        correctAnswer: "The circuit is broken and the bulb goes out.",
         estimatedSeconds: 20,
 
         tags: ["science", "switch"]
@@ -340,13 +314,11 @@ export const simpleCircuits: SkillContent = {
             "Switch, book and battery"
         ],
 
-        answer: 0,
-
         explanation:
             "These are all common parts of a simple electrical circuit.",
 
         difficulty: 2,
-
+        correctAnswer: "Battery, bulb, wire and switch",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits"]
@@ -364,13 +336,11 @@ export const simpleCircuits: SkillContent = {
             "To stop the switch moving."
         ],
 
-        answer: 0,
-
         explanation:
             "Every connection is needed to complete the circuit.",
 
         difficulty: 2,
-
+        correctAnswer: "So electricity can flow around the circuit.",
         estimatedSeconds: 20,
 
         tags: ["science", "wires"]
@@ -388,13 +358,11 @@ export const simpleCircuits: SkillContent = {
             "Connecting the bulb"
         ],
 
-        answer: 0,
-
         explanation:
             "Removing a wire creates a gap in the circuit.",
 
         difficulty: 2,
-
+        correctAnswer: "Removing one wire",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits"]
@@ -412,13 +380,11 @@ export const simpleCircuits: SkillContent = {
             "To stop electricity moving."
         ],
 
-        answer: 0,
-
         explanation:
             "Electricity flows in a complete loop.",
 
         difficulty: 2,
-
+        correctAnswer: "To allow electricity to flow from the battery through the components and back again.",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits"]
@@ -436,13 +402,11 @@ export const simpleCircuits: SkillContent = {
             "Battery holder"
         ],
 
-        answer: 0,
-
         explanation:
             "The switch opens or closes the circuit.",
 
         difficulty: 2,
-
+        correctAnswer: "Switch",
         estimatedSeconds: 20,
 
         tags: ["science", "switch"]
@@ -460,13 +424,11 @@ export const simpleCircuits: SkillContent = {
             "The switch glows."
         ],
 
-        answer: 0,
-
         explanation:
             "Closing the switch allows electricity to flow.",
 
         difficulty: 2,
-
+        correctAnswer: "Closing the switch completes the circuit.",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits", "switch"]
@@ -484,13 +446,11 @@ export const simpleCircuits: SkillContent = {
             "A wire without a battery."
         ],
 
-        answer: 0,
-
         explanation:
             "A simple circuit is a complete loop containing connected electrical components.",
 
         difficulty: 2,
-
+        correctAnswer: "A complete loop of connected components that allows electricity to flow from a battery through devices such as a bulb.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "circuits", "battery", "bulb"]

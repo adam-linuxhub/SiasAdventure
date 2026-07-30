@@ -28,13 +28,11 @@ export const protectingHearing: SkillContent = {
             "Feet"
         ],
 
-        answer: 0,
-
         explanation:
             "Your ears detect sound vibrations and allow you to hear.",
 
         difficulty: 1,
-
+        correctAnswer: "Ears",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "hearing"]
@@ -52,13 +50,11 @@ export const protectingHearing: SkillContent = {
             "Make you taller"
         ],
 
-        answer: 0,
-
         explanation:
             "Very loud sounds can damage the delicate parts of your ears.",
 
         difficulty: 1,
-
+        correctAnswer: "Damage your hearing",
         estimatedSeconds: 15,
 
         tags: ["science", "hearing", "safety"]
@@ -76,13 +72,11 @@ export const protectingHearing: SkillContent = {
             "Planting seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Fireworks produce very loud sounds that can affect hearing.",
 
         difficulty: 1,
-
+        correctAnswer: "Watching fireworks",
         estimatedSeconds: 15,
 
         tags: ["science", "hearing"]
@@ -100,13 +94,11 @@ export const protectingHearing: SkillContent = {
             "A scarf"
         ],
 
-        answer: 0,
-
         explanation:
             "Ear defenders reduce the amount of loud sound reaching your ears.",
 
         difficulty: 1,
-
+        correctAnswer: "Ear defenders",
         estimatedSeconds: 15,
 
         tags: ["science", "hearing", "safety"]
@@ -124,13 +116,11 @@ export const protectingHearing: SkillContent = {
             "Cover your eyes"
         ],
 
-        answer: 0,
-
         explanation:
             "Keeping the volume lower helps protect your hearing.",
 
         difficulty: 1,
-
+        correctAnswer: "Turn the volume down",
         estimatedSeconds: 15,
 
         tags: ["science", "hearing", "headphones"]
@@ -148,13 +138,11 @@ export const protectingHearing: SkillContent = {
             "A firework exploding beside you"
         ],
 
-        answer: 0,
-
         explanation:
             "Quieter sounds are much less likely to damage hearing.",
 
         difficulty: 1,
-
+        correctAnswer: "A quiet conversation",
         estimatedSeconds: 15,
 
         tags: ["science", "hearing"]
@@ -172,13 +160,11 @@ export const protectingHearing: SkillContent = {
             "Your ears become stronger."
         ],
 
-        answer: 0,
-
         explanation:
             "Sound becomes quieter as you move farther from the source.",
 
         difficulty: 1,
-
+        correctAnswer: "The sound becomes quieter.",
         estimatedSeconds: 15,
 
         tags: ["science", "hearing", "distance"]
@@ -196,13 +182,11 @@ export const protectingHearing: SkillContent = {
             "Listening to loud sounds for many hours"
         ],
 
-        answer: 0,
-
         explanation:
             "Giving your ears regular breaks helps protect them.",
 
         difficulty: 1,
-
+        correctAnswer: "Taking breaks from loud noise",
         estimatedSeconds: 20,
 
         tags: ["science", "hearing", "safety"]
@@ -220,13 +204,11 @@ export const protectingHearing: SkillContent = {
             "Ears cannot be damaged."
         ],
 
-        answer: 0,
-
         explanation:
             "Looking after your hearing is important at every age.",
 
         difficulty: 1,
-
+        correctAnswer: "Your hearing is important and should be protected.",
         estimatedSeconds: 20,
 
         tags: ["science", "hearing"]
@@ -244,13 +226,11 @@ export const protectingHearing: SkillContent = {
             "Turn it up even more"
         ],
 
-        answer: 0,
-
         explanation:
             "Moving away or using hearing protection reduces the risk of damage.",
 
         difficulty: 1,
-
+        correctAnswer: "Move away or protect your ears",
         estimatedSeconds: 20,
 
         tags: ["science", "hearing", "safety"]
@@ -268,13 +248,11 @@ export const protectingHearing: SkillContent = {
             "They improve your eyesight."
         ],
 
-        answer: 0,
-
         explanation:
             "Ear defenders reduce loud sounds to help protect hearing.",
 
         difficulty: 2,
-
+        correctAnswer: "They reduce the amount of sound reaching your ears.",
         estimatedSeconds: 20,
 
         tags: ["science", "hearing", "safety"]
@@ -292,13 +270,11 @@ export const protectingHearing: SkillContent = {
             "The music ends."
         ],
 
-        answer: 0,
-
         explanation:
             "As distance increases, the sound reaching your ears becomes quieter.",
 
         difficulty: 2,
-
+        correctAnswer: "The sound is quieter farther away.",
         estimatedSeconds: 20,
 
         tags: ["science", "distance", "hearing"]
@@ -316,13 +292,11 @@ export const protectingHearing: SkillContent = {
             "Putting your ear next to a loudspeaker"
         ],
 
-        answer: 0,
-
         explanation:
             "Keeping music at a sensible volume helps protect your ears.",
 
         difficulty: 2,
-
+        correctAnswer: "Listening to music at a sensible volume",
         estimatedSeconds: 20,
 
         tags: ["science", "hearing", "headphones"]
@@ -340,13 +314,11 @@ export const protectingHearing: SkillContent = {
             "To make sounds louder"
         ],
 
-        answer: 0,
-
         explanation:
             "Construction equipment can produce sounds loud enough to damage hearing.",
 
         difficulty: 2,
-
+        correctAnswer: "To reduce the risk of hearing damage",
         estimatedSeconds: 20,
 
         tags: ["science", "hearing", "safety"]
@@ -364,13 +336,11 @@ export const protectingHearing: SkillContent = {
             "Increase the volume every hour"
         ],
 
-        answer: 0,
-
         explanation:
             "Lower volume and regular breaks help protect your hearing.",
 
         difficulty: 2,
-
+        correctAnswer: "Keep the volume low and take breaks",
         estimatedSeconds: 20,
 
         tags: ["science", "headphones", "hearing"]
@@ -388,13 +358,11 @@ export const protectingHearing: SkillContent = {
             "Watching fish in a pond"
         ],
 
-        answer: 0,
-
         explanation:
             "Long periods of loud sound increase the risk of hearing damage.",
 
         difficulty: 2,
-
+        correctAnswer: "Listening to loud music for a long time",
         estimatedSeconds: 20,
 
         tags: ["science", "hearing"]
@@ -412,13 +380,11 @@ export const protectingHearing: SkillContent = {
             "Speak more loudly."
         ],
 
-        answer: 0,
-
         explanation:
             "Hearing protection helps reduce the amount of loud sound reaching your ears.",
 
         difficulty: 2,
-
+        correctAnswer: "Wear suitable hearing protection if needed.",
         estimatedSeconds: 20,
 
         tags: ["science", "hearing", "safety"]
@@ -436,13 +402,11 @@ export const protectingHearing: SkillContent = {
             "They stop sound travelling."
         ],
 
-        answer: 0,
-
         explanation:
             "Reducing your exposure to loud sounds helps protect your hearing.",
 
         difficulty: 2,
-
+        correctAnswer: "They give your ears time to recover.",
         estimatedSeconds: 20,
 
         tags: ["science", "hearing", "safety"]
@@ -460,13 +424,11 @@ export const protectingHearing: SkillContent = {
             "Ignore painfully loud noises."
         ],
 
-        answer: 0,
-
         explanation:
             "Limiting exposure to loud sounds is the best way to protect your hearing.",
 
         difficulty: 2,
-
+        correctAnswer: "Avoid loud sounds when possible and use ear protection when needed.",
         estimatedSeconds: 20,
 
         tags: ["science", "hearing", "safety"]
@@ -484,13 +446,11 @@ export const protectingHearing: SkillContent = {
             "Hearing protection is never needed."
         ],
 
-        answer: 0,
-
         explanation:
             "Simple choices such as reducing volume, increasing distance and wearing ear defenders help keep your hearing healthy.",
 
         difficulty: 2,
-
+        correctAnswer: "Keep sounds at a sensible volume, move away from very loud noises and wear hearing protection when needed.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "hearing", "safety"]

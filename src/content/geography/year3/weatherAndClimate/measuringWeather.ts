@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const measuringWeather: SkillContent = {
 
@@ -29,13 +29,11 @@ export const measuringWeather: SkillContent = {
             "To create storms"
         ],
 
-        answer: 0,
-
         explanation:
             "Measuring weather helps scientists understand conditions and predict future weather.",
 
         difficulty: 1,
-
+        correctAnswer: "To understand weather patterns and make forecasts",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -54,13 +52,11 @@ export const measuringWeather: SkillContent = {
             "Wind vane"
         ],
 
-        answer: 0,
-
         explanation:
             "A thermometer measures how hot or cold the air is.",
 
         difficulty: 1,
-
+        correctAnswer: "Thermometer",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -79,13 +75,11 @@ export const measuringWeather: SkillContent = {
             "Barometer"
         ],
 
-        answer: 0,
-
         explanation:
             "A rain gauge collects and measures the amount of rainfall.",
 
         difficulty: 1,
-
+        correctAnswer: "Rain gauge",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -104,13 +98,11 @@ export const measuringWeather: SkillContent = {
             "Map key"
         ],
 
-        answer: 0,
-
         explanation:
             "An anemometer measures how fast the wind is moving.",
 
         difficulty: 1,
-
+        correctAnswer: "Anemometer",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -129,13 +121,11 @@ export const measuringWeather: SkillContent = {
             "The height of mountains"
         ],
 
-        answer: 0,
-
         explanation:
             "A wind vane shows wind direction.",
 
         difficulty: 1,
-
+        correctAnswer: "The direction the wind is blowing from",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -154,13 +144,11 @@ export const measuringWeather: SkillContent = {
             "Cloud cover"
         ],
 
-        answer: 0,
-
         explanation:
             "Temperature measures how hot or cold the air is.",
 
         difficulty: 1,
-
+        correctAnswer: "Temperature",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -179,13 +167,11 @@ export const measuringWeather: SkillContent = {
             "Clouds"
         ],
 
-        answer: 0,
-
         explanation:
             "A rain gauge collects rain so the amount can be measured.",
 
         difficulty: 1,
-
+        correctAnswer: "Rainwater",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -204,13 +190,11 @@ export const measuringWeather: SkillContent = {
             "Litres per person"
         ],
 
-        answer: 0,
-
         explanation:
             "Rainfall is commonly measured in millimetres.",
 
         difficulty: 2,
-
+        correctAnswer: "Millimetres",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -229,13 +213,11 @@ export const measuringWeather: SkillContent = {
             "Seconds"
         ],
 
-        answer: 0,
-
         explanation:
             "Temperature is often measured in degrees Celsius in the UK.",
 
         difficulty: 1,
-
+        correctAnswer: "Degrees Celsius",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -254,13 +236,11 @@ export const measuringWeather: SkillContent = {
             "The colour of the sky only"
         ],
 
-        answer: 0,
-
         explanation:
             "Cloud cover describes how much of the sky has clouds.",
 
         difficulty: 2,
-
+        correctAnswer: "How much of the sky is covered by clouds",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -279,13 +259,11 @@ export const measuringWeather: SkillContent = {
             "To stop rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Weather stations collect information about the atmosphere.",
 
         difficulty: 1,
-
+        correctAnswer: "To record and study weather conditions",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -304,13 +282,11 @@ export const measuringWeather: SkillContent = {
             "Measuring rivers"
         ],
 
-        answer: 0,
-
         explanation:
             "Charts help people understand weather data.",
 
         difficulty: 1,
-
+        correctAnswer: "Showing and comparing weather information",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -329,13 +305,11 @@ export const measuringWeather: SkillContent = {
             "To create seasons"
         ],
 
-        answer: 0,
-
         explanation:
             "Long-term records help scientists understand weather patterns.",
 
         difficulty: 2,
-
+        correctAnswer: "To find patterns and changes",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -354,13 +328,11 @@ export const measuringWeather: SkillContent = {
             "A type of instrument"
         ],
 
-        answer: 0,
-
         explanation:
             "A weather diary records observations such as temperature and rainfall.",
 
         difficulty: 1,
-
+        correctAnswer: "A record of daily weather observations",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -379,13 +351,11 @@ export const measuringWeather: SkillContent = {
             "Road distances"
         ],
 
-        answer: 0,
-
         explanation:
             "Weather diaries record weather conditions.",
 
         difficulty: 1,
-
+        correctAnswer: "Temperature, rainfall and wind",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -404,13 +374,11 @@ export const measuringWeather: SkillContent = {
             "Creating mountains"
         ],
 
-        answer: 0,
-
         explanation:
             "Weather forecasts use data to predict likely conditions.",
 
         difficulty: 2,
-
+        correctAnswer: "Predicting future weather",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -429,13 +397,11 @@ export const measuringWeather: SkillContent = {
             "They are used for maps"
         ],
 
-        answer: 0,
-
         explanation:
             "Each instrument measures a different weather feature.",
 
         difficulty: 2,
-
+        correctAnswer: "Different parts of weather need different measurements",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -454,13 +420,11 @@ export const measuringWeather: SkillContent = {
             "Anemometer"
         ],
 
-        answer: 0,
-
         explanation:
             "A wind vane shows the direction the wind comes from.",
 
         difficulty: 2,
-
+        correctAnswer: "Wind vane",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -479,13 +443,11 @@ export const measuringWeather: SkillContent = {
             "It controls nature"
         ],
 
-        answer: 0,
-
         explanation:
             "Accurate weather information helps people plan safely.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps people prepare and make decisions",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -504,13 +466,11 @@ export const measuringWeather: SkillContent = {
             "Weather instruments change the atmosphere"
         ],
 
-        answer: 0,
-
         explanation:
             "Weather instruments help us collect information about the atmosphere.",
 
         difficulty: 2,
-
+        correctAnswer: "Scientists use instruments to record weather conditions",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "weather"]

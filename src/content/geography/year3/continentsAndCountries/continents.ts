@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const continents: SkillContent = {
 
@@ -29,13 +29,11 @@ export const continents: SkillContent = {
             "A weather event"
         ],
 
-        answer: 0,
-
         explanation:
             "A continent is one of Earth's large land areas.",
 
         difficulty: 1,
-
+        correctAnswer: "A large area of land on Earth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -54,13 +52,11 @@ export const continents: SkillContent = {
             "Three"
         ],
 
-        answer: 0,
-
         explanation:
             "The world is usually divided into seven continents.",
 
         difficulty: 1,
-
+        correctAnswer: "Seven",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -79,13 +75,11 @@ export const continents: SkillContent = {
             "South America"
         ],
 
-        answer: 0,
-
         explanation:
             "The United Kingdom is located in Europe.",
 
         difficulty: 1,
-
+        correctAnswer: "Europe",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents", "uk"]
@@ -104,13 +98,11 @@ export const continents: SkillContent = {
             "Antarctica"
         ],
 
-        answer: 0,
-
         explanation:
             "Asia is the largest continent by land area.",
 
         difficulty: 1,
-
+        correctAnswer: "Asia",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -129,13 +121,11 @@ export const continents: SkillContent = {
             "North America"
         ],
 
-        answer: 0,
-
         explanation:
             "The Sahara Desert is located in Africa.",
 
         difficulty: 2,
-
+        correctAnswer: "Africa",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -154,13 +144,11 @@ export const continents: SkillContent = {
             "Antarctica"
         ],
 
-        answer: 0,
-
         explanation:
             "The Amazon Rainforest is mainly found in South America.",
 
         difficulty: 1,
-
+        correctAnswer: "South America",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -179,13 +167,11 @@ export const continents: SkillContent = {
             "Australia"
         ],
 
-        answer: 0,
-
         explanation:
             "Antarctica is a continent covered by a large ice sheet.",
 
         difficulty: 1,
-
+        correctAnswer: "Antarctica",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -204,13 +190,11 @@ export const continents: SkillContent = {
             "Europe"
         ],
 
-        answer: 0,
-
         explanation:
             "Australia is both a country and the name of a continent region.",
 
         difficulty: 2,
-
+        correctAnswer: "Australia",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -229,13 +213,11 @@ export const continents: SkillContent = {
             "South America"
         ],
 
-        answer: 0,
-
         explanation:
             "Europe is located north of Africa, across the Mediterranean Sea.",
 
         difficulty: 2,
-
+        correctAnswer: "Europe",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -254,13 +236,11 @@ export const continents: SkillContent = {
             "Antarctica"
         ],
 
-        answer: 0,
-
         explanation:
             "Asia is connected to and east of Europe.",
 
         difficulty: 2,
-
+        correctAnswer: "Asia",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -279,13 +259,11 @@ export const continents: SkillContent = {
             "Asia"
         ],
 
-        answer: 0,
-
         explanation:
             "The United States is located in North America.",
 
         difficulty: 1,
-
+        correctAnswer: "North America",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -304,13 +282,11 @@ export const continents: SkillContent = {
             "Australia"
         ],
 
-        answer: 0,
-
         explanation:
             "Brazil is a country in South America.",
 
         difficulty: 1,
-
+        correctAnswer: "South America",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -329,13 +305,11 @@ export const continents: SkillContent = {
             "South America"
         ],
 
-        answer: 0,
-
         explanation:
             "Egypt is mainly located in Africa.",
 
         difficulty: 1,
-
+        correctAnswer: "Africa",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -354,13 +328,11 @@ export const continents: SkillContent = {
             "To create oceans"
         ],
 
-        answer: 0,
-
         explanation:
             "Continents help us organise and understand the world's geography.",
 
         difficulty: 2,
-
+        correctAnswer: "To understand how places are organised around Earth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -379,13 +351,11 @@ export const continents: SkillContent = {
             "Predicting earthquakes"
         ],
 
-        answer: 0,
-
         explanation:
             "World maps show where places are located.",
 
         difficulty: 1,
-
+        correctAnswer: "Showing locations of continents and countries",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -404,13 +374,11 @@ export const continents: SkillContent = {
             "Europe"
         ],
 
-        answer: 0,
-
         explanation:
             "Africa contains more countries than any other continent.",
 
         difficulty: 2,
-
+        correctAnswer: "Africa",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -429,13 +397,11 @@ export const continents: SkillContent = {
             "They are all the same size"
         ],
 
-        answer: 0,
-
         explanation:
             "Continents vary in their physical and human geography.",
 
         difficulty: 2,
-
+        correctAnswer: "They have different climates, landscapes and cultures",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -454,13 +420,11 @@ export const continents: SkillContent = {
             "Antarctica"
         ],
 
-        answer: 0,
-
         explanation:
             "Africa is located south of Europe.",
 
         difficulty: 2,
-
+        correctAnswer: "Africa",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -479,13 +443,11 @@ export const continents: SkillContent = {
             "They remove borders"
         ],
 
-        answer: 0,
-
         explanation:
             "Maps help us understand the location and size of continents.",
 
         difficulty: 1,
-
+        correctAnswer: "They show where continents are located",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -504,13 +466,11 @@ export const continents: SkillContent = {
             "Continents cannot be mapped"
         ],
 
-        answer: 0,
-
         explanation:
             "Continents are major land areas that contain many different places.",
 
         difficulty: 2,
-
+        correctAnswer: "Continents are large areas of land containing many countries and landscapes",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "continents"]

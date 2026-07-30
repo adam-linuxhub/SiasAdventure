@@ -28,13 +28,11 @@ export const electricalAppliances: SkillContent = {
             "Pencil"
         ],
 
-        answer: 0,
-
         explanation:
             "A television uses electricity to work.",
 
         difficulty: 1,
-
+        correctAnswer: "Television",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "appliances"]
@@ -52,13 +50,11 @@ export const electricalAppliances: SkillContent = {
             "Washing machine"
         ],
 
-        answer: 0,
-
         explanation:
             "Most torches are powered by batteries.",
 
         difficulty: 1,
-
+        correctAnswer: "Torch",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "batteries"]
@@ -76,13 +72,11 @@ export const electricalAppliances: SkillContent = {
             "Torch"
         ],
 
-        answer: 0,
-
         explanation:
             "A kettle normally uses mains electricity from a wall socket.",
 
         difficulty: 1,
-
+        correctAnswer: "Kettle",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "mains"]
@@ -100,13 +94,11 @@ export const electricalAppliances: SkillContent = {
             "Rainwater"
         ],
 
-        answer: 0,
-
         explanation:
             "Most homes receive electricity through the mains supply.",
 
         difficulty: 1,
-
+        correctAnswer: "The mains electricity supply",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "mains"]
@@ -124,13 +116,11 @@ export const electricalAppliances: SkillContent = {
             "Microwave"
         ],
 
-        answer: 0,
-
         explanation:
             "TV remotes are usually powered by batteries.",
 
         difficulty: 1,
-
+        correctAnswer: "TV remote",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "batteries"]
@@ -148,13 +138,11 @@ export const electricalAppliances: SkillContent = {
             "Scissors"
         ],
 
-        answer: 0,
-
         explanation:
             "A laptop is an electrical appliance.",
 
         difficulty: 1,
-
+        correctAnswer: "Laptop",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity"]
@@ -172,13 +160,11 @@ export const electricalAppliances: SkillContent = {
             "Television"
         ],
 
-        answer: 0,
-
         explanation:
             "A fridge uses electricity to keep food cold.",
 
         difficulty: 1,
-
+        correctAnswer: "Fridge",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "appliances"]
@@ -196,13 +182,11 @@ export const electricalAppliances: SkillContent = {
             "Radio"
         ],
 
-        answer: 0,
-
         explanation:
             "A toaster is a common kitchen appliance.",
 
         difficulty: 1,
-
+        correctAnswer: "Toaster",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "kitchen"]
@@ -220,13 +204,11 @@ export const electricalAppliances: SkillContent = {
             "Light only"
         ],
 
-        answer: 0,
-
         explanation:
             "Batteries provide electrical energy to appliances.",
 
         difficulty: 1,
-
+        correctAnswer: "Electrical energy",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "batteries"]
@@ -244,13 +226,11 @@ export const electricalAppliances: SkillContent = {
             "No appliances need electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "Different electrical appliances use different sources of electricity.",
 
         difficulty: 1,
-
+        correctAnswer: "Some appliances use batteries and others use mains electricity.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity"]
@@ -268,13 +248,11 @@ export const electricalAppliances: SkillContent = {
             "It needs magnets."
         ],
 
-        answer: 0,
-
         explanation:
             "Televisions normally use mains electricity because they need a continuous supply of power.",
 
         difficulty: 2,
-
+        correctAnswer: "It needs mains electricity.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "mains"]
@@ -292,13 +270,11 @@ export const electricalAppliances: SkillContent = {
             "Microwave and television"
         ],
 
-        answer: 0,
-
         explanation:
             "Torches and remote controls are commonly battery-powered.",
 
         difficulty: 2,
-
+        correctAnswer: "Torch and remote control",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "batteries"]
@@ -316,13 +292,11 @@ export const electricalAppliances: SkillContent = {
             "Dishwasher"
         ],
 
-        answer: 0,
-
         explanation:
             "A battery-powered torch works without a mains supply.",
 
         difficulty: 2,
-
+        correctAnswer: "Battery-powered torch",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "batteries"]
@@ -340,13 +314,11 @@ export const electricalAppliances: SkillContent = {
             "They are outdoor appliances."
         ],
 
-        answer: 0,
-
         explanation:
             "These kitchen appliances are normally plugged into wall sockets.",
 
         difficulty: 2,
-
+        correctAnswer: "They usually use mains electricity.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "mains"]
@@ -364,13 +336,11 @@ export const electricalAppliances: SkillContent = {
             "They produce their own light."
         ],
 
-        answer: 0,
-
         explanation:
             "Batteries allow appliances to be carried and used without being plugged in.",
 
         difficulty: 2,
-
+        correctAnswer: "They can be used away from wall sockets.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "portable"]
@@ -388,13 +358,11 @@ export const electricalAppliances: SkillContent = {
             "Remote control"
         ],
 
-        answer: 0,
-
         explanation:
             "A fridge normally depends on mains electricity.",
 
         difficulty: 2,
-
+        correctAnswer: "Fridge",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "mains"]
@@ -412,13 +380,11 @@ export const electricalAppliances: SkillContent = {
             "Ball, skipping rope and kite"
         ],
 
-        answer: 0,
-
         explanation:
             "All three appliances require electricity to operate.",
 
         difficulty: 2,
-
+        correctAnswer: "Laptop, kettle and television",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "appliances"]
@@ -436,13 +402,11 @@ export const electricalAppliances: SkillContent = {
             "To make it lighter."
         ],
 
-        answer: 0,
-
         explanation:
             "The batteries provide the electricity needed for the remote to work.",
 
         difficulty: 2,
-
+        correctAnswer: "To provide electrical energy.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "batteries"]
@@ -460,13 +424,11 @@ export const electricalAppliances: SkillContent = {
             "Battery radio"
         ],
 
-        answer: 0,
-
         explanation:
             "Washing machines are large appliances that usually stay in one place.",
 
         difficulty: 2,
-
+        correctAnswer: "Washing machine",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "appliances"]
@@ -484,13 +446,11 @@ export const electricalAppliances: SkillContent = {
             "Every appliance must be plugged into a wall socket."
         ],
 
-        answer: 0,
-
         explanation:
             "Some appliances use batteries while others use mains electricity, but all require electrical energy to operate.",
 
         difficulty: 2,
-
+        correctAnswer: "Electrical appliances need electricity, which may come from batteries or the mains supply.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "appliances", "mains", "batteries"]

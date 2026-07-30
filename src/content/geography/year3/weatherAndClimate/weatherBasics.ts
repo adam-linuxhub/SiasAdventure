@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const weatherBasics: SkillContent = {
 
@@ -29,13 +29,11 @@ export const weatherBasics: SkillContent = {
             "The movement of rivers"
         ],
 
-        answer: 0,
-
         explanation:
             "Weather describes what the atmosphere is like, including temperature, rain, wind and clouds.",
 
         difficulty: 1,
-
+        correctAnswer: "The condition of the atmosphere at a particular time and place",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -54,13 +52,11 @@ export const weatherBasics: SkillContent = {
             "A building"
         ],
 
-        answer: 0,
-
         explanation:
             "Rain is a type of weather condition.",
 
         difficulty: 1,
-
+        correctAnswer: "Rain",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -79,13 +75,11 @@ export const weatherBasics: SkillContent = {
             "How many clouds there are"
         ],
 
-        answer: 0,
-
         explanation:
             "Temperature tells us how hot or cold the air is.",
 
         difficulty: 1,
-
+        correctAnswer: "How hot or cold something is",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -104,13 +98,11 @@ export const weatherBasics: SkillContent = {
             "A map"
         ],
 
-        answer: 0,
-
         explanation:
             "A thermometer is used to measure temperature.",
 
         difficulty: 1,
-
+        correctAnswer: "A thermometer",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -129,13 +121,11 @@ export const weatherBasics: SkillContent = {
             "The height of mountains"
         ],
 
-        answer: 0,
-
         explanation:
             "Rainfall measures how much rain falls over a period of time.",
 
         difficulty: 1,
-
+        correctAnswer: "The amount of rain that falls",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -154,13 +144,11 @@ export const weatherBasics: SkillContent = {
             "A telescope"
         ],
 
-        answer: 0,
-
         explanation:
             "A rain gauge collects and measures rainfall.",
 
         difficulty: 1,
-
+        correctAnswer: "A rain gauge",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -179,13 +167,11 @@ export const weatherBasics: SkillContent = {
             "A type of cloud"
         ],
 
-        answer: 0,
-
         explanation:
             "Wind is air moving from one place to another.",
 
         difficulty: 1,
-
+        correctAnswer: "Moving air",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -204,13 +190,11 @@ export const weatherBasics: SkillContent = {
             "A compass"
         ],
 
-        answer: 0,
-
         explanation:
             "An anemometer measures how fast the wind is moving.",
 
         difficulty: 2,
-
+        correctAnswer: "An anemometer",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -229,13 +213,11 @@ export const weatherBasics: SkillContent = {
             "Solid rock"
         ],
 
-        answer: 0,
-
         explanation:
             "Clouds form when water vapour cools and condenses.",
 
         difficulty: 2,
-
+        correctAnswer: "Tiny water droplets or ice crystals",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -254,13 +236,11 @@ export const weatherBasics: SkillContent = {
             "Rivers create all weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Changes in the atmosphere cause different weather conditions.",
 
         difficulty: 2,
-
+        correctAnswer: "The atmosphere is constantly changing",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -279,13 +259,11 @@ export const weatherBasics: SkillContent = {
             "A river system"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate describes typical weather patterns over many years.",
 
         difficulty: 2,
-
+        correctAnswer: "The usual weather conditions of a place over a long time",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -304,13 +282,11 @@ export const weatherBasics: SkillContent = {
             "Weather never changes"
         ],
 
-        answer: 0,
-
         explanation:
             "Weather is short-term, while climate describes patterns over a longer period.",
 
         difficulty: 2,
-
+        correctAnswer: "Weather changes quickly, while climate describes long-term patterns",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "weather", "climate"]
@@ -329,13 +305,11 @@ export const weatherBasics: SkillContent = {
             "Foggy weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Sunny weather happens when there are fewer clouds and more sunlight.",
 
         difficulty: 1,
-
+        correctAnswer: "Sunny weather",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -354,13 +328,11 @@ export const weatherBasics: SkillContent = {
             "A river feature"
         ],
 
-        answer: 0,
-
         explanation:
             "Storms can include strong winds, heavy rain or lightning.",
 
         difficulty: 1,
-
+        correctAnswer: "A period of very strong or extreme weather",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -379,13 +351,11 @@ export const weatherBasics: SkillContent = {
             "To create mountains"
         ],
 
-        answer: 0,
-
         explanation:
             "Weather information helps people make decisions.",
 
         difficulty: 1,
-
+        correctAnswer: "To help plan activities and prepare for conditions",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -404,13 +374,11 @@ export const weatherBasics: SkillContent = {
             "A record of history"
         ],
 
-        answer: 0,
-
         explanation:
             "Forecasts predict what the weather may be like.",
 
         difficulty: 1,
-
+        correctAnswer: "A prediction of future weather conditions",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -429,13 +397,11 @@ export const weatherBasics: SkillContent = {
             "Clouds only"
         ],
 
-        answer: 0,
-
         explanation:
             "The Earth's tilt affects how much sunlight different areas receive.",
 
         difficulty: 2,
-
+        correctAnswer: "The Earth's tilt as it moves around the Sun",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "weather"]
@@ -454,13 +420,11 @@ export const weatherBasics: SkillContent = {
             "Rivers control all weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Location, altitude and other factors affect weather.",
 
         difficulty: 2,
-
+        correctAnswer: "Places have different locations and conditions",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -479,13 +443,11 @@ export const weatherBasics: SkillContent = {
             "Height of buildings"
         ],
 
-        answer: 0,
-
         explanation:
             "Temperature is one way scientists measure weather.",
 
         difficulty: 1,
-
+        correctAnswer: "Temperature",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -504,13 +466,11 @@ export const weatherBasics: SkillContent = {
             "Weather describes mountains only"
         ],
 
-        answer: 0,
-
         explanation:
             "Weather includes many atmospheric conditions such as temperature, wind and rainfall.",
 
         difficulty: 2,
-
+        correctAnswer: "Weather describes the conditions of the atmosphere at a certain time and place",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "weather"]

@@ -28,13 +28,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "A shadow"
         ],
 
-        answer: 0,
-
         explanation:
             "Sound travels through materials such as air, water and solids.",
 
         difficulty: 1,
-
+        correctAnswer: "A material",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "materials"]
@@ -52,13 +50,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Plastic"
         ],
 
-        answer: 0,
-
         explanation:
             "Most everyday sounds travel through the air to our ears.",
 
         difficulty: 1,
-
+        correctAnswer: "Air",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "air"]
@@ -76,13 +72,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Only if the water is frozen"
         ],
 
-        answer: 0,
-
         explanation:
             "Sound can travel through liquids such as water.",
 
         difficulty: 1,
-
+        correctAnswer: "Yes",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "water"]
@@ -100,13 +94,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Only through glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Sound can travel through solids as well as liquids and gases.",
 
         difficulty: 1,
-
+        correctAnswer: "Yes",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "solids"]
@@ -124,13 +116,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "A shadow"
         ],
 
-        answer: 0,
-
         explanation:
             "Air is a material through which sound travels.",
 
         difficulty: 1,
-
+        correctAnswer: "Air",
         estimatedSeconds: 15,
 
         tags: ["science", "sound"]
@@ -148,13 +138,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "It changes colour."
         ],
 
-        answer: 0,
-
         explanation:
             "Sounds usually become quieter as the distance from the source increases.",
 
         difficulty: 1,
-
+        correctAnswer: "It becomes quieter.",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "distance"]
@@ -172,13 +160,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "A silent bell"
         ],
 
-        answer: 0,
-
         explanation:
             "Sounds are louder when you are closer to their source.",
 
         difficulty: 1,
-
+        correctAnswer: "A bell beside you",
         estimatedSeconds: 15,
 
         tags: ["science", "sound"]
@@ -196,13 +182,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Only metal"
         ],
 
-        answer: 0,
-
         explanation:
             "Sound can travel through water as well as many other materials.",
 
         difficulty: 1,
-
+        correctAnswer: "Water",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "materials"]
@@ -220,13 +204,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Sound only travels through solids."
         ],
 
-        answer: 0,
-
         explanation:
             "Sound can travel through many different materials.",
 
         difficulty: 1,
-
+        correctAnswer: "Sound can travel through solids, liquids and gases.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound"]
@@ -244,13 +226,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Magnets"
         ],
 
-        answer: 0,
-
         explanation:
             "The sound vibrations travel through the air.",
 
         difficulty: 1,
-
+        correctAnswer: "The air",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "air"]
@@ -268,13 +248,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "The wood creates electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "Sound vibrations can travel through solid materials like wood.",
 
         difficulty: 2,
-
+        correctAnswer: "Sound travels through the door and the air.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "solids"]
@@ -292,13 +270,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Sound only travels through air."
         ],
 
-        answer: 0,
-
         explanation:
             "Water carries sound vibrations.",
 
         difficulty: 2,
-
+        correctAnswer: "Sound can travel through water.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "water"]
@@ -316,13 +292,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "The air becomes thicker."
         ],
 
-        answer: 0,
-
         explanation:
             "Sound spreads out, making it quieter as you move farther away.",
 
         difficulty: 2,
-
+        correctAnswer: "The sound becomes quieter as distance increases.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "distance"]
@@ -340,13 +314,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Measuring the temperature of water"
         ],
 
-        answer: 0,
-
         explanation:
             "You can often hear tapping clearly through a solid object.",
 
         difficulty: 2,
-
+        correctAnswer: "Listening through a table while someone taps it",
         estimatedSeconds: 20,
 
         tags: ["science", "working-scientifically", "sound"]
@@ -364,13 +336,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "None of these"
         ],
 
-        answer: 0,
-
         explanation:
             "Metal is a solid, and sound travels through solids.",
 
         difficulty: 2,
-
+        correctAnswer: "Metal",
         estimatedSeconds: 20,
 
         tags: ["science", "materials"]
@@ -388,13 +358,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "They turn into light."
         ],
 
-        answer: 0,
-
         explanation:
             "As sound spreads out, it usually becomes quieter.",
 
         difficulty: 2,
-
+        correctAnswer: "They become weaker, so the sound is quieter.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "distance"]
@@ -412,13 +380,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "The tracks produce electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "Sound vibrations can travel through solid metal.",
 
         difficulty: 2,
-
+        correctAnswer: "Sound travels through the metal rails.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "solids"]
@@ -436,13 +402,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Sound cannot travel through water."
         ],
 
-        answer: 0,
-
         explanation:
             "Sound travels through solids, liquids and gases.",
 
         difficulty: 2,
-
+        correctAnswer: "Sound needs a material to travel through.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound"]
@@ -460,13 +424,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Your ears become larger."
         ],
 
-        answer: 0,
-
         explanation:
             "Sounds are generally louder when the source is nearby.",
 
         difficulty: 2,
-
+        correctAnswer: "The sound has less distance to travel.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "distance"]
@@ -484,13 +446,11 @@ export const soundTravelsThroughMaterials: SkillContent = {
             "Sound becomes louder the farther it travels."
         ],
 
-        answer: 0,
-
         explanation:
             "Sound needs a material to travel through and usually becomes quieter as it spreads out.",
 
         difficulty: 2,
-
+        correctAnswer: "Sound travels as vibrations through solids, liquids and gases, becoming quieter as the distance from the source increases.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "materials", "distance"]

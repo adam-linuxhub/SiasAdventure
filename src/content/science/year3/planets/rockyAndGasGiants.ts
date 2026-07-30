@@ -28,13 +28,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is a rocky planet with a solid surface.",
 
         difficulty: 1,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 10,
 
         tags: [
@@ -57,13 +55,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is the largest of the four giant planets.",
 
         difficulty: 1,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 10,
 
         tags: [
@@ -86,13 +82,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is one of the four rocky planets and is our home.",
 
         difficulty: 1,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 10,
 
         tags: [
@@ -115,13 +109,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Saturn is a giant planet best known for its bright rings.",
 
         difficulty: 1,
-
+        correctAnswer: "Saturn",
         estimatedSeconds: 10,
 
         tags: [
@@ -144,13 +136,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Mars is a rocky planet with mountains, valleys and dusty deserts.",
 
         difficulty: 1,
-
+        correctAnswer: "Mars",
         estimatedSeconds: 10,
 
         tags: [
@@ -173,13 +163,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Mercury"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune is one of the four giant planets.",
 
         difficulty: 1,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 10,
 
         tags: [
@@ -202,13 +190,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Venus, Earth, Uranus and Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "The rocky planets are Mercury, Venus, Earth and Mars.",
 
         difficulty: 1,
-
+        correctAnswer: "Mercury, Venus, Earth and Mars",
         estimatedSeconds: 15,
 
         tags: [
@@ -230,13 +216,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Mars, Jupiter, Saturn and Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter, Saturn, Uranus and Neptune are the four giant planets.",
 
         difficulty: 1,
-
+        correctAnswer: "Jupiter, Saturn, Uranus and Neptune",
         estimatedSeconds: 15,
 
         tags: [
@@ -258,13 +242,11 @@ export const rockyAndGasGiants: SkillContent = {
             "8"
         ],
 
-        answer: 0,
-
         explanation:
             "There are four rocky planets in our Solar System.",
 
         difficulty: 1,
-
+        correctAnswer: "4",
         estimatedSeconds: 12,
 
         tags: [
@@ -286,13 +268,11 @@ export const rockyAndGasGiants: SkillContent = {
             "8"
         ],
 
-        answer: 0,
-
         explanation:
             "There are four giant planets in our Solar System.",
 
         difficulty: 1,
-
+        correctAnswer: "4",
         estimatedSeconds: 12,
 
         tags: [
@@ -314,13 +294,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury is the closest planet to the Sun and it is a rocky planet.",
 
         difficulty: 2,
-
+        correctAnswer: "Mercury",
         estimatedSeconds: 15,
 
         tags: [
@@ -343,13 +321,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is the first giant planet as you travel away from the Sun.",
 
         difficulty: 2,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 15,
 
         tags: [
@@ -372,13 +348,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Mercury"
         ],
 
-        answer: 0,
-
         explanation:
             "Mars is the fourth and last rocky planet.",
 
         difficulty: 2,
-
+        correctAnswer: "Mars",
         estimatedSeconds: 15,
 
         tags: [
@@ -401,13 +375,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune is the last giant planet and the last planet in our Solar System.",
 
         difficulty: 2,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 15,
 
         tags: [
@@ -430,13 +402,11 @@ export const rockyAndGasGiants: SkillContent = {
             "No, Earth is a moon."
         ],
 
-        answer: 0,
-
         explanation:
             "Earth has a solid, rocky surface, so it is a rocky planet.",
 
         difficulty: 2,
-
+        correctAnswer: "No, Earth is a rocky planet.",
         estimatedSeconds: 20,
 
         tags: [
@@ -458,14 +428,12 @@ export const rockyAndGasGiants: SkillContent = {
             "No, Jupiter is a moon."
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is the largest giant planet. It does not have a solid rocky surface like Earth.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "No, Jupiter is a giant planet.",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -487,13 +455,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Jupiter and Uranus"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth and Mars are both rocky planets with solid surfaces.",
 
         difficulty: 2,
-
+        correctAnswer: "Earth and Mars",
         estimatedSeconds: 15,
 
         tags: [
@@ -515,13 +481,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Mars and Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter and Saturn are both giant planets.",
 
         difficulty: 2,
-
+        correctAnswer: "Jupiter and Saturn",
         estimatedSeconds: 15,
 
         tags: [
@@ -543,13 +507,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus and Earth are both rocky planets with solid surfaces.",
 
         difficulty: 2,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 15,
 
         tags: [
@@ -572,13 +534,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter and Saturn are both giant planets.",
 
         difficulty: 2,
-
+        correctAnswer: "Saturn",
         estimatedSeconds: 15,
 
         tags: [
@@ -601,13 +561,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Earth, Uranus and Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury, Earth and Mars are all rocky planets.",
 
         difficulty: 2,
-
+        correctAnswer: "Mercury, Earth and Mars",
         estimatedSeconds: 20,
 
         tags: [
@@ -629,13 +587,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Mars, Jupiter and Saturn"
         ],
 
-        answer: 0,
-
         explanation:
             "Saturn, Uranus and Neptune are all giant planets.",
 
         difficulty: 2,
-
+        correctAnswer: "Saturn, Uranus and Neptune",
         estimatedSeconds: 20,
 
         tags: [
@@ -657,13 +613,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is a giant planet. Earth, Mars and Venus are rocky planets.",
 
         difficulty: 2,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 15,
 
         tags: [
@@ -685,13 +639,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury is one of the four rocky planets.",
 
         difficulty: 2,
-
+        correctAnswer: "Mercury",
         estimatedSeconds: 15,
 
         tags: [
@@ -713,13 +665,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Mercury"
         ],
 
-        answer: 0,
-
         explanation:
             "Mars is the last rocky planet before the giant planets begin with Jupiter.",
 
         difficulty: 3,
-
+        correctAnswer: "Mars",
         estimatedSeconds: 20,
 
         tags: [
@@ -742,13 +692,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter comes immediately after Mars.",
 
         difficulty: 3,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 20,
 
         tags: [
@@ -771,13 +719,11 @@ export const rockyAndGasGiants: SkillContent = {
             "1"
         ],
 
-        answer: 0,
-
         explanation:
             "All four giant planets are much larger than Earth.",
 
         difficulty: 3,
-
+        correctAnswer: "4",
         estimatedSeconds: 20,
 
         tags: [
@@ -799,13 +745,11 @@ export const rockyAndGasGiants: SkillContent = {
             "1"
         ],
 
-        answer: 0,
-
         explanation:
             "The four rocky planets all come before Jupiter.",
 
         difficulty: 3,
-
+        correctAnswer: "4",
         estimatedSeconds: 20,
 
         tags: [
@@ -827,13 +771,11 @@ export const rockyAndGasGiants: SkillContent = {
             "There are more rocky planets than giant planets."
         ],
 
-        answer: 0,
-
         explanation:
             "The first four planets are rocky. The last four are giant planets.",
 
         difficulty: 3,
-
+        correctAnswer: "All rocky planets come before the giant planets.",
         estimatedSeconds: 20,
 
         tags: [
@@ -856,13 +798,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Every planet is rocky."
         ],
 
-        answer: 0,
-
         explanation:
             "The eight planets are divided into four rocky planets and four giant planets.",
 
         difficulty: 3,
-
+        correctAnswer: "There are four rocky planets and four giant planets.",
         estimatedSeconds: 20,
 
         tags: [
@@ -884,14 +824,12 @@ export const rockyAndGasGiants: SkillContent = {
         "Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Mercury is the smallest of the four rocky planets.",
 
     difficulty: 3,
-
-    estimatedSeconds: 20,
+        correctAnswer: "Mercury",
+        estimatedSeconds: 20,
 
     tags: [
         "science",
@@ -913,13 +851,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Neptune"
     ],
 
-    answer: 0,
-
     explanation:
         "Jupiter is the largest giant planet and the largest planet in our Solar System.",
 
     difficulty: 3,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 20,
 
     tags: [
@@ -942,13 +878,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Neptune"
     ],
 
-    answer: 0,
-
     explanation:
         "All four giant planets have rings, but Saturn's are the brightest and easiest to see.",
 
     difficulty: 3,
-
+    correctAnswer: "Saturn",
     estimatedSeconds: 20,
 
     tags: [
@@ -971,13 +905,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Earth"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars is called the Red Planet because of the rusty dust covering its surface.",
 
     difficulty: 3,
-
+    correctAnswer: "Mars",
     estimatedSeconds: 20,
 
     tags: [
@@ -1000,13 +932,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Neptune"
     ],
 
-    answer: 0,
-
     explanation:
         "Jupiter comes immediately after Mars, the last rocky planet.",
 
     difficulty: 3,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 20,
 
     tags: [
@@ -1029,13 +959,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Mercury is a moon."
     ],
 
-    answer: 0,
-
     explanation:
         "Mercury has a solid rocky surface, so it is a rocky planet.",
 
     difficulty: 4,
-
+    correctAnswer: "Mercury is a rocky planet.",
     estimatedSeconds: 20,
 
     tags: [
@@ -1058,13 +986,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Neptune is a moon."
     ],
 
-    answer: 0,
-
     explanation:
         "Neptune is one of the four giant planets.",
 
     difficulty: 4,
-
+    correctAnswer: "Neptune is a giant planet.",
     estimatedSeconds: 20,
 
     tags: [
@@ -1087,13 +1013,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Mercury, Earth, Uranus, Neptune"
     ],
 
-    answer: 0,
-
     explanation:
         "Mercury, Venus, Earth and Mars are the four rocky planets.",
 
     difficulty: 4,
-
+    correctAnswer: "Mercury, Venus, Earth, Mars",
     estimatedSeconds: 25,
 
     tags: [
@@ -1115,13 +1039,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Mercury, Jupiter, Uranus, Neptune"
     ],
 
-    answer: 0,
-
     explanation:
         "Jupiter, Saturn, Uranus and Neptune are the four giant planets.",
 
     difficulty: 4,
-
+    correctAnswer: "Jupiter, Saturn, Uranus, Neptune",
     estimatedSeconds: 25,
 
     tags: [
@@ -1143,13 +1065,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Earth"
     ],
 
-    answer: 0,
-
     explanation:
         "Jupiter is a giant planet. The other three are rocky planets.",
 
     difficulty: 4,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 25,
 
     tags: [
@@ -1171,13 +1091,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Uranus"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars is a rocky planet. The other three are giant planets.",
 
     difficulty: 4,
-
+    correctAnswer: "Mars",
     estimatedSeconds: 25,
 
     tags: [
@@ -1199,13 +1117,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Only rocky planets have atmospheres."
     ],
 
-    answer: 0,
-
     explanation:
         "Rocky planets have solid surfaces that are made of rock and metal.",
 
     difficulty: 4,
-
+    correctAnswer: "Rocky planets have solid surfaces.",
     estimatedSeconds: 25,
 
     tags: [
@@ -1227,13 +1143,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Neptune is a rocky planet."
     ],
 
-    answer: 0,
-
     explanation:
         "The four giant planets are Jupiter, Saturn, Uranus and Neptune.",
 
     difficulty: 4,
-
+    correctAnswer: "Jupiter, Saturn, Uranus and Neptune are giant planets.",
     estimatedSeconds: 25,
 
     tags: [
@@ -1255,13 +1169,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Neptune - Rocky planet"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars is one of the four rocky planets.",
 
     difficulty: 4,
-
+    correctAnswer: "Mars - Rocky planet",
     estimatedSeconds: 20,
 
     tags: [
@@ -1284,13 +1196,11 @@ export const rockyAndGasGiants: SkillContent = {
         "Venus - Giant planet"
     ],
 
-    answer: 0,
-
     explanation:
         "Saturn is one of the four giant planets.",
 
     difficulty: 4,
-
+    correctAnswer: "Saturn - Giant planet",
     estimatedSeconds: 20,
 
     tags: [
@@ -1312,13 +1222,11 @@ export const rockyAndGasGiants: SkillContent = {
             "2"
         ],
 
-        answer: 0,
-
         explanation:
             "The first four planets—Mercury, Venus, Earth and Mars—are all rocky planets.",
 
         difficulty: 4,
-
+        correctAnswer: "4",
         estimatedSeconds: 25,
 
         tags: [
@@ -1340,13 +1248,11 @@ export const rockyAndGasGiants: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter comes immediately after Mars and is the first giant planet.",
 
         difficulty: 4,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 25,
 
         tags: [
@@ -1369,13 +1275,11 @@ export const rockyAndGasGiants: SkillContent = {
             "All eight planets are rocky."
         ],
 
-        answer: 0,
-
         explanation:
             "The Solar System has four rocky planets followed by four giant planets.",
 
         difficulty: 5,
-
+        correctAnswer: "The first four planets are rocky and the last four are giant planets.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1398,13 +1302,11 @@ export const rockyAndGasGiants: SkillContent = {
             "No, Uranus is a moon."
         ],
 
-        answer: 0,
-
         explanation:
             "Distance from the Sun does not make a planet rocky. Uranus is one of the four giant planets.",
 
         difficulty: 5,
-
+        correctAnswer: "No, Uranus is a giant planet.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1427,13 +1329,11 @@ export const rockyAndGasGiants: SkillContent = {
             "There are five rocky planets and three giant planets."
         ],
 
-        answer: 0,
-
         explanation:
             "The eight planets are divided into four rocky planets and four giant planets.",
 
         difficulty: 5,
-
+        correctAnswer: "Mercury, Venus, Earth and Mars are rocky planets. Jupiter, Saturn, Uranus and Neptune are giant planets.",
         estimatedSeconds: 30,
 
         tags: [

@@ -28,13 +28,11 @@ export const whatPlantsNeed: SkillContent = {
             "Glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need water to stay healthy and grow.",
 
         difficulty: 1,
-
+        correctAnswer: "Water",
         estimatedSeconds: 10,
 
         tags: [
@@ -56,13 +54,11 @@ export const whatPlantsNeed: SkillContent = {
             "Paper"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants use sunlight to make their own food.",
 
         difficulty: 1,
-
+        correctAnswer: "Sunlight",
         estimatedSeconds: 10,
 
         tags: [
@@ -84,13 +80,11 @@ export const whatPlantsNeed: SkillContent = {
             "Rocks"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water from the soil.",
 
         difficulty: 1,
-
+        correctAnswer: "The soil",
         estimatedSeconds: 10,
 
         tags: [
@@ -113,13 +107,11 @@ export const whatPlantsNeed: SkillContent = {
             "Nitrogen"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants take in carbon dioxide from the air to make food.",
 
         difficulty: 1,
-
+        correctAnswer: "Carbon dioxide",
         estimatedSeconds: 15,
 
         tags: [
@@ -141,13 +133,11 @@ export const whatPlantsNeed: SkillContent = {
             "Seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use sunlight, water and carbon dioxide to make food.",
 
         difficulty: 1,
-
+        correctAnswer: "Leaves",
         estimatedSeconds: 15,
 
         tags: [
@@ -169,13 +159,11 @@ export const whatPlantsNeed: SkillContent = {
             "Nothing happens."
         ],
 
-        answer: 0,
-
         explanation:
             "Without enough water, plants become weak and may wilt.",
 
         difficulty: 1,
-
+        correctAnswer: "It may wilt and stop growing.",
         estimatedSeconds: 15,
 
         tags: [
@@ -197,13 +185,11 @@ export const whatPlantsNeed: SkillContent = {
             "To produce rocks"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants use sunlight to make the food they need to live.",
 
         difficulty: 1,
-
+        correctAnswer: "To make food",
         estimatedSeconds: 15,
 
         tags: [
@@ -225,13 +211,11 @@ export const whatPlantsNeed: SkillContent = {
             "Sugar"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants use carbon dioxide from the air to make food.",
 
         difficulty: 1,
-
+        correctAnswer: "Carbon dioxide",
         estimatedSeconds: 15,
 
         tags: [
@@ -253,13 +237,11 @@ export const whatPlantsNeed: SkillContent = {
             "Sand, bricks and stones"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need water, sunlight and air to grow well.",
 
         difficulty: 1,
-
+        correctAnswer: "Water, sunlight and air",
         estimatedSeconds: 15,
 
         tags: [
@@ -280,13 +262,11 @@ export const whatPlantsNeed: SkillContent = {
             "Oxygen for people"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water and minerals that help the plant grow.",
 
         difficulty: 1,
-
+        correctAnswer: "Water and minerals",
         estimatedSeconds: 15,
 
         tags: [
@@ -308,13 +288,11 @@ export const whatPlantsNeed: SkillContent = {
             "It will produce more flowers."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need sunlight to make food, so they cannot grow well in darkness.",
 
         difficulty: 2,
-
+        correctAnswer: "It will struggle to grow.",
         estimatedSeconds: 20,
 
         tags: [
@@ -336,13 +314,11 @@ export const whatPlantsNeed: SkillContent = {
             "Nothing will change."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need both water and sunlight to stay healthy.",
 
         difficulty: 2,
-
+        correctAnswer: "It will wilt.",
         estimatedSeconds: 20,
 
         tags: [
@@ -364,13 +340,11 @@ export const whatPlantsNeed: SkillContent = {
             "Air"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants do not need toys. They need water, sunlight, air and nutrients.",
 
         difficulty: 2,
-
+        correctAnswer: "Toy cars",
         estimatedSeconds: 20,
 
         tags: [
@@ -391,13 +365,11 @@ export const whatPlantsNeed: SkillContent = {
             "To make seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots grow into the soil to collect water and minerals for the plant.",
 
         difficulty: 2,
-
+        correctAnswer: "To absorb water and minerals",
         estimatedSeconds: 20,
 
         tags: [
@@ -419,13 +391,11 @@ export const whatPlantsNeed: SkillContent = {
             "Plants do not need air."
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy plants need several things to survive and grow well.",
 
         difficulty: 2,
-
+        correctAnswer: "Plants need water, sunlight, air and nutrients to grow.",
         estimatedSeconds: 20,
 
         tags: [
@@ -445,14 +415,12 @@ export const whatPlantsNeed: SkillContent = {
             "Hydrogen"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants use carbon dioxide from the air, together with water and sunlight, to make food.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "Carbon dioxide",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -474,13 +442,11 @@ export const whatPlantsNeed: SkillContent = {
             "Soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Sunlight provides the energy plants need to make their own food.",
 
         difficulty: 2,
-
+        correctAnswer: "Sunlight",
         estimatedSeconds: 20,
 
         tags: [
@@ -502,13 +468,11 @@ export const whatPlantsNeed: SkillContent = {
             "The Moon"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants absorb minerals from the soil through their roots.",
 
         difficulty: 2,
-
+        correctAnswer: "The soil",
         estimatedSeconds: 20,
 
         tags: [
@@ -531,13 +495,11 @@ export const whatPlantsNeed: SkillContent = {
             "Stem"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water and minerals from the soil.",
 
         difficulty: 2,
-
+        correctAnswer: "Roots",
         estimatedSeconds: 20,
 
         tags: [
@@ -559,13 +521,11 @@ export const whatPlantsNeed: SkillContent = {
             "Seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use sunlight, water and carbon dioxide to make food for the plant.",
 
         difficulty: 2,
-
+        correctAnswer: "Leaves",
         estimatedSeconds: 20,
 
         tags: [
@@ -587,13 +547,11 @@ export const whatPlantsNeed: SkillContent = {
             "It will become a tree."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need sunlight as well as water to make food and grow.",
 
         difficulty: 3,
-
+        correctAnswer: "It will struggle to grow.",
         estimatedSeconds: 25,
 
         tags: [
@@ -615,13 +573,11 @@ export const whatPlantsNeed: SkillContent = {
             "Nothing will happen."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need water as well as sunlight to stay healthy.",
 
         difficulty: 3,
-
+        correctAnswer: "It will wilt.",
         estimatedSeconds: 25,
 
         tags: [
@@ -643,13 +599,11 @@ export const whatPlantsNeed: SkillContent = {
             "Only water"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need several things to grow well, including water, sunlight, air and nutrients.",
 
         difficulty: 3,
-
+        correctAnswer: "Water, sunlight, air and nutrients",
         estimatedSeconds: 25,
 
         tags: [
@@ -670,13 +624,11 @@ export const whatPlantsNeed: SkillContent = {
             "It turns flowers into seeds."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants use carbon dioxide from the air when making food.",
 
         difficulty: 3,
-
+        correctAnswer: "It contains carbon dioxide for making food.",
         estimatedSeconds: 25,
 
         tags: [
@@ -698,13 +650,11 @@ export const whatPlantsNeed: SkillContent = {
             "Plants only need air at night."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants continue to need water as they grow.",
 
         difficulty: 3,
-
+        correctAnswer: "Plants need water throughout their lives.",
         estimatedSeconds: 25,
 
         tags: [
@@ -726,13 +676,11 @@ export const whatPlantsNeed: SkillContent = {
             "The wind"
         ],
 
-        answer: 0,
-
         explanation:
             "Nutrients are usually absorbed from the soil by the roots.",
 
         difficulty: 3,
-
+        correctAnswer: "The soil",
         estimatedSeconds: 25,
 
         tags: [
@@ -755,13 +703,11 @@ export const whatPlantsNeed: SkillContent = {
             "To produce light"
         ],
 
-        answer: 0,
-
         explanation:
             "Water is needed for making food and for healthy growth.",
 
         difficulty: 3,
-
+        correctAnswer: "To help them make food and grow",
         estimatedSeconds: 25,
 
         tags: [
@@ -783,13 +729,11 @@ export const whatPlantsNeed: SkillContent = {
             "Healthy soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Without sunlight, plants cannot make enough food to grow properly.",
 
         difficulty: 3,
-
+        correctAnswer: "No sunlight",
         estimatedSeconds: 25,
 
         tags: [
@@ -811,13 +755,11 @@ export const whatPlantsNeed: SkillContent = {
             "Plants get food from the Moon."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants use sunlight to make their own food.",
 
         difficulty: 3,
-
+        correctAnswer: "Plants make their own food using sunlight.",
         estimatedSeconds: 25,
 
         tags: [
@@ -839,13 +781,11 @@ export const whatPlantsNeed: SkillContent = {
             "Roots produce flowers."
         ],
 
-        answer: 0,
-
         explanation:
             "Roots collect the water and nutrients that plants need to survive.",
 
         difficulty: 3,
-
+        correctAnswer: "Roots absorb water and nutrients from the soil.",
         estimatedSeconds: 30,
 
         tags: [
@@ -867,14 +807,12 @@ export const whatPlantsNeed: SkillContent = {
             "Glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants use energy from sunlight to make their own food.",
 
         difficulty: 3,
-
-        estimatedSeconds: 25,
+            correctAnswer: "Sunlight",
+            estimatedSeconds: 25,
 
         tags: [
             "science",
@@ -895,13 +833,11 @@ export const whatPlantsNeed: SkillContent = {
             "Paper"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants absorb water and minerals from the soil through their roots.",
 
         difficulty: 3,
-
+        correctAnswer: "Water and minerals",
         estimatedSeconds: 25,
 
         tags: [
@@ -924,13 +860,11 @@ export const whatPlantsNeed: SkillContent = {
             "It will produce lots of fruit."
         ],
 
-        answer: 0,
-
         explanation:
             "Without sunlight, plants cannot make enough food to grow properly.",
 
         difficulty: 4,
-
+        correctAnswer: "It will not grow well.",
         estimatedSeconds: 25,
 
         tags: [
@@ -952,13 +886,11 @@ export const whatPlantsNeed: SkillContent = {
             "To produce sunshine"
         ],
 
-        answer: 0,
-
         explanation:
             "Minerals help plants grow strong and healthy.",
 
         difficulty: 4,
-
+        correctAnswer: "To help them grow healthily",
         estimatedSeconds: 25,
 
         tags: [
@@ -980,13 +912,11 @@ export const whatPlantsNeed: SkillContent = {
             "Seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water from the soil and send it through the plant.",
 
         difficulty: 4,
-
+        correctAnswer: "Roots",
         estimatedSeconds: 20,
 
         tags: [
@@ -1008,13 +938,11 @@ export const whatPlantsNeed: SkillContent = {
             "Plants do not need air."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need air because they use carbon dioxide to make food.",
 
         difficulty: 4,
-
+        correctAnswer: "Plants need air as well as water and sunlight.",
         estimatedSeconds: 25,
 
         tags: [
@@ -1036,13 +964,11 @@ export const whatPlantsNeed: SkillContent = {
             "The plant stops growing."
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use sunlight, water and carbon dioxide to make food for the plant.",
 
         difficulty: 4,
-
+        correctAnswer: "The plant makes food.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1065,13 +991,11 @@ export const whatPlantsNeed: SkillContent = {
             "A plant kept in a dark cupboard"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants grow best when they have all the things they need.",
 
         difficulty: 4,
-
+        correctAnswer: "A plant with water, sunlight, air and healthy soil",
         estimatedSeconds: 30,
 
         tags: [
@@ -1092,13 +1016,11 @@ export const whatPlantsNeed: SkillContent = {
             "It makes flowers colourful."
         ],
 
-        answer: 0,
-
         explanation:
             "Sunlight provides the energy needed for photosynthesis.",
 
         difficulty: 4,
-
+        correctAnswer: "It provides the energy plants need to make food.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1121,13 +1043,11 @@ export const whatPlantsNeed: SkillContent = {
             "Plants do not use water."
         ],
 
-        answer: 0,
-
         explanation:
             "All plants need water throughout their lives.",
 
         difficulty: 4,
-
+        correctAnswer: "Plants cannot survive without water.",
         estimatedSeconds: 25,
 
         tags: [
@@ -1149,13 +1069,11 @@ export const whatPlantsNeed: SkillContent = {
             "They only need air."
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy plants need several different things to survive and grow.",
 
         difficulty: 4,
-
+        correctAnswer: "They need water, sunlight, air and nutrients.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1176,13 +1094,11 @@ export const whatPlantsNeed: SkillContent = {
             "Nothing will happen."
         ],
 
-        answer: 0,
-
         explanation:
             "Without enough water, plants become weak and wilt.",
 
         difficulty: 5,
-
+        correctAnswer: "The sunflower will wilt.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1204,13 +1120,11 @@ export const whatPlantsNeed: SkillContent = {
             "Air"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants do not need toys. They need water, sunlight, air and nutrients.",
 
         difficulty: 5,
-
+        correctAnswer: "Plastic toys",
         estimatedSeconds: 25,
 
         tags: [
@@ -1231,13 +1145,11 @@ export const whatPlantsNeed: SkillContent = {
             "It will become a tree."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need carbon dioxide from the air to make food.",
 
         difficulty: 5,
-
+        correctAnswer: "It will not grow properly.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1259,13 +1171,11 @@ export const whatPlantsNeed: SkillContent = {
             "Plastic and water"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need water, sunlight, air and nutrients to stay healthy.",
 
         difficulty: 5,
-
+        correctAnswer: "Water, sunlight, air and nutrients",
         estimatedSeconds: 30,
 
         tags: [
@@ -1285,14 +1195,12 @@ export const whatPlantsNeed: SkillContent = {
             "It will produce fruit immediately."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need nutrients from the soil as well as water, air and sunlight to grow healthily.",
 
         difficulty: 5,
-
-        estimatedSeconds: 30,
+            correctAnswer: "It may not grow well.",
+            estimatedSeconds: 30,
 
         tags: [
             "science",
@@ -1314,13 +1222,11 @@ export const whatPlantsNeed: SkillContent = {
             "It helps roots grow flowers."
         ],
 
-        answer: 0,
-
         explanation:
             "Sunlight provides the energy that plants need to make their own food.",
 
         difficulty: 5,
-
+        correctAnswer: "It provides the energy needed to make food.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1343,13 +1249,11 @@ export const whatPlantsNeed: SkillContent = {
             "It gives plants sunlight."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants use water when making food and need it to stay healthy and continue growing.",
 
         difficulty: 5,
-
+        correctAnswer: "It helps them make food and stay healthy.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1371,13 +1275,11 @@ export const whatPlantsNeed: SkillContent = {
             "Plants use it to produce flowers."
         ],
 
-        answer: 0,
-
         explanation:
             "Carbon dioxide is one of the ingredients plants use to make their own food.",
 
         difficulty: 5,
-
+        correctAnswer: "Plants use it with water and sunlight to make food.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1400,13 +1302,11 @@ export const whatPlantsNeed: SkillContent = {
             "Plants grow well without air as long as they have water."
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy plants need sunlight, water, carbon dioxide from the air and nutrients from the soil in order to grow and survive.",
 
         difficulty: 5,
-
+        correctAnswer: "Plants need sunlight, water, air and nutrients from the soil to make food and grow.",
         estimatedSeconds: 35,
 
         tags: [

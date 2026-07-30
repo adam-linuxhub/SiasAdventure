@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const sentenceImprovement: SkillContent = {
 
@@ -29,13 +29,11 @@ export const sentenceImprovement: SkillContent = {
             "The ran dog."
         ],
 
-        answer: 0,
-
         explanation:
             "Adding describing words gives the reader more information.",
 
         difficulty: 1,
-
+        correctAnswer: "The enormous dog ran across the field.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -54,13 +52,11 @@ export const sentenceImprovement: SkillContent = {
             "The flew bird."
         ],
 
-        answer: 0,
-
         explanation:
             "The improved sentence adds detail about the bird and its action.",
 
         difficulty: 1,
-
+        correctAnswer: "The colourful bird flew gracefully through the sky.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -79,13 +75,11 @@ export const sentenceImprovement: SkillContent = {
             "looked"
         ],
 
-        answer: 0,
-
         explanation:
             "'Raced' gives a clearer picture than the general word 'went'.",
 
         difficulty: 1,
-
+        correctAnswer: "raced",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -104,13 +98,11 @@ export const sentenceImprovement: SkillContent = {
             "Cat sat."
         ],
 
-        answer: 0,
-
         explanation:
             "Adding details helps the reader imagine what is happening.",
 
         difficulty: 1,
-
+        correctAnswer: "The fluffy cat curled up quietly on the soft cushion.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -129,13 +121,11 @@ export const sentenceImprovement: SkillContent = {
             "jumped"
         ],
 
-        answer: 0,
-
         explanation:
             "'Wooden' describes the door and adds detail.",
 
         difficulty: 1,
-
+        correctAnswer: "wooden",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -154,13 +144,11 @@ export const sentenceImprovement: SkillContent = {
             "To shorten every sentence"
         ],
 
-        answer: 0,
-
         explanation:
             "Details help readers understand and imagine the writing.",
 
         difficulty: 1,
-
+        correctAnswer: "To help readers create a clearer picture",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -179,13 +167,11 @@ export const sentenceImprovement: SkillContent = {
             "The lion was there."
         ],
 
-        answer: 0,
-
         explanation:
             "'Roared' is more precise and interesting than 'made a sound'.",
 
         difficulty: 1,
-
+        correctAnswer: "The lion roared loudly.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -204,13 +190,11 @@ export const sentenceImprovement: SkillContent = {
             "The walked."
         ],
 
-        answer: 0,
-
         explanation:
             "The improved sentence explains more about the action.",
 
         difficulty: 1,
-
+        correctAnswer: "The tired boy slowly walked home after school.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -229,13 +213,11 @@ export const sentenceImprovement: SkillContent = {
             "a"
         ],
 
-        answer: 0,
-
         explanation:
             "'Beautiful' describes the flower.",
 
         difficulty: 1,
-
+        correctAnswer: "beautiful",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -254,13 +236,11 @@ export const sentenceImprovement: SkillContent = {
             "Random"
         ],
 
-        answer: 0,
-
         explanation:
             "Precise words make writing clearer and more effective.",
 
         difficulty: 1,
-
+        correctAnswer: "Interesting and precise",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -279,13 +259,11 @@ export const sentenceImprovement: SkillContent = {
             "Something flew."
         ],
 
-        answer: 0,
-
         explanation:
             "Specific details help the reader picture the scene.",
 
         difficulty: 2,
-
+        correctAnswer: "The tiny golden butterfly fluttered gently above the flowers.",
         estimatedSeconds: 25,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -304,13 +282,11 @@ export const sentenceImprovement: SkillContent = {
             "The dog gardened."
         ],
 
-        answer: 0,
-
         explanation:
             "'Raced' is a stronger and more descriptive verb.",
 
         difficulty: 2,
-
+        correctAnswer: "The dog raced across the garden.",
         estimatedSeconds: 25,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -329,13 +305,11 @@ export const sentenceImprovement: SkillContent = {
             "The singing girl."
         ],
 
-        answer: 0,
-
         explanation:
             "'Beautifully' explains how the girl sang.",
 
         difficulty: 2,
-
+        correctAnswer: "The girl sang beautifully.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -354,13 +328,11 @@ export const sentenceImprovement: SkillContent = {
             "The came."
         ],
 
-        answer: 0,
-
         explanation:
             "The improved sentence adds descriptive language.",
 
         difficulty: 2,
-
+        correctAnswer: "The powerful storm crashed across the dark sky.",
         estimatedSeconds: 25,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -379,13 +351,11 @@ export const sentenceImprovement: SkillContent = {
             "did"
         ],
 
-        answer: 0,
-
         explanation:
             "'Whispered' gives a more exact description of speaking quietly.",
 
         difficulty: 2,
-
+        correctAnswer: "whispered",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -404,13 +374,11 @@ export const sentenceImprovement: SkillContent = {
             "They replace punctuation"
         ],
 
-        answer: 0,
-
         explanation:
             "Strong verbs help readers understand exactly what happens.",
 
         difficulty: 2,
-
+        correctAnswer: "They make actions clearer for the reader",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -429,13 +397,11 @@ export const sentenceImprovement: SkillContent = {
             "A ship."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence includes adjectives and a stronger description.",
 
         difficulty: 2,
-
+        correctAnswer: "The old wooden ship sailed across the rough sea.",
         estimatedSeconds: 25,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -454,13 +420,11 @@ export const sentenceImprovement: SkillContent = {
             "Is it as short as possible?"
         ],
 
-        answer: 0,
-
         explanation:
             "Good improvements make writing clearer and more interesting.",
 
         difficulty: 2,
-
+        correctAnswer: "Does it make the meaning clearer?",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -479,13 +443,11 @@ export const sentenceImprovement: SkillContent = {
             "The children did."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence gives detail about who, what and how.",
 
         difficulty: 2,
-
+        correctAnswer: "The excited children raced happily towards the playground.",
         estimatedSeconds: 25,
 
         tags: ["english", "writing", "sentence-improvement"]
@@ -504,13 +466,11 @@ export const sentenceImprovement: SkillContent = {
             "Making every sentence identical"
         ],
 
-        answer: 0,
-
         explanation:
             "Improved writing uses precise vocabulary and clear details.",
 
         difficulty: 2,
-
+        correctAnswer: "Adding useful details and choosing better words",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentence-improvement"]

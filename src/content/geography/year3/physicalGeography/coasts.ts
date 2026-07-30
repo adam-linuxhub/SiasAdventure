@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const coasts: SkillContent = {
 
@@ -28,13 +28,11 @@ export const coasts: SkillContent = {
             "A forest"
         ],
 
-        answer: 0,
-
         explanation:
             "A coast is the area where the land meets the sea or ocean.",
 
         difficulty: 1,
-
+        correctAnswer: "The place where land meets the sea",
         estimatedSeconds: 15,
 
         tags: ["geography", "coasts"]
@@ -52,13 +50,11 @@ export const coasts: SkillContent = {
             "A cave"
         ],
 
-        answer: 0,
-
         explanation:
             "Coasts are found where the land meets the sea.",
 
         difficulty: 1,
-
+        correctAnswer: "The sea",
         estimatedSeconds: 15,
 
         tags: ["geography", "sea"]
@@ -76,13 +72,11 @@ export const coasts: SkillContent = {
             "A rainforest"
         ],
 
-        answer: 0,
-
         explanation:
             "Many coasts have sandy or pebbly beaches.",
 
         difficulty: 1,
-
+        correctAnswer: "A beach",
         estimatedSeconds: 15,
 
         tags: ["geography", "beaches"]
@@ -100,13 +94,11 @@ export const coasts: SkillContent = {
             "Grass only"
         ],
 
-        answer: 0,
-
         explanation:
             "Beaches are commonly made of sand, pebbles or a mixture of both.",
 
         difficulty: 1,
-
+        correctAnswer: "Sand or pebbles",
         estimatedSeconds: 15,
 
         tags: ["geography", "beaches"]
@@ -124,13 +116,11 @@ export const coasts: SkillContent = {
             "A road"
         ],
 
-        answer: 0,
-
         explanation:
             "A cliff is a steep face of rock or earth, often found by the sea.",
 
         difficulty: 1,
-
+        correctAnswer: "A steep rock face",
         estimatedSeconds: 15,
 
         tags: ["geography", "cliffs"]
@@ -148,13 +138,11 @@ export const coasts: SkillContent = {
             "Harbour wall"
         ],
 
-        answer: 0,
-
         explanation:
             "A beach is a natural feature, while the others are built by people.",
 
         difficulty: 1,
-
+        correctAnswer: "Beach",
         estimatedSeconds: 15,
 
         tags: ["geography", "physical-geography"]
@@ -172,13 +160,11 @@ export const coasts: SkillContent = {
             "Ice skating"
         ],
 
-        answer: 0,
-
         explanation:
             "Many people enjoy swimming and other activities at the coast.",
 
         difficulty: 1,
-
+        correctAnswer: "Swimming",
         estimatedSeconds: 15,
 
         tags: ["geography", "coasts"]
@@ -196,13 +182,11 @@ export const coasts: SkillContent = {
             "Red"
         ],
 
-        answer: 0,
-
         explanation:
             "Water is usually coloured blue on maps.",
 
         difficulty: 1,
-
+        correctAnswer: "Blue",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps"]
@@ -220,13 +204,11 @@ export const coasts: SkillContent = {
             "Turns into a river"
         ],
 
-        answer: 0,
-
         explanation:
             "The coast is where the sea meets the land.",
 
         difficulty: 1,
-
+        correctAnswer: "Meets the land",
         estimatedSeconds: 20,
 
         tags: ["geography", "sea"]
@@ -244,13 +226,11 @@ export const coasts: SkillContent = {
             "People build all coasts."
         ],
 
-        answer: 0,
-
         explanation:
             "Coasts are natural places where land meets the sea.",
 
         difficulty: 1,
-
+        correctAnswer: "Coasts are where land meets the sea.",
         estimatedSeconds: 20,
 
         tags: ["geography", "coasts"]
@@ -268,13 +248,11 @@ export const coasts: SkillContent = {
             "To climb volcanoes"
         ],
 
-        answer: 0,
-
         explanation:
             "Many families visit the coast to enjoy the beach and seaside activities.",
 
         difficulty: 2,
-
+        correctAnswer: "To enjoy beaches and the sea",
         estimatedSeconds: 20,
 
         tags: ["geography", "tourism"]
@@ -292,13 +270,11 @@ export const coasts: SkillContent = {
             "Trees grow into cliffs"
         ],
 
-        answer: 0,
-
         explanation:
             "Waves can gradually wear away the land, forming cliffs.",
 
         difficulty: 2,
-
+        correctAnswer: "The sea can wear away the land over time",
         estimatedSeconds: 20,
 
         tags: ["geography", "cliffs"]
@@ -316,13 +292,11 @@ export const coasts: SkillContent = {
             "Only birds visit them"
         ],
 
-        answer: 0,
-
         explanation:
             "Coastal habitats support many different plants, birds and sea creatures.",
 
         difficulty: 2,
-
+        correctAnswer: "Many plants and animals live there",
         estimatedSeconds: 20,
 
         tags: ["geography", "wildlife"]
@@ -340,13 +314,11 @@ export const coasts: SkillContent = {
             "Librarian"
         ],
 
-        answer: 0,
-
         explanation:
             "Fishers catch fish and other seafood from the sea.",
 
         difficulty: 2,
-
+        correctAnswer: "Fisher",
         estimatedSeconds: 20,
 
         tags: ["geography", "jobs"]
@@ -364,13 +336,11 @@ export const coasts: SkillContent = {
             "There are no roads inland"
         ],
 
-        answer: 0,
-
         explanation:
             "Coastal towns often grow because of fishing, transport and visitors.",
 
         difficulty: 2,
-
+        correctAnswer: "People use the sea for transport, fishing and tourism",
         estimatedSeconds: 20,
 
         tags: ["geography", "settlements"]
@@ -388,13 +358,11 @@ export const coasts: SkillContent = {
             "Buildings"
         ],
 
-        answer: 0,
-
         explanation:
             "Waves gradually change the shape of the coastline over time.",
 
         difficulty: 2,
-
+        correctAnswer: "Waves",
         estimatedSeconds: 20,
 
         tags: ["geography", "waves"]
@@ -412,13 +380,11 @@ export const coasts: SkillContent = {
             "Waterfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Many beaches have sand dunes formed by wind blowing sand inland.",
 
         difficulty: 2,
-
+        correctAnswer: "Sand dunes",
         estimatedSeconds: 20,
 
         tags: ["geography", "beaches"]
@@ -436,13 +402,11 @@ export const coasts: SkillContent = {
             "They only exist in winter"
         ],
 
-        answer: 0,
-
         explanation:
             "Beaches are popular for swimming, games and relaxing.",
 
         difficulty: 2,
-
+        correctAnswer: "People enjoy relaxing and playing by the sea",
         estimatedSeconds: 20,
 
         tags: ["geography", "tourism"]
@@ -460,13 +424,11 @@ export const coasts: SkillContent = {
             "Airport"
         ],
 
-        answer: 0,
-
         explanation:
             "Many coastlines include cliffs, beaches and rocky shores.",
 
         difficulty: 2,
-
+        correctAnswer: "Cliffs",
         estimatedSeconds: 20,
 
         tags: ["geography", "coasts"]
@@ -484,13 +446,11 @@ export const coasts: SkillContent = {
             "A man-made canal."
         ],
 
-        answer: 0,
-
         explanation:
             "Coasts are important physical features where land and sea meet.",
 
         difficulty: 2,
-
+        correctAnswer: "A natural place where land meets the sea, often with beaches or cliffs.",
         estimatedSeconds: 20,
 
         tags: ["geography", "coasts", "physical-geography", "beaches", "cliffs"]

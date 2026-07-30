@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const synonyms: SkillContent = {
 
@@ -28,13 +28,11 @@ export const synonyms: SkillContent = {
             "slow"
         ],
 
-        answer: 0,
-
         explanation:
             "'Big' and 'large' have similar meanings, so they are synonyms.",
 
         difficulty: 1,
-
+        correctAnswer: "large",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -52,13 +50,11 @@ export const synonyms: SkillContent = {
             "worried"
         ],
 
-        answer: 0,
-
         explanation:
             "'Happy' and 'glad' have similar meanings.",
 
         difficulty: 1,
-
+        correctAnswer: "glad",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -76,13 +72,11 @@ export const synonyms: SkillContent = {
             "tall"
         ],
 
-        answer: 0,
-
         explanation:
             "'Small' and 'tiny' mean almost the same thing.",
 
         difficulty: 1,
-
+        correctAnswer: "tiny",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -100,13 +94,11 @@ export const synonyms: SkillContent = {
             "quiet"
         ],
 
-        answer: 0,
-
         explanation:
             "'Quick' and 'fast' have similar meanings.",
 
         difficulty: 1,
-
+        correctAnswer: "fast",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -124,13 +116,11 @@ export const synonyms: SkillContent = {
             "rest"
         ],
 
-        answer: 0,
-
         explanation:
             "'Begin' and 'start' mean the same thing.",
 
         difficulty: 1,
-
+        correctAnswer: "start",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -148,13 +138,11 @@ export const synonyms: SkillContent = {
             "build"
         ],
 
-        answer: 0,
-
         explanation:
             "'Finish' and 'end' have similar meanings.",
 
         difficulty: 1,
-
+        correctAnswer: "end",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -172,13 +160,11 @@ export const synonyms: SkillContent = {
             "noisy"
         ],
 
-        answer: 0,
-
         explanation:
             "'Smart' and 'clever' have similar meanings.",
 
         difficulty: 1,
-
+        correctAnswer: "clever",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -196,13 +182,11 @@ export const synonyms: SkillContent = {
             "smell"
         ],
 
-        answer: 0,
-
         explanation:
             "'Look' and 'see' can have similar meanings in many situations.",
 
         difficulty: 1,
-
+        correctAnswer: "see",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -220,13 +204,11 @@ export const synonyms: SkillContent = {
             "laugh"
         ],
 
-        answer: 0,
-
         explanation:
             "'Shout' and 'yell' both mean to speak very loudly.",
 
         difficulty: 1,
-
+        correctAnswer: "yell",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -244,13 +226,11 @@ export const synonyms: SkillContent = {
             "Words with silent letters"
         ],
 
-        answer: 0,
-
         explanation:
             "Synonyms are words that have the same or nearly the same meaning.",
 
         difficulty: 1,
-
+        correctAnswer: "Words with the same or similar meanings",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -268,13 +248,11 @@ export const synonyms: SkillContent = {
             "boiling"
         ],
 
-        answer: 0,
-
         explanation:
             "'Cold' and 'chilly' have similar meanings.",
 
         difficulty: 2,
-
+        correctAnswer: "chilly",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -292,13 +270,11 @@ export const synonyms: SkillContent = {
             "old"
         ],
 
-        answer: 0,
-
         explanation:
             "'Beautiful' and 'pretty' have similar meanings.",
 
         difficulty: 2,
-
+        correctAnswer: "pretty",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -316,13 +292,11 @@ export const synonyms: SkillContent = {
             "late"
         ],
 
-        answer: 1,
-
         explanation:
             "'Fast' is a synonym for 'quick' and fits the sentence well.",
 
         difficulty: 2,
-
+        correctAnswer: "fast",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -340,13 +314,11 @@ export const synonyms: SkillContent = {
             "up and down"
         ],
 
-        answer: 0,
-
         explanation:
             "'Happy' and 'glad' have similar meanings.",
 
         difficulty: 2,
-
+        correctAnswer: "happy and glad",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -364,13 +336,11 @@ export const synonyms: SkillContent = {
             "day and night"
         ],
 
-        answer: 0,
-
         explanation:
             "'Start' and 'begin' mean the same thing.",
 
         difficulty: 2,
-
+        correctAnswer: "start and begin",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -388,13 +358,11 @@ export const synonyms: SkillContent = {
             "tiny"
         ],
 
-        answer: 0,
-
         explanation:
             "'Big' is a synonym for 'large'.",
 
         difficulty: 2,
-
+        correctAnswer: "big",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -412,13 +380,11 @@ export const synonyms: SkillContent = {
             "build"
         ],
 
-        answer: 0,
-
         explanation:
             "'Finish' is a synonym for 'end'.",
 
         difficulty: 2,
-
+        correctAnswer: "finish",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -436,13 +402,11 @@ export const synonyms: SkillContent = {
             "busy"
         ],
 
-        answer: 0,
-
         explanation:
             "'Quiet' and 'silent' have similar meanings.",
 
         difficulty: 2,
-
+        correctAnswer: "silent",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -460,13 +424,11 @@ export const synonyms: SkillContent = {
             "The large elephant was short."
         ],
 
-        answer: 0,
-
         explanation:
             "'Large' and 'huge' have similar meanings.",
 
         difficulty: 2,
-
+        correctAnswer: "The large elephant was huge.",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]
@@ -484,13 +446,11 @@ export const synonyms: SkillContent = {
             "To add punctuation"
         ],
 
-        answer: 0,
-
         explanation:
             "Using synonyms helps writers make their writing more varied and interesting.",
 
         difficulty: 2,
-
+        correctAnswer: "To make writing more interesting and avoid repeating the same words",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "synonyms"]

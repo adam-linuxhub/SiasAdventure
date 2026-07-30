@@ -28,13 +28,11 @@ export const bronzeAge: SkillContent = {
             "Bronze was used to grow crops."
         ],
 
-        answer: 0,
-
         explanation:
             "The Bronze Age is named after the use of bronze to make tools and weapons.",
 
         difficulty: 1,
-
+        correctAnswer: "People began making tools from bronze.",
         estimatedSeconds: 15,
 
         tags: ["history", "bronze-age"]
@@ -52,13 +50,11 @@ export const bronzeAge: SkillContent = {
             "Copper and aluminium"
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze is an alloy made by mixing copper and tin.",
 
         difficulty: 1,
-
+        correctAnswer: "Copper and tin",
         estimatedSeconds: 15,
 
         tags: ["history", "bronze"]
@@ -76,13 +72,11 @@ export const bronzeAge: SkillContent = {
             "Paper"
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze tools were often stronger and lasted longer than stone tools.",
 
         difficulty: 1,
-
+        correctAnswer: "Stone",
         estimatedSeconds: 15,
 
         tags: ["history", "tools"]
@@ -100,13 +94,11 @@ export const bronzeAge: SkillContent = {
             "Cotton candy"
         ],
 
-        answer: 0,
-
         explanation:
             "Many Bronze Age people were farmers who grew crops.",
 
         difficulty: 1,
-
+        correctAnswer: "Crops",
         estimatedSeconds: 15,
 
         tags: ["history", "farming"]
@@ -124,13 +116,11 @@ export const bronzeAge: SkillContent = {
             "Elephants"
         ],
 
-        answer: 0,
-
         explanation:
             "Cattle and sheep were commonly kept for food and other resources.",
 
         difficulty: 1,
-
+        correctAnswer: "Cattle and sheep",
         estimatedSeconds: 15,
 
         tags: ["history", "farming"]
@@ -148,13 +138,11 @@ export const bronzeAge: SkillContent = {
             "Travelling by train"
         ],
 
-        answer: 0,
-
         explanation:
             "Farming means growing plants and raising animals for food.",
 
         difficulty: 1,
-
+        correctAnswer: "Growing crops and keeping animals",
         estimatedSeconds: 15,
 
         tags: ["history", "farming"]
@@ -172,13 +160,11 @@ export const bronzeAge: SkillContent = {
             "Writing books"
         ],
 
-        answer: 0,
-
         explanation:
             "Trade means exchanging goods between people or groups.",
 
         difficulty: 1,
-
+        correctAnswer: "Buying, selling or exchanging goods",
         estimatedSeconds: 15,
 
         tags: ["history", "trade"]
@@ -196,13 +182,11 @@ export const bronzeAge: SkillContent = {
             "Steel"
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze became widely used for tools, weapons and jewellery.",
 
         difficulty: 1,
-
+        correctAnswer: "Bronze",
         estimatedSeconds: 20,
 
         tags: ["history", "bronze"]
@@ -220,13 +204,11 @@ export const bronzeAge: SkillContent = {
             "A television"
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze was used to make useful tools such as axes.",
 
         difficulty: 1,
-
+        correctAnswer: "A bronze axe",
         estimatedSeconds: 20,
 
         tags: ["history", "tools"]
@@ -244,13 +226,11 @@ export const bronzeAge: SkillContent = {
             "People built aeroplanes."
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze was an important new material during this period.",
 
         difficulty: 1,
-
+        correctAnswer: "People used bronze to make many useful objects.",
         estimatedSeconds: 20,
 
         tags: ["history", "bronze-age"]
@@ -268,13 +248,11 @@ export const bronzeAge: SkillContent = {
             "It melted in the rain."
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze tools were tougher and lasted longer than stone tools.",
 
         difficulty: 2,
-
+        correctAnswer: "It was stronger than stone.",
         estimatedSeconds: 20,
 
         tags: ["history", "tools"]
@@ -292,13 +270,11 @@ export const bronzeAge: SkillContent = {
             "It built houses."
         ],
 
-        answer: 0,
-
         explanation:
             "Farming helped communities produce reliable food.",
 
         difficulty: 2,
-
+        correctAnswer: "It provided a steady supply of food.",
         estimatedSeconds: 20,
 
         tags: ["history", "farming"]
@@ -316,13 +292,11 @@ export const bronzeAge: SkillContent = {
             "To invent cars."
         ],
 
-        answer: 0,
-
         explanation:
             "Trading allowed people to exchange useful materials and goods.",
 
         difficulty: 2,
-
+        correctAnswer: "To obtain things they did not have.",
         estimatedSeconds: 20,
 
         tags: ["history", "trade"]
@@ -340,13 +314,11 @@ export const bronzeAge: SkillContent = {
             "It replaced farming."
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze made many everyday tools more effective.",
 
         difficulty: 2,
-
+        correctAnswer: "It made stronger tools and weapons.",
         estimatedSeconds: 20,
 
         tags: ["history", "bronze"]
@@ -364,13 +336,11 @@ export const bronzeAge: SkillContent = {
             "Using computers"
         ],
 
-        answer: 0,
-
         explanation:
             "Farmers often settled in one place to look after crops and animals.",
 
         difficulty: 2,
-
+        correctAnswer: "Living in settled communities",
         estimatedSeconds: 20,
 
         tags: ["history", "settlements"]
@@ -388,13 +358,11 @@ export const bronzeAge: SkillContent = {
             "To pull trains"
         ],
 
-        answer: 0,
-
         explanation:
             "Sheep provided useful materials and food.",
 
         difficulty: 2,
-
+        correctAnswer: "For wool, meat and milk",
         estimatedSeconds: 20,
 
         tags: ["history", "farming"]
@@ -412,13 +380,11 @@ export const bronzeAge: SkillContent = {
             "A type of crop"
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze is an alloy because it is made by mixing copper and tin.",
 
         difficulty: 2,
-
+        correctAnswer: "A mixture of metals",
         estimatedSeconds: 20,
 
         tags: ["history", "bronze"]
@@ -436,13 +402,11 @@ export const bronzeAge: SkillContent = {
             "People built motorways."
         ],
 
-        answer: 0,
-
         explanation:
             "The discovery of bronze changed the way people lived and worked.",
 
         difficulty: 2,
-
+        correctAnswer: "People developed new materials and technologies.",
         estimatedSeconds: 20,
 
         tags: ["history", "bronze-age"]
@@ -460,13 +424,11 @@ export const bronzeAge: SkillContent = {
             "Mobile phone"
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze weapons and tools became common during this period.",
 
         difficulty: 2,
-
+        correctAnswer: "Bronze sword",
         estimatedSeconds: 20,
 
         tags: ["history", "artefacts"]
@@ -484,13 +446,11 @@ export const bronzeAge: SkillContent = {
             "People stopped making tools."
         ],
 
-        answer: 0,
-
         explanation:
             "The Bronze Age was a time of improved tools, farming and growing communities.",
 
         difficulty: 2,
-
+        correctAnswer: "People used bronze tools, farmed the land and traded with others.",
         estimatedSeconds: 20,
 
         tags: ["history", "bronze-age", "farming", "trade"]

@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const subjectAndPredicate: SkillContent = {
 
@@ -28,13 +28,11 @@ export const subjectAndPredicate: SkillContent = {
             "cat slept"
         ],
 
-        answer: 0,
-
         explanation:
             "The subject tells us who or what the sentence is about. Here, it is 'The cat'.",
 
         difficulty: 1,
-
+        correctAnswer: "The cat",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -52,13 +50,11 @@ export const subjectAndPredicate: SkillContent = {
             "loudly"
         ],
 
-        answer: 0,
-
         explanation:
             "The predicate tells us what the subject does. Here it is 'barked loudly'.",
 
         difficulty: 1,
-
+        correctAnswer: "barked loudly",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -76,13 +72,11 @@ export const subjectAndPredicate: SkillContent = {
             "painted a picture"
         ],
 
-        answer: 0,
-
         explanation:
             "'Emma' is who the sentence is about, so it is the subject.",
 
         difficulty: 1,
-
+        correctAnswer: "Emma",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -100,13 +94,11 @@ export const subjectAndPredicate: SkillContent = {
             "morning"
         ],
 
-        answer: 0,
-
         explanation:
             "The predicate explains what the birds do.",
 
         difficulty: 1,
-
+        correctAnswer: "sing every morning",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -124,13 +116,11 @@ export const subjectAndPredicate: SkillContent = {
             "a question mark"
         ],
 
-        answer: 0,
-
         explanation:
             "A complete sentence tells us who or what it is about and what happens.",
 
         difficulty: 1,
-
+        correctAnswer: "a subject and a predicate",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -148,13 +138,11 @@ export const subjectAndPredicate: SkillContent = {
             "The"
         ],
 
-        answer: 0,
-
         explanation:
             "'The children' are who the sentence is about.",
 
         difficulty: 1,
-
+        correctAnswer: "The children",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -172,13 +160,11 @@ export const subjectAndPredicate: SkillContent = {
             "brother"
         ],
 
-        answer: 0,
-
         explanation:
             "The predicate tells us what the brother does.",
 
         difficulty: 1,
-
+        correctAnswer: "plays football",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -196,13 +182,11 @@ export const subjectAndPredicate: SkillContent = {
             "Under the tree"
         ],
 
-        answer: 0,
-
         explanation:
             "'The rabbit' is the subject and 'hopped' is the predicate.",
 
         difficulty: 1,
-
+        correctAnswer: "The rabbit hopped.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -220,13 +204,11 @@ export const subjectAndPredicate: SkillContent = {
             "The baby smiled."
         ],
 
-        answer: 0,
-
         explanation:
             "'The tall tree' has a subject but no predicate.",
 
         difficulty: 1,
-
+        correctAnswer: "The tall tree",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -244,13 +226,11 @@ export const subjectAndPredicate: SkillContent = {
             "ran home"
         ],
 
-        answer: 0,
-
         explanation:
             "'Tom' is who the sentence is about.",
 
         difficulty: 1,
-
+        correctAnswer: "Tom",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -268,13 +248,11 @@ export const subjectAndPredicate: SkillContent = {
             "red kite"
         ],
 
-        answer: 0,
-
         explanation:
             "The predicate tells us what happened to the kite.",
 
         difficulty: 2,
-
+        correctAnswer: "flew high",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -292,13 +270,11 @@ export const subjectAndPredicate: SkillContent = {
             "read a story"
         ],
 
-        answer: 0,
-
         explanation:
             "'Our teacher' is who performed the action.",
 
         difficulty: 2,
-
+        correctAnswer: "Our teacher",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -316,13 +292,11 @@ export const subjectAndPredicate: SkillContent = {
             "Flying over the lake."
         ],
 
-        answer: 0,
-
         explanation:
             "'The birds' are the subject because the sentence is about them.",
 
         difficulty: 2,
-
+        correctAnswer: "The birds built a nest.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -340,13 +314,11 @@ export const subjectAndPredicate: SkillContent = {
             "friends"
         ],
 
-        answer: 0,
-
         explanation:
             "The predicate explains what the friends did.",
 
         difficulty: 2,
-
+        correctAnswer: "visited the museum",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -364,13 +336,11 @@ export const subjectAndPredicate: SkillContent = {
             "How many nouns there are"
         ],
 
-        answer: 0,
-
         explanation:
             "The predicate contains the action or tells us something about the subject.",
 
         difficulty: 2,
-
+        correctAnswer: "What the subject does or what happens",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -388,13 +358,11 @@ export const subjectAndPredicate: SkillContent = {
             "When the action happened"
         ],
 
-        answer: 0,
-
         explanation:
             "The subject names the person, animal or thing the sentence is about.",
 
         difficulty: 2,
-
+        correctAnswer: "Who or what the sentence is about",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -412,13 +380,11 @@ export const subjectAndPredicate: SkillContent = {
             "The football rolled."
         ],
 
-        answer: 0,
-
         explanation:
             "'Jack and Mia' are both part of the subject.",
 
         difficulty: 2,
-
+        correctAnswer: "Jack and Mia played football.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -436,13 +402,11 @@ export const subjectAndPredicate: SkillContent = {
             "The fence was tall."
         ],
 
-        answer: 0,
-
         explanation:
             "The predicate tells us what the horse did.",
 
         difficulty: 2,
-
+        correctAnswer: "The horse jumped over the fence.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -460,13 +424,11 @@ export const subjectAndPredicate: SkillContent = {
             "Under the blanket"
         ],
 
-        answer: 0,
-
         explanation:
             "A complete sentence contains both a subject and a predicate.",
 
         difficulty: 2,
-
+        correctAnswer: "The baby slept peacefully.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]
@@ -484,13 +446,11 @@ export const subjectAndPredicate: SkillContent = {
             "They replace adjectives."
         ],
 
-        answer: 0,
-
         explanation:
             "Every complete sentence needs a subject and a predicate so the meaning is clear.",
 
         difficulty: 2,
-
+        correctAnswer: "They help make complete sentences.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "subject", "predicate"]

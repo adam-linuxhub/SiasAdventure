@@ -28,13 +28,11 @@ export const nutrition: SkillContent = {
             "To grow roots"
         ],
 
-        answer: 0,
-
         explanation:
             "Animals need food to provide energy, help them grow and stay healthy.",
 
         difficulty: 1,
-
+        correctAnswer: "To get energy and grow",
         estimatedSeconds: 10,
 
         tags: [
@@ -57,13 +55,11 @@ export const nutrition: SkillContent = {
             "A human"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants make their own food using sunlight. Animals cannot make their own food.",
 
         difficulty: 1,
-
+        correctAnswer: "A plant",
         estimatedSeconds: 15,
 
         tags: [
@@ -86,13 +82,11 @@ export const nutrition: SkillContent = {
             "Absorbing it through their roots"
         ],
 
-        answer: 0,
-
         explanation:
             "Animals must eat plants, other animals or both to get food.",
 
         difficulty: 1,
-
+        correctAnswer: "Eating plants or other animals",
         estimatedSeconds: 15,
 
         tags: [
@@ -114,13 +108,11 @@ export const nutrition: SkillContent = {
             "Grass"
         ],
 
-        answer: 0,
-
         explanation:
             "A fox is an animal and must eat food to survive.",
 
         difficulty: 1,
-
+        correctAnswer: "Fox",
         estimatedSeconds: 15,
 
         tags: [
@@ -141,13 +133,11 @@ export const nutrition: SkillContent = {
             "Only fruit"
         ],
 
-        answer: 0,
-
         explanation:
             "Humans need a balanced diet with different types of food.",
 
         difficulty: 1,
-
+        correctAnswer: "The right types and amounts of food",
         estimatedSeconds: 15,
 
         tags: [
@@ -169,13 +159,11 @@ export const nutrition: SkillContent = {
             "Grass"
         ],
 
-        answer: 0,
-
         explanation:
             "Cats are animals and must eat other living things for food.",
 
         difficulty: 1,
-
+        correctAnswer: "A cat",
         estimatedSeconds: 15,
 
         tags: [
@@ -197,13 +185,11 @@ export const nutrition: SkillContent = {
             "Nothing changes."
         ],
 
-        answer: 0,
-
         explanation:
             "Animals need enough food to provide energy and help them stay healthy.",
 
         difficulty: 1,
-
+        correctAnswer: "It may become weak and unhealthy.",
         estimatedSeconds: 15,
 
         tags: [
@@ -226,13 +212,11 @@ export const nutrition: SkillContent = {
             "Grass"
         ],
 
-        answer: 0,
-
         explanation:
             "Animals get energy by eating food, unlike plants which make their own food.",
 
         difficulty: 1,
-
+        correctAnswer: "A bird",
         estimatedSeconds: 15,
 
         tags: [
@@ -254,13 +238,11 @@ export const nutrition: SkillContent = {
             "Only chocolate"
         ],
 
-        answer: 0,
-
         explanation:
             "Fruit and vegetables are part of a healthy, balanced diet.",
 
         difficulty: 1,
-
+        correctAnswer: "Fruit and vegetables",
         estimatedSeconds: 20,
 
         tags: [
@@ -282,13 +264,11 @@ export const nutrition: SkillContent = {
             "Animals do not need food."
         ],
 
-        answer: 0,
-
         explanation:
             "Unlike plants, animals must obtain food by eating other living things.",
 
         difficulty: 1,
-
+        correctAnswer: "Animals cannot make their own food.",
         estimatedSeconds: 20,
 
         tags: [
@@ -309,14 +289,12 @@ export const nutrition: SkillContent = {
             "To make soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Eating a variety of foods helps humans get the nutrients needed for good health.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "To stay healthy and get the nutrients they need",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -338,13 +316,11 @@ export const nutrition: SkillContent = {
             "Eagle"
         ],
 
-        answer: 0,
-
         explanation:
             "Rabbits eat plants to get the energy and nutrients they need.",
 
         difficulty: 2,
-
+        correctAnswer: "Rabbit",
         estimatedSeconds: 20,
 
         tags: [
@@ -366,13 +342,11 @@ export const nutrition: SkillContent = {
             "Rabbit"
         ],
 
-        answer: 0,
-
         explanation:
             "Lions are carnivores and mainly eat other animals.",
 
         difficulty: 2,
-
+        correctAnswer: "Lion",
         estimatedSeconds: 20,
 
         tags: [
@@ -395,13 +369,11 @@ export const nutrition: SkillContent = {
             "Glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Foods such as bread provide energy for the body.",
 
         difficulty: 2,
-
+        correctAnswer: "Bread",
         estimatedSeconds: 20,
 
         tags: [
@@ -423,13 +395,11 @@ export const nutrition: SkillContent = {
             "To change into adults overnight"
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy food provides the nutrients children need for growth and good health.",
 
         difficulty: 2,
-
+        correctAnswer: "To help them grow and stay healthy",
         estimatedSeconds: 20,
 
         tags: [
@@ -452,13 +422,11 @@ export const nutrition: SkillContent = {
             "Eating only cake"
         ],
 
-        answer: 0,
-
         explanation:
             "A balanced diet includes different types of foods in suitable amounts.",
 
         difficulty: 2,
-
+        correctAnswer: "Eating a variety of foods",
         estimatedSeconds: 20,
 
         tags: [
@@ -480,13 +448,11 @@ export const nutrition: SkillContent = {
             "They make sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "All animals depend on food for energy and survival.",
 
         difficulty: 2,
-
+        correctAnswer: "They need food to survive",
         estimatedSeconds: 20,
 
         tags: [
@@ -508,13 +474,11 @@ export const nutrition: SkillContent = {
             "Only chocolate biscuits"
         ],
 
-        answer: 0,
-
         explanation:
             "A healthy meal contains a variety of nutritious foods.",
 
         difficulty: 2,
-
+        correctAnswer: "Chicken, vegetables and rice",
         estimatedSeconds: 20,
 
         tags: [
@@ -536,13 +500,11 @@ export const nutrition: SkillContent = {
             "It will no longer need food"
         ],
 
-        answer: 0,
-
         explanation:
             "Without enough food, animals have less energy and their health can suffer.",
 
         difficulty: 2,
-
+        correctAnswer: "It may lose energy and become unhealthy",
         estimatedSeconds: 20,
 
         tags: [
@@ -565,13 +527,11 @@ export const nutrition: SkillContent = {
             "Animals only need water."
         ],
 
-        answer: 0,
-
         explanation:
             "Nutrition is about getting the right food to provide energy, growth and good health.",
 
         difficulty: 2,
-
+        correctAnswer: "Animals need the right types and amounts of food to stay healthy.",
         estimatedSeconds: 20,
 
         tags: [

@@ -28,13 +28,11 @@ export const muscles: SkillContent = {
             "Absorb water"
         ],
 
-        answer: 0,
-
         explanation:
             "Muscles work with your skeleton to help your body move.",
 
         difficulty: 1,
-
+        correctAnswer: "Move",
         estimatedSeconds: 10,
 
         tags: [
@@ -57,13 +55,11 @@ export const muscles: SkillContent = {
             "The skin"
         ],
 
-        answer: 0,
-
         explanation:
             "Muscles pull on bones to make the body move.",
 
         difficulty: 1,
-
+        correctAnswer: "The skeleton",
         estimatedSeconds: 15,
 
         tags: [
@@ -86,13 +82,11 @@ export const muscles: SkillContent = {
             "Digesting food"
         ],
 
-        answer: 0,
-
         explanation:
             "Running requires many muscles to work together with your skeleton.",
 
         difficulty: 1,
-
+        correctAnswer: "Running",
         estimatedSeconds: 15,
 
         tags: [
@@ -115,13 +109,11 @@ export const muscles: SkillContent = {
             "The skin changes colour"
         ],
 
-        answer: 0,
-
         explanation:
             "Muscles pull on bones to create movement at the joints.",
 
         difficulty: 1,
-
+        correctAnswer: "The body moves",
         estimatedSeconds: 15,
 
         tags: [
@@ -144,13 +136,11 @@ export const muscles: SkillContent = {
             "Only your feet"
         ],
 
-        answer: 0,
-
         explanation:
             "Muscles are found all over your body, including your arms, legs and back.",
 
         difficulty: 1,
-
+        correctAnswer: "Your arms",
         estimatedSeconds: 15,
 
         tags: [
@@ -172,13 +162,11 @@ export const muscles: SkillContent = {
             "They absorb water"
         ],
 
-        answer: 0,
-
         explanation:
             "Without muscles, we would not be able to move our bodies.",
 
         difficulty: 1,
-
+        correctAnswer: "They help us move",
         estimatedSeconds: 15,
 
         tags: [
@@ -201,13 +189,11 @@ export const muscles: SkillContent = {
             "Shining like the Sun"
         ],
 
-        answer: 0,
-
         explanation:
             "Jumping uses many muscles working together.",
 
         difficulty: 1,
-
+        correctAnswer: "Jumping",
         estimatedSeconds: 15,
 
         tags: [
@@ -230,13 +216,11 @@ export const muscles: SkillContent = {
             "Skin"
         ],
 
-        answer: 0,
-
         explanation:
             "Muscles pull on bones to create movement.",
 
         difficulty: 1,
-
+        correctAnswer: "Bones",
         estimatedSeconds: 15,
 
         tags: [
@@ -259,13 +243,11 @@ export const muscles: SkillContent = {
             "Skin and ears"
         ],
 
-        answer: 0,
-
         explanation:
             "Movement happens because muscles pull on the skeleton.",
 
         difficulty: 1,
-
+        correctAnswer: "Muscles and skeleton",
         estimatedSeconds: 20,
 
         tags: [
@@ -289,13 +271,11 @@ export const muscles: SkillContent = {
             "Muscles protect the Sun."
         ],
 
-        answer: 0,
-
         explanation:
             "Muscles are used for movement in humans and many other animals.",
 
         difficulty: 1,
-
+        correctAnswer: "Muscles help animals move.",
         estimatedSeconds: 20,
 
         tags: [
@@ -317,14 +297,12 @@ export const muscles: SkillContent = {
             "Muscles move without bones."
         ],
 
-        answer: 0,
-
         explanation:
             "Muscles contract and pull on bones, allowing the body to move.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "Muscles pull on bones to create movement.",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -347,13 +325,11 @@ export const muscles: SkillContent = {
             "Absorbing water"
         ],
 
-        answer: 0,
-
         explanation:
             "Climbing uses many muscles working together with the skeleton.",
 
         difficulty: 2,
-
+        correctAnswer: "Climbing a ladder",
         estimatedSeconds: 20,
 
         tags: [
@@ -376,13 +352,11 @@ export const muscles: SkillContent = {
             "It makes food."
         ],
 
-        answer: 0,
-
         explanation:
             "A contracting muscle becomes shorter and pulls on a bone to create movement.",
 
         difficulty: 2,
-
+        correctAnswer: "It becomes shorter and pulls on a bone.",
         estimatedSeconds: 20,
 
         tags: [
@@ -405,13 +379,11 @@ export const muscles: SkillContent = {
             "Eyes and ears"
         ],
 
-        answer: 0,
-
         explanation:
             "Your muscles pull on your bones to move your legs.",
 
         difficulty: 2,
-
+        correctAnswer: "Muscles and bones",
         estimatedSeconds: 20,
 
         tags: [
@@ -434,13 +406,11 @@ export const muscles: SkillContent = {
             "Muscles absorb minerals from the soil."
         ],
 
-        answer: 0,
-
         explanation:
             "The main job of muscles is to work with bones to create movement.",
 
         difficulty: 2,
-
+        correctAnswer: "Muscles help animals move.",
         estimatedSeconds: 20,
 
         tags: [
@@ -462,13 +432,11 @@ export const muscles: SkillContent = {
             "To absorb water"
         ],
 
-        answer: 0,
-
         explanation:
             "Without muscles, people would not be able to move their arms, legs or body.",
 
         difficulty: 2,
-
+        correctAnswer: "To move different parts of their body",
         estimatedSeconds: 20,
 
         tags: [
@@ -491,13 +459,11 @@ export const muscles: SkillContent = {
             "Thinking"
         ],
 
-        answer: 0,
-
         explanation:
             "Walking depends on muscles pulling on the bones in your legs.",
 
         difficulty: 2,
-
+        correctAnswer: "Walking",
         estimatedSeconds: 20,
 
         tags: [
@@ -520,13 +486,11 @@ export const muscles: SkillContent = {
             "Skin"
         ],
 
-        answer: 0,
-
         explanation:
             "Muscles are attached to bones and pull on them to create movement.",
 
         difficulty: 2,
-
+        correctAnswer: "Bones",
         estimatedSeconds: 20,
 
         tags: [
@@ -549,13 +513,11 @@ export const muscles: SkillContent = {
             "Eyes and ears"
         ],
 
-        answer: 0,
-
         explanation:
             "Running happens because muscles pull on the skeleton.",
 
         difficulty: 2,
-
+        correctAnswer: "Muscles and skeleton",
         estimatedSeconds: 20,
 
         tags: [
@@ -579,13 +541,11 @@ export const muscles: SkillContent = {
             "Muscles protect the heart."
         ],
 
-        answer: 0,
-
         explanation:
             "Muscles work with the skeleton to produce movement throughout the body.",
 
         difficulty: 2,
-
+        correctAnswer: "Muscles contract to pull on bones and help the body move.",
         estimatedSeconds: 20,
 
         tags: [

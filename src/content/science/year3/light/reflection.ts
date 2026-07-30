@@ -28,12 +28,10 @@ export const reflection: SkillContent = {
             "They produce electricity"
         ],
 
-        answer: 0,
-
         explanation: "Most objects do not produce light. We see them because light reflects from them into our eyes.",
 
         difficulty: 1,
-
+        correctAnswer: "Light reflects from them into our eyes",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "reflection"]
@@ -51,12 +49,10 @@ export const reflection: SkillContent = {
             "It turns into sound"
         ],
 
-        answer: 0,
-
         explanation: "Mirrors reflect almost all of the light that reaches them.",
 
         difficulty: 1,
-
+        correctAnswer: "It reflects",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "reflection", "mirrors"]
@@ -74,12 +70,10 @@ export const reflection: SkillContent = {
             "A pillow"
         ],
 
-        answer: 0,
-
         explanation: "Smooth, shiny surfaces like mirrors reflect light very well.",
 
         difficulty: 1,
-
+        correctAnswer: "A mirror",
         estimatedSeconds: 15,
 
         tags: ["science", "reflection", "mirrors"]
@@ -97,12 +91,10 @@ export const reflection: SkillContent = {
             "A muddy path"
         ],
 
-        answer: 0,
-
         explanation: "Smooth, shiny surfaces reflect more light than rough surfaces.",
 
         difficulty: 1,
-
+        correctAnswer: "A shiny mirror",
         estimatedSeconds: 15,
 
         tags: ["science", "reflection", "surfaces"]
@@ -120,12 +112,10 @@ export const reflection: SkillContent = {
             "Only in the rain"
         ],
 
-        answer: 0,
-
         explanation: "Books do not make light. They reflect light into our eyes.",
 
         difficulty: 1,
-
+        correctAnswer: "Yes",
         estimatedSeconds: 15,
 
         tags: ["science", "reflection", "seeing"]
@@ -143,12 +133,10 @@ export const reflection: SkillContent = {
             "A book"
         ],
 
-        answer: 0,
-
         explanation: "A candle is a light source. The other objects only reflect light.",
 
         difficulty: 1,
-
+        correctAnswer: "A candle",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "sources"]
@@ -166,12 +154,10 @@ export const reflection: SkillContent = {
             "Produce electricity"
         ],
 
-        answer: 0,
-
         explanation: "Mirrors reflect light, allowing us to see images.",
 
         difficulty: 1,
-
+        correctAnswer: "Reflect light",
         estimatedSeconds: 15,
 
         tags: ["science", "reflection", "mirrors"]
@@ -189,12 +175,10 @@ export const reflection: SkillContent = {
             "A clean window"
         ],
 
-        answer: 0,
-
         explanation: "Dark, rough surfaces reflect less light than smooth, shiny ones.",
 
         difficulty: 1,
-
+        correctAnswer: "A dark, rough wall",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "surfaces"]
@@ -212,12 +196,10 @@ export const reflection: SkillContent = {
             "It shines like the Sun"
         ],
 
-        answer: 0,
-
         explanation: "The mirror reflects light from your body into your eyes.",
 
         difficulty: 1,
-
+        correctAnswer: "It reflects light from your body",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "mirrors"]
@@ -235,12 +217,10 @@ export const reflection: SkillContent = {
             "Books produce light."
         ],
 
-        answer: 0,
-
         explanation: "Most objects are seen because they reflect light.",
 
         difficulty: 1,
-
+        correctAnswer: "Most objects reflect light.",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection"]
@@ -258,12 +238,10 @@ export const reflection: SkillContent = {
             "It produces darkness."
         ],
 
-        answer: 0,
-
         explanation: "Dark objects usually reflect less light than lighter objects.",
 
         difficulty: 2,
-
+        correctAnswer: "It reflects less light.",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "light"]
@@ -281,12 +259,10 @@ export const reflection: SkillContent = {
             "Sand"
         ],
 
-        answer: 0,
-
         explanation: "Mirrors need smooth, shiny surfaces to reflect light clearly.",
 
         difficulty: 2,
-
+        correctAnswer: "Smooth polished glass",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "mirrors"]
@@ -304,12 +280,10 @@ export const reflection: SkillContent = {
             "It shines at night."
         ],
 
-        answer: 0,
-
         explanation: "Trees reflect light from the Sun into our eyes.",
 
         difficulty: 2,
-
+        correctAnswer: "It reflects sunlight.",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "sunlight"]
@@ -327,12 +301,10 @@ export const reflection: SkillContent = {
             "A cardboard box"
         ],
 
-        answer: 0,
-
         explanation: "Smooth, shiny metal reflects light well.",
 
         difficulty: 2,
-
+        correctAnswer: "A shiny metal spoon",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "surfaces"]
@@ -350,12 +322,10 @@ export const reflection: SkillContent = {
             "The object must be warm."
         ],
 
-        answer: 0,
-
         explanation: "We see objects when light reaches our eyes.",
 
         difficulty: 2,
-
+        correctAnswer: "Light must enter your eyes.",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "seeing"]
@@ -373,12 +343,10 @@ export const reflection: SkillContent = {
             "They stop shadows."
         ],
 
-        answer: 0,
-
         explanation: "Reflective signs are easier to see at night because they reflect headlights.",
 
         difficulty: 2,
-
+        correctAnswer: "They reflect light from car headlights.",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "everyday-life"]
@@ -396,12 +364,10 @@ export const reflection: SkillContent = {
             "They absorb all light."
         ],
 
-        answer: 0,
-
         explanation: "Mirrors are designed to reflect light very well.",
 
         difficulty: 2,
-
+        correctAnswer: "They reflect light into our eyes.",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "mirrors"]
@@ -419,12 +385,10 @@ export const reflection: SkillContent = {
             "It stores sunlight."
         ],
 
-        answer: 0,
-
         explanation: "Reflectors help drivers see cyclists more easily in the dark.",
 
         difficulty: 2,
-
+        correctAnswer: "It reflects light from car headlights.",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "safety"]
@@ -442,12 +406,10 @@ export const reflection: SkillContent = {
             "A wool jumper"
         ],
 
-        answer: 0,
-
         explanation: "A smooth mirror gives the clearest reflection.",
 
         difficulty: 2,
-
+        correctAnswer: "A clean mirror",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "mirrors"]
@@ -465,12 +427,10 @@ export const reflection: SkillContent = {
             "Reflection only happens in mirrors."
         ],
 
-        answer: 0,
-
         explanation: "Reflection is when light bounces off a surface. Mirrors reflect very well, but many other objects reflect light too.",
 
         difficulty: 2,
-
+        correctAnswer: "Reflection happens when light bounces off a surface.",
         estimatedSeconds: 20,
 
         tags: ["science", "reflection", "light"]

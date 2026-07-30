@@ -28,13 +28,11 @@ export const healthyDiet: SkillContent = {
             "To help plants grow"
         ],
 
-        answer: 0,
-
         explanation:
             "Food gives our bodies energy and the nutrients needed to stay healthy.",
 
         difficulty: 1,
-
+        correctAnswer: "To stay healthy and have energy",
         estimatedSeconds: 15,
 
         tags: [
@@ -57,13 +55,11 @@ export const healthyDiet: SkillContent = {
             "A fizzy drink"
         ],
 
-        answer: 0,
-
         explanation:
             "Fruit is a healthy snack because it contains useful nutrients.",
 
         difficulty: 1,
-
+        correctAnswer: "An apple",
         estimatedSeconds: 15,
 
         tags: [
@@ -85,13 +81,11 @@ export const healthyDiet: SkillContent = {
             "Drinking only fizzy drinks"
         ],
 
-        answer: 0,
-
         explanation:
             "A balanced diet includes different types of healthy foods.",
 
         difficulty: 1,
-
+        correctAnswer: "Eating a balanced diet",
         estimatedSeconds: 15,
 
         tags: [
@@ -113,13 +107,11 @@ export const healthyDiet: SkillContent = {
             "Sugary milkshake"
         ],
 
-        answer: 0,
-
         explanation:
             "Water keeps your body hydrated without added sugar.",
 
         difficulty: 1,
-
+        correctAnswer: "Water",
         estimatedSeconds: 15,
 
         tags: [
@@ -141,13 +133,11 @@ export const healthyDiet: SkillContent = {
             "Fish"
         ],
 
-        answer: 0,
-
         explanation:
             "Bananas are fruit and are part of a healthy balanced diet.",
 
         difficulty: 1,
-
+        correctAnswer: "Banana",
         estimatedSeconds: 15,
 
         tags: [
@@ -169,13 +159,11 @@ export const healthyDiet: SkillContent = {
             "Because only fruit gives energy."
         ],
 
-        answer: 0,
-
         explanation:
             "Our bodies need a variety of nutrients from different foods.",
 
         difficulty: 1,
-
+        correctAnswer: "Different foods provide different nutrients.",
         estimatedSeconds: 20,
 
         tags: [
@@ -197,13 +185,11 @@ export const healthyDiet: SkillContent = {
             "Only chocolate"
         ],
 
-        answer: 0,
-
         explanation:
             "A balanced meal contains different food groups.",
 
         difficulty: 1,
-
+        correctAnswer: "Chicken, vegetables and rice",
         estimatedSeconds: 20,
 
         tags: [
@@ -225,13 +211,11 @@ export const healthyDiet: SkillContent = {
             "Lollipops"
         ],
 
-        answer: 0,
-
         explanation:
             "Vegetables are an important part of a healthy diet.",
 
         difficulty: 1,
-
+        correctAnswer: "Vegetables",
         estimatedSeconds: 15,
 
         tags: [
@@ -253,13 +237,11 @@ export const healthyDiet: SkillContent = {
             "Only cakes"
         ],
 
-        answer: 0,
-
         explanation:
             "A balanced diet includes foods from different food groups.",
 
         difficulty: 1,
-
+        correctAnswer: "A variety of different healthy foods",
         estimatedSeconds: 20,
 
         tags: [
@@ -281,13 +263,11 @@ export const healthyDiet: SkillContent = {
             "Vegetables are unhealthy."
         ],
 
-        answer: 0,
-
         explanation:
             "Eating the right types and amounts of food helps people stay healthy.",
 
         difficulty: 1,
-
+        correctAnswer: "Humans need the right types and amounts of food.",
         estimatedSeconds: 20,
 
         tags: [
@@ -308,14 +288,12 @@ export const healthyDiet: SkillContent = {
             "To avoid eating fruit"
         ],
 
-        answer: 0,
-
         explanation:
             "A balanced diet provides the nutrients your body needs to grow and stay healthy.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "To stay healthy and get the nutrients they need",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -337,13 +315,11 @@ export const healthyDiet: SkillContent = {
             "Only sweets"
         ],
 
-        answer: 0,
-
         explanation:
             "A healthy lunch contains foods from different food groups and a healthy drink.",
 
         difficulty: 2,
-
+        correctAnswer: "A sandwich, carrot sticks, an apple and water",
         estimatedSeconds: 20,
 
         tags: [
@@ -365,13 +341,11 @@ export const healthyDiet: SkillContent = {
             "Wholemeal bread"
         ],
 
-        answer: 0,
-
         explanation:
             "Foods high in sugar should usually be eaten less often than healthier foods.",
 
         difficulty: 2,
-
+        correctAnswer: "Sweets",
         estimatedSeconds: 20,
 
         tags: [
@@ -393,13 +367,11 @@ export const healthyDiet: SkillContent = {
             "Cheese"
         ],
 
-        answer: 0,
-
         explanation:
             "Broccoli is a vegetable and is an important part of a balanced diet.",
 
         difficulty: 2,
-
+        correctAnswer: "Broccoli",
         estimatedSeconds: 20,
 
         tags: [
@@ -421,13 +393,11 @@ export const healthyDiet: SkillContent = {
             "It stops you from exercising."
         ],
 
-        answer: 0,
-
         explanation:
             "Water helps your body stay hydrated so it can work properly.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps keep your body hydrated.",
         estimatedSeconds: 20,
 
         tags: [
@@ -449,13 +419,11 @@ export const healthyDiet: SkillContent = {
             "Skipping meals every day"
         ],
 
-        answer: 0,
-
         explanation:
             "A healthy lifestyle includes eating a balanced variety of foods.",
 
         difficulty: 2,
-
+        correctAnswer: "Eating a variety of healthy foods",
         estimatedSeconds: 20,
 
         tags: [
@@ -477,13 +445,11 @@ export const healthyDiet: SkillContent = {
             "Only crisps"
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy meals usually include foods from more than one food group.",
 
         difficulty: 2,
-
+        correctAnswer: "Fish, potatoes and peas",
         estimatedSeconds: 20,
 
         tags: [
@@ -505,13 +471,11 @@ export const healthyDiet: SkillContent = {
             "Sugar makes muscles stronger than exercise."
         ],
 
-        answer: 0,
-
         explanation:
             "Sugary foods are best eaten only in small amounts as part of a balanced diet.",
 
         difficulty: 2,
-
+        correctAnswer: "Too much sugar is not part of a balanced diet.",
         estimatedSeconds: 20,
 
         tags: [
@@ -533,13 +497,11 @@ export const healthyDiet: SkillContent = {
             "Only sweets are needed."
         ],
 
-        answer: 0,
-
         explanation:
             "Different foods provide different nutrients that your body needs.",
 
         difficulty: 2,
-
+        correctAnswer: "Eating different healthy foods helps your body work well.",
         estimatedSeconds: 20,
 
         tags: [
@@ -561,13 +523,11 @@ export const healthyDiet: SkillContent = {
             "Only eat one type of food."
         ],
 
-        answer: 0,
-
         explanation:
             "A healthy diet includes a variety of foods, the right amounts and enough water.",
 
         difficulty: 2,
-
+        correctAnswer: "Eat a variety of foods in the right amounts and drink plenty of water.",
         estimatedSeconds: 20,
 
         tags: [

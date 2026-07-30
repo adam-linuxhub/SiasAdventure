@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const pharaohs: SkillContent = {
 
@@ -29,13 +29,11 @@ export const pharaohs: SkillContent = {
             "A river"
         ],
 
-        answer: 0,
-
         explanation:
             "A pharaoh was the king or ruler of Ancient Egypt.",
 
         difficulty: 1,
-
+        correctAnswer: "The ruler of Ancient Egypt",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -54,13 +52,11 @@ export const pharaohs: SkillContent = {
             "They were ordinary workers"
         ],
 
-        answer: 0,
-
         explanation:
             "Pharaohs controlled many parts of Egyptian life, including laws and building projects.",
 
         difficulty: 1,
-
+        correctAnswer: "They ruled the country and made important decisions",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -79,13 +75,11 @@ export const pharaohs: SkillContent = {
             "Mayor"
         ],
 
-        answer: 0,
-
         explanation:
             "Ancient Egyptian kings were called pharaohs.",
 
         difficulty: 1,
-
+        correctAnswer: "Pharaoh",
         estimatedSeconds: 15,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -104,13 +98,11 @@ export const pharaohs: SkillContent = {
             "On ships"
         ],
 
-        answer: 0,
-
         explanation:
             "Pharaohs lived in grand palaces because they were powerful rulers.",
 
         difficulty: 1,
-
+        correctAnswer: "In large palaces",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -129,13 +121,11 @@ export const pharaohs: SkillContent = {
             "Space missions"
         ],
 
-        answer: 0,
-
         explanation:
             "Pharaohs ordered the construction of temples, pyramids and other buildings.",
 
         difficulty: 1,
-
+        correctAnswer: "Large building projects",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -154,13 +144,11 @@ export const pharaohs: SkillContent = {
             "As a child with no power"
         ],
 
-        answer: 0,
-
         explanation:
             "Pharaohs were seen as very powerful and important figures.",
 
         difficulty: 1,
-
+        correctAnswer: "As a powerful and important leader",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -179,13 +167,11 @@ export const pharaohs: SkillContent = {
             "William the Conqueror"
         ],
 
-        answer: 0,
-
         explanation:
             "Tutankhamun's tomb was discovered by Howard Carter in 1922.",
 
         difficulty: 1,
-
+        correctAnswer: "Tutankhamun",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -204,13 +190,11 @@ export const pharaohs: SkillContent = {
             "He built the River Nile"
         ],
 
-        answer: 0,
-
         explanation:
             "Tutankhamun's tomb gave historians many clues about Ancient Egypt.",
 
         difficulty: 1,
-
+        correctAnswer: "His tomb contained many well-preserved treasures",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -229,13 +213,11 @@ export const pharaohs: SkillContent = {
             "A bicycle"
         ],
 
-        answer: 0,
-
         explanation:
             "Crowns and other symbols showed the pharaoh's authority.",
 
         difficulty: 1,
-
+        correctAnswer: "A crown",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -254,13 +236,11 @@ export const pharaohs: SkillContent = {
             "Television shows"
         ],
 
-        answer: 0,
-
         explanation:
             "Pharaohs controlled government and helped organise Egyptian society.",
 
         difficulty: 1,
-
+        correctAnswer: "Rules and organisation for society",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -279,13 +259,11 @@ export const pharaohs: SkillContent = {
             "They were markets"
         ],
 
-        answer: 0,
-
         explanation:
             "Some pyramids were built as burial places for pharaohs.",
 
         difficulty: 2,
-
+        correctAnswer: "They were built as tombs for some pharaohs",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -304,13 +282,11 @@ export const pharaohs: SkillContent = {
             "Someone who builds toys"
         ],
 
-        answer: 0,
-
         explanation:
             "A ruler is a person who has power over a country or group.",
 
         difficulty: 2,
-
+        correctAnswer: "Someone who controls and leads a country",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -329,13 +305,11 @@ export const pharaohs: SkillContent = {
             "To travel to space"
         ],
 
-        answer: 0,
-
         explanation:
             "Large projects needed many skilled workers.",
 
         difficulty: 2,
-
+        correctAnswer: "To build structures and run parts of society",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -354,13 +328,11 @@ export const pharaohs: SkillContent = {
             "They lived in modern times"
         ],
 
-        answer: 0,
-
         explanation:
             "Pharaohs were the most powerful people in Ancient Egypt.",
 
         difficulty: 2,
-
+        correctAnswer: "They had great power in Ancient Egypt",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -379,13 +351,11 @@ export const pharaohs: SkillContent = {
             "Computer programmes"
         ],
 
-        answer: 0,
-
         explanation:
             "Historians use evidence left behind from the past.",
 
         difficulty: 2,
-
+        correctAnswer: "Tombs, statues and written records",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -404,13 +374,11 @@ export const pharaohs: SkillContent = {
             "They were farms"
         ],
 
-        answer: 0,
-
         explanation:
             "Temples were important religious places.",
 
         difficulty: 2,
-
+        correctAnswer: "They were places connected with religion and worship",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -429,13 +397,11 @@ export const pharaohs: SkillContent = {
             "Avoids all choices"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaders make decisions and guide others.",
 
         difficulty: 2,
-
+        correctAnswer: "Can make important decisions",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -454,13 +420,11 @@ export const pharaohs: SkillContent = {
             "They built computers"
         ],
 
-        answer: 0,
-
         explanation:
             "Buildings, objects and records help us learn about pharaohs.",
 
         difficulty: 2,
-
+        correctAnswer: "They left evidence about Ancient Egyptian history",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -479,13 +443,11 @@ export const pharaohs: SkillContent = {
             "Traveller"
         ],
 
-        answer: 0,
-
         explanation:
             "A pharaoh was the ruler of Ancient Egypt.",
 
         difficulty: 1,
-
+        correctAnswer: "Ruler",
         estimatedSeconds: 15,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]
@@ -504,13 +466,11 @@ export const pharaohs: SkillContent = {
             "They had no effect on society"
         ],
 
-        answer: 0,
-
         explanation:
             "Pharaohs were central to Ancient Egyptian government and society.",
 
         difficulty: 2,
-
+        correctAnswer: "They help us understand how Ancient Egypt was governed",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pharaohs"]

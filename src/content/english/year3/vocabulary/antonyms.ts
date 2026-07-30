@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const antonyms: SkillContent = {
 
@@ -28,13 +28,11 @@ export const antonyms: SkillContent = {
             "dry"
         ],
 
-        answer: 0,
-
         explanation:
             "'Cold' is the opposite (antonym) of 'hot'.",
 
         difficulty: 1,
-
+        correctAnswer: "cold",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -52,13 +50,11 @@ export const antonyms: SkillContent = {
             "tall"
         ],
 
-        answer: 0,
-
         explanation:
             "'Small' is the opposite of 'big'.",
 
         difficulty: 1,
-
+        correctAnswer: "small",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -76,13 +72,11 @@ export const antonyms: SkillContent = {
             "excited"
         ],
 
-        answer: 0,
-
         explanation:
             "'Sad' is the opposite of 'happy'.",
 
         difficulty: 1,
-
+        correctAnswer: "sad",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -100,13 +94,11 @@ export const antonyms: SkillContent = {
             "rapid"
         ],
 
-        answer: 0,
-
         explanation:
             "'Slow' is the opposite of 'fast'.",
 
         difficulty: 1,
-
+        correctAnswer: "slow",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -124,13 +116,11 @@ export const antonyms: SkillContent = {
             "over"
         ],
 
-        answer: 0,
-
         explanation:
             "'Down' is the opposite of 'up'.",
 
         difficulty: 1,
-
+        correctAnswer: "down",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -148,13 +138,11 @@ export const antonyms: SkillContent = {
             "today"
         ],
 
-        answer: 0,
-
         explanation:
             "'Night' is the opposite of 'day'.",
 
         difficulty: 1,
-
+        correctAnswer: "night",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -172,13 +160,11 @@ export const antonyms: SkillContent = {
             "heavy"
         ],
 
-        answer: 0,
-
         explanation:
             "'Empty' is the opposite of 'full'.",
 
         difficulty: 1,
-
+        correctAnswer: "empty",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -196,13 +182,11 @@ export const antonyms: SkillContent = {
             "tiny"
         ],
 
-        answer: 0,
-
         explanation:
             "'Old' is the opposite of 'young'.",
 
         difficulty: 1,
-
+        correctAnswer: "old",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -220,13 +204,11 @@ export const antonyms: SkillContent = {
             "clear"
         ],
 
-        answer: 0,
-
         explanation:
             "'Closed' is the opposite of 'open'.",
 
         difficulty: 1,
-
+        correctAnswer: "closed",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -244,13 +226,11 @@ export const antonyms: SkillContent = {
             "Words with silent letters"
         ],
 
-        answer: 0,
-
         explanation:
             "Antonyms are words that have opposite meanings.",
 
         difficulty: 1,
-
+        correctAnswer: "Words with opposite meanings",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -268,13 +248,11 @@ export const antonyms: SkillContent = {
             "first"
         ],
 
-        answer: 0,
-
         explanation:
             "'Late' is the opposite of 'early'.",
 
         difficulty: 2,
-
+        correctAnswer: "late",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -292,13 +270,11 @@ export const antonyms: SkillContent = {
             "soft"
         ],
 
-        answer: 0,
-
         explanation:
             "When 'light' means 'not heavy', its antonym is 'heavy'.",
 
         difficulty: 2,
-
+        correctAnswer: "heavy",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -316,13 +292,11 @@ export const antonyms: SkillContent = {
             "begin and start"
         ],
 
-        answer: 0,
-
         explanation:
             "'Happy' and 'sad' have opposite meanings.",
 
         difficulty: 2,
-
+        correctAnswer: "happy and sad",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -340,13 +314,11 @@ export const antonyms: SkillContent = {
             "wet"
         ],
 
-        answer: 0,
-
         explanation:
             "'Empty' is the opposite of 'full'.",
 
         difficulty: 2,
-
+        correctAnswer: "empty",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -364,13 +336,11 @@ export const antonyms: SkillContent = {
             "finish and end"
         ],
 
-        answer: 0,
-
         explanation:
             "'Up' and 'down' are opposites.",
 
         difficulty: 2,
-
+        correctAnswer: "up and down",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -388,13 +358,11 @@ export const antonyms: SkillContent = {
             "quiet"
         ],
 
-        answer: 0,
-
         explanation:
             "'Fast' is the opposite of 'slow'.",
 
         difficulty: 2,
-
+        correctAnswer: "fast",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -412,13 +380,11 @@ export const antonyms: SkillContent = {
             "The kitten was quick, but the dog was fast."
         ],
 
-        answer: 0,
-
         explanation:
             "'Small' and 'big' are opposite words.",
 
         difficulty: 2,
-
+        correctAnswer: "The kitten was small, but the dog was big.",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -436,13 +402,11 @@ export const antonyms: SkillContent = {
             "To make words longer"
         ],
 
-        answer: 0,
-
         explanation:
             "Antonyms help writers compare things by showing opposites.",
 
         difficulty: 2,
-
+        correctAnswer: "To compare opposite ideas",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -460,13 +424,11 @@ export const antonyms: SkillContent = {
             "bright"
         ],
 
-        answer: 0,
-
         explanation:
             "'Dirty' is the opposite of 'clean'.",
 
         difficulty: 2,
-
+        correctAnswer: "dirty",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]
@@ -484,13 +446,11 @@ export const antonyms: SkillContent = {
             "The soup was hot, but the sun was bright."
         ],
 
-        answer: 0,
-
         explanation:
             "'Hot' and 'cold' are antonyms with opposite meanings.",
 
         difficulty: 2,
-
+        correctAnswer: "The soup was hot, but the ice cream was cold.",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "antonyms"]

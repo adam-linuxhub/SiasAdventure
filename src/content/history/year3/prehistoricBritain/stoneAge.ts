@@ -28,13 +28,11 @@ export const stoneAge: SkillContent = {
             "There were no trees."
         ],
 
-        answer: 0,
-
         explanation:
             "The Stone Age gets its name because stone was the main material used to make tools.",
 
         difficulty: 1,
-
+        correctAnswer: "People made many tools from stone.",
         estimatedSeconds: 15,
 
         tags: ["history", "stone-age"]
@@ -52,13 +50,11 @@ export const stoneAge: SkillContent = {
             "Glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Stone tools were strong and could be shaped into useful objects.",
 
         difficulty: 1,
-
+        correctAnswer: "Stone",
         estimatedSeconds: 15,
 
         tags: ["history", "tools"]
@@ -76,13 +72,11 @@ export const stoneAge: SkillContent = {
             "Japan"
         ],
 
-        answer: 0,
-
         explanation:
             "Year 3 History focuses on life in prehistoric Britain.",
 
         difficulty: 1,
-
+        correctAnswer: "Britain",
         estimatedSeconds: 15,
 
         tags: ["history", "britain"]
@@ -100,13 +94,11 @@ export const stoneAge: SkillContent = {
             "Blocks of flats"
         ],
 
-        answer: 0,
-
         explanation:
             "Many early Stone Age people used caves for shelter.",
 
         difficulty: 1,
-
+        correctAnswer: "Caves",
         estimatedSeconds: 15,
 
         tags: ["history", "homes"]
@@ -124,13 +116,11 @@ export const stoneAge: SkillContent = {
             "Pets"
         ],
 
-        answer: 0,
-
         explanation:
             "People hunted wild animals before farming became common.",
 
         difficulty: 1,
-
+        correctAnswer: "Wild animals",
         estimatedSeconds: 15,
 
         tags: ["history", "food"]
@@ -148,13 +138,11 @@ export const stoneAge: SkillContent = {
             "Fishing only"
         ],
 
-        answer: 0,
-
         explanation:
             "People gathered wild plants, berries and nuts as part of their diet.",
 
         difficulty: 1,
-
+        correctAnswer: "Gathering berries, nuts and plants",
         estimatedSeconds: 15,
 
         tags: ["history", "food"]
@@ -172,13 +160,11 @@ export const stoneAge: SkillContent = {
             "Animals"
         ],
 
-        answer: 0,
-
         explanation:
             "Cars were invented many thousands of years later.",
 
         difficulty: 1,
-
+        correctAnswer: "Cars",
         estimatedSeconds: 15,
 
         tags: ["history"]
@@ -196,13 +182,11 @@ export const stoneAge: SkillContent = {
             "It built houses."
         ],
 
-        answer: 0,
-
         explanation:
             "Fire gave warmth, light and allowed food to be cooked.",
 
         difficulty: 1,
-
+        correctAnswer: "It kept them warm and cooked food.",
         estimatedSeconds: 20,
 
         tags: ["history", "fire"]
@@ -220,13 +204,11 @@ export const stoneAge: SkillContent = {
             "Denim jeans"
         ],
 
-        answer: 0,
-
         explanation:
             "Animal skins helped keep people warm.",
 
         difficulty: 1,
-
+        correctAnswer: "Animal skins",
         estimatedSeconds: 20,
 
         tags: ["history", "clothing"]
@@ -244,13 +226,11 @@ export const stoneAge: SkillContent = {
             "Stone Age people built railways."
         ],
 
-        answer: 0,
-
         explanation:
             "The Stone Age happened long before modern inventions.",
 
         difficulty: 1,
-
+        correctAnswer: "Stone Age people lived thousands of years ago.",
         estimatedSeconds: 20,
 
         tags: ["history"]
@@ -268,13 +248,11 @@ export const stoneAge: SkillContent = {
             "Stone was soft like cloth."
         ],
 
-        answer: 0,
-
         explanation:
             "Stone could be shaped into useful cutting and hunting tools.",
 
         difficulty: 2,
-
+        correctAnswer: "Stone was strong and could be shaped.",
         estimatedSeconds: 20,
 
         tags: ["history", "tools"]
@@ -292,13 +270,11 @@ export const stoneAge: SkillContent = {
             "It produced electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "Animals provided meat for food and skins for clothing.",
 
         difficulty: 2,
-
+        correctAnswer: "It provided food and animal skins.",
         estimatedSeconds: 20,
 
         tags: ["history", "food"]
@@ -316,13 +292,11 @@ export const stoneAge: SkillContent = {
             "It made stone tools."
         ],
 
-        answer: 0,
-
         explanation:
             "Gathering plants helped provide a balanced food supply.",
 
         difficulty: 2,
-
+        correctAnswer: "It provided extra food.",
         estimatedSeconds: 20,
 
         tags: ["history", "food"]
@@ -340,13 +314,11 @@ export const stoneAge: SkillContent = {
             "They had glass windows."
         ],
 
-        answer: 0,
-
         explanation:
             "Caves helped protect people from rain, wind and dangerous animals.",
 
         difficulty: 2,
-
+        correctAnswer: "They gave protection from weather and animals.",
         estimatedSeconds: 20,
 
         tags: ["history", "homes"]
@@ -364,13 +336,11 @@ export const stoneAge: SkillContent = {
             "It built houses."
         ],
 
-        answer: 0,
-
         explanation:
             "Fire made life safer and food easier to eat.",
 
         difficulty: 2,
-
+        correctAnswer: "It gave warmth, light and cooked food.",
         estimatedSeconds: 20,
 
         tags: ["history", "fire"]
@@ -388,13 +358,11 @@ export const stoneAge: SkillContent = {
             "Use a laptop"
         ],
 
-        answer: 0,
-
         explanation:
             "Children often helped their families gather food and learn important skills.",
 
         difficulty: 2,
-
+        correctAnswer: "Help gather food",
         estimatedSeconds: 20,
 
         tags: ["history", "daily-life"]
@@ -412,13 +380,11 @@ export const stoneAge: SkillContent = {
             "They are magical."
         ],
 
-        answer: 0,
-
         explanation:
             "Tools provide clues about everyday life in the past.",
 
         difficulty: 2,
-
+        correctAnswer: "They help us understand how people lived.",
         estimatedSeconds: 20,
 
         tags: ["history", "evidence"]
@@ -436,13 +402,11 @@ export const stoneAge: SkillContent = {
             "They made computers."
         ],
 
-        answer: 0,
-
         explanation:
             "Fire was one of the biggest improvements in Stone Age life.",
 
         difficulty: 2,
-
+        correctAnswer: "They could cook food and stay warm.",
         estimatedSeconds: 20,
 
         tags: ["history", "fire"]
@@ -460,13 +424,11 @@ export const stoneAge: SkillContent = {
             "Mobile phone"
         ],
 
-        answer: 0,
-
         explanation:
             "Stone axes were important tools used for hunting and building.",
 
         difficulty: 2,
-
+        correctAnswer: "Stone axe",
         estimatedSeconds: 20,
 
         tags: ["history", "tools"]
@@ -484,13 +446,11 @@ export const stoneAge: SkillContent = {
             "People bought food from supermarkets."
         ],
 
-        answer: 0,
-
         explanation:
             "Stone Age people relied on nature and simple tools to survive.",
 
         difficulty: 2,
-
+        correctAnswer: "People used stone tools, hunted, gathered food and lived without modern technology.",
         estimatedSeconds: 20,
 
         tags: ["history", "stone-age", "prehistory"]

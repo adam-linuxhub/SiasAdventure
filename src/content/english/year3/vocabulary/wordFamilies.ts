@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const wordFamilies: SkillContent = {
 
@@ -28,13 +28,11 @@ export const wordFamilies: SkillContent = {
             "chair"
         ],
 
-        answer: 0,
-
         explanation:
             "'Help' and 'helper' share the same root word.",
 
         difficulty: 1,
-
+        correctAnswer: "helper",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -52,13 +50,11 @@ export const wordFamilies: SkillContent = {
             "read"
         ],
 
-        answer: 0,
-
         explanation:
             "'Play' and 'player' come from the same root word.",
 
         difficulty: 1,
-
+        correctAnswer: "player",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -76,13 +72,11 @@ export const wordFamilies: SkillContent = {
             "slow"
         ],
 
-        answer: 0,
-
         explanation:
             "'Care' is the root word of 'careful'.",
 
         difficulty: 1,
-
+        correctAnswer: "careful",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -100,13 +94,11 @@ export const wordFamilies: SkillContent = {
             "learn"
         ],
 
-        answer: 0,
-
         explanation:
             "'Teacher' comes from the root word 'teach'.",
 
         difficulty: 1,
-
+        correctAnswer: "teacher",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -124,13 +116,11 @@ export const wordFamilies: SkillContent = {
             "draw"
         ],
 
-        answer: 0,
-
         explanation:
             "'Paint' and 'painter' belong to the same word family.",
 
         difficulty: 1,
-
+        correctAnswer: "painter",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -148,13 +138,11 @@ export const wordFamilies: SkillContent = {
             "library"
         ],
 
-        answer: 0,
-
         explanation:
             "'Reader' is formed from the root word 'read'.",
 
         difficulty: 1,
-
+        correctAnswer: "reader",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -172,13 +160,11 @@ export const wordFamilies: SkillContent = {
             "fully"
         ],
 
-        answer: 0,
-
         explanation:
             "'Helpful' is made from the root word 'help' and the suffix '-ful'.",
 
         difficulty: 1,
-
+        correctAnswer: "help",
         estimatedSeconds: 15,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -196,13 +182,11 @@ export const wordFamilies: SkillContent = {
             "The same ending"
         ],
 
-        answer: 0,
-
         explanation:
             "Words in a word family all come from the same root word.",
 
         difficulty: 1,
-
+        correctAnswer: "The same root word",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -220,13 +204,11 @@ export const wordFamilies: SkillContent = {
             "field"
         ],
 
-        answer: 0,
-
         explanation:
             "'Farmer' comes from the root word 'farm'.",
 
         difficulty: 1,
-
+        correctAnswer: "farmer",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -244,13 +226,11 @@ export const wordFamilies: SkillContent = {
             "gentle"
         ],
 
-        answer: 0,
-
         explanation:
             "'Kindness' is formed from the root word 'kind'.",
 
         difficulty: 1,
-
+        correctAnswer: "kindness",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -268,13 +248,11 @@ export const wordFamilies: SkillContent = {
             "game"
         ],
 
-        answer: 3,
-
         explanation:
             "'Game' is related in meaning but does not share the root word 'play'.",
 
         difficulty: 2,
-
+        correctAnswer: "game",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -292,13 +270,11 @@ export const wordFamilies: SkillContent = {
             "All of these"
         ],
 
-        answer: 3,
-
         explanation:
             "'Care', 'careful', 'carefully' and 'careless' all share the same root word.",
 
         difficulty: 2,
-
+        correctAnswer: "All of these",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -316,13 +292,11 @@ export const wordFamilies: SkillContent = {
             "All of these"
         ],
 
-        answer: 3,
-
         explanation:
             "All of these words belong to the 'help' word family because they share the same root.",
 
         difficulty: 2,
-
+        correctAnswer: "All of these",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -340,13 +314,11 @@ export const wordFamilies: SkillContent = {
             "All of these"
         ],
 
-        answer: 3,
-
         explanation:
             "All these words are part of the 'teach' word family.",
 
         difficulty: 2,
-
+        correctAnswer: "All of these",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -364,13 +336,11 @@ export const wordFamilies: SkillContent = {
             "carely"
         ],
 
-        answer: 0,
-
         explanation:
             "The root word is 'care'. The suffixes '-ful' and '-ly' have been added.",
 
         difficulty: 2,
-
+        correctAnswer: "care",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -388,13 +358,11 @@ export const wordFamilies: SkillContent = {
             "story"
         ],
 
-        answer: 0,
-
         explanation:
             "'Reader' comes from the root word 'read'.",
 
         difficulty: 2,
-
+        correctAnswer: "read",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -412,13 +380,11 @@ export const wordFamilies: SkillContent = {
             "They all begin with the same letter"
         ],
 
-        answer: 0,
-
         explanation:
             "Words in a word family share the same root, so they often look and sound similar.",
 
         difficulty: 2,
-
+        correctAnswer: "They share the same root word",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -436,13 +402,11 @@ export const wordFamilies: SkillContent = {
             "run, chair, happy, pencil"
         ],
 
-        answer: 0,
-
         explanation:
             "All four words are built from the root word 'kind'.",
 
         difficulty: 2,
-
+        correctAnswer: "kind, kindly, kindness, unkind",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -460,13 +424,11 @@ export const wordFamilies: SkillContent = {
             "match"
         ],
 
-        answer: 0,
-
         explanation:
             "'Playground' contains the root word 'play'.",
 
         difficulty: 2,
-
+        correctAnswer: "playground",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]
@@ -484,13 +446,11 @@ export const wordFamilies: SkillContent = {
             "It helps us remember punctuation."
         ],
 
-        answer: 0,
-
         explanation:
             "Knowing a root word helps you recognise, understand and spell many related words.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps us understand and spell related words.",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "word-families"]

@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const humansAndMountains: SkillContent = {
 
@@ -29,13 +29,11 @@ export const humansAndMountains: SkillContent = {
             "Because there are no natural resources"
         ],
 
-        answer: 0,
-
         explanation:
             "People live in mountains because they can use the land and resources available.",
 
         difficulty: 1,
-
+        correctAnswer: "They can use the land for homes, farming and work",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "humans"]
@@ -54,13 +52,11 @@ export const humansAndMountains: SkillContent = {
             "Plants cannot grow anywhere"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountain environments can make travel and building more difficult.",
 
         difficulty: 1,
-
+        correctAnswer: "Steep slopes, cold weather and difficult transport",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -79,13 +75,11 @@ export const humansAndMountains: SkillContent = {
             "By travelling underground"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountain transport often needs to adapt to steep and uneven land.",
 
         difficulty: 1,
-
+        correctAnswer: "Using roads, paths and sometimes cable cars",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "transport"]
@@ -104,13 +98,11 @@ export const humansAndMountains: SkillContent = {
             "Mountains are flat"
         ],
 
-        answer: 0,
-
         explanation:
             "Steep slopes and difficult terrain make construction harder.",
 
         difficulty: 1,
-
+        correctAnswer: "The land is steep and uneven",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -129,13 +121,11 @@ export const humansAndMountains: SkillContent = {
             "Creating rivers"
         ],
 
-        answer: 0,
-
         explanation:
             "Some communities farm using land available in mountain regions.",
 
         difficulty: 1,
-
+        correctAnswer: "Growing crops or keeping animals in mountain areas",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "farming"]
@@ -154,13 +144,11 @@ export const humansAndMountains: SkillContent = {
             "To remove soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Terraces help farmers grow crops on steep slopes.",
 
         difficulty: 2,
-
+        correctAnswer: "To create flatter areas for growing crops",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "farming"]
@@ -179,13 +167,11 @@ export const humansAndMountains: SkillContent = {
             "To avoid nature"
         ],
 
-        answer: 0,
-
         explanation:
             "Tourism is an important activity in many mountain areas.",
 
         difficulty: 1,
-
+        correctAnswer: "For activities such as walking, climbing and skiing",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "tourism"]
@@ -204,13 +190,11 @@ export const humansAndMountains: SkillContent = {
             "Moving rocks"
         ],
 
-        answer: 0,
-
         explanation:
             "Tourism involves people travelling for leisure or experiences.",
 
         difficulty: 1,
-
+        correctAnswer: "People travelling to visit places",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "tourism"]
@@ -229,13 +213,11 @@ export const humansAndMountains: SkillContent = {
             "It prevents visitors"
         ],
 
-        answer: 0,
-
         explanation:
             "Tourism can support local businesses and jobs.",
 
         difficulty: 2,
-
+        correctAnswer: "It can provide jobs and income",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "tourism"]
@@ -254,13 +236,11 @@ export const humansAndMountains: SkillContent = {
             "Rivers disappearing instantly"
         ],
 
-        answer: 0,
-
         explanation:
             "Large numbers of visitors can harm fragile mountain environments.",
 
         difficulty: 2,
-
+        correctAnswer: "Damage to the environment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -279,13 +259,11 @@ export const humansAndMountains: SkillContent = {
             "To prevent weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountain environments contain important ecosystems.",
 
         difficulty: 1,
-
+        correctAnswer: "To protect plants, animals and landscapes",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -304,13 +282,11 @@ export const humansAndMountains: SkillContent = {
             "By removing all plants"
         ],
 
-        answer: 0,
-
         explanation:
             "Responsible behaviour helps protect mountain environments.",
 
         difficulty: 1,
-
+        correctAnswer: "By reducing litter and caring for nature",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -329,13 +305,11 @@ export const humansAndMountains: SkillContent = {
             "They only live in cities"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountain species often have adaptations for cold and steep environments.",
 
         difficulty: 2,
-
+        correctAnswer: "Many are adapted to mountain conditions",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "habitats"]
@@ -354,13 +328,11 @@ export const humansAndMountains: SkillContent = {
             "No resources"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains provide many natural resources.",
 
         difficulty: 2,
-
+        correctAnswer: "Water, minerals and energy",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "resources"]
@@ -379,13 +351,11 @@ export const humansAndMountains: SkillContent = {
             "Because transport is always easy"
         ],
 
-        answer: 0,
-
         explanation:
             "People adapt their homes, farming and transport to mountain environments.",
 
         difficulty: 2,
-
+        correctAnswer: "Because mountain conditions are different from lowland areas",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -404,13 +374,11 @@ export const humansAndMountains: SkillContent = {
             "Changing mountains"
         ],
 
-        answer: 0,
-
         explanation:
             "Conservation means protecting natural environments.",
 
         difficulty: 2,
-
+        correctAnswer: "Protecting and caring for the environment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -429,13 +397,11 @@ export const humansAndMountains: SkillContent = {
             "They prevent all activity"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains are valuable natural environments.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide resources, habitats and places to visit",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -454,13 +420,11 @@ export const humansAndMountains: SkillContent = {
             "Growing tropical forests"
         ],
 
-        answer: 0,
-
         explanation:
             "Snowy mountains are popular for skiing and other activities.",
 
         difficulty: 1,
-
+        correctAnswer: "Skiing",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -479,13 +443,11 @@ export const humansAndMountains: SkillContent = {
             "They are not natural"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountain ecosystems can be sensitive to human impacts.",
 
         difficulty: 2,
-
+        correctAnswer: "Changes can damage ecosystems that recover slowly",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -504,13 +466,11 @@ export const humansAndMountains: SkillContent = {
             "Humans never affect mountains"
         ],
 
-        answer: 0,
-
         explanation:
             "People depend on mountains while needing to protect them.",
 
         difficulty: 2,
-
+        correctAnswer: "People live, work and visit mountains while protecting their environments",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "mountains"]

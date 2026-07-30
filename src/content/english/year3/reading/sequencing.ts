@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const sequencing: SkillContent = {
 
@@ -29,13 +29,11 @@ export const sequencing: SkillContent = {
             "Mia arrived at school."
         ],
 
-        answer: 0,
-
         explanation:
             "Putting on her coat happened before leaving the house.",
 
         difficulty: 1,
-
+        correctAnswer: "Mia put on her coat.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -54,13 +52,11 @@ export const sequencing: SkillContent = {
             "Tom removed the plant."
         ],
 
-        answer: 0,
-
         explanation:
             "The word 'Next' tells us what happened after planting the seed.",
 
         difficulty: 1,
-
+        correctAnswer: "Tom watered the seed.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -79,13 +75,11 @@ export const sequencing: SkillContent = {
             "Last"
         ],
 
-        answer: 0,
-
         explanation:
             "'First' introduces the beginning of a sequence.",
 
         difficulty: 1,
-
+        correctAnswer: "First",
         estimatedSeconds: 15,
 
         tags: ["english", "reading", "sequencing"]
@@ -104,13 +98,11 @@ export const sequencing: SkillContent = {
             "First"
         ],
 
-        answer: 0,
-
         explanation:
             "'Finally' usually introduces the last event.",
 
         difficulty: 1,
-
+        correctAnswer: "Finally",
         estimatedSeconds: 15,
 
         tags: ["english", "reading", "sequencing"]
@@ -129,13 +121,11 @@ export const sequencing: SkillContent = {
             "Wake up → brush teeth → eat breakfast"
         ],
 
-        answer: 0,
-
         explanation:
             "Usually Jake wakes up before eating breakfast and brushing his teeth.",
 
         difficulty: 1,
-
+        correctAnswer: "Wake up → eat breakfast → brush teeth",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -154,13 +144,11 @@ export const sequencing: SkillContent = {
             "Learning spellings"
         ],
 
-        answer: 0,
-
         explanation:
             "Sequencing means arranging events in the order they happen.",
 
         difficulty: 1,
-
+        correctAnswer: "Putting events in the correct order",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -179,13 +167,11 @@ export const sequencing: SkillContent = {
             "Ella bought a cake."
         ],
 
-        answer: 0,
-
         explanation:
             "'Finally' shows the last event.",
 
         difficulty: 1,
-
+        correctAnswer: "Ella ate a slice.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -204,13 +190,11 @@ export const sequencing: SkillContent = {
             "Because"
         ],
 
-        answer: 0,
-
         explanation:
             "'Next' and 'then' both show what happens afterwards.",
 
         difficulty: 1,
-
+        correctAnswer: "Next",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -229,13 +213,11 @@ export const sequencing: SkillContent = {
             "Sam went back to sleep."
         ],
 
-        answer: 0,
-
         explanation:
             "Going downstairs happened after waking up.",
 
         difficulty: 1,
-
+        correctAnswer: "Sam went downstairs.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -254,13 +236,11 @@ export const sequencing: SkillContent = {
             "It helps us spell every word."
         ],
 
-        answer: 0,
-
         explanation:
             "Knowing the order of events helps us understand stories and instructions.",
 
         difficulty: 1,
-
+        correctAnswer: "It helps us understand what happened and when.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -279,13 +259,11 @@ export const sequencing: SkillContent = {
             "She washed the bowl."
         ],
 
-        answer: 0,
-
         explanation:
             "'Then' tells us mixing happened after adding eggs.",
 
         difficulty: 2,
-
+        correctAnswer: "She mixed everything together.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "sequencing"]
@@ -304,13 +282,11 @@ export const sequencing: SkillContent = {
             "B → A → C"
         ],
 
-        answer: 0,
-
         explanation:
             "A seed must be planted, watered and then it can grow.",
 
         difficulty: 2,
-
+        correctAnswer: "B → C → A",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "sequencing"]
@@ -329,13 +305,11 @@ export const sequencing: SkillContent = {
             "Went shopping."
         ],
 
-        answer: 0,
-
         explanation:
             "'After school' and 'later' show the order of events.",
 
         difficulty: 2,
-
+        correctAnswer: "Finished his homework.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "sequencing"]
@@ -354,13 +328,11 @@ export const sequencing: SkillContent = {
             "Then"
         ],
 
-        answer: 0,
-
         explanation:
             "'Before' tells us an event happened earlier.",
 
         difficulty: 2,
-
+        correctAnswer: "Before",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -379,13 +351,11 @@ export const sequencing: SkillContent = {
             "The fox went swimming."
         ],
 
-        answer: 0,
-
         explanation:
             "The middle event happens between waking up and returning home.",
 
         difficulty: 2,
-
+        correctAnswer: "The fox searched for food.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "sequencing"]
@@ -404,13 +374,11 @@ export const sequencing: SkillContent = {
             "Beginning"
         ],
 
-        answer: 0,
-
         explanation:
             "'Then' tells us what happens after something else.",
 
         difficulty: 2,
-
+        correctAnswer: "Then",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -429,13 +397,11 @@ export const sequencing: SkillContent = {
             "They cleaned the garden."
         ],
 
-        answer: 0,
-
         explanation:
             "'First' tells us what happened before the decoration.",
 
         difficulty: 2,
-
+        correctAnswer: "They built the den.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "sequencing"]
@@ -454,13 +420,11 @@ export const sequencing: SkillContent = {
             "To change the setting"
         ],
 
-        answer: 0,
-
         explanation:
             "Sequencing words guide the reader through the order of events.",
 
         difficulty: 2,
-
+        correctAnswer: "To show the order of events",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "sequencing"]
@@ -479,13 +443,11 @@ export const sequencing: SkillContent = {
             "The family went shopping."
         ],
 
-        answer: 0,
-
         explanation:
             "Cooking dinner happened before washing hands and eating.",
 
         difficulty: 2,
-
+        correctAnswer: "Mum cooked dinner.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "sequencing"]
@@ -504,13 +466,11 @@ export const sequencing: SkillContent = {
             "The number of characters"
         ],
 
-        answer: 0,
-
         explanation:
             "Time words and events help readers put a story in order.",
 
         difficulty: 2,
-
+        correctAnswer: "Clues that show when events happen",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "sequencing"]

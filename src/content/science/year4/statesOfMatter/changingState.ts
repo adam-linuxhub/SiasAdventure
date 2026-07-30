@@ -28,13 +28,11 @@ export const changingState: SkillContent = {
             "Condensing"
         ],
 
-        answer: 0,
-
         explanation:
             "Melting happens when a solid is heated enough to become a liquid.",
 
         difficulty: 1,
-
+        correctAnswer: "Melting",
         estimatedSeconds: 15,
 
         tags: ["science", "states-of-matter", "melting"]
@@ -52,13 +50,11 @@ export const changingState: SkillContent = {
             "Condensing"
         ],
 
-        answer: 0,
-
         explanation:
             "Freezing happens when a liquid is cooled enough to become a solid.",
 
         difficulty: 1,
-
+        correctAnswer: "Freezing",
         estimatedSeconds: 15,
 
         tags: ["science", "states-of-matter", "freezing"]
@@ -76,13 +72,11 @@ export const changingState: SkillContent = {
             "Evaporating"
         ],
 
-        answer: 0,
-
         explanation:
             "Ice melts when it is warmed.",
 
         difficulty: 1,
-
+        correctAnswer: "Melting",
         estimatedSeconds: 15,
 
         tags: ["science", "melting"]
@@ -100,13 +94,11 @@ export const changingState: SkillContent = {
             "Condensing"
         ],
 
-        answer: 0,
-
         explanation:
             "Water freezes when it becomes cold enough.",
 
         difficulty: 1,
-
+        correctAnswer: "Freezing",
         estimatedSeconds: 15,
 
         tags: ["science", "freezing"]
@@ -124,13 +116,11 @@ export const changingState: SkillContent = {
             "It becomes ice."
         ],
 
-        answer: 0,
-
         explanation:
             "Boiling changes liquid water into water vapour, which is a gas.",
 
         difficulty: 1,
-
+        correctAnswer: "It changes into a gas.",
         estimatedSeconds: 15,
 
         tags: ["science", "boiling"]
@@ -148,13 +138,11 @@ export const changingState: SkillContent = {
             "A rock"
         ],
 
-        answer: 0,
-
         explanation:
             "Water vapour is the gaseous form of water.",
 
         difficulty: 1,
-
+        correctAnswer: "A gas",
         estimatedSeconds: 15,
 
         tags: ["science", "gases"]
@@ -172,13 +160,11 @@ export const changingState: SkillContent = {
             "Cooling"
         ],
 
-        answer: 0,
-
         explanation:
             "Heating gives enough energy for a solid to melt.",
 
         difficulty: 1,
-
+        correctAnswer: "Melting",
         estimatedSeconds: 15,
 
         tags: ["science", "heating"]
@@ -196,13 +182,11 @@ export const changingState: SkillContent = {
             "Evaporating"
         ],
 
-        answer: 0,
-
         explanation:
             "Cooling removes heat, allowing liquids to freeze.",
 
         difficulty: 1,
-
+        correctAnswer: "Freezing",
         estimatedSeconds: 20,
 
         tags: ["science", "cooling"]
@@ -220,13 +204,11 @@ export const changingState: SkillContent = {
             "It boils."
         ],
 
-        answer: 0,
-
         explanation:
             "Cooling changes melted chocolate back into a solid.",
 
         difficulty: 1,
-
+        correctAnswer: "It becomes solid again.",
         estimatedSeconds: 20,
 
         tags: ["science", "changing-state"]
@@ -244,13 +226,11 @@ export const changingState: SkillContent = {
             "Only gases change state."
         ],
 
-        answer: 0,
-
         explanation:
             "Heating and cooling cause changes of state.",
 
         difficulty: 1,
-
+        correctAnswer: "Heating and cooling can change the state of matter.",
         estimatedSeconds: 20,
 
         tags: ["science", "states-of-matter"]
@@ -268,13 +248,11 @@ export const changingState: SkillContent = {
             "It turns into air."
         ],
 
-        answer: 0,
-
         explanation:
             "Heat from the surroundings causes the ice to melt.",
 
         difficulty: 2,
-
+        correctAnswer: "It gains heat from its surroundings.",
         estimatedSeconds: 20,
 
         tags: ["science", "melting"]
@@ -292,13 +270,11 @@ export const changingState: SkillContent = {
             "It becomes heavier."
         ],
 
-        answer: 0,
-
         explanation:
             "Cooling removes heat until the water freezes.",
 
         difficulty: 2,
-
+        correctAnswer: "It loses heat.",
         estimatedSeconds: 20,
 
         tags: ["science", "freezing"]
@@ -316,13 +292,11 @@ export const changingState: SkillContent = {
             "Ice → Water vapour → Ice"
         ],
 
-        answer: 0,
-
         explanation:
             "Heating changes ice to water, then water to water vapour.",
 
         difficulty: 2,
-
+        correctAnswer: "Ice → Water → Water vapour",
         estimatedSeconds: 20,
 
         tags: ["science", "changing-state"]
@@ -340,13 +314,11 @@ export const changingState: SkillContent = {
             "It becomes a solid without becoming a liquid."
         ],
 
-        answer: 0,
-
         explanation:
             "Condensation changes a gas back into a liquid.",
 
         difficulty: 2,
-
+        correctAnswer: "It condenses into liquid water.",
         estimatedSeconds: 20,
 
         tags: ["science", "condensation"]
@@ -364,13 +336,11 @@ export const changingState: SkillContent = {
             "Darkness"
         ],
 
-        answer: 0,
-
         explanation:
             "Heat changes solid butter into a liquid.",
 
         difficulty: 2,
-
+        correctAnswer: "Heating",
         estimatedSeconds: 20,
 
         tags: ["science", "melting"]
@@ -388,13 +358,11 @@ export const changingState: SkillContent = {
             "Cooling"
         ],
 
-        answer: 0,
-
         explanation:
             "Boiling changes a liquid into a gas.",
 
         difficulty: 2,
-
+        correctAnswer: "Boiling",
         estimatedSeconds: 20,
 
         tags: ["science", "boiling"]
@@ -412,13 +380,11 @@ export const changingState: SkillContent = {
             "It condenses."
         ],
 
-        answer: 0,
-
         explanation:
             "Cooling changes the liquid back into a solid.",
 
         difficulty: 2,
-
+        correctAnswer: "It loses heat and freezes.",
         estimatedSeconds: 20,
 
         tags: ["science", "freezing"]
@@ -436,13 +402,11 @@ export const changingState: SkillContent = {
             "A liquid changing into a solid"
         ],
 
-        answer: 0,
-
         explanation:
             "Condensation happens when a gas cools into a liquid.",
 
         difficulty: 2,
-
+        correctAnswer: "A gas changing into a liquid",
         estimatedSeconds: 20,
 
         tags: ["science", "condensation"]
@@ -460,13 +424,11 @@ export const changingState: SkillContent = {
             "Condensation"
         ],
 
-        answer: 0,
-
         explanation:
             "Evaporation changes liquid water into water vapour.",
 
         difficulty: 2,
-
+        correctAnswer: "Evaporation",
         estimatedSeconds: 20,
 
         tags: ["science", "evaporation"]
@@ -484,13 +446,11 @@ export const changingState: SkillContent = {
             "Changing state creates new materials."
         ],
 
-        answer: 0,
-
         explanation:
             "Heating and cooling change the state of a material without creating a new substance.",
 
         difficulty: 2,
-
+        correctAnswer: "Heating and cooling can change matter between solids, liquids and gases.",
         estimatedSeconds: 20,
 
         tags: ["science", "states-of-matter", "changing-state"]

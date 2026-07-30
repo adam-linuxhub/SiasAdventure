@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const romanInvasion: SkillContent = {
 
@@ -29,13 +29,11 @@ export const romanInvasion: SkillContent = {
             "The Normans"
         ],
 
-        answer: 0,
-
         explanation:
             "The Roman invasion of Britain began in AD 43 under Emperor Claudius.",
 
         difficulty: 1,
-
+        correctAnswer: "The Romans",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -54,13 +52,11 @@ export const romanInvasion: SkillContent = {
             "Alexander the Great"
         ],
 
-        answer: 0,
-
         explanation:
             "Emperor Claudius ordered the successful invasion of Britain in AD 43.",
 
         difficulty: 1,
-
+        correctAnswer: "Emperor Claudius",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -79,13 +75,11 @@ export const romanInvasion: SkillContent = {
             "2020"
         ],
 
-        answer: 0,
-
         explanation:
             "The Roman conquest of Britain began in AD 43.",
 
         difficulty: 1,
-
+        correctAnswer: "AD 43",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -104,13 +98,11 @@ export const romanInvasion: SkillContent = {
             "William the Conqueror"
         ],
 
-        answer: 0,
-
         explanation:
             "Julius Caesar attempted invasions of Britain in 55 BC and 54 BC.",
 
         difficulty: 1,
-
+        correctAnswer: "Julius Caesar",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -129,13 +121,11 @@ export const romanInvasion: SkillContent = {
             "To learn English"
         ],
 
-        answer: 0,
-
         explanation:
             "The Romans wanted to expand their empire and gain resources.",
 
         difficulty: 1,
-
+        correctAnswer: "For land, resources and power",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -154,13 +144,11 @@ export const romanInvasion: SkillContent = {
             "A farming tool"
         ],
 
-        answer: 0,
-
         explanation:
             "The Roman Empire controlled many lands across Europe and beyond.",
 
         difficulty: 1,
-
+        correctAnswer: "A large area ruled by Rome",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -179,13 +167,11 @@ export const romanInvasion: SkillContent = {
             "The Normans"
         ],
 
-        answer: 0,
-
         explanation:
             "Celtic tribes lived in Britain before the Romans arrived.",
 
         difficulty: 1,
-
+        correctAnswer: "The Celts",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -204,13 +190,11 @@ export const romanInvasion: SkillContent = {
             "They built Roman roads"
         ],
 
-        answer: 0,
-
         explanation:
             "Some Celtic tribes resisted Roman control.",
 
         difficulty: 1,
-
+        correctAnswer: "They fought against the Roman army",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -229,13 +213,11 @@ export const romanInvasion: SkillContent = {
             "All people left Britain"
         ],
 
-        answer: 0,
-
         explanation:
             "Britain became a province of the Roman Empire.",
 
         difficulty: 1,
-
+        correctAnswer: "Britain became part of the Roman Empire",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -254,13 +236,11 @@ export const romanInvasion: SkillContent = {
             "It used modern technology"
         ],
 
-        answer: 0,
-
         explanation:
             "The Roman army was disciplined and highly organised.",
 
         difficulty: 1,
-
+        correctAnswer: "It was well trained and organised",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -279,13 +259,11 @@ export const romanInvasion: SkillContent = {
             "Elizabeth"
         ],
 
-        answer: 0,
-
         explanation:
             "Boudica led a rebellion against Roman rule in Britain.",
 
         difficulty: 2,
-
+        correctAnswer: "Boudica",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -304,13 +282,11 @@ export const romanInvasion: SkillContent = {
             "She wanted to leave Britain"
         ],
 
-        answer: 0,
-
         explanation:
             "Boudica led a rebellion against Roman rule.",
 
         difficulty: 2,
-
+        correctAnswer: "She opposed Roman treatment and control",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "roman-britain"]
@@ -329,13 +305,11 @@ export const romanInvasion: SkillContent = {
             "Growing crops"
         ],
 
-        answer: 0,
-
         explanation:
             "An invasion happens when an army enters another land to conquer it.",
 
         difficulty: 2,
-
+        correctAnswer: "Entering a country with an army to take control",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -354,13 +328,11 @@ export const romanInvasion: SkillContent = {
             "To avoid travelling"
         ],
 
-        answer: 0,
-
         explanation:
             "Forts helped the Romans control conquered areas.",
 
         difficulty: 2,
-
+        correctAnswer: "To control and defend areas",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -379,13 +351,11 @@ export const romanInvasion: SkillContent = {
             "The Romans built modern cities"
         ],
 
-        answer: 0,
-
         explanation:
             "The Roman invasion brought Britain into the Roman Empire.",
 
         difficulty: 2,
-
+        correctAnswer: "The Romans took control of much of Britain",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -404,13 +374,11 @@ export const romanInvasion: SkillContent = {
             "To change history"
         ],
 
-        answer: 0,
-
         explanation:
             "Studying invasions helps us understand changes in societies.",
 
         difficulty: 2,
-
+        correctAnswer: "To understand how Britain changed in the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -429,13 +397,11 @@ export const romanInvasion: SkillContent = {
             "Air travel"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman rule changed Britain through new technology and culture.",
 
         difficulty: 2,
-
+        correctAnswer: "New buildings, roads and ways of life",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -454,13 +420,11 @@ export const romanInvasion: SkillContent = {
             "A farming method"
         ],
 
-        answer: 0,
-
         explanation:
             "An empire is made up of territories ruled by a powerful leader or state.",
 
         difficulty: 2,
-
+        correctAnswer: "A group of lands controlled by one ruler",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain"]
@@ -479,13 +443,11 @@ export const romanInvasion: SkillContent = {
             "Alfred"
         ],
 
-        answer: 0,
-
         explanation:
             "Claudius was the Roman emperor who ordered the invasion of Britain.",
 
         difficulty: 1,
-
+        correctAnswer: "Claudius",
         estimatedSeconds: 15,
 
         tags: ["history", "year3", "roman-britain"]
@@ -504,13 +466,11 @@ export const romanInvasion: SkillContent = {
             "The Romans had no effect on Britain"
         ],
 
-        answer: 0,
-
         explanation:
             "The Roman conquest changed Britain for hundreds of years.",
 
         difficulty: 2,
-
+        correctAnswer: "Rome conquered Britain and made it part of its empire",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "roman-britain"]

@@ -28,13 +28,11 @@ export const livingOrDead: SkillContent = {
             "A spoon"
         ],
 
-        answer: 0,
-
         explanation:
             "A rabbit is alive because it grows, breathes and reproduces.",
 
         difficulty: 1,
-
+        correctAnswer: "A rabbit",
         estimatedSeconds: 15,
 
         tags: ["science", "living-things"]
@@ -52,13 +50,11 @@ export const livingOrDead: SkillContent = {
             "A feather"
         ],
 
-        answer: 0,
-
         explanation:
             "A brick has never been alive. The other items came from living things.",
 
         difficulty: 1,
-
+        correctAnswer: "A brick",
         estimatedSeconds: 15,
 
         tags: ["science", "living-things"]
@@ -76,13 +72,11 @@ export const livingOrDead: SkillContent = {
             "A bird"
         ],
 
-        answer: 0,
-
         explanation:
             "A fallen leaf is no longer living but once was alive.",
 
         difficulty: 1,
-
+        correctAnswer: "A fallen leaf",
         estimatedSeconds: 15,
 
         tags: ["science", "living-things"]
@@ -100,13 +94,11 @@ export const livingOrDead: SkillContent = {
             "A coin"
         ],
 
-        answer: 0,
-
         explanation:
             "Growing is one of the characteristics of living things.",
 
         difficulty: 1,
-
+        correctAnswer: "A seedling",
         estimatedSeconds: 15,
 
         tags: ["science", "growth"]
@@ -124,13 +116,11 @@ export const livingOrDead: SkillContent = {
             "It is heavy"
         ],
 
-        answer: 0,
-
         explanation:
             "Living things grow during their lives.",
 
         difficulty: 1,
-
+        correctAnswer: "It grows",
         estimatedSeconds: 15,
 
         tags: ["science", "living-things"]
@@ -148,13 +138,11 @@ export const livingOrDead: SkillContent = {
             "A football"
         ],
 
-        answer: 0,
-
         explanation:
             "Trees are living plants.",
 
         difficulty: 1,
-
+        correctAnswer: "An oak tree",
         estimatedSeconds: 15,
 
         tags: ["science", "plants"]
@@ -172,13 +160,11 @@ export const livingOrDead: SkillContent = {
             "An egg shell"
         ],
 
-        answer: 0,
-
         explanation:
             "Plastic rulers are made from manufactured materials.",
 
         difficulty: 1,
-
+        correctAnswer: "A plastic ruler",
         estimatedSeconds: 15,
 
         tags: ["science", "living-things"]
@@ -196,13 +182,11 @@ export const livingOrDead: SkillContent = {
             "Glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Living things need food or nutrients to survive.",
 
         difficulty: 1,
-
+        correctAnswer: "Food or nutrients",
         estimatedSeconds: 20,
 
         tags: ["science", "living-things"]
@@ -220,13 +204,11 @@ export const livingOrDead: SkillContent = {
             "A book"
         ],
 
-        answer: 0,
-
         explanation:
             "Reproduction is a characteristic of living things.",
 
         difficulty: 1,
-
+        correctAnswer: "A cat",
         estimatedSeconds: 20,
 
         tags: ["science", "living-things"]
@@ -244,13 +226,11 @@ export const livingOrDead: SkillContent = {
             "Plastic bottles breathe."
         ],
 
-        answer: 0,
-
         explanation:
             "Growing is one of the life processes.",
 
         difficulty: 1,
-
+        correctAnswer: "All living things grow.",
         estimatedSeconds: 20,
 
         tags: ["science", "living-things"]
@@ -268,13 +248,11 @@ export const livingOrDead: SkillContent = {
             "The chair breathes."
         ],
 
-        answer: 0,
-
         explanation:
             "Wood comes from trees, but the chair itself is not living.",
 
         difficulty: 2,
-
+        correctAnswer: "The chair has never been alive, but it came from something that was.",
         estimatedSeconds: 20,
 
         tags: ["science", "living-things"]
@@ -292,13 +270,11 @@ export const livingOrDead: SkillContent = {
             "It has no leaves."
         ],
 
-        answer: 0,
-
         explanation:
             "Fungi are living organisms because they carry out life processes.",
 
         difficulty: 2,
-
+        correctAnswer: "It grows and reproduces.",
         estimatedSeconds: 20,
 
         tags: ["science", "fungi"]
@@ -316,13 +292,11 @@ export const livingOrDead: SkillContent = {
             "A glass marble"
         ],
 
-        answer: 0,
-
         explanation:
             "The twig came from a living tree.",
 
         difficulty: 2,
-
+        correctAnswer: "A dry twig",
         estimatedSeconds: 20,
 
         tags: ["science", "living-things"]
@@ -340,13 +314,11 @@ export const livingOrDead: SkillContent = {
             "It is grey."
         ],
 
-        answer: 0,
-
         explanation:
             "Rocks do not grow, reproduce or need food.",
 
         difficulty: 2,
-
+        correctAnswer: "It does not carry out life processes.",
         estimatedSeconds: 20,
 
         tags: ["science", "living-things"]
@@ -364,13 +336,11 @@ export const livingOrDead: SkillContent = {
             "Brick, tree, worm"
         ],
 
-        answer: 0,
-
         explanation:
             "Every item in the first group is living.",
 
         difficulty: 2,
-
+        correctAnswer: "Dog, oak tree, butterfly",
         estimatedSeconds: 20,
 
         tags: ["science", "classification"]
@@ -388,13 +358,11 @@ export const livingOrDead: SkillContent = {
             "Shining"
         ],
 
-        answer: 0,
-
         explanation:
             "Living things reproduce to create offspring.",
 
         difficulty: 2,
-
+        correctAnswer: "Reproduction",
         estimatedSeconds: 20,
 
         tags: ["science", "living-things"]
@@ -412,13 +380,11 @@ export const livingOrDead: SkillContent = {
             "Never alive"
         ],
 
-        answer: 0,
-
         explanation:
             "The shell came from a living animal, so it is not something that has never been alive.",
 
         difficulty: 2,
-
+        correctAnswer: "Dead",
         estimatedSeconds: 20,
 
         tags: ["science", "living-things"]
@@ -436,13 +402,11 @@ export const livingOrDead: SkillContent = {
             "Its shape"
         ],
 
-        answer: 0,
-
         explanation:
             "Scientists look for life processes such as growth and reproduction.",
 
         difficulty: 2,
-
+        correctAnswer: "Whether it carries out life processes",
         estimatedSeconds: 20,
 
         tags: ["science", "working-scientifically"]
@@ -460,13 +424,11 @@ export const livingOrDead: SkillContent = {
             "Turn into a rock"
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds are living because they can germinate and grow.",
 
         difficulty: 2,
-
+        correctAnswer: "Grow into a new plant",
         estimatedSeconds: 20,
 
         tags: ["science", "plants"]
@@ -484,13 +446,11 @@ export const livingOrDead: SkillContent = {
             "Living things are always animals."
         ],
 
-        answer: 0,
-
         explanation:
             "All living things carry out life processes, whether they are plants, animals or fungi.",
 
         difficulty: 2,
-
+        correctAnswer: "Living things carry out life processes such as growing, reproducing and needing food.",
         estimatedSeconds: 20,
 
         tags: ["science", "living-things", "life-processes"]

@@ -28,13 +28,11 @@ export const pushesAndPulls: SkillContent = {
             "A heavy object"
         ],
 
-        answer: 0,
-
         explanation:
             "A force is simply a push or a pull acting on an object.",
 
         difficulty: 1,
-
+        correctAnswer: "A push or a pull",
         estimatedSeconds: 15,
 
         tags: ["science", "forces", "push", "pull"]
@@ -52,13 +50,11 @@ export const pushesAndPulls: SkillContent = {
             "Picking up a bag"
         ],
 
-        answer: 0,
-
         explanation:
             "Closing a door usually means pushing it away from you.",
 
         difficulty: 1,
-
+        correctAnswer: "Closing a door",
         estimatedSeconds: 15,
 
         tags: ["science", "forces", "push"]
@@ -76,13 +72,11 @@ export const pushesAndPulls: SkillContent = {
             "Pushing a trolley"
         ],
 
-        answer: 0,
-
         explanation:
             "You pull a drawer towards you to open it.",
 
         difficulty: 1,
-
+        correctAnswer: "Opening a drawer",
         estimatedSeconds: 15,
 
         tags: ["science", "forces", "pull"]
@@ -100,13 +94,11 @@ export const pushesAndPulls: SkillContent = {
             "Change the time"
         ],
 
-        answer: 0,
-
         explanation:
             "A force can make an object start moving.",
 
         difficulty: 1,
-
+        correctAnswer: "Make an object move",
         estimatedSeconds: 15,
 
         tags: ["science", "forces"]
@@ -124,13 +116,11 @@ export const pushesAndPulls: SkillContent = {
             "A bucket by its handle"
         ],
 
-        answer: 0,
-
         explanation:
             "A shopping trolley moves because you push it.",
 
         difficulty: 1,
-
+        correctAnswer: "A shopping trolley",
         estimatedSeconds: 15,
 
         tags: ["science", "forces", "push"]
@@ -148,13 +138,11 @@ export const pushesAndPulls: SkillContent = {
             "A toy car you are pushing"
         ],
 
-        answer: 0,
-
         explanation:
             "A wheeled suitcase is usually pulled behind you.",
 
         difficulty: 1,
-
+        correctAnswer: "A suitcase with wheels",
         estimatedSeconds: 15,
 
         tags: ["science", "forces", "pull"]
@@ -172,13 +160,11 @@ export const pushesAndPulls: SkillContent = {
             "Turn it into water"
         ],
 
-        answer: 0,
-
         explanation:
             "A force can slow down or stop a moving object.",
 
         difficulty: 1,
-
+        correctAnswer: "Stop it",
         estimatedSeconds: 15,
 
         tags: ["science", "forces"]
@@ -196,13 +182,11 @@ export const pushesAndPulls: SkillContent = {
             "Make sound disappear"
         ],
 
-        answer: 0,
-
         explanation:
             "A force can change the direction an object is moving.",
 
         difficulty: 1,
-
+        correctAnswer: "Change the direction of movement",
         estimatedSeconds: 20,
 
         tags: ["science", "forces"]
@@ -220,13 +204,11 @@ export const pushesAndPulls: SkillContent = {
             "Gravity"
         ],
 
-        answer: 0,
-
         explanation:
             "Your foot pushes the football away.",
 
         difficulty: 1,
-
+        correctAnswer: "A push",
         estimatedSeconds: 20,
 
         tags: ["science", "forces", "push"]
@@ -244,13 +226,11 @@ export const pushesAndPulls: SkillContent = {
             "Forces cannot make objects move."
         ],
 
-        answer: 0,
-
         explanation:
             "Every force is a push, a pull or a combination of both.",
 
         difficulty: 1,
-
+        correctAnswer: "Forces are pushes and pulls.",
         estimatedSeconds: 20,
 
         tags: ["science", "forces"]
@@ -268,13 +248,11 @@ export const pushesAndPulls: SkillContent = {
             "Measuring it"
         ],
 
-        answer: 0,
-
         explanation:
             "A push is a force that can make the toy car move.",
 
         difficulty: 2,
-
+        correctAnswer: "Pushing it",
         estimatedSeconds: 20,
 
         tags: ["science", "forces", "push"]
@@ -292,13 +270,11 @@ export const pushesAndPulls: SkillContent = {
             "A bigger goal"
         ],
 
-        answer: 0,
-
         explanation:
             "A force can slow down or stop a moving object.",
 
         difficulty: 2,
-
+        correctAnswer: "A force acting against it",
         estimatedSeconds: 20,
 
         tags: ["science", "forces"]
@@ -316,13 +292,11 @@ export const pushesAndPulls: SkillContent = {
             "Drawing a picture"
         ],
 
-        answer: 0,
-
         explanation:
             "When using a swing, you may push away and pull yourself back.",
 
         difficulty: 2,
-
+        correctAnswer: "Using a swing",
         estimatedSeconds: 20,
 
         tags: ["science", "forces"]
@@ -340,13 +314,11 @@ export const pushesAndPulls: SkillContent = {
             "The pedals disappear"
         ],
 
-        answer: 0,
-
         explanation:
             "Turning the handlebars applies forces that change the bicycle's direction.",
 
         difficulty: 2,
-
+        correctAnswer: "A force changes its direction",
         estimatedSeconds: 20,
 
         tags: ["science", "forces"]
@@ -364,13 +336,11 @@ export const pushesAndPulls: SkillContent = {
             "Sound"
         ],
 
-        answer: 0,
-
         explanation:
             "Most fridge doors are opened by pulling the handle.",
 
         difficulty: 2,
-
+        correctAnswer: "A pull",
         estimatedSeconds: 20,
 
         tags: ["science", "forces", "pull"]
@@ -388,13 +358,11 @@ export const pushesAndPulls: SkillContent = {
             "It changes colour"
         ],
 
-        answer: 0,
-
         explanation:
             "A stronger push usually makes the toy car move faster.",
 
         difficulty: 2,
-
+        correctAnswer: "It moves faster",
         estimatedSeconds: 20,
 
         tags: ["science", "forces", "push"]
@@ -412,13 +380,11 @@ export const pushesAndPulls: SkillContent = {
             "Closing a cupboard with your hand"
         ],
 
-        answer: 0,
-
         explanation:
             "Pulling a curtain towards you is an example of a pull.",
 
         difficulty: 2,
-
+        correctAnswer: "Pulling a curtain closed",
         estimatedSeconds: 20,
 
         tags: ["science", "forces", "pull"]
@@ -436,13 +402,11 @@ export const pushesAndPulls: SkillContent = {
             "The weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Forces can make objects speed up, slow down or change direction.",
 
         difficulty: 2,
-
+        correctAnswer: "The speed and direction of an object",
         estimatedSeconds: 20,
 
         tags: ["science", "forces"]
@@ -460,13 +424,11 @@ export const pushesAndPulls: SkillContent = {
             "Melting ice"
         ],
 
-        answer: 0,
-
         explanation:
             "Changing how hard you push a toy car is a simple investigation into forces.",
 
         difficulty: 2,
-
+        correctAnswer: "Rolling a toy car with different pushes",
         estimatedSeconds: 20,
 
         tags: ["science", "forces", "working-scientifically"]
@@ -484,13 +446,11 @@ export const pushesAndPulls: SkillContent = {
             "A force only works on heavy objects."
         ],
 
-        answer: 0,
-
         explanation:
             "Forces are pushes and pulls that can start, stop, speed up, slow down or change the direction of objects.",
 
         difficulty: 2,
-
+        correctAnswer: "A force is a push or pull that can change how an object moves.",
         estimatedSeconds: 20,
 
         tags: ["science", "forces", "push", "pull"]

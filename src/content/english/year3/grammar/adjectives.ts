@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const adjectives: SkillContent = {
 
@@ -28,13 +28,11 @@ export const adjectives: SkillContent = {
             "quickly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Happy' is an adjective because it describes a noun.",
 
         difficulty: 1,
-
+        correctAnswer: "happy",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adjectives"]
@@ -52,13 +50,11 @@ export const adjectives: SkillContent = {
             "carefully"
         ],
 
-        answer: 0,
-
         explanation:
             "'Red' describes what the car is like, making it an adjective.",
 
         difficulty: 1,
-
+        correctAnswer: "red",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adjectives"]
@@ -76,13 +72,11 @@ export const adjectives: SkillContent = {
             "slowly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Small' describes the size of something.",
 
         difficulty: 1,
-
+        correctAnswer: "small",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adjectives"]
@@ -100,13 +94,11 @@ export const adjectives: SkillContent = {
             "basket"
         ],
 
-        answer: 0,
-
         explanation:
             "'Juicy' describes the apple.",
 
         difficulty: 1,
-
+        correctAnswer: "juicy",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adjectives"]
@@ -124,13 +116,11 @@ export const adjectives: SkillContent = {
             "sleep"
         ],
 
-        answer: 0,
-
         explanation:
             "'Soft' tells us what the teddy bear feels like.",
 
         difficulty: 1,
-
+        correctAnswer: "soft",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adjectives"]
@@ -148,13 +138,11 @@ export const adjectives: SkillContent = {
             "forest"
         ],
 
-        answer: 0,
-
         explanation:
             "'Tall' describes the tree.",
 
         difficulty: 1,
-
+        correctAnswer: "tall",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adjectives"]
@@ -172,13 +160,11 @@ export const adjectives: SkillContent = {
             "outside"
         ],
 
-        answer: 0,
-
         explanation:
             "'Sunny' describes the weather.",
 
         difficulty: 1,
-
+        correctAnswer: "sunny",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "adjectives"]
@@ -196,13 +182,11 @@ export const adjectives: SkillContent = {
             "Rabbits hop."
         ],
 
-        answer: 0,
-
         explanation:
             "'Fluffy' is an adjective describing the rabbit.",
 
         difficulty: 1,
-
+        correctAnswer: "The fluffy rabbit hopped.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -220,13 +204,11 @@ export const adjectives: SkillContent = {
             "round"
         ],
 
-        answer: 0,
-
         explanation:
             "'Swim' is a verb, not an adjective.",
 
         difficulty: 1,
-
+        correctAnswer: "swim",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar"]
@@ -244,13 +226,11 @@ export const adjectives: SkillContent = {
             "hunt"
         ],
 
-        answer: 0,
-
         explanation:
             "'Brave' describes the lion.",
 
         difficulty: 1,
-
+        correctAnswer: "brave",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -268,13 +248,11 @@ export const adjectives: SkillContent = {
             "quickly, slowly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Old' and 'noisy' both describe nouns.",
 
         difficulty: 2,
-
+        correctAnswer: "old, noisy",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -292,13 +270,11 @@ export const adjectives: SkillContent = {
             "Run quickly home."
         ],
 
-        answer: 0,
-
         explanation:
             "'Small' and 'brown' both describe the dog.",
 
         difficulty: 2,
-
+        correctAnswer: "The small brown dog barked.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -316,13 +292,11 @@ export const adjectives: SkillContent = {
             "loudly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Enormous' is an adjective describing the elephant.",
 
         difficulty: 2,
-
+        correctAnswer: "enormous",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -340,13 +314,11 @@ export const adjectives: SkillContent = {
             "hold"
         ],
 
-        answer: 0,
-
         explanation:
             "'Rough' describes texture.",
 
         difficulty: 2,
-
+        correctAnswer: "rough",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -364,13 +336,11 @@ export const adjectives: SkillContent = {
             "the"
         ],
 
-        answer: 0,
-
         explanation:
             "'Shiny' describes the coin.",
 
         difficulty: 2,
-
+        correctAnswer: "shiny",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -388,13 +358,11 @@ export const adjectives: SkillContent = {
             "Fox hungry searched."
         ],
 
-        answer: 0,
-
         explanation:
             "'Hungry' correctly describes the fox.",
 
         difficulty: 2,
-
+        correctAnswer: "The hungry fox searched for food.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -412,13 +380,11 @@ export const adjectives: SkillContent = {
             "ice"
         ],
 
-        answer: 0,
-
         explanation:
             "'White' describes the colour of snow.",
 
         difficulty: 2,
-
+        correctAnswer: "white",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -436,13 +402,11 @@ export const adjectives: SkillContent = {
             "Run after the mouse."
         ],
 
-        answer: 0,
-
         explanation:
             "'Tiny' describes the size of the mouse.",
 
         difficulty: 2,
-
+        correctAnswer: "The tiny mouse hid.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -460,13 +424,11 @@ export const adjectives: SkillContent = {
             "To show questions"
         ],
 
-        answer: 0,
-
         explanation:
             "Adjectives make writing more interesting by describing people, places and things.",
 
         difficulty: 2,
-
+        correctAnswer: "To describe nouns in more detail",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]
@@ -484,13 +446,11 @@ export const adjectives: SkillContent = {
             "The wagged puppy little."
         ],
 
-        answer: 0,
-
         explanation:
             "'Friendly' and 'little' are adjectives describing the puppy.",
 
         difficulty: 2,
-
+        correctAnswer: "The friendly little puppy wagged its tail.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "adjectives"]

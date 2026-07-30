@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const suffixesLy: SkillContent = {
 
@@ -28,13 +28,11 @@ export const suffixesLy: SkillContent = {
             "A pronoun"
         ],
 
-        answer: 0,
-
         explanation:
             "Adding '-ly' often changes an adjective into an adverb that tells us how something happens.",
 
         difficulty: 1,
-
+        correctAnswer: "An adverb",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -52,13 +50,11 @@ export const suffixesLy: SkillContent = {
             "quickness"
         ],
 
-        answer: 0,
-
         explanation:
             "'Quickly' tells us how someone does something.",
 
         difficulty: 1,
-
+        correctAnswer: "quickly",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -76,13 +72,11 @@ export const suffixesLy: SkillContent = {
             "slowness"
         ],
 
-        answer: 0,
-
         explanation:
             "'Slowly' describes how an action happens.",
 
         difficulty: 1,
-
+        correctAnswer: "slowly",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -100,13 +94,11 @@ export const suffixesLy: SkillContent = {
             "carefullly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Carefully' is formed by adding '-ly' to 'careful'.",
 
         difficulty: 1,
-
+        correctAnswer: "carefully",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -124,13 +116,11 @@ export const suffixesLy: SkillContent = {
             "happiness"
         ],
 
-        answer: 0,
-
         explanation:
             "'Happily' describes doing something in a happy way.",
 
         difficulty: 1,
-
+        correctAnswer: "happily",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -148,13 +138,11 @@ export const suffixesLy: SkillContent = {
             "loudness"
         ],
 
-        answer: 0,
-
         explanation:
             "'Loudly' describes how a sound is made.",
 
         difficulty: 1,
-
+        correctAnswer: "loudly",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -172,13 +160,11 @@ export const suffixesLy: SkillContent = {
             "The rabbit ran quickness."
         ],
 
-        answer: 0,
-
         explanation:
             "'Quickly' tells us how the rabbit ran.",
 
         difficulty: 1,
-
+        correctAnswer: "The rabbit ran quickly.",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -196,13 +182,11 @@ export const suffixesLy: SkillContent = {
             "kindest"
         ],
 
-        answer: 0,
-
         explanation:
             "'Kindly' means in a kind way.",
 
         difficulty: 1,
-
+        correctAnswer: "kindly",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -220,13 +204,11 @@ export const suffixesLy: SkillContent = {
             "softest"
         ],
 
-        answer: 0,
-
         explanation:
             "'Softly' is an adverb ending in '-ly'.",
 
         difficulty: 1,
-
+        correctAnswer: "softly",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -244,13 +226,11 @@ export const suffixesLy: SkillContent = {
             "How many there are"
         ],
 
-        answer: 0,
-
         explanation:
             "Many adverbs ending in '-ly' describe how an action happens.",
 
         difficulty: 1,
-
+        correctAnswer: "How something happens",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -268,13 +248,11 @@ export const suffixesLy: SkillContent = {
             "peaceness"
         ],
 
-        answer: 0,
-
         explanation:
             "'Peacefully' tells us how the baby slept.",
 
         difficulty: 2,
-
+        correctAnswer: "peacefully",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -292,13 +270,11 @@ export const suffixesLy: SkillContent = {
             "carefulness"
         ],
 
-        answer: 0,
-
         explanation:
             "'Carefully' explains how you should listen.",
 
         difficulty: 2,
-
+        correctAnswer: "carefully",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -316,13 +292,11 @@ export const suffixesLy: SkillContent = {
             "The tortoise walked slowness."
         ],
 
-        answer: 0,
-
         explanation:
             "'Slowly' is the correct adverb.",
 
         difficulty: 2,
-
+        correctAnswer: "The tortoise walked slowly.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -340,13 +314,11 @@ export const suffixesLy: SkillContent = {
             "happier"
         ],
 
-        answer: 0,
-
         explanation:
             "'Happily' tells us how she smiled.",
 
         difficulty: 2,
-
+        correctAnswer: "happily",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -364,13 +336,11 @@ export const suffixesLy: SkillContent = {
             "The class worked quietness."
         ],
 
-        answer: 0,
-
         explanation:
             "'Quietly' describes how the class worked.",
 
         difficulty: 2,
-
+        correctAnswer: "The class worked quietly.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -388,13 +358,11 @@ export const suffixesLy: SkillContent = {
             "bravest"
         ],
 
-        answer: 0,
-
         explanation:
             "'Bravely' means in a brave way.",
 
         difficulty: 2,
-
+        correctAnswer: "bravely",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -412,13 +380,11 @@ export const suffixesLy: SkillContent = {
             "The children played happly together."
         ],
 
-        answer: 0,
-
         explanation:
             "When adding '-ly' to 'happy', the 'y' changes to 'i' to make 'happily'.",
 
         difficulty: 2,
-
+        correctAnswer: "The children played happily together.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -436,13 +402,11 @@ export const suffixesLy: SkillContent = {
             "The puppy barked loudness."
         ],
 
-        answer: 0,
-
         explanation:
             "'Loudly' describes how the puppy barked.",
 
         difficulty: 2,
-
+        correctAnswer: "The puppy barked loudly.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -460,13 +424,11 @@ export const suffixesLy: SkillContent = {
             "To join sentences"
         ],
 
-        answer: 0,
-
         explanation:
             "Many '-ly' words are adverbs that describe actions.",
 
         difficulty: 2,
-
+        correctAnswer: "To describe how actions happen",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]
@@ -484,13 +446,11 @@ export const suffixesLy: SkillContent = {
             "The birds sang beautiful and loudly."
         ],
 
-        answer: 0,
-
         explanation:
             "'Beautifully' and 'loudly' are both correctly spelled adverbs ending in '-ly'.",
 
         difficulty: 2,
-
+        correctAnswer: "The birds sang beautifully and loudly.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ly"]

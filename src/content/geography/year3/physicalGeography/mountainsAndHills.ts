@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const mountainsAndHills: SkillContent = {
 
@@ -28,13 +28,11 @@ export const mountainsAndHills: SkillContent = {
             "A beach"
         ],
 
-        answer: 0,
-
         explanation:
             "A mountain is a very high natural feature that rises above the land around it.",
 
         difficulty: 1,
-
+        correctAnswer: "A very high area of land",
         estimatedSeconds: 15,
 
         tags: ["geography", "mountains"]
@@ -52,13 +50,11 @@ export const mountainsAndHills: SkillContent = {
             "A cave"
         ],
 
-        answer: 0,
-
         explanation:
             "A hill is raised land but is usually lower and less steep than a mountain.",
 
         difficulty: 1,
-
+        correctAnswer: "An area of raised land that is lower than a mountain",
         estimatedSeconds: 15,
 
         tags: ["geography", "hills"]
@@ -76,13 +72,11 @@ export const mountainsAndHills: SkillContent = {
             "A river"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains are usually much taller than hills.",
 
         difficulty: 1,
-
+        correctAnswer: "A mountain",
         estimatedSeconds: 15,
 
         tags: ["geography", "comparison"]
@@ -100,13 +94,11 @@ export const mountainsAndHills: SkillContent = {
             "Bridge"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains are natural landforms.",
 
         difficulty: 1,
-
+        correctAnswer: "Mountain",
         estimatedSeconds: 15,
 
         tags: ["geography", "physical-geography"]
@@ -124,13 +116,11 @@ export const mountainsAndHills: SkillContent = {
             "Bank"
         ],
 
-        answer: 0,
-
         explanation:
             "The highest point of a mountain is called its peak or summit.",
 
         difficulty: 1,
-
+        correctAnswer: "Peak",
         estimatedSeconds: 15,
 
         tags: ["geography", "mountains"]
@@ -148,13 +138,11 @@ export const mountainsAndHills: SkillContent = {
             "Made by people"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains usually have steeper sides than hills.",
 
         difficulty: 1,
-
+        correctAnswer: "Steeper than hills",
         estimatedSeconds: 15,
 
         tags: ["geography", "comparison"]
@@ -172,13 +160,11 @@ export const mountainsAndHills: SkillContent = {
             "A harbour"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains are natural features often found in the countryside.",
 
         difficulty: 1,
-
+        correctAnswer: "The countryside",
         estimatedSeconds: 15,
 
         tags: ["geography", "landforms"]
@@ -196,13 +182,11 @@ export const mountainsAndHills: SkillContent = {
             "Shopping"
         ],
 
-        answer: 0,
-
         explanation:
             "Many people enjoy walking and hiking in mountain areas.",
 
         difficulty: 1,
-
+        correctAnswer: "Walking",
         estimatedSeconds: 20,
 
         tags: ["geography", "mountains"]
@@ -220,13 +204,11 @@ export const mountainsAndHills: SkillContent = {
             "Hills are rivers."
         ],
 
-        answer: 0,
-
         explanation:
             "Hills are generally lower and less steep than mountains.",
 
         difficulty: 1,
-
+        correctAnswer: "Hills are usually lower than mountains.",
         estimatedSeconds: 20,
 
         tags: ["geography", "comparison"]
@@ -244,13 +226,11 @@ export const mountainsAndHills: SkillContent = {
             "Vehicles"
         ],
 
-        answer: 0,
-
         explanation:
             "Landforms are natural features of the Earth's surface.",
 
         difficulty: 1,
-
+        correctAnswer: "Landforms",
         estimatedSeconds: 20,
 
         tags: ["geography", "landforms"]
@@ -268,13 +248,11 @@ export const mountainsAndHills: SkillContent = {
             "Mountains are underwater."
         ],
 
-        answer: 0,
-
         explanation:
             "The temperature usually becomes cooler as you go higher.",
 
         difficulty: 2,
-
+        correctAnswer: "Higher places are usually colder.",
         estimatedSeconds: 20,
 
         tags: ["geography", "weather"]
@@ -292,13 +270,11 @@ export const mountainsAndHills: SkillContent = {
             "To visit factories"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains are popular for walking, climbing and enjoying nature.",
 
         difficulty: 2,
-
+        correctAnswer: "To enjoy the scenery and outdoor activities",
         estimatedSeconds: 20,
 
         tags: ["geography", "tourism"]
@@ -316,13 +292,11 @@ export const mountainsAndHills: SkillContent = {
             "Hills are man-made."
         ],
 
-        answer: 0,
-
         explanation:
             "Hills and mountains are both raised land, but hills are generally lower.",
 
         difficulty: 2,
-
+        correctAnswer: "Hills are usually lower and less steep.",
         estimatedSeconds: 20,
 
         tags: ["geography", "comparison"]
@@ -340,13 +314,11 @@ export const mountainsAndHills: SkillContent = {
             "They stop plants from growing."
         ],
 
-        answer: 0,
-
         explanation:
             "Different animals and plants are adapted to mountain environments.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide habitats for many plants and animals.",
         estimatedSeconds: 20,
 
         tags: ["geography", "wildlife"]
@@ -364,13 +336,11 @@ export const mountainsAndHills: SkillContent = {
             "A motorway service station"
         ],
 
-        answer: 0,
-
         explanation:
             "The highest point of a mountain is called its peak.",
 
         difficulty: 2,
-
+        correctAnswer: "A peak",
         estimatedSeconds: 20,
 
         tags: ["geography", "mountains"]
@@ -388,13 +358,11 @@ export const mountainsAndHills: SkillContent = {
             "A volcano erupting"
         ],
 
-        answer: 0,
-
         explanation:
             "Hills are usually lower and less steep than mountains.",
 
         difficulty: 2,
-
+        correctAnswer: "A hill",
         estimatedSeconds: 20,
 
         tags: ["geography", "comparison"]
@@ -412,13 +380,11 @@ export const mountainsAndHills: SkillContent = {
             "They only exist in winter."
         ],
 
-        answer: 0,
-
         explanation:
             "Maps show mountains to help people understand the landscape.",
 
         difficulty: 2,
-
+        correctAnswer: "They are important natural features.",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps"]
@@ -436,13 +402,11 @@ export const mountainsAndHills: SkillContent = {
             "Underground station"
         ],
 
-        answer: 0,
-
         explanation:
             "Many mountains have steep, rocky slopes.",
 
         difficulty: 2,
-
+        correctAnswer: "Rocky slopes",
         estimatedSeconds: 20,
 
         tags: ["geography", "mountains"]
@@ -460,13 +424,11 @@ export const mountainsAndHills: SkillContent = {
             "Both are rivers."
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains and hills are both landforms, but mountains are generally higher and steeper.",
 
         difficulty: 2,
-
+        correctAnswer: "Both are raised land, but mountains are usually higher.",
         estimatedSeconds: 20,
 
         tags: ["geography", "comparison"]
@@ -484,13 +446,11 @@ export const mountainsAndHills: SkillContent = {
             "They are man-made parks."
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains and hills are natural features that shape the landscape.",
 
         difficulty: 2,
-
+        correctAnswer: "They are natural raised landforms that vary in height and shape.",
         estimatedSeconds: 20,
 
         tags: ["geography", "physical-geography", "mountains", "hills"]

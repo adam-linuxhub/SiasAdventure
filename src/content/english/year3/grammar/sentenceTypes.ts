@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const sentenceTypes: SkillContent = {
 
@@ -28,13 +28,11 @@ export const sentenceTypes: SkillContent = {
             "What a sunny day!"
         ],
 
-        answer: 0,
-
         explanation:
             "A statement tells us something and ends with a full stop.",
 
         difficulty: 1,
-
+        correctAnswer: "The sun is shining.",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -52,13 +50,11 @@ export const sentenceTypes: SkillContent = {
             "What a great book!"
         ],
 
-        answer: 0,
-
         explanation:
             "A question asks something and ends with a question mark.",
 
         difficulty: 1,
-
+        correctAnswer: "Where is my book?",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -76,13 +72,11 @@ export const sentenceTypes: SkillContent = {
             "What clean hands!"
         ],
 
-        answer: 0,
-
         explanation:
             "A command tells someone to do something.",
 
         difficulty: 1,
-
+        correctAnswer: "Wash your hands.",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -100,13 +94,11 @@ export const sentenceTypes: SkillContent = {
             "Look at the rainbow."
         ],
 
-        answer: 0,
-
         explanation:
             "An exclamation shows strong feeling or excitement.",
 
         difficulty: 1,
-
+        correctAnswer: "What a beautiful rainbow!",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -124,13 +116,11 @@ export const sentenceTypes: SkillContent = {
             "exclamation mark"
         ],
 
-        answer: 0,
-
         explanation:
             "Most statements finish with a full stop.",
 
         difficulty: 1,
-
+        correctAnswer: "full stop",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -148,13 +138,11 @@ export const sentenceTypes: SkillContent = {
             "colon"
         ],
 
-        answer: 0,
-
         explanation:
             "Questions end with a question mark.",
 
         difficulty: 1,
-
+        correctAnswer: "question mark",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -172,13 +160,11 @@ export const sentenceTypes: SkillContent = {
             "What a warm coat!"
         ],
 
-        answer: 0,
-
         explanation:
             "A command tells someone what to do.",
 
         difficulty: 1,
-
+        correctAnswer: "Put your coat away.",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -196,13 +182,11 @@ export const sentenceTypes: SkillContent = {
             "Kick the ball."
         ],
 
-        answer: 0,
-
         explanation:
             "An exclamation shows excitement or strong feelings.",
 
         difficulty: 1,
-
+        correctAnswer: "What an amazing goal!",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -220,13 +204,11 @@ export const sentenceTypes: SkillContent = {
             "Who ate the pizza?"
         ],
 
-        answer: 0,
-
         explanation:
             "'I like pizza.' is a statement, not a question.",
 
         difficulty: 1,
-
+        correctAnswer: "I like pizza.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -244,13 +226,11 @@ export const sentenceTypes: SkillContent = {
             "What colourful birds!"
         ],
 
-        answer: 0,
-
         explanation:
             "A statement gives information.",
 
         difficulty: 1,
-
+        correctAnswer: "Birds can fly.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -268,13 +248,11 @@ export const sentenceTypes: SkillContent = {
             "What a tidy room!"
         ],
 
-        answer: 0,
-
         explanation:
             "A command gives an instruction.",
 
         difficulty: 2,
-
+        correctAnswer: "Please tidy your room.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -292,13 +270,11 @@ export const sentenceTypes: SkillContent = {
             "Play the game."
         ],
 
-        answer: 0,
-
         explanation:
             "An exclamation expresses strong emotion.",
 
         difficulty: 2,
-
+        correctAnswer: "How exciting this game is!",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -316,13 +292,11 @@ export const sentenceTypes: SkillContent = {
             "Exclamation"
         ],
 
-        answer: 0,
-
         explanation:
             "It asks for information or help, so it is a question.",
 
         difficulty: 2,
-
+        correctAnswer: "Question",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -340,13 +314,11 @@ export const sentenceTypes: SkillContent = {
             "Exclamation"
         ],
 
-        answer: 0,
-
         explanation:
             "It politely tells someone what to do.",
 
         difficulty: 2,
-
+        correctAnswer: "Command",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -364,13 +336,11 @@ export const sentenceTypes: SkillContent = {
             "Exclamation"
         ],
 
-        answer: 0,
-
         explanation:
             "It gives information, so it is a statement.",
 
         difficulty: 2,
-
+        correctAnswer: "Statement",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -388,13 +358,11 @@ export const sentenceTypes: SkillContent = {
             "Command"
         ],
 
-        answer: 0,
-
         explanation:
             "It expresses strong feeling, making it an exclamation.",
 
         difficulty: 2,
-
+        correctAnswer: "Exclamation",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -412,13 +380,11 @@ export const sentenceTypes: SkillContent = {
             "Have you finished your homework,"
         ],
 
-        answer: 0,
-
         explanation:
             "Questions should end with a question mark.",
 
         difficulty: 2,
-
+        correctAnswer: "Have you finished your homework?",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -436,13 +402,11 @@ export const sentenceTypes: SkillContent = {
             "What a fantastic show,"
         ],
 
-        answer: 0,
-
         explanation:
             "Exclamations usually end with an exclamation mark.",
 
         difficulty: 2,
-
+        correctAnswer: "What a fantastic show!",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -460,13 +424,11 @@ export const sentenceTypes: SkillContent = {
             "To replace nouns"
         ],
 
-        answer: 0,
-
         explanation:
             "Different sentence types help us ask, tell, instruct and express feelings clearly.",
 
         difficulty: 2,
-
+        correctAnswer: "To communicate different meanings and purposes",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]
@@ -484,13 +446,11 @@ export const sentenceTypes: SkillContent = {
             "Letter, Word, Paragraph, Chapter"
         ],
 
-        answer: 0,
-
         explanation:
             "The four main sentence types are statements, questions, commands and exclamations.",
 
         difficulty: 2,
-
+        correctAnswer: "Statement, Question, Command, Exclamation",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "sentence-types"]

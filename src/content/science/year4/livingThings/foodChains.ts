@@ -28,13 +28,11 @@ export const foodChains: SkillContent = {
             "A type of habitat"
         ],
 
-        answer: 0,
-
         explanation:
             "A food chain shows how energy passes from one living thing to another.",
 
         difficulty: 1,
-
+        correctAnswer: "A diagram showing who eats whom",
         estimatedSeconds: 15,
 
         tags: ["science", "food-chains"]
@@ -52,13 +50,11 @@ export const foodChains: SkillContent = {
             "A rabbit"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants make their own food using sunlight and begin most food chains.",
 
         difficulty: 1,
-
+        correctAnswer: "A plant",
         estimatedSeconds: 15,
 
         tags: ["science", "food-chains", "plants"]
@@ -76,13 +72,11 @@ export const foodChains: SkillContent = {
             "Snake"
         ],
 
-        answer: 0,
-
         explanation:
             "Rabbits are herbivores because they eat plants.",
 
         difficulty: 1,
-
+        correctAnswer: "Rabbit",
         estimatedSeconds: 15,
 
         tags: ["science", "food-chains", "herbivores"]
@@ -100,13 +94,11 @@ export const foodChains: SkillContent = {
             "Carrot"
         ],
 
-        answer: 0,
-
         explanation:
             "Foxes hunt rabbits for food.",
 
         difficulty: 1,
-
+        correctAnswer: "Fox",
         estimatedSeconds: 15,
 
         tags: ["science", "food-chains"]
@@ -124,13 +116,11 @@ export const foodChains: SkillContent = {
             "Insects"
         ],
 
-        answer: 0,
-
         explanation:
             "The rabbit eats the grass.",
 
         difficulty: 1,
-
+        correctAnswer: "Grass",
         estimatedSeconds: 15,
 
         tags: ["science", "food-chains"]
@@ -148,13 +138,11 @@ export const foodChains: SkillContent = {
             "Flower"
         ],
 
-        answer: 0,
-
         explanation:
             "The fox is the predator in this food chain.",
 
         difficulty: 1,
-
+        correctAnswer: "Fox",
         estimatedSeconds: 15,
 
         tags: ["science", "food-chains"]
@@ -172,13 +160,11 @@ export const foodChains: SkillContent = {
             "Producer"
         ],
 
-        answer: 0,
-
         explanation:
             "Herbivores eat plants.",
 
         difficulty: 1,
-
+        correctAnswer: "Herbivore",
         estimatedSeconds: 15,
 
         tags: ["science", "herbivores"]
@@ -196,13 +182,11 @@ export const foodChains: SkillContent = {
             "Seed"
         ],
 
-        answer: 0,
-
         explanation:
             "Carnivores eat other animals.",
 
         difficulty: 1,
-
+        correctAnswer: "Carnivore",
         estimatedSeconds: 20,
 
         tags: ["science", "carnivores"]
@@ -220,13 +204,11 @@ export const foodChains: SkillContent = {
             "Snake"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants are producers because they make their own food.",
 
         difficulty: 1,
-
+        correctAnswer: "Grass",
         estimatedSeconds: 20,
 
         tags: ["science", "producers"]
@@ -244,13 +226,11 @@ export const foodChains: SkillContent = {
             "Food chains never include plants."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants provide the energy for most food chains.",
 
         difficulty: 1,
-
+        correctAnswer: "Food chains begin with plants.",
         estimatedSeconds: 20,
 
         tags: ["science", "food-chains"]
@@ -268,13 +248,11 @@ export const foodChains: SkillContent = {
             "A plant"
         ],
 
-        answer: 0,
-
         explanation:
             "The bird eats another animal, so it is acting as a carnivore.",
 
         difficulty: 2,
-
+        correctAnswer: "A carnivore",
         estimatedSeconds: 20,
 
         tags: ["science", "food-chains", "carnivores"]
@@ -292,13 +270,11 @@ export const foodChains: SkillContent = {
             "They drink milk."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants produce their own food using sunlight.",
 
         difficulty: 2,
-
+        correctAnswer: "They make their own food.",
         estimatedSeconds: 20,
 
         tags: ["science", "producers"]
@@ -316,13 +292,11 @@ export const foodChains: SkillContent = {
             "Grass → fox → rabbit"
         ],
 
-        answer: 0,
-
         explanation:
             "Food chains begin with a producer and show who eats whom.",
 
         difficulty: 2,
-
+        correctAnswer: "Grass → rabbit → fox",
         estimatedSeconds: 20,
 
         tags: ["science", "food-chains"]
@@ -340,13 +314,11 @@ export const foodChains: SkillContent = {
             "Birds would become fish."
         ],
 
-        answer: 0,
-
         explanation:
             "Removing one part of a food chain affects other living things.",
 
         difficulty: 2,
-
+        correctAnswer: "Foxes might have less food.",
         estimatedSeconds: 20,
 
         tags: ["science", "food-chains", "habitats"]
@@ -364,13 +336,11 @@ export const foodChains: SkillContent = {
             "Snake"
         ],
 
-        answer: 0,
-
         explanation:
             "Most caterpillars feed on leaves.",
 
         difficulty: 2,
-
+        correctAnswer: "Caterpillar",
         estimatedSeconds: 20,
 
         tags: ["science", "herbivores"]
@@ -388,13 +358,11 @@ export const foodChains: SkillContent = {
             "It shows which animal runs fastest."
         ],
 
-        answer: 0,
-
         explanation:
             "The arrow points from the food to the organism that eats it.",
 
         difficulty: 2,
-
+        correctAnswer: "It shows the direction that food energy moves.",
         estimatedSeconds: 20,
 
         tags: ["science", "food-chains"]
@@ -412,13 +380,11 @@ export const foodChains: SkillContent = {
             "Owl → mouse"
         ],
 
-        answer: 0,
-
         explanation:
             "Food chains begin with a producer such as a plant.",
 
         difficulty: 2,
-
+        correctAnswer: "Oak tree → caterpillar",
         estimatedSeconds: 20,
 
         tags: ["science", "food-chains"]
@@ -436,13 +402,11 @@ export const foodChains: SkillContent = {
             "Grass"
         ],
 
-        answer: 0,
-
         explanation:
             "The predator is the animal that hunts another animal.",
 
         difficulty: 2,
-
+        correctAnswer: "Owl",
         estimatedSeconds: 20,
 
         tags: ["science", "predators"]
@@ -460,13 +424,11 @@ export const foodChains: SkillContent = {
             "They explain the weather."
         ],
 
-        answer: 0,
-
         explanation:
             "Food chains help us understand how energy moves through living things.",
 
         difficulty: 2,
-
+        correctAnswer: "They show how living things depend on each other for food.",
         estimatedSeconds: 20,
 
         tags: ["science", "food-chains"]
@@ -484,13 +446,11 @@ export const foodChains: SkillContent = {
             "A food chain always has four living things."
         ],
 
-        answer: 0,
-
         explanation:
             "Food chains show feeding relationships and the movement of energy through living things.",
 
         difficulty: 2,
-
+        correctAnswer: "A food chain shows how energy passes from plants to animals as living things eat one another.",
         estimatedSeconds: 20,
 
         tags: ["science", "food-chains", "producers", "consumers"]

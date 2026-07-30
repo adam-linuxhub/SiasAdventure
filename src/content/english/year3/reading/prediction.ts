@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const prediction: SkillContent = {
 
@@ -29,13 +29,11 @@ export const prediction: SkillContent = {
             "The wind will stop."
         ],
 
-        answer: 0,
-
         explanation:
             "Dark clouds and an umbrella are clues that rain is likely.",
 
         difficulty: 1,
-
+        correctAnswer: "It will rain.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "prediction"]
@@ -54,13 +52,11 @@ export const prediction: SkillContent = {
             "Go to bed."
         ],
 
-        answer: 0,
-
         explanation:
             "After mixing ingredients, the next step is usually to cook them.",
 
         difficulty: 1,
-
+        correctAnswer: "Cook the mixture.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "prediction"]
@@ -79,13 +75,11 @@ export const prediction: SkillContent = {
             "They will paint pictures."
         ],
 
-        answer: 0,
-
         explanation:
             "Packing away books after the bell usually means the lesson has ended.",
 
         difficulty: 1,
-
+        correctAnswer: "They will leave the classroom.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "prediction"]
@@ -104,13 +98,11 @@ export const prediction: SkillContent = {
             "The puppy will go to sleep."
         ],
 
-        answer: 0,
-
         explanation:
             "Opening dog food is a clue that the puppy is about to eat.",
 
         difficulty: 1,
-
+        correctAnswer: "The puppy will eat.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "prediction"]
@@ -129,13 +121,11 @@ export const prediction: SkillContent = {
             "Bake a cake."
         ],
 
-        answer: 0,
-
         explanation:
             "A swimming costume and goggles are clues that she is going swimming.",
 
         difficulty: 1,
-
+        correctAnswer: "Go swimming.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "prediction"]
@@ -154,13 +144,11 @@ export const prediction: SkillContent = {
             "The plant will fly away."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants usually grow when they are watered regularly.",
 
         difficulty: 1,
-
+        correctAnswer: "The plant will grow.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "prediction"]
@@ -179,13 +167,11 @@ export const prediction: SkillContent = {
             "The battery will charge itself."
         ],
 
-        answer: 0,
-
         explanation:
             "If a tablet is not charged, the battery is likely to run out.",
 
         difficulty: 1,
-
+        correctAnswer: "The battery may run out.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "prediction"]
@@ -204,13 +190,11 @@ export const prediction: SkillContent = {
             "She will lose her pencil."
         ],
 
-        answer: 0,
-
         explanation:
             "Practising regularly gives Emma a good chance of doing well.",
 
         difficulty: 1,
-
+        correctAnswer: "She may do well in the test.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "prediction"]
@@ -229,13 +213,11 @@ export const prediction: SkillContent = {
             "Build a sandcastle."
         ],
 
-        answer: 0,
-
         explanation:
             "People usually try to stop a ball rolling into the road safely.",
 
         difficulty: 1,
-
+        correctAnswer: "Run to stop it safely.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "prediction"]
@@ -254,13 +236,11 @@ export const prediction: SkillContent = {
             "A way to spell words"
         ],
 
-        answer: 0,
-
         explanation:
             "Predictions use clues from the text to make a sensible guess.",
 
         difficulty: 1,
-
+        correctAnswer: "A sensible guess about what will happen next",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "prediction"]
@@ -279,13 +259,11 @@ export const prediction: SkillContent = {
             "Play tennis."
         ],
 
-        answer: 0,
-
         explanation:
             "Wrapping paper, tape and a card are clues that she will wrap a present.",
 
         difficulty: 2,
-
+        correctAnswer: "Wrap a present.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "prediction"]
@@ -304,13 +282,11 @@ export const prediction: SkillContent = {
             "Lunch will be served."
         ],
 
-        answer: 0,
-
         explanation:
             "Shows usually begin after the audience becomes quiet and the lights dim.",
 
         difficulty: 2,
-
+        correctAnswer: "The show will begin.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "prediction"]
@@ -329,13 +305,11 @@ export const prediction: SkillContent = {
             "The biscuits will grow leaves."
         ],
 
-        answer: 0,
-
         explanation:
             "Food placed in an oven is usually baked.",
 
         difficulty: 2,
-
+        correctAnswer: "The biscuits will bake.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "prediction"]
@@ -354,13 +328,11 @@ export const prediction: SkillContent = {
             "He will visit a library."
         ],
 
-        answer: 0,
-
         explanation:
             "People often zip up a tent before going to sleep at night.",
 
         difficulty: 2,
-
+        correctAnswer: "He will go to sleep.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "prediction"]
@@ -379,13 +351,11 @@ export const prediction: SkillContent = {
             "The football disappeared."
         ],
 
-        answer: 0,
-
         explanation:
             "After a goal, play restarts from the centre circle.",
 
         difficulty: 2,
-
+        correctAnswer: "A goal was scored.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "prediction"]
@@ -404,13 +374,11 @@ export const prediction: SkillContent = {
             "Fly a kite."
         ],
 
-        answer: 0,
-
         explanation:
             "Checking a recipe and turning on the oven are clues that cooking will begin.",
 
         difficulty: 2,
-
+        correctAnswer: "Start cooking.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "prediction"]
@@ -429,13 +397,11 @@ export const prediction: SkillContent = {
             "It will turn into sand."
         ],
 
-        answer: 0,
-
         explanation:
             "Sunshine helps wet ground dry.",
 
         difficulty: 2,
-
+        correctAnswer: "It will begin to dry.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "prediction"]
@@ -454,13 +420,11 @@ export const prediction: SkillContent = {
             "The hamster will take a bath."
         ],
 
-        answer: 0,
-
         explanation:
             "An empty food bowl suggests the hamster needs feeding.",
 
         difficulty: 2,
-
+        correctAnswer: "Someone will feed the hamster.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "prediction"]
@@ -479,13 +443,11 @@ export const prediction: SkillContent = {
             "The longest answer"
         ],
 
-        answer: 0,
-
         explanation:
             "Good predictions are based on clues from the text, not random guesses.",
 
         difficulty: 2,
-
+        correctAnswer: "A prediction that matches the evidence in the text",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "prediction"]
@@ -504,13 +466,11 @@ export const prediction: SkillContent = {
             "A lucky guess"
         ],
 
-        answer: 0,
-
         explanation:
             "Strong predictions combine evidence from the text with what you already know.",
 
         difficulty: 2,
-
+        correctAnswer: "Clues from the text and your own knowledge",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "prediction"]

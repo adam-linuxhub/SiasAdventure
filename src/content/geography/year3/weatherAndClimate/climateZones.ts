@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const climateZones: SkillContent = {
 
@@ -29,13 +29,11 @@ export const climateZones: SkillContent = {
             "A river feature"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate describes the typical weather of a place over many years.",
 
         difficulty: 1,
-
+        correctAnswer: "The usual weather conditions of a place over a long period of time",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -54,13 +52,11 @@ export const climateZones: SkillContent = {
             "A country border"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate zones are areas that share similar weather patterns.",
 
         difficulty: 1,
-
+        correctAnswer: "An area with a similar climate",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -79,13 +75,11 @@ export const climateZones: SkillContent = {
             "Because rivers control everything"
         ],
 
-        answer: 0,
-
         explanation:
             "Location and physical factors affect the climate of a place.",
 
         difficulty: 2,
-
+        correctAnswer: "Because of factors such as location, sunlight and altitude",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -104,13 +98,11 @@ export const climateZones: SkillContent = {
             "Under the oceans only"
         ],
 
-        answer: 0,
-
         explanation:
             "The equator divides Earth into the Northern and Southern Hemispheres.",
 
         difficulty: 1,
-
+        correctAnswer: "An imaginary line around the middle of Earth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -129,13 +121,11 @@ export const climateZones: SkillContent = {
             "They have less air"
         ],
 
-        answer: 0,
-
         explanation:
             "The Sun's rays are more direct near the equator, creating warmer temperatures.",
 
         difficulty: 2,
-
+        correctAnswer: "They receive more direct sunlight",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -154,13 +144,11 @@ export const climateZones: SkillContent = {
             "Mountain climate only"
         ],
 
-        answer: 0,
-
         explanation:
             "Areas near the equator usually have tropical climates.",
 
         difficulty: 1,
-
+        correctAnswer: "Tropical climate",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -179,13 +167,11 @@ export const climateZones: SkillContent = {
             "Without rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Tropical regions are usually warm and may have lots of rainfall.",
 
         difficulty: 1,
-
+        correctAnswer: "Hot and often wet",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -204,13 +190,11 @@ export const climateZones: SkillContent = {
             "Temperate climate"
         ],
 
-        answer: 0,
-
         explanation:
             "Polar regions are extremely cold because they receive less direct sunlight.",
 
         difficulty: 1,
-
+        correctAnswer: "Polar climate",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -229,13 +213,11 @@ export const climateZones: SkillContent = {
             "Always dry and hot"
         ],
 
-        answer: 0,
-
         explanation:
             "Polar climates have very low temperatures and frozen landscapes.",
 
         difficulty: 1,
-
+        correctAnswer: "Very cold with ice and snow",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -254,13 +236,11 @@ export const climateZones: SkillContent = {
             "Desert climate"
         ],
 
-        answer: 0,
-
         explanation:
             "The UK has a temperate climate with mild temperatures and changing weather.",
 
         difficulty: 1,
-
+        correctAnswer: "Temperate climate",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate", "uk"]
@@ -279,13 +259,11 @@ export const climateZones: SkillContent = {
             "No rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Temperate climates usually have seasonal changes.",
 
         difficulty: 1,
-
+        correctAnswer: "Moderate temperatures with changing seasons",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -304,13 +282,11 @@ export const climateZones: SkillContent = {
             "Ocean climate"
         ],
 
-        answer: 0,
-
         explanation:
             "Deserts receive very little rainfall.",
 
         difficulty: 1,
-
+        correctAnswer: "Very dry climate",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -329,13 +305,11 @@ export const climateZones: SkillContent = {
             "Without plants"
         ],
 
-        answer: 0,
-
         explanation:
             "Rainforests are found in warm areas with high rainfall.",
 
         difficulty: 1,
-
+        correctAnswer: "Hot and very wet",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -354,13 +328,11 @@ export const climateZones: SkillContent = {
             "Animals choose climates randomly"
         ],
 
-        answer: 0,
-
         explanation:
             "Living things adapt to the conditions where they live.",
 
         difficulty: 2,
-
+        correctAnswer: "They adapt to different conditions",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -379,13 +351,11 @@ export const climateZones: SkillContent = {
             "Desert only"
         ],
 
-        answer: 0,
-
         explanation:
             "Polar regions contain large areas of ice.",
 
         difficulty: 1,
-
+        correctAnswer: "Polar",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -404,13 +374,11 @@ export const climateZones: SkillContent = {
             "To show population only"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate maps help geographers understand global patterns.",
 
         difficulty: 2,
-
+        correctAnswer: "To compare climates in different parts of Earth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps", "climate"]
@@ -429,13 +397,11 @@ export const climateZones: SkillContent = {
             "Mountains create tropical climates"
         ],
 
-        answer: 0,
-
         explanation:
             "Temperature generally decreases as altitude increases.",
 
         difficulty: 2,
-
+        correctAnswer: "Higher places are usually colder",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -454,13 +420,11 @@ export const climateZones: SkillContent = {
             "It stops settlements"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate influences homes, farming and lifestyles.",
 
         difficulty: 2,
-
+        correctAnswer: "It affects how people live, work and grow food",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -479,13 +443,11 @@ export const climateZones: SkillContent = {
             "Only rivers"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate zones show how climates are distributed across Earth.",
 
         difficulty: 2,
-
+        correctAnswer: "Patterns of weather around the world",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -504,13 +466,11 @@ export const climateZones: SkillContent = {
             "Areas that never change"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate zones group places with similar climate conditions.",
 
         difficulty: 2,
-
+        correctAnswer: "Areas of Earth with similar long-term weather patterns",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "climate"]

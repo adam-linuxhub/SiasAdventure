@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const capitalLetters: SkillContent = {
 
@@ -28,13 +28,11 @@ export const capitalLetters: SkillContent = {
             "the dog Is sleeping."
         ],
 
-        answer: 0,
-
         explanation:
             "Every sentence should begin with a capital letter.",
 
         difficulty: 1,
-
+        correctAnswer: "The dog is sleeping.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -52,13 +50,11 @@ export const capitalLetters: SkillContent = {
             "garden"
         ],
 
-        answer: 0,
-
         explanation:
             "People's names always begin with a capital letter.",
 
         difficulty: 1,
-
+        correctAnswer: "Emma",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -76,13 +72,11 @@ export const capitalLetters: SkillContent = {
             "my name is jack."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence starts with a capital letter and 'Jack' is a name.",
 
         difficulty: 1,
-
+        correctAnswer: "My name is Jack.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -100,13 +94,11 @@ export const capitalLetters: SkillContent = {
             "playtime"
         ],
 
-        answer: 0,
-
         explanation:
             "Days of the week always begin with capital letters.",
 
         difficulty: 1,
-
+        correctAnswer: "Monday",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -124,13 +116,11 @@ export const capitalLetters: SkillContent = {
             "week"
         ],
 
-        answer: 0,
-
         explanation:
             "Months of the year always begin with capital letters.",
 
         difficulty: 1,
-
+        correctAnswer: "July",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -148,13 +138,11 @@ export const capitalLetters: SkillContent = {
             "we visited london."
         ],
 
-        answer: 0,
-
         explanation:
             "'London' is a place name and must begin with a capital letter.",
 
         difficulty: 1,
-
+        correctAnswer: "We visited London.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -172,13 +160,11 @@ export const capitalLetters: SkillContent = {
             "To join two words"
         ],
 
-        answer: 0,
-
         explanation:
             "Capital letters help readers see the beginning of each sentence.",
 
         difficulty: 1,
-
+        correctAnswer: "To show where a new sentence begins",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -196,13 +182,11 @@ export const capitalLetters: SkillContent = {
             "my friend olivia likes reading."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence begins with a capital letter and 'Olivia' is a name.",
 
         difficulty: 1,
-
+        correctAnswer: "My friend Olivia likes reading.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -220,13 +204,11 @@ export const capitalLetters: SkillContent = {
             "Sam"
         ],
 
-        answer: 0,
-
         explanation:
             "'Apple' is a common noun, so it does not need a capital letter.",
 
         difficulty: 1,
-
+        correctAnswer: "apple",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -244,13 +226,11 @@ export const capitalLetters: SkillContent = {
             "ben and mia played football."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence starts with a capital letter and both names begin with capitals.",
 
         difficulty: 1,
-
+        correctAnswer: "Ben and Mia played football.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -268,13 +248,11 @@ export const capitalLetters: SkillContent = {
             "on Friday we visited Edinburgh."
         ],
 
-        answer: 0,
-
         explanation:
             "'Friday' and 'Edinburgh' both need capital letters, and the sentence begins with one too.",
 
         difficulty: 2,
-
+        correctAnswer: "On Friday we visited Edinburgh.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -292,13 +270,11 @@ export const capitalLetters: SkillContent = {
             "my birthday is in december."
         ],
 
-        answer: 0,
-
         explanation:
             "'December' is a month and needs a capital letter.",
 
         difficulty: 2,
-
+        correctAnswer: "My birthday is in December.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -316,13 +292,11 @@ export const capitalLetters: SkillContent = {
             "I like swimming."
         ],
 
-        answer: 0,
-
         explanation:
             "'Paris' is a place name and should begin with a capital letter.",
 
         difficulty: 2,
-
+        correctAnswer: "We went to paris.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -340,13 +314,11 @@ export const capitalLetters: SkillContent = {
             "sophie lives in scotland."
         ],
 
-        answer: 0,
-
         explanation:
             "People's names and countries begin with capital letters.",
 
         difficulty: 2,
-
+        correctAnswer: "Sophie lives in Scotland.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -364,13 +336,11 @@ export const capitalLetters: SkillContent = {
             "we have PE on wednesday."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence starts with a capital letter and 'Wednesday' always begins with one.",
 
         difficulty: 2,
-
+        correctAnswer: "We have PE on Wednesday.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -388,13 +358,11 @@ export const capitalLetters: SkillContent = {
             "To replace punctuation"
         ],
 
-        answer: 0,
-
         explanation:
             "Proper nouns, such as names of people and places, begin with capital letters.",
 
         difficulty: 2,
-
+        correctAnswer: "To show they are special names of people or places",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -412,13 +380,11 @@ export const capitalLetters: SkillContent = {
             "Lucy visited Cardiff on saturday."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence, person's name, city and day all begin with capital letters.",
 
         difficulty: 2,
-
+        correctAnswer: "Lucy visited Cardiff on Saturday.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -436,13 +402,11 @@ export const capitalLetters: SkillContent = {
             "holiday"
         ],
 
-        answer: 0,
-
         explanation:
             "Months of the year always start with capital letters.",
 
         difficulty: 2,
-
+        correctAnswer: "January",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -460,13 +424,11 @@ export const capitalLetters: SkillContent = {
             "our teacher is mrs brown."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence begins with a capital letter, and titles and surnames use capitals.",
 
         difficulty: 2,
-
+        correctAnswer: "Our teacher is Mrs Brown.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]
@@ -484,13 +446,11 @@ export const capitalLetters: SkillContent = {
             "Count syllables"
         ],
 
-        answer: 0,
-
         explanation:
             "Capital letters show where sentences begin and highlight proper nouns.",
 
         difficulty: 2,
-
+        correctAnswer: "Spot the beginning of sentences and important names",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "capital-letters"]

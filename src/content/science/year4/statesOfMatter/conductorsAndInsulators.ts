@@ -28,13 +28,11 @@ export const conductorsAndInsulators: SkillContent = {
             "A kind of light bulb"
         ],
 
-        answer: 0,
-
         explanation:
             "Conductors allow electricity to flow through them.",
 
         difficulty: 1,
-
+        correctAnswer: "A material that lets electricity pass through it",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "conductors"]
@@ -52,13 +50,11 @@ export const conductorsAndInsulators: SkillContent = {
             "A kind of wire"
         ],
 
-        answer: 0,
-
         explanation:
             "Insulators do not allow electricity to flow easily.",
 
         difficulty: 1,
-
+        correctAnswer: "A material that stops electricity flowing through it",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "insulators"]
@@ -76,13 +72,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Wood"
         ],
 
-        answer: 0,
-
         explanation:
             "Copper is a metal and is an excellent conductor of electricity.",
 
         difficulty: 1,
-
+        correctAnswer: "Copper",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "metals"]
@@ -100,13 +94,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Iron"
         ],
 
-        answer: 0,
-
         explanation:
             "Plastic does not let electricity pass through easily.",
 
         difficulty: 1,
-
+        correctAnswer: "Plastic",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "insulators"]
@@ -124,13 +116,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Transparent"
         ],
 
-        answer: 0,
-
         explanation:
             "Most metals allow electricity to flow easily.",
 
         difficulty: 1,
-
+        correctAnswer: "Good conductors",
         estimatedSeconds: 15,
 
         tags: ["science", "metals", "conductors"]
@@ -148,13 +138,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Copper is magnetic."
         ],
 
-        answer: 0,
-
         explanation:
             "Copper carries electricity very well.",
 
         difficulty: 1,
-
+        correctAnswer: "Copper is a good conductor.",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "wires"]
@@ -172,13 +160,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Aluminium"
         ],
 
-        answer: 0,
-
         explanation:
             "Plastic is an insulator that helps prevent electric shocks.",
 
         difficulty: 1,
-
+        correctAnswer: "Plastic",
         estimatedSeconds: 15,
 
         tags: ["science", "electricity", "safety"]
@@ -196,13 +182,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Plastic ruler"
         ],
 
-        answer: 0,
-
         explanation:
             "A paper clip is usually made from steel, which conducts electricity.",
 
         difficulty: 1,
-
+        correctAnswer: "Paper clip",
         estimatedSeconds: 20,
 
         tags: ["science", "metals"]
@@ -220,13 +204,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Iron"
         ],
 
-        answer: 0,
-
         explanation:
             "Rubber is a good electrical insulator.",
 
         difficulty: 1,
-
+        correctAnswer: "Rubber",
         estimatedSeconds: 20,
 
         tags: ["science", "insulators"]
@@ -244,13 +226,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Only water conducts electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "Different materials have different electrical properties.",
 
         difficulty: 1,
-
+        correctAnswer: "Some materials conduct electricity better than others.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity"]
@@ -268,13 +248,11 @@ export const conductorsAndInsulators: SkillContent = {
             "It stores electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "Plastic stops electricity reaching your hands.",
 
         difficulty: 2,
-
+        correctAnswer: "It is an insulator that helps protect people.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "safety"]
@@ -292,13 +270,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Rubber and glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Copper and aluminium are both metals and conduct electricity well.",
 
         difficulty: 2,
-
+        correctAnswer: "Copper and aluminium",
         estimatedSeconds: 20,
 
         tags: ["science", "conductors"]
@@ -316,13 +292,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Copper and plastic"
         ],
 
-        answer: 0,
-
         explanation:
             "Plastic and rubber both stop electricity flowing easily.",
 
         difficulty: 2,
-
+        correctAnswer: "Plastic and rubber",
         estimatedSeconds: 20,
 
         tags: ["science", "insulators"]
@@ -340,13 +314,11 @@ export const conductorsAndInsulators: SkillContent = {
             "They are waterproof."
         ],
 
-        answer: 0,
-
         explanation:
             "The metal core carries the electrical current.",
 
         difficulty: 2,
-
+        correctAnswer: "They allow electricity to flow easily.",
         estimatedSeconds: 20,
 
         tags: ["science", "conductors", "wires"]
@@ -364,13 +336,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Aluminium"
         ],
 
-        answer: 0,
-
         explanation:
             "Rubber is an insulator that helps protect the user.",
 
         difficulty: 2,
-
+        correctAnswer: "Rubber",
         estimatedSeconds: 20,
 
         tags: ["science", "safety", "insulators"]
@@ -388,13 +358,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Plastic creates electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "Electricity does not flow easily through plastic.",
 
         difficulty: 2,
-
+        correctAnswer: "Plastic is an insulator.",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits", "insulators"]
@@ -412,13 +380,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Wooden stick"
         ],
 
-        answer: 0,
-
         explanation:
             "The metal paper clip conducts electricity.",
 
         difficulty: 2,
-
+        correctAnswer: "Metal paper clip",
         estimatedSeconds: 20,
 
         tags: ["science", "circuits", "conductors"]
@@ -436,13 +402,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Rubber produces electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "Rubber helps reduce the risk of electric shock.",
 
         difficulty: 2,
-
+        correctAnswer: "Rubber is an insulator.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "safety"]
@@ -460,13 +424,11 @@ export const conductorsAndInsulators: SkillContent = {
             "They are both metals."
         ],
 
-        answer: 0,
-
         explanation:
             "Materials can be grouped as conductors or insulators depending on how they carry electricity.",
 
         difficulty: 2,
-
+        correctAnswer: "They are both types of materials.",
         estimatedSeconds: 20,
 
         tags: ["science", "materials"]
@@ -484,13 +446,11 @@ export const conductorsAndInsulators: SkillContent = {
             "Only metals are insulators."
         ],
 
-        answer: 0,
-
         explanation:
             "Conductors and insulators have different electrical properties that make them useful for different jobs.",
 
         difficulty: 2,
-
+        correctAnswer: "Conductors allow electricity to flow, while insulators reduce or stop the flow of electricity.",
         estimatedSeconds: 20,
 
         tags: ["science", "electricity", "conductors", "insulators"]

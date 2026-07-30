@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const dailyLife: SkillContent = {
 
@@ -29,13 +29,11 @@ export const dailyLife: SkillContent = {
             "Under the sea"
         ],
 
-        answer: 0,
-
         explanation:
             "Many Egyptians lived near the Nile because it provided water and fertile land.",
 
         difficulty: 1,
-
+        correctAnswer: "Near the River Nile",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -54,13 +52,11 @@ export const dailyLife: SkillContent = {
             "Flying planes"
         ],
 
-        answer: 0,
-
         explanation:
             "Farming was one of the most important jobs because people needed food.",
 
         difficulty: 1,
-
+        correctAnswer: "Farming",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -79,13 +75,11 @@ export const dailyLife: SkillContent = {
             "Metal trees"
         ],
 
-        answer: 0,
-
         explanation:
             "Farmers grew crops including wheat and barley near the Nile.",
 
         difficulty: 1,
-
+        correctAnswer: "Crops such as wheat and barley",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -104,13 +98,11 @@ export const dailyLife: SkillContent = {
             "Concrete"
         ],
 
-        answer: 0,
-
         explanation:
             "Mud bricks were commonly used because they were available and suitable for the climate.",
 
         difficulty: 1,
-
+        correctAnswer: "Mud bricks",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -129,13 +121,11 @@ export const dailyLife: SkillContent = {
             "Plastic suits"
         ],
 
-        answer: 0,
-
         explanation:
             "Linen made from flax was commonly used for clothing.",
 
         difficulty: 1,
-
+        correctAnswer: "Clothing made from linen",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -154,13 +144,11 @@ export const dailyLife: SkillContent = {
             "It replaced the Nile"
         ],
 
-        answer: 0,
-
         explanation:
             "Farming provided food for Egyptian society.",
 
         difficulty: 1,
-
+        correctAnswer: "It provided food for people",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -179,13 +167,11 @@ export const dailyLife: SkillContent = {
             "Design websites"
         ],
 
-        answer: 0,
-
         explanation:
             "Craftsmen made useful and decorative objects.",
 
         difficulty: 1,
-
+        correctAnswer: "Make objects such as pottery or jewellery",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -204,13 +190,11 @@ export const dailyLife: SkillContent = {
             "Train animals"
         ],
 
-        answer: 0,
-
         explanation:
             "Scribes were skilled writers who kept records.",
 
         difficulty: 1,
-
+        correctAnswer: "Write and record information",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -229,13 +213,11 @@ export const dailyLife: SkillContent = {
             "They invented cars"
         ],
 
-        answer: 0,
-
         explanation:
             "Written records help historians understand Ancient Egypt.",
 
         difficulty: 1,
-
+        correctAnswer: "They recorded important information",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -254,13 +236,11 @@ export const dailyLife: SkillContent = {
             "Potato crisps"
         ],
 
-        answer: 0,
-
         explanation:
             "Bread made from grains was an important part of the Egyptian diet.",
 
         difficulty: 1,
-
+        correctAnswer: "Bread",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -279,13 +259,11 @@ export const dailyLife: SkillContent = {
             "It was far from farms"
         ],
 
-        answer: 0,
-
         explanation:
             "The Nile supported everyday life through farming and water supply.",
 
         difficulty: 2,
-
+        correctAnswer: "It provided water and helped crops grow",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -304,13 +282,11 @@ export const dailyLife: SkillContent = {
             "Visitors from other countries"
         ],
 
-        answer: 0,
-
         explanation:
             "The pharaoh was at the top of the social structure.",
 
         difficulty: 2,
-
+        correctAnswer: "The pharaoh and royal family",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -329,13 +305,11 @@ export const dailyLife: SkillContent = {
             "Made clothing"
         ],
 
-        answer: 0,
-
         explanation:
             "The Nile provided fish as an important food source.",
 
         difficulty: 1,
-
+        correctAnswer: "Caught fish from the Nile",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -354,13 +328,11 @@ export const dailyLife: SkillContent = {
             "They controlled Egypt"
         ],
 
-        answer: 0,
-
         explanation:
             "Animals were used for food, transport and farming.",
 
         difficulty: 2,
-
+        correctAnswer: "They provided food, materials and help with work",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -379,13 +351,11 @@ export const dailyLife: SkillContent = {
             "Glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Papyrus was made from a plant and used for writing.",
 
         difficulty: 2,
-
+        correctAnswer: "A plant that grew near water",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -404,13 +374,11 @@ export const dailyLife: SkillContent = {
             "To build new pyramids"
         ],
 
-        answer: 0,
-
         explanation:
             "Daily life evidence helps us understand ordinary people.",
 
         difficulty: 2,
-
+        correctAnswer: "To understand how people lived in the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -429,13 +397,11 @@ export const dailyLife: SkillContent = {
             "A builder"
         ],
 
-        answer: 0,
-
         explanation:
             "Scribes were trained writers and record keepers.",
 
         difficulty: 2,
-
+        correctAnswer: "A scribe",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -454,13 +420,11 @@ export const dailyLife: SkillContent = {
             "Future inventions"
         ],
 
-        answer: 0,
-
         explanation:
             "Objects provide evidence about past societies.",
 
         difficulty: 2,
-
+        correctAnswer: "How people lived and worked",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -479,13 +443,11 @@ export const dailyLife: SkillContent = {
             "There were no farmers"
         ],
 
-        answer: 0,
-
         explanation:
             "Ancient Egyptian society included farmers, craftsmen, scribes and rulers.",
 
         difficulty: 2,
-
+        correctAnswer: "People had different jobs and roles",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]
@@ -504,13 +466,11 @@ export const dailyLife: SkillContent = {
             "People had no jobs"
         ],
 
-        answer: 0,
-
         explanation:
             "The Nile shaped many parts of everyday Egyptian life.",
 
         difficulty: 2,
-
+        correctAnswer: "People farmed, worked, built and lived near the Nile",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt", "daily-life"]

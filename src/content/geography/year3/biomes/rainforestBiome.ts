@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const rainforestBiome: SkillContent = {
 
@@ -29,13 +29,11 @@ export const rainforestBiome: SkillContent = {
             "Only in Europe"
         ],
 
-        answer: 0,
-
         explanation:
             "Tropical rainforests are usually found in warm areas close to the equator.",
 
         difficulty: 1,
-
+        correctAnswer: "Near the equator",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -54,13 +52,11 @@ export const rainforestBiome: SkillContent = {
             "Cool with no rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Rainforests have high temperatures and lots of rainfall.",
 
         difficulty: 1,
-
+        correctAnswer: "Hot and wet",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -79,13 +75,11 @@ export const rainforestBiome: SkillContent = {
             "They are very dry"
         ],
 
-        answer: 0,
-
         explanation:
             "Rainforests have conditions that allow many species to live there.",
 
         difficulty: 1,
-
+        correctAnswer: "The warm, wet conditions support many living things",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -104,13 +98,11 @@ export const rainforestBiome: SkillContent = {
             "The number of roads"
         ],
 
-        answer: 0,
-
         explanation:
             "Rainforests have high biodiversity because they contain many species.",
 
         difficulty: 2,
-
+        correctAnswer: "The variety of living things in an area",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -129,13 +121,11 @@ export const rainforestBiome: SkillContent = {
             "A river through the forest"
         ],
 
-        answer: 0,
-
         explanation:
             "The canopy is the upper layer where tree branches and leaves meet.",
 
         difficulty: 1,
-
+        correctAnswer: "The layer formed by the tops of rainforest trees",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -154,13 +144,11 @@ export const rainforestBiome: SkillContent = {
             "The soil layer"
         ],
 
-        answer: 0,
-
         explanation:
             "The canopy receives most of the sunlight because it is at the top.",
 
         difficulty: 2,
-
+        correctAnswer: "The canopy",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -179,13 +167,11 @@ export const rainforestBiome: SkillContent = {
             "Above the treetops"
         ],
 
-        answer: 0,
-
         explanation:
             "The thick canopy blocks much of the sunlight from reaching the forest floor.",
 
         difficulty: 2,
-
+        correctAnswer: "Dark because little sunlight reaches it",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -204,13 +190,11 @@ export const rainforestBiome: SkillContent = {
             "They grow underwater"
         ],
 
-        answer: 0,
-
         explanation:
             "Trees grow upwards to reach sunlight above other plants.",
 
         difficulty: 2,
-
+        correctAnswer: "They compete for sunlight",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -229,13 +213,11 @@ export const rainforestBiome: SkillContent = {
             "Arctic fox"
         ],
 
-        answer: 0,
-
         explanation:
             "Many animals, including monkeys, live in tropical rainforests.",
 
         difficulty: 1,
-
+        correctAnswer: "Monkey",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -254,13 +236,11 @@ export const rainforestBiome: SkillContent = {
             "They create deserts"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants provide shelter and food for rainforest animals.",
 
         difficulty: 1,
-
+        correctAnswer: "They provide food and habitats for many species",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -279,13 +259,11 @@ export const rainforestBiome: SkillContent = {
             "Measuring rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Deforestation happens when forests are cleared.",
 
         difficulty: 1,
-
+        correctAnswer: "The removal of large areas of forest",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -304,13 +282,11 @@ export const rainforestBiome: SkillContent = {
             "Because rainforests are empty"
         ],
 
-        answer: 0,
-
         explanation:
             "People may clear rainforests for farming, roads and materials.",
 
         difficulty: 2,
-
+        correctAnswer: "For activities such as farming and obtaining resources",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -329,13 +305,11 @@ export const rainforestBiome: SkillContent = {
             "They create oceans"
         ],
 
-        answer: 0,
-
         explanation:
             "Rainforests are important ecosystems with many environmental roles.",
 
         difficulty: 2,
-
+        correctAnswer: "They support biodiversity and help regulate climate",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -354,13 +328,11 @@ export const rainforestBiome: SkillContent = {
             "A mountain range"
         ],
 
-        answer: 0,
-
         explanation:
             "Many indigenous communities have lived in rainforest areas for generations.",
 
         difficulty: 2,
-
+        correctAnswer: "A group of people who have lived in an area for a long time",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -379,13 +351,11 @@ export const rainforestBiome: SkillContent = {
             "Trees remove all soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Rain can wash nutrients deeper into the ground.",
 
         difficulty: 2,
-
+        correctAnswer: "Heavy rainfall can wash nutrients away",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -404,13 +374,11 @@ export const rainforestBiome: SkillContent = {
             "They all live the same way"
         ],
 
-        answer: 0,
-
         explanation:
             "Animals have features that help them survive in rainforest conditions.",
 
         difficulty: 2,
-
+        correctAnswer: "They have adaptations suited to their environment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "animals"]
@@ -429,13 +397,11 @@ export const rainforestBiome: SkillContent = {
             "Only soil"
         ],
 
-        answer: 0,
-
         explanation:
             "An ecosystem includes living things and their surroundings.",
 
         difficulty: 1,
-
+        correctAnswer: "Plants, animals and their environment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "ecosystems"]
@@ -454,13 +420,11 @@ export const rainforestBiome: SkillContent = {
             "By destroying habitats"
         ],
 
-        answer: 0,
-
         explanation:
             "Conservation helps protect rainforest ecosystems.",
 
         difficulty: 1,
-
+        correctAnswer: "By conserving forests and reducing destruction",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -479,13 +443,11 @@ export const rainforestBiome: SkillContent = {
             "Because they have no trees"
         ],
 
-        answer: 0,
-
         explanation:
             "The name comes from their high rainfall levels.",
 
         difficulty: 1,
-
+        correctAnswer: "Because they receive large amounts of rainfall",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -504,13 +466,11 @@ export const rainforestBiome: SkillContent = {
             "A place without trees"
         ],
 
-        answer: 0,
-
         explanation:
             "Tropical rainforests are warm, wet ecosystems with high biodiversity.",
 
         difficulty: 2,
-
+        correctAnswer: "A warm, wet biome with many plants and animals",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "rainforest"]

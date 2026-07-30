@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const romanLegacy: SkillContent = {
 
@@ -29,13 +29,11 @@ export const romanLegacy: SkillContent = {
             "A Roman soldier"
         ],
 
-        answer: 0,
-
         explanation:
             "A legacy is something from the past that continues to affect people today.",
 
         difficulty: 1,
-
+        correctAnswer: "Something left behind from the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -54,13 +52,11 @@ export const romanLegacy: SkillContent = {
             "Airports"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman roads, towns and buildings influenced Britain for many years.",
 
         difficulty: 1,
-
+        correctAnswer: "Roads, towns and buildings",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -79,13 +75,11 @@ export const romanLegacy: SkillContent = {
             "They were never used"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman roads were strong and many modern roads follow similar routes.",
 
         difficulty: 1,
-
+        correctAnswer: "They show Roman engineering skills and some routes are still used",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -104,13 +98,11 @@ export const romanLegacy: SkillContent = {
             "Cardiff"
         ],
 
-        answer: 0,
-
         explanation:
             "The Romans founded Londinium, which later became London.",
 
         difficulty: 1,
-
+        correctAnswer: "London",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -129,13 +121,11 @@ export const romanLegacy: SkillContent = {
             "Viking"
         ],
 
-        answer: 0,
-
         explanation:
             "Latin influenced many words used in English today.",
 
         difficulty: 1,
-
+        correctAnswer: "Latin",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -154,13 +144,11 @@ export const romanLegacy: SkillContent = {
             "Cars"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman roads and bridges helped people travel across Britain.",
 
         difficulty: 1,
-
+        correctAnswer: "Roads and bridges",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -179,13 +167,11 @@ export const romanLegacy: SkillContent = {
             "Training soldiers"
         ],
 
-        answer: 0,
-
         explanation:
             "Archaeologists study evidence left behind by people in the past.",
 
         difficulty: 1,
-
+        correctAnswer: "The study of the past through remains and objects",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -204,13 +190,11 @@ export const romanLegacy: SkillContent = {
             "Because there are no records"
         ],
 
-        answer: 0,
-
         explanation:
             "Historians use evidence to learn about the past.",
 
         difficulty: 1,
-
+        correctAnswer: "Because of evidence such as ruins, objects and writing",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -229,13 +213,11 @@ export const romanLegacy: SkillContent = {
             "Airports"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman baths are examples of buildings that have survived.",
 
         difficulty: 1,
-
+        correctAnswer: "Baths",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -254,13 +236,11 @@ export const romanLegacy: SkillContent = {
             "They stopped trade"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman rule changed many parts of life in Britain.",
 
         difficulty: 1,
-
+        correctAnswer: "They introduced new buildings, roads and customs",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -279,13 +259,11 @@ export const romanLegacy: SkillContent = {
             "They have no information"
         ],
 
-        answer: 0,
-
         explanation:
             "Ruins provide clues about how people lived in the past.",
 
         difficulty: 2,
-
+        correctAnswer: "They help historians understand Roman life",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -304,13 +282,11 @@ export const romanLegacy: SkillContent = {
             "Modern television"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman planning influenced how settlements were organised.",
 
         difficulty: 2,
-
+        correctAnswer: "Planning towns and roads",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -329,13 +305,11 @@ export const romanLegacy: SkillContent = {
             "They were only forests"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman towns became important places for people and businesses.",
 
         difficulty: 2,
-
+        correctAnswer: "They became centres for trade and community life",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -354,13 +328,11 @@ export const romanLegacy: SkillContent = {
             "Computer files"
         ],
 
-        answer: 0,
-
         explanation:
             "Objects from Roman sites help historians learn about the past.",
 
         difficulty: 2,
-
+        correctAnswer: "Coins, pottery and buildings",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -379,13 +351,11 @@ export const romanLegacy: SkillContent = {
             "They were only used in Rome"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman engineering continued to affect Britain.",
 
         difficulty: 2,
-
+        correctAnswer: "They continue to influence travel today",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -404,13 +374,11 @@ export const romanLegacy: SkillContent = {
             "Internet"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman culture brought many changes to Britain.",
 
         difficulty: 2,
-
+        correctAnswer: "New ways of building, writing and organising society",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -429,13 +397,11 @@ export const romanLegacy: SkillContent = {
             "To ignore history"
         ],
 
-        answer: 0,
-
         explanation:
             "Using different evidence helps historians make accurate conclusions.",
 
         difficulty: 2,
-
+        correctAnswer: "To build a clearer understanding of the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -454,13 +420,11 @@ export const romanLegacy: SkillContent = {
             "Airplanes"
         ],
 
-        answer: 0,
-
         explanation:
             "Roads and towns are examples of Roman changes that lasted.",
 
         difficulty: 2,
-
+        correctAnswer: "Roads and towns",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -479,13 +443,11 @@ export const romanLegacy: SkillContent = {
             "There is no evidence"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman Britain had a lasting impact on the country.",
 
         difficulty: 2,
-
+        correctAnswer: "It helped shape parts of Britain today",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "legacy"]
@@ -504,13 +466,11 @@ export const romanLegacy: SkillContent = {
             "The Romans arrived recently"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman influence can still be seen in Britain today.",
 
         difficulty: 2,
-
+        correctAnswer: "The Romans left lasting changes in roads, towns and culture",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "roman-britain", "legacy"]

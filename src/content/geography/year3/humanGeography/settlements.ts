@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const settlements: SkillContent = {
 
@@ -28,13 +28,11 @@ export const settlements: SkillContent = {
             "A mountain"
         ],
 
-        answer: 0,
-
         explanation:
             "A settlement is any place where people live, such as a village, town or city.",
 
         difficulty: 1,
-
+        correctAnswer: "A place where people live",
         estimatedSeconds: 15,
 
         tags: ["geography", "settlements"]
@@ -52,13 +50,11 @@ export const settlements: SkillContent = {
             "Capital"
         ],
 
-        answer: 0,
-
         explanation:
             "Villages are usually smaller than towns and cities.",
 
         difficulty: 1,
-
+        correctAnswer: "Village",
         estimatedSeconds: 15,
 
         tags: ["geography", "settlements"]
@@ -76,13 +72,11 @@ export const settlements: SkillContent = {
             "Country"
         ],
 
-        answer: 0,
-
         explanation:
             "A town is usually larger than a village but smaller than a city.",
 
         difficulty: 1,
-
+        correctAnswer: "Town",
         estimatedSeconds: 15,
 
         tags: ["geography", "towns"]
@@ -100,13 +94,11 @@ export const settlements: SkillContent = {
             "Farm"
         ],
 
-        answer: 0,
-
         explanation:
             "Cities usually have the largest populations and the most buildings.",
 
         difficulty: 1,
-
+        correctAnswer: "City",
         estimatedSeconds: 15,
 
         tags: ["geography", "cities"]
@@ -124,13 +116,11 @@ export const settlements: SkillContent = {
             "Jungles"
         ],
 
-        answer: 0,
-
         explanation:
             "Settlements are places where people build homes and communities.",
 
         difficulty: 1,
-
+        correctAnswer: "Homes",
         estimatedSeconds: 15,
 
         tags: ["geography", "homes"]
@@ -148,13 +138,11 @@ export const settlements: SkillContent = {
             "Capital city"
         ],
 
-        answer: 0,
-
         explanation:
             "Villages usually have smaller populations than towns and cities.",
 
         difficulty: 1,
-
+        correctAnswer: "Village",
         estimatedSeconds: 15,
 
         tags: ["geography", "population"]
@@ -172,13 +160,11 @@ export const settlements: SkillContent = {
             "Farm"
         ],
 
-        answer: 0,
-
         explanation:
             "Cities usually have many shops because more people live there.",
 
         difficulty: 1,
-
+        correctAnswer: "City",
         estimatedSeconds: 15,
 
         tags: ["geography", "services"]
@@ -196,13 +182,11 @@ export const settlements: SkillContent = {
             "A map symbol"
         ],
 
-        answer: 0,
-
         explanation:
             "Population means the number of people living in a place.",
 
         difficulty: 1,
-
+        correctAnswer: "The number of people living in a place",
         estimatedSeconds: 20,
 
         tags: ["geography", "population"]
@@ -220,13 +204,11 @@ export const settlements: SkillContent = {
             "Woodland"
         ],
 
-        answer: 0,
-
         explanation:
             "Large hospitals are usually found in cities where more people live.",
 
         difficulty: 1,
-
+        correctAnswer: "City",
         estimatedSeconds: 20,
 
         tags: ["geography", "services"]
@@ -244,13 +226,11 @@ export const settlements: SkillContent = {
             "Cities never have schools."
         ],
 
-        answer: 0,
-
         explanation:
             "Settlements come in different sizes, and people live in all of them.",
 
         difficulty: 1,
-
+        correctAnswer: "People live in villages, towns and cities.",
         estimatedSeconds: 20,
 
         tags: ["geography", "settlements"]
@@ -268,13 +248,11 @@ export const settlements: SkillContent = {
             "Rivers created roads."
         ],
 
-        answer: 0,
-
         explanation:
             "People needed fresh water for drinking, farming and washing.",
 
         difficulty: 2,
-
+        correctAnswer: "Rivers provided fresh water.",
         estimatedSeconds: 20,
 
         tags: ["geography", "rivers"]
@@ -292,13 +270,11 @@ export const settlements: SkillContent = {
             "Roads stop the weather."
         ],
 
-        answer: 0,
-
         explanation:
             "Roads help people travel to work, school and shops.",
 
         difficulty: 2,
-
+        correctAnswer: "It makes travelling and transporting goods easier.",
         estimatedSeconds: 20,
 
         tags: ["geography", "transport"]
@@ -316,13 +292,11 @@ export const settlements: SkillContent = {
             "Villages are underground."
         ],
 
-        answer: 0,
-
         explanation:
             "Larger populations need more schools and other services.",
 
         difficulty: 2,
-
+        correctAnswer: "More people live there.",
         estimatedSeconds: 20,
 
         tags: ["geography", "services"]
@@ -340,13 +314,11 @@ export const settlements: SkillContent = {
             "Farm"
         ],
 
-        answer: 0,
-
         explanation:
             "Cities have more people and vehicles using the roads.",
 
         difficulty: 2,
-
+        correctAnswer: "City",
         estimatedSeconds: 20,
 
         tags: ["geography", "transport"]
@@ -364,13 +336,11 @@ export const settlements: SkillContent = {
             "Roads disappear."
         ],
 
-        answer: 0,
-
         explanation:
             "As more people move into an area, new homes and services are built.",
 
         difficulty: 2,
-
+        correctAnswer: "More people move there.",
         estimatedSeconds: 20,
 
         tags: ["geography", "population"]
@@ -388,13 +358,11 @@ export const settlements: SkillContent = {
             "Forest"
         ],
 
-        answer: 0,
-
         explanation:
             "Cities usually have buses, trains and other transport because many people need them.",
 
         difficulty: 2,
-
+        correctAnswer: "City",
         estimatedSeconds: 20,
 
         tags: ["geography", "transport"]
@@ -412,13 +380,11 @@ export const settlements: SkillContent = {
             "To stop traffic."
         ],
 
-        answer: 0,
-
         explanation:
             "Shops provide food, clothes and other everyday items.",
 
         difficulty: 2,
-
+        correctAnswer: "So people can buy the things they need.",
         estimatedSeconds: 20,
 
         tags: ["geography", "services"]
@@ -436,13 +402,11 @@ export const settlements: SkillContent = {
             "Farm"
         ],
 
-        answer: 0,
-
         explanation:
             "Cities usually have the largest populations.",
 
         difficulty: 2,
-
+        correctAnswer: "City",
         estimatedSeconds: 20,
 
         tags: ["geography", "population"]
@@ -460,13 +424,11 @@ export const settlements: SkillContent = {
             "They are always in mountains."
         ],
 
-        answer: 0,
-
         explanation:
             "Settlements offer homes and important services such as schools and shops.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide homes, jobs and services.",
         estimatedSeconds: 20,
 
         tags: ["geography", "settlements"]
@@ -484,13 +446,11 @@ export const settlements: SkillContent = {
             "A mountain range."
         ],
 
-        answer: 0,
-
         explanation:
             "Settlements include all places where people have built communities.",
 
         difficulty: 2,
-
+        correctAnswer: "A place where people live and work, such as a village, town or city.",
         estimatedSeconds: 20,
 
         tags: ["geography", "settlements", "human-geography"]

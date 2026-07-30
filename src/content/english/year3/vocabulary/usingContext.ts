@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const usingContext: SkillContent = {
 
@@ -28,13 +28,11 @@ export const usingContext: SkillContent = {
             "Very dark"
         ],
 
-        answer: 0,
-
         explanation:
             "The clue 'wrapped a scarf around his neck' tells us it must be very cold.",
 
         difficulty: 1,
-
+        correctAnswer: "Very cold",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -52,13 +50,11 @@ export const usingContext: SkillContent = {
             "Laughed loudly"
         ],
 
-        answer: 0,
-
         explanation:
             "The clue 'nobody else could hear her' tells us she spoke very softly.",
 
         difficulty: 1,
-
+        correctAnswer: "Spoke very softly",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -76,13 +72,11 @@ export const usingContext: SkillContent = {
             "Very playful"
         ],
 
-        answer: 0,
-
         explanation:
             "Running all afternoon is a clue that the puppy was very tired.",
 
         difficulty: 1,
-
+        correctAnswer: "Very tired",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -100,13 +94,11 @@ export const usingContext: SkillContent = {
             "Fell asleep"
         ],
 
-        answer: 0,
-
         explanation:
             "The clue 'into tiny pieces' tells us the glass broke apart.",
 
         difficulty: 1,
-
+        correctAnswer: "Broke into many pieces",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -124,13 +116,11 @@ export const usingContext: SkillContent = {
             "Closed a book"
         ],
 
-        answer: 0,
-
         explanation:
             "Smiling is the clue that the teacher said something positive.",
 
         difficulty: 1,
-
+        correctAnswer: "Said something nice",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -148,13 +138,11 @@ export const usingContext: SkillContent = {
             "Made of wood"
         ],
 
-        answer: 0,
-
         explanation:
             "The dirty marks tell us the boots were covered in mud.",
 
         difficulty: 1,
-
+        correctAnswer: "Covered in mud",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -172,13 +160,11 @@ export const usingContext: SkillContent = {
             "Friendly"
         ],
 
-        answer: 0,
-
         explanation:
             "The clue that other animals stay away suggests the lion is dangerous.",
 
         difficulty: 1,
-
+        correctAnswer: "Dangerous",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -196,13 +182,11 @@ export const usingContext: SkillContent = {
             "Started singing"
         ],
 
-        answer: 0,
-
         explanation:
             "Wanting to catch the bus is the clue that Sam moved quickly.",
 
         difficulty: 1,
-
+        correctAnswer: "Moved quickly",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -220,13 +204,11 @@ export const usingContext: SkillContent = {
             "Very thin"
         ],
 
-        answer: 0,
-
         explanation:
             "Being taller than every other tree tells us it is very large.",
 
         difficulty: 1,
-
+        correctAnswer: "Very large",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -244,13 +226,11 @@ export const usingContext: SkillContent = {
             "Capital letters"
         ],
 
-        answer: 0,
-
         explanation:
             "Context clues are the surrounding words and sentences that help us understand new vocabulary.",
 
         difficulty: 1,
-
+        correctAnswer: "Words around an unfamiliar word that help explain its meaning",
         estimatedSeconds: 20,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -268,13 +248,11 @@ export const usingContext: SkillContent = {
             "Very rough"
         ],
 
-        answer: 0,
-
         explanation:
             "Only one person fitting is the clue that the path is not very wide.",
 
         difficulty: 2,
-
+        correctAnswer: "Not very wide",
         estimatedSeconds: 25,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -292,13 +270,11 @@ export const usingContext: SkillContent = {
             "Very worried"
         ],
 
-        answer: 0,
-
         explanation:
             "Opening a birthday present happily is the clue that she was very pleased.",
 
         difficulty: 2,
-
+        correctAnswer: "Very pleased",
         estimatedSeconds: 25,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -316,13 +292,11 @@ export const usingContext: SkillContent = {
             "Busy"
         ],
 
-        answer: 0,
-
         explanation:
             "Hardly any sunlight is the clue that the cave is dark.",
 
         difficulty: 2,
-
+        correctAnswer: "Dark",
         estimatedSeconds: 25,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -340,13 +314,11 @@ export const usingContext: SkillContent = {
             "Very thick"
         ],
 
-        answer: 0,
-
         explanation:
             "Waiting before drinking is the clue that the soup is very hot.",
 
         difficulty: 2,
-
+        correctAnswer: "Very hot",
         estimatedSeconds: 25,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -364,13 +336,11 @@ export const usingContext: SkillContent = {
             "Calm"
         ],
 
-        answer: 0,
-
         explanation:
             "Performing in front of many people is a clue that Jack felt worried.",
 
         difficulty: 2,
-
+        correctAnswer: "Worried",
         estimatedSeconds: 25,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -388,13 +358,11 @@ export const usingContext: SkillContent = {
             "Fell over"
         ],
 
-        answer: 0,
-
         explanation:
             "Trying not to be seen is the clue that it moved slowly and quietly.",
 
         difficulty: 2,
-
+        correctAnswer: "Moved slowly and quietly",
         estimatedSeconds: 25,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -412,13 +380,11 @@ export const usingContext: SkillContent = {
             "Very busy"
         ],
 
-        answer: 0,
-
         explanation:
             "During a test everyone stays quiet, which explains the word.",
 
         difficulty: 2,
-
+        correctAnswer: "Very quiet",
         estimatedSeconds: 25,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -436,13 +402,11 @@ export const usingContext: SkillContent = {
             "Feeling excited"
         ],
 
-        answer: 0,
-
         explanation:
             "Drinking all their water tells us they needed a drink.",
 
         difficulty: 2,
-
+        correctAnswer: "Needing a drink",
         estimatedSeconds: 25,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -460,13 +424,11 @@ export const usingContext: SkillContent = {
             "Fell asleep"
         ],
 
-        answer: 0,
-
         explanation:
             "Winning the match is the clue that the crowd shouted happily.",
 
         difficulty: 2,
-
+        correctAnswer: "Shouted happily",
         estimatedSeconds: 25,
 
         tags: ["english", "vocabulary", "context-clues"]
@@ -484,13 +446,11 @@ export const usingContext: SkillContent = {
             "Only look at the first letter"
         ],
 
-        answer: 0,
-
         explanation:
             "The surrounding words and sentences often provide helpful clues about a word's meaning.",
 
         difficulty: 2,
-
+        correctAnswer: "Read the words around it for clues",
         estimatedSeconds: 25,
 
         tags: ["english", "vocabulary", "context-clues"]

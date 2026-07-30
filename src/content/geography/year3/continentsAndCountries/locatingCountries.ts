@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const locatingCountries: SkillContent = {
 
@@ -29,13 +29,11 @@ export const locatingCountries: SkillContent = {
             "A mountain range"
         ],
 
-        answer: 0,
-
         explanation:
             "Countries are areas of land with their own governments and boundaries.",
 
         difficulty: 1,
-
+        correctAnswer: "An area of land with its own government and borders",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -54,13 +52,11 @@ export const locatingCountries: SkillContent = {
             "Where mountains grow"
         ],
 
-        answer: 0,
-
         explanation:
             "Borders separate different countries.",
 
         difficulty: 1,
-
+        correctAnswer: "Where one country ends and another begins",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -79,13 +75,11 @@ export const locatingCountries: SkillContent = {
             "A compass only"
         ],
 
-        answer: 0,
-
         explanation:
             "Maps and globes show the locations of countries.",
 
         difficulty: 1,
-
+        correctAnswer: "A map or globe",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -104,13 +98,11 @@ export const locatingCountries: SkillContent = {
             "An ocean current"
         ],
 
-        answer: 0,
-
         explanation:
             "The equator divides Earth into the Northern and Southern Hemispheres.",
 
         difficulty: 1,
-
+        correctAnswer: "An imaginary line around the middle of Earth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "equator"]
@@ -129,13 +121,11 @@ export const locatingCountries: SkillContent = {
             "Climate Regions"
         ],
 
-        answer: 0,
-
         explanation:
             "The equator separates the Northern and Southern Hemispheres.",
 
         difficulty: 1,
-
+        correctAnswer: "Northern and Southern Hemispheres",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "hemispheres"]
@@ -154,13 +144,11 @@ export const locatingCountries: SkillContent = {
             "Only the Southern Hemisphere"
         ],
 
-        answer: 0,
-
         explanation:
             "The UK is north of the equator.",
 
         difficulty: 1,
-
+        correctAnswer: "Northern Hemisphere",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "uk"]
@@ -179,13 +167,11 @@ export const locatingCountries: SkillContent = {
             "Asia"
         ],
 
-        answer: 0,
-
         explanation:
             "Brazil is a country in South America.",
 
         difficulty: 1,
-
+        correctAnswer: "South America",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -204,13 +190,11 @@ export const locatingCountries: SkillContent = {
             "South America"
         ],
 
-        answer: 0,
-
         explanation:
             "Japan is an island country in Asia.",
 
         difficulty: 1,
-
+        correctAnswer: "Asia",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -229,13 +213,11 @@ export const locatingCountries: SkillContent = {
             "Australia"
         ],
 
-        answer: 0,
-
         explanation:
             "Kenya is a country in eastern Africa.",
 
         difficulty: 1,
-
+        correctAnswer: "Africa",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -254,13 +236,11 @@ export const locatingCountries: SkillContent = {
             "Africa"
         ],
 
-        answer: 0,
-
         explanation:
             "Canada is located in North America.",
 
         difficulty: 1,
-
+        correctAnswer: "North America",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -279,13 +259,11 @@ export const locatingCountries: SkillContent = {
             "A mountain feature"
         ],
 
-        answer: 0,
-
         explanation:
             "An atlas contains collections of maps.",
 
         difficulty: 1,
-
+        correctAnswer: "A book containing maps",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -304,13 +282,11 @@ export const locatingCountries: SkillContent = {
             "Weather patterns"
         ],
 
-        answer: 0,
-
         explanation:
             "Political maps show countries, borders and cities.",
 
         difficulty: 2,
-
+        correctAnswer: "Countries and their borders",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -329,13 +305,11 @@ export const locatingCountries: SkillContent = {
             "Population numbers only"
         ],
 
-        answer: 0,
-
         explanation:
             "Physical maps show features of the natural landscape.",
 
         difficulty: 2,
-
+        correctAnswer: "Natural features such as mountains and rivers",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -354,13 +328,11 @@ export const locatingCountries: SkillContent = {
             "To create borders"
         ],
 
-        answer: 0,
-
         explanation:
             "Grid references help people locate specific places on maps.",
 
         difficulty: 2,
-
+        correctAnswer: "To find exact locations",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -379,13 +351,11 @@ export const locatingCountries: SkillContent = {
             "A rural village"
         ],
 
-        answer: 0,
-
         explanation:
             "Capital cities are important government centres.",
 
         difficulty: 1,
-
+        correctAnswer: "The main city where a country's government is based",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -404,13 +374,11 @@ export const locatingCountries: SkillContent = {
             "Cardiff"
         ],
 
-        answer: 0,
-
         explanation:
             "London is the capital city of the United Kingdom.",
 
         difficulty: 1,
-
+        correctAnswer: "London",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "uk"]
@@ -429,13 +397,11 @@ export const locatingCountries: SkillContent = {
             "To stop travel"
         ],
 
-        answer: 0,
-
         explanation:
             "Location knowledge helps us understand relationships between places.",
 
         difficulty: 1,
-
+        correctAnswer: "To understand where places are in the world",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "countries"]
@@ -454,13 +420,11 @@ export const locatingCountries: SkillContent = {
             "A ruler"
         ],
 
-        answer: 0,
-
         explanation:
             "A compass helps identify directions such as north and south.",
 
         difficulty: 1,
-
+        correctAnswer: "A compass",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "directions"]
@@ -479,13 +443,11 @@ export const locatingCountries: SkillContent = {
             "Borders control weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Location, latitude and physical features affect climate.",
 
         difficulty: 2,
-
+        correctAnswer: "Their locations and physical features are different",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -504,13 +466,11 @@ export const locatingCountries: SkillContent = {
             "Maps do not show locations"
         ],
 
-        answer: 0,
-
         explanation:
             "Maps and globes help us understand where places are located.",
 
         difficulty: 2,
-
+        correctAnswer: "Maps help us find countries, continents and their positions on Earth",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "countries"]

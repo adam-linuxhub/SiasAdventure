@@ -28,13 +28,11 @@ export const waterCycle: SkillContent = {
             "A way of making ice"
         ],
 
-        answer: 0,
-
         explanation:
             "The water cycle describes how water moves between Earth's surface and the atmosphere.",
 
         difficulty: 1,
-
+        correctAnswer: "The continuous movement of water around Earth",
         estimatedSeconds: 15,
 
         tags: ["science", "water-cycle"]
@@ -52,13 +50,11 @@ export const waterCycle: SkillContent = {
             "Melting"
         ],
 
-        answer: 0,
-
         explanation:
             "Heat from the Sun causes water to evaporate into water vapour.",
 
         difficulty: 1,
-
+        correctAnswer: "Evaporation",
         estimatedSeconds: 15,
 
         tags: ["science", "water-cycle", "evaporation"]
@@ -76,13 +72,11 @@ export const waterCycle: SkillContent = {
             "Oxygen"
         ],
 
-        answer: 0,
-
         explanation:
             "Clouds form from tiny droplets of water created by condensation.",
 
         difficulty: 1,
-
+        correctAnswer: "Tiny water droplets",
         estimatedSeconds: 15,
 
         tags: ["science", "clouds"]
@@ -100,13 +94,11 @@ export const waterCycle: SkillContent = {
             "A liquid becoming a gas"
         ],
 
-        answer: 0,
-
         explanation:
             "Condensation happens when water vapour cools and becomes tiny liquid droplets.",
 
         difficulty: 1,
-
+        correctAnswer: "Water vapour cooling into liquid water",
         estimatedSeconds: 15,
 
         tags: ["science", "condensation"]
@@ -124,13 +116,11 @@ export const waterCycle: SkillContent = {
             "The Sun heating water"
         ],
 
-        answer: 0,
-
         explanation:
             "Precipitation is water falling from clouds back to Earth.",
 
         difficulty: 1,
-
+        correctAnswer: "Rain, snow, sleet or hail falling from clouds",
         estimatedSeconds: 15,
 
         tags: ["science", "precipitation"]
@@ -148,13 +138,11 @@ export const waterCycle: SkillContent = {
             "Water vapour"
         ],
 
-        answer: 0,
-
         explanation:
             "Rain is one form of precipitation.",
 
         difficulty: 1,
-
+        correctAnswer: "Rain",
         estimatedSeconds: 15,
 
         tags: ["science", "precipitation"]
@@ -172,13 +160,11 @@ export const waterCycle: SkillContent = {
             "The Sun"
         ],
 
-        answer: 0,
-
         explanation:
             "Water collects in rivers, lakes and oceans before the cycle begins again.",
 
         difficulty: 1,
-
+        correctAnswer: "Rivers, lakes and oceans",
         estimatedSeconds: 15,
 
         tags: ["science", "collection"]
@@ -196,13 +182,11 @@ export const waterCycle: SkillContent = {
             "Trees"
         ],
 
-        answer: 0,
-
         explanation:
             "The Sun provides the heat that drives evaporation.",
 
         difficulty: 1,
-
+        correctAnswer: "The Sun",
         estimatedSeconds: 20,
 
         tags: ["science", "water-cycle"]
@@ -220,13 +204,11 @@ export const waterCycle: SkillContent = {
             "It becomes soil."
         ],
 
-        answer: 0,
-
         explanation:
             "Water vapour rises, cools and condenses into clouds.",
 
         difficulty: 1,
-
+        correctAnswer: "It cools and forms clouds.",
         estimatedSeconds: 20,
 
         tags: ["science", "water-cycle"]
@@ -244,13 +226,11 @@ export const waterCycle: SkillContent = {
             "Clouds are made of rock."
         ],
 
-        answer: 0,
-
         explanation:
             "The water cycle is continuous.",
 
         difficulty: 1,
-
+        correctAnswer: "The water cycle happens over and over again.",
         estimatedSeconds: 20,
 
         tags: ["science", "water-cycle"]
@@ -268,13 +248,11 @@ export const waterCycle: SkillContent = {
             "Rain pushes water upwards."
         ],
 
-        answer: 0,
-
         explanation:
             "As water vapour rises, it cools and condenses into tiny droplets.",
 
         difficulty: 2,
-
+        correctAnswer: "Water vapour cools and condenses there.",
         estimatedSeconds: 20,
 
         tags: ["science", "clouds", "condensation"]
@@ -292,13 +270,11 @@ export const waterCycle: SkillContent = {
             "The wind freezes the clouds."
         ],
 
-        answer: 0,
-
         explanation:
             "When droplets join together and become heavy enough, they fall as precipitation.",
 
         difficulty: 2,
-
+        correctAnswer: "Water droplets become too heavy to stay in the cloud.",
         estimatedSeconds: 20,
 
         tags: ["science", "precipitation"]
@@ -316,13 +292,11 @@ export const waterCycle: SkillContent = {
             "Precipitation → Evaporation → Collection → Condensation"
         ],
 
-        answer: 0,
-
         explanation:
             "These are the main stages of the water cycle.",
 
         difficulty: 2,
-
+        correctAnswer: "Evaporation → Condensation → Precipitation → Collection",
         estimatedSeconds: 20,
 
         tags: ["science", "water-cycle"]
@@ -340,13 +314,11 @@ export const waterCycle: SkillContent = {
             "It turns into air."
         ],
 
-        answer: 0,
-
         explanation:
             "Collected water eventually returns to the water cycle.",
 
         difficulty: 2,
-
+        correctAnswer: "It flows into rivers, lakes or oceans, or soaks into the ground.",
         estimatedSeconds: 20,
 
         tags: ["science", "collection"]
@@ -364,13 +336,11 @@ export const waterCycle: SkillContent = {
             "Precipitation"
         ],
 
-        answer: 0,
-
         explanation:
             "Evaporation changes liquid water into a gas.",
 
         difficulty: 2,
-
+        correctAnswer: "Evaporation",
         estimatedSeconds: 20,
 
         tags: ["science", "evaporation"]
@@ -388,13 +358,11 @@ export const waterCycle: SkillContent = {
             "It freezes rivers."
         ],
 
-        answer: 0,
-
         explanation:
             "Without heat from the Sun, evaporation would not happen as part of the water cycle.",
 
         difficulty: 2,
-
+        correctAnswer: "It provides the heat needed for evaporation.",
         estimatedSeconds: 20,
 
         tags: ["science", "water-cycle"]
@@ -412,13 +380,11 @@ export const waterCycle: SkillContent = {
             "Freezing"
         ],
 
-        answer: 0,
-
         explanation:
             "Clouds form by condensation before precipitation occurs.",
 
         difficulty: 2,
-
+        correctAnswer: "Condensation",
         estimatedSeconds: 20,
 
         tags: ["science", "condensation", "precipitation"]
@@ -436,13 +402,11 @@ export const waterCycle: SkillContent = {
             "Because it always starts with rain."
         ],
 
-        answer: 0,
-
         explanation:
             "Water is constantly recycled through evaporation, condensation, precipitation and collection.",
 
         difficulty: 2,
-
+        correctAnswer: "Because it repeats continuously.",
         estimatedSeconds: 20,
 
         tags: ["science", "water-cycle"]
@@ -460,13 +424,11 @@ export const waterCycle: SkillContent = {
             "Heating"
         ],
 
-        answer: 0,
-
         explanation:
             "Rain and other forms of precipitation return water to Earth's surface.",
 
         difficulty: 2,
-
+        correctAnswer: "Precipitation",
         estimatedSeconds: 20,
 
         tags: ["science", "precipitation"]
@@ -484,13 +446,11 @@ export const waterCycle: SkillContent = {
             "Rain is created directly by the Sun."
         ],
 
-        answer: 0,
-
         explanation:
             "The water cycle is a continuous process that moves water around Earth.",
 
         difficulty: 2,
-
+        correctAnswer: "Water is continuously recycled through evaporation, condensation, precipitation and collection.",
         estimatedSeconds: 20,
 
         tags: ["science", "water-cycle", "evaporation", "condensation", "precipitation"]

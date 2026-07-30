@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const verbs: SkillContent = {
 
@@ -28,13 +28,11 @@ export const verbs: SkillContent = {
             "quickly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Run' is a verb because it is an action.",
 
         difficulty: 1,
-
+        correctAnswer: "run",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "verbs"]
@@ -52,13 +50,11 @@ export const verbs: SkillContent = {
             "slowly"
         ],
 
-        answer: 0,
-
         explanation:
             "Verbs tell us what someone or something does.",
 
         difficulty: 1,
-
+        correctAnswer: "jump",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "verbs"]
@@ -76,13 +72,11 @@ export const verbs: SkillContent = {
             "garden"
         ],
 
-        answer: 0,
-
         explanation:
             "'Eat' is an action, so it is a verb.",
 
         difficulty: 1,
-
+        correctAnswer: "eat",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "verbs"]
@@ -100,13 +94,11 @@ export const verbs: SkillContent = {
             "night"
         ],
 
-        answer: 0,
-
         explanation:
             "'Sleep' is something that people do.",
 
         difficulty: 1,
-
+        correctAnswer: "sleep",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "verbs"]
@@ -124,13 +116,11 @@ export const verbs: SkillContent = {
             "loud"
         ],
 
-        answer: 0,
-
         explanation:
             "'Laugh' is an action.",
 
         difficulty: 1,
-
+        correctAnswer: "laugh",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "verbs"]
@@ -148,13 +138,11 @@ export const verbs: SkillContent = {
             "yellow"
         ],
 
-        answer: 0,
-
         explanation:
             "'Write' tells us what someone is doing.",
 
         difficulty: 1,
-
+        correctAnswer: "write",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "verbs"]
@@ -172,13 +160,11 @@ export const verbs: SkillContent = {
             "The small bird."
         ],
 
-        answer: 0,
-
         explanation:
             "'Sings' is the verb because it tells us the action.",
 
         difficulty: 1,
-
+        correctAnswer: "The bird sings.",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "verbs"]
@@ -196,13 +182,11 @@ export const verbs: SkillContent = {
             "fish"
         ],
 
-        answer: 0,
-
         explanation:
             "'Swim' is the action word.",
 
         difficulty: 1,
-
+        correctAnswer: "swim",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -220,13 +204,11 @@ export const verbs: SkillContent = {
             "A happy cat."
         ],
 
-        answer: 0,
-
         explanation:
             "'Climbed' is the action in the sentence.",
 
         difficulty: 1,
-
+        correctAnswer: "The cat climbed the tree.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -244,13 +226,11 @@ export const verbs: SkillContent = {
             "walk"
         ],
 
-        answer: 0,
-
         explanation:
             "'House' is a noun because it names a place.",
 
         difficulty: 1,
-
+        correctAnswer: "house",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -268,13 +248,11 @@ export const verbs: SkillContent = {
             "quickly, slowly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Run' and 'jump' are both action words.",
 
         difficulty: 2,
-
+        correctAnswer: "run, jump",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -292,13 +270,11 @@ export const verbs: SkillContent = {
             "The tall tree."
         ],
 
-        answer: 0,
-
         explanation:
             "'Ran' and 'laughed' are both verbs.",
 
         difficulty: 2,
-
+        correctAnswer: "Sam ran and laughed.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -316,13 +292,11 @@ export const verbs: SkillContent = {
             "draw"
         ],
 
-        answer: 0,
-
         explanation:
             "'Garden' is a noun.",
 
         difficulty: 2,
-
+        correctAnswer: "garden",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar"]
@@ -340,13 +314,11 @@ export const verbs: SkillContent = {
             "away"
         ],
 
-        answer: 0,
-
         explanation:
             "'Hopped' tells us what the rabbit did.",
 
         difficulty: 2,
-
+        correctAnswer: "hopped",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -364,13 +336,11 @@ export const verbs: SkillContent = {
             "The children playground."
         ],
 
-        answer: 0,
-
         explanation:
             "'Played' is the verb that tells us the action.",
 
         difficulty: 2,
-
+        correctAnswer: "The children played outside.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -388,13 +358,11 @@ export const verbs: SkillContent = {
             "blanket"
         ],
 
-        answer: 0,
-
         explanation:
             "'Cried' is the action that completes the sentence.",
 
         difficulty: 2,
-
+        correctAnswer: "cried",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -412,13 +380,11 @@ export const verbs: SkillContent = {
             "The old library."
         ],
 
-        answer: 0,
-
         explanation:
             "'Read' tells us what 'we' did.",
 
         difficulty: 2,
-
+        correctAnswer: "We read a story.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -436,13 +402,11 @@ export const verbs: SkillContent = {
             "the"
         ],
 
-        answer: 0,
-
         explanation:
             "'Cooked' is the action in the sentence.",
 
         difficulty: 2,
-
+        correctAnswer: "cooked",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -460,13 +424,11 @@ export const verbs: SkillContent = {
             "The smiling girl and boy."
         ],
 
-        answer: 0,
-
         explanation:
             "'Smiled' is the only verb in the sentence.",
 
         difficulty: 2,
-
+        correctAnswer: "The girl smiled.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]
@@ -484,13 +446,11 @@ export const verbs: SkillContent = {
             "Oliver happy door."
         ],
 
-        answer: 0,
-
         explanation:
             "'Opened' and 'waved' are both verbs that describe Oliver's actions.",
 
         difficulty: 2,
-
+        correctAnswer: "Oliver opened the door and waved.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "verbs"]

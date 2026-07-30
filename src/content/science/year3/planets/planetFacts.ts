@@ -28,13 +28,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury is the closest planet to the Sun.",
 
         difficulty: 1,
-
+        correctAnswer: "Mercury",
         estimatedSeconds: 10,
 
         tags: [
@@ -56,13 +54,11 @@ export const planetFacts: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is the planet where all known life exists.",
 
         difficulty: 1,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 10,
 
         tags: [
@@ -84,13 +80,11 @@ export const planetFacts: SkillContent = {
             "Saturn"
         ],
 
-        answer: 0,
-
         explanation:
             "Mars looks red because of rusty iron-rich dust covering its surface.",
 
         difficulty: 1,
-
+        correctAnswer: "Mars",
         estimatedSeconds: 10,
 
         tags: [
@@ -112,13 +106,11 @@ export const planetFacts: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is the largest planet in the Solar System.",
 
         difficulty: 1,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 10,
 
         tags: [
@@ -140,13 +132,11 @@ export const planetFacts: SkillContent = {
             "Earth"
         ],
 
-        answer: 0,
-
         explanation:
             "Saturn's beautiful rings make it one of the easiest planets to recognise.",
 
         difficulty: 1,
-
+        correctAnswer: "Saturn",
         estimatedSeconds: 10,
 
         tags: [
@@ -168,13 +158,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Uranus rotates almost on its side compared with the other planets.",
 
         difficulty: 1,
-
+        correctAnswer: "Uranus",
         estimatedSeconds: 15,
 
         tags: [
@@ -196,13 +184,11 @@ export const planetFacts: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune is the eighth and most distant planet from the Sun.",
 
         difficulty: 1,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 10,
 
         tags: [
@@ -224,13 +210,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus is the hottest planet because its thick atmosphere traps heat.",
 
         difficulty: 2,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 15,
 
         tags: [
@@ -252,13 +236,11 @@ export const planetFacts: SkillContent = {
             "Mercury"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth has one natural satellite, usually called the Moon.",
 
         difficulty: 2,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 15,
 
         tags: [
@@ -281,13 +263,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "The Great Red Spot is a huge storm that has been raging on Jupiter for many years.",
 
         difficulty: 2,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 20,
 
         tags: [
@@ -310,13 +290,11 @@ export const planetFacts: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury travels around the Sun faster than any other planet.",
 
         difficulty: 2,
-
+        correctAnswer: "Mercury",
         estimatedSeconds: 20,
 
         tags: [
@@ -339,13 +317,11 @@ export const planetFacts: SkillContent = {
             "Uranus"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune takes about 165 Earth years to travel once around the Sun.",
 
         difficulty: 2,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 20,
 
         tags: [
@@ -368,13 +344,11 @@ export const planetFacts: SkillContent = {
             "Mercury"
         ],
 
-        answer: 0,
-
         explanation:
             "Thick clouds completely cover Venus, hiding its surface.",
 
         difficulty: 2,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 20,
 
         tags: [
@@ -396,13 +370,11 @@ export const planetFacts: SkillContent = {
             "Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Olympus Mons on Mars is the largest known volcano in the Solar System.",
 
         difficulty: 2,
-
+        correctAnswer: "Mars",
         estimatedSeconds: 20,
 
         tags: [
@@ -425,13 +397,11 @@ export const planetFacts: SkillContent = {
             "Saturn"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus is almost the same size as Earth, although the two planets are very different.",
 
         difficulty: 2,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 20,
 
         tags: [
@@ -453,14 +423,12 @@ export const planetFacts: SkillContent = {
             "Uranus and Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury and Venus are the only planets in our Solar System with no known moons.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "Mercury and Venus",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -483,13 +451,11 @@ export const planetFacts: SkillContent = {
             "Saturn"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth has one natural satellite called the Moon.",
 
         difficulty: 2,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 20,
 
         tags: [
@@ -512,13 +478,11 @@ export const planetFacts: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Although all four giant planets have rings, Saturn's rings are by far the largest and brightest.",
 
         difficulty: 2,
-
+        correctAnswer: "Saturn",
         estimatedSeconds: 20,
 
         tags: [
@@ -541,13 +505,11 @@ export const planetFacts: SkillContent = {
             "Earth"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury is the smallest of the eight planets.",
 
         difficulty: 2,
-
+        correctAnswer: "Mercury",
         estimatedSeconds: 20,
 
         tags: [
@@ -569,13 +531,11 @@ export const planetFacts: SkillContent = {
             "Earth"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is bigger than every other planet in the Solar System.",
 
         difficulty: 2,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 20,
 
         tags: [
@@ -597,13 +557,11 @@ export const planetFacts: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "One Earth year is the time Earth takes to orbit the Sun.",
 
         difficulty: 3,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 25,
 
         tags: [
@@ -626,13 +584,11 @@ export const planetFacts: SkillContent = {
             "Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is often called the Blue Planet because most of its surface is covered by water.",
 
         difficulty: 3,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 20,
 
         tags: [
@@ -655,13 +611,11 @@ export const planetFacts: SkillContent = {
             "Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Mars has two tiny moons called Phobos and Deimos.",
 
         difficulty: 3,
-
+        correctAnswer: "Mars",
         estimatedSeconds: 25,
 
         tags: [
@@ -684,13 +638,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune has some of the fastest winds found anywhere in the Solar System.",
 
         difficulty: 3,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 25,
 
         tags: [
@@ -713,13 +665,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus is the second planet from the Sun.",
 
         difficulty: 2,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 15,
 
         tags: [
@@ -742,13 +692,11 @@ export const planetFacts: SkillContent = {
             "Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Mars is the fourth planet from the Sun.",
 
         difficulty: 2,
-
+        correctAnswer: "Mars",
         estimatedSeconds: 15,
 
         tags: [
@@ -771,13 +719,11 @@ export const planetFacts: SkillContent = {
             "Uranus"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is the fifth planet and Saturn is the sixth.",
 
         difficulty: 3,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 20,
 
         tags: [
@@ -800,13 +746,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Uranus is the seventh planet from the Sun.",
 
         difficulty: 3,
-
+        correctAnswer: "Uranus",
         estimatedSeconds: 20,
 
         tags: [
@@ -829,13 +773,11 @@ export const planetFacts: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus is very similar in size to Earth, although the planets are very different.",
 
         difficulty: 3,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 25,
 
         tags: [
@@ -858,13 +800,11 @@ export const planetFacts: SkillContent = {
             "Uranus"
         ],
 
-        answer: 0,
-
         explanation:
             "The Great Red Spot is a huge storm on Jupiter that has lasted for many years.",
 
         difficulty: 3,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 25,
 
         tags: [
@@ -886,14 +826,12 @@ export const planetFacts: SkillContent = {
             "Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Uranus is one of the two ice giants in our Solar System.",
 
         difficulty: 3,
-
-        estimatedSeconds: 25,
+            correctAnswer: "Uranus",
+            estimatedSeconds: 25,
 
         tags: [
             "science",
@@ -915,13 +853,11 @@ export const planetFacts: SkillContent = {
             "Mercury"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune is the second ice giant in our Solar System.",
 
         difficulty: 3,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 25,
 
         tags: [
@@ -944,13 +880,11 @@ export const planetFacts: SkillContent = {
             "Earth"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is the largest planet, making Saturn the second largest.",
 
         difficulty: 3,
-
+        correctAnswer: "Saturn",
         estimatedSeconds: 20,
 
         tags: [
@@ -972,13 +906,11 @@ export const planetFacts: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Saturn's rings are much brighter and easier to see than the rings of the other giant planets.",
 
         difficulty: 3,
-
+        correctAnswer: "Saturn",
         estimatedSeconds: 20,
 
         tags: [
@@ -1001,13 +933,11 @@ export const planetFacts: SkillContent = {
             "Earth"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune is so far from the Sun that it is one of the coldest planets.",
 
         difficulty: 3,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 20,
 
         tags: [
@@ -1029,13 +959,11 @@ export const planetFacts: SkillContent = {
             "Mercury"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is the third planet from the Sun.",
 
         difficulty: 4,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 20,
 
         tags: [
@@ -1058,13 +986,11 @@ export const planetFacts: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Uranus is the seventh planet from the Sun.",
 
         difficulty: 4,
-
+        correctAnswer: "Uranus",
         estimatedSeconds: 20,
 
         tags: [
@@ -1087,13 +1013,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus is hotter than Mercury because its thick atmosphere traps heat.",
 
         difficulty: 4,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 25,
 
         tags: [
@@ -1116,13 +1040,11 @@ export const planetFacts: SkillContent = {
             "Mercury"
         ],
 
-        answer: 0,
-
         explanation:
             "Olympus Mons on Mars is the largest known volcano in the Solar System.",
 
         difficulty: 4,
-
+        correctAnswer: "Mars",
         estimatedSeconds: 25,
 
         tags: [
@@ -1145,13 +1067,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury is the closest planet to the Sun and has no known moons.",
 
         difficulty: 4,
-
+        correctAnswer: "Mercury",
         estimatedSeconds: 25,
 
         tags: [
@@ -1174,13 +1094,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus has no known moons and is the hottest planet in our Solar System.",
 
         difficulty: 4,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 25,
 
         tags: [
@@ -1203,13 +1121,11 @@ export const planetFacts: SkillContent = {
             "Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Saturn is much larger than Earth and is famous for its spectacular ring system.",
 
         difficulty: 4,
-
+        correctAnswer: "Saturn",
         estimatedSeconds: 25,
 
         tags: [
@@ -1232,13 +1148,11 @@ export const planetFacts: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Uranus has a very unusual tilt and spins almost on its side.",
 
         difficulty: 4,
-
+        correctAnswer: "Uranus",
         estimatedSeconds: 25,
 
         tags: [
@@ -1260,13 +1174,11 @@ export const planetFacts: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune's winds can blow at over 2,000 kilometres per hour.",
 
         difficulty: 4,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 30,
 
         tags: [
@@ -1289,13 +1201,11 @@ export const planetFacts: SkillContent = {
             "Uranus"
         ],
 
-        answer: 0,
-
         explanation:
             "The Great Red Spot is a giant storm on Jupiter.",
 
         difficulty: 4,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 25,
 
         tags: [
@@ -1317,14 +1227,12 @@ export const planetFacts: SkillContent = {
             "It has two moons."
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury is the closest planet to the Sun and has no known moons.",
 
         difficulty: 4,
-
-        estimatedSeconds: 25,
+            correctAnswer: "It is the closest planet to the Sun.",
+            estimatedSeconds: 25,
 
         tags: [
             "science",
@@ -1345,13 +1253,11 @@ export const planetFacts: SkillContent = {
             "It is the farthest planet from the Sun."
         ],
 
-        answer: 0,
-
         explanation:
             "Venus is the hottest planet because its thick atmosphere traps heat.",
 
         difficulty: 4,
-
+        correctAnswer: "It is the hottest planet.",
         estimatedSeconds: 25,
 
         tags: [
@@ -1373,13 +1279,11 @@ export const planetFacts: SkillContent = {
             "It has bright rings."
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is the only planet where life is known to exist.",
 
         difficulty: 5,
-
+        correctAnswer: "It is the only known planet with life.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1401,13 +1305,11 @@ export const planetFacts: SkillContent = {
             "It is the hottest planet."
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is the largest planet in our Solar System and is a giant planet.",
 
         difficulty: 5,
-
+        correctAnswer: "It is the largest planet in the Solar System.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1429,13 +1331,11 @@ export const planetFacts: SkillContent = {
             "All eight planets are the same size and have the same features."
         ],
 
-        answer: 0,
-
         explanation:
             "Each planet has its own unique features that help us identify it.",
 
         difficulty: 5,
-
+        correctAnswer: "Mercury is closest to the Sun, Venus is the hottest, Earth is our home, Mars is the Red Planet, Jupiter is the largest, Saturn has the best-known rings, Uranus spins on its side and Neptune is the farthest planet.",
         estimatedSeconds: 35,
 
         tags: [

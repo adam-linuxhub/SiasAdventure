@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const vocabularyInReading: SkillContent = {
 
@@ -29,13 +29,11 @@ export const vocabularyInReading: SkillContent = {
             "Very fast"
         ],
 
-        answer: 0,
-
         explanation:
             "The word 'elephant' gives a clue that enormous means very large.",
 
         difficulty: 1,
-
+        correctAnswer: "Very large",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -54,13 +52,11 @@ export const vocabularyInReading: SkillContent = {
             "Very hungry"
         ],
 
-        answer: 0,
-
         explanation:
             "The clue that it could fit inside a small box shows it was very small.",
 
         difficulty: 1,
-
+        correctAnswer: "Very small",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -79,13 +75,11 @@ export const vocabularyInReading: SkillContent = {
             "Ignored something"
         ],
 
-        answer: 0,
-
         explanation:
             "Discover means to find something that was not known before.",
 
         difficulty: 1,
-
+        correctAnswer: "Found something new",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -104,13 +98,11 @@ export const vocabularyInReading: SkillContent = {
             "Very bright"
         ],
 
-        answer: 0,
-
         explanation:
             "Walking carefully after rain suggests the path was easy to slide on.",
 
         difficulty: 1,
-
+        correctAnswer: "Easy to slide on",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -129,13 +121,11 @@ export const vocabularyInReading: SkillContent = {
             "Very colourful"
         ],
 
-        answer: 0,
-
         explanation:
             "Hundreds of years is a clue that ancient means very old.",
 
         difficulty: 1,
-
+        correctAnswer: "Very old",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -154,13 +144,11 @@ export const vocabularyInReading: SkillContent = {
             "The colour of the book"
         ],
 
-        answer: 0,
-
         explanation:
             "The surrounding words often give clues about meaning.",
 
         difficulty: 1,
-
+        correctAnswer: "The words around it",
         estimatedSeconds: 15,
 
         tags: ["english", "reading", "vocabulary"]
@@ -179,13 +167,11 @@ export const vocabularyInReading: SkillContent = {
             "Very hungry"
         ],
 
-        answer: 0,
-
         explanation:
             "Running for two hours is a clue that the dog was very tired.",
 
         difficulty: 1,
-
+        correctAnswer: "Very tired",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -204,13 +190,11 @@ export const vocabularyInReading: SkillContent = {
             "Change the word"
         ],
 
-        answer: 0,
-
         explanation:
             "Good readers use context clues to understand new words.",
 
         difficulty: 1,
-
+        correctAnswer: "Look for clues in the sentence",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -229,13 +213,11 @@ export const vocabularyInReading: SkillContent = {
             "Hungry"
         ],
 
-        answer: 0,
-
         explanation:
             "Running away from the fox suggests the rabbit was scared.",
 
         difficulty: 1,
-
+        correctAnswer: "Scared",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -254,13 +236,11 @@ export const vocabularyInReading: SkillContent = {
             "It changes the characters"
         ],
 
-        answer: 0,
-
         explanation:
             "Knowing word meanings helps readers understand what they read.",
 
         difficulty: 1,
-
+        correctAnswer: "It helps you understand the text",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -279,13 +259,11 @@ export const vocabularyInReading: SkillContent = {
             "Very colourful"
         ],
 
-        answer: 0,
-
         explanation:
             "The clues show that nobody knows about the box.",
 
         difficulty: 2,
-
+        correctAnswer: "Difficult to understand or explain",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "vocabulary"]
@@ -304,13 +282,11 @@ export const vocabularyInReading: SkillContent = {
             "Changed"
         ],
 
-        answer: 0,
-
         explanation:
             "Scientists observe things by watching them carefully.",
 
         difficulty: 2,
-
+        correctAnswer: "Watched carefully",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "vocabulary"]
@@ -329,13 +305,11 @@ export const vocabularyInReading: SkillContent = {
             "Almost happy"
         ],
 
-        answer: 0,
-
         explanation:
             "The prefix 'un-' often means 'not'.",
 
         difficulty: 2,
-
+        correctAnswer: "Not happy",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary", "prefixes"]
@@ -354,13 +328,11 @@ export const vocabularyInReading: SkillContent = {
             "An object"
         ],
 
-        answer: 0,
-
         explanation:
             "Words ending in '-ly' are often adverbs describing actions.",
 
         difficulty: 2,
-
+        correctAnswer: "How something happens",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary", "suffixes"]
@@ -379,13 +351,11 @@ export const vocabularyInReading: SkillContent = {
             "Lazy"
         ],
 
-        answer: 0,
-
         explanation:
             "Entering a dark cave alone suggests the hero was brave.",
 
         difficulty: 2,
-
+        correctAnswer: "Brave",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "vocabulary"]
@@ -404,13 +374,11 @@ export const vocabularyInReading: SkillContent = {
             "Fast and exciting"
         ],
 
-        answer: 0,
-
         explanation:
             "Quiet singing birds are clues that the garden was calm.",
 
         difficulty: 2,
-
+        correctAnswer: "Calm and quiet",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "vocabulary"]
@@ -429,13 +397,11 @@ export const vocabularyInReading: SkillContent = {
             "Guess randomly"
         ],
 
-        answer: 0,
-
         explanation:
             "Context clues help readers understand unfamiliar vocabulary.",
 
         difficulty: 2,
-
+        correctAnswer: "Use the sentence around the word",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -454,13 +420,11 @@ export const vocabularyInReading: SkillContent = {
             "Stopped moving"
         ],
 
-        answer: 0,
-
         explanation:
             "Waves during a storm hitting rocks suggests a powerful impact.",
 
         difficulty: 2,
-
+        correctAnswer: "Hit with force",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "vocabulary"]
@@ -479,13 +443,11 @@ export const vocabularyInReading: SkillContent = {
             "Is it the longest word?"
         ],
 
-        answer: 0,
-
         explanation:
             "Thinking about context clues helps you find meaning.",
 
         difficulty: 2,
-
+        correctAnswer: "What clues around this word help me?",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]
@@ -504,13 +466,11 @@ export const vocabularyInReading: SkillContent = {
             "Remove all adjectives"
         ],
 
-        answer: 0,
-
         explanation:
             "Vocabulary strategies help readers understand texts more deeply.",
 
         difficulty: 2,
-
+        correctAnswer: "Understand unfamiliar words",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "vocabulary"]

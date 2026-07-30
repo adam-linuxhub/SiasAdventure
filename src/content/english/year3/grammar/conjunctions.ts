@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const conjunctions: SkillContent = {
 
@@ -28,13 +28,11 @@ export const conjunctions: SkillContent = {
             "happy"
         ],
 
-        answer: 0,
-
         explanation:
             "'And' is a conjunction because it joins words or ideas together.",
 
         difficulty: 1,
-
+        correctAnswer: "and",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -52,13 +50,11 @@ export const conjunctions: SkillContent = {
             "blue"
         ],
 
-        answer: 0,
-
         explanation:
             "'Or' is used when choosing between two or more options.",
 
         difficulty: 1,
-
+        correctAnswer: "or",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -76,13 +72,11 @@ export const conjunctions: SkillContent = {
             "green"
         ],
 
-        answer: 0,
-
         explanation:
             "'Because' explains why something happened.",
 
         difficulty: 1,
-
+        correctAnswer: "because",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -100,13 +94,11 @@ export const conjunctions: SkillContent = {
             "soft"
         ],
 
-        answer: 0,
-
         explanation:
             "Conjunctions join words, phrases or clauses.",
 
         difficulty: 1,
-
+        correctAnswer: "and",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -124,13 +116,11 @@ export const conjunctions: SkillContent = {
             "but"
         ],
 
-        answer: 0,
-
         explanation:
             "'Or' is used when offering a choice.",
 
         difficulty: 1,
-
+        correctAnswer: "or",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -148,13 +138,11 @@ export const conjunctions: SkillContent = {
             "small"
         ],
 
-        answer: 0,
-
         explanation:
             "'But' joins ideas that are different or opposite.",
 
         difficulty: 1,
-
+        correctAnswer: "but",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -172,13 +160,11 @@ export const conjunctions: SkillContent = {
             "Played and."
         ],
 
-        answer: 0,
-
         explanation:
             "'And' joins the two names together.",
 
         difficulty: 1,
-
+        correctAnswer: "Sam and Mia played.",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -196,13 +182,11 @@ export const conjunctions: SkillContent = {
             "It but was."
         ],
 
-        answer: 0,
-
         explanation:
             "'But' joins two contrasting ideas.",
 
         difficulty: 1,
-
+        correctAnswer: "It was raining, but we still played.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -220,13 +204,11 @@ export const conjunctions: SkillContent = {
             "because"
         ],
 
-        answer: 0,
-
         explanation:
             "'House' is a noun, not a conjunction.",
 
         difficulty: 1,
-
+        correctAnswer: "house",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar"]
@@ -244,13 +226,11 @@ export const conjunctions: SkillContent = {
             "To end sentences"
         ],
 
-        answer: 0,
-
         explanation:
             "Conjunctions help connect ideas and make sentences flow smoothly.",
 
         difficulty: 1,
-
+        correctAnswer: "To join words and ideas",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -268,13 +248,11 @@ export const conjunctions: SkillContent = {
             "but"
         ],
 
-        answer: 0,
-
         explanation:
             "'Because' explains the reason for staying inside.",
 
         difficulty: 2,
-
+        correctAnswer: "because",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -292,13 +270,11 @@ export const conjunctions: SkillContent = {
             "but"
         ],
 
-        answer: 0,
-
         explanation:
             "'Or' introduces a choice.",
 
         difficulty: 2,
-
+        correctAnswer: "or",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -316,13 +292,11 @@ export const conjunctions: SkillContent = {
             "but"
         ],
 
-        answer: 0,
-
         explanation:
             "'And' joins two actions together.",
 
         difficulty: 2,
-
+        correctAnswer: "and",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -340,13 +314,11 @@ export const conjunctions: SkillContent = {
             "or"
         ],
 
-        answer: 0,
-
         explanation:
             "'But' shows a contrast between the two ideas.",
 
         difficulty: 2,
-
+        correctAnswer: "but",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -364,13 +336,11 @@ export const conjunctions: SkillContent = {
             "Ella was because."
         ],
 
-        answer: 0,
-
         explanation:
             "'Because' correctly introduces the reason.",
 
         difficulty: 2,
-
+        correctAnswer: "Ella smiled because she was happy.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -388,13 +358,11 @@ export const conjunctions: SkillContent = {
             "Happy children laughed."
         ],
 
-        answer: 0,
-
         explanation:
             "'And' joins the names and 'because' explains the reason.",
 
         difficulty: 2,
-
+        correctAnswer: "Ben and Ava played because it was sunny.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -412,13 +380,11 @@ export const conjunctions: SkillContent = {
             "or"
         ],
 
-        answer: 0,
-
         explanation:
             "'But' connects ideas that contrast with each other.",
 
         difficulty: 2,
-
+        correctAnswer: "but",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -436,13 +402,11 @@ export const conjunctions: SkillContent = {
             "or"
         ],
 
-        answer: 0,
-
         explanation:
             "'And' joins ideas that go together.",
 
         difficulty: 2,
-
+        correctAnswer: "and",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -460,13 +424,11 @@ export const conjunctions: SkillContent = {
             "but"
         ],
 
-        answer: 0,
-
         explanation:
             "'Or' is used when choosing between alternatives.",
 
         difficulty: 2,
-
+        correctAnswer: "or",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]
@@ -484,13 +446,11 @@ export const conjunctions: SkillContent = {
             "Oliver played but because."
         ],
 
-        answer: 0,
-
         explanation:
             "'And' joins two actions, while 'because' explains the reason.",
 
         difficulty: 2,
-
+        correctAnswer: "Oliver finished his homework and then played because he had time.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "conjunctions"]

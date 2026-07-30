@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const inference: SkillContent = {
 
@@ -29,13 +29,11 @@ export const inference: SkillContent = {
             "Stormy"
         ],
 
-        answer: 0,
-
         explanation:
             "The text doesn't say it is cold, but wearing a coat, scarf and gloves gives us that clue.",
 
         difficulty: 1,
-
+        correctAnswer: "Cold",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "inference"]
@@ -54,13 +52,11 @@ export const inference: SkillContent = {
             "Angry"
         ],
 
-        answer: 0,
-
         explanation:
             "Yawning and rubbing your eyes are clues that someone is tired.",
 
         difficulty: 1,
-
+        correctAnswer: "Tired",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "inference"]
@@ -79,13 +75,11 @@ export const inference: SkillContent = {
             "Foggy"
         ],
 
-        answer: 0,
-
         explanation:
             "Umbrellas, raindrops and puddles all suggest it is raining.",
 
         difficulty: 1,
-
+        correctAnswer: "Rainy",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "inference"]
@@ -104,13 +98,11 @@ export const inference: SkillContent = {
             "Bored"
         ],
 
-        answer: 0,
-
         explanation:
             "Smiling after scoring the winning goal suggests Jack feels happy.",
 
         difficulty: 1,
-
+        correctAnswer: "Happy",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "inference"]
@@ -129,13 +121,11 @@ export const inference: SkillContent = {
             "Frightened"
         ],
 
-        answer: 0,
-
         explanation:
             "Wagging its tail and jumping are clues that the puppy is excited.",
 
         difficulty: 1,
-
+        correctAnswer: "Excited",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "inference"]
@@ -154,13 +144,11 @@ export const inference: SkillContent = {
             "He was cold."
         ],
 
-        answer: 0,
-
         explanation:
             "People often cover their ears when sounds are very loud.",
 
         difficulty: 1,
-
+        correctAnswer: "The fireworks were loud.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "inference"]
@@ -179,13 +167,11 @@ export const inference: SkillContent = {
             "The shop was closed."
         ],
 
-        answer: 0,
-
         explanation:
             "Ice cream melts quickly in warm weather.",
 
         difficulty: 1,
-
+        correctAnswer: "The weather was warm.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "inference"]
@@ -204,13 +190,11 @@ export const inference: SkillContent = {
             "Hungry"
         ],
 
-        answer: 0,
-
         explanation:
             "Looking everywhere suggests Leo was worried he had lost it.",
 
         difficulty: 1,
-
+        correctAnswer: "Worried",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "inference"]
@@ -229,13 +213,11 @@ export const inference: SkillContent = {
             "They wanted lunch."
         ],
 
-        answer: 0,
-
         explanation:
             "People usually clap loudly when they enjoy a performance.",
 
         difficulty: 1,
-
+        correctAnswer: "They enjoyed the play.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "inference"]
@@ -254,13 +236,11 @@ export const inference: SkillContent = {
             "Reading aloud"
         ],
 
-        answer: 0,
-
         explanation:
             "Inference means using clues from the text together with what you already know.",
 
         difficulty: 1,
-
+        correctAnswer: "Using clues to work out information that is not directly stated",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "inference"]
@@ -279,13 +259,11 @@ export const inference: SkillContent = {
             "She was talking on the phone."
         ],
 
-        answer: 0,
-
         explanation:
             "Carrying a cake carefully suggests she wanted to avoid dropping it.",
 
         difficulty: 2,
-
+        correctAnswer: "She did not want to drop the cake.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "inference"]
@@ -304,13 +282,11 @@ export const inference: SkillContent = {
             "It was very noisy."
         ],
 
-        answer: 0,
-
         explanation:
             "People usually switch on a lamp when it is getting dark.",
 
         difficulty: 2,
-
+        correctAnswer: "It was becoming dark.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "inference"]
@@ -329,13 +305,11 @@ export const inference: SkillContent = {
             "It was night-time."
         ],
 
-        answer: 0,
-
         explanation:
             "Sun hats and drinking water are clues that the weather is hot.",
 
         difficulty: 2,
-
+        correctAnswer: "It was a hot day.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "inference"]
@@ -354,13 +328,11 @@ export const inference: SkillContent = {
             "Bored"
         ],
 
-        answer: 0,
-
         explanation:
             "Shaking hands before a performance often show that someone is nervous.",
 
         difficulty: 2,
-
+        correctAnswer: "Nervous",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "inference"]
@@ -379,13 +351,11 @@ export const inference: SkillContent = {
             "The plate was bought."
         ],
 
-        answer: 0,
-
         explanation:
             "Broken pieces on the floor suggest the plate had been dropped.",
 
         difficulty: 2,
-
+        correctAnswer: "The plate was dropped.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "inference"]
@@ -404,13 +374,11 @@ export const inference: SkillContent = {
             "Singing songs"
         ],
 
-        answer: 0,
-
         explanation:
             "A quiet classroom with everyone focused on papers suggests they are taking a test.",
 
         difficulty: 2,
-
+        correctAnswer: "Taking a test",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "inference"]
@@ -429,13 +397,11 @@ export const inference: SkillContent = {
             "Camping"
         ],
 
-        answer: 0,
-
         explanation:
             "These items are all clues that Amir is going swimming.",
 
         difficulty: 2,
-
+        correctAnswer: "Swimming",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "inference"]
@@ -454,13 +420,11 @@ export const inference: SkillContent = {
             "Winter"
         ],
 
-        answer: 0,
-
         explanation:
             "Falling leaves are a clue that it is autumn.",
 
         difficulty: 2,
-
+        correctAnswer: "Autumn",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "inference"]
@@ -479,13 +443,11 @@ export const inference: SkillContent = {
             "It was looking for food."
         ],
 
-        answer: 0,
-
         explanation:
             "Hiding during thunder suggests the puppy felt frightened.",
 
         difficulty: 2,
-
+        correctAnswer: "It was frightened.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "inference"]
@@ -504,13 +466,11 @@ export const inference: SkillContent = {
             "Ignore the passage."
         ],
 
-        answer: 0,
-
         explanation:
             "Good readers combine clues from the text with their own knowledge to make sensible inferences.",
 
         difficulty: 2,
-
+        correctAnswer: "Use clues from the text and what you already know.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "inference"]

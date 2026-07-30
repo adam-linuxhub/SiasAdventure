@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const homophones: SkillContent = {
 
@@ -28,13 +28,11 @@ export const homophones: SkillContent = {
             "thare"
         ],
 
-        answer: 0,
-
         explanation:
             "'There' tells us where something is.",
 
         difficulty: 1,
-
+        correctAnswer: "there",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "homophones"]
@@ -52,13 +50,11 @@ export const homophones: SkillContent = {
             "ther"
         ],
 
-        answer: 0,
-
         explanation:
             "'Their' is used to show ownership.",
 
         difficulty: 1,
-
+        correctAnswer: "their",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "homophones"]
@@ -76,13 +72,11 @@ export const homophones: SkillContent = {
             "theyre"
         ],
 
-        answer: 0,
-
         explanation:
             "'They're' is a contraction of 'they are'.",
 
         difficulty: 1,
-
+        correctAnswer: "they're",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "homophones"]
@@ -100,13 +94,11 @@ export const homophones: SkillContent = {
             "tow"
         ],
 
-        answer: 0,
-
         explanation:
             "'Two' is the number 2.",
 
         difficulty: 1,
-
+        correctAnswer: "two",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "homophones"]
@@ -124,13 +116,11 @@ export const homophones: SkillContent = {
             "tou"
         ],
 
-        answer: 0,
-
         explanation:
             "'Too' means 'also' or 'more than enough'.",
 
         difficulty: 1,
-
+        correctAnswer: "too",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "homophones"]
@@ -148,13 +138,11 @@ export const homophones: SkillContent = {
             "tow"
         ],
 
-        answer: 0,
-
         explanation:
             "'To' is used before a destination or an action.",
 
         difficulty: 1,
-
+        correctAnswer: "to",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "homophones"]
@@ -172,13 +160,11 @@ export const homophones: SkillContent = {
             "hir"
         ],
 
-        answer: 0,
-
         explanation:
             "'Hear' means to listen with your ears.",
 
         difficulty: 1,
-
+        correctAnswer: "hear",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "homophones"]
@@ -196,13 +182,11 @@ export const homophones: SkillContent = {
             "hare"
         ],
 
-        answer: 0,
-
         explanation:
             "'Here' means in this place.",
 
         difficulty: 1,
-
+        correctAnswer: "here",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -220,13 +204,11 @@ export const homophones: SkillContent = {
             "beee"
         ],
 
-        answer: 0,
-
         explanation:
             "A bee is an insect that makes honey.",
 
         difficulty: 1,
-
+        correctAnswer: "bee",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -244,13 +226,11 @@ export const homophones: SkillContent = {
             "beee"
         ],
 
-        answer: 0,
-
         explanation:
             "'Be' is a verb meaning to exist.",
 
         difficulty: 1,
-
+        correctAnswer: "be",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -268,13 +248,11 @@ export const homophones: SkillContent = {
             "ther"
         ],
 
-        answer: 0,
-
         explanation:
             "'There' tells us where to put the books.",
 
         difficulty: 2,
-
+        correctAnswer: "there",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -292,13 +270,11 @@ export const homophones: SkillContent = {
             "Ther"
         ],
 
-        answer: 0,
-
         explanation:
             "'They're' means 'they are'.",
 
         difficulty: 2,
-
+        correctAnswer: "They're",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -316,13 +292,11 @@ export const homophones: SkillContent = {
             "ther"
         ],
 
-        answer: 0,
-
         explanation:
             "'Their' shows that the lunches belong to the children.",
 
         difficulty: 2,
-
+        correctAnswer: "their",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -340,13 +314,11 @@ export const homophones: SkillContent = {
             "tow"
         ],
 
-        answer: 0,
-
         explanation:
             "'Two' is the correct number.",
 
         difficulty: 2,
-
+        correctAnswer: "two",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -364,13 +336,11 @@ export const homophones: SkillContent = {
             "tow"
         ],
 
-        answer: 0,
-
         explanation:
             "'Too' means 'also'.",
 
         difficulty: 2,
-
+        correctAnswer: "too",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -388,13 +358,11 @@ export const homophones: SkillContent = {
             "tow"
         ],
 
-        answer: 0,
-
         explanation:
             "'To' is used before the destination.",
 
         difficulty: 2,
-
+        correctAnswer: "to",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -412,13 +380,11 @@ export const homophones: SkillContent = {
             "I can hare the birds singing."
         ],
 
-        answer: 0,
-
         explanation:
             "'Hear' means to listen.",
 
         difficulty: 2,
-
+        correctAnswer: "I can hear the birds singing.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -436,13 +402,11 @@ export const homophones: SkillContent = {
             "Please come hare."
         ],
 
-        answer: 0,
-
         explanation:
             "'Here' means this place.",
 
         difficulty: 2,
-
+        correctAnswer: "Please come here.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -460,13 +424,11 @@ export const homophones: SkillContent = {
             "We went too sea the see."
         ],
 
-        answer: 0,
-
         explanation:
             "'See' means to look at something, while 'sea' is the large body of salt water.",
 
         difficulty: 2,
-
+        correctAnswer: "We went to see the sea.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]
@@ -484,13 +446,11 @@ export const homophones: SkillContent = {
             "They're taking there dog over their."
         ],
 
-        answer: 0,
-
         explanation:
             "'They're' means 'they are', 'their' shows ownership, and 'there' tells us where something is.",
 
         difficulty: 2,
-
+        correctAnswer: "They're taking their dog over there.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "homophones"]

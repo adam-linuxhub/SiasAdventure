@@ -28,13 +28,11 @@ export const magneticMaterials: SkillContent = {
             "It melts metal"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets attract certain materials such as iron and steel.",
 
         difficulty: 1,
-
+        correctAnswer: "It attracts some materials",
         estimatedSeconds: 15,
 
         tags: ["science", "forces", "magnets"]
@@ -52,13 +50,11 @@ export const magneticMaterials: SkillContent = {
             "Glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron is one of the materials that magnets attract.",
 
         difficulty: 1,
-
+        correctAnswer: "Iron",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "materials"]
@@ -76,13 +72,11 @@ export const magneticMaterials: SkillContent = {
             "A rubber ball"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron nails are attracted to magnets.",
 
         difficulty: 1,
-
+        correctAnswer: "An iron nail",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets"]
@@ -100,13 +94,11 @@ export const magneticMaterials: SkillContent = {
             "Nickel"
         ],
 
-        answer: 0,
-
         explanation:
             "Plastic is not attracted to magnets.",
 
         difficulty: 1,
-
+        correctAnswer: "Plastic",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "materials"]
@@ -124,13 +116,11 @@ export const magneticMaterials: SkillContent = {
             "Gold"
         ],
 
-        answer: 0,
-
         explanation:
             "Steel contains iron, so it is usually magnetic.",
 
         difficulty: 1,
-
+        correctAnswer: "Steel",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "steel"]
@@ -148,13 +138,11 @@ export const magneticMaterials: SkillContent = {
             "A plastic folder"
         ],
 
-        answer: 0,
-
         explanation:
             "Most paper clips are made from steel.",
 
         difficulty: 1,
-
+        correctAnswer: "A paper clip",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "everyday"]
@@ -172,13 +160,11 @@ export const magneticMaterials: SkillContent = {
             "Fabric"
         ],
 
-        answer: 0,
-
         explanation:
             "Nickel is a magnetic metal.",
 
         difficulty: 1,
-
+        correctAnswer: "Nickel",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "materials"]
@@ -196,13 +182,11 @@ export const magneticMaterials: SkillContent = {
             "Only if it is painted"
         ],
 
-        answer: 0,
-
         explanation:
             "Wood is not a magnetic material.",
 
         difficulty: 1,
-
+        correctAnswer: "No",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets"]
@@ -220,13 +204,11 @@ export const magneticMaterials: SkillContent = {
             "A paper clip"
         ],
 
-        answer: 0,
-
         explanation:
             "Rubber is not magnetic.",
 
         difficulty: 1,
-
+        correctAnswer: "A rubber band",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets"]
@@ -244,13 +226,11 @@ export const magneticMaterials: SkillContent = {
             "Magnets attract everything."
         ],
 
-        answer: 0,
-
         explanation:
             "Only certain metals, such as iron, steel and nickel, are magnetic.",
 
         difficulty: 1,
-
+        correctAnswer: "Not all metals are magnetic.",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "materials"]
@@ -268,13 +248,11 @@ export const magneticMaterials: SkillContent = {
             "Paper"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets attract magnetic materials such as iron.",
 
         difficulty: 2,
-
+        correctAnswer: "Iron",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets"]
@@ -292,13 +270,11 @@ export const magneticMaterials: SkillContent = {
             "The magnet is broken."
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets only attract certain materials.",
 
         difficulty: 2,
-
+        correctAnswer: "Plastic is not magnetic.",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "materials"]
@@ -316,13 +292,11 @@ export const magneticMaterials: SkillContent = {
             "Paint each object"
         ],
 
-        answer: 0,
-
         explanation:
             "Testing objects with a magnet is a simple fair test.",
 
         difficulty: 2,
-
+        correctAnswer: "Test different objects with a magnet",
         estimatedSeconds: 20,
 
         tags: ["science", "working-scientifically", "magnets"]
@@ -340,13 +314,11 @@ export const magneticMaterials: SkillContent = {
             "Rubber and fabric"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron and steel are both magnetic materials.",
 
         difficulty: 2,
-
+        correctAnswer: "Iron and steel",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "materials"]
@@ -364,13 +336,11 @@ export const magneticMaterials: SkillContent = {
             "One spoon is newer"
         ],
 
-        answer: 0,
-
         explanation:
             "Some metals are magnetic, while others are not.",
 
         difficulty: 2,
-
+        correctAnswer: "They are made from different materials",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets"]
@@ -388,13 +358,11 @@ export const magneticMaterials: SkillContent = {
             "Glass"
         ],
 
-        answer: 0,
-
         explanation:
             "Steel is attracted to magnets.",
 
         difficulty: 2,
-
+        correctAnswer: "Steel",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "everyday"]
@@ -412,13 +380,11 @@ export const magneticMaterials: SkillContent = {
             "Magnets choose randomly"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets attract only certain materials.",
 
         difficulty: 2,
-
+        correctAnswer: "Only some materials are magnetic",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "materials"]
@@ -436,13 +402,11 @@ export const magneticMaterials: SkillContent = {
             "A cotton sock"
         ],
 
-        answer: 0,
-
         explanation:
             "Steel paper clips are reliably attracted to magnets.",
 
         difficulty: 2,
-
+        correctAnswer: "A steel paper clip",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "investigation"]
@@ -460,13 +424,11 @@ export const magneticMaterials: SkillContent = {
             "Nickel"
         ],
 
-        answer: 0,
-
         explanation:
             "Wood is not attracted to magnets.",
 
         difficulty: 2,
-
+        correctAnswer: "Wood",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "materials"]
@@ -484,13 +446,11 @@ export const magneticMaterials: SkillContent = {
             "Only plastic is magnetic."
         ],
 
-        answer: 0,
-
         explanation:
             "Materials such as iron, steel and nickel are magnetic because they are attracted to magnets.",
 
         difficulty: 2,
-
+        correctAnswer: "Magnetic materials are attracted to magnets.",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "materials"]

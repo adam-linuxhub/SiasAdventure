@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const mountainBasics: SkillContent = {
 
@@ -29,13 +29,11 @@ export const mountainBasics: SkillContent = {
             "A man-made building"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains are high areas of land with steep sides.",
 
         difficulty: 1,
-
+        correctAnswer: "A large natural rise of land that is usually higher and steeper than a hill",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -54,13 +52,11 @@ export const mountainBasics: SkillContent = {
             "By their distance from towns"
         ],
 
-        answer: 0,
-
         explanation:
             "The height of mountains is measured from sea level.",
 
         difficulty: 1,
-
+        correctAnswer: "By their height above sea level",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -79,13 +75,11 @@ export const mountainBasics: SkillContent = {
             "The river"
         ],
 
-        answer: 0,
-
         explanation:
             "The summit is the highest point of a mountain.",
 
         difficulty: 1,
-
+        correctAnswer: "The summit",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -104,13 +98,11 @@ export const mountainBasics: SkillContent = {
             "The ridge"
         ],
 
-        answer: 0,
-
         explanation:
             "The foot is the lowest part where a mountain begins.",
 
         difficulty: 1,
-
+        correctAnswer: "The foot",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -129,13 +121,11 @@ export const mountainBasics: SkillContent = {
             "A type of weather"
         ],
 
-        answer: 0,
-
         explanation:
             "A peak is the highest or pointed part of a mountain.",
 
         difficulty: 1,
-
+        correctAnswer: "The pointed top of a mountain",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -154,13 +144,11 @@ export const mountainBasics: SkillContent = {
             "A city near a mountain"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountain ranges are groups of connected mountains.",
 
         difficulty: 1,
-
+        correctAnswer: "A group of mountains together",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -179,13 +167,11 @@ export const mountainBasics: SkillContent = {
             "A steep cliff only"
         ],
 
-        answer: 0,
-
         explanation:
             "Valleys are lower areas often found between mountains.",
 
         difficulty: 1,
-
+        correctAnswer: "Low land between hills or mountains",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -204,13 +190,11 @@ export const mountainBasics: SkillContent = {
             "Mountains are always covered in snow"
         ],
 
-        answer: 0,
-
         explanation:
             "The higher the altitude, the colder the air usually becomes.",
 
         difficulty: 2,
-
+        correctAnswer: "Temperature decreases at higher altitudes",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -229,13 +213,11 @@ export const mountainBasics: SkillContent = {
             "The amount of rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Altitude describes how high a place is above sea level.",
 
         difficulty: 2,
-
+        correctAnswer: "Height above sea level",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -254,13 +236,11 @@ export const mountainBasics: SkillContent = {
             "Snow only falls on mountains"
         ],
 
-        answer: 0,
-
         explanation:
             "High mountains are colder, so snow and ice can remain.",
 
         difficulty: 1,
-
+        correctAnswer: "The temperature is colder at high altitudes",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -279,13 +259,11 @@ export const mountainBasics: SkillContent = {
             "The Atlantic Ocean"
         ],
 
-        answer: 0,
-
         explanation:
             "The Himalayas are a major mountain range in Asia.",
 
         difficulty: 1,
-
+        correctAnswer: "The Himalayas",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -304,13 +282,11 @@ export const mountainBasics: SkillContent = {
             "A type of weather"
         ],
 
-        answer: 0,
-
         explanation:
             "A landscape includes the visible features of an area.",
 
         difficulty: 1,
-
+        correctAnswer: "An area with mountains and related features",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -329,13 +305,11 @@ export const mountainBasics: SkillContent = {
             "They prevent all life"
         ],
 
-        answer: 0,
-
         explanation:
             "Many plants and animals are adapted to mountain environments.",
 
         difficulty: 1,
-
+        correctAnswer: "They provide homes for plants and animals",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "habitats"]
@@ -354,13 +328,11 @@ export const mountainBasics: SkillContent = {
             "A type of cloud"
         ],
 
-        answer: 0,
-
         explanation:
             "Cliffs are steep sides of rock or land.",
 
         difficulty: 2,
-
+        correctAnswer: "A steep rock face",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -379,13 +351,11 @@ export const mountainBasics: SkillContent = {
             "To build roads only"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains are popular for recreation and tourism.",
 
         difficulty: 1,
-
+        correctAnswer: "For activities such as walking, climbing and sightseeing",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -404,13 +374,11 @@ export const mountainBasics: SkillContent = {
             "A flat lake"
         ],
 
-        answer: 0,
-
         explanation:
             "A ridge is a raised line of land, often found on mountains.",
 
         difficulty: 2,
-
+        correctAnswer: "A long narrow area of high land",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -429,13 +397,11 @@ export const mountainBasics: SkillContent = {
             "There is no difference"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains are usually taller and steeper than hills.",
 
         difficulty: 1,
-
+        correctAnswer: "Mountains are generally higher and steeper",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -454,13 +420,11 @@ export const mountainBasics: SkillContent = {
             "They stop erosion"
         ],
 
-        answer: 0,
-
         explanation:
             "Moving ice can slowly change mountain landscapes.",
 
         difficulty: 2,
-
+        correctAnswer: "They can shape the landscape by moving ice",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -479,13 +443,11 @@ export const mountainBasics: SkillContent = {
             "They stop wind completely"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains can influence rainfall and air movement.",
 
         difficulty: 2,
-
+        correctAnswer: "They can change how air moves and where rain falls",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -504,13 +466,11 @@ export const mountainBasics: SkillContent = {
             "Human-made structures"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains are natural high areas of land with steep slopes.",
 
         difficulty: 2,
-
+        correctAnswer: "High areas of land with steep sides and unique features",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "mountains"]

@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const commonExceptionWords1: SkillContent = {
 
@@ -28,13 +28,11 @@ export const commonExceptionWords1: SkillContent = {
             "becose"
         ],
 
-        answer: 0,
-
         explanation:
             "'Because' is the correct spelling.",
 
         difficulty: 1,
-
+        correctAnswer: "because",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -52,13 +50,11 @@ export const commonExceptionWords1: SkillContent = {
             "peopl"
         ],
 
-        answer: 0,
-
         explanation:
             "'People' is the correct spelling.",
 
         difficulty: 1,
-
+        correctAnswer: "people",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -76,13 +72,11 @@ export const commonExceptionWords1: SkillContent = {
             "freiend"
         ],
 
-        answer: 0,
-
         explanation:
             "Remember: 'friend' has 'ie' in the middle.",
 
         difficulty: 1,
-
+        correctAnswer: "friend",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -100,13 +94,11 @@ export const commonExceptionWords1: SkillContent = {
             "bussy"
         ],
 
-        answer: 0,
-
         explanation:
             "'Busy' is spelled with a 'u'.",
 
         difficulty: 1,
-
+        correctAnswer: "busy",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -124,13 +116,11 @@ export const commonExceptionWords1: SkillContent = {
             "butiful"
         ],
 
-        answer: 0,
-
         explanation:
             "'Beautiful' begins with 'beau-'.",
 
         difficulty: 1,
-
+        correctAnswer: "beautiful",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -148,13 +138,11 @@ export const commonExceptionWords1: SkillContent = {
             "evrey"
         ],
 
-        answer: 0,
-
         explanation:
             "'Every' is the correct spelling.",
 
         difficulty: 1,
-
+        correctAnswer: "every",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -172,13 +160,11 @@ export const commonExceptionWords1: SkillContent = {
             "aginn"
         ],
 
-        answer: 0,
-
         explanation:
             "'Again' is spelled a-g-a-i-n.",
 
         difficulty: 1,
-
+        correctAnswer: "again",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -196,13 +182,11 @@ export const commonExceptionWords1: SkillContent = {
             "greatt"
         ],
 
-        answer: 0,
-
         explanation:
             "'Great' uses the letters 'ea'.",
 
         difficulty: 1,
-
+        correctAnswer: "great",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -220,13 +204,11 @@ export const commonExceptionWords1: SkillContent = {
             "dooor"
         ],
 
-        answer: 0,
-
         explanation:
             "'Door' contains a double 'o'.",
 
         difficulty: 1,
-
+        correctAnswer: "door",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -244,13 +226,11 @@ export const commonExceptionWords1: SkillContent = {
             "floorr"
         ],
 
-        answer: 0,
-
         explanation:
             "'Floor' has a double 'o'.",
 
         difficulty: 1,
-
+        correctAnswer: "floor",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -268,13 +248,11 @@ export const commonExceptionWords1: SkillContent = {
             "freiend"
         ],
 
-        answer: 0,
-
         explanation:
             "'Friend' is the correct spelling.",
 
         difficulty: 2,
-
+        correctAnswer: "friend",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -292,13 +270,11 @@ export const commonExceptionWords1: SkillContent = {
             "fur"
         ],
 
-        answer: 0,
-
         explanation:
             "'For' is the correct word in this sentence.",
 
         difficulty: 2,
-
+        correctAnswer: "for",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -316,13 +292,11 @@ export const commonExceptionWords1: SkillContent = {
             "The butiful butterfly landed on a flower."
         ],
 
-        answer: 0,
-
         explanation:
             "'Beautiful' is spelled b-e-a-u-t-i-f-u-l.",
 
         difficulty: 2,
-
+        correctAnswer: "The beautiful butterfly landed on a flower.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -340,13 +314,11 @@ export const commonExceptionWords1: SkillContent = {
             "Becose it was raining, we stayed inside."
         ],
 
-        answer: 0,
-
         explanation:
             "'Because' is a common exception word that must be learned.",
 
         difficulty: 2,
-
+        correctAnswer: "Because it was raining, we stayed inside.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -364,13 +336,11 @@ export const commonExceptionWords1: SkillContent = {
             "pepol"
         ],
 
-        answer: 0,
-
         explanation:
             "'People' is the correct spelling.",
 
         difficulty: 2,
-
+        correctAnswer: "people",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -388,13 +358,11 @@ export const commonExceptionWords1: SkillContent = {
             "ther"
         ],
 
-        answer: 0,
-
         explanation:
             "'There' tells us where something is.",
 
         difficulty: 2,
-
+        correctAnswer: "there",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -412,13 +380,11 @@ export const commonExceptionWords1: SkillContent = {
             "parents'"
         ],
 
-        answer: 0,
-
         explanation:
             "'Parents' is the correct spelling.",
 
         difficulty: 2,
-
+        correctAnswer: "parents",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -436,13 +402,11 @@ export const commonExceptionWords1: SkillContent = {
             "everybodyy"
         ],
 
-        answer: 0,
-
         explanation:
             "'Everybody' is one word.",
 
         difficulty: 2,
-
+        correctAnswer: "everybody",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -460,13 +424,11 @@ export const commonExceptionWords1: SkillContent = {
             "The dooor was open."
         ],
 
-        answer: 0,
-
         explanation:
             "'Door' contains two 'o's.",
 
         difficulty: 2,
-
+        correctAnswer: "The door was open.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -484,13 +446,11 @@ export const commonExceptionWords1: SkillContent = {
             "My frend is bussy becose we have homework."
         ],
 
-        answer: 0,
-
         explanation:
             "All the common exception words are spelled correctly in the first sentence.",
 
         difficulty: 2,
-
+        correctAnswer: "My friend is busy because we have homework.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]

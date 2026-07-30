@@ -28,13 +28,11 @@ export const skeletons: SkillContent = {
             "The food an animal eats"
         ],
 
-        answer: 0,
-
         explanation:
             "A skeleton is the framework of bones that supports the body.",
 
         difficulty: 1,
-
+        correctAnswer: "A framework of bones inside the body",
         estimatedSeconds: 10,
 
         tags: [
@@ -56,13 +54,11 @@ export const skeletons: SkillContent = {
             "To make oxygen"
         ],
 
-        answer: 0,
-
         explanation:
             "A skeleton gives the body shape and support.",
 
         difficulty: 1,
-
+        correctAnswer: "To support the body",
         estimatedSeconds: 15,
 
         tags: [
@@ -85,13 +81,11 @@ export const skeletons: SkillContent = {
             "The hand"
         ],
 
-        answer: 0,
-
         explanation:
             "The skull protects the brain from injury.",
 
         difficulty: 1,
-
+        correctAnswer: "The brain",
         estimatedSeconds: 15,
 
         tags: [
@@ -114,13 +108,11 @@ export const skeletons: SkillContent = {
             "The fingers"
         ],
 
-        answer: 0,
-
         explanation:
             "The rib cage surrounds and protects the heart and lungs.",
 
         difficulty: 1,
-
+        correctAnswer: "The rib cage",
         estimatedSeconds: 15,
 
         tags: [
@@ -143,13 +135,11 @@ export const skeletons: SkillContent = {
             "To digest food"
         ],
 
-        answer: 0,
-
         explanation:
             "The skeleton supports the body, protects organs and works with muscles to help us move.",
 
         difficulty: 1,
-
+        correctAnswer: "To support, protect and help the body move",
         estimatedSeconds: 15,
 
         tags: [
@@ -171,13 +161,11 @@ export const skeletons: SkillContent = {
             "Slug"
         ],
 
-        answer: 0,
-
         explanation:
             "Dogs are vertebrates with an internal skeleton.",
 
         difficulty: 1,
-
+        correctAnswer: "Dog",
         estimatedSeconds: 15,
 
         tags: [
@@ -199,13 +187,11 @@ export const skeletons: SkillContent = {
             "Nothing would change."
         ],
 
-        answer: 0,
-
         explanation:
             "Without a skeleton, the body would not have support.",
 
         difficulty: 1,
-
+        correctAnswer: "They would not be able to stand upright.",
         estimatedSeconds: 15,
 
         tags: [
@@ -228,13 +214,11 @@ export const skeletons: SkillContent = {
             "The leg bones"
         ],
 
-        answer: 0,
-
         explanation:
             "The skull is a strong bone that protects the brain.",
 
         difficulty: 1,
-
+        correctAnswer: "The skull",
         estimatedSeconds: 15,
 
         tags: [
@@ -257,13 +241,11 @@ export const skeletons: SkillContent = {
             "Skeletons produce sunlight."
         ],
 
-        answer: 0,
-
         explanation:
             "Skeletons work with muscles to help animals move.",
 
         difficulty: 1,
-
+        correctAnswer: "Skeletons help animals move.",
         estimatedSeconds: 20,
 
         tags: [
@@ -286,13 +268,11 @@ export const skeletons: SkillContent = {
             "Growing leaves, flowers and fruit"
         ],
 
-        answer: 0,
-
         explanation:
             "The three main jobs of a skeleton are supporting the body, protecting organs and helping movement.",
 
         difficulty: 1,
-
+        correctAnswer: "Support, protection and movement",
         estimatedSeconds: 20,
 
         tags: [
@@ -316,14 +296,12 @@ export const skeletons: SkillContent = {
             "Your clothes"
         ],
 
-        answer: 0,
-
         explanation:
             "The skeleton gives your body its shape and support.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "Your skeleton",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -345,13 +323,11 @@ export const skeletons: SkillContent = {
             "The leg bones"
         ],
 
-        answer: 0,
-
         explanation:
             "The rib cage protects the heart and lungs.",
 
         difficulty: 2,
-
+        correctAnswer: "The rib cage",
         estimatedSeconds: 20,
 
         tags: [
@@ -374,13 +350,11 @@ export const skeletons: SkillContent = {
             "It helps you breathe."
         ],
 
-        answer: 0,
-
         explanation:
             "Muscles pull on bones, allowing the body to move.",
 
         difficulty: 2,
-
+        correctAnswer: "It works together with muscles.",
         estimatedSeconds: 20,
 
         tags: [
@@ -404,13 +378,11 @@ export const skeletons: SkillContent = {
             "The feet"
         ],
 
-        answer: 0,
-
         explanation:
             "The rib cage protects both the lungs and the heart.",
 
         difficulty: 2,
-
+        correctAnswer: "The lungs",
         estimatedSeconds: 20,
 
         tags: [
@@ -433,13 +405,11 @@ export const skeletons: SkillContent = {
             "Earthworm"
         ],
 
-        answer: 0,
-
         explanation:
             "A horse is a vertebrate with an internal skeleton.",
 
         difficulty: 2,
-
+        correctAnswer: "Horse",
         estimatedSeconds: 20,
 
         tags: [
@@ -462,13 +432,11 @@ export const skeletons: SkillContent = {
             "To make blood"
         ],
 
-        answer: 0,
-
         explanation:
             "The brain is an important organ, so it is protected by the strong skull.",
 
         difficulty: 2,
-
+        correctAnswer: "To protect the brain",
         estimatedSeconds: 20,
 
         tags: [
@@ -491,13 +459,11 @@ export const skeletons: SkillContent = {
             "The cerebellum"
         ],
 
-        answer: 0,
-
         explanation:
             "The heart is protected by the rib cage, not the skull.",
 
         difficulty: 2,
-
+        correctAnswer: "The heart",
         estimatedSeconds: 20,
 
         tags: [
@@ -520,13 +486,11 @@ export const skeletons: SkillContent = {
             "You could run faster."
         ],
 
-        answer: 0,
-
         explanation:
             "The skeleton provides the support needed to hold the body upright.",
 
         difficulty: 2,
-
+        correctAnswer: "You would struggle to stand or sit upright.",
         estimatedSeconds: 20,
 
         tags: [
@@ -549,13 +513,11 @@ export const skeletons: SkillContent = {
             "They produce oxygen."
         ],
 
-        answer: 0,
-
         explanation:
             "Skeletons support the body, protect organs and work with muscles to help movement.",
 
         difficulty: 2,
-
+        correctAnswer: "They protect important organs and help movement.",
         estimatedSeconds: 20,
 
         tags: [
@@ -579,13 +541,11 @@ export const skeletons: SkillContent = {
             "It pumps blood around the body."
         ],
 
-        answer: 0,
-
         explanation:
             "The skeleton has three main jobs: support, protection and movement.",
 
         difficulty: 2,
-
+        correctAnswer: "It supports the body, protects organs and helps movement.",
         estimatedSeconds: 20,
 
         tags: [

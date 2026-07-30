@@ -28,13 +28,11 @@ export const magnetUses: SkillContent = {
             "A towel"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets help keep many fridge doors closed.",
 
         difficulty: 1,
-
+        correctAnswer: "A fridge door",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "everyday-life"]
@@ -52,13 +50,11 @@ export const magnetUses: SkillContent = {
             "To clean the shelves"
         ],
 
-        answer: 0,
-
         explanation:
             "Fridge magnets are useful for holding notes and photographs.",
 
         difficulty: 1,
-
+        correctAnswer: "To hold notes or pictures",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "everyday-life"]
@@ -76,13 +72,11 @@ export const magnetUses: SkillContent = {
             "A watering can"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnetic pickup tools collect small metal objects without touching them.",
 
         difficulty: 1,
-
+        correctAnswer: "A magnetic pickup tool",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "tools"]
@@ -100,13 +94,11 @@ export const magnetUses: SkillContent = {
             "A wooden spoon"
         ],
 
-        answer: 0,
-
         explanation:
             "Many cupboard doors use magnetic catches to keep them shut.",
 
         difficulty: 1,
-
+        correctAnswer: "A cupboard door",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "everyday-life"]
@@ -124,13 +116,11 @@ export const magnetUses: SkillContent = {
             "To make electricity"
         ],
 
-        answer: 0,
-
         explanation:
             "Large electromagnets can lift heavy metal objects in scrapyards.",
 
         difficulty: 1,
-
+        correctAnswer: "To lift metal",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "scrapyard"]
@@ -148,13 +138,11 @@ export const magnetUses: SkillContent = {
             "Inflating a tyre"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets easily pick up steel paper clips.",
 
         difficulty: 1,
-
+        correctAnswer: "Picking up paper clips",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets"]
@@ -172,13 +160,11 @@ export const magnetUses: SkillContent = {
             "A pencil"
         ],
 
-        answer: 0,
-
         explanation:
             "Fridge magnets are a common everyday use of magnets.",
 
         difficulty: 1,
-
+        correctAnswer: "A fridge magnet",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "everyday-life"]
@@ -196,13 +182,11 @@ export const magnetUses: SkillContent = {
             "They melt them"
         ],
 
-        answer: 0,
-
         explanation:
             "Paper clips are usually made from steel, which is magnetic.",
 
         difficulty: 1,
-
+        correctAnswer: "They attract the metal paper clips",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "paper-clips"]
@@ -220,13 +204,11 @@ export const magnetUses: SkillContent = {
             "A paper clip"
         ],
 
-        answer: 0,
-
         explanation:
             "Wood is not attracted to magnets.",
 
         difficulty: 1,
-
+        correctAnswer: "A wooden block",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "materials"]
@@ -244,13 +226,11 @@ export const magnetUses: SkillContent = {
             "Magnets are never used at home."
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets are used in many everyday objects and tools.",
 
         difficulty: 1,
-
+        correctAnswer: "Magnets have many useful everyday jobs.",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "everyday-life"]
@@ -268,13 +248,11 @@ export const magnetUses: SkillContent = {
             "They stop the wood growing"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnetic catches hold cupboard doors shut until they are pulled open.",
 
         difficulty: 2,
-
+        correctAnswer: "They keep the doors closed",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "home"]
@@ -292,13 +270,11 @@ export const magnetUses: SkillContent = {
             "To sharpen pencils"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnetic tools help collect small metal parts that are difficult to reach.",
 
         difficulty: 2,
-
+        correctAnswer: "To pick up dropped screws",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "tools"]
@@ -316,13 +292,11 @@ export const magnetUses: SkillContent = {
             "Moving water"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets can quickly collect magnetic metal objects.",
 
         difficulty: 2,
-
+        correctAnswer: "Collecting scattered paper clips",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets"]
@@ -340,13 +314,11 @@ export const magnetUses: SkillContent = {
             "To make them waterproof"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets provide an easy way to fasten and open some bags.",
 
         difficulty: 2,
-
+        correctAnswer: "To help keep them closed",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "everyday-life"]
@@ -364,13 +336,11 @@ export const magnetUses: SkillContent = {
             "A ruler"
         ],
 
-        answer: 0,
-
         explanation:
             "A magnet can collect many paper clips at once.",
 
         difficulty: 2,
-
+        correctAnswer: "A magnet",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "problem-solving"]
@@ -388,13 +358,11 @@ export const magnetUses: SkillContent = {
             "They make paper"
         ],
 
-        answer: 0,
-
         explanation:
             "Large magnets help sort magnetic metals for recycling.",
 
         difficulty: 2,
-
+        correctAnswer: "They separate metal from other materials",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "recycling"]
@@ -412,13 +380,11 @@ export const magnetUses: SkillContent = {
             "A postcard"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets hold paper items against the metal fridge, but they cannot attract wood.",
 
         difficulty: 2,
-
+        correctAnswer: "A wooden block",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "materials"]
@@ -436,13 +402,11 @@ export const magnetUses: SkillContent = {
             "They use sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "Magnetic toys use the forces between magnets.",
 
         difficulty: 2,
-
+        correctAnswer: "Their magnets attract or repel each other",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "toys"]
@@ -460,13 +424,11 @@ export const magnetUses: SkillContent = {
             "Magnets can only attract paper clips."
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets attract certain metals and have many practical uses.",
 
         difficulty: 2,
-
+        correctAnswer: "Magnets are useful because they attract some metals.",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "uses"]
@@ -484,13 +446,11 @@ export const magnetUses: SkillContent = {
             "They attract all materials equally."
         ],
 
-        answer: 0,
-
         explanation:
             "Magnets are useful because they can attract magnetic materials in many everyday situations.",
 
         difficulty: 2,
-
+        correctAnswer: "They attract magnetic materials and help solve everyday problems.",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "everyday-life", "uses"]

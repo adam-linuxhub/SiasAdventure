@@ -28,13 +28,11 @@ export const evaporationCondensation: SkillContent = {
             "A liquid changing into a solid"
         ],
 
-        answer: 0,
-
         explanation:
             "Evaporation is when a liquid changes into a gas.",
 
         difficulty: 1,
-
+        correctAnswer: "A liquid changing into a gas",
         estimatedSeconds: 15,
 
         tags: ["science", "evaporation"]
@@ -52,13 +50,11 @@ export const evaporationCondensation: SkillContent = {
             "A liquid changing into a solid"
         ],
 
-        answer: 0,
-
         explanation:
             "Condensation happens when a gas cools and becomes a liquid.",
 
         difficulty: 1,
-
+        correctAnswer: "A gas changing into a liquid",
         estimatedSeconds: 15,
 
         tags: ["science", "condensation"]
@@ -76,13 +72,11 @@ export const evaporationCondensation: SkillContent = {
             "It becomes solid."
         ],
 
-        answer: 0,
-
         explanation:
             "The water slowly evaporates into the air.",
 
         difficulty: 1,
-
+        correctAnswer: "It evaporates.",
         estimatedSeconds: 15,
 
         tags: ["science", "evaporation"]
@@ -100,13 +94,11 @@ export const evaporationCondensation: SkillContent = {
             "Smoke"
         ],
 
-        answer: 0,
-
         explanation:
             "Water vapour in the air condenses into tiny liquid droplets.",
 
         difficulty: 1,
-
+        correctAnswer: "Tiny drops of water",
         estimatedSeconds: 15,
 
         tags: ["science", "condensation"]
@@ -124,13 +116,11 @@ export const evaporationCondensation: SkillContent = {
             "Melting"
         ],
 
-        answer: 0,
-
         explanation:
             "The water in the clothes evaporates into the air.",
 
         difficulty: 1,
-
+        correctAnswer: "Evaporation",
         estimatedSeconds: 15,
 
         tags: ["science", "evaporation"]
@@ -148,13 +138,11 @@ export const evaporationCondensation: SkillContent = {
             "A type of cloud"
         ],
 
-        answer: 0,
-
         explanation:
             "Water vapour is the invisible gas form of water.",
 
         difficulty: 1,
-
+        correctAnswer: "Water in its gas state",
         estimatedSeconds: 15,
 
         tags: ["science", "water-vapour"]
@@ -172,13 +160,11 @@ export const evaporationCondensation: SkillContent = {
             "Boiling"
         ],
 
-        answer: 0,
-
         explanation:
             "Condensation happens when a gas cools.",
 
         difficulty: 1,
-
+        correctAnswer: "Condensation",
         estimatedSeconds: 15,
 
         tags: ["science", "condensation"]
@@ -196,13 +182,11 @@ export const evaporationCondensation: SkillContent = {
             "Cooling"
         ],
 
-        answer: 0,
-
         explanation:
             "Heating gives water enough energy to become water vapour.",
 
         difficulty: 1,
-
+        correctAnswer: "Evaporation",
         estimatedSeconds: 20,
 
         tags: ["science", "evaporation"]
@@ -220,13 +204,11 @@ export const evaporationCondensation: SkillContent = {
             "It turns into a rock."
         ],
 
-        answer: 0,
-
         explanation:
             "Over time, water evaporates into the air.",
 
         difficulty: 1,
-
+        correctAnswer: "It slowly evaporates.",
         estimatedSeconds: 20,
 
         tags: ["science", "evaporation"]
@@ -244,13 +226,11 @@ export const evaporationCondensation: SkillContent = {
             "Neither changes the state of matter."
         ],
 
-        answer: 0,
-
         explanation:
             "Evaporation changes liquid to gas, while condensation changes gas to liquid.",
 
         difficulty: 1,
-
+        correctAnswer: "Evaporation and condensation are opposite processes.",
         estimatedSeconds: 20,
 
         tags: ["science", "evaporation", "condensation"]
@@ -268,13 +248,11 @@ export const evaporationCondensation: SkillContent = {
             "The water becomes solid."
         ],
 
-        answer: 0,
-
         explanation:
             "Warmer temperatures increase the rate of evaporation.",
 
         difficulty: 2,
-
+        correctAnswer: "Evaporation happens more quickly.",
         estimatedSeconds: 20,
 
         tags: ["science", "evaporation"]
@@ -292,13 +270,11 @@ export const evaporationCondensation: SkillContent = {
             "The glass evaporates."
         ],
 
-        answer: 0,
-
         explanation:
             "Warm water vapour cools on the mirror and forms tiny droplets.",
 
         difficulty: 2,
-
+        correctAnswer: "Water vapour condenses on the cool mirror.",
         estimatedSeconds: 20,
 
         tags: ["science", "condensation"]
@@ -316,13 +292,11 @@ export const evaporationCondensation: SkillContent = {
             "Boiling"
         ],
 
-        answer: 0,
-
         explanation:
             "Condensation changes a gas into a liquid.",
 
         difficulty: 2,
-
+        correctAnswer: "Condensation",
         estimatedSeconds: 20,
 
         tags: ["science", "condensation"]
@@ -340,13 +314,11 @@ export const evaporationCondensation: SkillContent = {
             "They change into oxygen."
         ],
 
-        answer: 0,
-
         explanation:
             "During evaporation, water particles leave the liquid and become water vapour.",
 
         difficulty: 2,
-
+        correctAnswer: "They escape into the air as a gas.",
         estimatedSeconds: 20,
 
         tags: ["science", "evaporation"]
@@ -364,13 +336,11 @@ export const evaporationCondensation: SkillContent = {
             "Butter melting"
         ],
 
-        answer: 0,
-
         explanation:
             "Water vapour cools and forms liquid water on the window.",
 
         difficulty: 2,
-
+        correctAnswer: "Drops forming on a cold window",
         estimatedSeconds: 20,
 
         tags: ["science", "condensation"]
@@ -388,13 +358,11 @@ export const evaporationCondensation: SkillContent = {
             "Making the water colder"
         ],
 
-        answer: 0,
-
         explanation:
             "Heating gives water particles more energy to escape into the air.",
 
         difficulty: 2,
-
+        correctAnswer: "Higher temperatures",
         estimatedSeconds: 20,
 
         tags: ["science", "evaporation"]
@@ -412,13 +380,11 @@ export const evaporationCondensation: SkillContent = {
             "The air freezes."
         ],
 
-        answer: 0,
-
         explanation:
             "The cold surface cools the nearby water vapour, causing condensation.",
 
         difficulty: 2,
-
+        correctAnswer: "Water vapour condenses on the cold surface.",
         estimatedSeconds: 20,
 
         tags: ["science", "condensation"]
@@ -436,13 +402,11 @@ export const evaporationCondensation: SkillContent = {
             "The puddle turns into ice."
         ],
 
-        answer: 0,
-
         explanation:
             "Evaporation happens at many temperatures, not just when water boils.",
 
         difficulty: 2,
-
+        correctAnswer: "Evaporation can happen below boiling point.",
         estimatedSeconds: 20,
 
         tags: ["science", "evaporation"]
@@ -460,13 +424,11 @@ export const evaporationCondensation: SkillContent = {
             "Melting and evaporation"
         ],
 
-        answer: 0,
-
         explanation:
             "One changes liquid to gas, the other changes gas to liquid.",
 
         difficulty: 2,
-
+        correctAnswer: "Evaporation and condensation",
         estimatedSeconds: 20,
 
         tags: ["science", "states-of-matter"]
@@ -484,13 +446,11 @@ export const evaporationCondensation: SkillContent = {
             "Neither process changes the state of matter."
         ],
 
-        answer: 0,
-
         explanation:
             "Evaporation and condensation are opposite changes of state involving liquids and gases.",
 
         difficulty: 2,
-
+        correctAnswer: "Evaporation changes liquids into gases, while condensation changes gases back into liquids.",
         estimatedSeconds: 20,
 
         tags: ["science", "evaporation", "condensation", "states-of-matter"]

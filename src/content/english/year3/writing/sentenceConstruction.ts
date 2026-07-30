@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const sentenceConstruction: SkillContent = {
 
@@ -29,13 +29,11 @@ export const sentenceConstruction: SkillContent = {
             "Because it was raining."
         ],
 
-        answer: 0,
-
         explanation:
             "A complete sentence needs to make sense on its own and include a subject and a verb.",
 
         difficulty: 1,
-
+        correctAnswer: "The dog barked.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -54,13 +52,11 @@ export const sentenceConstruction: SkillContent = {
             "A capital letter only"
         ],
 
-        answer: 0,
-
         explanation:
             "A sentence needs someone or something doing something.",
 
         difficulty: 1,
-
+        correctAnswer: "A subject and a verb",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -79,13 +75,11 @@ export const sentenceConstruction: SkillContent = {
             "log"
         ],
 
-        answer: 0,
-
         explanation:
             "The subject is who or what the sentence is about.",
 
         difficulty: 1,
-
+        correctAnswer: "rabbit",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -104,13 +98,11 @@ export const sentenceConstruction: SkillContent = {
             "the"
         ],
 
-        answer: 0,
-
         explanation:
             "Jumped is the action being carried out.",
 
         difficulty: 1,
-
+        correctAnswer: "jumped",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -129,13 +121,11 @@ export const sentenceConstruction: SkillContent = {
             "the Bird flew Away."
         ],
 
-        answer: 0,
-
         explanation:
             "A sentence should begin with a capital letter and end with punctuation.",
 
         difficulty: 1,
-
+        correctAnswer: "The bird flew away.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -154,13 +144,11 @@ export const sentenceConstruction: SkillContent = {
             "The sun was shining."
         ],
 
-        answer: 0,
-
         explanation:
             "A fragment does not make complete sense on its own.",
 
         difficulty: 1,
-
+        correctAnswer: "Because I was tired",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -179,13 +167,11 @@ export const sentenceConstruction: SkillContent = {
             "quick"
         ],
 
-        answer: 0,
-
         explanation:
             "A verb is needed to show what the children did.",
 
         difficulty: 1,
-
+        correctAnswer: "played",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -204,13 +190,11 @@ export const sentenceConstruction: SkillContent = {
             "After the game."
         ],
 
-        answer: 0,
-
         explanation:
             "The teacher is the person doing the action.",
 
         difficulty: 1,
-
+        correctAnswer: "The teacher explained the lesson.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -229,13 +213,11 @@ export const sentenceConstruction: SkillContent = {
             "The red ball."
         ],
 
-        answer: 0,
-
         explanation:
             "Barked is the action word.",
 
         difficulty: 1,
-
+        correctAnswer: "The puppy barked loudly.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -254,13 +236,11 @@ export const sentenceConstruction: SkillContent = {
             "They make every word the same."
         ],
 
-        answer: 0,
-
         explanation:
             "Complete sentences communicate clear ideas.",
 
         difficulty: 1,
-
+        correctAnswer: "They help readers understand ideas clearly.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -279,13 +259,11 @@ export const sentenceConstruction: SkillContent = {
             "The dog."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence includes a subject, verb and extra detail.",
 
         difficulty: 2,
-
+        correctAnswer: "The excited dog raced across the field.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -304,13 +282,11 @@ export const sentenceConstruction: SkillContent = {
             "The boy."
         ],
 
-        answer: 0,
-
         explanation:
             "Adding detail makes the sentence clearer and more interesting.",
 
         difficulty: 2,
-
+        correctAnswer: "The young boy ran quickly home.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -329,13 +305,11 @@ export const sentenceConstruction: SkillContent = {
             "Mouse the chased cat the."
         ],
 
-        answer: 0,
-
         explanation:
             "English sentences usually follow a clear word order.",
 
         difficulty: 2,
-
+        correctAnswer: "The cat chased the mouse.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -354,13 +328,11 @@ export const sentenceConstruction: SkillContent = {
             "Because the rain."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence contains a complete idea.",
 
         difficulty: 2,
-
+        correctAnswer: "Although it was raining, we played football.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -379,13 +351,11 @@ export const sentenceConstruction: SkillContent = {
             "Where are you going"
         ],
 
-        answer: 0,
-
         explanation:
             "Questions need a question mark and a capital letter.",
 
         difficulty: 2,
-
+        correctAnswer: "Where are you going?",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -404,13 +374,11 @@ export const sentenceConstruction: SkillContent = {
             "The door was wooden."
         ],
 
-        answer: 0,
-
         explanation:
             "Commands tell someone what to do.",
 
         difficulty: 2,
-
+        correctAnswer: "Close the door quietly.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -429,13 +397,11 @@ export const sentenceConstruction: SkillContent = {
             "Yesterday, I walks to school."
         ],
 
-        answer: 0,
-
         explanation:
             "The word 'yesterday' shows the action happened in the past.",
 
         difficulty: 2,
-
+        correctAnswer: "Yesterday, I walked to school.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -454,13 +420,11 @@ export const sentenceConstruction: SkillContent = {
             "Making every sentence one word"
         ],
 
-        answer: 0,
-
         explanation:
             "Good sentence structure helps readers understand meaning.",
 
         difficulty: 2,
-
+        correctAnswer: "Clear word order and correct punctuation",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -479,13 +443,11 @@ export const sentenceConstruction: SkillContent = {
             "After lunch."
         ],
 
-        answer: 0,
-
         explanation:
             "Children is the subject and laughed is the verb.",
 
         difficulty: 2,
-
+        correctAnswer: "The children laughed.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]
@@ -504,13 +466,11 @@ export const sentenceConstruction: SkillContent = {
             "You have removed all details"
         ],
 
-        answer: 0,
-
         explanation:
             "Checking sentences helps make writing clear and accurate.",
 
         difficulty: 2,
-
+        correctAnswer: "Your sentences make sense",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "sentences"]

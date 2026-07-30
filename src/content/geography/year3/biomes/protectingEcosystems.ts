@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const protectingEcosystems: SkillContent = {
 
@@ -29,13 +29,11 @@ export const protectingEcosystems: SkillContent = {
             "A type of weather"
         ],
 
-        answer: 0,
-
         explanation:
             "An ecosystem includes plants, animals and the non-living environment around them.",
 
         difficulty: 1,
-
+        correctAnswer: "Living things interacting with their environment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "ecosystems"]
@@ -54,13 +52,11 @@ export const protectingEcosystems: SkillContent = {
             "They have no purpose"
         ],
 
-        answer: 0,
-
         explanation:
             "Ecosystems support plants, animals and people.",
 
         difficulty: 1,
-
+        correctAnswer: "They provide homes and resources for living things",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "ecosystems"]
@@ -79,13 +75,11 @@ export const protectingEcosystems: SkillContent = {
             "The number of roads"
         ],
 
-        answer: 0,
-
         explanation:
             "Biodiversity describes the number and variety of plants and animals.",
 
         difficulty: 1,
-
+        correctAnswer: "The variety of living things in an area",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "biodiversity"]
@@ -104,13 +98,11 @@ export const protectingEcosystems: SkillContent = {
             "It makes environments identical"
         ],
 
-        answer: 0,
-
         explanation:
             "A variety of species helps ecosystems function properly.",
 
         difficulty: 2,
-
+        correctAnswer: "Different species help keep ecosystems healthy",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "biodiversity"]
@@ -129,13 +121,11 @@ export const protectingEcosystems: SkillContent = {
             "A mountain peak"
         ],
 
-        answer: 0,
-
         explanation:
             "Habitats provide living things with food, water and shelter.",
 
         difficulty: 1,
-
+        correctAnswer: "The place where a living thing lives",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "habitats"]
@@ -154,13 +144,11 @@ export const protectingEcosystems: SkillContent = {
             "By reducing waste"
         ],
 
-        answer: 0,
-
         explanation:
             "Some human activities can destroy or change habitats.",
 
         difficulty: 1,
-
+        correctAnswer: "By activities such as deforestation and pollution",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -179,13 +167,11 @@ export const protectingEcosystems: SkillContent = {
             "The growth of new plants"
         ],
 
-        answer: 0,
-
         explanation:
             "Deforestation occurs when forests are cleared.",
 
         difficulty: 1,
-
+        correctAnswer: "The removal of large areas of forest",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "forests"]
@@ -204,13 +190,11 @@ export const protectingEcosystems: SkillContent = {
             "It stops climate change"
         ],
 
-        answer: 0,
-
         explanation:
             "Removing forests can reduce habitats and biodiversity.",
 
         difficulty: 2,
-
+        correctAnswer: "It can destroy habitats for plants and animals",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "forests"]
@@ -229,13 +213,11 @@ export const protectingEcosystems: SkillContent = {
             "Protecting animals"
         ],
 
-        answer: 0,
-
         explanation:
             "Pollution can damage ecosystems and living things.",
 
         difficulty: 1,
-
+        correctAnswer: "Harmful substances entering the environment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "pollution"]
@@ -254,13 +236,11 @@ export const protectingEcosystems: SkillContent = {
             "It removes the need for food"
         ],
 
-        answer: 0,
-
         explanation:
             "Pollution can make environments unsafe for animals.",
 
         difficulty: 2,
-
+        correctAnswer: "It can harm their habitats and health",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "animals"]
@@ -279,13 +259,11 @@ export const protectingEcosystems: SkillContent = {
             "Creating pollution"
         ],
 
-        answer: 0,
-
         explanation:
             "Conservation helps protect nature and ecosystems.",
 
         difficulty: 1,
-
+        correctAnswer: "Protecting and caring for the environment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "conservation"]
@@ -304,13 +282,11 @@ export const protectingEcosystems: SkillContent = {
             "Remove animals"
         ],
 
-        answer: 0,
-
         explanation:
             "Careful use of resources helps protect ecosystems.",
 
         difficulty: 1,
-
+        correctAnswer: "Reduce pollution and protect habitats",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -329,13 +305,11 @@ export const protectingEcosystems: SkillContent = {
             "A type of weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Endangered species have populations that are becoming very small.",
 
         difficulty: 2,
-
+        correctAnswer: "A species at risk of becoming extinct",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "animals"]
@@ -354,13 +328,11 @@ export const protectingEcosystems: SkillContent = {
             "A species is protected"
         ],
 
-        answer: 0,
-
         explanation:
             "An extinct species has completely disappeared from Earth.",
 
         difficulty: 2,
-
+        correctAnswer: "A species no longer exists",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "animals"]
@@ -379,13 +351,11 @@ export const protectingEcosystems: SkillContent = {
             "To destroy habitats"
         ],
 
-        answer: 0,
-
         explanation:
             "Protected areas help conserve landscapes and wildlife.",
 
         difficulty: 1,
-
+        correctAnswer: "To protect important natural areas",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "conservation"]
@@ -404,13 +374,11 @@ export const protectingEcosystems: SkillContent = {
             "They remove all water"
         ],
 
-        answer: 0,
-
         explanation:
             "Trees support wildlife and play a role in the environment.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide habitats and help absorb carbon dioxide",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "forests"]
@@ -429,13 +397,11 @@ export const protectingEcosystems: SkillContent = {
             "Waste more resources"
         ],
 
-        answer: 0,
-
         explanation:
             "Reducing waste helps protect the environment.",
 
         difficulty: 1,
-
+        correctAnswer: "Recycle, reuse and reduce waste",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "pollution"]
@@ -454,13 +420,11 @@ export const protectingEcosystems: SkillContent = {
             "To prevent nature"
         ],
 
-        answer: 0,
-
         explanation:
             "Habitats are essential for the survival of living things.",
 
         difficulty: 1,
-
+        correctAnswer: "To help plants and animals survive",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "habitats"]
@@ -479,13 +443,11 @@ export const protectingEcosystems: SkillContent = {
             "By wasting resources"
         ],
 
-        answer: 0,
-
         explanation:
             "Community action can help protect local environments.",
 
         difficulty: 1,
-
+        correctAnswer: "By working together to protect nature",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -504,13 +466,11 @@ export const protectingEcosystems: SkillContent = {
             "Only cities need protection"
         ],
 
-        answer: 0,
-
         explanation:
             "Conservation helps maintain healthy ecosystems for the future.",
 
         difficulty: 2,
-
+        correctAnswer: "Protecting ecosystems helps keep plants, animals and environments healthy",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "ecosystems"]

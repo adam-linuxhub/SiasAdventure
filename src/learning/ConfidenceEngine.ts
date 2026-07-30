@@ -16,7 +16,7 @@ export class ConfidenceEngine {
 
         const change = this.getConfidenceChange(
 
-            activity.difficulty,
+            activity.difficulty ?? 3,
 
             correct
 

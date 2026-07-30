@@ -28,13 +28,11 @@ export const soil: SkillContent = {
             "Only water"
         ],
 
-        answer: 0,
-
         explanation:
             "Soil is made from tiny rock particles, water, air and decayed living matter.",
 
         difficulty: 1,
-
+        correctAnswer: "A mixture of tiny pieces of rock, air, water and dead plants and animals",
         estimatedSeconds: 15,
 
         tags: ["science", "rocks", "soil"]
@@ -52,13 +50,11 @@ export const soil: SkillContent = {
             "In the sea"
         ],
 
-        answer: 0,
-
         explanation:
             "Most plants grow in soil because it provides support, water and nutrients.",
 
         difficulty: 1,
-
+        correctAnswer: "In soil",
         estimatedSeconds: 15,
 
         tags: ["science", "soil", "plants"]
@@ -76,13 +72,11 @@ export const soil: SkillContent = {
             "Metal"
         ],
 
-        answer: 0,
-
         explanation:
             "Soil forms as rocks break down over many years.",
 
         difficulty: 1,
-
+        correctAnswer: "Broken rocks",
         estimatedSeconds: 15,
 
         tags: ["science", "soil", "rocks"]
@@ -100,13 +94,11 @@ export const soil: SkillContent = {
             "Plastic"
         ],
 
-        answer: 0,
-
         explanation:
             "Clay is one of the main types of soil.",
 
         difficulty: 1,
-
+        correctAnswer: "Clay",
         estimatedSeconds: 15,
 
         tags: ["science", "soil", "clay"]
@@ -124,13 +116,11 @@ export const soil: SkillContent = {
             "Compost"
         ],
 
-        answer: 0,
-
         explanation:
             "Sandy soil contains larger grains than other soil types.",
 
         difficulty: 1,
-
+        correctAnswer: "Sandy soil",
         estimatedSeconds: 15,
 
         tags: ["science", "soil", "sand"]
@@ -148,13 +138,11 @@ export const soil: SkillContent = {
             "Gravel"
         ],
 
-        answer: 0,
-
         explanation:
             "Clay soil becomes sticky because its particles are very small.",
 
         difficulty: 1,
-
+        correctAnswer: "Clay soil",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "clay"]
@@ -172,13 +160,11 @@ export const soil: SkillContent = {
             "It makes rocks float"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants depend on soil for support, water and nutrients.",
 
         difficulty: 1,
-
+        correctAnswer: "It helps plants grow",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "plants"]
@@ -196,13 +182,11 @@ export const soil: SkillContent = {
             "Dolphin"
         ],
 
-        answer: 0,
-
         explanation:
             "Earthworms spend most of their lives in soil.",
 
         difficulty: 1,
-
+        correctAnswer: "Earthworm",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "living-things"]
@@ -220,13 +204,11 @@ export const soil: SkillContent = {
             "Only sand"
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy soil contains many tiny living organisms.",
 
         difficulty: 1,
-
+        correctAnswer: "Tiny living organisms",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "living-things"]
@@ -244,13 +226,11 @@ export const soil: SkillContent = {
             "To find sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water and nutrients from the soil.",
 
         difficulty: 1,
-
+        correctAnswer: "To take in water and nutrients",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "plants"]
@@ -268,13 +248,11 @@ export const soil: SkillContent = {
             "Mud"
         ],
 
-        answer: 0,
-
         explanation:
             "Sandy soil has larger spaces between its grains, allowing water to drain quickly.",
 
         difficulty: 2,
-
+        correctAnswer: "Sandy soil",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "sand"]
@@ -292,13 +270,11 @@ export const soil: SkillContent = {
             "Pebbles"
         ],
 
-        answer: 0,
-
         explanation:
             "Clay soil holds water because its particles are very small and close together.",
 
         difficulty: 2,
-
+        correctAnswer: "Clay soil",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "clay"]
@@ -316,13 +292,11 @@ export const soil: SkillContent = {
             "Clouds become soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Weathering slowly breaks rocks into smaller pieces that become part of soil.",
 
         difficulty: 2,
-
+        correctAnswer: "Rocks break down over many years",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "weathering"]
@@ -340,13 +314,11 @@ export const soil: SkillContent = {
             "To remove roots"
         ],
 
-        answer: 0,
-
         explanation:
             "Compost adds nutrients that help plants grow well.",
 
         difficulty: 2,
-
+        correctAnswer: "To add nutrients for plants",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "compost"]
@@ -364,13 +336,11 @@ export const soil: SkillContent = {
             "Solid rock"
         ],
 
-        answer: 0,
-
         explanation:
             "Cacti grow best in well-drained sandy soil.",
 
         difficulty: 2,
-
+        correctAnswer: "Sandy soil",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "sand", "plants"]
@@ -388,13 +358,11 @@ export const soil: SkillContent = {
             "They remove all nutrients"
         ],
 
-        answer: 0,
-
         explanation:
             "Earthworms improve soil by mixing it and allowing air and water to move through it.",
 
         difficulty: 2,
-
+        correctAnswer: "They mix and loosen it",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "earthworms"]
@@ -412,13 +380,11 @@ export const soil: SkillContent = {
             "It stops plants needing water"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots need air as well as water to grow properly.",
 
         difficulty: 2,
-
+        correctAnswer: "Plant roots need air to stay healthy",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "plants"]
@@ -436,13 +402,11 @@ export const soil: SkillContent = {
             "Plants do not need soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Clay, sandy and other soils have different properties.",
 
         difficulty: 2,
-
+        correctAnswer: "Different soils have different properties",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "properties"]
@@ -460,13 +424,11 @@ export const soil: SkillContent = {
             "It stops seeds growing"
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy soil provides crops with water and nutrients.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps crops grow well",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "farming"]
@@ -484,13 +446,11 @@ export const soil: SkillContent = {
             "It is a type of metal"
         ],
 
-        answer: 0,
-
         explanation:
             "Soil is made from rock particles, water, air and organic matter, making it an important habitat for plants and animals.",
 
         difficulty: 2,
-
+        correctAnswer: "It is a mixture that supports plants and many living things",
         estimatedSeconds: 20,
 
         tags: ["science", "soil", "plants", "living-things"]

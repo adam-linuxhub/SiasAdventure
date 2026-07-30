@@ -28,13 +28,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Steam"
         ],
 
-        answer: 0,
-
         explanation:
             "Solids keep their own shape unless a force changes them.",
 
         difficulty: 1,
-
+        correctAnswer: "Solid",
         estimatedSeconds: 15,
 
         tags: ["science", "states-of-matter", "solids"]
@@ -52,13 +50,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Ice"
         ],
 
-        answer: 0,
-
         explanation:
             "Liquids flow and take the shape of their container.",
 
         difficulty: 1,
-
+        correctAnswer: "Liquid",
         estimatedSeconds: 15,
 
         tags: ["science", "states-of-matter", "liquids"]
@@ -76,13 +72,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Rock"
         ],
 
-        answer: 0,
-
         explanation:
             "Gases expand to fill their container.",
 
         difficulty: 1,
-
+        correctAnswer: "Gas",
         estimatedSeconds: 15,
 
         tags: ["science", "states-of-matter", "gases"]
@@ -100,13 +94,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Steam"
         ],
 
-        answer: 0,
-
         explanation:
             "A brick keeps its own shape, so it is a solid.",
 
         difficulty: 1,
-
+        correctAnswer: "Brick",
         estimatedSeconds: 15,
 
         tags: ["science", "solids"]
@@ -124,13 +116,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Glass marble"
         ],
 
-        answer: 0,
-
         explanation:
             "Orange juice flows and takes the shape of its container.",
 
         difficulty: 1,
-
+        correctAnswer: "Orange juice",
         estimatedSeconds: 15,
 
         tags: ["science", "liquids"]
@@ -148,13 +138,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Water"
         ],
 
-        answer: 0,
-
         explanation:
             "Oxygen is a gas at room temperature.",
 
         difficulty: 1,
-
+        correctAnswer: "Oxygen",
         estimatedSeconds: 15,
 
         tags: ["science", "gases"]
@@ -172,13 +160,11 @@ export const solidsLiquidsGases: SkillContent = {
             "It becomes a solid."
         ],
 
-        answer: 0,
-
         explanation:
             "Liquids change shape to fit their container.",
 
         difficulty: 1,
-
+        correctAnswer: "It takes the shape of the cup.",
         estimatedSeconds: 15,
 
         tags: ["science", "liquids"]
@@ -196,13 +182,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Metal"
         ],
 
-        answer: 0,
-
         explanation:
             "Liquids flow and can be poured.",
 
         difficulty: 1,
-
+        correctAnswer: "Liquid",
         estimatedSeconds: 20,
 
         tags: ["science", "liquids"]
@@ -220,13 +204,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Ice"
         ],
 
-       answer: 0,
-
         explanation:
             "Air is made of several gases.",
 
         difficulty: 1,
-
+        correctAnswer: "Gas",
         estimatedSeconds: 20,
 
         tags: ["science", "gases"]
@@ -244,13 +226,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Liquids fill the whole room."
         ],
 
-        answer: 0,
-
         explanation:
             "A solid has a fixed shape unless it is changed by a force.",
 
         difficulty: 1,
-
+        correctAnswer: "Solids usually keep their own shape.",
         estimatedSeconds: 20,
 
         tags: ["science", "states-of-matter"]
@@ -268,13 +248,11 @@ export const solidsLiquidsGases: SkillContent = {
             "It is melting."
         ],
 
-        answer: 0,
-
         explanation:
             "Liquids do not have a fixed shape.",
 
         difficulty: 2,
-
+        correctAnswer: "It is a liquid.",
         estimatedSeconds: 20,
 
         tags: ["science", "liquids"]
@@ -292,13 +270,11 @@ export const solidsLiquidsGases: SkillContent = {
             "The air disappears."
         ],
 
-        answer: 0,
-
         explanation:
             "Gases spread out to fill the space available.",
 
         difficulty: 2,
-
+        correctAnswer: "The gas inside spreads out.",
         estimatedSeconds: 20,
 
         tags: ["science", "gases"]
@@ -316,13 +292,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Steam, water, ice"
         ],
 
-        answer: 0,
-
         explanation:
             "Each item in the first list is a solid.",
 
         difficulty: 2,
-
+        correctAnswer: "Stone, pencil, spoon",
         estimatedSeconds: 20,
 
         tags: ["science", "solids"]
@@ -340,13 +314,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Ice, steam, water vapour"
         ],
 
-        answer: 0,
-
         explanation:
             "Milk, oil and water are all liquids.",
 
         difficulty: 2,
-
+        correctAnswer: "Milk, oil, water",
         estimatedSeconds: 20,
 
         tags: ["science", "liquids"]
@@ -364,13 +336,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Ice, water, steam"
         ],
 
-        answer: 0,
-
         explanation:
             "All three are gases at room temperature.",
 
         difficulty: 2,
-
+        correctAnswer: "Oxygen, helium, carbon dioxide",
         estimatedSeconds: 20,
 
         tags: ["science", "gases"]
@@ -388,13 +358,11 @@ export const solidsLiquidsGases: SkillContent = {
             "They cannot be compressed."
         ],
 
-        answer: 0,
-
         explanation:
             "Gases spread throughout the available space.",
 
         difficulty: 2,
-
+        correctAnswer: "They spread out to fill their container.",
         estimatedSeconds: 20,
 
         tags: ["science", "gases"]
@@ -412,13 +380,11 @@ export const solidsLiquidsGases: SkillContent = {
             "It becomes a gas immediately."
         ],
 
-        answer: 0,
-
         explanation:
             "Ice is a solid, so it keeps its shape.",
 
         difficulty: 2,
-
+        correctAnswer: "It keeps the same shape.",
         estimatedSeconds: 20,
 
         tags: ["science", "solids"]
@@ -436,13 +402,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Solids always flow."
         ],
 
-        answer: 0,
-
         explanation:
             "Liquids keep their volume but change shape.",
 
         difficulty: 2,
-
+        correctAnswer: "Both have a fixed volume, but only solids have a fixed shape.",
         estimatedSeconds: 20,
 
         tags: ["science", "states-of-matter"]
@@ -460,13 +424,11 @@ export const solidsLiquidsGases: SkillContent = {
             "It has no particles."
         ],
 
-        answer: 0,
-
         explanation:
             "Gases spread out and fill the available space.",
 
         difficulty: 2,
-
+        correctAnswer: "It is a gas.",
         estimatedSeconds: 20,
 
         tags: ["science", "gases"]
@@ -484,13 +446,11 @@ export const solidsLiquidsGases: SkillContent = {
             "Liquids and gases keep a fixed shape."
         ],
 
-        answer: 0,
-
         explanation:
             "The three states of matter have different properties that help us identify them.",
 
         difficulty: 2,
-
+        correctAnswer: "Solids keep their shape, liquids flow and gases spread out to fill their container.",
         estimatedSeconds: 20,
 
         tags: ["science", "states-of-matter", "solids", "liquids", "gases"]

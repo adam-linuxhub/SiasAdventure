@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const prefixesUn: SkillContent = {
 
@@ -28,13 +28,11 @@ export const prefixesUn: SkillContent = {
             "Again"
         ],
 
-        answer: 0,
-
         explanation:
             "The prefix 'un-' usually changes a word to mean 'not' or 'the opposite of'.",
 
         difficulty: 1,
-
+        correctAnswer: "Not or the opposite of",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -52,13 +50,11 @@ export const prefixesUn: SkillContent = {
             "mis happy"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unhappy' means not happy.",
 
         difficulty: 1,
-
+        correctAnswer: "unhappy",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -76,13 +72,11 @@ export const prefixesUn: SkillContent = {
             "kindly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unkind' means not kind.",
 
         difficulty: 1,
-
+        correctAnswer: "unkind",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -100,13 +94,11 @@ export const prefixesUn: SkillContent = {
             "prefair"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unfair' means something is not fair.",
 
         difficulty: 1,
-
+        correctAnswer: "unfair",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -124,13 +116,11 @@ export const prefixesUn: SkillContent = {
             "tidily"
         ],
 
-        answer: 0,
-
         explanation:
             "'Untidy' means not tidy.",
 
         difficulty: 1,
-
+        correctAnswer: "untidy",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -148,13 +138,11 @@ export const prefixesUn: SkillContent = {
             "safely"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unsafe' means not safe.",
 
         difficulty: 1,
-
+        correctAnswer: "unsafe",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -172,13 +160,11 @@ export const prefixesUn: SkillContent = {
             "unclain"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unclean' is the correct spelling.",
 
         difficulty: 1,
-
+        correctAnswer: "unclean",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -196,13 +182,11 @@ export const prefixesUn: SkillContent = {
             "welling"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unwell' means not feeling well.",
 
         difficulty: 1,
-
+        correctAnswer: "unwell",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -220,13 +204,11 @@ export const prefixesUn: SkillContent = {
             "wrapping"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unwrap' means to remove the wrapping.",
 
         difficulty: 1,
-
+        correctAnswer: "unwrap",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -244,13 +226,11 @@ export const prefixesUn: SkillContent = {
             "Hide a lock"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unlock' means to open something that has been locked.",
 
         difficulty: 1,
-
+        correctAnswer: "Open a lock",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -268,13 +248,11 @@ export const prefixesUn: SkillContent = {
             "tidiness"
         ],
 
-        answer: 0,
-
         explanation:
             "'Untidy' means not tidy.",
 
         difficulty: 2,
-
+        correctAnswer: "untidy",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -292,13 +270,11 @@ export const prefixesUn: SkillContent = {
             "safety"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unsafe' means not safe.",
 
         difficulty: 2,
-
+        correctAnswer: "unsafe",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -316,13 +292,11 @@ export const prefixesUn: SkillContent = {
             "The game was fairly because one team cheated."
         ],
 
-        answer: 0,
-
         explanation:
             "'Unfair' means not fair.",
 
         difficulty: 2,
-
+        correctAnswer: "The game was unfair because one team cheated.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -340,13 +314,11 @@ export const prefixesUn: SkillContent = {
             "locked"
         ],
 
-        answer: 0,
-
         explanation:
             "Adding 'un-' changes the meaning to the opposite.",
 
         difficulty: 2,
-
+        correctAnswer: "unlock",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -364,13 +336,11 @@ export const prefixesUn: SkillContent = {
             "Sam felt happily when he lost his toy."
         ],
 
-        answer: 0,
-
         explanation:
             "'Unhappy' means not happy.",
 
         difficulty: 2,
-
+        correctAnswer: "Sam felt unhappy when he lost his toy.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -388,13 +358,11 @@ export const prefixesUn: SkillContent = {
             "wrapping"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unwrap' means to remove the wrapping.",
 
         difficulty: 2,
-
+        correctAnswer: "unwrap",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -412,13 +380,11 @@ export const prefixesUn: SkillContent = {
             "The word becomes a noun."
         ],
 
-        answer: 0,
-
         explanation:
             "The prefix 'un-' usually changes the meaning to the opposite.",
 
         difficulty: 2,
-
+        correctAnswer: "The meaning becomes the opposite.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -436,13 +402,11 @@ export const prefixesUn: SkillContent = {
             "The puppy was welling after eating too much."
         ],
 
-        answer: 0,
-
         explanation:
             "'Unwell' means not feeling well.",
 
         difficulty: 2,
-
+        correctAnswer: "The puppy was unwell after eating too much.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -460,13 +424,11 @@ export const prefixesUn: SkillContent = {
             "kindness"
         ],
 
-        answer: 0,
-
         explanation:
             "'Unkind' means not kind.",
 
         difficulty: 2,
-
+        correctAnswer: "unkind",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]
@@ -484,13 +446,11 @@ export const prefixesUn: SkillContent = {
             "Please wrapping your birthday present carefully."
         ],
 
-        answer: 0,
-
         explanation:
             "'Unwrap' means to remove the wrapping from a present.",
 
         difficulty: 2,
-
+        correctAnswer: "Please unwrap your birthday present carefully.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "prefixes", "un"]

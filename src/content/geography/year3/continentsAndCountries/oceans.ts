@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const oceans: SkillContent = {
 
@@ -29,13 +29,11 @@ export const oceans: SkillContent = {
             "A weather event"
         ],
 
-        answer: 0,
-
         explanation:
             "Oceans are huge areas of salt water that cover much of Earth's surface.",
 
         difficulty: 1,
-
+        correctAnswer: "A very large area of salt water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -54,13 +52,11 @@ export const oceans: SkillContent = {
             "Ten"
         ],
 
-        answer: 0,
-
         explanation:
             "The five oceans are Pacific, Atlantic, Indian, Southern and Arctic.",
 
         difficulty: 1,
-
+        correctAnswer: "Five",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -79,13 +75,11 @@ export const oceans: SkillContent = {
             "Arctic Ocean"
         ],
 
-        answer: 0,
-
         explanation:
             "The Pacific Ocean is the largest ocean on Earth.",
 
         difficulty: 1,
-
+        correctAnswer: "Pacific Ocean",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -104,13 +98,11 @@ export const oceans: SkillContent = {
             "Southern Ocean"
         ],
 
-        answer: 0,
-
         explanation:
             "The Atlantic Ocean separates Europe and North America.",
 
         difficulty: 1,
-
+        correctAnswer: "Atlantic Ocean",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -129,13 +121,11 @@ export const oceans: SkillContent = {
             "Indian Ocean"
         ],
 
-        answer: 0,
-
         explanation:
             "The Southern Ocean surrounds Antarctica.",
 
         difficulty: 1,
-
+        correctAnswer: "Southern Ocean",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -154,13 +144,11 @@ export const oceans: SkillContent = {
             "Southern Ocean"
         ],
 
-        answer: 0,
-
         explanation:
             "The Arctic Ocean is located around the North Pole.",
 
         difficulty: 1,
-
+        correctAnswer: "Arctic Ocean",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -179,13 +167,11 @@ export const oceans: SkillContent = {
             "Southern Ocean"
         ],
 
-        answer: 0,
-
         explanation:
             "The Indian Ocean is located between these continents.",
 
         difficulty: 2,
-
+        correctAnswer: "Indian Ocean",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -204,13 +190,11 @@ export const oceans: SkillContent = {
             "They only create waves"
         ],
 
-        answer: 0,
-
         explanation:
             "Oceans support life and influence weather and climate.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide habitats and help regulate Earth's climate",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -229,13 +213,11 @@ export const oceans: SkillContent = {
             "No water"
         ],
 
-        answer: 0,
-
         explanation:
             "Ocean water contains salt, unlike most freshwater rivers and lakes.",
 
         difficulty: 1,
-
+        correctAnswer: "Salt water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -254,13 +236,11 @@ export const oceans: SkillContent = {
             "Clouds under water"
         ],
 
-        answer: 0,
-
         explanation:
             "Wind transfers energy to the ocean surface and creates waves.",
 
         difficulty: 1,
-
+        correctAnswer: "Movements of water caused mainly by wind",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -279,13 +259,11 @@ export const oceans: SkillContent = {
             "A weather instrument"
         ],
 
-        answer: 0,
-
         explanation:
             "Ocean currents are large movements of water through the oceans.",
 
         difficulty: 2,
-
+        correctAnswer: "A moving flow of ocean water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -304,13 +282,11 @@ export const oceans: SkillContent = {
             "They remove sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "Oceans influence temperatures and weather patterns.",
 
         difficulty: 2,
-
+        correctAnswer: "They store and move heat around Earth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -329,13 +305,11 @@ export const oceans: SkillContent = {
             "No living things"
         ],
 
-        answer: 0,
-
         explanation:
             "Oceans contain many different marine ecosystems.",
 
         difficulty: 1,
-
+        correctAnswer: "Marine animals such as whales and fish",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -354,13 +328,11 @@ export const oceans: SkillContent = {
             "A city habitat"
         ],
 
-        answer: 0,
-
         explanation:
             "Marine habitats are environments in oceans and seas.",
 
         difficulty: 1,
-
+        correctAnswer: "A habitat found in the sea",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "habitats"]
@@ -379,13 +351,11 @@ export const oceans: SkillContent = {
             "To create pollution"
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy oceans are important for many species and people.",
 
         difficulty: 1,
-
+        correctAnswer: "To protect marine life and ecosystems",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -404,13 +374,11 @@ export const oceans: SkillContent = {
             "Fish"
         ],
 
-        answer: 0,
-
         explanation:
             "Pollution can damage ocean habitats and wildlife.",
 
         difficulty: 1,
-
+        correctAnswer: "Plastic and other waste",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "pollution"]
@@ -429,13 +397,11 @@ export const oceans: SkillContent = {
             "To create weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Maps show where oceans and continents are located.",
 
         difficulty: 1,
-
+        correctAnswer: "To show the location of major water areas",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -454,13 +420,11 @@ export const oceans: SkillContent = {
             "Asia"
         ],
 
-        answer: 0,
-
         explanation:
             "The Southern Ocean surrounds the continent of Antarctica.",
 
         difficulty: 2,
-
+        correctAnswer: "Antarctica",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "oceans"]
@@ -479,13 +443,11 @@ export const oceans: SkillContent = {
             "Continents float on rivers"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth's continents are surrounded and separated by oceans.",
 
         difficulty: 2,
-
+        correctAnswer: "Continents are large land areas surrounded by oceans",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "continents"]
@@ -504,13 +466,11 @@ export const oceans: SkillContent = {
             "Oceans only contain waves"
         ],
 
-        answer: 0,
-
         explanation:
             "Oceans are important parts of Earth's physical geography.",
 
         difficulty: 2,
-
+        correctAnswer: "Oceans are large areas of salt water that support life and influence Earth",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "oceans"]

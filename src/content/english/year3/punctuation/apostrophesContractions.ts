@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const apostrophesContractions: SkillContent = {
 
@@ -28,13 +28,11 @@ export const apostrophesContractions: SkillContent = {
             "Shows a question"
         ],
 
-        answer: 0,
-
         explanation:
             "In contractions, an apostrophe replaces the missing letter or letters.",
 
         difficulty: 1,
-
+        correctAnswer: "Shows that letters have been left out",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "contractions"]
@@ -52,13 +50,11 @@ export const apostrophesContractions: SkillContent = {
             "do not'"
         ],
 
-        answer: 0,
-
         explanation:
             "'Don't' replaces the missing 'o' in 'not' with an apostrophe.",
 
         difficulty: 1,
-
+        correctAnswer: "don't",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "contractions"]
@@ -76,13 +72,11 @@ export const apostrophesContractions: SkillContent = {
             "can't'"
         ],
 
-        answer: 0,
-
         explanation:
             "'Can't' uses an apostrophe to replace the missing letters.",
 
         difficulty: 1,
-
+        correctAnswer: "can't",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "contractions"]
@@ -100,13 +94,11 @@ export const apostrophesContractions: SkillContent = {
             "I am'"
         ],
 
-        answer: 0,
-
         explanation:
             "'I'm' replaces the missing 'a' in 'am' with an apostrophe.",
 
         difficulty: 1,
-
+        correctAnswer: "I'm",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "contractions"]
@@ -124,13 +116,11 @@ export const apostrophesContractions: SkillContent = {
             "I am' going to the park."
         ],
 
-        answer: 0,
-
         explanation:
             "'I'm' is the correct contraction of 'I am'.",
 
         difficulty: 1,
-
+        correctAnswer: "I'm going to the park.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -148,13 +138,11 @@ export const apostrophesContractions: SkillContent = {
             "it' s"
         ],
 
-        answer: 0,
-
         explanation:
             "'It's' is short for 'it is'.",
 
         difficulty: 1,
-
+        correctAnswer: "it's",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -172,13 +160,11 @@ export const apostrophesContractions: SkillContent = {
             "Don't' run indoors."
         ],
 
-        answer: 0,
-
         explanation:
             "'Don't' is the correct contraction of 'do not'.",
 
         difficulty: 1,
-
+        correctAnswer: "Don't run indoors.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -196,13 +182,11 @@ export const apostrophesContractions: SkillContent = {
             "went"
         ],
 
-        answer: 0,
-
         explanation:
             "'We'll' is the contraction of 'we will'.",
 
         difficulty: 1,
-
+        correctAnswer: "we'll",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -220,13 +204,11 @@ export const apostrophesContractions: SkillContent = {
             "you'r"
         ],
 
-        answer: 0,
-
         explanation:
             "'You're' is short for 'you are'.",
 
         difficulty: 1,
-
+        correctAnswer: "you're",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -244,13 +226,11 @@ export const apostrophesContractions: SkillContent = {
             "To separate lists"
         ],
 
-        answer: 0,
-
         explanation:
             "Contractions make writing and speaking sound more natural.",
 
         difficulty: 1,
-
+        correctAnswer: "To shorten two words into one",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "contractions"]
@@ -268,13 +248,11 @@ export const apostrophesContractions: SkillContent = {
             "We're' ready to leave."
         ],
 
-        answer: 0,
-
         explanation:
             "'We're' is the contraction of 'we are'.",
 
         difficulty: 2,
-
+        correctAnswer: "We're ready to leave.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -292,13 +270,11 @@ export const apostrophesContractions: SkillContent = {
             "theyre"
         ],
 
-        answer: 0,
-
         explanation:
             "'They're' is the contraction of 'they are'.",
 
         difficulty: 2,
-
+        correctAnswer: "they're",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -316,13 +292,11 @@ export const apostrophesContractions: SkillContent = {
             "She s my best friend."
         ],
 
-        answer: 0,
-
         explanation:
             "'She's' is the contraction of 'she is'.",
 
         difficulty: 2,
-
+        correctAnswer: "She's my best friend.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -340,13 +314,11 @@ export const apostrophesContractions: SkillContent = {
             "t"
         ],
 
-        answer: 0,
-
         explanation:
             "'Isn't' is short for 'is not'. The apostrophe replaces the missing 'o'.",
 
         difficulty: 2,
-
+        correctAnswer: "o",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -364,13 +336,11 @@ export const apostrophesContractions: SkillContent = {
             "he'll'"
         ],
 
-        answer: 0,
-
         explanation:
             "'He'll' is the contraction of 'he will'.",
 
         difficulty: 2,
-
+        correctAnswer: "he'll",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -388,13 +358,11 @@ export const apostrophesContractions: SkillContent = {
             "You ll enjoy today's lesson."
         ],
 
-        answer: 0,
-
         explanation:
             "'You'll' is the contraction of 'you will'.",
 
         difficulty: 2,
-
+        correctAnswer: "You'll enjoy today's lesson.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -412,13 +380,11 @@ export const apostrophesContractions: SkillContent = {
             "we have'"
         ],
 
-        answer: 0,
-
         explanation:
             "'We've' is the contraction of 'we have'.",
 
         difficulty: 2,
-
+        correctAnswer: "we've",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -436,13 +402,11 @@ export const apostrophesContractions: SkillContent = {
             "They've' finished their work."
         ],
 
-        answer: 0,
-
         explanation:
             "'They've' is the correct contraction of 'they have'.",
 
         difficulty: 2,
-
+        correctAnswer: "They've finished their work.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -460,13 +424,11 @@ export const apostrophesContractions: SkillContent = {
             "Full stops"
         ],
 
-        answer: 0,
-
         explanation:
             "An apostrophe marks where letters have been omitted.",
 
         difficulty: 2,
-
+        correctAnswer: "Missing letters",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes"]
@@ -484,13 +446,11 @@ export const apostrophesContractions: SkillContent = {
             "Im sure we'll finish because its nearly done."
         ],
 
-        answer: 0,
-
         explanation:
             "All three contractions—'I'm', 'we'll' and 'it's'—need apostrophes.",
 
         difficulty: 2,
-
+        correctAnswer: "I'm sure we'll finish because it's nearly done.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "contractions"]

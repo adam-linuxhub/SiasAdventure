@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const rivers: SkillContent = {
 
@@ -28,13 +28,11 @@ export const rivers: SkillContent = {
             "A forest"
         ],
 
-        answer: 0,
-
         explanation:
             "A river is a natural flow of water that moves across the land.",
 
         difficulty: 1,
-
+        correctAnswer: "A large natural flow of water",
         estimatedSeconds: 15,
 
         tags: ["geography", "rivers"]
@@ -52,13 +50,11 @@ export const rivers: SkillContent = {
             "At a bridge"
         ],
 
-        answer: 0,
-
         explanation:
             "The beginning of a river is called its source.",
 
         difficulty: 1,
-
+        correctAnswer: "At its source",
         estimatedSeconds: 15,
 
         tags: ["geography", "river-source"]
@@ -76,13 +72,11 @@ export const rivers: SkillContent = {
             "In a forest"
         ],
 
-        answer: 0,
-
         explanation:
             "The mouth is where a river flows into the sea, a lake or another river.",
 
         difficulty: 1,
-
+        correctAnswer: "At its mouth",
         estimatedSeconds: 15,
 
         tags: ["geography", "river-mouth"]
@@ -100,13 +94,11 @@ export const rivers: SkillContent = {
             "Flows into the sky"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers usually flow downhill because of gravity.",
 
         difficulty: 1,
-
+        correctAnswer: "Flows downhill",
         estimatedSeconds: 15,
 
         tags: ["geography", "water"]
@@ -124,13 +116,11 @@ export const rivers: SkillContent = {
             "Car park"
         ],
 
-        answer: 0,
-
         explanation:
             "A river is a natural feature of the Earth's surface.",
 
         difficulty: 1,
-
+        correctAnswer: "River",
         estimatedSeconds: 15,
 
         tags: ["geography", "physical-geography"]
@@ -148,13 +138,11 @@ export const rivers: SkillContent = {
             "Bank"
         ],
 
-        answer: 0,
-
         explanation:
             "A river starts at its source.",
 
         difficulty: 1,
-
+        correctAnswer: "Source",
         estimatedSeconds: 15,
 
         tags: ["geography", "river-source"]
@@ -172,13 +160,11 @@ export const rivers: SkillContent = {
             "Spring"
         ],
 
-        answer: 0,
-
         explanation:
             "The mouth is where a river finishes its journey.",
 
         difficulty: 1,
-
+        correctAnswer: "Mouth",
         estimatedSeconds: 15,
 
         tags: ["geography", "river-mouth"]
@@ -196,13 +182,11 @@ export const rivers: SkillContent = {
             "Black"
         ],
 
-        answer: 0,
-
         explanation:
             "Water features such as rivers are usually coloured blue on maps.",
 
         difficulty: 1,
-
+        correctAnswer: "Blue",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps"]
@@ -220,13 +204,11 @@ export const rivers: SkillContent = {
             "A playground"
         ],
 
-        answer: 0,
-
         explanation:
             "Many rivers flow into the sea at their mouth.",
 
         difficulty: 1,
-
+        correctAnswer: "The sea",
         estimatedSeconds: 20,
 
         tags: ["geography", "river-mouth"]
@@ -244,13 +226,11 @@ export const rivers: SkillContent = {
             "People build all rivers."
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers are naturally formed features that flow across the land.",
 
         difficulty: 1,
-
+        correctAnswer: "Rivers are natural features.",
         estimatedSeconds: 20,
 
         tags: ["geography", "rivers"]
@@ -268,13 +248,11 @@ export const rivers: SkillContent = {
             "Rivers grow buildings."
         ],
 
-        answer: 0,
-
         explanation:
             "People have settled near rivers for fresh water, transport and farming.",
 
         difficulty: 2,
-
+        correctAnswer: "Rivers provide water and transport.",
         estimatedSeconds: 20,
 
         tags: ["geography", "settlements", "rivers"]
@@ -292,13 +270,11 @@ export const rivers: SkillContent = {
             "Trees pull it."
         ],
 
-        answer: 0,
-
         explanation:
             "Gravity causes water to flow from higher land to lower land.",
 
         difficulty: 2,
-
+        correctAnswer: "Gravity pulls the water downhill.",
         estimatedSeconds: 20,
 
         tags: ["geography", "water"]
@@ -316,13 +292,11 @@ export const rivers: SkillContent = {
             "Nothing lives near rivers."
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers provide habitats for many different living things.",
 
         difficulty: 2,
-
+        correctAnswer: "Many plants and animals live in and around them.",
         estimatedSeconds: 20,
 
         tags: ["geography", "wildlife"]
@@ -340,13 +314,11 @@ export const rivers: SkillContent = {
             "The river disappears underground."
         ],
 
-        answer: 0,
-
         explanation:
             "The mouth is where a river ends by flowing into another body of water.",
 
         difficulty: 2,
-
+        correctAnswer: "The river joins the sea, a lake or another river.",
         estimatedSeconds: 20,
 
         tags: ["geography", "river-mouth"]
@@ -364,13 +336,11 @@ export const rivers: SkillContent = {
             "They only exist in winter."
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers help people understand the landscape and navigate.",
 
         difficulty: 2,
-
+        correctAnswer: "They are important natural features.",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps"]
@@ -388,13 +358,11 @@ export const rivers: SkillContent = {
             "Driving trains"
         ],
 
-        answer: 0,
-
         explanation:
             "Many rivers are used for boating and other water activities.",
 
         difficulty: 2,
-
+        correctAnswer: "Boating",
         estimatedSeconds: 20,
 
         tags: ["geography", "rivers"]
@@ -412,13 +380,11 @@ export const rivers: SkillContent = {
             "Into a cave"
         ],
 
-        answer: 0,
-
         explanation:
             "Downstream means travelling in the direction the river flows.",
 
         difficulty: 2,
-
+        correctAnswer: "Towards its mouth",
         estimatedSeconds: 20,
 
         tags: ["geography", "river-flow"]
@@ -436,13 +402,11 @@ export const rivers: SkillContent = {
             "Glacier"
         ],
 
-        answer: 0,
-
         explanation:
             "The land beside a river is called the river bank.",
 
         difficulty: 2,
-
+        correctAnswer: "River bank",
         estimatedSeconds: 20,
 
         tags: ["geography", "river-bank"]
@@ -460,13 +424,11 @@ export const rivers: SkillContent = {
             "They make tractors."
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers provide an important source of water for farming.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide water for crops and animals.",
         estimatedSeconds: 20,
 
         tags: ["geography", "farming", "rivers"]
@@ -484,13 +446,11 @@ export const rivers: SkillContent = {
             "A man-made canal."
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers are natural watercourses that flow from their source to their mouth.",
 
         difficulty: 2,
-
+        correctAnswer: "A natural flow of water that begins at a source and ends at a mouth.",
         estimatedSeconds: 20,
 
         tags: ["geography", "rivers", "physical-geography"]

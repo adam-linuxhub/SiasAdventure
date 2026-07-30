@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const angloSaxonArrival: SkillContent = {
 
@@ -29,13 +29,11 @@ export const angloSaxonArrival: SkillContent = {
             "Viking explorers"
         ],
 
-        answer: 0,
-
         explanation:
             "The Anglo-Saxons were groups from areas that are now Germany, Denmark and the Netherlands.",
 
         difficulty: 1,
-
+        correctAnswer: "Groups of people who came to Britain from northern Europe",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -54,13 +52,11 @@ export const angloSaxonArrival: SkillContent = {
             "After the Vikings left"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon settlement began after the Romans left Britain in the 5th century.",
 
         difficulty: 1,
-
+        correctAnswer: "After the Romans left Britain",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -79,13 +75,11 @@ export const angloSaxonArrival: SkillContent = {
             "They were defeated by Egypt"
         ],
 
-        answer: 0,
-
         explanation:
             "Rome needed its army elsewhere, so Roman rule in Britain ended.",
 
         difficulty: 1,
-
+        correctAnswer: "They needed to defend other parts of their empire",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -104,13 +98,11 @@ export const angloSaxonArrival: SkillContent = {
             "Ancient Egypt"
         ],
 
-        answer: 0,
-
         explanation:
             "Many Anglo-Saxons came from areas now known as Germany, Denmark and the Netherlands.",
 
         difficulty: 1,
-
+        correctAnswer: "Northern Europe",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -129,13 +121,11 @@ export const angloSaxonArrival: SkillContent = {
             "To become Roman emperors"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxons came looking for land and new places to live.",
 
         difficulty: 1,
-
+        correctAnswer: "For land and opportunities to settle",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -154,13 +144,11 @@ export const angloSaxonArrival: SkillContent = {
             "The Iron Age"
         ],
 
-        answer: 0,
-
         explanation:
             "The Anglo-Saxon period followed the end of Roman rule in Britain.",
 
         difficulty: 1,
-
+        correctAnswer: "The Anglo-Saxon period",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -179,13 +167,11 @@ export const angloSaxonArrival: SkillContent = {
             "Only traders"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon communities included people with many different roles.",
 
         difficulty: 1,
-
+        correctAnswer: "Farmers, warriors and settlers",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -204,13 +190,11 @@ export const angloSaxonArrival: SkillContent = {
             "Modern cities"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxons created settlements with houses and farms.",
 
         difficulty: 1,
-
+        correctAnswer: "Villages and homes",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -229,13 +213,11 @@ export const angloSaxonArrival: SkillContent = {
             "Egyptian"
         ],
 
-        answer: 0,
-
         explanation:
             "The Anglo-Saxon language helped develop what became English.",
 
         difficulty: 1,
-
+        correctAnswer: "Old English",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -254,13 +236,11 @@ export const angloSaxonArrival: SkillContent = {
             "The Vikings arrived immediately"
         ],
 
-        answer: 0,
-
         explanation:
             "The end of Roman rule led to new settlements in Britain.",
 
         difficulty: 1,
-
+        correctAnswer: "New groups such as the Anglo-Saxons settled there",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -279,13 +259,11 @@ export const angloSaxonArrival: SkillContent = {
             "Tudors, Stuarts and Victorians"
         ],
 
-        answer: 0,
-
         explanation:
             "The main groups were the Angles, Saxons and Jutes.",
 
         difficulty: 2,
-
+        correctAnswer: "Angles, Saxons and Jutes",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -304,13 +282,11 @@ export const angloSaxonArrival: SkillContent = {
             "To change history"
         ],
 
-        answer: 0,
-
         explanation:
             "Evidence helps historians learn about past societies.",
 
         difficulty: 2,
-
+        correctAnswer: "To understand how people lived in the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -329,13 +305,11 @@ export const angloSaxonArrival: SkillContent = {
             "Writing a book"
         ],
 
-        answer: 0,
-
         explanation:
             "Migration means moving people from one place to another.",
 
         difficulty: 2,
-
+        correctAnswer: "Moving from one place to another",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -354,13 +328,11 @@ export const angloSaxonArrival: SkillContent = {
             "They avoided settlements"
         ],
 
-        answer: 0,
-
         explanation:
             "Farming and settlements needed suitable land.",
 
         difficulty: 2,
-
+        correctAnswer: "They needed places to farm and build homes",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -379,13 +351,11 @@ export const angloSaxonArrival: SkillContent = {
             "Space technology"
         ],
 
-        answer: 0,
-
         explanation:
             "Historians use evidence from the past to learn about people.",
 
         difficulty: 2,
-
+        correctAnswer: "Artefacts, buildings and written records",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -404,13 +374,11 @@ export const angloSaxonArrival: SkillContent = {
             "Someone who rules Rome"
         ],
 
-        answer: 0,
-
         explanation:
             "Settlers move and establish homes in new places.",
 
         difficulty: 2,
-
+        correctAnswer: "Someone who moves to a new place to live",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -429,13 +397,11 @@ export const angloSaxonArrival: SkillContent = {
             "With airports"
         ],
 
-        answer: 0,
-
         explanation:
             "Many Anglo-Saxon communities were based around farming villages.",
 
         difficulty: 2,
-
+        correctAnswer: "With small villages and farms",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -454,13 +420,11 @@ export const angloSaxonArrival: SkillContent = {
             "Egypt ruled Britain"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon settlement had a lasting effect on Britain.",
 
         difficulty: 2,
-
+        correctAnswer: "Language, culture and settlements changed",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -479,13 +443,11 @@ export const angloSaxonArrival: SkillContent = {
             "It replaced Ancient Egypt"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon influences can still be seen today.",
 
         difficulty: 2,
-
+        correctAnswer: "It helped shape British language and culture",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -504,13 +466,11 @@ export const angloSaxonArrival: SkillContent = {
             "They arrived in modern times"
         ],
 
-        answer: 0,
-
         explanation:
             "The Anglo-Saxon period began after the Romans left Britain.",
 
         difficulty: 2,
-
+        correctAnswer: "Groups from northern Europe settled in Britain after Roman rule ended",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "anglo-saxons"]

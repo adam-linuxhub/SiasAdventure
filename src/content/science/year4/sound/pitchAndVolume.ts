@@ -28,13 +28,11 @@ export const pitchAndVolume: SkillContent = {
             "How fast sound travels"
         ],
 
-        answer: 0,
-
         explanation:
             "Pitch describes whether a sound is high or low.",
 
         difficulty: 1,
-
+        correctAnswer: "How high or low a sound is",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "pitch"]
@@ -52,13 +50,11 @@ export const pitchAndVolume: SkillContent = {
             "The speed of light"
         ],
 
-        answer: 0,
-
         explanation:
             "Volume describes how loud or quiet a sound is.",
 
         difficulty: 1,
-
+        correctAnswer: "How loud or quiet a sound is",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "volume"]
@@ -76,13 +72,11 @@ export const pitchAndVolume: SkillContent = {
             "Lion"
         ],
 
-        answer: 0,
-
         explanation:
             "Small animals like mice usually make higher-pitched sounds.",
 
         difficulty: 1,
-
+        correctAnswer: "Mouse",
         estimatedSeconds: 15,
 
         tags: ["science", "pitch"]
@@ -100,13 +94,11 @@ export const pitchAndVolume: SkillContent = {
             "Cricket"
         ],
 
-        answer: 0,
-
         explanation:
             "Large animals often produce lower-pitched sounds.",
 
         difficulty: 1,
-
+        correctAnswer: "Elephant",
         estimatedSeconds: 15,
 
         tags: ["science", "pitch"]
@@ -124,13 +116,11 @@ export const pitchAndVolume: SkillContent = {
             "The sound disappears."
         ],
 
-        answer: 0,
-
         explanation:
             "A harder hit creates bigger vibrations, making the sound louder.",
 
         difficulty: 1,
-
+        correctAnswer: "The sound becomes louder.",
         estimatedSeconds: 15,
 
         tags: ["science", "volume", "drum"]
@@ -148,13 +138,11 @@ export const pitchAndVolume: SkillContent = {
             "A tuba"
         ],
 
-        answer: 0,
-
         explanation:
             "Whistles usually produce very high-pitched sounds.",
 
         difficulty: 1,
-
+        correctAnswer: "A whistle",
         estimatedSeconds: 15,
 
         tags: ["science", "pitch"]
@@ -172,13 +160,11 @@ export const pitchAndVolume: SkillContent = {
             "A quiet hum"
         ],
 
-        answer: 0,
-
         explanation:
             "Fireworks create very large vibrations, producing loud sounds.",
 
         difficulty: 1,
-
+        correctAnswer: "A firework exploding",
         estimatedSeconds: 15,
 
         tags: ["science", "volume"]
@@ -196,13 +182,11 @@ export const pitchAndVolume: SkillContent = {
             "Tambourine"
         ],
 
-        answer: 0,
-
         explanation:
             "A piano has strings that produce many different pitches.",
 
         difficulty: 1,
-
+        correctAnswer: "Piano",
         estimatedSeconds: 20,
 
         tags: ["science", "pitch", "instruments"]
@@ -220,13 +204,11 @@ export const pitchAndVolume: SkillContent = {
             "Pitch and volume are always the same."
         ],
 
-        answer: 0,
-
         explanation:
             "Pitch describes high or low sounds, while volume describes loud or quiet sounds.",
 
         difficulty: 1,
-
+        correctAnswer: "Pitch and volume describe different features of sound.",
         estimatedSeconds: 20,
 
         tags: ["science", "pitch", "volume"]
@@ -244,13 +226,11 @@ export const pitchAndVolume: SkillContent = {
             "Always low-pitched"
         ],
 
-        answer: 0,
-
         explanation:
             "A whisper has a low volume.",
 
         difficulty: 1,
-
+        correctAnswer: "Quiet",
         estimatedSeconds: 20,
 
         tags: ["science", "volume"]
@@ -268,13 +248,11 @@ export const pitchAndVolume: SkillContent = {
             "It makes louder sounds."
         ],
 
-        answer: 0,
-
         explanation:
             "Smaller objects usually vibrate faster, producing higher pitches.",
 
         difficulty: 2,
-
+        correctAnswer: "It vibrates more quickly.",
         estimatedSeconds: 20,
 
         tags: ["science", "pitch", "vibrations"]
@@ -292,13 +270,11 @@ export const pitchAndVolume: SkillContent = {
             "It is made from wood."
         ],
 
-        answer: 0,
-
         explanation:
             "Larger vibrating objects usually produce lower pitches.",
 
         difficulty: 2,
-
+        correctAnswer: "Its larger vibrating surface vibrates more slowly.",
         estimatedSeconds: 20,
 
         tags: ["science", "pitch", "drum"]
@@ -316,13 +292,11 @@ export const pitchAndVolume: SkillContent = {
             "The sound becomes an echo."
         ],
 
-        answer: 0,
-
         explanation:
             "Gentler vibrations produce a quieter sound.",
 
         difficulty: 2,
-
+        correctAnswer: "The sound is quieter.",
         estimatedSeconds: 20,
 
         tags: ["science", "volume", "guitar"]
@@ -340,13 +314,11 @@ export const pitchAndVolume: SkillContent = {
             "Making the object heavier"
         ],
 
-        answer: 0,
-
         explanation:
             "Larger vibrations produce louder sounds.",
 
         difficulty: 2,
-
+        correctAnswer: "Making bigger vibrations",
         estimatedSeconds: 20,
 
         tags: ["science", "volume", "vibrations"]
@@ -364,13 +336,11 @@ export const pitchAndVolume: SkillContent = {
             "Recorder"
         ],
 
-        answer: 0,
-
         explanation:
             "Tubas are designed to produce low-pitched sounds.",
 
         difficulty: 2,
-
+        correctAnswer: "Tuba",
         estimatedSeconds: 20,
 
         tags: ["science", "pitch", "instruments"]
@@ -388,13 +358,11 @@ export const pitchAndVolume: SkillContent = {
             "The pitch becomes lower."
         ],
 
-        answer: 0,
-
         explanation:
             "A tighter string vibrates faster, producing a higher pitch.",
 
         difficulty: 2,
-
+        correctAnswer: "The pitch becomes higher.",
         estimatedSeconds: 20,
 
         tags: ["science", "pitch", "strings"]
@@ -412,13 +380,11 @@ export const pitchAndVolume: SkillContent = {
             "Shouting travels faster than sound."
         ],
 
-        answer: 0,
-
         explanation:
             "Louder sounds are produced by larger vibrations.",
 
         difficulty: 2,
-
+        correctAnswer: "Shouting creates bigger vibrations.",
         estimatedSeconds: 20,
 
         tags: ["science", "volume", "vibrations"]
@@ -436,13 +402,11 @@ export const pitchAndVolume: SkillContent = {
             "Volume – fast or slow"
         ],
 
-        answer: 0,
-
         explanation:
             "Pitch describes high or low sounds.",
 
         difficulty: 2,
-
+        correctAnswer: "Pitch – high or low",
         estimatedSeconds: 20,
 
         tags: ["science", "pitch", "volume"]
@@ -460,13 +424,11 @@ export const pitchAndVolume: SkillContent = {
             "The shape of the room"
         ],
 
-        answer: 0,
-
         explanation:
             "Bigger vibrations make louder sounds.",
 
         difficulty: 2,
-
+        correctAnswer: "The size of the vibrations",
         estimatedSeconds: 20,
 
         tags: ["science", "volume", "vibrations"]
@@ -484,13 +446,11 @@ export const pitchAndVolume: SkillContent = {
             "Pitch only applies to musical instruments."
         ],
 
-        answer: 0,
-
         explanation:
             "Pitch and volume are different properties of sound and are affected by different kinds of vibrations.",
 
         difficulty: 2,
-
+        correctAnswer: "Pitch describes how high or low a sound is, while volume describes how loud or quiet it is.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "pitch", "volume"]

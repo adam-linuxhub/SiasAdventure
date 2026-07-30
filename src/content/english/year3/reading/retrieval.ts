@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const retrieval: SkillContent = {
 
@@ -29,13 +29,11 @@ export const retrieval: SkillContent = {
             "Yellow"
         ],
 
-        answer: 0,
-
         explanation:
             "The passage tells us directly that Sam's bike was blue.",
 
         difficulty: 1,
-
+        correctAnswer: "Blue",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "retrieval"]
@@ -54,13 +52,11 @@ export const retrieval: SkillContent = {
             "Some grapes"
         ],
 
-        answer: 0,
-
         explanation:
             "The passage says Lucy packed an apple.",
 
         difficulty: 1,
-
+        correctAnswer: "An apple",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "retrieval"]
@@ -79,13 +75,11 @@ export const retrieval: SkillContent = {
             "12 o'clock"
         ],
 
-        answer: 0,
-
         explanation:
             "The answer is stated directly in the passage.",
 
         difficulty: 1,
-
+        correctAnswer: "10 o'clock",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "retrieval"]
@@ -104,13 +98,11 @@ export const retrieval: SkillContent = {
             "Behind a fence"
         ],
 
-        answer: 0,
-
         explanation:
             "The passage tells us the rabbit hid under a bush.",
 
         difficulty: 1,
-
+        correctAnswer: "Under a bush",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "retrieval"]
@@ -129,13 +121,11 @@ export const retrieval: SkillContent = {
             "The children"
         ],
 
-        answer: 0,
-
         explanation:
             "Mrs Green is named as the person who read the story.",
 
         difficulty: 1,
-
+        correctAnswer: "Mrs Green",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "retrieval"]
@@ -154,13 +144,11 @@ export const retrieval: SkillContent = {
             "Horse"
         ],
 
-        answer: 0,
-
         explanation:
             "The passage states that Ella's favourite animal is the dolphin.",
 
         difficulty: 1,
-
+        correctAnswer: "Dolphin",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "retrieval"]
@@ -179,13 +167,11 @@ export const retrieval: SkillContent = {
             "A scarf"
         ],
 
-        answer: 0,
-
         explanation:
             "The answer is directly given in the text.",
 
         difficulty: 1,
-
+        correctAnswer: "A woolly hat",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "retrieval"]
@@ -204,13 +190,11 @@ export const retrieval: SkillContent = {
             "Friday"
         ],
 
-        answer: 0,
-
         explanation:
             "The passage clearly says Tuesday.",
 
         difficulty: 1,
-
+        correctAnswer: "Tuesday",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "retrieval"]
@@ -229,13 +213,11 @@ export const retrieval: SkillContent = {
             "Lemon"
         ],
 
-        answer: 0,
-
         explanation:
             "The passage tells us the icing was chocolate.",
 
         difficulty: 1,
-
+        correctAnswer: "Chocolate",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "retrieval"]
@@ -254,13 +236,11 @@ export const retrieval: SkillContent = {
             "Learning how to spell words"
         ],
 
-        answer: 0,
-
         explanation:
             "Retrieval means finding information that is directly stated.",
 
         difficulty: 1,
-
+        correctAnswer: "Finding information that is written in the text",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "retrieval"]
@@ -279,13 +259,11 @@ export const retrieval: SkillContent = {
             "Tulips"
         ],
 
-        answer: 0,
-
         explanation:
             "The first sentence tells us exactly what Ava planted.",
 
         difficulty: 2,
-
+        correctAnswer: "Sunflower seeds",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "retrieval"]
@@ -304,13 +282,11 @@ export const retrieval: SkillContent = {
             "9 o'clock"
         ],
 
-        answer: 0,
-
         explanation:
             "The closing time is given directly.",
 
         difficulty: 2,
-
+        correctAnswer: "5 o'clock",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "retrieval"]
@@ -329,13 +305,11 @@ export const retrieval: SkillContent = {
             "A pebble"
         ],
 
-        answer: 0,
-
         explanation:
             "The passage states that Oscar found a shiny shell.",
 
         difficulty: 2,
-
+        correctAnswer: "A shiny shell",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "retrieval"]
@@ -354,13 +328,11 @@ export const retrieval: SkillContent = {
             "Soup"
         ],
 
-        answer: 0,
-
         explanation:
             "The answer can be found directly in the passage.",
 
         difficulty: 2,
-
+        correctAnswer: "Milk",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "retrieval"]
@@ -379,13 +351,11 @@ export const retrieval: SkillContent = {
             "Ate dinner"
         ],
 
-        answer: 0,
-
         explanation:
             "The second part of the sentence tells us exactly what Noah did next.",
 
         difficulty: 2,
-
+        correctAnswer: "Played football",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "retrieval"]
@@ -404,13 +374,11 @@ export const retrieval: SkillContent = {
             "Platform 4"
         ],
 
-        answer: 0,
-
         explanation:
             "The platform number is stated directly.",
 
         difficulty: 2,
-
+        correctAnswer: "Platform 3",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "retrieval"]
@@ -429,13 +397,11 @@ export const retrieval: SkillContent = {
             "Five"
         ],
 
-        answer: 0,
-
         explanation:
             "The passage says Emily borrowed three books.",
 
         difficulty: 2,
-
+        correctAnswer: "Three",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "retrieval"]
@@ -454,13 +420,11 @@ export const retrieval: SkillContent = {
             "Yellow"
         ],
 
-        answer: 0,
-
         explanation:
             "The colour is directly stated.",
 
         difficulty: 2,
-
+        correctAnswer: "Red",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "retrieval"]
@@ -479,13 +443,11 @@ export const retrieval: SkillContent = {
             "Walked to school"
         ],
 
-        answer: 0,
-
         explanation:
             "The order of events is clearly written in the passage.",
 
         difficulty: 2,
-
+        correctAnswer: "Brushed his teeth",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "retrieval"]
@@ -504,13 +466,11 @@ export const retrieval: SkillContent = {
             "Ask someone else"
         ],
 
-        answer: 0,
-
         explanation:
             "Retrieval questions are answered by finding information in the text.",
 
         difficulty: 2,
-
+        correctAnswer: "Look back at the text to find the answer",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "retrieval"]

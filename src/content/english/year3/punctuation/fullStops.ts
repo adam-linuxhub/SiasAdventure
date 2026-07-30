@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const fullStops: SkillContent = {
 
@@ -28,13 +28,11 @@ export const fullStops: SkillContent = {
             ","
         ],
 
-        answer: 0,
-
         explanation:
             "A full stop (.) is used to end most statements.",
 
         difficulty: 1,
-
+        correctAnswer: ".",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -52,13 +50,11 @@ export const fullStops: SkillContent = {
             "The cat is asleep,"
         ],
 
-        answer: 0,
-
         explanation:
             "A statement should end with a full stop.",
 
         difficulty: 1,
-
+        correctAnswer: "The cat is asleep.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -76,13 +72,11 @@ export const fullStops: SkillContent = {
             "Before every sentence"
         ],
 
-        answer: 0,
-
         explanation:
             "Most statements end with a full stop.",
 
         difficulty: 1,
-
+        correctAnswer: "At the end of a statement",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -100,13 +94,11 @@ export const fullStops: SkillContent = {
             "Can you help me?"
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence is a statement and should end with a full stop.",
 
         difficulty: 1,
-
+        correctAnswer: "I like ice cream",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -124,13 +116,11 @@ export const fullStops: SkillContent = {
             "The bird sang,"
         ],
 
-        answer: 0,
-
         explanation:
             "A simple statement ends with a full stop.",
 
         difficulty: 1,
-
+        correctAnswer: "The bird sang.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -148,13 +138,11 @@ export const fullStops: SkillContent = {
             "Please open the window!"
         ],
 
-        answer: 0,
-
         explanation:
             "Statements give information and usually end with a full stop.",
 
         difficulty: 1,
-
+        correctAnswer: "The sun is shining.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -172,13 +160,11 @@ export const fullStops: SkillContent = {
             "Ben played football,"
         ],
 
-        answer: 0,
-
         explanation:
             "This is a statement, so it ends with a full stop.",
 
         difficulty: 1,
-
+        correctAnswer: "Ben played football.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -196,13 +182,11 @@ export const fullStops: SkillContent = {
             "There is a list."
         ],
 
-        answer: 0,
-
         explanation:
             "A full stop shows that a statement has ended.",
 
         difficulty: 1,
-
+        correctAnswer: "The sentence has finished.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -220,13 +204,11 @@ export const fullStops: SkillContent = {
             ","
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence is a statement, so it needs a full stop.",
 
         difficulty: 1,
-
+        correctAnswer: ".",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -244,13 +226,11 @@ export const fullStops: SkillContent = {
             "My friend likes swimming,"
         ],
 
-        answer: 0,
-
         explanation:
             "Statements should end with a full stop.",
 
         difficulty: 1,
-
+        correctAnswer: "My friend likes swimming.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -268,13 +248,11 @@ export const fullStops: SkillContent = {
             "What a fast rabbit!"
         ],
 
-        answer: 0,
-
         explanation:
             "The statement should end with a full stop.",
 
         difficulty: 2,
-
+        correctAnswer: "The rabbit hopped across the field",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -292,13 +270,11 @@ export const fullStops: SkillContent = {
             "0"
         ],
 
-        answer: 0,
-
         explanation:
             "There are three statements, so two full stops are needed between them.",
 
         difficulty: 2,
-
+        correctAnswer: "2",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -316,13 +292,11 @@ export const fullStops: SkillContent = {
             "The train arrived on time,"
         ],
 
-        answer: 0,
-
         explanation:
             "A statement ends with a full stop.",
 
         difficulty: 2,
-
+        correctAnswer: "The train arrived on time.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -340,13 +314,11 @@ export const fullStops: SkillContent = {
             "To separate items in a list"
         ],
 
-        answer: 0,
-
         explanation:
             "Full stops help readers know where one sentence ends and the next begins.",
 
         difficulty: 2,
-
+        correctAnswer: "To show the end of a statement",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -364,13 +336,11 @@ export const fullStops: SkillContent = {
             "Our class visited the museum,"
         ],
 
-        answer: 0,
-
         explanation:
             "This sentence simply gives information.",
 
         difficulty: 2,
-
+        correctAnswer: "Our class visited the museum.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -388,13 +358,11 @@ export const fullStops: SkillContent = {
             "When will we eat?"
         ],
 
-        answer: 0,
-
         explanation:
             "It is a statement, not a question, so it should end with a full stop.",
 
         difficulty: 2,
-
+        correctAnswer: "The cake tasted delicious?",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -412,13 +380,11 @@ export const fullStops: SkillContent = {
             "The children played outside,"
         ],
 
-        answer: 0,
-
         explanation:
             "A statement ends with a full stop.",
 
         difficulty: 2,
-
+        correctAnswer: "The children played outside.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -436,13 +402,11 @@ export const fullStops: SkillContent = {
             ","
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence is a statement, so it needs a full stop.",
 
         difficulty: 2,
-
+        correctAnswer: ".",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -460,13 +424,11 @@ export const fullStops: SkillContent = {
             "Adjectives disappear."
         ],
 
-        answer: 0,
-
         explanation:
             "Without full stops, it is difficult to tell where one sentence ends and the next begins.",
 
         difficulty: 2,
-
+        correctAnswer: "Sentences become harder to read.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]
@@ -484,13 +446,11 @@ export const fullStops: SkillContent = {
             "The dog barked, The cat slept."
         ],
 
-        answer: 0,
-
         explanation:
             "Both sentences are statements, so each ends with a full stop.",
 
         difficulty: 2,
-
+        correctAnswer: "The dog barked. The cat slept.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "full-stops"]

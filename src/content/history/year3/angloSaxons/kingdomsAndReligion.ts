@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const kingdomsAndReligion: SkillContent = {
 
@@ -29,13 +29,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Places outside Britain only"
         ],
 
-        answer: 0,
-
         explanation:
             "After settling in Britain, Anglo-Saxons formed different kingdoms ruled by kings.",
 
         difficulty: 1,
-
+        correctAnswer: "Areas of Britain ruled by different kings",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "kingdoms"]
@@ -54,13 +52,11 @@ export const kingdomsAndReligion: SkillContent = {
             "A president"
         ],
 
-        answer: 0,
-
         explanation:
             "Anglo-Saxon kingdoms were ruled by kings.",
 
         difficulty: 1,
-
+        correctAnswer: "A king",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "kingdoms"]
@@ -79,13 +75,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Greece"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercia was one of the important Anglo-Saxon kingdoms.",
 
         difficulty: 1,
-
+        correctAnswer: "Mercia",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "kingdoms"]
@@ -104,13 +98,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Ancient Egypt"
         ],
 
-        answer: 0,
-
         explanation:
             "Wessex was one of the Anglo-Saxon kingdoms.",
 
         difficulty: 1,
-
+        correctAnswer: "Wessex",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "kingdoms"]
@@ -129,13 +121,11 @@ export const kingdomsAndReligion: SkillContent = {
             "They controlled Rome"
         ],
 
-        answer: 0,
-
         explanation:
             "Kings made laws and led their kingdoms.",
 
         difficulty: 1,
-
+        correctAnswer: "They ruled their kingdoms and made decisions",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "kingdoms"]
@@ -154,13 +144,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Roman religion only"
         ],
 
-        answer: 0,
-
         explanation:
             "Early Anglo-Saxons followed pagan beliefs before many converted to Christianity.",
 
         difficulty: 1,
-
+        correctAnswer: "Pagan beliefs",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "religion"]
@@ -179,13 +167,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Roman emperor worship"
         ],
 
-        answer: 0,
-
         explanation:
             "Christianity spread through Anglo-Saxon kingdoms.",
 
         difficulty: 1,
-
+        correctAnswer: "Christianity",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "religion"]
@@ -204,13 +190,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Pharaohs"
         ],
 
-        answer: 0,
-
         explanation:
             "Missionaries travelled to teach people about Christianity.",
 
         difficulty: 1,
-
+        correctAnswer: "Missionaries",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "religion"]
@@ -229,13 +213,11 @@ export const kingdomsAndReligion: SkillContent = {
             "A royal palace"
         ],
 
-        answer: 0,
-
         explanation:
             "Monasteries were religious communities where monks lived.",
 
         difficulty: 1,
-
+        correctAnswer: "A place where monks lived and worked",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "religion"]
@@ -254,13 +236,11 @@ export const kingdomsAndReligion: SkillContent = {
             "They were Roman towns"
         ],
 
-        answer: 0,
-
         explanation:
             "Monasteries preserved knowledge and produced written records.",
 
         difficulty: 1,
-
+        correctAnswer: "They were centres for learning and writing",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "religion"]
@@ -279,13 +259,11 @@ export const kingdomsAndReligion: SkillContent = {
             "An Egyptian pharaoh"
         ],
 
-        answer: 0,
-
         explanation:
             "Alfred the Great was an important Anglo-Saxon king of Wessex.",
 
         difficulty: 1,
-
+        correctAnswer: "An Anglo-Saxon king",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "kings"]
@@ -304,13 +282,11 @@ export const kingdomsAndReligion: SkillContent = {
             "He discovered America"
         ],
 
-        answer: 0,
-
         explanation:
             "Alfred helped protect Wessex and supported education.",
 
         difficulty: 2,
-
+        correctAnswer: "He defended his kingdom and encouraged learning",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "anglo-saxons", "kings"]
@@ -329,13 +305,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Fly planes"
         ],
 
-        answer: 0,
-
         explanation:
             "Monks copied texts and helped preserve knowledge.",
 
         difficulty: 1,
-
+        correctAnswer: "Write books and study",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "religion"]
@@ -354,13 +328,11 @@ export const kingdomsAndReligion: SkillContent = {
             "They show modern life"
         ],
 
-        answer: 0,
-
         explanation:
             "Written records help historians understand past events.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide information about the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons"]
@@ -379,13 +351,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Farming stopped"
         ],
 
-        answer: 0,
-
         explanation:
             "Christianity changed beliefs and influenced Anglo-Saxon society.",
 
         difficulty: 2,
-
+        correctAnswer: "Many people changed their beliefs",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "religion"]
@@ -404,13 +374,11 @@ export const kingdomsAndReligion: SkillContent = {
             "They avoided leadership"
         ],
 
-        answer: 0,
-
         explanation:
             "Kings led their people and controlled kingdoms.",
 
         difficulty: 2,
-
+        correctAnswer: "They made decisions and protected their kingdoms",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "kingdoms"]
@@ -429,13 +397,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Future inventions"
         ],
 
-        answer: 0,
-
         explanation:
             "Historians use evidence to understand beliefs in the past.",
 
         difficulty: 2,
-
+        correctAnswer: "Churches, objects and written records",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "religion"]
@@ -454,13 +420,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Creating machines"
         ],
 
-        answer: 0,
-
         explanation:
             "Monasteries became important places of learning.",
 
         difficulty: 2,
-
+        correctAnswer: "Teaching and preserving knowledge",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "religion"]
@@ -479,13 +443,11 @@ export const kingdomsAndReligion: SkillContent = {
             "To predict future kings"
         ],
 
-        answer: 0,
-
         explanation:
             "Studying kingdoms helps us understand past societies.",
 
         difficulty: 2,
-
+        correctAnswer: "To understand how Britain was ruled in the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "anglo-saxons", "kingdoms"]
@@ -504,13 +466,11 @@ export const kingdomsAndReligion: SkillContent = {
             "Religion had no effect"
         ],
 
-        answer: 0,
-
         explanation:
             "Kings and religion were important parts of Anglo-Saxon society.",
 
         difficulty: 2,
-
+        correctAnswer: "Kings ruled kingdoms and Christianity became an important influence",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "anglo-saxons"]

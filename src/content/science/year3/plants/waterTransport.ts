@@ -28,13 +28,11 @@ export const waterTransport: SkillContent = {
             "Through its seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water from the soil.",
 
         difficulty: 1,
-
+        correctAnswer: "Through its roots",
         estimatedSeconds: 10,
 
         tags: [
@@ -57,13 +55,11 @@ export const waterTransport: SkillContent = {
             "The petals"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem transports water from the roots to the rest of the plant.",
 
         difficulty: 1,
-
+        correctAnswer: "The stem",
         estimatedSeconds: 15,
 
         tags: [
@@ -86,13 +82,11 @@ export const waterTransport: SkillContent = {
             "The flowers only"
         ],
 
-        answer: 0,
-
         explanation:
             "Water is carried to the leaves where it helps the plant make food.",
 
         difficulty: 1,
-
+        correctAnswer: "The leaves",
         estimatedSeconds: 15,
 
         tags: [
@@ -115,13 +109,11 @@ export const waterTransport: SkillContent = {
             "Flowers → Stem → Roots"
         ],
 
-        answer: 0,
-
         explanation:
             "Water is absorbed by the roots, carried through the stem and reaches the leaves.",
 
         difficulty: 1,
-
+        correctAnswer: "Roots → Stem → Leaves",
         estimatedSeconds: 15,
 
         tags: [
@@ -143,13 +135,11 @@ export const waterTransport: SkillContent = {
             "To make soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Water is needed for healthy growth and for making food in the leaves.",
 
         difficulty: 1,
-
+        correctAnswer: "To help them make food and grow",
         estimatedSeconds: 15,
 
         tags: [
@@ -171,13 +161,11 @@ export const waterTransport: SkillContent = {
             "Stem"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water and minerals from the soil.",
 
         difficulty: 1,
-
+        correctAnswer: "Roots",
         estimatedSeconds: 15,
 
         tags: [
@@ -199,13 +187,11 @@ export const waterTransport: SkillContent = {
             "The seed"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem transports water through the plant.",
 
         difficulty: 1,
-
+        correctAnswer: "The stem",
         estimatedSeconds: 15,
 
         tags: [
@@ -227,13 +213,11 @@ export const waterTransport: SkillContent = {
             "Flowers"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use water together with sunlight and carbon dioxide to make food.",
 
         difficulty: 1,
-
+        correctAnswer: "Leaves",
         estimatedSeconds: 15,
 
         tags: [
@@ -255,13 +239,11 @@ export const waterTransport: SkillContent = {
             "Nothing changes."
         ],
 
-        answer: 0,
-
         explanation:
             "Without enough water, plants become weak and may wilt.",
 
         difficulty: 1,
-
+        correctAnswer: "The plant may wilt.",
         estimatedSeconds: 15,
 
         tags: [
@@ -283,13 +265,11 @@ export const waterTransport: SkillContent = {
             "Seeds absorb water for the whole plant."
         ],
 
-        answer: 0,
-
         explanation:
             "Water moves from the roots, through the stem and to the leaves.",
 
         difficulty: 1,
-
+        correctAnswer: "Roots absorb water and the stem carries it to the leaves.",
         estimatedSeconds: 20,
 
         tags: [
@@ -311,14 +291,12 @@ export const waterTransport: SkillContent = {
             "The stem makes the water."
         ],
 
-        answer: 0,
-
         explanation:
             "Roots are the first part of the plant to absorb water from the soil.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "The roots absorb it from the soil.",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -340,13 +318,11 @@ export const waterTransport: SkillContent = {
             "Back into the soil"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem carries water from the roots to the rest of the plant.",
 
         difficulty: 2,
-
+        correctAnswer: "Through the stem",
         estimatedSeconds: 20,
 
         tags: [
@@ -369,13 +345,11 @@ export const waterTransport: SkillContent = {
             "To produce seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use water, sunlight and carbon dioxide to make food.",
 
         difficulty: 2,
-
+        correctAnswer: "To help make food for the plant",
         estimatedSeconds: 20,
 
         tags: [
@@ -398,13 +372,11 @@ export const waterTransport: SkillContent = {
             "Fruit"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem links the roots and leaves and carries water between them.",
 
         difficulty: 2,
-
+        correctAnswer: "Stem",
         estimatedSeconds: 20,
 
         tags: [
@@ -426,13 +398,11 @@ export const waterTransport: SkillContent = {
             "Stem → Soil → Roots → Leaves"
         ],
 
-        answer: 0,
-
         explanation:
             "Water is absorbed from the soil by the roots, travels through the stem and reaches the leaves.",
 
         difficulty: 2,
-
+        correctAnswer: "Soil → Roots → Stem → Leaves",
         estimatedSeconds: 20,
 
         tags: [
@@ -455,13 +425,11 @@ export const waterTransport: SkillContent = {
             "Seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb both water and minerals from the soil.",
 
         difficulty: 2,
-
+        correctAnswer: "Minerals",
         estimatedSeconds: 20,
 
         tags: [
@@ -484,13 +452,11 @@ export const waterTransport: SkillContent = {
             "Seed"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem carries water from the roots throughout the plant.",
 
         difficulty: 2,
-
+        correctAnswer: "Stem",
         estimatedSeconds: 20,
 
         tags: [
@@ -513,13 +479,11 @@ export const waterTransport: SkillContent = {
             "Stem"
         ],
 
-        answer: 0,
-
         explanation:
             "The roots are the first part of the plant to absorb water from the soil.",
 
         difficulty: 2,
-
+        correctAnswer: "Roots",
         estimatedSeconds: 20,
 
         tags: [
@@ -541,13 +505,11 @@ export const waterTransport: SkillContent = {
             "Seeds carry water around the plant."
         ],
 
-        answer: 0,
-
         explanation:
             "Water travels upwards through the stem from the roots to the leaves.",
 
         difficulty: 2,
-
+        correctAnswer: "Water moves upwards through the stem.",
         estimatedSeconds: 20,
 
         tags: [
@@ -570,13 +532,11 @@ export const waterTransport: SkillContent = {
             "To produce seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem transports water throughout the plant.",
 
         difficulty: 2,
-
+        correctAnswer: "To carry water from the roots to the leaves",
         estimatedSeconds: 20,
 
         tags: [
@@ -599,13 +559,11 @@ export const waterTransport: SkillContent = {
             "Nothing will change."
         ],
 
-        answer: 0,
-
         explanation:
             "The stem is needed to carry water from the roots to the leaves.",
 
         difficulty: 3,
-
+        correctAnswer: "Water will not reach the leaves properly.",
         estimatedSeconds: 25,
 
         tags: [
@@ -628,13 +586,11 @@ export const waterTransport: SkillContent = {
             "The leaves make flowers from it."
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves need water for photosynthesis, which makes food for the plant.",
 
         difficulty: 3,
-
+        correctAnswer: "The leaves use it to make food.",
         estimatedSeconds: 25,
 
         tags: [
@@ -657,13 +613,11 @@ export const waterTransport: SkillContent = {
             "A well-watered plant"
         ],
 
-        answer: 0,
-
         explanation:
             "Without water entering through the roots, the whole plant can wilt.",
 
         difficulty: 3,
-
+        correctAnswer: "A plant that cannot absorb water through its roots",
         estimatedSeconds: 25,
 
         tags: [
@@ -686,13 +640,11 @@ export const waterTransport: SkillContent = {
             "Flowers absorb → Leaves carry → Seeds use"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water, the stem transports it and the leaves use it.",
 
         difficulty: 3,
-
+        correctAnswer: "Roots absorb → Stem carries → Leaves use",
         estimatedSeconds: 25,
 
         tags: [
@@ -715,13 +667,11 @@ export const waterTransport: SkillContent = {
             "It stops roots from growing."
         ],
 
-        answer: 0,
-
         explanation:
             "Transporting water allows the plant to grow, make food and stay healthy.",
 
         difficulty: 3,
-
+        correctAnswer: "It helps every part of the plant receive the water it needs.",
         estimatedSeconds: 25,
 
         tags: [
@@ -743,14 +693,12 @@ export const waterTransport: SkillContent = {
             "The seed"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem transports water from the roots to the leaves and other parts of the plant.",
 
         difficulty: 3,
-
-        estimatedSeconds: 25,
+            correctAnswer: "The stem",
+            estimatedSeconds: 25,
 
         tags: [
             "science",
@@ -772,13 +720,11 @@ export const waterTransport: SkillContent = {
             "To make seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots grow in the soil so they can absorb water and minerals needed by the plant.",
 
         difficulty: 3,
-
+        correctAnswer: "To absorb water and minerals",
         estimatedSeconds: 25,
 
         tags: [
@@ -801,13 +747,11 @@ export const waterTransport: SkillContent = {
             "The seeds will grow immediately."
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves need water to make food, so the plant will not grow well without it.",
 
         difficulty: 3,
-
+        correctAnswer: "The plant will struggle to make food.",
         estimatedSeconds: 25,
 
         tags: [
@@ -830,13 +774,11 @@ export const waterTransport: SkillContent = {
             "Petal size"
         ],
 
-        answer: 0,
-
         explanation:
             "Water transport ensures every part of the plant receives the water it needs.",
 
         difficulty: 3,
-
+        correctAnswer: "Water transport",
         estimatedSeconds: 25,
 
         tags: [
@@ -859,13 +801,11 @@ export const waterTransport: SkillContent = {
             "Flowers"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use water, sunlight and carbon dioxide during photosynthesis.",
 
         difficulty: 3,
-
+        correctAnswer: "Leaves",
         estimatedSeconds: 25,
 
         tags: [
@@ -888,13 +828,11 @@ export const waterTransport: SkillContent = {
             "They produce seeds."
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water and minerals before they are carried through the stem.",
 
         difficulty: 4,
-
+        correctAnswer: "They absorb water and minerals from the soil.",
         estimatedSeconds: 30,
 
         tags: [
@@ -917,13 +855,11 @@ export const waterTransport: SkillContent = {
             "Seeds absorb → Roots carry → Leaves use"
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy plants rely on water moving from the roots, through the stem and into the leaves.",
 
         difficulty: 4,
-
+        correctAnswer: "Roots absorb → Stem carries → Leaves use",
         estimatedSeconds: 30,
 
         tags: [
@@ -946,13 +882,11 @@ export const waterTransport: SkillContent = {
             "The fruit"
         ],
 
-        answer: 0,
-
         explanation:
             "Without water from the roots, the leaves cannot continue making food effectively.",
 
         difficulty: 4,
-
+        correctAnswer: "The leaves",
         estimatedSeconds: 30,
 
         tags: [
@@ -975,13 +909,11 @@ export const waterTransport: SkillContent = {
             "It produces seeds."
         ],
 
-        answer: 0,
-
         explanation:
             "After the roots absorb water, the stem transports it throughout the plant.",
 
         difficulty: 4,
-
+        correctAnswer: "It carries water to the rest of the plant.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1004,13 +936,11 @@ export const waterTransport: SkillContent = {
             "Nothing will change."
         ],
 
-        answer: 0,
-
         explanation:
             "Healthy leaves still depend on the roots to supply water.",
 
         difficulty: 4,
-
+        correctAnswer: "The leaves will eventually stop receiving enough water.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1033,13 +963,11 @@ export const waterTransport: SkillContent = {
             "To stop roots growing."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants constantly need water for healthy growth and photosynthesis.",
 
         difficulty: 4,
-
+        correctAnswer: "To keep making food and growing.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1062,13 +990,11 @@ export const waterTransport: SkillContent = {
             "Leaves"
         ],
 
-        answer: 0,
-
         explanation:
             "Water mainly travels from the roots through the stem to the leaves.",
 
         difficulty: 4,
-
+        correctAnswer: "Seeds",
         estimatedSeconds: 30,
 
         tags: [
@@ -1090,13 +1016,11 @@ export const waterTransport: SkillContent = {
             "It leaves the plant immediately."
         ],
 
-        answer: 0,
-
         explanation:
             "The stem carries absorbed water upwards to the leaves and other parts of the plant.",
 
         difficulty: 4,
-
+        correctAnswer: "It travels upwards through the stem.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1119,13 +1043,11 @@ export const waterTransport: SkillContent = {
             "A plant that never receives water"
         ],
 
-        answer: 0,
-
         explanation:
             "All parts of the water transport system need to work together for healthy growth.",
 
         difficulty: 4,
-
+        correctAnswer: "A plant with healthy roots, stem and leaves",
         estimatedSeconds: 30,
 
         tags: [
@@ -1148,13 +1070,11 @@ export const waterTransport: SkillContent = {
             "Seeds absorb water and stems make food."
         ],
 
-        answer: 0,
-
         explanation:
             "This describes the correct route water takes through a flowering plant.",
 
         difficulty: 4,
-
+        correctAnswer: "Roots absorb water, the stem carries it and the leaves use it.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1176,14 +1096,12 @@ export const waterTransport: SkillContent = {
             "The plant will grow faster."
         ],
 
-        answer: 0,
-
         explanation:
             "The stem carries water from the roots to the leaves. If it is blocked, water cannot travel properly.",
 
         difficulty: 5,
-
-        estimatedSeconds: 35,
+            correctAnswer: "Water will not reach the leaves properly.",
+            estimatedSeconds: 35,
 
         tags: [
             "science",
@@ -1206,13 +1124,11 @@ export const waterTransport: SkillContent = {
             "A plant with a damaged stem"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need healthy roots to absorb water, a healthy stem to transport it and healthy leaves to make food.",
 
         difficulty: 5,
-
+        correctAnswer: "A plant whose roots, stem and leaves are all healthy",
         estimatedSeconds: 35,
 
         tags: [
@@ -1235,13 +1151,11 @@ export const waterTransport: SkillContent = {
             "Water is stored only in the stem."
         ],
 
-        answer: 0,
-
         explanation:
             "Water is needed throughout the plant for growth and healthy cells.",
 
         difficulty: 5,
-
+        correctAnswer: "Every part needs water to stay healthy and grow.",
         estimatedSeconds: 35,
 
         tags: [
@@ -1264,13 +1178,11 @@ export const waterTransport: SkillContent = {
             "Nothing would change."
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need both water and minerals from the soil for healthy growth.",
 
         difficulty: 5,
-
+        correctAnswer: "It would not grow as well.",
         estimatedSeconds: 35,
 
         tags: [
@@ -1293,13 +1205,11 @@ export const waterTransport: SkillContent = {
             "They produce all the seeds."
         ],
 
-        answer: 0,
-
         explanation:
             "The stem is the plant's transport pathway for water.",
 
         difficulty: 5,
-
+        correctAnswer: "They transport water from the roots to the rest of the plant.",
         estimatedSeconds: 35,
 
         tags: [
@@ -1322,13 +1232,11 @@ export const waterTransport: SkillContent = {
             "The leaves produce more water."
         ],
 
-        answer: 0,
-
         explanation:
             "Without water in the soil, the roots cannot absorb enough to supply the plant.",
 
         difficulty: 5,
-
+        correctAnswer: "The roots cannot absorb enough water.",
         estimatedSeconds: 35,
 
         tags: [
@@ -1351,13 +1259,11 @@ export const waterTransport: SkillContent = {
             "Water moves from seeds into the roots."
         ],
 
-        answer: 0,
-
         explanation:
             "This is the correct pathway of water through a flowering plant.",
 
         difficulty: 5,
-
+        correctAnswer: "Water moves from the soil into the roots, through the stem and to the leaves.",
         estimatedSeconds: 35,
 
         tags: [
@@ -1380,13 +1286,11 @@ export const waterTransport: SkillContent = {
             "It stops the plant producing seeds."
         ],
 
-        answer: 0,
-
         explanation:
             "Without water transport, leaves cannot make enough food and the plant cannot grow properly.",
 
         difficulty: 5,
-
+        correctAnswer: "It allows water to reach the leaves so the plant can make food and grow.",
         estimatedSeconds: 35,
 
         tags: [
@@ -1409,13 +1313,11 @@ export const waterTransport: SkillContent = {
             "Fruit, seeds and roots"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water, the stem transports it and the leaves use it.",
 
         difficulty: 5,
-
+        correctAnswer: "Roots, stem and leaves",
         estimatedSeconds: 35,
 
         tags: [
@@ -1438,13 +1340,11 @@ export const waterTransport: SkillContent = {
             "Seeds carry water through the stem."
         ],
 
-        answer: 0,
-
         explanation:
             "Water transport begins in the roots, continues through the stem and supports the leaves in making food and keeping the plant healthy.",
 
         difficulty: 5,
-
+        correctAnswer: "Roots absorb water and minerals, the stem carries them to the leaves where they help the plant make food and grow.",
         estimatedSeconds: 40,
 
         tags: [

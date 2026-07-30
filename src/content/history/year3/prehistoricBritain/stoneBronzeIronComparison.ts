@@ -28,13 +28,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Roman Age"
         ],
 
-        answer: 0,
-
         explanation:
             "The Stone Age came before the Bronze Age and the Iron Age.",
 
         difficulty: 1,
-
+        correctAnswer: "Stone Age",
         estimatedSeconds: 15,
 
         tags: ["history", "timeline"]
@@ -52,13 +50,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Roman Age"
         ],
 
-        answer: 0,
-
         explanation:
             "The Bronze Age followed the Stone Age.",
 
         difficulty: 1,
-
+        correctAnswer: "Bronze Age",
         estimatedSeconds: 15,
 
         tags: ["history", "timeline"]
@@ -76,13 +72,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Roman Age"
         ],
 
-        answer: 0,
-
         explanation:
             "The Iron Age followed the Bronze Age.",
 
         difficulty: 1,
-
+        correctAnswer: "Iron Age",
         estimatedSeconds: 15,
 
         tags: ["history", "timeline"]
@@ -100,13 +94,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Wood"
         ],
 
-        answer: 0,
-
         explanation:
             "Stone was the main material used to make tools.",
 
         difficulty: 1,
-
+        correctAnswer: "Stone",
         estimatedSeconds: 15,
 
         tags: ["history", "stone-age"]
@@ -124,13 +116,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Gold"
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze became the main material for tools and weapons.",
 
         difficulty: 1,
-
+        correctAnswer: "Bronze",
         estimatedSeconds: 15,
 
         tags: ["history", "bronze-age"]
@@ -148,13 +138,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Silver"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron became the main material for many tools and weapons.",
 
         difficulty: 1,
-
+        correctAnswer: "Iron",
         estimatedSeconds: 15,
 
         tags: ["history", "iron-age"]
@@ -172,13 +160,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "They all used the same tools."
         ],
 
-        answer: 0,
-
         explanation:
             "Stone tools were used before bronze and iron tools were developed.",
 
         difficulty: 1,
-
+        correctAnswer: "Stone Age",
         estimatedSeconds: 15,
 
         tags: ["history", "tools"]
@@ -196,13 +182,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Tin"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron tools were usually stronger than bronze tools.",
 
         difficulty: 1,
-
+        correctAnswer: "Iron",
         estimatedSeconds: 20,
 
         tags: ["history", "iron"]
@@ -220,13 +204,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Ice Age"
         ],
 
-        answer: 0,
-
         explanation:
             "Hill forts became common during the Iron Age.",
 
         difficulty: 1,
-
+        correctAnswer: "Iron Age",
         estimatedSeconds: 20,
 
         tags: ["history", "hill-fort"]
@@ -244,13 +226,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Iron came before stone."
         ],
 
-        answer: 0,
-
         explanation:
             "As people discovered new materials, they made stronger tools.",
 
         difficulty: 1,
-
+        correctAnswer: "Tools generally became stronger over time.",
         estimatedSeconds: 20,
 
         tags: ["history", "comparison"]
@@ -268,13 +248,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Bronze grew naturally."
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze tools were stronger and more durable than stone tools.",
 
         difficulty: 2,
-
+        correctAnswer: "Bronze tools were usually stronger and lasted longer.",
         estimatedSeconds: 20,
 
         tags: ["history", "bronze-age"]
@@ -292,13 +270,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Iron melted in the rain."
         ],
 
-        answer: 0,
-
         explanation:
             "Iron made stronger tools and weapons than bronze.",
 
         difficulty: 2,
-
+        correctAnswer: "Iron tools were generally stronger.",
         estimatedSeconds: 20,
 
         tags: ["history", "iron-age"]
@@ -316,13 +292,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Iron Age → Stone Age → Bronze Age"
         ],
 
-        answer: 0,
-
         explanation:
             "This is the correct order of these periods in British history.",
 
         difficulty: 2,
-
+        correctAnswer: "Stone Age → Bronze Age → Iron Age",
         estimatedSeconds: 20,
 
         tags: ["history", "timeline"]
@@ -340,13 +314,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Roman Britain"
         ],
 
-        answer: 0,
-
         explanation:
             "Many Celtic tribes lived in hill forts during the Iron Age.",
 
         difficulty: 2,
-
+        correctAnswer: "Iron Age",
         estimatedSeconds: 20,
 
         tags: ["history", "iron-age", "celts"]
@@ -364,13 +336,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "People built railways."
         ],
 
-        answer: 0,
-
         explanation:
             "Bronze tools and improved farming changed daily life.",
 
         difficulty: 2,
-
+        correctAnswer: "People began using bronze tools and farming became more developed.",
         estimatedSeconds: 20,
 
         tags: ["history", "comparison"]
@@ -388,13 +358,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "People moved into castles."
         ],
 
-        answer: 0,
-
         explanation:
             "Iron tools improved farming, building and everyday life.",
 
         difficulty: 2,
-
+        correctAnswer: "People began making stronger iron tools.",
         estimatedSeconds: 20,
 
         tags: ["history", "comparison"]
@@ -412,13 +380,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "People had electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "Although tools changed, people always needed food, homes and clothing.",
 
         difficulty: 2,
-
+        correctAnswer: "People needed food and shelter.",
         estimatedSeconds: 20,
 
         tags: ["history", "comparison"]
@@ -436,13 +402,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Because farming disappeared."
         ],
 
-        answer: 0,
-
         explanation:
             "The Ages are named after the main materials used for tools.",
 
         difficulty: 2,
-
+        correctAnswer: "Because the materials used for tools changed over time.",
         estimatedSeconds: 20,
 
         tags: ["history", "prehistory"]
@@ -460,13 +424,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "Iron sword, bronze axe, stone tool"
         ],
 
-        answer: 0,
-
         explanation:
             "Stone tools came first, followed by bronze and then iron.",
 
         difficulty: 2,
-
+        correctAnswer: "Stone tool, bronze axe, iron sword",
         estimatedSeconds: 20,
 
         tags: ["history", "timeline"]
@@ -484,13 +446,11 @@ export const stoneBronzeIronComparison: SkillContent = {
             "The Ages happened in the opposite order."
         ],
 
-        answer: 0,
-
         explanation:
             "The development of new materials helped improve farming, building and everyday life over thousands of years.",
 
         difficulty: 2,
-
+        correctAnswer: "People gradually developed stronger materials and better tools, changing how they lived.",
         estimatedSeconds: 20,
 
         tags: ["history", "stone-age", "bronze-age", "iron-age", "comparison"]

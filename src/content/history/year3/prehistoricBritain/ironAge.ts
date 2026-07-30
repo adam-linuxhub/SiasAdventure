@@ -28,13 +28,11 @@ export const ironAge: SkillContent = {
             "Iron grew in forests."
         ],
 
-        answer: 0,
-
         explanation:
             "The Iron Age is named after people began making many tools and weapons from iron.",
 
         difficulty: 1,
-
+        correctAnswer: "People began making tools from iron.",
         estimatedSeconds: 15,
 
         tags: ["history", "iron-age"]
@@ -52,13 +50,11 @@ export const ironAge: SkillContent = {
             "Silver"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron became the main material for making tools and weapons.",
 
         difficulty: 1,
-
+        correctAnswer: "Iron",
         estimatedSeconds: 15,
 
         tags: ["history", "iron"]
@@ -76,13 +72,11 @@ export const ironAge: SkillContent = {
             "Paper"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron was generally stronger and tougher than bronze.",
 
         difficulty: 1,
-
+        correctAnswer: "Bronze",
         estimatedSeconds: 15,
 
         tags: ["history", "tools"]
@@ -100,13 +94,11 @@ export const ironAge: SkillContent = {
             "An underground tunnel"
         ],
 
-        answer: 0,
-
         explanation:
             "Hill forts were settlements built on hills for protection.",
 
         difficulty: 1,
-
+        correctAnswer: "A settlement built on high ground",
         estimatedSeconds: 15,
 
         tags: ["history", "hill-fort"]
@@ -124,13 +116,11 @@ export const ironAge: SkillContent = {
             "They had electricity."
         ],
 
-        answer: 0,
-
         explanation:
             "Being on high ground helped people see approaching danger.",
 
         difficulty: 1,
-
+        correctAnswer: "They were easier to defend.",
         estimatedSeconds: 15,
 
         tags: ["history", "hill-fort"]
@@ -148,13 +138,11 @@ export const ironAge: SkillContent = {
             "Countries"
         ],
 
-        answer: 0,
-
         explanation:
             "People lived in groups called tribes.",
 
         difficulty: 1,
-
+        correctAnswer: "Tribes",
         estimatedSeconds: 15,
 
         tags: ["history", "tribes"]
@@ -172,13 +160,11 @@ export const ironAge: SkillContent = {
             "Normans"
         ],
 
-        answer: 0,
-
         explanation:
             "Many tribes living in Britain during the Iron Age were Celts.",
 
         difficulty: 1,
-
+        correctAnswer: "Celts",
         estimatedSeconds: 15,
 
         tags: ["history", "celts"]
@@ -196,13 +182,11 @@ export const ironAge: SkillContent = {
             "Drive tractors"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron tools made farming and building easier.",
 
         difficulty: 1,
-
+        correctAnswer: "Farm and build more effectively",
         estimatedSeconds: 20,
 
         tags: ["history", "tools"]
@@ -220,13 +204,11 @@ export const ironAge: SkillContent = {
             "Plastic bottle"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron weapons and tools became common during this period.",
 
         difficulty: 1,
-
+        correctAnswer: "Iron spear",
         estimatedSeconds: 20,
 
         tags: ["history", "artefacts"]
@@ -244,13 +226,11 @@ export const ironAge: SkillContent = {
             "People lived in skyscrapers."
         ],
 
-        answer: 0,
-
         explanation:
             "Iron changed how people worked and lived.",
 
         difficulty: 1,
-
+        correctAnswer: "Iron became an important material for tools and weapons.",
         estimatedSeconds: 20,
 
         tags: ["history", "iron-age"]
@@ -268,13 +248,11 @@ export const ironAge: SkillContent = {
             "It melted in sunlight."
         ],
 
-        answer: 0,
-
         explanation:
             "Iron made stronger tools that lasted longer.",
 
         difficulty: 2,
-
+        correctAnswer: "It was usually stronger and tougher.",
         estimatedSeconds: 20,
 
         tags: ["history", "iron"]
@@ -292,13 +270,11 @@ export const ironAge: SkillContent = {
             "To build ships"
         ],
 
-        answer: 0,
-
         explanation:
             "Hill forts helped defend people from attacks.",
 
         difficulty: 2,
-
+        correctAnswer: "To help protect their communities",
         estimatedSeconds: 20,
 
         tags: ["history", "hill-fort"]
@@ -316,13 +292,11 @@ export const ironAge: SkillContent = {
             "Flying aeroplanes"
         ],
 
-        answer: 0,
-
         explanation:
             "People worked together to farm, hunt and protect one another.",
 
         difficulty: 2,
-
+        correctAnswer: "Working together to survive",
         estimatedSeconds: 20,
 
         tags: ["history", "tribes"]
@@ -340,13 +314,11 @@ export const ironAge: SkillContent = {
             "They built roads automatically."
         ],
 
-        answer: 0,
-
         explanation:
             "Iron tools helped farmers work the land more effectively.",
 
         difficulty: 2,
-
+        correctAnswer: "They made farming easier and more efficient.",
         estimatedSeconds: 20,
 
         tags: ["history", "farming"]
@@ -364,13 +336,11 @@ export const ironAge: SkillContent = {
             "People could travel by train."
         ],
 
-        answer: 0,
-
         explanation:
             "Working together helped communities survive.",
 
         difficulty: 2,
-
+        correctAnswer: "People could help and protect one another.",
         estimatedSeconds: 20,
 
         tags: ["history", "tribes"]
@@ -388,13 +358,11 @@ export const ironAge: SkillContent = {
             "Flying planes"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron tools made farming more productive.",
 
         difficulty: 2,
-
+        correctAnswer: "Farming with iron tools",
         estimatedSeconds: 20,
 
         tags: ["history", "farming"]
@@ -412,13 +380,11 @@ export const ironAge: SkillContent = {
             "It was built from glass."
         ],
 
-        answer: 0,
-
         explanation:
             "Higher ground made it easier to spot approaching enemies.",
 
         difficulty: 2,
-
+        correctAnswer: "People could see danger from far away.",
         estimatedSeconds: 20,
 
         tags: ["history", "hill-fort"]
@@ -436,13 +402,11 @@ export const ironAge: SkillContent = {
             "They are magical objects."
         ],
 
-        answer: 0,
-
         explanation:
             "Artefacts give us clues about life in the past.",
 
         difficulty: 2,
-
+        correctAnswer: "They help us understand how people lived.",
         estimatedSeconds: 20,
 
         tags: ["history", "evidence"]
@@ -460,13 +424,11 @@ export const ironAge: SkillContent = {
             "Electric torch"
         ],
 
-        answer: 0,
-
         explanation:
             "Iron weapons and tools were common during this period.",
 
         difficulty: 2,
-
+        correctAnswer: "Iron sword",
         estimatedSeconds: 20,
 
         tags: ["history", "artefacts"]
@@ -484,13 +446,11 @@ export const ironAge: SkillContent = {
             "People stopped farming."
         ],
 
-        answer: 0,
-
         explanation:
             "The Iron Age brought stronger tools, thriving farming communities and defended settlements.",
 
         difficulty: 2,
-
+        correctAnswer: "People used iron tools, lived in tribes and built hill forts for protection.",
         estimatedSeconds: 20,
 
         tags: ["history", "iron-age", "hill-fort", "tribes"]

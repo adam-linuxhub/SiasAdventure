@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const egyptianCivilisation: SkillContent = {
 
@@ -29,13 +29,11 @@ export const egyptianCivilisation: SkillContent = {
             "Northern Europe"
         ],
 
-        answer: 0,
-
         explanation:
             "Ancient Egypt developed in North Africa, mainly around the River Nile.",
 
         difficulty: 1,
-
+        correctAnswer: "North Africa",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -54,13 +52,11 @@ export const egyptianCivilisation: SkillContent = {
             "The River Rhine"
         ],
 
-        answer: 0,
-
         explanation:
             "The River Nile provided water, food and transport for Ancient Egyptians.",
 
         difficulty: 1,
-
+        correctAnswer: "The River Nile",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -79,13 +75,11 @@ export const egyptianCivilisation: SkillContent = {
             "It made the land dry"
         ],
 
-        answer: 0,
-
         explanation:
             "The Nile flooded and left fertile soil for farming.",
 
         difficulty: 1,
-
+        correctAnswer: "It helped people grow crops and survive",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -104,13 +98,11 @@ export const egyptianCivilisation: SkillContent = {
             "A piece of jewellery"
         ],
 
-        answer: 0,
-
         explanation:
             "A civilisation is a large organised society with its own culture and systems.",
 
         difficulty: 1,
-
+        correctAnswer: "A society with organised people, buildings and systems",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -129,13 +121,11 @@ export const egyptianCivilisation: SkillContent = {
             "An ocean island"
         ],
 
-        answer: 0,
-
         explanation:
             "The River Nile allowed farming and settlement.",
 
         difficulty: 1,
-
+        correctAnswer: "A river",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -154,13 +144,11 @@ export const egyptianCivilisation: SkillContent = {
             "Avoiding all travel"
         ],
 
-        answer: 0,
-
         explanation:
             "The Nile supported many parts of Egyptian life.",
 
         difficulty: 1,
-
+        correctAnswer: "Farming, transport and water",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -179,13 +167,11 @@ export const egyptianCivilisation: SkillContent = {
             "North America"
         ],
 
-        answer: 0,
-
         explanation:
             "Egypt is a country in North Africa.",
 
         difficulty: 1,
-
+        correctAnswer: "Africa",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -204,13 +190,11 @@ export const egyptianCivilisation: SkillContent = {
             "It was always frozen"
         ],
 
-        answer: 0,
-
         explanation:
             "The Nile made farming possible in the surrounding desert.",
 
         difficulty: 1,
-
+        correctAnswer: "There was water and fertile land",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -229,13 +213,11 @@ export const egyptianCivilisation: SkillContent = {
             "Castles"
         ],
 
-        answer: 0,
-
         explanation:
             "The pyramids are some of the most famous Ancient Egyptian structures.",
 
         difficulty: 1,
-
+        correctAnswer: "Pyramids",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -254,13 +236,11 @@ export const egyptianCivilisation: SkillContent = {
             "It had no rulers."
         ],
 
-        answer: 0,
-
         explanation:
             "Ancient Egypt was one of the earliest major civilisations.",
 
         difficulty: 1,
-
+        correctAnswer: "It was one of the world's earliest civilisations.",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -279,13 +259,11 @@ export const egyptianCivilisation: SkillContent = {
             "They made the desert larger"
         ],
 
-        answer: 0,
-
         explanation:
             "Floodwater deposited fertile soil that helped crops grow.",
 
         difficulty: 2,
-
+        correctAnswer: "They left rich soil for growing crops",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -304,13 +282,11 @@ export const egyptianCivilisation: SkillContent = {
             "Computer games"
         ],
 
-        answer: 0,
-
         explanation:
             "Historians use evidence from the past to understand history.",
 
         difficulty: 2,
-
+        correctAnswer: "Ancient objects and written evidence",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -329,13 +305,11 @@ export const egyptianCivilisation: SkillContent = {
             "Frozen lakes"
         ],
 
-        answer: 0,
-
         explanation:
             "The land near the Nile was best for farming.",
 
         difficulty: 2,
-
+        correctAnswer: "The River Nile",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -354,13 +328,11 @@ export const egyptianCivilisation: SkillContent = {
             "It stopped all trade"
         ],
 
-        answer: 0,
-
         explanation:
             "The desert acted as a natural barrier around Egypt.",
 
         difficulty: 2,
-
+        correctAnswer: "It made it harder for enemies to attack",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -379,13 +351,11 @@ export const egyptianCivilisation: SkillContent = {
             "Very fast"
         ],
 
-        answer: 0,
-
         explanation:
             "Ancient describes something from a long time ago.",
 
         difficulty: 1,
-
+        correctAnswer: "Very old",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -404,13 +374,11 @@ export const egyptianCivilisation: SkillContent = {
             "Electricity"
         ],
 
-        answer: 0,
-
         explanation:
             "The Nile supported farming, travel and settlements.",
 
         difficulty: 2,
-
+        correctAnswer: "The River Nile and farming",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -429,13 +397,11 @@ export const egyptianCivilisation: SkillContent = {
             "Growing crops"
         ],
 
-        answer: 0,
-
         explanation:
             "The Nile was an important route for transport and trade.",
 
         difficulty: 2,
-
+        correctAnswer: "Transporting people and goods",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -454,13 +420,11 @@ export const egyptianCivilisation: SkillContent = {
             "Future inventions"
         ],
 
-        answer: 0,
-
         explanation:
             "Ancient remains provide evidence about past societies.",
 
         difficulty: 2,
-
+        correctAnswer: "Information about how people lived in the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -479,13 +443,11 @@ export const egyptianCivilisation: SkillContent = {
             "To predict the future"
         ],
 
-        answer: 0,
-
         explanation:
             "History helps us understand how people lived and changed over time.",
 
         difficulty: 2,
-
+        correctAnswer: "To understand people and life in the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt"]
@@ -504,13 +466,11 @@ export const egyptianCivilisation: SkillContent = {
             "A place with no settlements"
         ],
 
-        answer: 0,
-
         explanation:
             "Ancient Egypt developed around the Nile and became a powerful civilisation.",
 
         difficulty: 2,
-
+        correctAnswer: "An ancient civilisation that grew around the River Nile",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt"]

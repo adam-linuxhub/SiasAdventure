@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const riverFeatures: SkillContent = {
 
@@ -29,13 +29,11 @@ export const riverFeatures: SkillContent = {
             "Fast, slow and stopped"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers are often described as having an upper, middle and lower course.",
 
         difficulty: 1,
-
+        correctAnswer: "Upper course, middle course and lower course",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -54,13 +52,11 @@ export const riverFeatures: SkillContent = {
             "In a city only"
         ],
 
-        answer: 0,
-
         explanation:
             "The upper course is near where the river begins.",
 
         difficulty: 1,
-
+        correctAnswer: "Near the source in higher land",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -79,13 +75,11 @@ export const riverFeatures: SkillContent = {
             "Always underground"
         ],
 
-        answer: 0,
-
         explanation:
             "Upper courses are often steep, narrow and fast flowing.",
 
         difficulty: 1,
-
+        correctAnswer: "Narrow and fast flowing",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -104,13 +98,11 @@ export const riverFeatures: SkillContent = {
             "A flooded field"
         ],
 
-        answer: 0,
-
         explanation:
             "Waterfalls form where water flows over a steep drop.",
 
         difficulty: 1,
-
+        correctAnswer: "Water falling over a steep drop",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -129,13 +121,11 @@ export const riverFeatures: SkillContent = {
             "Buildings being made"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers can erode the land by carrying away material.",
 
         difficulty: 2,
-
+        correctAnswer: "Moving water wearing away rock and soil",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -154,13 +144,11 @@ export const riverFeatures: SkillContent = {
             "Rivers stop flowing"
         ],
 
-        answer: 0,
-
         explanation:
             "Erosion is the process where land and rocks are worn away.",
 
         difficulty: 2,
-
+        correctAnswer: "Material is worn away and moved",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -179,13 +167,11 @@ export const riverFeatures: SkillContent = {
             "A river bridge"
         ],
 
-        answer: 0,
-
         explanation:
             "Meanders are curves or bends that develop in rivers.",
 
         difficulty: 1,
-
+        correctAnswer: "A bend in a river",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -204,13 +190,11 @@ export const riverFeatures: SkillContent = {
             "Under the sea"
         ],
 
-        answer: 0,
-
         explanation:
             "Meanders usually form as rivers become wider and slower.",
 
         difficulty: 2,
-
+        correctAnswer: "In the middle and lower courses of rivers",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -229,13 +213,11 @@ export const riverFeatures: SkillContent = {
             "When a river disappears"
         ],
 
-        answer: 0,
-
         explanation:
             "Deposition happens when a river loses energy and drops sediment.",
 
         difficulty: 2,
-
+        correctAnswer: "When a river drops material it is carrying",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -254,13 +236,11 @@ export const riverFeatures: SkillContent = {
             "Inside clouds"
         ],
 
-        answer: 0,
-
         explanation:
             "Slow-moving water drops the sediment it carries.",
 
         difficulty: 2,
-
+        correctAnswer: "Where the river slows down",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -279,13 +259,11 @@ export const riverFeatures: SkillContent = {
             "Without water"
         ],
 
-        answer: 0,
-
         explanation:
             "The river becomes wider and develops more features in the middle course.",
 
         difficulty: 2,
-
+        correctAnswer: "Wider with more bends",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -304,13 +282,11 @@ export const riverFeatures: SkillContent = {
             "Underground"
         ],
 
-        answer: 0,
-
         explanation:
             "The lower course is where the river is widest before reaching its mouth.",
 
         difficulty: 1,
-
+        correctAnswer: "Wide and slower near the mouth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -329,13 +305,11 @@ export const riverFeatures: SkillContent = {
             "It loses all water"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers usually become larger as more water joins them.",
 
         difficulty: 2,
-
+        correctAnswer: "It usually becomes wider and deeper",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -354,13 +328,11 @@ export const riverFeatures: SkillContent = {
             "A bridge"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers often flow through valleys.",
 
         difficulty: 1,
-
+        correctAnswer: "Low land between hills or mountains",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -379,13 +351,11 @@ export const riverFeatures: SkillContent = {
             "By removing gravity"
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers shape landscapes through erosion and deposition.",
 
         difficulty: 2,
-
+        correctAnswer: "By eroding and depositing material",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -404,13 +374,11 @@ export const riverFeatures: SkillContent = {
             "They are wider"
         ],
 
-        answer: 0,
-
         explanation:
             "Steeper slopes make water move faster.",
 
         difficulty: 2,
-
+        correctAnswer: "They often flow down steep slopes",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -429,13 +397,11 @@ export const riverFeatures: SkillContent = {
             "A man-made road"
         ],
 
-        answer: 0,
-
         explanation:
             "An oxbow lake forms when a meander becomes separated from the river.",
 
         difficulty: 2,
-
+        correctAnswer: "A curved lake formed from a cut-off meander",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "rivers"]
@@ -454,13 +420,11 @@ export const riverFeatures: SkillContent = {
             "Rivers never change"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowing water shapes rivers over time.",
 
         difficulty: 2,
-
+        correctAnswer: "Water changes the land as it flows",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -479,13 +443,11 @@ export const riverFeatures: SkillContent = {
             "A waterfall"
         ],
 
-        answer: 0,
-
         explanation:
             "The mouth is where the river reaches another body of water.",
 
         difficulty: 1,
-
+        correctAnswer: "The mouth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rivers"]
@@ -504,13 +466,11 @@ export const riverFeatures: SkillContent = {
             "A river only exists underground"
         ],
 
-        answer: 0,
-
         explanation:
             "A river follows a journey from source to mouth.",
 
         difficulty: 2,
-
+        correctAnswer: "A river starts at its source, flows through the land and ends at its mouth",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "rivers"]

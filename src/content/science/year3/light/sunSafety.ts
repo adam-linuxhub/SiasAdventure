@@ -28,13 +28,11 @@ export const sunSafety: SkillContent = {
             "It makes you taller"
         ],
 
-        answer: 0,
-
         explanation:
             "Looking directly at the Sun can seriously damage your eyes.",
 
         difficulty: 1,
-
+        correctAnswer: "It can damage your eyes",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "sun", "safety"]
@@ -52,13 +50,11 @@ export const sunSafety: SkillContent = {
             "Scarf"
         ],
 
-        answer: 0,
-
         explanation:
             "Sunglasses help protect your eyes from bright sunlight.",
 
         difficulty: 1,
-
+        correctAnswer: "Sunglasses",
         estimatedSeconds: 15,
 
         tags: ["science", "sun", "safety"]
@@ -76,13 +72,11 @@ export const sunSafety: SkillContent = {
             "A backpack"
         ],
 
-        answer: 0,
-
         explanation:
             "A wide-brimmed hat helps shade your face and eyes.",
 
         difficulty: 1,
-
+        correctAnswer: "A wide-brimmed hat",
         estimatedSeconds: 15,
 
         tags: ["science", "sun", "safety"]
@@ -100,13 +94,11 @@ export const sunSafety: SkillContent = {
             "Glue"
         ],
 
-        answer: 0,
-
         explanation:
             "Sunscreen helps protect your skin from the Sun's harmful rays.",
 
         difficulty: 1,
-
+        correctAnswer: "Sunscreen",
         estimatedSeconds: 15,
 
         tags: ["science", "sun", "safety"]
@@ -124,13 +116,11 @@ export const sunSafety: SkillContent = {
             "Next to a bonfire"
         ],
 
-        answer: 0,
-
         explanation:
             "Staying in the shade helps reduce your exposure to strong sunlight.",
 
         difficulty: 1,
-
+        correctAnswer: "In the shade",
         estimatedSeconds: 15,
 
         tags: ["science", "sun", "shade"]
@@ -148,13 +138,11 @@ export const sunSafety: SkillContent = {
             "Look at the Sun through a telescope"
         ],
 
-        answer: 0,
-
         explanation:
             "A hat helps protect your face and eyes from bright sunlight.",
 
         difficulty: 1,
-
+        correctAnswer: "Wear a hat in bright sunshine",
         estimatedSeconds: 15,
 
         tags: ["science", "sun", "safety"]
@@ -172,13 +160,11 @@ export const sunSafety: SkillContent = {
             "To help them hear better"
         ],
 
-        answer: 0,
-
         explanation:
             "Sunglasses reduce the amount of bright sunlight reaching your eyes.",
 
         difficulty: 1,
-
+        correctAnswer: "To help protect their eyes",
         estimatedSeconds: 15,
 
         tags: ["science", "sun", "eyes"]
@@ -196,13 +182,11 @@ export const sunSafety: SkillContent = {
             "It changes colour forever"
         ],
 
-        answer: 0,
-
         explanation:
             "Too much sunlight can cause painful sunburn.",
 
         difficulty: 1,
-
+        correctAnswer: "It can become sunburnt",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "skin"]
@@ -220,13 +204,11 @@ export const sunSafety: SkillContent = {
             "Ignoring sunscreen"
         ],
 
-        answer: 0,
-
         explanation:
             "Playing in shaded areas reduces exposure to strong sunlight.",
 
         difficulty: 1,
-
+        correctAnswer: "Playing in the shade",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "shade"]
@@ -244,13 +226,11 @@ export const sunSafety: SkillContent = {
             "You only need sun protection in winter."
         ],
 
-        answer: 0,
-
         explanation:
             "Looking directly at the Sun can seriously damage your eyesight.",
 
         difficulty: 1,
-
+        correctAnswer: "The Sun can damage your eyes if you look at it directly.",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "safety"]
@@ -268,13 +248,11 @@ export const sunSafety: SkillContent = {
             "The ground becomes colder"
         ],
 
-        answer: 0,
-
         explanation:
             "Shade blocks direct sunlight, helping you stay cooler.",
 
         difficulty: 2,
-
+        correctAnswer: "Less sunlight reaches you",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "shade"]
@@ -292,13 +270,11 @@ export const sunSafety: SkillContent = {
             "Shoes only"
         ],
 
-        answer: 0,
-
         explanation:
             "Using several types of protection helps keep both your skin and eyes safer.",
 
         difficulty: 2,
-
+        correctAnswer: "Hat, sunglasses and sunscreen",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "safety"]
@@ -316,13 +292,11 @@ export const sunSafety: SkillContent = {
             "To make plants grow"
         ],
 
-        answer: 0,
-
         explanation:
             "Sun safety helps prevent damage caused by strong sunlight.",
 
         difficulty: 2,
-
+        correctAnswer: "To protect their eyes and skin",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "safety"]
@@ -340,13 +314,11 @@ export const sunSafety: SkillContent = {
             "Wearing sunglasses"
         ],
 
-        answer: 0,
-
         explanation:
             "You should never look directly at the Sun.",
 
         difficulty: 2,
-
+        correctAnswer: "Looking directly at the Sun",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "eyes"]
@@ -364,13 +336,11 @@ export const sunSafety: SkillContent = {
             "A blanket to cover their eyes"
         ],
 
-        answer: 0,
-
         explanation:
             "A hat and sunscreen help protect against strong sunlight.",
 
         difficulty: 2,
-
+        correctAnswer: "A hat and sunscreen",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "safety"]
@@ -388,13 +358,11 @@ export const sunSafety: SkillContent = {
             "The Sun disappears"
         ],
 
-        answer: 0,
-
         explanation:
             "Binoculars and telescopes concentrate sunlight, making it even more dangerous for your eyes.",
 
         difficulty: 2,
-
+        correctAnswer: "It can cause even more damage to your eyes",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "eyes", "safety"]
@@ -412,13 +380,11 @@ export const sunSafety: SkillContent = {
             "Stay outside all day without protection"
         ],
 
-        answer: 0,
-
         explanation:
             "Shaded areas help reduce exposure to the Sun.",
 
         difficulty: 2,
-
+        correctAnswer: "Play in a shaded area",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "shade"]
@@ -436,13 +402,11 @@ export const sunSafety: SkillContent = {
             "To help them run faster"
         ],
 
-        answer: 0,
-
         explanation:
             "Hats help protect children's faces and heads from strong sunlight.",
 
         difficulty: 2,
-
+        correctAnswer: "To help protect them from the Sun",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "school", "safety"]
@@ -460,13 +424,11 @@ export const sunSafety: SkillContent = {
             "It only shines in summer."
         ],
 
-        answer: 0,
-
         explanation:
             "The Sun provides light but can damage our eyes if we look at it directly.",
 
         difficulty: 2,
-
+        correctAnswer: "It is our main natural source of light, but it can also damage our eyes.",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "light", "safety"]
@@ -484,13 +446,11 @@ export const sunSafety: SkillContent = {
             "Sun safety is only important for adults."
         ],
 
-        answer: 0,
-
         explanation:
             "Good sun safety means protecting both your skin and your eyes whenever the sunlight is strong.",
 
         difficulty: 2,
-
+        correctAnswer: "Protect your eyes and skin by wearing sunscreen, a hat, sunglasses and staying in the shade.",
         estimatedSeconds: 20,
 
         tags: ["science", "sun", "safety", "light"]

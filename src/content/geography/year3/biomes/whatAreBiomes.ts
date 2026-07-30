@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const whatAreBiomes: SkillContent = {
 
@@ -29,13 +29,11 @@ export const whatAreBiomes: SkillContent = {
             "A small garden"
         ],
 
-        answer: 0,
-
         explanation:
             "A biome is a large region with similar climate conditions and living things.",
 
         difficulty: 1,
-
+        correctAnswer: "A large area with a similar climate, plants and animals",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "biomes"]
@@ -54,13 +52,11 @@ export const whatAreBiomes: SkillContent = {
             "Map symbols"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate affects what plants and animals can survive in an area.",
 
         difficulty: 1,
-
+        correctAnswer: "Climate",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "biomes"]
@@ -79,13 +75,11 @@ export const whatAreBiomes: SkillContent = {
             "Rivers and bridges only"
         ],
 
-        answer: 0,
-
         explanation:
             "Biomes contain living things that are adapted to their environment.",
 
         difficulty: 1,
-
+        correctAnswer: "Plants and animals",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "biomes"]
@@ -104,13 +98,11 @@ export const whatAreBiomes: SkillContent = {
             "Climate has no effect"
         ],
 
-        answer: 0,
-
         explanation:
             "Temperature and rainfall affect which plants can grow.",
 
         difficulty: 2,
-
+        correctAnswer: "Plants adapt to different climate conditions",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "biomes"]
@@ -129,13 +121,11 @@ export const whatAreBiomes: SkillContent = {
             "Climate does not matter"
         ],
 
-        answer: 0,
-
         explanation:
             "Animals develop features that help them survive in their habitats.",
 
         difficulty: 2,
-
+        correctAnswer: "They have adaptations for their environment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "animals"]
@@ -154,13 +144,11 @@ export const whatAreBiomes: SkillContent = {
             "Ice sheet"
         ],
 
-        answer: 0,
-
         explanation:
             "Tropical rainforests are found in hot areas near the equator.",
 
         difficulty: 1,
-
+        correctAnswer: "Tropical rainforest",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -179,13 +167,11 @@ export const whatAreBiomes: SkillContent = {
             "Grassland"
         ],
 
-        answer: 0,
-
         explanation:
             "Polar biomes have very cold temperatures and lots of ice.",
 
         difficulty: 1,
-
+        correctAnswer: "Polar biome",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "biomes"]
@@ -204,13 +190,11 @@ export const whatAreBiomes: SkillContent = {
             "Tropical forest"
         ],
 
-        answer: 0,
-
         explanation:
             "Deserts are dry areas with very low rainfall.",
 
         difficulty: 1,
-
+        correctAnswer: "Desert",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -229,13 +213,11 @@ export const whatAreBiomes: SkillContent = {
             "A map symbol"
         ],
 
-        answer: 0,
-
         explanation:
             "An ecosystem includes plants, animals and their surroundings.",
 
         difficulty: 2,
-
+        correctAnswer: "Living things interacting with their environment",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "ecosystems"]
@@ -254,13 +236,11 @@ export const whatAreBiomes: SkillContent = {
             "They create mountains"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants provide food and shelter for many living things.",
 
         difficulty: 1,
-
+        correctAnswer: "They provide food and habitats",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "ecosystems"]
@@ -279,13 +259,11 @@ export const whatAreBiomes: SkillContent = {
             "A mountain feature"
         ],
 
-        answer: 0,
-
         explanation:
             "A habitat provides the things an organism needs to survive.",
 
         difficulty: 1,
-
+        correctAnswer: "The place where a living thing lives",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "habitats"]
@@ -304,13 +282,11 @@ export const whatAreBiomes: SkillContent = {
             "They have no rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Rainforests have some of the greatest biodiversity on Earth.",
 
         difficulty: 1,
-
+        correctAnswer: "They contain many different plants and animals",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "rainforest"]
@@ -329,13 +305,11 @@ export const whatAreBiomes: SkillContent = {
             "The number of roads"
         ],
 
-        answer: 0,
-
         explanation:
             "Biodiversity describes the range of plants and animals in a place.",
 
         difficulty: 2,
-
+        correctAnswer: "The variety of living things in an area",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "ecosystems"]
@@ -354,13 +328,11 @@ export const whatAreBiomes: SkillContent = {
             "The climate is always wet"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants in deserts need special adaptations to survive with little water.",
 
         difficulty: 1,
-
+        correctAnswer: "There is very little water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -379,13 +351,11 @@ export const whatAreBiomes: SkillContent = {
             "A human building"
         ],
 
-        answer: 0,
-
         explanation:
             "Adaptations help plants and animals survive in their environments.",
 
         difficulty: 2,
-
+        correctAnswer: "A feature that helps a living thing survive",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "ecosystems"]
@@ -404,13 +374,11 @@ export const whatAreBiomes: SkillContent = {
             "Biomes never change"
         ],
 
-        answer: 0,
-
         explanation:
             "Human activities can change ecosystems and habitats.",
 
         difficulty: 2,
-
+        correctAnswer: "By changing habitats through activities such as farming and building",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -429,13 +397,11 @@ export const whatAreBiomes: SkillContent = {
             "To change all climates"
         ],
 
-        answer: 0,
-
         explanation:
             "Protecting ecosystems helps maintain biodiversity.",
 
         difficulty: 1,
-
+        correctAnswer: "To protect plants, animals and natural environments",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -454,13 +420,11 @@ export const whatAreBiomes: SkillContent = {
             "Maps"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants need suitable conditions to grow.",
 
         difficulty: 1,
-
+        correctAnswer: "Temperature and rainfall",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "biomes"]
@@ -479,13 +443,11 @@ export const whatAreBiomes: SkillContent = {
             "Animals decide locations"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate differences create different environments around the world.",
 
         difficulty: 2,
-
+        correctAnswer: "Different areas have different climates",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "biomes"]
@@ -504,13 +466,11 @@ export const whatAreBiomes: SkillContent = {
             "A type of road"
         ],
 
-        answer: 0,
-
         explanation:
             "Biomes are large regions with similar climates and ecosystems.",
 
         difficulty: 2,
-
+        correctAnswer: "A large area with a particular climate and living things adapted to it",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "biomes"]

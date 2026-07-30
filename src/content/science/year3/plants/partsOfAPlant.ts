@@ -28,13 +28,11 @@ export const partsOfAPlant: SkillContent = {
             "Stem"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots usually grow underground and hold the plant in the soil.",
 
         difficulty: 1,
-
+        correctAnswer: "Roots",
         estimatedSeconds: 10,
 
         tags: [
@@ -56,13 +54,11 @@ export const partsOfAPlant: SkillContent = {
             "Seed"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem supports the plant and holds up the leaves and flowers.",
 
         difficulty: 1,
-
+        correctAnswer: "Stem",
         estimatedSeconds: 10,
 
         tags: [
@@ -84,13 +80,11 @@ export const partsOfAPlant: SkillContent = {
             "Flower"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use sunlight to make food for the plant.",
 
         difficulty: 1,
-
+        correctAnswer: "Leaves",
         estimatedSeconds: 10,
 
         tags: [
@@ -112,13 +106,11 @@ export const partsOfAPlant: SkillContent = {
             "Leaf"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers often have colourful petals that help attract insects.",
 
         difficulty: 1,
-
+        correctAnswer: "Flower",
         estimatedSeconds: 10,
 
         tags: [
@@ -140,13 +132,11 @@ export const partsOfAPlant: SkillContent = {
             "Root"
         ],
 
-        answer: 0,
-
         explanation:
             "A seed can grow into a new plant when it has the right conditions.",
 
         difficulty: 1,
-
+        correctAnswer: "Seed",
         estimatedSeconds: 10,
 
         tags: [
@@ -168,13 +158,11 @@ export const partsOfAPlant: SkillContent = {
             "Produce fruit"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots anchor the plant and take in water and minerals from the soil.",
 
         difficulty: 1,
-
+        correctAnswer: "Hold the plant in the ground and absorb water",
         estimatedSeconds: 15,
 
         tags: [
@@ -196,13 +184,11 @@ export const partsOfAPlant: SkillContent = {
             "Catch rain"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem supports the plant and carries water and nutrients around it.",
 
         difficulty: 1,
-
+        correctAnswer: "Support the plant and carry water",
         estimatedSeconds: 15,
 
         tags: [
@@ -224,13 +210,11 @@ export const partsOfAPlant: SkillContent = {
             "Absorb water from the ground"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use sunlight, air and water to make food for the plant.",
 
         difficulty: 1,
-
+        correctAnswer: "Make food for the plant",
         estimatedSeconds: 15,
 
         tags: [
@@ -252,13 +236,11 @@ export const partsOfAPlant: SkillContent = {
             "Store food"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers help plants reproduce by making seeds.",
 
         difficulty: 1,
-
+        correctAnswer: "Help the plant make seeds",
         estimatedSeconds: 15,
 
         tags: [
@@ -280,13 +262,11 @@ export const partsOfAPlant: SkillContent = {
             "Stem"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water and minerals from the soil.",
 
         difficulty: 1,
-
+        correctAnswer: "Roots",
         estimatedSeconds: 15,
 
         tags: [
@@ -308,13 +288,11 @@ export const partsOfAPlant: SkillContent = {
             "Petal"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem carries water from the roots to the rest of the plant.",
 
         difficulty: 2,
-
+        correctAnswer: "Stem",
         estimatedSeconds: 20,
 
         tags: [
@@ -336,13 +314,11 @@ export const partsOfAPlant: SkillContent = {
             "Stem"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves capture sunlight and use it to make food for the plant.",
 
         difficulty: 2,
-
+        correctAnswer: "Leaves",
         estimatedSeconds: 20,
 
         tags: [
@@ -364,13 +340,11 @@ export const partsOfAPlant: SkillContent = {
             "Seed"
         ],
 
-        answer: 0,
-
         explanation:
             "Bright flowers attract insects that help pollinate the plant.",
 
         difficulty: 2,
-
+        correctAnswer: "Flower",
         estimatedSeconds: 20,
 
         tags: [
@@ -393,13 +367,11 @@ export const partsOfAPlant: SkillContent = {
             "Flower"
         ],
 
-        answer: 0,
-
         explanation:
             "A seed begins to grow during germination and develops into a new plant.",
 
         difficulty: 2,
-
+        correctAnswer: "Seed",
         estimatedSeconds: 20,
 
         tags: [
@@ -422,13 +394,11 @@ export const partsOfAPlant: SkillContent = {
             "Stem"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots grow below the soil to anchor the plant and absorb water.",
 
         difficulty: 2,
-
+        correctAnswer: "Roots",
         estimatedSeconds: 20,
 
         tags: [
@@ -449,14 +419,12 @@ export const partsOfAPlant: SkillContent = {
             "Seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots anchor the plant firmly in the soil so it does not fall over easily.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "Roots",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -477,13 +445,11 @@ export const partsOfAPlant: SkillContent = {
             "Petal"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem supports the plant and holds the leaves and flowers up towards the sunlight.",
 
         difficulty: 2,
-
+        correctAnswer: "Stem",
         estimatedSeconds: 20,
 
         tags: [
@@ -505,13 +471,11 @@ export const partsOfAPlant: SkillContent = {
             "To make roots"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use sunlight to make food that helps the plant grow.",
 
         difficulty: 2,
-
+        correctAnswer: "To make food",
         estimatedSeconds: 20,
 
         tags: [
@@ -533,13 +497,11 @@ export const partsOfAPlant: SkillContent = {
             "To grow underground"
         ],
 
-        answer: 0,
-
         explanation:
             "Brightly coloured petals attract insects such as bees and butterflies.",
 
         difficulty: 2,
-
+        correctAnswer: "To attract insects",
         estimatedSeconds: 20,
 
         tags: [
@@ -562,13 +524,11 @@ export const partsOfAPlant: SkillContent = {
             "A stem"
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds contain the tiny new plant that begins growing during germination.",
 
         difficulty: 2,
-
+        correctAnswer: "A seed",
         estimatedSeconds: 20,
 
         tags: [
@@ -590,13 +550,11 @@ export const partsOfAPlant: SkillContent = {
             "Seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water and useful minerals from the soil.",
 
         difficulty: 3,
-
+        correctAnswer: "Roots",
         estimatedSeconds: 25,
 
         tags: [
@@ -618,13 +576,11 @@ export const partsOfAPlant: SkillContent = {
             "Seed"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem transports water and nutrients around the plant.",
 
         difficulty: 3,
-
+        correctAnswer: "Stem",
         estimatedSeconds: 25,
 
         tags: [
@@ -646,13 +602,11 @@ export const partsOfAPlant: SkillContent = {
             "Petals"
         ],
 
-        answer: 0,
-
         explanation:
             "Most leaves are green because they contain chlorophyll, which helps them make food.",
 
         difficulty: 3,
-
+        correctAnswer: "Leaves",
         estimatedSeconds: 25,
 
         tags: [
@@ -674,13 +628,11 @@ export const partsOfAPlant: SkillContent = {
             "Stem"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers produce seeds after successful pollination and fertilisation.",
 
         difficulty: 3,
-
+        correctAnswer: "Flower",
         estimatedSeconds: 25,
 
         tags: [
@@ -703,13 +655,11 @@ export const partsOfAPlant: SkillContent = {
             "Petal"
         ],
 
-        answer: 0,
-
         explanation:
             "The first root grows down into the soil to absorb water and anchor the young plant.",
 
         difficulty: 3,
-
+        correctAnswer: "Root",
         estimatedSeconds: 25,
 
         tags: [
@@ -732,13 +682,11 @@ export const partsOfAPlant: SkillContent = {
             "No, seeds absorb water."
         ],
 
-        answer: 0,
-
         explanation:
             "Roots, not leaves, absorb water from the soil.",
 
         difficulty: 3,
-
+        correctAnswer: "No, roots absorb water from the soil.",
         estimatedSeconds: 25,
 
         tags: [
@@ -761,13 +709,11 @@ export const partsOfAPlant: SkillContent = {
             "Only when it rains"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem supports the plant and helps keep it upright.",
 
         difficulty: 3,
-
+        correctAnswer: "Yes",
         estimatedSeconds: 20,
 
         tags: [
@@ -789,13 +735,11 @@ export const partsOfAPlant: SkillContent = {
             "Seeds and roots"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water while leaves use water and sunlight to make food.",
 
         difficulty: 3,
-
+        correctAnswer: "Roots and leaves",
         estimatedSeconds: 30,
 
         tags: [
@@ -818,13 +762,11 @@ export const partsOfAPlant: SkillContent = {
             "Soil"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem grows upwards towards the light, carrying the leaves with it.",
 
         difficulty: 3,
-
+        correctAnswer: "Stem",
         estimatedSeconds: 25,
 
         tags: [
@@ -846,13 +788,11 @@ export const partsOfAPlant: SkillContent = {
             "Flowers absorb water and roots attract insects."
         ],
 
-        answer: 0,
-
         explanation:
             "Each part of a plant has its own important job that helps the whole plant survive.",
 
         difficulty: 3,
-
+        correctAnswer: "Roots absorb water, stems support the plant, leaves make food and flowers help produce seeds.",
         estimatedSeconds: 35,
 
         tags: [
@@ -873,14 +813,12 @@ export const partsOfAPlant: SkillContent = {
             "Seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots anchor the plant in the ground so it can grow upright.",
 
         difficulty: 3,
-
-        estimatedSeconds: 20,
+            correctAnswer: "Roots",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -901,13 +839,11 @@ export const partsOfAPlant: SkillContent = {
             "Petal"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem carries water and nutrients throughout the plant.",
 
         difficulty: 3,
-
+        correctAnswer: "Stem",
         estimatedSeconds: 20,
 
         tags: [
@@ -929,13 +865,11 @@ export const partsOfAPlant: SkillContent = {
             "Flower"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use sunlight, water and carbon dioxide to make food for the plant.",
 
         difficulty: 3,
-
+        correctAnswer: "Leaves",
         estimatedSeconds: 20,
 
         tags: [
@@ -957,13 +891,11 @@ export const partsOfAPlant: SkillContent = {
             "Stem"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers produce seeds after pollination and fertilisation.",
 
         difficulty: 3,
-
+        correctAnswer: "Flower",
         estimatedSeconds: 20,
 
         tags: [
@@ -985,13 +917,11 @@ export const partsOfAPlant: SkillContent = {
             "Seeds carry water around the plant."
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds contain a tiny young plant that can grow when conditions are right.",
 
         difficulty: 3,
-
+        correctAnswer: "Seeds can grow into new plants.",
         estimatedSeconds: 20,
 
         tags: [
@@ -1013,13 +943,11 @@ export const partsOfAPlant: SkillContent = {
             "Petals"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water and minerals from the soil.",
 
         difficulty: 4,
-
+        correctAnswer: "Roots",
         estimatedSeconds: 25,
 
         tags: [
@@ -1041,13 +969,11 @@ export const partsOfAPlant: SkillContent = {
             "Flower"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem lifts the leaves towards the light so they can make food.",
 
         difficulty: 4,
-
+        correctAnswer: "Stem",
         estimatedSeconds: 25,
 
         tags: [
@@ -1069,13 +995,11 @@ export const partsOfAPlant: SkillContent = {
             "Flowers"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves contain chlorophyll, the green substance used to make food from sunlight.",
 
         difficulty: 4,
-
+        correctAnswer: "Leaves",
         estimatedSeconds: 25,
 
         tags: [
@@ -1098,13 +1022,11 @@ export const partsOfAPlant: SkillContent = {
             "Seed"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers often attract bees with their bright colours and nectar.",
 
         difficulty: 4,
-
+        correctAnswer: "Flower",
         estimatedSeconds: 25,
 
         tags: [
@@ -1127,13 +1049,11 @@ export const partsOfAPlant: SkillContent = {
             "They attract insects."
         ],
 
-        answer: 0,
-
         explanation:
             "Roots usually grow underground where they absorb water and anchor the plant.",
 
         difficulty: 4,
-
+        correctAnswer: "They usually grow underground.",
         estimatedSeconds: 25,
 
         tags: [
@@ -1155,13 +1075,11 @@ export const partsOfAPlant: SkillContent = {
             "They make nectar."
         ],
 
-        answer: 0,
-
         explanation:
             "The stem supports the plant and carries water and nutrients around it.",
 
         difficulty: 4,
-
+        correctAnswer: "They support the plant and transport water.",
         estimatedSeconds: 25,
 
         tags: [
@@ -1183,13 +1101,11 @@ export const partsOfAPlant: SkillContent = {
             "They produce roots."
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use sunlight to make food that the plant needs to grow.",
 
         difficulty: 4,
-
+        correctAnswer: "They make food for the plant.",
         estimatedSeconds: 25,
 
         tags: [
@@ -1211,13 +1127,11 @@ export const partsOfAPlant: SkillContent = {
             "They make food using sunlight."
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers are the reproductive part of many plants and produce seeds.",
 
         difficulty: 4,
-
+        correctAnswer: "They help the plant reproduce by making seeds.",
         estimatedSeconds: 25,
 
         tags: [
@@ -1239,13 +1153,11 @@ export const partsOfAPlant: SkillContent = {
             "They attract bees."
         ],
 
-        answer: 0,
-
         explanation:
             "A seed contains the beginning of a new plant.",
 
         difficulty: 4,
-
+        correctAnswer: "They can grow into new plants.",
         estimatedSeconds: 25,
 
         tags: [
@@ -1267,13 +1179,11 @@ export const partsOfAPlant: SkillContent = {
             "Stem → Flowers → Roots"
         ],
 
-        answer: 0,
-
         explanation:
             "Water is absorbed by the roots, carried through the stem and reaches the leaves.",
 
         difficulty: 5,
-
+        correctAnswer: "Roots → Stem → Leaves",
         estimatedSeconds: 30,
 
         tags: [
@@ -1296,14 +1206,12 @@ export const partsOfAPlant: SkillContent = {
             "To produce petals"
         ],
 
-        answer: 0,
-
         explanation:
             "Roots absorb water and minerals from the soil and keep the plant firmly anchored.",
 
         difficulty: 5,
-
-        estimatedSeconds: 30,
+            correctAnswer: "To absorb water and hold the plant in the soil",
+            estimatedSeconds: 30,
 
         tags: [
             "science",
@@ -1324,13 +1232,11 @@ export const partsOfAPlant: SkillContent = {
             "To attract pollinators"
         ],
 
-        answer: 0,
-
         explanation:
             "The stem supports the plant and carries water and nutrients between the roots and leaves.",
 
         difficulty: 5,
-
+        correctAnswer: "To support the plant and transport water",
         estimatedSeconds: 30,
 
         tags: [
@@ -1352,13 +1258,11 @@ export const partsOfAPlant: SkillContent = {
             "To absorb minerals from the soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Leaves use sunlight, water and carbon dioxide to make food for the plant.",
 
         difficulty: 5,
-
+        correctAnswer: "To make food for the plant using sunlight",
         estimatedSeconds: 30,
 
         tags: [
@@ -1380,13 +1284,11 @@ export const partsOfAPlant: SkillContent = {
             "To make food using sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers are the reproductive part of the plant and help produce seeds.",
 
         difficulty: 5,
-
+        correctAnswer: "To help the plant produce seeds",
         estimatedSeconds: 30,
 
         tags: [
@@ -1408,13 +1310,11 @@ export const partsOfAPlant: SkillContent = {
             "Every part of a plant has exactly the same job."
         ],
 
-        answer: 0,
-
         explanation:
             "Each part of a flowering plant has a different job that helps the whole plant survive and reproduce.",
 
         difficulty: 5,
-
+        correctAnswer: "Roots absorb water and anchor the plant, stems support the plant and transport water, leaves make food, flowers produce seeds and seeds grow into new plants.",
         estimatedSeconds: 35,
 
         tags: [

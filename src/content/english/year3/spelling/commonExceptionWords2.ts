@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const commonExceptionWords2: SkillContent = {
 
@@ -28,13 +28,11 @@ export const commonExceptionWords2: SkillContent = {
             "cood"
         ],
 
-        answer: 0,
-
         explanation:
             "'Could' is the correct spelling.",
 
         difficulty: 1,
-
+        correctAnswer: "could",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -52,13 +50,11 @@ export const commonExceptionWords2: SkillContent = {
             "woulde"
         ],
 
-        answer: 0,
-
         explanation:
             "'Would' is the correct spelling.",
 
         difficulty: 1,
-
+        correctAnswer: "would",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -76,13 +72,11 @@ export const commonExceptionWords2: SkillContent = {
             "shoulde"
         ],
 
-        answer: 0,
-
         explanation:
             "'Should' is the correct spelling.",
 
         difficulty: 1,
-
+        correctAnswer: "should",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -100,13 +94,11 @@ export const commonExceptionWords2: SkillContent = {
             "houre"
         ],
 
-        answer: 0,
-
         explanation:
             "'Hour' begins with a silent 'h'.",
 
         difficulty: 1,
-
+        correctAnswer: "hour",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -124,13 +116,11 @@ export const commonExceptionWords2: SkillContent = {
             "muve"
         ],
 
-        answer: 0,
-
         explanation:
             "'Move' ends with a silent 'e'.",
 
         difficulty: 1,
-
+        correctAnswer: "move",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -148,13 +138,11 @@ export const commonExceptionWords2: SkillContent = {
             "watar"
         ],
 
-        answer: 0,
-
         explanation:
             "'Water' is the correct spelling.",
 
         difficulty: 1,
-
+        correctAnswer: "water",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -172,13 +160,11 @@ export const commonExceptionWords2: SkillContent = {
             "suger"
         ],
 
-        answer: 0,
-
         explanation:
             "'Sugar' is spelled with 'su'.",
 
         difficulty: 1,
-
+        correctAnswer: "sugar",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -196,13 +182,11 @@ export const commonExceptionWords2: SkillContent = {
             "pretie"
         ],
 
-        answer: 0,
-
         explanation:
             "'Pretty' has a double 't'.",
 
         difficulty: 1,
-
+        correctAnswer: "pretty",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -220,13 +204,11 @@ export const commonExceptionWords2: SkillContent = {
             "clotheses"
         ],
 
-        answer: 0,
-
         explanation:
             "'Clothes' means the things we wear.",
 
         difficulty: 1,
-
+        correctAnswer: "clothes",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -244,13 +226,11 @@ export const commonExceptionWords2: SkillContent = {
             "suer"
         ],
 
-        answer: 0,
-
         explanation:
             "'Sure' is the correct spelling.",
 
         difficulty: 1,
-
+        correctAnswer: "sure",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -268,13 +248,11 @@ export const commonExceptionWords2: SkillContent = {
             "coulde"
         ],
 
-        answer: 0,
-
         explanation:
             "'Could' is the correctly spelled word.",
 
         difficulty: 2,
-
+        correctAnswer: "could",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -292,13 +270,11 @@ export const commonExceptionWords2: SkillContent = {
             "We drank cold watar after the race."
         ],
 
-        answer: 0,
-
         explanation:
             "'Water' is spelled w-a-t-e-r.",
 
         difficulty: 2,
-
+        correctAnswer: "We drank cold water after the race.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -316,13 +292,11 @@ export const commonExceptionWords2: SkillContent = {
             "The flowers need watar to grow."
         ],
 
-        answer: 0,
-
         explanation:
             "'Water' is the correct spelling.",
 
         difficulty: 2,
-
+        correctAnswer: "The flowers need water to grow.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -340,13 +314,11 @@ export const commonExceptionWords2: SkillContent = {
             "suer"
         ],
 
-        answer: 0,
-
         explanation:
             "'Sure' is the correct spelling.",
 
         difficulty: 2,
-
+        correctAnswer: "sure",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -364,13 +336,11 @@ export const commonExceptionWords2: SkillContent = {
             "My favourite jumper is hanging with my clotheses."
         ],
 
-        answer: 0,
-
         explanation:
             "'Clothes' are the things we wear. 'Cloths' are pieces of fabric.",
 
         difficulty: 2,
-
+        correctAnswer: "My favourite jumper is hanging with my clothes.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -388,13 +358,11 @@ export const commonExceptionWords2: SkillContent = {
             "improvee"
         ],
 
-        answer: 0,
-
         explanation:
             "'Improve' is the correct spelling.",
 
         difficulty: 2,
-
+        correctAnswer: "improve",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -412,13 +380,11 @@ export const commonExceptionWords2: SkillContent = {
             "We shoulde finish our homework."
         ],
 
-        answer: 0,
-
         explanation:
             "'Should' is a common exception word.",
 
         difficulty: 2,
-
+        correctAnswer: "We should finish our homework.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -436,13 +402,11 @@ export const commonExceptionWords2: SkillContent = {
             "Dad woulde like a cup of tea."
         ],
 
-        answer: 0,
-
         explanation:
             "'Would' is spelled w-o-u-l-d.",
 
         difficulty: 2,
-
+        correctAnswer: "Dad would like a cup of tea.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -460,13 +424,11 @@ export const commonExceptionWords2: SkillContent = {
             "houre"
         ],
 
-        answer: 0,
-
         explanation:
             "'Hour' starts with a silent 'h'.",
 
         difficulty: 2,
-
+        correctAnswer: "hour",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]
@@ -484,13 +446,11 @@ export const commonExceptionWords2: SkillContent = {
             "We cood improve after an hower of practice."
         ],
 
-        answer: 0,
-
         explanation:
             "Every common exception word is spelled correctly in the first sentence.",
 
         difficulty: 2,
-
+        correctAnswer: "We could improve after an hour of practice.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "common-exception-words"]

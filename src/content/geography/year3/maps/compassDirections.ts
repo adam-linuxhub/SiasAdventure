@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const compassDirections: SkillContent = {
 
@@ -28,13 +28,11 @@ export const compassDirections: SkillContent = {
             "West"
         ],
 
-        answer: 0,
-
         explanation:
             "Most maps are drawn with north at the top.",
 
         difficulty: 1,
-
+        correctAnswer: "North",
         estimatedSeconds: 15,
 
         tags: ["geography", "maps", "compass"]
@@ -52,13 +50,11 @@ export const compassDirections: SkillContent = {
             "Left"
         ],
 
-        answer: 0,
-
         explanation:
             "South is directly opposite north on a compass.",
 
         difficulty: 1,
-
+        correctAnswer: "South",
         estimatedSeconds: 15,
 
         tags: ["geography", "compass"]
@@ -76,13 +72,11 @@ export const compassDirections: SkillContent = {
             "Up"
         ],
 
-        answer: 0,
-
         explanation:
             "West is opposite east on a compass.",
 
         difficulty: 1,
-
+        correctAnswer: "West",
         estimatedSeconds: 15,
 
         tags: ["geography", "compass"]
@@ -100,13 +94,11 @@ export const compassDirections: SkillContent = {
             "Up"
         ],
 
-        answer: 0,
-
         explanation:
             "When north is at the top, east is on the right.",
 
         difficulty: 1,
-
+        correctAnswer: "East",
         estimatedSeconds: 15,
 
         tags: ["geography", "maps", "compass"]
@@ -124,13 +116,11 @@ export const compassDirections: SkillContent = {
             "Down"
         ],
 
-        answer: 0,
-
         explanation:
             "West is on the left side of most maps.",
 
         difficulty: 1,
-
+        correctAnswer: "West",
         estimatedSeconds: 15,
 
         tags: ["geography", "maps", "compass"]
@@ -148,13 +138,11 @@ export const compassDirections: SkillContent = {
             "Eight"
         ],
 
-        answer: 0,
-
         explanation:
             "The four main compass directions are north, east, south and west.",
 
         difficulty: 1,
-
+        correctAnswer: "Four",
         estimatedSeconds: 15,
 
         tags: ["geography", "compass"]
@@ -172,13 +160,11 @@ export const compassDirections: SkillContent = {
             "North again"
         ],
 
-        answer: 0,
-
         explanation:
             "The order clockwise is north, east, south, west.",
 
         difficulty: 1,
-
+        correctAnswer: "East",
         estimatedSeconds: 15,
 
         tags: ["geography", "compass"]
@@ -196,13 +182,11 @@ export const compassDirections: SkillContent = {
             "Thermometer"
         ],
 
-        answer: 0,
-
         explanation:
             "A compass helps people find directions.",
 
         difficulty: 1,
-
+        correctAnswer: "Compass",
         estimatedSeconds: 20,
 
         tags: ["geography", "compass"]
@@ -220,13 +204,11 @@ export const compassDirections: SkillContent = {
             "Towards the left of most maps"
         ],
 
-        answer: 0,
-
         explanation:
             "South is shown at the bottom of most maps.",
 
         difficulty: 1,
-
+        correctAnswer: "Towards the bottom of most maps",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps", "compass"]
@@ -244,13 +226,11 @@ export const compassDirections: SkillContent = {
             "Compasses measure distance."
         ],
 
-        answer: 0,
-
         explanation:
             "The four main compass directions help us describe locations.",
 
         difficulty: 1,
-
+        correctAnswer: "North, east, south and west are compass directions.",
         estimatedSeconds: 20,
 
         tags: ["geography", "compass"]
@@ -268,13 +248,11 @@ export const compassDirections: SkillContent = {
             "South"
         ],
 
-        answer: 0,
-
         explanation:
             "If something is east of you, you travel east to reach it.",
 
         difficulty: 2,
-
+        correctAnswer: "East",
         estimatedSeconds: 20,
 
         tags: ["geography", "directions"]
@@ -292,13 +270,11 @@ export const compassDirections: SkillContent = {
             "North"
         ],
 
-        answer: 0,
-
         explanation:
             "If one place is north of another, the other place is south of it.",
 
         difficulty: 2,
-
+        correctAnswer: "South",
         estimatedSeconds: 20,
 
         tags: ["geography", "directions"]
@@ -316,13 +292,11 @@ export const compassDirections: SkillContent = {
             "To show the weather"
         ],
 
-        answer: 0,
-
         explanation:
             "A compass helps readers understand the direction of places on a map.",
 
         difficulty: 2,
-
+        correctAnswer: "To show which way is north",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps", "compass"]
@@ -340,13 +314,11 @@ export const compassDirections: SkillContent = {
             "West"
         ],
 
-        answer: 0,
-
         explanation:
             "Turning around means facing the opposite direction.",
 
         difficulty: 2,
-
+        correctAnswer: "East",
         estimatedSeconds: 20,
 
         tags: ["geography", "directions"]
@@ -364,13 +336,11 @@ export const compassDirections: SkillContent = {
             "They measure height."
         ],
 
-        answer: 0,
-
         explanation:
             "Compass directions help us describe and follow routes.",
 
         difficulty: 2,
-
+        correctAnswer: "They help describe where places are.",
         estimatedSeconds: 20,
 
         tags: ["geography", "compass"]
@@ -388,13 +358,11 @@ export const compassDirections: SkillContent = {
             "South, East, North, West"
         ],
 
-        answer: 0,
-
         explanation:
             "Moving clockwise around a compass gives the order north, east, south and west.",
 
         difficulty: 2,
-
+        correctAnswer: "North, East, South, West",
         estimatedSeconds: 20,
 
         tags: ["geography", "compass"]
@@ -412,13 +380,11 @@ export const compassDirections: SkillContent = {
             "West"
         ],
 
-        answer: 0,
-
         explanation:
             "If the river is west of the village, the village is east of the river.",
 
         difficulty: 2,
-
+        correctAnswer: "East",
         estimatedSeconds: 20,
 
         tags: ["geography", "directions"]
@@ -436,13 +402,11 @@ export const compassDirections: SkillContent = {
             "West"
         ],
 
-        answer: 0,
-
         explanation:
             "The bottom of most maps points south.",
 
         difficulty: 2,
-
+        correctAnswer: "South",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps"]
@@ -460,13 +424,11 @@ export const compassDirections: SkillContent = {
             "It shows the map scale."
         ],
 
-        answer: 0,
-
         explanation:
             "Once you know north, you can identify east, south and west.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps you work out the other directions.",
         estimatedSeconds: 20,
 
         tags: ["geography", "compass", "maps"]
@@ -484,13 +446,11 @@ export const compassDirections: SkillContent = {
             "They measure rainfall."
         ],
 
-        answer: 0,
-
         explanation:
             "Compass directions are an important map-reading skill used to describe location and movement.",
 
         difficulty: 2,
-
+        correctAnswer: "They help people describe locations and find their way.",
         estimatedSeconds: 20,
 
         tags: ["geography", "compass", "map-skills"]

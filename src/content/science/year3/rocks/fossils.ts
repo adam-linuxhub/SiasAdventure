@@ -28,13 +28,11 @@ export const fossils: SkillContent = {
             "A kind of animal"
         ],
 
-        answer: 0,
-
         explanation:
             "A fossil is the preserved remains or trace of a plant or animal that lived long ago.",
 
         difficulty: 1,
-
+        correctAnswer: "The preserved remains or trace of a living thing",
         estimatedSeconds: 15,
 
         tags: ["science", "rocks", "fossils"]
@@ -52,13 +50,11 @@ export const fossils: SkillContent = {
             "In rivers"
         ],
 
-        answer: 0,
-
         explanation:
             "Most fossils are found inside sedimentary rocks.",
 
         difficulty: 1,
-
+        correctAnswer: "Inside rocks",
         estimatedSeconds: 15,
 
         tags: ["science", "rocks", "fossils"]
@@ -76,13 +72,11 @@ export const fossils: SkillContent = {
             "Moon"
         ],
 
-        answer: 0,
-
         explanation:
             "Fossils can be formed from both plants and animals.",
 
         difficulty: 1,
-
+        correctAnswer: "Plant or animal",
         estimatedSeconds: 15,
 
         tags: ["science", "rocks", "fossils"]
@@ -100,13 +94,11 @@ export const fossils: SkillContent = {
             "A mobile phone"
         ],
 
-        answer: 0,
-
         explanation:
             "Bones can sometimes become fossils after millions of years.",
 
         difficulty: 1,
-
+        correctAnswer: "A dinosaur bone",
         estimatedSeconds: 15,
 
         tags: ["science", "rocks", "fossils"]
@@ -124,13 +116,11 @@ export const fossils: SkillContent = {
             "How fast cars can go"
         ],
 
-        answer: 0,
-
         explanation:
             "Fossils help scientists learn about plants and animals from the distant past.",
 
         difficulty: 1,
-
+        correctAnswer: "What living things were like long ago",
         estimatedSeconds: 15,
 
         tags: ["science", "rocks", "fossils"]
@@ -148,13 +138,11 @@ export const fossils: SkillContent = {
             "A firefighter"
         ],
 
-        answer: 0,
-
         explanation:
             "A palaeontologist studies fossils to learn about ancient life.",
 
         difficulty: 1,
-
+        correctAnswer: "A palaeontologist",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils", "scientists"]
@@ -172,13 +160,11 @@ export const fossils: SkillContent = {
             "Dog"
         ],
 
-        answer: 0,
-
         explanation:
             "Many dinosaurs are known only because their fossils have been discovered.",
 
         difficulty: 1,
-
+        correctAnswer: "Dinosaur",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils", "dinosaurs"]
@@ -196,13 +182,11 @@ export const fossils: SkillContent = {
             "One month old"
         ],
 
-        answer: 0,
-
         explanation:
             "Many fossils were formed millions of years ago.",
 
         difficulty: 1,
-
+        correctAnswer: "Millions of years old",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils"]
@@ -220,13 +204,11 @@ export const fossils: SkillContent = {
             "A paper aeroplane"
         ],
 
-        answer: 0,
-
         explanation:
             "Shells are one of the most common fossils found in rocks.",
 
         difficulty: 1,
-
+        correctAnswer: "A shell",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils"]
@@ -244,13 +226,11 @@ export const fossils: SkillContent = {
             "They produce electricity"
         ],
 
-        answer: 0,
-
         explanation:
             "Fossils give scientists clues about Earth's history.",
 
         difficulty: 1,
-
+        correctAnswer: "They tell us about life in the past",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils"]
@@ -268,13 +248,11 @@ export const fossils: SkillContent = {
             "The fossil was made yesterday"
         ],
 
-        answer: 0,
-
         explanation:
             "Fossils show that plants or animals lived in that place long ago.",
 
         difficulty: 2,
-
+        correctAnswer: "A living thing existed there long ago",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils"]
@@ -292,13 +270,11 @@ export const fossils: SkillContent = {
             "Fresh lava"
         ],
 
-        answer: 0,
-
         explanation:
             "Most fossils are found in sedimentary rocks.",
 
         difficulty: 2,
-
+        correctAnswer: "Sedimentary rock",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils", "sedimentary"]
@@ -316,13 +292,11 @@ export const fossils: SkillContent = {
             "Its birthday"
         ],
 
-        answer: 0,
-
         explanation:
             "Scientists can learn about the shape and size of ancient animals from fossils.",
 
         difficulty: 2,
-
+        correctAnswer: "What it looked like",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils"]
@@ -340,13 +314,11 @@ export const fossils: SkillContent = {
             "Smoke"
         ],
 
-        answer: 0,
-
         explanation:
             "Hard parts such as shells and bones are more likely to become fossils.",
 
         difficulty: 2,
-
+        correctAnswer: "A hard shell",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils"]
@@ -364,13 +336,11 @@ export const fossils: SkillContent = {
             "Their feelings"
         ],
 
-        answer: 0,
-
         explanation:
             "Comparing fossil shapes helps scientists identify ancient living things.",
 
         difficulty: 2,
-
+        correctAnswer: "Their shapes and sizes",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils"]
@@ -388,13 +358,11 @@ export const fossils: SkillContent = {
             "They create new rocks"
         ],
 
-        answer: 0,
-
         explanation:
             "Fossils provide evidence of life from millions of years ago.",
 
         difficulty: 2,
-
+        correctAnswer: "They show what lived in the past",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils", "history"]
@@ -412,13 +380,11 @@ export const fossils: SkillContent = {
             "The fossil is not real"
         ],
 
-        answer: 0,
-
         explanation:
             "Fish fossils found high on land can show that the area was once beneath the sea.",
 
         difficulty: 2,
-
+        correctAnswer: "The area was once covered by water",
         estimatedSeconds: 25,
 
         tags: ["science", "rocks", "fossils", "evidence"]
@@ -436,13 +402,11 @@ export const fossils: SkillContent = {
             "They make new rocks"
         ],
 
-        answer: 0,
-
         explanation:
             "Dinosaur fossils help scientists understand extinct animals.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide evidence about animals that are now extinct",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils", "dinosaurs"]
@@ -460,13 +424,11 @@ export const fossils: SkillContent = {
             "They are all dinosaur bones"
         ],
 
-        answer: 0,
-
         explanation:
             "Fossils include many different plants, animals and traces of ancient life.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide evidence of past life",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils"]
@@ -484,13 +446,11 @@ export const fossils: SkillContent = {
             "To make new rocks"
         ],
 
-        answer: 0,
-
         explanation:
             "Fossils are one of the best sources of evidence about ancient life on Earth.",
 
         difficulty: 2,
-
+        correctAnswer: "To learn about life on Earth long ago",
         estimatedSeconds: 20,
 
         tags: ["science", "rocks", "fossils", "history"]

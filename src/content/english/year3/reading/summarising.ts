@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const summarising: SkillContent = {
 
@@ -29,13 +29,11 @@ export const summarising: SkillContent = {
             "Tom walked."
         ],
 
-        answer: 0,
-
         explanation:
             "A summary gives the main idea instead of every small detail.",
 
         difficulty: 1,
-
+        correctAnswer: "Tom got ready for school.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "summarising"]
@@ -54,13 +52,11 @@ export const summarising: SkillContent = {
             "A new story"
         ],
 
-        answer: 0,
-
         explanation:
             "A summary gives the important information in fewer words.",
 
         difficulty: 1,
-
+        correctAnswer: "A short explanation of the main points",
         estimatedSeconds: 15,
 
         tags: ["english", "reading", "summarising"]
@@ -79,13 +75,11 @@ export const summarising: SkillContent = {
             "Ava had a garden."
         ],
 
-        answer: 0,
-
         explanation:
             "The summary combines the main events rather than one small detail.",
 
         difficulty: 1,
-
+        correctAnswer: "Ava grew flowers by planting and caring for seeds.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "summarising"]
@@ -104,13 +98,11 @@ export const summarising: SkillContent = {
             "Only the first sentence"
         ],
 
-        answer: 0,
-
         explanation:
             "Summaries focus on the key information.",
 
         difficulty: 1,
-
+        correctAnswer: "The most important ideas",
         estimatedSeconds: 15,
 
         tags: ["english", "reading", "summarising"]
@@ -129,13 +121,11 @@ export const summarising: SkillContent = {
             "Sam gave food."
         ],
 
-        answer: 0,
-
         explanation:
             "The summary includes the main idea of the whole passage.",
 
         difficulty: 1,
-
+        correctAnswer: "Sam cared for a hungry puppy.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "summarising"]
@@ -154,13 +144,11 @@ export const summarising: SkillContent = {
             "Key information"
         ],
 
-        answer: 0,
-
         explanation:
             "A summary leaves out details that are not needed.",
 
         difficulty: 1,
-
+        correctAnswer: "Unimportant details",
         estimatedSeconds: 15,
 
         tags: ["english", "reading", "summarising"]
@@ -179,13 +167,11 @@ export const summarising: SkillContent = {
             "The castle had stone walls."
         ],
 
-        answer: 0,
-
         explanation:
             "The summary combines the important information.",
 
         difficulty: 1,
-
+        correctAnswer: "The castle was an old building with strong features.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "summarising"]
@@ -204,13 +190,11 @@ export const summarising: SkillContent = {
             "Question"
         ],
 
-        answer: 0,
-
         explanation:
             "The main idea is the key point of a text.",
 
         difficulty: 1,
-
+        correctAnswer: "Key point",
         estimatedSeconds: 15,
 
         tags: ["english", "reading", "summarising"]
@@ -229,13 +213,11 @@ export const summarising: SkillContent = {
             "Ben entered a race."
         ],
 
-        answer: 0,
-
         explanation:
             "The summary explains the overall idea.",
 
         difficulty: 1,
-
+        correctAnswer: "Ben prepared for a race through practice.",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "summarising"]
@@ -254,13 +236,11 @@ export const summarising: SkillContent = {
             "To change the story"
         ],
 
-        answer: 0,
-
         explanation:
             "A summary shows understanding of the key information.",
 
         difficulty: 1,
-
+        correctAnswer: "To show they understand the important parts of a text",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "summarising"]
@@ -279,13 +259,11 @@ export const summarising: SkillContent = {
             "The Sun is bright."
         ],
 
-        answer: 0,
-
         explanation:
             "The summary includes the main idea and important information.",
 
         difficulty: 2,
-
+        correctAnswer: "Earth's movement around the Sun causes seasons.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "summarising"]
@@ -304,13 +282,11 @@ export const summarising: SkillContent = {
             "Some animals are unusual."
         ],
 
-        answer: 0,
-
         explanation:
             "The best summary covers the whole passage.",
 
         difficulty: 2,
-
+        correctAnswer: "Rainforests are important habitats for many living things.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "summarising"]
@@ -329,13 +305,11 @@ export const summarising: SkillContent = {
             "The key information"
         ],
 
-        answer: 0,
-
         explanation:
             "Small details that do not matter should usually be left out.",
 
         difficulty: 2,
-
+        correctAnswer: "A tiny detail that does not affect the main idea",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "summarising"]
@@ -354,13 +328,11 @@ export const summarising: SkillContent = {
             "Children visited a park."
         ],
 
-        answer: 0,
-
         explanation:
             "The summary combines both actions into the main idea.",
 
         difficulty: 2,
-
+        correctAnswer: "Children improved their local park.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "summarising"]
@@ -379,13 +351,11 @@ export const summarising: SkillContent = {
             "Only one word"
         ],
 
-        answer: 0,
-
         explanation:
             "A summary gives the main points in fewer words.",
 
         difficulty: 2,
-
+        correctAnswer: "Shorter than the original text",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "summarising"]
@@ -404,13 +374,11 @@ export const summarising: SkillContent = {
             "The rocket was large."
         ],
 
-        answer: 0,
-
         explanation:
             "The summary gives the main event.",
 
         difficulty: 2,
-
+        correctAnswer: "An astronaut travelled into space.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "summarising"]
@@ -429,13 +397,11 @@ export const summarising: SkillContent = {
             "Who wrote every sentence?"
         ],
 
-        answer: 0,
-
         explanation:
             "Thinking about what the text is mostly about helps identify the main idea.",
 
         difficulty: 2,
-
+        correctAnswer: "What is this text mostly about?",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "summarising"]
@@ -454,13 +420,11 @@ export const summarising: SkillContent = {
             "Dogs have tails."
         ],
 
-        answer: 0,
-
         explanation:
             "The summary captures the main point about dogs as pets.",
 
         difficulty: 2,
-
+        correctAnswer: "Dogs can be good companions.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "summarising"]
@@ -479,13 +443,11 @@ export const summarising: SkillContent = {
             "Adding extra details"
         ],
 
-        answer: 0,
-
         explanation:
             "Good summaries depend on finding the most important information.",
 
         difficulty: 2,
-
+        correctAnswer: "Identifying important information",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "summarising"]
@@ -504,13 +466,11 @@ export const summarising: SkillContent = {
             "The child had a blue bike."
         ],
 
-        answer: 0,
-
         explanation:
             "The best summary describes the main event rather than small details.",
 
         difficulty: 2,
-
+        correctAnswer: "A child practised and learned to ride a bike.",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "summarising"]

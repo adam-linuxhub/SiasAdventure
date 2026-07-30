@@ -28,13 +28,11 @@ export const seedDispersal: SkillContent = {
             "The absorption of water"
         ],
 
-        answer: 0,
-
         explanation:
             "Seed dispersal is the movement of seeds away from the parent plant.",
 
         difficulty: 1,
-
+        correctAnswer: "The spreading of seeds away from the parent plant",
         estimatedSeconds: 10,
 
         tags: [
@@ -56,13 +54,11 @@ export const seedDispersal: SkillContent = {
             "To help roots grow faster"
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds spread away from the parent plant so new plants have space, light and water to grow.",
 
         difficulty: 1,
-
+        correctAnswer: "To help new plants grow in different places",
         estimatedSeconds: 15,
 
         tags: [
@@ -84,13 +80,11 @@ export const seedDispersal: SkillContent = {
             "A book"
         ],
 
-        answer: 0,
-
         explanation:
             "Many light seeds are carried away by the wind.",
 
         difficulty: 1,
-
+        correctAnswer: "Wind",
         estimatedSeconds: 15,
 
         tags: [
@@ -112,13 +106,11 @@ export const seedDispersal: SkillContent = {
             "Clouds"
         ],
 
-        answer: 0,
-
         explanation:
             "Birds and other animals can carry or eat seeds and spread them to new places.",
 
         difficulty: 1,
-
+        correctAnswer: "Birds",
         estimatedSeconds: 15,
 
         tags: [
@@ -141,13 +133,11 @@ export const seedDispersal: SkillContent = {
             "Rain"
         ],
 
-        answer: 0,
-
         explanation:
             "Wind can carry light seeds far from the parent plant.",
 
         difficulty: 1,
-
+        correctAnswer: "Wind",
         estimatedSeconds: 15,
 
         tags: [
@@ -170,13 +160,11 @@ export const seedDispersal: SkillContent = {
             "Soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Some seeds are dispersed by water.",
 
         difficulty: 1,
-
+        correctAnswer: "Water",
         estimatedSeconds: 15,
 
         tags: [
@@ -199,13 +187,11 @@ export const seedDispersal: SkillContent = {
             "Gravity only"
         ],
 
-        answer: 0,
-
         explanation:
             "Some seeds have hooks that catch onto animal fur.",
 
         difficulty: 1,
-
+        correctAnswer: "Animal dispersal",
         estimatedSeconds: 15,
 
         tags: [
@@ -228,13 +214,11 @@ export const seedDispersal: SkillContent = {
             "They become roots first."
         ],
 
-        answer: 0,
-
         explanation:
             "Growing away from the parent plant reduces competition for resources.",
 
         difficulty: 1,
-
+        correctAnswer: "There is less competition for light, water and space.",
         estimatedSeconds: 20,
 
         tags: [
@@ -256,13 +240,11 @@ export const seedDispersal: SkillContent = {
             "Magnets"
         ],
 
-        answer: 0,
-
         explanation:
             "Wind is one of the common ways that plants spread their seeds.",
 
         difficulty: 1,
-
+        correctAnswer: "Wind",
         estimatedSeconds: 15,
 
         tags: [
@@ -284,13 +266,11 @@ export const seedDispersal: SkillContent = {
             "To help roots absorb sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "Seed dispersal helps plants reproduce by spreading seeds to suitable places.",
 
         difficulty: 1,
-
+        correctAnswer: "To spread seeds so new plants can grow",
         estimatedSeconds: 20,
 
         tags: [
@@ -311,14 +291,12 @@ export const seedDispersal: SkillContent = {
             "A large branch"
         ],
 
-        answer: 0,
-
         explanation:
             "Light seeds with fluffy hairs or wings are easily carried by the wind.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "A light seed with fluffy hairs",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -340,13 +318,11 @@ export const seedDispersal: SkillContent = {
             "To grow roots faster"
         ],
 
-        answer: 0,
-
         explanation:
             "Hooks allow seeds to attach to animals and be carried to new places.",
 
         difficulty: 2,
-
+        correctAnswer: "To stick to animal fur",
         estimatedSeconds: 20,
 
         tags: [
@@ -369,13 +345,11 @@ export const seedDispersal: SkillContent = {
             "By making them lighter"
         ],
 
-        answer: 0,
-
         explanation:
             "Birds can carry seeds or eat fruit and later drop the seeds in a different place.",
 
         difficulty: 2,
-
+        correctAnswer: "By carrying or eating seeds and dropping them elsewhere",
         estimatedSeconds: 20,
 
         tags: [
@@ -398,13 +372,11 @@ export const seedDispersal: SkillContent = {
             "Seeds with sharp points"
         ],
 
-        answer: 0,
-
         explanation:
             "Floating seeds can travel along rivers, streams and the sea.",
 
         difficulty: 2,
-
+        correctAnswer: "Seeds that float",
         estimatedSeconds: 20,
 
         tags: [
@@ -427,13 +399,11 @@ export const seedDispersal: SkillContent = {
             "They cannot be eaten."
         ],
 
-        answer: 0,
-
         explanation:
             "Growing away from the parent plant gives seedlings a better chance of getting light, water and space.",
 
         difficulty: 2,
-
+        correctAnswer: "There is less competition for resources.",
         estimatedSeconds: 20,
 
         tags: [
@@ -455,13 +425,11 @@ export const seedDispersal: SkillContent = {
             "Gravity dispersal"
         ],
 
-        answer: 0,
-
         explanation:
             "Some seeds float and are carried by moving water.",
 
         difficulty: 2,
-
+        correctAnswer: "Water dispersal",
         estimatedSeconds: 20,
 
         tags: [
@@ -484,13 +452,11 @@ export const seedDispersal: SkillContent = {
             "It disappears."
         ],
 
-        answer: 0,
-
         explanation:
             "If conditions are right, the dispersed seed can germinate into a new plant.",
 
         difficulty: 2,
-
+        correctAnswer: "It may germinate and grow.",
         estimatedSeconds: 20,
 
         tags: [
@@ -513,13 +479,11 @@ export const seedDispersal: SkillContent = {
             "A seed buried underground"
         ],
 
-        answer: 0,
-
         explanation:
             "Hooks help seeds cling to animal fur and be carried away.",
 
         difficulty: 2,
-
+        correctAnswer: "A seed with tiny hooks",
         estimatedSeconds: 20,
 
         tags: [
@@ -542,13 +506,11 @@ export const seedDispersal: SkillContent = {
             "Animals"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants commonly disperse seeds using wind, water and animals, not electricity.",
 
         difficulty: 2,
-
+        correctAnswer: "Electricity",
         estimatedSeconds: 20,
 
         tags: [
@@ -570,13 +532,11 @@ export const seedDispersal: SkillContent = {
             "To make food"
         ],
 
-        answer: 0,
-
         explanation:
             "Wings and hairs help keep seeds in the air so the wind can carry them further.",
 
         difficulty: 2,
-
+        correctAnswer: "To help the wind carry them",
         estimatedSeconds: 20,
 
         tags: [
@@ -599,13 +559,11 @@ export const seedDispersal: SkillContent = {
             "Gravity dispersal"
         ],
 
-        answer: 0,
-
         explanation:
             "Dandelion seeds are specially adapted to be carried by the wind.",
 
         difficulty: 3,
-
+        correctAnswer: "Wind dispersal",
         estimatedSeconds: 25,
 
         tags: [
@@ -628,13 +586,11 @@ export const seedDispersal: SkillContent = {
             "By sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds with hooks can attach to animal fur and travel long distances.",
 
         difficulty: 3,
-
+        correctAnswer: "By animals",
         estimatedSeconds: 25,
 
         tags: [
@@ -657,13 +613,11 @@ export const seedDispersal: SkillContent = {
             "The seeds no longer need water."
         ],
 
-        answer: 0,
-
         explanation:
             "Spreading seeds over a wide area reduces competition and increases the chance of survival.",
 
         difficulty: 3,
-
+        correctAnswer: "More seedlings can find space and resources.",
         estimatedSeconds: 25,
 
         tags: [
@@ -685,13 +639,11 @@ export const seedDispersal: SkillContent = {
             "Gravity dispersal"
         ],
 
-        answer: 0,
-
         explanation:
             "Coconuts can float on water, allowing them to travel long distances.",
 
         difficulty: 3,
-
+        correctAnswer: "Water dispersal",
         estimatedSeconds: 25,
 
         tags: [
@@ -714,13 +666,11 @@ export const seedDispersal: SkillContent = {
             "The seed must change into fruit."
         ],
 
-        answer: 0,
-
         explanation:
             "After dispersal, a seed must germinate before it can grow into a new plant.",
 
         difficulty: 3,
-
+        correctAnswer: "The seed must germinate.",
         estimatedSeconds: 25,
 
         tags: [
@@ -742,14 +692,12 @@ export const seedDispersal: SkillContent = {
             "A seed buried underground"
         ],
 
-        answer: 0,
-
         explanation:
             "Light seeds with wings or hairs can be carried long distances by the wind.",
 
         difficulty: 3,
-
-        estimatedSeconds: 25,
+            correctAnswer: "A light seed with wings",
+            estimatedSeconds: 25,
 
         tags: [
             "science",
@@ -771,13 +719,11 @@ export const seedDispersal: SkillContent = {
             "To attract sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "Many fruits attract animals, which eat the fruit and help disperse the seeds.",
 
         difficulty: 3,
-
+        correctAnswer: "To encourage animals to eat them and spread the seeds",
         estimatedSeconds: 25,
 
         tags: [
@@ -800,13 +746,11 @@ export const seedDispersal: SkillContent = {
             "The seeds will not need water."
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds growing too close together compete for the same resources.",
 
         difficulty: 3,
-
+        correctAnswer: "The seedlings will compete for light, water and space.",
         estimatedSeconds: 25,
 
         tags: [
@@ -829,13 +773,11 @@ export const seedDispersal: SkillContent = {
             "Gravity dispersal"
         ],
 
-        answer: 0,
-
         explanation:
             "Animals transport seeds as they travel, helping plants spread.",
 
         difficulty: 3,
-
+        correctAnswer: "Animal dispersal",
         estimatedSeconds: 25,
 
         tags: [
@@ -858,13 +800,11 @@ export const seedDispersal: SkillContent = {
             "It stops seeds from germinating."
         ],
 
-        answer: 0,
-
         explanation:
             "Dispersal increases the chance that seeds will find good places to grow.",
 
         difficulty: 3,
-
+        correctAnswer: "It helps new plants grow in suitable places.",
         estimatedSeconds: 25,
 
         tags: [
@@ -887,13 +827,11 @@ export const seedDispersal: SkillContent = {
             "A seed buried in soil"
         ],
 
-        answer: 0,
-
         explanation:
             "Tiny, lightweight seeds with fluffy hairs stay in the air for longer.",
 
         difficulty: 4,
-
+        correctAnswer: "A tiny seed with fluffy hairs",
         estimatedSeconds: 30,
 
         tags: [
@@ -916,13 +854,11 @@ export const seedDispersal: SkillContent = {
             "Sticky juice"
         ],
 
-        answer: 0,
-
         explanation:
             "Some seeds have waterproof coverings that allow them to float for long distances.",
 
         difficulty: 4,
-
+        correctAnswer: "A waterproof outer layer",
         estimatedSeconds: 30,
 
         tags: [
@@ -945,13 +881,11 @@ export const seedDispersal: SkillContent = {
             "By gravity only"
         ],
 
-        answer: 0,
-
         explanation:
             "Animals such as squirrels help spread seeds by carrying and burying them.",
 
         difficulty: 4,
-
+        correctAnswer: "By an animal",
         estimatedSeconds: 30,
 
         tags: [
@@ -974,13 +908,11 @@ export const seedDispersal: SkillContent = {
             "They are pushed by sunlight."
         ],
 
-        answer: 0,
-
         explanation:
             "Rivers and oceans can carry floating seeds many kilometres.",
 
         difficulty: 4,
-
+        correctAnswer: "Water carries them over long distances.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1003,13 +935,11 @@ export const seedDispersal: SkillContent = {
             "Every seed travels by wind."
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds have different adaptations that help them spread by wind, water or animals.",
 
         difficulty: 4,
-
+        correctAnswer: "Different seeds are adapted to different ways of travelling.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1032,13 +962,11 @@ export const seedDispersal: SkillContent = {
             "Leaf dispersal"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowing water can carry seeds a long distance downstream.",
 
         difficulty: 4,
-
+        correctAnswer: "Water dispersal",
         estimatedSeconds: 30,
 
         tags: [
@@ -1061,13 +989,11 @@ export const seedDispersal: SkillContent = {
             "They help seeds absorb sunlight."
         ],
 
-        answer: 0,
-
         explanation:
             "Hooks allow seeds to cling to fur or feathers and be carried away.",
 
         difficulty: 4,
-
+        correctAnswer: "They help seeds attach to passing animals.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1090,13 +1016,11 @@ export const seedDispersal: SkillContent = {
             "Gravity"
         ],
 
-        answer: 0,
-
         explanation:
             "Heavy seeds are generally too heavy to be carried by the wind.",
 
         difficulty: 4,
-
+        correctAnswer: "Wind",
         estimatedSeconds: 30,
 
         tags: [
@@ -1119,13 +1043,11 @@ export const seedDispersal: SkillContent = {
             "Sweet fruit"
         ],
 
-        answer: 0,
-
         explanation:
             "Wings and fluffy hairs help wind keep seeds in the air.",
 
         difficulty: 4,
-
+        correctAnswer: "Large wings or fluffy hairs",
         estimatedSeconds: 30,
 
         tags: [
@@ -1148,13 +1070,11 @@ export const seedDispersal: SkillContent = {
             "Parent plants grow larger."
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds growing away from the parent plant have a better chance of finding enough light, water and space.",
 
         difficulty: 4,
-
+        correctAnswer: "Seeds can grow where there is less competition.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1176,14 +1096,12 @@ export const seedDispersal: SkillContent = {
             "It makes the seed grow immediately."
         ],
 
-        answer: 0,
-
         explanation:
             "Winged seeds spin slowly, giving the wind more time to carry them away.",
 
         difficulty: 5,
-
-        estimatedSeconds: 30,
+            correctAnswer: "The wind can carry it further from the parent plant.",
+            estimatedSeconds: 30,
 
         tags: [
             "science",
@@ -1205,13 +1123,11 @@ export const seedDispersal: SkillContent = {
             "Gravity dispersal"
         ],
 
-        answer: 0,
-
         explanation:
             "Animals eat the fruit and help spread the seeds to different places.",
 
         difficulty: 5,
-
+        correctAnswer: "Animal dispersal",
         estimatedSeconds: 30,
 
         tags: [
@@ -1234,13 +1150,11 @@ export const seedDispersal: SkillContent = {
             "A light weight"
         ],
 
-        answer: 0,
-
         explanation:
             "Fluffy hairs are useful for wind dispersal, not for travelling on water.",
 
         difficulty: 5,
-
+        correctAnswer: "Fluffy hairs for flying",
         estimatedSeconds: 30,
 
         tags: [
@@ -1263,13 +1177,11 @@ export const seedDispersal: SkillContent = {
             "The seeds become fruit more quickly."
         ],
 
-        answer: 0,
-
         explanation:
             "Growing further away reduces competition for light, water, nutrients and space.",
 
         difficulty: 5,
-
+        correctAnswer: "The new plants are less likely to compete for resources.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1292,13 +1204,11 @@ export const seedDispersal: SkillContent = {
             "Different shapes stop germination."
         ],
 
-        answer: 0,
-
         explanation:
             "Seed shapes are adaptations that help them disperse by wind, water or animals.",
 
         difficulty: 5,
-
+        correctAnswer: "Different shapes help seeds spread in different ways.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1321,13 +1231,11 @@ export const seedDispersal: SkillContent = {
             "Floating shell → Wind dispersal"
         ],
 
-        answer: 0,
-
         explanation:
             "Hooks attach to animal fur, allowing seeds to be carried to new places.",
 
         difficulty: 5,
-
+        correctAnswer: "Hooks → Animal dispersal",
         estimatedSeconds: 35,
 
         tags: [
@@ -1350,13 +1258,11 @@ export const seedDispersal: SkillContent = {
             "It will never need rain."
         ],
 
-        answer: 0,
-
         explanation:
             "Having plenty of space and resources gives the seedling a better chance of growing well.",
 
         difficulty: 5,
-
+        correctAnswer: "It has more access to light, water and space.",
         estimatedSeconds: 35,
 
         tags: [
@@ -1379,13 +1285,11 @@ export const seedDispersal: SkillContent = {
             "Gravity dispersal"
         ],
 
-        answer: 0,
-
         explanation:
             "Wind carries lightweight seeds to new locations.",
 
         difficulty: 5,
-
+        correctAnswer: "Wind dispersal",
         estimatedSeconds: 30,
 
         tags: [
@@ -1408,13 +1312,11 @@ export const seedDispersal: SkillContent = {
             "To stop seeds from germinating."
         ],
 
-        answer: 0,
-
         explanation:
             "Seed dispersal increases the chance that new plants will grow in suitable places.",
 
         difficulty: 5,
-
+        correctAnswer: "To help plants reproduce successfully by spreading seeds.",
         estimatedSeconds: 35,
 
         tags: [
@@ -1437,13 +1339,11 @@ export const seedDispersal: SkillContent = {
             "Seeds do not need to be dispersed to grow."
         ],
 
-        answer: 0,
-
         explanation:
             "Different plants use different methods of seed dispersal to improve the chances of their seeds surviving and growing into new plants.",
 
         difficulty: 5,
-
+        correctAnswer: "Seeds are spread by methods such as wind, water and animals so they can grow away from the parent plant.",
         estimatedSeconds: 40,
 
         tags: [

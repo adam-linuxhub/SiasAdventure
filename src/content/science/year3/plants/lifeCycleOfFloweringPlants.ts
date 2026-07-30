@@ -28,13 +28,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "A mushroom"
         ],
 
-        answer: 0,
-
         explanation:
             "A seed can grow into a new plant when it has the right conditions.",
 
         difficulty: 1,
-
+        correctAnswer: "A new plant",
         estimatedSeconds: 10,
 
         tags: [
@@ -57,13 +55,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Leaf"
         ],
 
-        answer: 0,
-
         explanation:
             "The life cycle of a flowering plant begins with a seed.",
 
         difficulty: 1,
-
+        correctAnswer: "Seed",
         estimatedSeconds: 10,
 
         tags: [
@@ -85,13 +81,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Hibernation"
         ],
 
-        answer: 0,
-
         explanation:
             "Germination is when a seed starts to grow into a new plant.",
 
         difficulty: 1,
-
+        correctAnswer: "Germination",
         estimatedSeconds: 15,
 
         tags: [
@@ -113,13 +107,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Petals"
         ],
 
-        answer: 0,
-
         explanation:
             "The first root grows down into the soil to absorb water.",
 
         difficulty: 1,
-
+        correctAnswer: "Roots",
         estimatedSeconds: 15,
 
         tags: [
@@ -142,13 +134,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "A seed again"
         ],
 
-        answer: 0,
-
         explanation:
             "A healthy seedling grows into an adult flowering plant.",
 
         difficulty: 1,
-
+        correctAnswer: "An adult plant",
         estimatedSeconds: 15,
 
         tags: [
@@ -170,13 +160,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Leaf"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers help plants reproduce by producing seeds.",
 
         difficulty: 1,
-
+        correctAnswer: "Flower",
         estimatedSeconds: 15,
 
         tags: [
@@ -198,13 +186,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Stems"
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds develop after pollination and fertilisation.",
 
         difficulty: 1,
-
+        correctAnswer: "Seeds",
         estimatedSeconds: 15,
 
         tags: [
@@ -226,13 +212,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "They disappear immediately."
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds can grow into new plants when conditions are right.",
 
         difficulty: 1,
-
+        correctAnswer: "They can grow into new plants.",
         estimatedSeconds: 15,
 
         tags: [
@@ -254,13 +238,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Pollination"
         ],
 
-        answer: 0,
-
         explanation:
             "After germination, the young plant is called a seedling.",
 
         difficulty: 1,
-
+        correctAnswer: "Seedling",
         estimatedSeconds: 15,
 
         tags: [
@@ -282,13 +264,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Leaf → Stem → Seed → Flower"
         ],
 
-        answer: 0,
-
         explanation:
             "A flowering plant grows from a seed into a seedling, becomes an adult plant, produces flowers and then makes new seeds.",
 
         difficulty: 1,
-
+        correctAnswer: "Seed → Seedling → Adult plant → Flower → Seeds",
         estimatedSeconds: 20,
 
         tags: [
@@ -309,14 +289,12 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "A flower"
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds need the right conditions, such as water, warmth and air, before they can germinate.",
 
         difficulty: 2,
-
-        estimatedSeconds: 20,
+            correctAnswer: "The right conditions",
+            estimatedSeconds: 20,
 
         tags: [
             "science",
@@ -337,13 +315,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "A root"
         ],
 
-        answer: 0,
-
         explanation:
             "A young plant that has just started growing is called a seedling.",
 
         difficulty: 2,
-
+        correctAnswer: "A seedling",
         estimatedSeconds: 20,
 
         tags: [
@@ -365,13 +341,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Petals"
         ],
 
-        answer: 0,
-
         explanation:
             "The plant grows stems and leaves before it becomes mature enough to produce flowers.",
 
         difficulty: 2,
-
+        correctAnswer: "Leaves and stems",
         estimatedSeconds: 20,
 
         tags: [
@@ -393,13 +367,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "To make roots"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers help plants reproduce by producing seeds.",
 
         difficulty: 2,
-
+        correctAnswer: "To reproduce and make seeds",
         estimatedSeconds: 20,
 
         tags: [
@@ -421,13 +393,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Branches"
         ],
 
-        answer: 0,
-
         explanation:
             "After pollination and fertilisation, seeds begin to develop.",
 
         difficulty: 2,
-
+        correctAnswer: "Seeds",
         estimatedSeconds: 20,
 
         tags: [
@@ -449,13 +419,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "They disappear."
         ],
 
-        answer: 0,
-
         explanation:
             "If conditions are right, dispersed seeds can germinate and grow into new plants.",
 
         difficulty: 2,
-
+        correctAnswer: "They can grow into new plants.",
         estimatedSeconds: 20,
 
         tags: [
@@ -477,13 +445,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Germination"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers are produced before seeds develop.",
 
         difficulty: 2,
-
+        correctAnswer: "Flowering",
         estimatedSeconds: 20,
 
         tags: [
@@ -506,13 +472,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Pollination"
         ],
 
-        answer: 0,
-
         explanation:
             "A healthy seedling grows into an adult flowering plant.",
 
         difficulty: 2,
-
+        correctAnswer: "Adult plant",
         estimatedSeconds: 20,
 
         tags: [
@@ -534,13 +498,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "To make leaves green"
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds allow new plants to grow, continuing the life cycle.",
 
         difficulty: 2,
-
+        correctAnswer: "To grow into new plants",
         estimatedSeconds: 20,
 
         tags: [
@@ -562,13 +524,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Seed → Flower → Germination → Root"
         ],
 
-        answer: 0,
-
         explanation:
             "A seed germinates, becomes a seedling and then grows into an adult plant.",
 
         difficulty: 2,
-
+        correctAnswer: "Seed → Germination → Seedling → Adult plant",
         estimatedSeconds: 25,
 
         tags: [
@@ -590,13 +550,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Flowering"
         ],
 
-        answer: 0,
-
         explanation:
             "The first root appearing is part of germination.",
 
         difficulty: 3,
-
+        correctAnswer: "Germination",
         estimatedSeconds: 25,
 
         tags: [
@@ -618,13 +576,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "So flowers stay colourful"
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds allow plants to reproduce and continue their life cycle.",
 
         difficulty: 3,
-
+        correctAnswer: "So new plants can grow",
         estimatedSeconds: 25,
 
         tags: [
@@ -647,13 +603,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "The leaves turn into flowers."
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds are dispersed and may grow into new plants, beginning the cycle again.",
 
         difficulty: 3,
-
+        correctAnswer: "The seeds can be dispersed and grow into new plants.",
         estimatedSeconds: 25,
 
         tags: [
@@ -675,13 +629,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Root sprouting"
         ],
 
-        answer: 0,
-
         explanation:
             "Plants usually flower after reaching adulthood.",
 
         difficulty: 3,
-
+        correctAnswer: "Flowering",
         estimatedSeconds: 25,
 
         tags: [
@@ -703,13 +655,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Because roots curl up."
         ],
 
-        answer: 0,
-
         explanation:
             "New seeds grow into new plants, repeating the same stages over and over.",
 
         difficulty: 3,
-
+        correctAnswer: "Because it repeats again and again.",
         estimatedSeconds: 25,
 
         tags: [
@@ -730,14 +680,12 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "It turns into a root only."
         ],
 
-        answer: 0,
-
         explanation:
             "After germination, the seed grows into a young plant called a seedling.",
 
         difficulty: 3,
-
-        estimatedSeconds: 25,
+            correctAnswer: "It grows into a seedling.",
+            estimatedSeconds: 25,
 
         tags: [
             "science",
@@ -759,13 +707,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Stem growth"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers are the reproductive part of the plant and produce seeds after pollination and fertilisation.",
 
         difficulty: 3,
-
+        correctAnswer: "Flowering",
         estimatedSeconds: 25,
 
         tags: [
@@ -788,13 +734,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "To spread seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Germination is the process where a seed begins to grow into a new plant.",
 
         difficulty: 3,
-
+        correctAnswer: "To start the growth of a new plant",
         estimatedSeconds: 25,
 
         tags: [
@@ -816,13 +760,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "A seed again"
         ],
 
-        answer: 0,
-
         explanation:
             "With the right conditions, a seedling grows into an adult flowering plant.",
 
         difficulty: 3,
-
+        correctAnswer: "An adult flowering plant",
         estimatedSeconds: 25,
 
         tags: [
@@ -845,13 +787,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "The stem gets taller."
         ],
 
-        answer: 0,
-
         explanation:
             "When new seeds are produced, they can grow into new plants and the life cycle starts again.",
 
         difficulty: 3,
-
+        correctAnswer: "New seeds are produced.",
         estimatedSeconds: 25,
 
         tags: [
@@ -874,13 +814,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Root growth"
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds are produced after the plant flowers and pollination and fertilisation have taken place.",
 
         difficulty: 4,
-
+        correctAnswer: "Flowering",
         estimatedSeconds: 30,
 
         tags: [
@@ -902,13 +840,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "It helps roots absorb sunlight."
         ],
 
-        answer: 0,
-
         explanation:
             "Seed dispersal reduces competition for space, water and light by spreading seeds away from the parent plant.",
 
         difficulty: 4,
-
+        correctAnswer: "It helps new plants grow away from the parent plant.",
         estimatedSeconds: 30,
 
         tags: [
@@ -930,13 +866,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "The leaves become flowers."
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds are spread away from the parent plant and can later germinate.",
 
         difficulty: 4,
-
+        correctAnswer: "The seeds are dispersed and may germinate.",
         estimatedSeconds: 30,
 
         tags: [
@@ -959,13 +893,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Adult plant → Seed → Flower → Seedling"
         ],
 
-        answer: 0,
-
         explanation:
             "This is the correct order of the life cycle of a flowering plant.",
 
         difficulty: 4,
-
+        correctAnswer: "Seed → Germination → Seedling → Adult plant → Flower → Seeds",
         estimatedSeconds: 30,
 
         tags: [
@@ -987,13 +919,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "To absorb more sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "Reproduction allows plants to produce seeds that grow into new plants.",
 
         difficulty: 4,
-
+        correctAnswer: "To produce new plants of the same kind",
         estimatedSeconds: 30,
 
         tags: [
@@ -1015,13 +945,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "To attract insects"
         ],
 
-        answer: 0,
-
         explanation:
             "A seed contains a young plant that can grow when conditions are right.",
 
         difficulty: 4,
-
+        correctAnswer: "To grow into a new plant",
         estimatedSeconds: 30,
 
         tags: [
@@ -1043,13 +971,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Making seeds"
         ],
 
-        answer: 0,
-
         explanation:
             "Most of a plant's life is spent growing before it flowers and produces seeds.",
 
         difficulty: 4,
-
+        correctAnswer: "Growing into an adult plant",
         estimatedSeconds: 30,
 
         tags: [
@@ -1071,13 +997,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "It will produce fruit."
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds need suitable conditions, including water, before germination can begin.",
 
         difficulty: 4,
-
+        correctAnswer: "It will not germinate.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1099,13 +1023,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "To produce rocks"
         ],
 
-        answer: 0,
-
         explanation:
             "Adult plants produce flowers and eventually make seeds to continue the life cycle.",
 
         difficulty: 4,
-
+        correctAnswer: "To grow, flower and produce seeds",
         estimatedSeconds: 30,
 
         tags: [
@@ -1127,13 +1049,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "It starts with leaves."
         ],
 
-        answer: 0,
-
         explanation:
             "The life cycle repeats because each generation produces new seeds that grow into new plants.",
 
         difficulty: 4,
-
+        correctAnswer: "It repeats as each new seed grows into another plant.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1154,14 +1074,12 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "The seed must become a leaf."
         ],
 
-        answer: 0,
-
         explanation:
             "Before a seed can grow into a new plant, it must germinate under the right conditions.",
 
         difficulty: 5,
-
-        estimatedSeconds: 30,
+            correctAnswer: "The seed must germinate.",
+            estimatedSeconds: 30,
 
         tags: [
             "science",
@@ -1183,13 +1101,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "The leaves fall off."
         ],
 
-        answer: 0,
-
         explanation:
             "After flowering, pollination and fertilisation can lead to seeds developing.",
 
         difficulty: 5,
-
+        correctAnswer: "Seeds develop.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1212,13 +1128,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "It changes seedlings into flowers."
         ],
 
-        answer: 0,
-
         explanation:
             "Seed dispersal spreads seeds to new places where they may have enough space, light and water to grow.",
 
         difficulty: 5,
-
+        correctAnswer: "It gives seeds a chance to grow in new places.",
         estimatedSeconds: 30,
 
         tags: [
@@ -1240,13 +1154,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Seedling → Seeds → Flower → Adult plant"
         ],
 
-        answer: 0,
-
         explanation:
             "Adult plants produce flowers, flowers produce seeds, seeds germinate and grow into seedlings.",
 
         difficulty: 5,
-
+        correctAnswer: "Adult plant → Flower → Seeds → Germination → Seedling",
         estimatedSeconds: 35,
 
         tags: [
@@ -1268,13 +1180,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "To grow taller stems"
         ],
 
-        answer: 0,
-
         explanation:
             "Seeds allow flowering plants to reproduce and continue their life cycle.",
 
         difficulty: 5,
-
+        correctAnswer: "To produce the next generation of plants",
         estimatedSeconds: 35,
 
         tags: [
@@ -1297,13 +1207,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "An adult plant"
         ],
 
-        answer: 0,
-
         explanation:
             "A seed exists before it germinates and begins to grow.",
 
         difficulty: 5,
-
+        correctAnswer: "A seed",
         estimatedSeconds: 30,
 
         tags: [
@@ -1326,13 +1234,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "It will produce seeds straight away."
         ],
 
-        answer: 0,
-
         explanation:
             "A damaged seed may not be able to germinate successfully, even if conditions are suitable.",
 
         difficulty: 5,
-
+        correctAnswer: "It may not grow into a healthy plant.",
         estimatedSeconds: 35,
 
         tags: [
@@ -1354,13 +1260,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "To grow new roots"
         ],
 
-        answer: 0,
-
         explanation:
             "The flowering stage allows pollination and the production of seeds for the next generation.",
 
         difficulty: 5,
-
+        correctAnswer: "To allow the plant to reproduce by making seeds",
         estimatedSeconds: 35,
 
         tags: [
@@ -1383,13 +1287,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Adult plants never make seeds."
         ],
 
-        answer: 0,
-
         explanation:
             "This repeating pattern is what makes the life cycle a cycle.",
 
         difficulty: 5,
-
+        correctAnswer: "Seeds grow into adult plants, which produce more seeds.",
         estimatedSeconds: 35,
 
         tags: [
@@ -1412,13 +1314,11 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
             "Plants only complete the life cycle once."
         ],
 
-        answer: 0,
-
         explanation:
             "Flowering plants repeat the same life cycle as each new generation grows from seeds and produces more seeds.",
 
         difficulty: 5,
-
+        correctAnswer: "A seed germinates into a seedling, grows into an adult plant, produces flowers, makes seeds and the cycle begins again.",
         estimatedSeconds: 40,
 
         tags: [

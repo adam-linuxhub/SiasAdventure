@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const mountainsAroundTheWorld: SkillContent = {
 
@@ -29,13 +29,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "A flat area of land"
         ],
 
-        answer: 0,
-
         explanation:
             "A mountain range is a group of mountains that are close together.",
 
         difficulty: 1,
-
+        correctAnswer: "A group of mountains connected together",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -54,13 +52,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "The Rockies"
         ],
 
-        answer: 0,
-
         explanation:
             "Mount Everest is part of the Himalayan mountain range.",
 
         difficulty: 1,
-
+        correctAnswer: "The Himalayas",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -79,13 +75,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "South America"
         ],
 
-        answer: 0,
-
         explanation:
             "The Himalayas are a large mountain range in Asia.",
 
         difficulty: 1,
-
+        correctAnswer: "Asia",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -104,13 +98,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "The Alps"
         ],
 
-        answer: 0,
-
         explanation:
             "Mount Everest is the highest mountain above sea level.",
 
         difficulty: 1,
-
+        correctAnswer: "Mount Everest",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -129,13 +121,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "The Rockies"
         ],
 
-        answer: 0,
-
         explanation:
             "The Alps stretch across several European countries.",
 
         difficulty: 1,
-
+        correctAnswer: "The Alps",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -154,13 +144,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "The Pennines"
         ],
 
-        answer: 0,
-
         explanation:
             "The Andes are a long mountain range along western South America.",
 
         difficulty: 1,
-
+        correctAnswer: "The Andes",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -179,13 +167,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "The Andes"
         ],
 
-        answer: 0,
-
         explanation:
             "The Rocky Mountains are located in North America.",
 
         difficulty: 1,
-
+        correctAnswer: "The Rocky Mountains",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -204,13 +190,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "Africa"
         ],
 
-        answer: 0,
-
         explanation:
             "The Andes run along the western side of South America.",
 
         difficulty: 1,
-
+        correctAnswer: "South America",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -229,13 +213,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "To remove mountains"
         ],
 
-        answer: 0,
-
         explanation:
             "Maps help us locate and compare places around the world.",
 
         difficulty: 1,
-
+        correctAnswer: "To find where mountains are located",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -254,13 +236,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "A weather forecast"
         ],
 
-        answer: 0,
-
         explanation:
             "A globe is a model showing Earth's continents and oceans.",
 
         difficulty: 1,
-
+        correctAnswer: "A model of Earth",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -279,13 +259,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "They are always underwater"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountain environments can be challenging because of their height and climate.",
 
         difficulty: 2,
-
+        correctAnswer: "They can be steep, cold and hard to travel through",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -304,13 +282,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "A river crossing"
         ],
 
-        answer: 0,
-
         explanation:
             "An environment includes the living and non-living features of an area.",
 
         difficulty: 2,
-
+        correctAnswer: "The natural surroundings of a mountain area",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -329,13 +305,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "To stop rivers"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains attract visitors for recreation and exploration.",
 
         difficulty: 1,
-
+        correctAnswer: "For activities such as climbing, walking and sightseeing",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -354,13 +328,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "Kilimanjaro"
         ],
 
-        answer: 0,
-
         explanation:
             "Ben Nevis in Scotland is the highest mountain in the UK.",
 
         difficulty: 1,
-
+        correctAnswer: "Ben Nevis",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains", "uk"]
@@ -379,13 +351,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "They are only found in cities"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountain ranges are major physical features of the Earth.",
 
         difficulty: 2,
-
+        correctAnswer: "They are important features of Earth's surface",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -404,13 +374,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "Only their age"
         ],
 
-        answer: 0,
-
         explanation:
             "Geographers compare mountains using different measurements and features.",
 
         difficulty: 2,
-
+        correctAnswer: "Height, location and features",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -429,13 +397,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "Climate does not change"
         ],
 
-        answer: 0,
-
         explanation:
             "Altitude and location influence mountain climates.",
 
         difficulty: 2,
-
+        correctAnswer: "Height and location affect temperature and rainfall",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -454,13 +420,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "Weather symbols"
         ],
 
-        answer: 0,
-
         explanation:
             "Contour lines show changes in height on maps.",
 
         difficulty: 2,
-
+        correctAnswer: "Contour lines",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "maps"]
@@ -479,13 +443,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "They prevent all life"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains are important natural features that support life.",
 
         difficulty: 2,
-
+        correctAnswer: "They provide habitats, resources and influence landscapes",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "mountains"]
@@ -504,13 +466,11 @@ export const mountainsAroundTheWorld: SkillContent = {
             "Mountains cannot be studied"
         ],
 
-        answer: 0,
-
         explanation:
             "Mountains vary in size, location and characteristics.",
 
         difficulty: 2,
-
+        correctAnswer: "Mountains are found on different continents and have different features",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "mountains"]

@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const weatherAndClimate: SkillContent = {
 
@@ -28,13 +28,11 @@ export const weatherAndClimate: SkillContent = {
             "A map symbol"
         ],
 
-        answer: 0,
-
         explanation:
             "Weather describes what it is like outside right now or over a short period of time.",
 
         difficulty: 1,
-
+        correctAnswer: "The conditions outside at a particular time",
         estimatedSeconds: 15,
 
         tags: ["geography", "weather"]
@@ -52,13 +50,11 @@ export const weatherAndClimate: SkillContent = {
             "A road"
         ],
 
-        answer: 0,
-
         explanation:
             "Rain is a weather condition.",
 
         difficulty: 1,
-
+        correctAnswer: "Rain",
         estimatedSeconds: 15,
 
         tags: ["geography", "weather"]
@@ -76,13 +72,11 @@ export const weatherAndClimate: SkillContent = {
             "A map"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate describes the usual weather in a place over a long period of time.",
 
         difficulty: 1,
-
+        correctAnswer: "The usual weather in a place over many years",
         estimatedSeconds: 15,
 
         tags: ["geography", "climate"]
@@ -100,13 +94,11 @@ export const weatherAndClimate: SkillContent = {
             "Five"
         ],
 
-        answer: 0,
-
         explanation:
             "The UK has four seasons: spring, summer, autumn and winter.",
 
         difficulty: 1,
-
+        correctAnswer: "Four",
         estimatedSeconds: 15,
 
         tags: ["geography", "seasons"]
@@ -124,13 +116,11 @@ export const weatherAndClimate: SkillContent = {
             "Spring"
         ],
 
-        answer: 0,
-
         explanation:
             "Summer is usually the warmest season in the UK.",
 
         difficulty: 1,
-
+        correctAnswer: "Summer",
         estimatedSeconds: 15,
 
         tags: ["geography", "summer"]
@@ -148,13 +138,11 @@ export const weatherAndClimate: SkillContent = {
             "Autumn"
         ],
 
-        answer: 0,
-
         explanation:
             "Winter is usually the coldest season.",
 
         difficulty: 1,
-
+        correctAnswer: "Winter",
         estimatedSeconds: 15,
 
         tags: ["geography", "winter"]
@@ -172,13 +160,11 @@ export const weatherAndClimate: SkillContent = {
             "Map"
         ],
 
-        answer: 0,
-
         explanation:
             "A thermometer measures how hot or cold it is.",
 
         difficulty: 1,
-
+        correctAnswer: "Thermometer",
         estimatedSeconds: 15,
 
         tags: ["geography", "temperature"]
@@ -196,13 +182,11 @@ export const weatherAndClimate: SkillContent = {
             "Fog"
         ],
 
-        answer: 0,
-
         explanation:
             "Umbrellas help keep us dry when it rains.",
 
         difficulty: 1,
-
+        correctAnswer: "Rain",
         estimatedSeconds: 20,
 
         tags: ["geography", "rain"]
@@ -220,13 +204,11 @@ export const weatherAndClimate: SkillContent = {
             "Cloud"
         ],
 
-        answer: 0,
-
         explanation:
             "Strong winds can make trees move.",
 
         difficulty: 1,
-
+        correctAnswer: "Wind",
         estimatedSeconds: 20,
 
         tags: ["geography", "wind"]
@@ -244,13 +226,11 @@ export const weatherAndClimate: SkillContent = {
             "Every country has the same weather."
         ],
 
-        answer: 0,
-
         explanation:
             "Weather changes frequently, sometimes several times in one day.",
 
         difficulty: 1,
-
+        correctAnswer: "Weather can change from day to day.",
         estimatedSeconds: 20,
 
         tags: ["geography", "weather"]
@@ -268,13 +248,11 @@ export const weatherAndClimate: SkillContent = {
             "They mean exactly the same thing."
         ],
 
-        answer: 0,
-
         explanation:
             "Weather describes current conditions, while climate describes usual conditions over many years.",
 
         difficulty: 2,
-
+        correctAnswer: "Weather is short-term, climate is long-term.",
         estimatedSeconds: 20,
 
         tags: ["geography", "weather", "climate"]
@@ -292,13 +270,11 @@ export const weatherAndClimate: SkillContent = {
             "Winter has fewer roads."
         ],
 
-        answer: 0,
-
         explanation:
             "Warm clothes help keep us comfortable in cold weather.",
 
         difficulty: 2,
-
+        correctAnswer: "Winter is usually colder.",
         estimatedSeconds: 20,
 
         tags: ["geography", "winter"]
@@ -316,13 +292,11 @@ export const weatherAndClimate: SkillContent = {
             "To help them swim"
         ],
 
-        answer: 0,
-
         explanation:
             "Sun hats and sunscreen help protect people from the Sun's rays.",
 
         difficulty: 2,
-
+        correctAnswer: "To protect themselves from strong sunshine",
         estimatedSeconds: 20,
 
         tags: ["geography", "summer"]
@@ -340,13 +314,11 @@ export const weatherAndClimate: SkillContent = {
             "It builds roads."
         ],
 
-        answer: 0,
-
         explanation:
             "Weather forecasts help people decide what to wear and what activities to plan.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps people plan ahead.",
         estimatedSeconds: 20,
 
         tags: ["geography", "forecast"]
@@ -364,13 +336,11 @@ export const weatherAndClimate: SkillContent = {
             "Summer"
         ],
 
-        answer: 0,
-
         explanation:
             "Many plants begin growing and flowering during spring.",
 
         difficulty: 2,
-
+        correctAnswer: "Spring",
         estimatedSeconds: 20,
 
         tags: ["geography", "spring"]
@@ -388,13 +358,11 @@ export const weatherAndClimate: SkillContent = {
             "Winter"
         ],
 
-        answer: 0,
-
         explanation:
             "In autumn many trees change colour before their leaves fall.",
 
         difficulty: 2,
-
+        correctAnswer: "Autumn",
         estimatedSeconds: 20,
 
         tags: ["geography", "autumn"]
@@ -412,13 +380,11 @@ export const weatherAndClimate: SkillContent = {
             "Weather changes compass directions."
         ],
 
-        answer: 0,
-
         explanation:
             "Heavy rain, strong winds or sunshine can affect what we choose to do.",
 
         difficulty: 2,
-
+        correctAnswer: "Different weather is suitable for different activities.",
         estimatedSeconds: 20,
 
         tags: ["geography", "weather"]
@@ -436,13 +402,11 @@ export const weatherAndClimate: SkillContent = {
             "Road names"
         ],
 
-        answer: 0,
-
         explanation:
             "Forecasts often include temperature, rain, wind and sunshine.",
 
         difficulty: 2,
-
+        correctAnswer: "Expected rain and temperature",
         estimatedSeconds: 20,
 
         tags: ["geography", "forecast"]
@@ -460,13 +424,11 @@ export const weatherAndClimate: SkillContent = {
             "They have different flags."
         ],
 
-        answer: 0,
-
         explanation:
             "A country's location affects its usual weather over many years.",
 
         difficulty: 2,
-
+        correctAnswer: "They are in different parts of the world.",
         estimatedSeconds: 20,
 
         tags: ["geography", "climate"]
@@ -484,13 +446,11 @@ export const weatherAndClimate: SkillContent = {
             "Weather lasts for hundreds of years."
         ],
 
-        answer: 0,
-
         explanation:
             "Weather describes short-term conditions, while climate describes long-term patterns.",
 
         difficulty: 2,
-
+        correctAnswer: "Weather is what happens now, while climate is the usual weather over many years.",
         estimatedSeconds: 20,
 
         tags: ["geography", "weather", "climate", "physical-geography"]

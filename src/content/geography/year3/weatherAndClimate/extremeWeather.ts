@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const extremeWeather: SkillContent = {
 
@@ -29,13 +29,11 @@ export const extremeWeather: SkillContent = {
             "Only sunny weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Extreme weather is more severe than usual and can cause damage or danger.",
 
         difficulty: 1,
-
+        correctAnswer: "Weather conditions that are unusually severe or dangerous",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather", "extreme-weather"]
@@ -54,13 +52,11 @@ export const extremeWeather: SkillContent = {
             "A cloudy morning"
         ],
 
-        answer: 0,
-
         explanation:
             "Hurricanes are powerful storms and are examples of extreme weather.",
 
         difficulty: 1,
-
+        correctAnswer: "A hurricane",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -79,13 +75,11 @@ export const extremeWeather: SkillContent = {
             "When the ground freezes"
         ],
 
-        answer: 0,
-
         explanation:
             "Flooding happens when there is too much water in an area.",
 
         difficulty: 1,
-
+        correctAnswer: "When water covers land that is usually dry",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -104,13 +98,11 @@ export const extremeWeather: SkillContent = {
             "Strong sunshine"
         ],
 
-        answer: 0,
-
         explanation:
             "Too much water from rainfall or rivers can cause floods.",
 
         difficulty: 1,
-
+        correctAnswer: "Heavy rainfall or overflowing rivers",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "floods"]
@@ -129,13 +121,11 @@ export const extremeWeather: SkillContent = {
             "A type of cloud"
         ],
 
-        answer: 0,
-
         explanation:
             "Droughts happen when an area has very little rain for a long time.",
 
         difficulty: 1,
-
+        correctAnswer: "A long period with very little rainfall",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -154,13 +144,11 @@ export const extremeWeather: SkillContent = {
             "Extra rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Droughts can affect people, animals and farming.",
 
         difficulty: 1,
-
+        correctAnswer: "Water shortages and difficulty growing crops",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "drought"]
@@ -179,13 +167,11 @@ export const extremeWeather: SkillContent = {
             "A type of river"
         ],
 
-        answer: 0,
-
         explanation:
             "Hurricanes are large storms that form over warm oceans.",
 
         difficulty: 2,
-
+        correctAnswer: "A powerful tropical storm with strong winds",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "storms"]
@@ -204,13 +190,11 @@ export const extremeWeather: SkillContent = {
             "Remove oceans"
         ],
 
-        answer: 0,
-
         explanation:
             "Very strong winds can cause damage to people and places.",
 
         difficulty: 1,
-
+        correctAnswer: "Damage buildings and trees",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "storms"]
@@ -229,13 +213,11 @@ export const extremeWeather: SkillContent = {
             "A snowstorm"
         ],
 
-        answer: 0,
-
         explanation:
             "Heatwaves are periods of very high temperatures lasting several days.",
 
         difficulty: 1,
-
+        correctAnswer: "A long period of unusually hot weather",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -254,13 +236,11 @@ export const extremeWeather: SkillContent = {
             "They make rivers freeze"
         ],
 
-        answer: 0,
-
         explanation:
             "Very hot weather can create risks for people and the environment.",
 
         difficulty: 2,
-
+        correctAnswer: "They can affect health and cause water shortages",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -279,13 +259,11 @@ export const extremeWeather: SkillContent = {
             "Stopping rainfall"
         ],
 
-        answer: 0,
-
         explanation:
             "Warnings and preparation can reduce the effects of flooding.",
 
         difficulty: 2,
-
+        correctAnswer: "Using flood warnings and protection measures",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "floods"]
@@ -304,13 +282,11 @@ export const extremeWeather: SkillContent = {
             "They create storms"
         ],
 
-        answer: 0,
-
         explanation:
             "Forecasts help people make decisions before dangerous weather occurs.",
 
         difficulty: 2,
-
+        correctAnswer: "They help people prepare and stay safe",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -329,13 +305,11 @@ export const extremeWeather: SkillContent = {
             "It creates new species instantly"
         ],
 
-        answer: 0,
-
         explanation:
             "Extreme conditions can make survival harder for wildlife.",
 
         difficulty: 2,
-
+        correctAnswer: "It can damage habitats and reduce available food",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "habitats"]
@@ -354,13 +328,11 @@ export const extremeWeather: SkillContent = {
             "Homes move away"
         ],
 
-        answer: 0,
-
         explanation:
             "Floodwater can damage buildings and possessions.",
 
         difficulty: 1,
-
+        correctAnswer: "Water can enter buildings and damage belongings",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "floods"]
@@ -379,13 +351,11 @@ export const extremeWeather: SkillContent = {
             "Animals do not need water"
         ],
 
-        answer: 0,
-
         explanation:
             "Without enough water, crops and animals can struggle.",
 
         difficulty: 1,
-
+        correctAnswer: "Crops need water to grow",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "drought"]
@@ -404,13 +374,11 @@ export const extremeWeather: SkillContent = {
             "Moving rivers"
         ],
 
-        answer: 0,
-
         explanation:
             "Climate change refers to long-term changes in climate patterns.",
 
         difficulty: 2,
-
+        correctAnswer: "Changes in Earth's climate over time",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "climate"]
@@ -429,13 +397,11 @@ export const extremeWeather: SkillContent = {
             "To remove seasons"
         ],
 
-        answer: 0,
-
         explanation:
             "Studying extreme weather helps people prepare and respond.",
 
         difficulty: 2,
-
+        correctAnswer: "To understand risks and improve preparation",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -454,13 +420,11 @@ export const extremeWeather: SkillContent = {
             "A frozen lake"
         ],
 
-        answer: 0,
-
         explanation:
             "Hurricanes usually form over warm tropical oceans.",
 
         difficulty: 2,
-
+        correctAnswer: "Warm tropical coastal areas",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "storms"]
@@ -479,13 +443,11 @@ export const extremeWeather: SkillContent = {
             "Make the weather worse"
         ],
 
-        answer: 0,
-
         explanation:
             "Preparation and cooperation help communities stay safer.",
 
         difficulty: 1,
-
+        correctAnswer: "Work together and follow safety advice",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "weather"]
@@ -504,13 +466,11 @@ export const extremeWeather: SkillContent = {
             "Extreme weather never changes"
         ],
 
-        answer: 0,
-
         explanation:
             "Extreme weather events can have major effects on people and places.",
 
         difficulty: 2,
-
+        correctAnswer: "Extreme weather is unusually severe weather that can affect people and the environment",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "weather"]

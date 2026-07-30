@@ -28,13 +28,11 @@ export const shadows: SkillContent = {
             "The object making light"
         ],
 
-        answer: 0,
-
         explanation:
             "A shadow forms when an opaque object blocks light.",
 
         difficulty: 1,
-
+        correctAnswer: "An object blocking light",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "shadows"]
@@ -52,13 +50,11 @@ export const shadows: SkillContent = {
             "Underwater"
         ],
 
-        answer: 0,
-
         explanation:
             "Sunlight creates shadows when it is blocked.",
 
         difficulty: 1,
-
+        correctAnswer: "On a sunny day",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "shadows"]
@@ -76,13 +72,11 @@ export const shadows: SkillContent = {
             "A reflection"
         ],
 
-        answer: 0,
-
         explanation:
             "A shadow is a dark area where light is blocked.",
 
         difficulty: 1,
-
+        correctAnswer: "A dark shape",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "shadows"]
@@ -100,13 +94,11 @@ export const shadows: SkillContent = {
             "Only darkness"
         ],
 
-        answer: 0,
-
         explanation:
             "A shadow forms when an object blocks light from a light source.",
 
         difficulty: 1,
-
+        correctAnswer: "A light source and an object",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "shadows"]
@@ -124,13 +116,11 @@ export const shadows: SkillContent = {
             "The air"
         ],
 
-        answer: 0,
-
         explanation:
             "A book blocks light and creates a shadow.",
 
         difficulty: 1,
-
+        correctAnswer: "A book",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "shadows"]
@@ -148,13 +138,11 @@ export const shadows: SkillContent = {
             "Nothing changes"
         ],
 
-        answer: 0,
-
         explanation:
             "Without a light source there is no shadow.",
 
         difficulty: 1,
-
+        correctAnswer: "The shadow disappears",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "shadows"]
@@ -172,13 +160,11 @@ export const shadows: SkillContent = {
             "A cloud"
         ],
 
-        answer: 0,
-
         explanation:
             "The Sun is the main source of light during the day.",
 
         difficulty: 1,
-
+        correctAnswer: "The Sun",
         estimatedSeconds: 15,
 
         tags: ["science", "light", "sun", "shadows"]
@@ -196,13 +182,11 @@ export const shadows: SkillContent = {
             "It makes darkness"
         ],
 
-        answer: 0,
-
         explanation:
             "The shadow is dark because light cannot reach that area.",
 
         difficulty: 1,
-
+        correctAnswer: "Light is blocked",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "shadows"]
@@ -220,13 +204,11 @@ export const shadows: SkillContent = {
             "Inside the object"
         ],
 
-        answer: 0,
-
         explanation:
             "The shadow forms behind the object from the light source.",
 
         difficulty: 1,
-
+        correctAnswer: "On the side opposite the light source",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "shadows"]
@@ -244,13 +226,11 @@ export const shadows: SkillContent = {
             "Shadows can only happen at night."
         ],
 
-        answer: 0,
-
         explanation:
             "Blocking light creates a shadow.",
 
         difficulty: 1,
-
+        correctAnswer: "Shadows are formed when light is blocked.",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "shadows"]
@@ -268,13 +248,11 @@ export const shadows: SkillContent = {
             "Nothing changes"
         ],
 
-        answer: 0,
-
         explanation:
             "Moving closer to the light source usually makes the shadow larger.",
 
         difficulty: 2,
-
+        correctAnswer: "Your shadow gets bigger",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "shadows"]
@@ -292,13 +270,11 @@ export const shadows: SkillContent = {
             "The torch stops shining"
         ],
 
-        answer: 0,
-
         explanation:
             "Moving away from the light source usually makes the shadow smaller.",
 
         difficulty: 2,
-
+        correctAnswer: "Your shadow gets smaller",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "shadows"]
@@ -316,13 +292,11 @@ export const shadows: SkillContent = {
             "Painting the wall"
         ],
 
-        answer: 0,
-
         explanation:
             "The distance between the object and the light source affects shadow size.",
 
         difficulty: 2,
-
+        correctAnswer: "Moving the object nearer to the light",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "investigation", "shadows"]
@@ -340,13 +314,11 @@ export const shadows: SkillContent = {
             "The air changes colour"
         ],
 
-        answer: 0,
-
         explanation:
             "As the Sun's position changes, the position and length of shadows change.",
 
         difficulty: 2,
-
+        correctAnswer: "The Sun appears to move across the sky",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "sun", "shadows"]
@@ -364,13 +336,11 @@ export const shadows: SkillContent = {
             "At midnight"
         ],
 
-        answer: 0,
-
         explanation:
             "When the Sun is highest in the sky, shadows are usually shortest.",
 
         difficulty: 2,
-
+        correctAnswer: "Around the middle of the day",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "sun", "shadows"]
@@ -388,13 +358,11 @@ export const shadows: SkillContent = {
             "The torches switch off"
         ],
 
-        answer: 0,
-
         explanation:
             "Each light source can create its own shadow.",
 
         difficulty: 2,
-
+        correctAnswer: "More than one shadow may appear",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "shadows"]
@@ -412,13 +380,11 @@ export const shadows: SkillContent = {
             "Shadows only appear in mirrors"
         ],
 
-        answer: 0,
-
         explanation:
             "No light means there is nothing to block, so no shadow forms.",
 
         difficulty: 2,
-
+        correctAnswer: "A shadow is created when light is blocked",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "shadows"]
@@ -436,13 +402,11 @@ export const shadows: SkillContent = {
             "It changes colour"
         ],
 
-        answer: 0,
-
         explanation:
             "Objects nearer the light source usually produce larger shadows.",
 
         difficulty: 2,
-
+        correctAnswer: "It becomes larger",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "shadows"]
@@ -460,13 +424,11 @@ export const shadows: SkillContent = {
             "Close your eyes"
         ],
 
-        answer: 0,
-
         explanation:
             "A fair test changes only one variable at a time.",
 
         difficulty: 2,
-
+        correctAnswer: "Change one thing at a time",
         estimatedSeconds: 20,
 
         tags: ["science", "working-scientifically", "investigation", "shadows"]
@@ -484,13 +446,11 @@ export const shadows: SkillContent = {
             "Shadows only happen at night."
         ],
 
-        answer: 0,
-
         explanation:
             "Shadows are created whenever light is blocked by an opaque object.",
 
         difficulty: 2,
-
+        correctAnswer: "A shadow forms when an opaque object blocks light from a light source.",
         estimatedSeconds: 20,
 
         tags: ["science", "light", "shadows", "light-source"]

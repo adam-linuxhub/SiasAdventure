@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const apostrophesPossession: SkillContent = {
 
@@ -28,13 +28,11 @@ export const apostrophesPossession: SkillContent = {
             "That a sentence has ended"
         ],
 
-        answer: 0,
-
         explanation:
             "A possessive apostrophe shows ownership.",
 
         difficulty: 1,
-
+        correctAnswer: "That something belongs to someone",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -52,13 +50,11 @@ export const apostrophesPossession: SkillContent = {
             "The dogs bone."
         ],
 
-        answer: 0,
-
         explanation:
             "The apostrophe before the 's' shows the bone belongs to the dog.",
 
         difficulty: 1,
-
+        correctAnswer: "The dog's bone.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -76,13 +72,11 @@ export const apostrophesPossession: SkillContent = {
             "Sophies bag is blue."
         ],
 
-        answer: 0,
-
         explanation:
             "The bag belongs to Sophie, so we write 'Sophie's bag'.",
 
         difficulty: 1,
-
+        correctAnswer: "Sophie's bag is blue.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -100,13 +94,11 @@ export const apostrophesPossession: SkillContent = {
             "The cat's' tail"
         ],
 
-        answer: 0,
-
         explanation:
             "The apostrophe shows the tail belongs to the cat.",
 
         difficulty: 1,
-
+        correctAnswer: "The cat's tail",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -124,13 +116,11 @@ export const apostrophesPossession: SkillContent = {
             "Ben book'"
         ],
 
-        answer: 0,
-
         explanation:
             "The book belongs to Ben, so add apostrophe + s.",
 
         difficulty: 1,
-
+        correctAnswer: "Ben's book",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -148,13 +138,11 @@ export const apostrophesPossession: SkillContent = {
             "The bird nest"
         ],
 
-        answer: 0,
-
         explanation:
             "The nest belongs to one bird, so use apostrophe + s.",
 
         difficulty: 1,
-
+        correctAnswer: "The bird's nest",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -172,13 +160,11 @@ export const apostrophesPossession: SkillContent = {
             "The teacher's' desk is tidy."
         ],
 
-        answer: 0,
-
         explanation:
             "The desk belongs to one teacher.",
 
         difficulty: 1,
-
+        correctAnswer: "The teacher's desk is tidy.",
         estimatedSeconds: 15,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -196,13 +182,11 @@ export const apostrophesPossession: SkillContent = {
             "The sentence"
         ],
 
-        answer: 0,
-
         explanation:
             "The apostrophe shows the coat belongs to Emma.",
 
         difficulty: 1,
-
+        correctAnswer: "The coat",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -220,13 +204,11 @@ export const apostrophesPossession: SkillContent = {
             "The girl ran home."
         ],
 
-        answer: 0,
-
         explanation:
             "The hat belongs to the girl, so write 'The girl's hat'.",
 
         difficulty: 1,
-
+        correctAnswer: "The girl hat is red.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -244,13 +226,11 @@ export const apostrophesPossession: SkillContent = {
             "Jack bought a bike."
         ],
 
-        answer: 0,
-
         explanation:
             "The apostrophe shows ownership.",
 
         difficulty: 1,
-
+        correctAnswer: "The bike belongs to Jack.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -268,13 +248,11 @@ export const apostrophesPossession: SkillContent = {
             "The rabbit's' ears are long."
         ],
 
-        answer: 0,
-
         explanation:
             "The ears belong to one rabbit.",
 
         difficulty: 2,
-
+        correctAnswer: "The rabbit's ears are long.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -292,13 +270,11 @@ export const apostrophesPossession: SkillContent = {
             "Mia toy"
         ],
 
-        answer: 0,
-
         explanation:
             "The apostrophe + s shows that the toy belongs to Mia.",
 
         difficulty: 2,
-
+        correctAnswer: "Mia's toy",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -316,13 +292,11 @@ export const apostrophesPossession: SkillContent = {
             "The lion's' roar was loud."
         ],
 
-        answer: 0,
-
         explanation:
             "The roar belongs to the lion.",
 
         difficulty: 2,
-
+        correctAnswer: "The lion's roar was loud.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -340,13 +314,11 @@ export const apostrophesPossession: SkillContent = {
             "Oliver's' pencil is sharp."
         ],
 
-        answer: 0,
-
         explanation:
             "The pencil belongs to Oliver.",
 
         difficulty: 2,
-
+        correctAnswer: "Oliver's pencil is sharp.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -364,13 +336,11 @@ export const apostrophesPossession: SkillContent = {
             "The sentence has finished."
         ],
 
-        answer: 0,
-
         explanation:
             "A possessive apostrophe shows ownership.",
 
         difficulty: 2,
-
+        correctAnswer: "The blanket belongs to the baby.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -388,13 +358,11 @@ export const apostrophesPossession: SkillContent = {
             "The farmer's' tractor"
         ],
 
-        answer: 0,
-
         explanation:
             "The tractor belongs to one farmer.",
 
         difficulty: 2,
-
+        correctAnswer: "The farmer's tractor",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -412,13 +380,11 @@ export const apostrophesPossession: SkillContent = {
             "The pirate is brave."
         ],
 
-        answer: 0,
-
         explanation:
             "The treasure belongs to the pirate.",
 
         difficulty: 2,
-
+        correctAnswer: "The pirate's treasure was hidden.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -436,13 +402,11 @@ export const apostrophesPossession: SkillContent = {
             "The queen's' crown"
         ],
 
-        answer: 0,
-
         explanation:
             "The crown belongs to the queen.",
 
         difficulty: 2,
-
+        correctAnswer: "The queen's crown",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -460,13 +424,11 @@ export const apostrophesPossession: SkillContent = {
             "To separate lists"
         ],
 
-        answer: 0,
-
         explanation:
             "Possessive apostrophes tell readers who owns something.",
 
         difficulty: 2,
-
+        correctAnswer: "To show ownership",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]
@@ -484,13 +446,11 @@ export const apostrophesPossession: SkillContent = {
             "Sophies cat chased Bens ball."
         ],
 
-        answer: 0,
-
         explanation:
             "Both 'Sophie's' and 'Ben's' correctly use apostrophes to show ownership.",
 
         difficulty: 2,
-
+        correctAnswer: "Sophie's cat chased Ben's ball.",
         estimatedSeconds: 20,
 
         tags: ["english", "punctuation", "apostrophes", "possession"]

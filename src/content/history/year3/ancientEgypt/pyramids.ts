@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const pyramids: SkillContent = {
 
@@ -29,13 +29,11 @@ export const pyramids: SkillContent = {
             "As marketplaces"
         ],
 
-        answer: 0,
-
         explanation:
             "Many pyramids were built as burial places for pharaohs.",
 
         difficulty: 1,
-
+        correctAnswer: "As tombs for pharaohs",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -54,13 +52,11 @@ export const pyramids: SkillContent = {
             "A type of clothing"
         ],
 
-        answer: 0,
-
         explanation:
             "A tomb is a place where a person's body is placed after death.",
 
         difficulty: 1,
-
+        correctAnswer: "A place where someone is buried",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -79,13 +75,11 @@ export const pyramids: SkillContent = {
             "A spiral shape"
         ],
 
-        answer: 0,
-
         explanation:
             "Egyptian pyramids have a square base and sloping triangular sides.",
 
         difficulty: 1,
-
+        correctAnswer: "A triangular shape with a wide base",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -104,13 +98,11 @@ export const pyramids: SkillContent = {
             "Plastic"
         ],
 
-        answer: 0,
-
         explanation:
             "Ancient Egyptians used huge blocks of stone to build pyramids.",
 
         difficulty: 1,
-
+        correctAnswer: "Large stone blocks",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -129,13 +121,11 @@ export const pyramids: SkillContent = {
             "They were built recently"
         ],
 
-        answer: 0,
-
         explanation:
             "Pyramids give historians clues about Ancient Egyptian beliefs, skills and society.",
 
         difficulty: 1,
-
+        correctAnswer: "They provide evidence about Ancient Egyptian life",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -154,13 +144,11 @@ export const pyramids: SkillContent = {
             "The Nile Tower"
         ],
 
-        answer: 0,
-
         explanation:
             "The Great Pyramid of Giza is one of the most famous Ancient Egyptian structures.",
 
         difficulty: 1,
-
+        correctAnswer: "The Great Pyramid",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -179,13 +167,11 @@ export const pyramids: SkillContent = {
             "Soldiers only"
         ],
 
-        answer: 0,
-
         explanation:
             "Pyramids were often built as royal tombs for pharaohs.",
 
         difficulty: 1,
-
+        correctAnswer: "Pharaohs",
         estimatedSeconds: 15,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -204,13 +190,11 @@ export const pyramids: SkillContent = {
             "They avoided working together"
         ],
 
-        answer: 0,
-
         explanation:
             "Building pyramids required planning, organisation and skill.",
 
         difficulty: 1,
-
+        correctAnswer: "They had advanced building skills",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -229,13 +213,11 @@ export const pyramids: SkillContent = {
             "They wanted schools"
         ],
 
-        answer: 0,
-
         explanation:
             "Ancient Egyptians had strong beliefs about life after death.",
 
         difficulty: 1,
-
+        correctAnswer: "They believed in an afterlife",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -254,13 +236,11 @@ export const pyramids: SkillContent = {
             "No preparation"
         ],
 
-        answer: 0,
-
         explanation:
             "Pyramids were huge projects requiring organisation.",
 
         difficulty: 1,
-
+        correctAnswer: "Many workers and careful planning",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -279,13 +259,11 @@ export const pyramids: SkillContent = {
             "Using computers"
         ],
 
-        answer: 0,
-
         explanation:
             "Historians believe Egyptians used methods such as ramps and organised labour.",
 
         difficulty: 2,
-
+        correctAnswer: "Using tools, ramps and teamwork",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -304,13 +282,11 @@ export const pyramids: SkillContent = {
             "People avoided building"
         ],
 
-        answer: 0,
-
         explanation:
             "Large pyramids required cooperation and planning.",
 
         difficulty: 2,
-
+        correctAnswer: "People could organise large projects",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -329,13 +305,11 @@ export const pyramids: SkillContent = {
             "Books from today"
         ],
 
-        answer: 0,
-
         explanation:
             "Tombs often contained objects buried with the dead.",
 
         difficulty: 2,
-
+        correctAnswer: "Burial objects and treasures",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -354,13 +328,11 @@ export const pyramids: SkillContent = {
             "They were underwater"
         ],
 
-        answer: 0,
-
         explanation:
             "Stone structures can survive for thousands of years.",
 
         difficulty: 2,
-
+        correctAnswer: "They were made from strong stone",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -379,13 +351,11 @@ export const pyramids: SkillContent = {
             "Space travel"
         ],
 
-        answer: 0,
-
         explanation:
             "Archaeologists study remains to understand the past.",
 
         difficulty: 2,
-
+        correctAnswer: "How Ancient Egyptians lived and worked",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -404,13 +374,11 @@ export const pyramids: SkillContent = {
             "It was a modern palace"
         ],
 
-        answer: 0,
-
         explanation:
             "The Great Pyramid is an important Ancient Egyptian monument.",
 
         difficulty: 2,
-
+        correctAnswer: "It is one of the most famous ancient structures in the world",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -429,13 +397,11 @@ export const pyramids: SkillContent = {
             "To predict the future"
         ],
 
-        answer: 0,
-
         explanation:
             "Historical evidence helps us understand past societies.",
 
         difficulty: 2,
-
+        correctAnswer: "To learn about the past",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -454,13 +420,11 @@ export const pyramids: SkillContent = {
             "A type of animal"
         ],
 
-        answer: 0,
-
         explanation:
             "Pyramids are examples of buildings created by Ancient Egyptians.",
 
         difficulty: 2,
-
+        correctAnswer: "Ancient Egyptian architecture",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -479,13 +443,11 @@ export const pyramids: SkillContent = {
             "They were built last year"
         ],
 
-        answer: 0,
-
         explanation:
             "Pyramids provide valuable evidence about the past.",
 
         difficulty: 2,
-
+        correctAnswer: "They reveal information about Ancient Egypt",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]
@@ -504,13 +466,11 @@ export const pyramids: SkillContent = {
             "Small wooden shelters"
         ],
 
-        answer: 0,
-
         explanation:
             "Pyramids were large stone structures, often built as royal tombs.",
 
         difficulty: 2,
-
+        correctAnswer: "Large stone tombs built by Ancient Egyptians",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "ancient-egypt", "pyramids"]

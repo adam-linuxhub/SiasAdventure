@@ -28,13 +28,11 @@ export const nouns: SkillContent = {
             "happy"
         ],
 
-        answer: 0,
-
         explanation:
             "A noun is a naming word. 'Dog' is the name of an animal.",
 
         difficulty: 1,
-
+        correctAnswer: "dog",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "nouns"]
@@ -52,13 +50,11 @@ export const nouns: SkillContent = {
             "blue"
         ],
 
-        answer: 0,
-
         explanation:
             "'Teacher' is a noun because it names a person.",
 
         difficulty: 1,
-
+        correctAnswer: "teacher",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "nouns"]
@@ -76,13 +72,11 @@ export const nouns: SkillContent = {
             "bright"
         ],
 
-        answer: 0,
-
         explanation:
             "'School' is a noun because it names a place.",
 
         difficulty: 1,
-
+        correctAnswer: "school",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "nouns"]
@@ -100,13 +94,11 @@ export const nouns: SkillContent = {
             "soft"
         ],
 
-        answer: 0,
-
         explanation:
             "'Book' is a noun because it names a thing.",
 
         difficulty: 1,
-
+        correctAnswer: "book",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "nouns"]
@@ -124,13 +116,11 @@ export const nouns: SkillContent = {
             "country"
         ],
 
-        answer: 0,
-
         explanation:
             "'London' is the name of a particular place, so it is a proper noun.",
 
         difficulty: 1,
-
+        correctAnswer: "London",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "proper-nouns"]
@@ -148,13 +138,11 @@ export const nouns: SkillContent = {
             "With a comma"
         ],
 
-        answer: 0,
-
         explanation:
             "Proper nouns always begin with a capital letter.",
 
         difficulty: 1,
-
+        correctAnswer: "With a capital letter",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "proper-nouns"]
@@ -172,13 +160,11 @@ export const nouns: SkillContent = {
             "Emma"
         ],
 
-        answer: 0,
-
         explanation:
             "'Cat' names any cat, not a particular one, so it is a common noun.",
 
         difficulty: 1,
-
+        correctAnswer: "cat",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "common-nouns"]
@@ -196,13 +182,11 @@ export const nouns: SkillContent = {
             "child"
         ],
 
-        answer: 0,
-
         explanation:
             "'Emma' is the name of a particular person.",
 
         difficulty: 1,
-
+        correctAnswer: "Emma",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "proper-nouns"]
@@ -220,13 +204,11 @@ export const nouns: SkillContent = {
             "quickly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Tree' names a living thing, so it is a noun.",
 
         difficulty: 1,
-
+        correctAnswer: "tree",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "nouns"]
@@ -244,13 +226,11 @@ export const nouns: SkillContent = {
             "A dog barked."
         ],
 
-        answer: 0,
-
         explanation:
             "'Jack' is the name of a particular person, making it a proper noun.",
 
         difficulty: 1,
-
+        correctAnswer: "Jack played football.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "proper-nouns"]
@@ -268,13 +248,11 @@ export const nouns: SkillContent = {
             "quickly, slowly"
         ],
 
-        answer: 0,
-
         explanation:
             "'Bird' and 'river' both name things, so they are nouns.",
 
         difficulty: 2,
-
+        correctAnswer: "bird, river",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "nouns"]
@@ -292,13 +270,11 @@ export const nouns: SkillContent = {
             "We visited village."
         ],
 
-        answer: 0,
-
         explanation:
             "'Scotland' is a proper noun and must begin with a capital letter.",
 
         difficulty: 2,
-
+        correctAnswer: "We visited Scotland.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "proper-nouns"]
@@ -316,13 +292,11 @@ export const nouns: SkillContent = {
             "rabbit"
         ],
 
-        answer: 0,
-
         explanation:
             "'Quickly' is an adverb, not a noun.",
 
         difficulty: 2,
-
+        correctAnswer: "quickly",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar"]
@@ -340,13 +314,11 @@ export const nouns: SkillContent = {
             "fast"
         ],
 
-        answer: 0,
-
         explanation:
             "'Team' is a collective noun because it names a group of people.",
 
         difficulty: 2,
-
+        correctAnswer: "team",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "collective-nouns"]
@@ -364,13 +336,11 @@ export const nouns: SkillContent = {
             "Very quietly please."
         ],
 
-        answer: 0,
-
         explanation:
             "'Dog' and 'ball' are both nouns.",
 
         difficulty: 2,
-
+        correctAnswer: "The dog chased the ball.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "nouns"]
@@ -388,13 +358,11 @@ export const nouns: SkillContent = {
             "month"
         ],
 
-        answer: 0,
-
         explanation:
             "The days of the week are proper nouns and begin with capital letters.",
 
         difficulty: 2,
-
+        correctAnswer: "Friday",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "proper-nouns"]
@@ -412,13 +380,11 @@ export const nouns: SkillContent = {
             "kind"
         ],
 
-        answer: 0,
-
         explanation:
             "'Museum' is the name of a place.",
 
         difficulty: 2,
-
+        correctAnswer: "museum",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "places"]
@@ -436,13 +402,11 @@ export const nouns: SkillContent = {
             "It is an adverb."
         ],
 
-        answer: 0,
-
         explanation:
             "'Lucy' is the name of a particular person, so it is a proper noun.",
 
         difficulty: 2,
-
+        correctAnswer: "It is a proper noun.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "proper-nouns"]
@@ -460,13 +424,11 @@ export const nouns: SkillContent = {
             "The bird flew."
         ],
 
-        answer: 0,
-
         explanation:
             "'Class' is a collective noun because it names a group of pupils.",
 
         difficulty: 2,
-
+        correctAnswer: "The class went outside.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "collective-nouns"]
@@ -484,13 +446,11 @@ export const nouns: SkillContent = {
             "oliver visited London on monday."
         ],
 
-        answer: 0,
-
         explanation:
             "Proper nouns such as 'Oliver', 'London' and 'Monday' all begin with capital letters.",
 
         difficulty: 2,
-
+        correctAnswer: "Oliver visited London on Monday.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "nouns", "proper-nouns"]

@@ -29,13 +29,11 @@ export const desertBiome: SkillContent = {
             "A type of mountain"
         ],
 
-        answer: 0,
-
         explanation:
             "Deserts are areas that receive very little rainfall.",
 
         difficulty: 1,
-
+        correctAnswer: "A very dry area with little rainfall",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -54,13 +52,11 @@ export const desertBiome: SkillContent = {
             "Cool with lots of forests"
         ],
 
-        answer: 0,
-
         explanation:
             "Hot deserts have very little rainfall and can have extremely high temperatures.",
 
         difficulty: 1,
-
+        correctAnswer: "Very dry with high temperatures",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -79,13 +75,11 @@ export const desertBiome: SkillContent = {
             "The Alps"
         ],
 
-        answer: 0,
-
         explanation:
             "The Sahara is a large desert in northern Africa.",
 
         difficulty: 1,
-
+        correctAnswer: "The Sahara Desert",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -104,13 +98,11 @@ export const desertBiome: SkillContent = {
             "Rivers remove all water"
         ],
 
-        answer: 0,
-
         explanation:
             "Many deserts are dry because of atmospheric conditions and location.",
 
         difficulty: 2,
-
+        correctAnswer: "Air conditions make it difficult for clouds to produce rain",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -129,13 +121,11 @@ export const desertBiome: SkillContent = {
             "A mountain peak"
         ],
 
-        answer: 0,
-
         explanation:
             "An oasis is a water source in a dry desert environment.",
 
         difficulty: 1,
-
+        correctAnswer: "A place in a desert where water is found",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -154,13 +144,11 @@ export const desertBiome: SkillContent = {
             "They stop sand movement"
         ],
 
-        answer: 0,
-
         explanation:
             "Oases allow life to survive in dry areas.",
 
         difficulty: 1,
-
+        correctAnswer: "They provide water for plants, animals and people",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -179,13 +167,11 @@ export const desertBiome: SkillContent = {
             "They live underwater"
         ],
 
-        answer: 0,
-
         explanation:
             "Desert plants have features that help them survive with little water.",
 
         difficulty: 1,
-
+        correctAnswer: "They have adaptations to store or save water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -204,13 +190,11 @@ export const desertBiome: SkillContent = {
             "They live in rivers"
         ],
 
-        answer: 0,
-
         explanation:
             "Cacti store water to survive dry conditions.",
 
         difficulty: 1,
-
+        correctAnswer: "They store water in their stems",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -229,13 +213,11 @@ export const desertBiome: SkillContent = {
             "They avoid all sunlight"
         ],
 
-        answer: 0,
-
         explanation:
             "Desert animals have adaptations that help them survive harsh conditions.",
 
         difficulty: 2,
-
+        correctAnswer: "They have adaptations for heat and limited water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "animals"]
@@ -254,13 +236,11 @@ export const desertBiome: SkillContent = {
             "They live underwater"
         ],
 
-        answer: 0,
-
         explanation:
             "Camels have adaptations that help them survive in deserts.",
 
         difficulty: 1,
-
+        correctAnswer: "They can survive with little water and cope with heat",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -279,13 +259,11 @@ export const desertBiome: SkillContent = {
             "A type of cloud"
         ],
 
-        answer: 0,
-
         explanation:
             "Wind moves sand and can create dunes.",
 
         difficulty: 1,
-
+        correctAnswer: "A hill of sand shaped by wind",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -304,13 +282,11 @@ export const desertBiome: SkillContent = {
             "Rivers"
         ],
 
-        answer: 0,
-
         explanation:
             "Wind can move sand across desert landscapes.",
 
         difficulty: 1,
-
+        correctAnswer: "Wind",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -329,13 +305,11 @@ export const desertBiome: SkillContent = {
             "Plants grow too quickly"
         ],
 
-        answer: 0,
-
         explanation:
             "Farming needs water, which is limited in many deserts.",
 
         difficulty: 1,
-
+        correctAnswer: "There is little water available",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -354,13 +328,11 @@ export const desertBiome: SkillContent = {
             "By removing all sand"
         ],
 
-        answer: 0,
-
         explanation:
             "People living in deserts adapt their lifestyles to dry conditions.",
 
         difficulty: 2,
-
+        correctAnswer: "By adapting to the environment and using available resources",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -379,13 +351,11 @@ export const desertBiome: SkillContent = {
             "Rainforests"
         ],
 
-        answer: 0,
-
         explanation:
             "Water is a valuable resource in dry desert environments.",
 
         difficulty: 1,
-
+        correctAnswer: "Water",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -404,13 +374,11 @@ export const desertBiome: SkillContent = {
             "They have too much shade"
         ],
 
-        answer: 0,
-
         explanation:
             "Low rainfall limits the number of plants that can grow.",
 
         difficulty: 1,
-
+        correctAnswer: "They receive much less rainfall",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -429,13 +397,11 @@ export const desertBiome: SkillContent = {
             "A weather instrument"
         ],
 
-        answer: 0,
-
         explanation:
             "Desertification happens when land becomes dry and less productive.",
 
         difficulty: 2,
-
+        correctAnswer: "Land becoming more like a desert",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -454,13 +420,11 @@ export const desertBiome: SkillContent = {
             "They are not important"
         ],
 
-        answer: 0,
-
         explanation:
             "Deserts contain specially adapted species and valuable environments.",
 
         difficulty: 1,
-
+        correctAnswer: "They contain unique plants, animals and ecosystems",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "environment"]
@@ -479,13 +443,11 @@ export const desertBiome: SkillContent = {
             "Dolphin"
         ],
 
-        answer: 0,
-
         explanation:
             "Camels have adaptations that help them survive in deserts.",
 
         difficulty: 1,
-
+        correctAnswer: "Camel",
         estimatedSeconds: 20,
 
         tags: ["geography", "year3", "deserts"]
@@ -504,13 +466,11 @@ export const desertBiome: SkillContent = {
             "A place without any life"
         ],
 
-        answer: 0,
-
         explanation:
             "Deserts are dry ecosystems where living things adapt to limited water.",
 
         difficulty: 2,
-
+        correctAnswer: "A dry environment where plants and animals have special adaptations",
         estimatedSeconds: 25,
 
         tags: ["geography", "year3", "deserts"]

@@ -28,13 +28,11 @@ export const classification: SkillContent = {
             "To make new animals"
         ],
 
-        answer: 0,
-
         explanation:
             "Classification helps scientists organise and study living things.",
 
         difficulty: 1,
-
+        correctAnswer: "To group similar living things together",
         estimatedSeconds: 15,
 
         tags: ["science", "classification"]
@@ -52,13 +50,11 @@ export const classification: SkillContent = {
             "Frog"
         ],
 
-        answer: 0,
-
         explanation:
             "Dogs are mammals because they have fur and feed their young with milk.",
 
         difficulty: 1,
-
+        correctAnswer: "Dog",
         estimatedSeconds: 15,
 
         tags: ["science", "animals", "mammals"]
@@ -76,13 +72,11 @@ export const classification: SkillContent = {
             "Shark"
         ],
 
-        answer: 0,
-
         explanation:
             "Birds have feathers, beaks and lay eggs.",
 
         difficulty: 1,
-
+        correctAnswer: "Pigeon",
         estimatedSeconds: 15,
 
         tags: ["science", "birds"]
@@ -100,13 +94,11 @@ export const classification: SkillContent = {
             "Lizard"
         ],
 
-        answer: 0,
-
         explanation:
             "Fish live in water, breathe through gills and have fins.",
 
         difficulty: 1,
-
+        correctAnswer: "Salmon",
         estimatedSeconds: 15,
 
         tags: ["science", "fish"]
@@ -124,13 +116,11 @@ export const classification: SkillContent = {
             "Frog"
         ],
 
-        answer: 0,
-
         explanation:
             "Reptiles have dry, scaly skin.",
 
         difficulty: 1,
-
+        correctAnswer: "Snake",
         estimatedSeconds: 15,
 
         tags: ["science", "reptiles"]
@@ -148,13 +138,11 @@ export const classification: SkillContent = {
             "Bee"
         ],
 
-        answer: 0,
-
         explanation:
             "Frogs are amphibians because they live part of their lives in water and part on land.",
 
         difficulty: 1,
-
+        correctAnswer: "Frog",
         estimatedSeconds: 15,
 
         tags: ["science", "amphibians"]
@@ -172,13 +160,11 @@ export const classification: SkillContent = {
             "Fish"
         ],
 
-        answer: 0,
-
         explanation:
             "Trees are plants.",
 
         difficulty: 1,
-
+        correctAnswer: "Plants",
         estimatedSeconds: 15,
 
         tags: ["science", "plants"]
@@ -196,13 +182,11 @@ export const classification: SkillContent = {
             "Gills"
         ],
 
-        answer: 0,
-
         explanation:
             "Feathers are unique to birds.",
 
         difficulty: 1,
-
+        correctAnswer: "Feathers",
         estimatedSeconds: 20,
 
         tags: ["science", "birds"]
@@ -220,13 +204,11 @@ export const classification: SkillContent = {
             "Dog"
         ],
 
-        answer: 0,
-
         explanation:
             "Lizards are reptiles with scales.",
 
         difficulty: 1,
-
+        correctAnswer: "Lizard",
         estimatedSeconds: 20,
 
         tags: ["science", "reptiles"]
@@ -244,13 +226,11 @@ export const classification: SkillContent = {
             "Colours only"
         ],
 
-        answer: 0,
-
         explanation:
             "Scientists group living things using their characteristics and features.",
 
         difficulty: 1,
-
+        correctAnswer: "Features",
         estimatedSeconds: 20,
 
         tags: ["science", "classification"]
@@ -268,13 +248,11 @@ export const classification: SkillContent = {
             "Reptiles"
         ],
 
-        answer: 0,
-
         explanation:
             "Even though penguins cannot fly, they are birds.",
 
         difficulty: 2,
-
+        correctAnswer: "Birds",
         estimatedSeconds: 20,
 
         tags: ["science", "birds"]
@@ -292,13 +270,11 @@ export const classification: SkillContent = {
             "Reptiles"
         ],
 
-        answer: 0,
-
         explanation:
             "Whales are mammals even though they live in water.",
 
         difficulty: 2,
-
+        correctAnswer: "Mammals",
         estimatedSeconds: 20,
 
         tags: ["science", "mammals"]
@@ -316,13 +292,11 @@ export const classification: SkillContent = {
             "They have scales."
         ],
 
-        answer: 0,
-
         explanation:
             "Flying does not make an animal a bird.",
 
         difficulty: 2,
-
+        correctAnswer: "They have fur and feed their young milk.",
         estimatedSeconds: 20,
 
         tags: ["science", "mammals"]
@@ -340,13 +314,11 @@ export const classification: SkillContent = {
             "Whale and crocodile"
         ],
 
-        answer: 0,
-
         explanation:
             "Both snakes and lizards are reptiles.",
 
         difficulty: 2,
-
+        correctAnswer: "Snake and lizard",
         estimatedSeconds: 20,
 
         tags: ["science", "reptiles"]
@@ -364,13 +336,11 @@ export const classification: SkillContent = {
             "Amphibians"
         ],
 
-        answer: 0,
-
         explanation:
             "Feathers and a beak are key features of birds.",
 
         difficulty: 2,
-
+        correctAnswer: "Birds",
         estimatedSeconds: 20,
 
         tags: ["science", "birds"]
@@ -388,13 +358,11 @@ export const classification: SkillContent = {
             "Six legs"
         ],
 
-        answer: 0,
-
         explanation:
             "Fish breathe using gills and swim with fins.",
 
         difficulty: 2,
-
+        correctAnswer: "Gills and fins",
         estimatedSeconds: 20,
 
         tags: ["science", "fish"]
@@ -412,13 +380,11 @@ export const classification: SkillContent = {
             "It helps plants grow."
         ],
 
-        answer: 0,
-
         explanation:
             "Classification makes it easier to compare and study living organisms.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps them identify and study living things.",
         estimatedSeconds: 20,
 
         tags: ["science", "classification"]
@@ -436,13 +402,11 @@ export const classification: SkillContent = {
             "Mammals"
         ],
 
-        answer: 0,
-
         explanation:
             "Crocodiles are reptiles with scaly skin.",
 
         difficulty: 2,
-
+        correctAnswer: "Reptiles",
         estimatedSeconds: 20,
 
         tags: ["science", "reptiles"]
@@ -460,13 +424,11 @@ export const classification: SkillContent = {
             "Cod"
         ],
 
-        answer: 0,
-
         explanation:
             "Sharks are fish, but unlike the others they have skeletons made mostly of cartilage rather than bone.",
 
         difficulty: 2,
-
+        correctAnswer: "Shark",
         estimatedSeconds: 20,
 
         tags: ["science", "classification", "fish"]
@@ -484,13 +446,11 @@ export const classification: SkillContent = {
             "Scientists put every living thing into the same group."
         ],
 
-        answer: 0,
-
         explanation:
             "Classification uses shared characteristics to organise living things.",
 
         difficulty: 2,
-
+        correctAnswer: "Scientists group living things by their shared features.",
         estimatedSeconds: 20,
 
         tags: ["science", "classification", "living-things"]

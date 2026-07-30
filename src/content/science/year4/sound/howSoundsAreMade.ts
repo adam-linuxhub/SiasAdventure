@@ -28,13 +28,11 @@ export const howSoundsAreMade: SkillContent = {
             "Magnets"
         ],
 
-        answer: 0,
-
         explanation:
             "Sounds are made when an object vibrates.",
 
         difficulty: 1,
-
+        correctAnswer: "Vibrations",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "vibrations"]
@@ -52,13 +50,11 @@ export const howSoundsAreMade: SkillContent = {
             "The drum becomes magnetic."
         ],
 
-        answer: 0,
-
         explanation:
             "The vibrating drum skin makes the sound.",
 
         difficulty: 1,
-
+        correctAnswer: "The drum skin vibrates.",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "drum"]
@@ -76,13 +72,11 @@ export const howSoundsAreMade: SkillContent = {
             "The body"
         ],
 
-        answer: 0,
-
         explanation:
             "The strings vibrate to produce sound.",
 
         difficulty: 1,
-
+        correctAnswer: "The strings",
         estimatedSeconds: 15,
 
         tags: ["science", "sound", "guitar"]
@@ -100,13 +94,11 @@ export const howSoundsAreMade: SkillContent = {
             "Magnets"
         ],
 
-        answer: 0,
-
         explanation:
             "Sound usually travels through the air as vibrations.",
 
         difficulty: 1,
-
+        correctAnswer: "The air",
         estimatedSeconds: 15,
 
         tags: ["science", "sound"]
@@ -124,13 +116,11 @@ export const howSoundsAreMade: SkillContent = {
             "A magnet"
         ],
 
-        answer: 0,
-
         explanation:
             "A bell vibrates when it is struck.",
 
         difficulty: 1,
-
+        correctAnswer: "A bell",
         estimatedSeconds: 15,
 
         tags: ["science", "sound"]
@@ -148,13 +138,11 @@ export const howSoundsAreMade: SkillContent = {
             "Nose"
         ],
 
-        answer: 0,
-
         explanation:
             "Your ears detect sound vibrations.",
 
         difficulty: 1,
-
+        correctAnswer: "Ears",
         estimatedSeconds: 15,
 
         tags: ["science", "hearing"]
@@ -172,13 +160,11 @@ export const howSoundsAreMade: SkillContent = {
             "The object disappears."
         ],
 
-        answer: 0,
-
         explanation:
             "No vibrations means no sound is produced.",
 
         difficulty: 1,
-
+        correctAnswer: "The sound stops.",
         estimatedSeconds: 15,
 
         tags: ["science", "vibrations"]
@@ -196,13 +182,11 @@ export const howSoundsAreMade: SkillContent = {
             "Tambourine"
         ],
 
-        answer: 0,
-
         explanation:
             "A violin makes sound when its strings vibrate.",
 
         difficulty: 1,
-
+        correctAnswer: "Violin",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "instruments"]
@@ -220,13 +204,11 @@ export const howSoundsAreMade: SkillContent = {
             "Sound is made by shadows."
         ],
 
-        answer: 0,
-
         explanation:
             "All sounds begin with vibrations.",
 
         difficulty: 1,
-
+        correctAnswer: "Sound is made by vibrations.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound"]
@@ -244,13 +226,11 @@ export const howSoundsAreMade: SkillContent = {
             "Electricity"
         ],
 
-        answer: 0,
-
         explanation:
             "The vibrations travel through the air to your ears.",
 
         difficulty: 1,
-
+        correctAnswer: "Vibrations travelling through the air",
         estimatedSeconds: 20,
 
         tags: ["science", "sound"]
@@ -268,13 +248,11 @@ export const howSoundsAreMade: SkillContent = {
             "The sound comes from the floor."
         ],
 
-        answer: 0,
-
         explanation:
             "The clap creates vibrations that travel through the air.",
 
         difficulty: 2,
-
+        correctAnswer: "The clapping makes vibrations that travel through the air.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "vibrations"]
@@ -292,13 +270,11 @@ export const howSoundsAreMade: SkillContent = {
             "Their eyes"
         ],
 
-        answer: 0,
-
         explanation:
             "Vocal cords vibrate to produce sound when we speak.",
 
         difficulty: 2,
-
+        correctAnswer: "Their vocal cords",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "human-body"]
@@ -316,13 +292,11 @@ export const howSoundsAreMade: SkillContent = {
             "A sheet of paper lying flat"
         ],
 
-        answer: 0,
-
         explanation:
             "A ruler can vibrate when it is flicked, making a sound.",
 
         difficulty: 2,
-
+        correctAnswer: "A ruler hanging over the edge of a table",
         estimatedSeconds: 20,
 
         tags: ["science", "vibrations"]
@@ -340,13 +314,11 @@ export const howSoundsAreMade: SkillContent = {
             "The drum gets heavier."
         ],
 
-        answer: 0,
-
         explanation:
             "Stopping the vibrations stops the sound.",
 
         difficulty: 2,
-
+        correctAnswer: "Your hand stops the drum vibrating.",
         estimatedSeconds: 20,
 
         tags: ["science", "drum", "vibrations"]
@@ -364,13 +336,11 @@ export const howSoundsAreMade: SkillContent = {
             "Shadows carry sound."
         ],
 
-        answer: 0,
-
         explanation:
             "Sound is made of vibrations travelling through a material such as air.",
 
         difficulty: 2,
-
+        correctAnswer: "Vibrations travel through the air to your ears.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound"]
@@ -388,13 +358,11 @@ export const howSoundsAreMade: SkillContent = {
             "The string becomes magnetic."
         ],
 
-        answer: 0,
-
         explanation:
             "The vibrating string pushes nearby air, creating sound waves.",
 
         difficulty: 2,
-
+        correctAnswer: "The string vibrates.",
         estimatedSeconds: 20,
 
         tags: ["science", "guitar", "vibrations"]
@@ -412,13 +380,11 @@ export const howSoundsAreMade: SkillContent = {
             "Holding a drum still"
         ],
 
-        answer: 0,
-
         explanation:
             "A stronger hit makes larger vibrations and a louder sound.",
 
         difficulty: 2,
-
+        correctAnswer: "Hitting a drum firmly",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "drum"]
@@ -436,13 +402,11 @@ export const howSoundsAreMade: SkillContent = {
             "Something must freeze."
         ],
 
-        answer: 0,
-
         explanation:
             "Every sound begins with vibrations.",
 
         difficulty: 2,
-
+        correctAnswer: "Something must vibrate.",
         estimatedSeconds: 20,
 
         tags: ["science", "vibrations"]
@@ -460,13 +424,11 @@ export const howSoundsAreMade: SkillContent = {
             "The wind makes the bell invisible."
         ],
 
-        answer: 0,
-
         explanation:
             "Sound travels through the air from the bell to people's ears.",
 
         difficulty: 2,
-
+        correctAnswer: "The sound vibrations travel through the air.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound"]
@@ -484,13 +446,11 @@ export const howSoundsAreMade: SkillContent = {
             "Sounds happen without anything moving."
         ],
 
-        answer: 0,
-
         explanation:
             "All sounds begin with vibrations that travel through materials such as air before reaching our ears.",
 
         difficulty: 2,
-
+        correctAnswer: "Sounds are made when objects vibrate and the vibrations travel through a material to our ears.",
         estimatedSeconds: 20,
 
         tags: ["science", "sound", "vibrations", "hearing"]

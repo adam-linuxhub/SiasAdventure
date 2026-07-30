@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const readingFluency: SkillContent = {
 
@@ -29,13 +29,11 @@ export const readingFluency: SkillContent = {
             "Reading without understanding"
         ],
 
-        answer: 0,
-
         explanation:
             "Fluent readers read accurately, smoothly and understand what they are reading.",
 
         difficulty: 1,
-
+        correctAnswer: "Reading smoothly, accurately and with expression",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -54,13 +52,11 @@ export const readingFluency: SkillContent = {
             "It removes punctuation"
         ],
 
-        answer: 0,
-
         explanation:
             "Expression helps readers show emotions and understand the author's meaning.",
 
         difficulty: 1,
-
+        correctAnswer: "It helps show the meaning and feelings in the text",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -79,13 +75,11 @@ export const readingFluency: SkillContent = {
             "Skip the sentence"
         ],
 
-        answer: 0,
-
         explanation:
             "A full stop shows the end of a sentence and requires a pause.",
 
         difficulty: 1,
-
+        correctAnswer: "Pause briefly",
         estimatedSeconds: 15,
 
         tags: ["english", "reading", "fluency", "punctuation"]
@@ -104,13 +98,11 @@ export const readingFluency: SkillContent = {
             "Sound angry"
         ],
 
-        answer: 0,
-
         explanation:
             "Questions usually have a questioning tone.",
 
         difficulty: 1,
-
+        correctAnswer: "Sound like you are asking something",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -129,13 +121,11 @@ export const readingFluency: SkillContent = {
             "The story will end"
         ],
 
-        answer: 0,
-
         explanation:
             "Reading too quickly can make it harder to understand the text.",
 
         difficulty: 1,
-
+        correctAnswer: "They might miss the meaning",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -154,13 +144,11 @@ export const readingFluency: SkillContent = {
             "Only read pictures"
         ],
 
-        answer: 0,
-
         explanation:
             "Recognising words quickly helps reading flow smoothly.",
 
         difficulty: 1,
-
+        correctAnswer: "Recognise many words automatically",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -179,13 +167,11 @@ export const readingFluency: SkillContent = {
             "How old the book is"
         ],
 
-        answer: 0,
-
         explanation:
             "Punctuation gives clues about pauses and expression.",
 
         difficulty: 1,
-
+        correctAnswer: "When to pause and how the sentence should sound",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency", "punctuation"]
@@ -204,13 +190,11 @@ export const readingFluency: SkillContent = {
             "A reader who ignores punctuation"
         ],
 
-        answer: 0,
-
         explanation:
             "Fluency combines accuracy, speed and understanding.",
 
         difficulty: 1,
-
+        correctAnswer: "A reader who reads smoothly and understands the text",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -229,13 +213,11 @@ export const readingFluency: SkillContent = {
             "Stop reading forever"
         ],
 
-        answer: 0,
-
         explanation:
             "Good readers use strategies to work out unfamiliar words.",
 
         difficulty: 1,
-
+        correctAnswer: "Try to sound it out and use clues",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -254,13 +236,11 @@ export const readingFluency: SkillContent = {
             "Practice changes the story"
         ],
 
-        answer: 0,
-
         explanation:
             "Regular reading practice improves accuracy and confidence.",
 
         difficulty: 1,
-
+        correctAnswer: "Practice helps reading become smoother",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -279,13 +259,11 @@ export const readingFluency: SkillContent = {
             "Exclamation mark"
         ],
 
-        answer: 0,
-
         explanation:
             "A comma usually shows a short pause within a sentence.",
 
         difficulty: 2,
-
+        correctAnswer: "Comma",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency", "punctuation"]
@@ -304,13 +282,11 @@ export const readingFluency: SkillContent = {
             "Ignore the character"
         ],
 
-        answer: 0,
-
         explanation:
             "Good readers use expression to show the character's feelings.",
 
         difficulty: 2,
-
+        correctAnswer: "Use a voice that shows anger",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -329,13 +305,11 @@ export const readingFluency: SkillContent = {
             "It tells you the page number"
         ],
 
-        answer: 0,
-
         explanation:
             "Punctuation gives clues about pauses and expression.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps you know how the sentence should sound",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -354,13 +328,11 @@ export const readingFluency: SkillContent = {
             "Pausing correctly"
         ],
 
-        answer: 0,
-
         explanation:
             "Fluent readers group words together and understand meaning.",
 
         difficulty: 2,
-
+        correctAnswer: "Reading slowly word-by-word without understanding",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -379,13 +351,11 @@ export const readingFluency: SkillContent = {
             "Read faster"
         ],
 
-        answer: 0,
-
         explanation:
             "Expression helps communicate the feeling of the text.",
 
         difficulty: 2,
-
+        correctAnswer: "Use expression to show surprise",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -404,13 +374,11 @@ export const readingFluency: SkillContent = {
             "Reading only titles"
         ],
 
-        answer: 0,
-
         explanation:
             "Fluency helps readers focus on meaning instead of decoding every word.",
 
         difficulty: 2,
-
+        correctAnswer: "Reading fluently",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -429,13 +397,11 @@ export const readingFluency: SkillContent = {
             "Only at the end of a book"
         ],
 
-        answer: 0,
-
         explanation:
             "Punctuation guides natural pauses.",
 
         difficulty: 2,
-
+        correctAnswer: "At punctuation marks",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -454,13 +420,11 @@ export const readingFluency: SkillContent = {
             "Memorise every page"
         ],
 
-        answer: 0,
-
         explanation:
             "Regular reading practice builds confidence and fluency.",
 
         difficulty: 2,
-
+        correctAnswer: "Read regularly and practise aloud",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -479,13 +443,11 @@ export const readingFluency: SkillContent = {
             "It removes punctuation"
         ],
 
-        answer: 0,
-
         explanation:
             "Reading groups of words helps the reader understand ideas.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps them understand the meaning",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]
@@ -504,13 +466,11 @@ export const readingFluency: SkillContent = {
             "Only finishing the book"
         ],
 
-        answer: 0,
-
         explanation:
             "Fluent reading combines accuracy, expression and comprehension.",
 
         difficulty: 2,
-
+        correctAnswer: "Accuracy, expression and understanding",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "fluency"]

@@ -28,13 +28,11 @@ export const magnetPoles: SkillContent = {
             "Four"
         ],
 
-        answer: 0,
-
         explanation:
             "Every magnet has two poles: a north pole and a south pole.",
 
         difficulty: 1,
-
+        correctAnswer: "Two",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "poles"]
@@ -52,13 +50,11 @@ export const magnetPoles: SkillContent = {
             "Left and Right"
         ],
 
-        answer: 0,
-
         explanation:
             "The ends of a magnet are called the north pole and the south pole.",
 
         difficulty: 1,
-
+        correctAnswer: "North and South",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "poles"]
@@ -76,13 +72,11 @@ export const magnetPoles: SkillContent = {
             "Nothing happens"
         ],
 
-        answer: 0,
-
         explanation:
             "Unlike poles attract each other.",
 
         difficulty: 1,
-
+        correctAnswer: "They attract",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "poles"]
@@ -100,13 +94,11 @@ export const magnetPoles: SkillContent = {
             "They stick forever"
         ],
 
-        answer: 0,
-
         explanation:
             "Like poles repel each other.",
 
         difficulty: 1,
-
+        correctAnswer: "They repel",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "poles"]
@@ -124,13 +116,11 @@ export const magnetPoles: SkillContent = {
             "Nothing happens"
         ],
 
-        answer: 0,
-
         explanation:
             "Like poles always repel.",
 
         difficulty: 1,
-
+        correctAnswer: "They repel",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "poles"]
@@ -148,13 +138,11 @@ export const magnetPoles: SkillContent = {
             "All poles attract"
         ],
 
-        answer: 0,
-
         explanation:
             "Opposite poles attract.",
 
         difficulty: 1,
-
+        correctAnswer: "North and South",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "attract"]
@@ -172,13 +160,11 @@ export const magnetPoles: SkillContent = {
             "Only south poles"
         ],
 
-        answer: 0,
-
         explanation:
             "Like poles (north-north or south-south) repel each other.",
 
         difficulty: 1,
-
+        correctAnswer: "Like poles",
         estimatedSeconds: 15,
 
         tags: ["science", "magnets", "repel"]
@@ -196,13 +182,11 @@ export const magnetPoles: SkillContent = {
             "Only underneath"
         ],
 
-        answer: 0,
-
         explanation:
             "The magnetic force is strongest at the north and south poles.",
 
         difficulty: 1,
-
+        correctAnswer: "At the poles",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "poles"]
@@ -220,13 +204,11 @@ export const magnetPoles: SkillContent = {
             "Only large magnets have poles."
         ],
 
-        answer: 0,
-
         explanation:
             "Every magnet has two poles.",
 
         difficulty: 1,
-
+        correctAnswer: "Every magnet has a north and south pole.",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "poles"]
@@ -244,13 +226,11 @@ export const magnetPoles: SkillContent = {
             "Bounce"
         ],
 
-        answer: 0,
-
         explanation:
             "Repel means magnets push apart.",
 
         difficulty: 1,
-
+        correctAnswer: "Repel",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "repel"]
@@ -268,13 +248,11 @@ export const magnetPoles: SkillContent = {
             "Nothing changes"
         ],
 
-        answer: 0,
-
         explanation:
             "North and north are like poles, so they repel.",
 
         difficulty: 2,
-
+        correctAnswer: "They push apart",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "repel"]
@@ -292,13 +270,11 @@ export const magnetPoles: SkillContent = {
             "Nothing happens"
         ],
 
-        answer: 0,
-
         explanation:
             "Opposite poles attract each other.",
 
         difficulty: 2,
-
+        correctAnswer: "They pull together",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "attract"]
@@ -316,13 +292,11 @@ export const magnetPoles: SkillContent = {
             "They have run out of magnetism"
         ],
 
-        answer: 0,
-
         explanation:
             "Like poles repel one another.",
 
         difficulty: 2,
-
+        correctAnswer: "Like poles are facing each other",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "repel"]
@@ -340,13 +314,11 @@ export const magnetPoles: SkillContent = {
             "They are heavy"
         ],
 
-        answer: 0,
-
         explanation:
             "North and south poles attract.",
 
         difficulty: 2,
-
+        correctAnswer: "Opposite poles are facing each other",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "attract"]
@@ -364,13 +336,11 @@ export const magnetPoles: SkillContent = {
             "None of these"
         ],
 
-        answer: 0,
-
         explanation:
             "Unlike poles attract each other.",
 
         difficulty: 2,
-
+        correctAnswer: "North and South",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "poles"]
@@ -388,13 +358,11 @@ export const magnetPoles: SkillContent = {
             "Only small north poles attract."
         ],
 
-        answer: 0,
-
         explanation:
             "North-north is a pair of like poles, so they repel.",
 
         difficulty: 2,
-
+        correctAnswer: "No, north poles repel each other.",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "repel"]
@@ -412,13 +380,11 @@ export const magnetPoles: SkillContent = {
             "Paint the magnets"
         ],
 
-        answer: 0,
-
         explanation:
             "Testing different combinations is the best investigation.",
 
         difficulty: 2,
-
+        correctAnswer: "Test different pole combinations",
         estimatedSeconds: 20,
 
         tags: ["science", "working-scientifically", "magnets"]
@@ -436,13 +402,11 @@ export const magnetPoles: SkillContent = {
             "The ends are colder"
         ],
 
-        answer: 0,
-
         explanation:
             "The north and south poles are where the magnetic force is strongest.",
 
         difficulty: 2,
-
+        correctAnswer: "The poles are at the ends",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "poles"]
@@ -460,13 +424,11 @@ export const magnetPoles: SkillContent = {
             "All poles repel."
         ],
 
-        answer: 0,
-
         explanation:
             "This is the basic rule for magnetic poles.",
 
         difficulty: 2,
-
+        correctAnswer: "Unlike poles attract and like poles repel.",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "attract", "repel"]
@@ -484,13 +446,11 @@ export const magnetPoles: SkillContent = {
             "Poles only matter for large magnets."
         ],
 
-        answer: 0,
-
         explanation:
             "All magnets have two poles. Opposite poles attract, while like poles repel.",
 
         difficulty: 2,
-
+        correctAnswer: "Every magnet has a north and south pole. Opposite poles attract and like poles repel.",
         estimatedSeconds: 20,
 
         tags: ["science", "magnets", "poles", "attract", "repel"]

@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const gridReferences: SkillContent = {
 
@@ -28,13 +28,11 @@ export const gridReferences: SkillContent = {
             "A weather map"
         ],
 
-        answer: 0,
-
         explanation:
             "Grid lines divide a map into squares, making places easier to find.",
 
         difficulty: 1,
-
+        correctAnswer: "A pattern of lines that helps find places",
         estimatedSeconds: 15,
 
         tags: ["geography", "maps", "grid"]
@@ -52,13 +50,11 @@ export const gridReferences: SkillContent = {
             "To show the weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Grid references help us identify a precise place on a map.",
 
         difficulty: 1,
-
+        correctAnswer: "To help people find exact locations",
         estimatedSeconds: 15,
 
         tags: ["geography", "grid"]
@@ -76,13 +72,11 @@ export const gridReferences: SkillContent = {
             "Stars"
         ],
 
-        answer: 0,
-
         explanation:
             "Grid lines usually cross to form squares.",
 
         difficulty: 1,
-
+        correctAnswer: "Squares",
         estimatedSeconds: 15,
 
         tags: ["geography", "grid"]
@@ -100,13 +94,11 @@ export const gridReferences: SkillContent = {
             "Find compass directions"
         ],
 
-        answer: 0,
-
         explanation:
             "The numbers around the edge identify rows and columns of the grid.",
 
         difficulty: 1,
-
+        correctAnswer: "Find grid references",
         estimatedSeconds: 15,
 
         tags: ["geography", "grid"]
@@ -124,13 +116,11 @@ export const gridReferences: SkillContent = {
             "How old a building is"
         ],
 
-        answer: 0,
-
         explanation:
             "A grid reference identifies the location of a place on a map.",
 
         difficulty: 1,
-
+        correctAnswer: "Where something is on a map",
         estimatedSeconds: 15,
 
         tags: ["geography", "grid"]
@@ -148,13 +138,11 @@ export const gridReferences: SkillContent = {
             "Traffic lights"
         ],
 
-        answer: 0,
-
         explanation:
             "Grid references are based on the grid lines printed on the map.",
 
         difficulty: 1,
-
+        correctAnswer: "Grid lines",
         estimatedSeconds: 15,
 
         tags: ["geography", "maps"]
@@ -172,13 +160,11 @@ export const gridReferences: SkillContent = {
             "Quietly"
         ],
 
-        answer: 0,
-
         explanation:
             "Grid references make finding places much more accurate.",
 
         difficulty: 1,
-
+        correctAnswer: "Accurately",
         estimatedSeconds: 15,
 
         tags: ["geography", "grid"]
@@ -196,13 +182,11 @@ export const gridReferences: SkillContent = {
             "Musicians"
         ],
 
-        answer: 0,
-
         explanation:
             "Walkers often use maps and grid references to navigate.",
 
         difficulty: 1,
-
+        correctAnswer: "Walkers",
         estimatedSeconds: 20,
 
         tags: ["geography", "navigation"]
@@ -220,13 +204,11 @@ export const gridReferences: SkillContent = {
             "To show the weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Squares help us describe locations clearly.",
 
         difficulty: 1,
-
+        correctAnswer: "To make places easier to find",
         estimatedSeconds: 20,
 
         tags: ["geography", "grid"]
@@ -244,13 +226,11 @@ export const gridReferences: SkillContent = {
             "Every map has no grid."
         ],
 
-        answer: 0,
-
         explanation:
             "Grid references are used to identify locations.",
 
         difficulty: 1,
-
+        correctAnswer: "Grid references help locate places on maps.",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps"]
@@ -268,13 +248,11 @@ export const gridReferences: SkillContent = {
             "They describe the weather."
         ],
 
-        answer: 0,
-
         explanation:
             "A grid reference tells someone exactly where to look on the map.",
 
         difficulty: 2,
-
+        correctAnswer: "They identify an exact location.",
         estimatedSeconds: 20,
 
         tags: ["geography", "grid"]
@@ -292,13 +270,11 @@ export const gridReferences: SkillContent = {
             "Different weather"
         ],
 
-        answer: 0,
-
         explanation:
             "A grid reference identifies one location on a particular map.",
 
         difficulty: 2,
-
+        correctAnswer: "The same place",
         estimatedSeconds: 20,
 
         tags: ["geography", "grid"]
@@ -316,13 +292,11 @@ export const gridReferences: SkillContent = {
             "They count buildings."
         ],
 
-        answer: 0,
-
         explanation:
             "Accurate locations help emergency services find places quickly.",
 
         difficulty: 2,
-
+        correctAnswer: "They help identify locations accurately.",
         estimatedSeconds: 20,
 
         tags: ["geography", "navigation"]
@@ -340,13 +314,11 @@ export const gridReferences: SkillContent = {
             "A ruler"
         ],
 
-        answer: 0,
-
         explanation:
             "Grid references only work if the map has a grid.",
 
         difficulty: 2,
-
+        correctAnswer: "The grid lines on the map",
         estimatedSeconds: 20,
 
         tags: ["geography", "maps"]
@@ -364,13 +336,11 @@ export const gridReferences: SkillContent = {
             "To show rivers only"
         ],
 
-        answer: 0,
-
         explanation:
             "Rows and columns allow every square to be identified.",
 
         difficulty: 2,
-
+        correctAnswer: "To identify each square accurately",
         estimatedSeconds: 20,
 
         tags: ["geography", "grid"]
@@ -388,13 +358,11 @@ export const gridReferences: SkillContent = {
             "Painting a picture"
         ],
 
-        answer: 0,
-
         explanation:
             "Grid references are useful when finding exact places on maps.",
 
         difficulty: 2,
-
+        correctAnswer: "Finding a campsite on a map",
         estimatedSeconds: 20,
 
         tags: ["geography", "navigation"]
@@ -412,13 +380,11 @@ export const gridReferences: SkillContent = {
             "To mark country flags"
         ],
 
-        answer: 0,
-
         explanation:
             "Grid squares help users locate places quickly.",
 
         difficulty: 2,
-
+        correctAnswer: "To organise the map into easy-to-find sections",
         estimatedSeconds: 20,
 
         tags: ["geography", "grid"]
@@ -436,13 +402,11 @@ export const gridReferences: SkillContent = {
             "They only work in cities."
         ],
 
-        answer: 0,
-
         explanation:
             "Grid references give exact positions rather than rough descriptions.",
 
         difficulty: 2,
-
+        correctAnswer: "They are much more precise.",
         estimatedSeconds: 20,
 
         tags: ["geography", "grid"]
@@ -460,13 +424,11 @@ export const gridReferences: SkillContent = {
             "Finding the date"
         ],
 
-        answer: 0,
-
         explanation:
             "Grid references are one of the main map-reading skills.",
 
         difficulty: 2,
-
+        correctAnswer: "Finding locations accurately",
         estimatedSeconds: 20,
 
         tags: ["geography", "map-skills"]
@@ -484,13 +446,11 @@ export const gridReferences: SkillContent = {
             "It shows how old a town is."
         ],
 
-        answer: 0,
-
         explanation:
             "Grid references are used to locate places accurately on maps.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps identify the exact position of a place on a map.",
         estimatedSeconds: 20,
 
         tags: ["geography", "grid", "maps", "map-skills"]

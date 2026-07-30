@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const pronouns: SkillContent = {
 
@@ -28,13 +28,11 @@ export const pronouns: SkillContent = {
             "happy"
         ],
 
-        answer: 0,
-
         explanation:
             "'He' is a pronoun because it can replace the name of a person.",
 
         difficulty: 1,
-
+        correctAnswer: "he",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "pronouns"]
@@ -52,13 +50,11 @@ export const pronouns: SkillContent = {
             "quickly"
         ],
 
-        answer: 0,
-
         explanation:
             "'She' is a pronoun used instead of a girl's name.",
 
         difficulty: 1,
-
+        correctAnswer: "she",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "pronouns"]
@@ -76,13 +72,11 @@ export const pronouns: SkillContent = {
             "soft"
         ],
 
-        answer: 0,
-
         explanation:
             "'It' is a pronoun used for animals, objects or ideas.",
 
         difficulty: 1,
-
+        correctAnswer: "it",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "pronouns"]
@@ -100,13 +94,11 @@ export const pronouns: SkillContent = {
             "park"
         ],
 
-        answer: 0,
-
         explanation:
             "'They' is a pronoun that replaces more than one person or thing.",
 
         difficulty: 1,
-
+        correctAnswer: "they",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "pronouns"]
@@ -124,13 +116,11 @@ export const pronouns: SkillContent = {
             "green"
         ],
 
-        answer: 0,
-
         explanation:
             "'He' can replace the noun 'Oliver' in a sentence.",
 
         difficulty: 1,
-
+        correctAnswer: "he",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "pronouns"]
@@ -148,13 +138,11 @@ export const pronouns: SkillContent = {
             "book"
         ],
 
-        answer: 0,
-
         explanation:
             "'She' can replace the noun 'Emma'.",
 
         difficulty: 1,
-
+        correctAnswer: "she",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "pronouns"]
@@ -172,13 +160,11 @@ export const pronouns: SkillContent = {
             "garden"
         ],
 
-        answer: 0,
-
         explanation:
             "'It' can replace a singular animal in simple sentences.",
 
         difficulty: 1,
-
+        correctAnswer: "it",
         estimatedSeconds: 15,
 
         tags: ["english", "grammar", "pronouns"]
@@ -196,13 +182,11 @@ export const pronouns: SkillContent = {
             "Tall trees."
         ],
 
-        answer: 0,
-
         explanation:
             "'She' is a pronoun.",
 
         difficulty: 1,
-
+        correctAnswer: "She laughed.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -220,13 +204,11 @@ export const pronouns: SkillContent = {
             "he"
         ],
 
-        answer: 0,
-
         explanation:
             "'Teacher' is a noun, not a pronoun.",
 
         difficulty: 1,
-
+        correctAnswer: "teacher",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar"]
@@ -244,13 +226,11 @@ export const pronouns: SkillContent = {
             "To join sentences"
         ],
 
-        answer: 0,
-
         explanation:
             "Pronouns make writing smoother by replacing repeated nouns.",
 
         difficulty: 1,
-
+        correctAnswer: "To avoid repeating nouns",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -268,13 +248,11 @@ export const pronouns: SkillContent = {
             "Happy"
         ],
 
-        answer: 0,
-
         explanation:
             "'She' replaces the repeated noun 'Lucy'.",
 
         difficulty: 2,
-
+        correctAnswer: "She",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -292,13 +270,11 @@ export const pronouns: SkillContent = {
             "He ball Sam."
         ],
 
-        answer: 0,
-
         explanation:
             "'He' replaces Sam and 'it' replaces the ball.",
 
         difficulty: 2,
-
+        correctAnswer: "Sam found the ball. He kicked it.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -316,13 +292,11 @@ export const pronouns: SkillContent = {
             "it"
         ],
 
-        answer: 0,
-
         explanation:
             "'They' is used for more than one person.",
 
         difficulty: 2,
-
+        correctAnswer: "they",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -340,13 +314,11 @@ export const pronouns: SkillContent = {
             "milk"
         ],
 
-        answer: 0,
-
         explanation:
             "'Its' is a possessive pronoun showing the milk belongs to the cat.",
 
         difficulty: 2,
-
+        correctAnswer: "its",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -364,13 +336,11 @@ export const pronouns: SkillContent = {
             "Children helped friends."
         ],
 
-        answer: 0,
-
         explanation:
             "'They' and 'us' are both pronouns.",
 
         difficulty: 2,
-
+        correctAnswer: "They helped us.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -388,13 +358,11 @@ export const pronouns: SkillContent = {
             "we"
         ],
 
-        answer: 0,
-
         explanation:
             "'It' is used for a single object.",
 
         difficulty: 2,
-
+        correctAnswer: "it",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -412,13 +380,11 @@ export const pronouns: SkillContent = {
             "She Ben Mia."
         ],
 
-        answer: 0,
-
         explanation:
             "Pronouns make the sentence smoother by avoiding repetition.",
 
         difficulty: 2,
-
+        correctAnswer: "Mia saw Ben. She waved to him.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -436,13 +402,11 @@ export const pronouns: SkillContent = {
             "they"
         ],
 
-        answer: 0,
-
         explanation:
             "'I' is the pronoun used by the person speaking.",
 
         difficulty: 2,
-
+        correctAnswer: "I",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -460,13 +424,11 @@ export const pronouns: SkillContent = {
             "they"
         ],
 
-        answer: 0,
-
         explanation:
             "'You' is the pronoun used for the person being spoken to.",
 
         difficulty: 2,
-
+        correctAnswer: "you",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]
@@ -484,13 +446,11 @@ export const pronouns: SkillContent = {
             "Outside they Olivia."
         ],
 
-        answer: 0,
-
         explanation:
             "'They' replaces 'Olivia and Noah', and 'it' replaces the activity or situation.",
 
         difficulty: 2,
-
+        correctAnswer: "Olivia and Noah played outside. They enjoyed it.",
         estimatedSeconds: 20,
 
         tags: ["english", "grammar", "pronouns"]

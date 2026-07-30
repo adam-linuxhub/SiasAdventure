@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const romanSettlements: SkillContent = {
 
@@ -29,13 +29,11 @@ export const romanSettlements: SkillContent = {
             "A farming tool"
         ],
 
-        answer: 0,
-
         explanation:
             "A settlement is a place where people build homes and live.",
 
         difficulty: 1,
-
+        correctAnswer: "A place where people live",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -54,13 +52,11 @@ export const romanSettlements: SkillContent = {
             "Railways"
         ],
 
-        answer: 0,
-
         explanation:
             "The Romans built many structures that changed Britain.",
 
         difficulty: 1,
-
+        correctAnswer: "Towns, roads and forts",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -79,13 +75,11 @@ export const romanSettlements: SkillContent = {
             "To stop trade"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman roads helped soldiers, traders and travellers move around the empire.",
 
         difficulty: 1,
-
+        correctAnswer: "To help people and armies travel",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -104,13 +98,11 @@ export const romanSettlements: SkillContent = {
             "A temple"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman towns were settlements where people lived and worked.",
 
         difficulty: 1,
-
+        correctAnswer: "A settlement",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -129,13 +121,11 @@ export const romanSettlements: SkillContent = {
             "To hide from people"
         ],
 
-        answer: 0,
-
         explanation:
             "Roads connected towns and made trading easier.",
 
         difficulty: 1,
-
+        correctAnswer: "For travel and trade",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -154,13 +144,11 @@ export const romanSettlements: SkillContent = {
             "Building ships"
         ],
 
-        answer: 0,
-
         explanation:
             "Forts helped the Roman army control areas.",
 
         difficulty: 1,
-
+        correctAnswer: "Housing and protecting soldiers",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -179,13 +167,11 @@ export const romanSettlements: SkillContent = {
             "A soldier's helmet"
         ],
 
-        answer: 0,
-
         explanation:
             "Wealthy Romans often lived in villas in the countryside.",
 
         difficulty: 1,
-
+        correctAnswer: "A large Roman house",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -204,13 +190,11 @@ export const romanSettlements: SkillContent = {
             "Skyscrapers"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman towns included buildings for shopping, religion and social activities.",
 
         difficulty: 1,
-
+        correctAnswer: "Baths, shops and temples",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -229,13 +213,11 @@ export const romanSettlements: SkillContent = {
             "They were only for animals"
         ],
 
-        answer: 0,
-
         explanation:
             "Baths were important meeting places in Roman towns.",
 
         difficulty: 1,
-
+        correctAnswer: "They were places to wash and socialise",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -254,13 +236,11 @@ export const romanSettlements: SkillContent = {
             "Planes"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman engineers were skilled builders.",
 
         difficulty: 1,
-
+        correctAnswer: "Roads, bridges and buildings",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -279,13 +259,11 @@ export const romanSettlements: SkillContent = {
             "They were impossible to reach"
         ],
 
-        answer: 0,
-
         explanation:
             "Settlements grew because they became important places for communities.",
 
         difficulty: 2,
-
+        correctAnswer: "People came to live, work and trade there",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -304,13 +282,11 @@ export const romanSettlements: SkillContent = {
             "Growing only one crop"
         ],
 
-        answer: 0,
-
         explanation:
             "Trade involves exchanging goods and services.",
 
         difficulty: 2,
-
+        correctAnswer: "Buying and selling goods",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -329,13 +305,11 @@ export const romanSettlements: SkillContent = {
             "To replace towns"
         ],
 
-        answer: 0,
-
         explanation:
             "Forts helped Romans protect and manage conquered land.",
 
         difficulty: 2,
-
+        correctAnswer: "To help control Roman territory",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -354,13 +328,11 @@ export const romanSettlements: SkillContent = {
             "Stories without evidence"
         ],
 
-        answer: 0,
-
         explanation:
             "Archaeologists study remains from the past.",
 
         difficulty: 2,
-
+        correctAnswer: "Ruins, roads and buildings",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -379,13 +351,11 @@ export const romanSettlements: SkillContent = {
             "They ended farming"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman settlements changed how many people lived and worked.",
 
         difficulty: 2,
-
+        correctAnswer: "They introduced new ways of living and trading",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -404,13 +374,11 @@ export const romanSettlements: SkillContent = {
             "They were places to bury people"
         ],
 
-        answer: 0,
-
         explanation:
             "Markets supported trade in Roman settlements.",
 
         difficulty: 2,
-
+        correctAnswer: "People could buy and sell goods",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -429,13 +397,11 @@ export const romanSettlements: SkillContent = {
             "Tokyo"
         ],
 
-        answer: 0,
-
         explanation:
             "London began as the Roman settlement of Londinium.",
 
         difficulty: 2,
-
+        correctAnswer: "London",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -454,13 +420,11 @@ export const romanSettlements: SkillContent = {
             "A type of food"
         ],
 
-        answer: 0,
-
         explanation:
             "Londinium was the Roman name for the settlement that became London.",
 
         difficulty: 2,
-
+        correctAnswer: "A Roman settlement that became London",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -479,13 +443,11 @@ export const romanSettlements: SkillContent = {
             "To predict the future"
         ],
 
-        answer: 0,
-
         explanation:
             "Settlements provide evidence about everyday life.",
 
         difficulty: 2,
-
+        correctAnswer: "To learn how people lived in Roman Britain",
         estimatedSeconds: 20,
 
         tags: ["history", "year3", "roman-britain", "settlements"]
@@ -504,13 +466,11 @@ export const romanSettlements: SkillContent = {
             "Only military camps"
         ],
 
-        answer: 0,
-
         explanation:
             "Roman settlements included many different types of places where people lived.",
 
         difficulty: 2,
-
+        correctAnswer: "Places where Romans built towns, forts and homes",
         estimatedSeconds: 25,
 
         tags: ["history", "year3", "roman-britain", "settlements"]

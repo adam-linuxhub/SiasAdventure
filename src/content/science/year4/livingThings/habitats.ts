@@ -28,13 +28,11 @@ export const habitats: SkillContent = {
             "A kind of plant"
         ],
 
-        answer: 0,
-
         explanation:
             "A habitat is the natural place where a plant or animal lives.",
 
         difficulty: 1,
-
+        correctAnswer: "The place where a living thing lives",
         estimatedSeconds: 15,
 
         tags: ["science", "habitats"]
@@ -52,13 +50,11 @@ export const habitats: SkillContent = {
             "Rabbit"
         ],
 
-        answer: 0,
-
         explanation:
             "Dolphins are adapted to life in the sea.",
 
         difficulty: 1,
-
+        correctAnswer: "Dolphin",
         estimatedSeconds: 15,
 
         tags: ["science", "habitats", "animals"]
@@ -76,13 +72,11 @@ export const habitats: SkillContent = {
             "Arctic"
         ],
 
-        answer: 0,
-
         explanation:
             "Camels are well adapted to hot desert habitats.",
 
         difficulty: 1,
-
+        correctAnswer: "Desert",
         estimatedSeconds: 15,
 
         tags: ["science", "habitats"]
@@ -100,13 +94,11 @@ export const habitats: SkillContent = {
             "Ocean"
         ],
 
-        answer: 0,
-
         explanation:
             "Frogs often live in or near ponds.",
 
         difficulty: 1,
-
+        correctAnswer: "Pond",
         estimatedSeconds: 15,
 
         tags: ["science", "habitats", "pond"]
@@ -124,13 +116,11 @@ export const habitats: SkillContent = {
             "Coral"
         ],
 
-        answer: 0,
-
         explanation:
             "Oak trees are common in woodland habitats.",
 
         difficulty: 1,
-
+        correctAnswer: "Oak tree",
         estimatedSeconds: 15,
 
         tags: ["science", "plants", "habitats"]
@@ -148,13 +138,11 @@ export const habitats: SkillContent = {
             "Pond"
         ],
 
-        answer: 0,
-
         explanation:
             "Oceans are made of salt water.",
 
         difficulty: 1,
-
+        correctAnswer: "Ocean",
         estimatedSeconds: 15,
 
         tags: ["science", "habitats"]
@@ -172,13 +160,11 @@ export const habitats: SkillContent = {
             "Tiger"
         ],
 
-        answer: 0,
-
         explanation:
             "Polar bears are adapted to very cold environments.",
 
         difficulty: 1,
-
+        correctAnswer: "Polar bear",
         estimatedSeconds: 15,
 
         tags: ["science", "habitats", "animals"]
@@ -196,13 +182,11 @@ export const habitats: SkillContent = {
             "To make weather"
         ],
 
-        answer: 0,
-
         explanation:
             "Habitats provide everything living things need to survive.",
 
         difficulty: 1,
-
+        correctAnswer: "To find food, water and shelter",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats"]
@@ -220,13 +204,11 @@ export const habitats: SkillContent = {
             "Grassland"
         ],
 
-        answer: 0,
-
         explanation:
             "Fish are adapted to living in water.",
 
         difficulty: 1,
-
+        correctAnswer: "River",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats", "fish"]
@@ -244,13 +226,11 @@ export const habitats: SkillContent = {
             "Habitats are only found outdoors."
         ],
 
-        answer: 0,
-
         explanation:
             "Different species are suited to different habitats.",
 
         difficulty: 1,
-
+        correctAnswer: "Different living things live in different habitats.",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats"]
@@ -268,13 +248,11 @@ export const habitats: SkillContent = {
             "It grows in ice."
         ],
 
-        answer: 0,
-
         explanation:
             "Cacti store water to survive long dry periods.",
 
         difficulty: 2,
-
+        correctAnswer: "It stores water.",
         estimatedSeconds: 20,
 
         tags: ["science", "plants", "adaptations"]
@@ -292,13 +270,11 @@ export const habitats: SkillContent = {
             "To fly"
         ],
 
-        answer: 0,
-
         explanation:
             "Gills allow fish to take oxygen from water.",
 
         difficulty: 2,
-
+        correctAnswer: "To breathe underwater",
         estimatedSeconds: 20,
 
         tags: ["science", "fish", "adaptations"]
@@ -316,13 +292,11 @@ export const habitats: SkillContent = {
             "Nothing changes."
         ],
 
-        answer: 0,
-
         explanation:
             "Animals often need to find a new habitat if their old one no longer meets their needs.",
 
         difficulty: 2,
-
+        correctAnswer: "They may move to another suitable habitat.",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats", "survival"]
@@ -340,13 +314,11 @@ export const habitats: SkillContent = {
             "Snow"
         ],
 
-        answer: 0,
-
         explanation:
             "Earthworms need damp soil to survive.",
 
         difficulty: 2,
-
+        correctAnswer: "Moist soil",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats"]
@@ -364,13 +336,11 @@ export const habitats: SkillContent = {
             "They make them louder."
         ],
 
-        answer: 0,
-
         explanation:
             "Camouflage helps animals avoid predators and hunt for food.",
 
         difficulty: 2,
-
+        correctAnswer: "They help them blend into their surroundings.",
         estimatedSeconds: 20,
 
         tags: ["science", "adaptations", "camouflage"]
@@ -388,13 +358,11 @@ export const habitats: SkillContent = {
             "Only animals"
         ],
 
-        answer: 0,
-
         explanation:
             "Habitats provide food, water, shelter and space.",
 
         difficulty: 2,
-
+        correctAnswer: "The things living things need to survive",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats"]
@@ -412,13 +380,11 @@ export const habitats: SkillContent = {
             "It only eats plants."
         ],
 
-        answer: 0,
-
         explanation:
             "Its thick fur and body are suited to freezing conditions.",
 
         difficulty: 2,
-
+        correctAnswer: "It is adapted for cold habitats.",
         estimatedSeconds: 20,
 
         tags: ["science", "adaptations"]
@@ -436,13 +402,11 @@ export const habitats: SkillContent = {
             "To build roads"
         ],
 
-        answer: 0,
-
         explanation:
             "Studying habitats helps us understand living things and protect them.",
 
         difficulty: 2,
-
+        correctAnswer: "To understand how living things survive",
         estimatedSeconds: 20,
 
         tags: ["science", "working-scientifically"]
@@ -460,13 +424,11 @@ export const habitats: SkillContent = {
             "Frog — Arctic"
         ],
 
-        answer: 0,
-
         explanation:
             "Camels are adapted to desert habitats.",
 
         difficulty: 2,
-
+        correctAnswer: "Camel — Desert",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats"]
@@ -484,13 +446,11 @@ export const habitats: SkillContent = {
             "Every habitat is exactly the same."
         ],
 
-        answer: 0,
-
         explanation:
             "Habitats provide food, water, shelter and space for living things.",
 
         difficulty: 2,
-
+        correctAnswer: "A habitat is a place that provides living things with what they need to survive.",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats", "adaptations"]

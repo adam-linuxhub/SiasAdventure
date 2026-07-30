@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const authorIntent: SkillContent = {
 
@@ -29,13 +29,11 @@ export const authorIntent: SkillContent = {
             "To avoid sharing ideas"
         ],
 
-        answer: 0,
-
         explanation:
             "Authors write for different purposes, including informing, entertaining, persuading and explaining.",
 
         difficulty: 1,
-
+        correctAnswer: "To inform, entertain, persuade or explain",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -54,13 +52,11 @@ export const authorIntent: SkillContent = {
             "Create a story"
         ],
 
-        answer: 0,
-
         explanation:
             "The article gives facts about the weather, so it is written to inform.",
 
         difficulty: 1,
-
+        correctAnswer: "Inform",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -79,13 +75,11 @@ export const authorIntent: SkillContent = {
             "Advertise"
         ],
 
-        answer: 0,
-
         explanation:
             "Funny stories are usually written to entertain readers.",
 
         difficulty: 1,
-
+        correctAnswer: "Entertain",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -104,13 +98,11 @@ export const authorIntent: SkillContent = {
             "Tell a story"
         ],
 
-        answer: 0,
-
         explanation:
             "The advert is trying to convince people to buy something.",
 
         difficulty: 1,
-
+        correctAnswer: "Persuade",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -129,13 +121,11 @@ export const authorIntent: SkillContent = {
             "Make readers laugh"
         ],
 
-        answer: 0,
-
         explanation:
             "The book explains how something happens.",
 
         difficulty: 1,
-
+        correctAnswer: "Explain",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -154,13 +144,11 @@ export const authorIntent: SkillContent = {
             "Create a character"
         ],
 
-        answer: 0,
-
         explanation:
             "Recipes explain how to make something step by step.",
 
         difficulty: 1,
-
+        correctAnswer: "Give instructions",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -179,13 +167,11 @@ export const authorIntent: SkillContent = {
             "Explain a process"
         ],
 
-        answer: 0,
-
         explanation:
             "Stories are usually written to entertain readers.",
 
         difficulty: 1,
-
+        correctAnswer: "Entertain",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -204,13 +190,11 @@ export const authorIntent: SkillContent = {
             "Tell a fantasy story"
         ],
 
-        answer: 0,
-
         explanation:
             "The leaflet provides information about recycling.",
 
         difficulty: 1,
-
+        correctAnswer: "Inform",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -229,13 +213,11 @@ export const authorIntent: SkillContent = {
             "First, next, finally"
         ],
 
-        answer: 0,
-
         explanation:
             "Persuasive texts often use words that encourage people to agree or take action.",
 
         difficulty: 1,
-
+        correctAnswer: "You should, best, amazing, must",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -254,13 +236,11 @@ export const authorIntent: SkillContent = {
             "It makes reading faster every time"
         ],
 
-        answer: 0,
-
         explanation:
             "Knowing why a text was written helps readers understand its meaning.",
 
         difficulty: 1,
-
+        correctAnswer: "It helps you understand the text better",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -279,13 +259,11 @@ export const authorIntent: SkillContent = {
             "Tell a fictional story"
         ],
 
-        answer: 0,
-
         explanation:
             "Fact websites are usually written to give information.",
 
         difficulty: 2,
-
+        correctAnswer: "Inform",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "author-intent"]
@@ -304,13 +282,11 @@ export const authorIntent: SkillContent = {
             "Describe a character"
         ],
 
-        answer: 0,
-
         explanation:
             "The poster encourages people to take action.",
 
         difficulty: 2,
-
+        correctAnswer: "Persuade",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "author-intent"]
@@ -329,13 +305,11 @@ export const authorIntent: SkillContent = {
             "Create a mystery"
         ],
 
-        answer: 0,
-
         explanation:
             "The purpose is to explain how the water cycle works.",
 
         difficulty: 2,
-
+        correctAnswer: "Explain",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "author-intent"]
@@ -354,13 +328,11 @@ export const authorIntent: SkillContent = {
             "Persuade"
         ],
 
-        answer: 0,
-
         explanation:
             "Joke books are designed to make readers laugh.",
 
         difficulty: 2,
-
+        correctAnswer: "Entertain",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -379,13 +351,11 @@ export const authorIntent: SkillContent = {
             "A made-up adventure"
         ],
 
-        answer: 0,
-
         explanation:
             "Informative texts usually contain facts.",
 
         difficulty: 2,
-
+        correctAnswer: "Facts and information",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -404,13 +374,11 @@ export const authorIntent: SkillContent = {
             "Give a weather report"
         ],
 
-        answer: 0,
-
         explanation:
             "Travel brochures often persuade people to visit places.",
 
         difficulty: 2,
-
+        correctAnswer: "Persuade people to visit",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "author-intent"]
@@ -429,13 +397,11 @@ export const authorIntent: SkillContent = {
             "Persuade people to fly"
         ],
 
-        answer: 0,
-
         explanation:
             "Instructions explain steps to complete a task.",
 
         difficulty: 2,
-
+        correctAnswer: "Explain how to do something",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "author-intent"]
@@ -454,13 +420,11 @@ export const authorIntent: SkillContent = {
             "Share only facts"
         ],
 
-        answer: 0,
-
         explanation:
             "Story details are used to entertain and involve readers.",
 
         difficulty: 2,
-
+        correctAnswer: "Entertain and engage the reader",
         estimatedSeconds: 25,
 
         tags: ["english", "reading", "author-intent"]
@@ -479,13 +443,11 @@ export const authorIntent: SkillContent = {
             "How many pages are there?"
         ],
 
-        answer: 0,
-
         explanation:
             "The author's purpose is the reason the text was written.",
 
         difficulty: 2,
-
+        correctAnswer: "Why did the author write this text?",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]
@@ -504,13 +466,11 @@ export const authorIntent: SkillContent = {
             "Only difficult words"
         ],
 
-        answer: 0,
-
         explanation:
             "Understanding author intent helps readers understand texts more deeply.",
 
         difficulty: 2,
-
+        correctAnswer: "The author's reason for writing",
         estimatedSeconds: 20,
 
         tags: ["english", "reading", "author-intent"]

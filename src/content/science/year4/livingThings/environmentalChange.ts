@@ -28,13 +28,11 @@ export const environmentalChange: SkillContent = {
             "A kind of plant"
         ],
 
-        answer: 0,
-
         explanation:
             "An environment includes everything around a living thing.",
 
         difficulty: 1,
-
+        correctAnswer: "The surroundings where living things live",
         estimatedSeconds: 15,
 
         tags: ["science", "environment"]
@@ -52,13 +50,11 @@ export const environmentalChange: SkillContent = {
             "Cleaning a stream"
         ],
 
-        answer: 0,
-
         explanation:
             "Removing many trees destroys homes for woodland plants and animals.",
 
         difficulty: 1,
-
+        correctAnswer: "Cutting down many trees",
         estimatedSeconds: 15,
 
         tags: ["science", "habitats"]
@@ -76,13 +72,11 @@ export const environmentalChange: SkillContent = {
             "Destroying nests"
         ],
 
-        answer: 0,
-
         explanation:
             "Planting trees creates habitats for many living things.",
 
         difficulty: 1,
-
+        correctAnswer: "Planting trees",
         estimatedSeconds: 15,
 
         tags: ["science", "environment"]
@@ -100,13 +94,11 @@ export const environmentalChange: SkillContent = {
             "A weather forecast"
         ],
 
-        answer: 0,
-
         explanation:
             "Pollution can damage habitats and harm living things.",
 
         difficulty: 1,
-
+        correctAnswer: "Harmful waste in the environment",
         estimatedSeconds: 15,
 
         tags: ["science", "pollution"]
@@ -124,13 +116,11 @@ export const environmentalChange: SkillContent = {
             "To become plants"
         ],
 
-        answer: 0,
-
         explanation:
             "Clean water is essential for the survival of many living things.",
 
         difficulty: 1,
-
+        correctAnswer: "To survive",
         estimatedSeconds: 15,
 
         tags: ["science", "environment"]
@@ -148,13 +138,11 @@ export const environmentalChange: SkillContent = {
             "Taking photographs"
         ],
 
-        answer: 0,
-
         explanation:
             "Rubbish pollutes the water and can harm wildlife.",
 
         difficulty: 1,
-
+        correctAnswer: "Throwing rubbish into it",
         estimatedSeconds: 15,
 
         tags: ["science", "pond"]
@@ -172,13 +160,11 @@ export const environmentalChange: SkillContent = {
             "Pouring chemicals onto flowers"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers provide nectar and pollen for bees.",
 
         difficulty: 1,
-
+        correctAnswer: "Growing flowers",
         estimatedSeconds: 15,
 
         tags: ["science", "plants", "bees"]
@@ -196,13 +182,11 @@ export const environmentalChange: SkillContent = {
             "Hide it under leaves"
         ],
 
-        answer: 0,
-
         explanation:
             "Putting litter in bins helps keep habitats clean.",
 
         difficulty: 1,
-
+        correctAnswer: "Put it in a bin",
         estimatedSeconds: 20,
 
         tags: ["science", "environment"]
@@ -220,13 +204,11 @@ export const environmentalChange: SkillContent = {
             "Octopus"
         ],
 
-        answer: 0,
-
         explanation:
             "Many woodland animals depend on trees for shelter.",
 
         difficulty: 1,
-
+        correctAnswer: "Squirrel",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats"]
@@ -244,13 +226,11 @@ export const environmentalChange: SkillContent = {
             "Animals do not need habitats."
         ],
 
-        answer: 0,
-
         explanation:
             "People can protect habitats by caring for the environment.",
 
         difficulty: 1,
-
+        correctAnswer: "People can help protect habitats.",
         estimatedSeconds: 20,
 
         tags: ["science", "environment"]
@@ -268,13 +248,11 @@ export const environmentalChange: SkillContent = {
             "Trees make rivers disappear."
         ],
 
-        answer: 0,
-
         explanation:
             "Trees create habitats for many different species.",
 
         difficulty: 2,
-
+        correctAnswer: "Trees provide food and shelter.",
         estimatedSeconds: 20,
 
         tags: ["science", "trees", "habitats"]
@@ -292,13 +270,11 @@ export const environmentalChange: SkillContent = {
             "It helps fish breathe."
         ],
 
-        answer: 0,
-
         explanation:
             "Pollution can reduce water quality and harm aquatic life.",
 
         difficulty: 2,
-
+        correctAnswer: "It can make the water unsafe.",
         estimatedSeconds: 20,
 
         tags: ["science", "pollution"]
@@ -316,13 +292,11 @@ export const environmentalChange: SkillContent = {
             "The woodland becomes an ocean."
         ],
 
-        answer: 0,
-
         explanation:
             "Building roads can destroy or divide habitats.",
 
         difficulty: 2,
-
+        correctAnswer: "Some animals may lose their habitat.",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats"]
@@ -340,13 +314,11 @@ export const environmentalChange: SkillContent = {
             "It stops plants growing."
         ],
 
-        answer: 0,
-
         explanation:
             "Recycling reduces the amount of rubbish that can harm habitats.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps reduce waste.",
         estimatedSeconds: 20,
 
         tags: ["science", "environment"]
@@ -364,13 +336,11 @@ export const environmentalChange: SkillContent = {
             "Covering the grass with concrete"
         ],
 
-        answer: 0,
-
         explanation:
             "Bird feeders provide food, especially when food is scarce.",
 
         difficulty: 2,
-
+        correctAnswer: "Putting up a bird feeder",
         estimatedSeconds: 20,
 
         tags: ["science", "birds"]
@@ -388,13 +358,11 @@ export const environmentalChange: SkillContent = {
             "Habitats never change."
         ],
 
-        answer: 0,
-
         explanation:
             "Without suitable habitats, many plants and animals cannot survive.",
 
         difficulty: 2,
-
+        correctAnswer: "Living things depend on them for survival.",
         estimatedSeconds: 20,
 
         tags: ["science", "habitats"]
@@ -412,13 +380,11 @@ export const environmentalChange: SkillContent = {
             "Breaking young trees"
         ],
 
-        answer: 0,
-
         explanation:
             "Litter picks help keep habitats clean and safe.",
 
         difficulty: 2,
-
+        correctAnswer: "Joining a litter pick",
         estimatedSeconds: 20,
 
         tags: ["science", "environment"]
@@ -436,13 +402,11 @@ export const environmentalChange: SkillContent = {
             "Spray unnecessary chemicals everywhere"
         ],
 
-        answer: 0,
-
         explanation:
             "Flowers provide nectar and pollen for many insects.",
 
         difficulty: 2,
-
+        correctAnswer: "Grow a variety of flowers",
         estimatedSeconds: 20,
 
         tags: ["science", "plants", "insects"]
@@ -460,13 +424,11 @@ export const environmentalChange: SkillContent = {
             "Destroying wildflowers"
         ],
 
-        answer: 0,
-
         explanation:
             "Removing litter helps make habitats safer for wildlife.",
 
         difficulty: 2,
-
+        correctAnswer: "Cleaning up litter",
         estimatedSeconds: 20,
 
         tags: ["science", "environment"]
@@ -484,13 +446,11 @@ export const environmentalChange: SkillContent = {
             "Living things are never affected by change."
         ],
 
-        answer: 0,
-
         explanation:
             "Environmental changes can affect whether plants and animals are able to survive and reproduce.",
 
         difficulty: 2,
-
+        correctAnswer: "Changes to habitats can help or harm living things.",
         estimatedSeconds: 20,
 
         tags: ["science", "environment", "habitats"]

@@ -25,9 +25,9 @@ export const lightSources: SkillContent = {
             "To taste food",
             "To breathe"
         ],
-        answer: 0,
         explanation: "We need light to see objects around us.",
         difficulty: 1,
+        correctAnswer: "To see things",
         estimatedSeconds: 15,
         tags: ["science","light","seeing"]
     },
@@ -41,9 +41,9 @@ export const lightSources: SkillContent = {
             "A chair",
             "A book"
         ],
-        answer: 0,
         explanation: "The Sun produces its own light.",
         difficulty: 1,
+        correctAnswer: "The Sun",
         estimatedSeconds: 15,
         tags: ["science","light","sources"]
     },
@@ -57,9 +57,9 @@ export const lightSources: SkillContent = {
             "A tree",
             "A table"
         ],
-        answer: 0,
         explanation: "A torch produces light using a battery.",
         difficulty: 1,
+        correctAnswer: "A torch",
         estimatedSeconds: 15,
         tags: ["science","light","sources"]
     },
@@ -73,9 +73,9 @@ export const lightSources: SkillContent = {
             "A candle",
             "A light bulb"
         ],
-        answer: 0,
         explanation: "The Moon reflects light from the Sun but does not make its own light.",
         difficulty: 1,
+        correctAnswer: "The Moon",
         estimatedSeconds: 15,
         tags: ["science","light","moon"]
     },
@@ -89,9 +89,9 @@ export const lightSources: SkillContent = {
             "A colour",
             "A shadow"
         ],
-        answer: 0,
         explanation: "Darkness is what we have when there is very little or no light.",
         difficulty: 1,
+        correctAnswer: "The absence of light",
         estimatedSeconds: 15,
         tags: ["science","light","darkness"]
     },
@@ -105,9 +105,9 @@ export const lightSources: SkillContent = {
             "A football",
             "A pencil"
         ],
-        answer: 0,
         explanation: "A burning candle produces its own light.",
         difficulty: 1,
+        correctAnswer: "A candle",
         estimatedSeconds: 15,
         tags: ["science","light","sources"]
     },
@@ -121,9 +121,9 @@ export const lightSources: SkillContent = {
             "Putting on shoes",
             "Opening a book"
         ],
-        answer: 0,
         explanation: "A lamp produces light, allowing you to see.",
         difficulty: 1,
+        correctAnswer: "Turning on a lamp",
         estimatedSeconds: 15,
         tags: ["science","light","seeing"]
     },
@@ -137,9 +137,9 @@ export const lightSources: SkillContent = {
             "A torch",
             "A candle"
         ],
-        answer: 0,
         explanation: "A mirror reflects light from another source.",
         difficulty: 1,
+        correctAnswer: "A mirror",
         estimatedSeconds: 20,
         tags: ["science","light","reflection"]
     },
@@ -153,9 +153,9 @@ export const lightSources: SkillContent = {
             "A candle",
             "A television"
         ],
-        answer: 0,
         explanation: "The Sun is Earth's main natural source of light.",
         difficulty: 1,
+        correctAnswer: "The Sun",
         estimatedSeconds: 20,
         tags: ["science","light","sun"]
     },
@@ -169,9 +169,9 @@ export const lightSources: SkillContent = {
             "Objects disappear",
             "The air becomes too dark"
         ],
-        answer: 0,
         explanation: "Without light entering our eyes, we cannot see objects.",
         difficulty: 1,
+        correctAnswer: "There is no light to reach your eyes",
         estimatedSeconds: 20,
         tags: ["science","light","seeing"]
     },
@@ -185,9 +185,9 @@ export const lightSources: SkillContent = {
             "A mirror and a book",
             "A rock and a tree"
         ],
-        answer: 0,
         explanation: "Both the Sun and a torch produce their own light.",
         difficulty: 2,
+        correctAnswer: "The Sun and a torch",
         estimatedSeconds: 20,
         tags: ["science","light","sources"]
     },
@@ -201,9 +201,9 @@ export const lightSources: SkillContent = {
             "It glows because it is hot",
             "It shines because of stars"
         ],
-        answer: 0,
         explanation: "The Moon reflects sunlight towards Earth.",
         difficulty: 2,
+        correctAnswer: "It reflects light from the Sun",
         estimatedSeconds: 20,
         tags: ["science","light","moon","reflection"]
     },
@@ -217,9 +217,9 @@ export const lightSources: SkillContent = {
             "Darkness helps us see better.",
             "The Moon makes its own light."
         ],
-        answer: 0,
         explanation: "Light allows our eyes to detect objects.",
         difficulty: 2,
+        correctAnswer: "We need light to see objects.",
         estimatedSeconds: 20,
         tags: ["science","light","seeing"]
     },
@@ -233,9 +233,9 @@ export const lightSources: SkillContent = {
             "A spoon",
             "A ruler"
         ],
-        answer: 0,
         explanation: "A torch is a portable source of light.",
         difficulty: 2,
+        correctAnswer: "A torch",
         estimatedSeconds: 20,
         tags: ["science","light","sources"]
     },
@@ -249,9 +249,9 @@ export const lightSources: SkillContent = {
             "A light bulb",
             "The Sun"
         ],
-        answer: 0,
         explanation: "A mirror only reflects light from another source.",
         difficulty: 2,
+        correctAnswer: "A mirror",
         estimatedSeconds: 20,
         tags: ["science","light","reflection"]
     },
@@ -265,9 +265,9 @@ export const lightSources: SkillContent = {
             "Sunny",
             "Shiny"
         ],
-        answer: 0,
         explanation: "Without a source of light, the room will be dark.",
         difficulty: 2,
+        correctAnswer: "Dark",
         estimatedSeconds: 20,
         tags: ["science","light","darkness"]
     },
@@ -281,9 +281,9 @@ export const lightSources: SkillContent = {
             "A football",
             "A shoe"
         ],
-        answer: 0,
         explanation: "Objects that produce light can be seen in darkness.",
         difficulty: 2,
+        correctAnswer: "A switched-on torch",
         estimatedSeconds: 20,
         tags: ["science","light","sources"]
     },
@@ -297,9 +297,9 @@ export const lightSources: SkillContent = {
             "Objects disappear",
             "The floor absorbs them"
         ],
-        answer: 0,
         explanation: "Shadows need a light source. Without light, there are no shadows.",
         difficulty: 2,
+        correctAnswer: "There is no light to block",
         estimatedSeconds: 20,
         tags: ["science","light","shadows"]
     },
@@ -313,9 +313,9 @@ export const lightSources: SkillContent = {
             "The stars",
             "Lightning"
         ],
-        answer: 0,
         explanation: "Almost all the natural light we use during the day comes from the Sun.",
         difficulty: 2,
+        correctAnswer: "The Sun",
         estimatedSeconds: 20,
         tags: ["science","light","sun"]
     },
@@ -329,9 +329,9 @@ export const lightSources: SkillContent = {
             "The Moon is the brightest source of light.",
             "Darkness is a type of light."
         ],
-        answer: 0,
         explanation: "Light can come from natural and man-made sources, allowing us to see the world around us.",
         difficulty: 2,
+        correctAnswer: "Light lets us see objects and comes from different sources.",
         estimatedSeconds: 20,
         tags: ["science","light","sources","seeing"]
     }

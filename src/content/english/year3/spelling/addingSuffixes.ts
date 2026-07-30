@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const addingSuffixes: SkillContent = {
 
@@ -28,13 +28,11 @@ export const addingSuffixes: SkillContent = {
             "jumpest"
         ],
 
-        answer: 0,
-
         explanation:
             "Adding '-ing' to 'jump' makes 'jumping'.",
 
         difficulty: 1,
-
+        correctAnswer: "jumping",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes"]
@@ -52,13 +50,11 @@ export const addingSuffixes: SkillContent = {
             "playest"
         ],
 
-        answer: 0,
-
         explanation:
             "'Played' tells us the action happened in the past.",
 
         difficulty: 1,
-
+        correctAnswer: "played",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes"]
@@ -76,13 +72,11 @@ export const addingSuffixes: SkillContent = {
             "talled"
         ],
 
-        answer: 0,
-
         explanation:
             "Add '-er' when comparing two things.",
 
         difficulty: 1,
-
+        correctAnswer: "taller",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes"]
@@ -100,13 +94,11 @@ export const addingSuffixes: SkillContent = {
             "smalling"
         ],
 
-        answer: 0,
-
         explanation:
             "Add '-est' when something is the most.",
 
         difficulty: 1,
-
+        correctAnswer: "smallest",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes"]
@@ -124,13 +116,11 @@ export const addingSuffixes: SkillContent = {
             "helpping"
         ],
 
-        answer: 0,
-
         explanation:
             "'Helping' is formed by adding '-ing' to 'help'.",
 
         difficulty: 1,
-
+        correctAnswer: "helping",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes"]
@@ -148,13 +138,11 @@ export const addingSuffixes: SkillContent = {
             "lookeded"
         ],
 
-        answer: 0,
-
         explanation:
             "'Looked' is made by adding '-ed'.",
 
         difficulty: 1,
-
+        correctAnswer: "looked",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes"]
@@ -172,13 +160,11 @@ export const addingSuffixes: SkillContent = {
             "fasted"
         ],
 
-        answer: 0,
-
         explanation:
             "'Faster' compares two people or things.",
 
         difficulty: 1,
-
+        correctAnswer: "faster",
         estimatedSeconds: 15,
 
         tags: ["english", "spelling", "suffixes"]
@@ -196,13 +182,11 @@ export const addingSuffixes: SkillContent = {
             "longed"
         ],
 
-        answer: 0,
-
         explanation:
             "'Longest' means the most long.",
 
         difficulty: 1,
-
+        correctAnswer: "longest",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes"]
@@ -220,13 +204,11 @@ export const addingSuffixes: SkillContent = {
             "-est"
         ],
 
-        answer: 0,
-
         explanation:
             "The suffix '-ing' often describes an action happening now.",
 
         difficulty: 1,
-
+        correctAnswer: "-ing",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes"]
@@ -244,13 +226,11 @@ export const addingSuffixes: SkillContent = {
             "-est"
         ],
 
-        answer: 0,
-
         explanation:
             "Many past tense verbs end in '-ed'.",
 
         difficulty: 1,
-
+        correctAnswer: "-ed",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes"]
@@ -268,13 +248,11 @@ export const addingSuffixes: SkillContent = {
             "jumpest"
         ],
 
-        answer: 0,
-
         explanation:
             "'Jumping' describes an action happening now.",
 
         difficulty: 2,
-
+        correctAnswer: "jumping",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes"]
@@ -292,13 +270,11 @@ export const addingSuffixes: SkillContent = {
             "playest"
         ],
 
-        answer: 0,
-
         explanation:
             "'Played' shows the action happened in the past.",
 
         difficulty: 2,
-
+        correctAnswer: "played",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes"]
@@ -316,13 +292,11 @@ export const addingSuffixes: SkillContent = {
             "Sam is helpest his mum."
         ],
 
-        answer: 0,
-
         explanation:
             "'Helping' is the correct present participle.",
 
         difficulty: 2,
-
+        correctAnswer: "Sam is helping his mum.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes"]
@@ -340,13 +314,11 @@ export const addingSuffixes: SkillContent = {
             "The blue whale is the larged animal."
         ],
 
-        answer: 0,
-
         explanation:
             "'Largest' compares one thing with all the others.",
 
         difficulty: 2,
-
+        correctAnswer: "The blue whale is the largest animal.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes"]
@@ -364,13 +336,11 @@ export const addingSuffixes: SkillContent = {
             "smiler"
         ],
 
-        answer: 0,
-
         explanation:
             "When a root word ends with a silent 'e', we usually drop the 'e' before adding '-ing'.",
 
         difficulty: 2,
-
+        correctAnswer: "smiling",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "drop-e"]
@@ -388,13 +358,11 @@ export const addingSuffixes: SkillContent = {
             "dancer"
         ],
 
-        answer: 0,
-
         explanation:
             "Words ending in 'e' usually just add 'd' to make the past tense.",
 
         difficulty: 2,
-
+        correctAnswer: "danced",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "ending-e"]
@@ -412,13 +380,11 @@ export const addingSuffixes: SkillContent = {
             "maker"
         ],
 
-        answer: 0,
-
         explanation:
             "Drop the silent 'e' before adding '-ing'.",
 
         difficulty: 2,
-
+        correctAnswer: "making",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "drop-e"]
@@ -436,13 +402,11 @@ export const addingSuffixes: SkillContent = {
             "Ella smilesed at her friend."
         ],
 
-        answer: 0,
-
         explanation:
             "'Smiled' is formed by adding 'd' because 'smile' ends in 'e'.",
 
         difficulty: 2,
-
+        correctAnswer: "Ella smiled at her friend.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes"]
@@ -460,13 +424,11 @@ export const addingSuffixes: SkillContent = {
             "fasted"
         ],
 
-        answer: 0,
-
         explanation:
             "Use '-er' when comparing two people or things.",
 
         difficulty: 2,
-
+        correctAnswer: "faster",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes"]
@@ -484,13 +446,11 @@ export const addingSuffixes: SkillContent = {
             "The children were maker a sandcastle."
         ],
 
-        answer: 0,
-
         explanation:
             "'Making' is correctly formed by dropping the final 'e' before adding '-ing'.",
 
         difficulty: 2,
-
+        correctAnswer: "The children were making a sandcastle.",
         estimatedSeconds: 20,
 
         tags: ["english", "spelling", "suffixes", "drop-e"]

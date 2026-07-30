@@ -28,13 +28,11 @@ export const planetNames: SkillContent = {
         "Comet"
     ],
 
-    answer: 0,
-
     explanation:
         "Earth is one of the eight planets in our Solar System.",
 
     difficulty: 1,
-
+    correctAnswer: "Earth",
     estimatedSeconds: 10,
 
     tags: [
@@ -57,13 +55,11 @@ export const planetNames: SkillContent = {
         "Jupiter"
     ],
 
-    answer: 0,
-
     explanation:
         "Earth is our home planet. It is the only planet known to support life.",
 
     difficulty: 1,
-
+    correctAnswer: "Earth",
     estimatedSeconds: 10,
 
     tags: [
@@ -85,13 +81,11 @@ export const planetNames: SkillContent = {
         "Comet"
     ],
 
-    answer: 0,
-
     explanation:
         "Mercury is the closest planet to the Sun.",
 
     difficulty: 1,
-
+    correctAnswer: "Mercury",
     estimatedSeconds: 10,
 
     tags: [
@@ -113,13 +107,11 @@ export const planetNames: SkillContent = {
         "Asteroid"
     ],
 
-    answer: 0,
-
     explanation:
         "Venus is the second planet from the Sun.",
 
     difficulty: 1,
-
+    correctAnswer: "Venus",
     estimatedSeconds: 10,
 
     tags: [
@@ -141,13 +133,11 @@ export const planetNames: SkillContent = {
         "Comet"
     ],
 
-    answer: 0,
-
     explanation:
         "Earth is the third planet from the Sun and our home.",
 
     difficulty: 1,
-
+    correctAnswer: "Earth",
     estimatedSeconds: 10,
 
     tags: [
@@ -169,13 +159,11 @@ export const planetNames: SkillContent = {
         "Asteroid"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars is often called the Red Planet.",
 
     difficulty: 1,
-
+    correctAnswer: "Mars",
     estimatedSeconds: 10,
 
     tags: [
@@ -197,13 +185,11 @@ export const planetNames: SkillContent = {
         "Galaxy"
     ],
 
-    answer: 0,
-
     explanation:
         "Jupiter is the largest planet in our Solar System.",
 
     difficulty: 1,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 10,
 
     tags: [
@@ -225,13 +211,11 @@ export const planetNames: SkillContent = {
         "Star"
     ],
 
-    answer: 0,
-
     explanation:
         "Saturn is famous for its bright rings.",
 
     difficulty: 1,
-
+    correctAnswer: "Saturn",
     estimatedSeconds: 10,
 
     tags: [
@@ -253,13 +237,11 @@ export const planetNames: SkillContent = {
         "Moon"
     ],
 
-    answer: 0,
-
     explanation:
         "Uranus is a large icy planet that spins on its side.",
 
     difficulty: 1,
-
+    correctAnswer: "Uranus",
     estimatedSeconds: 10,
 
     tags: [
@@ -281,13 +263,11 @@ export const planetNames: SkillContent = {
         "Asteroid"
     ],
 
-    answer: 0,
-
     explanation:
         "Neptune is the eighth and farthest planet from the Sun.",
 
     difficulty: 1,
-
+    correctAnswer: "Neptune",
     estimatedSeconds: 10,
 
     tags: [
@@ -309,13 +289,11 @@ export const planetNames: SkillContent = {
         "10"
     ],
 
-    answer: 0,
-
     explanation:
         "There are eight planets in our Solar System.",
 
     difficulty: 1,
-
+    correctAnswer: "8",
     estimatedSeconds: 12,
 
     tags: [
@@ -337,13 +315,11 @@ export const planetNames: SkillContent = {
         "Venus"
     ],
 
-    answer: 0,
-
     explanation:
         "Mars is called the Red Planet because its dusty surface looks red.",
 
     difficulty: 2,
-
+    correctAnswer: "Mars",
     estimatedSeconds: 15,
 
     tags: [
@@ -365,13 +341,11 @@ export const planetNames: SkillContent = {
         "Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Saturn has the most famous rings of all the planets.",
 
     difficulty: 2,
-
+    correctAnswer: "Saturn",
     estimatedSeconds: 15,
 
     tags: [
@@ -393,13 +367,11 @@ export const planetNames: SkillContent = {
         "Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Jupiter is the largest planet in our Solar System.",
 
     difficulty: 2,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 15,
 
     tags: [
@@ -421,13 +393,11 @@ export const planetNames: SkillContent = {
         "Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Mercury is the closest planet to the Sun.",
 
     difficulty: 2,
-
+    correctAnswer: "Mercury",
     estimatedSeconds: 15,
 
     tags: [
@@ -449,13 +419,11 @@ export const planetNames: SkillContent = {
         "Jupiter"
     ],
 
-    answer: 0,
-
     explanation:
         "Neptune is the eighth and most distant planet from the Sun.",
 
     difficulty: 2,
-
+    correctAnswer: "Neptune",
     estimatedSeconds: 15,
 
     tags: [
@@ -477,13 +445,11 @@ export const planetNames: SkillContent = {
         "Venus"
     ],
 
-    answer: 0,
-
     explanation:
         "All astronauts begin their journeys into space from Earth.",
 
     difficulty: 2,
-
+    correctAnswer: "Earth",
     estimatedSeconds: 15,
 
     tags: [
@@ -505,13 +471,11 @@ export const planetNames: SkillContent = {
         "Mars, Jupiter, Comet"
     ],
 
-    answer: 0,
-
     explanation:
         "Earth, Mars and Saturn are all planets. The other answers include objects that are not planets.",
 
     difficulty: 2,
-
+    correctAnswer: "Earth, Mars, Saturn",
     estimatedSeconds: 20,
 
     tags: [
@@ -533,13 +497,11 @@ export const planetNames: SkillContent = {
         "Saturn"
     ],
 
-    answer: 0,
-
     explanation:
         "The Moon travels around Earth. It is a natural satellite, not a planet.",
 
     difficulty: 2,
-
+    correctAnswer: "Moon",
     estimatedSeconds: 15,
 
     tags: [
@@ -561,13 +523,11 @@ export const planetNames: SkillContent = {
         "Jupiter"
     ],
 
-    answer: 0,
-
     explanation:
         "Venus is the only planet whose name begins with the letter V.",
 
     difficulty: 2,
-
+    correctAnswer: "Venus",
     estimatedSeconds: 15,
 
     tags: [
@@ -589,13 +549,11 @@ export const planetNames: SkillContent = {
         "No, we live on Jupiter."
     ],
 
-    answer: 0,
-
     explanation:
         "People live on Earth. Mars is an exciting planet to explore, but nobody lives there.",
 
     difficulty: 2,
-
+    correctAnswer: "No, we live on Earth.",
     estimatedSeconds: 20,
 
     tags: [
@@ -618,13 +576,11 @@ export const planetNames: SkillContent = {
         "No, the Sun is an asteroid."
     ],
 
-    answer: 0,
-
     explanation:
         "The Sun is a star. The eight planets travel around it.",
 
     difficulty: 2,
-
+    correctAnswer: "No, the Sun is a star.",
     estimatedSeconds: 20,
 
     tags: [
@@ -647,13 +603,11 @@ export const planetNames: SkillContent = {
         "Mercury"
     ],
 
-    answer: 0,
-
     explanation:
         "The order begins Mercury, Venus, Earth, Mars.",
 
     difficulty: 2,
-
+    correctAnswer: "Mars",
     estimatedSeconds: 20,
 
     tags: [
@@ -676,13 +630,11 @@ export const planetNames: SkillContent = {
         "Jupiter"
     ],
 
-    answer: 0,
-
     explanation:
         "Venus is the second planet and Earth is the third.",
 
     difficulty: 2,
-
+    correctAnswer: "Venus",
     estimatedSeconds: 20,
 
     tags: [
@@ -705,13 +657,11 @@ export const planetNames: SkillContent = {
         "Asteroid"
     ],
 
-    answer: 0,
-
     explanation:
         "Neptune is the eighth planet in our Solar System.",
 
     difficulty: 2,
-
+    correctAnswer: "Neptune",
     estimatedSeconds: 15,
 
     tags: [
@@ -733,13 +683,11 @@ export const planetNames: SkillContent = {
         "Saturn"
     ],
 
-    answer: 0,
-
     explanation:
         "A comet is a small icy object that travels around the Sun. It is not a planet.",
 
     difficulty: 2,
-
+    correctAnswer: "Comet",
     estimatedSeconds: 15,
 
     tags: [
@@ -761,13 +709,11 @@ export const planetNames: SkillContent = {
         "Mercury"
     ],
 
-    answer: 0,
-
     explanation:
         "Jupiter is the biggest planet in our Solar System.",
 
     difficulty: 2,
-
+    correctAnswer: "Jupiter",
     estimatedSeconds: 15,
 
     tags: [
@@ -789,13 +735,11 @@ export const planetNames: SkillContent = {
         "Neptune"
     ],
 
-    answer: 0,
-
     explanation:
         "Mercury is the smallest of the eight planets.",
 
     difficulty: 2,
-
+    correctAnswer: "Mercury",
     estimatedSeconds: 15,
 
     tags: [
@@ -817,13 +761,11 @@ export const planetNames: SkillContent = {
         "Venus"
     ],
 
-    answer: 0,
-
     explanation:
         "Saturn has rings made mostly of ice with some rock and dust.",
 
     difficulty: 2,
-
+    correctAnswer: "Saturn",
     estimatedSeconds: 15,
 
     tags: [
@@ -845,13 +787,11 @@ export const planetNames: SkillContent = {
         "Jupiter"
     ],
 
-    answer: 0,
-
     explanation:
         "Neptune is a deep blue planet and is the farthest planet from the Sun.",
 
     difficulty: 2,
-
+    correctAnswer: "Neptune",
     estimatedSeconds: 20,
 
     tags: [
@@ -873,13 +813,11 @@ export const planetNames: SkillContent = {
         "Mercury, Venus, Comet, Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Mercury, Venus, Earth and Mars are all planets.",
 
     difficulty: 3,
-
+    correctAnswer: "Mercury, Venus, Earth, Mars",
     estimatedSeconds: 20,
 
     tags: [
@@ -901,13 +839,11 @@ export const planetNames: SkillContent = {
         "Jupiter, Saturn, Sun"
     ],
 
-    answer: 0,
-
     explanation:
         "The Moon, Sun and comets are all space objects, but none of them are planets.",
 
     difficulty: 3,
-
+    correctAnswer: "Moon, Sun, Comet",
     estimatedSeconds: 20,
 
     tags: [
@@ -928,13 +864,11 @@ export const planetNames: SkillContent = {
         "Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Mercury is the first planet from the Sun.",
 
     difficulty: 3,
-
+    correctAnswer: "Mercury",
     estimatedSeconds: 20,
 
     tags: [
@@ -956,13 +890,11 @@ export const planetNames: SkillContent = {
         "Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Uranus is the seventh planet and Neptune is the eighth.",
 
     difficulty: 3,
-
+    correctAnswer: "Uranus",
     estimatedSeconds: 20,
 
     tags: [
@@ -984,13 +916,11 @@ export const planetNames: SkillContent = {
         "Mars"
     ],
 
-    answer: 0,
-
     explanation:
         "Uranus is an ice giant. Neptune is the other ice giant in our Solar System.",
 
     difficulty: 3,
-
+    correctAnswer: "Uranus",
     estimatedSeconds: 20,
 
     tags: [
@@ -1012,13 +942,11 @@ export const planetNames: SkillContent = {
             "Earth"
         ],
 
-        answer: 0,
-
         explanation:
             "Neptune is an ice giant. Uranus is the other ice giant.",
 
         difficulty: 3,
-
+        correctAnswer: "Neptune",
         estimatedSeconds: 20,
 
         tags: [
@@ -1040,13 +968,11 @@ export const planetNames: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus is the second planet from the Sun, between Mercury and Earth.",
 
         difficulty: 3,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 20,
 
         tags: [
@@ -1069,13 +995,11 @@ export const planetNames: SkillContent = {
             "Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is the third planet from the Sun.",
 
         difficulty: 3,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 20,
 
         tags: [
@@ -1098,13 +1022,11 @@ export const planetNames: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is the fifth planet from the Sun.",
 
         difficulty: 3,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 20,
 
         tags: [
@@ -1127,13 +1049,11 @@ export const planetNames: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Saturn is the sixth planet from the Sun.",
 
         difficulty: 3,
-
+        correctAnswer: "Saturn",
         estimatedSeconds: 20,
 
         tags: [
@@ -1156,13 +1076,11 @@ export const planetNames: SkillContent = {
             "Earth, Venus, Mercury, Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "The first four planets are Mercury, Venus, Earth and Mars.",
 
         difficulty: 4,
-
+        correctAnswer: "Mercury, Venus, Earth, Mars",
         estimatedSeconds: 25,
 
         tags: [
@@ -1184,13 +1102,11 @@ export const planetNames: SkillContent = {
             "Jupiter, Saturn, Neptune, Uranus"
         ],
 
-        answer: 0,
-
         explanation:
             "The last four planets are Jupiter, Saturn, Uranus and Neptune.",
 
         difficulty: 4,
-
+        correctAnswer: "Jupiter, Saturn, Uranus, Neptune",
         estimatedSeconds: 25,
 
         tags: [
@@ -1212,13 +1128,11 @@ export const planetNames: SkillContent = {
             "Saturn"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is between Venus and Mars in the Solar System.",
 
         difficulty: 4,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 20,
 
         tags: [
@@ -1241,13 +1155,11 @@ export const planetNames: SkillContent = {
             "Earth"
         ],
 
-        answer: 0,
-
         explanation:
             "Uranus is the seventh planet and lies between Saturn and Neptune.",
 
         difficulty: 4,
-
+        correctAnswer: "Uranus",
         estimatedSeconds: 20,
 
         tags: [
@@ -1270,13 +1182,11 @@ export const planetNames: SkillContent = {
             "Mars"
         ],
 
-        answer: 0,
-
         explanation:
             "Jupiter is the largest planet and is one of the four giant planets.",
 
         difficulty: 4,
-
+        correctAnswer: "Jupiter",
         estimatedSeconds: 25,
 
         tags: [
@@ -1298,13 +1208,11 @@ export const planetNames: SkillContent = {
             "Comet and Jupiter"
         ],
 
-        answer: 0,
-
         explanation:
             "Mercury and Venus are both planets. The other pairs include objects that are not planets.",
 
         difficulty: 4,
-
+        correctAnswer: "Mercury and Venus",
         estimatedSeconds: 20,
 
         tags: [
@@ -1326,13 +1234,11 @@ export const planetNames: SkillContent = {
             "Comet and Venus"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is a planet and the Sun is a star.",
 
         difficulty: 4,
-
+        correctAnswer: "Earth and the Sun",
         estimatedSeconds: 20,
 
         tags: [
@@ -1355,13 +1261,11 @@ export const planetNames: SkillContent = {
             "Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "Venus comes after all the other planet names alphabetically.",
 
         difficulty: 4,
-
+        correctAnswer: "Venus",
         estimatedSeconds: 20,
 
         tags: [
@@ -1383,13 +1287,11 @@ export const planetNames: SkillContent = {
             "Mercury"
         ],
 
-        answer: 0,
-
         explanation:
             "Earth is the first planet alphabetically.",
 
         difficulty: 4,
-
+        correctAnswer: "Earth",
         estimatedSeconds: 20,
 
         tags: [
@@ -1411,13 +1313,11 @@ export const planetNames: SkillContent = {
             "Mercury, Venus, Earth, Mars, Saturn, Uranus, Neptune"
         ],
 
-        answer: 0,
-
         explanation:
             "The eight planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
 
         difficulty: 5,
-
+        correctAnswer: "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
         estimatedSeconds: 30,
 
         tags: [

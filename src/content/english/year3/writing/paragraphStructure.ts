@@ -1,7 +1,7 @@
 import {
     MultipleChoiceActivity,
     SkillContent
-} from "../../types";
+} from "../../../types";
 
 export const paragraphStructure: SkillContent = {
 
@@ -29,13 +29,11 @@ export const paragraphStructure: SkillContent = {
             "A title only"
         ],
 
-        answer: 0,
-
         explanation:
             "Paragraphs group sentences that are about the same topic or idea.",
 
         difficulty: 1,
-
+        correctAnswer: "A group of sentences about the same idea",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -54,13 +52,11 @@ export const paragraphStructure: SkillContent = {
             "To avoid using sentences"
         ],
 
-        answer: 0,
-
         explanation:
             "Paragraphs help readers follow different ideas.",
 
         difficulty: 1,
-
+        correctAnswer: "To organise ideas and make writing easier to read",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -79,13 +75,11 @@ export const paragraphStructure: SkillContent = {
             "The bowl was blue."
         ],
 
-        answer: 0,
-
         explanation:
             "A topic sentence introduces the main idea of the paragraph.",
 
         difficulty: 1,
-
+        correctAnswer: "Many people enjoy having pets at home.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -104,13 +98,11 @@ export const paragraphStructure: SkillContent = {
             "Be only questions"
         ],
 
-        answer: 0,
-
         explanation:
             "Paragraphs work best when ideas are connected.",
 
         difficulty: 1,
-
+        correctAnswer: "Talk about the same main idea",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -129,13 +121,11 @@ export const paragraphStructure: SkillContent = {
             "Only one word"
         ],
 
-        answer: 0,
-
         explanation:
             "A paragraph should focus on one main topic.",
 
         difficulty: 1,
-
+        correctAnswer: "All sentences about looking after a dog",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -154,13 +144,11 @@ export const paragraphStructure: SkillContent = {
             "Only at the end of a story"
         ],
 
-        answer: 0,
-
         explanation:
             "A new paragraph helps show a change of idea or topic.",
 
         difficulty: 1,
-
+        correctAnswer: "When the writer starts a new idea",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -179,13 +167,11 @@ export const paragraphStructure: SkillContent = {
             "The car needs fuel."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence stays on the topic of the school trip.",
 
         difficulty: 1,
-
+        correctAnswer: "The class visited the museum and learned about history.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -204,13 +190,11 @@ export const paragraphStructure: SkillContent = {
             "To ask a question only"
         ],
 
-        answer: 0,
-
         explanation:
             "Topic sentences tell the reader what the paragraph is about.",
 
         difficulty: 1,
-
+        correctAnswer: "To introduce the main idea",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -229,13 +213,11 @@ export const paragraphStructure: SkillContent = {
             "Random ideas"
         ],
 
-        answer: 0,
-
         explanation:
             "Paragraphs should keep related information together.",
 
         difficulty: 1,
-
+        correctAnswer: "Information about animals",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -254,13 +236,11 @@ export const paragraphStructure: SkillContent = {
             "They stop ideas developing"
         ],
 
-        answer: 0,
-
         explanation:
             "Paragraphs create clear sections in writing.",
 
         difficulty: 1,
-
+        correctAnswer: "They make information easier to follow",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -279,13 +259,11 @@ export const paragraphStructure: SkillContent = {
             "The match was exciting."
         ],
 
-        answer: 0,
-
         explanation:
             "The cake sentence is about a different topic.",
 
         difficulty: 2,
-
+        correctAnswer: "My favourite cake is chocolate.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -304,13 +282,11 @@ export const paragraphStructure: SkillContent = {
             "B → A → C"
         ],
 
-        answer: 0,
-
         explanation:
             "Planting comes first, then watering, then growth.",
 
         difficulty: 2,
-
+        correctAnswer: "B → C → A",
         estimatedSeconds: 25,
 
         tags: ["english", "writing", "paragraphs"]
@@ -329,13 +305,11 @@ export const paragraphStructure: SkillContent = {
             "The book was heavy."
         ],
 
-        answer: 0,
-
         explanation:
             "The sentence links back to the paragraph topic.",
 
         difficulty: 2,
-
+        correctAnswer: "Good friends support each other and have fun together.",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -354,13 +328,11 @@ export const paragraphStructure: SkillContent = {
             "One, two, three"
         ],
 
-        answer: 0,
-
         explanation:
             "Sequencing words help organise writing.",
 
         difficulty: 2,
-
+        correctAnswer: "Firstly, next, finally",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -379,13 +351,11 @@ export const paragraphStructure: SkillContent = {
             "You use a full stop"
         ],
 
-        answer: 0,
-
         explanation:
             "Changing ideas often requires a new paragraph.",
 
         difficulty: 2,
-
+        correctAnswer: "The focus changes to a new idea",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -404,13 +374,11 @@ export const paragraphStructure: SkillContent = {
             "Only an ending"
         ],
 
-        answer: 0,
-
         explanation:
             "Stories usually have a clear beginning, middle and ending.",
 
         difficulty: 2,
-
+        correctAnswer: "Beginning, middle, ending",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -429,13 +397,11 @@ export const paragraphStructure: SkillContent = {
             "It prevents creativity"
         ],
 
-        answer: 0,
-
         explanation:
             "Organised ideas make writing clearer.",
 
         difficulty: 2,
-
+        correctAnswer: "It helps the reader understand the writing",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -454,13 +420,11 @@ export const paragraphStructure: SkillContent = {
             "A paragraph with one unfinished sentence"
         ],
 
-        answer: 0,
-
         explanation:
             "Clear organisation helps readers understand information.",
 
         difficulty: 2,
-
+        correctAnswer: "A paragraph with a clear topic and supporting details",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -479,13 +443,11 @@ export const paragraphStructure: SkillContent = {
             "Only repeat the title"
         ],
 
-        answer: 0,
-
         explanation:
             "Supporting sentences add information about the topic sentence.",
 
         difficulty: 2,
-
+        correctAnswer: "Give details about the main idea",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
@@ -504,13 +466,11 @@ export const paragraphStructure: SkillContent = {
             "Write without meaning"
         ],
 
-        answer: 0,
-
         explanation:
             "Good structure helps writers communicate ideas effectively.",
 
         difficulty: 2,
-
+        correctAnswer: "Organise ideas clearly",
         estimatedSeconds: 20,
 
         tags: ["english", "writing", "paragraphs"]
