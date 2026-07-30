@@ -18,7 +18,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-001",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nDark clouds covered the sky. Mia picked up her umbrella before leaving the house.\n\nWhat will probably happen next?",
 
@@ -41,7 +41,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-002",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nBen mixed flour, eggs and milk in a bowl.\n\nWhat will Ben probably do next?",
 
@@ -64,7 +64,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-003",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nThe school bell rang and the children packed away their books.\n\nWhat will probably happen next?",
 
@@ -87,7 +87,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-004",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nThe puppy ran to its bowl and wagged its tail when Sam opened a tin of dog food.\n\nWhat will probably happen next?",
 
@@ -110,7 +110,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-005",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nLily put on her swimming costume and goggles.\n\nWhat will she probably do next?",
 
@@ -133,7 +133,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-006",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nJake carefully watered the tiny plant every day.\n\nWhat will probably happen after a few weeks?",
 
@@ -156,7 +156,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-007",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nTom forgot to charge his tablet before a long journey.\n\nWhat is likely to happen?",
 
@@ -179,7 +179,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-008",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nEmma practised her spelling every evening before the test.\n\nWhat is likely to happen?",
 
@@ -202,7 +202,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-009",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nThe football rolled towards the road.\n\nWhat will the children probably do?",
 
@@ -225,7 +225,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-010",
-
+        skillId: "prediction",
         question:
             "What is a prediction?",
 
@@ -248,7 +248,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-011",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nSophie carried wrapping paper, tape and a birthday card into her room.\n\nWhat will Sophie probably do next?",
 
@@ -271,7 +271,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-012",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nThe audience became quiet and the lights dimmed.\n\nWhat will probably happen next?",
 
@@ -294,7 +294,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-013",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nThe baker placed the tray of biscuits into the oven.\n\nWhat will probably happen next?",
 
@@ -317,7 +317,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-014",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nNoah zipped up his tent as the sky became darker.\n\nWhat will probably happen next?",
 
@@ -340,7 +340,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-015",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nThe referee blew the whistle and pointed to the centre circle.\n\nWhat probably happened?",
 
@@ -363,7 +363,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-016",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nOlivia checked the recipe one more time before turning on the oven.\n\nWhat will she probably do next?",
 
@@ -386,7 +386,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-017",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nThe clouds cleared and the sun came out.\n\nWhat will probably happen to the ground?",
 
@@ -409,7 +409,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-018",
-
+        skillId: "prediction",
         question:
             "Read the passage:\n\nThe hamster scratched at the side of its empty food bowl.\n\nWhat will probably happen next?",
 
@@ -432,7 +432,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-019",
-
+        skillId: "prediction",
         question:
             "Which prediction is best supported by clues in a story?",
 
@@ -455,7 +455,7 @@ export const prediction: SkillContent = {
 
     {
         id: "eng-pred-020",
-
+        skillId: "prediction",
         question:
             "When making a prediction while reading, what should you use?",
 

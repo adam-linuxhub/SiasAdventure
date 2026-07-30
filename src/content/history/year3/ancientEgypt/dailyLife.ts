@@ -18,7 +18,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-001",
-
+        skillId: "dailyLife",
         question:
             "Where did many Ancient Egyptians live?",
 
@@ -41,7 +41,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-002",
-
+        skillId: "dailyLife",
         question:
             "What was the main job of many Ancient Egyptians?",
 
@@ -64,7 +64,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-003",
-
+        skillId: "dailyLife",
         question:
             "What did Ancient Egyptian farmers grow?",
 
@@ -87,7 +87,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-004",
-
+        skillId: "dailyLife",
         question:
             "What were Ancient Egyptian homes often made from?",
 
@@ -110,7 +110,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-005",
-
+        skillId: "dailyLife",
         question:
             "What did Ancient Egyptians wear?",
 
@@ -133,7 +133,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-006",
-
+        skillId: "dailyLife",
         question:
             "Why was farming important in Ancient Egypt?",
 
@@ -156,7 +156,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-007",
-
+        skillId: "dailyLife",
         question:
             "Which job would an Ancient Egyptian craftsman do?",
 
@@ -179,7 +179,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-008",
-
+        skillId: "dailyLife",
         question:
             "What did scribes do in Ancient Egypt?",
 
@@ -202,7 +202,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-009",
-
+        skillId: "dailyLife",
         question:
             "Why were scribes important?",
 
@@ -225,7 +225,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-010",
-
+        skillId: "dailyLife",
         question:
             "What was a common food in Ancient Egypt?",
 
@@ -248,7 +248,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-011",
-
+        skillId: "dailyLife",
         question:
             "Why did people live near the Nile?",
 
@@ -271,7 +271,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-012",
-
+        skillId: "dailyLife",
         question:
             "Which group had the highest status in Ancient Egyptian society?",
 
@@ -294,7 +294,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-013",
-
+        skillId: "dailyLife",
         question:
             "What did fishermen do in Ancient Egypt?",
 
@@ -317,7 +317,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-014",
-
+        skillId: "dailyLife",
         question:
             "Why were animals important in Ancient Egypt?",
 
@@ -340,7 +340,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-015",
-
+        skillId: "dailyLife",
         question:
             "What material was used for making papyrus?",
 
@@ -363,7 +363,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-016",
-
+        skillId: "dailyLife",
         question:
             "Why do historians study everyday life?",
 
@@ -386,7 +386,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-017",
-
+        skillId: "dailyLife",
         question:
             "Which person would be responsible for writing records?",
 
@@ -409,7 +409,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-018",
-
+        skillId: "dailyLife",
         question:
             "What can objects from Ancient Egypt tell historians?",
 
@@ -432,7 +432,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-019",
-
+        skillId: "dailyLife",
         question:
             "Which statement about Ancient Egyptian society is true?",
 
@@ -455,7 +455,7 @@ export const dailyLife: SkillContent = {
 
     {
         id: "hist-life-020",
-
+        skillId: "dailyLife",
         question:
             "Which sentence best describes daily life in Ancient Egypt?",
 

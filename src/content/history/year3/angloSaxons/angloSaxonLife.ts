@@ -18,7 +18,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-001",
-
+        skillId: "angloSaxonLife",
         question:
             "Where did many Anglo-Saxons live?",
 
@@ -41,7 +41,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-002",
-
+        skillId: "angloSaxonLife",
         question:
             "What were Anglo-Saxon houses often made from?",
 
@@ -64,7 +64,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-003",
-
+        skillId: "angloSaxonLife",
         question:
             "What was the main job of many Anglo-Saxons?",
 
@@ -87,7 +87,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-004",
-
+        skillId: "angloSaxonLife",
         question:
             "What did Anglo-Saxon farmers grow?",
 
@@ -110,7 +110,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-005",
-
+        skillId: "angloSaxonLife",
         question:
             "What animals did Anglo-Saxons keep?",
 
@@ -133,7 +133,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-006",
-
+        skillId: "angloSaxonLife",
         question:
             "What was the centre of many Anglo-Saxon villages?",
 
@@ -156,7 +156,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-007",
-
+        skillId: "angloSaxonLife",
         question:
             "What did Anglo-Saxons eat?",
 
@@ -179,7 +179,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-008",
-
+        skillId: "angloSaxonLife",
         question:
             "What material was commonly used for Anglo-Saxon clothing?",
 
@@ -202,7 +202,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-009",
-
+        skillId: "angloSaxonLife",
         question:
             "What was a blacksmith's job?",
 
@@ -225,7 +225,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-010",
-
+        skillId: "angloSaxonLife",
         question:
             "Why were craftsmen important?",
 
@@ -248,7 +248,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-011",
-
+        skillId: "angloSaxonLife",
         question:
             "What was an Anglo-Saxon village usually surrounded by?",
 
@@ -271,7 +271,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-012",
-
+        skillId: "angloSaxonLife",
         question:
             "Why was farming important to Anglo-Saxons?",
 
@@ -294,7 +294,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-013",
-
+        skillId: "angloSaxonLife",
         question:
             "What tools would Anglo-Saxon farmers use?",
 
@@ -317,7 +317,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-014",
-
+        skillId: "angloSaxonLife",
         question:
             "Why did Anglo-Saxons build villages close together?",
 
@@ -340,7 +340,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-015",
-
+        skillId: "angloSaxonLife",
         question:
             "What does an archaeologist study?",
 
@@ -363,7 +363,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-016",
-
+        skillId: "angloSaxonLife",
         question:
             "What can Anglo-Saxon artefacts tell historians?",
 
@@ -386,7 +386,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-017",
-
+        skillId: "angloSaxonLife",
         question:
             "Which person would make tools and weapons?",
 
@@ -409,7 +409,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-018",
-
+        skillId: "angloSaxonLife",
         question:
             "Why do historians study everyday Anglo-Saxon life?",
 
@@ -432,7 +432,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-019",
-
+        skillId: "angloSaxonLife",
         question:
             "Which statement about Anglo-Saxon villages is true?",
 
@@ -455,7 +455,7 @@ export const angloSaxonLife: SkillContent = {
 
     {
         id: "hist-asl-020",
-
+        skillId: "angloSaxonLife",
         question:
             "Which sentence best describes Anglo-Saxon life?",
 

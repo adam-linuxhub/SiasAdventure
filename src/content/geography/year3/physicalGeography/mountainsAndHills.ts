@@ -18,7 +18,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-001",
-
+        skillId: "mountainsAndHills",
         question: "What is a mountain?",
 
         options: [
@@ -40,7 +40,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-002",
-
+        skillId: "mountainsAndHills",
         question: "What is a hill?",
 
         options: [
@@ -62,7 +62,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-003",
-
+        skillId: "mountainsAndHills",
         question: "Which is usually taller?",
 
         options: [
@@ -84,7 +84,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-004",
-
+        skillId: "mountainsAndHills",
         question: "Which of these is a natural feature?",
 
         options: [
@@ -106,7 +106,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-005",
-
+        skillId: "mountainsAndHills",
         question: "What is the top of a mountain called?",
 
         options: [
@@ -128,7 +128,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-006",
-
+        skillId: "mountainsAndHills",
         question: "Mountains are usually...",
 
         options: [
@@ -150,7 +150,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-007",
-
+        skillId: "mountainsAndHills",
         question: "Which place is most likely to have mountains?",
 
         options: [
@@ -172,7 +172,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-008",
-
+        skillId: "mountainsAndHills",
         question: "Which activity is often enjoyed on mountains?",
 
         options: [
@@ -194,7 +194,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-009",
-
+        skillId: "mountainsAndHills",
         question: "Which statement is true?",
 
         options: [
@@ -216,7 +216,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-010",
-
+        skillId: "mountainsAndHills",
         question: "Mountains and hills are examples of...",
 
         options: [
@@ -238,7 +238,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-011",
-
+        skillId: "mountainsAndHills",
         question: "Why do mountains often have cooler weather than low land?",
 
         options: [
@@ -260,7 +260,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-012",
-
+        skillId: "mountainsAndHills",
         question: "Why do people visit mountains?",
 
         options: [
@@ -282,7 +282,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-013",
-
+        skillId: "mountainsAndHills",
         question: "How are hills different from mountains?",
 
         options: [
@@ -304,7 +304,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-014",
-
+        skillId: "mountainsAndHills",
         question: "Why are mountains important for wildlife?",
 
         options: [
@@ -326,7 +326,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-015",
-
+        skillId: "mountainsAndHills",
         question: "Which feature would you expect to find on a mountain?",
 
         options: [
@@ -348,7 +348,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-016",
-
+        skillId: "mountainsAndHills",
         question: "Which landform would usually be easier to climb?",
 
         options: [
@@ -370,7 +370,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-017",
-
+        skillId: "mountainsAndHills",
         question: "Why are mountains shown on maps?",
 
         options: [
@@ -392,7 +392,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-018",
-
+        skillId: "mountainsAndHills",
         question: "Which of these is most likely to be found on a mountain?",
 
         options: [
@@ -414,7 +414,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-019",
-
+        skillId: "mountainsAndHills",
         question: "Which statement best compares hills and mountains?",
 
         options: [
@@ -436,7 +436,7 @@ export const mountainsAndHills: SkillContent = {
 
     {
         id: "geo-mountains-020",
-
+        skillId: "mountainsAndHills",
         question: "Which sentence best describes mountains and hills?",
 
         options: [

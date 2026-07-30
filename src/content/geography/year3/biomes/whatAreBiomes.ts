@@ -18,7 +18,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-001",
-
+        skillId: "whatAreBiomes",
         question:
             "What is a biome?",
 
@@ -41,7 +41,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-002",
-
+        skillId: "whatAreBiomes",
         question:
             "What helps decide which biome exists in an area?",
 
@@ -64,7 +64,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-003",
-
+        skillId: "whatAreBiomes",
         question:
             "What two things are found in every biome?",
 
@@ -87,7 +87,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-004",
-
+        skillId: "whatAreBiomes",
         question:
             "Why do different biomes have different plants?",
 
@@ -110,7 +110,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-005",
-
+        skillId: "whatAreBiomes",
         question:
             "Why do animals in different biomes look different?",
 
@@ -133,7 +133,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-006",
-
+        skillId: "whatAreBiomes",
         question:
             "Which biome is found near the equator?",
 
@@ -156,7 +156,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-007",
-
+        skillId: "whatAreBiomes",
         question:
             "Which biome is very cold and found near the poles?",
 
@@ -179,7 +179,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-008",
-
+        skillId: "whatAreBiomes",
         question:
             "Which biome usually has very little rainfall?",
 
@@ -202,7 +202,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-009",
-
+        skillId: "whatAreBiomes",
         question:
             "What is an ecosystem?",
 
@@ -225,7 +225,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-010",
-
+        skillId: "whatAreBiomes",
         question:
             "Why are plants important in ecosystems?",
 
@@ -248,7 +248,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-011",
-
+        skillId: "whatAreBiomes",
         question:
             "What is a habitat?",
 
@@ -271,7 +271,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-012",
-
+        skillId: "whatAreBiomes",
         question:
             "Why are rainforests important?",
 
@@ -294,7 +294,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-013",
-
+        skillId: "whatAreBiomes",
         question:
             "What does biodiversity mean?",
 
@@ -317,7 +317,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-014",
-
+        skillId: "whatAreBiomes",
         question:
             "Why are deserts difficult places for plants to survive?",
 
@@ -340,7 +340,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-015",
-
+        skillId: "whatAreBiomes",
         question:
             "What is an adaptation?",
 
@@ -363,7 +363,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-016",
-
+        skillId: "whatAreBiomes",
         question:
             "How can humans affect biomes?",
 
@@ -386,7 +386,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-017",
-
+        skillId: "whatAreBiomes",
         question:
             "Why should ecosystems be protected?",
 
@@ -409,7 +409,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-018",
-
+        skillId: "whatAreBiomes",
         question:
             "Which factor is important for plant growth?",
 
@@ -432,7 +432,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-019",
-
+        skillId: "whatAreBiomes",
         question:
             "Why are biomes found in different parts of Earth?",
 
@@ -455,7 +455,7 @@ export const whatAreBiomes: SkillContent = {
 
     {
         id: "geo-bio-020",
-
+        skillId: "whatAreBiomes",
         question:
             "Which sentence best describes a biome?",
 

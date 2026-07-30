@@ -18,7 +18,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-001",
-
+        skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'help'?",
 
         options: [
@@ -40,7 +40,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-002",
-
+        skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'play'?",
 
         options: [
@@ -62,7 +62,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-003",
-
+        skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'care'?",
 
         options: [
@@ -84,7 +84,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-004",
-
+        skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'teach'?",
 
         options: [
@@ -106,7 +106,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-005",
-
+        skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'paint'?",
 
         options: [
@@ -128,7 +128,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-006",
-
+        skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'read'?",
 
         options: [
@@ -150,7 +150,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-007",
-
+        skillId: "wordFamilies",
         question: "What is the root word in 'helpful'?",
 
         options: [
@@ -172,7 +172,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-008",
-
+        skillId: "wordFamilies",
         question: "What do words in the same word family share?",
 
         options: [
@@ -194,7 +194,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-009",
-
+        skillId: "wordFamilies",
         question: "Which word belongs to the word family of 'farm'?",
 
         options: [
@@ -216,7 +216,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-010",
-
+        skillId: "wordFamilies",
         question: "Which word belongs to the word family of 'kind'?",
 
         options: [
@@ -238,7 +238,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-011",
-
+        skillId: "wordFamilies",
         question: "Which word does NOT belong to the word family of 'play'?",
 
         options: [
@@ -260,7 +260,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-012",
-
+        skillId: "wordFamilies",
         question: "Which word belongs to the same family as 'careful'?",
 
         options: [
@@ -282,7 +282,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-013",
-
+        skillId: "wordFamilies",
         question: "Complete the word family: help, helper, helpful, ______.",
 
         options: [
@@ -304,7 +304,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-014",
-
+        skillId: "wordFamilies",
         question: "Which word belongs to the word family of 'teach'?",
 
         options: [
@@ -326,7 +326,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-015",
-
+        skillId: "wordFamilies",
         question: "The root word in 'carefully' is:",
 
         options: [
@@ -348,7 +348,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-016",
-
+        skillId: "wordFamilies",
         question: "Which word family does 'reader' belong to?",
 
         options: [
@@ -370,7 +370,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-017",
-
+        skillId: "wordFamilies",
         question: "Why do words in the same family look similar?",
 
         options: [
@@ -392,7 +392,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-018",
-
+        skillId: "wordFamilies",
         question: "Which set is a word family?",
 
         options: [
@@ -414,7 +414,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-019",
-
+        skillId: "wordFamilies",
         question: "Which word is built from the root word 'play'?",
 
         options: [
@@ -436,7 +436,7 @@ export const wordFamilies: SkillContent = {
 
     {
         id: "eng-wf-020",
-
+        skillId: "wordFamilies",
         question: "Why is learning word families useful?",
 
         options: [

@@ -18,7 +18,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-001",
-
+        skillId: "adverbs",
         question: "Which word is an adverb?",
 
         options: [
@@ -40,7 +40,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-002",
-
+        skillId: "adverbs",
         question: "Which word tells how someone walked?",
 
         options: [
@@ -62,7 +62,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-003",
-
+        skillId: "adverbs",
         question: "Which word is an adverb?",
 
         options: [
@@ -84,7 +84,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-004",
-
+        skillId: "adverbs",
         question: "Which word tells how the baby slept?",
 
         options: [
@@ -106,7 +106,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-005",
-
+        skillId: "adverbs",
         question: "Which word is an adverb?",
 
         options: [
@@ -128,7 +128,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-006",
-
+        skillId: "adverbs",
         question: "Which word tells how the bird sang?",
 
         options: [
@@ -150,7 +150,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-007",
-
+        skillId: "adverbs",
         question: "Which sentence contains an adverb?",
 
         options: [
@@ -172,7 +172,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-008",
-
+        skillId: "adverbs",
         question: "Which word is an adverb?",
 
         options: [
@@ -194,7 +194,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-009",
-
+        skillId: "adverbs",
         question: "Which word is NOT an adverb?",
 
         options: [
@@ -216,7 +216,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-010",
-
+        skillId: "adverbs",
         question: "Which word describes how someone smiled?",
 
         options: [
@@ -238,7 +238,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-011",
-
+        skillId: "adverbs",
         question: "Which pair contains only adverbs?",
 
         options: [
@@ -260,7 +260,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-012",
-
+        skillId: "adverbs",
         question: "Which sentence contains two adverbs?",
 
         options: [
@@ -282,7 +282,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-013",
-
+        skillId: "adverbs",
         question: "Which word best completes the sentence? 'Please speak ____.'",
 
         options: [
@@ -304,7 +304,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-014",
-
+        skillId: "adverbs",
         question: "In the sentence 'Tom carefully painted the fence.', which word is the adverb?",
 
         options: [
@@ -326,7 +326,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-015",
-
+        skillId: "adverbs",
         question: "Which sentence uses an adverb correctly?",
 
         options: [
@@ -348,7 +348,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-016",
-
+        skillId: "adverbs",
         question: "Which word tells when something happened?",
 
         options: [
@@ -370,7 +370,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-017",
-
+        skillId: "adverbs",
         question: "Why do writers use adverbs?",
 
         options: [
@@ -392,7 +392,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-018",
-
+        skillId: "adverbs",
         question: "Which word best completes the sentence? 'The children played ____.'",
 
         options: [
@@ -414,7 +414,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-019",
-
+        skillId: "adverbs",
         question: "Which sentence contains an adverb of time?",
 
         options: [
@@ -436,7 +436,7 @@ export const adverbs: SkillContent = {
 
     {
         id: "eng-adverbs-020",
-
+        skillId: "adverbs",
         question: "Which sentence uses adverbs correctly?",
 
         options: [

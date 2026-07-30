@@ -18,7 +18,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-001",
-
+        skillId: "shadows",
         question: "What causes a shadow?",
 
         options: [
@@ -40,7 +40,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-002",
-
+        skillId: "shadows",
         question: "When do you usually see your shadow outside?",
 
         options: [
@@ -62,7 +62,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-003",
-
+        skillId: "shadows",
         question: "What does a shadow look like?",
 
         options: [
@@ -84,7 +84,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-004",
-
+        skillId: "shadows",
         question: "What do you need to make a shadow?",
 
         options: [
@@ -106,7 +106,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-005",
-
+        skillId: "shadows",
         question: "Which object could make a shadow?",
 
         options: [
@@ -128,7 +128,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-006",
-
+        skillId: "shadows",
         question: "What happens to a shadow if the light is switched off?",
 
         options: [
@@ -150,7 +150,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-007",
-
+        skillId: "shadows",
         question: "Which light source can make shadows outside during the day?",
 
         options: [
@@ -172,7 +172,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-008",
-
+        skillId: "shadows",
         question: "Why is a shadow dark?",
 
         options: [
@@ -194,7 +194,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-009",
-
+        skillId: "shadows",
         question: "Where does a shadow appear?",
 
         options: [
@@ -216,7 +216,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-010",
-
+        skillId: "shadows",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-011",
-
+        skillId: "shadows",
         question: "What happens if you move closer to a torch while making a shadow?",
 
         options: [
@@ -260,7 +260,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-012",
-
+        skillId: "shadows",
         question: "What happens if you move further away from a torch?",
 
         options: [
@@ -282,7 +282,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-013",
-
+        skillId: "shadows",
         question: "Which investigation changes the size of a shadow?",
 
         options: [
@@ -304,7 +304,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-014",
-
+        skillId: "shadows",
         question: "Why does your shadow change during the day?",
 
         options: [
@@ -326,7 +326,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-015",
-
+        skillId: "shadows",
         question: "When is your shadow usually shortest outside?",
 
         options: [
@@ -348,7 +348,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-016",
-
+        skillId: "shadows",
         question: "What happens if there are two torches shining on one object?",
 
         options: [
@@ -370,7 +370,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-017",
-
+        skillId: "shadows",
         question: "Why can't a shadow exist without light?",
 
         options: [
@@ -392,7 +392,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-018",
-
+        skillId: "shadows",
         question: "A child moves a toy closer to a lamp. What happens to its shadow?",
 
         options: [
@@ -414,7 +414,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-019",
-
+        skillId: "shadows",
         question: "What is the best way to investigate shadows?",
 
         options: [
@@ -436,7 +436,7 @@ export const shadows: SkillContent = {
 
     {
         id: "sci-shadows-020",
-
+        skillId: "shadows",
         question: "Which sentence best explains how shadows are formed?",
 
         options: [

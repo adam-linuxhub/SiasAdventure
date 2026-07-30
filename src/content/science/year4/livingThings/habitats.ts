@@ -18,7 +18,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-001",
-
+        skillId: "habitats",
         question: "What is a habitat?",
 
         options: [
@@ -40,7 +40,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-002",
-
+        skillId: "habitats",
         question: "Which animal is well suited to living in the sea?",
 
         options: [
@@ -62,7 +62,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-003",
-
+        skillId: "habitats",
         question: "Which habitat would you find a camel in?",
 
         options: [
@@ -84,7 +84,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-004",
-
+        skillId: "habitats",
         question: "Where does a frog usually live?",
 
         options: [
@@ -106,7 +106,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-005",
-
+        skillId: "habitats",
         question: "Which plant is most likely to grow in a woodland?",
 
         options: [
@@ -128,7 +128,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-006",
-
+        skillId: "habitats",
         question: "Which habitat has lots of salt water?",
 
         options: [
@@ -150,7 +150,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-007",
-
+        skillId: "habitats",
         question: "Which animal is suited to an Arctic habitat?",
 
         options: [
@@ -172,7 +172,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-008",
-
+        skillId: "habitats",
         question: "Why do animals need habitats?",
 
         options: [
@@ -194,7 +194,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-009",
-
+        skillId: "habitats",
         question: "Which habitat would you find fish living in?",
 
         options: [
@@ -216,7 +216,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-010",
-
+        skillId: "habitats",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-011",
-
+        skillId: "habitats",
         question: "Why is a cactus suited to the desert?",
 
         options: [
@@ -260,7 +260,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-012",
-
+        skillId: "habitats",
         question: "Why do fish have gills?",
 
         options: [
@@ -282,7 +282,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-013",
-
+        skillId: "habitats",
         question: "A pond dries up. What is most likely to happen to the frogs living there?",
 
         options: [
@@ -304,7 +304,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-014",
-
+        skillId: "habitats",
         question: "Which habitat would be best for an earthworm?",
 
         options: [
@@ -326,7 +326,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-015",
-
+        skillId: "habitats",
         question: "Why do woodland animals often have brown or green colours?",
 
         options: [
@@ -348,7 +348,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-016",
-
+        skillId: "habitats",
         question: "What do all habitats provide?",
 
         options: [
@@ -370,7 +370,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-017",
-
+        skillId: "habitats",
         question: "Why would a polar bear struggle to live in a hot desert?",
 
         options: [
@@ -392,7 +392,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-018",
-
+        skillId: "habitats",
         question: "Why do scientists study habitats?",
 
         options: [
@@ -414,7 +414,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-019",
-
+        skillId: "habitats",
         question: "Which pair is correctly matched?",
 
         options: [
@@ -436,7 +436,7 @@ export const habitats: SkillContent = {
 
     {
         id: "sci-habitats-020",
-
+        skillId: "habitats",
         question: "Which sentence best describes a habitat?",
 
         options: [

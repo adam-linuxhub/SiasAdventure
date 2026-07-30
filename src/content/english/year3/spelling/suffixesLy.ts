@@ -18,7 +18,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-001",
-
+        skillId: "suffixesLy",
         question: "What does the suffix '-ly' often turn an adjective into?",
 
         options: [
@@ -40,7 +40,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-002",
-
+        skillId: "suffixesLy",
         question: "Which word is made by adding '-ly' to 'quick'?",
 
         options: [
@@ -62,7 +62,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-003",
-
+        skillId: "suffixesLy",
         question: "Which word is made by adding '-ly' to 'slow'?",
 
         options: [
@@ -84,7 +84,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-004",
-
+        skillId: "suffixesLy",
         question: "Which word is spelled correctly?",
 
         options: [
@@ -106,7 +106,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-005",
-
+        skillId: "suffixesLy",
         question: "Which word means 'in a happy way'?",
 
         options: [
@@ -128,7 +128,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-006",
-
+        skillId: "suffixesLy",
         question: "Which word means 'in a loud way'?",
 
         options: [
@@ -150,7 +150,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-007",
-
+        skillId: "suffixesLy",
         question: "Which sentence uses an '-ly' word correctly?",
 
         options: [
@@ -172,7 +172,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-008",
-
+        skillId: "suffixesLy",
         question: "Which word is formed from 'kind'?",
 
         options: [
@@ -194,7 +194,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-009",
-
+        skillId: "suffixesLy",
         question: "Which word ends with '-ly'?",
 
         options: [
@@ -216,7 +216,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-010",
-
+        skillId: "suffixesLy",
         question: "What do many '-ly' words describe?",
 
         options: [
@@ -238,7 +238,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-011",
-
+        skillId: "suffixesLy",
         question: "Complete the sentence: 'The baby slept ______.'",
 
         options: [
@@ -260,7 +260,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-012",
-
+        skillId: "suffixesLy",
         question: "Complete the sentence: 'Please listen ______.'",
 
         options: [
@@ -282,7 +282,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-013",
-
+        skillId: "suffixesLy",
         question: "Which sentence is correct?",
 
         options: [
@@ -304,7 +304,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-014",
-
+        skillId: "suffixesLy",
         question: "Which word tells us how the girl smiled?",
 
         options: [
@@ -326,7 +326,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-015",
-
+        skillId: "suffixesLy",
         question: "Which sentence uses an '-ly' word correctly?",
 
         options: [
@@ -348,7 +348,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-016",
-
+        skillId: "suffixesLy",
         question: "Which word is formed by adding '-ly' to 'brave'?",
 
         options: [
@@ -370,7 +370,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-017",
-
+        skillId: "suffixesLy",
         question: "Which sentence uses the correct spelling?",
 
         options: [
@@ -392,7 +392,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-018",
-
+        skillId: "suffixesLy",
         question: "Which sentence uses an adverb ending in '-ly'?",
 
         options: [
@@ -414,7 +414,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-019",
-
+        skillId: "suffixesLy",
         question: "Why do writers use many '-ly' words?",
 
         options: [
@@ -436,7 +436,7 @@ export const suffixesLy: SkillContent = {
 
     {
         id: "eng-ly-020",
-
+        skillId: "suffixesLy",
         question: "Which sentence contains two correctly spelled '-ly' words?",
 
         options: [

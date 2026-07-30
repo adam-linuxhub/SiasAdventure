@@ -18,7 +18,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-001",
-
+        skillId: "adjectives",
         question: "Which word is an adjective?",
 
         options: [
@@ -40,7 +40,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-002",
-
+        skillId: "adjectives",
         question: "Which word describes the noun 'car'?",
 
         options: [
@@ -62,7 +62,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-003",
-
+        skillId: "adjectives",
         question: "Which word is an adjective?",
 
         options: [
@@ -84,7 +84,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-004",
-
+        skillId: "adjectives",
         question: "Which word tells us what the apple is like?",
 
         options: [
@@ -106,7 +106,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-005",
-
+        skillId: "adjectives",
         question: "Which adjective describes a teddy bear?",
 
         options: [
@@ -128,7 +128,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-006",
-
+        skillId: "adjectives",
         question: "Which word is an adjective?",
 
         options: [
@@ -150,7 +150,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-007",
-
+        skillId: "adjectives",
         question: "Which adjective describes the weather?",
 
         options: [
@@ -172,7 +172,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-008",
-
+        skillId: "adjectives",
         question: "Which sentence contains an adjective?",
 
         options: [
@@ -194,7 +194,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-009",
-
+        skillId: "adjectives",
         question: "Which word is NOT an adjective?",
 
         options: [
@@ -216,7 +216,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-010",
-
+        skillId: "adjectives",
         question: "Which adjective describes a lion?",
 
         options: [
@@ -238,7 +238,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-011",
-
+        skillId: "adjectives",
         question: "Which pair contains only adjectives?",
 
         options: [
@@ -260,7 +260,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-012",
-
+        skillId: "adjectives",
         question: "Which sentence contains two adjectives?",
 
         options: [
@@ -282,7 +282,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-013",
-
+        skillId: "adjectives",
         question: "Which word best completes the sentence? 'The ____ elephant trumpeted.'",
 
         options: [
@@ -304,7 +304,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-014",
-
+        skillId: "adjectives",
         question: "Which adjective describes how something feels?",
 
         options: [
@@ -326,7 +326,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-015",
-
+        skillId: "adjectives",
         question: "In the sentence 'The shiny coin sparkled.', which word is the adjective?",
 
         options: [
@@ -348,7 +348,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-016",
-
+        skillId: "adjectives",
         question: "Which sentence uses an adjective correctly?",
 
         options: [
@@ -370,7 +370,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-017",
-
+        skillId: "adjectives",
         question: "Which adjective best describes snow?",
 
         options: [
@@ -392,7 +392,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-018",
-
+        skillId: "adjectives",
         question: "Which sentence contains an adjective describing size?",
 
         options: [
@@ -414,7 +414,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-019",
-
+        skillId: "adjectives",
         question: "Why do writers use adjectives?",
 
         options: [
@@ -436,7 +436,7 @@ export const adjectives: SkillContent = {
 
     {
         id: "eng-adj-020",
-
+        skillId: "adjectives",
         question: "Which sentence uses adjectives correctly?",
 
         options: [

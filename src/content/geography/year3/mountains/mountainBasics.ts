@@ -18,7 +18,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-001",
-
+        skillId: "mountainBasics",
         question:
             "What is a mountain?",
 
@@ -41,7 +41,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-002",
-
+        skillId: "mountainBasics",
         question:
             "How are mountains usually measured?",
 
@@ -64,7 +64,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-003",
-
+        skillId: "mountainBasics",
         question:
             "What is the highest point of a mountain called?",
 
@@ -87,7 +87,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-004",
-
+        skillId: "mountainBasics",
         question:
             "What is the bottom of a mountain called?",
 
@@ -110,7 +110,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-005",
-
+        skillId: "mountainBasics",
         question:
             "What is a peak?",
 
@@ -133,7 +133,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-006",
-
+        skillId: "mountainBasics",
         question:
             "What is a mountain range?",
 
@@ -156,7 +156,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-007",
-
+        skillId: "mountainBasics",
         question:
             "What is a valley?",
 
@@ -179,7 +179,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-008",
-
+        skillId: "mountainBasics",
         question:
             "Why are mountain areas often colder than low land?",
 
@@ -202,7 +202,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-009",
-
+        skillId: "mountainBasics",
         question:
             "What is altitude?",
 
@@ -225,7 +225,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-010",
-
+        skillId: "mountainBasics",
         question:
             "Why do some mountains have snow on their tops?",
 
@@ -248,7 +248,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-011",
-
+        skillId: "mountainBasics",
         question:
             "Which is an example of a famous mountain range?",
 
@@ -271,7 +271,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-012",
-
+        skillId: "mountainBasics",
         question:
             "What is a mountain landscape?",
 
@@ -294,7 +294,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-013",
-
+        skillId: "mountainBasics",
         question:
             "Why are mountains important habitats?",
 
@@ -317,7 +317,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-014",
-
+        skillId: "mountainBasics",
         question:
             "What is a cliff?",
 
@@ -340,7 +340,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-015",
-
+        skillId: "mountainBasics",
         question:
             "Why do people visit mountains?",
 
@@ -363,7 +363,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-016",
-
+        skillId: "mountainBasics",
         question:
             "What is a ridge?",
 
@@ -386,7 +386,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-017",
-
+        skillId: "mountainBasics",
         question:
             "How are mountains different from hills?",
 
@@ -409,7 +409,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-018",
-
+        skillId: "mountainBasics",
         question:
             "What can glaciers do to mountains?",
 
@@ -432,7 +432,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-019",
-
+        skillId: "mountainBasics",
         question:
             "Why do mountains affect the weather?",
 
@@ -455,7 +455,7 @@ export const mountainBasics: SkillContent = {
 
     {
         id: "geo-mtn-020",
-
+        skillId: "mountainBasics",
         question:
             "Which sentence best describes mountains?",
 

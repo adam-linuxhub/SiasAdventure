@@ -18,7 +18,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-001",
-
+        skillId: "switchesAndComponents",
         question: "What is the job of a switch in a circuit?",
 
         options: [
@@ -40,7 +40,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-002",
-
+        skillId: "switchesAndComponents",
         question: "Which component provides electrical energy?",
 
         options: [
@@ -62,7 +62,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-003",
-
+        skillId: "switchesAndComponents",
         question: "Which component lights up when electricity flows?",
 
         options: [
@@ -84,7 +84,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-004",
-
+        skillId: "switchesAndComponents",
         question: "What do wires do in a circuit?",
 
         options: [
@@ -106,7 +106,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-005",
-
+        skillId: "switchesAndComponents",
         question: "What happens when a switch is closed?",
 
         options: [
@@ -128,7 +128,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-006",
-
+        skillId: "switchesAndComponents",
         question: "What happens when a switch is open?",
 
         options: [
@@ -150,7 +150,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-007",
-
+        skillId: "switchesAndComponents",
         question: "Which component is designed to control the flow of electricity?",
 
         options: [
@@ -172,7 +172,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-008",
-
+        skillId: "switchesAndComponents",
         question: "Which component is most likely to glow in a simple circuit?",
 
         options: [
@@ -194,7 +194,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-009",
-
+        skillId: "switchesAndComponents",
         question: "Which item is NOT usually part of a simple electrical circuit?",
 
         options: [
@@ -216,7 +216,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-010",
-
+        skillId: "switchesAndComponents",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-011",
-
+        skillId: "switchesAndComponents",
         question: "Why does opening a switch make the bulb go out?",
 
         options: [
@@ -260,7 +260,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-012",
-
+        skillId: "switchesAndComponents",
         question: "Why is a battery needed in a simple circuit?",
 
         options: [
@@ -282,7 +282,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-013",
-
+        skillId: "switchesAndComponents",
         question: "Which set contains only electrical components?",
 
         options: [
@@ -304,7 +304,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-014",
-
+        skillId: "switchesAndComponents",
         question: "What is the purpose of connecting wires between components?",
 
         options: [
@@ -326,7 +326,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-015",
-
+        skillId: "switchesAndComponents",
         question: "Which change would allow a bulb to light after the switch has been left open?",
 
         options: [
@@ -348,7 +348,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-016",
-
+        skillId: "switchesAndComponents",
         question: "Why is every component connected in a complete circuit?",
 
         options: [
@@ -370,7 +370,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-017",
-
+        skillId: "switchesAndComponents",
         question: "What happens when you close a switch in a working circuit?",
 
         options: [
@@ -392,7 +392,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-018",
-
+        skillId: "switchesAndComponents",
         question: "Which component changes electrical energy into light?",
 
         options: [
@@ -414,7 +414,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-019",
-
+        skillId: "switchesAndComponents",
         question: "Why is a switch useful in a torch?",
 
         options: [
@@ -436,7 +436,7 @@ export const switchesAndComponents: SkillContent = {
 
     {
         id: "sci-switches-020",
-
+        skillId: "switchesAndComponents",
         question: "Which sentence best describes the purpose of electrical components?",
 
         options: [

@@ -18,7 +18,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-001",
-
+        skillId: "oceans",
         question:
             "What is an ocean?",
 
@@ -41,7 +41,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-002",
-
+        skillId: "oceans",
         question:
             "How many oceans are there in the world?",
 
@@ -64,7 +64,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-003",
-
+        skillId: "oceans",
         question:
             "Which is the largest ocean?",
 
@@ -87,7 +87,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-004",
-
+        skillId: "oceans",
         question:
             "Which ocean is between Europe and North America?",
 
@@ -110,7 +110,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-005",
-
+        skillId: "oceans",
         question:
             "Which ocean is around Antarctica?",
 
@@ -133,7 +133,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-006",
-
+        skillId: "oceans",
         question:
             "Which ocean is near the North Pole?",
 
@@ -156,7 +156,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-007",
-
+        skillId: "oceans",
         question:
             "Which ocean is between Africa, Asia and Australia?",
 
@@ -179,7 +179,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-008",
-
+        skillId: "oceans",
         question:
             "Why are oceans important?",
 
@@ -202,7 +202,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-009",
-
+        skillId: "oceans",
         question:
             "What type of water is found in oceans?",
 
@@ -225,7 +225,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-010",
-
+        skillId: "oceans",
         question:
             "What are waves in the ocean?",
 
@@ -248,7 +248,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-011",
-
+        skillId: "oceans",
         question:
             "What is a current?",
 
@@ -271,7 +271,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-012",
-
+        skillId: "oceans",
         question:
             "Why do oceans affect climate?",
 
@@ -294,7 +294,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-013",
-
+        skillId: "oceans",
         question:
             "What animals live in oceans?",
 
@@ -317,7 +317,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-014",
-
+        skillId: "oceans",
         question:
             "What is a marine habitat?",
 
@@ -340,7 +340,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-015",
-
+        skillId: "oceans",
         question:
             "Why should oceans be protected?",
 
@@ -363,7 +363,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-016",
-
+        skillId: "oceans",
         question:
             "What can pollute oceans?",
 
@@ -386,7 +386,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-017",
-
+        skillId: "oceans",
         question:
             "Why are oceans shown on world maps?",
 
@@ -409,7 +409,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-018",
-
+        skillId: "oceans",
         question:
             "Which continent is surrounded by the Southern Ocean?",
 
@@ -432,7 +432,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-019",
-
+        skillId: "oceans",
         question:
             "How are continents and oceans connected?",
 
@@ -455,7 +455,7 @@ export const oceans: SkillContent = {
 
     {
         id: "geo-oce-020",
-
+        skillId: "oceans",
         question:
             "Which sentence best describes oceans?",
 

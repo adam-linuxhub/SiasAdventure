@@ -18,7 +18,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-001",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "What is a mountain range?",
 
@@ -41,7 +41,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-002",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Which mountain range contains Mount Everest?",
 
@@ -64,7 +64,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-003",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Where are the Himalayas located?",
 
@@ -87,7 +87,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-004",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "What is the highest mountain above sea level?",
 
@@ -110,7 +110,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-005",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Which mountain range is found in Europe?",
 
@@ -133,7 +133,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-006",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Which mountain range is found in South America?",
 
@@ -156,7 +156,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-007",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Which mountain range is found in North America?",
 
@@ -179,7 +179,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-008",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "What continent is the Andes mountain range in?",
 
@@ -202,7 +202,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-009",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Why do geographers use maps to study mountains?",
 
@@ -225,7 +225,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-010",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "What does a globe show?",
 
@@ -248,7 +248,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-011",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Why are some mountain areas difficult to live in?",
 
@@ -271,7 +271,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-012",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "What is a mountain environment?",
 
@@ -294,7 +294,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-013",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Why do tourists visit mountains?",
 
@@ -317,7 +317,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-014",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Which mountain is in the UK?",
 
@@ -340,7 +340,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-015",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Why are mountain ranges often shown on maps?",
 
@@ -363,7 +363,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-016",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "What can people compare about mountains around the world?",
 
@@ -386,7 +386,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-017",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Why do mountain climates vary?",
 
@@ -409,7 +409,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-018",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "What type of map feature helps show height?",
 
@@ -432,7 +432,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-019",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Why are mountains important around the world?",
 
@@ -455,7 +455,7 @@ export const mountainsAroundTheWorld: SkillContent = {
 
     {
         id: "geo-maw-020",
-
+        skillId: "mountainsAroundTheWorld",
         question:
             "Which sentence best describes mountains around the world?",
 

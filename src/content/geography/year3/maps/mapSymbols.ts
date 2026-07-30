@@ -18,7 +18,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-001",
-
+        skillId: "mapSymbols",
         question: "Why do maps use symbols?",
 
         options: [
@@ -40,7 +40,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-002",
-
+        skillId: "mapSymbols",
         question: "What tells you what map symbols mean?",
 
         options: [
@@ -62,7 +62,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-003",
-
+        skillId: "mapSymbols",
         question: "Which map feature helps you find the meaning of symbols?",
 
         options: [
@@ -84,7 +84,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-004",
-
+        skillId: "mapSymbols",
         question: "A blue line on a map often represents a...",
 
         options: [
@@ -106,7 +106,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-005",
-
+        skillId: "mapSymbols",
         question: "A tree symbol on a map usually shows a...",
 
         options: [
@@ -128,7 +128,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-006",
-
+        skillId: "mapSymbols",
         question: "Why are symbols used instead of drawing real pictures?",
 
         options: [
@@ -150,7 +150,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-007",
-
+        skillId: "mapSymbols",
         question: "What does a map key help you do?",
 
         options: [
@@ -172,7 +172,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-008",
-
+        skillId: "mapSymbols",
         question: "Which feature would most likely have its own symbol?",
 
         options: [
@@ -194,7 +194,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-009",
-
+        skillId: "mapSymbols",
         question: "Why do different maps use different symbols?",
 
         options: [
@@ -216,7 +216,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-010",
-
+        skillId: "mapSymbols",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-011",
-
+        skillId: "mapSymbols",
         question: "Why is a map key important?",
 
         options: [
@@ -260,7 +260,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-012",
-
+        skillId: "mapSymbols",
         question: "If you wanted to find a park, what should you do first?",
 
         options: [
@@ -282,7 +282,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-013",
-
+        skillId: "mapSymbols",
         question: "Why are rivers often shown in blue?",
 
         options: [
@@ -304,7 +304,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-014",
-
+        skillId: "mapSymbols",
         question: "What should you use if you don't recognise a symbol?",
 
         options: [
@@ -326,7 +326,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-015",
-
+        skillId: "mapSymbols",
         question: "Why are symbols useful on small maps?",
 
         options: [
@@ -348,7 +348,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-016",
-
+        skillId: "mapSymbols",
         question: "A map showing many schools, hospitals and parks is using symbols to show...",
 
         options: [
@@ -370,7 +370,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-017",
-
+        skillId: "mapSymbols",
         question: "Why do map makers use the same symbol many times?",
 
         options: [
@@ -392,7 +392,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-018",
-
+        skillId: "mapSymbols",
         question: "Which skill helps you read a map correctly?",
 
         options: [
@@ -414,7 +414,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-019",
-
+        skillId: "mapSymbols",
         question: "Why are map symbols useful wherever you travel?",
 
         options: [
@@ -436,7 +436,7 @@ export const mapSymbols: SkillContent = {
 
     {
         id: "geo-mapsym-020",
-
+        skillId: "mapSymbols",
         question: "Which sentence best describes map symbols?",
 
         options: [

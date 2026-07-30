@@ -18,7 +18,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-001",
-
+        skillId: "livingOrDead",
         question: "Which of these is a living thing?",
 
         options: [
@@ -40,7 +40,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-002",
-
+        skillId: "livingOrDead",
         question: "Which of these has never been alive?",
 
         options: [
@@ -62,7 +62,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-003",
-
+        skillId: "livingOrDead",
         question: "Which of these is dead?",
 
         options: [
@@ -84,7 +84,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-004",
-
+        skillId: "livingOrDead",
         question: "Which of these grows?",
 
         options: [
@@ -106,7 +106,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-005",
-
+        skillId: "livingOrDead",
         question: "Which is a sign that something is living?",
 
         options: [
@@ -128,7 +128,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-006",
-
+        skillId: "livingOrDead",
         question: "Which of these is alive?",
 
         options: [
@@ -150,7 +150,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-007",
-
+        skillId: "livingOrDead",
         question: "Which object has never been alive?",
 
         options: [
@@ -172,7 +172,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-008",
-
+        skillId: "livingOrDead",
         question: "Living things need...",
 
         options: [
@@ -194,7 +194,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-009",
-
+        skillId: "livingOrDead",
         question: "Which of these can reproduce?",
 
         options: [
@@ -216,7 +216,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-010",
-
+        skillId: "livingOrDead",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-011",
-
+        skillId: "livingOrDead",
         question: "A wooden chair is made from a tree. Which is true?",
 
         options: [
@@ -260,7 +260,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-012",
-
+        skillId: "livingOrDead",
         question: "Why is a mushroom considered living?",
 
         options: [
@@ -282,7 +282,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-013",
-
+        skillId: "livingOrDead",
         question: "Which item is dead rather than never alive?",
 
         options: [
@@ -304,7 +304,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-014",
-
+        skillId: "livingOrDead",
         question: "Why is a rock not living?",
 
         options: [
@@ -326,7 +326,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-015",
-
+        skillId: "livingOrDead",
         question: "Which group contains only living things?",
 
         options: [
@@ -348,7 +348,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-016",
-
+        skillId: "livingOrDead",
         question: "Which life process helps make more of the same species?",
 
         options: [
@@ -370,7 +370,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-017",
-
+        skillId: "livingOrDead",
         question: "A shell washed onto the beach belonged to a snail. The shell is...",
 
         options: [
@@ -392,7 +392,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-018",
-
+        skillId: "livingOrDead",
         question: "Which feature helps scientists decide if something is living?",
 
         options: [
@@ -414,7 +414,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-019",
-
+        skillId: "livingOrDead",
         question: "A seed is alive because it can...",
 
         options: [
@@ -436,7 +436,7 @@ export const livingOrDead: SkillContent = {
 
     {
         id: "sci-living-dead-020",
-
+        skillId: "livingOrDead",
         question: "Which sentence best describes living things?",
 
         options: [

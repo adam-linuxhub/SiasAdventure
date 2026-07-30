@@ -18,7 +18,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-001",
-
+        skillId: "rainforestBiome",
         question:
             "Where are tropical rainforests usually found?",
 
@@ -41,7 +41,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-002",
-
+        skillId: "rainforestBiome",
         question:
             "What is the climate like in a tropical rainforest?",
 
@@ -64,7 +64,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-003",
-
+        skillId: "rainforestBiome",
         question:
             "Why do tropical rainforests have many different plants and animals?",
 
@@ -87,7 +87,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-004",
-
+        skillId: "rainforestBiome",
         question:
             "What does biodiversity mean?",
 
@@ -110,7 +110,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-005",
-
+        skillId: "rainforestBiome",
         question:
             "What is the canopy?",
 
@@ -133,7 +133,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-006",
-
+        skillId: "rainforestBiome",
         question:
             "Which rainforest layer receives the most sunlight?",
 
@@ -156,7 +156,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-007",
-
+        skillId: "rainforestBiome",
         question:
             "What is the forest floor like?",
 
@@ -179,7 +179,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-008",
-
+        skillId: "rainforestBiome",
         question:
             "Why do rainforest trees grow very tall?",
 
@@ -202,7 +202,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-009",
-
+        skillId: "rainforestBiome",
         question:
             "Which animal might live in a rainforest?",
 
@@ -225,7 +225,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-010",
-
+        skillId: "rainforestBiome",
         question:
             "Why are rainforest plants important?",
 
@@ -248,7 +248,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-011",
-
+        skillId: "rainforestBiome",
         question:
             "What is deforestation?",
 
@@ -271,7 +271,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-012",
-
+        skillId: "rainforestBiome",
         question:
             "Why are rainforests cut down?",
 
@@ -294,7 +294,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-013",
-
+        skillId: "rainforestBiome",
         question:
             "Why are rainforests important for Earth?",
 
@@ -317,7 +317,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-014",
-
+        skillId: "rainforestBiome",
         question:
             "What is an indigenous community?",
 
@@ -340,7 +340,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-015",
-
+        skillId: "rainforestBiome",
         question:
             "Why are rainforest soils often thin?",
 
@@ -363,7 +363,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-016",
-
+        skillId: "rainforestBiome",
         question:
             "How do rainforest animals survive?",
 
@@ -386,7 +386,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-017",
-
+        skillId: "rainforestBiome",
         question:
             "What is a tropical rainforest ecosystem made up of?",
 
@@ -409,7 +409,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-018",
-
+        skillId: "rainforestBiome",
         question:
             "How can people help protect rainforests?",
 
@@ -432,7 +432,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-019",
-
+        skillId: "rainforestBiome",
         question:
             "Why are rainforests called 'rainforests'?",
 
@@ -455,7 +455,7 @@ export const rainforestBiome: SkillContent = {
 
     {
         id: "geo-rf-020",
-
+        skillId: "rainforestBiome",
         question:
             "Which sentence best describes a tropical rainforest?",
 

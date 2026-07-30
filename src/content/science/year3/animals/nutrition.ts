@@ -18,7 +18,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-001",
-
+        skillId: "nutrition",
         question: "Why do animals need food?",
 
         options: [
@@ -45,7 +45,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-002",
-
+        skillId: "nutrition",
         question: "Which living thing can make its own food?",
 
         options: [
@@ -72,7 +72,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-003",
-
+        skillId: "nutrition",
         question: "Animals get their food by...",
 
         options: [
@@ -98,7 +98,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-004",
-
+        skillId: "nutrition",
         question: "Which of these is an animal?",
 
         options: [
@@ -123,7 +123,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-005",
-
+        skillId: "nutrition",
         question: "What do humans need to stay healthy?",
 
         options: [
@@ -149,7 +149,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-006",
-
+        skillId: "nutrition",
         question: "Which of these can NOT make its own food?",
 
         options: [
@@ -175,7 +175,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-007",
-
+        skillId: "nutrition",
         question: "What happens if an animal does not get enough food?",
 
         options: [
@@ -202,7 +202,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-008",
-
+        skillId: "nutrition",
         question: "Which living thing gets energy from eating food?",
 
         options: [
@@ -228,7 +228,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-009",
-
+        skillId: "nutrition",
         question: "Which of these is a healthy choice to eat regularly?",
 
         options: [
@@ -254,7 +254,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-010",
-
+        skillId: "nutrition",
         question: "Which statement is correct?",
 
         options: [
@@ -279,8 +279,8 @@ export const nutrition: SkillContent = {
     },
         {
         id: "sci-nutrition-011",
-
-        question: "Why do humans eat different types of food?",
+            skillId: "nutrition",
+            question: "Why do humans eat different types of food?",
 
         options: [
             "To stay healthy and get the nutrients they need",
@@ -306,7 +306,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-012",
-
+        skillId: "nutrition",
         question: "Which animal eats plants?",
 
         options: [
@@ -332,7 +332,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-013",
-
+        skillId: "nutrition",
         question: "Which animal mainly eats other animals?",
 
         options: [
@@ -359,7 +359,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-014",
-
+        skillId: "nutrition",
         question: "Which food is a good source of energy?",
 
         options: [
@@ -385,7 +385,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-015",
-
+        skillId: "nutrition",
         question: "Why do children need healthy food?",
 
         options: [
@@ -412,7 +412,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-016",
-
+        skillId: "nutrition",
         question: "Which of these is part of a balanced diet?",
 
         options: [
@@ -438,7 +438,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-017",
-
+        skillId: "nutrition",
         question: "What do all animals have in common?",
 
         options: [
@@ -464,7 +464,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-018",
-
+        skillId: "nutrition",
         question: "Which meal would usually be the healthiest?",
 
         options: [
@@ -490,7 +490,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-019",
-
+        skillId: "nutrition",
         question: "If an animal cannot find enough food, what is likely to happen?",
 
         options: [
@@ -517,7 +517,7 @@ export const nutrition: SkillContent = {
 
     {
         id: "sci-nutrition-020",
-
+        skillId: "nutrition",
         question: "Which statement best explains nutrition?",
 
         options: [

@@ -18,7 +18,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-001",
-
+        skillId: "simpleCircuits",
         question: "What is needed for a simple electrical circuit to work?",
 
         options: [
@@ -40,7 +40,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-002",
-
+        skillId: "simpleCircuits",
         question: "Which component provides electrical energy in a simple circuit?",
 
         options: [
@@ -62,7 +62,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-003",
-
+        skillId: "simpleCircuits",
         question: "What do wires do in a circuit?",
 
         options: [
@@ -84,7 +84,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-004",
-
+        skillId: "simpleCircuits",
         question: "What does a bulb do in a circuit?",
 
         options: [
@@ -106,7 +106,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-005",
-
+        skillId: "simpleCircuits",
         question: "What is a switch used for?",
 
         options: [
@@ -128,7 +128,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-006",
-
+        skillId: "simpleCircuits",
         question: "What happens when a circuit is complete?",
 
         options: [
@@ -150,7 +150,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-007",
-
+        skillId: "simpleCircuits",
         question: "What happens if there is a gap in a circuit?",
 
         options: [
@@ -172,7 +172,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-008",
-
+        skillId: "simpleCircuits",
         question: "Which component can turn a bulb on and off without removing the battery?",
 
         options: [
@@ -194,7 +194,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-009",
-
+        skillId: "simpleCircuits",
         question: "Which of these is part of a simple circuit?",
 
         options: [
@@ -216,7 +216,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-010",
-
+        skillId: "simpleCircuits",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-011",
-
+        skillId: "simpleCircuits",
         question: "Why does a bulb not light if one wire becomes disconnected?",
 
         options: [
@@ -260,7 +260,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-012",
-
+        skillId: "simpleCircuits",
         question: "Why is a battery important in a simple circuit?",
 
         options: [
@@ -282,7 +282,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-013",
-
+        skillId: "simpleCircuits",
         question: "A switch is opened. What happens?",
 
         options: [
@@ -304,7 +304,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-014",
-
+        skillId: "simpleCircuits",
         question: "Which group contains only circuit components?",
 
         options: [
@@ -326,7 +326,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-015",
-
+        skillId: "simpleCircuits",
         question: "Why must all the wires be connected properly?",
 
         options: [
@@ -348,7 +348,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-016",
-
+        skillId: "simpleCircuits",
         question: "Which change would stop a working circuit?",
 
         options: [
@@ -370,7 +370,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-017",
-
+        skillId: "simpleCircuits",
         question: "What is the purpose of a complete circuit?",
 
         options: [
@@ -392,7 +392,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-018",
-
+        skillId: "simpleCircuits",
         question: "Which component controls the flow of electricity?",
 
         options: [
@@ -414,7 +414,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-019",
-
+        skillId: "simpleCircuits",
         question: "Why does the bulb light when the switch is closed?",
 
         options: [
@@ -436,7 +436,7 @@ export const simpleCircuits: SkillContent = {
 
     {
         id: "sci-circuit-020",
-
+        skillId: "simpleCircuits",
         question: "Which sentence best describes a simple electrical circuit?",
 
         options: [

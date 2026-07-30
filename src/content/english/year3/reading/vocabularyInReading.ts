@@ -18,7 +18,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-001",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe enormous elephant walked slowly through the forest.\n\nWhat does 'enormous' mean?",
 
@@ -41,7 +41,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-002",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe kitten was tiny and could fit inside a small box.\n\nWhat does 'tiny' mean?",
 
@@ -64,7 +64,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-003",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe explorer discovered a hidden cave behind the waterfall.\n\nWhat does 'discovered' mean?",
 
@@ -87,7 +87,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-004",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe path was slippery after the rain, so Ben walked carefully.\n\nWhat does 'slippery' mean?",
 
@@ -110,7 +110,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-005",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe castle was ancient and had stood for hundreds of years.\n\nWhat does 'ancient' mean?",
 
@@ -133,7 +133,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-006",
-
+        skillId: "vocabularyInReading",
         question:
             "Which clues can help you understand a new word?",
 
@@ -156,7 +156,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-007",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe dog was exhausted after running for two hours.\n\nWhat does 'exhausted' mean?",
 
@@ -179,7 +179,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-008",
-
+        skillId: "vocabularyInReading",
         question:
             "What should you do if you find an unfamiliar word while reading?",
 
@@ -202,7 +202,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-009",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe frightened rabbit quickly ran away from the fox.\n\nWhat does 'frightened' mean?",
 
@@ -225,7 +225,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-010",
-
+        skillId: "vocabularyInReading",
         question:
             "Why is understanding vocabulary important when reading?",
 
@@ -248,7 +248,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-011",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe mysterious box had a strange symbol on it and nobody knew what was inside.\n\nWhat does 'mysterious' mean?",
 
@@ -271,7 +271,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-012",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe scientist carefully observed the plant and wrote notes about its growth.\n\nWhat does 'observed' mean?",
 
@@ -294,7 +294,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-013",
-
+        skillId: "vocabularyInReading",
         question:
             "The prefix 'un-' in 'unhappy' helps you understand that it means:",
 
@@ -317,7 +317,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-014",
-
+        skillId: "vocabularyInReading",
         question:
             "The suffix '-ly' in 'quickly' helps you understand that it describes:",
 
@@ -340,7 +340,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-015",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe hero was courageous and entered the dark cave alone.\n\nWhat does 'courageous' mean?",
 
@@ -363,7 +363,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-016",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe garden was peaceful, with birds singing quietly.\n\nWhat does 'peaceful' mean?",
 
@@ -386,7 +386,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-017",
-
+        skillId: "vocabularyInReading",
         question:
             "Which strategy helps you work out a word meaning?",
 
@@ -409,7 +409,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-018",
-
+        skillId: "vocabularyInReading",
         question:
             "Read the sentence:\n\nThe enormous waves crashed against the rocks during the storm.\n\nWhat does 'crashed' suggest?",
 
@@ -432,7 +432,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-019",
-
+        skillId: "vocabularyInReading",
         question:
             "When you meet a new word, what should you ask yourself?",
 
@@ -455,7 +455,7 @@ export const vocabularyInReading: SkillContent = {
 
     {
         id: "eng-vocabread-020",
-
+        skillId: "vocabularyInReading",
         question:
             "A strong reader uses vocabulary clues to:",
 

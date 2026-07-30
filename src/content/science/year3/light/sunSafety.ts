@@ -18,7 +18,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-001",
-
+        skillId: "sunSafety",
         question: "Why should you never look directly at the Sun?",
 
         options: [
@@ -40,7 +40,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-002",
-
+        skillId: "sunSafety",
         question: "What should you wear to help protect your eyes on a sunny day?",
 
         options: [
@@ -62,7 +62,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-003",
-
+        skillId: "sunSafety",
         question: "Which item helps protect your face from the Sun?",
 
         options: [
@@ -84,7 +84,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-004",
-
+        skillId: "sunSafety",
         question: "What should you put on your skin before spending time in strong sunshine?",
 
         options: [
@@ -106,7 +106,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-005",
-
+        skillId: "sunSafety",
         question: "Where is a good place to stay on a very sunny day?",
 
         options: [
@@ -128,7 +128,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-006",
-
+        skillId: "sunSafety",
         question: "Which of these is safe to do?",
 
         options: [
@@ -150,7 +150,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-007",
-
+        skillId: "sunSafety",
         question: "Why do people wear sunglasses on sunny days?",
 
         options: [
@@ -172,7 +172,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-008",
-
+        skillId: "sunSafety",
         question: "What can happen if your skin gets too much Sun?",
 
         options: [
@@ -194,7 +194,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-009",
-
+        skillId: "sunSafety",
         question: "Which activity is safest on a very hot sunny day?",
 
         options: [
@@ -216,7 +216,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-010",
-
+        skillId: "sunSafety",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-011",
-
+        skillId: "sunSafety",
         question: "Why is shade cooler than standing in direct sunlight?",
 
         options: [
@@ -260,7 +260,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-012",
-
+        skillId: "sunSafety",
         question: "Which combination gives the best protection on a sunny day?",
 
         options: [
@@ -282,7 +282,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-013",
-
+        skillId: "sunSafety",
         question: "Why should children follow sun safety advice?",
 
         options: [
@@ -304,7 +304,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-014",
-
+        skillId: "sunSafety",
         question: "Which action is NOT safe?",
 
         options: [
@@ -326,7 +326,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-015",
-
+        skillId: "sunSafety",
         question: "A child is going to the beach on a sunny day. What should they take?",
 
         options: [
@@ -348,7 +348,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-016",
-
+        skillId: "sunSafety",
         question: "Why shouldn't you look at the Sun through binoculars or a telescope?",
 
         options: [
@@ -370,7 +370,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-017",
-
+        skillId: "sunSafety",
         question: "What is the safest choice during very strong sunshine?",
 
         options: [
@@ -392,7 +392,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-018",
-
+        skillId: "sunSafety",
         question: "Why do teachers remind children to wear hats outside in summer?",
 
         options: [
@@ -414,7 +414,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-019",
-
+        skillId: "sunSafety",
         question: "Which statement about the Sun is correct?",
 
         options: [
@@ -436,7 +436,7 @@ export const sunSafety: SkillContent = {
 
     {
         id: "sci-sunsafety-020",
-
+        skillId: "sunSafety",
         question: "Which sentence best explains good sun safety?",
 
         options: [

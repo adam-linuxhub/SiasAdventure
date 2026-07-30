@@ -18,7 +18,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-001",
-
+        skillId: "conjunctions",
         question: "Which word is a conjunction?",
 
         options: [
@@ -40,7 +40,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-002",
-
+        skillId: "conjunctions",
         question: "Which conjunction joins two choices?",
 
         options: [
@@ -62,7 +62,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-003",
-
+        skillId: "conjunctions",
         question: "Which conjunction shows a reason?",
 
         options: [
@@ -84,7 +84,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-004",
-
+        skillId: "conjunctions",
         question: "Which word joins two ideas together?",
 
         options: [
@@ -106,7 +106,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-005",
-
+        skillId: "conjunctions",
         question: "Choose the correct conjunction: 'Tea ____ coffee?'",
 
         options: [
@@ -128,7 +128,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-006",
-
+        skillId: "conjunctions",
         question: "Which word is a conjunction?",
 
         options: [
@@ -150,7 +150,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-007",
-
+        skillId: "conjunctions",
         question: "Which sentence uses 'and' correctly?",
 
         options: [
@@ -172,7 +172,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-008",
-
+        skillId: "conjunctions",
         question: "Which sentence uses 'but' correctly?",
 
         options: [
@@ -194,7 +194,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-009",
-
+        skillId: "conjunctions",
         question: "Which word is NOT a conjunction?",
 
         options: [
@@ -216,7 +216,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-010",
-
+        skillId: "conjunctions",
         question: "Why do we use conjunctions?",
 
         options: [
@@ -238,7 +238,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-011",
-
+        skillId: "conjunctions",
         question: "Choose the best conjunction: 'I stayed inside ____ it was raining.'",
 
         options: [
@@ -260,7 +260,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-012",
-
+        skillId: "conjunctions",
         question: "Choose the best conjunction: 'Would you like an apple ____ a banana?'",
 
         options: [
@@ -282,7 +282,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-013",
-
+        skillId: "conjunctions",
         question: "Choose the best conjunction: 'The dog barked ____ wagged its tail.'",
 
         options: [
@@ -304,7 +304,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-014",
-
+        skillId: "conjunctions",
         question: "Choose the best conjunction: 'The soup was hot, ____ I still ate it.'",
 
         options: [
@@ -326,7 +326,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-015",
-
+        skillId: "conjunctions",
         question: "Which sentence uses a conjunction correctly?",
 
         options: [
@@ -348,7 +348,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-016",
-
+        skillId: "conjunctions",
         question: "Which sentence contains two conjunctions?",
 
         options: [
@@ -370,7 +370,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-017",
-
+        skillId: "conjunctions",
         question: "Which conjunction joins opposite ideas?",
 
         options: [
@@ -392,7 +392,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-018",
-
+        skillId: "conjunctions",
         question: "Which conjunction joins similar ideas?",
 
         options: [
@@ -414,7 +414,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-019",
-
+        skillId: "conjunctions",
         question: "Which conjunction gives a choice?",
 
         options: [
@@ -436,7 +436,7 @@ export const conjunctions: SkillContent = {
 
     {
         id: "eng-conj-020",
-
+        skillId: "conjunctions",
         question: "Which sentence uses conjunctions correctly?",
 
         options: [

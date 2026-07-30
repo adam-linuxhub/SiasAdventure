@@ -18,7 +18,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-001",
-
+        skillId: "subjectAndPredicate",
         question: "In the sentence 'The cat slept.', what is the subject?",
 
         options: [
@@ -40,7 +40,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-002",
-
+        skillId: "subjectAndPredicate",
         question: "In the sentence 'The dog barked loudly.', what is the predicate?",
 
         options: [
@@ -62,7 +62,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-003",
-
+        skillId: "subjectAndPredicate",
         question: "Which is the subject in 'Emma painted a picture.'?",
 
         options: [
@@ -84,7 +84,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-004",
-
+        skillId: "subjectAndPredicate",
         question: "Which is the predicate in 'Birds sing every morning.'?",
 
         options: [
@@ -106,7 +106,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-005",
-
+        skillId: "subjectAndPredicate",
         question: "Every complete sentence needs...",
 
         options: [
@@ -128,7 +128,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-006",
-
+        skillId: "subjectAndPredicate",
         question: "Which is the subject in 'The children laughed.'?",
 
         options: [
@@ -150,7 +150,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-007",
-
+        skillId: "subjectAndPredicate",
         question: "Which is the predicate in 'My brother plays football.'?",
 
         options: [
@@ -172,7 +172,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-008",
-
+        skillId: "subjectAndPredicate",
         question: "Which sentence has both a subject and a predicate?",
 
         options: [
@@ -194,7 +194,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-009",
-
+        skillId: "subjectAndPredicate",
         question: "Which is NOT a complete sentence?",
 
         options: [
@@ -216,7 +216,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-010",
-
+        skillId: "subjectAndPredicate",
         question: "In 'Tom ran home.', who is the subject?",
 
         options: [
@@ -238,7 +238,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-011",
-
+        skillId: "subjectAndPredicate",
         question: "In 'The red kite flew high.', what is the predicate?",
 
         options: [
@@ -260,7 +260,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-012",
-
+        skillId: "subjectAndPredicate",
         question: "In 'Our teacher read a story.', what is the subject?",
 
         options: [
@@ -282,7 +282,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-013",
-
+        skillId: "subjectAndPredicate",
         question: "Which sentence has the subject 'The birds'?",
 
         options: [
@@ -304,7 +304,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-014",
-
+        skillId: "subjectAndPredicate",
         question: "Which part is the predicate in 'My friends visited the museum.'?",
 
         options: [
@@ -326,7 +326,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-015",
-
+        skillId: "subjectAndPredicate",
         question: "What does the predicate tell us?",
 
         options: [
@@ -348,7 +348,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-016",
-
+        skillId: "subjectAndPredicate",
         question: "What does the subject tell us?",
 
         options: [
@@ -370,7 +370,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-017",
-
+        skillId: "subjectAndPredicate",
         question: "Which sentence has a compound subject?",
 
         options: [
@@ -392,7 +392,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-018",
-
+        skillId: "subjectAndPredicate",
         question: "Which sentence has the predicate 'jumped over the fence'?",
 
         options: [
@@ -414,7 +414,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-019",
-
+        skillId: "subjectAndPredicate",
         question: "Choose the complete sentence.",
 
         options: [
@@ -436,7 +436,7 @@ export const subjectAndPredicate: SkillContent = {
 
     {
         id: "eng-subpred-020",
-
+        skillId: "subjectAndPredicate",
         question: "Why are subjects and predicates important?",
 
         options: [

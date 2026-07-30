@@ -18,7 +18,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-001",
-
+        skillId: "authorIntent",
         question:
             "Why might an author write a text?",
 
@@ -41,7 +41,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-002",
-
+        skillId: "authorIntent",
         question:
             "A newspaper article explaining yesterday's weather was written to:",
 
@@ -64,7 +64,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-003",
-
+        skillId: "authorIntent",
         question:
             "A funny story about a talking animal was probably written to:",
 
@@ -87,7 +87,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-004",
-
+        skillId: "authorIntent",
         question:
             "An advert saying 'Buy this amazing toy today!' was written to:",
 
@@ -110,7 +110,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-005",
-
+        skillId: "authorIntent",
         question:
             "A book explaining how volcanoes erupt was written to:",
 
@@ -133,7 +133,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-006",
-
+        skillId: "authorIntent",
         question:
             "A recipe is usually written to:",
 
@@ -156,7 +156,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-007",
-
+        skillId: "authorIntent",
         question:
             "A fairy tale about a princess and a dragon is mainly written to:",
 
@@ -179,7 +179,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-008",
-
+        skillId: "authorIntent",
         question:
             "A leaflet explaining how to recycle is written to:",
 
@@ -202,7 +202,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-009",
-
+        skillId: "authorIntent",
         question:
             "Which words are clues that a text may be trying to persuade you?",
 
@@ -225,7 +225,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-010",
-
+        skillId: "authorIntent",
         question:
             "Why is it useful to know an author's purpose?",
 
@@ -248,7 +248,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-011",
-
+        skillId: "authorIntent",
         question:
             "A website explaining facts about dinosaurs is most likely written to:",
 
@@ -271,7 +271,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-012",
-
+        skillId: "authorIntent",
         question:
             "A poster saying 'Join our clean-up day and help save the planet!' is written to:",
 
@@ -294,7 +294,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-013",
-
+        skillId: "authorIntent",
         question:
             "A science book explaining the water cycle is written mainly to:",
 
@@ -317,7 +317,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-014",
-
+        skillId: "authorIntent",
         question:
             "A joke book is mainly written to:",
 
@@ -340,7 +340,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-015",
-
+        skillId: "authorIntent",
         question:
             "Which feature suggests a text is meant to inform?",
 
@@ -363,7 +363,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-016",
-
+        skillId: "authorIntent",
         question:
             "A travel brochure saying 'Visit the beautiful beaches of Spain!' is trying to:",
 
@@ -386,7 +386,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-017",
-
+        skillId: "authorIntent",
         question:
             "A set of instructions for building a model plane is written to:",
 
@@ -409,7 +409,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-018",
-
+        skillId: "authorIntent",
         question:
             "A character in a story feeling nervous before a race helps the author to:",
 
@@ -432,7 +432,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-019",
-
+        skillId: "authorIntent",
         question:
             "Which question helps you find an author's purpose?",
 
@@ -455,7 +455,7 @@ export const authorIntent: SkillContent = {
 
     {
         id: "eng-ai-020",
-
+        skillId: "authorIntent",
         question:
             "A good reader should think about:",
 

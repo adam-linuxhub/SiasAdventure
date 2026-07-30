@@ -18,7 +18,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-001",
-
+        skillId: "homophones",
         question: "Which word means 'in that place'?",
 
         options: [
@@ -40,7 +40,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-002",
-
+        skillId: "homophones",
         question: "Which word shows that something belongs to people?",
 
         options: [
@@ -62,7 +62,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-003",
-
+        skillId: "homophones",
         question: "Which word is short for 'they are'?",
 
         options: [
@@ -84,7 +84,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-004",
-
+        skillId: "homophones",
         question: "Which word means the number 2?",
 
         options: [
@@ -106,7 +106,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-005",
-
+        skillId: "homophones",
         question: "Which word means 'also'?",
 
         options: [
@@ -128,7 +128,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-006",
-
+        skillId: "homophones",
         question: "Which word is used before a place or action?",
 
         options: [
@@ -150,7 +150,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-007",
-
+        skillId: "homophones",
         question: "Which word means 'listen'?",
 
         options: [
@@ -172,7 +172,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-008",
-
+        skillId: "homophones",
         question: "Which word means 'in this place'?",
 
         options: [
@@ -194,7 +194,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-009",
-
+        skillId: "homophones",
         question: "Which word is an insect that makes honey?",
 
         options: [
@@ -216,7 +216,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-010",
-
+        skillId: "homophones",
         question: "Which word means 'to exist'?",
 
         options: [
@@ -238,7 +238,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-011",
-
+        skillId: "homophones",
         question: "Complete the sentence: 'Please put your books over ______.'",
 
         options: [
@@ -260,7 +260,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-012",
-
+        skillId: "homophones",
         question: "Complete the sentence: '______ going to the park later.'",
 
         options: [
@@ -282,7 +282,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-013",
-
+        skillId: "homophones",
         question: "Complete the sentence: 'The children packed ______ lunches.'",
 
         options: [
@@ -304,7 +304,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-014",
-
+        skillId: "homophones",
         question: "Complete the sentence: 'I have ______ apples.'",
 
         options: [
@@ -326,7 +326,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-015",
-
+        skillId: "homophones",
         question: "Complete the sentence: 'Can I come ______?'",
 
         options: [
@@ -348,7 +348,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-016",
-
+        skillId: "homophones",
         question: "Complete the sentence: 'Let's go ______ the playground.'",
 
         options: [
@@ -370,7 +370,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-017",
-
+        skillId: "homophones",
         question: "Which sentence is correct?",
 
         options: [
@@ -392,7 +392,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-018",
-
+        skillId: "homophones",
         question: "Which sentence is correct?",
 
         options: [
@@ -414,7 +414,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-019",
-
+        skillId: "homophones",
         question: "Which sentence is correct?",
 
         options: [
@@ -436,7 +436,7 @@ export const homophones: SkillContent = {
 
     {
         id: "eng-homo-020",
-
+        skillId: "homophones",
         question: "Which sentence uses all the homophones correctly?",
 
         options: [

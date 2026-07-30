@@ -18,7 +18,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-001",
-
+        skillId: "rivers",
         question: "What is a river?",
 
         options: [
@@ -40,7 +40,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-002",
-
+        skillId: "rivers",
         question: "Where does a river usually begin?",
 
         options: [
@@ -62,7 +62,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-003",
-
+        skillId: "rivers",
         question: "Where does a river usually end?",
 
         options: [
@@ -84,7 +84,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-004",
-
+        skillId: "rivers",
         question: "What does water in a river do?",
 
         options: [
@@ -106,7 +106,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-005",
-
+        skillId: "rivers",
         question: "Which of these is a natural feature?",
 
         options: [
@@ -128,7 +128,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-006",
-
+        skillId: "rivers",
         question: "What is the beginning of a river called?",
 
         options: [
@@ -150,7 +150,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-007",
-
+        skillId: "rivers",
         question: "What is the end of a river called?",
 
         options: [
@@ -172,7 +172,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-008",
-
+        skillId: "rivers",
         question: "Which colour is rivers usually shown in on maps?",
 
         options: [
@@ -194,7 +194,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-009",
-
+        skillId: "rivers",
         question: "Which place is a river most likely to flow into?",
 
         options: [
@@ -216,7 +216,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-010",
-
+        skillId: "rivers",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-011",
-
+        skillId: "rivers",
         question: "Why do many towns and cities grow near rivers?",
 
         options: [
@@ -260,7 +260,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-012",
-
+        skillId: "rivers",
         question: "Why does a river flow downhill?",
 
         options: [
@@ -282,7 +282,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-013",
-
+        skillId: "rivers",
         question: "Why are rivers important for wildlife?",
 
         options: [
@@ -304,7 +304,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-014",
-
+        skillId: "rivers",
         question: "What happens at the mouth of a river?",
 
         options: [
@@ -326,7 +326,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-015",
-
+        skillId: "rivers",
         question: "Why are rivers shown on maps?",
 
         options: [
@@ -348,7 +348,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-016",
-
+        skillId: "rivers",
         question: "Which activity is most likely to happen on a river?",
 
         options: [
@@ -370,7 +370,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-017",
-
+        skillId: "rivers",
         question: "If you follow a river downstream, where are you travelling?",
 
         options: [
@@ -392,7 +392,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-018",
-
+        skillId: "rivers",
         question: "Which feature is most likely to be found beside a river?",
 
         options: [
@@ -414,7 +414,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-019",
-
+        skillId: "rivers",
         question: "What is one reason farmers value rivers?",
 
         options: [
@@ -436,7 +436,7 @@ export const rivers: SkillContent = {
 
     {
         id: "geo-rivers-020",
-
+        skillId: "rivers",
         question: "Which sentence best describes a river?",
 
         options: [

@@ -18,7 +18,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-001",
-
+        skillId: "climateZones",
         question:
             "What is climate?",
 
@@ -41,7 +41,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-002",
-
+        skillId: "climateZones",
         question:
             "What is a climate zone?",
 
@@ -64,7 +64,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-003",
-
+        skillId: "climateZones",
         question:
             "Why do different places have different climates?",
 
@@ -87,7 +87,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-004",
-
+        skillId: "climateZones",
         question:
             "Where is the equator?",
 
@@ -110,7 +110,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-005",
-
+        skillId: "climateZones",
         question:
             "Why are places near the equator usually warmer?",
 
@@ -133,7 +133,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-006",
-
+        skillId: "climateZones",
         question:
             "What type of climate is found near the equator?",
 
@@ -156,7 +156,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-007",
-
+        skillId: "climateZones",
         question:
             "What is a tropical climate usually like?",
 
@@ -179,7 +179,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-008",
-
+        skillId: "climateZones",
         question:
             "What climate is found near the North and South Poles?",
 
@@ -202,7 +202,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-009",
-
+        skillId: "climateZones",
         question:
             "What is a polar climate like?",
 
@@ -225,7 +225,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-010",
-
+        skillId: "climateZones",
         question:
             "What type of climate does the UK have?",
 
@@ -248,7 +248,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-011",
-
+        skillId: "climateZones",
         question:
             "What is a temperate climate like?",
 
@@ -271,7 +271,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-012",
-
+        skillId: "climateZones",
         question:
             "What climate is common in deserts?",
 
@@ -294,7 +294,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-013",
-
+        skillId: "climateZones",
         question:
             "What is a rainforest climate usually like?",
 
@@ -317,7 +317,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-014",
-
+        skillId: "climateZones",
         question:
             "Why do plants and animals vary between climate zones?",
 
@@ -340,7 +340,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-015",
-
+        skillId: "climateZones",
         question:
             "Which climate zone would have ice sheets?",
 
@@ -363,7 +363,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-016",
-
+        skillId: "climateZones",
         question:
             "Why are climate zones shown on world maps?",
 
@@ -386,7 +386,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-017",
-
+        skillId: "climateZones",
         question:
             "How does altitude affect climate?",
 
@@ -409,7 +409,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-018",
-
+        skillId: "climateZones",
         question:
             "Why is climate important for people?",
 
@@ -432,7 +432,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-019",
-
+        skillId: "climateZones",
         question:
             "What do climate zones help geographers understand?",
 
@@ -455,7 +455,7 @@ export const climateZones: SkillContent = {
 
     {
         id: "geo-cz-020",
-
+        skillId: "climateZones",
         question:
             "Which sentence best describes climate zones?",
 

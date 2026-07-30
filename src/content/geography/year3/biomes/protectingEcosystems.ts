@@ -18,7 +18,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-001",
-
+        skillId: "protectingEcosystems",
         question:
             "What is an ecosystem?",
 
@@ -41,7 +41,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-002",
-
+        skillId: "protectingEcosystems",
         question:
             "Why are ecosystems important?",
 
@@ -64,7 +64,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-003",
-
+        skillId: "protectingEcosystems",
         question:
             "What is biodiversity?",
 
@@ -87,7 +87,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-004",
-
+        skillId: "protectingEcosystems",
         question:
             "Why is biodiversity important?",
 
@@ -110,7 +110,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-005",
-
+        skillId: "protectingEcosystems",
         question:
             "What is a habitat?",
 
@@ -133,7 +133,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-006",
-
+        skillId: "protectingEcosystems",
         question:
             "How can humans damage habitats?",
 
@@ -156,7 +156,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-007",
-
+        skillId: "protectingEcosystems",
         question:
             "What is deforestation?",
 
@@ -179,7 +179,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-008",
-
+        skillId: "protectingEcosystems",
         question:
             "Why can deforestation be harmful?",
 
@@ -202,7 +202,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-009",
-
+        skillId: "protectingEcosystems",
         question:
             "What is pollution?",
 
@@ -225,7 +225,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-010",
-
+        skillId: "protectingEcosystems",
         question:
             "How can pollution affect animals?",
 
@@ -248,7 +248,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-011",
-
+        skillId: "protectingEcosystems",
         question:
             "What does conservation mean?",
 
@@ -271,7 +271,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-012",
-
+        skillId: "protectingEcosystems",
         question:
             "How can people protect ecosystems?",
 
@@ -294,7 +294,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-013",
-
+        skillId: "protectingEcosystems",
         question:
             "What is an endangered species?",
 
@@ -317,7 +317,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-014",
-
+        skillId: "protectingEcosystems",
         question:
             "What does extinct mean?",
 
@@ -340,7 +340,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-015",
-
+        skillId: "protectingEcosystems",
         question:
             "Why are national parks created?",
 
@@ -363,7 +363,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-016",
-
+        skillId: "protectingEcosystems",
         question:
             "Why are trees important in ecosystems?",
 
@@ -386,7 +386,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-017",
-
+        skillId: "protectingEcosystems",
         question:
             "How can people reduce pollution?",
 
@@ -409,7 +409,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-018",
-
+        skillId: "protectingEcosystems",
         question:
             "Why should habitats be protected?",
 
@@ -432,7 +432,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-019",
-
+        skillId: "protectingEcosystems",
         question:
             "How can communities help the environment?",
 
@@ -455,7 +455,7 @@ export const protectingEcosystems: SkillContent = {
 
     {
         id: "geo-pe-020",
-
+        skillId: "protectingEcosystems",
         question:
             "Which sentence best describes protecting ecosystems?",
 

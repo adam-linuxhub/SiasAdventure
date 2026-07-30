@@ -18,7 +18,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-001",
-
+        skillId: "pronouns",
         question: "Which word is a pronoun?",
 
         options: [
@@ -40,7 +40,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-002",
-
+        skillId: "pronouns",
         question: "Which word is a pronoun?",
 
         options: [
@@ -62,7 +62,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-003",
-
+        skillId: "pronouns",
         question: "Which word is a pronoun?",
 
         options: [
@@ -84,7 +84,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-004",
-
+        skillId: "pronouns",
         question: "Which word is a pronoun?",
 
         options: [
@@ -106,7 +106,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-005",
-
+        skillId: "pronouns",
         question: "Which word can replace 'Oliver'?",
 
         options: [
@@ -128,7 +128,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-006",
-
+        skillId: "pronouns",
         question: "Which word can replace 'Emma'?",
 
         options: [
@@ -150,7 +150,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-007",
-
+        skillId: "pronouns",
         question: "Which word can replace 'the dog'?",
 
         options: [
@@ -172,7 +172,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-008",
-
+        skillId: "pronouns",
         question: "Which sentence contains a pronoun?",
 
         options: [
@@ -194,7 +194,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-009",
-
+        skillId: "pronouns",
         question: "Which word is NOT a pronoun?",
 
         options: [
@@ -216,7 +216,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-010",
-
+        skillId: "pronouns",
         question: "Why do we use pronouns?",
 
         options: [
@@ -238,7 +238,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-011",
-
+        skillId: "pronouns",
         question: "Choose the best replacement: 'Lucy found Lucy's book. ____ picked it up.'",
 
         options: [
@@ -260,7 +260,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-012",
-
+        skillId: "pronouns",
         question: "Which sentence uses a pronoun correctly?",
 
         options: [
@@ -282,7 +282,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-013",
-
+        skillId: "pronouns",
         question: "Which pronoun can replace 'my friends'?",
 
         options: [
@@ -304,7 +304,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-014",
-
+        skillId: "pronouns",
         question: "In the sentence 'The cat drank its milk.', which word is the pronoun?",
 
         options: [
@@ -326,7 +326,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-015",
-
+        skillId: "pronouns",
         question: "Which sentence contains two pronouns?",
 
         options: [
@@ -348,7 +348,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-016",
-
+        skillId: "pronouns",
         question: "Which pronoun could replace 'the bicycle'?",
 
         options: [
@@ -370,7 +370,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-017",
-
+        skillId: "pronouns",
         question: "Choose the best sentence.",
 
         options: [
@@ -392,7 +392,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-018",
-
+        skillId: "pronouns",
         question: "Which pronoun refers to the speaker?",
 
         options: [
@@ -414,7 +414,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-019",
-
+        skillId: "pronouns",
         question: "Which pronoun refers to the person being spoken to?",
 
         options: [
@@ -436,7 +436,7 @@ export const pronouns: SkillContent = {
 
     {
         id: "eng-pronouns-020",
-
+        skillId: "pronouns",
         question: "Which sentence uses pronouns correctly?",
 
         options: [

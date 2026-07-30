@@ -18,7 +18,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-001",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a plant grows underground?",
 
         options: [
@@ -44,7 +44,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-002",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a plant usually grows above the ground and supports the plant?",
 
         options: [
@@ -70,7 +70,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-003",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a plant makes food using sunlight?",
 
         options: [
@@ -96,7 +96,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-004",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a plant often has colourful petals?",
 
         options: [
@@ -122,7 +122,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-005",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a plant can grow into a new plant?",
 
         options: [
@@ -148,7 +148,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-006",
-
+        skillId: "parts-of-a-plant",
         question: "What is the main job of roots?",
 
         options: [
@@ -174,7 +174,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-007",
-
+        skillId: "parts-of-a-plant",
         question: "What is the main job of the stem?",
 
         options: [
@@ -200,7 +200,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-008",
-
+        skillId: "parts-of-a-plant",
         question: "What is the main job of leaves?",
 
         options: [
@@ -226,7 +226,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-009",
-
+        skillId: "parts-of-a-plant",
         question: "What is the main job of flowers?",
 
         options: [
@@ -252,7 +252,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-010",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of the plant usually absorbs water from the soil?",
 
         options: [
@@ -278,7 +278,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-011",
-
+        skillId: "parts-of-a-plant",
         question: "Which part carries water from the roots to the leaves?",
 
         options: [
@@ -304,7 +304,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-012",
-
+        skillId: "parts-of-a-plant",
         question: "Which part uses sunlight to make food?",
 
         options: [
@@ -330,7 +330,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-013",
-
+        skillId: "parts-of-a-plant",
         question: "Which plant part often attracts bees and butterflies?",
 
         options: [
@@ -357,7 +357,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-014",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of the plant grows into a new plant after germination?",
 
         options: [
@@ -384,7 +384,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-015",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of the plant is usually found below the soil?",
 
         options: [
@@ -409,8 +409,8 @@ export const partsOfAPlant: SkillContent = {
     },
         {
         id: "sci-plant-parts-016",
-
-        question: "Which part of a plant helps keep it firmly in the ground?",
+            skillId: "parts-of-a-plant",
+            question: "Which part of a plant helps keep it firmly in the ground?",
 
         options: [
             "Roots",
@@ -435,7 +435,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-017",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a plant supports the leaves and flowers?",
 
         options: [
@@ -461,7 +461,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-018",
-
+        skillId: "parts-of-a-plant",
         question: "Why do plants need leaves?",
 
         options: [
@@ -487,7 +487,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-019",
-
+        skillId: "parts-of-a-plant",
         question: "Why do many flowers have brightly coloured petals?",
 
         options: [
@@ -514,7 +514,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-020",
-
+        skillId: "parts-of-a-plant",
         question: "What grows into a new plant?",
 
         options: [
@@ -540,7 +540,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-021",
-
+        skillId: "parts-of-a-plant",
         question: "Which plant part absorbs minerals as well as water?",
 
         options: [
@@ -566,7 +566,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-022",
-
+        skillId: "parts-of-a-plant",
         question: "Which part carries water from the roots to the leaves and flowers?",
 
         options: [
@@ -592,7 +592,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-023",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a plant is usually green?",
 
         options: [
@@ -618,7 +618,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-024",
-
+        skillId: "parts-of-a-plant",
         question: "Which part usually develops into seeds after pollination?",
 
         options: [
@@ -645,7 +645,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-025",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a plant starts growing first during germination?",
 
         options: [
@@ -672,7 +672,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-026",
-
+        skillId: "parts-of-a-plant",
         question: "Lucy says, 'Leaves absorb water from the soil.' Is she correct?",
 
         options: [
@@ -699,7 +699,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-027",
-
+        skillId: "parts-of-a-plant",
         question: "Amir says, 'The stem helps hold the plant upright.' Is he correct?",
 
         options: [
@@ -725,7 +725,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-028",
-
+        skillId: "parts-of-a-plant",
         question: "Which two plant parts work together to provide water and food for the plant?",
 
         options: [
@@ -752,7 +752,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-029",
-
+        skillId: "parts-of-a-plant",
         question: "Which plant part usually grows towards the light?",
 
         options: [
@@ -778,7 +778,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-030",
-
+        skillId: "parts-of-a-plant",
         question: "Which statement is correct?",
 
         options: [
@@ -803,8 +803,8 @@ export const partsOfAPlant: SkillContent = {
     },
         {
         id: "sci-plant-parts-031",
-
-        question: "Which part of a plant keeps it firmly anchored in the soil?",
+            skillId: "parts-of-a-plant",
+            question: "Which part of a plant keeps it firmly anchored in the soil?",
 
         options: [
             "Roots",
@@ -829,7 +829,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-032",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a plant carries water from the roots to the leaves?",
 
         options: [
@@ -855,7 +855,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-033",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a plant needs sunlight to make food?",
 
         options: [
@@ -881,7 +881,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-034",
-
+        skillId: "parts-of-a-plant",
         question: "Which part of a flowering plant usually produces seeds?",
 
         options: [
@@ -907,7 +907,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-035",
-
+        skillId: "parts-of-a-plant",
         question: "Which statement about seeds is true?",
 
         options: [
@@ -933,7 +933,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-036",
-
+        skillId: "parts-of-a-plant",
         question: "Which plant part is most important for absorbing water?",
 
         options: [
@@ -959,7 +959,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-037",
-
+        skillId: "parts-of-a-plant",
         question: "Which plant part holds the leaves up to the sunlight?",
 
         options: [
@@ -985,7 +985,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-038",
-
+        skillId: "parts-of-a-plant",
         question: "Which plant part usually contains chlorophyll?",
 
         options: [
@@ -1012,7 +1012,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-039",
-
+        skillId: "parts-of-a-plant",
         question: "Which plant part is most likely to attract bees?",
 
         options: [
@@ -1039,7 +1039,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-040",
-
+        skillId: "parts-of-a-plant",
         question: "Which statement is true about roots?",
 
         options: [
@@ -1065,7 +1065,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-041",
-
+        skillId: "parts-of-a-plant",
         question: "Which statement is true about stems?",
 
         options: [
@@ -1091,7 +1091,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-042",
-
+        skillId: "parts-of-a-plant",
         question: "Which statement is true about leaves?",
 
         options: [
@@ -1117,7 +1117,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-043",
-
+        skillId: "parts-of-a-plant",
         question: "Which statement is true about flowers?",
 
         options: [
@@ -1143,7 +1143,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-044",
-
+        skillId: "parts-of-a-plant",
         question: "Which statement is true about seeds?",
 
         options: [
@@ -1169,7 +1169,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-045",
-
+        skillId: "parts-of-a-plant",
         question: "Which sequence shows how water travels through a plant?",
 
         options: [
@@ -1196,8 +1196,8 @@ export const partsOfAPlant: SkillContent = {
     },
         {
         id: "sci-plant-parts-046",
-
-        question: "What is the main job of the roots?",
+            skillId: "parts-of-a-plant",
+            question: "What is the main job of the roots?",
 
         options: [
             "To absorb water and hold the plant in the soil",
@@ -1222,7 +1222,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-047",
-
+        skillId: "parts-of-a-plant",
         question: "What is the main job of the stem?",
 
         options: [
@@ -1248,7 +1248,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-048",
-
+        skillId: "parts-of-a-plant",
         question: "What is the main job of the leaves?",
 
         options: [
@@ -1274,7 +1274,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-049",
-
+        skillId: "parts-of-a-plant",
         question: "What is the main job of the flower?",
 
         options: [
@@ -1300,7 +1300,7 @@ export const partsOfAPlant: SkillContent = {
 
     {
         id: "sci-plant-parts-050",
-
+        skillId: "parts-of-a-plant",
         question: "Which summary correctly describes the jobs of the main parts of a flowering plant?",
 
         options: [

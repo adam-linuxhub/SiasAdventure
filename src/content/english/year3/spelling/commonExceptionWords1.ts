@@ -18,7 +18,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-001",
-
+        skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
 
         options: [
@@ -40,7 +40,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-002",
-
+        skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
 
         options: [
@@ -62,7 +62,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-003",
-
+        skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
 
         options: [
@@ -84,7 +84,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-004",
-
+        skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
 
         options: [
@@ -106,7 +106,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-005",
-
+        skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
 
         options: [
@@ -128,7 +128,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-006",
-
+        skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
 
         options: [
@@ -150,7 +150,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-007",
-
+        skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
 
         options: [
@@ -172,7 +172,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-008",
-
+        skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
 
         options: [
@@ -194,7 +194,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-009",
-
+        skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
 
         options: [
@@ -216,7 +216,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-010",
-
+        skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
 
         options: [
@@ -238,7 +238,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-011",
-
+        skillId: "commonExceptionWords1",
         question: "Complete the sentence: 'I like to play with my ______.'",
 
         options: [
@@ -260,7 +260,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-012",
-
+        skillId: "commonExceptionWords1",
         question: "Complete the sentence: 'Thank you ______ helping me.'",
 
         options: [
@@ -282,7 +282,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-013",
-
+        skillId: "commonExceptionWords1",
         question: "Which sentence contains the correctly spelled word?",
 
         options: [
@@ -304,7 +304,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-014",
-
+        skillId: "commonExceptionWords1",
         question: "Which sentence is correct?",
 
         options: [
@@ -326,7 +326,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-015",
-
+        skillId: "commonExceptionWords1",
         question: "Which word is spelled correctly?",
 
         options: [
@@ -348,7 +348,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-016",
-
+        skillId: "commonExceptionWords1",
         question: "Which word completes the sentence? 'The shop is over ______.'",
 
         options: [
@@ -370,7 +370,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-017",
-
+        skillId: "commonExceptionWords1",
         question: "Which spelling is correct?",
 
         options: [
@@ -392,7 +392,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-018",
-
+        skillId: "commonExceptionWords1",
         question: "Which word is spelled correctly?",
 
         options: [
@@ -414,7 +414,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-019",
-
+        skillId: "commonExceptionWords1",
         question: "Which sentence is correct?",
 
         options: [
@@ -436,7 +436,7 @@ export const commonExceptionWords1: SkillContent = {
 
     {
         id: "eng-cew1-020",
-
+        skillId: "commonExceptionWords1",
         question: "Which sentence contains only correctly spelled words?",
 
         options: [

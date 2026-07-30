@@ -18,7 +18,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-001",
-
+        skillId: "healthyDiet",
         question: "Why do humans need food?",
 
         options: [
@@ -45,7 +45,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-002",
-
+        skillId: "healthyDiet",
         question: "Which food is a healthy snack?",
 
         options: [
@@ -71,7 +71,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-003",
-
+        skillId: "healthyDiet",
         question: "What helps keep your body healthy?",
 
         options: [
@@ -97,7 +97,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-004",
-
+        skillId: "healthyDiet",
         question: "Which drink is usually the healthiest choice?",
 
         options: [
@@ -123,7 +123,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-005",
-
+        skillId: "healthyDiet",
         question: "Which food comes from the fruit group?",
 
         options: [
@@ -149,7 +149,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-006",
-
+        skillId: "healthyDiet",
         question: "Why is it important to eat different kinds of food?",
 
         options: [
@@ -175,7 +175,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-007",
-
+        skillId: "healthyDiet",
         question: "Which meal is the healthiest?",
 
         options: [
@@ -201,7 +201,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-008",
-
+        skillId: "healthyDiet",
         question: "Which food helps you eat a balanced diet?",
 
         options: [
@@ -227,7 +227,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-009",
-
+        skillId: "healthyDiet",
         question: "What does a balanced diet include?",
 
         options: [
@@ -253,7 +253,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-010",
-
+        skillId: "healthyDiet",
         question: "Which statement is true?",
 
         options: [
@@ -278,8 +278,8 @@ export const healthyDiet: SkillContent = {
     },
         {
         id: "sci-healthy-diet-011",
-
-        question: "Why do people need a balanced diet?",
+            skillId: "healthyDiet",
+            question: "Why do people need a balanced diet?",
 
         options: [
             "To stay healthy and get the nutrients they need",
@@ -305,7 +305,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-012",
-
+        skillId: "healthyDiet",
         question: "Which lunch is the healthiest?",
 
         options: [
@@ -331,7 +331,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-013",
-
+        skillId: "healthyDiet",
         question: "Which food should usually be eaten in smaller amounts?",
 
         options: [
@@ -357,7 +357,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-014",
-
+        skillId: "healthyDiet",
         question: "Which food is a vegetable?",
 
         options: [
@@ -383,7 +383,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-015",
-
+        skillId: "healthyDiet",
         question: "What is one reason to drink water every day?",
 
         options: [
@@ -409,7 +409,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-016",
-
+        skillId: "healthyDiet",
         question: "Which choice is part of a healthy lifestyle?",
 
         options: [
@@ -435,7 +435,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-017",
-
+        skillId: "healthyDiet",
         question: "Which meal contains foods from different food groups?",
 
         options: [
@@ -461,7 +461,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-018",
-
+        skillId: "healthyDiet",
         question: "Why shouldn't people eat lots of sugary foods every day?",
 
         options: [
@@ -487,7 +487,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-019",
-
+        skillId: "healthyDiet",
         question: "Which statement about healthy eating is correct?",
 
         options: [
@@ -513,7 +513,7 @@ export const healthyDiet: SkillContent = {
 
     {
         id: "sci-healthy-diet-020",
-
+        skillId: "healthyDiet",
         question: "What is the best summary of a healthy diet?",
 
         options: [

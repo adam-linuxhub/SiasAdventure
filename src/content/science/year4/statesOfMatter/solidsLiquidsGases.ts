@@ -18,7 +18,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-001",
-
+        skillId: "solidsLiquidsGases",
         question: "Which state of matter has a fixed shape?",
 
         options: [
@@ -40,7 +40,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-002",
-
+        skillId: "solidsLiquidsGases",
         question: "Which state of matter takes the shape of its container but keeps the same volume?",
 
         options: [
@@ -62,7 +62,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-003",
-
+        skillId: "solidsLiquidsGases",
         question: "Which state of matter spreads out to fill all the space available?",
 
         options: [
@@ -84,7 +84,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-004",
-
+        skillId: "solidsLiquidsGases",
         question: "Which of these is a solid?",
 
         options: [
@@ -106,7 +106,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-005",
-
+        skillId: "solidsLiquidsGases",
         question: "Which of these is a liquid?",
 
         options: [
@@ -128,7 +128,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-006",
-
+        skillId: "solidsLiquidsGases",
         question: "Which of these is a gas?",
 
         options: [
@@ -150,7 +150,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-007",
-
+        skillId: "solidsLiquidsGases",
         question: "What happens when you pour water into a cup?",
 
         options: [
@@ -172,7 +172,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-008",
-
+        skillId: "solidsLiquidsGases",
         question: "Which state of matter can usually be poured?",
 
         options: [
@@ -194,7 +194,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-009",
-
+        skillId: "solidsLiquidsGases",
         question: "Which state of matter is air?",
 
         options: [
@@ -216,7 +216,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-010",
-
+        skillId: "solidsLiquidsGases",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-011",
-
+        skillId: "solidsLiquidsGases",
         question: "Why does water change shape when poured into different containers?",
 
         options: [
@@ -260,7 +260,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-012",
-
+        skillId: "solidsLiquidsGases",
         question: "Why does a balloon get bigger when you blow into it?",
 
         options: [
@@ -282,7 +282,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-013",
-
+        skillId: "solidsLiquidsGases",
         question: "Which list contains only solids?",
 
         options: [
@@ -304,7 +304,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-014",
-
+        skillId: "solidsLiquidsGases",
         question: "Which list contains only liquids?",
 
         options: [
@@ -326,7 +326,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-015",
-
+        skillId: "solidsLiquidsGases",
         question: "Which list contains only gases?",
 
         options: [
@@ -348,7 +348,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-016",
-
+        skillId: "solidsLiquidsGases",
         question: "Which property belongs to gases?",
 
         options: [
@@ -370,7 +370,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-017",
-
+        skillId: "solidsLiquidsGases",
         question: "A cube of ice is moved from one plate to another. What happens?",
 
         options: [
@@ -392,7 +392,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-018",
-
+        skillId: "solidsLiquidsGases",
         question: "Which statement compares solids and liquids correctly?",
 
         options: [
@@ -414,7 +414,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-019",
-
+        skillId: "solidsLiquidsGases",
         question: "Why is steam able to spread through a room?",
 
         options: [
@@ -436,7 +436,7 @@ export const solidsLiquidsGases: SkillContent = {
 
     {
         id: "sci-states-020",
-
+        skillId: "solidsLiquidsGases",
         question: "Which sentence best describes the three states of matter?",
 
         options: [

@@ -18,7 +18,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-001",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What is the water cycle?",
 
@@ -41,7 +41,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-002",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What happens during evaporation?",
 
@@ -64,7 +64,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-003",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What provides the energy for evaporation?",
 
@@ -87,7 +87,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-004",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What is condensation?",
 
@@ -110,7 +110,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-005",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What forms when water droplets collect in the sky?",
 
@@ -133,7 +133,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-006",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What is precipitation?",
 
@@ -156,7 +156,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-007",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "How do rivers get water?",
 
@@ -179,7 +179,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-008",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What happens to rainwater after it reaches the ground?",
 
@@ -202,7 +202,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-009",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What is collection in the water cycle?",
 
@@ -225,7 +225,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-010",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "Why are rivers part of the water cycle?",
 
@@ -248,7 +248,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-011",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What happens when water vapour rises into the atmosphere?",
 
@@ -271,7 +271,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-012",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "Why are rivers important for plants and animals?",
 
@@ -294,7 +294,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-013",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What can happen to water in a river over time?",
 
@@ -317,7 +317,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-014",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What causes rain to fall from clouds?",
 
@@ -340,7 +340,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-015",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "How does the water cycle continue?",
 
@@ -363,7 +363,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-016",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What happens when snow and ice melt?",
 
@@ -386,7 +386,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-017",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "Why do rivers often increase in size downstream?",
 
@@ -409,7 +409,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-018",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "What is the connection between rainfall and rivers?",
 
@@ -432,7 +432,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-019",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "Which order shows part of the water cycle correctly?",
 
@@ -455,7 +455,7 @@ export const riversAndTheWaterCycle: SkillContent = {
 
     {
         id: "geo-wc-020",
-
+        skillId: "riversAndTheWaterCycle",
         question:
             "Which sentence best describes rivers and the water cycle?",
 

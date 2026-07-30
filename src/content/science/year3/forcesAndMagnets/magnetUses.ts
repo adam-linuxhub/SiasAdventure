@@ -18,7 +18,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-001",
-
+        skillId: "magnetUses",
         question: "Which object commonly uses a magnet?",
 
         options: [
@@ -40,7 +40,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-002",
-
+        skillId: "magnetUses",
         question: "Why do people put magnets on a fridge?",
 
         options: [
@@ -62,7 +62,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-003",
-
+        skillId: "magnetUses",
         question: "Which tool can use a magnet to pick up metal objects?",
 
         options: [
@@ -84,7 +84,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-004",
-
+        skillId: "magnetUses",
         question: "Which object is most likely to use magnets to stay closed?",
 
         options: [
@@ -106,7 +106,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-005",
-
+        skillId: "magnetUses",
         question: "Why might a scrapyard use a large magnet?",
 
         options: [
@@ -128,7 +128,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-006",
-
+        skillId: "magnetUses",
         question: "Which of these is a good use for a magnet?",
 
         options: [
@@ -150,7 +150,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-007",
-
+        skillId: "magnetUses",
         question: "Which everyday object often contains a magnet?",
 
         options: [
@@ -172,7 +172,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-008",
-
+        skillId: "magnetUses",
         question: "Why are magnets useful for finding dropped paper clips?",
 
         options: [
@@ -194,7 +194,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-009",
-
+        skillId: "magnetUses",
         question: "Which object would a magnet NOT help you pick up?",
 
         options: [
@@ -216,7 +216,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-010",
-
+        skillId: "magnetUses",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-011",
-
+        skillId: "magnetUses",
         question: "Why are magnetic catches useful on cupboard doors?",
 
         options: [
@@ -260,7 +260,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-012",
-
+        skillId: "magnetUses",
         question: "Why would a mechanic use a magnetic tool?",
 
         options: [
@@ -282,7 +282,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-013",
-
+        skillId: "magnetUses",
         question: "Which job is easiest with a magnet?",
 
         options: [
@@ -304,7 +304,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-014",
-
+        skillId: "magnetUses",
         question: "Why do some bags have magnetic fasteners?",
 
         options: [
@@ -326,7 +326,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-015",
-
+        skillId: "magnetUses",
         question: "A child drops ten paper clips under a desk. Which tool would help most?",
 
         options: [
@@ -348,7 +348,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-016",
-
+        skillId: "magnetUses",
         question: "Why are large magnets useful in recycling centres?",
 
         options: [
@@ -370,7 +370,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-017",
-
+        skillId: "magnetUses",
         question: "Which object would NOT be held to a fridge by a magnet?",
 
         options: [
@@ -392,7 +392,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-018",
-
+        skillId: "magnetUses",
         question: "Why do magnetic toys work?",
 
         options: [
@@ -414,7 +414,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-019",
-
+        skillId: "magnetUses",
         question: "Which sentence is correct?",
 
         options: [
@@ -436,7 +436,7 @@ export const magnetUses: SkillContent = {
 
     {
         id: "sci-magnet-uses-020",
-
+        skillId: "magnetUses",
         question: "Which sentence best describes why magnets are useful?",
 
         options: [

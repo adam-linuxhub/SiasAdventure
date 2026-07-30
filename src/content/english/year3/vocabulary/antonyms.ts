@@ -18,7 +18,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-001",
-
+        skillId: "antonyms",
         question: "Which word is the opposite of 'hot'?",
 
         options: [
@@ -40,7 +40,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-002",
-
+        skillId: "antonyms",
         question: "Which word is the opposite of 'big'?",
 
         options: [
@@ -62,7 +62,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-003",
-
+        skillId: "antonyms",
         question: "Which word is the opposite of 'happy'?",
 
         options: [
@@ -84,7 +84,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-004",
-
+        skillId: "antonyms",
         question: "Which word is the opposite of 'fast'?",
 
         options: [
@@ -106,7 +106,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-005",
-
+        skillId: "antonyms",
         question: "Which word is the opposite of 'up'?",
 
         options: [
@@ -128,7 +128,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-006",
-
+        skillId: "antonyms",
         question: "Which word is the opposite of 'day'?",
 
         options: [
@@ -150,7 +150,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-007",
-
+        skillId: "antonyms",
         question: "Which word is the opposite of 'full'?",
 
         options: [
@@ -172,7 +172,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-008",
-
+        skillId: "antonyms",
         question: "Which word is the opposite of 'young'?",
 
         options: [
@@ -194,7 +194,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-009",
-
+        skillId: "antonyms",
         question: "Which word is the opposite of 'open'?",
 
         options: [
@@ -216,7 +216,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-010",
-
+        skillId: "antonyms",
         question: "What are antonyms?",
 
         options: [
@@ -238,7 +238,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-011",
-
+        skillId: "antonyms",
         question: "Choose the antonym of 'early'.",
 
         options: [
@@ -260,7 +260,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-012",
-
+        skillId: "antonyms",
         question: "Choose the antonym of 'light' (not heavy).",
 
         options: [
@@ -282,7 +282,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-013",
-
+        skillId: "antonyms",
         question: "Which pair of words are antonyms?",
 
         options: [
@@ -304,7 +304,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-014",
-
+        skillId: "antonyms",
         question: "Complete the sentence: 'The bucket was full, but now it is ______.'",
 
         options: [
@@ -326,7 +326,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-015",
-
+        skillId: "antonyms",
         question: "Which pair of words are antonyms?",
 
         options: [
@@ -348,7 +348,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-016",
-
+        skillId: "antonyms",
         question: "Which word could replace 'slow' with its opposite?",
 
         options: [
@@ -370,7 +370,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-017",
-
+        skillId: "antonyms",
         question: "Which sentence uses antonyms correctly?",
 
         options: [
@@ -392,7 +392,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-018",
-
+        skillId: "antonyms",
         question: "Why do writers use antonyms?",
 
         options: [
@@ -414,7 +414,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-019",
-
+        skillId: "antonyms",
         question: "Choose the antonym of 'clean'.",
 
         options: [
@@ -436,7 +436,7 @@ export const antonyms: SkillContent = {
 
     {
         id: "eng-ant-020",
-
+        skillId: "antonyms",
         question: "Which sentence uses antonyms correctly?",
 
         options: [

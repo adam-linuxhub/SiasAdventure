@@ -18,7 +18,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-001",
-
+        skillId: "sequencing",
         question:
             "Read the sentences:\n\n1. Mia put on her coat.\n2. Mia left the house.\n3. Mia picked up her school bag.\n\nWhat happened first?",
 
@@ -41,7 +41,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-002",
-
+        skillId: "sequencing",
         question:
             "Read the sentences:\n\nFirst, Tom planted a seed.\nNext, he watered it.\nFinally, the plant grew.\n\nWhat happened second?",
 
@@ -64,7 +64,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-003",
-
+        skillId: "sequencing",
         question:
             "Which word often tells us something happened at the beginning?",
 
@@ -87,7 +87,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-004",
-
+        skillId: "sequencing",
         question:
             "Which word often tells us something happened at the end?",
 
@@ -110,7 +110,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-005",
-
+        skillId: "sequencing",
         question:
             "Read the sentences:\n\n1. Jake ate his breakfast.\n2. Jake woke up.\n3. Jake brushed his teeth.\n\nWhich order is correct?",
 
@@ -133,7 +133,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-006",
-
+        skillId: "sequencing",
         question:
             "What does sequencing mean?",
 
@@ -156,7 +156,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-007",
-
+        skillId: "sequencing",
         question:
             "Read the sentences:\n\nFirst, Ella mixed the ingredients.\nThen, she baked the cake.\nFinally, she ate a slice.\n\nWhat happened last?",
 
@@ -179,7 +179,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-008",
-
+        skillId: "sequencing",
         question:
             "Which word could replace 'then' in a sequence?",
 
@@ -202,7 +202,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-009",
-
+        skillId: "sequencing",
         question:
             "Read the sentences:\n\n1. The alarm rang.\n2. Sam got out of bed.\n3. Sam went downstairs.\n\nWhat happened last?",
 
@@ -225,7 +225,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-010",
-
+        skillId: "sequencing",
         question:
             "Why is sequencing important when reading?",
 
@@ -248,7 +248,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-011",
-
+        skillId: "sequencing",
         question:
             "Read the passage:\n\nFirst, Lily filled a bowl with flour. Next, she added eggs. Then, she mixed everything together.\n\nWhat did Lily do after adding eggs?",
 
@@ -271,7 +271,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-012",
-
+        skillId: "sequencing",
         question:
             "Put these events in order:\n\nA. The seed became a plant.\nB. The seed was planted.\nC. The seed was watered.",
 
@@ -294,7 +294,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-013",
-
+        skillId: "sequencing",
         question:
             "Read the passage:\n\nAfter school, Noah finished his homework. Later, he played football.\n\nWhat did Noah do first?",
 
@@ -317,7 +317,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-014",
-
+        skillId: "sequencing",
         question:
             "Which word shows something happened before something else?",
 
@@ -340,7 +340,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-015",
-
+        skillId: "sequencing",
         question:
             "Read the passage:\n\nThe fox woke up. It searched for food. It returned to its den.\n\nWhat happened in the middle?",
 
@@ -363,7 +363,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-016",
-
+        skillId: "sequencing",
         question:
             "Which sequence word means the same as 'after that'?",
 
@@ -386,7 +386,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-017",
-
+        skillId: "sequencing",
         question:
             "Read the passage:\n\nFirst, the children built a den. Next, they decorated it. Finally, they played inside it.\n\nWhat happened before decorating the den?",
 
@@ -409,7 +409,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-018",
-
+        skillId: "sequencing",
         question:
             "Why do authors use words like first, next and finally?",
 
@@ -432,7 +432,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-019",
-
+        skillId: "sequencing",
         question:
             "Read the passage:\n\nMum cooked dinner. Before eating, the family washed their hands.\n\nWhat happened first?",
 
@@ -455,7 +455,7 @@ export const sequencing: SkillContent = {
 
     {
         id: "eng-seq-020",
-
+        skillId: "sequencing",
         question:
             "When sequencing a story, what should you look for?",
 

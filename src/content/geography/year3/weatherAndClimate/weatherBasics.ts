@@ -18,7 +18,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-001",
-
+        skillId: "weatherBasics",
         question:
             "What is weather?",
 
@@ -41,7 +41,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-002",
-
+        skillId: "weatherBasics",
         question:
             "Which of these is part of the weather?",
 
@@ -64,7 +64,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-003",
-
+        skillId: "weatherBasics",
         question:
             "What is temperature?",
 
@@ -87,7 +87,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-004",
-
+        skillId: "weatherBasics",
         question:
             "What instrument measures temperature?",
 
@@ -110,7 +110,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-005",
-
+        skillId: "weatherBasics",
         question:
             "What is rainfall?",
 
@@ -133,7 +133,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-006",
-
+        skillId: "weatherBasics",
         question:
             "What instrument measures rainfall?",
 
@@ -156,7 +156,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-007",
-
+        skillId: "weatherBasics",
         question:
             "What is wind?",
 
@@ -179,7 +179,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-008",
-
+        skillId: "weatherBasics",
         question:
             "What instrument measures wind speed?",
 
@@ -202,7 +202,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-009",
-
+        skillId: "weatherBasics",
         question:
             "What are clouds made from?",
 
@@ -225,7 +225,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-010",
-
+        skillId: "weatherBasics",
         question:
             "Why does weather change?",
 
@@ -248,7 +248,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-011",
-
+        skillId: "weatherBasics",
         question:
             "What is climate?",
 
@@ -271,7 +271,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-012",
-
+        skillId: "weatherBasics",
         question:
             "What is the difference between weather and climate?",
 
@@ -294,7 +294,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-013",
-
+        skillId: "weatherBasics",
         question:
             "What type of weather includes sunshine?",
 
@@ -317,7 +317,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-014",
-
+        skillId: "weatherBasics",
         question:
             "What is a storm?",
 
@@ -340,7 +340,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-015",
-
+        skillId: "weatherBasics",
         question:
             "Why do people study weather?",
 
@@ -363,7 +363,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-016",
-
+        skillId: "weatherBasics",
         question:
             "What is a weather forecast?",
 
@@ -386,7 +386,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-017",
-
+        skillId: "weatherBasics",
         question:
             "What causes seasons?",
 
@@ -409,7 +409,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-018",
-
+        skillId: "weatherBasics",
         question:
             "Why can weather be different in two places on the same day?",
 
@@ -432,7 +432,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-019",
-
+        skillId: "weatherBasics",
         question:
             "Which of these is a weather measurement?",
 
@@ -455,7 +455,7 @@ export const weatherBasics: SkillContent = {
 
     {
         id: "geo-wb-020",
-
+        skillId: "weatherBasics",
         question:
             "Which sentence best describes weather?",
 

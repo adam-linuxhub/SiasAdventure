@@ -18,7 +18,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-001",
-
+        skillId: "pyramids",
         question:
             "Why were many pyramids built in Ancient Egypt?",
 
@@ -41,7 +41,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-002",
-
+        skillId: "pyramids",
         question:
             "What is a tomb?",
 
@@ -64,7 +64,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-003",
-
+        skillId: "pyramids",
         question:
             "What shape are Egyptian pyramids famous for?",
 
@@ -87,7 +87,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-004",
-
+        skillId: "pyramids",
         question:
             "What were pyramids mostly made from?",
 
@@ -110,7 +110,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-005",
-
+        skillId: "pyramids",
         question:
             "Why are pyramids important to historians?",
 
@@ -133,7 +133,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-006",
-
+        skillId: "pyramids",
         question:
             "Which famous pyramid is located at Giza?",
 
@@ -156,7 +156,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-007",
-
+        skillId: "pyramids",
         question:
             "Who were pyramids often built for?",
 
@@ -179,7 +179,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-008",
-
+        skillId: "pyramids",
         question:
             "What do pyramids tell us about Ancient Egyptians?",
 
@@ -202,7 +202,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-009",
-
+        skillId: "pyramids",
         question:
             "Why did Egyptians build tombs for pharaohs?",
 
@@ -225,7 +225,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-010",
-
+        skillId: "pyramids",
         question:
             "Building pyramids required:",
 
@@ -248,7 +248,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-011",
-
+        skillId: "pyramids",
         question:
             "How did Ancient Egyptians move large stone blocks?",
 
@@ -271,7 +271,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-012",
-
+        skillId: "pyramids",
         question:
             "What does a pyramid show about Ancient Egyptian society?",
 
@@ -294,7 +294,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-013",
-
+        skillId: "pyramids",
         question:
             "What might be found inside an Ancient Egyptian tomb?",
 
@@ -317,7 +317,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-014",
-
+        skillId: "pyramids",
         question:
             "Why were pyramids built to last a long time?",
 
@@ -340,7 +340,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-015",
-
+        skillId: "pyramids",
         question:
             "What can archaeologists learn from pyramids?",
 
@@ -363,7 +363,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-016",
-
+        skillId: "pyramids",
         question:
             "Which statement is true about the Great Pyramid of Giza?",
 
@@ -386,7 +386,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-017",
-
+        skillId: "pyramids",
         question:
             "Why do historians use evidence from pyramids?",
 
@@ -409,7 +409,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-018",
-
+        skillId: "pyramids",
         question:
             "A pyramid is an example of:",
 
@@ -432,7 +432,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-019",
-
+        skillId: "pyramids",
         question:
             "Why are pyramids still studied today?",
 
@@ -455,7 +455,7 @@ export const pyramids: SkillContent = {
 
     {
         id: "hist-pyr-020",
-
+        skillId: "pyramids",
         question:
             "Which sentence best describes pyramids?",
 

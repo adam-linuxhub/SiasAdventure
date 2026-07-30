@@ -18,7 +18,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-001",
-
+        skillId: "waterCycle",
         question: "What is the water cycle?",
 
         options: [
@@ -40,7 +40,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-002",
-
+        skillId: "waterCycle",
         question: "What happens when the Sun warms water in lakes and oceans?",
 
         options: [
@@ -62,7 +62,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-003",
-
+        skillId: "waterCycle",
         question: "What are clouds mostly made of?",
 
         options: [
@@ -84,7 +84,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-004",
-
+        skillId: "waterCycle",
         question: "What is condensation?",
 
         options: [
@@ -106,7 +106,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-005",
-
+        skillId: "waterCycle",
         question: "What is precipitation?",
 
         options: [
@@ -128,7 +128,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-006",
-
+        skillId: "waterCycle",
         question: "Which is an example of precipitation?",
 
         options: [
@@ -150,7 +150,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-007",
-
+        skillId: "waterCycle",
         question: "Where does rainwater often collect?",
 
         options: [
@@ -172,7 +172,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-008",
-
+        skillId: "waterCycle",
         question: "What provides the energy for the water cycle?",
 
         options: [
@@ -194,7 +194,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-009",
-
+        skillId: "waterCycle",
         question: "What happens after water evaporates?",
 
         options: [
@@ -216,7 +216,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-010",
-
+        skillId: "waterCycle",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-011",
-
+        skillId: "waterCycle",
         question: "Why do clouds form high in the sky?",
 
         options: [
@@ -260,7 +260,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-012",
-
+        skillId: "waterCycle",
         question: "Why does rain fall from clouds?",
 
         options: [
@@ -282,7 +282,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-013",
-
+        skillId: "waterCycle",
         question: "Which sequence is correct?",
 
         options: [
@@ -304,7 +304,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-014",
-
+        skillId: "waterCycle",
         question: "What happens to rainwater after it reaches the ground?",
 
         options: [
@@ -326,7 +326,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-015",
-
+        skillId: "waterCycle",
         question: "Which process changes liquid water into water vapour?",
 
         options: [
@@ -348,7 +348,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-016",
-
+        skillId: "waterCycle",
         question: "Why is the Sun important in the water cycle?",
 
         options: [
@@ -370,7 +370,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-017",
-
+        skillId: "waterCycle",
         question: "Which stage happens just before rain falls?",
 
         options: [
@@ -392,7 +392,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-018",
-
+        skillId: "waterCycle",
         question: "Why is the water cycle described as a cycle?",
 
         options: [
@@ -414,7 +414,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-019",
-
+        skillId: "waterCycle",
         question: "Which part of the water cycle returns water to rivers and lakes?",
 
         options: [
@@ -436,7 +436,7 @@ export const waterCycle: SkillContent = {
 
     {
         id: "sci-water-cycle-020",
-
+        skillId: "waterCycle",
         question: "Which sentence best describes the water cycle?",
 
         options: [

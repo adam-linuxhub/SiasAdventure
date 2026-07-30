@@ -18,6 +18,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-001",
+        skillId: "lightSources",
         question: "Why do we need light?",
         options: [
             "To see things",
@@ -34,6 +35,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-002",
+        skillId: "lightSources",
         question: "Which is a natural source of light?",
         options: [
             "The Sun",
@@ -50,6 +52,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-003",
+        skillId: "lightSources",
         question: "Which is a man-made source of light?",
         options: [
             "A torch",
@@ -66,6 +69,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-004",
+        skillId: "lightSources",
         question: "Which object does NOT produce its own light?",
         options: [
             "The Moon",
@@ -82,6 +86,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-005",
+        skillId: "lightSources",
         question: "What is darkness?",
         options: [
             "The absence of light",
@@ -98,6 +103,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-006",
+        skillId: "lightSources",
         question: "Which object gives off light?",
         options: [
             "A candle",
@@ -114,6 +120,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-007",
+        skillId: "lightSources",
         question: "What helps you see in a dark room?",
         options: [
             "Turning on a lamp",
@@ -130,6 +137,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-008",
+        skillId: "lightSources",
         question: "Which object reflects light instead of making it?",
         options: [
             "A mirror",
@@ -146,6 +154,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-009",
+        skillId: "lightSources",
         question: "Which source gives us light during the day?",
         options: [
             "The Sun",
@@ -162,6 +171,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-010",
+        skillId: "lightSources",
         question: "Why is it difficult to see in complete darkness?",
         options: [
             "There is no light to reach your eyes",
@@ -178,6 +188,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-011",
+        skillId: "lightSources",
         question: "Which pair are both sources of light?",
         options: [
             "The Sun and a torch",
@@ -194,6 +205,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-012",
+        skillId: "lightSources",
         question: "Why can we see the Moon at night?",
         options: [
             "It reflects light from the Sun",
@@ -210,6 +222,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-013",
+        skillId: "lightSources",
         question: "Which statement is true?",
         options: [
             "We need light to see objects.",
@@ -226,6 +239,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-014",
+        skillId: "lightSources",
         question: "Which object would help you most during a power cut?",
         options: [
             "A torch",
@@ -242,6 +256,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-015",
+        skillId: "lightSources",
         question: "Which is NOT a source of light?",
         options: [
             "A mirror",
@@ -258,6 +273,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-016",
+        skillId: "lightSources",
         question: "A room has no windows or lights. What will it be like?",
         options: [
             "Dark",
@@ -274,6 +290,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-017",
+        skillId: "lightSources",
         question: "Which object would be easiest to see in complete darkness?",
         options: [
             "A switched-on torch",
@@ -290,6 +307,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-018",
+        skillId: "lightSources",
         question: "Why do shadows disappear when a room becomes completely dark?",
         options: [
             "There is no light to block",
@@ -306,6 +324,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-019",
+        skillId: "lightSources",
         question: "What is the main natural source of light for Earth?",
         options: [
             "The Sun",
@@ -322,6 +341,7 @@ export const lightSources: SkillContent = {
 
     {
         id: "sci-light-sources-020",
+        skillId: "lightSources",
         question: "Which sentence best describes light?",
         options: [
             "Light lets us see objects and comes from different sources.",

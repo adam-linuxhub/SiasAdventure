@@ -18,7 +18,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-001",
-
+        skillId: "pushesAndPulls",
         question: "What is a force?",
 
         options: [
@@ -40,7 +40,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-002",
-
+        skillId: "pushesAndPulls",
         question: "Which action is a push?",
 
         options: [
@@ -62,7 +62,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-003",
-
+        skillId: "pushesAndPulls",
         question: "Which action is a pull?",
 
         options: [
@@ -84,7 +84,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-004",
-
+        skillId: "pushesAndPulls",
         question: "What can a force do?",
 
         options: [
@@ -106,7 +106,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-005",
-
+        skillId: "pushesAndPulls",
         question: "Which object are you pushing?",
 
         options: [
@@ -128,7 +128,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-006",
-
+        skillId: "pushesAndPulls",
         question: "Which object are you pulling?",
 
         options: [
@@ -150,7 +150,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-007",
-
+        skillId: "pushesAndPulls",
         question: "What can a force do to a moving object?",
 
         options: [
@@ -172,7 +172,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-008",
-
+        skillId: "pushesAndPulls",
         question: "What can a force do besides start or stop movement?",
 
         options: [
@@ -194,7 +194,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-009",
-
+        skillId: "pushesAndPulls",
         question: "Kicking a football is mainly which type of force?",
 
         options: [
@@ -216,7 +216,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-010",
-
+        skillId: "pushesAndPulls",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-011",
-
+        skillId: "pushesAndPulls",
         question: "A toy car is standing still. What could make it move?",
 
         options: [
@@ -260,7 +260,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-012",
-
+        skillId: "pushesAndPulls",
         question: "A football is rolling. What could stop it more quickly?",
 
         options: [
@@ -282,7 +282,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-013",
-
+        skillId: "pushesAndPulls",
         question: "Which activity uses both a push and a pull?",
 
         options: [
@@ -304,7 +304,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-014",
-
+        skillId: "pushesAndPulls",
         question: "Why does a bicycle change direction when you turn the handlebars?",
 
         options: [
@@ -326,7 +326,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-015",
-
+        skillId: "pushesAndPulls",
         question: "Which force is used to open a fridge door?",
 
         options: [
@@ -348,7 +348,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-016",
-
+        skillId: "pushesAndPulls",
         question: "A child pushes a toy car harder. What usually happens?",
 
         options: [
@@ -370,7 +370,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-017",
-
+        skillId: "pushesAndPulls",
         question: "Which of these is an example of pulling?",
 
         options: [
@@ -392,7 +392,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-018",
-
+        skillId: "pushesAndPulls",
         question: "What can forces change?",
 
         options: [
@@ -414,7 +414,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-019",
-
+        skillId: "pushesAndPulls",
         question: "Which investigation would help you learn about pushes?",
 
         options: [
@@ -436,7 +436,7 @@ export const pushesAndPulls: SkillContent = {
 
     {
         id: "sci-pushpull-020",
-
+        skillId: "pushesAndPulls",
         question: "Which sentence best describes a force?",
 
         options: [

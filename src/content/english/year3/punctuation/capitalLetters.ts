@@ -18,7 +18,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-001",
-
+        skillId: "capitalLetters",
         question: "Which sentence starts with a capital letter?",
 
         options: [
@@ -40,7 +40,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-002",
-
+        skillId: "capitalLetters",
         question: "Which word should begin with a capital letter?",
 
         options: [
@@ -62,7 +62,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-003",
-
+        skillId: "capitalLetters",
         question: "Which sentence is written correctly?",
 
         options: [
@@ -84,7 +84,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-004",
-
+        skillId: "capitalLetters",
         question: "Which day of the week needs a capital letter?",
 
         options: [
@@ -106,7 +106,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-005",
-
+        skillId: "capitalLetters",
         question: "Which month begins with a capital letter?",
 
         options: [
@@ -128,7 +128,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-006",
-
+        skillId: "capitalLetters",
         question: "Which sentence is correct?",
 
         options: [
@@ -150,7 +150,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-007",
-
+        skillId: "capitalLetters",
         question: "Why do we use a capital letter at the start of a sentence?",
 
         options: [
@@ -172,7 +172,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-008",
-
+        skillId: "capitalLetters",
         question: "Which sentence is punctuated correctly?",
 
         options: [
@@ -194,7 +194,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-009",
-
+        skillId: "capitalLetters",
         question: "Which word does NOT need a capital letter in the middle of a sentence?",
 
         options: [
@@ -216,7 +216,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-010",
-
+        skillId: "capitalLetters",
         question: "Which sentence is correct?",
 
         options: [
@@ -238,7 +238,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-011",
-
+        skillId: "capitalLetters",
         question: "Which sentence uses capital letters correctly?",
 
         options: [
@@ -260,7 +260,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-012",
-
+        skillId: "capitalLetters",
         question: "Which sentence is correct?",
 
         options: [
@@ -282,7 +282,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-013",
-
+        skillId: "capitalLetters",
         question: "Which sentence needs one more capital letter?",
 
         options: [
@@ -304,7 +304,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-014",
-
+        skillId: "capitalLetters",
         question: "Which sentence is written correctly?",
 
         options: [
@@ -326,7 +326,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-015",
-
+        skillId: "capitalLetters",
         question: "Which sentence is correct?",
 
         options: [
@@ -348,7 +348,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-016",
-
+        skillId: "capitalLetters",
         question: "Why do names begin with capital letters?",
 
         options: [
@@ -370,7 +370,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-017",
-
+        skillId: "capitalLetters",
         question: "Which sentence uses every capital letter correctly?",
 
         options: [
@@ -392,7 +392,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-018",
-
+        skillId: "capitalLetters",
         question: "Which word should always begin with a capital letter?",
 
         options: [
@@ -414,7 +414,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-019",
-
+        skillId: "capitalLetters",
         question: "Which sentence is written correctly?",
 
         options: [
@@ -436,7 +436,7 @@ export const capitalLetters: SkillContent = {
 
     {
         id: "eng-capitals-020",
-
+        skillId: "capitalLetters",
         question: "What do capital letters help readers do?",
 
         options: [

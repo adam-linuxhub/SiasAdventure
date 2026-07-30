@@ -18,7 +18,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-001",
-
+        skillId: "measuringWeather",
         question:
             "Why do scientists measure the weather?",
 
@@ -41,7 +41,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-002",
-
+        skillId: "measuringWeather",
         question:
             "Which instrument measures temperature?",
 
@@ -64,7 +64,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-003",
-
+        skillId: "measuringWeather",
         question:
             "Which instrument measures rainfall?",
 
@@ -87,7 +87,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-004",
-
+        skillId: "measuringWeather",
         question:
             "Which instrument measures wind speed?",
 
@@ -110,7 +110,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-005",
-
+        skillId: "measuringWeather",
         question:
             "What does a wind vane show?",
 
@@ -133,7 +133,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-006",
-
+        skillId: "measuringWeather",
         question:
             "Which weather measurement tells us how hot or cold the air is?",
 
@@ -156,7 +156,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-007",
-
+        skillId: "measuringWeather",
         question:
             "What does a rain gauge collect?",
 
@@ -179,7 +179,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-008",
-
+        skillId: "measuringWeather",
         question:
             "What unit might be used to measure rainfall?",
 
@@ -202,7 +202,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-009",
-
+        skillId: "measuringWeather",
         question:
             "What unit is used to measure temperature?",
 
@@ -225,7 +225,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-010",
-
+        skillId: "measuringWeather",
         question:
             "What is cloud cover?",
 
@@ -248,7 +248,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-011",
-
+        skillId: "measuringWeather",
         question:
             "Why do weather stations collect data?",
 
@@ -271,7 +271,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-012",
-
+        skillId: "measuringWeather",
         question:
             "What is a weather chart used for?",
 
@@ -294,7 +294,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-013",
-
+        skillId: "measuringWeather",
         question:
             "Why do scientists record weather over time?",
 
@@ -317,7 +317,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-014",
-
+        skillId: "measuringWeather",
         question:
             "What is a weather diary?",
 
@@ -340,7 +340,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-015",
-
+        skillId: "measuringWeather",
         question:
             "Which information could be recorded in a weather diary?",
 
@@ -363,7 +363,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-016",
-
+        skillId: "measuringWeather",
         question:
             "What does a forecast use weather measurements for?",
 
@@ -386,7 +386,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-017",
-
+        skillId: "measuringWeather",
         question:
             "Why are different instruments needed to measure weather?",
 
@@ -409,7 +409,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-018",
-
+        skillId: "measuringWeather",
         question:
             "Which instrument would you use to measure wind direction?",
 
@@ -432,7 +432,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-019",
-
+        skillId: "measuringWeather",
         question:
             "Why is accurate weather data important?",
 
@@ -455,7 +455,7 @@ export const measuringWeather: SkillContent = {
 
     {
         id: "geo-mw-020",
-
+        skillId: "measuringWeather",
         question:
             "Which sentence best describes measuring weather?",
 

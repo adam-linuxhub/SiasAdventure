@@ -18,7 +18,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-001",
-
+        skillId: "changingState",
         question: "What is it called when a solid turns into a liquid?",
 
         options: [
@@ -40,7 +40,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-002",
-
+        skillId: "changingState",
         question: "What is it called when a liquid turns into a solid?",
 
         options: [
@@ -62,7 +62,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-003",
-
+        skillId: "changingState",
         question: "Ice changing into water is an example of...",
 
         options: [
@@ -84,7 +84,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-004",
-
+        skillId: "changingState",
         question: "Water changing into ice is called...",
 
         options: [
@@ -106,7 +106,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-005",
-
+        skillId: "changingState",
         question: "What happens to water when it boils?",
 
         options: [
@@ -128,7 +128,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-006",
-
+        skillId: "changingState",
         question: "What is water vapour?",
 
         options: [
@@ -150,7 +150,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-007",
-
+        skillId: "changingState",
         question: "Which process needs heating?",
 
         options: [
@@ -172,7 +172,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-008",
-
+        skillId: "changingState",
         question: "Which process needs cooling?",
 
         options: [
@@ -194,7 +194,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-009",
-
+        skillId: "changingState",
         question: "What happens when melted chocolate cools?",
 
         options: [
@@ -216,7 +216,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-010",
-
+        skillId: "changingState",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-011",
-
+        skillId: "changingState",
         question: "Why does an ice cube melt on a warm day?",
 
         options: [
@@ -260,7 +260,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-012",
-
+        skillId: "changingState",
         question: "Why does water freeze in a freezer?",
 
         options: [
@@ -282,7 +282,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-013",
-
+        skillId: "changingState",
         question: "Which sequence is correct?",
 
         options: [
@@ -304,7 +304,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-014",
-
+        skillId: "changingState",
         question: "What happens when water vapour cools?",
 
         options: [
@@ -326,7 +326,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-015",
-
+        skillId: "changingState",
         question: "What causes butter to melt in a hot pan?",
 
         options: [
@@ -348,7 +348,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-016",
-
+        skillId: "changingState",
         question: "Which process changes a liquid into a gas?",
 
         options: [
@@ -370,7 +370,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-017",
-
+        skillId: "changingState",
         question: "Why does melted ice cream become solid again in the freezer?",
 
         options: [
@@ -392,7 +392,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-018",
-
+        skillId: "changingState",
         question: "What is condensation?",
 
         options: [
@@ -414,7 +414,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-019",
-
+        skillId: "changingState",
         question: "Which process happens when puddles slowly disappear on a warm day?",
 
         options: [
@@ -436,7 +436,7 @@ export const changingState: SkillContent = {
 
     {
         id: "sci-changing-state-020",
-
+        skillId: "changingState",
         question: "Which sentence best describes changes of state?",
 
         options: [

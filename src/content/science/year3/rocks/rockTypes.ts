@@ -18,7 +18,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-001",
-
+        skillId: "rockTypes",
         question: "What is a rock?",
 
         options: [
@@ -44,7 +44,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-002",
-
+        skillId: "rockTypes",
         question: "Which of these is a rock?",
 
         options: [
@@ -70,7 +70,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-003",
-
+        skillId: "rockTypes",
         question: "Which rock is often used for writing on blackboards?",
 
         options: [
@@ -96,7 +96,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-004",
-
+        skillId: "rockTypes",
         question: "Which rock is often used for kitchen worktops?",
 
         options: [
@@ -122,7 +122,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-005",
-
+        skillId: "rockTypes",
         question: "Which word can describe a rock?",
 
         options: [
@@ -148,7 +148,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-006",
-
+        skillId: "rockTypes",
         question: "Which rock is usually softer?",
 
         options: [
@@ -175,7 +175,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-007",
-
+        skillId: "rockTypes",
         question: "Which rock is often used for roof tiles?",
 
         options: [
@@ -201,7 +201,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-008",
-
+        skillId: "rockTypes",
         question: "What can scientists compare when looking at rocks?",
 
         options: [
@@ -227,7 +227,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-009",
-
+        skillId: "rockTypes",
         question: "Which rock is smooth and often polished for buildings and statues?",
 
         options: [
@@ -253,7 +253,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-010",
-
+        skillId: "rockTypes",
         question: "Why do scientists observe the properties of rocks?",
 
         options: [
@@ -279,8 +279,8 @@ export const rockTypes: SkillContent = {
     },
         {
         id: "sci-rock-types-011",
-
-        question: "Which rock is usually the hardest?",
+            skillId: "rockTypes",
+            question: "Which rock is usually the hardest?",
 
         options: [
             "Granite",
@@ -306,7 +306,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-012",
-
+        skillId: "rockTypes",
         question: "Which rock is most likely to leave a white mark when rubbed on a board?",
 
         options: [
@@ -332,7 +332,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-013",
-
+        skillId: "rockTypes",
         question: "Which property would help you identify a rock?",
 
         options: [
@@ -358,7 +358,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-014",
-
+        skillId: "rockTypes",
         question: "Which rock would be best for making a strong kitchen worktop?",
 
         options: [
@@ -385,7 +385,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-015",
-
+        skillId: "rockTypes",
         question: "Which pair of words could describe a rock?",
 
         options: [
@@ -411,7 +411,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-016",
-
+        skillId: "rockTypes",
         question: "Why is slate often used on roofs?",
 
         options: [
@@ -438,7 +438,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-017",
-
+        skillId: "rockTypes",
         question: "A rock feels rough and very hard. Which rock could it be?",
 
         options: [
@@ -465,7 +465,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-018",
-
+        skillId: "rockTypes",
         question: "Which rock can be polished to make it smooth and shiny?",
 
         options: [
@@ -491,7 +491,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-019",
-
+        skillId: "rockTypes",
         question: "Why do different rocks have different uses?",
 
         options: [
@@ -518,7 +518,7 @@ export const rockTypes: SkillContent = {
 
     {
         id: "sci-rock-types-020",
-
+        skillId: "rockTypes",
         question: "Which sentence best describes how scientists compare rocks?",
 
         options: [

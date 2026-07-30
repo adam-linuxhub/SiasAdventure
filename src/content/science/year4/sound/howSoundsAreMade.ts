@@ -18,7 +18,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-001",
-
+        skillId: "howSoundsAreMade",
         question: "What causes a sound to be made?",
 
         options: [
@@ -40,7 +40,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-002",
-
+        skillId: "howSoundsAreMade",
         question: "What happens when you hit a drum?",
 
         options: [
@@ -62,7 +62,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-003",
-
+        skillId: "howSoundsAreMade",
         question: "Which object is vibrating when a guitar is played?",
 
         options: [
@@ -84,7 +84,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-004",
-
+        skillId: "howSoundsAreMade",
         question: "What do vibrations travel through to reach your ears?",
 
         options: [
@@ -106,7 +106,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-005",
-
+        skillId: "howSoundsAreMade",
         question: "Which of these makes sound by vibrating?",
 
         options: [
@@ -128,7 +128,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-006",
-
+        skillId: "howSoundsAreMade",
         question: "What part of your body detects sound?",
 
         options: [
@@ -150,7 +150,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-007",
-
+        skillId: "howSoundsAreMade",
         question: "What happens when an object stops vibrating?",
 
         options: [
@@ -172,7 +172,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-008",
-
+        skillId: "howSoundsAreMade",
         question: "Which musical instrument makes sound using vibrating strings?",
 
         options: [
@@ -194,7 +194,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-009",
-
+        skillId: "howSoundsAreMade",
         question: "Which statement is true?",
 
         options: [
@@ -216,7 +216,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-010",
-
+        skillId: "howSoundsAreMade",
         question: "What carries sound from a ringing bell to your ears?",
 
         options: [
@@ -238,7 +238,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-011",
-
+        skillId: "howSoundsAreMade",
         question: "Why can you hear someone clapping their hands?",
 
         options: [
@@ -260,7 +260,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-012",
-
+        skillId: "howSoundsAreMade",
         question: "What is vibrating when someone speaks?",
 
         options: [
@@ -282,7 +282,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-013",
-
+        skillId: "howSoundsAreMade",
         question: "Which object would make a sound if it vibrated?",
 
         options: [
@@ -304,7 +304,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-014",
-
+        skillId: "howSoundsAreMade",
         question: "Why is a drum quieter after you place your hand on it?",
 
         options: [
@@ -326,7 +326,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-015",
-
+        skillId: "howSoundsAreMade",
         question: "Which sentence explains how sound reaches your ears?",
 
         options: [
@@ -348,7 +348,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-016",
-
+        skillId: "howSoundsAreMade",
         question: "Why does plucking a guitar string make a sound?",
 
         options: [
@@ -370,7 +370,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-017",
-
+        skillId: "howSoundsAreMade",
         question: "Which activity would produce the loudest sound?",
 
         options: [
@@ -392,7 +392,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-018",
-
+        skillId: "howSoundsAreMade",
         question: "What must happen before any sound can be heard?",
 
         options: [
@@ -414,7 +414,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-019",
-
+        skillId: "howSoundsAreMade",
         question: "Why can people hear a school bell from across the playground?",
 
         options: [
@@ -436,7 +436,7 @@ export const howSoundsAreMade: SkillContent = {
 
     {
         id: "sci-sound-020",
-
+        skillId: "howSoundsAreMade",
         question: "Which sentence best describes how sounds are made?",
 
         options: [

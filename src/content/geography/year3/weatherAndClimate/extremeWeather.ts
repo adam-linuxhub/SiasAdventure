@@ -18,7 +18,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-001",
-
+        skillId: "extremeWeather",
         question:
             "What is extreme weather?",
 
@@ -41,7 +41,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-002",
-
+        skillId: "extremeWeather",
         question:
             "Which is an example of extreme weather?",
 
@@ -64,7 +64,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-003",
-
+        skillId: "extremeWeather",
         question:
             "What is a flood?",
 
@@ -87,7 +87,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-004",
-
+        skillId: "extremeWeather",
         question:
             "What can cause flooding?",
 
@@ -110,7 +110,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-005",
-
+        skillId: "extremeWeather",
         question:
             "What is a drought?",
 
@@ -133,7 +133,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-006",
-
+        skillId: "extremeWeather",
         question:
             "What problems can droughts cause?",
 
@@ -156,7 +156,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-007",
-
+        skillId: "extremeWeather",
         question:
             "What is a hurricane?",
 
@@ -179,7 +179,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-008",
-
+        skillId: "extremeWeather",
         question:
             "What can strong winds from storms do?",
 
@@ -202,7 +202,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-009",
-
+        skillId: "extremeWeather",
         question:
             "What is a heatwave?",
 
@@ -225,7 +225,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-010",
-
+        skillId: "extremeWeather",
         question:
             "Why can heatwaves be dangerous?",
 
@@ -248,7 +248,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-011",
-
+        skillId: "extremeWeather",
         question:
             "How can people prepare for floods?",
 
@@ -271,7 +271,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-012",
-
+        skillId: "extremeWeather",
         question:
             "Why are weather forecasts important during extreme weather?",
 
@@ -294,7 +294,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-013",
-
+        skillId: "extremeWeather",
         question:
             "How can extreme weather affect animals?",
 
@@ -317,7 +317,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-014",
-
+        skillId: "extremeWeather",
         question:
             "Why can flooding damage homes?",
 
@@ -340,7 +340,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-015",
-
+        skillId: "extremeWeather",
         question:
             "Why are droughts difficult for farmers?",
 
@@ -363,7 +363,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-016",
-
+        skillId: "extremeWeather",
         question:
             "What is climate change linked to?",
 
@@ -386,7 +386,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-017",
-
+        skillId: "extremeWeather",
         question:
             "Why do scientists study extreme weather?",
 
@@ -409,7 +409,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-018",
-
+        skillId: "extremeWeather",
         question:
             "Which place is more likely to experience hurricanes?",
 
@@ -432,7 +432,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-019",
-
+        skillId: "extremeWeather",
         question:
             "What can communities do during extreme weather?",
 
@@ -455,7 +455,7 @@ export const extremeWeather: SkillContent = {
 
     {
         id: "geo-ew-020",
-
+        skillId: "extremeWeather",
         question:
             "Which sentence best describes extreme weather?",
 

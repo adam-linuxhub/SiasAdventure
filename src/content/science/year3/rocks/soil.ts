@@ -18,7 +18,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-001",
-
+        skillId: "soil",
         question: "What is soil?",
 
         options: [
@@ -40,7 +40,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-002",
-
+        skillId: "soil",
         question: "Where do most plants grow?",
 
         options: [
@@ -62,7 +62,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-003",
-
+        skillId: "soil",
         question: "What helps to make soil over a long time?",
 
         options: [
@@ -84,7 +84,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-004",
-
+        skillId: "soil",
         question: "Which of these is a type of soil?",
 
         options: [
@@ -106,7 +106,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-005",
-
+        skillId: "soil",
         question: "Which soil is made of large grains?",
 
         options: [
@@ -128,7 +128,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-006",
-
+        skillId: "soil",
         question: "Which soil feels sticky when it is wet?",
 
         options: [
@@ -150,7 +150,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-007",
-
+        skillId: "soil",
         question: "Why is soil important?",
 
         options: [
@@ -172,7 +172,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-008",
-
+        skillId: "soil",
         question: "Which living thing might live in soil?",
 
         options: [
@@ -194,7 +194,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-009",
-
+        skillId: "soil",
         question: "What can be found in healthy soil?",
 
         options: [
@@ -216,7 +216,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-010",
-
+        skillId: "soil",
         question: "Why do roots grow into soil?",
 
         options: [
@@ -238,7 +238,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-011",
-
+        skillId: "soil",
         question: "Which soil lets water pass through it most quickly?",
 
         options: [
@@ -260,7 +260,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-012",
-
+        skillId: "soil",
         question: "Which soil holds the most water?",
 
         options: [
@@ -282,7 +282,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-013",
-
+        skillId: "soil",
         question: "How is soil formed?",
 
         options: [
@@ -304,7 +304,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-014",
-
+        skillId: "soil",
         question: "Why do gardeners often add compost to soil?",
 
         options: [
@@ -326,7 +326,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-015",
-
+        skillId: "soil",
         question: "Which soil would be best for a cactus?",
 
         options: [
@@ -348,7 +348,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-016",
-
+        skillId: "soil",
         question: "What do earthworms do that helps soil?",
 
         options: [
@@ -370,7 +370,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-017",
-
+        skillId: "soil",
         question: "Why is air in soil important?",
 
         options: [
@@ -392,7 +392,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-018",
-
+        skillId: "soil",
         question: "Which statement about soil is true?",
 
         options: [
@@ -414,7 +414,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-019",
-
+        skillId: "soil",
         question: "Why is healthy soil important for farming?",
 
         options: [
@@ -436,7 +436,7 @@ export const soil: SkillContent = {
 
     {
         id: "sci-soil-020",
-
+        skillId: "soil",
         question: "Which sentence best describes soil?",
 
         options: [

@@ -18,7 +18,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-001",
-
+        skillId: "weatherAndClimate",
         question: "What is weather?",
 
         options: [
@@ -40,7 +40,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-002",
-
+        skillId: "weatherAndClimate",
         question: "Which of these is an example of weather?",
 
         options: [
@@ -62,7 +62,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-003",
-
+        skillId: "weatherAndClimate",
         question: "What is climate?",
 
         options: [
@@ -84,7 +84,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-004",
-
+        skillId: "weatherAndClimate",
         question: "How many seasons are there in the UK?",
 
         options: [
@@ -106,7 +106,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-005",
-
+        skillId: "weatherAndClimate",
         question: "Which season is usually the warmest?",
 
         options: [
@@ -128,7 +128,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-006",
-
+        skillId: "weatherAndClimate",
         question: "Which season is usually the coldest?",
 
         options: [
@@ -150,7 +150,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-007",
-
+        skillId: "weatherAndClimate",
         question: "Which instrument measures temperature?",
 
         options: [
@@ -172,7 +172,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-008",
-
+        skillId: "weatherAndClimate",
         question: "Which weather condition might need an umbrella?",
 
         options: [
@@ -194,7 +194,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-009",
-
+        skillId: "weatherAndClimate",
         question: "Which weather condition might make trees sway?",
 
         options: [
@@ -216,7 +216,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-010",
-
+        skillId: "weatherAndClimate",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-011",
-
+        skillId: "weatherAndClimate",
         question: "What is the main difference between weather and climate?",
 
         options: [
@@ -260,7 +260,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-012",
-
+        skillId: "weatherAndClimate",
         question: "Why do we wear warm coats in winter?",
 
         options: [
@@ -282,7 +282,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-013",
-
+        skillId: "weatherAndClimate",
         question: "Why might people wear hats and use sunscreen in summer?",
 
         options: [
@@ -304,7 +304,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-014",
-
+        skillId: "weatherAndClimate",
         question: "Why is a weather forecast useful?",
 
         options: [
@@ -326,7 +326,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-015",
-
+        skillId: "weatherAndClimate",
         question: "Which season often has flowers beginning to bloom?",
 
         options: [
@@ -348,7 +348,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-016",
-
+        skillId: "weatherAndClimate",
         question: "Which season is often linked with leaves changing colour?",
 
         options: [
@@ -370,7 +370,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-017",
-
+        skillId: "weatherAndClimate",
         question: "Why can weather affect our plans?",
 
         options: [
@@ -392,7 +392,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-018",
-
+        skillId: "weatherAndClimate",
         question: "Which of these is part of a weather forecast?",
 
         options: [
@@ -414,7 +414,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-019",
-
+        skillId: "weatherAndClimate",
         question: "Why can two countries have different climates?",
 
         options: [
@@ -436,7 +436,7 @@ export const weatherAndClimate: SkillContent = {
 
     {
         id: "geo-weather-020",
-
+        skillId: "weatherAndClimate",
         question: "Which sentence best describes weather and climate?",
 
         options: [

@@ -18,7 +18,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-001",
-
+        skillId: "exclamationMarks",
         question: "Which punctuation mark is an exclamation mark?",
 
         options: [
@@ -40,7 +40,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-002",
-
+        skillId: "exclamationMarks",
         question: "Which sentence uses an exclamation mark correctly?",
 
         options: [
@@ -62,7 +62,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-003",
-
+        skillId: "exclamationMarks",
         question: "Which sentence shows excitement?",
 
         options: [
@@ -84,7 +84,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-004",
-
+        skillId: "exclamationMarks",
         question: "Which punctuation mark should end this sentence? 'Watch out__'",
 
         options: [
@@ -106,7 +106,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-005",
-
+        skillId: "exclamationMarks",
         question: "Which sentence uses an exclamation mark correctly?",
 
         options: [
@@ -128,7 +128,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-006",
-
+        skillId: "exclamationMarks",
         question: "When should you use an exclamation mark?",
 
         options: [
@@ -150,7 +150,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-007",
-
+        skillId: "exclamationMarks",
         question: "Which sentence is an exclamation?",
 
         options: [
@@ -172,7 +172,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-008",
-
+        skillId: "exclamationMarks",
         question: "Which sentence ends correctly?",
 
         options: [
@@ -194,7 +194,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-009",
-
+        skillId: "exclamationMarks",
         question: "Which sentence does NOT need an exclamation mark?",
 
         options: [
@@ -216,7 +216,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-010",
-
+        skillId: "exclamationMarks",
         question: "What does an exclamation mark help show?",
 
         options: [
@@ -238,7 +238,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-011",
-
+        skillId: "exclamationMarks",
         question: "Which sentence needs an exclamation mark?",
 
         options: [
@@ -260,7 +260,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-012",
-
+        skillId: "exclamationMarks",
         question: "Which sentence is punctuated correctly?",
 
         options: [
@@ -282,7 +282,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-013",
-
+        skillId: "exclamationMarks",
         question: "Why do writers use exclamation marks?",
 
         options: [
@@ -304,7 +304,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-014",
-
+        skillId: "exclamationMarks",
         question: "Which sentence expresses surprise?",
 
         options: [
@@ -326,7 +326,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-015",
-
+        skillId: "exclamationMarks",
         question: "Which sentence uses an exclamation mark correctly?",
 
         options: [
@@ -348,7 +348,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-016",
-
+        skillId: "exclamationMarks",
         question: "Which punctuation mark belongs at the end of 'Help__'?",
 
         options: [
@@ -370,7 +370,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-017",
-
+        skillId: "exclamationMarks",
         question: "Which sentence shows joy?",
 
         options: [
@@ -392,7 +392,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-018",
-
+        skillId: "exclamationMarks",
         question: "Which sentence is NOT an exclamation?",
 
         options: [
@@ -414,7 +414,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-019",
-
+        skillId: "exclamationMarks",
         question: "What feeling might 'Fantastic!' show?",
 
         options: [
@@ -436,7 +436,7 @@ export const exclamationMarks: SkillContent = {
 
     {
         id: "eng-exclaim-020",
-
+        skillId: "exclamationMarks",
         question: "Which group of sentences is punctuated correctly?",
 
         options: [

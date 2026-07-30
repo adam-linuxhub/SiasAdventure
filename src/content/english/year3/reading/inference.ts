@@ -18,7 +18,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-001",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nElla put on her coat, scarf and gloves before leaving the house.\n\nWhat is the weather probably like?",
 
@@ -41,7 +41,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-002",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nBen rubbed his eyes and let out a big yawn.\n\nHow is Ben probably feeling?",
 
@@ -64,7 +64,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-003",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nSophie held an umbrella while raindrops splashed into puddles.\n\nWhat is the weather probably like?",
 
@@ -87,7 +87,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-004",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nJack smiled from ear to ear after scoring the winning goal.\n\nHow is Jack probably feeling?",
 
@@ -110,7 +110,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-005",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nThe puppy wagged its tail and jumped around when Mia came home.\n\nHow does the puppy probably feel?",
 
@@ -133,7 +133,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-006",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nTom covered his ears when the fireworks began.\n\nWhy did Tom cover his ears?",
 
@@ -156,7 +156,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-007",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nThe ice cream dripped down Ava's hand before she could finish it.\n\nWhat can you infer?",
 
@@ -179,7 +179,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-008",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nLeo looked everywhere before finding his homework under the sofa.\n\nHow did Leo probably feel before he found it?",
 
@@ -202,7 +202,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-009",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nThe audience clapped loudly when the play finished.\n\nWhat can you infer?",
 
@@ -225,7 +225,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-010",
-
+        skillId: "inference",
         question:
             "What does inference mean when reading?",
 
@@ -248,7 +248,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-011",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nMaya carefully carried the birthday cake with both hands and walked very slowly.\n\nWhy did Maya walk slowly?",
 
@@ -271,7 +271,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-012",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nOliver closed the curtains and switched on the lamp.\n\nWhat can you infer?",
 
@@ -294,7 +294,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-013",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nThe children were wearing sun hats and drinking plenty of water during their walk.\n\nWhat can you infer?",
 
@@ -317,7 +317,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-014",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nRuby's hands were shaking before she walked onto the stage.\n\nHow was Ruby probably feeling?",
 
@@ -340,7 +340,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-015",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nDad swept up the broken pieces of a plate from the kitchen floor.\n\nWhat probably happened earlier?",
 
@@ -363,7 +363,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-016",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nThe classroom was silent while everyone bent over their papers.\n\nWhat were the children probably doing?",
 
@@ -386,7 +386,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-017",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nAmir packed a towel, swimming costume and goggles into his bag.\n\nWhere is Amir probably going?",
 
@@ -409,7 +409,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-018",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nThe leaves fell from the trees and children kicked through them.\n\nWhich season is it most likely to be?",
 
@@ -432,7 +432,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-019",
-
+        skillId: "inference",
         question:
             "Read the passage:\n\nThe puppy hid under the table when it heard the thunder.\n\nWhy did the puppy hide?",
 
@@ -455,7 +455,7 @@ export const inference: SkillContent = {
 
     {
         id: "eng-inf-020",
-
+        skillId: "inference",
         question:
             "When answering an inference question, what should you do?",
 

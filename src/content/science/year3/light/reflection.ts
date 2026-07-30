@@ -18,7 +18,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-001",
-
+        skillId: "reflection",
         question: "Why can we see most objects?",
 
         options: [
@@ -39,7 +39,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-002",
-
+        skillId: "reflection",
         question: "What happens when light hits a mirror?",
 
         options: [
@@ -60,7 +60,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-003",
-
+        skillId: "reflection",
         question: "Which object reflects light well?",
 
         options: [
@@ -81,7 +81,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-004",
-
+        skillId: "reflection",
         question: "Which surface reflects the most light?",
 
         options: [
@@ -102,7 +102,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-005",
-
+        skillId: "reflection",
         question: "Can a book be seen because it reflects light?",
 
         options: [
@@ -123,7 +123,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-006",
-
+        skillId: "reflection",
         question: "Which object makes its own light?",
 
         options: [
@@ -144,7 +144,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-007",
-
+        skillId: "reflection",
         question: "What do mirrors do?",
 
         options: [
@@ -165,7 +165,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-008",
-
+        skillId: "reflection",
         question: "Which surface would reflect the least light?",
 
         options: [
@@ -186,7 +186,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-009",
-
+        skillId: "reflection",
         question: "Why can you see yourself in a mirror?",
 
         options: [
@@ -207,7 +207,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-010",
-
+        skillId: "reflection",
         question: "Which statement is true?",
 
         options: [
@@ -228,7 +228,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-011",
-
+        skillId: "reflection",
         question: "Why is it harder to see a black jumper at night than a white one?",
 
         options: [
@@ -249,7 +249,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-012",
-
+        skillId: "reflection",
         question: "Which material would make the best mirror?",
 
         options: [
@@ -270,7 +270,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-013",
-
+        skillId: "reflection",
         question: "Why can you still see a tree even though it is not a light source?",
 
         options: [
@@ -291,7 +291,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-014",
-
+        skillId: "reflection",
         question: "Which object reflects light the best?",
 
         options: [
@@ -312,7 +312,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-015",
-
+        skillId: "reflection",
         question: "What must happen before you can see an object?",
 
         options: [
@@ -333,7 +333,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-016",
-
+        skillId: "reflection",
         question: "Why are road signs often shiny?",
 
         options: [
@@ -354,7 +354,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-017",
-
+        skillId: "reflection",
         question: "Which statement about mirrors is correct?",
 
         options: [
@@ -375,7 +375,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-018",
-
+        skillId: "reflection",
         question: "Why is a shiny bicycle reflector useful?",
 
         options: [
@@ -396,7 +396,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-019",
-
+        skillId: "reflection",
         question: "Which surface would give the clearest reflection?",
 
         options: [
@@ -417,7 +417,7 @@ export const reflection: SkillContent = {
 
     {
         id: "sci-reflection-020",
-
+        skillId: "reflection",
         question: "Which sentence best explains reflection?",
 
         options: [

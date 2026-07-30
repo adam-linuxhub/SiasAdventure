@@ -18,7 +18,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-001",
-
+        skillId: "verbs",
         question: "Which word is a verb?",
 
         options: [
@@ -40,7 +40,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-002",
-
+        skillId: "verbs",
         question: "Which word tells what someone is doing?",
 
         options: [
@@ -62,7 +62,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-003",
-
+        skillId: "verbs",
         question: "Which word is a verb?",
 
         options: [
@@ -84,7 +84,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-004",
-
+        skillId: "verbs",
         question: "Which word is a verb?",
 
         options: [
@@ -106,7 +106,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-005",
-
+        skillId: "verbs",
         question: "Which word is a verb?",
 
         options: [
@@ -128,7 +128,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-006",
-
+        skillId: "verbs",
         question: "Which word is a verb?",
 
         options: [
@@ -150,7 +150,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-007",
-
+        skillId: "verbs",
         question: "Which sentence contains a verb?",
 
         options: [
@@ -172,7 +172,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-008",
-
+        skillId: "verbs",
         question: "Which word is the verb?",
 
         options: [
@@ -194,7 +194,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-009",
-
+        skillId: "verbs",
         question: "Which sentence contains an action verb?",
 
         options: [
@@ -216,7 +216,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-010",
-
+        skillId: "verbs",
         question: "Which word is NOT a verb?",
 
         options: [
@@ -238,7 +238,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-011",
-
+        skillId: "verbs",
         question: "Which pair contains only verbs?",
 
         options: [
@@ -260,7 +260,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-012",
-
+        skillId: "verbs",
         question: "Which sentence contains two verbs?",
 
         options: [
@@ -282,7 +282,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-013",
-
+        skillId: "verbs",
         question: "Which word is NOT a verb?",
 
         options: [
@@ -304,7 +304,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-014",
-
+        skillId: "verbs",
         question: "In the sentence 'The rabbit hopped away.', what is the verb?",
 
         options: [
@@ -326,7 +326,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-015",
-
+        skillId: "verbs",
         question: "Which sentence uses a verb correctly?",
 
         options: [
@@ -348,7 +348,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-016",
-
+        skillId: "verbs",
         question: "Which word completes the sentence? 'The baby ____.'",
 
         options: [
@@ -370,7 +370,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-017",
-
+        skillId: "verbs",
         question: "Which sentence contains the verb 'read'?",
 
         options: [
@@ -392,7 +392,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-018",
-
+        skillId: "verbs",
         question: "Which word is the verb in 'Dad cooked dinner.'?",
 
         options: [
@@ -414,7 +414,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-019",
-
+        skillId: "verbs",
         question: "Which sentence contains only one verb?",
 
         options: [
@@ -436,7 +436,7 @@ export const verbs: SkillContent = {
 
     {
         id: "eng-verbs-020",
-
+        skillId: "verbs",
         question: "Which sentence uses verbs correctly?",
 
         options: [

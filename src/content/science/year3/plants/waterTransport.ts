@@ -18,7 +18,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-001",
-
+        skillId: "water-transport",
         question: "Where does a plant take in most of its water?",
 
         options: [
@@ -45,7 +45,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-002",
-
+        skillId: "water-transport",
         question: "After the roots absorb water, which part carries it around the plant?",
 
         options: [
@@ -72,7 +72,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-003",
-
+        skillId: "water-transport",
         question: "Where does most of the water carried by the stem go?",
 
         options: [
@@ -99,7 +99,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-004",
-
+        skillId: "water-transport",
         question: "Which sequence correctly shows how water travels through a plant?",
 
         options: [
@@ -125,7 +125,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-005",
-
+        skillId: "water-transport",
         question: "Why do plants need water?",
 
         options: [
@@ -151,7 +151,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-006",
-
+        skillId: "water-transport",
         question: "Which plant part absorbs water from the soil?",
 
         options: [
@@ -177,7 +177,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-007",
-
+        skillId: "water-transport",
         question: "What carries water from the roots to the leaves?",
 
         options: [
@@ -203,7 +203,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-008",
-
+        skillId: "water-transport",
         question: "Which part uses the water to help make food?",
 
         options: [
@@ -229,7 +229,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-009",
-
+        skillId: "water-transport",
         question: "If roots cannot absorb enough water, what is most likely to happen?",
 
         options: [
@@ -255,7 +255,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-010",
-
+        skillId: "water-transport",
         question: "Which statement is correct?",
 
         options: [
@@ -281,8 +281,8 @@ export const waterTransport: SkillContent = {
     },
         {
         id: "sci-water-transport-011",
-
-        question: "What happens first when a plant takes in water?",
+            skillId: "water-transport",
+            question: "What happens first when a plant takes in water?",
 
         options: [
             "The roots absorb it from the soil.",
@@ -308,7 +308,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-012",
-
+        skillId: "water-transport",
         question: "After water enters the roots, where does it travel next?",
 
         options: [
@@ -335,7 +335,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-013",
-
+        skillId: "water-transport",
         question: "Why do leaves need water?",
 
         options: [
@@ -362,7 +362,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-014",
-
+        skillId: "water-transport",
         question: "Which plant part connects the roots to the leaves?",
 
         options: [
@@ -388,7 +388,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-015",
-
+        skillId: "water-transport",
         question: "Which sequence shows the correct journey of water?",
 
         options: [
@@ -415,7 +415,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-016",
-
+        skillId: "water-transport",
         question: "What do roots absorb besides water?",
 
         options: [
@@ -442,7 +442,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-017",
-
+        skillId: "water-transport",
         question: "Which part transports water to every part of the plant?",
 
         options: [
@@ -469,7 +469,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-018",
-
+        skillId: "water-transport",
         question: "A plant is watered. Which part receives the water first?",
 
         options: [
@@ -495,7 +495,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-019",
-
+        skillId: "water-transport",
         question: "Which statement is true?",
 
         options: [
@@ -522,7 +522,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-020",
-
+        skillId: "water-transport",
         question: "What is the main job of the stem in water transport?",
 
         options: [
@@ -549,7 +549,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-021",
-
+        skillId: "water-transport",
         question: "A plant has healthy roots but a damaged stem. What is most likely to happen?",
 
         options: [
@@ -576,7 +576,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-022",
-
+        skillId: "water-transport",
         question: "Why must water reach the leaves?",
 
         options: [
@@ -603,7 +603,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-023",
-
+        skillId: "water-transport",
         question: "Which plant would most likely wilt first?",
 
         options: [
@@ -630,7 +630,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-024",
-
+        skillId: "water-transport",
         question: "Which sequence correctly describes water transport?",
 
         options: [
@@ -657,7 +657,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-025",
-
+        skillId: "water-transport",
         question: "Why is water transport important?",
 
         options: [
@@ -683,8 +683,8 @@ export const waterTransport: SkillContent = {
     },
         {
         id: "sci-water-transport-026",
-
-        question: "A plant has been watered. Which part carries the water upwards?",
+            skillId: "water-transport",
+            question: "A plant has been watered. Which part carries the water upwards?",
 
         options: [
             "The stem",
@@ -710,7 +710,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-027",
-
+        skillId: "water-transport",
         question: "Why do roots need to be in the soil?",
 
         options: [
@@ -737,7 +737,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-028",
-
+        skillId: "water-transport",
         question: "If water cannot reach the leaves, what is most likely to happen?",
 
         options: [
@@ -764,7 +764,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-029",
-
+        skillId: "water-transport",
         question: "What helps keep a plant healthy by supplying water to all its parts?",
 
         options: [
@@ -791,7 +791,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-030",
-
+        skillId: "water-transport",
         question: "Which part of the plant uses water together with sunlight to make food?",
 
         options: [
@@ -818,7 +818,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-031",
-
+        skillId: "water-transport",
         question: "Which statement best describes the job of the roots?",
 
         options: [
@@ -845,7 +845,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-032",
-
+        skillId: "water-transport",
         question: "A plant is growing well. Which sequence is most likely happening?",
 
         options: [
@@ -872,7 +872,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-033",
-
+        skillId: "water-transport",
         question: "Which part would stop working properly first if the roots dried out?",
 
         options: [
@@ -899,7 +899,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-034",
-
+        skillId: "water-transport",
         question: "Why is the stem important as well as the roots?",
 
         options: [
@@ -926,7 +926,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-035",
-
+        skillId: "water-transport",
         question: "A plant has healthy leaves but damaged roots. What is the most likely result?",
 
         options: [
@@ -953,7 +953,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-036",
-
+        skillId: "water-transport",
         question: "Why do plants need a continuous supply of water?",
 
         options: [
@@ -980,7 +980,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-037",
-
+        skillId: "water-transport",
         question: "Which of these is NOT part of the normal path water takes through a plant?",
 
         options: [
@@ -1006,7 +1006,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-038",
-
+        skillId: "water-transport",
         question: "What happens to water after it is absorbed by the roots?",
 
         options: [
@@ -1033,7 +1033,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-039",
-
+        skillId: "water-transport",
         question: "Which plant would probably stay healthiest?",
 
         options: [
@@ -1060,7 +1060,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-040",
-
+        skillId: "water-transport",
         question: "Which sentence best explains water transport in plants?",
 
         options: [
@@ -1086,8 +1086,8 @@ export const waterTransport: SkillContent = {
     },
         {
         id: "sci-water-transport-041",
-
-        question: "A plant's roots are healthy, but its stem is blocked. What is most likely to happen?",
+            skillId: "water-transport",
+            question: "A plant's roots are healthy, but its stem is blocked. What is most likely to happen?",
 
         options: [
             "Water will not reach the leaves properly.",
@@ -1114,7 +1114,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-042",
-
+        skillId: "water-transport",
         question: "Which plant is most likely to make food successfully?",
 
         options: [
@@ -1141,7 +1141,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-043",
-
+        skillId: "water-transport",
         question: "Why is water carried to every part of a plant?",
 
         options: [
@@ -1168,7 +1168,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-044",
-
+        skillId: "water-transport",
         question: "What would happen if a plant could not absorb minerals from the soil?",
 
         options: [
@@ -1195,7 +1195,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-045",
-
+        skillId: "water-transport",
         question: "Which statement best explains why stems are important?",
 
         options: [
@@ -1222,7 +1222,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-046",
-
+        skillId: "water-transport",
         question: "A gardener forgets to water a plant for many days. Which part is affected first?",
 
         options: [
@@ -1249,7 +1249,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-047",
-
+        skillId: "water-transport",
         question: "Which sentence correctly describes the movement of water?",
 
         options: [
@@ -1276,7 +1276,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-048",
-
+        skillId: "water-transport",
         question: "Why is water transport essential for a flowering plant?",
 
         options: [
@@ -1303,7 +1303,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-049",
-
+        skillId: "water-transport",
         question: "Which group of plant parts works together to move water around the plant?",
 
         options: [
@@ -1330,7 +1330,7 @@ export const waterTransport: SkillContent = {
 
     {
         id: "sci-water-transport-050",
-
+        skillId: "water-transport",
         question: "Which summary best describes water transport in plants?",
 
         options: [

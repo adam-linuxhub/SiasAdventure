@@ -18,7 +18,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-001",
-
+        skillId: "continents",
         question:
             "What is a continent?",
 
@@ -41,7 +41,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-002",
-
+        skillId: "continents",
         question:
             "How many continents are there?",
 
@@ -64,7 +64,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-003",
-
+        skillId: "continents",
         question:
             "Which continent is the UK part of?",
 
@@ -87,7 +87,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-004",
-
+        skillId: "continents",
         question:
             "Which is the largest continent?",
 
@@ -110,7 +110,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-005",
-
+        skillId: "continents",
         question:
             "Which continent is the largest desert found in?",
 
@@ -133,7 +133,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-006",
-
+        skillId: "continents",
         question:
             "Which continent contains the Amazon Rainforest?",
 
@@ -156,7 +156,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-007",
-
+        skillId: "continents",
         question:
             "Which continent is covered mostly by ice?",
 
@@ -179,7 +179,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-008",
-
+        skillId: "continents",
         question:
             "Which continent is also a country?",
 
@@ -202,7 +202,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-009",
-
+        skillId: "continents",
         question:
             "Which continent is north of Africa?",
 
@@ -225,7 +225,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-010",
-
+        skillId: "continents",
         question:
             "Which continent is east of Europe?",
 
@@ -248,7 +248,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-011",
-
+        skillId: "continents",
         question:
             "Which continent contains the United States?",
 
@@ -271,7 +271,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-012",
-
+        skillId: "continents",
         question:
             "Which continent contains Brazil?",
 
@@ -294,7 +294,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-013",
-
+        skillId: "continents",
         question:
             "Which continent contains Egypt?",
 
@@ -317,7 +317,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-014",
-
+        skillId: "continents",
         question:
             "Why do geographers study continents?",
 
@@ -340,7 +340,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-015",
-
+        skillId: "continents",
         question:
             "What is a world map used for?",
 
@@ -363,7 +363,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-016",
-
+        skillId: "continents",
         question:
             "Which continent has the most countries?",
 
@@ -386,7 +386,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-017",
-
+        skillId: "continents",
         question:
             "Why are continents different from each other?",
 
@@ -409,7 +409,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-018",
-
+        skillId: "continents",
         question:
             "Which continent is south of Europe?",
 
@@ -432,7 +432,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-019",
-
+        skillId: "continents",
         question:
             "Why are maps useful for learning continents?",
 
@@ -455,7 +455,7 @@ export const continents: SkillContent = {
 
     {
         id: "geo-con-020",
-
+        skillId: "continents",
         question:
             "Which sentence best describes continents?",
 

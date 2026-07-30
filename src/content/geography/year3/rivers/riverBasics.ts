@@ -18,7 +18,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-001",
-
+        skillId: "riverBasics",
         question:
             "What is a river?",
 
@@ -41,7 +41,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-002",
-
+        skillId: "riverBasics",
         question:
             "Where does a river usually begin?",
 
@@ -64,7 +64,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-003",
-
+        skillId: "riverBasics",
         question:
             "What is the mouth of a river?",
 
@@ -87,7 +87,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-004",
-
+        skillId: "riverBasics",
         question:
             "What is the path a river flows along called?",
 
@@ -110,7 +110,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-005",
-
+        skillId: "riverBasics",
         question:
             "Which direction does water in a river usually flow?",
 
@@ -133,7 +133,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-006",
-
+        skillId: "riverBasics",
         question:
             "What is a tributary?",
 
@@ -156,7 +156,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-007",
-
+        skillId: "riverBasics",
         question:
             "Why are rivers important?",
 
@@ -179,7 +179,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-008",
-
+        skillId: "riverBasics",
         question:
             "What is a river basin?",
 
@@ -202,7 +202,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-009",
-
+        skillId: "riverBasics",
         question:
             "What is the source of a river?",
 
@@ -225,7 +225,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-010",
-
+        skillId: "riverBasics",
         question:
             "Where are many river sources found?",
 
@@ -248,7 +248,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-011",
-
+        skillId: "riverBasics",
         question:
             "What happens when small streams join together?",
 
@@ -271,7 +271,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-012",
-
+        skillId: "riverBasics",
         question:
             "What does a river carry as it flows?",
 
@@ -294,7 +294,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-013",
-
+        skillId: "riverBasics",
         question:
             "What is sediment?",
 
@@ -317,7 +317,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-014",
-
+        skillId: "riverBasics",
         question:
             "Why do rivers often have bends?",
 
@@ -340,7 +340,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-015",
-
+        skillId: "riverBasics",
         question:
             "What is a waterfall?",
 
@@ -363,7 +363,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-016",
-
+        skillId: "riverBasics",
         question:
             "How do rivers help people?",
 
@@ -386,7 +386,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-017",
-
+        skillId: "riverBasics",
         question:
             "What happens when a river reaches the sea?",
 
@@ -409,7 +409,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-018",
-
+        skillId: "riverBasics",
         question:
             "Why do rivers change the land around them?",
 
@@ -432,7 +432,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-019",
-
+        skillId: "riverBasics",
         question:
             "Which words describe parts of a river?",
 
@@ -455,7 +455,7 @@ export const riverBasics: SkillContent = {
 
     {
         id: "geo-riv-020",
-
+        skillId: "riverBasics",
         question:
             "Which sentence best describes a river?",
 

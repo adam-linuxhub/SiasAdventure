@@ -18,7 +18,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-001",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nSam rode his blue bike to the park.\n\nWhat colour was Sam's bike?",
 
@@ -41,7 +41,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-002",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nLucy packed an apple, a sandwich and a bottle of water.\n\nWhat fruit did Lucy pack?",
 
@@ -64,7 +64,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-003",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nBen's football match started at 10 o'clock.\n\nWhat time did the match begin?",
 
@@ -87,7 +87,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-004",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nThe rabbit hid under a bush when it started to rain.\n\nWhere did the rabbit hide?",
 
@@ -110,7 +110,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-005",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nMrs Green read a story to the class before lunch.\n\nWho read the story?",
 
@@ -133,7 +133,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-006",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nElla's favourite animal is the dolphin.\n\nWhat is Ella's favourite animal?",
 
@@ -156,7 +156,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-007",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nTom wore a woolly hat because it was snowing.\n\nWhat did Tom wear?",
 
@@ -179,7 +179,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-008",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nThe class visited the museum on Tuesday.\n\nWhen did the class visit the museum?",
 
@@ -202,7 +202,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-009",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nThe cake had chocolate icing.\n\nWhat flavour was the icing?",
 
@@ -225,7 +225,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-010",
-
+        skillId: "retrieval",
         question:
             "What does retrieval mean when reading?",
 
@@ -248,7 +248,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-011",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nAva planted sunflower seeds in April. By July, the flowers were taller than she was.\n\nWhat did Ava plant?",
 
@@ -271,7 +271,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-012",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nThe library opens at 9 o'clock every weekday and closes at 5 o'clock.\n\nWhat time does the library close?",
 
@@ -294,7 +294,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-013",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nOscar found a shiny shell while walking along the beach with his grandparents.\n\nWhat did Oscar find?",
 
@@ -317,7 +317,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-014",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nThe baby panda drank milk before falling asleep.\n\nWhat did the panda drink?",
 
@@ -340,7 +340,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-015",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nNoah finished his homework before playing football with his friends.\n\nWhat did Noah do after finishing his homework?",
 
@@ -363,7 +363,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-016",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nThe train to York leaves from Platform 3.\n\nWhich platform does the train leave from?",
 
@@ -386,7 +386,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-017",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nEmily borrowed three books about dinosaurs from the library.\n\nHow many books did Emily borrow?",
 
@@ -409,7 +409,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-018",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nThe red kite flew high above the trees on a windy afternoon.\n\nWhat colour was the kite?",
 
@@ -432,7 +432,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-019",
-
+        skillId: "retrieval",
         question:
             "Read the passage:\n\nAfter brushing his teeth, Leo packed his school bag.\n\nWhat did Leo do first?",
 
@@ -455,7 +455,7 @@ export const retrieval: SkillContent = {
 
     {
         id: "eng-ret-020",
-
+        skillId: "retrieval",
         question:
             "What should you do first when answering a retrieval question?",
 

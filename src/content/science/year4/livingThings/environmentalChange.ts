@@ -18,7 +18,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-001",
-
+        skillId: "environmentalChange",
         question: "What is an environment?",
 
         options: [
@@ -40,7 +40,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-002",
-
+        skillId: "environmentalChange",
         question: "Which change could harm a woodland habitat?",
 
         options: [
@@ -62,7 +62,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-003",
-
+        skillId: "environmentalChange",
         question: "Which action helps wildlife?",
 
         options: [
@@ -84,7 +84,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-004",
-
+        skillId: "environmentalChange",
         question: "What is pollution?",
 
         options: [
@@ -106,7 +106,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-005",
-
+        skillId: "environmentalChange",
         question: "Why do animals need clean water?",
 
         options: [
@@ -128,7 +128,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-006",
-
+        skillId: "environmentalChange",
         question: "Which activity can damage a pond habitat?",
 
         options: [
@@ -150,7 +150,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-007",
-
+        skillId: "environmentalChange",
         question: "Which action helps bees?",
 
         options: [
@@ -172,7 +172,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-008",
-
+        skillId: "environmentalChange",
         question: "What should you do with litter?",
 
         options: [
@@ -194,7 +194,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-009",
-
+        skillId: "environmentalChange",
         question: "Which living thing may lose its home if trees are cut down?",
 
         options: [
@@ -216,7 +216,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-010",
-
+        skillId: "environmentalChange",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-011",
-
+        skillId: "environmentalChange",
         question: "Why is planting trees good for wildlife?",
 
         options: [
@@ -260,7 +260,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-012",
-
+        skillId: "environmentalChange",
         question: "Why can pollution be dangerous for fish?",
 
         options: [
@@ -282,7 +282,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-013",
-
+        skillId: "environmentalChange",
         question: "A new road is built through a woodland. What could happen?",
 
         options: [
@@ -304,7 +304,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-014",
-
+        skillId: "environmentalChange",
         question: "Why should people recycle?",
 
         options: [
@@ -326,7 +326,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-015",
-
+        skillId: "environmentalChange",
         question: "Which action would best help birds in a garden?",
 
         options: [
@@ -348,7 +348,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-016",
-
+        skillId: "environmentalChange",
         question: "Why is protecting habitats important?",
 
         options: [
@@ -370,7 +370,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-017",
-
+        skillId: "environmentalChange",
         question: "Which activity is most environmentally friendly?",
 
         options: [
@@ -392,7 +392,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-018",
-
+        skillId: "environmentalChange",
         question: "How can gardeners help insects?",
 
         options: [
@@ -414,7 +414,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-019",
-
+        skillId: "environmentalChange",
         question: "Which change is most likely to improve a habitat?",
 
         options: [
@@ -436,7 +436,7 @@ export const environmentalChange: SkillContent = {
 
     {
         id: "sci-environment-020",
-
+        skillId: "environmentalChange",
         question: "Which sentence best explains environmental change?",
 
         options: [

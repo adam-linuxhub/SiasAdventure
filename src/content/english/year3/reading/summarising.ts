@@ -18,7 +18,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-001",
-
+        skillId: "summarising",
         question:
             "Read the passage:\n\nTom woke up early. He brushed his teeth, ate breakfast and walked to school.\n\nWhich is the best summary?",
 
@@ -41,7 +41,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-002",
-
+        skillId: "summarising",
         question:
             "What is a summary?",
 
@@ -64,7 +64,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-003",
-
+        skillId: "summarising",
         question:
             "Read the passage:\n\nAva planted seeds in her garden. She watered them every day. Soon, colourful flowers grew.\n\nWhich is the best summary?",
 
@@ -87,7 +87,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-004",
-
+        skillId: "summarising",
         question:
             "When writing a summary, which information should you include?",
 
@@ -110,7 +110,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-005",
-
+        skillId: "summarising",
         question:
             "Read the passage:\n\nThe puppy was hungry. Sam gave it some food and fresh water. The puppy wagged its tail happily.\n\nWhich is the best summary?",
 
@@ -133,7 +133,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-006",
-
+        skillId: "summarising",
         question:
             "Which should you remove when writing a summary?",
 
@@ -156,7 +156,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-007",
-
+        skillId: "summarising",
         question:
             "Read the passage:\n\nThe castle had tall towers, stone walls and a large wooden door. It was built hundreds of years ago.\n\nWhich is the best summary?",
 
@@ -179,7 +179,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-008",
-
+        skillId: "summarising",
         question:
             "Which word means the same as 'main idea'?",
 
@@ -202,7 +202,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-009",
-
+        skillId: "summarising",
         question:
             "Read the passage:\n\nBen trained every week for the race. He practised running and improved his speed.\n\nWhich is the best summary?",
 
@@ -225,7 +225,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-010",
-
+        skillId: "summarising",
         question:
             "Why do readers write summaries?",
 
@@ -248,7 +248,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-011",
-
+        skillId: "summarising",
         question:
             "Read the passage:\n\nThe Earth travels around the Sun. It takes one year to complete its journey. This movement causes the seasons.\n\nWhich is the best summary?",
 
@@ -271,7 +271,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-012",
-
+        skillId: "summarising",
         question:
             "Read the passage:\n\nThe rainforest is home to many plants and animals. Some animals cannot be found anywhere else in the world.\n\nWhich is the best summary?",
 
@@ -294,7 +294,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-013",
-
+        skillId: "summarising",
         question:
             "Which sentence would be least useful in a summary?",
 
@@ -317,7 +317,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-014",
-
+        skillId: "summarising",
         question:
             "Read the passage:\n\nA group of children cleaned a local park. They collected rubbish and planted flowers.\n\nWhich is the best summary?",
 
@@ -340,7 +340,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-015",
-
+        skillId: "summarising",
         question:
             "A good summary should usually be:",
 
@@ -363,7 +363,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-016",
-
+        skillId: "summarising",
         question:
             "Read the passage:\n\nThe astronaut put on a spacesuit, entered the rocket and travelled into space.\n\nWhich is the best summary?",
 
@@ -386,7 +386,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-017",
-
+        skillId: "summarising",
         question:
             "What question can help you find the main idea?",
 
@@ -409,7 +409,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-018",
-
+        skillId: "summarising",
         question:
             "Read the passage:\n\nDogs make good pets because they can be friendly, loyal and helpful companions.\n\nWhich is the best summary?",
 
@@ -432,7 +432,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-019",
-
+        skillId: "summarising",
         question:
             "Which skill helps you write a good summary?",
 
@@ -455,7 +455,7 @@ export const summarising: SkillContent = {
 
     {
         id: "eng-sum-020",
-
+        skillId: "summarising",
         question:
             "Which summary is best for a story about a child learning to ride a bike?",
 

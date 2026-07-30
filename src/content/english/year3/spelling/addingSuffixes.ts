@@ -18,7 +18,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-001",
-
+        skillId: "addingSuffixes",
         question: "Which word is made by adding '-ing' to 'jump'?",
 
         options: [
@@ -40,7 +40,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-002",
-
+        skillId: "addingSuffixes",
         question: "Which word is made by adding '-ed' to 'play'?",
 
         options: [
@@ -62,7 +62,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-003",
-
+        skillId: "addingSuffixes",
         question: "Which word means 'more tall'?",
 
         options: [
@@ -84,7 +84,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-004",
-
+        skillId: "addingSuffixes",
         question: "Which word means 'the most small'?",
 
         options: [
@@ -106,7 +106,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-005",
-
+        skillId: "addingSuffixes",
         question: "Which word is correct?",
 
         options: [
@@ -128,7 +128,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-006",
-
+        skillId: "addingSuffixes",
         question: "Which word is correct?",
 
         options: [
@@ -150,7 +150,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-007",
-
+        skillId: "addingSuffixes",
         question: "Which word is made by adding '-er' to 'fast'?",
 
         options: [
@@ -172,7 +172,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-008",
-
+        skillId: "addingSuffixes",
         question: "Which word is made by adding '-est' to 'long'?",
 
         options: [
@@ -194,7 +194,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-009",
-
+        skillId: "addingSuffixes",
         question: "Which suffix tells us an action is happening now?",
 
         options: [
@@ -216,7 +216,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-010",
-
+        skillId: "addingSuffixes",
         question: "Which suffix often shows an action happened in the past?",
 
         options: [
@@ -238,7 +238,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-011",
-
+        skillId: "addingSuffixes",
         question: "Complete the sentence: 'The rabbit is ______ across the field.'",
 
         options: [
@@ -260,7 +260,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-012",
-
+        skillId: "addingSuffixes",
         question: "Complete the sentence: 'Yesterday we ______ football.'",
 
         options: [
@@ -282,7 +282,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-013",
-
+        skillId: "addingSuffixes",
         question: "Which sentence is correct?",
 
         options: [
@@ -304,7 +304,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-014",
-
+        skillId: "addingSuffixes",
         question: "Which sentence is correct?",
 
         options: [
@@ -326,7 +326,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-015",
-
+        skillId: "addingSuffixes",
         question: "Which word correctly adds '-ing' to 'smile'?",
 
         options: [
@@ -348,7 +348,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-016",
-
+        skillId: "addingSuffixes",
         question: "Which word correctly adds '-ed' to 'dance'?",
 
         options: [
@@ -370,7 +370,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-017",
-
+        skillId: "addingSuffixes",
         question: "Which word correctly adds '-ing' to 'make'?",
 
         options: [
@@ -392,7 +392,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-018",
-
+        skillId: "addingSuffixes",
         question: "Which sentence is correct?",
 
         options: [
@@ -414,7 +414,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-019",
-
+        skillId: "addingSuffixes",
         question: "Which word compares two runners?",
 
         options: [
@@ -436,7 +436,7 @@ export const addingSuffixes: SkillContent = {
 
     {
         id: "eng-suf-020",
-
+        skillId: "addingSuffixes",
         question: "Which sentence contains a correctly spelled suffix word?",
 
         options: [

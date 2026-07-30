@@ -18,7 +18,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-001",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which of these is a rocky planet?",
 
         options: [
@@ -45,7 +45,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-002",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which of these is a giant planet?",
 
         options: [
@@ -72,7 +72,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-003",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which rocky planet do we live on?",
 
         options: [
@@ -99,7 +99,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-004",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which of these is a giant planet?",
 
         options: [
@@ -126,7 +126,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-005",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which of these is a rocky planet?",
 
         options: [
@@ -153,7 +153,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-006",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which of these is a giant planet?",
 
         options: [
@@ -180,7 +180,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-007",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which group contains only rocky planets?",
 
         options: [
@@ -206,7 +206,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-008",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which group contains only giant planets?",
 
         options: [
@@ -232,7 +232,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-009",
-
+        skillId: "rocky-and-gas-giants",
         question: "How many rocky planets are there?",
 
         options: [
@@ -258,7 +258,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-010",
-
+        skillId: "rocky-and-gas-giants",
         question: "How many giant planets are there?",
 
         options: [
@@ -284,7 +284,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-011",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which rocky planet is closest to the Sun?",
 
         options: [
@@ -311,7 +311,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-012",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which giant planet is closest to the Sun?",
 
         options: [
@@ -338,7 +338,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-013",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which rocky planet is farthest from the Sun?",
 
         options: [
@@ -365,7 +365,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-014",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which giant planet is farthest from the Sun?",
 
         options: [
@@ -392,7 +392,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-015",
-
+        skillId: "rocky-and-gas-giants",
         question: "Ella says, 'Earth is a giant planet.' Is she correct?",
 
         options: [
@@ -418,8 +418,8 @@ export const rockyAndGasGiants: SkillContent = {
     },
         {
         id: "sci-planets-types-016",
-
-        question: "Ben says, 'Jupiter is a rocky planet.' Is Ben correct?",
+            skillId: "rocky-and-gas-giants",
+            question: "Ben says, 'Jupiter is a rocky planet.' Is Ben correct?",
 
         options: [
             "No, Jupiter is a giant planet.",
@@ -445,7 +445,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-017",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which pair contains two rocky planets?",
 
         options: [
@@ -471,7 +471,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-018",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which pair contains two giant planets?",
 
         options: [
@@ -497,7 +497,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-019",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which planet belongs with Earth because they are both rocky planets?",
 
         options: [
@@ -524,7 +524,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-020",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which planet belongs with Jupiter because they are both giant planets?",
 
         options: [
@@ -551,7 +551,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-021",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which answer contains only rocky planets?",
 
         options: [
@@ -577,7 +577,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-022",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which answer contains only giant planets?",
 
         options: [
@@ -603,7 +603,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-023",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which planet is NOT a rocky planet?",
 
         options: [
@@ -629,7 +629,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-024",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which planet is NOT a giant planet?",
 
         options: [
@@ -655,7 +655,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-025",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which rocky planet is nearest to Jupiter?",
 
         options: [
@@ -682,7 +682,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-026",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which giant planet is nearest to Mars?",
 
         options: [
@@ -709,7 +709,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-027",
-
+        skillId: "rocky-and-gas-giants",
         question: "How many giant planets are larger than Earth?",
 
         options: [
@@ -735,7 +735,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-028",
-
+        skillId: "rocky-and-gas-giants",
         question: "How many rocky planets are closer to the Sun than Jupiter?",
 
         options: [
@@ -761,7 +761,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-029",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which sentence is true?",
 
         options: [
@@ -788,7 +788,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-030",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which statement is correct?",
 
         options: [
@@ -814,8 +814,8 @@ export const rockyAndGasGiants: SkillContent = {
     },
     {
     id: "sci-planets-types-031",
-
-    question: "Which rocky planet is the smallest?",
+        skillId: "rocky-and-gas-giants",
+        question: "Which rocky planet is the smallest?",
 
     options: [
         "Mercury",
@@ -841,7 +841,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-032",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which giant planet is the largest?",
 
     options: [
@@ -868,7 +868,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-033",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which giant planet is famous for its rings?",
 
     options: [
@@ -895,7 +895,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-034",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which rocky planet is known as the Red Planet?",
 
     options: [
@@ -922,7 +922,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-035",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which giant planet comes immediately after the rocky planets?",
 
     options: [
@@ -949,7 +949,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-036",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which sentence is true?",
 
     options: [
@@ -976,7 +976,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-037",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which sentence is true?",
 
     options: [
@@ -1003,7 +1003,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-038",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which list shows only rocky planets?",
 
     options: [
@@ -1029,7 +1029,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-039",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which list shows only giant planets?",
 
     options: [
@@ -1055,7 +1055,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-040",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which planet does NOT belong in this group: Mercury, Venus, Earth, Jupiter?",
 
     options: [
@@ -1081,7 +1081,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-041",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which planet does NOT belong in this group: Jupiter, Saturn, Uranus, Mars?",
 
     options: [
@@ -1107,7 +1107,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-042",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which statement is correct?",
 
     options: [
@@ -1133,7 +1133,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-043",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which statement is correct?",
 
     options: [
@@ -1159,7 +1159,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-044",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which answer correctly matches the planet to its type?",
 
     options: [
@@ -1186,7 +1186,7 @@ export const rockyAndGasGiants: SkillContent = {
 
 {
     id: "sci-planets-types-045",
-
+    skillId: "rocky-and-gas-giants",
     question: "Which answer correctly matches the planet to its type?",
 
     options: [
@@ -1212,7 +1212,7 @@ export const rockyAndGasGiants: SkillContent = {
 },
     {
         id: "sci-planets-types-046",
-
+        skillId: "rocky-and-gas-giants",
         question: "How many rocky planets are there before the giant planets begin?",
 
         options: [
@@ -1238,7 +1238,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-047",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which planet completes this pattern? Mercury, Venus, Earth, Mars, ___",
 
         options: [
@@ -1265,7 +1265,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-048",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which statement best describes the Solar System's planets?",
 
         options: [
@@ -1292,7 +1292,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-049",
-
+        skillId: "rocky-and-gas-giants",
         question: "Sam says, 'Uranus is a rocky planet because it is far from the Sun.' Is Sam correct?",
 
         options: [
@@ -1319,7 +1319,7 @@ export const rockyAndGasGiants: SkillContent = {
 
     {
         id: "sci-planets-types-050",
-
+        skillId: "rocky-and-gas-giants",
         question: "Which summary is correct?",
 
         options: [

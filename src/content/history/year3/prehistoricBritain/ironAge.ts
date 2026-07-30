@@ -18,7 +18,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-001",
-
+        skillId: "ironAge",
         question: "Why is it called the Iron Age?",
 
         options: [
@@ -40,7 +40,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-002",
-
+        skillId: "ironAge",
         question: "Which metal became widely used during the Iron Age?",
 
         options: [
@@ -62,7 +62,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-003",
-
+        skillId: "ironAge",
         question: "Iron tools were usually stronger than tools made from...",
 
         options: [
@@ -84,7 +84,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-004",
-
+        skillId: "ironAge",
         question: "What was a hill fort?",
 
         options: [
@@ -106,7 +106,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-005",
-
+        skillId: "ironAge",
         question: "Why were hill forts often built on hills?",
 
         options: [
@@ -128,7 +128,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-006",
-
+        skillId: "ironAge",
         question: "What were groups of Iron Age people often called?",
 
         options: [
@@ -150,7 +150,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-007",
-
+        skillId: "ironAge",
         question: "Many people living in Britain during the Iron Age were called...",
 
         options: [
@@ -172,7 +172,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-008",
-
+        skillId: "ironAge",
         question: "What could stronger iron tools help people do?",
 
         options: [
@@ -194,7 +194,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-009",
-
+        skillId: "ironAge",
         question: "Which of these would most likely be found in an Iron Age settlement?",
 
         options: [
@@ -216,7 +216,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-010",
-
+        skillId: "ironAge",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-011",
-
+        skillId: "ironAge",
         question: "Why was iron better than bronze for many tools?",
 
         options: [
@@ -260,7 +260,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-012",
-
+        skillId: "ironAge",
         question: "Why did people build hill forts?",
 
         options: [
@@ -282,7 +282,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-013",
-
+        skillId: "ironAge",
         question: "What was one important job of a tribe?",
 
         options: [
@@ -304,7 +304,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-014",
-
+        skillId: "ironAge",
         question: "Why were stronger farming tools useful?",
 
         options: [
@@ -326,7 +326,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-015",
-
+        skillId: "ironAge",
         question: "Why was living in a tribe important?",
 
         options: [
@@ -348,7 +348,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-016",
-
+        skillId: "ironAge",
         question: "Which activity was common during the Iron Age?",
 
         options: [
@@ -370,7 +370,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-017",
-
+        skillId: "ironAge",
         question: "What advantage did a hill fort have?",
 
         options: [
@@ -392,7 +392,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-018",
-
+        skillId: "ironAge",
         question: "Why do historians study Iron Age artefacts?",
 
         options: [
@@ -414,7 +414,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-019",
-
+        skillId: "ironAge",
         question: "Which item would most likely belong to the Iron Age?",
 
         options: [
@@ -436,7 +436,7 @@ export const ironAge: SkillContent = {
 
     {
         id: "hist-iron-020",
-
+        skillId: "ironAge",
         question: "Which sentence best describes the Iron Age?",
 
         options: [

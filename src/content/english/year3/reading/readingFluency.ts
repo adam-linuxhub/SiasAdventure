@@ -18,7 +18,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-001",
-
+        skillId: "readingFluency",
         question:
             "What does reading fluently mean?",
 
@@ -41,7 +41,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-002",
-
+        skillId: "readingFluency",
         question:
             "Why is it important to read with expression?",
 
@@ -64,7 +64,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-003",
-
+        skillId: "readingFluency",
         question:
             "What should you do when you see a full stop?",
 
@@ -87,7 +87,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-004",
-
+        skillId: "readingFluency",
         question:
             "What should your voice do when reading a question?",
 
@@ -110,7 +110,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-005",
-
+        skillId: "readingFluency",
         question:
             "Why should readers avoid reading every word too quickly?",
 
@@ -133,7 +133,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-006",
-
+        skillId: "readingFluency",
         question:
             "A fluent reader should:",
 
@@ -156,7 +156,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-007",
-
+        skillId: "readingFluency",
         question:
             "What does punctuation help a reader know?",
 
@@ -179,7 +179,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-008",
-
+        skillId: "readingFluency",
         question:
             "Which reader is most fluent?",
 
@@ -202,7 +202,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-009",
-
+        skillId: "readingFluency",
         question:
             "What should you do if you do not know a word?",
 
@@ -225,7 +225,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-010",
-
+        skillId: "readingFluency",
         question:
             "Why do fluent readers practise reading regularly?",
 
@@ -248,7 +248,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-011",
-
+        skillId: "readingFluency",
         question:
             "Which punctuation mark tells you to pause briefly?",
 
@@ -271,7 +271,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-012",
-
+        skillId: "readingFluency",
         question:
             "How should you read a character speaking angrily?",
 
@@ -294,7 +294,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-013",
-
+        skillId: "readingFluency",
         question:
             "Why should you look at punctuation before reading aloud?",
 
@@ -317,7 +317,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-014",
-
+        skillId: "readingFluency",
         question:
             "Which is a sign of poor fluency?",
 
@@ -340,7 +340,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-015",
-
+        skillId: "readingFluency",
         question:
             "What should you do when reading a surprising part of a story?",
 
@@ -363,7 +363,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-016",
-
+        skillId: "readingFluency",
         question:
             "Which skill helps readers understand longer texts?",
 
@@ -386,7 +386,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-017",
-
+        skillId: "readingFluency",
         question:
             "When reading aloud, where should you pause?",
 
@@ -409,7 +409,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-018",
-
+        skillId: "readingFluency",
         question:
             "What is the best way to improve reading fluency?",
 
@@ -432,7 +432,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-019",
-
+        skillId: "readingFluency",
         question:
             "Why do fluent readers group words together?",
 
@@ -455,7 +455,7 @@ export const readingFluency: SkillContent = {
 
     {
         id: "eng-flu-020",
-
+        skillId: "readingFluency",
         question:
             "A good reader focuses on:",
 

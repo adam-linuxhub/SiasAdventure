@@ -18,7 +18,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-001",
-
+        skillId: "riverFeatures",
         question:
             "What are the three main stages of a river?",
 
@@ -41,7 +41,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-002",
-
+        skillId: "riverFeatures",
         question:
             "Where is the upper course of a river found?",
 
@@ -64,7 +64,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-003",
-
+        skillId: "riverFeatures",
         question:
             "What is the river usually like in the upper course?",
 
@@ -87,7 +87,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-004",
-
+        skillId: "riverFeatures",
         question:
             "What is a waterfall?",
 
@@ -110,7 +110,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-005",
-
+        skillId: "riverFeatures",
         question:
             "What causes erosion?",
 
@@ -133,7 +133,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-006",
-
+        skillId: "riverFeatures",
         question:
             "What happens during erosion?",
 
@@ -156,7 +156,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-007",
-
+        skillId: "riverFeatures",
         question:
             "What is a meander?",
 
@@ -179,7 +179,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-008",
-
+        skillId: "riverFeatures",
         question:
             "Where are meanders commonly found?",
 
@@ -202,7 +202,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-009",
-
+        skillId: "riverFeatures",
         question:
             "What is deposition?",
 
@@ -225,7 +225,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-010",
-
+        skillId: "riverFeatures",
         question:
             "Where does deposition often happen?",
 
@@ -248,7 +248,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-011",
-
+        skillId: "riverFeatures",
         question:
             "What is the middle course of a river like?",
 
@@ -271,7 +271,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-012",
-
+        skillId: "riverFeatures",
         question:
             "What is the lower course of a river like?",
 
@@ -294,7 +294,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-013",
-
+        skillId: "riverFeatures",
         question:
             "What happens to a river as it travels downstream?",
 
@@ -317,7 +317,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-014",
-
+        skillId: "riverFeatures",
         question:
             "What is a valley?",
 
@@ -340,7 +340,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-015",
-
+        skillId: "riverFeatures",
         question:
             "How can rivers change landscapes?",
 
@@ -363,7 +363,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-016",
-
+        skillId: "riverFeatures",
         question:
             "Why are rivers faster in the upper course?",
 
@@ -386,7 +386,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-017",
-
+        skillId: "riverFeatures",
         question:
             "What is an oxbow lake?",
 
@@ -409,7 +409,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-018",
-
+        skillId: "riverFeatures",
         question:
             "Why do rivers have different features?",
 
@@ -432,7 +432,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-019",
-
+        skillId: "riverFeatures",
         question:
             "Which feature is found where a river ends?",
 
@@ -455,7 +455,7 @@ export const riverFeatures: SkillContent = {
 
     {
         id: "geo-rf-020",
-
+        skillId: "riverFeatures",
         question:
             "Which sentence best describes a river's journey?",
 

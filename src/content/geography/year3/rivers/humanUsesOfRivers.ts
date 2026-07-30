@@ -18,7 +18,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-001",
-
+        skillId: "humanUsesOfRivers",
         question:
             "Why are rivers important to humans?",
 
@@ -41,7 +41,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-002",
-
+        skillId: "humanUsesOfRivers",
         question:
             "How do people use river water?",
 
@@ -64,7 +64,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-003",
-
+        skillId: "humanUsesOfRivers",
         question:
             "How do farmers use rivers?",
 
@@ -87,7 +87,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-004",
-
+        skillId: "humanUsesOfRivers",
         question:
             "What is irrigation?",
 
@@ -110,7 +110,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-005",
-
+        skillId: "humanUsesOfRivers",
         question:
             "Why have many towns been built near rivers?",
 
@@ -133,7 +133,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-006",
-
+        skillId: "humanUsesOfRivers",
         question:
             "How can rivers help with transport?",
 
@@ -156,7 +156,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-007",
-
+        skillId: "humanUsesOfRivers",
         question:
             "What is hydroelectric power?",
 
@@ -179,7 +179,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-008",
-
+        skillId: "humanUsesOfRivers",
         question:
             "What structure can be used to create hydroelectric power?",
 
@@ -202,7 +202,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-009",
-
+        skillId: "humanUsesOfRivers",
         question:
             "What is pollution?",
 
@@ -225,7 +225,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-010",
-
+        skillId: "humanUsesOfRivers",
         question:
             "What can cause river pollution?",
 
@@ -248,7 +248,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-011",
-
+        skillId: "humanUsesOfRivers",
         question:
             "Why should rivers be protected?",
 
@@ -271,7 +271,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-012",
-
+        skillId: "humanUsesOfRivers",
         question:
             "How can people help protect rivers?",
 
@@ -294,7 +294,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-013",
-
+        skillId: "humanUsesOfRivers",
         question:
             "Why are rivers important for wildlife?",
 
@@ -317,7 +317,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-014",
-
+        skillId: "humanUsesOfRivers",
         question:
             "What is a habitat?",
 
@@ -340,7 +340,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-015",
-
+        skillId: "humanUsesOfRivers",
         question:
             "Why are rivers useful for trade?",
 
@@ -363,7 +363,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-016",
-
+        skillId: "humanUsesOfRivers",
         question:
             "What might happen if a river becomes polluted?",
 
@@ -386,7 +386,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-017",
-
+        skillId: "humanUsesOfRivers",
         question:
             "Why do cities often develop near rivers?",
 
@@ -409,7 +409,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-018",
-
+        skillId: "humanUsesOfRivers",
         question:
             "Which is a renewable source of energy from rivers?",
 
@@ -432,7 +432,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-019",
-
+        skillId: "humanUsesOfRivers",
         question:
             "Why do people need to use water carefully?",
 
@@ -455,7 +455,7 @@ export const humanUsesOfRivers: SkillContent = {
 
     {
         id: "geo-hur-020",
-
+        skillId: "humanUsesOfRivers",
         question:
             "Which sentence best describes how humans use rivers?",
 

@@ -18,7 +18,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-001",
-
+        skillId: "synonyms",
         question: "Which word is a synonym for 'big'?",
 
         options: [
@@ -40,7 +40,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-002",
-
+        skillId: "synonyms",
         question: "Which word is a synonym for 'happy'?",
 
         options: [
@@ -62,7 +62,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-003",
-
+        skillId: "synonyms",
         question: "Which word is a synonym for 'small'?",
 
         options: [
@@ -84,7 +84,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-004",
-
+        skillId: "synonyms",
         question: "Which word is a synonym for 'quick'?",
 
         options: [
@@ -106,7 +106,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-005",
-
+        skillId: "synonyms",
         question: "Which word is a synonym for 'begin'?",
 
         options: [
@@ -128,7 +128,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-006",
-
+        skillId: "synonyms",
         question: "Which word is a synonym for 'finish'?",
 
         options: [
@@ -150,7 +150,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-007",
-
+        skillId: "synonyms",
         question: "Which word is a synonym for 'smart'?",
 
         options: [
@@ -172,7 +172,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-008",
-
+        skillId: "synonyms",
         question: "Which word is a synonym for 'look'?",
 
         options: [
@@ -194,7 +194,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-009",
-
+        skillId: "synonyms",
         question: "Which word is a synonym for 'shout'?",
 
         options: [
@@ -216,7 +216,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-010",
-
+        skillId: "synonyms",
         question: "What are synonyms?",
 
         options: [
@@ -238,7 +238,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-011",
-
+        skillId: "synonyms",
         question: "Choose the best synonym for 'cold'.",
 
         options: [
@@ -260,7 +260,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-012",
-
+        skillId: "synonyms",
         question: "Choose the best synonym for 'beautiful'.",
 
         options: [
@@ -282,7 +282,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-013",
-
+        skillId: "synonyms",
         question: "Complete the sentence: 'The rabbit was _____.'",
 
         options: [
@@ -304,7 +304,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-014",
-
+        skillId: "synonyms",
         question: "Which pair of words are synonyms?",
 
         options: [
@@ -326,7 +326,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-015",
-
+        skillId: "synonyms",
         question: "Which pair of words are synonyms?",
 
         options: [
@@ -348,7 +348,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-016",
-
+        skillId: "synonyms",
         question: "Which word could replace 'large' without changing the meaning?",
 
         options: [
@@ -370,7 +370,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-017",
-
+        skillId: "synonyms",
         question: "Which word could replace 'end'?",
 
         options: [
@@ -392,7 +392,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-018",
-
+        skillId: "synonyms",
         question: "Choose the best synonym for 'quiet'.",
 
         options: [
@@ -414,7 +414,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-019",
-
+        skillId: "synonyms",
         question: "Which sentence uses a synonym correctly?",
 
         options: [
@@ -436,7 +436,7 @@ export const synonyms: SkillContent = {
 
     {
         id: "eng-syn-020",
-
+        skillId: "synonyms",
         question: "Why do writers use synonyms?",
 
         options: [

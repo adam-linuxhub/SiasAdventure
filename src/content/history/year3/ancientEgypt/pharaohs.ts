@@ -18,7 +18,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-001",
-
+        skillId: "pharaohs",
         question:
             "What was a pharaoh?",
 
@@ -41,7 +41,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-002",
-
+        skillId: "pharaohs",
         question:
             "Why were pharaohs important?",
 
@@ -64,7 +64,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-003",
-
+        skillId: "pharaohs",
         question:
             "What title did Ancient Egyptian rulers use?",
 
@@ -87,7 +87,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-004",
-
+        skillId: "pharaohs",
         question:
             "Where did many pharaohs live?",
 
@@ -110,7 +110,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-005",
-
+        skillId: "pharaohs",
         question:
             "What did pharaohs often organise?",
 
@@ -133,7 +133,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-006",
-
+        skillId: "pharaohs",
         question:
             "How did Egyptians view their pharaoh?",
 
@@ -156,7 +156,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-007",
-
+        skillId: "pharaohs",
         question:
             "Which famous pharaoh's tomb was discovered in 1922?",
 
@@ -179,7 +179,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-008",
-
+        skillId: "pharaohs",
         question:
             "Why is Tutankhamun famous today?",
 
@@ -202,7 +202,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-009",
-
+        skillId: "pharaohs",
         question:
             "What symbol showed the power of a pharaoh?",
 
@@ -225,7 +225,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-010",
-
+        skillId: "pharaohs",
         question:
             "What did pharaohs help create?",
 
@@ -248,7 +248,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-011",
-
+        skillId: "pharaohs",
         question:
             "Why were pyramids connected with pharaohs?",
 
@@ -271,7 +271,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-012",
-
+        skillId: "pharaohs",
         question:
             "What is a ruler?",
 
@@ -294,7 +294,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-013",
-
+        skillId: "pharaohs",
         question:
             "Why did pharaohs need workers?",
 
@@ -317,7 +317,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-014",
-
+        skillId: "pharaohs",
         question:
             "Which statement about pharaohs is correct?",
 
@@ -340,7 +340,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-015",
-
+        skillId: "pharaohs",
         question:
             "What might historians study to learn about pharaohs?",
 
@@ -363,7 +363,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-016",
-
+        skillId: "pharaohs",
         question:
             "Why were temples important in Ancient Egypt?",
 
@@ -386,7 +386,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-017",
-
+        skillId: "pharaohs",
         question:
             "A powerful leader is someone who:",
 
@@ -409,7 +409,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-018",
-
+        skillId: "pharaohs",
         question:
             "Why do we remember famous pharaohs today?",
 
@@ -432,7 +432,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-019",
-
+        skillId: "pharaohs",
         question:
             "Which word best describes a pharaoh?",
 
@@ -455,7 +455,7 @@ export const pharaohs: SkillContent = {
 
     {
         id: "hist-phar-020",
-
+        skillId: "pharaohs",
         question:
             "Why are pharaohs important when studying Ancient Egypt?",
 

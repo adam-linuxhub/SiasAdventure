@@ -18,7 +18,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-001",
-
+        skillId: "fossils",
         question: "What is a fossil?",
 
         options: [
@@ -40,7 +40,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-002",
-
+        skillId: "fossils",
         question: "Where are fossils usually found?",
 
         options: [
@@ -62,7 +62,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-003",
-
+        skillId: "fossils",
         question: "A fossil can come from a...",
 
         options: [
@@ -84,7 +84,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-004",
-
+        skillId: "fossils",
         question: "Which of these could become a fossil?",
 
         options: [
@@ -106,7 +106,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-005",
-
+        skillId: "fossils",
         question: "What can fossils teach us?",
 
         options: [
@@ -128,7 +128,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-006",
-
+        skillId: "fossils",
         question: "Which scientist studies fossils?",
 
         options: [
@@ -150,7 +150,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-007",
-
+        skillId: "fossils",
         question: "Which animal is often known from fossils?",
 
         options: [
@@ -172,7 +172,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-008",
-
+        skillId: "fossils",
         question: "How old are many fossils?",
 
         options: [
@@ -194,7 +194,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-009",
-
+        skillId: "fossils",
         question: "Which of these might be found as a fossil?",
 
         options: [
@@ -216,7 +216,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-010",
-
+        skillId: "fossils",
         question: "Why are fossils important?",
 
         options: [
@@ -238,7 +238,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-011",
-
+        skillId: "fossils",
         question: "A fossil is discovered inside a rock. What does this tell scientists?",
 
         options: [
@@ -260,7 +260,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-012",
-
+        skillId: "fossils",
         question: "Which rock is most likely to contain fossils?",
 
         options: [
@@ -282,7 +282,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-013",
-
+        skillId: "fossils",
         question: "What can fossils tell us about an animal?",
 
         options: [
@@ -304,7 +304,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-014",
-
+        skillId: "fossils",
         question: "Which is most likely to become a fossil?",
 
         options: [
@@ -326,7 +326,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-015",
-
+        skillId: "fossils",
         question: "What do scientists compare when studying fossils?",
 
         options: [
@@ -348,7 +348,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-016",
-
+        skillId: "fossils",
         question: "Why do fossils help us understand Earth's history?",
 
         options: [
@@ -370,7 +370,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-017",
-
+        skillId: "fossils",
         question: "A fossil of a fish is found on a mountain. What might this suggest?",
 
         options: [
@@ -392,7 +392,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-018",
-
+        skillId: "fossils",
         question: "Why are dinosaur fossils exciting to scientists?",
 
         options: [
@@ -414,7 +414,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-019",
-
+        skillId: "fossils",
         question: "Which statement about fossils is true?",
 
         options: [
@@ -436,7 +436,7 @@ export const fossils: SkillContent = {
 
     {
         id: "sci-fossils-020",
-
+        skillId: "fossils",
         question: "What is the main reason scientists study fossils?",
 
         options: [

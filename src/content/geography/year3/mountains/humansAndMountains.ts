@@ -18,7 +18,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-001",
-
+        skillId: "humansAndMountains",
         question:
             "Why do some people live in mountain areas?",
 
@@ -41,7 +41,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-002",
-
+        skillId: "humansAndMountains",
         question:
             "Why can living in mountains be challenging?",
 
@@ -64,7 +64,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-003",
-
+        skillId: "humansAndMountains",
         question:
             "How do people travel in mountain areas?",
 
@@ -87,7 +87,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-004",
-
+        skillId: "humansAndMountains",
         question:
             "Why can building roads in mountains be difficult?",
 
@@ -110,7 +110,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-005",
-
+        skillId: "humansAndMountains",
         question:
             "What is mountain farming?",
 
@@ -133,7 +133,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-006",
-
+        skillId: "humansAndMountains",
         question:
             "Why do farmers use terraces on mountain slopes?",
 
@@ -156,7 +156,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-007",
-
+        skillId: "humansAndMountains",
         question:
             "Why do tourists visit mountains?",
 
@@ -179,7 +179,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-008",
-
+        skillId: "humansAndMountains",
         question:
             "What is tourism?",
 
@@ -202,7 +202,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-009",
-
+        skillId: "humansAndMountains",
         question:
             "How can tourism help mountain communities?",
 
@@ -225,7 +225,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-010",
-
+        skillId: "humansAndMountains",
         question:
             "What is one problem caused by too many visitors?",
 
@@ -248,7 +248,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-011",
-
+        skillId: "humansAndMountains",
         question:
             "Why should mountain environments be protected?",
 
@@ -271,7 +271,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-012",
-
+        skillId: "humansAndMountains",
         question:
             "How can people protect mountains?",
 
@@ -294,7 +294,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-013",
-
+        skillId: "humansAndMountains",
         question:
             "Why are mountain plants and animals special?",
 
@@ -317,7 +317,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-014",
-
+        skillId: "humansAndMountains",
         question:
             "What resource can mountains provide?",
 
@@ -340,7 +340,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-015",
-
+        skillId: "humansAndMountains",
         question:
             "Why do mountain communities need to adapt?",
 
@@ -363,7 +363,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-016",
-
+        skillId: "humansAndMountains",
         question:
             "What is conservation?",
 
@@ -386,7 +386,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-017",
-
+        skillId: "humansAndMountains",
         question:
             "Why are mountains important to people?",
 
@@ -409,7 +409,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-018",
-
+        skillId: "humansAndMountains",
         question:
             "Which activity might happen in mountain areas?",
 
@@ -432,7 +432,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-019",
-
+        skillId: "humansAndMountains",
         question:
             "Why are mountain environments fragile?",
 
@@ -455,7 +455,7 @@ export const humansAndMountains: SkillContent = {
 
     {
         id: "geo-hm-020",
-
+        skillId: "humansAndMountains",
         question:
             "Which sentence best describes humans and mountains?",
 

@@ -18,7 +18,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-001",
-
+        skillId: "pitchAndVolume",
         question: "What is pitch?",
 
         options: [
@@ -40,7 +40,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-002",
-
+        skillId: "pitchAndVolume",
         question: "What is volume?",
 
         options: [
@@ -62,7 +62,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-003",
-
+        skillId: "pitchAndVolume",
         question: "Which animal usually makes a high-pitched sound?",
 
         options: [
@@ -84,7 +84,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-004",
-
+        skillId: "pitchAndVolume",
         question: "Which animal usually makes a low-pitched sound?",
 
         options: [
@@ -106,7 +106,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-005",
-
+        skillId: "pitchAndVolume",
         question: "What usually happens if you hit a drum harder?",
 
         options: [
@@ -128,7 +128,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-006",
-
+        skillId: "pitchAndVolume",
         question: "Which sound has the highest pitch?",
 
         options: [
@@ -150,7 +150,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-007",
-
+        skillId: "pitchAndVolume",
         question: "Which sound is likely to be the loudest?",
 
         options: [
@@ -172,7 +172,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-008",
-
+        skillId: "pitchAndVolume",
         question: "Which instrument can make both high and low notes?",
 
         options: [
@@ -194,7 +194,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-009",
-
+        skillId: "pitchAndVolume",
         question: "Which statement is true?",
 
         options: [
@@ -216,7 +216,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-010",
-
+        skillId: "pitchAndVolume",
         question: "What kind of sound is a whisper?",
 
         options: [
@@ -238,7 +238,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-011",
-
+        skillId: "pitchAndVolume",
         question: "Why does a small bell usually make a higher-pitched sound than a large bell?",
 
         options: [
@@ -260,7 +260,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-012",
-
+        skillId: "pitchAndVolume",
         question: "Why does a large drum usually make a lower-pitched sound than a small drum?",
 
         options: [
@@ -282,7 +282,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-013",
-
+        skillId: "pitchAndVolume",
         question: "What happens when you pluck a guitar string more gently?",
 
         options: [
@@ -304,7 +304,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-014",
-
+        skillId: "pitchAndVolume",
         question: "Which change makes a sound louder?",
 
         options: [
@@ -326,7 +326,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-015",
-
+        skillId: "pitchAndVolume",
         question: "Which instrument is most likely to produce a low-pitched note?",
 
         options: [
@@ -348,7 +348,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-016",
-
+        skillId: "pitchAndVolume",
         question: "A violin string is tightened before being played. What usually happens?",
 
         options: [
@@ -370,7 +370,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-017",
-
+        skillId: "pitchAndVolume",
         question: "Why does shouting sound louder than whispering?",
 
         options: [
@@ -392,7 +392,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-018",
-
+        skillId: "pitchAndVolume",
         question: "Which pair is correctly matched?",
 
         options: [
@@ -414,7 +414,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-019",
-
+        skillId: "pitchAndVolume",
         question: "What mainly affects whether a sound is loud or quiet?",
 
         options: [
@@ -436,7 +436,7 @@ export const pitchAndVolume: SkillContent = {
 
     {
         id: "sci-pitch-volume-020",
-
+        skillId: "pitchAndVolume",
         question: "Which sentence best describes pitch and volume?",
 
         options: [

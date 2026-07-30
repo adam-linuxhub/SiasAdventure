@@ -18,7 +18,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-001",
-
+        skillId: "bronzeAge",
         question: "Why is it called the Bronze Age?",
 
         options: [
@@ -40,7 +40,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-002",
-
+        skillId: "bronzeAge",
         question: "Bronze is made by mixing which two metals?",
 
         options: [
@@ -62,7 +62,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-003",
-
+        skillId: "bronzeAge",
         question: "Bronze tools were usually stronger than tools made from...",
 
         options: [
@@ -84,7 +84,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-004",
-
+        skillId: "bronzeAge",
         question: "What did many Bronze Age people grow?",
 
         options: [
@@ -106,7 +106,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-005",
-
+        skillId: "bronzeAge",
         question: "Which animals did Bronze Age farmers often keep?",
 
         options: [
@@ -128,7 +128,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-006",
-
+        skillId: "bronzeAge",
         question: "What is farming?",
 
         options: [
@@ -150,7 +150,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-007",
-
+        skillId: "bronzeAge",
         question: "What is trade?",
 
         options: [
@@ -172,7 +172,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-008",
-
+        skillId: "bronzeAge",
         question: "What material became more common during the Bronze Age?",
 
         options: [
@@ -194,7 +194,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-009",
-
+        skillId: "bronzeAge",
         question: "Which of these might a Bronze Age craftsperson make?",
 
         options: [
@@ -216,7 +216,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-010",
-
+        skillId: "bronzeAge",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-011",
-
+        skillId: "bronzeAge",
         question: "Why was bronze useful for making tools?",
 
         options: [
@@ -260,7 +260,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-012",
-
+        skillId: "bronzeAge",
         question: "Why was farming important during the Bronze Age?",
 
         options: [
@@ -282,7 +282,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-013",
-
+        skillId: "bronzeAge",
         question: "Why did people trade with other groups?",
 
         options: [
@@ -304,7 +304,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-014",
-
+        skillId: "bronzeAge",
         question: "How did bronze improve everyday life?",
 
         options: [
@@ -326,7 +326,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-015",
-
+        skillId: "bronzeAge",
         question: "Which activity became more common as farming developed?",
 
         options: [
@@ -348,7 +348,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-016",
-
+        skillId: "bronzeAge",
         question: "Why might a farmer keep sheep?",
 
         options: [
@@ -370,7 +370,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-017",
-
+        skillId: "bronzeAge",
         question: "What does the word 'alloy' mean?",
 
         options: [
@@ -392,7 +392,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-018",
-
+        skillId: "bronzeAge",
         question: "Why is the Bronze Age an important period in history?",
 
         options: [
@@ -414,7 +414,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-019",
-
+        skillId: "bronzeAge",
         question: "Which object would most likely belong to the Bronze Age?",
 
         options: [
@@ -436,7 +436,7 @@ export const bronzeAge: SkillContent = {
 
     {
         id: "hist-bronze-020",
-
+        skillId: "bronzeAge",
         question: "Which sentence best describes the Bronze Age?",
 
         options: [

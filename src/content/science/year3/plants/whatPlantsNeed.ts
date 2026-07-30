@@ -18,7 +18,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-001",
-
+        skillId: "what-plants-need",
         question: "Which of these do plants need to grow?",
 
         options: [
@@ -44,7 +44,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-002",
-
+        skillId: "what-plants-need",
         question: "Which of these do plants need to make food?",
 
         options: [
@@ -70,7 +70,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-003",
-
+        skillId: "what-plants-need",
         question: "Where do plants usually get water from?",
 
         options: [
@@ -97,7 +97,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-004",
-
+        skillId: "what-plants-need",
         question: "Which gas do plants need from the air?",
 
         options: [
@@ -123,7 +123,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-005",
-
+        skillId: "what-plants-need",
         question: "Which part of the plant uses sunlight to make food?",
 
         options: [
@@ -149,7 +149,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-006",
-
+        skillId: "what-plants-need",
         question: "What happens if a plant does not get enough water?",
 
         options: [
@@ -175,7 +175,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-007",
-
+        skillId: "what-plants-need",
         question: "Why do plants need sunlight?",
 
         options: [
@@ -201,7 +201,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-008",
-
+        skillId: "what-plants-need",
         question: "Plants need air because it contains...",
 
         options: [
@@ -227,7 +227,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-009",
-
+        skillId: "what-plants-need",
         question: "Which of these helps a plant stay healthy?",
 
         options: [
@@ -252,7 +252,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-010",
-
+        skillId: "what-plants-need",
         question: "What do roots absorb from the soil?",
 
         options: [
@@ -278,7 +278,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-011",
-
+        skillId: "what-plants-need",
         question: "A plant is kept in a dark cupboard for many weeks. What is most likely to happen?",
 
         options: [
@@ -304,7 +304,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-012",
-
+        skillId: "what-plants-need",
         question: "A plant has plenty of sunlight but no water. What will probably happen?",
 
         options: [
@@ -330,7 +330,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-013",
-
+        skillId: "what-plants-need",
         question: "Which of these is NOT something plants need to grow?",
 
         options: [
@@ -355,7 +355,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-014",
-
+        skillId: "what-plants-need",
         question: "Why do roots need to grow into the soil?",
 
         options: [
@@ -381,7 +381,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-015",
-
+        skillId: "what-plants-need",
         question: "Which sentence is correct?",
 
         options: [
@@ -405,8 +405,8 @@ export const whatPlantsNeed: SkillContent = {
     },
         {
         id: "sci-plants-need-016",
-
-        question: "Which gas do plants take in from the air to help make food?",
+            skillId: "what-plants-need",
+            question: "Which gas do plants take in from the air to help make food?",
 
         options: [
             "Carbon dioxide",
@@ -432,7 +432,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-017",
-
+        skillId: "what-plants-need",
         question: "What gives a plant the energy it needs to make food?",
 
         options: [
@@ -458,7 +458,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-018",
-
+        skillId: "what-plants-need",
         question: "Where do plants get most of their minerals?",
 
         options: [
@@ -485,7 +485,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-019",
-
+        skillId: "what-plants-need",
         question: "Which part of the plant absorbs water from the soil?",
 
         options: [
@@ -511,7 +511,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-020",
-
+        skillId: "what-plants-need",
         question: "Which part of the plant uses sunlight to make food?",
 
         options: [
@@ -537,7 +537,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-021",
-
+        skillId: "what-plants-need",
         question: "Emma waters her plant every day but keeps it in a dark cupboard. What will probably happen?",
 
         options: [
@@ -563,7 +563,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-022",
-
+        skillId: "what-plants-need",
         question: "Jack puts a plant in a sunny place but never waters it. What will probably happen?",
 
         options: [
@@ -589,7 +589,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-023",
-
+        skillId: "what-plants-need",
         question: "Which combination gives a plant the best chance of growing well?",
 
         options: [
@@ -614,7 +614,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-024",
-
+        skillId: "what-plants-need",
         question: "Why is air important for plants?",
 
         options: [
@@ -640,7 +640,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-025",
-
+        skillId: "what-plants-need",
         question: "Which statement is true?",
 
         options: [
@@ -666,7 +666,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-026",
-
+        skillId: "what-plants-need",
         question: "A healthy plant needs nutrients. Where do these usually come from?",
 
         options: [
@@ -693,7 +693,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-027",
-
+        skillId: "what-plants-need",
         question: "Why do plants need water?",
 
         options: [
@@ -719,7 +719,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-028",
-
+        skillId: "what-plants-need",
         question: "Which of these would most likely stop a plant growing well?",
 
         options: [
@@ -745,7 +745,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-029",
-
+        skillId: "what-plants-need",
         question: "Which sentence is correct?",
 
         options: [
@@ -771,7 +771,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-030",
-
+        skillId: "what-plants-need",
         question: "Which statement best explains why plants need roots?",
 
         options: [
@@ -797,8 +797,8 @@ export const whatPlantsNeed: SkillContent = {
     },
         {
         id: "sci-plants-need-031",
-
-        question: "Which of these helps a plant make its own food?",
+            skillId: "what-plants-need",
+            question: "Which of these helps a plant make its own food?",
 
         options: [
             "Sunlight",
@@ -823,7 +823,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-032",
-
+        skillId: "what-plants-need",
         question: "Which of these does a healthy plant need from the soil?",
 
         options: [
@@ -850,7 +850,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-033",
-
+        skillId: "what-plants-need",
         question: "A plant has water and air but no sunlight. What is most likely to happen?",
 
         options: [
@@ -876,7 +876,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-034",
-
+        skillId: "what-plants-need",
         question: "Why do plants need minerals from the soil?",
 
         options: [
@@ -902,7 +902,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-035",
-
+        skillId: "what-plants-need",
         question: "Which plant part takes in most of the water a plant needs?",
 
         options: [
@@ -928,7 +928,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-036",
-
+        skillId: "what-plants-need",
         question: "Which statement is true?",
 
         options: [
@@ -954,7 +954,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-037",
-
+        skillId: "what-plants-need",
         question: "What happens inside the leaves when a plant has sunlight, water and carbon dioxide?",
 
         options: [
@@ -981,7 +981,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-038",
-
+        skillId: "what-plants-need",
         question: "Which plant would probably grow the healthiest?",
 
         options: [
@@ -1006,7 +1006,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-039",
-
+        skillId: "what-plants-need",
         question: "Which sentence best explains why sunlight is important?",
 
         options: [
@@ -1033,7 +1033,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-040",
-
+        skillId: "what-plants-need",
         question: "Which statement is correct?",
 
         options: [
@@ -1059,7 +1059,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-041",
-
+        skillId: "what-plants-need",
         question: "Which statement about healthy plants is true?",
 
         options: [
@@ -1084,7 +1084,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-042",
-
+        skillId: "what-plants-need",
         question: "Lily forgets to water her sunflower for two weeks. What is the most likely result?",
 
         options: [
@@ -1110,7 +1110,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-043",
-
+        skillId: "what-plants-need",
         question: "Which of these does NOT help a plant grow?",
 
         options: [
@@ -1135,7 +1135,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-044",
-
+        skillId: "what-plants-need",
         question: "A plant has water, sunlight and minerals but no air. What will happen?",
 
         options: [
@@ -1161,7 +1161,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-045",
-
+        skillId: "what-plants-need",
         question: "Which list contains everything a healthy plant needs?",
 
         options: [
@@ -1185,8 +1185,8 @@ export const whatPlantsNeed: SkillContent = {
     },
         {
         id: "sci-plants-need-046",
-
-        question: "A plant has sunlight, water and air but no nutrients in the soil. What is most likely to happen?",
+            skillId: "what-plants-need",
+            question: "A plant has sunlight, water and air but no nutrients in the soil. What is most likely to happen?",
 
         options: [
             "It may not grow well.",
@@ -1212,7 +1212,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-047",
-
+        skillId: "what-plants-need",
         question: "Which is the best explanation of why plants need sunlight?",
 
         options: [
@@ -1239,7 +1239,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-048",
-
+        skillId: "what-plants-need",
         question: "What is the best reason that plants need water?",
 
         options: [
@@ -1265,7 +1265,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-049",
-
+        skillId: "what-plants-need",
         question: "Which statement best explains why plants need carbon dioxide?",
 
         options: [
@@ -1292,7 +1292,7 @@ export const whatPlantsNeed: SkillContent = {
 
     {
         id: "sci-plants-need-050",
-
+        skillId: "what-plants-need",
         question: "Which summary best describes everything a healthy plant needs?",
 
         options: [

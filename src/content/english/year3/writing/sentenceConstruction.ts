@@ -18,7 +18,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-001",
-
+        skillId: "sentenceConstruction",
         question:
             "Which is a complete sentence?",
 
@@ -41,7 +41,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-002",
-
+        skillId: "sentenceConstruction",
         question:
             "What does every complete sentence need?",
 
@@ -64,7 +64,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-003",
-
+        skillId: "sentenceConstruction",
         question:
             "Which word is the subject in this sentence?\n\nThe rabbit jumped over the log.",
 
@@ -87,7 +87,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-004",
-
+        skillId: "sentenceConstruction",
         question:
             "Which word is the verb in this sentence?\n\nThe rabbit jumped over the log.",
 
@@ -110,7 +110,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-005",
-
+        skillId: "sentenceConstruction",
         question:
             "Which sentence is written correctly?",
 
@@ -133,7 +133,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-006",
-
+        skillId: "sentenceConstruction",
         question:
             "Which is a sentence fragment?",
 
@@ -156,7 +156,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-007",
-
+        skillId: "sentenceConstruction",
         question:
             "Choose the best way to complete the sentence:\n\nThe children ______ in the garden.",
 
@@ -179,7 +179,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-008",
-
+        skillId: "sentenceConstruction",
         question:
             "Which sentence has a clear subject?",
 
@@ -202,7 +202,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-009",
-
+        skillId: "sentenceConstruction",
         question:
             "Which sentence has a verb?",
 
@@ -225,7 +225,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-010",
-
+        skillId: "sentenceConstruction",
         question:
             "Why do writers need complete sentences?",
 
@@ -248,7 +248,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-011",
-
+        skillId: "sentenceConstruction",
         question:
             "Which sentence is the strongest?",
 
@@ -271,7 +271,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-012",
-
+        skillId: "sentenceConstruction",
         question:
             "Improve this sentence:\n\nThe boy ran.",
 
@@ -294,7 +294,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-013",
-
+        skillId: "sentenceConstruction",
         question:
             "Which sentence uses the correct word order?",
 
@@ -317,7 +317,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-014",
-
+        skillId: "sentenceConstruction",
         question:
             "Choose the complete sentence.",
 
@@ -340,7 +340,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-015",
-
+        skillId: "sentenceConstruction",
         question:
             "Which sentence has the correct punctuation?",
 
@@ -363,7 +363,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-016",
-
+        skillId: "sentenceConstruction",
         question:
             "Which sentence is a command?",
 
@@ -386,7 +386,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-017",
-
+        skillId: "sentenceConstruction",
         question:
             "Which sentence uses the correct tense?",
 
@@ -409,7 +409,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-018",
-
+        skillId: "sentenceConstruction",
         question:
             "What makes a sentence easier to understand?",
 
@@ -432,7 +432,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-019",
-
+        skillId: "sentenceConstruction",
         question:
             "Which sentence contains both a subject and a verb?",
 
@@ -455,7 +455,7 @@ export const sentenceConstruction: SkillContent = {
 
     {
         id: "eng-sc-020",
-
+        skillId: "sentenceConstruction",
         question:
             "Before finishing a piece of writing, you should check that:",
 

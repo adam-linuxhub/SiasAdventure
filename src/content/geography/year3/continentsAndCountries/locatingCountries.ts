@@ -18,7 +18,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-001",
-
+        skillId: "locatingCountries",
         question:
             "What is a country?",
 
@@ -41,7 +41,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-002",
-
+        skillId: "locatingCountries",
         question:
             "What do borders show on a map?",
 
@@ -64,7 +64,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-003",
-
+        skillId: "locatingCountries",
         question:
             "What can we use to find where a country is located?",
 
@@ -87,7 +87,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-004",
-
+        skillId: "locatingCountries",
         question:
             "What is the equator?",
 
@@ -110,7 +110,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-005",
-
+        skillId: "locatingCountries",
         question:
             "What are the two halves of Earth divided by the equator called?",
 
@@ -133,7 +133,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-006",
-
+        skillId: "locatingCountries",
         question:
             "Which hemisphere is the UK in?",
 
@@ -156,7 +156,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-007",
-
+        skillId: "locatingCountries",
         question:
             "Which continent is Brazil located in?",
 
@@ -179,7 +179,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-008",
-
+        skillId: "locatingCountries",
         question:
             "Which continent is Japan located in?",
 
@@ -202,7 +202,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-009",
-
+        skillId: "locatingCountries",
         question:
             "Which continent is Kenya located in?",
 
@@ -225,7 +225,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-010",
-
+        skillId: "locatingCountries",
         question:
             "Which continent is Canada located in?",
 
@@ -248,7 +248,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-011",
-
+        skillId: "locatingCountries",
         question:
             "What is an atlas?",
 
@@ -271,7 +271,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-012",
-
+        skillId: "locatingCountries",
         question:
             "What does a political map show?",
 
@@ -294,7 +294,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-013",
-
+        skillId: "locatingCountries",
         question:
             "What does a physical map show?",
 
@@ -317,7 +317,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-014",
-
+        skillId: "locatingCountries",
         question:
             "Why are grid references used on maps?",
 
@@ -340,7 +340,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-015",
-
+        skillId: "locatingCountries",
         question:
             "What is a capital city?",
 
@@ -363,7 +363,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-016",
-
+        skillId: "locatingCountries",
         question:
             "What is the capital city of the UK?",
 
@@ -386,7 +386,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-017",
-
+        skillId: "locatingCountries",
         question:
             "Why do geographers locate countries?",
 
@@ -409,7 +409,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-018",
-
+        skillId: "locatingCountries",
         question:
             "Which tool helps show direction on Earth?",
 
@@ -432,7 +432,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-019",
-
+        skillId: "locatingCountries",
         question:
             "Why do countries have different climates?",
 
@@ -455,7 +455,7 @@ export const locatingCountries: SkillContent = {
 
     {
         id: "geo-lc-020",
-
+        skillId: "locatingCountries",
         question:
             "Which sentence best describes locating countries?",
 

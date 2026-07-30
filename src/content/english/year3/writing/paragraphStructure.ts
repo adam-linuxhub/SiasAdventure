@@ -18,7 +18,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-001",
-
+        skillId: "paragraphStructure",
         question:
             "What is a paragraph?",
 
@@ -41,7 +41,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-002",
-
+        skillId: "paragraphStructure",
         question:
             "Why do writers use paragraphs?",
 
@@ -64,7 +64,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-003",
-
+        skillId: "paragraphStructure",
         question:
             "Which sentence could be the topic sentence of a paragraph about pets?",
 
@@ -87,7 +87,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-004",
-
+        skillId: "paragraphStructure",
         question:
             "What should sentences in the same paragraph usually do?",
 
@@ -110,7 +110,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-005",
-
+        skillId: "paragraphStructure",
         question:
             "Which group of sentences makes the best paragraph?",
 
@@ -133,7 +133,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-006",
-
+        skillId: "paragraphStructure",
         question:
             "Where does a new paragraph usually begin?",
 
@@ -156,7 +156,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-007",
-
+        skillId: "paragraphStructure",
         question:
             "Which sentence would fit in a paragraph about a school trip?",
 
@@ -179,7 +179,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-008",
-
+        skillId: "paragraphStructure",
         question:
             "What is the purpose of a topic sentence?",
 
@@ -202,7 +202,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-009",
-
+        skillId: "paragraphStructure",
         question:
             "A paragraph about animals should mostly include:",
 
@@ -225,7 +225,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-010",
-
+        skillId: "paragraphStructure",
         question:
             "Why are paragraphs helpful for readers?",
 
@@ -248,7 +248,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-011",
-
+        skillId: "paragraphStructure",
         question:
             "Which sentence would NOT belong in a paragraph about football?",
 
@@ -271,7 +271,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-012",
-
+        skillId: "paragraphStructure",
         question:
             "Put these ideas in the best order:\n\nA. The plants grew taller.\nB. I planted seeds.\nC. I watered them every day.",
 
@@ -294,7 +294,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-013",
-
+        skillId: "paragraphStructure",
         question:
             "Which sentence would make a good ending to a paragraph about friendship?",
 
@@ -317,7 +317,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-014",
-
+        skillId: "paragraphStructure",
         question:
             "Which words can help connect ideas in writing?",
 
@@ -340,7 +340,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-015",
-
+        skillId: "paragraphStructure",
         question:
             "A new paragraph is often needed when:",
 
@@ -363,7 +363,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-016",
-
+        skillId: "paragraphStructure",
         question:
             "Which is the best structure for a simple story?",
 
@@ -386,7 +386,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-017",
-
+        skillId: "paragraphStructure",
         question:
             "Why should paragraphs contain related ideas?",
 
@@ -409,7 +409,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-018",
-
+        skillId: "paragraphStructure",
         question:
             "Which paragraph would be easiest to read?",
 
@@ -432,7 +432,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-019",
-
+        skillId: "paragraphStructure",
         question:
             "What should supporting sentences do?",
 
@@ -455,7 +455,7 @@ export const paragraphStructure: SkillContent = {
 
     {
         id: "eng-ps-020",
-
+        skillId: "paragraphStructure",
         question:
             "Good paragraph structure helps writers:",
 

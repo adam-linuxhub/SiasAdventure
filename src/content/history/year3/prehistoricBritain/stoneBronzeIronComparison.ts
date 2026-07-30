@@ -18,7 +18,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-001",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Which Age came first?",
 
         options: [
@@ -40,7 +40,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-002",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Which Age came after the Stone Age?",
 
         options: [
@@ -62,7 +62,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-003",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Which Age came after the Bronze Age?",
 
         options: [
@@ -84,7 +84,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-004",
-
+        skillId: "stoneBronzeIronComparison",
         question: "What material gave the Stone Age its name?",
 
         options: [
@@ -106,7 +106,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-005",
-
+        skillId: "stoneBronzeIronComparison",
         question: "What material gave the Bronze Age its name?",
 
         options: [
@@ -128,7 +128,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-006",
-
+        skillId: "stoneBronzeIronComparison",
         question: "What material gave the Iron Age its name?",
 
         options: [
@@ -150,7 +150,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-007",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Which Age used the oldest tools?",
 
         options: [
@@ -172,7 +172,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-008",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Which metal was usually stronger than bronze?",
 
         options: [
@@ -194,7 +194,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-009",
-
+        skillId: "stoneBronzeIronComparison",
         question: "During which Age were hill forts common?",
 
         options: [
@@ -216,7 +216,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-010",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-011",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Why was bronze an improvement over stone?",
 
         options: [
@@ -260,7 +260,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-012",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Why was iron an improvement over bronze?",
 
         options: [
@@ -282,7 +282,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-013",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Which timeline is correct?",
 
         options: [
@@ -304,7 +304,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-014",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Which Age is most closely linked with Celtic tribes and hill forts?",
 
         options: [
@@ -326,7 +326,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-015",
-
+        skillId: "stoneBronzeIronComparison",
         question: "How did life change from the Stone Age to the Bronze Age?",
 
         options: [
@@ -348,7 +348,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-016",
-
+        skillId: "stoneBronzeIronComparison",
         question: "How did life change from the Bronze Age to the Iron Age?",
 
         options: [
@@ -370,7 +370,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-017",
-
+        skillId: "stoneBronzeIronComparison",
         question: "What stayed the same throughout all three Ages?",
 
         options: [
@@ -392,7 +392,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-018",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Why do historians divide prehistory into different Ages?",
 
         options: [
@@ -414,7 +414,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-019",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Which set is in the correct order from oldest to newest?",
 
         options: [
@@ -436,7 +436,7 @@ export const stoneBronzeIronComparison: SkillContent = {
 
     {
         id: "hist-compare-020",
-
+        skillId: "stoneBronzeIronComparison",
         question: "Which sentence best describes the Stone, Bronze and Iron Ages?",
 
         options: [

@@ -18,7 +18,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-001",
-
+        skillId: "storyWriting",
         question:
             "What are the main parts of a story?",
 
@@ -41,7 +41,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-002",
-
+        skillId: "storyWriting",
         question:
             "What is a character in a story?",
 
@@ -64,7 +64,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-003",
-
+        skillId: "storyWriting",
         question:
             "What is the setting of a story?",
 
@@ -87,7 +87,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-004",
-
+        skillId: "storyWriting",
         question:
             "What usually happens at the beginning of a story?",
 
@@ -110,7 +110,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-005",
-
+        skillId: "storyWriting",
         question:
             "Why do stories often have a problem?",
 
@@ -133,7 +133,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-006",
-
+        skillId: "storyWriting",
         question:
             "Which is a good story opening?",
 
@@ -156,7 +156,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-007",
-
+        skillId: "storyWriting",
         question:
             "What makes a character interesting?",
 
@@ -179,7 +179,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-008",
-
+        skillId: "storyWriting",
         question:
             "Which detail helps describe a setting?",
 
@@ -202,7 +202,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-009",
-
+        skillId: "storyWriting",
         question:
             "What should happen in the middle of a story?",
 
@@ -225,7 +225,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-010",
-
+        skillId: "storyWriting",
         question:
             "Why do writers plan stories before writing?",
 
@@ -248,7 +248,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-011",
-
+        skillId: "storyWriting",
         question:
             "Which sentence creates the best atmosphere?",
 
@@ -271,7 +271,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-012",
-
+        skillId: "storyWriting",
         question:
             "Which sentence shows a character's feelings?",
 
@@ -294,7 +294,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-013",
-
+        skillId: "storyWriting",
         question:
             "What is a resolution in a story?",
 
@@ -317,7 +317,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-014",
-
+        skillId: "storyWriting",
         question:
             "Which would improve a story?",
 
@@ -340,7 +340,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-015",
-
+        skillId: "storyWriting",
         question:
             "Which word helps show the order of events in a story?",
 
@@ -363,7 +363,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-016",
-
+        skillId: "storyWriting",
         question:
             "A strong story ending should:",
 
@@ -386,7 +386,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-017",
-
+        skillId: "storyWriting",
         question:
             "Which sentence uses imagination?",
 
@@ -409,7 +409,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-018",
-
+        skillId: "storyWriting",
         question:
             "Why do writers use dialogue in stories?",
 
@@ -432,7 +432,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-019",
-
+        skillId: "storyWriting",
         question:
             "Before writing a story, it is useful to decide:",
 
@@ -455,7 +455,7 @@ export const storyWriting: SkillContent = {
 
     {
         id: "eng-sw-020",
-
+        skillId: "storyWriting",
         question:
             "A successful story usually has:",
 

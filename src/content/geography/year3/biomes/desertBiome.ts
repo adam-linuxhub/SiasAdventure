@@ -18,7 +18,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-001",
-
+        skillId: "desertBiome",
         question:
             "What is a desert?",
 
@@ -41,7 +41,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-002",
-
+        skillId: "desertBiome",
         question:
             "What is the climate like in hot deserts?",
 
@@ -64,7 +64,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-003",
-
+        skillId: "desertBiome",
         question:
             "Which famous desert is in Africa?",
 
@@ -87,7 +87,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-004",
-
+        skillId: "desertBiome",
         question:
             "Why do deserts receive little rainfall?",
 
@@ -110,7 +110,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-005",
-
+        skillId: "desertBiome",
         question:
             "What is an oasis?",
 
@@ -133,7 +133,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-006",
-
+        skillId: "desertBiome",
         question:
             "Why are oases important?",
 
@@ -156,7 +156,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-007",
-
+        skillId: "desertBiome",
         question:
             "How do desert plants survive?",
 
@@ -179,7 +179,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-008",
-
+        skillId: "desertBiome",
         question:
             "How do some cacti survive in deserts?",
 
@@ -202,7 +202,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-009",
-
+        skillId: "desertBiome",
         question:
             "How do desert animals survive?",
 
@@ -225,7 +225,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-010",
-
+        skillId: "desertBiome",
         question:
             "Why are camels suited to desert life?",
 
@@ -248,7 +248,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-011",
-
+        skillId: "desertBiome",
         question:
             "What is a sand dune?",
 
@@ -271,7 +271,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-012",
-
+        skillId: "desertBiome",
         question:
             "What causes sand dunes to move?",
 
@@ -294,7 +294,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-013",
-
+        skillId: "desertBiome",
         question:
             "Why is farming difficult in deserts?",
 
@@ -317,7 +317,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-014",
-
+        skillId: "desertBiome",
         question:
             "How do some people live in deserts?",
 
@@ -340,7 +340,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-015",
-
+        skillId: "desertBiome",
         question:
             "What resource is especially important in deserts?",
 
@@ -363,7 +363,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-016",
-
+        skillId: "desertBiome",
         question:
             "Why do deserts have fewer plants than rainforests?",
 
@@ -386,7 +386,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-017",
-
+        skillId: "desertBiome",
         question:
             "What is desertification?",
 
@@ -409,7 +409,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-018",
-
+        skillId: "desertBiome",
         question:
             "Why should desert environments be protected?",
 
@@ -432,7 +432,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-019",
-
+        skillId: "desertBiome",
         question:
             "Which animal is adapted to desert conditions?",
 
@@ -455,7 +455,7 @@ export const desertBiome: SkillContent = {
 
     {
         id: "geo-db-020",
-
+        skillId: "desertBiome",
         question:
             "Which sentence best describes a desert biome?",
 

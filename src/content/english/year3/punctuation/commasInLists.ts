@@ -18,7 +18,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-001",
-
+        skillId: "commasInLists",
         question: "What are commas used for in a list?",
 
         options: [
@@ -40,7 +40,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-002",
-
+        skillId: "commasInLists",
         question: "Which sentence uses commas correctly?",
 
         options: [
@@ -62,7 +62,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-003",
-
+        skillId: "commasInLists",
         question: "Which sentence contains a list?",
 
         options: [
@@ -84,7 +84,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-004",
-
+        skillId: "commasInLists",
         question: "How many commas are needed? 'I bought apples bananas and pears.'",
 
         options: [
@@ -106,7 +106,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-005",
-
+        skillId: "commasInLists",
         question: "Which sentence is punctuated correctly?",
 
         options: [
@@ -128,7 +128,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-006",
-
+        skillId: "commasInLists",
         question: "Which punctuation mark separates items in a list?",
 
         options: [
@@ -150,7 +150,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-007",
-
+        skillId: "commasInLists",
         question: "Which sentence has a correctly punctuated list?",
 
         options: [
@@ -172,7 +172,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-008",
-
+        skillId: "commasInLists",
         question: "Which sentence contains three items in a list?",
 
         options: [
@@ -194,7 +194,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-009",
-
+        skillId: "commasInLists",
         question: "Which sentence does NOT need commas in a list?",
 
         options: [
@@ -216,7 +216,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-010",
-
+        skillId: "commasInLists",
         question: "Why do we use commas in lists?",
 
         options: [
@@ -238,7 +238,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-011",
-
+        skillId: "commasInLists",
         question: "Which sentence is punctuated correctly?",
 
         options: [
@@ -260,7 +260,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-012",
-
+        skillId: "commasInLists",
         question: "How many commas are needed? 'We visited France Spain Italy and Greece.'",
 
         options: [
@@ -282,7 +282,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-013",
-
+        skillId: "commasInLists",
         question: "Which sentence uses commas correctly?",
 
         options: [
@@ -304,7 +304,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-014",
-
+        skillId: "commasInLists",
         question: "Which sentence contains a correctly punctuated shopping list?",
 
         options: [
@@ -326,7 +326,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-015",
-
+        skillId: "commasInLists",
         question: "Which sentence is easiest to read?",
 
         options: [
@@ -348,7 +348,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-016",
-
+        skillId: "commasInLists",
         question: "How many items are in this list? 'Pens, pencils, rulers and rubbers.'",
 
         options: [
@@ -370,7 +370,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-017",
-
+        skillId: "commasInLists",
         question: "Which sentence needs commas added?",
 
         options: [
@@ -392,7 +392,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-018",
-
+        skillId: "commasInLists",
         question: "Why is the word 'and' used in a list?",
 
         options: [
@@ -414,7 +414,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-019",
-
+        skillId: "commasInLists",
         question: "Which list is punctuated correctly?",
 
         options: [
@@ -436,7 +436,7 @@ export const commasInLists: SkillContent = {
 
     {
         id: "eng-commalist-020",
-
+        skillId: "commasInLists",
         question: "What is the main purpose of commas in lists?",
 
         options: [

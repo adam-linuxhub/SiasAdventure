@@ -18,7 +18,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-001",
-
+        skillId: "kingdomsAndReligion",
         question:
             "What were Anglo-Saxon kingdoms?",
 
@@ -41,7 +41,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-002",
-
+        skillId: "kingdomsAndReligion",
         question:
             "What was the leader of an Anglo-Saxon kingdom called?",
 
@@ -64,7 +64,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-003",
-
+        skillId: "kingdomsAndReligion",
         question:
             "Which was an Anglo-Saxon kingdom?",
 
@@ -87,7 +87,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-004",
-
+        skillId: "kingdomsAndReligion",
         question:
             "Which other Anglo-Saxon kingdom existed?",
 
@@ -110,7 +110,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-005",
-
+        skillId: "kingdomsAndReligion",
         question:
             "What did Anglo-Saxon kings do?",
 
@@ -133,7 +133,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-006",
-
+        skillId: "kingdomsAndReligion",
         question:
             "What religion did many Anglo-Saxons follow at first?",
 
@@ -156,7 +156,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-007",
-
+        skillId: "kingdomsAndReligion",
         question:
             "What religion became important in Anglo-Saxon England?",
 
@@ -179,7 +179,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-008",
-
+        skillId: "kingdomsAndReligion",
         question:
             "Who helped spread Christianity in Anglo-Saxon England?",
 
@@ -202,7 +202,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-009",
-
+        skillId: "kingdomsAndReligion",
         question:
             "What was a monastery?",
 
@@ -225,7 +225,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-010",
-
+        skillId: "kingdomsAndReligion",
         question:
             "Why were monasteries important?",
 
@@ -248,7 +248,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-011",
-
+        skillId: "kingdomsAndReligion",
         question:
             "Who was Alfred the Great?",
 
@@ -271,7 +271,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-012",
-
+        skillId: "kingdomsAndReligion",
         question:
             "Why is Alfred the Great remembered?",
 
@@ -294,7 +294,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-013",
-
+        skillId: "kingdomsAndReligion",
         question:
             "What did monks often do?",
 
@@ -317,7 +317,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-014",
-
+        skillId: "kingdomsAndReligion",
         question:
             "Why are written records important to historians?",
 
@@ -340,7 +340,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-015",
-
+        skillId: "kingdomsAndReligion",
         question:
             "What happened when Christianity spread?",
 
@@ -363,7 +363,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-016",
-
+        skillId: "kingdomsAndReligion",
         question:
             "Why were kings important in Anglo-Saxon society?",
 
@@ -386,7 +386,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-017",
-
+        skillId: "kingdomsAndReligion",
         question:
             "What evidence can tell us about Anglo-Saxon religion?",
 
@@ -409,7 +409,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-018",
-
+        skillId: "kingdomsAndReligion",
         question:
             "What was one role of monasteries?",
 
@@ -432,7 +432,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-019",
-
+        skillId: "kingdomsAndReligion",
         question:
             "Why do we study Anglo-Saxon kingdoms?",
 
@@ -455,7 +455,7 @@ export const kingdomsAndReligion: SkillContent = {
 
     {
         id: "hist-asr-020",
-
+        skillId: "kingdomsAndReligion",
         question:
             "Which sentence best describes Anglo-Saxon kingdoms and religion?",
 

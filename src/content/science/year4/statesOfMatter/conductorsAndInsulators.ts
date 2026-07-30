@@ -18,7 +18,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-001",
-
+        skillId: "conductorsAndInsulators",
         question: "What is a conductor?",
 
         options: [
@@ -40,7 +40,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-002",
-
+        skillId: "conductorsAndInsulators",
         question: "What is an insulator?",
 
         options: [
@@ -62,7 +62,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-003",
-
+        skillId: "conductorsAndInsulators",
         question: "Which material is a good electrical conductor?",
 
         options: [
@@ -84,7 +84,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-004",
-
+        skillId: "conductorsAndInsulators",
         question: "Which material is an insulator?",
 
         options: [
@@ -106,7 +106,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-005",
-
+        skillId: "conductorsAndInsulators",
         question: "Most metals are...",
 
         options: [
@@ -128,7 +128,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-006",
-
+        skillId: "conductorsAndInsulators",
         question: "Why are electrical wires usually made from copper?",
 
         options: [
@@ -150,7 +150,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-007",
-
+        skillId: "conductorsAndInsulators",
         question: "What covers many electrical wires to help keep people safe?",
 
         options: [
@@ -172,7 +172,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-008",
-
+        skillId: "conductorsAndInsulators",
         question: "Which of these is made from metal?",
 
         options: [
@@ -194,7 +194,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-009",
-
+        skillId: "conductorsAndInsulators",
         question: "Which material is least likely to conduct electricity?",
 
         options: [
@@ -216,7 +216,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-010",
-
+        skillId: "conductorsAndInsulators",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-011",
-
+        skillId: "conductorsAndInsulators",
         question: "Why is plastic used to cover electrical wires?",
 
         options: [
@@ -260,7 +260,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-012",
-
+        skillId: "conductorsAndInsulators",
         question: "Which pair contains two conductors?",
 
         options: [
@@ -282,7 +282,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-013",
-
+        skillId: "conductorsAndInsulators",
         question: "Which pair contains two insulators?",
 
         options: [
@@ -304,7 +304,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-014",
-
+        skillId: "conductorsAndInsulators",
         question: "Why are metals commonly used inside electrical cables?",
 
         options: [
@@ -326,7 +326,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-015",
-
+        skillId: "conductorsAndInsulators",
         question: "Which material would be safest for the handle of an electrical tool?",
 
         options: [
@@ -348,7 +348,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-016",
-
+        skillId: "conductorsAndInsulators",
         question: "Why would a plastic spoon not complete an electrical circuit?",
 
         options: [
@@ -370,7 +370,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-017",
-
+        skillId: "conductorsAndInsulators",
         question: "Which object would most likely complete a simple circuit?",
 
         options: [
@@ -392,7 +392,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-018",
-
+        skillId: "conductorsAndInsulators",
         question: "Why are rubber gloves sometimes used when working with electricity?",
 
         options: [
@@ -414,7 +414,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-019",
-
+        skillId: "conductorsAndInsulators",
         question: "What do conductors and insulators have in common?",
 
         options: [
@@ -436,7 +436,7 @@ export const conductorsAndInsulators: SkillContent = {
 
     {
         id: "sci-conductors-020",
-
+        skillId: "conductorsAndInsulators",
         question: "Which sentence best describes conductors and insulators?",
 
         options: [

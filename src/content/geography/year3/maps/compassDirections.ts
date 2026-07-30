@@ -18,7 +18,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-001",
-
+        skillId: "compassDirections",
         question: "Which direction is at the top of most maps?",
 
         options: [
@@ -40,7 +40,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-002",
-
+        skillId: "compassDirections",
         question: "Which direction is opposite north?",
 
         options: [
@@ -62,7 +62,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-003",
-
+        skillId: "compassDirections",
         question: "Which direction is opposite east?",
 
         options: [
@@ -84,7 +84,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-004",
-
+        skillId: "compassDirections",
         question: "Which direction is to the right of north on most maps?",
 
         options: [
@@ -106,7 +106,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-005",
-
+        skillId: "compassDirections",
         question: "Which direction is to the left of north on most maps?",
 
         options: [
@@ -128,7 +128,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-006",
-
+        skillId: "compassDirections",
         question: "How many main compass directions are there?",
 
         options: [
@@ -150,7 +150,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-007",
-
+        skillId: "compassDirections",
         question: "Which direction comes after north when moving clockwise around a compass?",
 
         options: [
@@ -172,7 +172,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-008",
-
+        skillId: "compassDirections",
         question: "Which tool helps people find directions?",
 
         options: [
@@ -194,7 +194,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-009",
-
+        skillId: "compassDirections",
         question: "If you travel south, which direction are you moving?",
 
         options: [
@@ -216,7 +216,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-010",
-
+        skillId: "compassDirections",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-011",
-
+        skillId: "compassDirections",
         question: "If your school is east of your home, which direction would you travel to get there?",
 
         options: [
@@ -260,7 +260,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-012",
-
+        skillId: "compassDirections",
         question: "A park is north of a library. Where is the library compared with the park?",
 
         options: [
@@ -282,7 +282,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-013",
-
+        skillId: "compassDirections",
         question: "Why do maps often include a compass?",
 
         options: [
@@ -304,7 +304,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-014",
-
+        skillId: "compassDirections",
         question: "If you walk west and then turn around, which direction are you now facing?",
 
         options: [
@@ -326,7 +326,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-015",
-
+        skillId: "compassDirections",
         question: "Why are compass directions useful?",
 
         options: [
@@ -348,7 +348,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-016",
-
+        skillId: "compassDirections",
         question: "Which order is correct when moving clockwise around a compass?",
 
         options: [
@@ -370,7 +370,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-017",
-
+        skillId: "compassDirections",
         question: "If a river is west of a village, where is the village compared with the river?",
 
         options: [
@@ -392,7 +392,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-018",
-
+        skillId: "compassDirections",
         question: "Which direction would you travel if your destination is directly below you on a map?",
 
         options: [
@@ -414,7 +414,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-019",
-
+        skillId: "compassDirections",
         question: "Why should you know which way north is on a map?",
 
         options: [
@@ -436,7 +436,7 @@ export const compassDirections: SkillContent = {
 
     {
         id: "geo-compass-020",
-
+        skillId: "compassDirections",
         question: "Which sentence best describes compass directions?",
 
         options: [

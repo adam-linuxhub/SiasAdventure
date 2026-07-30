@@ -18,7 +18,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-001",
-
+        skillId: "skeletons",
         question: "What is a skeleton?",
 
         options: [
@@ -44,7 +44,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-002",
-
+        skillId: "skeletons",
         question: "What is one main job of a skeleton?",
 
         options: [
@@ -71,7 +71,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-003",
-
+        skillId: "skeletons",
         question: "Which part of your body is protected by the skull?",
 
         options: [
@@ -98,7 +98,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-004",
-
+        skillId: "skeletons",
         question: "Which body part helps protect your heart and lungs?",
 
         options: [
@@ -125,7 +125,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-005",
-
+        skillId: "skeletons",
         question: "Why do humans need a skeleton?",
 
         options: [
@@ -151,7 +151,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-006",
-
+        skillId: "skeletons",
         question: "Which of these animals has a skeleton inside its body?",
 
         options: [
@@ -177,7 +177,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-007",
-
+        skillId: "skeletons",
         question: "What would happen if people had no skeleton?",
 
         options: [
@@ -204,7 +204,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-008",
-
+        skillId: "skeletons",
         question: "Which part of the skeleton protects the brain?",
 
         options: [
@@ -231,7 +231,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-009",
-
+        skillId: "skeletons",
         question: "Which statement is true?",
 
         options: [
@@ -258,7 +258,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-010",
-
+        skillId: "skeletons",
         question: "Which list gives three important jobs of a skeleton?",
 
         options: [
@@ -286,8 +286,8 @@ export const skeletons: SkillContent = {
     },
         {
         id: "sci-skeletons-011",
-
-        question: "What gives your body its shape?",
+            skillId: "skeletons",
+            question: "What gives your body its shape?",
 
         options: [
             "Your skeleton",
@@ -313,7 +313,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-012",
-
+        skillId: "skeletons",
         question: "Which part of the skeleton protects the heart?",
 
         options: [
@@ -340,7 +340,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-013",
-
+        skillId: "skeletons",
         question: "How does the skeleton help you move?",
 
         options: [
@@ -368,7 +368,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-014",
-
+        skillId: "skeletons",
         question: "Which body part is protected by the rib cage?",
 
         options: [
@@ -395,7 +395,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-015",
-
+        skillId: "skeletons",
         question: "Which animal has an internal skeleton like a human?",
 
         options: [
@@ -422,7 +422,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-016",
-
+        skillId: "skeletons",
         question: "Why is the skull made of strong bone?",
 
         options: [
@@ -449,7 +449,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-017",
-
+        skillId: "skeletons",
         question: "Which body part is NOT protected by the skull?",
 
         options: [
@@ -476,7 +476,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-018",
-
+        skillId: "skeletons",
         question: "What would happen if your skeleton could not support your body?",
 
         options: [
@@ -503,7 +503,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-019",
-
+        skillId: "skeletons",
         question: "Which statement about skeletons is correct?",
 
         options: [
@@ -531,7 +531,7 @@ export const skeletons: SkillContent = {
 
     {
         id: "sci-skeletons-020",
-
+        skillId: "skeletons",
         question: "Which sentence best describes the purpose of a skeleton?",
 
         options: [

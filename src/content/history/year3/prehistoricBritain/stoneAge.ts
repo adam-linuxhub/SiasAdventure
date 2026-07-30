@@ -18,7 +18,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-001",
-
+        skillId: "stoneAge",
         question: "Why is it called the Stone Age?",
 
         options: [
@@ -40,7 +40,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-002",
-
+        skillId: "stoneAge",
         question: "What material was commonly used to make tools during the Stone Age?",
 
         options: [
@@ -62,7 +62,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-003",
-
+        skillId: "stoneAge",
         question: "Which country are we learning about during the Stone Age?",
 
         options: [
@@ -84,7 +84,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-004",
-
+        skillId: "stoneAge",
         question: "Where did many early Stone Age people live?",
 
         options: [
@@ -106,7 +106,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-005",
-
+        skillId: "stoneAge",
         question: "What did Stone Age people hunt for food?",
 
         options: [
@@ -128,7 +128,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-006",
-
+        skillId: "stoneAge",
         question: "Besides hunting, how else did Stone Age people find food?",
 
         options: [
@@ -150,7 +150,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-007",
-
+        skillId: "stoneAge",
         question: "Which of these was NOT around during the Stone Age?",
 
         options: [
@@ -172,7 +172,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-008",
-
+        skillId: "stoneAge",
         question: "Why was fire important to Stone Age people?",
 
         options: [
@@ -194,7 +194,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-009",
-
+        skillId: "stoneAge",
         question: "What kind of clothes did many Stone Age people wear?",
 
         options: [
@@ -216,7 +216,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-010",
-
+        skillId: "stoneAge",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-011",
-
+        skillId: "stoneAge",
         question: "Why did Stone Age people make tools from stone?",
 
         options: [
@@ -260,7 +260,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-012",
-
+        skillId: "stoneAge",
         question: "Why was hunting important?",
 
         options: [
@@ -282,7 +282,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-013",
-
+        skillId: "stoneAge",
         question: "Why was gathering berries and nuts useful?",
 
         options: [
@@ -304,7 +304,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-014",
-
+        skillId: "stoneAge",
         question: "Why did people use caves for shelter?",
 
         options: [
@@ -326,7 +326,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-015",
-
+        skillId: "stoneAge",
         question: "How did fire improve everyday life?",
 
         options: [
@@ -348,7 +348,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-016",
-
+        skillId: "stoneAge",
         question: "Which activity would a Stone Age child most likely do?",
 
         options: [
@@ -370,7 +370,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-017",
-
+        skillId: "stoneAge",
         question: "Why do historians study Stone Age tools?",
 
         options: [
@@ -392,7 +392,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-018",
-
+        skillId: "stoneAge",
         question: "What changed when people learned to control fire?",
 
         options: [
@@ -414,7 +414,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-019",
-
+        skillId: "stoneAge",
         question: "Which item would you expect to find in a Stone Age settlement?",
 
         options: [
@@ -436,7 +436,7 @@ export const stoneAge: SkillContent = {
 
     {
         id: "hist-stoneage-020",
-
+        skillId: "stoneAge",
         question: "Which sentence best describes life in the Stone Age?",
 
         options: [

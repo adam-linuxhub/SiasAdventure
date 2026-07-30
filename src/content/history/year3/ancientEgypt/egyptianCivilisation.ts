@@ -18,7 +18,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-001",
-
+        skillId: "egyptianCivilisation",
         question:
             "Where was the Ancient Egyptian civilisation located?",
 
@@ -41,7 +41,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-002",
-
+        skillId: "egyptianCivilisation",
         question:
             "Which river was important to Ancient Egypt?",
 
@@ -64,7 +64,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-003",
-
+        skillId: "egyptianCivilisation",
         question:
             "Why was the River Nile important?",
 
@@ -87,7 +87,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-004",
-
+        skillId: "egyptianCivilisation",
         question:
             "What does the word 'civilisation' mean?",
 
@@ -110,7 +110,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-005",
-
+        skillId: "egyptianCivilisation",
         question:
             "Ancient Egypt developed around which natural feature?",
 
@@ -133,7 +133,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-006",
-
+        skillId: "egyptianCivilisation",
         question:
             "What did Ancient Egyptians use the Nile for?",
 
@@ -156,7 +156,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-007",
-
+        skillId: "egyptianCivilisation",
         question:
             "Which continent is Egypt in today?",
 
@@ -179,7 +179,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-008",
-
+        skillId: "egyptianCivilisation",
         question:
             "Why did many people settle near the River Nile?",
 
@@ -202,7 +202,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-009",
-
+        skillId: "egyptianCivilisation",
         question:
             "What was Ancient Egypt famous for building?",
 
@@ -225,7 +225,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-010",
-
+        skillId: "egyptianCivilisation",
         question:
             "Which statement about Ancient Egypt is true?",
 
@@ -248,7 +248,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-011",
-
+        skillId: "egyptianCivilisation",
         question:
             "Why did the Nile floods help farmers?",
 
@@ -271,7 +271,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-012",
-
+        skillId: "egyptianCivilisation",
         question:
             "What is a historian likely to study to learn about Ancient Egypt?",
 
@@ -294,7 +294,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-013",
-
+        skillId: "egyptianCivilisation",
         question:
             "Ancient Egyptian farmers mainly grew crops near:",
 
@@ -317,7 +317,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-014",
-
+        skillId: "egyptianCivilisation",
         question:
             "Why was the desert around Egypt useful for protection?",
 
@@ -340,7 +340,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-015",
-
+        skillId: "egyptianCivilisation",
         question:
             "What does 'ancient' mean?",
 
@@ -363,7 +363,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-016",
-
+        skillId: "egyptianCivilisation",
         question:
             "Which helped Ancient Egypt become successful?",
 
@@ -386,7 +386,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-017",
-
+        skillId: "egyptianCivilisation",
         question:
             "Ancient Egyptians used boats on the Nile mainly for:",
 
@@ -409,7 +409,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-018",
-
+        skillId: "egyptianCivilisation",
         question:
             "What can ruins tell historians?",
 
@@ -432,7 +432,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-019",
-
+        skillId: "egyptianCivilisation",
         question:
             "Why do historians study Ancient Egypt?",
 
@@ -455,7 +455,7 @@ export const egyptianCivilisation: SkillContent = {
 
     {
         id: "hist-egy-020",
-
+        skillId: "egyptianCivilisation",
         question:
             "Which sentence best describes Ancient Egypt?",
 

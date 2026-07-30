@@ -18,7 +18,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-001",
-
+        skillId: "protectingHearing",
         question: "Which part of your body is used for hearing?",
 
         options: [
@@ -40,7 +40,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-002",
-
+        skillId: "protectingHearing",
         question: "Very loud sounds can...",
 
         options: [
@@ -62,7 +62,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-003",
-
+        skillId: "protectingHearing",
         question: "Which activity is most likely to be very loud?",
 
         options: [
@@ -84,7 +84,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-004",
-
+        skillId: "protectingHearing",
         question: "What can you wear to protect your hearing in a very noisy place?",
 
         options: [
@@ -106,7 +106,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-005",
-
+        skillId: "protectingHearing",
         question: "If music is too loud through headphones, you should...",
 
         options: [
@@ -128,7 +128,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-006",
-
+        skillId: "protectingHearing",
         question: "Which sound is usually safer for your ears?",
 
         options: [
@@ -150,7 +150,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-007",
-
+        skillId: "protectingHearing",
         question: "Why should you move away from a very loud sound if possible?",
 
         options: [
@@ -172,7 +172,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-008",
-
+        skillId: "protectingHearing",
         question: "Which action helps protect your hearing?",
 
         options: [
@@ -194,7 +194,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-009",
-
+        skillId: "protectingHearing",
         question: "Which statement is true?",
 
         options: [
@@ -216,7 +216,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-010",
-
+        skillId: "protectingHearing",
         question: "What should you do if a sound feels painfully loud?",
 
         options: [
@@ -238,7 +238,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-011",
-
+        skillId: "protectingHearing",
         question: "Why are ear defenders useful?",
 
         options: [
@@ -260,7 +260,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-012",
-
+        skillId: "protectingHearing",
         question: "Why is standing farther from a loudspeaker safer?",
 
         options: [
@@ -282,7 +282,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-013",
-
+        skillId: "protectingHearing",
         question: "Which situation is best for protecting your hearing?",
 
         options: [
@@ -304,7 +304,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-014",
-
+        skillId: "protectingHearing",
         question: "Why should workers on noisy building sites wear ear protection?",
 
         options: [
@@ -326,7 +326,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-015",
-
+        skillId: "protectingHearing",
         question: "What is the safest choice when using headphones for a long time?",
 
         options: [
@@ -348,7 +348,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-016",
-
+        skillId: "protectingHearing",
         question: "Which of these is most likely to damage hearing?",
 
         options: [
@@ -370,7 +370,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-017",
-
+        skillId: "protectingHearing",
         question: "What should you do before using noisy machinery?",
 
         options: [
@@ -392,7 +392,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-018",
-
+        skillId: "protectingHearing",
         question: "Why are regular quiet breaks useful in noisy places?",
 
         options: [
@@ -414,7 +414,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-019",
-
+        skillId: "protectingHearing",
         question: "Which advice is best for looking after your hearing?",
 
         options: [
@@ -436,7 +436,7 @@ export const protectingHearing: SkillContent = {
 
     {
         id: "sci-hearing-020",
-
+        skillId: "protectingHearing",
         question: "Which sentence best explains how to protect your hearing?",
 
         options: [

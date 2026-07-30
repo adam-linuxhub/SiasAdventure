@@ -18,7 +18,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-001",
-
+        skillId: "foodChains",
         question: "What is a food chain?",
 
         options: [
@@ -40,7 +40,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-002",
-
+        skillId: "foodChains",
         question: "What is usually at the start of a food chain?",
 
         options: [
@@ -62,7 +62,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-003",
-
+        skillId: "foodChains",
         question: "Which animal eats plants?",
 
         options: [
@@ -84,7 +84,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-004",
-
+        skillId: "foodChains",
         question: "Which animal might eat a rabbit?",
 
         options: [
@@ -106,7 +106,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-005",
-
+        skillId: "foodChains",
         question: "In the food chain grass → rabbit → fox, what does the rabbit eat?",
 
         options: [
@@ -128,7 +128,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-006",
-
+        skillId: "foodChains",
         question: "In the food chain grass → rabbit → fox, what eats the rabbit?",
 
         options: [
@@ -150,7 +150,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-007",
-
+        skillId: "foodChains",
         question: "What do we call an animal that eats plants?",
 
         options: [
@@ -172,7 +172,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-008",
-
+        skillId: "foodChains",
         question: "What do we call an animal that eats other animals?",
 
         options: [
@@ -194,7 +194,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-009",
-
+        skillId: "foodChains",
         question: "Which living thing is a producer?",
 
         options: [
@@ -216,7 +216,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-010",
-
+        skillId: "foodChains",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-011",
-
+        skillId: "foodChains",
         question: "In the food chain grass → caterpillar → bird, what is the bird?",
 
         options: [
@@ -260,7 +260,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-012",
-
+        skillId: "foodChains",
         question: "Why are plants called producers?",
 
         options: [
@@ -282,7 +282,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-013",
-
+        skillId: "foodChains",
         question: "Which food chain is correct?",
 
         options: [
@@ -304,7 +304,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-014",
-
+        skillId: "foodChains",
         question: "What might happen if all the rabbits disappeared from a habitat?",
 
         options: [
@@ -326,7 +326,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-015",
-
+        skillId: "foodChains",
         question: "Which animal is a herbivore?",
 
         options: [
@@ -348,7 +348,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-016",
-
+        skillId: "foodChains",
         question: "Why is the arrow used in a food chain?",
 
         options: [
@@ -370,7 +370,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-017",
-
+        skillId: "foodChains",
         question: "Which food chain starts correctly?",
 
         options: [
@@ -392,7 +392,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-018",
-
+        skillId: "foodChains",
         question: "A mouse eats seeds and an owl eats the mouse. Which is the predator?",
 
         options: [
@@ -414,7 +414,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-019",
-
+        skillId: "foodChains",
         question: "Which statement best explains why food chains are important?",
 
         options: [
@@ -436,7 +436,7 @@ export const foodChains: SkillContent = {
 
     {
         id: "sci-food-chains-020",
-
+        skillId: "foodChains",
         question: "Which sentence best describes a food chain?",
 
         options: [

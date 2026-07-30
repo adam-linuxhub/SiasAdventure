@@ -18,7 +18,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-001",
-
+        skillId: "sentenceTypes",
         question: "Which sentence is a statement?",
 
         options: [
@@ -40,7 +40,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-002",
-
+        skillId: "sentenceTypes",
         question: "Which sentence is a question?",
 
         options: [
@@ -62,7 +62,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-003",
-
+        skillId: "sentenceTypes",
         question: "Which sentence is a command?",
 
         options: [
@@ -84,7 +84,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-004",
-
+        skillId: "sentenceTypes",
         question: "Which sentence is an exclamation?",
 
         options: [
@@ -106,7 +106,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-005",
-
+        skillId: "sentenceTypes",
         question: "A statement usually ends with a...",
 
         options: [
@@ -128,7 +128,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-006",
-
+        skillId: "sentenceTypes",
         question: "A question usually ends with a...",
 
         options: [
@@ -150,7 +150,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-007",
-
+        skillId: "sentenceTypes",
         question: "Which sentence tells someone what to do?",
 
         options: [
@@ -172,7 +172,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-008",
-
+        skillId: "sentenceTypes",
         question: "Which sentence shows excitement?",
 
         options: [
@@ -194,7 +194,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-009",
-
+        skillId: "sentenceTypes",
         question: "Which of these is NOT a question?",
 
         options: [
@@ -216,7 +216,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-010",
-
+        skillId: "sentenceTypes",
         question: "Which sentence is a statement?",
 
         options: [
@@ -238,7 +238,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-011",
-
+        skillId: "sentenceTypes",
         question: "Which sentence is a command?",
 
         options: [
@@ -260,7 +260,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-012",
-
+        skillId: "sentenceTypes",
         question: "Which sentence is an exclamation?",
 
         options: [
@@ -282,7 +282,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-013",
-
+        skillId: "sentenceTypes",
         question: "What type of sentence is 'Can you help me?'",
 
         options: [
@@ -304,7 +304,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-014",
-
+        skillId: "sentenceTypes",
         question: "What type of sentence is 'Please be quiet.'?",
 
         options: [
@@ -326,7 +326,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-015",
-
+        skillId: "sentenceTypes",
         question: "What type of sentence is 'The train arrived on time.'?",
 
         options: [
@@ -348,7 +348,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-016",
-
+        skillId: "sentenceTypes",
         question: "What type of sentence is 'What a clever idea!'?",
 
         options: [
@@ -370,7 +370,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-017",
-
+        skillId: "sentenceTypes",
         question: "Which sentence is punctuated correctly as a question?",
 
         options: [
@@ -392,7 +392,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-018",
-
+        skillId: "sentenceTypes",
         question: "Which sentence is punctuated correctly as an exclamation?",
 
         options: [
@@ -414,7 +414,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-019",
-
+        skillId: "sentenceTypes",
         question: "Why do we use different sentence types?",
 
         options: [
@@ -436,7 +436,7 @@ export const sentenceTypes: SkillContent = {
 
     {
         id: "eng-sent-020",
-
+        skillId: "sentenceTypes",
         question: "Which list contains all four sentence types?",
 
         options: [

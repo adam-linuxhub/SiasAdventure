@@ -18,7 +18,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-001",
-
+        skillId: "mountainFormation",
         question:
             "How are many mountains formed?",
 
@@ -41,7 +41,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-002",
-
+        skillId: "mountainFormation",
         question:
             "What is the Earth's crust?",
 
@@ -64,7 +64,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-003",
-
+        skillId: "mountainFormation",
         question:
             "What are tectonic plates?",
 
@@ -87,7 +87,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-004",
-
+        skillId: "mountainFormation",
         question:
             "What can happen when tectonic plates push together?",
 
@@ -110,7 +110,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-005",
-
+        skillId: "mountainFormation",
         question:
             "What is a volcano?",
 
@@ -133,7 +133,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-006",
-
+        skillId: "mountainFormation",
         question:
             "How can volcanoes create mountains?",
 
@@ -156,7 +156,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-007",
-
+        skillId: "mountainFormation",
         question:
             "What is magma?",
 
@@ -179,7 +179,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-008",
-
+        skillId: "mountainFormation",
         question:
             "What is lava?",
 
@@ -202,7 +202,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-009",
-
+        skillId: "mountainFormation",
         question:
             "What is an earthquake?",
 
@@ -225,7 +225,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-010",
-
+        skillId: "mountainFormation",
         question:
             "Why do earthquakes happen?",
 
@@ -248,7 +248,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-011",
-
+        skillId: "mountainFormation",
         question:
             "Are mountains formed quickly?",
 
@@ -271,7 +271,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-012",
-
+        skillId: "mountainFormation",
         question:
             "What can wear mountains down over time?",
 
@@ -294,7 +294,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-013",
-
+        skillId: "mountainFormation",
         question:
             "What is erosion?",
 
@@ -317,7 +317,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-014",
-
+        skillId: "mountainFormation",
         question:
             "How can glaciers change mountains?",
 
@@ -340,7 +340,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-015",
-
+        skillId: "mountainFormation",
         question:
             "What is a mountain range?",
 
@@ -363,7 +363,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-016",
-
+        skillId: "mountainFormation",
         question:
             "Why do scientists study how mountains form?",
 
@@ -386,7 +386,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-017",
-
+        skillId: "mountainFormation",
         question:
             "What happens when lava cools?",
 
@@ -409,7 +409,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-018",
-
+        skillId: "mountainFormation",
         question:
             "Which natural process can change mountains?",
 
@@ -432,7 +432,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-019",
-
+        skillId: "mountainFormation",
         question:
             "Why are tectonic plates important?",
 
@@ -455,7 +455,7 @@ export const mountainFormation: SkillContent = {
 
     {
         id: "geo-mf-020",
-
+        skillId: "mountainFormation",
         question:
             "Which sentence best describes mountain formation?",
 

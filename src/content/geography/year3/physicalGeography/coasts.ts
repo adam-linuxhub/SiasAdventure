@@ -18,7 +18,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-001",
-
+        skillId: "coasts",
         question: "What is a coast?",
 
         options: [
@@ -40,7 +40,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-002",
-
+        skillId: "coasts",
         question: "Which body of water is found next to a coast?",
 
         options: [
@@ -62,7 +62,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-003",
-
+        skillId: "coasts",
         question: "Which of these is often found at the coast?",
 
         options: [
@@ -84,7 +84,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-004",
-
+        skillId: "coasts",
         question: "What is a beach usually covered with?",
 
         options: [
@@ -106,7 +106,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-005",
-
+        skillId: "coasts",
         question: "What is a cliff?",
 
         options: [
@@ -128,7 +128,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-006",
-
+        skillId: "coasts",
         question: "Which of these is a natural feature?",
 
         options: [
@@ -150,7 +150,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-007",
-
+        skillId: "coasts",
         question: "Which activity might people enjoy at the coast?",
 
         options: [
@@ -172,7 +172,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-008",
-
+        skillId: "coasts",
         question: "Which colour is the sea usually shown on a map?",
 
         options: [
@@ -194,7 +194,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-009",
-
+        skillId: "coasts",
         question: "What does the sea do at the coast?",
 
         options: [
@@ -216,7 +216,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-010",
-
+        skillId: "coasts",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-011",
-
+        skillId: "coasts",
         question: "Why do many people visit the coast in summer?",
 
         options: [
@@ -260,7 +260,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-012",
-
+        skillId: "coasts",
         question: "Why are cliffs often found at the coast?",
 
         options: [
@@ -282,7 +282,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-013",
-
+        skillId: "coasts",
         question: "Why are coasts important for wildlife?",
 
         options: [
@@ -304,7 +304,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-014",
-
+        skillId: "coasts",
         question: "Which job might depend on the sea?",
 
         options: [
@@ -326,7 +326,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-015",
-
+        skillId: "coasts",
         question: "Why are many towns built on the coast?",
 
         options: [
@@ -348,7 +348,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-016",
-
+        skillId: "coasts",
         question: "What shapes a coastline over many years?",
 
         options: [
@@ -370,7 +370,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-017",
-
+        skillId: "coasts",
         question: "Which natural feature is most likely to be found beside the sea?",
 
         options: [
@@ -392,7 +392,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-018",
-
+        skillId: "coasts",
         question: "Why are beaches popular places to visit?",
 
         options: [
@@ -414,7 +414,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-019",
-
+        skillId: "coasts",
         question: "Which feature is a natural part of many coastlines?",
 
         options: [
@@ -436,7 +436,7 @@ export const coasts: SkillContent = {
 
     {
         id: "geo-coasts-020",
-
+        skillId: "coasts",
         question: "Which sentence best describes a coast?",
 
         options: [

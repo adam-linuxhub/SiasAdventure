@@ -18,7 +18,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-001",
-
+        skillId: "evaporationCondensation",
         question: "What is evaporation?",
 
         options: [
@@ -40,7 +40,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-002",
-
+        skillId: "evaporationCondensation",
         question: "What is condensation?",
 
         options: [
@@ -62,7 +62,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-003",
-
+        skillId: "evaporationCondensation",
         question: "What happens to a puddle on a warm sunny day?",
 
         options: [
@@ -84,7 +84,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-004",
-
+        skillId: "evaporationCondensation",
         question: "What forms on the outside of a cold drinks can?",
 
         options: [
@@ -106,7 +106,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-005",
-
+        skillId: "evaporationCondensation",
         question: "Which process dries wet clothes?",
 
         options: [
@@ -128,7 +128,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-006",
-
+        skillId: "evaporationCondensation",
         question: "What is water vapour?",
 
         options: [
@@ -150,7 +150,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-007",
-
+        skillId: "evaporationCondensation",
         question: "Which process needs cooling?",
 
         options: [
@@ -172,7 +172,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-008",
-
+        skillId: "evaporationCondensation",
         question: "Which process happens when water is heated?",
 
         options: [
@@ -194,7 +194,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-009",
-
+        skillId: "evaporationCondensation",
         question: "What is most likely to happen to water left in a shallow dish?",
 
         options: [
@@ -216,7 +216,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-010",
-
+        skillId: "evaporationCondensation",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-011",
-
+        skillId: "evaporationCondensation",
         question: "Why do wet clothes dry faster on a warm day?",
 
         options: [
@@ -260,7 +260,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-012",
-
+        skillId: "evaporationCondensation",
         question: "Why do bathroom mirrors mist up after a hot shower?",
 
         options: [
@@ -282,7 +282,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-013",
-
+        skillId: "evaporationCondensation",
         question: "Which process changes water vapour back into liquid water?",
 
         options: [
@@ -304,7 +304,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-014",
-
+        skillId: "evaporationCondensation",
         question: "What happens to water particles during evaporation?",
 
         options: [
@@ -326,7 +326,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-015",
-
+        skillId: "evaporationCondensation",
         question: "Which situation shows condensation?",
 
         options: [
@@ -348,7 +348,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-016",
-
+        skillId: "evaporationCondensation",
         question: "What can make evaporation happen faster?",
 
         options: [
@@ -370,7 +370,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-017",
-
+        skillId: "evaporationCondensation",
         question: "A cold bottle is taken outside on a warm day. Why do water droplets appear on it?",
 
         options: [
@@ -392,7 +392,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-018",
-
+        skillId: "evaporationCondensation",
         question: "Why does a puddle disappear even if it never boils?",
 
         options: [
@@ -414,7 +414,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-019",
-
+        skillId: "evaporationCondensation",
         question: "Which pair shows opposite changes of state?",
 
         options: [
@@ -436,7 +436,7 @@ export const evaporationCondensation: SkillContent = {
 
     {
         id: "sci-evap-cond-020",
-
+        skillId: "evaporationCondensation",
         question: "Which sentence best describes evaporation and condensation?",
 
         options: [

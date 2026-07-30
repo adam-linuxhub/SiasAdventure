@@ -18,7 +18,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-001",
-
+        skillId: "magnetPoles",
         question: "How many poles does every magnet have?",
 
         options: [
@@ -40,7 +40,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-002",
-
+        skillId: "magnetPoles",
         question: "What are the two poles called?",
 
         options: [
@@ -62,7 +62,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-003",
-
+        skillId: "magnetPoles",
         question: "What happens when a north pole and a south pole are brought together?",
 
         options: [
@@ -84,7 +84,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-004",
-
+        skillId: "magnetPoles",
         question: "What happens when two north poles are brought together?",
 
         options: [
@@ -106,7 +106,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-005",
-
+        skillId: "magnetPoles",
         question: "What happens when two south poles are brought together?",
 
         options: [
@@ -128,7 +128,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-006",
-
+        skillId: "magnetPoles",
         question: "Which poles attract each other?",
 
         options: [
@@ -150,7 +150,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-007",
-
+        skillId: "magnetPoles",
         question: "Which poles repel each other?",
 
         options: [
@@ -172,7 +172,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-008",
-
+        skillId: "magnetPoles",
         question: "Where is the magnetic force strongest on a bar magnet?",
 
         options: [
@@ -194,7 +194,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-009",
-
+        skillId: "magnetPoles",
         question: "Which statement is true?",
 
         options: [
@@ -216,7 +216,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-010",
-
+        skillId: "magnetPoles",
         question: "What do we call it when magnets push away from each other?",
 
         options: [
@@ -238,7 +238,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-011",
-
+        skillId: "magnetPoles",
         question: "A north pole is brought near another north pole. What happens?",
 
         options: [
@@ -260,7 +260,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-012",
-
+        skillId: "magnetPoles",
         question: "A south pole is brought near a north pole. What happens?",
 
         options: [
@@ -282,7 +282,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-013",
-
+        skillId: "magnetPoles",
         question: "Why do two magnets sometimes push apart?",
 
         options: [
@@ -304,7 +304,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-014",
-
+        skillId: "magnetPoles",
         question: "Why do two magnets sometimes stick together?",
 
         options: [
@@ -326,7 +326,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-015",
-
+        skillId: "magnetPoles",
         question: "Which pair of poles will attract?",
 
         options: [
@@ -348,7 +348,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-016",
-
+        skillId: "magnetPoles",
         question: "A child says, 'North poles always attract.' Is this correct?",
 
         options: [
@@ -370,7 +370,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-017",
-
+        skillId: "magnetPoles",
         question: "What is the best way to find out which poles attract?",
 
         options: [
@@ -392,7 +392,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-018",
-
+        skillId: "magnetPoles",
         question: "Why is the magnetic pull strongest at the ends of a magnet?",
 
         options: [
@@ -414,7 +414,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-019",
-
+        skillId: "magnetPoles",
         question: "Which sentence is correct?",
 
         options: [
@@ -436,7 +436,7 @@ export const magnetPoles: SkillContent = {
 
     {
         id: "sci-magnet-poles-020",
-
+        skillId: "magnetPoles",
         question: "Which sentence best describes magnet poles?",
 
         options: [

@@ -18,7 +18,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-001",
-
+        skillId: "muscles",
         question: "What do muscles help your body do?",
 
         options: [
@@ -45,7 +45,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-002",
-
+        skillId: "muscles",
         question: "Muscles work together with which part of the body?",
 
         options: [
@@ -72,7 +72,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-003",
-
+        skillId: "muscles",
         question: "Which activity uses your muscles?",
 
         options: [
@@ -99,7 +99,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-004",
-
+        skillId: "muscles",
         question: "What happens when muscles pull on bones?",
 
         options: [
@@ -126,7 +126,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-005",
-
+        skillId: "muscles",
         question: "Which body part contains muscles?",
 
         options: [
@@ -152,7 +152,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-006",
-
+        skillId: "muscles",
         question: "Why are muscles important?",
 
         options: [
@@ -179,7 +179,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-007",
-
+        skillId: "muscles",
         question: "Which of these actions needs muscles?",
 
         options: [
@@ -206,7 +206,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-008",
-
+        skillId: "muscles",
         question: "What do muscles pull on to make you move?",
 
         options: [
@@ -233,7 +233,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-009",
-
+        skillId: "muscles",
         question: "Which pair works together to help you move?",
 
         options: [
@@ -261,7 +261,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-010",
-
+        skillId: "muscles",
         question: "Which statement is correct?",
 
         options: [
@@ -287,8 +287,8 @@ export const muscles: SkillContent = {
     },
         {
         id: "sci-muscles-011",
-
-        question: "Why do muscles need bones to help the body move?",
+            skillId: "muscles",
+            question: "Why do muscles need bones to help the body move?",
 
         options: [
             "Muscles pull on bones to create movement.",
@@ -315,7 +315,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-012",
-
+        skillId: "muscles",
         question: "Which activity uses muscles?",
 
         options: [
@@ -342,7 +342,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-013",
-
+        skillId: "muscles",
         question: "What happens when a muscle contracts?",
 
         options: [
@@ -369,7 +369,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-014",
-
+        skillId: "muscles",
         question: "Which body parts work together to help you kick a ball?",
 
         options: [
@@ -396,7 +396,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-015",
-
+        skillId: "muscles",
         question: "Which statement about muscles is true?",
 
         options: [
@@ -422,7 +422,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-016",
-
+        skillId: "muscles",
         question: "Why do people need muscles?",
 
         options: [
@@ -449,7 +449,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-017",
-
+        skillId: "muscles",
         question: "Which action would be difficult without muscles?",
 
         options: [
@@ -476,7 +476,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-018",
-
+        skillId: "muscles",
         question: "Which body part do muscles pull on?",
 
         options: [
@@ -503,7 +503,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-019",
-
+        skillId: "muscles",
         question: "A runner is sprinting. Which body systems are working together?",
 
         options: [
@@ -531,7 +531,7 @@ export const muscles: SkillContent = {
 
     {
         id: "sci-muscles-020",
-
+        skillId: "muscles",
         question: "Which sentence best describes the job of muscles?",
 
         options: [

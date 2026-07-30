@@ -18,7 +18,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-001",
-
+        skillId: "fullStops",
         question: "Which punctuation mark is a full stop?",
 
         options: [
@@ -40,7 +40,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-002",
-
+        skillId: "fullStops",
         question: "Which sentence ends correctly?",
 
         options: [
@@ -62,7 +62,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-003",
-
+        skillId: "fullStops",
         question: "When should you use a full stop?",
 
         options: [
@@ -84,7 +84,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-004",
-
+        skillId: "fullStops",
         question: "Which sentence needs a full stop?",
 
         options: [
@@ -106,7 +106,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-005",
-
+        skillId: "fullStops",
         question: "Choose the correctly punctuated sentence.",
 
         options: [
@@ -128,7 +128,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-006",
-
+        skillId: "fullStops",
         question: "Which sentence is a statement?",
 
         options: [
@@ -150,7 +150,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-007",
-
+        skillId: "fullStops",
         question: "Which sentence ends with the correct punctuation?",
 
         options: [
@@ -172,7 +172,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-008",
-
+        skillId: "fullStops",
         question: "What does a full stop show?",
 
         options: [
@@ -194,7 +194,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-009",
-
+        skillId: "fullStops",
         question: "Which punctuation mark should replace the blank? 'The dog barked__'",
 
         options: [
@@ -216,7 +216,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-010",
-
+        skillId: "fullStops",
         question: "Which sentence is punctuated correctly?",
 
         options: [
@@ -238,7 +238,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-011",
-
+        skillId: "fullStops",
         question: "Which sentence is missing a full stop?",
 
         options: [
@@ -260,7 +260,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-012",
-
+        skillId: "fullStops",
         question: "How many full stops are needed? 'Amy smiled She waved Goodbye everyone'",
 
         options: [
@@ -282,7 +282,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-013",
-
+        skillId: "fullStops",
         question: "Which sentence has the correct ending punctuation?",
 
         options: [
@@ -304,7 +304,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-014",
-
+        skillId: "fullStops",
         question: "Why do we use full stops?",
 
         options: [
@@ -326,7 +326,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-015",
-
+        skillId: "fullStops",
         question: "Which sentence uses a full stop correctly?",
 
         options: [
@@ -348,7 +348,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-016",
-
+        skillId: "fullStops",
         question: "Choose the sentence that needs a full stop instead of a question mark.",
 
         options: [
@@ -370,7 +370,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-017",
-
+        skillId: "fullStops",
         question: "Which sentence contains correct punctuation?",
 
         options: [
@@ -392,7 +392,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-018",
-
+        skillId: "fullStops",
         question: "Which punctuation mark should end this sentence? 'Dad washed the car__'",
 
         options: [
@@ -414,7 +414,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-019",
-
+        skillId: "fullStops",
         question: "What happens if full stops are missing?",
 
         options: [
@@ -436,7 +436,7 @@ export const fullStops: SkillContent = {
 
     {
         id: "eng-fullstop-020",
-
+        skillId: "fullStops",
         question: "Which group of sentences is punctuated correctly?",
 
         options: [

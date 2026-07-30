@@ -18,7 +18,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-001",
-
+        skillId: "settlements",
         question: "What is a settlement?",
 
         options: [
@@ -40,7 +40,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-002",
-
+        skillId: "settlements",
         question: "Which is usually the smallest type of settlement?",
 
         options: [
@@ -62,7 +62,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-003",
-
+        skillId: "settlements",
         question: "Which settlement is usually larger than a village but smaller than a city?",
 
         options: [
@@ -84,7 +84,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-004",
-
+        skillId: "settlements",
         question: "Which type of settlement is usually the largest?",
 
         options: [
@@ -106,7 +106,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-005",
-
+        skillId: "settlements",
         question: "People live in settlements because they provide...",
 
         options: [
@@ -128,7 +128,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-006",
-
+        skillId: "settlements",
         question: "Which place is most likely to have the fewest people?",
 
         options: [
@@ -150,7 +150,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-007",
-
+        skillId: "settlements",
         question: "Which settlement usually has the most shops?",
 
         options: [
@@ -172,7 +172,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-008",
-
+        skillId: "settlements",
         question: "What is a population?",
 
         options: [
@@ -194,7 +194,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-009",
-
+        skillId: "settlements",
         question: "Which place is most likely to have a large hospital?",
 
         options: [
@@ -216,7 +216,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-010",
-
+        skillId: "settlements",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-011",
-
+        skillId: "settlements",
         question: "Why were many settlements built near rivers?",
 
         options: [
@@ -260,7 +260,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-012",
-
+        skillId: "settlements",
         question: "Why do people build settlements near roads?",
 
         options: [
@@ -282,7 +282,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-013",
-
+        skillId: "settlements",
         question: "Why do cities usually have more schools than villages?",
 
         options: [
@@ -304,7 +304,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-014",
-
+        skillId: "settlements",
         question: "Which settlement is most likely to have the busiest roads?",
 
         options: [
@@ -326,7 +326,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-015",
-
+        skillId: "settlements",
         question: "Why do settlements often grow larger over time?",
 
         options: [
@@ -348,7 +348,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-016",
-
+        skillId: "settlements",
         question: "Which place would probably have the most public transport?",
 
         options: [
@@ -370,7 +370,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-017",
-
+        skillId: "settlements",
         question: "Why do settlements need shops?",
 
         options: [
@@ -392,7 +392,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-018",
-
+        skillId: "settlements",
         question: "Which settlement is most likely to have the greatest population?",
 
         options: [
@@ -414,7 +414,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-019",
-
+        skillId: "settlements",
         question: "Why do people choose to live in settlements?",
 
         options: [
@@ -436,7 +436,7 @@ export const settlements: SkillContent = {
 
     {
         id: "geo-settle-020",
-
+        skillId: "settlements",
         question: "Which sentence best describes a settlement?",
 
         options: [

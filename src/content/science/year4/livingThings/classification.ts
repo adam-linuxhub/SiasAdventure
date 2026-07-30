@@ -18,7 +18,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-001",
-
+        skillId: "classification",
         question: "Why do scientists classify living things?",
 
         options: [
@@ -40,7 +40,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-002",
-
+        skillId: "classification",
         question: "Which of these is a mammal?",
 
         options: [
@@ -62,7 +62,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-003",
-
+        skillId: "classification",
         question: "Which of these is a bird?",
 
         options: [
@@ -84,7 +84,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-004",
-
+        skillId: "classification",
         question: "Which of these is a fish?",
 
         options: [
@@ -106,7 +106,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-005",
-
+        skillId: "classification",
         question: "Which of these is a reptile?",
 
         options: [
@@ -128,7 +128,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-006",
-
+        skillId: "classification",
         question: "Which of these is an amphibian?",
 
         options: [
@@ -150,7 +150,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-007",
-
+        skillId: "classification",
         question: "Which group does an oak tree belong to?",
 
         options: [
@@ -172,7 +172,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-008",
-
+        skillId: "classification",
         question: "Which feature do birds have?",
 
         options: [
@@ -194,7 +194,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-009",
-
+        skillId: "classification",
         question: "Which animal has scales?",
 
         options: [
@@ -216,7 +216,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-010",
-
+        skillId: "classification",
         question: "Scientists classify living things by looking at their...",
 
         options: [
@@ -238,7 +238,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-011",
-
+        skillId: "classification",
         question: "A penguin has feathers and lays eggs. Which group does it belong to?",
 
         options: [
@@ -260,7 +260,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-012",
-
+        skillId: "classification",
         question: "A whale feeds its babies milk. Which group does it belong to?",
 
         options: [
@@ -282,7 +282,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-013",
-
+        skillId: "classification",
         question: "Why are bats classified as mammals instead of birds?",
 
         options: [
@@ -304,7 +304,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-014",
-
+        skillId: "classification",
         question: "Which pair belongs to the same group?",
 
         options: [
@@ -326,7 +326,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-015",
-
+        skillId: "classification",
         question: "A scientist discovers an animal with feathers and a beak. Which group is it most likely to belong to?",
 
         options: [
@@ -348,7 +348,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-016",
-
+        skillId: "classification",
         question: "Which feature helps identify a fish?",
 
         options: [
@@ -370,7 +370,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-017",
-
+        skillId: "classification",
         question: "Why do scientists use classification?",
 
         options: [
@@ -392,7 +392,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-018",
-
+        skillId: "classification",
         question: "Which group would a crocodile belong to?",
 
         options: [
@@ -414,7 +414,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-019",
-
+        skillId: "classification",
         question: "Which animal does NOT belong with the others?",
 
         options: [
@@ -436,7 +436,7 @@ export const classification: SkillContent = {
 
     {
         id: "sci-classification-020",
-
+        skillId: "classification",
         question: "Which sentence best describes classification?",
 
         options: [

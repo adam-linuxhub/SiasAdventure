@@ -18,7 +18,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-001",
-
+        skillId: "magneticMaterials",
         question: "What does a magnet do?",
 
         options: [
@@ -40,7 +40,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-002",
-
+        skillId: "magneticMaterials",
         question: "Which material is magnetic?",
 
         options: [
@@ -62,7 +62,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-003",
-
+        skillId: "magneticMaterials",
         question: "Which object would a magnet attract?",
 
         options: [
@@ -84,7 +84,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-004",
-
+        skillId: "magneticMaterials",
         question: "Which material is NOT magnetic?",
 
         options: [
@@ -106,7 +106,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-005",
-
+        skillId: "magneticMaterials",
         question: "Which metal is magnetic?",
 
         options: [
@@ -128,7 +128,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-006",
-
+        skillId: "magneticMaterials",
         question: "Which classroom object is likely to be magnetic?",
 
         options: [
@@ -150,7 +150,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-007",
-
+        skillId: "magneticMaterials",
         question: "Which material is most likely to be attracted to a magnet?",
 
         options: [
@@ -172,7 +172,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-008",
-
+        skillId: "magneticMaterials",
         question: "Can magnets attract wood?",
 
         options: [
@@ -194,7 +194,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-009",
-
+        skillId: "magneticMaterials",
         question: "Which object is least likely to be attracted to a magnet?",
 
         options: [
@@ -216,7 +216,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-010",
-
+        skillId: "magneticMaterials",
         question: "Which statement is true?",
 
         options: [
@@ -238,7 +238,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-011",
-
+        skillId: "magneticMaterials",
         question: "A magnet attracts an object. What is the object most likely made from?",
 
         options: [
@@ -260,7 +260,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-012",
-
+        skillId: "magneticMaterials",
         question: "Why doesn't a magnet attract a plastic bottle?",
 
         options: [
@@ -282,7 +282,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-013",
-
+        skillId: "magneticMaterials",
         question: "Which investigation would help you find magnetic materials?",
 
         options: [
@@ -304,7 +304,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-014",
-
+        skillId: "magneticMaterials",
         question: "Which pair are both magnetic?",
 
         options: [
@@ -326,7 +326,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-015",
-
+        skillId: "magneticMaterials",
         question: "A magnet attracts one spoon but not another. What is the best explanation?",
 
         options: [
@@ -348,7 +348,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-016",
-
+        skillId: "magneticMaterials",
         question: "Which material should you choose to make a fridge magnet stick?",
 
         options: [
@@ -370,7 +370,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-017",
-
+        skillId: "magneticMaterials",
         question: "Why do magnets attract some objects but not others?",
 
         options: [
@@ -392,7 +392,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-018",
-
+        skillId: "magneticMaterials",
         question: "Which object would be best for testing a magnet?",
 
         options: [
@@ -414,7 +414,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-019",
-
+        skillId: "magneticMaterials",
         question: "Which material would NOT be suitable for making a magnetic toy?",
 
         options: [
@@ -436,7 +436,7 @@ export const magneticMaterials: SkillContent = {
 
     {
         id: "sci-magnetic-materials-020",
-
+        skillId: "magneticMaterials",
         question: "Which sentence best describes magnetic materials?",
 
         options: [

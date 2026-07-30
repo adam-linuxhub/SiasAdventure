@@ -18,7 +18,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-001",
-
+        skillId: "sentenceImprovement",
         question:
             "Which sentence is more interesting?",
 
@@ -41,7 +41,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-002",
-
+        skillId: "sentenceImprovement",
         question:
             "Improve this sentence:\n\nThe bird flew.",
 
@@ -64,7 +64,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-003",
-
+        skillId: "sentenceImprovement",
         question:
             "Which word is a stronger verb than 'went'?",
 
@@ -87,7 +87,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-004",
-
+        skillId: "sentenceImprovement",
         question:
             "Improve this sentence:\n\nThe cat sat.",
 
@@ -110,7 +110,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-005",
-
+        skillId: "sentenceImprovement",
         question:
             "Which adjective improves this sentence?\n\nThe house had a door.",
 
@@ -133,7 +133,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-006",
-
+        skillId: "sentenceImprovement",
         question:
             "Why do writers add detail to sentences?",
 
@@ -156,7 +156,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-007",
-
+        skillId: "sentenceImprovement",
         question:
             "Which sentence uses the strongest verb?",
 
@@ -179,7 +179,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-008",
-
+        skillId: "sentenceImprovement",
         question:
             "Improve this sentence:\n\nThe boy walked.",
 
@@ -202,7 +202,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-009",
-
+        skillId: "sentenceImprovement",
         question:
             "Which word makes this sentence more descriptive?\n\nThe flower grew.",
 
@@ -225,7 +225,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-010",
-
+        skillId: "sentenceImprovement",
         question:
             "A good writer chooses words that are:",
 
@@ -248,7 +248,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-011",
-
+        skillId: "sentenceImprovement",
         question:
             "Which sentence creates the clearest image?",
 
@@ -271,7 +271,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-012",
-
+        skillId: "sentenceImprovement",
         question:
             "Replace the weak verb:\n\nThe dog went across the garden.",
 
@@ -294,7 +294,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-013",
-
+        skillId: "sentenceImprovement",
         question:
             "Which sentence uses an adverb to improve the writing?",
 
@@ -317,7 +317,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-014",
-
+        skillId: "sentenceImprovement",
         question:
             "Improve this sentence:\n\nThe storm came.",
 
@@ -340,7 +340,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-015",
-
+        skillId: "sentenceImprovement",
         question:
             "Which word choice is most precise?",
 
@@ -363,7 +363,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-016",
-
+        skillId: "sentenceImprovement",
         question:
             "Why are powerful verbs useful?",
 
@@ -386,7 +386,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-017",
-
+        skillId: "sentenceImprovement",
         question:
             "Which sentence has the most detail?",
 
@@ -409,7 +409,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-018",
-
+        skillId: "sentenceImprovement",
         question:
             "What should you check when improving a sentence?",
 
@@ -432,7 +432,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-019",
-
+        skillId: "sentenceImprovement",
         question:
             "Which sentence is the best improvement?",
 
@@ -455,7 +455,7 @@ export const sentenceImprovement: SkillContent = {
 
     {
         id: "eng-si-020",
-
+        skillId: "sentenceImprovement",
         question:
             "Good writers improve sentences by:",
 
