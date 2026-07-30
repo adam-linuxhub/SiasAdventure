@@ -1,7 +1,6 @@
+import { Project } from "ts-morph";
+
 export interface Migration {
-
     readonly name: string;
-
-    run(): Promise<void>;
-
+    run(project: Project): Promise<void>;
 }

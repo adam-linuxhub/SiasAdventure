@@ -1,21 +1,17 @@
-import { AnswerToCorrectAnswerMigration } from "./migrations/001-answer-to-correctAnswer";
+import { createProject } from "./utils";
+
+import { AddSkillIdMigration } from "./migrations/002-add-skillId";
 
 async function main() {
 
-    const migrations = [
+    const project = createProject();
 
-        new AnswerToCorrectAnswerMigration()
+    await new AddSkillIdMigration().run(project);
 
-    ];
-
-    for (const migration of migrations) {
-
-        console.log(`Running ${migration.name}...`);
-
-        await migration.run();
-
-    }
-
+    await project.save();
 }
 
-main();
+main().catch(error => {
+    console.error(error);
+    process.exit(1);
+});
