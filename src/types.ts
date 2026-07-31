@@ -1,14 +1,43 @@
+/*==================================================
+  SIA'S ADVENTURE
+
+  PLAYER TYPES
+
+==================================================*/
+
 export interface Player {
+
+    /*==============================================
+      PROFILE
+    ==============================================*/
 
     name: string;
 
-    xp: number;
-
-    stars: number;
+    /*==============================================
+      PROGRESSION
+    ==============================================*/
 
     level: number;
 
     levelName: string;
+
+    xp: number;
+
+    adventurePoints: number;
+
+    /*==============================================
+      WORLDS
+    ==============================================*/
+
+    world: number;
+
+    worldsCompleted: number;
+
+    /*==============================================
+      REWARDS
+    ==============================================*/
+
+    stars: number;
 
     treasureChests: number;
 
@@ -16,17 +45,15 @@ export interface Player {
 
     treasures: string[];
 
+    /*==============================================
+      STATISTICS
+    ==============================================*/
+
     questionsAnswered: number;
 
     correct: number;
 
     incorrect: number;
-
-    adventurePoints: number;
-
-    world: number;
-
-    worldsCompleted: number;
 
     questionsThisLevel: number;
 

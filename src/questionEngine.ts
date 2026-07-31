@@ -1,12 +1,35 @@
-import type { Player } from "./types";
+/*==================================================
+  SIA'S ADVENTURE
+
+  QUESTION ENGINE
+
+==================================================*/
+
 import { QuestionSelector } from "./questionSelector";
+
+/*==================================================
+  QUESTION
+==================================================*/
+
+export type QuestionType =
+    | "maths"
+    | "english"
+    | "vr"
+    | "nvr";
+
 export interface Question {
+
+    type: QuestionType;
 
     id?: string;
 
     skillId?: string;
 
-    stage?: "recognise" | "understand" | "apply" | "master";
+    stage?:
+        | "recognise"
+        | "understand"
+        | "apply"
+        | "master";
 
     difficulty?: 1 | 2 | 3 | 4 | 5;
 
@@ -16,14 +39,34 @@ export interface Question {
 
     hint: string;
 
+    /**
+     * Text questions display these.
+     *
+     * NVR ignores them but keeps the same
+     * internal model.
+     */
     answers: string[];
 
+    /**
+     * Index of the correct answer.
+     */
     correct: number;
 
     explanation: string;
 
     xp?: number;
+
+    /**
+     * Optional payload for specialised
+     * renderers (NVR, future puzzle types).
+     */
+    data?: unknown;
+
 }
+
+/*==================================================
+  RESULT
+==================================================*/
 
 export interface QuestionResult {
 
@@ -36,7 +79,12 @@ export interface QuestionResult {
     xpAwarded: number;
 
     starsAwarded: number;
+
 }
+
+/*==================================================
+  ENGINE
+==================================================*/
 
 export const QuestionEngine = {
 
@@ -46,111 +94,236 @@ export const QuestionEngine = {
 
     currentQuestion: null as Question | null,
 
-    initialise(questions: Question[]): void {
+    /*==============================================
+      INITIALISE
+    ==============================================*/
+
+    initialise(
+
+        questions: Question[]
+
+    ): void {
 
         this.shuffledQuestions = [...questions];
 
-        for (let i = this.shuffledQuestions.length - 1; i > 0; i--) {
+        for (
 
-            const j = Math.floor(Math.random() * (i + 1));
+            let i = this.shuffledQuestions.length - 1;
+
+            i > 0;
+
+            i--
+
+        ) {
+
+            const j = Math.floor(
+
+                Math.random() *
+
+                (i + 1)
+
+            );
 
             [
+
                 this.shuffledQuestions[i],
+
                 this.shuffledQuestions[j]
+
             ] = [
+
                 this.shuffledQuestions[j],
+
                 this.shuffledQuestions[i]
+
             ];
+
         }
 
         this.currentIndex = 0;
 
         this.currentQuestion = null;
+
     },
+
+    /*==============================================
+      NEXT QUESTION
+    ==============================================*/
 
     getNextQuestion(
-    questions: Question[]
-): Question {
 
-        if (this.shuffledQuestions.length === 0) {
+        questions: Question[]
 
-            this.initialise(questions);
+    ): Question {
+
+        if (
+
+            this.shuffledQuestions.length === 0
+
+        ) {
+
+            this.initialise(
+
+                questions
+
+            );
 
         }
 
-        if (this.currentIndex >= this.shuffledQuestions.length) {
+        if (
 
-            this.initialise(questions);
+            this.currentIndex >=
+
+            this.shuffledQuestions.length
+
+        ) {
+
+            this.initialise(
+
+                questions
+
+            );
 
         }
 
-const remainingQuestions =
-    this.shuffledQuestions.slice(this.currentIndex);
+        const remainingQuestions =
 
-this.currentQuestion =
-    QuestionSelector.select(remainingQuestions);
+            this.shuffledQuestions.slice(
 
-const selectedIndex =
-    this.shuffledQuestions.indexOf(
-        this.currentQuestion
-    );
+                this.currentIndex
 
-// Move the selected question into the current position
-[
-    this.shuffledQuestions[this.currentIndex],
-    this.shuffledQuestions[selectedIndex]
-] = [
-    this.shuffledQuestions[selectedIndex],
-    this.shuffledQuestions[this.currentIndex]
-];
+            );
 
-this.currentIndex++;
+        this.currentQuestion =
 
-return this.currentQuestion;
-    },
+            QuestionSelector.select(
 
-    getCurrentQuestion(): Question | null {
+                remainingQuestions
+
+            );
+
+        const selectedIndex =
+
+            this.shuffledQuestions.indexOf(
+
+                this.currentQuestion
+
+            );
+
+        [
+
+            this.shuffledQuestions[this.currentIndex],
+
+            this.shuffledQuestions[selectedIndex]
+
+        ] = [
+
+            this.shuffledQuestions[selectedIndex],
+
+            this.shuffledQuestions[this.currentIndex]
+
+        ];
+
+        this.currentIndex++;
 
         return this.currentQuestion;
 
     },
 
-    submitAnswer(answer: number): QuestionResult {
+    /*==============================================
+      CURRENT QUESTION
+    ==============================================*/
 
-        if (!this.currentQuestion) {
+    getCurrentQuestion():
 
-            throw new Error("No current question.");
+        Question | null {
+
+        return this.currentQuestion;
+
+    },
+
+    /*==============================================
+      SUBMIT ANSWER
+    ==============================================*/
+
+    submitAnswer(
+
+        answer: number
+
+    ): QuestionResult {
+
+        if (
+
+            !this.currentQuestion
+
+        ) {
+
+            throw new Error(
+
+                "No current question."
+
+            );
 
         }
 
         const correct =
-            answer === this.currentQuestion.correct;
+
+            answer ===
+
+            this.currentQuestion.correct;
 
         return {
 
-    correct,
+            correct,
 
-    correctAnswerText:
-    this.currentQuestion.answers[
-        this.currentQuestion.correct
-    ],
+            correctAnswerText:
 
-    explanation: this.currentQuestion.explanation,
+                this.currentQuestion.answers[
 
-    xpAwarded: correct
-        ? (this.currentQuestion.xp ?? 10)
-        : 0,
+                    this.currentQuestion.correct
 
-    starsAwarded: correct
-        ? 5
-        : 0
-};
+                ] ?? "",
+
+            explanation:
+
+                this.currentQuestion.explanation,
+
+            xpAwarded:
+
+                correct
+
+                    ? (
+
+                        this.currentQuestion.xp
+
+                        ?? 10
+
+                    )
+
+                    : 0,
+
+            starsAwarded:
+
+                correct
+
+                    ? 5
+
+                    : 0
+
+        };
+
     },
+
+    /*==============================================
+      RESET
+    ==============================================*/
 
     reset(): void {
 
         this.currentIndex = 0;
 
         this.currentQuestion = null;
+
     }
+
 };
