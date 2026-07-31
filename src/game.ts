@@ -6,6 +6,7 @@ import { Worlds } from "./worlds";
 import { Treasure } from "./treasure";
 import { Dashboard } from "./dashboard";
 import { initialiseTreasureUI } from "./treasureUI";
+import { getAllQuestions } from "./questionAdapter";
 import {
     QuestionEngine,
     type Question,
@@ -126,41 +127,7 @@ function bySelector<T extends Element>(selector: string): T {
   START GAME
 ==================================================*/
 
-fetch("questions/maths.json")
 
-    .then(response => {
-
-        if (!response.ok) {
-
-            throw new Error(
-                "Unable to load questions."
-            );
-
-        }
-
-        return response.json();
-
-    })
-
-    .then(data => {
-
-        questions = data;
-
-        QuestionEngine.initialise(questions);
-
-        initialiseGame();
-
-    })
-
-    .catch(error => {
-
-        console.error(error);
-
-        alert(
-            "Sorry, the question bank could not be loaded."
-        );
-
-    });
 
 function initialiseGame() {
 
@@ -949,3 +916,15 @@ function typeWizzyMessage(text: string): void {
     }, 28);
 
 }
+
+/*==================================================
+  START APPLICATION
+==================================================*/
+
+questions = getAllQuestions();
+
+QuestionEngine.initialise(
+    questions
+);
+
+initialiseGame();

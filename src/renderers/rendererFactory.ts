@@ -6,22 +6,19 @@
 ==================================================*/
 
 import type { Question } from "../questionEngine";
+import type { NvrQuestion } from "../content/nonVerbalReasoning/nvrTypes";
 
 import {
-
     renderStandardQuestion
-
 } from "./standardQuestionRenderer";
 
 import {
-
     renderNvrQuestion
-
 } from "./nvrQuestionRenderer";
 
 export function renderQuestion(
 
-    question: Question,
+    question: Question | NvrQuestion,
 
     onNvrAnswer?: (
 
@@ -33,34 +30,26 @@ export function renderQuestion(
 
 ): void {
 
-    switch (
+    if ("figures" in question) {
 
-        question.type
+        renderNvrQuestion(
 
-    ) {
+            question,
 
-        case "nvr":
+            onNvrAnswer ??
 
-            renderNvrQuestion(
+            (() => {})
 
-                question,
+        );
 
-                onNvrAnswer ??
-
-                (() => {})
-
-            );
-
-            break;
-
-        default:
-
-            renderStandardQuestion(
-
-                question
-
-            );
+        return;
 
     }
+
+    renderStandardQuestion(
+
+        question
+
+    );
 
 }

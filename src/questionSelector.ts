@@ -1,5 +1,11 @@
+/*==================================================
+  SIA'S ADVENTURE
+
+  QUESTION SELECTOR
+
+==================================================*/
+
 import type { Question } from "./questionEngine";
-import { LearningEngine } from "./learning";
 
 export const QuestionSelector = {
 
@@ -7,39 +13,10 @@ export const QuestionSelector = {
         availableQuestions: Question[]
     ): Question {
 
-        const weakestSkill =
-            LearningEngine.getWeakestSkill();
-
-        if (!weakestSkill) {
-
-            return availableQuestions[
-                Math.floor(
-                    Math.random() * availableQuestions.length
-                )
-            ];
-
-        }
-
-        const matchingQuestions =
-            availableQuestions.filter(
-                question =>
-                    question.skillId === weakestSkill
-            );
-
-        if (matchingQuestions.length === 0) {
-
-            return availableQuestions[
-                Math.floor(
-                    Math.random() * availableQuestions.length
-                )
-            ];
-
-        }
-
-        return matchingQuestions[
+        return availableQuestions[
             Math.floor(
                 Math.random() *
-                matchingQuestions.length
+                availableQuestions.length
             )
         ];
 

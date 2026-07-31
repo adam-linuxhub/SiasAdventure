@@ -2,191 +2,166 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>Sia's Adventure</title>
 
-    <link rel="icon" href="images/ui/star.png">
-  <script type="module" crossorigin src="/assets/start-BSg_3Zkr.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/style-CQyF9PL7.js">
-  <link rel="stylesheet" crossorigin href="/assets/style-Bjzy1oOt.css">
-</head>
+    <link rel="icon"
+          href="images/ui/star.png">
 
+
+
+
+  <script type="module" crossorigin src="/assets/start-CL7lDjj1.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/theme-DJb1Agj5.js">
+  <link rel="stylesheet" crossorigin href="/assets/theme-DZ_lf1aP.css">
+  <link rel="stylesheet" crossorigin href="/assets/start-BkAlDiKU.css">
+</head>
 
 <body>
 
-    <main class="adventure-container">
+<main class="adventure-container">
+    <div id="stars"></div>
 
-        <header class="game-header">
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
 
-            <h1 class="academy-title">
-                ✨ Sia's Adventure ✨
-            </h1>
+    <header class="game-header">
 
-            <p class="academy-subtitle">
-                Academy of Knowledge
-            </p>
+        <h1 class="academy-title">
 
-            <p class="academy-description">
-                Your magical journey of learning, discovery and achievement begins.
-            </p>
+            ✨ Sia's Adventure ✨
 
-        </header>
+        </h1>
 
+        <p class="academy-subtitle">
 
-        <section class="characters">
+            Academy of Knowledge
 
+        </p>
 
-            <div class="character-card">
+    </header>
 
-                <div class="character-image wizard">
-                    <img
-                        src="/assets/wizzy-DbYoABQA.png"
-                        alt="Wizzy">
-                </div>
 
-                <h2>Wizzy</h2>
+    <!-- =====================================================
+         STORY
+    ====================================================== -->
 
-                <p>
-                    Your friendly wizard guide.
-                </p>
+    <section class="story-panel">
 
-            </div>
+        <h2>
 
+            The Adventure Begins!
 
+        </h2>
 
-            <div class="character-card">
+        <p>
 
-                <div class="character-image owl">
-                    <img
-                        src="/assets/hootie-B7F1PQV5.png"
-                        alt="Hootie">
-                </div>
+            Oh no!
 
-                <h2>Hootie</h2>
+            <strong>Wizzy</strong>
 
-                <p>
-                    Your clever hint helper.
-                </p>
+            has lost the
 
-            </div>
+            <strong>Magical Potion of Knowledge</strong>.
 
+            Help him answer questions,
+            collect stars,
+            unlock treasure chests
+            and restore the Academy's magic!
 
+        </p>
 
-            <div class="character-card">
+    </section>
 
-                <div class="character-image rabbit">
-                    <img
-                        src="/assets/hop-DKKx4U84.png"
-                        alt="Hop">
-                </div>
 
-                <h2>Hop</h2>
+    <!-- =====================================================
+         CHARACTERS
+    ====================================================== -->
 
-                <p>
-                    Your celebration friend.
-                </p>
+    <section class="characters">
 
-            </div>
+        <div class="character-card"
+             data-character="hootie">
 
+            <img
+                src="/assets/hootie-B7F1PQV5.png"
+                alt="Hootie">
 
-        </section>
+        </div>
 
+        <div class="character-card wizzy-card"
+             data-character="wizzy">
 
-        <section class="adventure-panel">
+            <img
+                src="/assets/wizzy-DbYoABQA.png"
+                alt="Wizzy">
 
+        </div>
 
-            <h2>
-                Ready for an adventure?
-            </h2>
+        <div class="character-card"
+             data-character="hop">
 
+            <img
+                src="/assets/hop-DKKx4U84.png"
+                alt="Hop">
 
-            <button type="button" class="magic-button"
-                onclick="startAdventure()">
+        </div>
 
-                ▶ Start Adventure
+    </section>
 
-            </button>
 
+    <!-- =====================================================
+         SPEECH BUBBLE
+    ====================================================== -->
 
+    <div id="speech-bubble"
+         class="speech-bubble">
 
-            <button type="button" class="magic-button secondary"
-                onclick="continueAdventure()">
+        <div id="speech-name"
+             class="speech-name">
 
-                ⭐ Continue Adventure
+        </div>
 
-            </button>
+        <div id="speech-text">
 
+        </div>
 
+    </div>
 
-            <button type="button" class="magic-button secondary"
-                onclick="openDashboard()">
 
-                📈 My Progress
+    <!-- =====================================================
+         BUTTON
+    ====================================================== -->
 
-            </button>
+    <section class="button-panel">
 
+        <button
+            class="magic-button"
+            onclick="startAdventure()">
 
-        </section>
+            Start Adventure
 
+        </button>
 
+    </section>
 
-        <section class="player-stats">
 
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
 
-            <h3>
-                Explorer Level
-            </h3>
+    <footer class="start-footer">
 
+        Sia's Adventure • Version 1.0 • © 2026
 
-            <div
-                class="level"
-                id="current-level">
+    </footer>
 
-                Loading...
-
-            </div>
-
-
-            <div class="xp-bar">
-
-                <div class="xp-progress"></div>
-
-            </div>
-
-
-            <p>
-
-            ⭐ Stars:
-            <strong id="stars">
-
-            0
-
-            </strong>
-
-            </p>
-
-
-            <p>
-
-            🎁 Treasure Chests:
-            <strong id="treasure-count">
-
-            0
-
-            </strong>
-
-            </p>
-
-
-        </section>
-
-
-
-    </main>
-
-
+</main>
 
 
 

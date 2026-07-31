@@ -2,202 +2,390 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
     <title>Sia's Adventure | Academy of Knowledge</title>
-    <link rel="icon" href="images/ui/star.png">
-  <script type="module" crossorigin src="/assets/game-MDmS2JMG.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/style-CQyF9PL7.js">
-  <link rel="stylesheet" crossorigin href="/assets/style-Bjzy1oOt.css">
+
+    <link
+        rel="icon"
+        href="images/ui/star.png">
+
+
+
+  <script type="module" crossorigin src="/assets/game-3TshAyEO.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/theme-DJb1Agj5.js">
+  <link rel="stylesheet" crossorigin href="/assets/theme-DZ_lf1aP.css">
+  <link rel="stylesheet" crossorigin href="/assets/game-Y8gwb7g6.css">
 </head>
 
 <body>
 
-    <main class="adventure-container">
+<main class="adventure-container">
 
-        <header class="game-header">
+    <header class="game-header">
 
-            <h1 class="academy-title">✨ Sia's Adventure ✨</h1>
+        <h1 class="academy-title">
+
+            ✨ Sia's Adventure ✨
+
+        </h1>
+
+    </header>
 
 
-        </header>
+    <section class="game-stage">
+
+        <!-- ==========================
+             Main Question Panel
+        =========================== -->
+
+        <div
+            id="game-content"
+            class="question-area">
+
+            <div class="wizard-header">
+
+                <div class="character-image wizard">
+
+                    <img
+                        src="/assets/wizzy-DbYoABQA.png"
+                        alt="Wizzy">
+
+                </div>
+
+                <div class="wizard-message">
+
+                    <div class="speech-bubble">
+
+                        <h2>Wizzy's Challenge</h2>
+
+                        <p id="wizzy-message">
+
+                            Welcome back, Sia!
+
+                            <br><br>
+
+                            Let's keep learning and having fun!
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
 
 
-        <section class="game-stage">
+            <div class="question-card">
 
-            <!-- ==========================
-                 Main Question Panel
-            =========================== -->
+                <p id="question-text">
 
-            <div class="question-area">
-
-<div class="wizard-header">
-
-    <div class="character-image wizard">
-
-        <img
-            src="/assets/wizzy-DbYoABQA.png"
-            alt="Wizzy">
-
-    </div>
-
-    <div class="wizard-message">
-
-        <div class="speech-bubble">
-
-            <h2>Wizzy's Challenge</h2>
-
-                <p id="wizzy-message">
-
-                    Welcome back, Sia!
-
-                    <br><br>
-
-                    Let's keep learning and having fun!
+                    Loading question...
 
                 </p>
+
+                <form
+                    id="answer-form"
+                    autocomplete="off">
+
+                    <div id="answers"></div>
+
+                </form>
+
+            </div>
+
+
+            <div class="buttons">
+
+                <button
+                    type="button"
+                    class="magic-button"
+                    id="submit-answer">
+
+                    Submit
+
+                </button>
+
+                <button
+                    type="button"
+                    class="magic-button secondary"
+                    id="dont-know">
+
+                    I Don't Know
+
+                </button>
+
+                <button
+                    type="button"
+                    class="magic-button"
+                    id="next-question">
+
+                    Next Question
+
+                </button>
+
+            </div>
+
+
+            <div
+                id="explanation"
+                class="explanation hidden">
 
             </div>
 
         </div>
-    </div>
 
 
-                <div class="question-card">
+        <!-- ==========================
+             Hootie + Treasure Chest
+        =========================== -->
 
-                    <p id="question-text">
-                        Loading question...
-                    </p>
+        <!-- ==========================
+            Hootie Hint Helper
+        =========================== -->
 
-                    <form id="answer-form" autocomplete="off">
+        <aside
+            id="helper-panel"
+            class="hootie-helper">
 
-                        <div id="answers"></div>
+            <div
+                id="owl-panel"
+                class="hootie-image">
 
-                    </form>
+                <img
+                    src="/assets/hootie-B7F1PQV5.png"
+                    alt="Hootie">
 
-                </div>
+            </div>
 
-                <div id="explanation"
-                     class="explanation hidden">
-                </div>
 
-                <div class="buttons">
+            <div class="hint-box">
 
-                    <button
-                        type="button"
-                        class="magic-button"
-                        id="submit-answer">
-                        Submit
-                    </button>
+                <span>
 
-                    <button
-                        type="button"
-                        class="magic-button secondary"
-                        id="dont-know">
-                        I Don't Know
-                    </button>
-                    <button
-                        type="button"
-                        class="magic-button"
-                        id="next-question">
-                        Next Question ✨
-                    </button>
+                    Need a clue?<br>
+
+                    Click Hootie!
+
+                </span>
+
+                <p id="hint-text"></p>
+
+            </div>
+
+        </aside>
+
+
+        <!-- ==========================
+            Treasure Chest Button
+        =========================== -->
+
+        <div
+            id="treasure-button"
+            class="treasure-button">
+
+            <img
+                src="/assets/treasure-chest-CPGN6UKn.png"
+                alt="Treasure Chest">
+
+        </div>
+    </section>
+
+
+    <!-- ==========================
+         Player Stats
+    =========================== -->
+
+    <section
+        id="stats-panel"
+        class="player-stats">
+
+        <div class="stats-row top-row">
+
+            <div class="stat-stars">
+
+                ⭐ Stars:
+
+                <strong id="stars">
+
+                    0
+
+                </strong>
+
+            </div>
+
+
+            <div class="stat-level">
+
+                🏅 Rank:
+
+                <strong id="level">
+
+                    Explorer
+
+                </strong>
+
+            </div>
+
+
+            <div class="stat-treasure">
+
+                💰 Treasure:
+
+                <strong id="treasure-chests">
+
+                    0
+
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="stats-row bottom-row">
+
+            <div class="stat-world">
+
+                🌍
+
+                <strong id="world">
+
+                    Crystal Caves
+
+                </strong>
+
+            </div>
+
+
+            <div class="magic-meter">
+
+                <div class="magic-track">
+
+                    <div
+                        id="xp-progress"
+                        class="magic-fill">
+
+                    </div>
+
                 </div>
 
             </div>
 
 
-            <!-- ==========================
-                 Hootie Hint Helper
-            =========================== -->
+            <div
+                id="level-progress"
+                class="progress-percent">
 
-            <aside class="hootie-helper">
-
-                <div class="hootie-image">
-
-                    <img
-                        src="/assets/hootie-B7F1PQV5.png"
-                        alt="Hootie">
-
-                </div>
-
-                <div class="hint-box">
-
-                    <span>
-                        Need a clue?<br>Click Hootie!
-                    </span>
-
-                    <p id="hint-text"></p>
-
-                </div>
-
-            </aside>
-
-        </section>
-
-
-        <section class="player-stats">
-
-            <h3>Adventure Progress</h3>
-
-            <div class="xp-bar">
-
-                <div
-                    id="xp-progress"
-                    class="xp-progress">
-                </div>
+                0%
 
             </div>
 
-            <div class="bottom-stats">
+        </div>
 
-    <span>
-        ⭐ Stars:
-        <strong id="stars">0</strong>
-    </span>
-
-    <span>
-        🏆 Level:
-        <strong id="level">
-            Explorer
-        </strong>
-    </span>
-
-</div>
-
-        </section>
-
-        <!-- Hop Celebration -->
-
-<!-- ==========================
-     Hop Celebration
-========================== -->
+    </section>
 
 
-<div id="hop-celebration">
+    <!-- ==========================
+         Treasure Collection
+    =========================== -->
 
-    <img
-        src="/assets/hop-DKKx4U84.png"
-        alt="Hop">
+    <section
+        id="treasure-collection"
+        class="treasure-collection hidden">
 
-    <div id="hop-message" class="hop-message">
+        <div class="treasure-header">
 
-    Great job, Sia!
+            <h2>
+
+                💰 Treasure Collection
+
+            </h2>
+
+            <button
+                id="close-treasure"
+                class="close-button"
+                type="button">
+
+                ✕
+
+            </button>
+
+        </div>
+
+        <div
+            id="treasure-gallery"
+            class="treasure-gallery">
+
+            <!-- Treasure items inserted here -->
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Hop Celebration
+    =========================== -->
+
+    <div id="hop-celebration">
+
+        <img
+            src="/assets/hop-DKKx4U84.png"
+            alt="Hop">
+
+        <div
+            id="hop-message"
+            class="hop-message">
+
+            Great job, Sia!
+
+        </div>
 
     </div>
 
-</div>
-<audio id="correct-sound"></audio>
 
-<audio id="wrong-sound"></audio>
+    <!-- ==========================
+         Audio
+    =========================== -->
 
-<audio id="treasure-sound"></audio>
-<footer>
+    <audio id="correct-sound"></audio>
 
-    Version 1.0
+    <audio id="wrong-sound"></audio>
 
-</footer>
-    </main>
+    <audio id="treasure-sound"></audio>
+
+
+    <!-- ==========================
+         Adventure Statistics
+    =========================== -->
+
+    <section
+    class="statistics-panel hidden">
+
+        <h2>
+
+            📊 Adventure Statistics
+
+        </h2>
+
+        <div id="statistics"></div>
+
+    </section>
+
+
+    <footer>
+
+        Version 1.0
+
+    </footer>
+
+</main>
 
 
 

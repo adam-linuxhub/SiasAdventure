@@ -1,4 +1,7 @@
-{
+import type { NvrQuestion } from "../../nvrTypes";
+
+const questions: NvrQuestion[] = [
+    {
     id: "nvr-soo-001",
     skillId: "shape-odd-one-out",
     stage: "recognise",
