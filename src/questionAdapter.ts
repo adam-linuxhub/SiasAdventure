@@ -74,9 +74,13 @@ function convertActivity(
 
 export function getAllQuestions(): Question[] {
 
-    const skills: SkillContent[] =
-        getAllSkills();
+const skills: SkillContent[] =
+    getAllSkills();
 
+console.log(
+    "GAME SKILLS FOUND:",
+    skills.length
+);
     console.log("=================================");
     console.log("Loaded Skills");
     console.log("=================================");
