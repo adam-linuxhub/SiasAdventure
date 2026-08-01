@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const continents: SkillContent = {
+const continents: SkillContent = {
 
     skillId: "continents",
 
@@ -477,5 +477,14 @@ export const continents: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default continents;
+
+export {
+
+    continents
 
 };

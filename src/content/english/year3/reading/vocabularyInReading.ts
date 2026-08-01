@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const vocabularyInReading: SkillContent = {
+const vocabularyInReading: SkillContent = {
 
     skillId: "vocabularyInReading",
 
@@ -477,5 +477,14 @@ export const vocabularyInReading: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default vocabularyInReading;
+
+export {
+
+    vocabularyInReading
 
 };

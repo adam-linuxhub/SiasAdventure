@@ -12,9 +12,9 @@ import mountainsAroundTheWorld from "./mountainsAroundTheWorld";
 
 export default [
 
-    ...humansAndMountains,
-    ...mountainBasics,
-    ...mountainFormation,
-    ...mountainsAroundTheWorld
+    humansAndMountains,
+    mountainBasics,
+    mountainFormation,
+    mountainsAroundTheWorld
 
 ];

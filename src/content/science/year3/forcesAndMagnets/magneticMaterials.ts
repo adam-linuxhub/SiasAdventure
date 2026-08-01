@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const magneticMaterials: SkillContent = {
+const magneticMaterials: SkillContent = {
 
     skillId: "magneticMaterials",
 
@@ -457,5 +457,14 @@ export const magneticMaterials: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default magneticMaterials;
+
+export {
+
+    magneticMaterials
 
 };

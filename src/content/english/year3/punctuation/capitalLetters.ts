@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const capitalLetters: SkillContent = {
+const capitalLetters: SkillContent = {
 
     skillId: "capitalLetters",
 
@@ -457,5 +457,14 @@ export const capitalLetters: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default capitalLetters;
+
+export {
+
+    capitalLetters
 
 };

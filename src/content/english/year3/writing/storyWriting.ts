@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const storyWriting: SkillContent = {
+const storyWriting: SkillContent = {
 
     skillId: "storyWriting",
 
@@ -477,5 +477,14 @@ export const storyWriting: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default storyWriting;
+
+export {
+
+    storyWriting
 
 };

@@ -12,9 +12,9 @@ import weatherAndClimate from "./weatherAndClimate";
 
 export default [
 
-    ...coasts,
-    ...mountainsAndHills,
-    ...rivers,
-    ...weatherAndClimate
+    coasts,
+    mountainsAndHills,
+    rivers,
+    weatherAndClimate
 
 ];

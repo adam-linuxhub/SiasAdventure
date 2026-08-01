@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const healthyDiet: SkillContent = {
+const healthyDiet: SkillContent = {
 
     skillId: "healthyDiet",
 
@@ -540,5 +540,14 @@ export const healthyDiet: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default healthyDiet;
+
+export {
+
+    healthyDiet
 
 };

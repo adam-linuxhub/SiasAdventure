@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const desertBiome: SkillContent = {
+const desertBiome: SkillContent = {
 
     skillId: "desertBiome",
 
@@ -477,5 +477,14 @@ export const desertBiome: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default desertBiome;
+
+export {
+
+    desertBiome
 
 };

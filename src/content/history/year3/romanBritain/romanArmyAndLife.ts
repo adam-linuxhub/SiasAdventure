@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const romanArmyAndLife: SkillContent = {
+const romanArmyAndLife: SkillContent = {
 
     skillId: "romanArmyAndLife",
 
@@ -477,5 +477,14 @@ export const romanArmyAndLife: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default romanArmyAndLife;
+
+export {
+
+    romanArmyAndLife
 
 };

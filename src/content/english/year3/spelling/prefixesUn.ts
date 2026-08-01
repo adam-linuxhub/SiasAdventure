@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const prefixesUn: SkillContent = {
+const prefixesUn: SkillContent = {
 
     skillId: "prefixesUn",
 
@@ -457,5 +457,14 @@ export const prefixesUn: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default prefixesUn;
+
+export {
+
+    prefixesUn
 
 };

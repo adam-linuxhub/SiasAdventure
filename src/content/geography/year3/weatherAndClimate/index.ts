@@ -12,9 +12,9 @@ import weatherBasics from "./weatherBasics";
 
 export default [
 
-    ...climateZones,
-    ...extremeWeather,
-    ...measuringWeather,
-    ...weatherBasics
+    climateZones,
+    extremeWeather,
+    measuringWeather,
+    weatherBasics
 
 ];

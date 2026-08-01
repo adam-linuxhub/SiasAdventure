@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const conjunctions: SkillContent = {
+const conjunctions: SkillContent = {
 
     skillId: "conjunctions",
 
@@ -457,5 +457,13 @@ export const conjunctions: SkillContent = {
     }
 
     ]
+
+};
+
+export default conjunctions;
+
+export {
+
+    conjunctions
 
 };

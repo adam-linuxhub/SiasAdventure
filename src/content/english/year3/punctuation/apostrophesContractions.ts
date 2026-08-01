@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const apostrophesContractions: SkillContent = {
+const apostrophesContractions: SkillContent = {
 
     skillId: "apostrophesContractions",
 
@@ -457,5 +457,14 @@ export const apostrophesContractions: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default apostrophesContractions;
+
+export {
+
+    apostrophesContractions
 
 };

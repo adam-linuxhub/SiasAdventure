@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const rockyAndGasGiants: SkillContent = {
+const rockyAndGasGiants: SkillContent = {
 
     skillId: "rocky-and-gas-giants",
 
@@ -1345,5 +1345,14 @@ export const rockyAndGasGiants: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default rockyAndGasGiants;
+
+export {
+
+    rockyAndGasGiants
 
 };

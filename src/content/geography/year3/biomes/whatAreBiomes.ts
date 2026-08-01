@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const whatAreBiomes: SkillContent = {
+const whatAreBiomes: SkillContent = {
 
     skillId: "whatAreBiomes",
 
@@ -477,5 +477,14 @@ export const whatAreBiomes: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default whatAreBiomes;
+
+export {
+
+    whatAreBiomes
 
 };

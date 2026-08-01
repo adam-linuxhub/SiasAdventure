@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const skeletons: SkillContent = {
+const skeletons: SkillContent = {
 
     skillId: "skeletons",
 
@@ -558,5 +558,14 @@ export const skeletons: SkillContent = {
         ]
     },
         ]
+
+};
+
+
+export default skeletons;
+
+export {
+
+    skeletons
 
 };

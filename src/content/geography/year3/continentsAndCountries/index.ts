@@ -11,8 +11,8 @@ import oceans from "./oceans";
 
 export default [
 
-    ...continents,
-    ...locatingCountries,
-    ...oceans
+    continents,
+    locatingCountries,
+    oceans
 
 ];

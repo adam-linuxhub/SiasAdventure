@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const settlements: SkillContent = {
+const settlements: SkillContent = {
 
     skillId: "settlements",
 
@@ -457,5 +457,14 @@ export const settlements: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default settlements;
+
+export {
+
+    settlements
 
 };

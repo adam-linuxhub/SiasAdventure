@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const antonyms: SkillContent = {
+const antonyms: SkillContent = {
 
     skillId: "antonyms",
 
@@ -457,5 +457,14 @@ export const antonyms: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default antonyms;
+
+export {
+
+    antonyms
 
 };

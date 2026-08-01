@@ -12,9 +12,9 @@ import rockyAndGasGiants from "./rockyAndGasGiants";
 
 export default [
 
-    ...planetFacts,
-    ...planetNames,
-    ...planetOrder,
-    ...rockyAndGasGiants
+    planetFacts,
+    planetNames,
+    planetOrder,
+    rockyAndGasGiants
 
 ];

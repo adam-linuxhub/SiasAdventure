@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const environmentalChange: SkillContent = {
+const environmentalChange: SkillContent = {
 
     skillId: "environmentalChange",
 
@@ -457,5 +457,14 @@ export const environmentalChange: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default environmentalChange;
+
+export {
+
+    environmentalChange
 
 };

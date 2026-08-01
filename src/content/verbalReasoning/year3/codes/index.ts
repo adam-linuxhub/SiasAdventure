@@ -11,8 +11,8 @@ import codes3 from "./codes3";
 
 export default [
 
-    ...codes1,
-    ...codes2,
-    ...codes3
+    codes1,
+    codes2,
+    codes3
 
 ];

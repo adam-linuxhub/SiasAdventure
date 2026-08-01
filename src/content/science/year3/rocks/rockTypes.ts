@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const rockTypes: SkillContent = {
+const rockTypes: SkillContent = {
 
     skillId: "rockTypes",
 
@@ -544,5 +544,14 @@ export const rockTypes: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default rockTypes;
+
+export {
+
+    rockTypes
 
 };

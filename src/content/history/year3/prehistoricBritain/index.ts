@@ -12,9 +12,9 @@ import stoneBronzeIronComparison from "./stoneBronzeIronComparison";
 
 export default [
 
-    ...bronzeAge,
-    ...ironAge,
-    ...stoneAge,
-    ...stoneBronzeIronComparison
+    bronzeAge,
+    ironAge,
+    stoneAge,
+    stoneBronzeIronComparison
 
 ];

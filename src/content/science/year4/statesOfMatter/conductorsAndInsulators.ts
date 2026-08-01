@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const conductorsAndInsulators: SkillContent = {
+const conductorsAndInsulators: SkillContent = {
 
     skillId: "conductorsAndInsulators",
 
@@ -457,5 +457,14 @@ export const conductorsAndInsulators: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default conductorsAndInsulators;
+
+export {
+
+    conductorsAndInsulators
 
 };

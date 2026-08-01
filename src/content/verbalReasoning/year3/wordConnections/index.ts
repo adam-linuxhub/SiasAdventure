@@ -12,9 +12,9 @@ import wordConnections4 from "./wordConnections4";
 
 export default [
 
-    ...wordConnections1,
-    ...wordConnections2,
-    ...wordConnections3,
-    ...wordConnections4
+    wordConnections1,
+    wordConnections2,
+    wordConnections3,
+    wordConnections4
 
 ];

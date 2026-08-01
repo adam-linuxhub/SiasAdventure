@@ -16,13 +16,13 @@ import vocabularyInReading from "./vocabularyInReading";
 
 export default [
 
-    ...authorIntent,
-    ...inference,
-    ...prediction,
-    ...readingFluency,
-    ...retrieval,
-    ...sequencing,
-    ...summarising,
-    ...vocabularyInReading
+    authorIntent,
+    inference,
+    prediction,
+    readingFluency,
+    retrieval,
+    sequencing,
+    summarising,
+    vocabularyInReading
 
 ];

@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const mapSymbols: SkillContent = {
+const mapSymbols: SkillContent = {
 
     skillId: "mapSymbols",
 
@@ -457,5 +457,14 @@ export const mapSymbols: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default mapSymbols;
+
+export {
+
+    mapSymbols
 
 };

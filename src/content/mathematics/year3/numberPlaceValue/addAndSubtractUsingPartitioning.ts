@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const addAndSubtractUsingPartitioning: SkillContent = {
+const addAndSubtractUsingPartitioning: SkillContent = {
     skillId: "add-and-subtract-using-partitioning",
 
     title: "Add and Subtract Using Partitioning",
@@ -1012,4 +1012,13 @@ export const addAndSubtractUsingPartitioning: SkillContent = {
 },
 
     ]
+};
+
+
+export default addAndSubtractUsingPartitioning;
+
+export {
+
+    addAndSubtractUsingPartitioning
+
 };

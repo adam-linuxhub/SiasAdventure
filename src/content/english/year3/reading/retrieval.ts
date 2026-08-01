@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const retrieval: SkillContent = {
+const retrieval: SkillContent = {
 
     skillId: "retrieval",
 
@@ -477,5 +477,14 @@ export const retrieval: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default retrieval;
+
+export {
+
+    retrieval
 
 };

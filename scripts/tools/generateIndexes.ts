@@ -367,7 +367,7 @@ export { default } from "./${name}";
 
         exports.push(
 
-            `    ...${name}`
+            `    ${name}`
 
         );
 

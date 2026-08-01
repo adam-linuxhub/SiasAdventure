@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const whatPlantsNeed: SkillContent = {
+const whatPlantsNeed: SkillContent = {
 
     skillId: "what-plants-need",
 
@@ -1320,5 +1320,14 @@ export const whatPlantsNeed: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default whatPlantsNeed;
+
+export {
+
+    whatPlantsNeed
 
 };

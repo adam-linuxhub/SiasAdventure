@@ -10,7 +10,7 @@ import mixedVerbalReasoning2 from "./mixedVerbalReasoning2";
 
 export default [
 
-    ...mixedVerbalReasoning1,
-    ...mixedVerbalReasoning2
+    mixedVerbalReasoning1,
+    mixedVerbalReasoning2
 
 ];

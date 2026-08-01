@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const questionMarks: SkillContent = {
+const questionMarks: SkillContent = {
 
     skillId: "questionMarks",
 
@@ -457,5 +457,14 @@ export const questionMarks: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default questionMarks;
+
+export {
+
+    questionMarks
 
 };

@@ -13,10 +13,10 @@ import livingOrDead from "./livingOrDead";
 
 export default [
 
-    ...classification,
-    ...environmentalChange,
-    ...foodChains,
-    ...habitats,
-    ...livingOrDead
+    classification,
+    environmentalChange,
+    foodChains,
+    habitats,
+    livingOrDead
 
 ];

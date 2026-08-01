@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const compareOrderNumbers: SkillContent = {
+const compareOrderNumbers: SkillContent = {
     skillId: "compare-order-numbers",
 
     title: "Compare and Order Numbers",
@@ -1011,4 +1011,13 @@ export const compareOrderNumbers: SkillContent = {
         "209 is the smallest, followed by 902 and then 920."
 }
     ]
+};
+
+
+export default compareOrderNumbers;
+
+export {
+
+    compareOrderNumbers
+
 };

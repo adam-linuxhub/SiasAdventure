@@ -12,9 +12,9 @@ import wordFamilies from "./wordFamilies";
 
 export default [
 
-    ...antonyms,
-    ...synonyms,
-    ...usingContext,
-    ...wordFamilies
+    antonyms,
+    synonyms,
+    usingContext,
+    wordFamilies
 
 ];

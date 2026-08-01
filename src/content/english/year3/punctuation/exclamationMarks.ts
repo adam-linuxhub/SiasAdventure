@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const exclamationMarks: SkillContent = {
+const exclamationMarks: SkillContent = {
 
     skillId: "exclamationMarks",
 
@@ -457,5 +457,14 @@ export const exclamationMarks: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default exclamationMarks;
+
+export {
+
+    exclamationMarks
 
 };

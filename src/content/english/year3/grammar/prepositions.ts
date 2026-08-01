@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const prepositions: SkillContent = {
+const prepositions: SkillContent = {
 
     skillId: "prepositions",
 
@@ -457,5 +457,13 @@ export const prepositions: SkillContent = {
     }
 
     ]
+
+};
+
+export default prepositions;
+
+export {
+
+    prepositions
 
 };

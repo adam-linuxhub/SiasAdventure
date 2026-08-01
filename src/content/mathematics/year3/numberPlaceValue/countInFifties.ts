@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const countInFifties: SkillContent = {
+const countInFifties: SkillContent = {
     skillId: "count-in-fifties",
 
     title: "Count in 50s",
@@ -1011,4 +1011,13 @@ export const countInFifties: SkillContent = {
         "Every number increases by exactly 50."
 }
     ]
+};
+
+
+export default countInFifties;
+
+export {
+
+    countInFifties
+
 };

@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const solidsLiquidsGases: SkillContent = {
+const solidsLiquidsGases: SkillContent = {
 
     skillId: "solidsLiquidsGases",
 
@@ -457,5 +457,14 @@ export const solidsLiquidsGases: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default solidsLiquidsGases;
+
+export {
+
+    solidsLiquidsGases
 
 };

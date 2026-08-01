@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const magnetPoles: SkillContent = {
+const magnetPoles: SkillContent = {
 
     skillId: "magnetPoles",
 
@@ -457,5 +457,14 @@ export const magnetPoles: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default magnetPoles;
+
+export {
+
+    magnetPoles
 
 };

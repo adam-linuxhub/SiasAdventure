@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const fossils: SkillContent = {
+const fossils: SkillContent = {
 
     skillId: "fossils",
 
@@ -457,5 +457,14 @@ export const fossils: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default fossils;
+
+export {
+
+    fossils
 
 };

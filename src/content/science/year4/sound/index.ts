@@ -12,9 +12,9 @@ import soundTravelsThroughMaterials from "./soundTravelsThroughMaterials";
 
 export default [
 
-    ...howSoundsAreMade,
-    ...pitchAndVolume,
-    ...protectingHearing,
-    ...soundTravelsThroughMaterials
+    howSoundsAreMade,
+    pitchAndVolume,
+    protectingHearing,
+    soundTravelsThroughMaterials
 
 ];

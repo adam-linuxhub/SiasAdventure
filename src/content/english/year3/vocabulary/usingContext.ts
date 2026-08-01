@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const usingContext: SkillContent = {
+const usingContext: SkillContent = {
 
     skillId: "usingContext",
 
@@ -457,5 +457,14 @@ export const usingContext: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default usingContext;
+
+export {
+
+    usingContext
 
 };

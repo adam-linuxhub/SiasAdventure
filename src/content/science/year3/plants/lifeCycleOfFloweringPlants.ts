@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const lifeCycleOfFloweringPlants: SkillContent = {
+const lifeCycleOfFloweringPlants: SkillContent = {
 
     skillId: "life-cycle-of-flowering-plants",
 
@@ -1332,5 +1332,14 @@ export const lifeCycleOfFloweringPlants: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default lifeCycleOfFloweringPlants;
+
+export {
+
+    lifeCycleOfFloweringPlants
 
 };

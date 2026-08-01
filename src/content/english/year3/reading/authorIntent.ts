@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const authorIntent: SkillContent = {
+const authorIntent: SkillContent = {
 
     skillId: "authorIntent",
 
@@ -477,5 +477,14 @@ export const authorIntent: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default authorIntent;
+
+export {
+
+    authorIntent
 
 };

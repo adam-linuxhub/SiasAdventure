@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const dailyLife: SkillContent = {
+const dailyLife: SkillContent = {
 
     skillId: "dailyLife",
 
@@ -477,5 +477,14 @@ export const dailyLife: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default dailyLife;
+
+export {
+
+    dailyLife
 
 };

@@ -14,11 +14,11 @@ import suffixesLy from "./suffixesLy";
 
 export default [
 
-    ...addingSuffixes,
-    ...commonExceptionWords1,
-    ...commonExceptionWords2,
-    ...homophones,
-    ...prefixesUn,
-    ...suffixesLy
+    addingSuffixes,
+    commonExceptionWords1,
+    commonExceptionWords2,
+    homophones,
+    prefixesUn,
+    suffixesLy
 
 ];

@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const wordFamilies: SkillContent = {
+const wordFamilies: SkillContent = {
 
     skillId: "wordFamilies",
 
@@ -457,5 +457,14 @@ export const wordFamilies: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default wordFamilies;
+
+export {
+
+    wordFamilies
 
 };

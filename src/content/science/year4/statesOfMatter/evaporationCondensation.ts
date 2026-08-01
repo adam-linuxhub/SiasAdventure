@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const evaporationCondensation: SkillContent = {
+const evaporationCondensation: SkillContent = {
 
     skillId: "evaporationCondensation",
 
@@ -457,5 +457,14 @@ export const evaporationCondensation: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default evaporationCondensation;
+
+export {
+
+    evaporationCondensation
 
 };

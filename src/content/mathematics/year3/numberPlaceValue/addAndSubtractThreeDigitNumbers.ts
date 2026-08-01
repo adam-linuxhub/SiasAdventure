@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const addAndSubtractThreeDigitNumbers: SkillContent = {
+const addAndSubtractThreeDigitNumbers: SkillContent = {
     skillId: "add-and-subtract-three-digit-numbers",
 
     title: "Add and Subtract Three-Digit Numbers",
@@ -1012,4 +1012,13 @@ export const addAndSubtractThreeDigitNumbers: SkillContent = {
 },
 
     ]
+};
+
+
+export default addAndSubtractThreeDigitNumbers;
+
+export {
+
+    addAndSubtractThreeDigitNumbers
+
 };

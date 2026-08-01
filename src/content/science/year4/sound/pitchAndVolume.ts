@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const pitchAndVolume: SkillContent = {
+const pitchAndVolume: SkillContent = {
 
     skillId: "pitchAndVolume",
 
@@ -457,5 +457,14 @@ export const pitchAndVolume: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default pitchAndVolume;
+
+export {
+
+    pitchAndVolume
 
 };

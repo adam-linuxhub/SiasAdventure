@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const partsOfAPlant: SkillContent = {
+const partsOfAPlant: SkillContent = {
 
     skillId: "parts-of-a-plant",
 
@@ -1325,5 +1325,14 @@ export const partsOfAPlant: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default partsOfAPlant;
+
+export {
+
+    partsOfAPlant
 
 };

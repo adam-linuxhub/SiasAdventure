@@ -1,7 +1,23 @@
+/*==================================================
+  NUMBER PLACE VALUE
+
+==================================================*/
+
 import { hundredsTensOnes } from "./hundredsTensOnes";
 import { partitionNumbers } from "./partitionNumbers";
 
-export const year3NumberPlaceValue = [
+const numberPlaceValue = [
+
     hundredsTensOnes,
+
     partitionNumbers
+
 ];
+
+export default numberPlaceValue;
+
+export {
+
+    numberPlaceValue
+
+};

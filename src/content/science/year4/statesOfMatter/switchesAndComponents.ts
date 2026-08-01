@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const switchesAndComponents: SkillContent = {
+const switchesAndComponents: SkillContent = {
 
     skillId: "switchesAndComponents",
 
@@ -457,5 +457,14 @@ export const switchesAndComponents: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default switchesAndComponents;
+
+export {
+
+    switchesAndComponents
 
 };

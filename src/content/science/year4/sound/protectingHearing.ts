@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const protectingHearing: SkillContent = {
+const protectingHearing: SkillContent = {
 
     skillId: "protectingHearing",
 
@@ -457,5 +457,14 @@ export const protectingHearing: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default protectingHearing;
+
+export {
+
+    protectingHearing
 
 };

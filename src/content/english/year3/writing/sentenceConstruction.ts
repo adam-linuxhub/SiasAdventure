@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const sentenceConstruction: SkillContent = {
+const sentenceConstruction: SkillContent = {
 
     skillId: "sentenceConstruction",
 
@@ -477,5 +477,14 @@ export const sentenceConstruction: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default sentenceConstruction;
+
+export {
+
+    sentenceConstruction
 
 };

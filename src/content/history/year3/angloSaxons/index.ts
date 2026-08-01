@@ -12,9 +12,9 @@ import kingdomsAndReligion from "./kingdomsAndReligion";
 
 export default [
 
-    ...angloSaxonArrival,
-    ...angloSaxonLegacy,
-    ...angloSaxonLife,
-    ...kingdomsAndReligion
+    angloSaxonArrival,
+    angloSaxonLegacy,
+    angloSaxonLife,
+    kingdomsAndReligion
 
 ];

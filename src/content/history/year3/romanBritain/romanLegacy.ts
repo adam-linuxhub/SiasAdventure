@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const romanLegacy: SkillContent = {
+const romanLegacy: SkillContent = {
 
     skillId: "romanLegacy",
 
@@ -477,5 +477,14 @@ export const romanLegacy: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default romanLegacy;
+
+export {
+
+    romanLegacy
 
 };

@@ -4,7 +4,7 @@ import {
 } from "../../../types";
 
 
-export const hundredsTensOnes: SkillContent = {
+const hundredsTensOnes: SkillContent = {
     skillId: "hundreds-tens-ones",
 
     title: "Hundreds, Tens and Ones",
@@ -1013,4 +1013,13 @@ export const hundredsTensOnes: SkillContent = {
 }
 
     ]
+};
+
+
+export default hundredsTensOnes;
+
+export {
+
+    hundredsTensOnes
+
 };

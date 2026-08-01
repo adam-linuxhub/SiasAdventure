@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const sentenceImprovement: SkillContent = {
+const sentenceImprovement: SkillContent = {
 
     skillId: "sentenceImprovement",
 
@@ -477,5 +477,14 @@ export const sentenceImprovement: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default sentenceImprovement;
+
+export {
+
+    sentenceImprovement
 
 };

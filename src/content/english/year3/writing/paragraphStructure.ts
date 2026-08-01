@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const paragraphStructure: SkillContent = {
+const paragraphStructure: SkillContent = {
 
     skillId: "paragraphStructure",
 
@@ -477,5 +477,14 @@ export const paragraphStructure: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default paragraphStructure;
+
+export {
+
+    paragraphStructure
 
 };

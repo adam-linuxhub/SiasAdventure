@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const commasInLists: SkillContent = {
+const commasInLists: SkillContent = {
 
     skillId: "commasInLists",
 
@@ -457,5 +457,14 @@ export const commasInLists: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default commasInLists;
+
+export {
+
+    commasInLists
 
 };

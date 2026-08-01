@@ -12,9 +12,9 @@ import wordClassification4 from "./wordClassification4";
 
 export default [
 
-    ...wordClassification1,
-    ...wordClassification2,
-    ...wordClassification3,
-    ...wordClassification4
+    wordClassification1,
+    wordClassification2,
+    wordClassification3,
+    wordClassification4
 
 ];

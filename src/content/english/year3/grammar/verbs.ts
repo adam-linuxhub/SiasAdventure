@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const verbs: SkillContent = {
+const verbs: SkillContent = {
 
     skillId: "verbs",
 
@@ -457,5 +457,13 @@ export const verbs: SkillContent = {
     }
 
     ]
+
+};
+
+export default verbs;
+
+export {
+
+    verbs
 
 };

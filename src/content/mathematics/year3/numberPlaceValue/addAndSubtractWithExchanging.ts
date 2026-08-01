@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const addAndSubtractWithExchanging: SkillContent = {
+const addAndSubtractWithExchanging: SkillContent = {
     skillId: "add-and-subtract-with-exchanging",
 
     title: "Add and Subtract with Exchanging",
@@ -1012,4 +1012,13 @@ export const addAndSubtractWithExchanging: SkillContent = {
 },
 
     ]
+};
+
+
+export default addAndSubtractWithExchanging;
+
+export {
+
+    addAndSubtractWithExchanging
+
 };

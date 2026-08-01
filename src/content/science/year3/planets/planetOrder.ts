@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const planetOrder: SkillContent = {
+const planetOrder: SkillContent = {
 
     skillId: "planet-order",
 
@@ -1330,4 +1330,13 @@ export const planetOrder: SkillContent = {
 }
 
 ]
+};
+
+
+export default planetOrder;
+
+export {
+
+    planetOrder
+
 };

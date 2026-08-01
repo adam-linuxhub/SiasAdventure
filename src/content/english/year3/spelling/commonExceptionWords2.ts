@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const commonExceptionWords2: SkillContent = {
+const commonExceptionWords2: SkillContent = {
 
     skillId: "commonExceptionWords2",
 
@@ -457,5 +457,14 @@ export const commonExceptionWords2: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default commonExceptionWords2;
+
+export {
+
+    commonExceptionWords2
 
 };

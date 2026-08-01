@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const homophones: SkillContent = {
+const homophones: SkillContent = {
 
     skillId: "homophones",
 
@@ -457,5 +457,14 @@ export const homophones: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default homophones;
+
+export {
+
+    homophones
 
 };

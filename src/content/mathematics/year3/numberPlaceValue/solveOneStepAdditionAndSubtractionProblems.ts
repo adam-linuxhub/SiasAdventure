@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const solveOneStepAdditionAndSubtractionProblems: SkillContent = {
+const solveOneStepAdditionAndSubtractionProblems: SkillContent = {
     skillId: "solve-one-step-addition-and-subtraction-problems",
 
     title: "Solve One-Step Addition and Subtraction Problems",
@@ -1013,4 +1013,13 @@ export const solveOneStepAdditionAndSubtractionProblems: SkillContent = {
 },
 
     ]
+};
+
+
+export default solveOneStepAdditionAndSubtractionProblems;
+
+export {
+
+    solveOneStepAdditionAndSubtractionProblems
+
 };

@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const suffixesLy: SkillContent = {
+const suffixesLy: SkillContent = {
 
     skillId: "suffixesLy",
 
@@ -457,5 +457,14 @@ export const suffixesLy: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default suffixesLy;
+
+export {
+
+    suffixesLy
 
 };

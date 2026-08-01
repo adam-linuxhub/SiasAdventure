@@ -12,9 +12,9 @@ import whatAreBiomes from "./whatAreBiomes";
 
 export default [
 
-    ...desertBiome,
-    ...protectingEcosystems,
-    ...rainforestBiome,
-    ...whatAreBiomes
+    desertBiome,
+    protectingEcosystems,
+    rainforestBiome,
+    whatAreBiomes
 
 ];

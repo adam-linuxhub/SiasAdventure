@@ -12,9 +12,9 @@ import romanSettlements from "./romanSettlements";
 
 export default [
 
-    ...romanArmyAndLife,
-    ...romanInvasion,
-    ...romanLegacy,
-    ...romanSettlements
+    romanArmyAndLife,
+    romanInvasion,
+    romanLegacy,
+    romanSettlements
 
 ];

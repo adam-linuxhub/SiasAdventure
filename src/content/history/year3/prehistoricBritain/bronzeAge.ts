@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const bronzeAge: SkillContent = {
+const bronzeAge: SkillContent = {
 
     skillId: "bronzeAge",
 
@@ -457,5 +457,14 @@ export const bronzeAge: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default bronzeAge;
+
+export {
+
+    bronzeAge
 
 };

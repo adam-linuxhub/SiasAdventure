@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const compassDirections: SkillContent = {
+const compassDirections: SkillContent = {
 
     skillId: "compassDirections",
 
@@ -457,5 +457,14 @@ export const compassDirections: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default compassDirections;
+
+export {
+
+    compassDirections
 
 };

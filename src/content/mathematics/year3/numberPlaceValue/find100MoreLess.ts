@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const find100MoreLess: SkillContent = {
+const find100MoreLess: SkillContent = {
     skillId: "find-100-more-less",
 
     title: "Find 100 More or Less",
@@ -1011,4 +1011,13 @@ export const find100MoreLess: SkillContent = {
         "Adding 100 to 456 gives 556."
 }
     ]
+};
+
+
+export default find100MoreLess;
+
+export {
+
+    find100MoreLess
+
 };

@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const adverbs: SkillContent = {
+const adverbs: SkillContent = {
 
     skillId: "adverbs",
 
@@ -457,5 +457,13 @@ export const adverbs: SkillContent = {
     }
 
     ]
+
+};
+
+export default adverbs;
+
+export {
+
+    adverbs
 
 };

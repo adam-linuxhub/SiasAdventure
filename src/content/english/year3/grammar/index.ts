@@ -17,14 +17,14 @@ import verbs from "./verbs";
 
 export default [
 
-    ...adjectives,
-    ...adverbs,
-    ...conjunctions,
-    ...nouns,
-    ...prepositions,
-    ...pronouns,
-    ...sentenceTypes,
-    ...subjectAndPredicate,
-    ...verbs
+    adjectives,
+    adverbs,
+    conjunctions,
+    nouns,
+    prepositions,
+    pronouns,
+    sentenceTypes,
+    subjectAndPredicate,
+    verbs
 
 ];

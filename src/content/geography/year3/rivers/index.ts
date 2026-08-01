@@ -12,9 +12,9 @@ import riversAndTheWaterCycle from "./riversAndTheWaterCycle";
 
 export default [
 
-    ...humanUsesOfRivers,
-    ...riverBasics,
-    ...riverFeatures,
-    ...riversAndTheWaterCycle
+    humanUsesOfRivers,
+    riverBasics,
+    riverFeatures,
+    riversAndTheWaterCycle
 
 ];

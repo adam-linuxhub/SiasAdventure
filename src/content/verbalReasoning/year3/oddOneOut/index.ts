@@ -12,9 +12,9 @@ import oddOneOut4 from "./oddOneOut4";
 
 export default [
 
-    ...oddOneOut1,
-    ...oddOneOut2,
-    ...oddOneOut3,
-    ...oddOneOut4
+    oddOneOut1,
+    oddOneOut2,
+    oddOneOut3,
+    oddOneOut4
 
 ];

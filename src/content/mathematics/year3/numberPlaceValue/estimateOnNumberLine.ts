@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const estimateOnNumberLine: SkillContent = {
+const estimateOnNumberLine: SkillContent = {
     skillId: "estimate-on-number-line",
 
     title: "Estimate on a Number Line",
@@ -1011,4 +1011,13 @@ export const estimateOnNumberLine: SkillContent = {
         "500 is halfway between 400 and 600."
 }
     ]
+};
+
+
+export default estimateOnNumberLine;
+
+export {
+
+    estimateOnNumberLine
+
 };

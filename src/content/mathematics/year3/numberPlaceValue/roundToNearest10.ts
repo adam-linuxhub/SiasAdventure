@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const roundToNearest10: SkillContent = {
+const roundToNearest10: SkillContent = {
     skillId: "round-to-nearest-10",
 
     title: "Round to the Nearest 10",
@@ -1011,4 +1011,13 @@ export const roundToNearest10: SkillContent = {
         "14 rounds to 10, 35 rounds up to 40, and 67 rounds to 70."
 }
     ]
+};
+
+
+export default roundToNearest10;
+
+export {
+
+    roundToNearest10
+
 };

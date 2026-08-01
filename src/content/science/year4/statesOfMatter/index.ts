@@ -15,12 +15,12 @@ import waterCycle from "./waterCycle";
 
 export default [
 
-    ...changingState,
-    ...conductorsAndInsulators,
-    ...evaporationCondensation,
-    ...simpleCircuits,
-    ...solidsLiquidsGases,
-    ...switchesAndComponents,
-    ...waterCycle
+    changingState,
+    conductorsAndInsulators,
+    evaporationCondensation,
+    simpleCircuits,
+    solidsLiquidsGases,
+    switchesAndComponents,
+    waterCycle
 
 ];

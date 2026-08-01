@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const summarising: SkillContent = {
+const summarising: SkillContent = {
 
     skillId: "summarising",
 
@@ -477,5 +477,14 @@ export const summarising: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default summarising;
+
+export {
+
+    summarising
 
 };

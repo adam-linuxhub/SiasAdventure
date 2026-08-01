@@ -12,9 +12,9 @@ import pyramids from "./pyramids";
 
 export default [
 
-    ...dailyLife,
-    ...egyptianCivilisation,
-    ...pharaohs,
-    ...pyramids
+    dailyLife,
+    egyptianCivilisation,
+    pharaohs,
+    pyramids
 
 ];

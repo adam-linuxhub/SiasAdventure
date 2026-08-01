@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const synonyms: SkillContent = {
+const synonyms: SkillContent = {
 
     skillId: "synonyms",
 
@@ -457,5 +457,14 @@ export const synonyms: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default synonyms;
+
+export {
+
+    synonyms
 
 };

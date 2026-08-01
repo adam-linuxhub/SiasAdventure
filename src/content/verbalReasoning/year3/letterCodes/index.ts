@@ -12,9 +12,9 @@ import letterCodes4 from "./letterCodes4";
 
 export default [
 
-    ...letterCodes1,
-    ...letterCodes2,
-    ...letterCodes3,
-    ...letterCodes4
+    letterCodes1,
+    letterCodes2,
+    letterCodes3,
+    letterCodes4
 
 ];

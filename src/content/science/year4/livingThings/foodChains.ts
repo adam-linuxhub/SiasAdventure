@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const foodChains: SkillContent = {
+const foodChains: SkillContent = {
 
     skillId: "foodChains",
 
@@ -457,5 +457,14 @@ export const foodChains: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default foodChains;
+
+export {
+
+    foodChains
 
 };

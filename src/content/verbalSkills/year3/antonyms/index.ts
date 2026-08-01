@@ -10,7 +10,7 @@ import antonyms2 from "./antonyms2";
 
 export default [
 
-    ...antonyms1,
-    ...antonyms2
+    antonyms1,
+    antonyms2
 
 ];

@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const readingFluency: SkillContent = {
+const readingFluency: SkillContent = {
 
     skillId: "readingFluency",
 
@@ -477,5 +477,14 @@ export const readingFluency: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default readingFluency;
+
+export {
+
+    readingFluency
 
 };

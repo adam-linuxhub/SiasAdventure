@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const changingState: SkillContent = {
+const changingState: SkillContent = {
 
     skillId: "changingState",
 
@@ -457,5 +457,14 @@ export const changingState: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default changingState;
+
+export {
+
+    changingState
 
 };

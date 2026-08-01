@@ -11,8 +11,8 @@ import soil from "./soil";
 
 export default [
 
-    ...fossils,
-    ...rockTypes,
-    ...soil
+    fossils,
+    rockTypes,
+    soil
 
 ];

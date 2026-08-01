@@ -1,5 +1,20 @@
-import { year3NumberPlaceValue } from "./numberPlaceValue";
+/*==================================================
+  YEAR 3
 
-export const year3Content = {
-    numberPlaceValue: year3NumberPlaceValue
+==================================================*/
+
+import numberPlaceValue from "./numberPlaceValue";
+
+const year3Content = {
+
+    numberPlaceValue
+
+};
+
+export default year3Content;
+
+export {
+
+    year3Content
+
 };

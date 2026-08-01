@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const climateZones: SkillContent = {
+const climateZones: SkillContent = {
 
     skillId: "climateZones",
 
@@ -477,5 +477,14 @@ export const climateZones: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default climateZones;
+
+export {
+
+    climateZones
 
 };

@@ -11,8 +11,8 @@ import letterSequences3 from "./letterSequences3";
 
 export default [
 
-    ...letterSequences1,
-    ...letterSequences2,
-    ...letterSequences3
+    letterSequences1,
+    letterSequences2,
+    letterSequences3
 
 ];

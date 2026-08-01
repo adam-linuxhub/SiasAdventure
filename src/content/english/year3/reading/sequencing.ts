@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const sequencing: SkillContent = {
+const sequencing: SkillContent = {
 
     skillId: "sequencing",
 
@@ -477,5 +477,14 @@ export const sequencing: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default sequencing;
+
+export {
+
+    sequencing
 
 };

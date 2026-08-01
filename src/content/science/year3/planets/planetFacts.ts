@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const planetFacts: SkillContent = {
+const planetFacts: SkillContent = {
 
     skillId: "planet-facts",
 
@@ -1346,5 +1346,14 @@ export const planetFacts: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default planetFacts;
+
+export {
+
+    planetFacts
 
 };

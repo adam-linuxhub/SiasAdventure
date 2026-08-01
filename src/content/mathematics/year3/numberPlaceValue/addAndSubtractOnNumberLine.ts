@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const addAndSubtractOnNumberLine: SkillContent = {
+const addAndSubtractOnNumberLine: SkillContent = {
     skillId: "add-and-subtract-on-number-line",
 
     title: "Add and Subtract on a Number Line",
@@ -1012,4 +1012,13 @@ export const addAndSubtractOnNumberLine: SkillContent = {
 },
 
     ]
+};
+
+
+export default addAndSubtractOnNumberLine;
+
+export {
+
+    addAndSubtractOnNumberLine
+
 };

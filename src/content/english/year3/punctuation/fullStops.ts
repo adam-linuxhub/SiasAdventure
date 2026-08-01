@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const fullStops: SkillContent = {
+const fullStops: SkillContent = {
 
     skillId: "fullStops",
 
@@ -457,5 +457,14 @@ export const fullStops: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default fullStops;
+
+export {
+
+    fullStops
 
 };

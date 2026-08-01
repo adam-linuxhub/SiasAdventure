@@ -12,9 +12,9 @@ import sunSafety from "./sunSafety";
 
 export default [
 
-    ...lightSources,
-    ...reflection,
-    ...shadows,
-    ...sunSafety
+    lightSources,
+    reflection,
+    shadows,
+    sunSafety
 
 ];

@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const angloSaxonLegacy: SkillContent = {
+const angloSaxonLegacy: SkillContent = {
 
     skillId: "angloSaxonLegacy",
 
@@ -477,5 +477,14 @@ export const angloSaxonLegacy: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default angloSaxonLegacy;
+
+export {
+
+    angloSaxonLegacy
 
 };

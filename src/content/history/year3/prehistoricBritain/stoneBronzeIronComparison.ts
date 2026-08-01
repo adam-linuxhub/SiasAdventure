@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const stoneBronzeIronComparison: SkillContent = {
+const stoneBronzeIronComparison: SkillContent = {
 
     skillId: "stoneBronzeIronComparison",
 
@@ -457,5 +457,14 @@ export const stoneBronzeIronComparison: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default stoneBronzeIronComparison;
+
+export {
+
+    stoneBronzeIronComparison
 
 };

@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const protectingEcosystems: SkillContent = {
+const protectingEcosystems: SkillContent = {
 
     skillId: "protectingEcosystems",
 
@@ -477,5 +477,14 @@ export const protectingEcosystems: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default protectingEcosystems;
+
+export {
+
+    protectingEcosystems
 
 };

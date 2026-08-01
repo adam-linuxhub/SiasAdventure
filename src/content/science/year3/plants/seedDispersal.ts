@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const seedDispersal: SkillContent = {
+const seedDispersal: SkillContent = {
 
     skillId: "seed-dispersal",
 
@@ -1356,5 +1356,14 @@ export const seedDispersal: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default seedDispersal;
+
+export {
+
+    seedDispersal
 
 };

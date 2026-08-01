@@ -10,7 +10,7 @@ import synonyms2 from "./synonyms2";
 
 export default [
 
-    ...synonyms1,
-    ...synonyms2
+    synonyms1,
+    synonyms2
 
 ];

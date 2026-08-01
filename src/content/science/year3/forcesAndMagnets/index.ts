@@ -12,9 +12,9 @@ import pushesAndPulls from "./pushesAndPulls";
 
 export default [
 
-    ...magnetPoles,
-    ...magnetUses,
-    ...magneticMaterials,
-    ...pushesAndPulls
+    magnetPoles,
+    magnetUses,
+    magneticMaterials,
+    pushesAndPulls
 
 ];

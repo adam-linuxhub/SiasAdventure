@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const partitionNumbers: SkillContent = {
+const partitionNumbers: SkillContent = {
     skillId: "partition-numbers",
 
     title: "Partition Numbers",
@@ -1011,4 +1011,13 @@ export const partitionNumbers: SkillContent = {
         "412 has 4 hundreds, 1 ten and 2 ones."
 }
     ]
+};
+
+
+export default partitionNumbers;
+
+export {
+
+    partitionNumbers
+
 };

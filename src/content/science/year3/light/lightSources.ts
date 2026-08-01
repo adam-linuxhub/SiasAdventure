@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const lightSources: SkillContent = {
+const lightSources: SkillContent = {
 
     skillId: "lightSources",
 
@@ -377,5 +377,14 @@ export const lightSources: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default lightSources;
+
+export {
+
+    lightSources
 
 };

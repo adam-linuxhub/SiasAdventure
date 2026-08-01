@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const pushesAndPulls: SkillContent = {
+const pushesAndPulls: SkillContent = {
 
     skillId: "pushesAndPulls",
 
@@ -457,5 +457,14 @@ export const pushesAndPulls: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default pushesAndPulls;
+
+export {
+
+    pushesAndPulls
 
 };

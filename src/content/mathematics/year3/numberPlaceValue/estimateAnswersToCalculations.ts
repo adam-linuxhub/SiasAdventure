@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const estimateAnswersToCalculations: SkillContent = {
+const estimateAnswersToCalculations: SkillContent = {
     skillId: "estimate-answers-to-calculations",
 
     title: "Estimate Answers to Calculations",
@@ -773,4 +773,13 @@ export const estimateAnswersToCalculations: SkillContent = {
 },
 
     ]
+};
+
+
+export default estimateAnswersToCalculations;
+
+export {
+
+    estimateAnswersToCalculations
+
 };

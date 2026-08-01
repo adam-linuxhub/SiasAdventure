@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const prediction: SkillContent = {
+const prediction: SkillContent = {
 
     skillId: "prediction",
 
@@ -477,5 +477,14 @@ export const prediction: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default prediction;
+
+export {
+
+    prediction
 
 };

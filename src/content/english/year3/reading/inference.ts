@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const inference: SkillContent = {
+const inference: SkillContent = {
 
     skillId: "inference",
 
@@ -477,5 +477,14 @@ export const inference: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default inference;
+
+export {
+
+    inference
 
 };

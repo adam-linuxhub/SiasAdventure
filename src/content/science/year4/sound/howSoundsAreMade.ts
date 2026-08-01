@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const howSoundsAreMade: SkillContent = {
+const howSoundsAreMade: SkillContent = {
 
     skillId: "howSoundsAreMade",
 
@@ -457,5 +457,14 @@ export const howSoundsAreMade: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default howSoundsAreMade;
+
+export {
+
+    howSoundsAreMade
 
 };

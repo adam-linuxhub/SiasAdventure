@@ -11,8 +11,8 @@ import mapSymbols from "./mapSymbols";
 
 export default [
 
-    ...compassDirections,
-    ...gridReferences,
-    ...mapSymbols
+    compassDirections,
+    gridReferences,
+    mapSymbols
 
 ];

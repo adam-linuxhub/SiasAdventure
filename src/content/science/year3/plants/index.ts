@@ -13,10 +13,10 @@ import whatPlantsNeed from "./whatPlantsNeed";
 
 export default [
 
-    ...lifeCycleOfFloweringPlants,
-    ...partsOfAPlant,
-    ...seedDispersal,
-    ...waterTransport,
-    ...whatPlantsNeed
+    lifeCycleOfFloweringPlants,
+    partsOfAPlant,
+    seedDispersal,
+    waterTransport,
+    whatPlantsNeed
 
 ];

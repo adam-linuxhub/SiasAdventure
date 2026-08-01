@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const pharaohs: SkillContent = {
+const pharaohs: SkillContent = {
 
     skillId: "pharaohs",
 
@@ -477,5 +477,14 @@ export const pharaohs: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default pharaohs;
+
+export {
+
+    pharaohs
 
 };

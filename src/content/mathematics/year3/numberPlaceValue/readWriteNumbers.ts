@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const readWriteNumbers: SkillContent = {
+const readWriteNumbers: SkillContent = {
     skillId: "read-write-numbers",
 
     title: "Read and Write Numbers",
@@ -1011,4 +1011,13 @@ export const readWriteNumbers: SkillContent = {
         "999 is read as nine hundred and ninety-nine."
 }
     ]
+};
+
+
+export default readWriteNumbers;
+
+export {
+
+    readWriteNumbers
+
 };

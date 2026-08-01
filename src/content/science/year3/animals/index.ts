@@ -12,9 +12,9 @@ import skeletons from "./skeletons";
 
 export default [
 
-    ...healthyDiet,
-    ...muscles,
-    ...nutrition,
-    ...skeletons
+    healthyDiet,
+    muscles,
+    nutrition,
+    skeletons
 
 ];

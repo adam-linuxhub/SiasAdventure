@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const gridReferences: SkillContent = {
+const gridReferences: SkillContent = {
 
     skillId: "gridReferences",
 
@@ -457,5 +457,14 @@ export const gridReferences: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default gridReferences;
+
+export {
+
+    gridReferences
 
 };

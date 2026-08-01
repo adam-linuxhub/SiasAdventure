@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const soil: SkillContent = {
+const soil: SkillContent = {
 
     skillId: "soil",
 
@@ -457,5 +457,14 @@ export const soil: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default soil;
+
+export {
+
+    soil
 
 };

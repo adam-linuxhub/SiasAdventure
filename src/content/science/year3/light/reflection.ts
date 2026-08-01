@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const reflection: SkillContent = {
+const reflection: SkillContent = {
 
     skillId: "reflection",
 
@@ -437,5 +437,14 @@ export const reflection: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default reflection;
+
+export {
+
+    reflection
 
 };

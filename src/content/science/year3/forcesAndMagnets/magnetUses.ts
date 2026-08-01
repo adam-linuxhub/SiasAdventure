@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const magnetUses: SkillContent = {
+const magnetUses: SkillContent = {
 
     skillId: "magnetUses",
 
@@ -457,5 +457,14 @@ export const magnetUses: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default magnetUses;
+
+export {
+
+    magnetUses
 
 };

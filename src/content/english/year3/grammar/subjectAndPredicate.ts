@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const subjectAndPredicate: SkillContent = {
+const subjectAndPredicate: SkillContent = {
 
     skillId: "subjectAndPredicate",
 
@@ -457,5 +457,13 @@ export const subjectAndPredicate: SkillContent = {
     }
 
     ]
+
+};
+
+export default subjectAndPredicate;
+
+export {
+
+    subjectAndPredicate
 
 };

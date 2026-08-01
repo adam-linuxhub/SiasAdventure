@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const checkAnswersUsingTheInverse: SkillContent = {
+const checkAnswersUsingTheInverse: SkillContent = {
     skillId: "check-answers-using-the-inverse",
 
     title: "Check Answers Using the Inverse",
@@ -1013,4 +1013,13 @@ export const checkAnswersUsingTheInverse: SkillContent = {
 },
 
     ]
+};
+
+
+export default checkAnswersUsingTheInverse;
+
+export {
+
+    checkAnswersUsingTheInverse
+
 };

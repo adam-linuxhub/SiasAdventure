@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const compareNumbersUsingSymbols: SkillContent = {
+const compareNumbersUsingSymbols: SkillContent = {
     skillId: "compare-numbers-using-symbols",
 
     title: "Compare Numbers Using Symbols",
@@ -1012,4 +1012,13 @@ export const compareNumbersUsingSymbols: SkillContent = {
 },
 
     ]
+};
+
+
+export default compareNumbersUsingSymbols;
+
+export {
+
+    compareNumbersUsingSymbols
+
 };

@@ -12,9 +12,9 @@ import storyWriting from "./storyWriting";
 
 export default [
 
-    ...paragraphStructure,
-    ...sentenceConstruction,
-    ...sentenceImprovement,
-    ...storyWriting
+    paragraphStructure,
+    sentenceConstruction,
+    sentenceImprovement,
+    storyWriting
 
 ];

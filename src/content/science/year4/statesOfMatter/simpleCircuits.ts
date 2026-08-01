@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const simpleCircuits: SkillContent = {
+const simpleCircuits: SkillContent = {
 
     skillId: "simpleCircuits",
 
@@ -457,5 +457,14 @@ export const simpleCircuits: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default simpleCircuits;
+
+export {
+
+    simpleCircuits
 
 };

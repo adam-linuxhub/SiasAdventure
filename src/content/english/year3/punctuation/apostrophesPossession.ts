@@ -3,7 +3,7 @@ import {
     SkillContent
 } from "../../../types";
 
-export const apostrophesPossession: SkillContent = {
+const apostrophesPossession: SkillContent = {
 
     skillId: "apostrophesPossession",
 
@@ -457,5 +457,14 @@ export const apostrophesPossession: SkillContent = {
     }
 
     ]
+
+};
+
+
+export default apostrophesPossession;
+
+export {
+
+    apostrophesPossession
 
 };

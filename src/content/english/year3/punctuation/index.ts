@@ -15,12 +15,12 @@ import questionMarks from "./questionMarks";
 
 export default [
 
-    ...apostrophesContractions,
-    ...apostrophesPossession,
-    ...capitalLetters,
-    ...commasInLists,
-    ...exclamationMarks,
-    ...fullStops,
-    ...questionMarks
+    apostrophesContractions,
+    apostrophesPossession,
+    capitalLetters,
+    commasInLists,
+    exclamationMarks,
+    fullStops,
+    questionMarks
 
 ];
