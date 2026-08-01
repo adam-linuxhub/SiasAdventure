@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate-indexes": "ts-node --transpile-only scripts/tools/generateIndexes.ts"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
   "devDependencies": {
     "@types/node": "^26.1.2",
     "ts-morph": "^28.0.0",
-    "typescript": "^7.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
     "vite": "^8.1.5"
   }
 }

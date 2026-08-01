@@ -4,10 +4,19 @@
   NON-VERBAL REASONING
 ==================================================*/
 
-import shapeOddOneOut1 from "./shapeOddOneOut/shapeOddOneOut1";
+import shapeOddOneOut from "./shapeOddOneOut/shapeOddOneOut";
+import patternCompletion from "./patternCompletion/patternCompletion";
+import shapeAnalogies from "./shapeAnalogies/shapeAnalogies";
+import shapeClassification from "./shapeClassification/shapeClassification";
 
 export default [
 
-    ...shapeOddOneOut1
+    ...shapeOddOneOut,
+
+    ...patternCompletion,
+
+    ...shapeAnalogies,
+
+    ...shapeClassification
 
 ];
