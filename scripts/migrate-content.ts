@@ -97,8 +97,6 @@ function migrate(file: string): boolean {
 
         fs.writeFileSync(file, text);
 
-        console.log("Updated", file);
-
     }
 
     return changed;

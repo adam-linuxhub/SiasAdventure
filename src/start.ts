@@ -137,6 +137,76 @@ function createStars(): void {
 }
 
 /*==================================================
+  STORY
+==================================================*/
+
+function initialiseStory(): void {
+
+    const storyButton =
+        document.getElementById("story-button");
+
+    const storyOverlay =
+        document.getElementById("story-overlay");
+
+    const closeStory =
+        document.getElementById("close-story");
+
+    const beginAdventure =
+        document.getElementById("begin-adventure");
+
+    if (
+        !storyButton ||
+        !storyOverlay ||
+        !closeStory ||
+        !beginAdventure
+    ) {
+
+        return;
+
+    }
+
+    storyButton.addEventListener("click", () => {
+
+        storyOverlay.classList.remove("hidden");
+
+    });
+
+    closeStory.addEventListener("click", () => {
+
+        storyOverlay.classList.add("hidden");
+
+    });
+
+    beginAdventure.addEventListener("click", () => {
+
+        storyOverlay.classList.add("hidden");
+
+        startAdventure();
+
+    });
+
+}
+
+const startButton =
+    document.getElementById("start-adventure");
+
+startButton?.addEventListener("click", () => {
+
+    startAdventure();
+
+});
+
+/*==================================================
+  START ADVENTURE
+==================================================*/
+
+function startAdventure(): void {
+
+    window.location.href = "game.html";
+
+}
+
+/*==================================================
     EVENTS
 ==================================================*/
 
@@ -153,3 +223,4 @@ characterCards.forEach(card => {
 });
 
 createStars();
+initialiseStory();

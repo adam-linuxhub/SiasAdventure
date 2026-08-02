@@ -16,14 +16,12 @@ async function main() {
 
     for (const migration of migrations) {
 
-        console.log(`Running ${migration.name}...`);
 
         await migration.run(project);
     }
 
     await project.save();
 
-    console.log("All migrations complete.");
 }
 
 main().catch(error => {

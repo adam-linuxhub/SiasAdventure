@@ -82,6 +82,37 @@ export interface QuestionResult {
 
 }
 
+/*==============================================
+  SHUFFLE ANSWERS
+==============================================*/
+
+function shuffleAnswers(question: Question): Question {
+
+    const answers = [...question.answers];
+
+    const correctAnswer = answers[question.correct];
+
+    for (let i = answers.length - 1; i > 0; i--) {
+
+        const j = Math.floor(Math.random() * (i + 1));
+
+        [answers[i], answers[j]] =
+            [answers[j], answers[i]];
+
+    }
+
+    return {
+
+        ...question,
+
+        answers,
+
+        correct: answers.indexOf(correctAnswer)
+
+    };
+
+}
+
 /*==================================================
   ENGINE
 ==================================================*/
@@ -194,13 +225,13 @@ export const QuestionEngine = {
 
             );
 
-        this.currentQuestion =
-
+        const selectedQuestion =
             QuestionSelector.select(
-
                 remainingQuestions
-
             );
+
+        this.currentQuestion =
+            shuffleAnswers(selectedQuestion);
 
         const selectedIndex =
 

@@ -48,7 +48,29 @@
 
     </header>
 
+    <!--==========================================
+        STORY BOOK
+    ===========================================-->
 
+    <div id="story-button">
+
+        <img
+            src="images/magic/story.png"
+            alt="Wizzy's Story">
+
+        <div id="story-tooltip">
+
+            Click to read Wizzy's story
+
+        </div>
+
+        <div class="story-sparkle s1">✨</div>
+
+        <div class="story-sparkle s2">✨</div>
+
+        <div class="story-sparkle s3">✨</div>
+
+    </div>
     <!-- =====================================================
          STORY
     ====================================================== -->
@@ -142,9 +164,7 @@
 
     <section class="button-panel">
 
-        <button
-            class="magic-button"
-            onclick="startAdventure()">
+        <button id="start-adventure" class="magic-button">
 
             Start Adventure
 
@@ -165,9 +185,147 @@
 
 </main>
 
+<!--==========================================
+    STORY OVERLAY
+===========================================-->
 
+<div
+    id="story-overlay"
+    class="story-overlay hidden">
+
+    <div class="story-window">
+
+        <button
+            id="close-story"
+            class="close-button">
+
+            ✕
+
+        </button>
+
+        <h1>
+
+            🧙 The Legend of the Magical Potion
+
+        </h1>
+
+        <div class="story-content">
+
+            <p>
+
+                <strong>A very long time ago...</strong>
+
+            </p>
+
+            <p>
+
+                In a magical kingdom filled with castles,
+                dragons, enchanted forests and mysterious caves,
+                there lived a wise old wizard called
+                <strong>Wizzy</strong>.
+
+            </p>
+
+            <p>
+
+                Wizzy was the guardian of the
+                <strong>Magical Potion of Knowledge.</strong>
+
+            </p>
+
+            <p>
+
+                The potion helped children become clever,
+                brave and confident.
+
+            </p>
+
+            <p>
+
+                But one day...
+
+                the Magical Potion disappeared.
+
+            </p>
+
+            <p>
+
+                Nobody knows where it went.
+
+            </p>
+
+            <p>
+
+                Some believe it was hidden inside magical
+                treasure chests.
+
+            </p>
+
+            <p>
+
+                Others believe it was scattered across
+                enchanted worlds protected by puzzles,
+                riddles and magical creatures.
+
+            </p>
+
+            <hr>
+
+            <h2>
+
+                🌟 Your Adventure
+
+            </h2>
+
+            <p>
+
+                ⭐ Every correct answer earns
+                <strong>5 Stars.</strong>
+
+            </p>
+
+            <p>
+
+                🎁 Every
+                <strong>20 questions</strong>
+
+                earns a
+                <strong>Treasure Chest.</strong>
+
+            </p>
+
+            <p>
+
+                🌍 Collect every Treasure Chest to unlock
+                the next magical world.
+
+            </p>
+
+            <p>
+
+                🏆 Recover the Magical Potion and become
+                the Academy's greatest explorer!
+
+            </p>
+
+            <div class="story-buttons">
+                <button
+                    id="begin-adventure"
+                    class="magic-button">
+
+                    ✨ Begin Adventure ✨
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 <script type="module"
-        src="/src/main.ts"></script>
+        src="/src/start.ts"></script>
 
 </body>
 

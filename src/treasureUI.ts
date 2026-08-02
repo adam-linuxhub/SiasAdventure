@@ -49,15 +49,15 @@ export function initialiseTreasureUI(): void {
 
         treasureButton.classList.add("hidden");
 
+        treasureCollection.classList.remove("hidden");
 
-        treasureCollection.classList.add("visible");
 
     });
 
 
     closeButton.addEventListener("click", () => {
 
-        treasureCollection.classList.remove("visible");
+        treasureCollection.classList.add("hidden");
 
 
         gameContent.classList.remove("hidden");

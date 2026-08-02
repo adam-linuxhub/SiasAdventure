@@ -5,8 +5,10 @@
 
 ==================================================*/
 
-import { getAllQuestions, content } from "./content";
+import { content } from "./content";
+
 import type { Question } from "./questionEngine";
+
 
 /*==================================================
   TYPES
@@ -16,9 +18,12 @@ interface DashboardQuestion {
 
     subject: string;
 
+    skill: string;
+
     question: Question;
 
 }
+
 
 /*==================================================
   START
@@ -26,25 +31,19 @@ interface DashboardQuestion {
 
 initialise();
 
+
 /*==================================================
   INITIALISE
 ==================================================*/
 
 function initialise(): void {
 
-    const questions = getAllQuestions();
 
-    const dashboardData = questions.map(
+    const dashboardData =
 
-        question => ({
+        collectDashboardData();
 
-            subject: question.skillId ?? "Unknown",
 
-            question
-
-        })
-
-    );
 
     renderSummary(
 
@@ -52,7 +51,15 @@ function initialise(): void {
 
     );
 
-    renderTables(
+
+    renderDrillDown(
+
+        dashboardData
+
+    );
+
+
+    renderQuestions(
 
         dashboardData
 
@@ -60,17 +67,20 @@ function initialise(): void {
 
 }
 
+
 /*==================================================
-  COLLECT DASHBOARD DATA
+  COLLECT DATA
 ==================================================*/
 
 function collectDashboardData():
 
-    DashboardQuestion[] {
+DashboardQuestion[] {
+
 
     const results:
 
         DashboardQuestion[] = [];
+
 
     for (
 
@@ -82,13 +92,10 @@ function collectDashboardData():
 
         ]
 
-        of Object.entries(
-
-            content
-
-        )
+        of Object.entries(content)
 
     ) {
+
 
         collectQuestions(
 
@@ -102,12 +109,19 @@ function collectDashboardData():
 
     }
 
+
     return results;
 
 }
 
+
 /*==================================================
-  COLLECT QUESTIONS
+  WALK CONTENT TREE
+
+  Subject
+     SkillContent
+        activities[]
+
 ==================================================*/
 
 function collectQuestions(
@@ -120,19 +134,13 @@ function collectQuestions(
 
 ): void {
 
-    /*==============================================
-      ARRAY
-    ==============================================*/
 
     if (
 
-        Array.isArray(
-
-            node
-
-        )
+        Array.isArray(node)
 
     ) {
+
 
         for (
 
@@ -142,77 +150,12 @@ function collectQuestions(
 
         ) {
 
-            if (
-
-                isQuestion(
-
-                    item
-
-                )
-
-            ) {
-
-                results.push({
-
-                    subject,
-
-                    question: item
-
-                });
-
-            }
-
-            else {
-
-                collectQuestions(
-
-                    subject,
-
-                    item,
-
-                    results
-
-                );
-
-            }
-
-        }
-
-        return;
-
-    }
-
-    /*==============================================
-      OBJECT
-    ==============================================*/
-
-    if (
-
-        node
-
-        &&
-
-        typeof node === "object"
-
-    ) {
-
-        for (
-
-            const value
-
-            of Object.values(
-
-                node
-
-            )
-
-        ) {
 
             collectQuestions(
 
                 subject,
 
-                value,
+                item,
 
                 results
 
@@ -220,46 +163,108 @@ function collectQuestions(
 
         }
 
+
+        return;
+
+    }
+
+
+
+    if (
+
+        !node
+
+        ||
+
+        typeof node !== "object"
+
+    ) {
+
+        return;
+
+    }
+
+
+
+    const object =
+
+        node as Record<string, unknown>;
+
+
+
+    if (
+
+        "skillId" in object
+
+        &&
+
+        "activities" in object
+
+        &&
+
+        Array.isArray(object.activities)
+
+    ) {
+
+
+        for (
+
+            const activity
+
+            of object.activities
+
+        ) {
+
+
+            results.push({
+
+                subject,
+
+                skill:
+
+                    String(object.skillId),
+
+                question:
+
+                    activity as Question
+
+            });
+
+        }
+
+
+        return;
+
+    }
+
+
+
+    for (
+
+        const value
+
+        of Object.values(object)
+
+    ) {
+
+
+        collectQuestions(
+
+            subject,
+
+            value,
+
+            results
+
+        );
+
     }
 
 }
 
-/*==================================================
-  QUESTION TYPE GUARD
-==================================================*/
-
-function isQuestion(
-
-    value: unknown
-
-): value is Question {
-
-    return (
-
-        !!value
-
-        &&
-
-        typeof value === "object"
-
-        &&
-
-        "question" in value
-
-        &&
-
-        "answers" in value
-
-        &&
-
-        "correct" in value
-
-    );
-
-}
 
 /*==================================================
-  RENDER SUMMARY
+  TOP SUMMARY
 ==================================================*/
 
 function renderSummary(
@@ -267,6 +272,7 @@ function renderSummary(
     dashboardData: DashboardQuestion[]
 
 ): void {
+
 
     const summary =
 
@@ -276,39 +282,117 @@ function renderSummary(
 
         );
 
-    if (
 
-        !summary
-
-    ) {
+    if (!summary) {
 
         return;
 
     }
 
+
     summary.innerHTML = "";
+
 
     const title =
 
-        document.createElement(
+        document.createElement("h2");
 
-            "h2"
-
-        );
 
     title.textContent =
 
-        `Overall Questions: ${dashboardData.length}`;
+        `Overall Questions: ${dashboardData.length.toLocaleString()}`;
 
-    summary.appendChild(
 
-        title
+    summary.appendChild(title);
+
+}
+
+
+/*==================================================
+  DRILL DOWN
+==================================================*/
+
+function renderDrillDown(
+
+    dashboardData: DashboardQuestion[]
+
+): void {
+
+
+    const container =
+
+        document.getElementById(
+
+            "drilldown"
+
+        );
+
+
+    if (!container) {
+
+        return;
+
+    }
+
+
+    container.innerHTML = "";
+
+
+    const heading =
+
+        document.createElement("h2");
+
+
+    heading.textContent =
+
+        "Drill Down";
+
+
+    container.appendChild(
+
+        heading
 
     );
 
+
+    const table =
+
+        document.createElement("table");
+
+
+    table.innerHTML = `
+
+<thead>
+
+<tr>
+
+<th>Subject</th>
+
+<th>Skill</th>
+
+<th>Questions</th>
+
+</tr>
+
+</thead>
+
+<tbody></tbody>
+
+`;
+
+
+
+    const tbody =
+
+        table.querySelector("tbody")!;
+
+
+
     const counts =
 
-        new Map<string, number>();
+        new Map<string, Map<string, number>>();
+
+
 
     for (
 
@@ -318,23 +402,37 @@ function renderSummary(
 
     ) {
 
-        counts.set(
 
-            item.subject,
+        if (!counts.has(item.subject)) {
 
-            (
 
-                counts.get(
+            counts.set(
 
-                    item.subject
+                item.subject,
 
-                ) ?? 0
+                new Map()
 
-            ) + 1
+            );
+
+        }
+
+
+        const skills =
+
+            counts.get(item.subject)!;
+
+
+        skills.set(
+
+            item.skill,
+
+            (skills.get(item.skill) ?? 0) + 1
 
         );
 
     }
+
+
 
     for (
 
@@ -342,119 +440,68 @@ function renderSummary(
 
             subject,
 
-            count
+            skills
 
         ]
 
-        of
-
-        [...counts.entries()].sort(
-
-            (
-
-                a,
-
-                b
-
-            ) =>
-
-                a[0].localeCompare(
-
-                    b[0]
-
-                )
-
-        )
+        of counts
 
     ) {
 
-        const row =
 
-            document.createElement(
+        for (
 
-                "p"
+            const [
 
-            );
+                skill,
 
-        row.innerHTML =
+                count
 
-            `<strong>${formatSubjectName(subject)}</strong>: ${count}`;
+            ]
 
-        summary.appendChild(
+            of skills
 
-            row
+        ) {
 
-        );
 
-    }
+            const row =
 
-}
+                document.createElement("tr");
 
-/*==================================================
-  FORMAT SUBJECT NAME
-==================================================*/
 
-function formatSubjectName(
+            row.innerHTML = `
 
-    subject: string
+<td>${formatSubjectName(subject)}</td>
 
-): string {
+<td>${formatSkillName(skill)}</td>
 
-    switch (
+<td><strong>${count.toLocaleString()}</strong></td>
 
-        subject
+`;
 
-    ) {
 
-        case "mathematics":
+            tbody.appendChild(row);
 
-            return "Mathematics";
-
-        case "english":
-
-            return "English";
-
-        case "science":
-
-            return "Science";
-
-        case "history":
-
-            return "History";
-
-        case "geography":
-
-            return "Geography";
-
-        case "verbalSkills":
-
-            return "Verbal Skills";
-
-        case "verbalReasoning":
-
-            return "Verbal Reasoning";
-
-        case "nonVerbalReasoning":
-
-            return "Non-Verbal Reasoning";
-
-        default:
-
-            return subject;
+        }
 
     }
 
+
+    container.appendChild(table);
+
 }
 
+
 /*==================================================
-  RENDER TABLES
+  QUESTION TABLES
 ==================================================*/
 
-function renderTables(
+function renderQuestions(
 
     dashboardData: DashboardQuestion[]
 
 ): void {
+
 
     const container =
 
@@ -464,17 +511,17 @@ function renderTables(
 
         );
 
-    if (
 
-        !container
-
-    ) {
+    if (!container) {
 
         return;
 
     }
 
+
     container.innerHTML = "";
+
+
 
     const subjects =
 
@@ -486,7 +533,9 @@ function renderTables(
 
             )
 
-        )].sort();
+        )];
+
+
 
     for (
 
@@ -495,6 +544,7 @@ function renderTables(
         of subjects
 
     ) {
+
 
         const questions =
 
@@ -506,68 +556,29 @@ function renderTables(
 
             );
 
-        renderSubjectTable(
 
-            container,
+        const heading =
 
-            subject,
+            document.createElement("h2");
 
-            questions
 
-        );
+        heading.textContent =
 
-    }
+            `${formatSubjectName(subject)} (${questions.length})`;
 
-}
-/*==================================================
-  SUBJECT TABLE
-==================================================*/
 
-function renderSubjectTable(
+        container.appendChild(heading);
 
-    parent: HTMLElement,
 
-    subject: string,
 
-    questions: DashboardQuestion[]
+        const table =
 
-): void {
+            document.createElement("table");
 
-    const heading =
 
-        document.createElement(
+        table.innerHTML = `
 
-            "h2"
-
-        );
-
-    heading.textContent =
-
-        `${formatSubjectName(subject)} (${questions.length})`;
-
-    parent.appendChild(
-
-        heading
-
-    );
-
-    const table =
-
-        document.createElement(
-
-            "table"
-
-        );
-
-    const thead =
-
-        document.createElement(
-
-            "thead"
-
-        );
-
-    thead.innerHTML = `
+<thead>
 
 <tr>
 
@@ -577,79 +588,158 @@ function renderSubjectTable(
 
 <th>Correct Answer</th>
 
-<th>Skill ID</th>
+<th>Skill</th>
 
 <th>Stage</th>
 
 </tr>
 
+</thead>
+
+<tbody></tbody>
+
 `;
 
-    table.appendChild(
 
-        thead
 
-    );
+        const tbody =
 
-    const tbody =
+            table.querySelector("tbody")!;
 
-        document.createElement(
 
-            "tbody"
 
-        );
+        for (
 
-    for (
+            const item
 
-        const item
+            of questions
 
-        of questions
+        ) {
 
-    ) {
 
-        const question =
+            const q =
 
-            item.question;
+                item.question;
 
-        const row =
 
-            document.createElement(
+            const row =
 
-                "tr"
+                document.createElement("tr");
 
-            );
 
-        row.innerHTML = `
+            row.innerHTML = `
 
-<td>${question.id ?? ""}</td>
+<td>${q.id ?? ""}</td>
 
-<td>${question.question}</td>
+<td>${q.question ?? ""}</td>
 
-<td>${(question as any).correctAnswer ?? ""}</td>
+<td>${(q as any).correctAnswer ?? ""}</td>
 
-<td>${question.skillId ?? ""}</td>
+<td>${item.skill}</td>
 
-<td>${question.stage ?? ""}</td>
+<td>${q.stage ?? ""}</td>
+
 `;
 
-        tbody.appendChild(
 
-            row
+            tbody.appendChild(row);
 
-        );
+        }
+
+
+        container.appendChild(table);
 
     }
 
-    table.appendChild(
+}
 
-        tbody
 
-    );
+/*==================================================
+  FORMAT SUBJECT
+==================================================*/
 
-    parent.appendChild(
+function formatSubjectName(
 
-        table
+    subject: string
 
-    );
+): string {
+
+
+    switch(subject) {
+
+
+        case "mathematics":
+
+            return "Mathematics";
+
+
+        case "english":
+
+            return "English";
+
+
+        case "science":
+
+            return "Science";
+
+
+        case "history":
+
+            return "History";
+
+
+        case "geography":
+
+            return "Geography";
+
+
+        case "verbalSkills":
+
+            return "Verbal Skills";
+
+
+        case "verbalReasoning":
+
+            return "Verbal Reasoning";
+
+
+        case "nonVerbalReasoning":
+
+            return "Non-Verbal Reasoning";
+
+
+        default:
+
+            return subject;
+
+    }
+
+}
+
+
+/*==================================================
+  FORMAT SKILL
+==================================================*/
+
+function formatSkillName(
+
+    skill: string
+
+): string {
+
+
+    return skill
+
+        .replace(/-/g, " ")
+
+        .replace(/([A-Z])/g, " $1")
+
+        .replace(
+
+            /^./,
+
+            c => c.toUpperCase()
+
+        );
 
 }

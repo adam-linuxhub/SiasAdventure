@@ -407,7 +407,69 @@
         Version 1.0
 
     </footer>
+<!-- ==========================================
+     LEVEL COMPLETE CELEBRATION
+=========================================== -->
 
+<div
+    id="level-complete-overlay"
+    class="level-overlay hidden"
+    aria-hidden="true">
+
+    <canvas id="fireworks-canvas"></canvas>
+
+    <div class="level-panel">
+
+        <img
+            src="images/characters/wizzy.png"
+            class="level-wizzy"
+            alt="Wizzy">
+
+        <h1>🎉 LEVEL COMPLETE!</h1>
+
+        <p class="level-message">
+
+            Fantastic work, Sia!
+
+            <br><br>
+
+            You answered all <strong>20 magical questions.</strong>
+
+        </p>
+
+        <div class="reward-card">
+
+            <h2>🎁 Treasure Chest Earned</h2>
+
+            <div id="level-treasure"></div>
+
+        </div>
+
+        <div class="level-stats">
+
+            <div>
+                📦 Treasure Chests
+                <strong id="overlay-chests">0</strong>
+            </div>
+
+            <div>
+                ⭐ Rank
+                <strong id="overlay-rank">Explorer</strong>
+            </div>
+
+        </div>
+
+        <button
+            id="continue-level"
+            class="magic-button continue-button">
+
+            ✨ Continue Adventure →
+
+        </button>
+
+    </div>
+
+</div>
 </main>
 
 

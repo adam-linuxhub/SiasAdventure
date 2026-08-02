@@ -406,7 +406,7 @@ body::after{
 
 .hidden{
 
-    display:none;
+    display: none !important;
 
 }
 
@@ -1385,5 +1385,182 @@ TREASURE COLLECTION
     border-radius: 16px;
 
     background: white;
+
+}
+
+/*==================================================
+  LEVEL COMPLETE OVERLAY
+==================================================*/
+
+.level-overlay{
+
+    position:fixed;
+    inset:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:rgba(10,25,60,.82);
+
+    backdrop-filter:blur(8px);
+
+    z-index:9999;
+}
+
+.level-panel{
+
+    width:min(700px,90vw);
+
+    padding:40px;
+
+    background:white;
+
+    border-radius:30px;
+
+    text-align:center;
+
+    position:relative;
+
+    overflow:hidden;
+
+    animation:levelPop .6s ease;
+}
+
+.level-panel h1{
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+    color:#FF9800;
+
+    text-shadow:
+        0 0 12px gold;
+}
+
+.level-message{
+
+    font-size:1.3rem;
+
+    line-height:1.6;
+
+    margin-bottom:30px;
+}
+
+.level-wizzy{
+
+    width:170px;
+
+    animation:
+        wizzyFloat 3s ease-in-out infinite;
+}
+
+.reward-card{
+
+    margin:30px auto;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    background:#FFF8DC;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.15);
+}
+
+#level-treasure{
+
+    font-size:2rem;
+
+    font-weight:bold;
+
+    margin-top:15px;
+}
+
+.level-stats{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    margin:30px 0;
+
+    font-size:1.2rem;
+}
+
+.level-stats strong{
+
+    display:block;
+
+    margin-top:8px;
+
+    font-size:1.5rem;
+}
+
+@keyframes levelPop{
+
+    from{
+
+        transform:scale(.7);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:scale(1);
+
+        opacity:1;
+
+    }
+
+}
+
+#fireworks-canvas{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+
+    height:100%;
+
+    pointer-events:none;
+
+}
+
+@keyframes fireworks{
+
+    0%{
+
+        transform:translateY(30px);
+
+        opacity:0;
+    }
+
+    30%{
+
+        opacity:1;
+    }
+
+    100%{
+
+        transform:translateY(-40px);
+
+        opacity:0;
+    }
+
+}
+.continue-button{
+
+    font-size:1.4rem;
+
+    padding:18px 40px;
+
+    margin-top:30px;
 
 }

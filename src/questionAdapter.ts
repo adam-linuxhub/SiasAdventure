@@ -77,30 +77,11 @@ export function getAllQuestions(): Question[] {
 const skills: SkillContent[] =
     getAllSkills();
 
-console.log(
-    "GAME SKILLS FOUND:",
-    skills.length
-);
-    console.log("=================================");
-    console.log("Loaded Skills");
-    console.log("=================================");
-
-    skills.forEach(skill => {
-
-        console.log(
-            `${skill.skillId}: ${skill.activities.length} activities`
-        );
-
-    });
 
     const questions =
         skills.flatMap(skill =>
             skill.activities.map(convertActivity)
         );
-
-    console.log("=================================");
-    console.log(`Total Questions: ${questions.length}`);
-    console.log("=================================");
 
     return questions;
 

@@ -18,6 +18,14 @@ let questions: Question[] = [];
 
 let levelUp = false;
 
+let levelCompletePending = false;
+
+let levelReward:
+{
+    item: string;
+    badge: string;
+} | null = null;
+
 const wizzyWelcomeMessages = [
 
     "Welcome back, Sia! Ready for another adventure?",
@@ -137,9 +145,12 @@ function initialiseGame() {
 
     initialiseTreasureUI();
 
+    initialiseFireworks();
+
     updateStats();
 
     loadRandomQuestion();
+
 
 }
 
@@ -316,7 +327,15 @@ if (worldComplete) {
 }
 else if (levelComplete) {
 
-    showLevelComplete();
+    levelReward = Treasure.open(player);
+
+    PlayerStorage.save(player);
+
+    updateStats();
+
+    showCorrectExplanation(result);
+
+    levelCompletePending = true;
 
 }
 else if (levelUp) {
@@ -350,6 +369,8 @@ byId<HTMLButtonElement>("dont-know")
 byId<HTMLButtonElement>("next-question")
     .addEventListener("click", nextQuestion);
 
+    byId<HTMLButtonElement>("continue-level")
+    .addEventListener("click", continueLevel);
 
 /*==================================================
   SUBMIT ANSWER
@@ -437,6 +458,27 @@ byId<HTMLButtonElement>("next-question").style.display = "inline-block";
 function nextQuestion() {
 
     hideExplanation();
+
+    if (levelCompletePending) {
+
+        showLevelOverlay();
+
+        return;
+
+    }
+
+    loadRandomQuestion();
+
+}
+
+function continueLevel(): void {
+
+    hideLevelOverlay();
+
+    levelCompletePending = false;
+
+    levelReward = null;
+
     loadRandomQuestion();
 
 }
@@ -613,42 +655,38 @@ ${player.levelName}
 
 }
 
-function showLevelComplete() {
-    const explanation =
-    byId<HTMLDivElement>("explanation");
+function showLevelOverlay() {
 
-    const reward =
-        Treasure.open(player);
+    byId<HTMLElement>("overlay-chests").textContent =
+        player.treasureChests.toString();
 
-    PlayerStorage.save(player);
+    byId<HTMLElement>("overlay-rank").textContent =
+        player.levelName;
 
-    explanation.innerHTML = `
-        <div class="level-complete">
-            <h2>🎉 Level Complete!</h2>
+    if (levelReward) {
 
-            <p>You answered <strong>20 questions</strong>.</p>
+        byId<HTMLElement>("level-treasure").textContent =
+            levelReward.item;
 
-            <p>🎁 You earned <strong>1 Treasure Chest</strong>!</p>
+    }
 
-            <p>
+    typeWizzyMessage(
+    "🎉 Fantastic work, Sia! You completed this level and discovered a magical treasure! Are you ready for the next adventure?"
+);
 
-                ✨ Inside was:
+    byId<HTMLDivElement>("level-complete-overlay")
+        .classList.remove("hidden");
 
-                <strong>${reward.item}</strong>
+    startFireworks();
 
-            </p>
+}
 
-            <p>
+function hideLevelOverlay() {
 
-                📦 Total Treasure Chests:
-                <strong>${player.treasureChests}</strong>
+    byId<HTMLDivElement>("level-complete-overlay")
+        .classList.add("hidden");
 
-            </p>
-
-            <p>Keep going to complete your next level!</p>
-        </div>
-    `;
-
+        stopFireworks();
 }
 
 function showWorldComplete() {
@@ -869,8 +907,33 @@ function showRandomWizzyMessage() {
 }
 
 /*==================================================
-  TYPEWRITER EFFECT
+  FIREWORKS
 ==================================================*/
+
+interface FireworkParticle{
+
+    x:number;
+
+    y:number;
+
+    dx:number;
+
+    dy:number;
+
+    life:number;
+
+    colour:string;
+    
+    size:number;
+}
+
+let fireworksCanvas:HTMLCanvasElement;
+
+let fireworksContext:CanvasRenderingContext2D;
+
+const particles:FireworkParticle[]=[];
+
+let fireworksRunning=false;
 
 /*==================================================
   TYPEWRITER EFFECT
@@ -914,6 +977,213 @@ function typeWizzyMessage(text: string): void {
         index++;
 
     }, 28);
+
+}
+
+function initialiseFireworks(){
+
+    fireworksCanvas=
+        byId<HTMLCanvasElement>("fireworks-canvas");
+
+    fireworksContext=
+        fireworksCanvas.getContext("2d")!;
+
+    resizeFireworks();
+
+    window.addEventListener(
+        "resize",
+        resizeFireworks
+    );
+
+}
+
+function resizeFireworks(){
+
+    fireworksCanvas.width=
+        fireworksCanvas.clientWidth;
+
+    fireworksCanvas.height=
+        fireworksCanvas.clientHeight;
+
+}
+
+function launchFirework(){
+
+    const x=
+        Math.random()*fireworksCanvas.width;
+
+    const y=
+        Math.random()*fireworksCanvas.height*0.5;
+
+    const colours=[
+
+        "#ff3366",
+
+        "#ffcc00",
+
+        "#00ccff",
+
+        "#00ff66",
+
+        "#ffffff",
+
+        "#ff66ff"
+
+    ];
+
+    for(let i=0;i<80;i++){
+
+        const angle=
+            Math.random()*Math.PI*2;
+
+        const speed=
+            Math.random()*5+2;
+
+        particles.push({
+
+            x,
+
+            y,
+
+            dx:Math.cos(angle)*speed,
+
+            dy:Math.sin(angle)*speed,
+
+            life:60,
+
+            colour:
+                colours[
+                    Math.floor(
+                        Math.random()*colours.length
+                    )
+                ],
+                
+            size: Math.random() * 3 + 2
+
+        });
+
+    }
+
+}
+
+function updateFireworks(){
+
+    fireworksContext.clearRect(
+
+        0,
+
+        0,
+
+        fireworksCanvas.width,
+
+        fireworksCanvas.height
+
+    );
+
+    particles.forEach(p=>{
+
+        p.x+=p.dx;
+
+        p.y+=p.dy;
+
+        p.dy+=0.05;
+
+        p.life--;
+
+        fireworksContext.globalAlpha=
+            p.life/60;
+
+        fireworksContext.fillStyle=
+            p.colour;
+
+        fireworksContext.beginPath();
+
+        fireworksContext.arc(
+
+            p.x,
+
+            p.y,
+
+            p.size,
+
+            0,
+
+            Math.PI*2
+
+        );
+
+        fireworksContext.fill();
+
+    });
+    fireworksContext.globalAlpha = 1;
+
+    for(let i=particles.length-1;i>=0;i--){
+
+        if(particles[i].life<=0){
+
+            particles.splice(i,1);
+
+        }
+
+    }
+
+    if(fireworksRunning){
+
+        requestAnimationFrame(
+            updateFireworks
+        );
+
+    }
+
+}
+
+function startFireworks(){
+
+    if (fireworksRunning) {
+
+        return;
+
+    }
+
+    fireworksRunning = true;
+
+    launchFirework();
+
+    updateFireworks();
+
+    const timer = setInterval(() => {
+
+        if (!fireworksRunning) {
+
+            clearInterval(timer);
+
+            return;
+
+        }
+
+        launchFirework();
+
+    }, 900);
+
+}
+
+function stopFireworks(){
+
+    fireworksRunning=false;
+
+    particles.length=0;
+
+    fireworksContext.clearRect(
+
+        0,
+
+        0,
+
+        fireworksCanvas.width,
+
+        fireworksCanvas.height
+
+    );
 
 }
 
