@@ -192,69 +192,139 @@ export const Dashboard = {
 
     },
 
-    renderTreasureGallery(player: Player): void {
+renderTreasureGallery(player: Player): void {
 
-        const gallery =
-            byId<HTMLDivElement>("treasure-gallery");
+    const gallery =
+        byId<HTMLDivElement>("treasure-gallery");
 
-        gallery.innerHTML = "";
+    gallery.innerHTML = "";
 
-        const items =
-            Treasure.rewards.map(reward => ({
+    const RELICS_PER_SHELF = 5;
 
-                icon: reward.icon,
+    const SHELVES =
+        Math.ceil(30 / RELICS_PER_SHELF);
+        
+    for (
 
-                name: reward.item,
+        let shelf = 0;
 
-                rarity: reward.rarity,
+        shelf < SHELVES;
 
-                owned: player.treasures.includes(
-                    reward.item
-                )
+        shelf++
 
-            }));
+    ) {
 
-        items.forEach(item => {
+        const shelfElement =
+            document.createElement("div");
 
-            const card =
+        shelfElement.className =
+            "vault-shelf";
+
+        for (
+
+            let position = 0;
+
+            position < RELICS_PER_SHELF;
+
+            position++
+
+        ) {
+
+            const index =
+                shelf * RELICS_PER_SHELF + position;
+
+            const relic =
+                Treasure.relics[index];
+
+            const relicElement =
                 document.createElement("div");
 
-            card.className =
-                `treasure-card ${item.owned ? "owned" : "locked"}`;
+            if (relic) {
 
-            card.innerHTML = `
+                const owned =
+                    player.treasures.includes(
+                        relic.item
+                    );
 
-                <div class="treasure-icon">
+                relicElement.className =
+                    `vault-relic ${owned ? "owned" : "locked"}`;
 
-                    ${item.icon}
+                relicElement.innerHTML = `
 
-                </div>
+                    <div class="treasure-icon">
 
-                <div class="treasure-name">
+                        ${owned ? relic.icon : "❔"}
 
-                    ${item.name}
+                    </div>
 
-                </div>
+                    <div class="treasure-name">
 
-                <div class="treasure-status rarity-${item.rarity.toLowerCase()}">
+                        ${owned
+                            ? relic.item
+                            : "Unknown Relic"}
 
-                    ${item.rarity}
+                    </div>
 
-                </div>
+                    <div class="treasure-status rarity-${relic.rarity.toLowerCase()}">
 
-                <div class="treasure-status">
+                        ${relic.rarity}
 
-                    ${item.owned ? "Collected ✓" : "Not Found"}
+                    </div>
 
-                </div>
+                    <div class="treasure-status">
 
-            `;
+                        ${owned
+                            ? "Recovered ✨"
+                            : "Hidden"}
 
-            gallery.appendChild(card);
+                    </div>
 
-        });
+                `;
 
-    },
+            }
+
+            else {
+
+                relicElement.className =
+                    "vault-relic empty";
+
+                relicElement.innerHTML = `
+
+                    <div class="treasure-icon">
+
+                        ❔
+
+                    </div>
+
+                    <div class="treasure-name">
+
+                        Unknown Relic
+
+                    </div>
+
+                    <div class="treasure-status">
+
+                        ???
+
+                    </div>
+
+                `;
+
+            }
+
+            shelfElement.appendChild(
+                relicElement
+            );
+
+        }
+
+        gallery.appendChild(
+            shelfElement
+        );
+
+    }
+
+},
 
     renderSkillsReport(): void {
 

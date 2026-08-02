@@ -7,6 +7,7 @@ import { Treasure } from "./treasure";
 import { Dashboard } from "./dashboard";
 import { initialiseTreasureUI } from "./treasureUI";
 import { getAllQuestions } from "./questionAdapter";
+import type { Relic } from "./treasure";
 import {
     QuestionEngine,
     type Question,
@@ -15,16 +16,11 @@ import {
 
 let player: Player;
 let questions: Question[] = [];
-
+let levelReward: Relic | null = null;
 let levelUp = false;
 
 let levelCompletePending = false;
 
-let levelReward:
-{
-    item: string;
-    badge: string;
-} | null = null;
 
 const wizzyWelcomeMessages = [
 
@@ -372,6 +368,14 @@ byId<HTMLButtonElement>("next-question")
     byId<HTMLButtonElement>("continue-level")
     .addEventListener("click", continueLevel);
 
+    byId<HTMLButtonElement>("open-level-chest")
+    .addEventListener(
+        "click",
+        openLevelTreasure
+    );
+
+    
+
 /*==================================================
   SUBMIT ANSWER
 ==================================================*/
@@ -663,12 +667,48 @@ function showLevelOverlay() {
     byId<HTMLElement>("overlay-rank").textContent =
         player.levelName;
 
-    if (levelReward) {
+        const chestImage =
+    byId<HTMLImageElement>("level-chest-image");
 
-        byId<HTMLElement>("level-treasure").textContent =
-            levelReward.item;
+const chestTitle =
+    byId<HTMLElement>("level-chest-title");
 
-    }
+const chestMessage =
+    byId<HTMLElement>("level-chest-message");
+
+const openButton =
+    byId<HTMLButtonElement>("open-level-chest");
+
+const continueButton =
+    byId<HTMLButtonElement>("continue-level");
+
+chestImage.src =
+    "images/ui/treasure-closed.png";
+
+chestTitle.textContent =
+    "🎁 Treasure Chest";
+
+chestMessage.textContent =
+    "A magical treasure chest has appeared!";
+
+openButton.style.display =
+    "inline-block";
+
+continueButton.style.display =
+    "none";
+
+    const relic =
+    byId<HTMLDivElement>("level-relic");
+
+relic.classList.add(
+    "hidden"
+);
+
+relic.classList.remove(
+    "show"
+);
+
+relic.innerHTML = "";
 
     typeWizzyMessage(
     "🎉 Fantastic work, Sia! You completed this level and discovered a magical treasure! Are you ready for the next adventure?"
@@ -678,6 +718,98 @@ function showLevelOverlay() {
         .classList.remove("hidden");
 
     startFireworks();
+
+}
+
+
+/*==================================================
+  OPEN LEVEL TREASURE
+==================================================*/
+
+function openLevelTreasure(): void {
+
+    if (!levelReward) {
+
+        return;
+
+    }
+
+    const reward = levelReward;
+
+    const chestImage =
+        byId<HTMLImageElement>("level-chest-image");
+
+    const chestTitle =
+        byId<HTMLElement>("level-chest-title");
+
+    const chestMessage =
+        byId<HTMLElement>("level-chest-message");
+
+    const openButton =
+        byId<HTMLButtonElement>("open-level-chest");
+
+    const continueButton =
+        byId<HTMLButtonElement>("continue-level");
+
+    chestImage.classList.add(
+        "shake"
+    );
+
+    setTimeout(() => {
+
+        chestImage.src =
+            "images/ui/treasure-open.png";
+
+        chestImage.classList.remove(
+            "shake"
+        );
+
+        const relic =
+            byId<HTMLDivElement>("level-relic");
+
+        relic.innerHTML =
+            reward.icon;
+
+        relic.classList.remove(
+            "hidden"
+        );
+
+        relic.classList.remove(
+            "show"
+        );
+
+        void relic.offsetWidth;
+
+        relic.classList.add(
+            "show"
+        );
+
+        chestTitle.textContent =
+            `🎉 ${reward.item} Found!`;
+
+        chestMessage.innerHTML = `
+
+            ⭐ +50 Stars!
+
+            <br><br>
+
+            🏆 ${reward.badge}
+
+        `;
+
+        openButton.style.display =
+            "none";
+
+        continueButton.style.display =
+            "inline-block";
+
+        PlayerStorage.save(
+            player
+        );
+
+        updateStats();
+
+    }, 650);
 
 }
 
@@ -849,6 +981,10 @@ function lockAnswerUI(
     });
 
 }
+
+/*==================================================
+  TREASURE CHEST
+==================================================*/
 
 
 /*==================================================

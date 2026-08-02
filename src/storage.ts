@@ -22,6 +22,8 @@ export const PlayerStorage = {
 
             player.badges ??= [];
             player.treasures ??= [];
+            player.relics ??= [];
+            player.worldTreasureCount ??= 0;
 
             return player;
 
@@ -44,6 +46,10 @@ export const PlayerStorage = {
             badges: [],
 
             treasures: [],
+
+            relics: [],
+
+            worldTreasureCount: 0,
 
             questionsAnswered: 0,
 
