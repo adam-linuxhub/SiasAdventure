@@ -26,11 +26,29 @@ export interface Player {
     adventurePoints: number;
 
     /*==============================================
-      WORLDS
+      ADVENTURE
     ==============================================*/
 
+    /**
+     * Current school year.
+     *
+     * Starts at Year 3.
+     */
+    year: number;
+
+    /**
+     * Current adventure world.
+     *
+     * 1 = Crystal Caves
+     * ...
+     * 12 = Wizard's Castle
+     */
     world: number;
 
+    /**
+     * Total worlds completed
+     * across all years.
+     */
     worldsCompleted: number;
 
     /*==============================================

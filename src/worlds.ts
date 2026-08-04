@@ -1,96 +1,138 @@
 import type { Player } from "./types";
 
-interface World {
-    world: number;
+export interface World {
+
+    id: number;
+
     name: string;
-    adventurePoints: number;
+
+    subtitle: string;
+
+    description: string;
+
+    relicsRequired: number;
+
 }
 
 export const Worlds = {
 
-    worlds: [
+    worlds: <World[]>[
 
-    {
-        world: 1,
-        name: "Enchanted Forest",
-        adventurePoints: 0,
-    },
+        {
+            id: 1,
+            name: "Crystal Caves",
+            subtitle: "The Cave of Shimmering Knowledge",
+            description: "Ancient crystals glow with magical energy.",
+            relicsRequired: 30
+        },
 
-    {
-        world: 2,
-        name: "Crystal Caves",
-        adventurePoints: 10,
-    },
+        {
+            id: 2,
+            name: "Enchanted Forest",
+            subtitle: "Where Magic Grows",
+            description: "Friendly woodland creatures guard hidden relics.",
+            relicsRequired: 30
+        },
 
-    {
-        world: 3,
-        name: "Castle of Curiosity",
-        adventurePoints: 25,
-    },
+        {
+            id: 3,
+            name: "Pirate Isles",
+            subtitle: "Treasures of the Seven Seas",
+            description: "Discover long-lost pirate relics.",
+            relicsRequired: 30
+        },
 
-    {
-        world: 4,
-        name: "Whispering Waters",
-        adventurePoints: 45,
-    },
+        {
+            id: 4,
+            name: "Frozen Kingdom",
+            subtitle: "The Ice Palace",
+            description: "Frozen relics sparkle beneath the snow.",
+            relicsRequired: 30
+        },
 
-    {
-        world: 5,
-        name: "Frost Peak",
-        adventurePoints: 70,
-    },
+        {
+            id: 5,
+            name: "Dragon Mountains",
+            subtitle: "Home of Ancient Dragons",
+            description: "Only the bravest explorers reach the summit.",
+            relicsRequired: 30
+        },
 
-    {
-        world: 6,
-        name: "Dragon Volcano",
-        adventurePoints: 100,
-    },
+        {
+            id: 6,
+            name: "Ancient Desert",
+            subtitle: "The Lost Kingdom",
+            description: "Ancient secrets lie beneath the sand.",
+            relicsRequired: 30
+        },
 
-    {
-        world: 7,
-        name: "Sky Kingdom",
-        adventurePoints: 140,
-    },
+        {
+            id: 7,
+            name: "Underwater Kingdom",
+            subtitle: "The Coral Palace",
+            description: "Search beneath the waves for magical relics.",
+            relicsRequired: 30
+        },
 
-    {
-        world: 8,
-        name: "Star Temple",
-        adventurePoints: 190,
-    }
+        {
+            id: 8,
+            name: "Sky Kingdom",
+            subtitle: "Above the Clouds",
+            description: "Floating islands hide legendary treasures.",
+            relicsRequired: 30
+        },
 
-] as World[],
+        {
+            id: 9,
+            name: "Dinosaur Valley",
+            subtitle: "A Journey Through Time",
+            description: "Collect relics from a prehistoric world.",
+            relicsRequired: 30
+        },
 
-    getWorld(worldNumber: number): World | undefined {
+        {
+            id: 10,
+            name: "Space Station",
+            subtitle: "Beyond the Stars",
+            description: "Explore the mysteries of the universe.",
+            relicsRequired: 30
+        },
 
-        return this.worlds.find(
-            world => world.world === worldNumber
-        );
+        {
+            id: 11,
+            name: "Time Traveller",
+            subtitle: "Across the Ages",
+            description: "Recover relics from every era.",
+            relicsRequired: 30
+        },
 
-    },
-
-    getNextWorld(worldNumber: number): World | undefined {
-
-        return this.getWorld(worldNumber + 1);
-
-    },
-
-    checkWorld(player: Player): boolean {
-
-        const currentWorld =
-            this.getWorld(player.world);
-
-        if (!currentWorld) {
-            return false;
+        {
+            id: 12,
+            name: "Wizard's Castle",
+            subtitle: "The Academy of Knowledge",
+            description: "The final challenge awaits.",
+            relicsRequired: 30
         }
 
-        const nextWorld =
-        this.getNextWorld(player.world);
+    ],
 
-        return (
-            nextWorld !== undefined &&
-            player.adventurePoints >=
-            nextWorld.adventurePoints
+    getWorld(id: number): World | undefined {
+
+        return this.worlds.find(
+            world => world.id === id
         );
+
+    },
+
+    getNextWorld(id: number): World | undefined {
+
+        return this.getWorld(id + 1);
+
+    },
+
+    isFinalWorld(id: number): boolean {
+
+        return id === this.worlds.length;
 
     }
 

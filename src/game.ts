@@ -16,11 +16,11 @@ import {
 
 let player: Player;
 let questions: Question[] = [];
-let levelReward: Relic | null = null;
+let pendingChest = false;
 let levelUp = false;
-
 let levelCompletePending = false;
-
+type CelebrationMode = "level" | "world";
+let celebrationMode: CelebrationMode = "level";
 
 const wizzyWelcomeMessages = [
 
@@ -323,13 +323,9 @@ if (worldComplete) {
 }
 else if (levelComplete) {
 
-    levelReward = Treasure.open(player);
+    pendingChest = true;
 
-    PlayerStorage.save(player);
-
-    updateStats();
-
-    showCorrectExplanation(result);
+    showCelebrationOverlay();
 
     levelCompletePending = true;
 
@@ -465,7 +461,7 @@ function nextQuestion() {
 
     if (levelCompletePending) {
 
-        showLevelOverlay();
+        showCelebrationOverlay();
 
         return;
 
@@ -477,11 +473,21 @@ function nextQuestion() {
 
 function continueLevel(): void {
 
+    console.log("continueLevel() called");
+
     hideLevelOverlay();
 
     levelCompletePending = false;
 
     levelReward = null;
+
+    player.questionsThisLevel = 1;
+
+    console.log("questionsThisLevel reset to", player.questionsThisLevel);
+
+    PlayerStorage.save(player);
+
+    updateStats();
 
     loadRandomQuestion();
 
@@ -608,6 +614,14 @@ function showLevelUp() {
     const reward =
         Treasure.open(player);
 
+    if (!reward) {
+
+        console.error("Treasure.open() returned undefined");
+
+        return;
+
+    }
+
     const explanation =
         byId<HTMLDivElement>("explanation");
 
@@ -659,60 +673,107 @@ ${player.levelName}
 
 }
 
-function showLevelOverlay() {
+function showCelebrationOverlay(): void {
 
-    byId<HTMLElement>("overlay-chests").textContent =
-        player.treasureChests.toString();
+    const chestImage =
+        byId<HTMLImageElement>("level-chest-image");
 
-    byId<HTMLElement>("overlay-rank").textContent =
-        player.levelName;
+    const overlayTitle =
+        byId<HTMLElement>("level-complete-title");
 
-        const chestImage =
-    byId<HTMLImageElement>("level-chest-image");
+    const chestTitle =
+        byId<HTMLElement>("level-chest-title");
 
-const chestTitle =
-    byId<HTMLElement>("level-chest-title");
+    const chestMessage =
+        byId<HTMLElement>("level-chest-message");
 
-const chestMessage =
-    byId<HTMLElement>("level-chest-message");
+    const openButton =
+        byId<HTMLButtonElement>("open-level-chest");
 
-const openButton =
-    byId<HTMLButtonElement>("open-level-chest");
-
-const continueButton =
-    byId<HTMLButtonElement>("continue-level");
-
-chestImage.src =
-    "images/ui/treasure-closed.png";
-
-chestTitle.textContent =
-    "🎁 Treasure Chest";
-
-chestMessage.textContent =
-    "A magical treasure chest has appeared!";
-
-openButton.style.display =
-    "inline-block";
-
-continueButton.style.display =
-    "none";
+    const continueButton =
+        byId<HTMLButtonElement>("continue-level");
 
     const relic =
-    byId<HTMLDivElement>("level-relic");
+        byId<HTMLDivElement>("level-relic");
 
-relic.classList.add(
-    "hidden"
-);
+    // Reset chest image
+    chestImage.src =
+        "images/magic/treasure-chest.png";
 
-relic.classList.remove(
-    "show"
-);
+    chestImage.classList.remove("shake");
 
-relic.innerHTML = "";
+    // Hide revealed relic
+    relic.classList.add("hidden");
+    relic.classList.remove("show");
+    relic.innerHTML = "";
 
-    typeWizzyMessage(
-    "🎉 Fantastic work, Sia! You completed this level and discovered a magical treasure! Are you ready for the next adventure?"
-);
+    // Reset buttons
+    openButton.disabled = false;
+    openButton.style.display = "inline-block";
+
+    continueButton.style.display = "none";
+
+    if (celebrationMode === "level") {
+
+        overlayTitle.textContent =
+            "🎉 LEVEL COMPLETE!";
+
+        chestTitle.textContent =
+            "🎁 Magical Treasure Chest";
+
+        chestMessage.innerHTML = `
+
+            You answered all
+            <strong>20 magical questions!</strong>
+
+            <br><br>
+
+            A mysterious treasure chest has appeared.
+
+            <br><br>
+
+            <strong>Open it to discover your next relic!</strong>
+
+        `;
+
+        typeWizzyMessage(
+
+            "Fantastic work, Sia! You've completed another level. I wonder what magical relic is hiding inside that treasure chest..."
+
+        );
+
+    } else {
+
+        overlayTitle.textContent =
+            "🌍 WORLD COMPLETE!";
+
+        chestTitle.textContent =
+            "🏆 World Complete";
+
+        chestMessage.innerHTML = `
+
+            You recovered all
+            <strong>30 magical relics!</strong>
+
+            <br><br>
+
+            This magical world has been restored.
+
+        `;
+
+        typeWizzyMessage(
+
+            "Amazing, Sia! You recovered every relic in this world. A brand new adventure is waiting for you!"
+
+        );
+
+        openButton.style.display =
+            "none";
+
+        continueButton.style.display =
+            "inline-block";
+
+    }
 
     byId<HTMLDivElement>("level-complete-overlay")
         .classList.remove("hidden");
@@ -728,13 +789,28 @@ relic.innerHTML = "";
 
 function openLevelTreasure(): void {
 
-    if (!levelReward) {
+    if (!pendingChest) {
 
         return;
 
     }
 
-    const reward = levelReward;
+    pendingChest = false;
+
+    const reward =
+        Treasure.open(player);
+
+    if (!reward) {
+
+        console.error("Treasure.open() returned undefined");
+
+        return;
+
+    }
+
+    PlayerStorage.save(player);
+
+    updateStats();
 
     const chestImage =
         byId<HTMLImageElement>("level-chest-image");
@@ -751,63 +827,107 @@ function openLevelTreasure(): void {
     const continueButton =
         byId<HTMLButtonElement>("continue-level");
 
-    chestImage.classList.add(
-        "shake"
-    );
+    const relic =
+        byId<HTMLDivElement>("level-relic");
+
+    chestImage.classList.add("shake");
+
+    openButton.disabled = true;
 
     setTimeout(() => {
 
+        // TODO:
+        // Replace with an open chest image later.
         chestImage.src =
-            "images/ui/treasure-open.png";
+            "images/magic/treasure-chest.png";
 
-        chestImage.classList.remove(
-            "shake"
-        );
+        chestImage.classList.remove("shake");
 
-        const relic =
-            byId<HTMLDivElement>("level-relic");
+        relic.innerHTML = `
+            <img
+                src="images/relics/world1/${reward.image}"
+                alt="${reward.item}"
+                class="relic-image">
+        `;
 
-        relic.innerHTML =
-            reward.icon;
-
-        relic.classList.remove(
-            "hidden"
-        );
-
-        relic.classList.remove(
-            "show"
-        );
+        relic.classList.remove("hidden");
+        relic.classList.remove("show");
 
         void relic.offsetWidth;
 
-        relic.classList.add(
-            "show"
-        );
+        relic.classList.add("show");
 
         chestTitle.textContent =
-            `🎉 ${reward.item} Found!`;
+            `🎉 ${reward.item}`;
+
+        let rarityColour = "#8BC34A";
+
+        switch (reward.rarity) {
+
+            case "Rare":
+                rarityColour = "#42A5F5";
+                break;
+
+            case "Epic":
+                rarityColour = "#AB47BC";
+                break;
+
+            case "Legendary":
+                rarityColour = "#FFD700";
+                break;
+
+        }
 
         chestMessage.innerHTML = `
 
-            ⭐ +50 Stars!
+            <div style="font-size:1.25rem;font-weight:bold;color:${rarityColour};">
 
-            <br><br>
+                ${reward.rarity} Relic
 
-            🏆 ${reward.badge}
+            </div>
+
+            <br>
+
+            <div style="font-size:1.1rem;">
+
+                ${reward.description}
+
+            </div>
+
+            <br>
+
+            ⭐ +50 Stars
+
+            <br>
+
+            🏅 ${reward.badge}
 
         `;
-
-        openButton.style.display =
-            "none";
 
         continueButton.style.display =
             "inline-block";
 
-        PlayerStorage.save(
-            player
+        continueButton.animate(
+
+            [
+
+                { opacity: 0, transform: "translateY(20px)" },
+
+                { opacity: 1, transform: "translateY(0px)" }
+
+            ],
+
+            {
+
+                duration: 450,
+
+                fill: "forwards"
+
+            }
+
         );
 
-        updateStats();
+        openButton.style.display = "none";
 
     }, 650);
 
@@ -821,7 +941,7 @@ function hideLevelOverlay() {
         stopFireworks();
 }
 
-function showWorldComplete() {
+function showWorldComplete(): void {
 
     const explanation =
         byId<HTMLDivElement>("explanation");
@@ -829,80 +949,82 @@ function showWorldComplete() {
     const completedWorld =
         Worlds.getWorld(player.world);
 
+    const nextWorld =
+        Worlds.getNextWorld(player.world);
 
     PlayerStorage.save(player);
+
     updateStats();
-
-    const nextWorld =
-        Worlds.getNextWorld(player.world - 1);
-
-    const completedWorldName =
-        completedWorld?.name ?? `World ${player.world - 1}`;
-
-    const nextWorldName =
-        nextWorld?.name ?? "Master Explorer";
 
     explanation.innerHTML = `
 
-    <h2>🌍 World Complete!</h2>
+        <h2>🏆 World Complete!</h2>
 
-    <p>
+        <p>
 
-    🧙 <strong>Fantastic, Sia!</strong>
+            <strong>Congratulations, Sia!</strong>
 
-    </p>
+        </p>
 
-    <p>
+        <p>
 
-    You have completed
+            You recovered all
+            <strong>30 magical relics</strong>
+            from
 
-    <strong>${completedWorldName}</strong>!
+            <strong>${completedWorld?.name ?? "this world"}</strong>.
 
-    </p>
+        </p>
 
-    <hr>
+        <hr>
 
-    <p>
+        <p>
 
-    ${nextWorld
-        ? `✨ <strong>${nextWorldName} Unlocked!</strong>`
-        : `👑 <strong>Congratulations!</strong>`}
+            ⭐ Bonus Reward:
+            <strong>+500 Stars</strong>
 
-    </p>
+        </p>
 
-    <p>
+        <p>
 
-    ${nextWorld
-        ? `💎 Welcome to <strong>${nextWorldName}</strong>`
-        : `🎉 You have completed every world!`}
+            🏅 Worlds Completed:
+            <strong>${player.worldsCompleted}</strong>
 
-    </p>
+        </p>
 
-    <p>
+        <hr>
 
-    ⭐ Adventure Points:
-        <strong>${player.adventurePoints}</strong>
+        ${
+            nextWorld
+            ? `
 
-        <br><br>
+                <p>
 
-        🏅 Worlds Completed:
-        <strong>${player.worldsCompleted}</strong>
+                    🌍 Your next destination is
 
-    </p>
+                    <strong>${nextWorld.name}</strong>.
 
-    <p>
+                </p>
 
-    🎒 Pack your backpack...
+                <p>
 
-    Your next adventure begins now!
+                    Wizzy is waiting to guide you on your next adventure!
 
-    </p>
+                </p>
 
-    <p>
+            `
+            : `
 
-    ➡️ Click <strong>Next Question</strong> to continue.
+                <p>
 
-    </p>
+                    👑 Amazing!
+
+                    You have completed every world in this year.
+
+                </p>
+
+            `
+        }
 
     `;
 
@@ -1000,24 +1122,22 @@ function updateStats() {
         player.treasureChests.toString();
 
     byId<HTMLElement>("level").textContent =
-        `${player.levelName}`;
-    
+        player.levelName;
+
     byId<HTMLElement>("level-progress").textContent =
         `${player.questionsThisLevel} / 20`;
-    
+
     const world =
-    Worlds.getWorld(player.world);
+        Worlds.getWorld(player.world);
 
     byId<HTMLElement>("world").textContent =
-        world
-            ? world.name
-            : "";
+        world ? world.name : "";
 
-        byId<HTMLElement>("world").title =
-            `Worlds Completed: ${player.worldsCompleted}`;
+    byId<HTMLElement>("world").title =
+        `Worlds Completed: ${player.worldsCompleted}`;
 
-        byId<HTMLElement>("xp-progress").style.width =
-            `${Math.min(player.xp, 100)}%`;
+    byId<HTMLElement>("xp-progress").style.width =
+        `${Math.min(player.xp, 100)}%`;
 
     Dashboard.renderTreasureGallery(player);
     Dashboard.renderStatistics(player);

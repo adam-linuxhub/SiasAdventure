@@ -14,15 +14,26 @@ export const PlayerStorage = {
 
             const player = JSON.parse(saved) as Player;
 
-            // Backwards compatibility
+            /*==========================================
+              BACKWARDS COMPATIBILITY
+            ==========================================*/
+
+            player.year ??= 3;
+
             player.adventurePoints ??= 0;
+
             player.world ??= 1;
+
             player.worldsCompleted ??= 0;
+
             player.questionsThisLevel ??= 0;
 
             player.badges ??= [];
+
             player.treasures ??= [];
+
             player.relics ??= [];
+
             player.worldTreasureCount ??= 0;
 
             return player;
@@ -31,15 +42,39 @@ export const PlayerStorage = {
 
         return {
 
+            /*==========================================
+              PROFILE
+            ==========================================*/
+
             name: "Sia",
 
-            xp: 0,
-
-            stars: 0,
+            /*==========================================
+              PROGRESSION
+            ==========================================*/
 
             level: 1,
 
             levelName: "Explorer",
+
+            xp: 0,
+
+            adventurePoints: 0,
+
+            /*==========================================
+              ADVENTURE
+            ==========================================*/
+
+            year: 3,
+
+            world: 1,
+
+            worldsCompleted: 0,
+
+            /*==========================================
+              REWARDS
+            ==========================================*/
+
+            stars: 0,
 
             treasureChests: 0,
 
@@ -51,17 +86,15 @@ export const PlayerStorage = {
 
             worldTreasureCount: 0,
 
+            /*==========================================
+              STATISTICS
+            ==========================================*/
+
             questionsAnswered: 0,
 
             correct: 0,
 
             incorrect: 0,
-
-            adventurePoints: 0,
-
-            world: 1,
-
-            worldsCompleted: 0,
 
             questionsThisLevel: 0
 

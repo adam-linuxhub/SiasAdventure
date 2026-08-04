@@ -1,8 +1,10 @@
 import { LearningEngine } from "./learning";
 import type { Player } from "./types";
 import { Levels } from "./levels";
-import { QuestionEngine, type QuestionResult } from "./questionEngine";
-import { Worlds } from "./worlds";
+import {
+    QuestionEngine,
+    type QuestionResult
+} from "./questionEngine";
 import { PlayerStorage } from "./storage";
 
 export interface GameResult {
@@ -70,6 +72,7 @@ export const GameController = {
 
                 default:
                     player.adventurePoints += 1;
+                    break;
 
             }
 
@@ -79,13 +82,10 @@ export const GameController = {
 
         }
 
- 
         const levelComplete =
             Levels.checkLevelComplete(player);
 
         if (levelComplete) {
-
-            player.questionsThisLevel = 0;
 
             player.treasureChests++;
 
@@ -94,18 +94,9 @@ export const GameController = {
         const levelUp =
             Levels.checkLevel(player);
 
-        const worldComplete =
-            Worlds.checkWorld(player);
+        // World progression is handled by Treasure.open()
+        const worldComplete = false;
 
-        if (worldComplete) {
-
-            player.world++;
-
-            player.worldsCompleted++;
-
-        }
-
-        // Save all player changes made during this turn
         PlayerStorage.save(player);
 
         return {

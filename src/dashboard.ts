@@ -199,11 +199,53 @@ renderTreasureGallery(player: Player): void {
 
     gallery.innerHTML = "";
 
+    const relics =
+        Treasure.getCurrentRelics(player);
+
+    const TOTAL_RELICS = 30;
+
     const RELICS_PER_SHELF = 5;
 
     const SHELVES =
-        Math.ceil(30 / RELICS_PER_SHELF);
-        
+        Math.ceil(TOTAL_RELICS / RELICS_PER_SHELF);
+
+    const progress =
+        Treasure.getCollectionProgress(player);
+
+    const header =
+        document.createElement("div");
+
+    header.className =
+        "treasure-header";
+
+    header.innerHTML = `
+
+        <h2>
+
+            ${Treasure.getCurrentWorld(player).name}
+
+        </h2>
+
+        <p class="vault-subtitle">
+
+            ${progress} / ${TOTAL_RELICS} Relics Collected
+
+        </p>
+
+        <div class="vault-progress">
+
+            <div
+                class="vault-progress-fill"
+                style="width:${(progress / TOTAL_RELICS) * 100}%">
+
+            </div>
+
+        </div>
+
+    `;
+
+    gallery.appendChild(header);
+
     for (
 
         let shelf = 0;
@@ -234,7 +276,7 @@ renderTreasureGallery(player: Player): void {
                 shelf * RELICS_PER_SHELF + position;
 
             const relic =
-                Treasure.relics[index];
+                relics[index];
 
             const relicElement =
                 document.createElement("div");
@@ -242,8 +284,8 @@ renderTreasureGallery(player: Player): void {
             if (relic) {
 
                 const owned =
-                    player.treasures.includes(
-                        relic.item
+                    player.relics.includes(
+                        relic.id
                     );
 
                 relicElement.className =
@@ -253,7 +295,7 @@ renderTreasureGallery(player: Player): void {
 
                     <div class="treasure-icon">
 
-                        ${owned ? relic.icon : "❔"}
+                        ${owned ? relic.icon : "🔒"}
 
                     </div>
 
@@ -261,29 +303,29 @@ renderTreasureGallery(player: Player): void {
 
                         ${owned
                             ? relic.item
-                            : "Unknown Relic"}
+                            : "Locked"}
 
                     </div>
 
                     <div class="treasure-status rarity-${relic.rarity.toLowerCase()}">
 
-                        ${relic.rarity}
+                        ${owned
+                            ? relic.rarity
+                            : "???"}
 
                     </div>
 
                     <div class="treasure-status">
 
                         ${owned
-                            ? "Recovered ✨"
-                            : "Hidden"}
+                            ? "Collected ✓"
+                            : "Locked"}
 
                     </div>
 
                 `;
 
-            }
-
-            else {
+            } else {
 
                 relicElement.className =
                     "vault-relic empty";
@@ -292,19 +334,19 @@ renderTreasureGallery(player: Player): void {
 
                     <div class="treasure-icon">
 
-                        ❔
+                        🔒
 
                     </div>
 
                     <div class="treasure-name">
 
-                        Unknown Relic
+                        Coming Soon
 
                     </div>
 
                     <div class="treasure-status">
 
-                        ???
+                        --
 
                     </div>
 

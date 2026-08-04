@@ -1456,13 +1456,15 @@ TREASURE COLLECTION
 
 .level-panel{
 
-    width:min(700px,90vw);
+    width:min(680px,90vw);
 
-    padding:40px;
+    max-height:96vh;
+
+    padding:16px 26px;
 
     background:white;
 
-    border-radius:30px;
+    border-radius:28px;
 
     text-align:center;
 
@@ -1471,49 +1473,56 @@ TREASURE COLLECTION
     overflow:hidden;
 
     animation:levelPop .6s ease;
+
 }
 
 .level-panel h1{
 
-    font-size:3rem;
+    font-size:2.2rem;
 
-    margin-bottom:20px;
+    margin:8px 0;
 
     color:#FF9800;
 
     text-shadow:
         0 0 12px gold;
+
 }
 
 .level-message{
 
-    font-size:1.3rem;
+    font-size:1.05rem;
 
-    line-height:1.6;
+    line-height:1.35;
 
-    margin-bottom:30px;
+    margin:12px 0 16px;
+
 }
 
 .level-wizzy{
 
-    width:170px;
+    width:85px;
+
+    margin:0 auto 4px;
 
     animation:
         wizzyFloat 3s ease-in-out infinite;
+
 }
 
 .reward-card{
 
-    margin:30px auto;
+    margin:10px auto;
 
-    padding:25px;
+    padding:12px;
 
-    border-radius:20px;
+    border-radius:18px;
 
     background:#FFF8DC;
 
     box-shadow:
-        0 10px 30px rgba(0,0,0,.15);
+        0 8px 18px rgba(0,0,0,.12);
+
 }
 
 #level-treasure{
@@ -1531,9 +1540,10 @@ TREASURE COLLECTION
 
     justify-content:space-around;
 
-    margin:30px 0;
+    margin:18px 0 10px;
 
-    font-size:1.2rem;
+    font-size:1.05rem;
+
 }
 
 .level-stats strong{
@@ -1601,13 +1611,14 @@ TREASURE COLLECTION
     }
 
 }
+
 .continue-button{
 
-    font-size:1.4rem;
+    font-size:1.15rem;
 
-    padding:18px 40px;
+    padding:12px 28px;
 
-    margin-top:30px;
+    margin-top:12px;
 
 }
 
@@ -1801,11 +1812,11 @@ TREASURE COLLECTION
 
 #level-chest-image{
 
-    width:220px;
+    width:135px;
 
     display:block;
 
-    margin:0 auto 25px;
+    margin:0 auto 10px;
 
     transition:
 
@@ -1883,17 +1894,16 @@ TREASURE COLLECTION
 
 #level-relic{
 
-    font-size:5rem;
+    font-size:3.8rem;
 
     text-align:center;
 
-    margin:25px 0;
+    margin:14px 0;
 
     opacity:0;
 
     transform:
-
-        translateY(35px)
+        translateY(25px)
         scale(.4);
 
 }
@@ -1952,5 +1962,55 @@ TREASURE COLLECTION
             scale(1);
 
     }
+
+}
+
+.relic-image{
+
+    width:140px;
+
+    height:140px;
+
+    object-fit:contain;
+
+    filter:
+        drop-shadow(0 0 18px gold);
+
+    animation:
+        relicReveal .9s ease;
+
+}
+
+/*==================================================
+  VAULT PROGRESS
+==================================================*/
+
+.vault-progress{
+
+    width:100%;
+
+    height:18px;
+
+    margin:20px 0 35px;
+
+    background:#2B2B2B;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+.vault-progress-fill{
+
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        #FFD700,
+        #FFA500
+    );
+
+    transition:width .5s ease;
 
 }

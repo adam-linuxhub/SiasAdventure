@@ -407,6 +407,8 @@
         Version 1.0
 
     </footer>
+
+
 <!-- ==========================================
      LEVEL COMPLETE CELEBRATION
 =========================================== -->
@@ -425,43 +427,61 @@
             class="level-wizzy"
             alt="Wizzy">
 
-        <h1>🎉 LEVEL COMPLETE!</h1>
+        <h1 id="level-complete-title">
+
+            🎉 LEVEL COMPLETE!
+
+        </h1>
 
         <p class="level-message">
 
             Fantastic work, Sia!
-
-            <br><br>
-
+            <br>
             You answered all <strong>20 magical questions.</strong>
 
         </p>
 
         <div class="reward-card">
 
-            <h2>🎁 Treasure Chest Earned</h2>
+            <img
+                id="level-chest-image"
+                src="images/magic/treasure-chest.png"
+                alt="Treasure Chest">
 
-            <div id="level-treasure"></div>
+            <h2 id="level-chest-title">
 
-        </div>
+                🎁 Treasure Chest
 
-        <div class="level-stats">
+            </h2>
 
-            <div>
-                📦 Treasure Chests
-                <strong id="overlay-chests">0</strong>
+            <p id="level-chest-message">
+
+                A magical treasure chest has appeared!
+
+            </p>
+
+            <div
+                id="level-relic"
+                class="hidden">
+
             </div>
 
-            <div>
-                ⭐ Rank
-                <strong id="overlay-rank">Explorer</strong>
-            </div>
+            <button
+                id="open-level-chest"
+                class="magic-button"
+                type="button">
+
+                ✨ Open Treasure Chest ✨
+
+            </button>
 
         </div>
 
         <button
             id="continue-level"
-            class="magic-button continue-button">
+            class="magic-button continue-button"
+            type="button"
+            style="display:none">
 
             ✨ Continue Adventure →
 
