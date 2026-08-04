@@ -479,8 +479,6 @@ function continueLevel(): void {
 
     levelCompletePending = false;
 
-    levelReward = null;
-
     player.questionsThisLevel = 1;
 
     console.log("questionsThisLevel reset to", player.questionsThisLevel);

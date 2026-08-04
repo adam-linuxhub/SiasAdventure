@@ -68,7 +68,7 @@ const world1Relics: Relic[] = [
         description:
             "A magical wand once carried by the first Guardian of Knowledge.",
 
-        icon: "🪄",icon: "🪄",
+        icon: "🪄",
 
         image: "magic-wand.png",
 
