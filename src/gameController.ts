@@ -32,12 +32,26 @@ export const GameController = {
         const question =
             QuestionEngine.getCurrentQuestion();
 
+        console.log("Question:", question);
+
         if (question?.skillId) {
+
+            console.log("Skill ID:", question.skillId);
 
             LearningEngine.recordAnswer(
                 question.skillId,
                 result.correct
             );
+
+            console.log(
+                "Learning Map:",
+                LearningEngine.skills
+            );
+
+        }
+        else {
+
+            console.warn("Question has no skillId");
 
         }
 

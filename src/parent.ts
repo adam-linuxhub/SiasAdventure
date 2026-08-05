@@ -1,10 +1,18 @@
 import { PlayerStorage } from "./storage";
-import { Worlds } from "./worlds";
 import { Dashboard } from "./dashboard";
 
+/*==================================================
+  LOAD PLAYER & LEARNING DATA
+==================================================*/
 
-const player = PlayerStorage.load();
+PlayerStorage.loadLearning();
 
+const player =
+    PlayerStorage.load();
+
+/*==================================================
+  HELPERS
+==================================================*/
 
 function byId<T extends HTMLElement>(id: string): T {
 
@@ -13,7 +21,9 @@ function byId<T extends HTMLElement>(id: string): T {
 
     if (!element) {
 
-        throw new Error(`Missing element: ${id}`);
+        throw new Error(
+            `Missing element: ${id}`
+        );
 
     }
 
@@ -21,92 +31,73 @@ function byId<T extends HTMLElement>(id: string): T {
 
 }
 
-
 /*==================================================
-  OVERALL PROGRESS
+  TAB NAVIGATION
 ==================================================*/
 
-function updateOverallProgress(): void {
+function initialiseTabs(): void {
 
-    const world =
-        Worlds.getWorld(player.world);
+    const buttons =
+        document.querySelectorAll<HTMLButtonElement>(
+            ".tab-button"
+        );
 
+    const panels =
+        document.querySelectorAll<HTMLElement>(
+            ".tab-panel"
+        );
 
-    byId<HTMLDivElement>("overall-progress").innerHTML = `
+    buttons.forEach(button => {
 
-        <div class="progress-summary">
+        button.addEventListener("click", () => {
 
-            <p>
+            const selected =
+                button.dataset.tab;
 
-                ⭐ <strong>Stars:</strong>
+            buttons.forEach(button =>
 
-                ${player.stars}
+                button.classList.remove(
+                    "active"
+                )
 
-            </p>
+            );
 
+            panels.forEach(panel =>
 
-            <p>
+                panel.classList.remove(
+                    "active"
+                )
 
-                🏅 <strong>Rank:</strong>
+            );
 
-                ${player.levelName}
+            button.classList.add(
+                "active"
+            );
 
-            </p>
+            byId<HTMLElement>(
+                `${selected}-tab`
+            ).classList.add(
+                "active"
+            );
 
+        });
 
-            <p>
-
-                🌍 <strong>World:</strong>
-
-                ${
-                    world
-                        ? world.name
-                        : player.world
-                }
-
-            </p>
-
-
-            <p>
-
-                💰 <strong>Treasure:</strong>
-
-                ${player.treasureChests}
-
-            </p>
-
-
-            <p>
-
-                🌟 <strong>Worlds Completed:</strong>
-
-                ${player.worldsCompleted}
-
-            </p>
-
-
-        </div>
-
-    `;
+    });
 
 }
-
 
 /*==================================================
   LOAD DASHBOARD
 ==================================================*/
 
-updateOverallProgress();
+initialiseTabs();
 
+Dashboard.renderSummary(player);
+
+Dashboard.renderOverview(player);
 
 Dashboard.renderStatistics(player);
 
-Dashboard.renderTreasureGallery(player);
-
 Dashboard.renderSkillsReport();
 
-Dashboard.renderNeedsPractice();
-
-Dashboard.renderStrongestSkills();
-
-Dashboard.renderAchievements(player);
+Dashboard.renderRecommendations();

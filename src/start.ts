@@ -2,6 +2,13 @@
     SIA'S ADVENTURE
     START SCREEN
 ==================================================*/
+
+import { PlayerStorage } from "./storage";
+
+/*==================================================
+    CHARACTER DIALOGUE
+==================================================*/
+
 const characterDialogue = {
 
     wizzy: "Welcome back, Sia! Ready for another adventure?",
@@ -15,7 +22,9 @@ const characterDialogue = {
 const characterNames = {
 
     wizzy: "Wizzy",
+
     hop: "Hop",
+
     hootie: "Hootie"
 
 } as const;
@@ -24,17 +33,17 @@ const characterNames = {
     ELEMENTS
 ==================================================*/
 
-const bubble = document.getElementById("speech-bubble") as HTMLDivElement | null;
-const bubbleName = document.getElementById("speech-name") as HTMLDivElement | null;
-const bubbleText = document.getElementById("speech-text") as HTMLDivElement | null;
+const bubble =
+    document.getElementById("speech-bubble") as HTMLDivElement | null;
 
-const characterCards = document.querySelectorAll<HTMLElement>(".character-card");
+const bubbleName =
+    document.getElementById("speech-name") as HTMLDivElement | null;
 
+const bubbleText =
+    document.getElementById("speech-text") as HTMLDivElement | null;
 
-/*==================================================
-    RANDOM MESSAGE
-==================================================*/
-
+const characterCards =
+    document.querySelectorAll<HTMLElement>(".character-card");
 
 /*==================================================
     SPARKLES
@@ -51,10 +60,16 @@ function createSparkles(card: HTMLElement): void {
         sparkle.className = "sparkle";
 
         sparkle.style.left =
-            rect.left + window.scrollX + Math.random() * rect.width + "px";
+            rect.left +
+            window.scrollX +
+            Math.random() * rect.width +
+            "px";
 
         sparkle.style.top =
-            rect.top + window.scrollY + Math.random() * rect.height + "px";
+            rect.top +
+            window.scrollY +
+            Math.random() * rect.height +
+            "px";
 
         document.body.appendChild(sparkle);
 
@@ -63,9 +78,10 @@ function createSparkles(card: HTMLElement): void {
             sparkle.remove();
 
         }, 900);
-    }
-}
 
+    }
+
+}
 
 /*==================================================
     SHOW SPEECH
@@ -73,29 +89,42 @@ function createSparkles(card: HTMLElement): void {
 
 function showSpeech(card: HTMLElement): void {
 
-    if (!bubble || !bubbleName || !bubbleText)
+    if (!bubble || !bubbleName || !bubbleText) {
+
         return;
+
+    }
 
     const character =
         card.dataset.character as keyof typeof characterDialogue;
-    
-    const rect = card.getBoundingClientRect();
 
+    const rect =
+        card.getBoundingClientRect();
 
-bubbleName.textContent = characterNames[character];
-bubbleText.textContent = characterDialogue[character];
+    bubbleName.textContent =
+        characterNames[character];
+
+    bubbleText.textContent =
+        characterDialogue[character];
 
     bubble.style.display = "block";
 
     bubble.style.left =
-        rect.left + rect.width / 2 - 120 + window.scrollX + "px";
+        rect.left +
+        rect.width / 2 -
+        120 +
+        window.scrollX +
+        "px";
 
     bubble.style.top =
-        rect.top - 110 + window.scrollY + "px";
+        rect.top -
+        110 +
+        window.scrollY +
+        "px";
 
     createSparkles(card);
-}
 
+}
 
 /*==================================================
     HIDE SPEECH
@@ -103,8 +132,12 @@ bubbleText.textContent = characterDialogue[character];
 
 function hideSpeech(): void {
 
-    if (bubble)
+    if (bubble) {
+
         bubble.style.display = "none";
+
+    }
+
 }
 
 /*==================================================
@@ -113,31 +146,39 @@ function hideSpeech(): void {
 
 function createStars(): void {
 
-    const sky = document.getElementById("stars");
+    const sky =
+        document.getElementById("stars");
 
-    if (!sky)
+    if (!sky) {
+
         return;
+
+    }
 
     for (let i = 0; i < 60; i++) {
 
-        const star = document.createElement("div");
+        const star =
+            document.createElement("div");
 
         star.className = "star";
 
-        star.style.left = Math.random() * 100 + "%";
+        star.style.left =
+            Math.random() * 100 + "%";
 
-        star.style.top = Math.random() * 100 + "%";
+        star.style.top =
+            Math.random() * 100 + "%";
 
         star.style.animationDuration =
             (2 + Math.random() * 4) + "s";
 
         sky.appendChild(star);
+
     }
 
 }
 
 /*==================================================
-  STORY
+    STORY
 ==================================================*/
 
 function initialiseStory(): void {
@@ -187,6 +228,57 @@ function initialiseStory(): void {
 
 }
 
+/*==================================================
+    RESET PROGRESS
+==================================================*/
+
+function initialiseResetButton(): void {
+
+    const button =
+        document.getElementById("reset-progress");
+
+    if (!button) {
+
+        return;
+
+    }
+
+    button.addEventListener("click", () => {
+
+        const confirmed = confirm(
+            "Reset all adventure progress?\n\nThis cannot be undone."
+        );
+
+        if (!confirmed) {
+
+            return;
+
+        }
+
+        PlayerStorage.reset();
+
+        alert("Adventure progress has been reset.");
+
+        location.reload();
+
+    });
+
+}
+
+/*==================================================
+    START ADVENTURE
+==================================================*/
+
+function startAdventure(): void {
+
+    window.location.href = "game.html";
+
+}
+
+/*==================================================
+    BUTTONS
+==================================================*/
+
 const startButton =
     document.getElementById("start-adventure");
 
@@ -195,16 +287,6 @@ startButton?.addEventListener("click", () => {
     startAdventure();
 
 });
-
-/*==================================================
-  START ADVENTURE
-==================================================*/
-
-function startAdventure(): void {
-
-    window.location.href = "game.html";
-
-}
 
 /*==================================================
     EVENTS
@@ -222,5 +304,12 @@ characterCards.forEach(card => {
 
 });
 
+/*==================================================
+    INITIALISE
+==================================================*/
+
 createStars();
+
 initialiseStory();
+
+initialiseResetButton();

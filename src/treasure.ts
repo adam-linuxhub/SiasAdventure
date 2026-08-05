@@ -623,26 +623,42 @@ export const Treasure = {
 
         }
 
+        /*==========================================
+        RESET CURRENT WORLD PROGRESS
+        ==========================================*/
+
         player.worldTreasureCount = 0;
 
+        player.questionsThisLevel = 0;
+
         player.worldsCompleted++;
+
+        /*==========================================
+        NEXT WORLD
+        ==========================================*/
 
         if (player.world < this.worlds.length) {
 
             player.world++;
 
-        } else {
-
-            player.year++;
-
-            player.world = 1;
+            return true;
 
         }
+
+        /*==========================================
+        NEXT SCHOOL YEAR
+        ==========================================*/
+
+        player.year++;
+
+        player.world = 1;
+
+        player.worldTreasureCount = 0;
 
         return true;
 
     },
-
+    
     open(player: Player): Relic {
 
         console.log("Opening treasure...");

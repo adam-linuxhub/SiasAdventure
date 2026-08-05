@@ -1,20 +1,23 @@
 import type { Player } from "./types";
-import { Treasure } from "./treasure";
 import { Worlds } from "./worlds";
 import { LearningEngine } from "./learning";
-import { AchievementEngine } from "./achievements";
 import {
     SkillRegistry,
     type Subject
 } from "./skills";
 
-function byId<T extends HTMLElement>(id: string): T {
+function byId<T extends HTMLElement>(
+    id: string
+): T {
 
-    const element = document.getElementById(id);
+    const element =
+        document.getElementById(id);
 
     if (!element) {
 
-        throw new Error(`Missing element: ${id}`);
+        throw new Error(
+            `Missing element: ${id}`
+        );
 
     }
 
@@ -24,634 +27,641 @@ function byId<T extends HTMLElement>(id: string): T {
 
 export const Dashboard = {
 
-    renderStatistics(player: Player): void {
+    /*==================================================
+      SUMMARY
+    ==================================================*/
+
+    renderSummary(
+        player: Player
+    ): void {
+
+        const container =
+            byId<HTMLDivElement>(
+                "dashboard-summary"
+            );
 
         const accuracy =
-            player.questionsAnswered === 0
-                ? 0
-                : Math.round(
-                    (player.correct /
-                        player.questionsAnswered) * 100
-                );
+            player.questionsAnswered > 0
+                ? Math.round(
+                    player.correct /
+                    player.questionsAnswered *
+                    100
+                )
+                : 0;
+
+        const weakest =
+            LearningEngine
+                .getWeakestSkills();
+
+        const strongest =
+            LearningEngine
+                .getStrongestSkills();
+
+        const weakestSkill =
+            weakest.length > 0
+                ? SkillRegistry.getName(
+                    weakest[0].skillId
+                )
+                : "no specific area";
+
+        const strongestSkill =
+            strongest.length > 0
+                ? SkillRegistry.getName(
+                    strongest[0].skillId
+                )
+                : "all skills";
+
+        let progress = "";
+
+        if (accuracy >= 90) {
+
+            progress =
+                "excellent";
+
+        }
+        else if (accuracy >= 75) {
+
+            progress =
+                "good";
+
+        }
+        else {
+
+            progress =
+                "steady";
+
+        }
+
+        container.innerHTML = `
+
+            <div class="card">
+
+                <h2>
+
+                    Learning Summary
+
+                </h2>
+
+                <p>
+
+                    Sia is making
+                    <strong>${progress}</strong>
+                    progress.
+
+                </p>
+
+                <p>
+
+                    She has answered
+                    <strong>
+
+                        ${player.questionsAnswered}
+
+                    </strong>
+
+                    questions with an overall accuracy of
+
+                    <strong>
+
+                        ${accuracy}%
+
+                    </strong>.
+
+                </p>
+
+                <p>
+
+                    Her strongest area is
+
+                    <strong>
+
+                        ${strongestSkill}
+
+                    </strong>.
+
+                </p>
+
+                <p>
+
+                    The main area requiring additional practice is
+
+                    <strong>
+
+                        ${weakestSkill}
+
+                    </strong>.
+
+                </p>
+
+                <p>
+
+                    Short, regular practice sessions will help
+                    maintain confidence while continuing to
+                    strengthen weaker skills.
+
+                </p>
+
+            </div>
+
+        `;
+
+    },
+    /*==================================================
+      OVERVIEW
+    ==================================================*/
+
+    renderOverview(
+        player: Player
+    ): void {
 
         const world =
-            Worlds.getWorld(player.world);
+            Worlds.getWorld(
+                player.world
+            );
 
-        byId<HTMLDivElement>("statistics").innerHTML = `
+        const accuracy =
+            player.questionsAnswered > 0
+                ? Math.round(
+                    player.correct /
+                    player.questionsAnswered *
+                    100
+                )
+                : 0;
 
-            <div class="stat-card">
-                ⭐ Stars
-                <strong>${player.stars}</strong>
-            </div>
+        byId<HTMLDivElement>(
+            "overall-progress"
+        ).innerHTML = `
 
-            <div class="stat-card">
-                🏆 Rank
-                <strong>${player.levelName}</strong>
-            </div>
+            <div class="overview-grid">
 
-            <div class="stat-card">
-                🌍 World
-                <strong>${world ? `${player.world}: ${world.name}` : player.world}</strong>
-            </div>
+                <div class="overview-card">
 
-            <div class="stat-card">
-                ❓ Questions
-                <strong>${player.questionsAnswered}</strong>
-            </div>
+                    <div class="overview-title">
 
-            <div class="stat-card">
-                ✅ Correct
-                <strong>${player.correct}</strong>
-            </div>
+                        Questions Answered
 
-            <div class="stat-card">
-                🎯 Accuracy
-                <strong>${accuracy}%</strong>
-            </div>
+                    </div>
 
-            <div class="stat-card">
-                🎁 Chests
-                <strong>${player.treasureChests}</strong>
-            </div>
+                    <div class="overview-value">
 
-            <div class="stat-card">
-                💎 Treasures
-                <strong>${player.treasures.length}</strong>
-            </div>
+                        ${player.questionsAnswered}
 
-            <div class="stat-card">
-                🏅 Badges
-                <strong>${player.badges.length}</strong>
+                    </div>
+
+                </div>
+
+                <div class="overview-card">
+
+                    <div class="overview-title">
+
+                        Correct Answers
+
+                    </div>
+
+                    <div class="overview-value">
+
+                        ${player.correct}
+
+                    </div>
+
+                </div>
+
+                <div class="overview-card">
+
+                    <div class="overview-title">
+
+                        Accuracy
+
+                    </div>
+
+                    <div class="overview-value">
+
+                        ${accuracy}%
+
+                    </div>
+
+                </div>
+
+                <div class="overview-card">
+
+                    <div class="overview-title">
+
+                        Current Level
+
+                    </div>
+
+                    <div class="overview-value">
+
+                        ${player.levelName}
+
+                    </div>
+
+                </div>
+
             </div>
 
         `;
 
     },
 
-    renderSubjectSummary(): void {
+    /*==================================================
+      STATISTICS
+    ==================================================*/
 
-        const container =
-            byId<HTMLDivElement>("subject-summary");
+    renderStatistics(
+        player: Player
+    ): void {
 
-        const subjects =
-            LearningEngine.getSubjectProgress();
+        const accuracy =
+            player.questionsAnswered > 0
+                ? Math.round(
+                    player.correct /
+                    player.questionsAnswered *
+                    100
+                )
+                : 0;
 
-        if (subjects.length === 0) {
+        byId<HTMLDivElement>(
+            "statistics"
+        ).innerHTML = `
 
-            container.innerHTML =
-                "<p>No learning data yet.</p>";
+            <div class="card">
 
-            return;
+                <h2>
 
-        }
+                    Statistics
 
-        const icons: Record<string, string> = {
+                </h2>
 
-            "Maths": "🔢",
+                <div class="statistics-grid">
 
-            "English": "📖",
+                    <div class="stat-card">
 
-            "Verbal Reasoning": "🧠",
+                        <div class="stat-title">
 
-            "Non-Verbal Reasoning": "🧩"
+                            Questions Answered
 
-        };
+                        </div>
 
-        container.innerHTML = subjects.map(subject => {
+                        <div class="stat-value">
 
-            const stars =
-                "★".repeat(
-                    LearningEngine.getStars(
-                        subject.mastery
-                    )
-                ) +
-                "☆".repeat(
-                    5 -
-                    LearningEngine.getStars(
-                        subject.mastery
-                    )
-                );
-
-            return `
-
-                <div class="subject-card">
-
-                    <div class="subject-header">
-
-                        <span>
-
-                            ${icons[subject.subject] ?? "📚"}
-
-                            ${subject.subject}
-
-                        </span>
-
-                        <span>
-
-                            ${subject.mastery}%
-
-                        </span>
-
-                    </div>
-
-                    <div class="subject-stars">
-
-                        ${stars}
-
-                    </div>
-
-                    <div class="subject-progress">
-
-                        <div
-                            class="subject-progress-bar"
-                            style="width:${subject.mastery}%">
+                            ${player.questionsAnswered}
 
                         </div>
 
                     </div>
 
-                    <div class="subject-footer">
+                    <div class="stat-card">
 
-                        ${subject.correct}
-                        /
-                        ${subject.questionsSeen}
-                        correct
+                        <div class="stat-title">
 
-                        •
+                            Correct Answers
 
-                        ${subject.skills}
-                        skills attempted
+                        </div>
+
+                        <div class="stat-value">
+
+                            ${player.correct}
+
+                        </div>
+
+                    </div>
+
+                    <div class="stat-card">
+
+                        <div class="stat-title">
+
+                            Accuracy
+
+                        </div>
+
+                        <div class="stat-value">
+
+                            ${accuracy}%
+
+                        </div>
 
                     </div>
 
                 </div>
 
-            `;
+            </div>
 
-        }).join("");
+        `;
 
     },
 
-renderTreasureGallery(player: Player): void {
-
-    const gallery =
-        byId<HTMLDivElement>("treasure-gallery");
-
-    gallery.innerHTML = "";
-
-    const relics =
-        Treasure.getCurrentRelics(player);
-
-    const TOTAL_RELICS = 30;
-
-    const RELICS_PER_SHELF = 5;
-
-    const SHELVES =
-        Math.ceil(TOTAL_RELICS / RELICS_PER_SHELF);
-
-    const progress =
-        Treasure.getCollectionProgress(player);
-
-    const header =
-        document.createElement("div");
-
-    header.className =
-        "treasure-header";
-
-    header.innerHTML = `
-
-        <h2>
-
-            ${Treasure.getCurrentWorld(player).name}
-
-        </h2>
-
-        <p class="vault-subtitle">
-
-            ${progress} / ${TOTAL_RELICS} Relics Collected
-
-        </p>
-
-        <div class="vault-progress">
-
-            <div
-                class="vault-progress-fill"
-                style="width:${(progress / TOTAL_RELICS) * 100}%">
-
-            </div>
-
-        </div>
-
-    `;
-
-    gallery.appendChild(header);
-
-    for (
-
-        let shelf = 0;
-
-        shelf < SHELVES;
-
-        shelf++
-
-    ) {
-
-        const shelfElement =
-            document.createElement("div");
-
-        shelfElement.className =
-            "vault-shelf";
-
-        for (
-
-            let position = 0;
-
-            position < RELICS_PER_SHELF;
-
-            position++
-
-        ) {
-
-            const index =
-                shelf * RELICS_PER_SHELF + position;
-
-            const relic =
-                relics[index];
-
-            const relicElement =
-                document.createElement("div");
-
-            if (relic) {
-
-                const owned =
-                    player.relics.includes(
-                        relic.id
-                    );
-
-                relicElement.className =
-                    `vault-relic ${owned ? "owned" : "locked"}`;
-
-                relicElement.innerHTML = `
-
-                    <div class="treasure-icon">
-
-                        ${owned ? relic.icon : "🔒"}
-
-                    </div>
-
-                    <div class="treasure-name">
-
-                        ${owned
-                            ? relic.item
-                            : "Locked"}
-
-                    </div>
-
-                    <div class="treasure-status rarity-${relic.rarity.toLowerCase()}">
-
-                        ${owned
-                            ? relic.rarity
-                            : "???"}
-
-                    </div>
-
-                    <div class="treasure-status">
-
-                        ${owned
-                            ? "Collected ✓"
-                            : "Locked"}
-
-                    </div>
-
-                `;
-
-            } else {
-
-                relicElement.className =
-                    "vault-relic empty";
-
-                relicElement.innerHTML = `
-
-                    <div class="treasure-icon">
-
-                        🔒
-
-                    </div>
-
-                    <div class="treasure-name">
-
-                        Coming Soon
-
-                    </div>
-
-                    <div class="treasure-status">
-
-                        --
-
-                    </div>
-
-                `;
-
-            }
-
-            shelfElement.appendChild(
-                relicElement
-            );
-
-        }
-
-        gallery.appendChild(
-            shelfElement
-        );
-
-    }
-
-},
+    /*==================================================
+      SKILLS REPORT
+    ==================================================*/
 
     renderSkillsReport(): void {
 
         const container =
-            byId<HTMLDivElement>("skills-report");
+            byId<HTMLDivElement>(
+                "skills-report"
+            );
 
         const skills =
             LearningEngine.getAllSkills();
 
         if (skills.length === 0) {
 
-            container.innerHTML =
-                "<p>No learning data yet.</p>";
+            container.innerHTML = `
 
-            return;
+                <div class="card">
 
-        }
-
-        const subjects: Subject[] = [
-
-            "Maths",
-
-            "English",
-
-            "Verbal Reasoning",
-
-            "Non-Verbal Reasoning"
-
-        ];
-
-        const icons: Record<Subject, string> = {
-
-            "Maths": "🔢",
-
-            "English": "📖",
-
-            "Verbal Reasoning": "🧠",
-
-            "Non-Verbal Reasoning": "🧩"
-
-        };
-
-        container.innerHTML = subjects.map(subject => {
-
-            const subjectSkills =
-                skills
-                    .filter(skill =>
-                        SkillRegistry.getSubject(
-                            skill.skillId
-                        ) === subject
-                    )
-                    .sort(
-                        (a, b) =>
-                            b.mastery - a.mastery
-                    );
-
-            if (subjectSkills.length === 0) {
-
-                return "";
-
-            }
-
-            return `
-
-                <div class="subject-group">
-
-                    <h3>
-
-                        ${icons[subject]} ${subject}
-
-                    </h3>
-
-                    ${subjectSkills.map(skill => {
-
-                        const starCount =
-                            LearningEngine.getStars(
-                                skill.mastery
-                            );
-
-                        const stars =
-                            "★".repeat(starCount) +
-                            "☆".repeat(5 - starCount);
-
-                        return `
-
-                            <div class="skill-card">
-
-                                <div class="skill-header">
-
-                                    <span class="skill-name">
-
-                                        ${SkillRegistry.getName(skill.skillId)}
-
-                                    </span>
-
-                                    <span class="skill-score">
-
-                                        ${skill.mastery}%
-
-                                    </span>
-
-                                </div>
-
-                                <div class="skill-stars">
-
-                                    ${stars}
-
-                                </div>
-
-                                <div class="skill-progress">
-
-                                    <div
-                                        class="skill-progress-bar"
-                                        style="width:${skill.mastery}%">
-                                    </div>
-
-                                </div>
-
-                                <div class="skill-footer">
-
-                                    ${skill.correct}
-                                    /
-                                    ${skill.questionsSeen}
-                                    correct
-
-                                </div>
-
-                            </div>
-
-                        `;
-
-                    }).join("")}
+                    No learning data available.
 
                 </div>
 
             `;
 
-        }).join("");
+            return;
+
+        }
+
+        const sortedSkills =
+
+            [...skills].sort(
+
+                (a, b) =>
+
+                    a.mastery - b.mastery
+
+            );
+
+        container.innerHTML = `
+
+            <div class="card">
+
+                <h2>
+
+                    Skills Report
+
+                </h2>
+
+                <table class="skills-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+
+                                Subject
+
+                            </th>
+
+                            <th>
+
+                                Skill
+
+                            </th>
+
+                            <th>
+
+                                Status
+
+                            </th>
+
+                            <th>
+
+                                Recommendation
+
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        ${sortedSkills.map(skill => {
+
+                            const subject =
+                                SkillRegistry.getSubject(
+                                    skill.skillId
+                                );
+
+                            const name =
+                                SkillRegistry.getName(
+                                    skill.skillId
+                                );
+
+                            let status = "";
+
+                            let css = "";
+
+                            let recommendation = "";
+
+                            if (skill.mastery >= 85) {
+
+                                status =
+                                    "🟢 Excellent";
+
+                                css =
+                                    "excellent";
+
+                                recommendation =
+                                    "Continue normal practice.";
+
+                            }
+                            else if (
+                                skill.mastery >= 60
+                            ) {
+
+                                status =
+                                    "🟡 Developing";
+
+                                css =
+                                    "developing";
+
+                                recommendation =
+                                    "Continue practising.";
+
+                            }
+                            else {
+
+                                status =
+                                    "🔴 Needs Practice";
+
+                                css =
+                                    "needs-practice";
+
+                                recommendation =
+                                    "Prioritise this skill.";
+
+                            }
+
+                            return `
+
+                                <tr>
+
+                                    <td>
+
+                                        ${subject}
+
+                                    </td>
+
+                                    <td>
+
+                                        ${name}
+
+                                    </td>
+
+                                    <td>
+
+                                        <span class="${css}">
+
+                                            ${status}
+
+                                        </span>
+
+                                    </td>
+
+                                    <td>
+
+                                        ${recommendation}
+
+                                    </td>
+
+                                </tr>
+
+                            `;
+
+                        }).join("")}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        `;
 
     },
 
-    renderNeedsPractice(): void {
+        /*==================================================
+      RECOMMENDATIONS
+    ==================================================*/
+
+    renderRecommendations(): void {
 
         const container =
-            byId<HTMLDivElement>("needs-practice");
+            byId<HTMLDivElement>(
+                "recommendations"
+            );
 
-        const skills =
-            LearningEngine.getWeakestSkills();
+        const weakest =
+            LearningEngine
+                .getWeakestSkills();
 
-        if (skills.length === 0) {
+        const strongest =
+            LearningEngine
+                .getStrongestSkills();
 
-            container.innerHTML =
-                "<p>No learning data yet.</p>";
+        if (
+
+            weakest.length === 0 ||
+
+            strongest.length === 0
+
+        ) {
+
+            container.innerHTML = `
+
+                <div class="card">
+
+                    No learning data available.
+
+                </div>
+
+            `;
 
             return;
 
         }
 
-        container.innerHTML = skills.map(skill => `
+        container.innerHTML = `
 
-            <div class="practice-card">
+            <div class="card">
 
-                <div>
+                <h2>
 
-                    <div class="practice-name">
+                    Weekly Recommendations
 
-                        ${SkillRegistry.getName(skill.skillId)}
+                </h2>
 
-                    </div>
+                <h3>
 
-                    <div class="practice-subject">
+                    Priority Skills
 
-                        ${SkillRegistry.getSubject(skill.skillId)}
+                </h3>
 
-                    </div>
+                <ul>
 
-                </div>
+                    ${weakest
+                        .slice(0, 3)
+                        .map(skill => `
 
-                <div class="practice-score">
+                            <li>
 
-                    ${skill.mastery}%
+                                <strong>
 
-                </div>
+                                    ${SkillRegistry.getName(skill.skillId)}
 
-            </div>
+                                </strong>
 
-        `).join("");
+                                (${SkillRegistry.getSubject(skill.skillId)})
 
-    },
+                            </li>
 
-    renderStrongestSkills(): void {
+                        `)
+                        .join("")}
 
-        const container =
-            byId<HTMLDivElement>("strongest-skills");
+                </ul>
 
-        const skills =
-            LearningEngine.getStrongestSkills();
+                <h3>
 
-        if (skills.length === 0) {
+                    Strongest Skills
 
-            container.innerHTML =
-                "<p>No learning data yet.</p>";
+                </h3>
 
-            return;
+                <ul>
 
-        }
+                    ${strongest
+                        .slice(0, 3)
+                        .map(skill => `
 
-        container.innerHTML = skills.map(skill => `
+                            <li>
 
-            <div class="practice-card">
+                                <strong>
 
-                <div>
+                                    ${SkillRegistry.getName(skill.skillId)}
 
-                    <div class="practice-name">
+                                </strong>
 
-                        ${SkillRegistry.getName(skill.skillId)}
+                                (${SkillRegistry.getSubject(skill.skillId)})
 
-                    </div>
+                            </li>
 
-                    <div class="practice-subject">
+                        `)
+                        .join("")}
 
-                        ${SkillRegistry.getSubject(skill.skillId)}
+                </ul>
 
-                    </div>
+                <p>
 
-                </div>
+                    Recommended practice:
+                    15–20 minutes,
+                    3 times this week.
 
-                <div class="practice-score">
-
-                    ${skill.mastery}%
-
-                </div>
-
-            </div>
-
-        `).join("");
-
-    },
-
-    renderAchievements(player: Player): void {
-
-        const container =
-            byId<HTMLDivElement>("achievements");
-
-        const achievements =
-            AchievementEngine.getUnlocked(player);
-
-        if (achievements.length === 0) {
-
-            container.innerHTML =
-                "<p>No achievements unlocked yet.</p>";
-
-            return;
-
-        }
-
-        container.innerHTML = achievements.map(achievement => `
-
-            <div class="achievement-card">
-
-                <div class="achievement-icon">
-
-                    ${achievement.icon}
-
-                </div>
-
-                <div class="achievement-info">
-
-                    <div class="achievement-name">
-
-                        ${achievement.name}
-
-                    </div>
-
-                    <div class="achievement-description">
-
-                        ${achievement.description}
-
-                    </div>
-
-                </div>
+                </p>
 
             </div>
 
-        `).join("");
+        `;
 
     }
 

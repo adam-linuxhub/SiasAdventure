@@ -8,11 +8,8 @@ import { Dashboard } from "./dashboard";
 import { initialiseTreasureUI } from "./treasureUI";
 import { getAllQuestions } from "./questionAdapter";
 import type { Relic } from "./treasure";
-import {
-    QuestionEngine,
-    type Question,
-    type QuestionResult
-} from "./questionEngine";
+import { QuestionEngine,type Question,type QuestionResult} from "./questionEngine";
+import {renderTreasureGallery} from "./treasureUI";
 
 let player: Player;
 let questions: Question[] = [];
@@ -728,9 +725,7 @@ function showCelebrationOverlay(): void {
 
             A mysterious treasure chest has appeared.
 
-            <br><br>
-
-            <strong>Open it to discover your next relic!</strong>
+            
 
         `;
 
@@ -1137,10 +1132,11 @@ function updateStats() {
     byId<HTMLElement>("xp-progress").style.width =
         `${Math.min(player.xp, 100)}%`;
 
-    Dashboard.renderTreasureGallery(player);
-    Dashboard.renderStatistics(player);
-}
+    renderTreasureGallery(player);
 
+    Dashboard.renderStatistics(player);
+
+}
 
 /*==================================================
   RANDOM WIZZY MESSAGE

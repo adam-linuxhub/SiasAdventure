@@ -17,10 +17,10 @@
 
 
 
-  <script type="module" crossorigin src="/assets/game-3TshAyEO.js"></script>
+  <script type="module" crossorigin src="/assets/game-1GQqi92a.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/theme-DJb1Agj5.js">
   <link rel="stylesheet" crossorigin href="/assets/theme-DZ_lf1aP.css">
-  <link rel="stylesheet" crossorigin href="/assets/game-Y8gwb7g6.css">
+  <link rel="stylesheet" crossorigin href="/assets/game-oMJ3tY9D.css">
 </head>
 
 <body>
@@ -89,14 +89,35 @@
 
                 </p>
 
-                <form
-                    id="answer-form"
-                    autocomplete="off">
+        <form
+            id="answer-form"
+            autocomplete="off">
 
-                    <div id="answers"></div>
+            <div id="answers"></div>
 
-                </form>
+            <!--==========================================
+                NON-VERBAL REASONING
+            ===========================================-->
 
+            <div
+
+                id="nvr-container"
+
+                class="hidden"
+
+            >
+
+                <canvas
+
+                    id="nvr-canvas"
+
+                >
+
+                </canvas>
+
+            </div>
+
+        </form>
             </div>
 
 
@@ -385,6 +406,88 @@
 
     </footer>
 
+
+<!-- ==========================================
+     LEVEL COMPLETE CELEBRATION
+=========================================== -->
+
+<div
+    id="level-complete-overlay"
+    class="level-overlay hidden"
+    aria-hidden="true">
+
+    <canvas id="fireworks-canvas"></canvas>
+
+    <div class="level-panel">
+
+        <img
+            src="/assets/wizzy-DbYoABQA.png"
+            class="level-wizzy"
+            alt="Wizzy">
+
+        <h1 id="level-complete-title">
+
+            🎉 LEVEL COMPLETE!
+
+        </h1>
+
+        <p class="level-message">
+
+            Fantastic work, Sia!
+            <br>
+            You answered all <strong>20 magical questions.</strong>
+
+        </p>
+
+        <div class="reward-card">
+
+            <img
+                id="level-chest-image"
+                src="/assets/treasure-chest-CPGN6UKn.png"
+                alt="Treasure Chest">
+
+            <h2 id="level-chest-title">
+
+                🎁 Treasure Chest
+
+            </h2>
+
+            <p id="level-chest-message">
+
+                A magical treasure chest has appeared!
+
+            </p>
+
+            <div
+                id="level-relic"
+                class="hidden">
+
+            </div>
+
+            <button
+                id="open-level-chest"
+                class="magic-button"
+                type="button">
+
+                ✨ Open Treasure Chest ✨
+
+            </button>
+
+        </div>
+
+        <button
+            id="continue-level"
+            class="magic-button continue-button"
+            type="button"
+            style="display:none">
+
+            ✨ Continue Adventure →
+
+        </button>
+
+    </div>
+
+</div>
 </main>
 
 

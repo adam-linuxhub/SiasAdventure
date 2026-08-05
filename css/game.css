@@ -1337,11 +1337,14 @@ TREASURE COLLECTION
 
 .treasure-gallery{
 
-    display:flex;
+    display:grid;
 
-    flex-direction:column;
+    grid-template-columns:
+        repeat(auto-fill,minmax(170px,1fr));
 
-    gap:40px;
+    gap:24px;
+
+
 
     margin-top:30px;
 
@@ -1385,6 +1388,56 @@ TREASURE COLLECTION
 
 }
 
+.treasure-card{
+
+    width:170px;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,.08),
+            rgba(255,255,255,.02)
+        );
+
+    border:2px solid rgba(255,215,0,.25);
+
+    text-align:center;
+
+}
+
+.treasure-image{
+
+    width:120px;
+
+    height:120px;
+
+    object-fit:contain;
+
+    display:block;
+
+    margin:0 auto 12px;
+
+    filter:
+        drop-shadow(0 0 12px rgba(255,215,0,.45));
+
+}
+
+.treasure-name{
+
+    color:#F8E7A1;
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    margin-top:10px;
+
+}
+
 .treasure-header h2 {
 
     color: white;
@@ -1395,6 +1448,44 @@ TREASURE COLLECTION
 
     text-shadow:
         0 2px 5px black;
+
+}
+
+.treasure-image{
+
+    width:120px;
+
+    height:120px;
+
+    object-fit:contain;
+
+    display:block;
+
+    margin:0 auto 12px;
+
+    filter:
+        drop-shadow(0 0 12px rgba(255,215,0,.45));
+
+}
+
+.treasure-card{
+
+    width:170px;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,.08),
+            rgba(255,255,255,.02)
+        );
+
+    border:2px solid rgba(255,215,0,.25);
+
+    text-align:center;
 
 }
 

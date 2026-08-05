@@ -6,6 +6,10 @@ import {
 
 export const PlayerStorage = {
 
+    /*==================================================
+      LOAD PLAYER
+    ==================================================*/
+
     load(): Player {
 
         const saved = localStorage.getItem("siasAdventure");
@@ -19,21 +23,14 @@ export const PlayerStorage = {
             ==========================================*/
 
             player.year ??= 3;
-
             player.adventurePoints ??= 0;
-
             player.world ??= 1;
-
             player.worldsCompleted ??= 0;
-
             player.questionsThisLevel ??= 0;
 
             player.badges ??= [];
-
             player.treasures ??= [];
-
             player.relics ??= [];
-
             player.worldTreasureCount ??= 0;
 
             return player;
@@ -53,11 +50,8 @@ export const PlayerStorage = {
             ==========================================*/
 
             level: 1,
-
             levelName: "Explorer",
-
             xp: 0,
-
             adventurePoints: 0,
 
             /*==========================================
@@ -65,9 +59,7 @@ export const PlayerStorage = {
             ==========================================*/
 
             year: 3,
-
             world: 1,
-
             worldsCompleted: 0,
 
             /*==========================================
@@ -75,15 +67,10 @@ export const PlayerStorage = {
             ==========================================*/
 
             stars: 0,
-
             treasureChests: 0,
-
             badges: [],
-
             treasures: [],
-
             relics: [],
-
             worldTreasureCount: 0,
 
             /*==========================================
@@ -91,16 +78,17 @@ export const PlayerStorage = {
             ==========================================*/
 
             questionsAnswered: 0,
-
             correct: 0,
-
             incorrect: 0,
-
             questionsThisLevel: 0
 
         };
 
     },
+
+    /*==================================================
+      SAVE PLAYER
+    ==================================================*/
 
     save(player: Player): void {
 
@@ -113,6 +101,74 @@ export const PlayerStorage = {
 
     },
 
+    /*==================================================
+      RESET PLAYER
+    ==================================================*/
+
+    reset(): Player {
+
+        localStorage.removeItem("siasAdventure");
+        localStorage.removeItem("siasAdventureLearning");
+
+        LearningEngine.skills.clear();
+
+        const player: Player = {
+
+            /*==========================================
+              PROFILE
+            ==========================================*/
+
+            name: "Sia",
+
+            /*==========================================
+              PROGRESSION
+            ==========================================*/
+
+            level: 1,
+            levelName: "Explorer",
+            xp: 0,
+            adventurePoints: 0,
+
+            /*==========================================
+              ADVENTURE
+            ==========================================*/
+
+            year: 3,
+            world: 1,
+            worldsCompleted: 0,
+
+            /*==========================================
+              REWARDS
+            ==========================================*/
+
+            stars: 0,
+            treasureChests: 0,
+            badges: [],
+            treasures: [],
+            relics: [],
+            worldTreasureCount: 0,
+
+            /*==========================================
+              STATISTICS
+            ==========================================*/
+
+            questionsAnswered: 0,
+            correct: 0,
+            incorrect: 0,
+            questionsThisLevel: 0
+
+        };
+
+        this.save(player);
+
+        return player;
+
+    },
+
+    /*==================================================
+      LOAD LEARNING
+    ==================================================*/
+
     loadLearning(): void {
 
         const saved = localStorage.getItem(
@@ -120,9 +176,7 @@ export const PlayerStorage = {
         );
 
         if (!saved) {
-
             return;
-
         }
 
         LearningEngine.skills = new Map(
@@ -130,6 +184,10 @@ export const PlayerStorage = {
         );
 
     },
+
+    /*==================================================
+      SAVE LEARNING
+    ==================================================*/
 
     saveLearning(): void {
 

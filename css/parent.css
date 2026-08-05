@@ -2,542 +2,326 @@
   PARENT DASHBOARD
 ==================================================*/
 
+/*==================================================
+  PARENT DASHBOARD
+==================================================*/
+
 body {
 
     margin: 0;
 
     font-family: Arial, Helvetica, sans-serif;
 
-    background: #f4f7fc;
+    background: #f5f7fb;
 
-    color: #333;
+    color: #2d3748;
 
 }
 
-.dashboard-container {
+.parent-page {
 
     max-width: 1200px;
 
-    margin: 2rem auto;
+    margin: 0 auto;
 
-    padding: 1rem;
+    padding: 2rem;
 
 }
 
-.dashboard-title {
-
-    text-align: center;
-
-    color: #4a2c82;
+.parent-header {
 
     margin-bottom: 2rem;
 
 }
 
+.parent-header h1 {
+
+    margin: 0;
+
+    font-size: 2rem;
+
+    color: #1f3b73;
+
+}
+
+.parent-header p {
+
+    margin-top: .5rem;
+
+    color: #666;
+
+}
+
+.parent-summary {
+
+    background: white;
+
+    border-radius: 12px;
+
+    padding: 2rem;
+
+    border: 1px solid #e5e7eb;
+
+    margin-bottom: 2rem;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+
+}
+
+.parent-summary h2 {
+
+    margin-top: 0;
+
+    color: #1f3b73;
+
+}
+
+.parent-tabs {
+
+    display: flex;
+
+    gap: 0;
+
+    margin-bottom: 2rem;
+
+    border-bottom: 2px solid #E5E7EB;
+
+}
+
+.tab-button {
+
+    background: none;
+
+    border: none;
+
+    padding: 1rem 1.75rem;
+
+    cursor: pointer;
+
+    color: #718096;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    transition: .2s;
+
+}
+
+.tab-button:hover {
+
+    color: #1F3B73;
+
+    background: #F8FAFC;
+
+}
+
+.tab-button.active {
+
+    color: #1F3B73;
+
+    border-bottom: 3px solid #1F3B73;
+
+}
+
+.tab-panel {
+
+    display: none;
+
+}
+
+.tab-panel.active {
+
+    display: block;
+
+}
+
+.card {
+
+    background: white;
+
+    border-radius: 12px;
+
+    border: 1px solid #e5e7eb;
+
+    padding: 1.5rem;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+
+}
+
 /*==================================================
-  CARDS
+  SKILLS TABLE
 ==================================================*/
 
-.dashboard-card {
+.skills-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background: white;
+
+}
+
+.skills-table th {
+
+    text-align: left;
+
+    padding: 1rem;
+
+    background: #f5f7fb;
+
+    border-bottom: 2px solid #e5e7eb;
+
+    color: #1f3b73;
+
+}
+
+.skills-table td {
+
+    padding: 1rem;
+
+    border-bottom: 1px solid #ececec;
+
+}
+
+.skills-table tr:hover {
+
+    background: #fafcff;
+
+}
+
+.status {
+
+    display: inline-block;
+
+    padding: .35rem .8rem;
+
+    border-radius: 999px;
+
+    font-size: .9rem;
+
+    font-weight: bold;
+
+}
+
+.excellent {
+
+    background: #e8f5e9;
+
+    color: #2e7d32;
+
+}
+
+.developing {
+
+    background: #fff8e1;
+
+    color: #ef6c00;
+
+}
+
+.needs-practice {
+
+    background: #ffebee;
+
+    color: #c62828;
+
+}
+
+/*==================================================
+  LEARNING SUMMARY
+==================================================*/
+
+.parent-summary {
 
     background: white;
 
     border-radius: 16px;
 
-    padding: 1.5rem;
+    padding: 2rem;
 
     margin-bottom: 2rem;
 
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    border: 1px solid #E5E7EB;
+
+    box-shadow:
+
+        0 4px 18px rgba(0,0,0,.05);
 
 }
 
-.dashboard-card h2 {
+.parent-summary h2 {
 
     margin-top: 0;
 
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 
-    color: #4a2c82;
+    color: #1F3B73;
+
+    font-size: 1.4rem;
+
+}
+
+.parent-summary p {
+
+    margin: 0;
+
+    line-height: 1.8;
+
+    font-size: 1.05rem;
 
 }
 
 /*==================================================
-  STATISTICS
+  OVERVIEW
 ==================================================*/
 
-#statistics {
+.overview-grid {
 
     display: grid;
 
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px,1fr));
 
-    gap: 1rem;
-
-}
-
-.stat-card {
-
-    background: #eef4ff;
-
-    border-radius: 12px;
-
-    padding: 1rem;
-
-    text-align: center;
-
-    border: 1px solid #d8e5ff;
+    gap: 1.5rem;
 
 }
 
-.stat-card strong {
-
-    display: block;
-
-    margin-top: 0.5rem;
-
-    font-size: 1.6rem;
-
-    color: #4a2c82;
-
-}
-
-/*==================================================
-  SUBJECT SUMMARY
-==================================================*/
-
-#subject-summary {
-
-    display: grid;
-
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
-    gap: 1rem;
-
-}
-
-.subject-card {
-
-    background: #fafbff;
-
-    border: 1px solid #e4e8f3;
-
-    border-radius: 12px;
-
-    padding: 1rem;
-
-}
-
-.subject-header {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-    margin-bottom: 0.75rem;
-
-    font-weight: bold;
-
-}
-
-.subject-stars {
-
-    color: #f5b400;
-
-    margin-bottom: 0.75rem;
-
-    font-size: 1.1rem;
-
-}
-
-.subject-progress {
-
-    height: 10px;
-
-    background: #e4e8f3;
-
-    border-radius: 999px;
-
-    overflow: hidden;
-
-}
-
-.subject-progress-bar {
-
-    height: 100%;
-
-    background: linear-gradient(
-        90deg,
-        #7b4cff,
-        #4dd0ff
-    );
-
-}
-
-.subject-footer {
-
-    margin-top: 0.75rem;
-
-    font-size: 0.9rem;
-
-    color: #666;
-
-}
-
-/*==================================================
-  TREASURE GALLERY
-==================================================*/
-
-#treasure-gallery {
-
-    display: grid;
-
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-
-    gap: 1rem;
-
-}
-
-.treasure-card {
+.overview-card {
 
     background: white;
 
-    border-radius: 12px;
+    border: 1px solid #E5E7EB;
 
-    padding: 1rem;
+    border-radius: 16px;
+
+    padding: 2rem;
 
     text-align: center;
 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-
-    border: 1px solid #ececec;
-
-}
-
-.treasure-card.locked {
-
-    opacity: 0.45;
+    box-shadow:
+        0 4px 16px rgba(0,0,0,.05);
 
 }
 
-.treasure-icon {
+.overview-title {
 
-    font-size: 2rem;
+    color: #718096;
 
-    margin-bottom: 0.5rem;
+    font-size: .95rem;
 
-}
-
-.treasure-name {
-
-    font-weight: bold;
-
-    margin-bottom: 0.5rem;
+    margin-bottom: .75rem;
 
 }
 
-.treasure-status {
+.overview-value {
 
-    font-size: 0.9rem;
+    font-size: 2.25rem;
 
-    margin-top: 0.25rem;
+    font-weight: 700;
 
-}
-
-.rarity-common {
-
-    color: #666;
-
-}
-
-.rarity-rare {
-
-    color: #2196f3;
-
-}
-
-.rarity-epic {
-
-    color: #9c27b0;
-
-}
-
-.rarity-legendary {
-
-    color: #ff9800;
-
-}
-
-/*==================================================
-  SKILLS REPORT
-==================================================*/
-
-.subject-group {
-
-    margin-bottom: 2rem;
-
-}
-
-.subject-group:last-child {
-
-    margin-bottom: 0;
-
-}
-
-.subject-group h3 {
-
-    color: #4a2c82;
-
-    margin-bottom: 1rem;
-
-}
-
-.skill-card {
-
-    background: #fafbff;
-
-    border-radius: 12px;
-
-    padding: 1rem;
-
-    margin-bottom: 1rem;
-
-    border: 1px solid #e4e8f3;
-
-}
-
-.skill-card:last-child {
-
-    margin-bottom: 0;
-
-}
-
-.skill-header {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-    margin-bottom: 0.75rem;
-
-    font-weight: bold;
-
-}
-
-.skill-name {
-
-    color: #333;
-
-}
-
-.skill-score {
-
-    color: #4a2c82;
-
-}
-
-.skill-stars {
-
-    color: #f5b400;
-
-    margin-bottom: 0.75rem;
-
-    font-size: 1.1rem;
-
-}
-
-.skill-progress {
-
-    height: 10px;
-
-    background: #e4e8f3;
-
-    border-radius: 999px;
-
-    overflow: hidden;
-
-}
-
-.skill-progress-bar {
-
-    height: 100%;
-
-    background: linear-gradient(
-        90deg,
-        #7b4cff,
-        #4dd0ff
-    );
-
-}
-
-.skill-footer {
-
-    margin-top: 0.75rem;
-
-    font-size: 0.9rem;
-
-    color: #666;
-
-}
-
-/*==================================================
-  PRACTICE / STRONGEST SKILLS
-==================================================*/
-
-.practice-card {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-    background: #fff8f0;
-
-    border-left: 5px solid #ff9800;
-
-    border-radius: 12px;
-
-    padding: 1rem;
-
-    margin-bottom: 0.75rem;
-
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-
-}
-
-.practice-card:last-child {
-
-    margin-bottom: 0;
-
-}
-
-.practice-name {
-
-    font-weight: bold;
-
-}
-
-.practice-subject {
-
-    color: #666;
-
-    font-size: 0.9rem;
-
-    margin-top: 0.25rem;
-
-}
-
-.practice-score {
-
-    font-weight: bold;
-
-    color: #e65100;
-
-    font-size: 1.2rem;
-
-}
-
-/*==================================================
-  ACHIEVEMENTS
-==================================================*/
-
-#achievements {
-
-    display: grid;
-
-    gap: 1rem;
-
-}
-
-.achievement-card {
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 1rem;
-
-    padding: 1rem;
-
-    background: #f9fbff;
-
-    border: 1px solid #dbe7ff;
-
-    border-radius: 12px;
-
-}
-
-.achievement-icon {
-
-    font-size: 2rem;
-
-    flex-shrink: 0;
-
-}
-
-.achievement-info {
-
-    flex: 1;
-
-}
-
-.achievement-name {
-
-    font-weight: bold;
-
-    color: #4a2c82;
-
-    margin-bottom: 0.25rem;
-
-}
-
-.achievement-description {
-
-    color: #666;
-
-    font-size: 0.95rem;
-
-}
-
-/*==================================================
-  MOBILE
-==================================================*/
-
-@media (max-width: 768px) {
-
-    .practice-card,
-
-    .subject-header,
-
-    .skill-header {
-
-        flex-direction: column;
-
-        align-items: flex-start;
-
-        gap: 0.5rem;
-
-    }
-
-    #statistics,
-
-    #subject-summary,
-
-    #treasure-gallery {
-
-        grid-template-columns: 1fr;
-
-    }
-
-    .achievement-card {
-
-        align-items: flex-start;
-
-    }
+    color: #1F3B73;
 
 }
