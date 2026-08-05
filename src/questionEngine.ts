@@ -6,7 +6,8 @@
 ==================================================*/
 
 import { QuestionSelector } from "./questionSelector";
-
+import { QuestionProgressStorage } from "./storage/QuestionProgressStorage";
+import { SkillProgressStorage } from "./storage/SkillProgressStorage";
 /*==================================================
   QUESTION
 ==================================================*/
@@ -122,7 +123,7 @@ export const QuestionEngine = {
     shuffledQuestions: [] as Question[],
 
     currentIndex: 0,
-
+    questionNumber: 0,
     currentQuestion: null as Question | null,
 
     /*==============================================
@@ -172,14 +173,15 @@ export const QuestionEngine = {
         }
 
         this.currentIndex = 0;
-
+        this.questionNumber = 0;
         this.currentQuestion = null;
 
     },
 
     /*==============================================
-      NEXT QUESTION
+    NEXT QUESTION
     ==============================================*/
+
 
     getNextQuestion(
 
@@ -194,9 +196,7 @@ export const QuestionEngine = {
         ) {
 
             this.initialise(
-
                 questions
-
             );
 
         }
@@ -204,42 +204,178 @@ export const QuestionEngine = {
         if (
 
             this.currentIndex >=
-
             this.shuffledQuestions.length
 
         ) {
 
             this.initialise(
-
                 questions
-
             );
 
         }
 
+        /*------------------------------------------
+        REVIEW QUESTION
+        ------------------------------------------*/
+
+        const reviewQuestionId =
+
+            QuestionProgressStorage.getDueReviewQuestion(
+
+                this.getQuestionNumber()
+
+            );
+
+        if (reviewQuestionId) {
+
+            const reviewQuestion =
+
+                questions.find(
+
+                    question =>
+
+                        question.id === reviewQuestionId
+
+                );
+
+            if (reviewQuestion) {
+
+                this.currentQuestion =
+
+                    shuffleAnswers(
+                        reviewQuestion
+                    );
+
+                this.questionNumber++;
+
+                return this.currentQuestion;
+
+            }
+
+        }
+
+        /*------------------------------------------
+        NORMAL QUESTION
+        ------------------------------------------*/
+
         const remainingQuestions =
 
-            this.shuffledQuestions.slice(
+            this.shuffledQuestions
 
-                this.currentIndex
+                .slice(
 
-            );
+                    this.currentIndex
 
-        const selectedQuestion =
-            QuestionSelector.select(
-                remainingQuestions
-            );
+                )
 
+                .filter(question => {
+
+                    if (
+
+                        !question.skillId ||
+
+                        !question.difficulty
+
+                    ) {
+
+                        return true;
+
+                    }
+
+                    return (
+
+                        question.difficulty <=
+
+                        SkillProgressStorage.getDifficulty(
+
+                            question.skillId
+
+                        )
+
+                    );
+
+                });
+                
+        /*------------------------------------------
+        CARRY FORWARD
+        ------------------------------------------*/
+
+        const carryForwardQuestions =
+
+            QuestionProgressStorage
+                .getCarryForwardQuestions();
+
+        let selectedQuestion: Question | undefined;
+
+        if (
+
+            carryForwardQuestions.length > 0 &&
+
+            Math.random() < 0.10
+
+        ) {
+
+            const carryForwardId =
+
+                carryForwardQuestions[
+
+                    Math.floor(
+
+                        Math.random() *
+
+                        carryForwardQuestions.length
+
+                    )
+
+                ];
+
+            const carryForwardQuestion =
+
+                questions.find(
+
+                    question =>
+
+                        question.id === carryForwardId
+
+                );
+
+            if (carryForwardQuestion) {
+
+                selectedQuestion = carryForwardQuestion;
+
+
+            }
+
+        }
+        if (!selectedQuestion) {
+
+            selectedQuestion =
+
+                QuestionSelector.select(
+
+                    remainingQuestions
+
+                );
+
+        }
         this.currentQuestion =
-            shuffleAnswers(selectedQuestion);
 
-        const selectedIndex =
+            shuffleAnswers(
 
-            this.shuffledQuestions.indexOf(
-
-                this.currentQuestion
+                selectedQuestion
 
             );
+
+ 
+const selectedIndex =
+
+    this.shuffledQuestions.indexOf(
+
+        selectedQuestion
+
+    );
+
+    if (selectedIndex >= 0) {
 
         [
 
@@ -256,6 +392,10 @@ export const QuestionEngine = {
         ];
 
         this.currentIndex++;
+
+    }
+
+        this.questionNumber++;
 
         return this.currentQuestion;
 
@@ -346,13 +486,23 @@ export const QuestionEngine = {
     },
 
     /*==============================================
+    QUESTION NUMBER
+    ==============================================*/
+
+    getQuestionNumber(): number {
+
+        return this.questionNumber;
+
+    },
+    
+    /*==============================================
       RESET
     ==============================================*/
 
     reset(): void {
 
         this.currentIndex = 0;
-
+        this.questionNumber = 0;
         this.currentQuestion = null;
 
     }

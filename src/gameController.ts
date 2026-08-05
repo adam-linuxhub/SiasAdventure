@@ -6,6 +6,7 @@ import {
     type QuestionResult
 } from "./questionEngine";
 import { PlayerStorage } from "./storage";
+import { QuestionProgressStorage } from "./storage/QuestionProgressStorage";
 
 export interface GameResult {
 
@@ -32,26 +33,59 @@ export const GameController = {
         const question =
             QuestionEngine.getCurrentQuestion();
 
-        console.log("Question:", question);
-
-        if (question?.skillId) {
-
-            console.log("Skill ID:", question.skillId);
+        if (question?.id) {
 
             LearningEngine.recordAnswer(
-                question.skillId,
+                question.skillId ?? "",
                 result.correct
             );
 
-            console.log(
-                "Learning Map:",
-                LearningEngine.skills
+            QuestionProgressStorage.recordAnswer(
+                question.id,
+                result.correct
             );
+            if (
 
-        }
-        else {
+                question.skillId &&
 
-            console.warn("Question has no skillId");
+                question.difficulty
+
+            ) {
+
+                // Next step:
+                // Check whether every question
+                // in this skill and difficulty
+                // has now been mastered.
+            }
+            const isReviewQuestion =
+
+                QuestionProgressStorage.isReviewQuestion(
+
+                    question.id
+
+                );
+
+            if (isReviewQuestion) {
+
+                QuestionProgressStorage.completeReview(
+
+                    question.id,
+
+                    result.correct
+
+                );
+            }
+            else if (!result.correct) {
+
+                QuestionProgressStorage.scheduleReview(
+
+                    question.id,
+
+                    QuestionEngine.getQuestionNumber()
+
+                );
+
+            }
 
         }
 
@@ -90,7 +124,8 @@ export const GameController = {
 
             }
 
-        } else {
+        }
+        else {
 
             player.incorrect++;
 
@@ -108,7 +143,6 @@ export const GameController = {
         const levelUp =
             Levels.checkLevel(player);
 
-        // World progression is handled by Treasure.open()
         const worldComplete = false;
 
         PlayerStorage.save(player);
