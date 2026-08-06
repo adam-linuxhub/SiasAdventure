@@ -140,10 +140,7 @@ function initialiseGame() {
 
     initialiseFireworks();
 
-    updateStats();
-
     loadRandomQuestion();
-
 
 }
 
@@ -155,17 +152,19 @@ function loadRandomQuestion() {
 
     if (questions.length === 0) {
 
-    alert("No questions available.");
+        alert("No questions available.");
 
-    return;
+        return;
 
-}
+    }
 
     QuestionEngine.getNextQuestion(
-    questions
-);
+        questions
+    );
 
-displayQuestion();
+    displayQuestion();
+
+    updateStats();
 
 }
 
@@ -181,7 +180,6 @@ if (!currentQuestion) {
     return;
 }
 
-    hideExplanation();
 
     clearAnswerSelection();
 byId<HTMLButtonElement>("submit-answer").style.display = "inline-block";
@@ -246,8 +244,6 @@ if (!currentQuestion) {
 }
     levelUp = false;
 
-    const explanation =
-        byId<HTMLDivElement>("explanation");
 
     const answerOptions =
     document.querySelectorAll<HTMLElement>(".answer-option");
@@ -304,6 +300,8 @@ if (result.correct) {
 
     showHop();
 
+    showCorrectExplanation(result);
+
 }
 else {
 
@@ -311,7 +309,7 @@ else {
 
 }
 
-updateStats();
+
 
 if (worldComplete) {
 
@@ -322,8 +320,6 @@ else if (levelComplete) {
 
     pendingChest = true;
 
-    showCelebrationOverlay();
-
     levelCompletePending = true;
 
 }
@@ -332,13 +328,8 @@ else if (levelUp) {
     showLevelUp();
 
 }
-else if (result.correct) {
 
-    showCorrectExplanation(result);
 
-}
-
-explanation.classList.remove("hidden");
 
 byId<HTMLButtonElement>("next-question").style.display =
     "inline-block";
@@ -409,38 +400,16 @@ if (!currentQuestion) {
 
     updateStats();
 
-    const explanation =
-        byId<HTMLDivElement>("explanation");
+    const message =
 
-    explanation.innerHTML = `
+        "That's perfectly okay!\n\n" +
 
-<h3>🧙 Wizzy says...</h3>
+        "Every great wizard learns by practising.\n\n" +
 
-<p>
+        currentQuestion.explanation;
 
-That's perfectly okay!
+    typeWizzyMessage(message);
 
-Every great wizard learns by practising.
-
-</p>
-
-<p>
-
-The correct answer was:
-
-<strong>${currentQuestion.answers[currentQuestion.correct]}</strong>
-
-</p>
-
-<p>
-
-${currentQuestion.explanation}
-
-</p>
-
-`;
-
-    explanation.classList.remove("hidden");
 
  byId<HTMLButtonElement>("submit-answer").style.display = "none";
 byId<HTMLButtonElement>("dont-know").style.display = "none";
@@ -454,9 +423,9 @@ byId<HTMLButtonElement>("next-question").style.display = "inline-block";
 
 function nextQuestion() {
 
-    hideExplanation();
-
     if (levelCompletePending) {
+
+        levelCompletePending = false;
 
         showCelebrationOverlay();
 
@@ -470,19 +439,15 @@ function nextQuestion() {
 
 function continueLevel(): void {
 
-    console.log("continueLevel() called");
-
     hideLevelOverlay();
 
     levelCompletePending = false;
 
-    player.questionsThisLevel = 1;
+    player.questionsThisLevel = 0;
 
-    console.log("questionsThisLevel reset to", player.questionsThisLevel);
+    QuestionEngine.reset();
 
     PlayerStorage.save(player);
-
-    updateStats();
 
     loadRandomQuestion();
 
@@ -496,10 +461,8 @@ function showCorrectExplanation(
     result: QuestionResult
 ) {
 
-    const explanation =
-        byId<HTMLDivElement>("explanation");
-
     const message =
+
         wizzyCorrectMessages[
             Math.floor(
                 Math.random() *
@@ -507,19 +470,11 @@ function showCorrectExplanation(
             )
         ];
 
-    explanation.innerHTML = `
+    typeWizzyMessage(
 
-<h3>🧙 Wizzy says...</h3>
+        `${message}\n\n${result.explanation}`
 
-<p><strong>${message}</strong></p>
-
-<p>
-
-${result.explanation}
-
-</p>
-
-`;
+    );
 
 }
 
@@ -531,10 +486,8 @@ function showIncorrectExplanation(
     result: QuestionResult
 ) {
 
-    const explanation =
-        byId<HTMLDivElement>("explanation");
-
     const message =
+
         wizzyIncorrectMessages[
             Math.floor(
                 Math.random() *
@@ -542,27 +495,17 @@ function showIncorrectExplanation(
             )
         ];
 
-    explanation.innerHTML = `
+    typeWizzyMessage(
 
-<h3>🧙 Wizzy says...</h3>
+        `${message}\n\n` +
 
-<p><strong>${message}</strong></p>
+        `The correct answer was:\n` +
 
-<p>
+        `${result.correctAnswerText}\n\n` +
 
-The correct answer was:
+        result.explanation
 
-<strong>${result.correctAnswerText}</strong>
-
-</p>
-
-<p>
-
-${result.explanation}
-
-</p>
-
-`;
+    );
 
 }
 
@@ -1118,8 +1061,7 @@ function updateStats() {
         player.levelName;
 
     byId<HTMLElement>("level-progress").textContent =
-        `${player.questionsThisLevel} / 20`;
-
+        `${Math.min(player.questionsThisLevel + 1, 20)} / 20`;
     const world =
         Worlds.getWorld(player.world);
 
@@ -1130,8 +1072,8 @@ function updateStats() {
         `Worlds Completed: ${player.worldsCompleted}`;
 
     byId<HTMLElement>("xp-progress").style.width =
-        `${Math.min(player.xp, 100)}%`;
-
+        `${(player.questionsThisLevel / 20) * 100}%`;
+    
     renderTreasureGallery(player);
 
     Dashboard.renderStatistics(player);

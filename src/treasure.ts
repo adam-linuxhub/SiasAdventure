@@ -54,404 +54,362 @@ export interface TreasureWorld {
 const world1Relics: Relic[] = [
 
     {
-
         id: "w1-magic-wand",
-
         world: 1,
-
         order: 1,
-
         item: "Magic Wand",
-
         badge: "First Spell",
-
-        description:
-            "A magical wand once carried by the first Guardian of Knowledge.",
-
+        description: "A magical wand once carried by the first Guardian of Knowledge.",
         icon: "🪄",
-
         image: "magic-wand.png",
-
         rarity: "Common"
-
     },
 
     {
-
-        id: "w1-crystal-gem",
-
+        id: "w1-crystal-orb",
         world: 1,
-
         order: 2,
-
-        item: "Crystal Gem",
-
+        item: "Crystal Orb",
         badge: "Treasure Hunter",
-
-        description:
-            "A glowing crystal said to hold the wisdom of the Crystal Caves.",
-
+        description: "A glowing crystal said to hold the wisdom of the Crystal Caves.",
         icon: "💎",
-        image: "crystal-gem.png",
-
-
+        image: "crystal-orb.png",
         rarity: "Rare"
-
     },
 
     {
-
         id: "w1-spell-book",
-
         world: 1,
-
         order: 3,
-
         item: "Spell Book",
-
-        badge: "Book Finder",
-
-        description:
-            "An ancient spell book filled with forgotten magical knowledge.",
-
+        badge: "Keeper of Knowledge",
+        description: "An ancient spell book filled with forgotten magical knowledge.",
         icon: "📚",
         image: "spell-book.png",
-
         rarity: "Epic"
-
     },
 
     {
-
-        id: "w1-golden-star",
-
+        id: "w1-star-pendant",
         world: 1,
-
         order: 4,
-
-        item: "Golden Star",
-
+        item: "Star Pendant",
         badge: "Star Collector",
-
-        description:
-            "A legendary star that shines with the purest magical energy.",
-
+        description: "A pendant that shines with the light of the night sky.",
         icon: "⭐",
-        image: "golden-star.png",
-
+        image: "star-pendant.png",
         rarity: "Legendary"
-
     },
+
     {
-        id: "w1-crystal-key",
+        id: "w1-ancient-key",
         world: 1,
         order: 5,
-        item: "Crystal Key",
+        item: "Ancient Key",
         badge: "Key Finder",
-        description: "Unlocks hidden crystal chambers.",
+        description: "Unlocks forgotten doors beneath the Crystal Caves.",
         icon: "🗝️",
-                image: "crystal-key.png",
-
+        image: "ancient-key.png",
         rarity: "Common"
     },
+
     {
-        id: "w1-cave-lantern",
+        id: "w1-magic-lantern",
         world: 1,
         order: 6,
-        item: "Cave Lantern",
+        item: "Magic Lantern",
         badge: "Light Bringer",
-        description: "A lantern that never burns out.",
+        description: "Its magical flame never fades.",
         icon: "🏮",
-                image: "cave-lantern.png",
-
+        image: "magic-lantern.png",
         rarity: "Common"
     },
+
     {
-        id: "w1-glow-mushroom",
+        id: "w1-compass",
         world: 1,
         order: 7,
-        item: "Glow Mushroom",
-        badge: "Nature Friend",
-        description: "A mushroom that glows with magical light.",
-        icon: "🍄",
-                image: "glow-mushroom.png",
-
-        rarity: "Common"
-    },
-    {
-        id: "w1-magic-compass",
-        world: 1,
-        order: 8,
-        item: "Magic Compass",
+        item: "Navigator's Compass",
         badge: "Path Finder",
-        description: "Always points towards adventure.",
+        description: "Always points towards the next adventure.",
         icon: "🧭",
-                image: "magic-compass.png",
-
+        image: "navigator-compass.png",
         rarity: "Rare"
     },
+
     {
-        id: "w1-ancient-scroll",
+        id: "w1-celestial-scroll",
         world: 1,
-        order: 9,
-        item: "Ancient Scroll",
+        order: 8,
+        item: "Celestial Scroll",
         badge: "Scholar",
         description: "Contains forgotten magical secrets.",
         icon: "📜",
-                image: "ancient-scroll.png",
-
+        image: "celestial-scroll.png",
         rarity: "Rare"
     },
+
+    {
+        id: "w1-mystic-map",
+        world: 1,
+        order: 9,
+        item: "Mystic Map",
+        badge: "Explorer",
+        description: "Shows hidden paths through enchanted lands.",
+        icon: "🗺️",
+        image: "mystic-map.png",
+        rarity: "Common"
+    },
+
     {
         id: "w1-crystal-crown",
         world: 1,
         order: 10,
         item: "Crystal Crown",
         badge: "Royal Explorer",
-        description: "The crown of the Crystal King.",
+        description: "The jeweled crown of the Crystal King.",
         icon: "👑",
-                image: "crystal-crown.png",
-
-        rarity: "Legendary"
+        image: "crystal-crown.png",
+        rarity: "Epic"
     },
+
     {
-        id: "w1-silver-pickaxe",
+        id: "w1-phoenix-feather-quill",
         world: 1,
         order: 11,
-        item: "Silver Pickaxe",
-        badge: "Miner",
-        description: "Perfect for mining enchanted crystals.",
-        icon: "⛏️",
-                image: "silver-pickaxe.png",
-
-        rarity: "Common"
+        item: "Phoenix Feather Quill",
+        badge: "Master Scribe",
+        description: "Writes with magical ink that never fades.",
+        icon: "🪶",
+        image: "phoenix-feather-quill.png",
+        rarity: "Rare"
     },
+
     {
-        id: "w1-magic-boots",
+        id: "w1-phoenix-medallion",
         world: 1,
         order: 12,
-        item: "Magic Boots",
-        badge: "Swift Steps",
-        description: "Run faster through the caves.",
-        icon: "🥾",
-                image: "magic-boots.png",
-
-        rarity: "Common"
+        item: "Phoenix Medallion",
+        badge: "Fire Keeper",
+        description: "Glows with the eternal flame of the phoenix.",
+        icon: "🔥",
+        image: "phoenix-medallion.png",
+        rarity: "Legendary"
     },
+
     {
-        id: "w1-dragon-egg",
+        id: "w1-armillary-sphere",
         world: 1,
         order: 13,
-        item: "Dragon Egg",
-        badge: "Dragon Keeper",
-        description: "Warm to the touch.",
-        icon: "🥚",
-                image: "dragon-egg.png",
-
+        item: "Armillary Sphere",
+        badge: "Sky Watcher",
+        description: "Maps the stars of the magical heavens.",
+        icon: "🌌",
+        image: "armillary-sphere.png",
         rarity: "Epic"
     },
+
     {
-        id: "w1-crystal-skull",
+        id: "w1-celestial-globe",
         world: 1,
         order: 14,
-        item: "Crystal Skull",
-        badge: "Ancient Secrets",
-        description: "An eerie relic carved from crystal.",
-        icon: "💀",
-                image: "crystal-skull.png",
-
+        item: "Celestial Globe",
+        badge: "World Keeper",
+        description: "A globe containing the constellations.",
+        icon: "🌍",
+        image: "celestial-globe.png",
         rarity: "Rare"
     },
+
     {
-        id: "w1-moon-crystal",
+        id: "w1-guardian-shield",
         world: 1,
         order: 15,
-        item: "Moon Crystal",
-        badge: "Moon Watcher",
-        description: "Glows brightest at night.",
-        icon: "🌙",
-                image: "moon-crystal.png",
-
-        rarity: "Epic"
+        item: "Guardian Shield",
+        badge: "Protector",
+        description: "Reflects magical attacks.",
+        icon: "🛡️",
+        image: "guardian-shield.png",
+        rarity: "Rare"
     },
+
     {
-        id: "w1-golden-feather",
+        id: "w1-royal-ring",
         world: 1,
         order: 16,
-        item: "Golden Feather",
-        badge: "Sky Friend",
-        description: "Dropped by a magical bird.",
-        icon: "🪶",
-                image: "golden-feather.png",
-
-        rarity: "Rare"
-    },
-    {
-        id: "w1-phoenix-ember",
-        world: 1,
-        order: 17,
-        item: "Phoenix Ember",
-        badge: "Fire Keeper",
-        description: "Still warm with magical fire.",
-        icon: "🔥",
-                image: "phoenix-ember.png",
-
-        rarity: "Epic"
-    },
-    {
-        id: "w1-cave-map",
-        world: 1,
-        order: 18,
-        item: "Cave Map",
-        badge: "Explorer",
-        description: "Shows hidden cave passages.",
-        icon: "🗺️",
-                image: "cave-map.png",
-
-        rarity: "Common"
-    },
-    {
-        id: "w1-magic-ring",
-        world: 1,
-        order: 19,
-        item: "Magic Ring",
+        item: "Royal Ring",
         badge: "Ring Bearer",
-        description: "A ring filled with magical energy.",
+        description: "A ring once worn by the Crystal King.",
         icon: "💍",
-                image: "magic-ring.png",
-
+        image: "royal-ring.png",
         rarity: "Rare"
     },
+
     {
         id: "w1-wizard-hat",
         world: 1,
-        order: 20,
+        order: 17,
         item: "Wizard Hat",
         badge: "Young Wizard",
         description: "Once worn by a great wizard.",
         icon: "🎩",
-                image: "wizard-hat.png",
-
+        image: "wizard-hat.png",
         rarity: "Epic"
     },
+
     {
-        id: "w1-crystal-shield",
+        id: "w1-golden-chalice",
+        world: 1,
+        order: 18,
+        item: "Golden Chalice",
+        badge: "Royal Feast",
+        description: "A magnificent chalice from the Crystal Kingdom.",
+        icon: "🏆",
+        image: "golden-chalice.png",
+        rarity: "Rare"
+    },
+
+    {
+        id: "w1-starlight-elixir",
+        world: 1,
+        order: 19,
+        item: "Starlight Elixir",
+        badge: "Star Brewer",
+        description: "A potion sparkling with captured starlight.",
+        icon: "🧪",
+        image: "starlight-elixir.png",
+        rarity: "Epic"
+    },
+
+    {
+        id: "w1-scales-of-justice",
+        world: 1,
+        order: 20,
+        item: "Scales of Justice",
+        badge: "Fair Judge",
+        description: "An enchanted balance that always reveals the truth.",
+        icon: "⚖️",
+        image: "scales-of-justice.png",
+        rarity: "Rare"
+    },
+
+    {
+        id: "w1-sun-medallion",
         world: 1,
         order: 21,
-        item: "Crystal Shield",
-        badge: "Protector",
-        description: "Reflects magical attacks.",
-        icon: "🛡️",
-                image: "crystal-shield.png",
-
-        rarity: "Rare"
+        item: "Sun Medallion",
+        badge: "Light Bearer",
+        description: "Radiates the warmth of the morning sun.",
+        icon: "☀️",
+        image: "sun-medallion.png",
+        rarity: "Epic"
     },
+
     {
-        id: "w1-treasure-key",
+        id: "w1-time-hourglass",
         world: 1,
         order: 22,
-        item: "Treasure Key",
-        badge: "Master Locksmith",
-        description: "Opens ancient treasure chests.",
-        icon: "🗝️",
-                image: "treasure-key.png",
-
-        rarity: "Common"
+        item: "Time Hourglass",
+        badge: "Time Keeper",
+        description: "Every grain of sand holds a forgotten memory.",
+        icon: "⏳",
+        image: "time-hourglass.png",
+        rarity: "Rare"
     },
+
     {
-        id: "w1-enchanted-rope",
+        id: "w1-cosmic-hourglass",
         world: 1,
         order: 23,
-        item: "Enchanted Rope",
-        badge: "Climber",
-        description: "Climbs by itself.",
-        icon: "🪢",
-                image: "enchanted-rope.png",
-
-        rarity: "Common"
+        item: "Cosmic Hourglass",
+        badge: "Master of Time",
+        description: "Its glowing sands flow between the stars.",
+        icon: "⌛",
+        image: "cosmic-hourglass.png",
+        rarity: "Legendary"
     },
+
     {
-        id: "w1-ancient-coin",
+        id: "w1-astral-telescope",
         world: 1,
         order: 24,
-        item: "Ancient Coin",
-        badge: "Collector",
-        description: "A coin from a forgotten kingdom.",
-        icon: "🪙",
-                image: "ancient-coin.png",
-
+        item: "Astral Telescope",
+        badge: "Star Explorer",
+        description: "Reveals distant constellations invisible to ordinary eyes.",
+        icon: "🔭",
+        image: "astral-telescope.png",
         rarity: "Rare"
     },
+
     {
-        id: "w1-crystal-heart",
+        id: "w1-astral-armillary",
         world: 1,
         order: 25,
-        item: "Crystal Heart",
-        badge: "Kind Heart",
-        description: "Pulses with magical life.",
-        icon: "💖",
-                image: "crystal-heart.png",
-
-        rarity: "Epic"
+        item: "Astral Armillary",
+        badge: "Sky Cartographer",
+        description: "Charts the movements of the magical heavens.",
+        icon: "🌌",
+        image: "astral-armillary.png",
+        rarity: "Legendary"
     },
+
     {
-        id: "w1-guardian-statue",
+        id: "w1-crystal-staff",
         world: 1,
         order: 26,
-        item: "Guardian Statue",
-        badge: "Guardian Friend",
-        description: "A tiny stone guardian.",
-        icon: "🗿",
-                image: "guardian-statue.png",
-
-        rarity: "Rare"
+        item: "Crystal Staff",
+        badge: "Crystal Sage",
+        description: "A powerful staff infused with ancient crystal magic.",
+        icon: "🪄",
+        image: "crystal-staff.png",
+        rarity: "Epic"
     },
+
     {
-        id: "w1-rainbow-crystal",
+        id: "w1-enchanted-sword",
         world: 1,
         order: 27,
-        item: "Rainbow Crystal",
-        badge: "Rainbow Finder",
-        description: "Reflects every colour.",
-        icon: "🌈",
-                image: "rainbow-crystal.png",
-
+        item: "Enchanted Sword",
+        badge: "Brave Explorer",
+        description: "Forged to defend the Crystal Kingdom.",
+        icon: "⚔️",
+        image: "enchanted-sword.png",
         rarity: "Epic"
     },
+
     {
-        id: "w1-cave-owl",
+        id: "w1-magic-essence-flask",
         world: 1,
         order: 28,
-        item: "Cave Owl",
-        badge: "Owl Friend",
-        description: "A wise owl from the crystal caves.",
-        icon: "🦉",
-                image: "cave-owl.png",
-
+        item: "Magic Essence Flask",
+        badge: "Essence Collector",
+        description: "Contains swirling magical energy gathered from the stars.",
+        icon: "🧪",
+        image: "magic-essence-flask.png",
         rarity: "Rare"
     },
+
     {
-        id: "w1-guardian-sword",
+        id: "w1-royal-crown",
         world: 1,
         order: 29,
-        item: "Guardian Sword",
-        badge: "Brave Explorer",
-        description: "Forged to protect the caves.",
-        icon: "⚔️",
-                image: "guardian-sword.png",
-
-        rarity: "Epic"
+        item: "Royal Crown",
+        badge: "Crystal Champion",
+        description: "The treasured crown of the rulers of the Crystal Kingdom.",
+        icon: "👑",
+        image: "royal-crown.png",
+        rarity: "Legendary"
     },
+
     {
-        id: "w1-crystal-kings-crown",
+        id: "w1-treasure-chest",
         world: 1,
         order: 30,
-        item: "Crystal King's Crown",
-        badge: "Crystal Champion",
-        description: "The greatest treasure of Crystal Caves.",
-        icon: "👑",
-                image: "crystal-kings-crown.png",
-
+        item: "Treasure Chest",
+        badge: "Master Collector",
+        description: "The legendary chest that holds the greatest treasures of the Crystal Caves.",
+        icon: "🧰",
+        image: "treasure-chest-open.png",
         rarity: "Legendary"
     }
 

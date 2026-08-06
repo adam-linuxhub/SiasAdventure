@@ -418,75 +418,86 @@
 
     <canvas id="fireworks-canvas"></canvas>
 
-    <div class="level-panel">
+<div class="level-panel">
 
-        <img
-            src="/assets/wizzy-DbYoABQA.png"
-            class="level-wizzy"
-            alt="Wizzy">
+    <img
+        src="/assets/wizzy-DbYoABQA.png"
+        class="level-wizzy"
+        alt="Wizzy">
 
-        <h1 id="level-complete-title">
+    <h1 id="level-complete-title">
 
-            🎉 LEVEL COMPLETE!
+        🎉 LEVEL COMPLETE!
 
-        </h1>
+    </h1>
 
-        <p class="level-message">
+    <p class="level-message">
 
-            Fantastic work, Sia!
-            <br>
-            You answered all <strong>20 magical questions.</strong>
+        Fantastic work, Sia!
+        <br>
+        You answered all <strong>20 magical questions.</strong>
 
-        </p>
+    </p>
 
-        <div class="reward-card">
+    <div class="reward-card">
 
-            <img
-                id="level-chest-image"
-                src="/assets/treasure-chest-CPGN6UKn.png"
-                alt="Treasure Chest">
+        <div class="reward-layout">
 
-            <h2 id="level-chest-title">
+            <div class="reward-left">
 
-                🎁 Treasure Chest
+                <img
+                    id="level-chest-image"
+                    src="/assets/treasure-chest-CPGN6UKn.png"
+                    alt="Treasure Chest">
 
-            </h2>
+                <button
+                    id="open-level-chest"
+                    class="magic-button"
+                    type="button">
 
-            <p id="level-chest-message">
+                    ✨ Open Treasure Chest ✨
 
-                A magical treasure chest has appeared!
-
-            </p>
-
-            <div
-                id="level-relic"
-                class="hidden">
+                </button>
 
             </div>
 
-            <button
-                id="open-level-chest"
-                class="magic-button"
-                type="button">
+            <div class="reward-right">
 
-                ✨ Open Treasure Chest ✨
+                <h2 id="level-chest-title">
 
-            </button>
+                    🎁 Treasure Chest
+
+                </h2>
+
+                <p id="level-chest-message">
+
+                    A magical treasure chest has appeared!
+
+                </p>
+
+                <div
+                    id="level-relic"
+                    class="hidden">
+
+                </div>
+
+            </div>
 
         </div>
 
-        <button
-            id="continue-level"
-            class="magic-button continue-button"
-            type="button"
-            style="display:none">
-
-            ✨ Continue Adventure →
-
-        </button>
-
     </div>
 
+    <button
+        id="continue-level"
+        class="magic-button continue-button"
+        type="button"
+        style="display:none">
+
+        ✨ Continue Adventure →
+
+    </button>
+
+</div>
 </div>
 </main>
 
