@@ -45,6 +45,20 @@ export const QuestionSelector = {
           RANDOM QUESTION
         ==========================================*/
 
+        if (
+
+            availableQuestions.length === 0
+
+        ) {
+
+            throw new Error(
+
+                "QuestionSelector received no available questions."
+
+            );
+
+        }
+
         return availableQuestions[
 
             Math.floor(

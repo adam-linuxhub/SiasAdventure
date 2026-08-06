@@ -7,6 +7,9 @@ import {
 } from "./questionEngine";
 import { PlayerStorage } from "./storage";
 import { QuestionProgressStorage } from "./storage/QuestionProgressStorage";
+import { SkillProgressStorage } from "./storage/SkillProgressStorage";
+import { SkillMastery } from "./learning/SkillMastery";
+import { getAllQuestions } from "./questionAdapter";
 
 export interface GameResult {
 
@@ -42,9 +45,16 @@ export const GameController = {
 
             QuestionProgressStorage.recordAnswer(
                 question.id,
-                result.correct
+                true
             );
+
+            /*==============================================
+              ADAPTIVE DIFFICULTY
+            ==============================================*/
+
             if (
+
+                result.correct &&
 
                 question.skillId &&
 
@@ -52,11 +62,49 @@ export const GameController = {
 
             ) {
 
-                // Next step:
-                // Check whether every question
-                // in this skill and difficulty
-                // has now been mastered.
+                const difficultyMastered =
+
+                    SkillMastery.isDifficultyMastered(
+
+                        getAllQuestions(),
+
+                        question.skillId,
+
+                        question.difficulty
+
+                    );
+
+
+                if (difficultyMastered) {
+
+                    const currentDifficulty =
+
+                        SkillProgressStorage.getDifficulty(
+
+                            question.skillId
+
+                        );
+
+                    if (
+
+                        currentDifficulty ===
+
+                        question.difficulty
+
+                    ) {
+
+                        SkillProgressStorage.advanceDifficulty(
+
+                            question.skillId
+
+                        );
+
+                    }
+
+                }
+
             }
+
             const isReviewQuestion =
 
                 QuestionProgressStorage.isReviewQuestion(
@@ -74,6 +122,7 @@ export const GameController = {
                     result.correct
 
                 );
+
             }
             else if (!result.correct) {
 

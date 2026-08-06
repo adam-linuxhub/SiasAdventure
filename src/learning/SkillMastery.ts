@@ -2,13 +2,16 @@
   SIA'S ADVENTURE
 
   SKILL MASTERY
-
 ==================================================*/
 
 import type { Question } from "../questionEngine";
 import { QuestionProgressStorage } from "../storage/QuestionProgressStorage";
 
 export const SkillMastery = {
+
+    /*==============================================
+      IS DIFFICULTY MASTERED
+    ==============================================*/
 
     isDifficultyMastered(
 
@@ -32,27 +35,30 @@ export const SkillMastery = {
 
             );
 
-        if (
+        const masteredQuestions =
 
-            skillQuestions.length === 0
+            skillQuestions.filter(
 
-        ) {
+                question =>
 
-            return false;
+                    question.id !== undefined &&
 
-        }
+                    QuestionProgressStorage.isMastered(
 
-        return skillQuestions.every(
+                        question.id
 
-            question =>
+                    )
 
-                question.id &&
+            );
 
-                QuestionProgressStorage.isMastered(
 
-                    question.id
+        return (
 
-                )
+            masteredQuestions.length ===
+
+            skillQuestions.length &&
+
+            skillQuestions.length > 0
 
         );
 

@@ -1,11 +1,17 @@
 import { PlayerStorage } from "./storage";
 import { Dashboard } from "./dashboard";
+import { SkillProgressStorage } from "./storage/SkillProgressStorage";
+import { QuestionProgressStorage } from "./storage/QuestionProgressStorage";
 
 /*==================================================
   LOAD PLAYER & LEARNING DATA
 ==================================================*/
 
 PlayerStorage.loadLearning();
+
+SkillProgressStorage.load();
+
+QuestionProgressStorage.load();
 
 const player =
     PlayerStorage.load();

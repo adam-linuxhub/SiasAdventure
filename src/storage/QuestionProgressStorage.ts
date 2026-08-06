@@ -130,7 +130,7 @@ export const QuestionProgressStorage = {
     },
 
     /*==============================================
-      RECORD ANSWER
+    RECORD ANSWER
     ==============================================*/
 
     recordAnswer(
@@ -158,6 +158,12 @@ export const QuestionProgressStorage = {
                 progress.correctCount + 1
 
             );
+
+            /*------------------------------------------
+            CLEAR CARRY FORWARD
+            ------------------------------------------*/
+
+            progress.carryForward = false;
 
         }
 
@@ -195,12 +201,6 @@ export const QuestionProgressStorage = {
         progress.reviewAfterQuestion =
             currentQuestionNumber + 5;
 
-        console.log(
-            "[Review] Scheduled",
-            questionId,
-            "for question",
-            progress.reviewAfterQuestion
-        );
 
         this.save();
 
@@ -250,35 +250,30 @@ export const QuestionProgressStorage = {
 
     getCarryForwardQuestions(): string[] {
 
-        const questions: string[] = [];
+        return [
 
-        for (
+            ...this.progress.values()
 
-            const progress of
+        ]
 
-            this.progress.values()
+            .filter(
 
-        ) {
+                progress =>
 
-            if (
+                    progress.carryForward
 
-                progress.carryForward
+            )
 
-            ) {
+            .map(
 
-                questions.push(
+                progress =>
 
                     progress.questionId
 
-                );
-
-            }
-
-        }
-
-        return questions;
+            );
 
     },
+
     /*==============================================
     COMPLETE REVIEW
     ==============================================*/
@@ -298,9 +293,14 @@ export const QuestionProgressStorage = {
 
         progress.reviewAfterQuestion = null;
 
-        if (!answeredCorrectly) {
+        if (answeredCorrectly) {
 
-            progress.carryForward =   !answeredCorrectly;
+            progress.carryForward = false;
+
+        }
+        else {
+
+            progress.carryForward = true;
 
         }
 
@@ -318,8 +318,6 @@ export const QuestionProgressStorage = {
 
             progress.reviewAttemptsThisAdventure = 0;
 
-            progress.carryForward = false;
-
         });
 
         this.save();
@@ -327,16 +325,20 @@ export const QuestionProgressStorage = {
     },
 
     /*==============================================
-      IS MASTERED
+    IS MASTERED
     ==============================================*/
 
     isMastered(
+
         questionId: string
+
     ): boolean {
 
-        return this.get(
-            questionId
-        ).correctCount >= 3;
+        const progress =
+
+            this.get(questionId);
+
+        return progress.correctCount >= 3;
 
     },
 

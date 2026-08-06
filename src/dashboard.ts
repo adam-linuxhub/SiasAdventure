@@ -1,6 +1,9 @@
 import type { Player } from "./types";
 import { Worlds } from "./worlds";
 import { LearningEngine } from "./learning";
+import { getAllSkills } from "./content";
+import { SkillProgressStorage } from "./storage/SkillProgressStorage";
+import { QuestionProgressStorage } from "./storage/QuestionProgressStorage";
 import {
     SkillRegistry,
     type Subject
@@ -358,12 +361,16 @@ export const Dashboard = {
     renderSkillsReport(): void {
 
         const container =
+
             byId<HTMLDivElement>(
+
                 "skills-report"
+
             );
 
         const skills =
-            LearningEngine.getAllSkills();
+
+            getAllSkills();
 
         if (skills.length === 0) {
 
@@ -381,15 +388,138 @@ export const Dashboard = {
 
         }
 
-        const sortedSkills =
+        const rows = skills.map(skill => {
 
-            [...skills].sort(
+            const difficulty =
 
-                (a, b) =>
+                SkillProgressStorage.getDifficulty(
 
-                    a.mastery - b.mastery
+                    skill.skillId
 
-            );
+                );
+
+            let mastered = 0;
+
+            let learning = 0;
+
+            let review = 0;
+
+            let notAttempted = 0;
+
+            for (
+
+                const activity of
+
+                skill.activities
+
+            ) {
+
+                if (!activity.id) {
+
+                    continue;
+
+                }
+
+                const progress =
+
+                    QuestionProgressStorage.get(
+
+                        activity.id
+
+                    );
+
+                if (
+
+                    QuestionProgressStorage.isMastered(
+
+                        activity.id
+
+                    )
+
+                ) {
+
+                    mastered++;
+
+                }
+                else if (
+
+                    progress.reviewAfterQuestion !== null ||
+
+                    progress.carryForward
+
+                ) {
+
+                    review++;
+
+                }
+                else if (
+
+                    progress.attempts > 0
+
+                ) {
+
+                    learning++;
+
+                }
+                else {
+
+                    notAttempted++;
+
+                }
+
+            }
+
+            return `
+
+            <tr>
+
+                <td>
+
+                    -
+
+                </td>
+
+                <td>
+
+                    ${skill.title}
+
+                </td>
+
+                <td>
+
+                    Level ${difficulty}
+
+                </td>
+
+                <td>
+
+                    ${mastered}
+
+                </td>
+
+                <td>
+
+                    ${learning}
+
+                </td>
+
+                <td>
+
+                    ${review}
+
+                </td>
+
+                <td>
+
+                    ${notAttempted}
+
+                </td>
+
+            </tr>
+
+            `;
+
+        }).join("");
 
         container.innerHTML = `
 
@@ -397,7 +527,7 @@ export const Dashboard = {
 
                 <h2>
 
-                    Skills Report
+                    Adaptive Learning Report
 
                 </h2>
 
@@ -407,130 +537,26 @@ export const Dashboard = {
 
                         <tr>
 
-                            <th>
+                            <th>Category</th>
 
-                                Subject
+                            <th>Skill</th>
 
-                            </th>
+                            <th>Difficulty</th>
 
-                            <th>
+                            <th>Mastered</th>
 
-                                Skill
+                            <th>Learning</th>
 
-                            </th>
+                            <th>Review</th>
 
-                            <th>
-
-                                Status
-
-                            </th>
-
-                            <th>
-
-                                Recommendation
-
-                            </th>
+                            <th>Not Attempted</th>
 
                         </tr>
-
                     </thead>
 
                     <tbody>
 
-                        ${sortedSkills.map(skill => {
-
-                            const subject =
-                                SkillRegistry.getSubject(
-                                    skill.skillId
-                                );
-
-                            const name =
-                                SkillRegistry.getName(
-                                    skill.skillId
-                                );
-
-                            let status = "";
-
-                            let css = "";
-
-                            let recommendation = "";
-
-                            if (skill.mastery >= 85) {
-
-                                status =
-                                    "🟢 Excellent";
-
-                                css =
-                                    "excellent";
-
-                                recommendation =
-                                    "Continue normal practice.";
-
-                            }
-                            else if (
-                                skill.mastery >= 60
-                            ) {
-
-                                status =
-                                    "🟡 Developing";
-
-                                css =
-                                    "developing";
-
-                                recommendation =
-                                    "Continue practising.";
-
-                            }
-                            else {
-
-                                status =
-                                    "🔴 Needs Practice";
-
-                                css =
-                                    "needs-practice";
-
-                                recommendation =
-                                    "Prioritise this skill.";
-
-                            }
-
-                            return `
-
-                                <tr>
-
-                                    <td>
-
-                                        ${subject}
-
-                                    </td>
-
-                                    <td>
-
-                                        ${name}
-
-                                    </td>
-
-                                    <td>
-
-                                        <span class="${css}">
-
-                                            ${status}
-
-                                        </span>
-
-                                    </td>
-
-                                    <td>
-
-                                        ${recommendation}
-
-                                    </td>
-
-                                </tr>
-
-                            `;
-
-                        }).join("")}
+                        ${rows}
 
                     </tbody>
 
@@ -541,8 +567,8 @@ export const Dashboard = {
         `;
 
     },
-
-        /*==================================================
+    
+    /*==================================================
       RECOMMENDATIONS
     ==================================================*/
 

@@ -258,43 +258,95 @@ export const QuestionEngine = {
         NORMAL QUESTION
         ------------------------------------------*/
 
-        const remainingQuestions =
+const remainingQuestions =
 
-            this.shuffledQuestions
+    this.shuffledQuestions
 
-                .slice(
+        .slice(
 
-                    this.currentIndex
+            this.currentIndex
+
+        )
+
+        .filter(question => {
+
+            /*------------------------------------------
+            KEEP QUESTIONS WITHOUT IDS
+            ------------------------------------------*/
+
+            if (!question.id) {
+
+                return true;
+
+            }
+
+            /*------------------------------------------
+            KEEP CARRY FORWARD QUESTIONS
+            ------------------------------------------*/
+
+            if (
+
+                QuestionProgressStorage
+                    .getCarryForwardQuestions()
+                    .includes(question.id)
+
+            ) {
+
+                return !QuestionProgressStorage.isMastered(
+
+                    question.id
+
+                );
+
+            }
+
+            /*------------------------------------------
+            REMOVE MASTERED QUESTIONS
+            ------------------------------------------*/
+
+            if (
+
+                QuestionProgressStorage.isMastered(
+
+                    question.id
 
                 )
 
-                .filter(question => {
+            ) {
 
-                    if (
+                return false;
 
-                        !question.skillId ||
+            }
 
-                        !question.difficulty
+            /*------------------------------------------
+            FILTER BY CURRENT DIFFICULTY
+            ------------------------------------------*/
 
-                    ) {
+            if (
 
-                        return true;
+                !question.skillId ||
 
-                    }
+                !question.difficulty
 
-                    return (
+            ) {
 
-                        question.difficulty <=
+                return true;
 
-                        SkillProgressStorage.getDifficulty(
+            }
 
-                            question.skillId
+            return (
 
-                        )
+                question.difficulty <=
 
-                    );
+                SkillProgressStorage.getDifficulty(
 
-                });
+                    question.skillId
+
+                )
+
+            );
+
+        });
                 
         /*------------------------------------------
         CARRY FORWARD
@@ -303,7 +355,18 @@ export const QuestionEngine = {
         const carryForwardQuestions =
 
             QuestionProgressStorage
-                .getCarryForwardQuestions();
+                .getCarryForwardQuestions()
+                .filter(questionId =>
+
+                    remainingQuestions.some(
+
+                        question =>
+
+                            question.id === questionId
+
+                    )
+
+                );
 
         let selectedQuestion: Question | undefined;
 
@@ -329,25 +392,54 @@ export const QuestionEngine = {
 
                 ];
 
-            const carryForwardQuestion =
+        const carryForwardQuestion =
 
-                questions.find(
+            questions.find(
 
-                    question =>
+                question =>
 
-                        question.id === carryForwardId
+                    question.id === carryForwardId &&
+
+                    !QuestionProgressStorage.isMastered(
+
+                        question.id!
+
+                    )
+
+            );
+
+if (
+
+    carryForwardQuestion &&
+
+    !QuestionProgressStorage.isReviewQuestion(
+
+        carryForwardQuestion.id!
+
+    )
+
+) {
+
+    selectedQuestion = carryForwardQuestion;
+
+}
+        }
+        
+        if (!selectedQuestion) {
+
+            if (
+
+                remainingQuestions.length === 0
+
+            ) {
+
+                throw new Error(
+
+                    "No eligible questions remaining."
 
                 );
 
-            if (carryForwardQuestion) {
-
-                selectedQuestion = carryForwardQuestion;
-
-
             }
-
-        }
-        if (!selectedQuestion) {
 
             selectedQuestion =
 
@@ -358,6 +450,17 @@ export const QuestionEngine = {
                 );
 
         }
+
+        if (!selectedQuestion) {
+
+            throw new Error(
+
+                "Failed to select a question."
+
+            );
+
+        }
+
         this.currentQuestion =
 
             shuffleAnswers(
