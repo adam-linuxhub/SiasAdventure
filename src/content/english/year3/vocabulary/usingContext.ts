@@ -21,6 +21,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "Tom wrapped a scarf around his neck because it was freezing. What does 'freezing' most likely mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Very cold",
             "Very hot",
@@ -43,6 +44,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "Ella whispered so quietly that nobody else could hear her. What does 'whispered' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Spoke very softly",
             "Shouted loudly",
@@ -65,6 +67,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The puppy was exhausted after running all afternoon. What does 'exhausted' most likely mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Very tired",
             "Very excited",
@@ -87,6 +90,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The glass slipped from Ben's hands and shattered into tiny pieces. What does 'shattered' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Broke into many pieces",
             "Became cleaner",
@@ -109,6 +113,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "Mia smiled because her teacher praised her work. What does 'praised' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Said something nice",
             "Gave homework",
@@ -131,6 +136,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The muddy boots left dirty marks across the clean floor. What does 'muddy' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Covered in mud",
             "Very shiny",
@@ -153,6 +159,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The lion is fierce, so the other animals stay away. What does 'fierce' most likely mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Dangerous",
             "Tiny",
@@ -175,6 +182,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "Sam hurried because he did not want to miss the bus. What does 'hurried' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Moved quickly",
             "Sat down",
@@ -197,6 +205,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The giant tree was enormous. It was taller than every other tree in the park. What does 'enormous' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Very large",
             "Very small",
@@ -219,6 +228,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "What are context clues?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Words around an unfamiliar word that help explain its meaning",
             "Letters at the end of a word",
@@ -241,6 +251,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The path was narrow, so only one person could walk along it at a time. What does 'narrow' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Not very wide",
             "Very long",
@@ -263,6 +274,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The baby was delighted when she opened her birthday present. What does 'delighted' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Very pleased",
             "Very sleepy",
@@ -285,6 +297,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The cave was gloomy because hardly any sunlight reached inside. What does 'gloomy' most likely mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Dark",
             "Warm",
@@ -307,6 +320,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The soup was steaming, so Lily waited before taking a sip. What does 'steaming' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Very hot",
             "Very cold",
@@ -329,6 +343,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "Jack was nervous before the school play because lots of people were watching. What does 'nervous' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Worried",
             "Hungry",
@@ -351,6 +366,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The rabbit crept quietly through the long grass so the fox would not see it. What does 'crept' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Moved slowly and quietly",
             "Jumped high",
@@ -373,6 +389,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The classroom was silent during the test. What does 'silent' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Very quiet",
             "Very noisy",
@@ -395,6 +412,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The thirsty hikers quickly drank all their water. What does 'thirsty' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Needing a drink",
             "Feeling cold",
@@ -417,6 +435,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "The football crowd cheered because their team had won. What does 'cheered' mean?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Shouted happily",
             "Cried sadly",
@@ -439,6 +458,7 @@ const usingContext: SkillContent = {
         skillId: "usingContext",
         question: "What is the best way to work out the meaning of an unfamiliar word while reading?",
         stage: "recognise",
+        hint: "Use the words around the tricky word to work out its meaning.",
         options: [
             "Read the words around it for clues",
             "Skip the word every time",

@@ -28,6 +28,9 @@ const bronzeAge: SkillContent = {
             "Bronze was used to grow crops."
         ],
 
+        
+        hint: "Focus on the discovery that changed everyday tools.",
+
         explanation:
             "The Bronze Age is named after the use of bronze to make tools and weapons.",
 
@@ -49,6 +52,9 @@ const bronzeAge: SkillContent = {
             "Silver and lead",
             "Copper and aluminium"
         ],
+
+        
+        hint: "Think about combining materials to create something new.",
 
         explanation:
             "Bronze is an alloy made by mixing copper and tin.",
@@ -72,6 +78,9 @@ const bronzeAge: SkillContent = {
             "Paper"
         ],
 
+        
+        hint: "Compare this period with the one before it.",
+
         explanation:
             "Bronze tools were often stronger and lasted longer than stone tools.",
 
@@ -93,6 +102,9 @@ const bronzeAge: SkillContent = {
             "Rubber",
             "Cotton candy"
         ],
+
+        
+        hint: "Consider what farmers planted for food.",
 
         explanation:
             "Many Bronze Age people were farmers who grew crops.",
@@ -116,6 +128,9 @@ const bronzeAge: SkillContent = {
             "Elephants"
         ],
 
+        
+        hint: "Choose animals useful throughout the year.",
+
         explanation:
             "Cattle and sheep were commonly kept for food and other resources.",
 
@@ -137,6 +152,9 @@ const bronzeAge: SkillContent = {
             "Making computers",
             "Travelling by train"
         ],
+
+        
+        hint: "Think beyond crops to all food production.",
 
         explanation:
             "Farming means growing plants and raising animals for food.",
@@ -160,6 +178,9 @@ const bronzeAge: SkillContent = {
             "Writing books"
         ],
 
+        
+        hint: "How do people get things they cannot make?",
+
         explanation:
             "Trade means exchanging goods between people or groups.",
 
@@ -181,6 +202,9 @@ const bronzeAge: SkillContent = {
             "Concrete",
             "Steel"
         ],
+
+        
+        hint: "Which material defines this historical period?",
 
         explanation:
             "Bronze became widely used for tools, weapons and jewellery.",
@@ -204,6 +228,9 @@ const bronzeAge: SkillContent = {
             "A television"
         ],
 
+        
+        hint: "Imagine a skilled maker's workshop.",
+
         explanation:
             "Bronze was used to make useful tools such as axes.",
 
@@ -225,6 +252,9 @@ const bronzeAge: SkillContent = {
             "People used electricity.",
             "People built aeroplanes."
         ],
+
+        
+        hint: "Ignore options needing modern technology.",
 
         explanation:
             "Bronze was an important new material during this period.",
@@ -248,6 +278,9 @@ const bronzeAge: SkillContent = {
             "It melted in the rain."
         ],
 
+        
+        hint: "Think about durability, not appearance.",
+
         explanation:
             "Bronze tools were tougher and lasted longer than stone tools.",
 
@@ -269,6 +302,9 @@ const bronzeAge: SkillContent = {
             "It produced bronze.",
             "It built houses."
         ],
+
+        
+        hint: "Communities needed reliable food every year.",
 
         explanation:
             "Farming helped communities produce reliable food.",
@@ -292,6 +328,9 @@ const bronzeAge: SkillContent = {
             "To invent cars."
         ],
 
+        
+        hint: "Exchange helps everyone access scarce resources.",
+
         explanation:
             "Trading allowed people to exchange useful materials and goods.",
 
@@ -313,6 +352,9 @@ const bronzeAge: SkillContent = {
             "It powered engines.",
             "It replaced farming."
         ],
+
+        
+        hint: "Better materials improve everyday tasks.",
 
         explanation:
             "Bronze made many everyday tools more effective.",
@@ -336,6 +378,9 @@ const bronzeAge: SkillContent = {
             "Using computers"
         ],
 
+        
+        hint: "Farming encourages people to settle nearby.",
+
         explanation:
             "Farmers often settled in one place to look after crops and animals.",
 
@@ -357,6 +402,9 @@ const bronzeAge: SkillContent = {
             "To build houses",
             "To pull trains"
         ],
+
+        
+        hint: "Animals provided more than just meat.",
 
         explanation:
             "Sheep provided useful materials and food.",
@@ -380,6 +428,9 @@ const bronzeAge: SkillContent = {
             "A type of crop"
         ],
 
+        
+        hint: "This word describes composition, not purpose.",
+
         explanation:
             "Bronze is an alloy because it is made by mixing copper and tin.",
 
@@ -401,6 +452,9 @@ const bronzeAge: SkillContent = {
             "People travelled into space.",
             "People built motorways."
         ],
+
+        
+        hint: "Major discoveries can reshape society.",
 
         explanation:
             "The discovery of bronze changed the way people lived and worked.",
@@ -424,6 +478,9 @@ const bronzeAge: SkillContent = {
             "Mobile phone"
         ],
 
+        
+        hint: "Eliminate anything invented much later.",
+
         explanation:
             "Bronze weapons and tools became common during this period.",
 
@@ -445,6 +502,9 @@ const bronzeAge: SkillContent = {
             "People lived only in castles.",
             "People stopped making tools."
         ],
+
+        
+        hint: "Pick the description that includes several key features.",
 
         explanation:
             "The Bronze Age was a time of improved tools, farming and growing communities.",

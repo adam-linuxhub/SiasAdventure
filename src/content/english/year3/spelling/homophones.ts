@@ -21,6 +21,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which word means 'in that place'?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "there",
             "their",
@@ -43,6 +44,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which word shows that something belongs to people?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "their",
             "there",
@@ -65,6 +67,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which word is short for 'they are'?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "they're",
             "their",
@@ -87,6 +90,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which word means the number 2?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "two",
             "to",
@@ -109,6 +113,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which word means 'also'?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "too",
             "to",
@@ -131,6 +136,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which word is used before a place or action?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "to",
             "too",
@@ -153,6 +159,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which word means 'listen'?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "hear",
             "here",
@@ -175,6 +182,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which word means 'in this place'?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "here",
             "hear",
@@ -197,6 +205,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which word is an insect that makes honey?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "bee",
             "be",
@@ -219,6 +228,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which word means 'to exist'?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "be",
             "bee",
@@ -241,6 +251,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Complete the sentence: 'Please put your books over ______.'",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "there",
             "their",
@@ -263,6 +274,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Complete the sentence: '______ going to the park later.'",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "They're",
             "Their",
@@ -285,6 +297,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Complete the sentence: 'The children packed ______ lunches.'",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "their",
             "there",
@@ -307,6 +320,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Complete the sentence: 'I have ______ apples.'",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "two",
             "to",
@@ -329,6 +343,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Complete the sentence: 'Can I come ______?'",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "too",
             "to",
@@ -351,6 +366,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Complete the sentence: 'Let's go ______ the playground.'",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "to",
             "too",
@@ -373,6 +389,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "I can hear the birds singing.",
             "I can here the birds singing.",
@@ -395,6 +412,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "Please come here.",
             "Please come hear.",
@@ -417,6 +435,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "We went to see the sea.",
             "We went too see the sea.",
@@ -439,6 +458,7 @@ const homophones: SkillContent = {
         skillId: "homophones",
         question: "Which sentence uses all the homophones correctly?",
         stage: "recognise",
+        hint: "The words sound the same, but which meaning fits?",
         options: [
             "They're taking their dog over there.",
             "Their taking they're dog over there.",

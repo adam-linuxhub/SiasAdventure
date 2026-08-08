@@ -29,6 +29,8 @@ const romanArmyAndLife: SkillContent = {
             "A scribe"
         ],
 
+        hint: "Think about what material gave this period of history its name.",
+
         explanation:
             "A Roman soldier who served in a legion was called a legionary.",
 
@@ -51,6 +53,8 @@ const romanArmyAndLife: SkillContent = {
             "Having no leaders",
             "Using modern machines"
         ],
+
+        hint: "Ignore modern materials and choose the natural one used most often.",
 
         explanation:
             "The Roman army was successful because soldiers were well trained and organised.",
@@ -75,6 +79,8 @@ const romanArmyAndLife: SkillContent = {
             "A temple"
         ],
 
+        hint: "Focus on the part of the world mentioned in the description.",
+
         explanation:
             "A Roman legion was a large group of soldiers.",
 
@@ -97,6 +103,8 @@ const romanArmyAndLife: SkillContent = {
             "Modern jackets",
             "Silk robes"
         ],
+
+        hint: "Before houses were built, what natural shelter already existed?",
 
         explanation:
             "Roman soldiers wore armour and carried shields for protection.",
@@ -121,6 +129,8 @@ const romanArmyAndLife: SkillContent = {
             "A camera"
         ],
 
+        hint: "These animals lived in the wild, not on farms.",
+
         explanation:
             "Roman soldiers commonly used swords called gladii.",
 
@@ -143,6 +153,8 @@ const romanArmyAndLife: SkillContent = {
             "To hold festivals",
             "To avoid travelling"
         ],
+
+        hint: "Think about foods that can be picked rather than hunted.",
 
         explanation:
             "Forts helped the Romans defend and control their territory.",
@@ -167,6 +179,8 @@ const romanArmyAndLife: SkillContent = {
             "Writing books"
         ],
 
+        hint: "Three answers existed then; one belongs to modern life.",
+
         explanation:
             "Roman roads helped the army travel and helped trade.",
 
@@ -189,6 +203,8 @@ const romanArmyAndLife: SkillContent = {
             "Viking",
             "French"
         ],
+
+        hint: "Which choice describes what fire helped people do every day?",
 
         explanation:
             "Latin was the language used by Romans for government and writing.",
@@ -213,6 +229,8 @@ const romanArmyAndLife: SkillContent = {
             "Storing weapons only"
         ],
 
+        hint: "Think about what people could make from hunted animals.",
+
         explanation:
             "Public baths were important places in Roman towns.",
 
@@ -235,6 +253,8 @@ const romanArmyAndLife: SkillContent = {
             "Skyscrapers",
             "Railways"
         ],
+
+        hint: "Look for the only statement that fits prehistoric life.",
 
         explanation:
             "The Romans built many structures that changed Britain.",
@@ -259,6 +279,8 @@ const romanArmyAndLife: SkillContent = {
                 "To become farmers"
         ],
 
+        hint: "Consider the properties needed for a useful tool.",
+
         explanation:
             "Training helped Roman soldiers fight together successfully.",
 
@@ -281,6 +303,8 @@ const romanArmyAndLife: SkillContent = {
             "There were no buildings",
             "Only soldiers could enter"
         ],
+
+        hint: "Hunting gave more than just something to eat.",
 
         explanation:
             "Roman towns had many facilities for everyday life.",
@@ -305,6 +329,8 @@ const romanArmyAndLife: SkillContent = {
             "A soldier's helmet"
         ],
 
+        hint: "Gathering helped when hunting was unsuccessful.",
+
         explanation:
             "Wealthy Romans often lived in villas.",
 
@@ -327,6 +353,8 @@ const romanArmyAndLife: SkillContent = {
             "It removed all towns",
             "It stopped farming"
         ],
+
+        hint: "A good shelter keeps danger and bad weather out.",
 
         explanation:
             "Roman rule brought many changes to Britain.",
@@ -351,6 +379,8 @@ const romanArmyAndLife: SkillContent = {
             "Making armour"
         ],
 
+        hint: "Choose the answer that lists real benefits of fire.",
+
         explanation:
             "Coins were used for trade and buying goods.",
 
@@ -373,6 +403,8 @@ const romanArmyAndLife: SkillContent = {
             "To stop communication",
             "To prevent farming"
         ],
+
+        hint: "Think about how children helped their families survive.",
 
         explanation:
             "Roads connected towns and helped movement.",
@@ -397,6 +429,8 @@ const romanArmyAndLife: SkillContent = {
             "Stories with no evidence"
         ],
 
+        hint: "Objects left behind can tell historians about the past.",
+
         explanation:
             "Historians use evidence from the past to understand history.",
 
@@ -419,6 +453,8 @@ const romanArmyAndLife: SkillContent = {
             "They never travelled",
             "They avoided all battles"
         ],
+
+        hint: "Fire changed daily life long before machines existed.",
 
         explanation:
             "Teamwork and discipline made the Roman army powerful.",
@@ -443,6 +479,8 @@ const romanArmyAndLife: SkillContent = {
             "They were never used"
         ],
 
+        hint: "Pick the only object that could be made with Stone Age technology.",
+
         explanation:
             "Roman engineering helped many roads survive for centuries.",
 
@@ -465,6 +503,8 @@ const romanArmyAndLife: SkillContent = {
             "Romans removed all towns",
             "Romans only lived in forests"
         ],
+
+        hint: "Eliminate every answer that depends on modern inventions.",
 
         explanation:
             "Roman rule had a major impact on Britain.",

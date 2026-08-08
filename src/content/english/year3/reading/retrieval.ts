@@ -22,6 +22,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nSam rode his blue bike to the park.\n\nWhat colour was Sam's bike?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Blue",
             "Red",
@@ -45,6 +46,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nLucy packed an apple, a sandwich and a bottle of water.\n\nWhat fruit did Lucy pack?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "An apple",
             "A banana",
@@ -68,6 +70,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nBen's football match started at 10 o'clock.\n\nWhat time did the match begin?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "10 o'clock",
             "9 o'clock",
@@ -91,6 +94,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nThe rabbit hid under a bush when it started to rain.\n\nWhere did the rabbit hide?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Under a bush",
             "In a tree",
@@ -114,6 +118,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nMrs Green read a story to the class before lunch.\n\nWho read the story?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Mrs Green",
             "Sam",
@@ -137,6 +142,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nElla's favourite animal is the dolphin.\n\nWhat is Ella's favourite animal?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Dolphin",
             "Whale",
@@ -160,6 +166,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nTom wore a woolly hat because it was snowing.\n\nWhat did Tom wear?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "A woolly hat",
             "A helmet",
@@ -183,6 +190,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nThe class visited the museum on Tuesday.\n\nWhen did the class visit the museum?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Tuesday",
             "Monday",
@@ -206,6 +214,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nThe cake had chocolate icing.\n\nWhat flavour was the icing?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Chocolate",
             "Vanilla",
@@ -229,6 +238,7 @@ const retrieval: SkillContent = {
         question:
             "What does retrieval mean when reading?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Finding information that is written in the text",
             "Making up your own ending",
@@ -252,6 +262,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nAva planted sunflower seeds in April. By July, the flowers were taller than she was.\n\nWhat did Ava plant?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Sunflower seeds",
             "Beans",
@@ -275,6 +286,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nThe library opens at 9 o'clock every weekday and closes at 5 o'clock.\n\nWhat time does the library close?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "5 o'clock",
             "4 o'clock",
@@ -298,6 +310,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nOscar found a shiny shell while walking along the beach with his grandparents.\n\nWhat did Oscar find?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "A shiny shell",
             "A crab",
@@ -321,6 +334,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nThe baby panda drank milk before falling asleep.\n\nWhat did the panda drink?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Milk",
             "Water",
@@ -344,6 +358,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nNoah finished his homework before playing football with his friends.\n\nWhat did Noah do after finishing his homework?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Played football",
             "Went to bed",
@@ -367,6 +382,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nThe train to York leaves from Platform 3.\n\nWhich platform does the train leave from?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Platform 3",
             "Platform 1",
@@ -390,6 +406,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nEmily borrowed three books about dinosaurs from the library.\n\nHow many books did Emily borrow?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Three",
             "Two",
@@ -413,6 +430,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nThe red kite flew high above the trees on a windy afternoon.\n\nWhat colour was the kite?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Red",
             "Blue",
@@ -436,6 +454,7 @@ const retrieval: SkillContent = {
         question:
             "Read the passage:\n\nAfter brushing his teeth, Leo packed his school bag.\n\nWhat did Leo do first?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Brushed his teeth",
             "Packed his school bag",
@@ -459,6 +478,7 @@ const retrieval: SkillContent = {
         question:
             "What should you do first when answering a retrieval question?",
         stage: "recognise",
+        hint: "The answer is written in the passage. Read it carefully.",
         options: [
             "Look back at the text to find the answer",
             "Guess the answer",

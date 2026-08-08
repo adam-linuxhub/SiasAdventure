@@ -17,21 +17,26 @@
   PAGE
 ==================================================*/
 
-body{
+body {
 
-    position:relative;
+    position: relative;
 
     font-family:
         "Nunito",
         Arial,
         sans-serif;
 
-    background:
-        url("../images/backgrounds/academy.jpg")
-        center center
+    background-position:
+        center center;
+
+    background-repeat:
+        no-repeat;
+
+    background-attachment:
         fixed;
 
-    background-size:cover;
+    background-size:
+        cover;
 
 }
 

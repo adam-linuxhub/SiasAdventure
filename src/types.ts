@@ -1,17 +1,21 @@
 /*==================================================
-  SIA'S ADVENTURE
+SIA'S ADVENTURE
 
-  PLAYER TYPES
+PLAYER TYPES
 
 ==================================================*/
 
+
 export interface Player {
+
 
     /*==============================================
       PROFILE
     ==============================================*/
 
     name: string;
+
+
 
     /*==============================================
       PROGRESSION
@@ -25,9 +29,12 @@ export interface Player {
 
     adventurePoints: number;
 
+
+
     /*==============================================
       ADVENTURE
     ==============================================*/
+
 
     /**
      * Current school year.
@@ -35,6 +42,8 @@ export interface Player {
      * Starts at Year 3.
      */
     year: number;
+
+
 
     /**
      * Current adventure world.
@@ -44,6 +53,8 @@ export interface Player {
      * 12 = Wizard's Castle
      */
     world: number;
+
+
 
     /**
      * Total worlds completed
@@ -61,6 +72,8 @@ export interface Player {
 
     badges: string[];
 
+
+
     /**
      * Legacy treasure list.
      *
@@ -68,6 +81,8 @@ export interface Player {
      * until the Treasure Vault is complete.
      */
     treasures: string[];
+
+
 
     /**
      * Permanent collection of relic ids.
@@ -81,11 +96,15 @@ export interface Player {
      */
     relics: string[];
 
+
+
     /**
      * Treasure chests opened
      * in the current world.
      */
     worldTreasureCount: number;
+
+
 
     /*==============================================
       STATISTICS
@@ -98,5 +117,6 @@ export interface Player {
     incorrect: number;
 
     questionsThisLevel: number;
+
 
 }

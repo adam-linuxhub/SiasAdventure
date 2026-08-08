@@ -29,6 +29,7 @@ const kingdomsAndReligion: SkillContent = {
             "Places outside Britain only"
         ],
 
+        hint: "Imagine Britain split into lands with different rulers.",
         explanation:
             "After settling in Britain, Anglo-Saxons formed different kingdoms ruled by kings.",
 
@@ -52,6 +53,7 @@ const kingdomsAndReligion: SkillContent = {
             "A president"
         ],
 
+        hint: "Think about who leads a country rather than a group.",
         explanation:
             "Anglo-Saxon kingdoms were ruled by kings.",
 
@@ -75,6 +77,7 @@ const kingdomsAndReligion: SkillContent = {
             "Greece"
         ],
 
+        hint: "Choose the place that existed in Anglo-Saxon England.",
         explanation:
             "Mercia was one of the important Anglo-Saxon kingdoms.",
 
@@ -98,6 +101,7 @@ const kingdomsAndReligion: SkillContent = {
             "Ancient Egypt"
         ],
 
+        hint: "Look for another historic English kingdom.",
         explanation:
             "Wessex was one of the Anglo-Saxon kingdoms.",
 
@@ -121,6 +125,7 @@ const kingdomsAndReligion: SkillContent = {
             "They controlled Rome"
         ],
 
+        hint: "A ruler's main job was leadership, not manual work.",
         explanation:
             "Kings made laws and led their kingdoms.",
 
@@ -144,6 +149,7 @@ const kingdomsAndReligion: SkillContent = {
             "Roman religion only"
         ],
 
+        hint: "Consider beliefs before widespread Christian worship.",
         explanation:
             "Early Anglo-Saxons followed pagan beliefs before many converted to Christianity.",
 
@@ -167,6 +173,7 @@ const kingdomsAndReligion: SkillContent = {
             "Roman emperor worship"
         ],
 
+        hint: "Which faith spread across England over time?",
         explanation:
             "Christianity spread through Anglo-Saxon kingdoms.",
 
@@ -190,6 +197,7 @@ const kingdomsAndReligion: SkillContent = {
             "Pharaohs"
         ],
 
+        hint: "Who travels to teach new beliefs?",
         explanation:
             "Missionaries travelled to teach people about Christianity.",
 
@@ -213,6 +221,7 @@ const kingdomsAndReligion: SkillContent = {
             "A royal palace"
         ],
 
+        hint: "Think of a community where monks lived together.",
         explanation:
             "Monasteries were religious communities where monks lived.",
 
@@ -236,6 +245,7 @@ const kingdomsAndReligion: SkillContent = {
             "They were Roman towns"
         ],
 
+        hint: "Knowledge was carefully copied before printing existed.",
         explanation:
             "Monasteries preserved knowledge and produced written records.",
 
@@ -259,6 +269,7 @@ const kingdomsAndReligion: SkillContent = {
             "An Egyptian pharaoh"
         ],
 
+        hint: "Remember the famous ruler of Wessex.",
         explanation:
             "Alfred the Great was an important Anglo-Saxon king of Wessex.",
 
@@ -282,6 +293,7 @@ const kingdomsAndReligion: SkillContent = {
             "He discovered America"
         ],
 
+        hint: "Think about why some rulers earn the title 'Great'.",
         explanation:
             "Alfred helped protect Wessex and supported education.",
 
@@ -305,6 +317,7 @@ const kingdomsAndReligion: SkillContent = {
             "Fly planes"
         ],
 
+        hint: "Books were copied by hand in monasteries.",
         explanation:
             "Monks copied texts and helped preserve knowledge.",
 
@@ -328,6 +341,7 @@ const kingdomsAndReligion: SkillContent = {
             "They show modern life"
         ],
 
+        hint: "Written evidence helps us learn about earlier times.",
         explanation:
             "Written records help historians understand past events.",
 
@@ -351,6 +365,7 @@ const kingdomsAndReligion: SkillContent = {
             "Farming stopped"
         ],
 
+        hint: "New beliefs changed how many people lived.",
         explanation:
             "Christianity changed beliefs and influenced Anglo-Saxon society.",
 
@@ -374,6 +389,7 @@ const kingdomsAndReligion: SkillContent = {
             "They avoided leadership"
         ],
 
+        hint: "A kingdom needed leadership and protection.",
         explanation:
             "Kings led their people and controlled kingdoms.",
 
@@ -397,6 +413,7 @@ const kingdomsAndReligion: SkillContent = {
             "Future inventions"
         ],
 
+        hint: "Historians compare different kinds of surviving evidence.",
         explanation:
             "Historians use evidence to understand beliefs in the past.",
 
@@ -420,6 +437,7 @@ const kingdomsAndReligion: SkillContent = {
             "Creating machines"
         ],
 
+        hint: "Learning was one of a monastery's key purposes.",
         explanation:
             "Monasteries became important places of learning.",
 
@@ -443,6 +461,7 @@ const kingdomsAndReligion: SkillContent = {
             "To predict future kings"
         ],
 
+        hint: "Studying the past explains today's Britain.",
         explanation:
             "Studying kingdoms helps us understand past societies.",
 
@@ -466,6 +485,7 @@ const kingdomsAndReligion: SkillContent = {
             "Religion had no effect"
         ],
 
+        hint: "Combine the ideas of leadership and religion.",
         explanation:
             "Kings and religion were important parts of Anglo-Saxon society.",
 

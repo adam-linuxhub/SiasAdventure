@@ -35,6 +35,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "A flowing body of water moving towards another place",
         estimatedSeconds: 20,
+        hint: "Think about what makes a river different from mountains, roads and weather.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -58,6 +59,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "At its source",
         estimatedSeconds: 20,
+        hint: "Every river has a beginning. What is that starting point called?",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -81,6 +83,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "The place where the river meets a sea, lake or another river",
         estimatedSeconds: 20,
+        hint: "Imagine following a river until it can flow no further.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -104,6 +107,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "A channel",
         estimatedSeconds: 20,
+        hint: "Picture the route water follows between its banks.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -127,6 +131,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "From higher land to lower land",
         estimatedSeconds: 20,
+        hint: "Water follows gravity, not the other way around.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -150,6 +155,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "A smaller river that joins a larger river",
         estimatedSeconds: 20,
+        hint: "Think about what happens when two rivers meet.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -173,6 +179,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "They provide water and support life",
         estimatedSeconds: 20,
+        hint: "Consider why people, plants and animals all depend on rivers.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -196,6 +203,7 @@ const riverBasics: SkillContent = {
         difficulty: 2,
         correctAnswer: "The area of land drained by a river and its tributaries",
         estimatedSeconds: 25,
+        hint: "Imagine every raindrop flowing towards the same river system.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -219,6 +227,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "Where the river starts",
         estimatedSeconds: 20,
+        hint: "Source means where something begins, not where it finishes.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -242,6 +251,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "In hills or mountains",
         estimatedSeconds: 20,
+        hint: "Rain often collects first in the highest places.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -265,6 +275,7 @@ const riverBasics: SkillContent = {
         difficulty: 2,
         correctAnswer: "They can form a larger river",
         estimatedSeconds: 20,
+        hint: "Small streams can work together to make something bigger.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -288,6 +299,7 @@ const riverBasics: SkillContent = {
         difficulty: 2,
         correctAnswer: "Water and sometimes sediment",
         estimatedSeconds: 20,
+        hint: "Fast-moving water can carry more than just water.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -311,6 +323,7 @@ const riverBasics: SkillContent = {
         difficulty: 2,
         correctAnswer: "Small pieces of rock and soil carried by water",
         estimatedSeconds: 20,
+        hint: "Look for the option describing tiny natural materials moved by water.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -334,6 +347,7 @@ const riverBasics: SkillContent = {
         difficulty: 2,
         correctAnswer: "Water changes direction as it moves across land",
         estimatedSeconds: 20,
+        hint: "Water doesn't always travel in a perfectly straight line.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -357,6 +371,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "Water flowing over a steep drop",
         estimatedSeconds: 20,
+        hint: "Picture a river suddenly dropping over a cliff edge.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -380,6 +395,7 @@ const riverBasics: SkillContent = {
         difficulty: 2,
         correctAnswer: "They provide water, transport and resources",
         estimatedSeconds: 20,
+        hint: "Think about several different ways people benefit from rivers.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -403,6 +419,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "The river ends at its mouth",
         estimatedSeconds: 20,
+        hint: "A river has a name for the place where its journey finishes.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -426,6 +443,7 @@ const riverBasics: SkillContent = {
         difficulty: 2,
         correctAnswer: "They move water and sediment",
         estimatedSeconds: 20,
+        hint: "Moving water can shape the land over many years.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -449,6 +467,7 @@ const riverBasics: SkillContent = {
         difficulty: 1,
         correctAnswer: "Source, channel and mouth",
         estimatedSeconds: 20,
+        hint: "Choose the words that all belong to river geography.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -472,6 +491,7 @@ const riverBasics: SkillContent = {
         difficulty: 2,
         correctAnswer: "A flowing body of water that travels from its source to its mouth",
         estimatedSeconds: 25,
+        hint: "Include where a river begins and where it finishes.",
 
         tags: ["geography", "year3", "rivers"]
     }

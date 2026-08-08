@@ -21,6 +21,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which word is a conjunction?",
         stage: "recognise",
+        hint: "Think about which word joins ideas together.",
         options: [
             "and",
             "dog",
@@ -43,6 +44,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which conjunction joins two choices?",
         stage: "recognise",
+        hint: "Which word lets you choose between two things?",
         options: [
             "or",
             "cat",
@@ -65,6 +67,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which conjunction shows a reason?",
         stage: "recognise",
+        hint: "Look for the word that explains why.",
         options: [
             "because",
             "jump",
@@ -87,6 +90,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which word joins two ideas together?",
         stage: "recognise",
+        hint: "Conjunctions connect words or ideas.",
         options: [
             "and",
             "rabbit",
@@ -109,6 +113,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Choose the correct conjunction: 'Tea ____ coffee?'",
         stage: "recognise",
+        hint: "The sentence is offering a choice.",
         options: [
             "or",
             "because",
@@ -131,6 +136,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which word is a conjunction?",
         stage: "recognise",
+        hint: "Which word links two different ideas?",
         options: [
             "but",
             "book",
@@ -153,6 +159,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which sentence uses 'and' correctly?",
         stage: "recognise",
+        hint: "Find the sentence where two names are joined.",
         options: [
             "Sam and Mia played.",
             "Sam and played.",
@@ -175,6 +182,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which sentence uses 'but' correctly?",
         stage: "recognise",
+        hint: "Look for two ideas that are contrasted.",
         options: [
             "It was raining, but we still played.",
             "It was but raining.",
@@ -197,6 +205,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which word is NOT a conjunction?",
         stage: "recognise",
+        hint: "Three words join ideas. One names a thing.",
         options: [
             "house",
             "and",
@@ -219,6 +228,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Why do we use conjunctions?",
         stage: "recognise",
+        hint: "Think about the job of a conjunction.",
         options: [
             "To join words and ideas",
             "To describe nouns",
@@ -241,6 +251,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Choose the best conjunction: 'I stayed inside ____ it was raining.'",
         stage: "recognise",
+        hint: "Which word gives the reason?",
         options: [
             "because",
             "and",
@@ -263,6 +274,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Choose the best conjunction: 'Would you like an apple ____ a banana?'",
         stage: "recognise",
+        hint: "The sentence asks you to choose.",
         options: [
             "or",
             "because",
@@ -285,6 +297,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Choose the best conjunction: 'The dog barked ____ wagged its tail.'",
         stage: "recognise",
+        hint: "Both actions happen together.",
         options: [
             "and",
             "because",
@@ -307,6 +320,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Choose the best conjunction: 'The soup was hot, ____ I still ate it.'",
         stage: "recognise",
+        hint: "The two ideas are different from each other.",
         options: [
             "but",
             "because",
@@ -329,6 +343,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which sentence uses a conjunction correctly?",
         stage: "recognise",
+        hint: "Find the sentence that explains why something happened.",
         options: [
             "Ella smiled because she was happy.",
             "Ella because smiled.",
@@ -351,6 +366,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which sentence contains two conjunctions?",
         stage: "recognise",
+        hint: "Look for one conjunction joining names and another giving a reason.",
         options: [
             "Ben and Ava played because it was sunny.",
             "Ben played outside.",
@@ -373,6 +389,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which conjunction joins opposite ideas?",
         stage: "recognise",
+        hint: "Which conjunction shows a contrast?",
         options: [
             "but",
             "and",
@@ -395,6 +412,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which conjunction joins similar ideas?",
         stage: "recognise",
+        hint: "Which conjunction links matching ideas together?",
         options: [
             "and",
             "but",
@@ -417,6 +435,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which conjunction gives a choice?",
         stage: "recognise",
+        hint: "Think about the conjunction used for choices.",
         options: [
             "or",
             "and",
@@ -439,6 +458,7 @@ const conjunctions: SkillContent = {
         skillId: "conjunctions",
         question: "Which sentence uses conjunctions correctly?",
         stage: "recognise",
+        hint: "Look for conjunctions that join actions and explain a reason.",
         options: [
             "Oliver finished his homework and then played because he had time.",
             "Oliver homework because.",

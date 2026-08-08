@@ -29,6 +29,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "275",
 
+    hint: "Adding 30 changes the tens, not the ones. Think about adding three groups of ten.",
+
     explanation:
         "Adding 30 means adding 3 tens. 245 + 30 = 275."
 },
@@ -48,6 +50,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "466",
+
+    hint: "Subtracting 20 means taking away two tens while the hundreds and ones stay the same.",
 
     explanation:
         "Subtracting 20 means taking away 2 tens."
@@ -69,6 +73,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "421",
 
+    hint: "Only the hundreds digit changes when you add exactly 100.",
+
     explanation:
         "Adding 100 increases the hundreds digit by 1."
 },
@@ -88,6 +94,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "654",
+
+    hint: "Taking away one hundred leaves the tens and ones unchanged.",
 
     explanation:
         "Subtracting 100 decreases the hundreds digit by 1."
@@ -109,6 +117,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "670",
 
+    hint: "Add four tens to 630. Watch what happens to the tens digit.",
+
     explanation:
         "630 + 40 = 670."
 },
@@ -128,6 +138,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "540",
+
+    hint: "Count back five tens from 590 instead of subtracting one by one.",
 
     explanation:
         "590 − 50 = 540."
@@ -149,6 +161,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "478",
 
+    hint: "Six tens are being added, so only the tens place increases.",
+
     explanation:
         "418 + 60 = 478."
 },
@@ -168,6 +182,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "822",
+
+    hint: "Subtract four tens. The hundreds and ones digits should remain unchanged.",
 
     explanation:
         "862 − 40 = 822."
@@ -189,6 +205,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "All of these",
 
+    hint: "Test each calculation mentally before deciding whether they all reach the same total.",
+
     explanation:
         "Each calculation gives 570."
 },
@@ -208,6 +226,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "900",
+
+    hint: "Think in hundreds rather than individual numbers: seven hundreds plus two hundreds.",
 
     explanation:
         "700 + 200 = 900."
@@ -229,6 +249,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "605",
 
+    hint: "Remove three hundreds while keeping the tens and ones exactly the same.",
+
     explanation:
         "905 − 300 = 605."
 },
@@ -248,6 +270,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "296",
+
+    hint: "Adding two tens changes the tens digit but leaves the hundreds and ones untouched.",
 
     explanation:
         "276 + 20 = 296."
@@ -269,6 +293,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "Yes",
 
+    hint: "Ignore Ella's answer at first—calculate 462 plus three tens yourself.",
+
     explanation:
         "Adding 30 to 462 gives 492."
 },
@@ -288,6 +314,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "Yes",
+
+    hint: "Subtract one hundred from the hundreds digit and see if Ben's answer matches.",
 
     explanation:
         "810 − 100 = 710."
@@ -309,9 +337,12 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "All of these",
 
+    hint: "Check each calculation separately. If every one reaches 645, choose the option that says so.",
+
     explanation:
         "615 + 30, 665 − 20 and 545 + 100 all equal 645."
 },
+
 {
     id: "astdn-016",
     skillId: "add-and-subtract-three-digit-numbers",
@@ -327,6 +358,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "388",
+
+    hint: "Add four tens to 348. Notice that the hundreds and ones digits do not change.",
 
     explanation:
         "348 + 40 = 388."
@@ -348,6 +381,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "675",
 
+    hint: "Subtract five tens from the number instead of subtracting fifty one at a time.",
+
     explanation:
         "725 − 50 = 675."
 },
@@ -367,6 +402,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "639",
+
+    hint: "Adding 200 means increasing the hundreds by two while the tens and ones stay unchanged.",
 
     explanation:
         "Adding 200 increases the hundreds by 2."
@@ -388,6 +425,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "681",
 
+    hint: "Take away three hundreds but leave the remaining digits exactly where they are.",
+
     explanation:
         "981 − 300 = 681."
 },
@@ -407,6 +446,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "Ella: 514 + 20 = 534",
+
+    hint: "Ignore the names and work out 514 plus two tens yourself before choosing.",
 
     explanation:
         "Adding 20 means adding 2 tens."
@@ -428,6 +469,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "562",
 
+    hint: "Buying more books increases the total by exactly one hundred, so only the hundreds digit changes.",
+
     explanation:
         "462 + 100 = 562."
 },
@@ -447,6 +490,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "755",
+
+    hint: "Selling toys means subtracting three tens. The hundreds and ones stay the same.",
 
     explanation:
         "785 − 30 = 755."
@@ -468,6 +513,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "518",
 
+    hint: "Adding 200 means adding two hundreds while leaving the tens and ones unchanged.",
+
     explanation:
         "318 + 200 = 518."
 },
@@ -487,6 +534,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "840",
+
+    hint: "Removing one hundred reduces only the hundreds digit because the tens and ones stay the same.",
 
     explanation:
         "940 − 100 = 840."
@@ -508,6 +557,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "All of these",
 
+    hint: "Check each expression one at a time. If every result is 720, choose the option that includes them all.",
+
     explanation:
         "Each calculation gives 720."
 },
@@ -527,6 +578,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "585",
+
+    hint: "Use both clues. The correct answer must satisfy both calculations, not just one of them.",
 
     explanation:
         "485 + 100 = 585 and 605 − 20 = 585."
@@ -548,6 +601,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "621",
 
+    hint: "Subtract three tens because thirty visitors leave. The ones digit should not change.",
+
     explanation:
         "651 − 30 = 621."
 },
@@ -567,6 +622,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "490",
+
+    hint: "Look for the pattern between the first two numbers before finding the next one.",
 
     explanation:
         "Each number is 30 more than the previous one."
@@ -588,6 +645,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "610",
 
+    hint: "Notice the sequence drops by one hundred each time rather than by tens.",
+
     explanation:
         "Each number is 100 less than the previous one."
 },
@@ -608,9 +667,12 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "Ben: 405",
 
+    hint: "Add four tens to 365 yourself, then compare your answer with each child's solution.",
+
     explanation:
         "365 + 40 = 405."
 },
+
 {
     id: "astdn-031",
     skillId: "add-and-subtract-three-digit-numbers",
@@ -626,6 +688,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "576",
+
+    hint: "Adding 40 affects only the tens place, so the hundreds and ones remain unchanged.",
 
     explanation:
         "536 + 40 = 576."
@@ -647,6 +711,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "643",
 
+    hint: "Subtract two hundreds without changing the tens or ones digits.",
+
     explanation:
         "843 − 200 = 643."
 },
@@ -666,6 +732,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "All of these",
+
+    hint: "Calculate each option mentally. If they all give the same answer, choose the combined option.",
 
     explanation:
         "Each calculation gives 760."
@@ -687,6 +755,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "Sam: 415 + 200 = 615",
 
+    hint: "Adding 200 increases the hundreds by two. Check which child's answer follows that rule.",
+
     explanation:
         "Adding 200 increases the hundreds digit by 2."
 },
@@ -706,6 +776,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "570",
+
+    hint: "Test both clues. The correct answer must satisfy each condition, not just one of them.",
 
     explanation:
         "530 + 40 = 570 and 670 − 100 = 570."
@@ -727,6 +799,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "842",
 
+    hint: "Adding 200 increases the hundreds by two while the tens and ones stay the same.",
+
     explanation:
         "642 + 200 = 842."
 },
@@ -746,6 +820,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "875",
+
+    hint: "Shipping toys means subtracting four tens. Check that the ones digit does not change.",
 
     explanation:
         "915 − 40 = 875."
@@ -767,6 +843,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "515",
 
+    hint: "Look for the pattern shared by three of the numbers, then identify the one that breaks it.",
+
     explanation:
         "505, 605 and 705 increase by 100 each time. 515 does not fit the pattern."
 },
@@ -786,6 +864,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "468",
+
+    hint: "Compare the gaps between the first three numbers before choosing the next one.",
 
     explanation:
         "Each number is 40 more than the previous one."
@@ -807,6 +887,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "660",
 
+    hint: "The sequence decreases by the same amount each time. Work out that difference first.",
+
     explanation:
         "Each number is 100 less than the previous one."
 },
@@ -826,6 +908,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "590",
+
+    hint: "Carry out the changes in the order they happen: first add, then subtract.",
 
     explanation:
         "520 + 100 = 620, then 620 − 30 = 590."
@@ -847,6 +931,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "840 - 40 = 800",
 
+    hint: "Check each equation mentally. Only one gives the correct result.",
+
     explanation:
         "840 − 40 = 800."
 },
@@ -866,6 +952,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "Ella: 350 → 450 → 550",
+
+    hint: "Work out the size of each jump in every sequence. Only one keeps the same increase throughout.",
 
     explanation:
         "Ella correctly adds 100 each time."
@@ -887,6 +975,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "899",
 
+    hint: "Subtracting 100 changes only the hundreds while the tens and ones remain 99.",
+
     explanation:
         "999 − 100 = 899."
 },
@@ -906,6 +996,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "724",
+
+    hint: "Adding forty means adding four tens. Watch how the tens digit changes.",
 
     explanation:
         "684 + 40 = 724."
@@ -927,6 +1019,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "540 + 30 = 580",
 
+    hint: "Check each calculation one by one. Three are correct, so look for the single incorrect result.",
+
     explanation:
         "540 + 30 = 570, not 580."
 },
@@ -946,6 +1040,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "570",
+
+    hint: "Subtract five tens from 620 while keeping the hundreds digit unchanged.",
 
     explanation:
         "620 − 50 = 570."
@@ -967,6 +1063,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "150, 350, 550, 750",
 
+    hint: "Compare the difference between each pair of neighbouring numbers in every list.",
+
     explanation:
         "Each number is 200 more than the previous one."
 },
@@ -986,6 +1084,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ],
 
     correctAnswer: "695",
+
+    hint: "Find the repeated increase between the first two numbers and continue the same pattern.",
 
     explanation:
         "Each step adds 40."
@@ -1007,6 +1107,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
 
     correctAnswer: "100 more than 487 is 587.",
 
+    hint: "Check each statement carefully. Some have the right operation but the wrong result.",
+
     explanation:
         "487 + 100 = 587."
 },
@@ -1014,11 +1116,8 @@ const addAndSubtractThreeDigitNumbers: SkillContent = {
     ]
 };
 
-
 export default addAndSubtractThreeDigitNumbers;
 
 export {
-
     addAndSubtractThreeDigitNumbers
-
 };

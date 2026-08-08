@@ -28,6 +28,8 @@ const romanInvasion: SkillContent = {
             "The Egyptians",
             "The Normans"
         ],
+        hint:
+            "Think about which invading group is famous for conquering Britain in AD 43.",
 
         explanation:
             "The Roman invasion of Britain began in AD 43 under Emperor Claudius.",
@@ -51,6 +53,8 @@ const romanInvasion: SkillContent = {
             "Emperor Nero",
             "Alexander the Great"
         ],
+        hint:
+            "Look for the emperor who actually ordered the successful invasion, not the earlier visitor.",
 
         explanation:
             "Emperor Claudius ordered the successful invasion of Britain in AD 43.",
@@ -74,6 +78,8 @@ const romanInvasion: SkillContent = {
             "55 BC",
             "2020"
         ],
+        hint:
+            "Only one option matches the historical date taught in Year 3.",
 
         explanation:
             "The Roman conquest of Britain began in AD 43.",
@@ -97,6 +103,8 @@ const romanInvasion: SkillContent = {
             "King Arthur",
             "William the Conqueror"
         ],
+        hint:
+            "Choose the Roman leader who came before Claudius, even though he didn't conquer Britain.",
 
         explanation:
             "Julius Caesar attempted invasions of Britain in 55 BC and 54 BC.",
@@ -120,6 +128,8 @@ const romanInvasion: SkillContent = {
             "To escape the weather",
             "To learn English"
         ],
+        hint:
+            "Empires usually expand to gain something valuable.",
 
         explanation:
             "The Romans wanted to expand their empire and gain resources.",
@@ -143,6 +153,8 @@ const romanInvasion: SkillContent = {
             "A type of building",
             "A farming tool"
         ],
+        hint:
+            "An empire controls many different lands under one government.",
 
         explanation:
             "The Roman Empire controlled many lands across Europe and beyond.",
@@ -166,6 +178,8 @@ const romanInvasion: SkillContent = {
             "The Vikings",
             "The Normans"
         ],
+        hint:
+            "Britain wasn't empty before the Romans arrived—think of the Iron Age people.",
 
         explanation:
             "Celtic tribes lived in Britain before the Romans arrived.",
@@ -189,6 +203,8 @@ const romanInvasion: SkillContent = {
             "They left the planet",
             "They built Roman roads"
         ],
+        hint:
+            "Resisting an invasion means trying to stop the invading army.",
 
         explanation:
             "Some Celtic tribes resisted Roman control.",
@@ -212,6 +228,8 @@ const romanInvasion: SkillContent = {
             "Britain became Egypt",
             "All people left Britain"
         ],
+        hint:
+            "After conquest, lands often become part of the winner's empire.",
 
         explanation:
             "Britain became a province of the Roman Empire.",
@@ -235,6 +253,8 @@ const romanInvasion: SkillContent = {
             "It avoided battles",
             "It used modern technology"
         ],
+        hint:
+            "Success came from training and discipline rather than advanced technology.",
 
         explanation:
             "The Roman army was disciplined and highly organised.",
@@ -258,6 +278,8 @@ const romanInvasion: SkillContent = {
             "Victoria",
             "Elizabeth"
         ],
+        hint:
+            "She is remembered for leading a famous uprising, not for ruling Rome.",
 
         explanation:
             "Boudica led a rebellion against Roman rule in Britain.",
@@ -281,6 +303,8 @@ const romanInvasion: SkillContent = {
             "She wanted to build roads",
             "She wanted to leave Britain"
         ],
+        hint:
+            "Think about why someone would fight against unfair rule.",
 
         explanation:
             "Boudica led a rebellion against Roman rule.",
@@ -304,6 +328,8 @@ const romanInvasion: SkillContent = {
             "Building a house",
             "Growing crops"
         ],
+        hint:
+            "Focus on the meaning of an army entering another country by force.",
 
         explanation:
             "An invasion happens when an army enters another land to conquer it.",
@@ -327,6 +353,8 @@ const romanInvasion: SkillContent = {
             "To create schools only",
             "To avoid travelling"
         ],
+        hint:
+            "Forts helped soldiers stay in control after winning territory.",
 
         explanation:
             "Forts helped the Romans control conquered areas.",
@@ -350,6 +378,8 @@ const romanInvasion: SkillContent = {
             "The Romans arrived after the Vikings",
             "The Romans built modern cities"
         ],
+        hint:
+            "Ignore modern ideas and think about the real outcome of the conquest.",
 
         explanation:
             "The Roman invasion brought Britain into the Roman Empire.",
@@ -373,6 +403,8 @@ const romanInvasion: SkillContent = {
             "To build Roman armies",
             "To change history"
         ],
+        hint:
+            "Historians study events to explain changes over time.",
 
         explanation:
             "Studying invasions helps us understand changes in societies.",
@@ -396,6 +428,8 @@ const romanInvasion: SkillContent = {
             "Modern electricity",
             "Air travel"
         ],
+        hint:
+            "Consider the lasting changes Romans introduced to everyday life.",
 
         explanation:
             "Roman rule changed Britain through new technology and culture.",
@@ -419,6 +453,8 @@ const romanInvasion: SkillContent = {
             "A type of weapon",
             "A farming method"
         ],
+        hint:
+            "An empire is larger than a single country or city.",
 
         explanation:
             "An empire is made up of territories ruled by a powerful leader or state.",
@@ -442,6 +478,8 @@ const romanInvasion: SkillContent = {
             "William",
             "Alfred"
         ],
+        hint:
+            "Only one option is a Roman ruler rather than a British leader.",
 
         explanation:
             "Claudius was the Roman emperor who ordered the invasion of Britain.",
@@ -465,6 +503,8 @@ const romanInvasion: SkillContent = {
             "The Vikings invaded Britain first",
             "The Romans had no effect on Britain"
         ],
+        hint:
+            "Choose the summary that matches everything you have learned about the conquest.",
 
         explanation:
             "The Roman conquest changed Britain for hundreds of years.",

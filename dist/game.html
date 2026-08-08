@@ -17,10 +17,10 @@
 
 
 
-  <script type="module" crossorigin src="/assets/game-CLW4YTns.js"></script>
+  <script type="module" crossorigin src="/assets/game-DRhY0DNk.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/storage-hGWTBoAX.js">
   <link rel="stylesheet" crossorigin href="/assets/storage-DZ_lf1aP.css">
-  <link rel="stylesheet" crossorigin href="/assets/game-BVJqEObN.css">
+  <link rel="stylesheet" crossorigin href="/assets/game-DFQq1LqF.css">
 </head>
 
 <body>
@@ -120,7 +120,7 @@
         </form>
             </div>
 
-
+            <div id="game-message" class="game-message"></div>
             <div class="buttons">
 
                 <button
@@ -418,86 +418,75 @@
 
     <canvas id="fireworks-canvas"></canvas>
 
-<div class="level-panel">
+    <div class="level-panel">
 
-    <img
-        src="/assets/wizzy-DbYoABQA.png"
-        class="level-wizzy"
-        alt="Wizzy">
+        <img
+            src="/assets/wizzy-DbYoABQA.png"
+            class="level-wizzy"
+            alt="Wizzy">
 
-    <h1 id="level-complete-title">
+        <h1 id="level-complete-title">
 
-        🎉 LEVEL COMPLETE!
+            🎉 LEVEL COMPLETE!
 
-    </h1>
+        </h1>
 
-    <p class="level-message">
+        <p class="level-message">
 
-        Fantastic work, Sia!
-        <br>
-        You answered all <strong>20 magical questions.</strong>
+            Fantastic work, Sia!
+            <br>
+            You answered all <strong>20 magical questions.</strong>
 
-    </p>
+        </p>
 
-    <div class="reward-card">
+        <div class="reward-card">
 
-        <div class="reward-layout">
+            <img
+                id="level-chest-image"
+                src="/assets/treasure-chest-CPGN6UKn.png"
+                alt="Treasure Chest">
 
-            <div class="reward-left">
+            <h2 id="level-chest-title">
 
-                <img
-                    id="level-chest-image"
-                    src="/assets/treasure-chest-CPGN6UKn.png"
-                    alt="Treasure Chest">
+                🎁 Treasure Chest
 
-                <button
-                    id="open-level-chest"
-                    class="magic-button"
-                    type="button">
+            </h2>
 
-                    ✨ Open Treasure Chest ✨
+            <p id="level-chest-message">
 
-                </button>
+                A magical treasure chest has appeared!
 
-            </div>
+            </p>
 
-            <div class="reward-right">
-
-                <h2 id="level-chest-title">
-
-                    🎁 Treasure Chest
-
-                </h2>
-
-                <p id="level-chest-message">
-
-                    A magical treasure chest has appeared!
-
-                </p>
-
-                <div
-                    id="level-relic"
-                    class="hidden">
-
-                </div>
+            <div
+                id="level-relic"
+                class="hidden">
 
             </div>
+
+            <button
+                id="open-level-chest"
+                class="magic-button"
+                type="button">
+
+                ✨ Open Treasure Chest ✨
+
+            </button>
 
         </div>
 
+        <button
+            id="continue-level"
+            class="magic-button continue-button"
+            type="button"
+            style="display:none">
+
+            ✨ Continue Adventure →
+
+        </button>
+
     </div>
 
-    <button
-        id="continue-level"
-        class="magic-button continue-button"
-        type="button"
-        style="display:none">
-
-        ✨ Continue Adventure →
-
-    </button>
-
-</div>
 </div>
 </main>
 

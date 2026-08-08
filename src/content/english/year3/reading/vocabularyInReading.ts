@@ -22,6 +22,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe enormous elephant walked slowly through the forest.\n\nWhat does 'enormous' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Very large",
             "Very small",
@@ -45,6 +46,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe kitten was tiny and could fit inside a small box.\n\nWhat does 'tiny' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Very small",
             "Very noisy",
@@ -68,6 +70,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe explorer discovered a hidden cave behind the waterfall.\n\nWhat does 'discovered' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Found something new",
             "Lost something",
@@ -91,6 +94,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe path was slippery after the rain, so Ben walked carefully.\n\nWhat does 'slippery' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Easy to slide on",
             "Very rough",
@@ -114,6 +118,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe castle was ancient and had stood for hundreds of years.\n\nWhat does 'ancient' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Very old",
             "Very new",
@@ -137,6 +142,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Which clues can help you understand a new word?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "The words around it",
             "Only the first letter",
@@ -160,6 +166,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe dog was exhausted after running for two hours.\n\nWhat does 'exhausted' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Very tired",
             "Very excited",
@@ -183,6 +190,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "What should you do if you find an unfamiliar word while reading?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Look for clues in the sentence",
             "Always skip it",
@@ -206,6 +214,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe frightened rabbit quickly ran away from the fox.\n\nWhat does 'frightened' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Scared",
             "Happy",
@@ -229,6 +238,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Why is understanding vocabulary important when reading?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "It helps you understand the text",
             "It makes every story longer",
@@ -252,6 +262,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe mysterious box had a strange symbol on it and nobody knew what was inside.\n\nWhat does 'mysterious' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Difficult to understand or explain",
             "Very easy to understand",
@@ -275,6 +286,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe scientist carefully observed the plant and wrote notes about its growth.\n\nWhat does 'observed' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Watched carefully",
             "Ignored",
@@ -298,6 +310,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "The prefix 'un-' in 'unhappy' helps you understand that it means:",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Not happy",
             "Very happy",
@@ -321,6 +334,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "The suffix '-ly' in 'quickly' helps you understand that it describes:",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "How something happens",
             "A person",
@@ -344,6 +358,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe hero was courageous and entered the dark cave alone.\n\nWhat does 'courageous' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Brave",
             "Afraid",
@@ -367,6 +382,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe garden was peaceful, with birds singing quietly.\n\nWhat does 'peaceful' mean?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Calm and quiet",
             "Busy and noisy",
@@ -390,6 +406,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Which strategy helps you work out a word meaning?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Use the sentence around the word",
             "Ignore all clues",
@@ -413,6 +430,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "Read the sentence:\n\nThe enormous waves crashed against the rocks during the storm.\n\nWhat does 'crashed' suggest?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Hit with force",
             "Moved silently",
@@ -436,6 +454,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "When you meet a new word, what should you ask yourself?",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "What clues around this word help me?",
             "How many letters does it have?",
@@ -459,6 +478,7 @@ const vocabularyInReading: SkillContent = {
         question:
             "A strong reader uses vocabulary clues to:",
         stage: "recognise",
+        hint: "Use the words around it to work out the meaning.",
         options: [
             "Understand unfamiliar words",
             "Make stories shorter",

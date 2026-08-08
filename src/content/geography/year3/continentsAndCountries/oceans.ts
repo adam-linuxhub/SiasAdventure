@@ -29,6 +29,9 @@ const oceans: SkillContent = {
             "A weather event"
         ],
 
+        hint:
+            "Think about where this feature is found or what it does.",
+
         explanation:
             "Oceans are huge areas of salt water that cover much of Earth's surface.",
 
@@ -51,6 +54,9 @@ const oceans: SkillContent = {
             "Three",
             "Ten"
         ],
+
+        hint:
+            "Think about where this feature is found or what it does.",
 
         explanation:
             "The five oceans are Pacific, Atlantic, Indian, Southern and Arctic.",
@@ -75,6 +81,9 @@ const oceans: SkillContent = {
             "Arctic Ocean"
         ],
 
+        hint:
+            "Think about where this feature is found or what it does.",
+
         explanation:
             "The Pacific Ocean is the largest ocean on Earth.",
 
@@ -97,6 +106,9 @@ const oceans: SkillContent = {
             "Indian Ocean",
             "Southern Ocean"
         ],
+
+        hint:
+            "Think about where this feature is found or what it does.",
 
         explanation:
             "The Atlantic Ocean separates Europe and North America.",
@@ -121,6 +133,9 @@ const oceans: SkillContent = {
             "Indian Ocean"
         ],
 
+        hint:
+            "Think about where this feature is found or what it does.",
+
         explanation:
             "The Southern Ocean surrounds Antarctica.",
 
@@ -143,6 +158,9 @@ const oceans: SkillContent = {
             "Indian Ocean",
             "Southern Ocean"
         ],
+
+        hint:
+            "Think about where this feature is found or what it does.",
 
         explanation:
             "The Arctic Ocean is located around the North Pole.",
@@ -167,6 +185,9 @@ const oceans: SkillContent = {
             "Southern Ocean"
         ],
 
+        hint:
+            "Think about where this feature is found or what it does.",
+
         explanation:
             "The Indian Ocean is located between these continents.",
 
@@ -189,6 +210,9 @@ const oceans: SkillContent = {
             "They contain no life",
             "They only create waves"
         ],
+
+        hint:
+            "Think about where this feature is found or what it does.",
 
         explanation:
             "Oceans support life and influence weather and climate.",
@@ -213,6 +237,9 @@ const oceans: SkillContent = {
             "No water"
         ],
 
+        hint:
+            "Think about where this feature is found or what it does.",
+
         explanation:
             "Ocean water contains salt, unlike most freshwater rivers and lakes.",
 
@@ -235,6 +262,9 @@ const oceans: SkillContent = {
             "Types of fish",
             "Clouds under water"
         ],
+
+        hint:
+            "Think about where this feature is found or what it does.",
 
         explanation:
             "Wind transfers energy to the ocean surface and creates waves.",
@@ -259,6 +289,9 @@ const oceans: SkillContent = {
             "A weather instrument"
         ],
 
+        hint:
+            "Think about where this feature is found or what it does.",
+
         explanation:
             "Ocean currents are large movements of water through the oceans.",
 
@@ -281,6 +314,9 @@ const oceans: SkillContent = {
             "They create continents",
             "They remove sunlight"
         ],
+
+        hint:
+            "Think about where this feature is found or what it does.",
 
         explanation:
             "Oceans influence temperatures and weather patterns.",
@@ -305,6 +341,9 @@ const oceans: SkillContent = {
             "No living things"
         ],
 
+        hint:
+            "Think about where this feature is found or what it does.",
+
         explanation:
             "Oceans contain many different marine ecosystems.",
 
@@ -327,6 +366,9 @@ const oceans: SkillContent = {
             "A mountain habitat",
             "A city habitat"
         ],
+
+        hint:
+            "Think about where this feature is found or what it does.",
 
         explanation:
             "Marine habitats are environments in oceans and seas.",
@@ -351,6 +393,9 @@ const oceans: SkillContent = {
             "To create pollution"
         ],
 
+        hint:
+            "Think about where this feature is found or what it does.",
+
         explanation:
             "Healthy oceans are important for many species and people.",
 
@@ -373,6 +418,9 @@ const oceans: SkillContent = {
             "Sunlight",
             "Fish"
         ],
+
+        hint:
+            "Think about where this feature is found or what it does.",
 
         explanation:
             "Pollution can damage ocean habitats and wildlife.",
@@ -397,6 +445,9 @@ const oceans: SkillContent = {
             "To create weather"
         ],
 
+        hint:
+            "Think about where this feature is found or what it does.",
+
         explanation:
             "Maps show where oceans and continents are located.",
 
@@ -419,6 +470,9 @@ const oceans: SkillContent = {
             "Africa",
             "Asia"
         ],
+
+        hint:
+            "Think about where this feature is found or what it does.",
 
         explanation:
             "The Southern Ocean surrounds the continent of Antarctica.",
@@ -443,6 +497,9 @@ const oceans: SkillContent = {
             "Continents float on rivers"
         ],
 
+        hint:
+            "Think about where this feature is found or what it does.",
+
         explanation:
             "Earth's continents are surrounded and separated by oceans.",
 
@@ -465,6 +522,9 @@ const oceans: SkillContent = {
             "Oceans have no importance",
             "Oceans only contain waves"
         ],
+
+        hint:
+            "Think about where this feature is found or what it does.",
 
         explanation:
             "Oceans are important parts of Earth's physical geography.",

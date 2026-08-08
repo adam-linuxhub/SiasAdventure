@@ -29,6 +29,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "A flat area of land"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "A mountain range is a group of mountains that are close together.",
 
@@ -52,6 +53,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "The Rockies"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Mount Everest is part of the Himalayan mountain range.",
 
@@ -75,6 +77,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "South America"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "The Himalayas are a large mountain range in Asia.",
 
@@ -98,6 +101,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "The Alps"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Mount Everest is the highest mountain above sea level.",
 
@@ -121,6 +125,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "The Rockies"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "The Alps stretch across several European countries.",
 
@@ -144,6 +149,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "The Pennines"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "The Andes are a long mountain range along western South America.",
 
@@ -167,6 +173,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "The Andes"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "The Rocky Mountains are located in North America.",
 
@@ -190,6 +197,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "Africa"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "The Andes run along the western side of South America.",
 
@@ -213,6 +221,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "To remove mountains"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Maps help us locate and compare places around the world.",
 
@@ -236,6 +245,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "A weather forecast"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "A globe is a model showing Earth's continents and oceans.",
 
@@ -259,6 +269,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "They are always underwater"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Mountain environments can be challenging because of their height and climate.",
 
@@ -282,6 +293,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "A river crossing"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "An environment includes the living and non-living features of an area.",
 
@@ -305,6 +317,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "To stop rivers"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Mountains attract visitors for recreation and exploration.",
 
@@ -328,6 +341,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "Kilimanjaro"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Ben Nevis in Scotland is the highest mountain in the UK.",
 
@@ -351,6 +365,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "They are only found in cities"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Mountain ranges are major physical features of the Earth.",
 
@@ -374,6 +389,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "Only their age"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Geographers compare mountains using different measurements and features.",
 
@@ -397,6 +413,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "Climate does not change"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Altitude and location influence mountain climates.",
 
@@ -420,6 +437,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "Weather symbols"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Contour lines show changes in height on maps.",
 
@@ -443,6 +461,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "They prevent all life"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Mountains are important natural features that support life.",
 
@@ -466,6 +485,7 @@ const mountainsAroundTheWorld: SkillContent = {
             "Mountains cannot be studied"
         ],
 
+        hint: "Think about the mountain, continent, map skill or geographical feature being described.",
         explanation:
             "Mountains vary in size, location and characteristics.",
 

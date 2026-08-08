@@ -12,6 +12,7 @@ import { QuestionEngine,type Question,type QuestionResult} from "./questionEngin
 import {renderTreasureGallery} from "./treasureUI";
 
 let player: Player;
+let completedWorldId: number | null = null;
 let questions: Question[] = [];
 let pendingChest = false;
 let levelUp = false;
@@ -124,6 +125,20 @@ function bySelector<T extends Element>(selector: string): T {
   return element as T;
 }
 
+function updateWorldBackground(): void {
+
+    document.body.className =
+        document.body.className.replace(
+            /world-\d+/,
+            ""
+        );
+
+    document.body.classList.add(
+        `world-${player.world}`
+    );
+
+}
+
 /*==================================================
   START GAME
 ==================================================*/
@@ -135,6 +150,8 @@ function initialiseGame() {
     player = PlayerStorage.load();
 
     PlayerStorage.loadLearning();
+
+    updateWorldBackground();
 
     initialiseTreasureUI();
 
@@ -172,63 +189,80 @@ function loadRandomQuestion() {
   DISPLAY QUESTION
 ==================================================*/
 
-function displayQuestion() {
-const currentQuestion =
-    QuestionEngine.getCurrentQuestion();
+function displayQuestion(): void {
 
-if (!currentQuestion) {
-    return;
-}
+    const currentQuestion =
+        QuestionEngine.getCurrentQuestion();
 
+    if (!currentQuestion) {
+        return;
+    }
 
     clearAnswerSelection();
-byId<HTMLButtonElement>("submit-answer").style.display = "inline-block";
-byId<HTMLButtonElement>("dont-know").style.display = "inline-block";
 
-byId<HTMLButtonElement>("submit-answer").disabled = false;
-byId<HTMLButtonElement>("dont-know").disabled = false;
+    const message =
+        byId<HTMLDivElement>("game-message");
 
-byId<HTMLButtonElement>("next-question").style.display = "none";
+    message.classList.remove("visible");
+    message.textContent = "";
+
+    byId<HTMLButtonElement>("submit-answer").style.display = "inline-block";
+    byId<HTMLButtonElement>("dont-know").style.display = "inline-block";
+
+    byId<HTMLButtonElement>("submit-answer").disabled = false;
+    byId<HTMLButtonElement>("dont-know").disabled = false;
+
+    byId<HTMLButtonElement>("next-question").style.display = "none";
 
     showRandomWizzyMessage();
- 
+
     byId<HTMLElement>("question-text").textContent =
         currentQuestion.question;
 
     byId<HTMLElement>("hint-text").textContent =
         currentQuestion.hint;
 
-    const answers = byId<HTMLDivElement>("answers");
+    const answers =
+        byId<HTMLDivElement>("answers");
 
     answers.innerHTML = "";
 
- currentQuestion.answers.forEach((answer, index) => {
-    const label = document.createElement("label");
+    currentQuestion.answers.forEach((answer, index) => {
 
-    label.className = "answer-option";
+        const label =
+            document.createElement("label");
 
-    label.innerHTML = `
-<input
-type="radio"
-name="answer"
-value="${index}">
-${answer}
-`;
+        label.className = "answer-option";
 
-    label
-        .querySelector<HTMLInputElement>("input")!
-        .addEventListener("change", () => {
-            document
-                .querySelectorAll<HTMLElement>(".answer-option")
-                .forEach(option => {
-                    option.classList.remove("selected");
-                });
+        label.innerHTML = `
+            <input
+                type="radio"
+                name="answer"
+                value="${index}">
+            ${answer}
+        `;
 
-            label.classList.add("selected");
-        });
+        label
+            .querySelector<HTMLInputElement>("input")!
+            .addEventListener("change", () => {
 
-    answers.appendChild(label);
-});
+                document
+                    .querySelectorAll<HTMLElement>(".answer-option")
+                    .forEach(option => {
+                        option.classList.remove("selected");
+                    });
+
+                label.classList.add("selected");
+
+                message.classList.remove("visible");
+                message.textContent = "";
+
+            });
+
+        answers.appendChild(label);
+
+    });
+
 }
 
 /*==================================================
@@ -286,6 +320,11 @@ const gameResult =
         selectedAnswer
     );
 
+    console.log(
+    "XP:", player.xp,
+    "Level:", player.level,
+    "LevelUp:", gameResult.levelUp
+);
 const result = gameResult.result;
 
 levelUp = gameResult.levelUp;
@@ -367,19 +406,30 @@ byId<HTMLButtonElement>("next-question")
 function submitAnswer() {
 
     const selected =
-    document.querySelector<HTMLInputElement>(
-        "input[name='answer']:checked"
-    );
+        document.querySelector<HTMLInputElement>(
+            "input[name='answer']:checked"
+        );
 
     if (!selected) {
 
-        alert("Choose an answer first!");
+        showMessage("Choose an answer first.");
 
         return;
 
     }
 
     checkAnswer(Number(selected.value));
+
+}
+
+function showMessage(message: string): void {
+
+    const element = document.getElementById("game-message");
+
+    if (!element) return;
+
+    element.textContent = message;
+    element.classList.add("visible");
 
 }
 
@@ -402,9 +452,9 @@ if (!currentQuestion) {
 
     const message =
 
-        "That's perfectly okay!\n\n" +
+        "That's perfectly okay! " +
 
-        "Every great wizard learns by practising.\n\n" +
+        "Every great wizard learns by practising.\n" +
 
         currentQuestion.explanation;
 
@@ -472,7 +522,7 @@ function showCorrectExplanation(
 
     typeWizzyMessage(
 
-        `${message}\n\n${result.explanation}`
+        `${message}\n${result.explanation}`
 
     );
 
@@ -497,11 +547,11 @@ function showIncorrectExplanation(
 
     typeWizzyMessage(
 
-        `${message}\n\n` +
+        `${message}\n` +
 
-        `The correct answer was:\n` +
+        `The correct answer was: ` +
 
-        `${result.correctAnswerText}\n\n` +
+        `${result.correctAnswerText}\n` +
 
         result.explanation
 
@@ -733,6 +783,8 @@ function openLevelTreasure(): void {
 
     pendingChest = false;
 
+    const previousWorld = player.world;
+
     const reward =
         Treasure.open(player);
 
@@ -741,6 +793,25 @@ function openLevelTreasure(): void {
         console.error("Treasure.open() returned undefined");
 
         return;
+
+    }
+
+
+    if (player.world !== previousWorld) {
+
+        completedWorldId = previousWorld;
+
+        celebrationMode = "world";
+
+        showWorldComplete();
+
+        showCelebrationOverlay();
+
+        setTimeout(() => {
+
+            updateWorldBackground();
+
+        }, 1500);
 
     }
 
@@ -781,7 +852,7 @@ function openLevelTreasure(): void {
 
         relic.innerHTML = `
             <img
-                src="images/relics/world1/${reward.image}"
+                src="images/relics/world${previousWorld}/${reward.image}"
                 alt="${reward.item}"
                 class="relic-image">
         `;
@@ -873,7 +944,7 @@ function hideLevelOverlay() {
 
     byId<HTMLDivElement>("level-complete-overlay")
         .classList.add("hidden");
-
+    celebrationMode = "level";
         stopFireworks();
 }
 
@@ -883,7 +954,9 @@ function showWorldComplete(): void {
         byId<HTMLDivElement>("explanation");
 
     const completedWorld =
-        Worlds.getWorld(player.world);
+    Worlds.getWorld(
+        completedWorldId ?? player.world
+    );
 
     const nextWorld =
         Worlds.getNextWorld(player.world);
@@ -1139,14 +1212,16 @@ function typeWizzyMessage(text: string): void {
         byId<HTMLElement>("wizzy-message");
 
     if (!element) {
-
         return;
-
     }
 
     if (wizzyTimer !== null) {
-    clearInterval(wizzyTimer!);
-}
+        clearInterval(wizzyTimer);
+        wizzyTimer = null;
+    }
+
+    // Preserve line breaks (\n) in the message
+    element.style.whiteSpace = "pre-line";
 
     element.textContent = "";
 
@@ -1161,7 +1236,6 @@ function typeWizzyMessage(text: string): void {
             wizzyTimer = null;
 
             return;
-
         }
 
         element.textContent += text[index];

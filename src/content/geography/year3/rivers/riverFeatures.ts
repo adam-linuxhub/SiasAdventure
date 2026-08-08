@@ -36,6 +36,8 @@ const riverFeatures: SkillContent = {
         correctAnswer: "Upper course, middle course and lower course",
         estimatedSeconds: 20,
 
+        hint: "Think about the names geographers use for a river's journey, not everyday words.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -58,6 +60,8 @@ const riverFeatures: SkillContent = {
         difficulty: 1,
         correctAnswer: "Near the source in higher land",
         estimatedSeconds: 20,
+
+        hint: "Picture where a river first begins before it has travelled very far.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -82,6 +86,8 @@ const riverFeatures: SkillContent = {
         correctAnswer: "Narrow and fast flowing",
         estimatedSeconds: 20,
 
+        hint: "Consider how steep slopes affect the river's speed and width.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -104,6 +110,8 @@ const riverFeatures: SkillContent = {
         difficulty: 1,
         correctAnswer: "Water falling over a steep drop",
         estimatedSeconds: 20,
+
+        hint: "Look for the option describing how water moves over land.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -128,6 +136,8 @@ const riverFeatures: SkillContent = {
         correctAnswer: "Moving water wearing away rock and soil",
         estimatedSeconds: 20,
 
+        hint: "Think about what flowing water does to rocks over time.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -150,6 +160,8 @@ const riverFeatures: SkillContent = {
         difficulty: 2,
         correctAnswer: "Material is worn away and moved",
         estimatedSeconds: 20,
+
+        hint: "Focus on what happens to the land, not the water.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -174,6 +186,8 @@ const riverFeatures: SkillContent = {
         correctAnswer: "A bend in a river",
         estimatedSeconds: 20,
 
+        hint: "Imagine looking at a winding river from above.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -196,6 +210,8 @@ const riverFeatures: SkillContent = {
         difficulty: 2,
         correctAnswer: "In the middle and lower courses of rivers",
         estimatedSeconds: 20,
+
+        hint: "Think about where rivers become less steep and start winding.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -220,6 +236,8 @@ const riverFeatures: SkillContent = {
         correctAnswer: "When a river drops material it is carrying",
         estimatedSeconds: 20,
 
+        hint: "Consider what happens when a river no longer carries everything.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -242,6 +260,8 @@ const riverFeatures: SkillContent = {
         difficulty: 2,
         correctAnswer: "Where the river slows down",
         estimatedSeconds: 20,
+
+        hint: "Think about what happens when moving water loses energy.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -266,6 +286,8 @@ const riverFeatures: SkillContent = {
         correctAnswer: "Wider with more bends",
         estimatedSeconds: 20,
 
+        hint: "Compare it with the steep upper course.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -288,6 +310,8 @@ const riverFeatures: SkillContent = {
         difficulty: 1,
         correctAnswer: "Wide and slower near the mouth",
         estimatedSeconds: 20,
+
+        hint: "Think about the river just before it reaches its end.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -312,6 +336,8 @@ const riverFeatures: SkillContent = {
         correctAnswer: "It usually becomes wider and deeper",
         estimatedSeconds: 20,
 
+        hint: "Remember that other streams join the river on its journey.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -334,6 +360,8 @@ const riverFeatures: SkillContent = {
         difficulty: 1,
         correctAnswer: "Low land between hills or mountains",
         estimatedSeconds: 20,
+
+        hint: "Picture the land shape that rivers often flow through.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -358,6 +386,8 @@ const riverFeatures: SkillContent = {
         correctAnswer: "By eroding and depositing material",
         estimatedSeconds: 20,
 
+        hint: "Think about both wearing away and leaving behind material.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -380,6 +410,8 @@ const riverFeatures: SkillContent = {
         difficulty: 2,
         correctAnswer: "They often flow down steep slopes",
         estimatedSeconds: 20,
+
+        hint: "Consider the effect of gravity on steep land.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -404,6 +436,8 @@ const riverFeatures: SkillContent = {
         correctAnswer: "A curved lake formed from a cut-off meander",
         estimatedSeconds: 25,
 
+        hint: "Think about what can happen if a river bend gets cut off.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -426,6 +460,8 @@ const riverFeatures: SkillContent = {
         difficulty: 2,
         correctAnswer: "Water changes the land as it flows",
         estimatedSeconds: 20,
+
+        hint: "Think about how flowing water changes land over many years.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -450,6 +486,8 @@ const riverFeatures: SkillContent = {
         correctAnswer: "The mouth",
         estimatedSeconds: 20,
 
+        hint: "Remember the special name for the river's finishing point.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -472,6 +510,8 @@ const riverFeatures: SkillContent = {
         difficulty: 2,
         correctAnswer: "A river starts at its source, flows through the land and ends at its mouth",
         estimatedSeconds: 25,
+
+        hint: "Think about the correct order from beginning to end.",
 
         tags: ["geography", "year3", "rivers"]
     }

@@ -21,6 +21,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "could",
             "coulde",
@@ -43,6 +44,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "would",
             "wud",
@@ -65,6 +67,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "should",
             "shud",
@@ -87,6 +90,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "hour",
             "our",
@@ -109,6 +113,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "move",
             "moov",
@@ -131,6 +136,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "water",
             "watter",
@@ -153,6 +159,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "sugar",
             "shugar",
@@ -175,6 +182,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "pretty",
             "prety",
@@ -197,6 +205,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "clothes",
             "cloths",
@@ -219,6 +228,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "sure",
             "shure",
@@ -241,6 +251,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Complete the sentence: 'I ______ help you tomorrow.'",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "could",
             "cud",
@@ -263,6 +274,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "We drank cold water after the race.",
             "We drank cold watter after the race.",
@@ -285,6 +297,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which sentence contains the correctly spelled word?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "The flowers need water to grow.",
             "The flowers need watter to grow.",
@@ -307,6 +320,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which word completes the sentence? 'I am ______ this answer is correct.'",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "sure",
             "shure",
@@ -329,6 +343,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "My favourite jumper is hanging with my clothes.",
             "My favourite jumper is hanging with my cloths.",
@@ -351,6 +366,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which spelling is correct?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "improve",
             "improove",
@@ -373,6 +389,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "We should finish our homework.",
             "We shud finish our homework.",
@@ -395,6 +412,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "Dad would like a cup of tea.",
             "Dad wud like a cup of tea.",
@@ -417,6 +435,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which word is spelled correctly?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "hour",
             "ourh",
@@ -439,6 +458,7 @@ const commonExceptionWords2: SkillContent = {
         skillId: "commonExceptionWords2",
         question: "Which sentence contains only correctly spelled words?",
         stage: "recognise",
+        hint: "Remember this is a common exception word—look closely.",
         options: [
             "We could improve after an hour of practice.",
             "We cud improove after an hour of practice.",

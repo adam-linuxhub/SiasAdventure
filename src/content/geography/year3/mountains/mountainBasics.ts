@@ -29,6 +29,7 @@ const mountainBasics: SkillContent = {
             "A man-made building"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Mountains are high areas of land with steep sides.",
 
@@ -52,6 +53,7 @@ const mountainBasics: SkillContent = {
             "By their distance from towns"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "The height of mountains is measured from sea level.",
 
@@ -75,6 +77,7 @@ const mountainBasics: SkillContent = {
             "The river"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "The summit is the highest point of a mountain.",
 
@@ -98,6 +101,7 @@ const mountainBasics: SkillContent = {
             "The ridge"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "The foot is the lowest part where a mountain begins.",
 
@@ -121,6 +125,7 @@ const mountainBasics: SkillContent = {
             "A type of weather"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "A peak is the highest or pointed part of a mountain.",
 
@@ -144,6 +149,7 @@ const mountainBasics: SkillContent = {
             "A city near a mountain"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Mountain ranges are groups of connected mountains.",
 
@@ -167,6 +173,7 @@ const mountainBasics: SkillContent = {
             "A steep cliff only"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Valleys are lower areas often found between mountains.",
 
@@ -190,6 +197,7 @@ const mountainBasics: SkillContent = {
             "Mountains are always covered in snow"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "The higher the altitude, the colder the air usually becomes.",
 
@@ -213,6 +221,7 @@ const mountainBasics: SkillContent = {
             "The amount of rainfall"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Altitude describes how high a place is above sea level.",
 
@@ -236,6 +245,7 @@ const mountainBasics: SkillContent = {
             "Snow only falls on mountains"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "High mountains are colder, so snow and ice can remain.",
 
@@ -259,6 +269,7 @@ const mountainBasics: SkillContent = {
             "The Atlantic Ocean"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "The Himalayas are a major mountain range in Asia.",
 
@@ -282,6 +293,7 @@ const mountainBasics: SkillContent = {
             "A type of weather"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "A landscape includes the visible features of an area.",
 
@@ -305,6 +317,7 @@ const mountainBasics: SkillContent = {
             "They prevent all life"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Many plants and animals are adapted to mountain environments.",
 
@@ -328,6 +341,7 @@ const mountainBasics: SkillContent = {
             "A type of cloud"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Cliffs are steep sides of rock or land.",
 
@@ -351,6 +365,7 @@ const mountainBasics: SkillContent = {
             "To build roads only"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Mountains are popular for recreation and tourism.",
 
@@ -374,6 +389,7 @@ const mountainBasics: SkillContent = {
             "A flat lake"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "A ridge is a raised line of land, often found on mountains.",
 
@@ -397,6 +413,7 @@ const mountainBasics: SkillContent = {
             "There is no difference"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Mountains are usually taller and steeper than hills.",
 
@@ -420,6 +437,7 @@ const mountainBasics: SkillContent = {
             "They stop erosion"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Moving ice can slowly change mountain landscapes.",
 
@@ -443,6 +461,7 @@ const mountainBasics: SkillContent = {
             "They stop wind completely"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Mountains can influence rainfall and air movement.",
 
@@ -466,6 +485,7 @@ const mountainBasics: SkillContent = {
             "Human-made structures"
         ],
 
+        hint: "Think about the meaning of the geographical feature before choosing your answer.",
         explanation:
             "Mountains are natural high areas of land with steep slopes.",
 

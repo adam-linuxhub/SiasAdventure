@@ -29,6 +29,7 @@ const protectingEcosystems: SkillContent = {
             "A type of weather"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "An ecosystem includes plants, animals and the non-living environment around them.",
 
@@ -52,6 +53,7 @@ const protectingEcosystems: SkillContent = {
             "They have no purpose"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Ecosystems support plants, animals and people.",
 
@@ -75,6 +77,7 @@ const protectingEcosystems: SkillContent = {
             "The number of roads"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Biodiversity describes the number and variety of plants and animals.",
 
@@ -98,6 +101,7 @@ const protectingEcosystems: SkillContent = {
             "It makes environments identical"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "A variety of species helps ecosystems function properly.",
 
@@ -121,6 +125,7 @@ const protectingEcosystems: SkillContent = {
             "A mountain peak"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Habitats provide living things with food, water and shelter.",
 
@@ -144,6 +149,7 @@ const protectingEcosystems: SkillContent = {
             "By reducing waste"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Some human activities can destroy or change habitats.",
 
@@ -167,6 +173,7 @@ const protectingEcosystems: SkillContent = {
             "The growth of new plants"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Deforestation occurs when forests are cleared.",
 
@@ -190,6 +197,7 @@ const protectingEcosystems: SkillContent = {
             "It stops climate change"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Removing forests can reduce habitats and biodiversity.",
 
@@ -213,6 +221,7 @@ const protectingEcosystems: SkillContent = {
             "Protecting animals"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Pollution can damage ecosystems and living things.",
 
@@ -236,6 +245,7 @@ const protectingEcosystems: SkillContent = {
             "It removes the need for food"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Pollution can make environments unsafe for animals.",
 
@@ -259,6 +269,7 @@ const protectingEcosystems: SkillContent = {
             "Creating pollution"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Conservation helps protect nature and ecosystems.",
 
@@ -282,6 +293,7 @@ const protectingEcosystems: SkillContent = {
             "Remove animals"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Careful use of resources helps protect ecosystems.",
 
@@ -305,6 +317,7 @@ const protectingEcosystems: SkillContent = {
             "A type of weather"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Endangered species have populations that are becoming very small.",
 
@@ -328,6 +341,7 @@ const protectingEcosystems: SkillContent = {
             "A species is protected"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "An extinct species has completely disappeared from Earth.",
 
@@ -351,6 +365,7 @@ const protectingEcosystems: SkillContent = {
             "To destroy habitats"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Protected areas help conserve landscapes and wildlife.",
 
@@ -374,6 +389,7 @@ const protectingEcosystems: SkillContent = {
             "They remove all water"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Trees support wildlife and play a role in the environment.",
 
@@ -397,6 +413,7 @@ const protectingEcosystems: SkillContent = {
             "Waste more resources"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Reducing waste helps protect the environment.",
 
@@ -420,6 +437,7 @@ const protectingEcosystems: SkillContent = {
             "To prevent nature"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Habitats are essential for the survival of living things.",
 
@@ -443,6 +461,7 @@ const protectingEcosystems: SkillContent = {
             "By wasting resources"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Community action can help protect local environments.",
 
@@ -466,6 +485,7 @@ const protectingEcosystems: SkillContent = {
             "Only cities need protection"
         ],
 
+        hint: "Think about what best protects nature.",
         explanation:
             "Conservation helps maintain healthy ecosystems for the future.",
 

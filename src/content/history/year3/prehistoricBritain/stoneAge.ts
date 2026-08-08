@@ -31,6 +31,8 @@ const stoneAge: SkillContent = {
         explanation:
             "The Stone Age gets its name because stone was the main material used to make tools.",
 
+        hint: "Think about what material gave this period of history its name.",
+
         difficulty: 1,
         correctAnswer: "People made many tools from stone.",
         estimatedSeconds: 15,
@@ -52,6 +54,8 @@ const stoneAge: SkillContent = {
 
         explanation:
             "Stone tools were strong and could be shaped into useful objects.",
+
+        hint: "Ignore modern materials and choose the natural one used most often.",
 
         difficulty: 1,
         correctAnswer: "Stone",
@@ -75,6 +79,8 @@ const stoneAge: SkillContent = {
         explanation:
             "Year 3 History focuses on life in prehistoric Britain.",
 
+        hint: "Focus on the part of the world mentioned in the description.",
+
         difficulty: 1,
         correctAnswer: "Britain",
         estimatedSeconds: 15,
@@ -96,6 +102,8 @@ const stoneAge: SkillContent = {
 
         explanation:
             "Many early Stone Age people used caves for shelter.",
+
+        hint: "Before houses were built, what natural shelter already existed?",
 
         difficulty: 1,
         correctAnswer: "Caves",
@@ -119,6 +127,8 @@ const stoneAge: SkillContent = {
         explanation:
             "People hunted wild animals before farming became common.",
 
+        hint: "These animals lived in the wild, not on farms.",
+
         difficulty: 1,
         correctAnswer: "Wild animals",
         estimatedSeconds: 15,
@@ -140,6 +150,8 @@ const stoneAge: SkillContent = {
 
         explanation:
             "People gathered wild plants, berries and nuts as part of their diet.",
+
+        hint: "Think about foods that can be picked rather than hunted.",
 
         difficulty: 1,
         correctAnswer: "Gathering berries, nuts and plants",
@@ -163,6 +175,8 @@ const stoneAge: SkillContent = {
         explanation:
             "Cars were invented many thousands of years later.",
 
+        hint: "Three answers existed then; one belongs to modern life.",
+
         difficulty: 1,
         correctAnswer: "Cars",
         estimatedSeconds: 15,
@@ -184,6 +198,8 @@ const stoneAge: SkillContent = {
 
         explanation:
             "Fire gave warmth, light and allowed food to be cooked.",
+
+        hint: "Which choice describes what fire helped people do every day?",
 
         difficulty: 1,
         correctAnswer: "It kept them warm and cooked food.",
@@ -207,6 +223,8 @@ const stoneAge: SkillContent = {
         explanation:
             "Animal skins helped keep people warm.",
 
+        hint: "Think about what people could make from hunted animals.",
+
         difficulty: 1,
         correctAnswer: "Animal skins",
         estimatedSeconds: 20,
@@ -228,6 +246,8 @@ const stoneAge: SkillContent = {
 
         explanation:
             "The Stone Age happened long before modern inventions.",
+
+        hint: "Look for the only statement that fits prehistoric life.",
 
         difficulty: 1,
         correctAnswer: "Stone Age people lived thousands of years ago.",
@@ -251,6 +271,8 @@ const stoneAge: SkillContent = {
         explanation:
             "Stone could be shaped into useful cutting and hunting tools.",
 
+        hint: "Consider the properties needed for a useful tool.",
+
         difficulty: 2,
         correctAnswer: "Stone was strong and could be shaped.",
         estimatedSeconds: 20,
@@ -272,6 +294,8 @@ const stoneAge: SkillContent = {
 
         explanation:
             "Animals provided meat for food and skins for clothing.",
+
+        hint: "Hunting gave more than just something to eat.",
 
         difficulty: 2,
         correctAnswer: "It provided food and animal skins.",
@@ -295,6 +319,8 @@ const stoneAge: SkillContent = {
         explanation:
             "Gathering plants helped provide a balanced food supply.",
 
+        hint: "Gathering helped when hunting was unsuccessful.",
+
         difficulty: 2,
         correctAnswer: "It provided extra food.",
         estimatedSeconds: 20,
@@ -316,6 +342,8 @@ const stoneAge: SkillContent = {
 
         explanation:
             "Caves helped protect people from rain, wind and dangerous animals.",
+
+        hint: "A good shelter keeps danger and bad weather out.",
 
         difficulty: 2,
         correctAnswer: "They gave protection from weather and animals.",
@@ -339,6 +367,8 @@ const stoneAge: SkillContent = {
         explanation:
             "Fire made life safer and food easier to eat.",
 
+        hint: "Choose the answer that lists real benefits of fire.",
+
         difficulty: 2,
         correctAnswer: "It gave warmth, light and cooked food.",
         estimatedSeconds: 20,
@@ -360,6 +390,8 @@ const stoneAge: SkillContent = {
 
         explanation:
             "Children often helped their families gather food and learn important skills.",
+
+        hint: "Think about how children helped their families survive.",
 
         difficulty: 2,
         correctAnswer: "Help gather food",
@@ -383,6 +415,8 @@ const stoneAge: SkillContent = {
         explanation:
             "Tools provide clues about everyday life in the past.",
 
+        hint: "Objects left behind can tell historians about the past.",
+
         difficulty: 2,
         correctAnswer: "They help us understand how people lived.",
         estimatedSeconds: 20,
@@ -404,6 +438,8 @@ const stoneAge: SkillContent = {
 
         explanation:
             "Fire was one of the biggest improvements in Stone Age life.",
+
+        hint: "Fire changed daily life long before machines existed.",
 
         difficulty: 2,
         correctAnswer: "They could cook food and stay warm.",
@@ -427,6 +463,8 @@ const stoneAge: SkillContent = {
         explanation:
             "Stone axes were important tools used for hunting and building.",
 
+        hint: "Pick the only object that could be made with Stone Age technology.",
+
         difficulty: 2,
         correctAnswer: "Stone axe",
         estimatedSeconds: 20,
@@ -448,6 +486,8 @@ const stoneAge: SkillContent = {
 
         explanation:
             "Stone Age people relied on nature and simple tools to survive.",
+
+        hint: "Eliminate every answer that depends on modern inventions.",
 
         difficulty: 2,
         correctAnswer: "People used stone tools, hunted, gathered food and lived without modern technology.",

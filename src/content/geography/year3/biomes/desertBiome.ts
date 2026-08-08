@@ -36,6 +36,9 @@ const desertBiome: SkillContent = {
         correctAnswer: "A very dry area with little rainfall",
         estimatedSeconds: 20,
 
+        hint:
+            "Think about how much rain deserts receive.",
+
         tags: ["geography", "year3", "deserts"]
     },
 
@@ -58,6 +61,9 @@ const desertBiome: SkillContent = {
         difficulty: 1,
         correctAnswer: "Very dry with high temperatures",
         estimatedSeconds: 20,
+
+        hint:
+            "Focus on both rainfall and temperature.",
 
         tags: ["geography", "year3", "deserts"]
     },
@@ -82,6 +88,9 @@ const desertBiome: SkillContent = {
         correctAnswer: "The Sahara Desert",
         estimatedSeconds: 20,
 
+        hint:
+            "Which option names a desert in Africa?",
+
         tags: ["geography", "year3", "deserts"]
     },
 
@@ -104,6 +113,9 @@ const desertBiome: SkillContent = {
         difficulty: 2,
         correctAnswer: "Air conditions make it difficult for clouds to produce rain",
         estimatedSeconds: 20,
+
+        hint:
+            "Think about why rain clouds rarely form.",
 
         tags: ["geography", "year3", "deserts"]
     },
@@ -128,6 +140,9 @@ const desertBiome: SkillContent = {
         correctAnswer: "A place in a desert where water is found",
         estimatedSeconds: 20,
 
+        hint:
+            "Look for the answer involving water.",
+
         tags: ["geography", "year3", "deserts"]
     },
 
@@ -150,6 +165,9 @@ const desertBiome: SkillContent = {
         difficulty: 1,
         correctAnswer: "They provide water for plants, animals and people",
         estimatedSeconds: 20,
+
+        hint:
+            "Life in deserts depends on one key resource.",
 
         tags: ["geography", "year3", "deserts"]
     },
@@ -174,6 +192,9 @@ const desertBiome: SkillContent = {
         correctAnswer: "They have adaptations to store or save water",
         estimatedSeconds: 20,
 
+        hint:
+            "Think about saving water.",
+
         tags: ["geography", "year3", "deserts"]
     },
 
@@ -196,6 +217,9 @@ const desertBiome: SkillContent = {
         difficulty: 1,
         correctAnswer: "They store water in their stems",
         estimatedSeconds: 20,
+
+        hint:
+            "What part of a cactus is thick and fleshy?",
 
         tags: ["geography", "year3", "deserts"]
     },
@@ -220,6 +244,9 @@ const desertBiome: SkillContent = {
         correctAnswer: "They have adaptations for heat and limited water",
         estimatedSeconds: 20,
 
+        hint:
+            "Look for adaptations rather than impossible abilities.",
+
         tags: ["geography", "year3", "animals"]
     },
 
@@ -242,6 +269,9 @@ const desertBiome: SkillContent = {
         difficulty: 1,
         correctAnswer: "They can survive with little water and cope with heat",
         estimatedSeconds: 20,
+
+        hint:
+            "Think about what helps camels travel long distances.",
 
         tags: ["geography", "year3", "deserts"]
     },
@@ -266,6 +296,9 @@ const desertBiome: SkillContent = {
         correctAnswer: "A hill of sand shaped by wind",
         estimatedSeconds: 20,
 
+        hint:
+            "What does wind do to loose sand?",
+
         tags: ["geography", "year3", "deserts"]
     },
 
@@ -288,6 +321,9 @@ const desertBiome: SkillContent = {
         difficulty: 1,
         correctAnswer: "Wind",
         estimatedSeconds: 20,
+
+        hint:
+            "What force blows sand across deserts?",
 
         tags: ["geography", "year3", "deserts"]
     },
@@ -312,6 +348,9 @@ const desertBiome: SkillContent = {
         correctAnswer: "There is little water available",
         estimatedSeconds: 20,
 
+        hint:
+            "What do crops need most to grow?",
+
         tags: ["geography", "year3", "deserts"]
     },
 
@@ -334,6 +373,9 @@ const desertBiome: SkillContent = {
         difficulty: 2,
         correctAnswer: "By adapting to the environment and using available resources",
         estimatedSeconds: 20,
+
+        hint:
+            "People change their lifestyle to suit the environment.",
 
         tags: ["geography", "year3", "deserts"]
     },
@@ -358,6 +400,9 @@ const desertBiome: SkillContent = {
         correctAnswer: "Water",
         estimatedSeconds: 20,
 
+        hint:
+            "Which resource is hardest to find in deserts?",
+
         tags: ["geography", "year3", "deserts"]
     },
 
@@ -380,6 +425,9 @@ const desertBiome: SkillContent = {
         difficulty: 1,
         correctAnswer: "They receive much less rainfall",
         estimatedSeconds: 20,
+
+        hint:
+            "Compare desert rainfall with rainforest rainfall.",
 
         tags: ["geography", "year3", "deserts"]
     },
@@ -404,6 +452,9 @@ const desertBiome: SkillContent = {
         correctAnswer: "Land becoming more like a desert",
         estimatedSeconds: 20,
 
+        hint:
+            "Think about land becoming drier over time.",
+
         tags: ["geography", "year3", "environment"]
     },
 
@@ -426,6 +477,9 @@ const desertBiome: SkillContent = {
         difficulty: 1,
         correctAnswer: "They contain unique plants, animals and ecosystems",
         estimatedSeconds: 20,
+
+        hint:
+            "Deserts support more life than many people realise.",
 
         tags: ["geography", "year3", "environment"]
     },
@@ -450,6 +504,9 @@ const desertBiome: SkillContent = {
         correctAnswer: "Camel",
         estimatedSeconds: 20,
 
+        hint:
+            "Choose the animal naturally suited to hot, dry places.",
+
         tags: ["geography", "year3", "deserts"]
     },
 
@@ -472,6 +529,9 @@ const desertBiome: SkillContent = {
         difficulty: 2,
         correctAnswer: "A dry environment where plants and animals have special adaptations",
         estimatedSeconds: 25,
+
+        hint:
+            "Think about the defining feature shared by all deserts.",
 
         tags: ["geography", "year3", "deserts"]
     }

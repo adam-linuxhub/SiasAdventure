@@ -21,6 +21,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "What does the prefix 'un-' usually mean?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "Not or the opposite of",
             "Very big",
@@ -43,6 +44,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which word means 'not happy'?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unhappy",
             "rehappy",
@@ -65,6 +67,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which word means 'not kind'?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unkind",
             "rekind",
@@ -87,6 +90,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which word means 'not fair'?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unfair",
             "refair",
@@ -109,6 +113,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which word means 'not tidy'?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "untidy",
             "retidy",
@@ -131,6 +136,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which word means 'not safe'?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unsafe",
             "resafe",
@@ -153,6 +159,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Choose the correctly spelled word.",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unclean",
             "unclene",
@@ -175,6 +182,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which word means 'not well'?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unwell",
             "rewell",
@@ -197,6 +205,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which word starts with the prefix 'un-'?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unwrap",
             "wrap",
@@ -219,6 +228,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "What does 'unlock' mean?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "Open a lock",
             "Make a lock",
@@ -241,6 +251,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Complete the sentence: 'The room was very ______ after the party.'",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "untidy",
             "tidy",
@@ -263,6 +274,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Complete the sentence: 'It is ______ to run across a busy road.'",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unsafe",
             "safe",
@@ -285,6 +297,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which sentence uses an 'un-' word correctly?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "The game was unfair because one team cheated.",
             "The game was fair because one team cheated.",
@@ -307,6 +320,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which word means the opposite of 'lock'?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unlock",
             "locking",
@@ -329,6 +343,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "Sam felt unhappy when he lost his toy.",
             "Sam felt happy when he lost his toy.",
@@ -351,6 +366,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which word means the opposite of 'wrap'?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unwrap",
             "wrapped",
@@ -373,6 +389,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "What happens when 'un-' is added to many words?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "The meaning becomes the opposite.",
             "The word becomes longer but keeps the same meaning.",
@@ -395,6 +412,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which sentence contains an 'un-' word?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "The puppy was unwell after eating too much.",
             "The puppy was well after eating too much.",
@@ -417,6 +435,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which word is formed by adding 'un-' to 'kind'?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "unkind",
             "kindun",
@@ -439,6 +458,7 @@ const prefixesUn: SkillContent = {
         skillId: "prefixesUn",
         question: "Which sentence uses the prefix 'un-' correctly?",
         stage: "recognise",
+        hint: "The prefix 'un-' usually means 'not' or 'the opposite of'.",
         options: [
             "Please unwrap your birthday present carefully.",
             "Please wrap your birthday present carefully after opening it.",

@@ -36,6 +36,8 @@ const extremeWeather: SkillContent = {
         correctAnswer: "Weather conditions that are unusually severe or dangerous",
         estimatedSeconds: 20,
 
+        hint: "Compare unusual dangerous weather with the weather you normally expect each day.",
+
         tags: ["geography", "year3", "weather", "extreme-weather"]
     },
 
@@ -58,6 +60,8 @@ const extremeWeather: SkillContent = {
         difficulty: 1,
         correctAnswer: "A hurricane",
         estimatedSeconds: 20,
+
+        hint: "Look for an event that is powerful enough to cause damage, not ordinary weather.",
 
         tags: ["geography", "year3", "weather"]
     },
@@ -82,6 +86,8 @@ const extremeWeather: SkillContent = {
         correctAnswer: "When water covers land that is usually dry",
         estimatedSeconds: 20,
 
+        hint: "Think about what happens when water spreads beyond rivers onto normally dry ground.",
+
         tags: ["geography", "year3", "weather"]
     },
 
@@ -104,6 +110,8 @@ const extremeWeather: SkillContent = {
         difficulty: 1,
         correctAnswer: "Heavy rainfall or overflowing rivers",
         estimatedSeconds: 20,
+
+        hint: "Consider what happens when more water falls than the land and rivers can hold.",
 
         tags: ["geography", "year3", "floods"]
     },
@@ -128,6 +136,8 @@ const extremeWeather: SkillContent = {
         correctAnswer: "A long period with very little rainfall",
         estimatedSeconds: 20,
 
+        hint: "Imagine many weeks passing with hardly any rain.",
+
         tags: ["geography", "year3", "weather"]
     },
 
@@ -150,6 +160,8 @@ const extremeWeather: SkillContent = {
         difficulty: 1,
         correctAnswer: "Water shortages and difficulty growing crops",
         estimatedSeconds: 20,
+
+        hint: "Think about what people and plants need every day that comes from rainfall.",
 
         tags: ["geography", "year3", "drought"]
     },
@@ -174,6 +186,8 @@ const extremeWeather: SkillContent = {
         correctAnswer: "A powerful tropical storm with strong winds",
         estimatedSeconds: 20,
 
+        hint: "Remember where the world's biggest spinning storms begin.",
+
         tags: ["geography", "year3", "storms"]
     },
 
@@ -196,6 +210,8 @@ const extremeWeather: SkillContent = {
         difficulty: 1,
         correctAnswer: "Damage buildings and trees",
         estimatedSeconds: 20,
+
+        hint: "Picture what very strong winds could knock over or break.",
 
         tags: ["geography", "year3", "storms"]
     },
@@ -220,6 +236,8 @@ const extremeWeather: SkillContent = {
         correctAnswer: "A long period of unusually hot weather",
         estimatedSeconds: 20,
 
+        hint: "Focus on how long the hot weather lasts, not just one hot afternoon.",
+
         tags: ["geography", "year3", "weather"]
     },
 
@@ -242,6 +260,8 @@ const extremeWeather: SkillContent = {
         difficulty: 2,
         correctAnswer: "They can affect health and cause water shortages",
         estimatedSeconds: 20,
+
+        hint: "Think about how long periods of heat affect people and water supplies.",
 
         tags: ["geography", "year3", "weather"]
     },
@@ -266,6 +286,8 @@ const extremeWeather: SkillContent = {
         correctAnswer: "Using flood warnings and protection measures",
         estimatedSeconds: 20,
 
+        hint: "Ask which action helps people before floodwater arrives.",
+
         tags: ["geography", "year3", "floods"]
     },
 
@@ -288,6 +310,8 @@ const extremeWeather: SkillContent = {
         difficulty: 2,
         correctAnswer: "They help people prepare and stay safe",
         estimatedSeconds: 20,
+
+        hint: "Why is knowing about dangerous weather before it happens useful?",
 
         tags: ["geography", "year3", "weather"]
     },
@@ -312,6 +336,8 @@ const extremeWeather: SkillContent = {
         correctAnswer: "It can damage habitats and reduce available food",
         estimatedSeconds: 20,
 
+        hint: "Think about what animals lose if their homes or food sources are damaged.",
+
         tags: ["geography", "year3", "habitats"]
     },
 
@@ -334,6 +360,8 @@ const extremeWeather: SkillContent = {
         difficulty: 1,
         correctAnswer: "Water can enter buildings and damage belongings",
         estimatedSeconds: 20,
+
+        hint: "Imagine what happens when water gets inside a house.",
 
         tags: ["geography", "year3", "floods"]
     },
@@ -358,6 +386,8 @@ const extremeWeather: SkillContent = {
         correctAnswer: "Crops need water to grow",
         estimatedSeconds: 20,
 
+        hint: "Consider the one resource crops cannot grow well without.",
+
         tags: ["geography", "year3", "drought"]
     },
 
@@ -380,6 +410,8 @@ const extremeWeather: SkillContent = {
         difficulty: 2,
         correctAnswer: "Changes in Earth's climate over time",
         estimatedSeconds: 20,
+
+        hint: "Think about changes happening over many years rather than one day.",
 
         tags: ["geography", "year3", "climate"]
     },
@@ -404,6 +436,8 @@ const extremeWeather: SkillContent = {
         correctAnswer: "To understand risks and improve preparation",
         estimatedSeconds: 20,
 
+        hint: "Why would learning about storms help protect people in future?",
+
         tags: ["geography", "year3", "weather"]
     },
 
@@ -426,6 +460,8 @@ const extremeWeather: SkillContent = {
         difficulty: 2,
         correctAnswer: "Warm tropical coastal areas",
         estimatedSeconds: 20,
+
+        hint: "Think about the kind of oceans where hurricanes first develop.",
 
         tags: ["geography", "year3", "storms"]
     },
@@ -450,6 +486,8 @@ const extremeWeather: SkillContent = {
         correctAnswer: "Work together and follow safety advice",
         estimatedSeconds: 20,
 
+        hint: "Which choice shows people behaving safely and helping one another?",
+
         tags: ["geography", "year3", "weather"]
     },
 
@@ -472,6 +510,8 @@ const extremeWeather: SkillContent = {
         difficulty: 2,
         correctAnswer: "Extreme weather is unusually severe weather that can affect people and the environment",
         estimatedSeconds: 25,
+
+        hint: "Choose the description that includes both unusual severity and its effects.",
 
         tags: ["geography", "year3", "weather"]
     }

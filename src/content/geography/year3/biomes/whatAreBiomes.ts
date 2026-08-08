@@ -28,6 +28,8 @@ const whatAreBiomes: SkillContent = {
             "A type of mountain",
             "A small garden"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "A biome is a large region with similar climate conditions and living things.",
@@ -51,6 +53,8 @@ const whatAreBiomes: SkillContent = {
             "Buildings",
             "Map symbols"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Climate affects what plants and animals can survive in an area.",
@@ -74,6 +78,8 @@ const whatAreBiomes: SkillContent = {
             "Cars and trains",
             "Rivers and bridges only"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Biomes contain living things that are adapted to their environment.",
@@ -97,6 +103,8 @@ const whatAreBiomes: SkillContent = {
             "Plants choose random places",
             "Climate has no effect"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Temperature and rainfall affect which plants can grow.",
@@ -120,6 +128,8 @@ const whatAreBiomes: SkillContent = {
             "Animals do not depend on habitats",
             "Climate does not matter"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Animals develop features that help them survive in their habitats.",
@@ -143,6 +153,8 @@ const whatAreBiomes: SkillContent = {
             "Tundra",
             "Ice sheet"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Tropical rainforests are found in hot areas near the equator.",
@@ -166,6 +178,8 @@ const whatAreBiomes: SkillContent = {
             "Desert",
             "Grassland"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Polar biomes have very cold temperatures and lots of ice.",
@@ -189,6 +203,8 @@ const whatAreBiomes: SkillContent = {
             "Wetland",
             "Tropical forest"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Deserts are dry areas with very low rainfall.",
@@ -212,6 +228,8 @@ const whatAreBiomes: SkillContent = {
             "A mountain range",
             "A map symbol"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "An ecosystem includes plants, animals and their surroundings.",
@@ -235,6 +253,8 @@ const whatAreBiomes: SkillContent = {
             "They remove all water",
             "They create mountains"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Plants provide food and shelter for many living things.",
@@ -258,6 +278,8 @@ const whatAreBiomes: SkillContent = {
             "A weather instrument",
             "A mountain feature"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "A habitat provides the things an organism needs to survive.",
@@ -281,6 +303,8 @@ const whatAreBiomes: SkillContent = {
             "They are always frozen",
             "They have no rainfall"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Rainforests have some of the greatest biodiversity on Earth.",
@@ -304,6 +328,8 @@ const whatAreBiomes: SkillContent = {
             "The height of mountains",
             "The number of roads"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Biodiversity describes the range of plants and animals in a place.",
@@ -327,6 +353,8 @@ const whatAreBiomes: SkillContent = {
             "There are too many rivers",
             "The climate is always wet"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Plants in deserts need special adaptations to survive with little water.",
@@ -350,6 +378,8 @@ const whatAreBiomes: SkillContent = {
             "A map symbol",
             "A human building"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Adaptations help plants and animals survive in their environments.",
@@ -373,6 +403,8 @@ const whatAreBiomes: SkillContent = {
             "Only animals affect biomes",
             "Biomes never change"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Human activities can change ecosystems and habitats.",
@@ -396,6 +428,8 @@ const whatAreBiomes: SkillContent = {
             "To stop all human activity",
             "To change all climates"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Protecting ecosystems helps maintain biodiversity.",
@@ -419,6 +453,8 @@ const whatAreBiomes: SkillContent = {
             "Buildings",
             "Maps"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Plants need suitable conditions to grow.",
@@ -442,6 +478,8 @@ const whatAreBiomes: SkillContent = {
             "Maps create biomes",
             "Animals decide locations"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Climate differences create different environments around the world.",
@@ -465,6 +503,8 @@ const whatAreBiomes: SkillContent = {
             "A weather instrument",
             "A type of road"
         ],
+        hint:
+            "Think about the key idea in the question and which answer best matches it.",
 
         explanation:
             "Biomes are large regions with similar climates and ecosystems.",

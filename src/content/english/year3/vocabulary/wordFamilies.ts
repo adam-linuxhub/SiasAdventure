@@ -21,6 +21,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'help'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "helper",
             "walk",
@@ -43,6 +44,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'play'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "player",
             "write",
@@ -65,6 +67,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'care'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "careful",
             "happy",
@@ -87,6 +90,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'teach'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "teacher",
             "school",
@@ -109,6 +113,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'paint'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "painter",
             "colour",
@@ -131,6 +136,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word belongs to the same word family as 'read'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "reader",
             "book",
@@ -153,6 +159,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "What is the root word in 'helpful'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "help",
             "ful",
@@ -175,6 +182,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "What do words in the same word family share?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "The same root word",
             "The same first letter",
@@ -197,6 +205,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word belongs to the word family of 'farm'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "farmer",
             "garden",
@@ -219,6 +228,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word belongs to the word family of 'kind'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "kindness",
             "friend",
@@ -241,6 +251,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word does NOT belong to the word family of 'play'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "player",
             "playful",
@@ -263,6 +274,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word belongs to the same family as 'careful'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "careless",
             "care",
@@ -285,6 +297,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Complete the word family: help, helper, helpful, ______.",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "helpless",
             "helped",
@@ -307,6 +320,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word belongs to the word family of 'teach'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "teacher",
             "teaching",
@@ -329,6 +343,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "The root word in 'carefully' is:",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "care",
             "careful",
@@ -351,6 +366,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word family does 'reader' belong to?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "read",
             "write",
@@ -373,6 +389,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Why do words in the same family look similar?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "They share the same root word",
             "They rhyme",
@@ -395,6 +412,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which set is a word family?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "kind, kindly, kindness, unkind",
             "cat, dog, rabbit, fish",
@@ -417,6 +435,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Which word is built from the root word 'play'?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "playground",
             "football",
@@ -439,6 +458,7 @@ const wordFamilies: SkillContent = {
         skillId: "wordFamilies",
         question: "Why is learning word families useful?",
         stage: "recognise",
+        hint: "Look for words that share the same root word.",
         options: [
             "It helps us understand and spell related words.",
             "It helps us count faster.",

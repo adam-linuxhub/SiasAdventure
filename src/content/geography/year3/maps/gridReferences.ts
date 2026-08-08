@@ -20,6 +20,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-001",
         skillId: "gridReferences",
         question: "What is a grid on a map?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "A pattern of lines that helps find places",
@@ -42,6 +43,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-002",
         skillId: "gridReferences",
         question: "Why do maps use grid references?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "To help people find exact locations",
@@ -64,6 +66,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-003",
         skillId: "gridReferences",
         question: "What shape do grid lines usually make?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "Squares",
@@ -86,6 +89,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-004",
         skillId: "gridReferences",
         question: "What do the numbers along the edges of a map help you do?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "Find grid references",
@@ -108,6 +112,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-005",
         skillId: "gridReferences",
         question: "What does a grid reference tell you?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "Where something is on a map",
@@ -130,6 +135,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-006",
         skillId: "gridReferences",
         question: "Which map feature works with grid references?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "Grid lines",
@@ -152,6 +158,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-007",
         skillId: "gridReferences",
         question: "Grid references help you find places more...",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "Accurately",
@@ -174,6 +181,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-008",
         skillId: "gridReferences",
         question: "Who might use grid references?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "Walkers",
@@ -196,6 +204,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-009",
         skillId: "gridReferences",
         question: "Why are maps divided into squares?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "To make places easier to find",
@@ -218,6 +227,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-010",
         skillId: "gridReferences",
         question: "Which statement is true?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "Grid references help locate places on maps.",
@@ -240,6 +250,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-011",
         skillId: "gridReferences",
         question: "Why are grid references useful when giving directions?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "They identify an exact location.",
@@ -262,6 +273,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-012",
         skillId: "gridReferences",
         question: "If two people use the same grid reference, what should they find?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "The same place",
@@ -284,6 +296,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-013",
         skillId: "gridReferences",
         question: "Why do emergency services sometimes use grid references?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "They help identify locations accurately.",
@@ -306,6 +319,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-014",
         skillId: "gridReferences",
         question: "What should you look for before using a grid reference?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "The grid lines on the map",
@@ -328,6 +342,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-015",
         skillId: "gridReferences",
         question: "Why do maps use both rows and columns?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "To identify each square accurately",
@@ -350,6 +365,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-016",
         skillId: "gridReferences",
         question: "Which activity is most likely to need grid references?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "Finding a campsite on a map",
@@ -372,6 +388,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-017",
         skillId: "gridReferences",
         question: "What is the main purpose of map grids?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "To organise the map into easy-to-find sections",
@@ -394,6 +411,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-018",
         skillId: "gridReferences",
         question: "Why are grid references easier than saying 'near the middle'?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "They are much more precise.",
@@ -416,6 +434,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-019",
         skillId: "gridReferences",
         question: "Which map skill uses grid references?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "Finding locations accurately",
@@ -438,6 +457,7 @@ const gridReferences: SkillContent = {
         id: "geo-grid-020",
         skillId: "gridReferences",
         question: "Which sentence best describes a grid reference?",
+        hint: "Think about what map grids are used for.",
         stage: "recognise",
         options: [
             "It helps identify the exact position of a place on a map.",

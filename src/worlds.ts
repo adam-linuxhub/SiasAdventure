@@ -14,6 +14,7 @@ export interface World {
 
 }
 
+
 export const Worlds = {
 
     worlds: <World[]>[
@@ -25,31 +26,20 @@ export const Worlds = {
             description: "Ancient crystals glow with magical energy.",
             relicsRequired: 30
         },
-
         {
-            id: 2,
+            id: 3,
             name: "Enchanted Forest",
             subtitle: "Where Magic Grows",
             description: "Friendly woodland creatures guard hidden relics.",
             relicsRequired: 30
         },
-
         {
-            id: 3,
+            id: 4,
             name: "Pirate Isles",
             subtitle: "Treasures of the Seven Seas",
             description: "Discover long-lost pirate relics.",
             relicsRequired: 30
         },
-
-        {
-            id: 4,
-            name: "Frozen Kingdom",
-            subtitle: "The Ice Palace",
-            description: "Frozen relics sparkle beneath the snow.",
-            relicsRequired: 30
-        },
-
         {
             id: 5,
             name: "Dragon Mountains",
@@ -57,7 +47,6 @@ export const Worlds = {
             description: "Only the bravest explorers reach the summit.",
             relicsRequired: 30
         },
-
         {
             id: 6,
             name: "Ancient Desert",
@@ -65,7 +54,6 @@ export const Worlds = {
             description: "Ancient secrets lie beneath the sand.",
             relicsRequired: 30
         },
-
         {
             id: 7,
             name: "Underwater Kingdom",
@@ -73,7 +61,13 @@ export const Worlds = {
             description: "Search beneath the waves for magical relics.",
             relicsRequired: 30
         },
-
+        {
+            id: 2,
+            name: "Frozen Kingdom",
+            subtitle: "The Ice Palace",
+            description: "Frozen relics sparkle beneath the snow.",
+            relicsRequired: 30
+        },
         {
             id: 8,
             name: "Sky Kingdom",
@@ -81,7 +75,6 @@ export const Worlds = {
             description: "Floating islands hide legendary treasures.",
             relicsRequired: 30
         },
-
         {
             id: 9,
             name: "Dinosaur Valley",
@@ -89,7 +82,6 @@ export const Worlds = {
             description: "Collect relics from a prehistoric world.",
             relicsRequired: 30
         },
-
         {
             id: 10,
             name: "Space Station",
@@ -97,7 +89,6 @@ export const Worlds = {
             description: "Explore the mysteries of the universe.",
             relicsRequired: 30
         },
-
         {
             id: 11,
             name: "Time Traveller",
@@ -105,7 +96,6 @@ export const Worlds = {
             description: "Recover relics from every era.",
             relicsRequired: 30
         },
-
         {
             id: 12,
             name: "Wizard's Castle",
@@ -113,8 +103,8 @@ export const Worlds = {
             description: "The final challenge awaits.",
             relicsRequired: 30
         }
-
     ],
+
 
     getWorld(id: number): World | undefined {
 
@@ -124,11 +114,13 @@ export const Worlds = {
 
     },
 
+
     getNextWorld(id: number): World | undefined {
 
         return this.getWorld(id + 1);
 
     },
+
 
     isFinalWorld(id: number): boolean {
 

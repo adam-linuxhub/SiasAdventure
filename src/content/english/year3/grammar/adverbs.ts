@@ -21,6 +21,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word is an adverb?",
         stage: "recognise",
+        hint: "Think about which word describes how something happens.",
         options: [
             "quickly",
             "dog",
@@ -43,6 +44,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word tells how someone walked?",
         stage: "recognise",
+        hint: "Look for the word that tells how the walking happened.",
         options: [
             "slowly",
             "walk",
@@ -65,6 +67,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word is an adverb?",
         stage: "recognise",
+        hint: "Adverbs often describe actions and many end in '-ly'.",
         options: [
             "carefully",
             "careful",
@@ -87,6 +90,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word tells how the baby slept?",
         stage: "recognise",
+        hint: "Which word explains how the baby slept?",
         options: [
             "peacefully",
             "baby",
@@ -109,6 +113,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word is an adverb?",
         stage: "recognise",
+        hint: "Which word tells how someone sings?",
         options: [
             "loudly",
             "loud",
@@ -131,6 +136,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word tells how the bird sang?",
         stage: "recognise",
+        hint: "Find the word that describes how the bird sang.",
         options: [
             "beautifully",
             "bird",
@@ -153,6 +159,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which sentence contains an adverb?",
         stage: "recognise",
+        hint: "Look for the sentence that tells how the rabbit hopped.",
         options: [
             "The rabbit hopped quickly.",
             "The rabbit hopped.",
@@ -175,6 +182,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word is an adverb?",
         stage: "recognise",
+        hint: "Which word tells when something happened?",
         options: [
             "yesterday",
             "calendar",
@@ -197,6 +205,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word is NOT an adverb?",
         stage: "recognise",
+        hint: "Three words describe actions. One names a thing.",
         options: [
             "horse",
             "carefully",
@@ -219,6 +228,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word describes how someone smiled?",
         stage: "recognise",
+        hint: "Find the word that tells how someone smiled.",
         options: [
             "cheerfully",
             "smile",
@@ -241,6 +251,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which pair contains only adverbs?",
         stage: "recognise",
+        hint: "Choose the pair where both words describe actions.",
         options: [
             "carefully, quietly",
             "dog, cat",
@@ -263,6 +274,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which sentence contains two adverbs?",
         stage: "recognise",
+        hint: "Look for one word telling how and another telling when.",
         options: [
             "Ella sang beautifully yesterday.",
             "Ella sang beautifully.",
@@ -285,6 +297,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word best completes the sentence? 'Please speak ____.'",
         stage: "recognise",
+        hint: "The missing word should describe the verb 'speak'.",
         options: [
             "clearly",
             "clear",
@@ -307,6 +320,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "In the sentence 'Tom carefully painted the fence.', which word is the adverb?",
         stage: "recognise",
+        hint: "Ask yourself which word describes the painting.",
         options: [
             "carefully",
             "Tom",
@@ -329,6 +343,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which sentence uses an adverb correctly?",
         stage: "recognise",
+        hint: "The adverb should describe how the puppy barked.",
         options: [
             "The puppy barked loudly.",
             "The loudly puppy barked.",
@@ -351,6 +366,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word tells when something happened?",
         stage: "recognise",
+        hint: "Which word tells the time of the action?",
         options: [
             "today",
             "clock",
@@ -373,6 +389,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Why do writers use adverbs?",
         stage: "recognise",
+        hint: "Think about what extra information adverbs give about actions.",
         options: [
             "To give more information about verbs",
             "To replace nouns",
@@ -395,6 +412,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which word best completes the sentence? 'The children played ____.'",
         stage: "recognise",
+        hint: "The missing word should tell how the children played.",
         options: [
             "happily",
             "happy",
@@ -417,6 +435,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which sentence contains an adverb of time?",
         stage: "recognise",
+        hint: "An adverb of time tells you when something happens.",
         options: [
             "We will visit Grandma tomorrow.",
             "Grandma baked cakes.",
@@ -439,6 +458,7 @@ const adverbs: SkillContent = {
         skillId: "adverbs",
         question: "Which sentence uses adverbs correctly?",
         stage: "recognise",
+        hint: "Look for words that tell both how and when.",
         options: [
             "Oliver quietly opened the door yesterday.",
             "Oliver quiet opened the door.",

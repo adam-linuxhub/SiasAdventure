@@ -36,6 +36,8 @@ const angloSaxonLife: SkillContent = {
         correctAnswer: "In small villages",
         estimatedSeconds: 20,
 
+        hint: "Picture a typical community before large towns became common.",
+
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
 
@@ -58,6 +60,8 @@ const angloSaxonLife: SkillContent = {
         difficulty: 1,
         correctAnswer: "Wood, straw and mud",
         estimatedSeconds: 20,
+
+        hint: "Think about materials people could gather nearby without factories.",
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
@@ -82,6 +86,8 @@ const angloSaxonLife: SkillContent = {
         correctAnswer: "Farming",
         estimatedSeconds: 20,
 
+        hint: "Consider which job everyone depended on for food.",
+
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
 
@@ -104,6 +110,8 @@ const angloSaxonLife: SkillContent = {
         difficulty: 1,
         correctAnswer: "Crops such as wheat and barley",
         estimatedSeconds: 20,
+
+        hint: "Think about crops that grow well in Britain's climate.",
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
@@ -128,6 +136,8 @@ const angloSaxonLife: SkillContent = {
         correctAnswer: "Animals such as cows, sheep and pigs",
         estimatedSeconds: 20,
 
+        hint: "Which animals provide more than one useful resource?",
+
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
 
@@ -150,6 +160,8 @@ const angloSaxonLife: SkillContent = {
         difficulty: 1,
         correctAnswer: "The main hall",
         estimatedSeconds: 20,
+
+        hint: "Imagine where villagers gathered for important meetings.",
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
@@ -174,6 +186,8 @@ const angloSaxonLife: SkillContent = {
         correctAnswer: "Bread, meat, fish and vegetables",
         estimatedSeconds: 20,
 
+        hint: "Think about foods people could grow, catch or raise themselves.",
+
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
 
@@ -196,6 +210,8 @@ const angloSaxonLife: SkillContent = {
         difficulty: 1,
         correctAnswer: "Wool and linen",
         estimatedSeconds: 20,
+
+        hint: "Consider fabrics available before synthetic materials existed.",
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
@@ -220,6 +236,8 @@ const angloSaxonLife: SkillContent = {
         correctAnswer: "Making objects from metal",
         estimatedSeconds: 20,
 
+        hint: "What skilled job needs fire and metal?",
+
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
 
@@ -242,6 +260,8 @@ const angloSaxonLife: SkillContent = {
         difficulty: 1,
         correctAnswer: "They made useful items for people",
         estimatedSeconds: 20,
+
+        hint: "Think about who supplied everyday tools for the village.",
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
@@ -266,6 +286,8 @@ const angloSaxonLife: SkillContent = {
         correctAnswer: "Fields and farmland",
         estimatedSeconds: 20,
 
+        hint: "What would farmers need surrounding their homes?",
+
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
 
@@ -288,6 +310,8 @@ const angloSaxonLife: SkillContent = {
         difficulty: 2,
         correctAnswer: "It provided food and materials",
         estimatedSeconds: 20,
+
+        hint: "Consider everything farms provide besides meals.",
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
@@ -312,6 +336,8 @@ const angloSaxonLife: SkillContent = {
         correctAnswer: "Simple farming tools",
         estimatedSeconds: 20,
 
+        hint: "Imagine working the land without engines or electricity.",
+
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
 
@@ -334,6 +360,8 @@ const angloSaxonLife: SkillContent = {
         difficulty: 2,
         correctAnswer: "To live and work as a community",
         estimatedSeconds: 20,
+
+        hint: "Why is living close to neighbours useful?",
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
@@ -358,6 +386,8 @@ const angloSaxonLife: SkillContent = {
         correctAnswer: "Evidence from the past",
         estimatedSeconds: 20,
 
+        hint: "Who studies physical clues instead of written stories?",
+
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
 
@@ -380,6 +410,8 @@ const angloSaxonLife: SkillContent = {
         difficulty: 2,
         correctAnswer: "How people lived and worked",
         estimatedSeconds: 20,
+
+        hint: "Objects reveal daily routines without using words.",
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
@@ -404,6 +436,8 @@ const angloSaxonLife: SkillContent = {
         correctAnswer: "A blacksmith",
         estimatedSeconds: 20,
 
+        hint: "Who shapes heated metal into useful items?",
+
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
 
@@ -426,6 +460,8 @@ const angloSaxonLife: SkillContent = {
         difficulty: 2,
         correctAnswer: "To understand how ordinary people lived",
         estimatedSeconds: 20,
+
+        hint: "Ordinary lives often explain more than famous battles.",
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
@@ -450,6 +486,8 @@ const angloSaxonLife: SkillContent = {
         correctAnswer: "They were communities with homes, farms and workers",
         estimatedSeconds: 20,
 
+        hint: "Think about what every successful village needed.",
+
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     },
 
@@ -472,6 +510,8 @@ const angloSaxonLife: SkillContent = {
         difficulty: 2,
         correctAnswer: "People lived in villages, farmed and made goods",
         estimatedSeconds: 25,
+
+        hint: "Combine homes, work and community into one picture.",
 
         tags: ["history", "year3", "anglo-saxons", "daily-life"]
     }

@@ -27,7 +27,10 @@ const locatingCountries: SkillContent = {
             "A type of ocean",
             "A weather event",
             "A mountain range"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Countries are areas of land with their own governments and boundaries.",
@@ -50,7 +53,10 @@ const locatingCountries: SkillContent = {
             "Where rivers flow",
             "Where clouds form",
             "Where mountains grow"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Borders separate different countries.",
@@ -73,7 +79,10 @@ const locatingCountries: SkillContent = {
             "A thermometer",
             "A rain gauge",
             "A compass only"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Maps and globes show the locations of countries.",
@@ -96,7 +105,10 @@ const locatingCountries: SkillContent = {
             "A country border",
             "A mountain range",
             "An ocean current"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "The equator divides Earth into the Northern and Southern Hemispheres.",
@@ -119,7 +131,10 @@ const locatingCountries: SkillContent = {
             "Eastern and Western Oceans",
             "Land and Sea Zones",
             "Climate Regions"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "The equator separates the Northern and Southern Hemispheres.",
@@ -142,7 +157,10 @@ const locatingCountries: SkillContent = {
             "Southern Hemisphere",
             "Only the Eastern Hemisphere",
             "Only the Southern Hemisphere"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "The UK is north of the equator.",
@@ -165,7 +183,10 @@ const locatingCountries: SkillContent = {
             "Africa",
             "Europe",
             "Asia"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Brazil is a country in South America.",
@@ -188,7 +209,10 @@ const locatingCountries: SkillContent = {
             "Africa",
             "Europe",
             "South America"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Japan is an island country in Asia.",
@@ -211,7 +235,10 @@ const locatingCountries: SkillContent = {
             "Europe",
             "Asia",
             "Australia"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Kenya is a country in eastern Africa.",
@@ -234,7 +261,10 @@ const locatingCountries: SkillContent = {
             "South America",
             "Europe",
             "Africa"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Canada is located in North America.",
@@ -257,7 +287,10 @@ const locatingCountries: SkillContent = {
             "A weather instrument",
             "A type of animal",
             "A mountain feature"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "An atlas contains collections of maps.",
@@ -280,7 +313,10 @@ const locatingCountries: SkillContent = {
             "Only mountains",
             "Only rivers",
             "Weather patterns"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Political maps show countries, borders and cities.",
@@ -303,7 +339,10 @@ const locatingCountries: SkillContent = {
             "Only country names",
             "Only roads",
             "Population numbers only"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Physical maps show features of the natural landscape.",
@@ -326,7 +365,10 @@ const locatingCountries: SkillContent = {
             "To measure temperature",
             "To show weather",
             "To create borders"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Grid references help people locate specific places on maps.",
@@ -349,7 +391,10 @@ const locatingCountries: SkillContent = {
             "The biggest mountain",
             "A type of ocean",
             "A rural village"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Capital cities are important government centres.",
@@ -372,7 +417,10 @@ const locatingCountries: SkillContent = {
             "Manchester",
             "Edinburgh",
             "Cardiff"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "London is the capital city of the United Kingdom.",
@@ -395,7 +443,10 @@ const locatingCountries: SkillContent = {
             "To move countries",
             "To change borders",
             "To stop travel"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Location knowledge helps us understand relationships between places.",
@@ -418,7 +469,10 @@ const locatingCountries: SkillContent = {
             "A thermometer",
             "A rain gauge",
             "A ruler"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "A compass helps identify directions such as north and south.",
@@ -441,7 +495,10 @@ const locatingCountries: SkillContent = {
             "All countries have the same climate",
             "Maps decide climate",
             "Borders control weather"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Location, latitude and physical features affect climate.",
@@ -464,7 +521,10 @@ const locatingCountries: SkillContent = {
             "Countries cannot be mapped",
             "Only oceans can be located",
             "Maps do not show locations"
-        ],
+        ],        hint:
+            "Think about what makes a place its own nation.",
+
+
 
         explanation:
             "Maps and globes help us understand where places are located.",

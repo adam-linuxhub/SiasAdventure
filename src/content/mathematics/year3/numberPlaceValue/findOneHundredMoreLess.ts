@@ -11,1111 +11,1260 @@ const findOneHundredMoreLess: SkillContent = {
     version: 1,
 
     activities: [
-{
-    id: "find-one-hundred-more-less-001",
 
-    skillId: "find-one-hundred-more-less",
+        {
+            id: "find-one-hundred-more-less-001",
 
-    stage: "recognise",
+            skillId: "find-one-hundred-more-less",
 
-    question: "What is 100 more than 246?",
+            stage: "recognise",
 
-    options: [
-        "346",
-        "256",
-        "446",
-        "245"
-    ],
+            question: "What is 100 more than 246?",
 
-    correctAnswer: "346",
+            options: [
+                "346",
+                "256",
+                "446",
+                "245"
+            ],
 
-    explanation:
-        "Adding 100 increases the hundreds digit by 1."
-},
+            correctAnswer: "346",
 
-{
-    id: "find-one-hundred-more-less-002",
+            hint: "Adding 100 increases the hundreds by one while keeping 46 exactly the same.",
 
-    skillId: "find-one-hundred-more-less",
+            explanation:
+                "Adding 100 increases the hundreds digit by 1."
 
-    stage: "recognise",
+        },
 
-    question: "What is 100 less than 583?",
+        {
+            id: "find-one-hundred-more-less-002",
 
-    options: [
-        "483",
-        "573",
-        "593",
-        "583"
-    ],
+            skillId: "find-one-hundred-more-less",
 
-    correctAnswer: "483",
+            stage: "recognise",
 
-    explanation:
-        "Subtracting 100 decreases the hundreds digit by 1."
-},
+            question: "What is 100 less than 583?",
 
-{
-    id: "find-one-hundred-more-less-003",
+            options: [
+                "483",
+                "573",
+                "593",
+                "583"
+            ],
 
-    skillId: "find-one-hundred-more-less",
+            correctAnswer: "483",
 
-    stage: "recognise",
+            hint: "Take away one hundred but leave the 83 unchanged.",
 
-    question: "What is 100 more than 399?",
+            explanation:
+                "Subtracting 100 decreases the hundreds digit by 1."
 
-    options: [
-        "499",
-        "409",
-        "400",
-        "299"
-    ],
+        },
 
-    correctAnswer: "499",
+        {
+            id: "find-one-hundred-more-less-003",
 
-    explanation:
-        "399 + 100 = 499."
-},
+            skillId: "find-one-hundred-more-less",
 
-{
-    id: "find-one-hundred-more-less-004",
+            stage: "recognise",
 
-    skillId: "find-one-hundred-more-less",
+            question: "What is 100 more than 399?",
 
-    stage: "recognise",
+            options: [
+                "499",
+                "409",
+                "400",
+                "299"
+            ],
 
-    question: "What is 100 less than 700?",
+            correctAnswer: "499",
 
-    options: [
-        "600",
-        "690",
-        "699",
-        "800"
-    ],
+            hint: "The 99 at the end stays the same because only one hundred is being added.",
 
-    correctAnswer: "600",
+            explanation:
+                "399 + 100 = 499."
 
-    explanation:
-        "700 - 100 = 600."
-},
+        },
 
-{
-    id: "find-one-hundred-more-less-005",
+        {
+            id: "find-one-hundred-more-less-004",
 
-    skillId: "find-one-hundred-more-less",
+            skillId: "find-one-hundred-more-less",
 
-    stage: "recognise",
+            stage: "recognise",
 
-    question: "What is 100 more than 890?",
+            question: "What is 100 less than 700?",
 
-    options: [
-        "900",
-        "990",
-        "1000",
-        "980"
-    ],
+            options: [
+                "600",
+                "690",
+                "699",
+                "800"
+            ],
 
-    correctAnswer: "990",
+            correctAnswer: "600",
 
-    explanation:
-        "890 + 100 = 990."
-},
+            hint: "Move back exactly one hundred from 700 without changing any tens or ones.",
 
-{
-    id: "find-one-hundred-more-less-006",
+            explanation:
+                "700 - 100 = 600."
 
-    skillId: "find-one-hundred-more-less",
+        },
 
-    stage: "recognise",
+        {
+            id: "find-one-hundred-more-less-005",
 
-    question: "What is 100 less than 401?",
+            skillId: "find-one-hundred-more-less",
 
-    options: [
-        "301",
-        "400",
-        "501",
-        "391"
-    ],
+            stage: "recognise",
 
-    correctAnswer: "301",
+            question: "What is 100 more than 890?",
 
-    explanation:
-        "401 - 100 = 301."
-},
+            options: [
+                "900",
+                "990",
+                "1000",
+                "980"
+            ],
 
-{
-    id: "find-one-hundred-more-less-007",
+            correctAnswer: "990",
 
-    skillId: "find-one-hundred-more-less",
+            hint: "Only the hundreds change. The 90 stays as 90.",
 
-    stage: "recognise",
+            explanation:
+                "890 + 100 = 990."
 
-    question: "What is 100 more than 850?",
+        },
 
-    options: [
-        "860",
-        "950",
-        "900",
-        "750"
-    ],
+        {
+            id: "find-one-hundred-more-less-006",
 
-    correctAnswer: "950",
+            skillId: "find-one-hundred-more-less",
 
-    explanation:
-        "850 + 100 = 950."
-},
+            stage: "recognise",
 
-{
-    id: "find-one-hundred-more-less-008",
+            question: "What is 100 less than 401?",
 
-    skillId: "find-one-hundred-more-less",
+            options: [
+                "301",
+                "400",
+                "501",
+                "391"
+            ],
 
-    stage: "recognise",
+            correctAnswer: "301",
 
-    question: "What is 100 less than 320?",
+            hint: "Subtract one whole hundred while keeping the final 01 unchanged.",
 
-    options: [
-        "220",
-        "310",
-        "300",
-        "420"
-    ],
+            explanation:
+                "401 - 100 = 301."
 
-    correctAnswer: "220",
+        },
 
-    explanation:
-        "320 - 100 = 220."
-},
+        {
+            id: "find-one-hundred-more-less-007",
 
-{
-    id: "find-one-hundred-more-less-009",
+            skillId: "find-one-hundred-more-less",
 
-    skillId: "find-one-hundred-more-less",
+            stage: "recognise",
 
-    stage: "recognise",
+            question: "What is 100 more than 850?",
 
-    question: "What is 100 more than 109?",
+            options: [
+                "860",
+                "950",
+                "900",
+                "750"
+            ],
 
-    options: [
-        "209",
-        "119",
-        "200",
-        "309"
-    ],
+            correctAnswer: "950",
 
-    correctAnswer: "209",
+            hint: "Adding 100 doesn't change the 50 at the end.",
 
-    explanation:
-        "109 + 100 = 209."
-},
+            explanation:
+                "850 + 100 = 950."
 
-{
-    id: "find-one-hundred-more-less-010",
+        },
 
-    skillId: "find-one-hundred-more-less",
+        {
+            id: "find-one-hundred-more-less-008",
 
-    stage: "recognise",
+            skillId: "find-one-hundred-more-less",
 
-    question: "What is 100 less than 560?",
+            stage: "recognise",
 
-    options: [
-        "460",
-        "550",
-        "560",
-        "360"
-    ],
+            question: "What is 100 less than 320?",
 
-    correctAnswer: "460",
+            options: [
+                "220",
+                "310",
+                "300",
+                "420"
+            ],
 
-    explanation:
-        "560 - 100 = 460."
-},
+            correctAnswer: "220",
 
-{
-    id: "find-one-hundred-more-less-011",
+            hint: "Take away one hundred and keep the 20 unchanged.",
 
-    skillId: "find-one-hundred-more-less",
+            explanation:
+                "320 - 100 = 220."
 
-    stage: "recognise",
+        },
 
-    question: "What is 100 more than 675?",
+        {
+            id: "find-one-hundred-more-less-009",
 
-    options: [
-        "775",
-        "685",
-        "575",
-        "675"
-    ],
+            skillId: "find-one-hundred-more-less",
 
-    correctAnswer: "775",
+            stage: "recognise",
 
-    explanation:
-        "675 + 100 = 775."
-},
+            question: "What is 100 more than 109?",
 
-{
-    id: "find-one-hundred-more-less-012",
+            options: [
+                "209",
+                "119",
+                "200",
+                "309"
+            ],
 
-    skillId: "find-one-hundred-more-less",
+            correctAnswer: "209",
 
-    stage: "recognise",
+            hint: "The last two digits stay as 09 when adding exactly one hundred.",
 
-    question: "What is 100 less than 142?",
+            explanation:
+                "109 + 100 = 209."
 
-    options: [
-        "42",
-        "132",
-        "142",
-        "242"
-    ],
+        },
 
-    correctAnswer: "42",
+        {
+            id: "find-one-hundred-more-less-010",
 
-    explanation:
-        "142 - 100 = 42."
-},
+            skillId: "find-one-hundred-more-less",
 
-{
-    id: "find-one-hundred-more-less-013",
+            stage: "recognise",
 
-    skillId: "find-one-hundred-more-less",
+            question: "What is 100 less than 560?",
 
-    stage: "understand",
+            options: [
+                "460",
+                "550",
+                "560",
+                "360"
+            ],
 
-    question: "Which digit usually changes when you add 100?",
+            correctAnswer: "460",
 
-    options: [
-        "Ones",
-        "Tens",
-        "Hundreds",
-        "Thousands"
-    ],
+            hint: "Only one hundred is removed, so the 60 stays the same.",
 
-    correctAnswer: "Hundreds",
+            explanation:
+                "560 - 100 = 460."
 
-    explanation:
-        "Adding 100 usually changes the hundreds digit."
-},
+        },
 
-{
-    id: "find-one-hundred-more-less-014",
+        {
+            id: "find-one-hundred-more-less-011",
 
-    skillId: "find-one-hundred-more-less",
+            skillId: "find-one-hundred-more-less",
 
-    stage: "understand",
+            stage: "recognise",
 
-    question: "What stays the same when you add 100 to 347?",
+            question: "What is 100 more than 675?",
 
-    options: [
-        "The tens and ones digits",
-        "Only the hundreds digit",
-        "Everything",
-        "Nothing"
-    ],
+            options: [
+                "775",
+                "685",
+                "575",
+                "675"
+            ],
 
-    correctAnswer: "The tens and ones digits",
+            correctAnswer: "775",
 
-    explanation:
-        "347 becomes 447, so the tens and ones digits stay the same."
-},
+            hint: "Increase the hundreds by one while leaving 75 untouched.",
 
-{
-    id: "find-one-hundred-more-less-015",
+            explanation:
+                "675 + 100 = 775."
 
-    skillId: "find-one-hundred-more-less",
+        },
 
-    stage: "understand",
+        {
+            id: "find-one-hundred-more-less-012",
 
-    question: "Which calculation gives 705?",
+            skillId: "find-one-hundred-more-less",
 
-    options: [
-        "605 + 100",
-        "715 - 100",
-        "705 + 100",
-        "805 - 10"
-    ],
+            stage: "recognise",
 
-    correctAnswer: "605 + 100",
+            question: "What is 100 less than 142?",
 
-    explanation:
-        "605 plus 100 equals 705."
-},
-{
-    id: "find-one-hundred-more-less-016",
+            options: [
+                "42",
+                "132",
+                "142",
+                "242"
+            ],
 
-    skillId: "find-one-hundred-more-less",
+            correctAnswer: "42",
 
-    stage: "understand",
+            hint: "Removing one hundred from 142 leaves only the remaining 42.",
 
-    question: "Which number is 100 more than 478?",
+            explanation:
+                "142 - 100 = 42."
 
-    options: [
-        "578",
-        "488",
-        "478",
-        "378"
-    ],
+        },
 
-    correctAnswer: "578",
+        {
+            id: "find-one-hundred-more-less-013",
 
-    explanation:
-        "478 + 100 = 578."
-},
+            skillId: "find-one-hundred-more-less",
 
-{
-    id: "find-one-hundred-more-less-017",
+            stage: "understand",
 
-    skillId: "find-one-hundred-more-less",
+            question: "Which digit usually changes when you add 100?",
 
-    stage: "understand",
+            options: [
+                "Ones",
+                "Tens",
+                "Hundreds",
+                "Thousands"
+            ],
 
-    question: "Which number is 100 less than 623?",
+            correctAnswer: "Hundreds",
 
-    options: [
-        "523",
-        "613",
-        "623",
-        "723"
-    ],
+            hint: "Think about which place is worth exactly one hundred.",
 
-    correctAnswer: "523",
+            explanation:
+                "Adding 100 usually changes the hundreds digit."
 
-    explanation:
-        "623 - 100 = 523."
-},
+        },
 
-{
-    id: "find-one-hundred-more-less-018",
+        {
+            id: "find-one-hundred-more-less-014",
 
-    skillId: "find-one-hundred-more-less",
+            skillId: "find-one-hundred-more-less",
 
-    stage: "understand",
+            stage: "understand",
 
-    question: "What happens when you add 100 to 900?",
+            question: "What stays the same when you add 100 to 347?",
 
-    options: [
-        "It becomes 910.",
-        "It becomes 1000.",
-        "It becomes 990.",
-        "It becomes 901."
-    ],
+            options: [
+                "The tens and ones digits",
+                "Only the hundreds digit",
+                "Everything",
+                "Nothing"
+            ],
 
-    correctAnswer: "It becomes 1000.",
+            correctAnswer: "The tens and ones digits",
 
-    explanation:
-        "900 + 100 = 1000."
-},
+            hint: "347 becomes 447. Compare each digit to see which ones have not changed.",
 
-{
-    id: "find-one-hundred-more-less-019",
+            explanation:
+                "347 becomes 447, so the tens and ones digits stay the same."
 
-    skillId: "find-one-hundred-more-less",
+        },
 
-    stage: "understand",
+        {
+            id: "find-one-hundred-more-less-015",
 
-    question: "Which place value changes first when subtracting 100?",
+            skillId: "find-one-hundred-more-less",
 
-    options: [
-        "Ones",
-        "Tens",
-        "Hundreds",
-        "Thousands"
-    ],
+            stage: "understand",
 
-    correctAnswer: "Hundreds",
+            question: "Which calculation gives 705?",
 
-    explanation:
-        "Subtracting 100 changes the hundreds digit."
-},
+            options: [
+                "605 + 100",
+                "715 - 100",
+                "705 + 100",
+                "805 - 10"
+            ],
 
-{
-    id: "find-one-hundred-more-less-020",
+            correctAnswer: "605 + 100",
 
-    skillId: "find-one-hundred-more-less",
+            hint: "Test which calculation ends exactly at 705 after adding or subtracting.",
 
-    stage: "understand",
+            explanation:
+                "605 plus 100 equals 705."
 
-    question: "Which calculation crosses into the next thousand?",
+        },
 
-    options: [
-        "900 + 100",
-        "425 + 100",
-        "670 - 100",
-        "315 + 100"
-    ],
+        {
+            id: "find-one-hundred-more-less-016",
 
-    correctAnswer: "900 + 100",
+            skillId: "find-one-hundred-more-less",
 
-    explanation:
-        "900 + 100 = 1000."
-},
+            stage: "understand",
 
-{
-    id: "find-one-hundred-more-less-021",
+            question: "Which number is 100 more than 478?",
 
-    skillId: "find-one-hundred-more-less",
+            options: [
+                "578",
+                "488",
+                "478",
+                "378"
+            ],
 
-    stage: "apply",
+            correctAnswer: "578",
 
-    question: "A school has 245 pupils. One hundred new pupils join. How many pupils are there now?",
+            hint: "Only the hundreds increase. The 78 stays exactly the same.",
 
-    options: [
-        "345",
-        "255",
-        "445",
-        "145"
-    ],
+            explanation:
+                "478 + 100 = 578."
 
-    correctAnswer: "345",
+        },
 
-    explanation:
-        "245 + 100 = 345."
-},
+        {
+            id: "find-one-hundred-more-less-017",
 
-{
-    id: "find-one-hundred-more-less-022",
+            skillId: "find-one-hundred-more-less",
 
-    skillId: "find-one-hundred-more-less",
+            stage: "understand",
 
-    stage: "apply",
+            question: "Which number is 100 less than 623?",
 
-    question: "A library has 682 books. One hundred books are removed. How many books remain?",
+            options: [
+                "523",
+                "613",
+                "623",
+                "723"
+            ],
 
-    options: [
-        "582",
-        "672",
-        "782",
-        "482"
-    ],
+            correctAnswer: "523",
 
-    correctAnswer: "582",
+            hint: "Subtract one hundred but keep the final 23 unchanged.",
 
-    explanation:
-        "682 - 100 = 582."
-},
+            explanation:
+                "623 - 100 = 523."
 
-{
-    id: "find-one-hundred-more-less-023",
+        },
 
-    skillId: "find-one-hundred-more-less",
+        {
+            id: "find-one-hundred-more-less-018",
 
-    stage: "apply",
+            skillId: "find-one-hundred-more-less",
 
-    question: "A farmer has 318 sheep. He buys 100 more. How many sheep does he have now?",
+            stage: "understand",
 
-    options: [
-        "418",
-        "328",
-        "518",
-        "218"
-    ],
+            question: "What happens when you add 100 to 900?",
 
-    correctAnswer: "418",
+            options: [
+                "It becomes 910.",
+                "It becomes 1000.",
+                "It becomes 990.",
+                "It becomes 901."
+            ],
 
-    explanation:
-        "318 + 100 = 418."
-},
+            correctAnswer: "It becomes 1000.",
 
-{
-    id: "find-one-hundred-more-less-024",
+            hint: "Nine hundreds plus one more hundred makes a new thousand.",
 
-    skillId: "find-one-hundred-more-less",
+            explanation:
+                "900 + 100 = 1000."
 
-    stage: "apply",
+        },
 
-    question: "A museum had 950 visitors yesterday. Today there are 100 fewer visitors. How many visitors are there today?",
+        {
+            id: "find-one-hundred-more-less-019",
 
-    options: [
-        "850",
-        "860",
-        "1050",
-        "940"
-    ],
+            skillId: "find-one-hundred-more-less",
 
-    correctAnswer: "850",
+            stage: "understand",
 
-    explanation:
-        "950 - 100 = 850."
-},
+            question: "Which place value changes first when subtracting 100?",
 
-{
-    id: "find-one-hundred-more-less-025",
+            options: [
+                "Ones",
+                "Tens",
+                "Hundreds",
+                "Thousands"
+            ],
 
-    skillId: "find-one-hundred-more-less",
+            correctAnswer: "Hundreds",
 
-    stage: "apply",
+            hint: "One hundred affects the place worth 100, not the tens or ones.",
 
-    question: "A toy shop has 890 toys. One hundred more toys arrive. How many toys are there now?",
+            explanation:
+                "Subtracting 100 changes the hundreds digit."
 
-    options: [
-        "990",
-        "900",
-        "980",
-        "1000"
-    ],
+        },
 
-    correctAnswer: "990",
+        {
+            id: "find-one-hundred-more-less-020",
 
-    explanation:
-        "890 + 100 = 990."
-},
+            skillId: "find-one-hundred-more-less",
 
-{
-    id: "find-one-hundred-more-less-026",
+            stage: "understand",
 
-    skillId: "find-one-hundred-more-less",
+            question: "Which calculation crosses into the next thousand?",
 
-    stage: "apply",
+            options: [
+                "900 + 100",
+                "425 + 100",
+                "670 - 100",
+                "315 + 100"
+            ],
 
-    question: "Ben has 465 football cards. He gives away 100 cards. How many cards does he have left?",
+            correctAnswer: "900 + 100",
 
-    options: [
-        "365",
-        "455",
-        "565",
-        "265"
-    ],
+            hint: "Only one calculation reaches four digits. Think about what happens after 999.",
 
-    correctAnswer: "365",
+            explanation:
+                "900 + 100 = 1000."
 
-    explanation:
-        "465 - 100 = 365."
-},
+        },
 
-{
-    id: "find-one-hundred-more-less-027",
+        {
+            id: "find-one-hundred-more-less-021",
 
-    skillId: "find-one-hundred-more-less",
+            skillId: "find-one-hundred-more-less",
 
-    stage: "apply",
+            stage: "apply",
 
-    question: "A zoo welcomed 712 visitors before lunch. Another 100 visitors arrive. How many visitors have arrived altogether?",
+            question: "A school has 245 pupils. One hundred new pupils join. How many pupils are there now?",
 
-    options: [
-        "812",
-        "722",
-        "912",
-        "612"
-    ],
+            options: [
+                "345",
+                "255",
+                "445",
+                "145"
+            ],
 
-    correctAnswer: "812",
+            correctAnswer: "345",
 
-    explanation:
-        "712 + 100 = 812."
-},
+            hint: "Adding 100 changes the number of hundreds but leaves the 45 pupils unchanged.",
 
-{
-    id: "find-one-hundred-more-less-028",
+            explanation:
+                "245 + 100 = 345."
 
-    skillId: "find-one-hundred-more-less",
+        },
 
-    stage: "apply",
+        {
+            id: "find-one-hundred-more-less-022",
 
-    question: "A warehouse stores 634 boxes. One hundred boxes are delivered. How many boxes remain?",
+            skillId: "find-one-hundred-more-less",
 
-    options: [
-        "534",
-        "624",
-        "734",
-        "434"
-    ],
+            stage: "apply",
 
-    correctAnswer: "534",
+            question: "A library has 682 books. One hundred books are removed. How many books remain?",
 
-    explanation:
-        "634 - 100 = 534."
-},
+            options: [
+                "582",
+                "672",
+                "782",
+                "482"
+            ],
 
-{
-    id: "find-one-hundred-more-less-029",
+            correctAnswer: "582",
 
-    skillId: "find-one-hundred-more-less",
+            hint: "Take away one full hundred while keeping the 82 books the same.",
 
-    stage: "apply",
+            explanation:
+                "682 - 100 = 582."
 
-    question: "A runner has completed 401 laps over several weeks. She completes another 100 laps. How many laps has she completed altogether?",
+        },
 
-    options: [
-        "501",
-        "411",
-        "601",
-        "301"
-    ],
+        {
+            id: "find-one-hundred-more-less-023",
 
-    correctAnswer: "501",
+            skillId: "find-one-hundred-more-less",
 
-    explanation:
-        "401 + 100 = 501."
-},
+            stage: "apply",
 
-{
-    id: "find-one-hundred-more-less-030",
+            question: "A farmer has 318 sheep. He buys 100 more. How many sheep does he have now?",
 
-    skillId: "find-one-hundred-more-less",
+            options: [
+                "418",
+                "328",
+                "518",
+                "218"
+            ],
 
-    stage: "apply",
+            correctAnswer: "418",
 
-    question: "A builder has 560 bricks. He uses 100 bricks. How many bricks are left?",
+            hint: "Buying 100 more means adding exactly one hundred, not changing the 18.",
 
-    options: [
-        "460",
-        "550",
-        "660",
-        "360"
-    ],
+            explanation:
+                "318 + 100 = 418."
 
-    correctAnswer: "460",
+        },
 
-    explanation:
-        "560 - 100 = 460."
-},
-{
-    id: "find-one-hundred-more-less-031",
+        {
+            id: "find-one-hundred-more-less-024",
 
-    skillId: "find-one-hundred-more-less",
+            skillId: "find-one-hundred-more-less",
 
-    stage: "master",
+            stage: "apply",
 
-    question: "Complete the pattern: 240, 340, ___",
+            question: "A museum had 950 visitors yesterday. Today there are 100 fewer visitors. How many visitors are there today?",
 
-    options: [
-        "350",
-        "440",
-        "540",
-        "241"
-    ],
+            options: [
+                "850",
+                "860",
+                "1050",
+                "940"
+            ],
 
-    correctAnswer: "440",
+            correctAnswer: "850",
 
-    explanation:
-        "The pattern increases by 100 each time."
-},
+            hint: "A hundred fewer visitors means the 50 stays the same while one hundred is removed.",
 
-{
-    id: "find-one-hundred-more-less-032",
+            explanation:
+                "950 - 100 = 850."
 
-    skillId: "find-one-hundred-more-less",
+        },
 
-    stage: "master",
+        {
+            id: "find-one-hundred-more-less-025",
 
-    question: "Complete the pattern: 815, 715, ___",
+            skillId: "find-one-hundred-more-less",
 
-    options: [
-        "615",
-        "705",
-        "814",
-        "515"
-    ],
+            stage: "apply",
 
-    correctAnswer: "615",
+            question: "A toy shop has 890 toys. One hundred more toys arrive. How many toys are there now?",
 
-    explanation:
-        "The pattern decreases by 100 each time."
-},
+            options: [
+                "990",
+                "900",
+                "980",
+                "1000"
+            ],
 
-{
-    id: "find-one-hundred-more-less-033",
+            correctAnswer: "990",
 
-    skillId: "find-one-hundred-more-less",
+            hint: "Adding one hundred keeps the final 90 unchanged.",
 
-    stage: "master",
+            explanation:
+                "890 + 100 = 990."
 
-    question: "Which number is 100 more than 458?",
+        },
 
-    options: [
-        "558",
-        "468",
-        "548",
-        "358"
-    ],
+        {
+            id: "find-one-hundred-more-less-026",
 
-    correctAnswer: "558",
+            skillId: "find-one-hundred-more-less",
 
-    explanation:
-        "458 + 100 = 558."
-},
+            stage: "apply",
 
-{
-    id: "find-one-hundred-more-less-034",
+            question: "Ben has 465 football cards. He gives away 100 cards. How many cards does he have left?",
 
-    skillId: "find-one-hundred-more-less",
+            options: [
+                "365",
+                "455",
+                "565",
+                "265"
+            ],
 
-    stage: "master",
+            correctAnswer: "365",
 
-    question: "Which number is 100 less than 730?",
+            hint: "Giving away exactly 100 cards leaves the final 65 cards unchanged.",
 
-    options: [
-        "630",
-        "720",
-        "730",
-        "830"
-    ],
+            explanation:
+                "465 - 100 = 365."
 
-    correctAnswer: "630",
+        },
 
-    explanation:
-        "730 - 100 = 630."
-},
+        {
+            id: "find-one-hundred-more-less-027",
 
-{
-    id: "find-one-hundred-more-less-035",
+            skillId: "find-one-hundred-more-less",
 
-    skillId: "find-one-hundred-more-less",
+            stage: "apply",
 
-    stage: "master",
+            question: "A zoo welcomed 712 visitors before lunch. Another 100 visitors arrive. How many visitors have arrived altogether?",
 
-    question: "Fill the gap: 700, 800, 900, ___",
+            options: [
+                "812",
+                "722",
+                "912",
+                "612"
+            ],
 
-    options: [
-        "910",
-        "1000",
-        "990",
-        "1100"
-    ],
+            correctAnswer: "812",
 
-    correctAnswer: "1000",
+            hint: "The extra visitors add one hundred, so the 12 stays exactly the same.",
 
-    explanation:
-        "Adding 100 to 900 gives 1000."
-},
+            explanation:
+                "712 + 100 = 812."
 
-{
-    id: "find-one-hundred-more-less-036",
+        },
 
-    skillId: "find-one-hundred-more-less",
+        {
+            id: "find-one-hundred-more-less-028",
 
-    stage: "master",
+            skillId: "find-one-hundred-more-less",
 
-    question: "Fill the gap: 640, 540, 440, ___",
+            stage: "apply",
 
-    options: [
-        "340",
-        "430",
-        "540",
-        "240"
-    ],
+            question: "A warehouse stores 634 boxes. One hundred boxes are delivered. How many boxes remain?",
 
-    correctAnswer: "340",
+            options: [
+                "534",
+                "624",
+                "734",
+                "434"
+            ],
 
-    explanation:
-        "The pattern decreases by 100 each time."
-},
+            correctAnswer: "534",
 
-{
-    id: "find-one-hundred-more-less-037",
+            hint: "If boxes are delivered away, subtract one hundred while keeping the 34 unchanged.",
 
-    skillId: "find-one-hundred-more-less",
+            explanation:
+                "634 - 100 = 534."
 
-    stage: "master",
+        },
 
-    question: "What is 100 more than 781?",
+        {
+            id: "find-one-hundred-more-less-029",
 
-    options: [
-        "881",
-        "791",
-        "880",
-        "681"
-    ],
+            skillId: "find-one-hundred-more-less",
 
-    correctAnswer: "881",
+            stage: "apply",
 
-    explanation:
-        "781 + 100 = 881."
-},
+            question: "A runner has completed 401 laps over several weeks. She completes another 100 laps. How many laps has she completed altogether?",
 
-{
-    id: "find-one-hundred-more-less-038",
+            options: [
+                "501",
+                "411",
+                "601",
+                "301"
+            ],
 
-    skillId: "find-one-hundred-more-less",
+            correctAnswer: "501",
 
-    stage: "master",
+            hint: "Adding 100 changes 401 into a number with five hundreds but still ends in 01.",
 
-    question: "What is 100 less than 1000?",
+            explanation:
+                "401 + 100 = 501."
 
-    options: [
-        "900",
-        "990",
-        "999",
-        "800"
-    ],
+        },
 
-    correctAnswer: "900",
+        {
+            id: "find-one-hundred-more-less-030",
 
-    explanation:
-        "1000 - 100 = 900."
-},
+            skillId: "find-one-hundred-more-less",
 
-{
-    id: "find-one-hundred-more-less-039",
+            stage: "apply",
 
-    skillId: "find-one-hundred-more-less",
+            question: "A builder has 560 bricks. He uses 100 bricks. How many bricks are left?",
 
-    stage: "master",
+            options: [
+                "460",
+                "550",
+                "660",
+                "360"
+            ],
 
-    question: "Which pair differs by 100?",
+            correctAnswer: "460",
 
-    options: [
-        "615 and 715",
-        "615 and 625",
-        "615 and 5150",
-        "615 and 705"
-    ],
+            hint: "Using 100 bricks removes one whole hundred while leaving the 60 unchanged.",
 
-    correctAnswer: "615 and 715",
+            explanation:
+                "560 - 100 = 460."
 
-    explanation:
-        "715 is exactly 100 more than 615."
-},
+        },
 
-{
-    id: "find-one-hundred-more-less-040",
+        {
+            id: "find-one-hundred-more-less-031",
 
-    skillId: "find-one-hundred-more-less",
+            skillId: "find-one-hundred-more-less",
 
-    stage: "master",
+            stage: "master",
 
-    question: "Which statement is true?",
+            question: "Complete the pattern: 240, 340, ___",
 
-    options: [
-        "100 more than 600 is 700.",
-        "100 more than 600 is 610.",
-        "100 less than 600 is 590.",
-        "100 less than 600 is 5000."
-    ],
+            options: [
+                "350",
+                "440",
+                "540",
+                "241"
+            ],
 
-    correctAnswer: "100 more than 600 is 700.",
+            correctAnswer: "440",
 
-    explanation:
-        "600 + 100 = 700."
-},
+            hint: "Each step adds exactly one hundred, so the ending 40 never changes.",
 
-{
-    id: "find-one-hundred-more-less-041",
+            explanation:
+                "The pattern increases by 100 each time."
 
-    skillId: "find-one-hundred-more-less",
+        },
 
-    stage: "master",
+        {
+            id: "find-one-hundred-more-less-032",
 
-    question: "Complete the pattern: 128, 228, 328, ___",
+            skillId: "find-one-hundred-more-less",
 
-    options: [
-        "338",
-        "428",
-        "328",
-        "228"
-    ],
+            stage: "master",
 
-    correctAnswer: "428",
+            question: "Complete the pattern: 815, 715, ___",
 
-    explanation:
-        "The pattern increases by 100."
-},
+            options: [
+                "615",
+                "705",
+                "814",
+                "515"
+            ],
 
-{
-    id: "find-one-hundred-more-less-042",
+            correctAnswer: "615",
 
-    skillId: "find-one-hundred-more-less",
+            hint: "The sequence goes back by one hundred each time, keeping the final 15.",
 
-    stage: "master",
+            explanation:
+                "The pattern decreases by 100 each time."
 
-    question: "Complete the pattern: 904, 804, 704, ___",
+        },
 
-    options: [
-        "604",
-        "694",
-        "804",
-        "504"
-    ],
+        {
+            id: "find-one-hundred-more-less-033",
 
-    correctAnswer: "604",
+            skillId: "find-one-hundred-more-less",
 
-    explanation:
-        "The pattern decreases by 100."
-},
+            stage: "master",
 
-{
-    id: "find-one-hundred-more-less-043",
+            question: "Which number is 100 more than 458?",
 
-    skillId: "find-one-hundred-more-less",
+            options: [
+                "558",
+                "468",
+                "548",
+                "358"
+            ],
 
-    stage: "master",
+            correctAnswer: "558",
 
-    question: "100 more than 239 is:",
+            hint: "Increase the hundreds by one and leave the 58 unchanged.",
 
-    options: [
-        "339",
-        "249",
-        "239",
-        "439"
-    ],
+            explanation:
+                "458 + 100 = 558."
 
-    correctAnswer: "339",
+        },
 
-    explanation:
-        "239 + 100 = 339."
-},
+        {
+            id: "find-one-hundred-more-less-034",
 
-{
-    id: "find-one-hundred-more-less-044",
+            skillId: "find-one-hundred-more-less",
 
-    skillId: "find-one-hundred-more-less",
+            stage: "master",
 
-    stage: "master",
+            question: "Which number is 100 less than 730?",
 
-    question: "100 less than 812 is:",
+            options: [
+                "630",
+                "720",
+                "730",
+                "830"
+            ],
 
-    options: [
-        "712",
-        "802",
-        "812",
-        "912"
-    ],
+            correctAnswer: "630",
 
-    correctAnswer: "712",
+            hint: "Subtract one hundred but keep the 30 exactly the same.",
 
-    explanation:
-        "812 - 100 = 712."
-},
+            explanation:
+                "730 - 100 = 630."
 
-{
-    id: "find-one-hundred-more-less-045",
+        },
+        {
+            id: "find-one-hundred-more-less-035",
 
-    skillId: "find-one-hundred-more-less",
+            skillId: "find-one-hundred-more-less",
 
-    stage: "master",
+            stage: "master",
 
-    question: "Which number comes 100 after 576?",
+            question: "Fill the gap: 700, 800, 900, ___",
 
-    options: [
-        "676",
-        "586",
-        "576",
-        "476"
-    ],
+            options: [
+                "910",
+                "1000",
+                "990",
+                "1100"
+            ],
 
-    correctAnswer: "676",
+            correctAnswer: "1000",
 
-    explanation:
-        "576 + 100 = 676."
-},
+            hint: "Each number is one hundred more than the last. After nine hundreds comes one thousand.",
 
-{
-    id: "find-one-hundred-more-less-046",
+            explanation:
+                "Adding 100 to 900 gives 1000."
 
-    skillId: "find-one-hundred-more-less",
+        },
 
-    stage: "master",
+        {
+            id: "find-one-hundred-more-less-036",
 
-    question: "Which number comes 100 before 401?",
+            skillId: "find-one-hundred-more-less",
 
-    options: [
-        "301",
-        "400",
-        "391",
-        "501"
-    ],
+            stage: "master",
 
-    correctAnswer: "301",
+            question: "Fill the gap: 640, 540, 440, ___",
 
-    explanation:
-        "401 - 100 = 301."
-},
+            options: [
+                "340",
+                "430",
+                "540",
+                "240"
+            ],
 
-{
-    id: "find-one-hundred-more-less-047",
+            correctAnswer: "340",
 
-    skillId: "find-one-hundred-more-less",
+            hint: "Subtract one hundred each time, but notice the 40 at the end never changes.",
 
-    stage: "master",
+            explanation:
+                "The pattern decreases by 100 each time."
 
-    question: "Find the missing number: 756, ___, 956",
+        },
 
-    options: [
-        "856",
-        "766",
-        "846",
-        "956"
-    ],
+        {
+            id: "find-one-hundred-more-less-037",
 
-    correctAnswer: "856",
+            skillId: "find-one-hundred-more-less",
 
-    explanation:
-        "The numbers increase by 100."
-},
+            stage: "master",
 
-{
-    id: "find-one-hundred-more-less-048",
+            question: "What is 100 more than 781?",
 
-    skillId: "find-one-hundred-more-less",
+            options: [
+                "881",
+                "791",
+                "880",
+                "681"
+            ],
 
-    stage: "master",
+            correctAnswer: "881",
 
-    question: "Find the missing number: 502, 402, ___",
+            hint: "Adding 100 changes the hundreds digit while the 81 stays exactly the same.",
 
-    options: [
-        "302",
-        "392",
-        "412",
-        "202"
-    ],
+            explanation:
+                "781 + 100 = 881."
 
-    correctAnswer: "302",
+        },
 
-    explanation:
-        "The numbers decrease by 100."
-},
+        {
+            id: "find-one-hundred-more-less-038",
 
-{
-    id: "find-one-hundred-more-less-049",
+            skillId: "find-one-hundred-more-less",
 
-    skillId: "find-one-hundred-more-less",
+            stage: "master",
 
-    stage: "master",
+            question: "What is 100 less than 1000?",
 
-    question: "What is 100 more than 89?",
+            options: [
+                "900",
+                "990",
+                "999",
+                "800"
+            ],
 
-    options: [
-        "189",
-        "99",
-        "180",
-        "90"
-    ],
+            correctAnswer: "900",
 
-    correctAnswer: "189",
+            hint: "Think of 1000 as ten hundreds. Taking away one hundred leaves nine hundreds.",
 
-    explanation:
-        "89 + 100 = 189."
-},
+            explanation:
+                "1000 - 100 = 900."
 
-{
-    id: "find-one-hundred-more-less-050",
+        },
 
-    skillId: "find-one-hundred-more-less",
+        {
+            id: "find-one-hundred-more-less-039",
 
-    stage: "master",
+            skillId: "find-one-hundred-more-less",
 
-    question: "What is 100 less than 300?",
+            stage: "master",
 
-    options: [
-        "200",
-        "290",
-        "299",
-        "100"
-    ],
+            question: "Which pair differs by 100?",
 
-    correctAnswer: "200",
+            options: [
+                "615 and 715",
+                "615 and 625",
+                "615 and 5150",
+                "615 and 705"
+            ],
 
-    explanation:
-        "300 - 100 = 200."
-}
+            correctAnswer: "615 and 715",
+
+            hint: "Look for the pair where the last two digits match and only one extra hundred has been added.",
+
+            explanation:
+                "715 is exactly 100 more than 615."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-040",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "Which statement is true?",
+
+            options: [
+                "100 more than 600 is 700.",
+                "100 more than 600 is 610.",
+                "100 less than 600 is 590.",
+                "100 less than 600 is 5000."
+            ],
+
+            correctAnswer: "100 more than 600 is 700.",
+
+            hint: "Adding 100 means increasing the number of hundreds by one—not adding ten or changing thousands.",
+
+            explanation:
+                "600 + 100 = 700."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-041",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "Complete the pattern: 128, 228, 328, ___",
+
+            options: [
+                "338",
+                "428",
+                "328",
+                "228"
+            ],
+
+            correctAnswer: "428",
+
+            hint: "Each step adds exactly one hundred, so the ending 28 stays unchanged.",
+
+            explanation:
+                "The pattern increases by 100."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-042",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "Complete the pattern: 904, 804, 704, ___",
+
+            options: [
+                "604",
+                "694",
+                "804",
+                "504"
+            ],
+
+            correctAnswer: "604",
+
+            hint: "Each number is one hundred less than the previous one while the 04 stays the same.",
+
+            explanation:
+                "The pattern decreases by 100."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-043",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "100 more than 239 is:",
+
+            options: [
+                "339",
+                "249",
+                "239",
+                "439"
+            ],
+
+            correctAnswer: "339",
+
+            hint: "Increase the hundreds by one but leave the 39 untouched.",
+
+            explanation:
+                "239 + 100 = 339."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-044",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "100 less than 812 is:",
+
+            options: [
+                "712",
+                "802",
+                "812",
+                "912"
+            ],
+
+            correctAnswer: "712",
+
+            hint: "Take away one hundred while keeping the last two digits as 12.",
+
+            explanation:
+                "812 - 100 = 712."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-045",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "Which number comes 100 after 576?",
+
+            options: [
+                "676",
+                "586",
+                "576",
+                "476"
+            ],
+
+            correctAnswer: "676",
+
+            hint: "Move forward by one hundred, not by ten or one. The 76 stays the same.",
+
+            explanation:
+                "576 + 100 = 676."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-046",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "Which number comes 100 before 401?",
+
+            options: [
+                "301",
+                "400",
+                "391",
+                "501"
+            ],
+
+            correctAnswer: "301",
+
+            hint: "Go back one hundred while leaving the final 01 unchanged.",
+
+            explanation:
+                "401 - 100 = 301."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-047",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "Find the missing number: 756, ___, 956",
+
+            options: [
+                "856",
+                "766",
+                "846",
+                "956"
+            ],
+
+            correctAnswer: "856",
+
+            hint: "The numbers increase by one hundred each step, so the middle number sits exactly halfway.",
+
+            explanation:
+                "The numbers increase by 100."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-048",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "Find the missing number: 502, 402, ___",
+
+            options: [
+                "302",
+                "392",
+                "412",
+                "202"
+            ],
+
+            correctAnswer: "302",
+
+            hint: "Subtract one hundred again while keeping the final 02 unchanged.",
+
+            explanation:
+                "The numbers decrease by 100."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-049",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "What is 100 more than 89?",
+
+            options: [
+                "189",
+                "99",
+                "180",
+                "90"
+            ],
+
+            correctAnswer: "189",
+
+            hint: "Adding 100 to a two-digit number creates a three-digit number ending in 89.",
+
+            explanation:
+                "89 + 100 = 189."
+
+        },
+
+        {
+            id: "find-one-hundred-more-less-050",
+
+            skillId: "find-one-hundred-more-less",
+
+            stage: "master",
+
+            question: "What is 100 less than 300?",
+
+            options: [
+                "200",
+                "290",
+                "299",
+                "100"
+            ],
+
+            correctAnswer: "200",
+
+            hint: "Three hundreds take away one hundred leaves two hundreds.",
+
+            explanation:
+                "300 - 100 = 200."
+
+        }
     ]
 };
-
 
 export default findOneHundredMoreLess;
 
 export {
-
     findOneHundredMoreLess
-
 };

@@ -28,6 +28,7 @@ const coasts: SkillContent = {
             "A forest"
         ],
 
+        hint: "Think about where two different natural features meet.",
         explanation:
             "A coast is the area where the land meets the sea or ocean.",
 
@@ -50,6 +51,7 @@ const coasts: SkillContent = {
             "A cave"
         ],
 
+        hint: "Imagine standing beside the shoreline.",
         explanation:
             "Coasts are found where the land meets the sea.",
 
@@ -72,6 +74,7 @@ const coasts: SkillContent = {
             "A rainforest"
         ],
 
+        hint: "Picture common places people visit by the sea.",
         explanation:
             "Many coasts have sandy or pebbly beaches.",
 
@@ -94,6 +97,7 @@ const coasts: SkillContent = {
             "Grass only"
         ],
 
+        hint: "Think about what beaches are naturally made from.",
         explanation:
             "Beaches are commonly made of sand, pebbles or a mixture of both.",
 
@@ -116,6 +120,7 @@ const coasts: SkillContent = {
             "A road"
         ],
 
+        hint: "Look for a landform with very steep sides.",
         explanation:
             "A cliff is a steep face of rock or earth, often found by the sea.",
 
@@ -138,6 +143,7 @@ const coasts: SkillContent = {
             "Harbour wall"
         ],
 
+        hint: "Decide which option was not built by people.",
         explanation:
             "A beach is a natural feature, while the others are built by people.",
 
@@ -160,6 +166,7 @@ const coasts: SkillContent = {
             "Ice skating"
         ],
 
+        hint: "Think about activities people do beside the sea.",
         explanation:
             "Many people enjoy swimming and other activities at the coast.",
 
@@ -182,6 +189,7 @@ const coasts: SkillContent = {
             "Red"
         ],
 
+        hint: "Remember the usual map colour for water.",
         explanation:
             "Water is usually coloured blue on maps.",
 
@@ -204,6 +212,7 @@ const coasts: SkillContent = {
             "Turns into a river"
         ],
 
+        hint: "Picture the boundary between sea and land.",
         explanation:
             "The coast is where the sea meets the land.",
 
@@ -226,6 +235,7 @@ const coasts: SkillContent = {
             "People build all coasts."
         ],
 
+        hint: "Choose the fact that is always true.",
         explanation:
             "Coasts are natural places where land meets the sea.",
 
@@ -248,6 +258,7 @@ const coasts: SkillContent = {
             "To climb volcanoes"
         ],
 
+        hint: "Think about why families enjoy seaside holidays.",
         explanation:
             "Many families visit the coast to enjoy the beach and seaside activities.",
 
@@ -270,6 +281,7 @@ const coasts: SkillContent = {
             "Trees grow into cliffs"
         ],
 
+        hint: "Consider what waves do to rocks over many years.",
         explanation:
             "Waves can gradually wear away the land, forming cliffs.",
 
@@ -292,6 +304,7 @@ const coasts: SkillContent = {
             "Only birds visit them"
         ],
 
+        hint: "Think about habitats where sea and land meet.",
         explanation:
             "Coastal habitats support many different plants, birds and sea creatures.",
 
@@ -314,6 +327,7 @@ const coasts: SkillContent = {
             "Librarian"
         ],
 
+        hint: "Which job relies on catching things from the sea?",
         explanation:
             "Fishers catch fish and other seafood from the sea.",
 
@@ -336,6 +350,7 @@ const coasts: SkillContent = {
             "There are no roads inland"
         ],
 
+        hint: "Think about how coastal towns earn money.",
         explanation:
             "Coastal towns often grow because of fishing, transport and visitors.",
 
@@ -358,6 +373,7 @@ const coasts: SkillContent = {
             "Buildings"
         ],
 
+        hint: "Consider the natural force that changes coasts.",
         explanation:
             "Waves gradually change the shape of the coastline over time.",
 
@@ -380,6 +396,7 @@ const coasts: SkillContent = {
             "Waterfall"
         ],
 
+        hint: "Think about features created by wind and sand.",
         explanation:
             "Many beaches have sand dunes formed by wind blowing sand inland.",
 
@@ -402,6 +419,7 @@ const coasts: SkillContent = {
             "They only exist in winter"
         ],
 
+        hint: "Imagine why people choose beaches for a day out.",
         explanation:
             "Beaches are popular for swimming, games and relaxing.",
 
@@ -424,6 +442,7 @@ const coasts: SkillContent = {
             "Airport"
         ],
 
+        hint: "Choose a feature formed by nature, not construction.",
         explanation:
             "Many coastlines include cliffs, beaches and rocky shores.",
 
@@ -446,6 +465,7 @@ const coasts: SkillContent = {
             "A man-made canal."
         ],
 
+        hint: "Think about the main idea that defines a coast.",
         explanation:
             "Coasts are important physical features where land and sea meet.",
 

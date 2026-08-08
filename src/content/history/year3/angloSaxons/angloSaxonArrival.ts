@@ -29,7 +29,10 @@ const angloSaxonArrival: SkillContent = {
             "Viking explorers"
         ],
 
-        explanation:
+                hint:
+            "Think about who were the anglo-saxons. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "The Anglo-Saxons were groups from areas that are now Germany, Denmark and the Netherlands.",
 
         difficulty: 1,
@@ -52,7 +55,10 @@ const angloSaxonArrival: SkillContent = {
             "After the Vikings left"
         ],
 
-        explanation:
+                hint:
+            "Think about when did the anglo-saxons begin settling in britain. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Anglo-Saxon settlement began after the Romans left Britain in the 5th century.",
 
         difficulty: 1,
@@ -75,7 +81,10 @@ const angloSaxonArrival: SkillContent = {
             "They were defeated by Egypt"
         ],
 
-        explanation:
+                hint:
+            "Think about why did the romans leave britain. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Rome needed its army elsewhere, so Roman rule in Britain ended.",
 
         difficulty: 1,
@@ -98,7 +107,10 @@ const angloSaxonArrival: SkillContent = {
             "Ancient Egypt"
         ],
 
-        explanation:
+                hint:
+            "Think about where did many anglo-saxons come from. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Many Anglo-Saxons came from areas now known as Germany, Denmark and the Netherlands.",
 
         difficulty: 1,
@@ -121,7 +133,10 @@ const angloSaxonArrival: SkillContent = {
             "To become Roman emperors"
         ],
 
-        explanation:
+                hint:
+            "Think about why did anglo-saxons come to britain. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Anglo-Saxons came looking for land and new places to live.",
 
         difficulty: 1,
@@ -144,7 +159,10 @@ const angloSaxonArrival: SkillContent = {
             "The Iron Age"
         ],
 
-        explanation:
+                hint:
+            "Think about what period came after roman britain. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "The Anglo-Saxon period followed the end of Roman rule in Britain.",
 
         difficulty: 1,
@@ -167,7 +185,10 @@ const angloSaxonArrival: SkillContent = {
             "Only traders"
         ],
 
-        explanation:
+                hint:
+            "Think about what type of people were the anglo-saxons. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Anglo-Saxon communities included people with many different roles.",
 
         difficulty: 1,
@@ -190,7 +211,10 @@ const angloSaxonArrival: SkillContent = {
             "Modern cities"
         ],
 
-        explanation:
+                hint:
+            "Think about what did anglo-saxons build where they settled. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Anglo-Saxons created settlements with houses and farms.",
 
         difficulty: 1,
@@ -213,7 +237,10 @@ const angloSaxonArrival: SkillContent = {
             "Egyptian"
         ],
 
-        explanation:
+                hint:
+            "Think about what language did anglo-saxons speak. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "The Anglo-Saxon language helped develop what became English.",
 
         difficulty: 1,
@@ -236,7 +263,10 @@ const angloSaxonArrival: SkillContent = {
             "The Vikings arrived immediately"
         ],
 
-        explanation:
+                hint:
+            "Think about what happened to britain after the romans left. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "The end of Roman rule led to new settlements in Britain.",
 
         difficulty: 1,
@@ -259,7 +289,10 @@ const angloSaxonArrival: SkillContent = {
             "Tudors, Stuarts and Victorians"
         ],
 
-        explanation:
+                hint:
+            "Think about which groups were part of the anglo-saxon settlers. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "The main groups were the Angles, Saxons and Jutes.",
 
         difficulty: 2,
@@ -282,7 +315,10 @@ const angloSaxonArrival: SkillContent = {
             "To change history"
         ],
 
-        explanation:
+                hint:
+            "Think about why do historians study anglo-saxon evidence. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Evidence helps historians learn about past societies.",
 
         difficulty: 2,
@@ -305,7 +341,10 @@ const angloSaxonArrival: SkillContent = {
             "Writing a book"
         ],
 
-        explanation:
+                hint:
+            "Think about what is migration. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Migration means moving people from one place to another.",
 
         difficulty: 2,
@@ -328,7 +367,10 @@ const angloSaxonArrival: SkillContent = {
             "They avoided settlements"
         ],
 
-        explanation:
+                hint:
+            "Think about why was land important to anglo-saxon settlers. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Farming and settlements needed suitable land.",
 
         difficulty: 2,
@@ -351,7 +393,10 @@ const angloSaxonArrival: SkillContent = {
             "Space technology"
         ],
 
-        explanation:
+                hint:
+            "Think about which evidence can tell us about anglo-saxons. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Historians use evidence from the past to learn about people.",
 
         difficulty: 2,
@@ -374,7 +419,10 @@ const angloSaxonArrival: SkillContent = {
             "Someone who rules Rome"
         ],
 
-        explanation:
+                hint:
+            "Think about what is a settler. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Settlers move and establish homes in new places.",
 
         difficulty: 2,
@@ -397,7 +445,10 @@ const angloSaxonArrival: SkillContent = {
             "With airports"
         ],
 
-        explanation:
+                hint:
+            "Think about how did anglo-saxon settlements often begin. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Many Anglo-Saxon communities were based around farming villages.",
 
         difficulty: 2,
@@ -420,7 +471,10 @@ const angloSaxonArrival: SkillContent = {
             "Egypt ruled Britain"
         ],
 
-        explanation:
+                hint:
+            "Think about what changed when the anglo-saxons settled in britain. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Anglo-Saxon settlement had a lasting effect on Britain.",
 
         difficulty: 2,
@@ -443,7 +497,10 @@ const angloSaxonArrival: SkillContent = {
             "It replaced Ancient Egypt"
         ],
 
-        explanation:
+                hint:
+            "Think about why is the anglo-saxon period important. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "Anglo-Saxon influences can still be seen today.",
 
         difficulty: 2,
@@ -466,7 +523,10 @@ const angloSaxonArrival: SkillContent = {
             "They arrived in modern times"
         ],
 
-        explanation:
+                hint:
+            "Think about which sentence best describes the arrival of the anglo-saxons. Eliminate answers that belong to a different time, place or group before choosing.",
+
+explanation:
             "The Anglo-Saxon period began after the Romans left Britain.",
 
         difficulty: 2,

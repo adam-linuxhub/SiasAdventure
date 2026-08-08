@@ -29,6 +29,8 @@ const continents: SkillContent = {
             "A weather event"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "A continent is one of Earth's large land areas.",
 
@@ -52,6 +54,8 @@ const continents: SkillContent = {
             "Three"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "The world is usually divided into seven continents.",
 
@@ -75,6 +79,8 @@ const continents: SkillContent = {
             "South America"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "The United Kingdom is located in Europe.",
 
@@ -98,6 +104,8 @@ const continents: SkillContent = {
             "Antarctica"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Asia is the largest continent by land area.",
 
@@ -121,6 +129,8 @@ const continents: SkillContent = {
             "North America"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "The Sahara Desert is located in Africa.",
 
@@ -144,6 +154,8 @@ const continents: SkillContent = {
             "Antarctica"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "The Amazon Rainforest is mainly found in South America.",
 
@@ -167,6 +179,8 @@ const continents: SkillContent = {
             "Australia"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Antarctica is a continent covered by a large ice sheet.",
 
@@ -190,6 +204,8 @@ const continents: SkillContent = {
             "Europe"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Australia is both a country and the name of a continent region.",
 
@@ -213,6 +229,8 @@ const continents: SkillContent = {
             "South America"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Europe is located north of Africa, across the Mediterranean Sea.",
 
@@ -236,6 +254,8 @@ const continents: SkillContent = {
             "Antarctica"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Asia is connected to and east of Europe.",
 
@@ -259,6 +279,8 @@ const continents: SkillContent = {
             "Asia"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "The United States is located in North America.",
 
@@ -282,6 +304,8 @@ const continents: SkillContent = {
             "Australia"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Brazil is a country in South America.",
 
@@ -305,6 +329,8 @@ const continents: SkillContent = {
             "South America"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Egypt is mainly located in Africa.",
 
@@ -328,6 +354,8 @@ const continents: SkillContent = {
             "To create oceans"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Continents help us organise and understand the world's geography.",
 
@@ -351,6 +379,8 @@ const continents: SkillContent = {
             "Predicting earthquakes"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "World maps show where places are located.",
 
@@ -374,6 +404,8 @@ const continents: SkillContent = {
             "Europe"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Africa contains more countries than any other continent.",
 
@@ -397,6 +429,8 @@ const continents: SkillContent = {
             "They are all the same size"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Continents vary in their physical and human geography.",
 
@@ -420,6 +454,8 @@ const continents: SkillContent = {
             "Antarctica"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Africa is located south of Europe.",
 
@@ -443,6 +479,8 @@ const continents: SkillContent = {
             "They remove borders"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Maps help us understand the location and size of continents.",
 
@@ -466,6 +504,8 @@ const continents: SkillContent = {
             "Continents cannot be mapped"
         ],
 
+        hint:
+            "Think about the key geography idea in the question and eliminate impossible answers.",
         explanation:
             "Continents are major land areas that contain many different places.",
 

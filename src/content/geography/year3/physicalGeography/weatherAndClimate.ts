@@ -28,6 +28,7 @@ const weatherAndClimate: SkillContent = {
             "A map symbol"
         ],
 
+        hint: "Think about today's conditions, not many years.",
         explanation:
             "Weather describes what it is like outside right now or over a short period of time.",
 
@@ -50,6 +51,7 @@ const weatherAndClimate: SkillContent = {
             "A road"
         ],
 
+        hint: "Choose something you could experience outside today.",
         explanation:
             "Rain is a weather condition.",
 
@@ -72,6 +74,7 @@ const weatherAndClimate: SkillContent = {
             "A map"
         ],
 
+        hint: "Focus on weather patterns over a very long time.",
         explanation:
             "Climate describes the usual weather in a place over a long period of time.",
 
@@ -94,6 +97,7 @@ const weatherAndClimate: SkillContent = {
             "Five"
         ],
 
+        hint: "Count the UK's regular yearly seasons.",
         explanation:
             "The UK has four seasons: spring, summer, autumn and winter.",
 
@@ -116,6 +120,7 @@ const weatherAndClimate: SkillContent = {
             "Spring"
         ],
 
+        hint: "Think about which season people expect the hottest days.",
         explanation:
             "Summer is usually the warmest season in the UK.",
 
@@ -138,6 +143,7 @@ const weatherAndClimate: SkillContent = {
             "Autumn"
         ],
 
+        hint: "Remember when frost and snow are most common.",
         explanation:
             "Winter is usually the coldest season.",
 
@@ -160,6 +166,7 @@ const weatherAndClimate: SkillContent = {
             "Map"
         ],
 
+        hint: "Choose the tool used to measure how hot or cold it is.",
         explanation:
             "A thermometer measures how hot or cold it is.",
 
@@ -182,6 +189,7 @@ const weatherAndClimate: SkillContent = {
             "Fog"
         ],
 
+        hint: "Think about what keeps you dry outdoors.",
         explanation:
             "Umbrellas help keep us dry when it rains.",
 
@@ -204,6 +212,7 @@ const weatherAndClimate: SkillContent = {
             "Cloud"
         ],
 
+        hint: "Picture what makes branches move.",
         explanation:
             "Strong winds can make trees move.",
 
@@ -226,6 +235,7 @@ const weatherAndClimate: SkillContent = {
             "Every country has the same weather."
         ],
 
+        hint: "Find the fact that is always true.",
         explanation:
             "Weather changes frequently, sometimes several times in one day.",
 
@@ -248,6 +258,7 @@ const weatherAndClimate: SkillContent = {
             "They mean exactly the same thing."
         ],
 
+        hint: "Compare a single day with many years.",
         explanation:
             "Weather describes current conditions, while climate describes usual conditions over many years.",
 
@@ -270,6 +281,7 @@ const weatherAndClimate: SkillContent = {
             "Winter has fewer roads."
         ],
 
+        hint: "Think about why warm clothes are needed.",
         explanation:
             "Warm clothes help keep us comfortable in cold weather.",
 
@@ -292,6 +304,7 @@ const weatherAndClimate: SkillContent = {
             "To help them swim"
         ],
 
+        hint: "Consider what protects you from strong sunshine.",
         explanation:
             "Sun hats and sunscreen help protect people from the Sun's rays.",
 
@@ -314,6 +327,7 @@ const weatherAndClimate: SkillContent = {
             "It builds roads."
         ],
 
+        hint: "Think about why people check forecasts before leaving home.",
         explanation:
             "Weather forecasts help people decide what to wear and what activities to plan.",
 
@@ -336,6 +350,7 @@ const weatherAndClimate: SkillContent = {
             "Summer"
         ],
 
+        hint: "Picture the season when new growth begins.",
         explanation:
             "Many plants begin growing and flowering during spring.",
 
@@ -358,6 +373,7 @@ const weatherAndClimate: SkillContent = {
             "Winter"
         ],
 
+        hint: "Think about when trees prepare for winter.",
         explanation:
             "In autumn many trees change colour before their leaves fall.",
 
@@ -380,6 +396,7 @@ const weatherAndClimate: SkillContent = {
             "Weather changes compass directions."
         ],
 
+        hint: "Imagine planning a picnic in different conditions.",
         explanation:
             "Heavy rain, strong winds or sunshine can affect what we choose to do.",
 
@@ -402,6 +419,7 @@ const weatherAndClimate: SkillContent = {
             "Road names"
         ],
 
+        hint: "Think about the information a forecast usually gives.",
         explanation:
             "Forecasts often include temperature, rain, wind and sunshine.",
 
@@ -424,6 +442,7 @@ const weatherAndClimate: SkillContent = {
             "They have different flags."
         ],
 
+        hint: "Consider how location affects usual weather.",
         explanation:
             "A country's location affects its usual weather over many years.",
 
@@ -446,6 +465,7 @@ const weatherAndClimate: SkillContent = {
             "Weather lasts for hundreds of years."
         ],
 
+        hint: "Compare short-term conditions with long-term patterns.",
         explanation:
             "Weather describes short-term conditions, while climate describes long-term patterns.",
 

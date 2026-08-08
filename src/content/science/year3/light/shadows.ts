@@ -28,6 +28,8 @@ const shadows: SkillContent = {
             "The object making light"
         ],
 
+        hint: "Think about what must happen to the light before a dark shape can appear.",
+
         explanation:
             "A shadow forms when an opaque object blocks light.",
 
@@ -49,6 +51,8 @@ const shadows: SkillContent = {
             "Inside a closed cupboard",
             "Underwater"
         ],
+
+        hint: "You need a strong source of light shining on you.",
 
         explanation:
             "Sunlight creates shadows when it is blocked.",
@@ -72,6 +76,8 @@ const shadows: SkillContent = {
             "A reflection"
         ],
 
+        hint: "A shadow shows the outline where light cannot reach.",
+
         explanation:
             "A shadow is a dark area where light is blocked.",
 
@@ -93,6 +99,8 @@ const shadows: SkillContent = {
             "Only water",
             "Only darkness"
         ],
+
+        hint: "One thing provides the light, and another blocks it.",
 
         explanation:
             "A shadow forms when an object blocks light from a light source.",
@@ -116,6 +124,8 @@ const shadows: SkillContent = {
             "The air"
         ],
 
+        hint: "Choose something solid that can stop light passing through it.",
+
         explanation:
             "A book blocks light and creates a shadow.",
 
@@ -137,6 +147,8 @@ const shadows: SkillContent = {
             "The shadow becomes colourful",
             "Nothing changes"
         ],
+
+        hint: "Can there be a shadow if there is no light to block?",
 
         explanation:
             "Without a light source there is no shadow.",
@@ -160,6 +172,8 @@ const shadows: SkillContent = {
             "A cloud"
         ],
 
+        hint: "Think about the brightest natural source of daylight.",
+
         explanation:
             "The Sun is the main source of light during the day.",
 
@@ -181,6 +195,8 @@ const shadows: SkillContent = {
             "It absorbs colour",
             "It makes darkness"
         ],
+
+        hint: "Think about what is missing in the shadowed area.",
 
         explanation:
             "The shadow is dark because light cannot reach that area.",
@@ -204,6 +220,8 @@ const shadows: SkillContent = {
             "Inside the object"
         ],
 
+        hint: "Imagine a torch shining on an object. Where can't the light reach?",
+
         explanation:
             "The shadow forms behind the object from the light source.",
 
@@ -226,6 +244,8 @@ const shadows: SkillContent = {
             "Shadows can only happen at night."
         ],
 
+        hint: "Look for the statement that matches how shadows are actually made.",
+
         explanation:
             "Blocking light creates a shadow.",
 
@@ -235,236 +255,251 @@ const shadows: SkillContent = {
 
         tags: ["science", "light", "shadows"]
     },
+{
+    id: "sci-shadows-011",
+    skillId: "shadows",
+    question: "What happens if you move closer to a torch while making a shadow?",
+    stage: "recognise",
+    options: [
+        "Your shadow gets bigger",
+        "Your shadow disappears",
+        "Your shadow gets brighter",
+        "Nothing changes"
+    ],
 
-    {
-        id: "sci-shadows-011",
-        skillId: "shadows",
-        question: "What happens if you move closer to a torch while making a shadow?",
-        stage: "recognise",
-        options: [
-            "Your shadow gets bigger",
-            "Your shadow disappears",
-            "Your shadow gets brighter",
-            "Nothing changes"
-        ],
+    hint: "Think about how much of the light beam is blocked when the object is nearer the torch.",
 
-        explanation:
-            "Moving closer to the light source usually makes the shadow larger.",
+    explanation:
+        "Moving closer to the light source usually makes the shadow larger.",
 
-        difficulty: 2,
-        correctAnswer: "Your shadow gets bigger",
-        estimatedSeconds: 20,
+    difficulty: 2,
+    correctAnswer: "Your shadow gets bigger",
+    estimatedSeconds: 20,
 
-        tags: ["science", "light", "shadows"]
-    },
+    tags: ["science", "light", "shadows"]
+},
 
-    {
-        id: "sci-shadows-012",
-        skillId: "shadows",
-        question: "What happens if you move further away from a torch?",
-        stage: "recognise",
-        options: [
-            "Your shadow gets smaller",
-            "Your shadow becomes colourful",
-            "Your shadow disappears immediately",
-            "The torch stops shining"
-        ],
+{
+    id: "sci-shadows-012",
+    skillId: "shadows",
+    question: "What happens if you move further away from a torch?",
+    stage: "recognise",
+    options: [
+        "Your shadow gets smaller",
+        "Your shadow becomes colourful",
+        "Your shadow disappears immediately",
+        "The torch stops shining"
+    ],
 
-        explanation:
-            "Moving away from the light source usually makes the shadow smaller.",
+    hint: "Imagine stepping back from a torch and watching the shadow on the wall.",
 
-        difficulty: 2,
-        correctAnswer: "Your shadow gets smaller",
-        estimatedSeconds: 20,
+    explanation:
+        "Moving away from the light source usually makes the shadow smaller.",
 
-        tags: ["science", "light", "shadows"]
-    },
+    difficulty: 2,
+    correctAnswer: "Your shadow gets smaller",
+    estimatedSeconds: 20,
 
-    {
-        id: "sci-shadows-013",
-        skillId: "shadows",
-        question: "Which investigation changes the size of a shadow?",
-        stage: "recognise",
-        options: [
-            "Moving the object nearer to the light",
-            "Changing the colour of the object",
-            "Closing your eyes",
-            "Painting the wall"
-        ],
+    tags: ["science", "light", "shadows"]
+},
 
-        explanation:
-            "The distance between the object and the light source affects shadow size.",
+{
+    id: "sci-shadows-013",
+    skillId: "shadows",
+    question: "Which investigation changes the size of a shadow?",
+    stage: "recognise",
+    options: [
+        "Moving the object nearer to the light",
+        "Changing the colour of the object",
+        "Closing your eyes",
+        "Painting the wall"
+    ],
 
-        difficulty: 2,
-        correctAnswer: "Moving the object nearer to the light",
-        estimatedSeconds: 20,
+    hint: "Think about which action changes the distance between the object and the light source.",
 
-        tags: ["science", "light", "investigation", "shadows"]
-    },
+    explanation:
+        "The distance between the object and the light source affects shadow size.",
 
-    {
-        id: "sci-shadows-014",
-        skillId: "shadows",
-        question: "Why does your shadow change during the day?",
-        stage: "recognise",
-        options: [
-            "The Sun appears to move across the sky",
-            "Your body changes size",
-            "The ground moves",
-            "The air changes colour"
-        ],
+    difficulty: 2,
+    correctAnswer: "Moving the object nearer to the light",
+    estimatedSeconds: 20,
 
-        explanation:
-            "As the Sun's position changes, the position and length of shadows change.",
+    tags: ["science", "light", "investigation", "shadows"]
+},
 
-        difficulty: 2,
-        correctAnswer: "The Sun appears to move across the sky",
-        estimatedSeconds: 20,
+{
+    id: "sci-shadows-014",
+    skillId: "shadows",
+    question: "Why does your shadow change during the day?",
+    stage: "recognise",
+    options: [
+        "The Sun appears to move across the sky",
+        "Your body changes size",
+        "The ground moves",
+        "The air changes colour"
+    ],
 
-        tags: ["science", "light", "sun", "shadows"]
-    },
+    hint: "Think about what changes in the sky from morning until evening.",
 
-    {
-        id: "sci-shadows-015",
-        skillId: "shadows",
-        question: "When is your shadow usually shortest outside?",
-        stage: "recognise",
-        options: [
-            "Around the middle of the day",
-            "Early morning",
-            "Late evening",
-            "At midnight"
-        ],
+    explanation:
+        "As the Sun's position changes, the position and length of shadows change.",
 
-        explanation:
-            "When the Sun is highest in the sky, shadows are usually shortest.",
+    difficulty: 2,
+    correctAnswer: "The Sun appears to move across the sky",
+    estimatedSeconds: 20,
 
-        difficulty: 2,
-        correctAnswer: "Around the middle of the day",
-        estimatedSeconds: 20,
+    tags: ["science", "light", "sun", "shadows"]
+},
 
-        tags: ["science", "light", "sun", "shadows"]
-    },
+{
+    id: "sci-shadows-015",
+    skillId: "shadows",
+    question: "When is your shadow usually shortest outside?",
+    stage: "recognise",
+    options: [
+        "Around the middle of the day",
+        "Early morning",
+        "Late evening",
+        "At midnight"
+    ],
 
-    {
-        id: "sci-shadows-016",
-        skillId: "shadows",
-        question: "What happens if there are two torches shining on one object?",
-        stage: "recognise",
-        options: [
-            "More than one shadow may appear",
-            "No shadow appears",
-            "The object glows",
-            "The torches switch off"
-        ],
+    hint: "Your shadow is shortest when the Sun is highest above you.",
 
-        explanation:
-            "Each light source can create its own shadow.",
+    explanation:
+        "When the Sun is highest in the sky, shadows are usually shortest.",
 
-        difficulty: 2,
-        correctAnswer: "More than one shadow may appear",
-        estimatedSeconds: 20,
+    difficulty: 2,
+    correctAnswer: "Around the middle of the day",
+    estimatedSeconds: 20,
 
-        tags: ["science", "light", "shadows"]
-    },
+    tags: ["science", "light", "sun", "shadows"]
+},
 
-    {
-        id: "sci-shadows-017",
-        skillId: "shadows",
-        question: "Why can't a shadow exist without light?",
-        stage: "recognise",
-        options: [
-            "A shadow is created when light is blocked",
-            "Shadows make light",
-            "Shadows are made of air",
-            "Shadows only appear in mirrors"
-        ],
+{
+    id: "sci-shadows-016",
+    skillId: "shadows",
+    question: "What happens if there are two torches shining on one object?",
+    stage: "recognise",
+    options: [
+        "More than one shadow may appear",
+        "No shadow appears",
+        "The object glows",
+        "The torches switch off"
+    ],
 
-        explanation:
-            "No light means there is nothing to block, so no shadow forms.",
+    hint: "Each torch shines from a different direction.",
 
-        difficulty: 2,
-        correctAnswer: "A shadow is created when light is blocked",
-        estimatedSeconds: 20,
+    explanation:
+        "Each light source can create its own shadow.",
 
-        tags: ["science", "light", "shadows"]
-    },
+    difficulty: 2,
+    correctAnswer: "More than one shadow may appear",
+    estimatedSeconds: 20,
 
-    {
-        id: "sci-shadows-018",
-        skillId: "shadows",
-        question: "A child moves a toy closer to a lamp. What happens to its shadow?",
-        stage: "recognise",
-        options: [
-            "It becomes larger",
-            "It disappears",
-            "It becomes lighter",
-            "It changes colour"
-        ],
+    tags: ["science", "light", "shadows"]
+},
 
-        explanation:
-            "Objects nearer the light source usually produce larger shadows.",
+{
+    id: "sci-shadows-017",
+    skillId: "shadows",
+    question: "Why can't a shadow exist without light?",
+    stage: "recognise",
+    options: [
+        "A shadow is created when light is blocked",
+        "Shadows make light",
+        "Shadows are made of air",
+        "Shadows only appear in mirrors"
+    ],
 
-        difficulty: 2,
-        correctAnswer: "It becomes larger",
-        estimatedSeconds: 20,
+    hint: "A shadow is not an object—it depends on something being blocked.",
 
-        tags: ["science", "light", "shadows"]
-    },
+    explanation:
+        "No light means there is nothing to block, so no shadow forms.",
 
-    {
-        id: "sci-shadows-019",
-        skillId: "shadows",
-        question: "What is the best way to investigate shadows?",
-        stage: "recognise",
-        options: [
-            "Change one thing at a time",
-            "Change everything together",
-            "Use no light source",
-            "Close your eyes"
-        ],
+    difficulty: 2,
+    correctAnswer: "A shadow is created when light is blocked",
+    estimatedSeconds: 20,
 
-        explanation:
-            "A fair test changes only one variable at a time.",
+    tags: ["science", "light", "shadows"]
+},
 
-        difficulty: 2,
-        correctAnswer: "Change one thing at a time",
-        estimatedSeconds: 20,
+{
+    id: "sci-shadows-018",
+    skillId: "shadows",
+    question: "A child moves a toy closer to a lamp. What happens to its shadow?",
+    stage: "recognise",
+    options: [
+        "It becomes larger",
+        "It disappears",
+        "It becomes lighter",
+        "It changes colour"
+    ],
 
-        tags: ["science", "working-scientifically", "investigation", "shadows"]
-    },
+    hint: "Moving closer to the lamp changes the size of the blocked light.",
 
-    {
-        id: "sci-shadows-020",
-        skillId: "shadows",
-        question: "Which sentence best explains how shadows are formed?",
-        stage: "recognise",
-        options: [
-            "A shadow forms when an opaque object blocks light from a light source.",
-            "Shadows make light disappear.",
-            "Shadows are reflections in mirrors.",
-            "Shadows only happen at night."
-        ],
+    explanation:
+        "Objects nearer the light source usually produce larger shadows.",
 
-        explanation:
-            "Shadows are created whenever light is blocked by an opaque object.",
+    difficulty: 2,
+    correctAnswer: "It becomes larger",
+    estimatedSeconds: 20,
 
-        difficulty: 2,
-        correctAnswer: "A shadow forms when an opaque object blocks light from a light source.",
-        estimatedSeconds: 20,
+    tags: ["science", "light", "shadows"]
+},
 
-        tags: ["science", "light", "shadows", "light-source"]
-    }
+{
+    id: "sci-shadows-019",
+    skillId: "shadows",
+    question: "What is the best way to investigate shadows?",
+    stage: "recognise",
+    options: [
+        "Change one thing at a time",
+        "Change everything together",
+        "Use no light source",
+        "Close your eyes"
+    ],
 
-    ]
+    hint: "A fair test lets you see which single change caused the result.",
 
+    explanation:
+        "A fair test changes only one variable at a time.",
+
+    difficulty: 2,
+    correctAnswer: "Change one thing at a time",
+    estimatedSeconds: 20,
+
+    tags: ["science", "working-scientifically", "investigation", "shadows"]
+},
+
+{
+    id: "sci-shadows-020",
+    skillId: "shadows",
+    question: "Which sentence best explains how shadows are formed?",
+    stage: "recognise",
+    options: [
+        "A shadow forms when an opaque object blocks light from a light source.",
+        "Shadows make light disappear.",
+        "Shadows are reflections in mirrors.",
+        "Shadows only happen at night."
+    ],
+
+    hint: "Look for the answer that mentions both a light source and something blocking it.",
+
+    explanation:
+        "Shadows are created whenever light is blocked by an opaque object.",
+
+    difficulty: 2,
+    correctAnswer: "A shadow forms when an opaque object blocks light from a light source.",
+    estimatedSeconds: 20,
+
+    tags: ["science", "light", "shadows", "light-source"]
+}
+
+]
 };
-
 
 export default shadows;
 
 export {
-
     shadows
-
 };

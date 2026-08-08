@@ -11,1111 +11,1210 @@ const findTenMoreLess: SkillContent = {
     version: 1,
 
     activities: [
-{
-    id: "find-ten-more-less-001",
+        {
+            id: "find-ten-more-less-001",
 
-    skillId: "find-ten-more-less",
+            skillId: "find-ten-more-less",
 
-    stage: "recognise",
+            stage: "recognise",
 
-    question: "What is 10 more than 246?",
+            question: "What is 10 more than 246?",
 
-    options: [
-        "256",
-        "247",
-        "236",
-        "346"
-    ],
+            hint: "Adding 10 changes the tens digit by one while the ones digit stays 6.",
 
-    correctAnswer: "256",
+            options: [
+                "256",
+                "247",
+                "236",
+                "346"
+            ],
 
-    explanation:
-        "Adding 10 increases the tens digit by 1."
-},
+            correctAnswer: "256",
 
-{
-    id: "find-ten-more-less-002",
+            explanation:
+                "Adding 10 increases the tens digit by 1."
+        },
 
-    skillId: "find-ten-more-less",
+        {
+            id: "find-ten-more-less-002",
 
-    stage: "recognise",
+            skillId: "find-ten-more-less",
 
-    question: "What is 10 less than 583?",
+            stage: "recognise",
 
-    options: [
-        "573",
-        "593",
-        "582",
-        "483"
-    ],
+            question: "What is 10 less than 583?",
 
-    correctAnswer: "573",
+            hint: "Take away one group of ten. The ones digit stays 3.",
 
-    explanation:
-        "Subtracting 10 decreases the tens digit by 1."
-},
+            options: [
+                "573",
+                "593",
+                "582",
+                "483"
+            ],
 
-{
-    id: "find-ten-more-less-003",
+            correctAnswer: "573",
 
-    skillId: "find-ten-more-less",
+            explanation:
+                "Subtracting 10 decreases the tens digit by 1."
+        },
 
-    stage: "recognise",
+        {
+            id: "find-ten-more-less-003",
 
-    question: "What is 10 more than 399?",
+            skillId: "find-ten-more-less",
 
-    options: [
-        "409",
-        "400",
-        "499",
-        "389"
-    ],
+            stage: "recognise",
 
-    correctAnswer: "409",
+            question: "What is 10 more than 399?",
 
-    explanation:
-        "399 + 10 = 409."
-},
+            hint: "Nine tens plus one more ten makes a new hundred, but the ones digit stays 9.",
 
-{
-    id: "find-ten-more-less-004",
+            options: [
+                "409",
+                "400",
+                "499",
+                "389"
+            ],
 
-    skillId: "find-ten-more-less",
+            correctAnswer: "409",
 
-    stage: "recognise",
+            explanation:
+                "399 + 10 = 409."
+        },
 
-    question: "What is 10 less than 700?",
+        {
+            id: "find-ten-more-less-004",
 
-    options: [
-        "690",
-        "699",
-        "600",
-        "710"
-    ],
+            skillId: "find-ten-more-less",
 
-    correctAnswer: "690",
+            stage: "recognise",
 
-    explanation:
-        "700 - 10 = 690."
-},
+            question: "What is 10 less than 700?",
 
-{
-    id: "find-ten-more-less-005",
+            hint: "Subtract one ten from 700. The hundreds stay the same.",
 
-    skillId: "find-ten-more-less",
+            options: [
+                "690",
+                "699",
+                "600",
+                "710"
+            ],
 
-    stage: "recognise",
+            correctAnswer: "690",
 
-    question: "What is 10 more than 990?",
+            explanation:
+                "700 - 10 = 690."
+        },
 
-    options: [
-        "991",
-        "1000",
-        "999",
-        "1090"
-    ],
+        {
+            id: "find-ten-more-less-005",
 
-    correctAnswer: "1000",
+            skillId: "find-ten-more-less",
 
-    explanation:
-        "990 + 10 = 1000."
-},
+            stage: "recognise",
 
-{
-    id: "find-ten-more-less-006",
+            question: "What is 10 more than 990?",
 
-    skillId: "find-ten-more-less",
+            hint: "Adding one more ten to ninety tens creates one thousand.",
 
-    stage: "recognise",
+            options: [
+                "991",
+                "1000",
+                "999",
+                "1090"
+            ],
 
-    question: "What is 10 less than 401?",
+            correctAnswer: "1000",
 
-    options: [
-        "391",
-        "400",
-        "411",
-        "301"
-    ],
+            explanation:
+                "990 + 10 = 1000."
+        },
 
-    correctAnswer: "391",
+        {
+            id: "find-ten-more-less-006",
 
-    explanation:
-        "401 - 10 = 391."
-},
+            skillId: "find-ten-more-less",
 
-{
-    id: "find-ten-more-less-007",
+            stage: "recognise",
 
-    skillId: "find-ten-more-less",
+            question: "What is 10 less than 401?",
 
-    stage: "recognise",
+            hint: "Remove one ten. The ones digit remains 1.",
 
-    question: "What is 10 more than 850?",
+            options: [
+                "391",
+                "400",
+                "411",
+                "301"
+            ],
 
-    options: [
-        "851",
-        "860",
-        "950",
-        "840"
-    ],
+            correctAnswer: "391",
 
-    correctAnswer: "860",
+            explanation:
+                "401 - 10 = 391."
+        },
 
-    explanation:
-        "850 + 10 = 860."
-},
+        {
+            id: "find-ten-more-less-007",
 
-{
-    id: "find-ten-more-less-008",
+            skillId: "find-ten-more-less",
 
-    skillId: "find-ten-more-less",
+            stage: "recognise",
 
-    stage: "recognise",
+            question: "What is 10 more than 850?",
 
-    question: "What is 10 less than 320?",
+            hint: "Move forward by one ten without changing the hundreds or ones.",
 
-    options: [
-        "319",
-        "310",
-        "220",
-        "330"
-    ],
+            options: [
+                "851",
+                "860",
+                "950",
+                "840"
+            ],
 
-    correctAnswer: "310",
+            correctAnswer: "860",
 
-    explanation:
-        "320 - 10 = 310."
-},
+            explanation:
+                "850 + 10 = 860."
+        },
 
-{
-    id: "find-ten-more-less-009",
+        {
+            id: "find-ten-more-less-008",
 
-    skillId: "find-ten-more-less",
+            skillId: "find-ten-more-less",
 
-    stage: "recognise",
+            stage: "recognise",
 
-    question: "What is 10 more than 109?",
+            question: "What is 10 less than 320?",
 
-    options: [
-        "119",
-        "110",
-        "209",
-        "99"
-    ],
+            hint: "Count back one ten. The number of ones stays at 0.",
 
-    correctAnswer: "119",
+            options: [
+                "319",
+                "310",
+                "220",
+                "330"
+            ],
 
-    explanation:
-        "109 + 10 = 119."
-},
+            correctAnswer: "310",
 
-{
-    id: "find-ten-more-less-010",
+            explanation:
+                "320 - 10 = 310."
+        },
 
-    skillId: "find-ten-more-less",
+        {
+            id: "find-ten-more-less-009",
 
-    stage: "recognise",
+            skillId: "find-ten-more-less",
 
-    question: "What is 10 less than 560?",
+            stage: "recognise",
 
-    options: [
-        "550",
-        "559",
-        "460",
-        "570"
-    ],
+            question: "What is 10 more than 109?",
 
-    correctAnswer: "550",
+            hint: "Keep the 9 ones the same and increase the tens by one.",
 
-    explanation:
-        "560 - 10 = 550."
-},
+            options: [
+                "119",
+                "110",
+                "209",
+                "99"
+            ],
 
-{
-    id: "find-ten-more-less-011",
+            correctAnswer: "119",
 
-    skillId: "find-ten-more-less",
+            explanation:
+                "109 + 10 = 119."
+        },
 
-    stage: "recognise",
+        {
+            id: "find-ten-more-less-010",
 
-    question: "What is 10 more than 675?",
+            skillId: "find-ten-more-less",
 
-    options: [
-        "685",
-        "676",
-        "775",
-        "665"
-    ],
+            stage: "recognise",
 
-    correctAnswer: "685",
+            question: "What is 10 less than 560?",
 
-    explanation:
-        "675 + 10 = 685."
-},
+            hint: "Subtract one group of ten. The ones digit does not change.",
 
-{
-    id: "find-ten-more-less-012",
+            options: [
+                "550",
+                "559",
+                "460",
+                "570"
+            ],
 
-    skillId: "find-ten-more-less",
+            correctAnswer: "550",
 
-    stage: "recognise",
+            explanation:
+                "560 - 10 = 550."
+        },
 
-    question: "What is 10 less than 142?",
+        {
+            id: "find-ten-more-less-011",
 
-    options: [
-        "132",
-        "141",
-        "152",
-        "42"
-    ],
+            skillId: "find-ten-more-less",
 
-    correctAnswer: "132",
+            stage: "recognise",
 
-    explanation:
-        "142 - 10 = 132."
-},
+            question: "What is 10 more than 675?",
 
-{
-    id: "find-ten-more-less-013",
+            hint: "Only the tens place increases by one because you're adding exactly 10.",
 
-    skillId: "find-ten-more-less",
+            options: [
+                "685",
+                "676",
+                "775",
+                "665"
+            ],
 
-    stage: "understand",
+            correctAnswer: "685",
 
-    question: "Which digit usually changes when you add 10?",
+            explanation:
+                "675 + 10 = 685."
+        },
 
-    options: [
-        "Ones",
-        "Tens",
-        "Hundreds",
-        "Thousands"
-    ],
+        {
+            id: "find-ten-more-less-012",
 
-    correctAnswer: "Tens",
+            skillId: "find-ten-more-less",
 
-    explanation:
-        "Adding 10 usually changes the tens digit while the ones digit stays the same."
-},
+            stage: "recognise",
 
-{
-    id: "find-ten-more-less-014",
+            question: "What is 10 less than 142?",
 
-    skillId: "find-ten-more-less",
+            hint: "Think of taking away one ten while leaving the 2 ones untouched.",
 
-    stage: "understand",
+            options: [
+                "132",
+                "141",
+                "152",
+                "42"
+            ],
 
-    question: "Why does 295 become 305 when you add 10?",
+            correctAnswer: "132",
 
-    options: [
-        "The tens roll over and increase the hundreds.",
-        "The ones increase.",
-        "The hundreds decrease.",
-        "Nothing changes."
-    ],
+            explanation:
+                "142 - 10 = 132."
+        },
 
-    correctAnswer: "The tens roll over and increase the hundreds.",
+        {
+            id: "find-ten-more-less-013",
 
-    explanation:
-        "Nine tens plus one more ten makes ten tens, which is exchanged for one hundred."
-},
+            skillId: "find-ten-more-less",
 
-{
-    id: "find-ten-more-less-015",
+            stage: "understand",
 
-    skillId: "find-ten-more-less",
+            question: "Which digit usually changes when you add 10?",
 
-    stage: "understand",
+            hint: "Adding one ten affects the tens place unless it rolls over into the hundreds.",
 
-    question: "What stays the same when you add 10 to 347?",
+            options: [
+                "Ones",
+                "Tens",
+                "Hundreds",
+                "Thousands"
+            ],
 
-    options: [
-        "The ones digit",
-        "The tens digit",
-        "The whole number",
-        "Every digit"
-    ],
+            correctAnswer: "Tens",
 
-    correctAnswer: "The ones digit",
+            explanation:
+                "Adding 10 usually changes the tens digit while the ones digit stays the same."
+        },
 
-    explanation:
-        "347 becomes 357, so the ones digit remains 7."
-},
-{
-    id: "find-ten-more-less-016",
+        {
+            id: "find-ten-more-less-014",
 
-    skillId: "find-ten-more-less",
+            skillId: "find-ten-more-less",
 
-    stage: "understand",
+            stage: "understand",
 
-    question: "Which number is 10 more than 478?",
+            question: "Why does 295 become 305 when you add 10?",
 
-    options: [
-        "488",
-        "479",
-        "578",
-        "468"
-    ],
+            hint: "Nine tens plus one more ten cannot stay in the tens column.",
 
-    correctAnswer: "488",
+            options: [
+                "The tens roll over and increase the hundreds.",
+                "The ones increase.",
+                "The hundreds decrease.",
+                "Nothing changes."
+            ],
 
-    explanation:
-        "Adding 10 changes the tens digit from 7 to 8."
-},
+            correctAnswer: "The tens roll over and increase the hundreds.",
 
-{
-    id: "find-ten-more-less-017",
+            explanation:
+                "Nine tens plus one more ten makes ten tens, which is exchanged for one hundred."
+        },
 
-    skillId: "find-ten-more-less",
+        {
+            id: "find-ten-more-less-015",
 
-    stage: "understand",
+            skillId: "find-ten-more-less",
 
-    question: "Which number is 10 less than 623?",
+            stage: "understand",
 
-    options: [
-        "613",
-        "622",
-        "523",
-        "633"
-    ],
+            question: "What stays the same when you add 10 to 347?",
 
-    correctAnswer: "613",
+            hint: "Adding a multiple of ten does not change how many ones there are.",
 
-    explanation:
-        "Subtracting 10 changes the tens digit from 2 to 1."
-},
+            options: [
+                "The ones digit",
+                "The tens digit",
+                "The whole number",
+                "Every digit"
+            ],
 
-{
-    id: "find-ten-more-less-018",
+            correctAnswer: "The ones digit",
 
-    skillId: "find-ten-more-less",
+            explanation:
+                "347 becomes 357, so the ones digit remains 7."
+        },
 
-    stage: "understand",
+        {
+            id: "find-ten-more-less-016",
 
-    question: "What happens when you add 10 to 990?",
+            skillId: "find-ten-more-less",
 
-    options: [
-        "It becomes 991.",
-        "It becomes 1000.",
-        "It becomes 1090.",
-        "It becomes 999."
-    ],
+            stage: "understand",
 
-    correctAnswer: "It becomes 1000.",
+            question: "Which number is 10 more than 478?",
 
-    explanation:
-        "Nine hundreds and nine tens plus one more ten equals 1000."
-},
+            hint: "Increase the tens digit by one but keep the 8 ones the same.",
 
-{
-    id: "find-ten-more-less-019",
+            options: [
+                "488",
+                "479",
+                "578",
+                "468"
+            ],
 
-    skillId: "find-ten-more-less",
+            correctAnswer: "488",
 
-    stage: "understand",
+            explanation:
+                "Adding 10 changes the tens digit from 7 to 8."
+        },
 
-    question: "Which place value changes first when subtracting 10?",
+        {
+            id: "find-ten-more-less-017",
 
-    options: [
-        "Ones",
-        "Tens",
-        "Hundreds",
-        "Thousands"
-    ],
+            skillId: "find-ten-more-less",
 
-    correctAnswer: "Tens",
+            stage: "understand",
 
-    explanation:
-        "Subtracting 10 affects the tens first."
-},
+            question: "Which number is 10 less than 623?",
 
-{
-    id: "find-ten-more-less-020",
+            hint: "Move back by one ten while keeping the ones digit unchanged.",
 
-    skillId: "find-ten-more-less",
+            options: [
+                "613",
+                "622",
+                "523",
+                "633"
+            ],
 
-    stage: "understand",
+            correctAnswer: "613",
 
-    question: "Which calculation crosses into the next hundred?",
+            explanation:
+                "Subtracting 10 changes the tens digit from 2 to 1."
+        },
 
-    options: [
-        "495 + 10",
-        "482 + 10",
-        "643 - 10",
-        "271 + 10"
-    ],
+        {
+            id: "find-ten-more-less-018",
 
-    correctAnswer: "495 + 10",
+            skillId: "find-ten-more-less",
 
-    explanation:
-        "495 + 10 = 505, which crosses into the next hundred."
-},
+            stage: "understand",
 
-{
-    id: "find-ten-more-less-021",
+            question: "What happens when you add 10 to 990?",
 
-    skillId: "find-ten-more-less",
+            hint: "Think of 990 as 99 tens. One more ten makes a new thousand.",
 
-    stage: "apply",
+            options: [
+                "It becomes 991.",
+                "It becomes 1000.",
+                "It becomes 1090.",
+                "It becomes 999."
+            ],
 
-    question: "A shop sold 246 toys this week. It sells 10 more next week. How many toys does it sell?",
+            correctAnswer: "It becomes 1000.",
 
-    options: [
-        "256",
-        "247",
-        "236",
-        "346"
-    ],
+            explanation:
+                "Nine hundreds and nine tens plus one more ten equals 1000."
+        },
 
-    correctAnswer: "256",
+        {
+            id: "find-ten-more-less-019",
 
-    explanation:
-        "246 + 10 = 256."
-},
+            skillId: "find-ten-more-less",
 
-{
-    id: "find-ten-more-less-022",
+            stage: "understand",
 
-    skillId: "find-ten-more-less",
+            question: "Which place value changes first when subtracting 10?",
 
-    stage: "apply",
+            hint: "Subtracting exactly one ten affects the tens column before any exchanging happens.",
 
-    question: "A library has 415 books on one shelf. Ten books are moved away. How many books remain?",
+            options: [
+                "Ones",
+                "Tens",
+                "Hundreds",
+                "Thousands"
+            ],
 
-    options: [
-        "405",
-        "414",
-        "315",
-        "425"
-    ],
+            correctAnswer: "Tens",
 
-    correctAnswer: "405",
+            explanation:
+                "Subtracting 10 affects the tens first."
+        },
 
-    explanation:
-        "415 - 10 = 405."
-},
+        {
+            id: "find-ten-more-less-020",
 
-{
-    id: "find-ten-more-less-023",
+            skillId: "find-ten-more-less",
 
-    skillId: "find-ten-more-less",
+            stage: "understand",
 
-    stage: "apply",
+            question: "Which calculation crosses into the next hundred?",
 
-    question: "Sam scored 580 points. He earns 10 more. What is his new score?",
+            hint: "Look for a number with 9 tens that becomes 10 tens after adding 10.",
 
-    options: [
-        "590",
-        "581",
-        "680",
-        "570"
-    ],
+            options: [
+                "495 + 10",
+                "482 + 10",
+                "643 - 10",
+                "271 + 10"
+            ],
 
-    correctAnswer: "590",
+            correctAnswer: "495 + 10",
 
-    explanation:
-        "580 + 10 = 590."
-},
+            explanation:
+                "495 + 10 = 505, which crosses into the next hundred."
+        },
 
-{
-    id: "find-ten-more-less-024",
+        {
+            id: "find-ten-more-less-021",
 
-    skillId: "find-ten-more-less",
+            skillId: "find-ten-more-less",
 
-    stage: "apply",
+            stage: "apply",
 
-    question: "A farmer has 703 sheep. Ten sheep are moved to another field. How many sheep are left?",
+            question: "A shop sold 246 toys this week. It sells 10 more next week. How many toys does it sell?",
 
-    options: [
-        "693",
-        "702",
-        "603",
-        "713"
-    ],
+            hint: "Next week's sales are one group of ten higher. Increase the tens digit but keep the ones digit the same.",
 
-    correctAnswer: "693",
+            options: [
+                "256",
+                "247",
+                "236",
+                "346"
+            ],
 
-    explanation:
-        "703 - 10 = 693."
-},
+            correctAnswer: "256",
 
-{
-    id: "find-ten-more-less-025",
+            explanation:
+                "246 + 10 = 256."
+        },
 
-    skillId: "find-ten-more-less",
+        {
+            id: "find-ten-more-less-022",
 
-    stage: "apply",
+            skillId: "find-ten-more-less",
 
-    question: "A toy shop has 990 toy cars. Ten more arrive. How many toy cars are there now?",
+            stage: "apply",
 
-    options: [
-        "1000",
-        "991",
-        "1090",
-        "980"
-    ],
+            question: "A library has 415 books on one shelf. Ten books are moved away. How many books remain?",
 
-    correctAnswer: "1000",
+            hint: "Removing 10 means taking away exactly one ten. The 5 ones stay unchanged.",
 
-    explanation:
-        "990 + 10 = 1000."
-},
+            options: [
+                "405",
+                "414",
+                "315",
+                "425"
+            ],
 
-{
-    id: "find-ten-more-less-026",
+            correctAnswer: "405",
 
-    skillId: "find-ten-more-less",
+            explanation:
+                "415 - 10 = 405."
+        },
 
-    stage: "apply",
+        {
+            id: "find-ten-more-less-023",
 
-    question: "Ben has 364 stickers. He receives 10 more. How many stickers does he have now?",
+            skillId: "find-ten-more-less",
 
-    options: [
-        "374",
-        "365",
-        "354",
-        "464"
-    ],
+            stage: "apply",
 
-    correctAnswer: "374",
+            question: "Sam scored 580 points. He earns 10 more. What is his new score?",
 
-    explanation:
-        "364 + 10 = 374."
-},
+            hint: "Add one ten to the score without changing the hundreds or ones digits.",
 
-{
-    id: "find-ten-more-less-027",
+            options: [
+                "590",
+                "581",
+                "680",
+                "570"
+            ],
 
-    skillId: "find-ten-more-less",
+            correctAnswer: "590",
 
-    stage: "apply",
+            explanation:
+                "580 + 10 = 590."
+        },
 
-    question: "There are 842 people at a concert. Ten people leave. How many people remain?",
+        {
+            id: "find-ten-more-less-024",
 
-    options: [
-        "832",
-        "841",
-        "742",
-        "852"
-    ],
+            skillId: "find-ten-more-less",
 
-    correctAnswer: "832",
+            stage: "apply",
 
-    explanation:
-        "842 - 10 = 832."
-},
+            question: "A farmer has 703 sheep. Ten sheep are moved to another field. How many sheep are left?",
 
-{
-    id: "find-ten-more-less-028",
+            hint: "Take away one ten from 703. The 3 ones remain the same.",
 
-    skillId: "find-ten-more-less",
+            options: [
+                "693",
+                "702",
+                "603",
+                "713"
+            ],
 
-    stage: "apply",
+            correctAnswer: "693",
 
-    question: "A train carries 689 passengers. Ten more passengers get on. How many passengers are on the train?",
+            explanation:
+                "703 - 10 = 693."
+        },
 
-    options: [
-        "699",
-        "690",
-        "789",
-        "679"
-    ],
+        {
+            id: "find-ten-more-less-025",
 
-    correctAnswer: "699",
+            skillId: "find-ten-more-less",
 
-    explanation:
-        "689 + 10 = 699."
-},
+            stage: "apply",
 
-{
-    id: "find-ten-more-less-029",
+            question: "A toy shop has 990 toy cars. Ten more arrive. How many toy cars are there now?",
 
-    skillId: "find-ten-more-less",
+            hint: "Ninety-nine tens plus one more ten makes one hundred tens, which equals one thousand.",
 
-    stage: "apply",
+            options: [
+                "1000",
+                "991",
+                "1090",
+                "980"
+            ],
 
-    question: "There are 530 apples in storage. Ten apples are taken away. How many apples remain?",
+            correctAnswer: "1000",
 
-    options: [
-        "520",
-        "529",
-        "430",
-        "540"
-    ],
+            explanation:
+                "990 + 10 = 1000."
+        },
 
-    correctAnswer: "520",
+        {
+            id: "find-ten-more-less-026",
 
-    explanation:
-        "530 - 10 = 520."
-},
+            skillId: "find-ten-more-less",
 
-{
-    id: "find-ten-more-less-030",
+            stage: "apply",
 
-    skillId: "find-ten-more-less",
+            question: "Ben has 364 stickers. He receives 10 more. How many stickers does he have now?",
 
-    stage: "apply",
+            hint: "Receiving 10 more stickers increases only the tens place by one.",
 
-    question: "A game score is 175. You score 10 more points. What is the new score?",
+            options: [
+                "374",
+                "365",
+                "354",
+                "464"
+            ],
 
-    options: [
-        "185",
-        "176",
-        "165",
-        "275"
-    ],
+            correctAnswer: "374",
 
-    correctAnswer: "185",
+            explanation:
+                "364 + 10 = 374."
+        },
 
-    explanation:
-        "175 + 10 = 185."
-},
-{
-    id: "find-ten-more-less-031",
+        {
+            id: "find-ten-more-less-027",
 
-    skillId: "find-ten-more-less",
+            skillId: "find-ten-more-less",
 
-    stage: "master",
+            stage: "apply",
 
-    question: "Complete the pattern: 340, 350, ___",
+            question: "There are 842 people at a concert. Ten people leave. How many people remain?",
 
-    options: [
-        "351",
-        "360",
-        "440",
-        "330"
-    ],
+            hint: "Count back one ten. The hundreds and ones digits do not change.",
 
-    correctAnswer: "360",
+            options: [
+                "832",
+                "841",
+                "742",
+                "852"
+            ],
 
-    explanation:
-        "The pattern increases by 10 each time."
-},
+            correctAnswer: "832",
 
-{
-    id: "find-ten-more-less-032",
+            explanation:
+                "842 - 10 = 832."
+        },
 
-    skillId: "find-ten-more-less",
+        {
+            id: "find-ten-more-less-028",
 
-    stage: "master",
+            skillId: "find-ten-more-less",
 
-    question: "Complete the pattern: 615, 605, ___",
+            stage: "apply",
 
-    options: [
-        "595",
-        "606",
-        "600",
-        "5950"
-    ],
+            question: "A train carries 689 passengers. Ten more passengers get on. How many passengers are on the train?",
 
-    correctAnswer: "595",
+            hint: "Adding 10 changes the 8 tens into 9 tens while the 9 ones stay the same.",
 
-    explanation:
-        "The pattern decreases by 10 each time."
-},
+            options: [
+                "699",
+                "690",
+                "789",
+                "679"
+            ],
 
-{
-    id: "find-ten-more-less-033",
+            correctAnswer: "699",
 
-    skillId: "find-ten-more-less",
+            explanation:
+                "689 + 10 = 699."
+        },
 
-    stage: "master",
+        {
+            id: "find-ten-more-less-029",
 
-    question: "Which number is 10 more than 458?",
+            skillId: "find-ten-more-less",
 
-    options: [
-        "468",
-        "459",
-        "558",
-        "448"
-    ],
+            stage: "apply",
 
-    correctAnswer: "468",
+            question: "There are 530 apples in storage. Ten apples are taken away. How many apples remain?",
 
-    explanation:
-        "458 + 10 = 468."
-},
+            hint: "Subtract one group of ten. The number of ones remains zero.",
 
-{
-    id: "find-ten-more-less-034",
+            options: [
+                "520",
+                "529",
+                "430",
+                "540"
+            ],
 
-    skillId: "find-ten-more-less",
+            correctAnswer: "520",
 
-    stage: "master",
+            explanation:
+                "530 - 10 = 520."
+        },
 
-    question: "Which number is 10 less than 730?",
+        {
+            id: "find-ten-more-less-030",
 
-    options: [
-        "720",
-        "729",
-        "630",
-        "740"
-    ],
+            skillId: "find-ten-more-less",
 
-    correctAnswer: "720",
+            stage: "apply",
 
-    explanation:
-        "730 - 10 = 720."
-},
+            question: "A game score is 175. You score 10 more points. What is the new score?",
 
-{
-    id: "find-ten-more-less-035",
+            hint: "Increase the tens digit by one while keeping the 5 ones unchanged.",
 
-    skillId: "find-ten-more-less",
+            options: [
+                "185",
+                "176",
+                "165",
+                "275"
+            ],
 
-    stage: "master",
+            correctAnswer: "185",
 
-    question: "Fill the gap: 970, 980, 990, ___",
+            explanation:
+                "175 + 10 = 185."
+        },
 
-    options: [
-        "991",
-        "1000",
-        "999",
-        "1010"
-    ],
+        {
+            id: "find-ten-more-less-031",
 
-    correctAnswer: "1000",
+            skillId: "find-ten-more-less",
 
-    explanation:
-        "Adding 10 to 990 gives 1000."
-},
+            stage: "master",
 
-{
-    id: "find-ten-more-less-036",
+            question: "Complete the pattern: 340, 350, ___",
 
-    skillId: "find-ten-more-less",
+            hint: "Look at the difference between the first two numbers, then repeat it once more.",
 
-    stage: "master",
+            options: [
+                "351",
+                "360",
+                "440",
+                "330"
+            ],
 
-    question: "Fill the gap: 430, 420, 410, ___",
+            correctAnswer: "360",
 
-    options: [
-        "400",
-        "401",
-        "390",
-        "440"
-    ],
+            explanation:
+                "The pattern increases by 10 each time."
+        },
 
-    correctAnswer: "400",
+        {
+            id: "find-ten-more-less-032",
 
-    explanation:
-        "The numbers decrease by 10 each time."
-},
+            skillId: "find-ten-more-less",
 
-{
-    id: "find-ten-more-less-037",
+            stage: "master",
 
-    skillId: "find-ten-more-less",
+            question: "Complete the pattern: 615, 605, ___",
 
-    stage: "master",
+            hint: "The sequence is counting backwards by one ten each step.",
 
-    question: "What is 10 more than 781?",
+            options: [
+                "595",
+                "606",
+                "600",
+                "5950"
+            ],
 
-    options: [
-        "791",
-        "782",
-        "881",
-        "771"
-    ],
+            correctAnswer: "595",
 
-    correctAnswer: "791",
+            explanation:
+                "The pattern decreases by 10 each time."
+        },
 
-    explanation:
-        "781 + 10 = 791."
-},
+        {
+            id: "find-ten-more-less-033",
 
-{
-    id: "find-ten-more-less-038",
+            skillId: "find-ten-more-less",
 
-    skillId: "find-ten-more-less",
+            stage: "master",
 
-    stage: "master",
+            question: "Which number is 10 more than 458?",
 
-    question: "What is 10 less than 1000?",
+            hint: "Add one ten, keeping the 8 ones exactly the same.",
 
-    options: [
-        "990",
-        "999",
-        "900",
-        "1010"
-    ],
+            options: [
+                "468",
+                "459",
+                "558",
+                "448"
+            ],
 
-    correctAnswer: "990",
+            correctAnswer: "468",
 
-    explanation:
-        "1000 - 10 = 990."
-},
+            explanation:
+                "458 + 10 = 468."
+        },
 
-{
-    id: "find-ten-more-less-039",
+        {
+            id: "find-ten-more-less-034",
 
-    skillId: "find-ten-more-less",
+            skillId: "find-ten-more-less",
 
-    stage: "master",
+            stage: "master",
 
-    question: "Which pair differs by 10?",
+            question: "Which number is 10 less than 730?",
 
-    options: [
-        "615 and 625",
-        "615 and 616",
-        "615 and 635",
-        "615 and 6050"
-    ],
+            hint: "Move back by one ten. Only the tens place changes.",
 
-    correctAnswer: "615 and 625",
+            options: [
+                "720",
+                "729",
+                "630",
+                "740"
+            ],
 
-    explanation:
-        "625 is exactly 10 more than 615."
-},
+            correctAnswer: "720",
 
-{
-    id: "find-ten-more-less-040",
+            explanation:
+                "730 - 10 = 720."
+        },
 
-    skillId: "find-ten-more-less",
+        {
+            id: "find-ten-more-less-035",
 
-    stage: "master",
+            skillId: "find-ten-more-less",
 
-    question: "Which statement is true?",
+            stage: "master",
 
-    options: [
-        "10 more than 690 is 700.",
-        "10 more than 690 is 691.",
-        "10 less than 690 is 689.",
-        "10 less than 690 is 6800."
-    ],
+            question: "Fill the gap: 970, 980, 990, ___",
 
-    correctAnswer: "10 more than 690 is 700.",
+            hint: "Each number is one ten more than the last. After 990, another ten creates a new thousand.",
 
-    explanation:
-        "690 + 10 = 700."
-},
+            options: [
+                "991",
+                "1000",
+                "999",
+                "1010"
+            ],
 
-{
-    id: "find-ten-more-less-041",
+            correctAnswer: "1000",
 
-    skillId: "find-ten-more-less",
+            explanation:
+                "Adding 10 to 990 gives 1000."
+        },
 
-    stage: "master",
+        {
+            id: "find-ten-more-less-036",
 
-    question: "Complete the pattern: 128, 138, 148, ___",
+            skillId: "find-ten-more-less",
 
-    options: [
-        "149",
-        "158",
-        "248",
-        "118"
-    ],
+            stage: "master",
 
-    correctAnswer: "158",
+            question: "Fill the gap: 430, 420, 410, ___",
 
-    explanation:
-        "The pattern increases by 10."
-},
+            hint: "The pattern counts backwards by one ten each time. Keep following the same rule.",
 
-{
-    id: "find-ten-more-less-042",
+            options: [
+                "400",
+                "401",
+                "390",
+                "440"
+            ],
 
-    skillId: "find-ten-more-less",
+            correctAnswer: "400",
 
-    stage: "master",
+            explanation:
+                "The numbers decrease by 10 each time."
+        },
 
-    question: "Complete the pattern: 904, 894, 884, ___",
+        {
+            id: "find-ten-more-less-037",
 
-    options: [
-        "874",
-        "894",
-        "904",
-        "8840"
-    ],
+            skillId: "find-ten-more-less",
 
-    correctAnswer: "874",
+            stage: "master",
 
-    explanation:
-        "The pattern decreases by 10."
-},
+            question: "What is 10 more than 781?",
 
-{
-    id: "find-ten-more-less-043",
+            hint: "Add one ten while leaving the hundreds digit and the 1 one unchanged.",
 
-    skillId: "find-ten-more-less",
+            options: [
+                "791",
+                "782",
+                "881",
+                "771"
+            ],
 
-    stage: "master",
+            correctAnswer: "791",
 
-    question: "10 more than 239 is:",
+            explanation:
+                "781 + 10 = 791."
+        },
 
-    options: [
-        "249",
-        "240",
-        "339",
-        "229"
-    ],
+        {
+            id: "find-ten-more-less-038",
 
-    correctAnswer: "249",
+            skillId: "find-ten-more-less",
 
-    explanation:
-        "239 + 10 = 249."
-},
+            stage: "master",
 
-{
-    id: "find-ten-more-less-044",
+            question: "What is 10 less than 1000?",
 
-    skillId: "find-ten-more-less",
+            hint: "Think of 1000 as 100 tens. Taking away one ten leaves 99 tens.",
 
-    stage: "master",
+            options: [
+                "990",
+                "999",
+                "900",
+                "1010"
+            ],
 
-    question: "10 less than 812 is:",
+            correctAnswer: "990",
 
-    options: [
-        "802",
-        "811",
-        "712",
-        "822"
-    ],
+            explanation:
+                "1000 - 10 = 990."
+        },
 
-    correctAnswer: "802",
+        {
+            id: "find-ten-more-less-039",
 
-    explanation:
-        "812 - 10 = 802."
-},
+            skillId: "find-ten-more-less",
 
-{
-    id: "find-ten-more-less-045",
+            stage: "master",
 
-    skillId: "find-ten-more-less",
+            question: "Which pair differs by 10?",
 
-    stage: "master",
+            hint: "Compare the distance between each pair. Only one pair is exactly one group of ten apart.",
 
-    question: "Which number comes 10 after 576?",
+            options: [
+                "615 and 625",
+                "615 and 616",
+                "615 and 635",
+                "615 and 6050"
+            ],
 
-    options: [
-        "586",
-        "577",
-        "676",
-        "566"
-    ],
+            correctAnswer: "615 and 625",
 
-    correctAnswer: "586",
+            explanation:
+                "625 is exactly 10 more than 615."
+        },
 
-    explanation:
-        "576 + 10 = 586."
-},
+        {
+            id: "find-ten-more-less-040",
 
-{
-    id: "find-ten-more-less-046",
+            skillId: "find-ten-more-less",
 
-    skillId: "find-ten-more-less",
+            stage: "master",
 
-    stage: "master",
+            question: "Which statement is true?",
 
-    question: "Which number comes 10 before 401?",
+            hint: "Test each statement by mentally adding or subtracting one ten from 690.",
 
-    options: [
-        "391",
-        "400",
-        "301",
-        "411"
-    ],
+            options: [
+                "10 more than 690 is 700.",
+                "10 more than 690 is 691.",
+                "10 less than 690 is 689.",
+                "10 less than 690 is 6800."
+            ],
 
-    correctAnswer: "391",
+            correctAnswer: "10 more than 690 is 700.",
 
-    explanation:
-        "401 - 10 = 391."
-},
+            explanation:
+                "690 + 10 = 700."
+        },
 
-{
-    id: "find-ten-more-less-047",
+        {
+            id: "find-ten-more-less-041",
 
-    skillId: "find-ten-more-less",
+            skillId: "find-ten-more-less",
 
-    stage: "master",
+            stage: "master",
 
-    question: "Find the missing number: 756, ___, 776",
+            question: "Complete the pattern: 128, 138, 148, ___",
 
-    options: [
-        "757",
-        "766",
-        "775",
-        "786"
-    ],
+            hint: "The ones digit never changes. Only the tens increase by one each step.",
 
-    correctAnswer: "766",
+            options: [
+                "149",
+                "158",
+                "248",
+                "118"
+            ],
 
-    explanation:
-        "The numbers increase by 10."
-},
+            correctAnswer: "158",
 
-{
-    id: "find-ten-more-less-048",
+            explanation:
+                "The pattern increases by 10."
+        },
 
-    skillId: "find-ten-more-less",
+        {
+            id: "find-ten-more-less-042",
 
-    stage: "master",
+            skillId: "find-ten-more-less",
 
-    question: "Find the missing number: 502, 492, ___",
+            stage: "master",
 
-    options: [
-        "482",
-        "493",
-        "491",
-        "480"
-    ],
+            question: "Complete the pattern: 904, 894, 884, ___",
 
-    correctAnswer: "482",
+            hint: "Each number is one ten smaller than the previous one while the ones digit stays 4.",
 
-    explanation:
-        "The numbers decrease by 10."
-},
+            options: [
+                "874",
+                "894",
+                "904",
+                "8840"
+            ],
 
-{
-    id: "find-ten-more-less-049",
+            correctAnswer: "874",
 
-    skillId: "find-ten-more-less",
+            explanation:
+                "The pattern decreases by 10."
+        },
 
-    stage: "master",
+        {
+            id: "find-ten-more-less-043",
 
-    question: "What is 10 more than 89?",
+            skillId: "find-ten-more-less",
 
-    options: [
-        "99",
-        "90",
-        "109",
-        "79"
-    ],
+            stage: "master",
 
-    correctAnswer: "99",
+            question: "10 more than 239 is:",
 
-    explanation:
-        "89 + 10 = 99."
-},
+            hint: "Increase the tens digit by one without changing the 9 ones.",
 
-{
-    id: "find-ten-more-less-050",
+            options: [
+                "249",
+                "240",
+                "339",
+                "229"
+            ],
 
-    skillId: "find-ten-more-less",
+            correctAnswer: "249",
 
-    stage: "master",
+            explanation:
+                "239 + 10 = 249."
+        },
 
-    question: "What is 10 less than 300?",
+        {
+            id: "find-ten-more-less-044",
 
-    options: [
-        "290",
-        "299",
-        "200",
-        "310"
-    ],
+            skillId: "find-ten-more-less",
 
-    correctAnswer: "290",
+            stage: "master",
 
-    explanation:
-        "300 - 10 = 290."
-}
+            question: "10 less than 812 is:",
+
+            hint: "Move back one ten. The hundreds and ones digits stay the same.",
+
+            options: [
+                "802",
+                "811",
+                "712",
+                "822"
+            ],
+
+            correctAnswer: "802",
+
+            explanation:
+                "812 - 10 = 802."
+        },
+
+        {
+            id: "find-ten-more-less-045",
+
+            skillId: "find-ten-more-less",
+
+            stage: "master",
+
+            question: "Which number comes 10 after 576?",
+
+            hint: "Count forward by one ten while keeping the 6 ones unchanged.",
+
+            options: [
+                "586",
+                "577",
+                "676",
+                "566"
+            ],
+
+            correctAnswer: "586",
+
+            explanation:
+                "576 + 10 = 586."
+        },
+
+        {
+            id: "find-ten-more-less-046",
+
+            skillId: "find-ten-more-less",
+
+            stage: "master",
+
+            question: "Which number comes 10 before 401?",
+
+            hint: "Subtract one ten but leave the 1 one exactly where it is.",
+
+            options: [
+                "391",
+                "400",
+                "301",
+                "411"
+            ],
+
+            correctAnswer: "391",
+
+            explanation:
+                "401 - 10 = 391."
+        },
+
+        {
+            id: "find-ten-more-less-047",
+
+            skillId: "find-ten-more-less",
+
+            stage: "master",
+
+            question: "Find the missing number: 756, ___, 776",
+
+            hint: "The numbers increase by ten each step, so the missing number is halfway through the pattern.",
+
+            options: [
+                "757",
+                "766",
+                "775",
+                "786"
+            ],
+
+            correctAnswer: "766",
+
+            explanation:
+                "The numbers increase by 10."
+        },
+
+        {
+            id: "find-ten-more-less-048",
+
+            skillId: "find-ten-more-less",
+
+            stage: "master",
+
+            question: "Find the missing number: 502, 492, ___",
+
+            hint: "Keep subtracting one ten each time. Notice that the ones digit stays 2.",
+
+            options: [
+                "482",
+                "493",
+                "491",
+                "480"
+            ],
+
+            correctAnswer: "482",
+
+            explanation:
+                "The numbers decrease by 10."
+        },
+
+        {
+            id: "find-ten-more-less-049",
+
+            skillId: "find-ten-more-less",
+
+            stage: "master",
+
+            question: "What is 10 more than 89?",
+
+            hint: "Adding one ten to 89 changes the tens but not the 9 ones.",
+
+            options: [
+                "99",
+                "90",
+                "109",
+                "79"
+            ],
+
+            correctAnswer: "99",
+
+            explanation:
+                "89 + 10 = 99."
+        },
+
+        {
+            id: "find-ten-more-less-050",
+
+            skillId: "find-ten-more-less",
+
+            stage: "master",
+
+            question: "What is 10 less than 300?",
+
+            hint: "Take away one ten from three hundred. Think of 300 as 30 tens.",
+
+            options: [
+                "290",
+                "299",
+                "200",
+                "310"
+            ],
+
+            correctAnswer: "290",
+
+            explanation:
+                "300 - 10 = 290."
+        }
     ]
 };
-
 
 export default findTenMoreLess;
 
 export {
-
     findTenMoreLess
-
 };

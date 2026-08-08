@@ -28,6 +28,9 @@ const planetOrder: SkillContent = {
             "Mars"
         ],
 
+        hint:
+            "Think about which planet starts the Solar System's sequence from the Sun.",
+
         explanation:
             "Mercury is the first planet from the Sun.",
 
@@ -54,6 +57,9 @@ const planetOrder: SkillContent = {
             "Earth",
             "Mars"
         ],
+
+        hint:
+            "Start with Mercury, then choose the planet that comes next.",
 
         explanation:
             "Venus is the second planet from the Sun.",
@@ -82,6 +88,9 @@ const planetOrder: SkillContent = {
             "Jupiter"
         ],
 
+        hint:
+            "Count: Mercury first, Venus second. Which planet is next?",
+
         explanation:
             "Earth is the third planet from the Sun.",
 
@@ -108,6 +117,9 @@ const planetOrder: SkillContent = {
             "Jupiter",
             "Venus"
         ],
+
+        hint:
+            "Think of the first four planets in order and pick the last of those four.",
 
         explanation:
             "Mars is the fourth planet from the Sun.",
@@ -136,6 +148,9 @@ const planetOrder: SkillContent = {
             "Neptune"
         ],
 
+        hint:
+            "After the four small rocky planets comes the first giant planet.",
+
         explanation:
             "Jupiter is the fifth planet from the Sun.",
 
@@ -162,6 +177,9 @@ const planetOrder: SkillContent = {
             "Uranus",
             "Neptune"
         ],
+
+        hint:
+            "Find Jupiter first, then choose the planet that comes immediately after it.",
 
         explanation:
             "Saturn is the sixth planet from the Sun.",
@@ -190,6 +208,9 @@ const planetOrder: SkillContent = {
             "Jupiter"
         ],
 
+        hint:
+            "There are only two planets beyond Saturn. Which one comes first?",
+
         explanation:
             "Uranus is the seventh planet from the Sun.",
 
@@ -216,6 +237,9 @@ const planetOrder: SkillContent = {
             "Saturn",
             "Jupiter"
         ],
+
+        hint:
+            "Think of the planet that is farthest from the Sun in today's Solar System.",
 
         explanation:
             "Neptune is the eighth and farthest planet from the Sun.",
@@ -244,6 +268,9 @@ const planetOrder: SkillContent = {
             "Jupiter"
         ],
 
+        hint:
+            "Picture the planets lined up from the Sun and move forward one place from Mercury.",
+
         explanation:
             "Venus comes immediately after Mercury.",
 
@@ -269,6 +296,9 @@ const planetOrder: SkillContent = {
             "Mercury",
             "Jupiter"
         ],
+
+        hint:
+            "Don't restart the list—just move one step forward from Venus.",
 
         explanation:
             "Earth comes immediately after Venus.",
@@ -296,6 +326,9 @@ const planetOrder: SkillContent = {
             "Mercury"
         ],
 
+        hint:
+            "Earth is third from the Sun. Which planet is fourth?",
+
         explanation:
             "Mars comes immediately after Earth.",
 
@@ -321,6 +354,9 @@ const planetOrder: SkillContent = {
             "Earth",
             "Neptune"
         ],
+
+        hint:
+            "Mars is the last rocky planet before the largest gas giant.",
 
         explanation:
             "Jupiter comes immediately after Mars.",
@@ -348,6 +384,9 @@ const planetOrder: SkillContent = {
             "Mars"
         ],
 
+        hint:
+            "Jupiter is the fifth planet. Think about which planet is sixth.",
+
         explanation:
             "Saturn comes immediately after Jupiter.",
 
@@ -374,6 +413,9 @@ const planetOrder: SkillContent = {
             "Mars"
         ],
 
+        hint:
+            "Only two planets come after Saturn. Choose the nearer one.",
+
         explanation:
             "Uranus comes immediately after Saturn.",
 
@@ -389,49 +431,55 @@ const planetOrder: SkillContent = {
     },
 
     {
-        id: "sci-planets-order-015",
-        skillId: "planet-order",
-        question: "Which planet comes immediately after Uranus?",
-        stage: "recognise",
-        options: [
-            "Neptune",
-            "Saturn",
-            "Jupiter",
-            "Earth"
-        ],
+    id: "sci-planets-order-015",
+    skillId: "planet-order",
+    question: "Which planet comes immediately after Uranus?",
+    stage: "recognise",
+    options: [
+        "Neptune",
+        "Saturn",
+        "Jupiter",
+        "Earth"
+    ],
 
-        explanation:
-            "Neptune is the last planet in the Solar System.",
+    hint:
+        "Uranus is the second-to-last planet. Which planet comes after it?",
 
-        difficulty: 1,
-        correctAnswer: "Neptune",
-        estimatedSeconds: 12,
+    explanation:
+        "Neptune is the last planet in the Solar System.",
 
-        tags: [
-            "science",
-            "space",
-            "planet-order"
-        ]
-    },
+    difficulty: 1,
+    correctAnswer: "Neptune",
+    estimatedSeconds: 12,
 
-    {
+    tags: [
+        "science",
+        "space",
+        "planet-order"
+    ]
+},
+
+{
     id: "sci-planets-order-016",
-        skillId: "planet-order",
-        question: "Which planet comes immediately before Earth?",
-        stage: "recognise",
-        options: [
+    skillId: "planet-order",
+    question: "Which planet comes immediately before Earth?",
+    stage: "recognise",
+    options: [
         "Venus",
         "Mercury",
         "Mars",
         "Jupiter"
     ],
 
+    hint:
+        "Earth is the third planet. Think about which planet is second.",
+
     explanation:
         "Venus is the second planet, so it comes immediately before Earth.",
 
     difficulty: 2,
-        correctAnswer: "Venus",
-        estimatedSeconds: 15,
+    correctAnswer: "Venus",
+    estimatedSeconds: 15,
 
     tags: [
         "science",
@@ -451,6 +499,9 @@ const planetOrder: SkillContent = {
         "Jupiter",
         "Mercury"
     ],
+
+    hint:
+        "Mars is fourth in the Solar System. Which planet is third?",
 
     explanation:
         "Earth is the third planet and Mars is the fourth.",
@@ -478,6 +529,9 @@ const planetOrder: SkillContent = {
         "Venus"
     ],
 
+    hint:
+        "Jupiter is the fifth planet. Move back one place in the sequence.",
+
     explanation:
         "Mars is the fourth planet and Jupiter is the fifth.",
 
@@ -503,6 +557,9 @@ const planetOrder: SkillContent = {
         "Uranus",
         "Neptune"
     ],
+
+    hint:
+        "Saturn follows the largest planet in the Solar System.",
 
     explanation:
         "Jupiter is the fifth planet and Saturn is the sixth.",
@@ -530,6 +587,9 @@ const planetOrder: SkillContent = {
         "Mars"
     ],
 
+    hint:
+        "Uranus comes after the planet with the famous rings.",
+
     explanation:
         "Saturn comes immediately before Uranus.",
 
@@ -555,6 +615,9 @@ const planetOrder: SkillContent = {
         "Jupiter",
         "Earth"
     ],
+
+    hint:
+        "Neptune is the last planet. Which planet is just before the last?",
 
     explanation:
         "Uranus is the seventh planet and Neptune is the eighth.",
@@ -582,6 +645,9 @@ const planetOrder: SkillContent = {
         "Saturn"
     ],
 
+    hint:
+        "Think of the first three planets in order. Which one is in the middle?",
+
     explanation:
         "Venus is between Mercury and Earth.",
 
@@ -607,6 +673,9 @@ const planetOrder: SkillContent = {
         "Saturn",
         "Mercury"
     ],
+
+    hint:
+        "Earth is third and Jupiter is fifth. Which planet is fourth?",
 
     explanation:
         "Mars comes after Earth and before Jupiter.",
@@ -634,6 +703,9 @@ const planetOrder: SkillContent = {
         "Earth"
     ],
 
+    hint:
+        "List these three in order: Jupiter, ?, Uranus.",
+
     explanation:
         "Saturn is between Jupiter and Uranus.",
 
@@ -659,6 +731,9 @@ const planetOrder: SkillContent = {
         "Mars",
         "Earth"
     ],
+
+    hint:
+        "There is only one planet separating Saturn from Neptune.",
 
     explanation:
         "Uranus is between Saturn and Neptune.",
@@ -686,6 +761,9 @@ const planetOrder: SkillContent = {
         "Mercury and Mars"
     ],
 
+    hint:
+        "Earth is third, so think about the first and second planets.",
+
     explanation:
         "Mercury is first and Venus is second, so both come before Earth.",
 
@@ -712,6 +790,9 @@ const planetOrder: SkillContent = {
         "Earth and Mars"
     ],
 
+    hint:
+        "Saturn is sixth. Name the seventh and eighth planets.",
+
     explanation:
         "The two planets after Saturn are Uranus and Neptune.",
 
@@ -737,6 +818,9 @@ const planetOrder: SkillContent = {
         "Mars",
         "Jupiter"
     ],
+
+    hint:
+        "Ask yourself whether an even number of objects can have one single middle item.",
 
     explanation:
         "There are eight planets, so there is no single middle planet. Mars is fourth and Jupiter is fifth.",
@@ -765,6 +849,9 @@ const planetOrder: SkillContent = {
         "Earth"
     ],
 
+    hint:
+        "Neptune is the last of the eight planets. The question is asking about planets only.",
+
     explanation:
         "Neptune is the eighth and last planet in our Solar System.",
 
@@ -791,6 +878,9 @@ const planetOrder: SkillContent = {
         "Jupiter"
     ],
 
+    hint:
+        "Begin at Mercury, then count the planets you visit—not including where you started.",
+
     explanation:
         "After Mercury, the next planet is Venus.",
 
@@ -804,6 +894,7 @@ const planetOrder: SkillContent = {
         "planet-order"
     ]
 },
+
 {
     id: "sci-planets-order-031",
     skillId: "planet-order",
@@ -815,6 +906,9 @@ const planetOrder: SkillContent = {
         "Venus, Mercury, Earth",
         "Earth, Venus, Mercury"
     ],
+
+    hint:
+        "Think about the first, second and third planets from the Sun without skipping any.",
 
     explanation:
         "The first three planets are Mercury, Venus and Earth.",
@@ -842,6 +936,9 @@ const planetOrder: SkillContent = {
         "Uranus, Saturn, Neptune"
     ],
 
+    hint:
+        "Start at the sixth planet and continue to the end of the Solar System.",
+
     explanation:
         "The last three planets are Saturn, Uranus and Neptune.",
 
@@ -867,6 +964,9 @@ const planetOrder: SkillContent = {
         "Saturn",
         "Earth"
     ],
+
+    hint:
+        "Move forward one planet at a time from Mercury until you've moved four places.",
 
     explanation:
         "Starting at Mercury: Venus (1), Earth (2), Mars (3), Jupiter (4).",
@@ -895,6 +995,9 @@ const planetOrder: SkillContent = {
         "Venus"
     ],
 
+    hint:
+        "The first step after Earth is Mars. Take one more step.",
+
     explanation:
         "After Earth comes Mars, then Jupiter.",
 
@@ -922,6 +1025,9 @@ const planetOrder: SkillContent = {
         "Earth"
     ],
 
+    hint:
+        "Work backwards from Neptune, counting one planet at a time.",
+
     explanation:
         "Counting backwards from Neptune: Uranus (1), Saturn (2), Jupiter (3).",
 
@@ -940,7 +1046,7 @@ const planetOrder: SkillContent = {
 {
     id: "sci-planets-order-036",
     skillId: "planet-order",
-    question: "Mercury, Venus, Earth, ___, Jupiter. Which planet is missing?",
+    question: "Mercury, Venus, Earth, ____, Jupiter. Which planet is missing?",
     stage: "recognise",
     options: [
         "Mars",
@@ -948,6 +1054,9 @@ const planetOrder: SkillContent = {
         "Neptune",
         "Uranus"
     ],
+
+    hint:
+        "Look for the one planet that fits naturally between Earth and Jupiter.",
 
     explanation:
         "Mars comes between Earth and Jupiter.",
@@ -966,7 +1075,7 @@ const planetOrder: SkillContent = {
 {
     id: "sci-planets-order-037",
     skillId: "planet-order",
-    question: "Mercury, Venus, Earth, Mars, Jupiter, ___, Uranus. Which planet is missing?",
+    question: "Mercury, Venus, Earth, Mars, Jupiter, ____, Uranus. Which planet is missing?",
     stage: "recognise",
     options: [
         "Saturn",
@@ -974,6 +1083,9 @@ const planetOrder: SkillContent = {
         "Earth",
         "Mercury"
     ],
+
+    hint:
+        "Find the planet that comes immediately after Jupiter and before Uranus.",
 
     explanation:
         "Saturn comes after Jupiter and before Uranus.",
@@ -1001,6 +1113,9 @@ const planetOrder: SkillContent = {
         "Sixth"
     ],
 
+    hint:
+        "Mars comes immediately after Earth, so increase the position by one.",
+
     explanation:
         "Mars comes immediately after Earth, making it the fourth planet.",
 
@@ -1026,6 +1141,9 @@ const planetOrder: SkillContent = {
         "Seventh",
         "Eighth"
     ],
+
+    hint:
+        "Saturn comes straight after Jupiter, so its position is one higher.",
 
     explanation:
         "Saturn comes immediately after Jupiter, so it is the sixth planet.",
@@ -1053,6 +1171,9 @@ const planetOrder: SkillContent = {
         "Neptune comes before Saturn."
     ],
 
+    hint:
+        "Compare the positions of Earth and Mars in the Solar System before checking the other statements.",
+
     explanation:
         "Earth is the third planet and Mars is the fourth, so Earth comes first.",
 
@@ -1078,6 +1199,9 @@ const planetOrder: SkillContent = {
         "Saturn comes after Neptune.",
         "Saturn is the last planet."
     ],
+
+    hint:
+        "Remember the order around these planets: Jupiter, Saturn, Uranus.",
 
     explanation:
         "Jupiter is fifth and Saturn is sixth, so Saturn comes after Jupiter.",
@@ -1105,6 +1229,9 @@ const planetOrder: SkillContent = {
         "Venus comes before Mercury."
     ],
 
+    hint:
+        "Focus on the final two planets in the Solar System.",
+
     explanation:
         "Uranus is the seventh planet and Neptune is the eighth.",
 
@@ -1130,6 +1257,9 @@ const planetOrder: SkillContent = {
         "Venus and Mars",
         "Saturn and Neptune"
     ],
+
+    hint:
+        "Look for the pair with no planet between them in the Solar System.",
 
     explanation:
         "Mars is immediately followed by Jupiter.",
@@ -1157,6 +1287,9 @@ const planetOrder: SkillContent = {
         "Saturn and Uranus"
     ],
 
+    hint:
+        "Check whether another planet sits between the two names.",
+
     explanation:
         "Mars sits between Earth and Jupiter, so they are not next to each other.",
 
@@ -1183,6 +1316,9 @@ const planetOrder: SkillContent = {
         "Earth"
     ],
 
+    hint:
+        "Count Mercury as first, then continue the sequence carefully.",
+
     explanation:
         "Counting from the Sun gives Mercury, Venus, Earth, Mars and then Jupiter.",
 
@@ -1196,6 +1332,7 @@ const planetOrder: SkillContent = {
         "planet-order"
     ]
 },
+
 {
     id: "sci-planets-order-046",
     skillId: "planet-order",
@@ -1207,6 +1344,9 @@ const planetOrder: SkillContent = {
         "Jupiter",
         "Mars"
     ],
+
+    hint:
+        "First identify the last planet, then move back one place.",
 
     explanation:
         "Neptune is the last planet, so Uranus comes immediately before it.",
@@ -1234,6 +1374,9 @@ const planetOrder: SkillContent = {
         "Mercury"
     ],
 
+    hint:
+        "The first planet is Mercury. Which planet follows it straight away?",
+
     explanation:
         "Mercury is first and Venus comes immediately after it.",
 
@@ -1259,6 +1402,9 @@ const planetOrder: SkillContent = {
         "Mercury, Venus, Earth, Jupiter, Mars, Saturn, Uranus, Neptune",
         "Mercury, Venus, Earth, Mars, Saturn, Jupiter, Uranus, Neptune"
     ],
+
+    hint:
+        "Check each list from left to right and stop as soon as you spot a pair of planets in the wrong order.",
 
     explanation:
         "The correct order from the Sun is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
@@ -1287,6 +1433,9 @@ const planetOrder: SkillContent = {
         "Earth is closer to the Sun than Venus."
     ],
 
+    hint:
+        "The planet that appears earlier in the order is closer to the Sun.",
+
     explanation:
         "Mars is the fourth planet and Jupiter is the fifth, so Mars is closer to the Sun.",
 
@@ -1314,6 +1463,9 @@ const planetOrder: SkillContent = {
         "No, Neptune should come before Uranus."
     ],
 
+    hint:
+        "Read through Sofia's list one planet at a time and see if every neighbouring pair is in the correct order.",
+
     explanation:
         "Well done! Sofia has named all eight planets in the correct order from the Sun.",
 
@@ -1332,11 +1484,8 @@ const planetOrder: SkillContent = {
 ]
 };
 
-
 export default planetOrder;
 
 export {
-
     planetOrder
-
 };

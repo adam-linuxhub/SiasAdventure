@@ -29,6 +29,9 @@ const rainforestBiome: SkillContent = {
             "Only in Europe"
         ],
 
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
+
         explanation:
             "Tropical rainforests are usually found in warm areas close to the equator.",
 
@@ -51,6 +54,9 @@ const rainforestBiome: SkillContent = {
             "Frozen all year",
             "Cool with no rainfall"
         ],
+
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
 
         explanation:
             "Rainforests have high temperatures and lots of rainfall.",
@@ -75,6 +81,9 @@ const rainforestBiome: SkillContent = {
             "They are very dry"
         ],
 
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
+
         explanation:
             "Rainforests have conditions that allow many species to live there.",
 
@@ -97,6 +106,9 @@ const rainforestBiome: SkillContent = {
             "The height of trees",
             "The number of roads"
         ],
+
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
 
         explanation:
             "Rainforests have high biodiversity because they contain many species.",
@@ -121,6 +133,9 @@ const rainforestBiome: SkillContent = {
             "A river through the forest"
         ],
 
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
+
         explanation:
             "The canopy is the upper layer where tree branches and leaves meet.",
 
@@ -143,6 +158,9 @@ const rainforestBiome: SkillContent = {
             "The roots",
             "The soil layer"
         ],
+
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
 
         explanation:
             "The canopy receives most of the sunlight because it is at the top.",
@@ -167,6 +185,9 @@ const rainforestBiome: SkillContent = {
             "Above the treetops"
         ],
 
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
+
         explanation:
             "The thick canopy blocks much of the sunlight from reaching the forest floor.",
 
@@ -189,6 +210,9 @@ const rainforestBiome: SkillContent = {
             "There is no sunlight",
             "They grow underwater"
         ],
+
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
 
         explanation:
             "Trees grow upwards to reach sunlight above other plants.",
@@ -213,6 +237,9 @@ const rainforestBiome: SkillContent = {
             "Arctic fox"
         ],
 
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
+
         explanation:
             "Many animals, including monkeys, live in tropical rainforests.",
 
@@ -235,6 +262,9 @@ const rainforestBiome: SkillContent = {
             "They remove rainfall",
             "They create deserts"
         ],
+
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
 
         explanation:
             "Plants provide shelter and food for rainforest animals.",
@@ -259,6 +289,9 @@ const rainforestBiome: SkillContent = {
             "Measuring rainfall"
         ],
 
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
+
         explanation:
             "Deforestation happens when forests are cleared.",
 
@@ -281,6 +314,9 @@ const rainforestBiome: SkillContent = {
             "Because animals remove them",
             "Because rainforests are empty"
         ],
+
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
 
         explanation:
             "People may clear rainforests for farming, roads and materials.",
@@ -305,6 +341,9 @@ const rainforestBiome: SkillContent = {
             "They create oceans"
         ],
 
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
+
         explanation:
             "Rainforests are important ecosystems with many environmental roles.",
 
@@ -327,6 +366,9 @@ const rainforestBiome: SkillContent = {
             "A weather event",
             "A mountain range"
         ],
+
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
 
         explanation:
             "Many indigenous communities have lived in rainforest areas for generations.",
@@ -351,6 +393,9 @@ const rainforestBiome: SkillContent = {
             "Trees remove all soil"
         ],
 
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
+
         explanation:
             "Rain can wash nutrients deeper into the ground.",
 
@@ -373,6 +418,9 @@ const rainforestBiome: SkillContent = {
             "They cannot survive there",
             "They all live the same way"
         ],
+
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
 
         explanation:
             "Animals have features that help them survive in rainforest conditions.",
@@ -397,6 +445,9 @@ const rainforestBiome: SkillContent = {
             "Only soil"
         ],
 
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
+
         explanation:
             "An ecosystem includes living things and their surroundings.",
 
@@ -419,6 +470,9 @@ const rainforestBiome: SkillContent = {
             "By increasing pollution",
             "By destroying habitats"
         ],
+
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
 
         explanation:
             "Conservation helps protect rainforest ecosystems.",
@@ -443,6 +497,9 @@ const rainforestBiome: SkillContent = {
             "Because they have no trees"
         ],
 
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
+
         explanation:
             "The name comes from their high rainfall levels.",
 
@@ -465,6 +522,9 @@ const rainforestBiome: SkillContent = {
             "A dry area with little life",
             "A place without trees"
         ],
+
+        hint:
+            "Think about the key idea in the question and rule out answers that describe a different habitat or feature.",
 
         explanation:
             "Tropical rainforests are warm, wet ecosystems with high biodiversity.",

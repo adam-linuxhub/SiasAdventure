@@ -21,6 +21,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "What does an apostrophe for possession show?",
         stage: "recognise",
+        hint: "Think about what ownership means.",
         options: [
             "That something belongs to someone",
             "That a sentence is a question",
@@ -43,6 +44,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which sentence shows that the bone belongs to the dog?",
         stage: "recognise",
+        hint: "Who does the bone belong to?",
         options: [
             "The dog's bone.",
             "The dogs bone.",
@@ -65,6 +67,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Look for the apostrophe showing ownership.",
         options: [
             "Sophie's bag is blue.",
             "Sophies bag is blue.",
@@ -87,6 +90,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which phrase means the tail belongs to the cat?",
         stage: "recognise",
+        hint: "Who owns the tail?",
         options: [
             "The cat's tail",
             "The cats tail",
@@ -109,6 +113,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Where does the apostrophe go in 'Ben book'?",
         stage: "recognise",
+        hint: "The book belongs to Ben.",
         options: [
             "Ben's book",
             "Bens' book",
@@ -131,6 +136,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which phrase is correct?",
         stage: "recognise",
+        hint: "Does the nest belong to one bird or many?",
         options: [
             "The bird's nest",
             "The birds nest",
@@ -153,6 +159,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Who owns the desk?",
         options: [
             "The teacher's desk is tidy.",
             "The teachers desk is tidy.",
@@ -175,6 +182,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "What belongs to Emma in 'Emma's coat'?",
         stage: "recognise",
+        hint: "What belongs to Emma?",
         options: [
             "The coat",
             "Emma",
@@ -197,6 +205,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which sentence needs a possessive apostrophe?",
         stage: "recognise",
+        hint: "Which sentence needs to show ownership?",
         options: [
             "The girl hat is red.",
             "The girl is happy.",
@@ -219,6 +228,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "What does 'Jack's bike' mean?",
         stage: "recognise",
+        hint: "Think about what 'Jack's' tells you.",
         options: [
             "The bike belongs to Jack.",
             "Jack is riding a bike.",
@@ -241,6 +251,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which sentence is written correctly?",
         stage: "recognise",
+        hint: "Who do the ears belong to?",
         options: [
             "The rabbit's ears are long.",
             "The rabbits ears are long.",
@@ -263,6 +274,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which phrase shows the toy belongs to Mia?",
         stage: "recognise",
+        hint: "The toy belongs to Mia.",
         options: [
             "Mia's toy",
             "Mias toy",
@@ -285,6 +297,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which sentence uses a possessive apostrophe correctly?",
         stage: "recognise",
+        hint: "Who owns the roar?",
         options: [
             "The lion's roar was loud.",
             "The lions roar was loud.",
@@ -307,6 +320,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Who owns the pencil?",
         options: [
             "Oliver's pencil is sharp.",
             "Olivers pencil is sharp.",
@@ -329,6 +343,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "What does the apostrophe show in 'the baby's blanket'?",
         stage: "recognise",
+        hint: "The apostrophe shows who owns something.",
         options: [
             "The blanket belongs to the baby.",
             "The baby is missing letters.",
@@ -351,6 +366,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Choose the correctly written phrase.",
         stage: "recognise",
+        hint: "Who owns the tractor?",
         options: [
             "The farmer's tractor",
             "The farmers tractor",
@@ -373,6 +389,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which sentence shows ownership?",
         stage: "recognise",
+        hint: "Look for the sentence showing ownership.",
         options: [
             "The pirate's treasure was hidden.",
             "The pirate found treasure.",
@@ -395,6 +412,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which phrase is correct?",
         stage: "recognise",
+        hint: "Who owns the crown?",
         options: [
             "The queen's crown",
             "The queens crown",
@@ -417,6 +435,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Why do writers use possessive apostrophes?",
         stage: "recognise",
+        hint: "Think about why writers show ownership.",
         options: [
             "To show ownership",
             "To ask questions",
@@ -439,6 +458,7 @@ const apostrophesPossession: SkillContent = {
         skillId: "apostrophesPossession",
         question: "Which sentence is completely correct?",
         stage: "recognise",
+        hint: "Check that every owner has the correct apostrophe.",
         options: [
             "Sophie's cat chased Ben's ball.",
             "Sophies cat chased Ben's ball.",

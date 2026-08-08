@@ -29,6 +29,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "19",
 
+    hint: "A forward jump means you count on. Start at 14 and move five steps to the right on the number line.",
+
     explanation:
         "Jumping forward means adding. 14 + 5 = 19."
 },
@@ -48,6 +50,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "21",
+
+    hint: "Moving backwards means subtracting. Count back carefully from 27 one jump at a time if needed.",
 
     explanation:
         "Jumping back means subtracting. 27 − 6 = 21."
@@ -69,6 +73,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "35 + 7",
 
+    hint: "Work out how many numbers lie between the start and finish. The jump size tells you what is being added.",
+
     explanation:
         "42 is 7 more than 35."
 },
@@ -88,6 +94,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "42",
+
+    hint: "Begin at 50 and travel left eight spaces. Think of taking away rather than adding.",
 
     explanation:
         "50 − 8 = 42."
@@ -109,6 +117,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "27",
 
+    hint: "Adding 9 is almost the same as adding 10, then taking 1 away.",
+
     explanation:
         "18 + 9 = 27."
 },
@@ -128,6 +138,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "29",
+
+    hint: "The phrase 'less than' tells you to count backwards from the starting number.",
 
     explanation:
         "33 − 4 = 29."
@@ -149,6 +161,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "51",
 
+    hint: "Adding 10 changes the tens digit while the ones digit stays the same.",
+
     explanation:
         "41 + 10 = 51."
 },
@@ -168,6 +182,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "54",
+
+    hint: "Subtracting 10 keeps the ones digit unchanged but reduces the tens by one.",
 
     explanation:
         "64 − 10 = 54."
@@ -189,6 +205,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "22 + 8",
 
+    hint: "Compare the start and end numbers to find the size of the jump before choosing the calculation.",
+
     explanation:
         "30 is 8 more than 22."
 },
@@ -208,6 +226,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "70",
+
+    hint: "Two jumps of ten backwards are the same as one jump of twenty backwards.",
 
     explanation:
         "90 − 20 = 70."
@@ -229,6 +249,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "53",
 
+    hint: "Count on six from 47, or add 3 to reach 50 and then add the remaining 3.",
+
     explanation:
         "47 + 6 = 53."
 },
@@ -248,6 +270,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "58",
+
+    hint: "Break the subtraction into smaller steps if it helps—for example, back 5 then back 2.",
 
     explanation:
         "65 − 7 = 58."
@@ -269,6 +293,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "Yes",
 
+    hint: "Don't guess whether Ella is right—do the jump yourself and compare her answer.",
+
     explanation:
         "18 + 9 = 27."
 },
@@ -288,6 +314,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "No, it is 48.",
+
+    hint: "Check Ben's answer by counting back exactly eight spaces from 56, not seven.",
 
     explanation:
         "56 − 8 = 48."
@@ -309,9 +337,12 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "Start at 55 and jump forward 8",
 
+    hint: "Test each journey mentally. Only one finishes exactly on 63.",
+
     explanation:
         "55 + 8 = 63."
 },
+
 {
     id: "asn-016",
     skillId: "add-and-subtract-on-number-line",
@@ -327,6 +358,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "55",
+
+    hint: "Jump to the next multiple of ten first if that makes the counting easier.",
 
     explanation:
         "48 + 7 = 55."
@@ -348,6 +381,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "63",
 
+    hint: "Think of subtracting 10, then adding 1 back to adjust.",
+
     explanation:
         "72 − 9 = 63."
 },
@@ -367,6 +402,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "39 + 9",
+
+    hint: "Find the difference between the two numbers. That tells you the jump size.",
 
     explanation:
         "48 is 9 more than 39."
@@ -388,6 +425,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "69",
 
+    hint: "Split the jump into 10 and 2 to make the subtraction easier to track.",
+
     explanation:
         "81 − 12 = 69."
 },
@@ -407,6 +446,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "Ella: Start at 35, jump forward 6, land on 41.",
+
+    hint: "Ignore who said it first. Work out the result of 35 plus 6 and see which statement matches.",
 
     explanation:
         "35 + 6 = 41."
@@ -428,6 +469,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "34",
 
+    hint: "Picture the frog making eight equal jumps forwards. The landing pad is eight more than 26.",
+
     explanation:
         "26 + 8 = 34."
 },
@@ -447,6 +490,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "63 metres",
+
+    hint: "A climb increases the height. Try adding 10 first, then subtract 1 because the climb is only 9 metres.",
 
     explanation:
         "54 + 9 = 63."
@@ -468,6 +513,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "42",
 
+    hint: "Going down in a lift means the floor number becomes smaller. Count back five floors.",
+
     explanation:
         "47 − 5 = 42."
 },
@@ -487,6 +534,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "45",
+
+    hint: "The runner keeps all the laps already completed, then adds seven more to the total.",
 
     explanation:
         "38 + 7 = 45."
@@ -508,6 +557,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "62 − 8",
 
+    hint: "The finish is smaller than the start, so the journey must be backwards. Find the size of that backward jump.",
+
     explanation:
         "Moving from 62 to 54 means subtracting 8."
 },
@@ -527,6 +578,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "9 cm",
+
+    hint: "You are finding the distance between two positions, not adding them together.",
 
     explanation:
         "24 − 15 = 9."
@@ -548,6 +601,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "35",
 
+    hint: "Imagine standing on 29 and taking six steps to the right. The box is where you finish.",
+
     explanation:
         "29 + 6 = 35."
 },
@@ -567,6 +622,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "76",
+
+    hint: "Seven back can be thought of as back five, then back two more.",
 
     explanation:
         "83 − 7 = 76."
@@ -588,6 +645,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "8",
 
+    hint: "Count the spaces travelled between the two numbers, rather than reading the finishing square.",
+
     explanation:
         "49 − 41 = 8."
 },
@@ -608,9 +667,12 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "Ben: Start at 58, jump back 9, land on 49.",
 
+    hint: "Work out the answer once yourself before looking at the children's answers.",
+
     explanation:
         "58 − 9 = 49."
 },
+
 {
     id: "asn-031",
     skillId: "add-and-subtract-on-number-line",
@@ -626,6 +688,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "82",
+
+    hint: "Split the jump into 10 and 5 to make the calculation easier to follow mentally.",
 
     explanation:
         "67 + 15 = 82."
@@ -647,6 +711,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "76",
 
+    hint: "Subtract 20 first, then add back 2 because the jump is only 18.",
+
     explanation:
         "94 − 18 = 76."
 },
@@ -666,6 +732,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "13",
+
+    hint: "This question asks for the size of the move, so compare the two numbers instead of adding them.",
 
     explanation:
         "59 − 46 = 13."
@@ -687,6 +755,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "14",
 
+    hint: "The counter moved backwards. Find the difference between the starting and ending numbers to discover how far.",
+
     explanation:
         "81 − 67 = 14."
 },
@@ -706,6 +776,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "Start at 84 and jump forward 12",
+
+    hint: "Check where each journey finishes. Only one reaches exactly 96 after the jump.",
 
     explanation:
         "84 + 12 = 96."
@@ -727,6 +799,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "44",
 
+    hint: "Going up increases the floor number. Add 10 first, then the remaining 6 floors.",
+
     explanation:
         "28 + 16 = 44."
 },
@@ -746,6 +820,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "17 metres below",
+
+    hint: "Swimming up reduces how far below the surface the diver is, but check whether they actually reach the surface.",
 
     explanation:
         "35 − 18 = 17, so the diver is still 17 metres below the surface."
@@ -767,6 +843,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "53 → 61 (jump +8)",
 
+    hint: "A jump of +8 means the finishing number must be exactly eight greater than the starting number.",
+
     explanation:
         "53 + 8 = 61."
 },
@@ -786,6 +864,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "Ella: Start at 72, jump back 15, land on 57.",
+
+    hint: "Subtract the full 15 yourself before deciding which child's answer is accurate.",
 
     explanation:
         "72 − 15 = 57."
@@ -807,6 +887,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "51",
 
+    hint: "When the starting number is missing, work backwards from the total by undoing the addition.",
+
     explanation:
         "65 − 14 = 51."
 },
@@ -826,6 +908,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "Forward 22",
+
+    hint: "Find the difference between 48 and 70, then decide whether the jump goes forwards or backwards.",
 
     explanation:
         "70 − 48 = 22."
@@ -847,6 +931,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "89 − 17 = 72",
 
+    hint: "Estimate first. Taking away 17 should leave a number in the low seventies, not increase the total.",
+
     explanation:
         "Jump back 17 from 89 to reach 72."
 },
@@ -866,6 +952,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "160 metres",
+
+    hint: "Break the distance into 20 metres and 5 metres to make the addition easier.",
 
     explanation:
         "135 + 25 = 160."
@@ -887,6 +975,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "62",
 
+    hint: "Subtract 30 first, then subtract the final 2 spaces.",
+
     explanation:
         "94 − 32 = 62."
 },
@@ -906,6 +996,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "76 + 15",
+
+    hint: "Compare the start and finish to find the size of the increase before choosing the equation.",
 
     explanation:
         "91 is 15 more than 76."
@@ -927,6 +1019,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "Leo: 90 − 25 = 66",
 
+    hint: "Check each calculation one at a time. Three are correct, so look for the single result that doesn't work.",
+
     explanation:
         "90 − 25 = 65, not 66."
 },
@@ -946,6 +1040,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "44",
+
+    hint: "The halfway point is the same distance from both numbers. Check which option is equally far from 38 and 50.",
 
     explanation:
         "44 is 6 more than 38 and 6 less than 50."
@@ -967,6 +1063,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "Jump 10, then jump 5",
 
+    hint: "Add the two jump sizes together for each option instead of looking at them separately.",
+
     explanation:
         "10 + 5 = 15."
 },
@@ -986,6 +1084,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ],
 
     correctAnswer: "32",
+
+    hint: "Don't jump all the way to the end. Stop after the second jump and see where the frog is.",
 
     explanation:
         "22 → 27 → 32. After the second jump, the frog lands on 32."
@@ -1007,6 +1107,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
 
     correctAnswer: "Start at 48, jump forward 17, land on 65.",
 
+    hint: "Pay attention to both the direction of the jump and the finishing number—both must be correct.",
+
     explanation:
         "48 + 17 = 65."
 },
@@ -1014,11 +1116,8 @@ const addAndSubtractOnNumberLine: SkillContent = {
     ]
 };
 
-
 export default addAndSubtractOnNumberLine;
 
 export {
-
     addAndSubtractOnNumberLine
-
 };

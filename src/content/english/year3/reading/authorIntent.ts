@@ -22,6 +22,7 @@ const authorIntent: SkillContent = {
         question:
             "Why might an author write a text?",
         stage: "recognise",
+        hint: "Think about why the writer created the text.",
         options: [
             "To inform, entertain, persuade or explain",
             "To make every word longer",
@@ -45,6 +46,7 @@ const authorIntent: SkillContent = {
         question:
             "A newspaper article explaining yesterday's weather was written to:",
         stage: "recognise",
+        hint: "Does the text give facts or tell a story?",
         options: [
             "Inform",
             "Entertain",
@@ -68,6 +70,7 @@ const authorIntent: SkillContent = {
         question:
             "A funny story about a talking animal was probably written to:",
         stage: "recognise",
+        hint: "Funny stories are usually written for enjoyment.",
         options: [
             "Entertain",
             "Persuade",
@@ -91,6 +94,7 @@ const authorIntent: SkillContent = {
         question:
             "An advert saying 'Buy this amazing toy today!' was written to:",
         stage: "recognise",
+        hint: "Adverts often try to change your mind.",
         options: [
             "Persuade",
             "Inform",
@@ -114,6 +118,7 @@ const authorIntent: SkillContent = {
         question:
             "A book explaining how volcanoes erupt was written to:",
         stage: "recognise",
+        hint: "Does the text explain how something works?",
         options: [
             "Explain",
             "Entertain",
@@ -137,6 +142,7 @@ const authorIntent: SkillContent = {
         question:
             "A recipe is usually written to:",
         stage: "recognise",
+        hint: "Recipes tell you what to do step by step.",
         options: [
             "Give instructions",
             "Tell a joke",
@@ -160,6 +166,7 @@ const authorIntent: SkillContent = {
         question:
             "A fairy tale about a princess and a dragon is mainly written to:",
         stage: "recognise",
+        hint: "Fairy tales are written to entertain readers.",
         options: [
             "Entertain",
             "Give scientific facts",
@@ -183,6 +190,7 @@ const authorIntent: SkillContent = {
         question:
             "A leaflet explaining how to recycle is written to:",
         stage: "recognise",
+        hint: "Leaflets often give useful information.",
         options: [
             "Inform",
             "Entertain",
@@ -206,6 +214,7 @@ const authorIntent: SkillContent = {
         question:
             "Which words are clues that a text may be trying to persuade you?",
         stage: "recognise",
+        hint: "Look for words trying to convince you.",
         options: [
             "You should, best, amazing, must",
             "Once upon a time",
@@ -229,6 +238,7 @@ const authorIntent: SkillContent = {
         question:
             "Why is it useful to know an author's purpose?",
         stage: "recognise",
+        hint: "Knowing the purpose helps you understand the text.",
         options: [
             "It helps you understand the text better",
             "It helps you count words",
@@ -252,6 +262,7 @@ const authorIntent: SkillContent = {
         question:
             "A website explaining facts about dinosaurs is most likely written to:",
         stage: "recognise",
+        hint: "Fact websites usually teach you something.",
         options: [
             "Inform",
             "Entertain only",
@@ -275,6 +286,7 @@ const authorIntent: SkillContent = {
         question:
             "A poster saying 'Join our clean-up day and help save the planet!' is written to:",
         stage: "recognise",
+        hint: "Ask whether the writer wants to inform, entertain, persuade or explain.",
         options: [
             "Persuade",
             "Explain a science experiment",
@@ -298,6 +310,7 @@ const authorIntent: SkillContent = {
         question:
             "A science book explaining the water cycle is written mainly to:",
         stage: "recognise",
+        hint: "Look at the type of text first.",
         options: [
             "Explain",
             "Entertain",
@@ -321,6 +334,7 @@ const authorIntent: SkillContent = {
         question:
             "A joke book is mainly written to:",
         stage: "recognise",
+        hint: "Think about what the reader should learn or feel.",
         options: [
             "Entertain",
             "Inform",
@@ -344,6 +358,7 @@ const authorIntent: SkillContent = {
         question:
             "Which feature suggests a text is meant to inform?",
         stage: "recognise",
+        hint: "Would this text teach, amuse or convince you?",
         options: [
             "Facts and information",
             "Funny characters",
@@ -367,6 +382,7 @@ const authorIntent: SkillContent = {
         question:
             "A travel brochure saying 'Visit the beautiful beaches of Spain!' is trying to:",
         stage: "recognise",
+        hint: "Instructions tell you how to do something.",
         options: [
             "Persuade people to visit",
             "Explain how beaches form",
@@ -390,6 +406,7 @@ const authorIntent: SkillContent = {
         question:
             "A set of instructions for building a model plane is written to:",
         stage: "recognise",
+        hint: "Persuasive writing wants you to act.",
         options: [
             "Explain how to do something",
             "Tell a joke",
@@ -413,6 +430,7 @@ const authorIntent: SkillContent = {
         question:
             "A character in a story feeling nervous before a race helps the author to:",
         stage: "recognise",
+        hint: "Stories are mainly for enjoyment.",
         options: [
             "Entertain and engage the reader",
             "Give a set of instructions",
@@ -436,6 +454,7 @@ const authorIntent: SkillContent = {
         question:
             "Which question helps you find an author's purpose?",
         stage: "recognise",
+        hint: "Information texts teach facts.",
         options: [
             "Why did the author write this text?",
             "How many letters are in the title?",
@@ -459,6 +478,7 @@ const authorIntent: SkillContent = {
         question:
             "A good reader should think about:",
         stage: "recognise",
+        hint: "Ask yourself, 'Why did the author write this?'",
         options: [
             "The author's reason for writing",
             "Only the pictures",

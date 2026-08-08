@@ -21,6 +21,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "In the sentence 'The cat slept.', what is the subject?",
         stage: "recognise",
+        hint: "The subject is who or what the sentence is about.",
         options: [
             "The cat",
             "slept",
@@ -43,6 +44,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "In the sentence 'The dog barked loudly.', what is the predicate?",
         stage: "recognise",
+        hint: "The predicate tells what the subject does.",
         options: [
             "barked loudly",
             "The dog",
@@ -65,6 +67,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Which is the subject in 'Emma painted a picture.'?",
         stage: "recognise",
+        hint: "Who is the sentence about?",
         options: [
             "Emma",
             "painted",
@@ -87,6 +90,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Which is the predicate in 'Birds sing every morning.'?",
         stage: "recognise",
+        hint: "Look for the words that tell what the birds do.",
         options: [
             "sing every morning",
             "Birds",
@@ -109,6 +113,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Every complete sentence needs...",
         stage: "recognise",
+        hint: "A complete sentence needs both parts.",
         options: [
             "a subject and a predicate",
             "two verbs",
@@ -131,6 +136,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Which is the subject in 'The children laughed.'?",
         stage: "recognise",
+        hint: "Find who the sentence is about.",
         options: [
             "The children",
             "laughed",
@@ -153,6 +159,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Which is the predicate in 'My brother plays football.'?",
         stage: "recognise",
+        hint: "The predicate is everything that tells about the subject.",
         options: [
             "plays football",
             "My brother",
@@ -175,6 +182,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Which sentence has both a subject and a predicate?",
         stage: "recognise",
+        hint: "A complete sentence has both a subject and a predicate.",
         options: [
             "The rabbit hopped.",
             "The rabbit",
@@ -197,6 +205,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Which is NOT a complete sentence?",
         stage: "recognise",
+        hint: "Does the sentence tell what the subject does?",
         options: [
             "The tall tree",
             "The tall tree grew.",
@@ -219,6 +228,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "In 'Tom ran home.', who is the subject?",
         stage: "recognise",
+        hint: "Who is doing the action?",
         options: [
             "Tom",
             "ran",
@@ -241,6 +251,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "In 'The red kite flew high.', what is the predicate?",
         stage: "recognise",
+        hint: "Ignore who the sentence is about and find what happened.",
         options: [
             "flew high",
             "The red kite",
@@ -263,6 +274,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "In 'Our teacher read a story.', what is the subject?",
         stage: "recognise",
+        hint: "Who carried out the action?",
         options: [
             "Our teacher",
             "read",
@@ -285,6 +297,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Which sentence has the subject 'The birds'?",
         stage: "recognise",
+        hint: "Look for the sentence about 'The birds'.",
         options: [
             "The birds built a nest.",
             "Built a nest.",
@@ -307,6 +320,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Which part is the predicate in 'My friends visited the museum.'?",
         stage: "recognise",
+        hint: "Find the words explaining what the friends did.",
         options: [
             "visited the museum",
             "My friends",
@@ -329,6 +343,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "What does the predicate tell us?",
         stage: "recognise",
+        hint: "Think about the job of the predicate.",
         options: [
             "What the subject does or what happens",
             "Who the sentence is about",
@@ -351,6 +366,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "What does the subject tell us?",
         stage: "recognise",
+        hint: "The subject tells who or what.",
         options: [
             "Who or what the sentence is about",
             "What action happened",
@@ -373,6 +389,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Which sentence has a compound subject?",
         stage: "recognise",
+        hint: "A compound subject has more than one person or thing.",
         options: [
             "Jack and Mia played football.",
             "Jack played football.",
@@ -395,6 +412,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Which sentence has the predicate 'jumped over the fence'?",
         stage: "recognise",
+        hint: "Look for the sentence where the horse does that action.",
         options: [
             "The horse jumped over the fence.",
             "The horse.",
@@ -417,6 +435,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Choose the complete sentence.",
         stage: "recognise",
+        hint: "A complete sentence tells who and what happened.",
         options: [
             "The baby slept peacefully.",
             "The sleepy baby",
@@ -439,6 +458,7 @@ const subjectAndPredicate: SkillContent = {
         skillId: "subjectAndPredicate",
         question: "Why are subjects and predicates important?",
         stage: "recognise",
+        hint: "Complete sentences need both a subject and a predicate.",
         options: [
             "They help make complete sentences.",
             "They replace punctuation.",

@@ -21,6 +21,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence is a statement?",
         stage: "recognise",
+        hint: "A statement tells you something.",
         options: [
             "The sun is shining.",
             "Is the sun shining?",
@@ -43,6 +44,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence is a question?",
         stage: "recognise",
+        hint: "Questions ask something and usually end with '?'.",
         options: [
             "Where is my book?",
             "My book is on the table.",
@@ -65,6 +67,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence is a command?",
         stage: "recognise",
+        hint: "A command tells someone to do something.",
         options: [
             "Wash your hands.",
             "I washed my hands.",
@@ -87,6 +90,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence is an exclamation?",
         stage: "recognise",
+        hint: "An exclamation shows strong feeling.",
         options: [
             "What a beautiful rainbow!",
             "The rainbow is beautiful.",
@@ -109,6 +113,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "A statement usually ends with a...",
         stage: "recognise",
+        hint: "Think about the punctuation at the end of a statement.",
         options: [
             "full stop",
             "question mark",
@@ -131,6 +136,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "A question usually ends with a...",
         stage: "recognise",
+        hint: "What punctuation do questions use?",
         options: [
             "question mark",
             "full stop",
@@ -153,6 +159,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence tells someone what to do?",
         stage: "recognise",
+        hint: "Which sentence gives an instruction?",
         options: [
             "Put your coat away.",
             "Your coat is blue.",
@@ -175,6 +182,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence shows excitement?",
         stage: "recognise",
+        hint: "Look for the sentence showing excitement.",
         options: [
             "What an amazing goal!",
             "The goal was amazing.",
@@ -197,6 +205,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which of these is NOT a question?",
         stage: "recognise",
+        hint: "Only one sentence is telling, not asking.",
         options: [
             "I like pizza.",
             "Do you like pizza?",
@@ -219,6 +228,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence is a statement?",
         stage: "recognise",
+        hint: "A statement gives information.",
         options: [
             "Birds can fly.",
             "Can birds fly?",
@@ -241,6 +251,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence is a command?",
         stage: "recognise",
+        hint: "Commands tell people what to do.",
         options: [
             "Please tidy your room.",
             "My room is tidy.",
@@ -263,6 +274,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence is an exclamation?",
         stage: "recognise",
+        hint: "Exclamations express strong feelings.",
         options: [
             "How exciting this game is!",
             "This game is exciting.",
@@ -285,6 +297,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "What type of sentence is 'Can you help me?'",
         stage: "recognise",
+        hint: "Does the sentence ask for an answer?",
         options: [
             "Question",
             "Statement",
@@ -307,6 +320,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "What type of sentence is 'Please be quiet.'?",
         stage: "recognise",
+        hint: "Is someone being told to do something?",
         options: [
             "Command",
             "Statement",
@@ -329,6 +343,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "What type of sentence is 'The train arrived on time.'?",
         stage: "recognise",
+        hint: "Is the sentence simply giving information?",
         options: [
             "Statement",
             "Question",
@@ -351,6 +366,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "What type of sentence is 'What a clever idea!'?",
         stage: "recognise",
+        hint: "Look for strong excitement or emotion.",
         options: [
             "Exclamation",
             "Statement",
@@ -373,6 +389,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence is punctuated correctly as a question?",
         stage: "recognise",
+        hint: "Questions should finish with the correct punctuation.",
         options: [
             "Have you finished your homework?",
             "Have you finished your homework.",
@@ -395,6 +412,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which sentence is punctuated correctly as an exclamation?",
         stage: "recognise",
+        hint: "Exclamations usually end with '!'.",
         options: [
             "What a fantastic show!",
             "What a fantastic show.",
@@ -417,6 +435,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Why do we use different sentence types?",
         stage: "recognise",
+        hint: "Different sentence types have different jobs.",
         options: [
             "To communicate different meanings and purposes",
             "To make every sentence longer",
@@ -439,6 +458,7 @@ const sentenceTypes: SkillContent = {
         skillId: "sentenceTypes",
         question: "Which list contains all four sentence types?",
         stage: "recognise",
+        hint: "Think about the four sentence types you have learned.",
         options: [
             "Statement, Question, Command, Exclamation",
             "Noun, Verb, Adjective, Adverb",

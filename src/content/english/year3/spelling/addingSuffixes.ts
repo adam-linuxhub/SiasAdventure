@@ -21,6 +21,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word is made by adding '-ing' to 'jump'?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "jumping",
             "jumped",
@@ -43,6 +44,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word is made by adding '-ed' to 'play'?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "played",
             "playing",
@@ -65,6 +67,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word means 'more tall'?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "taller",
             "tallest",
@@ -87,6 +90,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word means 'the most small'?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "smallest",
             "smaller",
@@ -109,6 +113,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word is correct?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "helping",
             "helpingg",
@@ -131,6 +136,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word is correct?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "looked",
             "lookinged",
@@ -153,6 +159,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word is made by adding '-er' to 'fast'?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "faster",
             "fastest",
@@ -175,6 +182,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word is made by adding '-est' to 'long'?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "longest",
             "longer",
@@ -197,6 +205,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which suffix tells us an action is happening now?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "-ing",
             "-ed",
@@ -219,6 +228,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which suffix often shows an action happened in the past?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "-ed",
             "-ing",
@@ -241,6 +251,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Complete the sentence: 'The rabbit is ______ across the field.'",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "jumping",
             "jumped",
@@ -263,6 +274,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Complete the sentence: 'Yesterday we ______ football.'",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "played",
             "playing",
@@ -285,6 +297,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "Sam is helping his mum.",
             "Sam is helped his mum.",
@@ -307,6 +320,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "The blue whale is the largest animal.",
             "The blue whale is the larger animal.",
@@ -329,6 +343,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word correctly adds '-ing' to 'smile'?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "smiling",
             "smileing",
@@ -351,6 +366,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word correctly adds '-ed' to 'dance'?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "danced",
             "danceed",
@@ -373,6 +389,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word correctly adds '-ing' to 'make'?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "making",
             "makeing",
@@ -395,6 +412,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "Ella smiled at her friend.",
             "Ella smiled at her friend.",
@@ -417,6 +435,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which word compares two runners?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "faster",
             "fastest",
@@ -439,6 +458,7 @@ const addingSuffixes: SkillContent = {
         skillId: "addingSuffixes",
         question: "Which sentence contains a correctly spelled suffix word?",
         stage: "recognise",
+        hint: "Think about how the ending changes the root word.",
         options: [
             "The children were making a sandcastle.",
             "The children were makeing a sandcastle.",

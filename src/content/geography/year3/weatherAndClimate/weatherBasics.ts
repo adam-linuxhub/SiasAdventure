@@ -36,6 +36,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "The condition of the atmosphere at a particular time and place",
         estimatedSeconds: 20,
 
+        hint: "Think about what the air is like around you right now.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -59,6 +60,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "Rain",
         estimatedSeconds: 20,
 
+        hint: "Choose something that can change from one day to the next.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -82,6 +84,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "How hot or cold something is",
         estimatedSeconds: 20,
 
+        hint: "Ignore rain and wind—focus only on hot or cold.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -105,6 +108,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "A thermometer",
         estimatedSeconds: 20,
 
+        hint: "Match the instrument with the thing it measures.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -128,6 +132,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "The amount of rain that falls",
         estimatedSeconds: 20,
 
+        hint: "Think about measuring how much water falls from the sky.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -151,6 +156,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "A rain gauge",
         estimatedSeconds: 20,
 
+        hint: "Imagine leaving a measuring container outside during rain.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -174,6 +180,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "Moving air",
         estimatedSeconds: 20,
 
+        hint: "Air cannot be seen, but you can feel it moving.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -197,6 +204,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "An anemometer",
         estimatedSeconds: 20,
 
+        hint: "This instrument measures how fast the air moves, not its direction.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -220,6 +228,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "Tiny water droplets or ice crystals",
         estimatedSeconds: 20,
 
+        hint: "Think about what floating clouds are made from.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -243,6 +252,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "The atmosphere is constantly changing",
         estimatedSeconds: 20,
 
+        hint: "Weather changes because conditions in the air do not stay the same.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -266,6 +276,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "The usual weather conditions of a place over a long time",
         estimatedSeconds: 20,
 
+        hint: "Think about weather patterns over many years, not today.",
         tags: ["geography", "year3", "climate"]
     },
 
@@ -289,6 +300,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "Weather changes quickly, while climate describes long-term patterns",
         estimatedSeconds: 25,
 
+        hint: "One happens today; the other describes what is usual over decades.",
         tags: ["geography", "year3", "weather", "climate"]
     },
 
@@ -312,6 +324,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "Sunny weather",
         estimatedSeconds: 20,
 
+        hint: "Choose the weather type named after bright sunshine.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -335,6 +348,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "A period of very strong or extreme weather",
         estimatedSeconds: 20,
 
+        hint: "Storms are much more powerful than ordinary weather.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -358,6 +372,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "To help plan activities and prepare for conditions",
         estimatedSeconds: 20,
 
+        hint: "Why would knowing tomorrow's weather help people?",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -381,6 +396,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "A prediction of future weather conditions",
         estimatedSeconds: 20,
 
+        hint: "A forecast tells you what is likely to happen next.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -404,6 +420,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "The Earth's tilt as it moves around the Sun",
         estimatedSeconds: 25,
 
+        hint: "Think about how Earth moves around the Sun each year.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -427,6 +444,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "Places have different locations and conditions",
         estimatedSeconds: 20,
 
+        hint: "Different places do not all have the same surroundings or conditions.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -450,6 +468,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "Temperature",
         estimatedSeconds: 20,
 
+        hint: "Choose something scientists can measure about the atmosphere.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -473,6 +492,7 @@ const weatherBasics: SkillContent = {
         correctAnswer: "Weather describes the conditions of the atmosphere at a certain time and place",
         estimatedSeconds: 25,
 
+        hint: "Include both the place and the time when thinking about weather.",
         tags: ["geography", "year3", "weather"]
     }
 

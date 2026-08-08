@@ -28,6 +28,9 @@ const planetNames: SkillContent = {
         "Comet"
     ],
 
+    hint:
+        "Only one option is one of the eight major planets in our Solar System.",
+
     explanation:
         "Earth is one of the eight planets in our Solar System.",
 
@@ -55,6 +58,9 @@ const planetNames: SkillContent = {
         "Jupiter"
     ],
 
+    hint:
+        "Choose the planet that is home to all known life.",
+
     explanation:
         "Earth is our home planet. It is the only planet known to support life.",
 
@@ -80,6 +86,9 @@ const planetNames: SkillContent = {
         "Sun",
         "Comet"
     ],
+
+    hint:
+        "Only one option is the name of a planet.",
 
     explanation:
         "Mercury is the closest planet to the Sun.",
@@ -107,6 +116,9 @@ const planetNames: SkillContent = {
         "Asteroid"
     ],
 
+    hint:
+        "Look for the only planet name in the list.",
+
     explanation:
         "Venus is the second planet from the Sun.",
 
@@ -132,6 +144,9 @@ const planetNames: SkillContent = {
         "Galaxy",
         "Comet"
     ],
+
+    hint:
+        "A galaxy contains many stars. Which option is actually a planet?",
 
     explanation:
         "Earth is the third planet from the Sun and our home.",
@@ -159,6 +174,9 @@ const planetNames: SkillContent = {
         "Asteroid"
     ],
 
+    hint:
+        "Only one answer is the name of the Red Planet.",
+
     explanation:
         "Mars is often called the Red Planet.",
 
@@ -184,6 +202,9 @@ const planetNames: SkillContent = {
         "Comet",
         "Galaxy"
     ],
+
+    hint:
+        "Choose the only option that is a planet.",
 
     explanation:
         "Jupiter is the largest planet in our Solar System.",
@@ -211,6 +232,9 @@ const planetNames: SkillContent = {
         "Star"
     ],
 
+    hint:
+        "Find the only option that is one of the eight planets.",
+
     explanation:
         "Saturn is famous for its bright rings.",
 
@@ -236,6 +260,9 @@ const planetNames: SkillContent = {
         "Comet",
         "Moon"
     ],
+
+    hint:
+        "Three options are not planets. Pick the one that is.",
 
     explanation:
         "Uranus is a large icy planet that spins on its side.",
@@ -263,6 +290,9 @@ const planetNames: SkillContent = {
         "Asteroid"
     ],
 
+    hint:
+        "Only one choice is the name of a planet.",
+
     explanation:
         "Neptune is the eighth and farthest planet from the Sun.",
 
@@ -288,6 +318,9 @@ const planetNames: SkillContent = {
         "9",
         "10"
     ],
+
+    hint:
+        "Pluto is no longer counted as a planet, so think of the current total.",
 
     explanation:
         "There are eight planets in our Solar System.",
@@ -315,6 +348,9 @@ const planetNames: SkillContent = {
         "Venus"
     ],
 
+    hint:
+        "Its reddish colour comes from iron-rich dust covering its surface.",
+
     explanation:
         "Mars is called the Red Planet because its dusty surface looks red.",
 
@@ -340,6 +376,9 @@ const planetNames: SkillContent = {
         "Venus",
         "Mars"
     ],
+
+    hint:
+        "Several planets have rings, but one is especially well known for them.",
 
     explanation:
         "Saturn has the most famous rings of all the planets.",
@@ -367,6 +406,9 @@ const planetNames: SkillContent = {
         "Mars"
     ],
 
+    hint:
+        "Think of the giant planet with the Great Red Spot.",
+
     explanation:
         "Jupiter is the largest planet in our Solar System.",
 
@@ -392,6 +434,9 @@ const planetNames: SkillContent = {
         "Earth",
         "Mars"
     ],
+
+    hint:
+        "Think of the first planet in order from the Sun.",
 
     explanation:
         "Mercury is the closest planet to the Sun.",
@@ -419,6 +464,9 @@ const planetNames: SkillContent = {
         "Jupiter"
     ],
 
+    hint:
+        "Choose the eighth and final planet in the Solar System.",
+
     explanation:
         "Neptune is the eighth and most distant planet from the Sun.",
 
@@ -444,6 +492,9 @@ const planetNames: SkillContent = {
         "Mercury",
         "Venus"
     ],
+
+    hint:
+        "Think about the planet where all space agencies and launch sites are found.",
 
     explanation:
         "All astronauts begin their journeys into space from Earth.",
@@ -471,6 +522,9 @@ const planetNames: SkillContent = {
         "Mars, Jupiter, Comet"
     ],
 
+    hint:
+        "Remove any answer that contains a moon, a star or a comet.",
+
     explanation:
         "Earth, Mars and Saturn are all planets. The other answers include objects that are not planets.",
 
@@ -496,6 +550,9 @@ const planetNames: SkillContent = {
         "Earth",
         "Saturn"
     ],
+
+    hint:
+        "Three choices orbit the Sun directly. One travels around Earth instead.",
 
     explanation:
         "The Moon travels around Earth. It is a natural satellite, not a planet.",
@@ -523,6 +580,9 @@ const planetNames: SkillContent = {
         "Jupiter"
     ],
 
+    hint:
+        "Look for the only option that starts with the letter 'V'.",
+
     explanation:
         "Venus is the only planet whose name begins with the letter V.",
 
@@ -548,6 +608,9 @@ const planetNames: SkillContent = {
         "No, we live on Venus.",
         "No, we live on Jupiter."
     ],
+
+    hint:
+        "Think about the planet where every person on Earth lives today.",
 
     explanation:
         "People live on Earth. Mars is an exciting planet to explore, but nobody lives there.",
@@ -576,6 +639,9 @@ const planetNames: SkillContent = {
         "No, the Sun is an asteroid."
     ],
 
+    hint:
+        "Planets travel around the Sun. What kind of object is the Sun itself?",
+
     explanation:
         "The Sun is a star. The eight planets travel around it.",
 
@@ -602,6 +668,9 @@ const planetNames: SkillContent = {
         "Jupiter",
         "Mercury"
     ],
+
+    hint:
+        "Remember the order: Mercury, Venus, Earth, then...",
 
     explanation:
         "The order begins Mercury, Venus, Earth, Mars.",
@@ -630,6 +699,9 @@ const planetNames: SkillContent = {
         "Jupiter"
     ],
 
+    hint:
+        "Earth is the third planet. Which one is second?",
+
     explanation:
         "Venus is the second planet and Earth is the third.",
 
@@ -657,6 +729,9 @@ const planetNames: SkillContent = {
         "Asteroid"
     ],
 
+    hint:
+        "Only one option is one of the eight planets.",
+
     explanation:
         "Neptune is the eighth planet in our Solar System.",
 
@@ -682,6 +757,9 @@ const planetNames: SkillContent = {
         "Venus",
         "Saturn"
     ],
+
+    hint:
+        "Three choices are planets. One is a small icy object that travels around the Sun.",
 
     explanation:
         "A comet is a small icy object that travels around the Sun. It is not a planet.",
@@ -709,6 +787,9 @@ const planetNames: SkillContent = {
         "Mercury"
     ],
 
+    hint:
+        "Think of the giant planet with the Great Red Spot.",
+
     explanation:
         "Jupiter is the biggest planet in our Solar System.",
 
@@ -734,6 +815,9 @@ const planetNames: SkillContent = {
         "Earth",
         "Neptune"
     ],
+
+    hint:
+        "Choose the tiny rocky planet closest to the Sun.",
 
     explanation:
         "Mercury is the smallest of the eight planets.",
@@ -761,6 +845,9 @@ const planetNames: SkillContent = {
         "Venus"
     ],
 
+    hint:
+        "Think of the planet that is easiest to recognise because of the bright rings around it.",
+
     explanation:
         "Saturn has rings made mostly of ice with some rock and dust.",
 
@@ -786,6 +873,9 @@ const planetNames: SkillContent = {
         "Uranus",
         "Jupiter"
     ],
+
+    hint:
+        "Choose the planet that is both the eighth in order and deep blue in colour.",
 
     explanation:
         "Neptune is a deep blue planet and is the farthest planet from the Sun.",
@@ -813,6 +903,9 @@ const planetNames: SkillContent = {
         "Mercury, Venus, Comet, Mars"
     ],
 
+    hint:
+        "Check each list carefully. A moon, the Sun or a comet means the answer cannot be correct.",
+
     explanation:
         "Mercury, Venus, Earth and Mars are all planets.",
 
@@ -839,6 +932,9 @@ const planetNames: SkillContent = {
         "Jupiter, Saturn, Sun"
     ],
 
+    hint:
+        "Pick the list where every object is something other than a planet.",
+
     explanation:
         "The Moon, Sun and comets are all space objects, but none of them are planets.",
 
@@ -863,6 +959,9 @@ const planetNames: SkillContent = {
         "Earth",
         "Mars"
     ],
+
+    hint:
+        "Think about the planet closest to the Sun.",
 
     explanation:
         "Mercury is the first planet from the Sun.",
@@ -890,6 +989,9 @@ const planetNames: SkillContent = {
         "Mars"
     ],
 
+    hint:
+        "Neptune is eighth. Which planet is seventh?",
+
     explanation:
         "Uranus is the seventh planet and Neptune is the eighth.",
 
@@ -916,6 +1018,9 @@ const planetNames: SkillContent = {
         "Mars"
     ],
 
+    hint:
+        "Only one option is one of the two ice giants in our Solar System.",
+
     explanation:
         "Uranus is an ice giant. Neptune is the other ice giant in our Solar System.",
 
@@ -930,413 +1035,454 @@ const planetNames: SkillContent = {
     ]
 },
 
-    {
-        id: "sci-planets-names-036",
-        skillId: "planet-names",
-        question: "Which of these is an ice giant planet?",
-        stage: "recognise",
-        options: [
-            "Neptune",
-            "Mercury",
-            "Venus",
-            "Earth"
-        ],
+{
+    id: "sci-planets-names-036",
+    skillId: "planet-names",
+    question: "Which of these is an ice giant planet?",
+    stage: "recognise",
+    options: [
+        "Neptune",
+        "Mercury",
+        "Venus",
+        "Earth"
+    ],
 
-        explanation:
-            "Neptune is an ice giant. Uranus is the other ice giant.",
+    hint:
+        "The other ice giant is Uranus. Choose its partner.",
 
-        difficulty: 3,
-        correctAnswer: "Neptune",
-        estimatedSeconds: 20,
+    explanation:
+        "Neptune is an ice giant. Uranus is the other ice giant.",
 
-        tags: [
-            "science",
-            "space",
-            "neptune"
-        ]
-    },
+    difficulty: 3,
+    correctAnswer: "Neptune",
+    estimatedSeconds: 20,
 
-    {
-        id: "sci-planets-names-037",
-        skillId: "planet-names",
-        question: "Which planet is second from the Sun?",
-        stage: "recognise",
-        options: [
-            "Venus",
-            "Mercury",
-            "Earth",
-            "Mars"
-        ],
-
-        explanation:
-            "Venus is the second planet from the Sun, between Mercury and Earth.",
-
-        difficulty: 3,
-        correctAnswer: "Venus",
-        estimatedSeconds: 20,
-
-        tags: [
-            "science",
-            "space",
-            "planet-order",
-            "venus"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-038",
-        skillId: "planet-names",
-        question: "Which planet is third from the Sun?",
-        stage: "recognise",
-        options: [
-            "Earth",
-            "Venus",
-            "Mars",
-            "Jupiter"
-        ],
-
-        explanation:
-            "Earth is the third planet from the Sun.",
-
-        difficulty: 3,
-        correctAnswer: "Earth",
-        estimatedSeconds: 20,
-
-        tags: [
-            "science",
-            "space",
-            "planet-order",
-            "earth"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-039",
-        skillId: "planet-names",
-        question: "Which planet is fifth from the Sun?",
-        stage: "recognise",
-        options: [
-            "Jupiter",
-            "Mars",
-            "Saturn",
-            "Neptune"
-        ],
-
-        explanation:
-            "Jupiter is the fifth planet from the Sun.",
-
-        difficulty: 3,
-        correctAnswer: "Jupiter",
-        estimatedSeconds: 20,
-
-        tags: [
-            "science",
-            "space",
-            "planet-order",
-            "jupiter"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-040",
-        skillId: "planet-names",
-        question: "Which planet is sixth from the Sun?",
-        stage: "recognise",
-        options: [
-            "Saturn",
-            "Jupiter",
-            "Uranus",
-            "Neptune"
-        ],
-
-        explanation:
-            "Saturn is the sixth planet from the Sun.",
-
-        difficulty: 3,
-        correctAnswer: "Saturn",
-        estimatedSeconds: 20,
-
-        tags: [
-            "science",
-            "space",
-            "planet-order",
-            "saturn"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-041",
-        skillId: "planet-names",
-        question: "Which list shows the first four planets in the correct order?",
-        stage: "recognise",
-        options: [
-            "Mercury, Venus, Earth, Mars",
-            "Mercury, Earth, Venus, Mars",
-            "Venus, Mercury, Earth, Mars",
-            "Earth, Venus, Mercury, Mars"
-        ],
-
-        explanation:
-            "The first four planets are Mercury, Venus, Earth and Mars.",
-
-        difficulty: 4,
-        correctAnswer: "Mercury, Venus, Earth, Mars",
-        estimatedSeconds: 25,
-
-        tags: [
-            "science",
-            "space",
-            "planet-order"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-042",
-        skillId: "planet-names",
-        question: "Which list shows the last four planets in the correct order?",
-        stage: "recognise",
-        options: [
-            "Jupiter, Saturn, Uranus, Neptune",
-            "Saturn, Jupiter, Uranus, Neptune",
-            "Jupiter, Uranus, Saturn, Neptune",
-            "Jupiter, Saturn, Neptune, Uranus"
-        ],
-
-        explanation:
-            "The last four planets are Jupiter, Saturn, Uranus and Neptune.",
-
-        difficulty: 4,
-        correctAnswer: "Jupiter, Saturn, Uranus, Neptune",
-        estimatedSeconds: 25,
-
-        tags: [
-            "science",
-            "space",
-            "planet-order"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-043",
-        skillId: "planet-names",
-        question: "Which planet comes between Venus and Mars?",
-        stage: "recognise",
-        options: [
-            "Earth",
-            "Mercury",
-            "Jupiter",
-            "Saturn"
-        ],
-
-        explanation:
-            "Earth is between Venus and Mars in the Solar System.",
-
-        difficulty: 4,
-        correctAnswer: "Earth",
-        estimatedSeconds: 20,
-
-        tags: [
-            "science",
-            "space",
-            "planet-order",
-            "earth"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-044",
-        skillId: "planet-names",
-        question: "Which planet comes between Saturn and Neptune?",
-        stage: "recognise",
-        options: [
-            "Uranus",
-            "Jupiter",
-            "Mars",
-            "Earth"
-        ],
-
-        explanation:
-            "Uranus is the seventh planet and lies between Saturn and Neptune.",
-
-        difficulty: 4,
-        correctAnswer: "Uranus",
-        estimatedSeconds: 20,
-
-        tags: [
-            "science",
-            "space",
-            "planet-order",
-            "uranus"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-045",
-        skillId: "planet-names",
-        question: "Which planet is both the largest planet and a gas giant?",
-        stage: "recognise",
-        options: [
-            "Jupiter",
-            "Saturn",
-            "Earth",
-            "Mars"
-        ],
-
-        explanation:
-            "Jupiter is the largest planet and is one of the four giant planets.",
-
-        difficulty: 4,
-        correctAnswer: "Jupiter",
-        estimatedSeconds: 25,
-
-        tags: [
-            "science",
-            "space",
-            "jupiter"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-046",
-        skillId: "planet-names",
-        question: "Which pair contains two planets?",
-        stage: "recognise",
-        options: [
-            "Mercury and Venus",
-            "Sun and Earth",
-            "Moon and Mars",
-            "Comet and Jupiter"
-        ],
-
-        explanation:
-            "Mercury and Venus are both planets. The other pairs include objects that are not planets.",
-
-        difficulty: 4,
-        correctAnswer: "Mercury and Venus",
-        estimatedSeconds: 20,
-
-        tags: [
-            "science",
-            "space",
-            "planets"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-047",
-        skillId: "planet-names",
-        question: "Which answer contains one planet and one star?",
-        stage: "recognise",
-        options: [
-            "Earth and the Sun",
-            "Earth and Mars",
-            "Moon and Mars",
-            "Comet and Venus"
-        ],
-
-        explanation:
-            "Earth is a planet and the Sun is a star.",
-
-        difficulty: 4,
-        correctAnswer: "Earth and the Sun",
-        estimatedSeconds: 20,
-
-        tags: [
-            "science",
-            "space",
-            "sun",
-            "earth"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-048",
-        skillId: "planet-names",
-        question: "Which planet's name comes last in the alphabet?",
-        stage: "recognise",
-        options: [
-            "Venus",
-            "Uranus",
-            "Saturn",
-            "Neptune"
-        ],
-
-        explanation:
-            "Venus comes after all the other planet names alphabetically.",
-
-        difficulty: 4,
-        correctAnswer: "Venus",
-        estimatedSeconds: 20,
-
-        tags: [
-            "science",
-            "space",
-            "venus"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-049",
-        skillId: "planet-names",
-        question: "Which planet's name comes first in the alphabet?",
-        stage: "recognise",
-        options: [
-            "Earth",
-            "Jupiter",
-            "Mars",
-            "Mercury"
-        ],
-
-        explanation:
-            "Earth is the first planet alphabetically.",
-
-        difficulty: 4,
-        correctAnswer: "Earth",
-        estimatedSeconds: 20,
-
-        tags: [
-            "science",
-            "space",
-            "earth"
-        ]
-    },
-
-    {
-        id: "sci-planets-names-050",
-        skillId: "planet-names",
-        question: "Which answer contains all eight planets?",
-        stage: "recognise",
-        options: [
-            "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
-            "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Pluto, Neptune",
-            "Mercury, Venus, Earth, Moon, Jupiter, Saturn, Uranus, Neptune",
-            "Mercury, Venus, Earth, Mars, Saturn, Uranus, Neptune"
-        ],
-
-        explanation:
-            "The eight planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
-
-        difficulty: 5,
-        correctAnswer: "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
-        estimatedSeconds: 30,
-
-        tags: [
-            "science",
-            "space",
-            "planets",
-            "planet-order",
-            "mastery"
-        ]
-    }
-
+    tags: [
+        "science",
+        "space",
+        "neptune"
     ]
-};
+},
 
+{
+    id: "sci-planets-names-037",
+    skillId: "planet-names",
+    question: "Which planet is second from the Sun?",
+    stage: "recognise",
+    options: [
+        "Venus",
+        "Mercury",
+        "Earth",
+        "Mars"
+    ],
+
+    hint:
+        "Mercury is first. Which planet comes next?",
+
+    explanation:
+        "Venus is the second planet from the Sun, between Mercury and Earth.",
+
+    difficulty: 3,
+    correctAnswer: "Venus",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "space",
+        "planet-order",
+        "venus"
+    ]
+},
+
+{
+    id: "sci-planets-names-038",
+    skillId: "planet-names",
+    question: "Which planet is third from the Sun?",
+    stage: "recognise",
+    options: [
+        "Earth",
+        "Venus",
+        "Mars",
+        "Jupiter"
+    ],
+
+    hint:
+        "Count: Mercury, Venus, then the correct answer.",
+
+    explanation:
+        "Earth is the third planet from the Sun.",
+
+    difficulty: 3,
+    correctAnswer: "Earth",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "space",
+        "planet-order",
+        "earth"
+    ]
+},
+
+{
+    id: "sci-planets-names-039",
+    skillId: "planet-names",
+    question: "Which planet is fifth from the Sun?",
+    stage: "recognise",
+    options: [
+        "Jupiter",
+        "Mars",
+        "Saturn",
+        "Neptune"
+    ],
+
+    hint:
+        "Count the planets from the Sun until you reach number five.",
+
+    explanation:
+        "Jupiter is the fifth planet from the Sun.",
+
+    difficulty: 3,
+    correctAnswer: "Jupiter",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "space",
+        "planet-order",
+        "jupiter"
+    ]
+},
+ {
+    id: "sci-planets-names-040",
+    skillId: "planet-names",
+    question: "Which planet is sixth from the Sun?",
+    stage: "recognise",
+    options: [
+        "Saturn",
+        "Jupiter",
+        "Uranus",
+        "Neptune"
+    ],
+
+    hint:
+        "Count the planets from the Sun until you reach number six.",
+
+    explanation:
+        "Saturn is the sixth planet from the Sun.",
+
+    difficulty: 3,
+    correctAnswer: "Saturn",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "space",
+        "planet-order",
+        "saturn"
+    ]
+},
+
+{
+    id: "sci-planets-names-041",
+    skillId: "planet-names",
+    question: "Which list shows the first four planets in the correct order?",
+    stage: "recognise",
+    options: [
+        "Mercury, Venus, Earth, Mars",
+        "Mercury, Earth, Venus, Mars",
+        "Venus, Mercury, Earth, Mars",
+        "Earth, Venus, Mercury, Mars"
+    ],
+
+    hint:
+        "Start with the planet closest to the Sun and check that each planet follows in the correct sequence.",
+
+    explanation:
+        "The first four planets are Mercury, Venus, Earth and Mars.",
+
+    difficulty: 4,
+    correctAnswer: "Mercury, Venus, Earth, Mars",
+    estimatedSeconds: 25,
+
+    tags: [
+        "science",
+        "space",
+        "planet-order"
+    ]
+},
+
+{
+    id: "sci-planets-names-042",
+    skillId: "planet-names",
+    question: "Which list shows the last four planets in the correct order?",
+    stage: "recognise",
+    options: [
+        "Jupiter, Saturn, Uranus, Neptune",
+        "Saturn, Jupiter, Uranus, Neptune",
+        "Jupiter, Uranus, Saturn, Neptune",
+        "Jupiter, Saturn, Neptune, Uranus"
+    ],
+
+    hint:
+        "After Mars comes the four giant planets. Make sure they stay in the right order.",
+
+    explanation:
+        "The last four planets are Jupiter, Saturn, Uranus and Neptune.",
+
+    difficulty: 4,
+    correctAnswer: "Jupiter, Saturn, Uranus, Neptune",
+    estimatedSeconds: 25,
+
+    tags: [
+        "science",
+        "space",
+        "planet-order"
+    ]
+},
+
+{
+    id: "sci-planets-names-043",
+    skillId: "planet-names",
+    question: "Which planet comes between Venus and Mars?",
+    stage: "recognise",
+    options: [
+        "Earth",
+        "Mercury",
+        "Jupiter",
+        "Saturn"
+    ],
+
+    hint:
+        "Think of the first four planets: Mercury, Venus, Earth, Mars.",
+
+    explanation:
+        "Earth is between Venus and Mars in the Solar System.",
+
+    difficulty: 4,
+    correctAnswer: "Earth",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "space",
+        "planet-order",
+        "earth"
+    ]
+},
+
+{
+    id: "sci-planets-names-044",
+    skillId: "planet-names",
+    question: "Which planet comes between Saturn and Neptune?",
+    stage: "recognise",
+    options: [
+        "Uranus",
+        "Jupiter",
+        "Mars",
+        "Earth"
+    ],
+
+    hint:
+        "The final three planets are Saturn, then one more, then Neptune.",
+
+    explanation:
+        "Uranus is the seventh planet and lies between Saturn and Neptune.",
+
+    difficulty: 4,
+    correctAnswer: "Uranus",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "space",
+        "planet-order",
+        "uranus"
+    ]
+},
+
+{
+    id: "sci-planets-names-045",
+    skillId: "planet-names",
+    question: "Which planet is both the largest planet and a gas giant?",
+    stage: "recognise",
+    options: [
+        "Jupiter",
+        "Saturn",
+        "Earth",
+        "Mars"
+    ],
+
+    hint:
+        "Choose the biggest planet in the Solar System, famous for the Great Red Spot.",
+
+    explanation:
+        "Jupiter is the largest planet and is one of the four giant planets.",
+
+    difficulty: 4,
+    correctAnswer: "Jupiter",
+    estimatedSeconds: 25,
+
+    tags: [
+        "science",
+        "space",
+        "jupiter"
+    ]
+},
+
+{
+    id: "sci-planets-names-046",
+    skillId: "planet-names",
+    question: "Which pair contains two planets?",
+    stage: "recognise",
+    options: [
+        "Mercury and Venus",
+        "Sun and Earth",
+        "Moon and Mars",
+        "Comet and Jupiter"
+    ],
+
+    hint:
+        "Remove any pair that includes a star, moon or comet.",
+
+    explanation:
+        "Mercury and Venus are both planets. The other pairs include objects that are not planets.",
+
+    difficulty: 4,
+    correctAnswer: "Mercury and Venus",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "space",
+        "planets"
+    ]
+},
+
+{
+    id: "sci-planets-names-047",
+    skillId: "planet-names",
+    question: "Which answer contains one planet and one star?",
+    stage: "recognise",
+    options: [
+        "Earth and the Sun",
+        "Earth and Mars",
+        "Moon and Mars",
+        "Comet and Venus"
+    ],
+
+    hint:
+        "The Sun is the only star in these options.",
+
+    explanation:
+        "Earth is a planet and the Sun is a star.",
+
+    difficulty: 4,
+    correctAnswer: "Earth and the Sun",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "space",
+        "sun",
+        "earth"
+    ]
+},
+
+{
+    id: "sci-planets-names-048",
+    skillId: "planet-names",
+    question: "Which planet's name comes last in the alphabet?",
+    stage: "recognise",
+    options: [
+        "Venus",
+        "Uranus",
+        "Saturn",
+        "Neptune"
+    ],
+
+    hint:
+        "Compare the first letters of each planet name alphabetically.",
+
+    explanation:
+        "Venus comes after all the other planet names alphabetically.",
+
+    difficulty: 4,
+    correctAnswer: "Venus",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "space",
+        "venus"
+    ]
+},
+
+{
+    id: "sci-planets-names-049",
+    skillId: "planet-names",
+    question: "Which planet's name comes first in the alphabet?",
+    stage: "recognise",
+    options: [
+        "Earth",
+        "Jupiter",
+        "Mars",
+        "Mercury"
+    ],
+
+    hint:
+        "Alphabetical order starts with A, then B, C and D before E.",
+
+    explanation:
+        "Earth is the first planet alphabetically.",
+
+    difficulty: 4,
+    correctAnswer: "Earth",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "space",
+        "earth"
+    ]
+},
+
+{
+    id: "sci-planets-names-050",
+    skillId: "planet-names",
+    question: "Which answer contains all eight planets?",
+    stage: "recognise",
+    options: [
+        "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+        "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Pluto, Neptune",
+        "Mercury, Venus, Earth, Moon, Jupiter, Saturn, Uranus, Neptune",
+        "Mercury, Venus, Earth, Mars, Saturn, Uranus, Neptune"
+    ],
+
+    hint:
+        "Check for every one of the eight planets. Watch out for a missing planet or an extra object that isn't a planet.",
+
+    explanation:
+        "The eight planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
+
+    difficulty: 5,
+    correctAnswer: "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+    estimatedSeconds: 30,
+
+    tags: [
+        "science",
+        "space",
+        "planets",
+        "planet-order",
+        "mastery"
+    ]
+}
+
+]
+};
 
 export default planetNames;
 
 export {
-
     planetNames
-
 };

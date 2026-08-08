@@ -36,6 +36,8 @@ const romanSettlements: SkillContent = {
         correctAnswer: "A place where people live",
         estimatedSeconds: 20,
 
+                hint: "Think about the general meaning of a place where a community lives.",
+
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
 
@@ -58,6 +60,8 @@ const romanSettlements: SkillContent = {
         difficulty: 1,
         correctAnswer: "Towns, roads and forts",
         estimatedSeconds: 20,
+
+                hint: "Which choices are things Romans are famous for constructing across Britain?",
 
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
@@ -82,6 +86,8 @@ const romanSettlements: SkillContent = {
         correctAnswer: "To help people and armies travel",
         estimatedSeconds: 20,
 
+                hint: "Roads had to help both ordinary people and the army move quickly.",
+
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
 
@@ -104,6 +110,8 @@ const romanSettlements: SkillContent = {
         difficulty: 1,
         correctAnswer: "A settlement",
         estimatedSeconds: 20,
+
+                hint: "A town is defined by people living there, not by one special building.",
 
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
@@ -128,6 +136,8 @@ const romanSettlements: SkillContent = {
         correctAnswer: "For travel and trade",
         estimatedSeconds: 20,
 
+                hint: "Being beside roads made it easier to exchange goods.",
+
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
 
@@ -150,6 +160,8 @@ const romanSettlements: SkillContent = {
         difficulty: 1,
         correctAnswer: "Housing and protecting soldiers",
         estimatedSeconds: 20,
+
+                hint: "A fort's main purpose was connected with soldiers.",
 
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
@@ -174,6 +186,8 @@ const romanSettlements: SkillContent = {
         correctAnswer: "A large Roman house",
         estimatedSeconds: 20,
 
+                hint: "A villa was a home, not a military building.",
+
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
 
@@ -196,6 +210,8 @@ const romanSettlements: SkillContent = {
         difficulty: 1,
         correctAnswer: "Baths, shops and temples",
         estimatedSeconds: 20,
+
+                hint: "Choose buildings you would expect in a busy Roman town centre.",
 
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
@@ -220,6 +236,8 @@ const romanSettlements: SkillContent = {
         correctAnswer: "They were places to wash and socialise",
         estimatedSeconds: 20,
 
+                hint: "Roman baths were social places as well as places to wash.",
+
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
 
@@ -242,6 +260,8 @@ const romanSettlements: SkillContent = {
         difficulty: 1,
         correctAnswer: "Roads, bridges and buildings",
         estimatedSeconds: 20,
+
+                hint: "Engineers design and build structures, not machines like cars.",
 
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
@@ -266,6 +286,8 @@ const romanSettlements: SkillContent = {
         correctAnswer: "People came to live, work and trade there",
         estimatedSeconds: 20,
 
+                hint: "Why would more people move to a successful town?",
+
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
 
@@ -288,6 +310,8 @@ const romanSettlements: SkillContent = {
         difficulty: 2,
         correctAnswer: "Buying and selling goods",
         estimatedSeconds: 20,
+
+                hint: "Trade always involves exchanging things with other people.",
 
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
@@ -312,6 +336,8 @@ const romanSettlements: SkillContent = {
         correctAnswer: "To help control Roman territory",
         estimatedSeconds: 20,
 
+                hint: "Forts were placed where Romans wanted to keep control.",
+
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
 
@@ -334,6 +360,8 @@ const romanSettlements: SkillContent = {
         difficulty: 2,
         correctAnswer: "Ruins, roads and buildings",
         estimatedSeconds: 20,
+
+                hint: "Look for physical evidence that can survive underground for centuries.",
 
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
@@ -358,6 +386,8 @@ const romanSettlements: SkillContent = {
         correctAnswer: "They introduced new ways of living and trading",
         estimatedSeconds: 20,
 
+                hint: "Think about how towns changed everyday life, not just buildings.",
+
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
 
@@ -380,6 +410,8 @@ const romanSettlements: SkillContent = {
         difficulty: 2,
         correctAnswer: "People could buy and sell goods",
         estimatedSeconds: 20,
+
+                hint: "Markets exist so buyers and sellers can meet.",
 
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
@@ -404,6 +436,8 @@ const romanSettlements: SkillContent = {
         correctAnswer: "London",
         estimatedSeconds: 20,
 
+                hint: "Remember the Roman name Londinium.",
+
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
 
@@ -426,6 +460,8 @@ const romanSettlements: SkillContent = {
         difficulty: 2,
         correctAnswer: "A Roman settlement that became London",
         estimatedSeconds: 20,
+
+                hint: "One answer is the ancient name, not the modern one.",
 
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
@@ -450,6 +486,8 @@ const romanSettlements: SkillContent = {
         correctAnswer: "To learn how people lived in Roman Britain",
         estimatedSeconds: 20,
 
+                hint: "Historians study settlements to understand ordinary lives.",
+
         tags: ["history", "year3", "roman-britain", "settlements"]
     },
 
@@ -472,6 +510,8 @@ const romanSettlements: SkillContent = {
         difficulty: 2,
         correctAnswer: "Places where Romans built towns, forts and homes",
         estimatedSeconds: 25,
+
+                hint: "A settlement can include more than just soldiers.",
 
         tags: ["history", "year3", "roman-britain", "settlements"]
     }

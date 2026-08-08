@@ -21,6 +21,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word is a verb?",
         stage: "recognise",
+        hint: "Look for the action word.",
         options: [
             "run",
             "dog",
@@ -43,6 +44,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word tells what someone is doing?",
         stage: "recognise",
+        hint: "Which word tells what someone is doing?",
         options: [
             "jump",
             "table",
@@ -65,6 +67,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word is a verb?",
         stage: "recognise",
+        hint: "A verb is something you can do.",
         options: [
             "eat",
             "apple",
@@ -87,6 +90,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word is a verb?",
         stage: "recognise",
+        hint: "Think about which word shows an action.",
         options: [
             "sleep",
             "bed",
@@ -109,6 +113,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word is a verb?",
         stage: "recognise",
+        hint: "Which word tells what someone does?",
         options: [
             "laugh",
             "child",
@@ -131,6 +136,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word is a verb?",
         stage: "recognise",
+        hint: "Find the doing word.",
         options: [
             "write",
             "pencil",
@@ -153,6 +159,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which sentence contains a verb?",
         stage: "recognise",
+        hint: "Look for the sentence with an action.",
         options: [
             "The bird sings.",
             "The noisy bird.",
@@ -175,6 +182,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word is the verb?",
         stage: "recognise",
+        hint: "Which word is something you can do?",
         options: [
             "swim",
             "river",
@@ -197,6 +205,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which sentence contains an action verb?",
         stage: "recognise",
+        hint: "Find the action in the sentence.",
         options: [
             "The cat climbed the tree.",
             "The tall tree.",
@@ -219,6 +228,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word is NOT a verb?",
         stage: "recognise",
+        hint: "Three words are actions. One is a naming word.",
         options: [
             "house",
             "dance",
@@ -241,6 +251,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which pair contains only verbs?",
         stage: "recognise",
+        hint: "Choose the pair where both words are actions.",
         options: [
             "run, jump",
             "dog, cat",
@@ -263,6 +274,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which sentence contains two verbs?",
         stage: "recognise",
+        hint: "Can you spot two action words?",
         options: [
             "Sam ran and laughed.",
             "The happy dog.",
@@ -285,6 +297,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word is NOT a verb?",
         stage: "recognise",
+        hint: "Three words are actions. One names a place.",
         options: [
             "garden",
             "sing",
@@ -307,6 +320,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "In the sentence 'The rabbit hopped away.', what is the verb?",
         stage: "recognise",
+        hint: "Ask what the rabbit did.",
         options: [
             "hopped",
             "rabbit",
@@ -329,6 +343,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which sentence uses a verb correctly?",
         stage: "recognise",
+        hint: "Look for the sentence with a clear action.",
         options: [
             "The children played outside.",
             "The children outside.",
@@ -351,6 +366,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word completes the sentence? 'The baby ____.'",
         stage: "recognise",
+        hint: "The missing word should tell what the baby did.",
         options: [
             "cried",
             "cot",
@@ -373,6 +389,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which sentence contains the verb 'read'?",
         stage: "recognise",
+        hint: "Find the sentence where 'read' is the action.",
         options: [
             "We read a story.",
             "The story book.",
@@ -395,6 +412,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which word is the verb in 'Dad cooked dinner.'?",
         stage: "recognise",
+        hint: "Which word tells what Dad did?",
         options: [
             "cooked",
             "Dad",
@@ -417,6 +435,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which sentence contains only one verb?",
         stage: "recognise",
+        hint: "Count the action words in each sentence.",
         options: [
             "The girl smiled.",
             "The girl smiled and waved.",
@@ -439,6 +458,7 @@ const verbs: SkillContent = {
         skillId: "verbs",
         question: "Which sentence uses verbs correctly?",
         stage: "recognise",
+        hint: "Look for the sentence with two actions.",
         options: [
             "Oliver opened the door and waved.",
             "Oliver the door.",

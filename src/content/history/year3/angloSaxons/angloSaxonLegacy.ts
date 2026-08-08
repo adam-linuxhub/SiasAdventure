@@ -35,6 +35,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 1,
         correctAnswer: "Something from the past that still affects us today",
         estimatedSeconds: 20,
+        hint: "Think about what continues long after people are gone.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -58,6 +59,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 1,
         correctAnswer: "English",
         estimatedSeconds: 20,
+        hint: "Consider which language you speak every day.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -81,6 +83,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 1,
         correctAnswer: "They named many settlements",
         estimatedSeconds: 20,
+        hint: "Place names can preserve clues from early settlers.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -104,6 +107,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 1,
         correctAnswer: "-ham",
         estimatedSeconds: 20,
+        hint: "Some word endings reveal how places began.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -127,6 +131,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 1,
         correctAnswer: "To learn about how people lived in the past",
         estimatedSeconds: 20,
+        hint: "Objects can tell stories without using words.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -150,6 +155,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 1,
         correctAnswer: "Language, traditions and place names",
         estimatedSeconds: 20,
+        hint: "Think beyond inventions to lasting cultural ideas.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -173,6 +179,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 1,
         correctAnswer: "Buildings, objects and writings",
         estimatedSeconds: 20,
+        hint: "Historians combine different kinds of clues.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -196,6 +203,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 1,
         correctAnswer: "Some became towns and villages that still exist today",
         estimatedSeconds: 20,
+        hint: "Some villages have existed for hundreds of years.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -219,6 +227,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "They show how the English language developed",
         estimatedSeconds: 20,
+        hint: "Languages grow by borrowing and changing.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -242,6 +251,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "Their language and culture still influence Britain today",
         estimatedSeconds: 20,
+        hint: "Look for something still visible today.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -265,6 +275,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "They give clues about people who lived there",
         estimatedSeconds: 20,
+        hint: "Names often reveal who lived somewhere first.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -288,6 +299,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "Books and written knowledge",
         estimatedSeconds: 20,
+        hint: "Writing was precious before printing existed.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -311,6 +323,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "It helped form the English language used today",
         estimatedSeconds: 20,
+        hint: "Today's English has very old roots.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -334,6 +347,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "Information about people and their lives",
         estimatedSeconds: 20,
+        hint: "Small objects can reveal big historical clues.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -357,6 +371,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "It helped shape England before the Norman invasion",
         estimatedSeconds: 20,
+        hint: "Think about England before 1066.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -380,6 +395,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "Through language and settlements",
         estimatedSeconds: 20,
+        hint: "Influence can be cultural as well as physical.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -403,6 +419,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "To get a clearer picture of the past",
         estimatedSeconds: 20,
+        hint: "One source rarely tells the whole story.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -426,6 +443,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "Words and place names",
         estimatedSeconds: 20,
+        hint: "Not every influence is a building or invention.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -449,6 +467,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "How people and societies changed over time",
         estimatedSeconds: 20,
+        hint: "History explains change across generations.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     },
@@ -472,6 +491,7 @@ const angloSaxonLegacy: SkillContent = {
         difficulty: 2,
         correctAnswer: "Anglo-Saxons influenced Britain's language, culture and settlements",
         estimatedSeconds: 25,
+        hint: "Think about ideas that remain, not disappear.",
 
         tags: ["history", "year3", "anglo-saxons", "legacy"]
     }

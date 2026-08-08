@@ -22,6 +22,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nDark clouds covered the sky. Mia picked up her umbrella before leaving the house.\n\nWhat will probably happen next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "It will rain.",
             "It will snow.",
@@ -45,6 +46,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nBen mixed flour, eggs and milk in a bowl.\n\nWhat will Ben probably do next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "Cook the mixture.",
             "Plant flowers.",
@@ -68,6 +70,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nThe school bell rang and the children packed away their books.\n\nWhat will probably happen next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "They will leave the classroom.",
             "They will start another lesson.",
@@ -91,6 +94,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nThe puppy ran to its bowl and wagged its tail when Sam opened a tin of dog food.\n\nWhat will probably happen next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "The puppy will eat.",
             "The puppy will go swimming.",
@@ -114,6 +118,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nLily put on her swimming costume and goggles.\n\nWhat will she probably do next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "Go swimming.",
             "Play football.",
@@ -137,6 +142,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nJake carefully watered the tiny plant every day.\n\nWhat will probably happen after a few weeks?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "The plant will grow.",
             "The plant will disappear.",
@@ -160,6 +166,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nTom forgot to charge his tablet before a long journey.\n\nWhat is likely to happen?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "The battery may run out.",
             "The tablet will grow bigger.",
@@ -183,6 +190,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nEmma practised her spelling every evening before the test.\n\nWhat is likely to happen?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "She may do well in the test.",
             "She will forget how to read.",
@@ -206,6 +214,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nThe football rolled towards the road.\n\nWhat will the children probably do?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "Run to stop it safely.",
             "Start eating lunch.",
@@ -229,6 +238,7 @@ const prediction: SkillContent = {
         question:
             "What is a prediction?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "A sensible guess about what will happen next",
             "A list of difficult words",
@@ -252,6 +262,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nSophie carried wrapping paper, tape and a birthday card into her room.\n\nWhat will Sophie probably do next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "Wrap a present.",
             "Plant a tree.",
@@ -275,6 +286,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nThe audience became quiet and the lights dimmed.\n\nWhat will probably happen next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "The show will begin.",
             "Everyone will leave.",
@@ -298,6 +310,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nThe baker placed the tray of biscuits into the oven.\n\nWhat will probably happen next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "The biscuits will bake.",
             "The biscuits will freeze.",
@@ -321,6 +334,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nNoah zipped up his tent as the sky became darker.\n\nWhat will probably happen next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "He will go to sleep.",
             "He will start school.",
@@ -344,6 +358,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nThe referee blew the whistle and pointed to the centre circle.\n\nWhat probably happened?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "A goal was scored.",
             "It started snowing.",
@@ -367,6 +382,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nOlivia checked the recipe one more time before turning on the oven.\n\nWhat will she probably do next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "Start cooking.",
             "Go swimming.",
@@ -390,6 +406,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nThe clouds cleared and the sun came out.\n\nWhat will probably happen to the ground?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "It will begin to dry.",
             "It will become snowier.",
@@ -413,6 +430,7 @@ const prediction: SkillContent = {
         question:
             "Read the passage:\n\nThe hamster scratched at the side of its empty food bowl.\n\nWhat will probably happen next?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "Someone will feed the hamster.",
             "The hamster will start driving.",
@@ -436,6 +454,7 @@ const prediction: SkillContent = {
         question:
             "Which prediction is best supported by clues in a story?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "A prediction that matches the evidence in the text",
             "A random guess",
@@ -459,6 +478,7 @@ const prediction: SkillContent = {
         question:
             "When making a prediction while reading, what should you use?",
         stage: "recognise",
+        hint: "Think about what is most likely to happen next.",
         options: [
             "Clues from the text and your own knowledge",
             "Only the title",

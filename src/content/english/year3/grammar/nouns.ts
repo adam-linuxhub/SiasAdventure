@@ -21,6 +21,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word is a noun?",
         stage: "recognise",
+        hint: "A noun is a naming word. Look for the name of something.",
         options: [
             "dog",
             "run",
@@ -43,6 +44,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word names a person?",
         stage: "recognise",
+        hint: "Which word names a person?",
         options: [
             "teacher",
             "jump",
@@ -65,6 +67,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word names a place?",
         stage: "recognise",
+        hint: "Find the word that names a place.",
         options: [
             "school",
             "sing",
@@ -87,6 +90,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word names an object?",
         stage: "recognise",
+        hint: "Which word names a thing you can hold or use?",
         options: [
             "book",
             "read",
@@ -109,6 +113,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word is a proper noun?",
         stage: "recognise",
+        hint: "Proper nouns are special names and use capital letters.",
         options: [
             "London",
             "city",
@@ -131,6 +136,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "How should a proper noun begin?",
         stage: "recognise",
+        hint: "Think about how names of people and places begin.",
         options: [
             "With a capital letter",
             "With a full stop",
@@ -153,6 +159,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word is a common noun?",
         stage: "recognise",
+        hint: "A common noun names any person, place or thing.",
         options: [
             "cat",
             "England",
@@ -175,6 +182,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word is a proper noun?",
         stage: "recognise",
+        hint: "Look for the name of a particular person.",
         options: [
             "Emma",
             "girl",
@@ -197,6 +205,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word is a noun?",
         stage: "recognise",
+        hint: "Which word names a living thing?",
         options: [
             "tree",
             "green",
@@ -219,6 +228,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which sentence contains a proper noun?",
         stage: "recognise",
+        hint: "Look for the sentence with a person's name.",
         options: [
             "Jack played football.",
             "The boy played football.",
@@ -241,6 +251,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which pair contains only nouns?",
         stage: "recognise",
+        hint: "Choose the pair where both words are naming words.",
         options: [
             "bird, river",
             "run, jump",
@@ -263,6 +274,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which sentence uses a proper noun correctly?",
         stage: "recognise",
+        hint: "Proper nouns should always start with a capital letter.",
         options: [
             "We visited Scotland.",
             "We visited scotland.",
@@ -285,6 +297,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word is NOT a noun?",
         stage: "recognise",
+        hint: "Three words name things. One describes an action.",
         options: [
             "quickly",
             "teacher",
@@ -307,6 +320,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word is a collective noun?",
         stage: "recognise",
+        hint: "A collective noun names a group.",
         options: [
             "team",
             "player",
@@ -329,6 +343,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which sentence contains two nouns?",
         stage: "recognise",
+        hint: "See if you can spot two naming words.",
         options: [
             "The dog chased the ball.",
             "Run quickly now.",
@@ -351,6 +366,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which word is a proper noun?",
         stage: "recognise",
+        hint: "Days of the week are proper nouns.",
         options: [
             "Friday",
             "week",
@@ -373,6 +389,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which noun names a place?",
         stage: "recognise",
+        hint: "Which word names somewhere you could visit?",
         options: [
             "museum",
             "write",
@@ -395,6 +412,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Why does 'Lucy' begin with a capital letter?",
         stage: "recognise",
+        hint: "Names of particular people begin with capital letters.",
         options: [
             "It is a proper noun.",
             "It is a verb.",
@@ -417,6 +435,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which sentence contains a collective noun?",
         stage: "recognise",
+        hint: "A collective noun names a group of people or things.",
         options: [
             "The class went outside.",
             "The teacher smiled.",
@@ -439,6 +458,7 @@ const nouns: SkillContent = {
         skillId: "nouns",
         question: "Which sentence uses nouns correctly?",
         stage: "recognise",
+        hint: "Check that every proper noun has a capital letter.",
         options: [
             "Oliver visited London on Monday.",
             "oliver visited london on monday.",

@@ -21,6 +21,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "What does the suffix '-ly' often turn an adjective into?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "An adverb",
             "A noun",
@@ -43,6 +44,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which word is made by adding '-ly' to 'quick'?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "quickly",
             "quicker",
@@ -65,6 +67,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which word is made by adding '-ly' to 'slow'?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "slowly",
             "slower",
@@ -87,6 +90,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which word is spelled correctly?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "carefully",
             "carefuly",
@@ -109,6 +113,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which word means 'in a happy way'?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "happily",
             "happy",
@@ -131,6 +136,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which word means 'in a loud way'?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "loudly",
             "loud",
@@ -153,6 +159,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which sentence uses an '-ly' word correctly?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "The rabbit ran quickly.",
             "The rabbit ran quick.",
@@ -175,6 +182,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which word is formed from 'kind'?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "kindly",
             "kindness",
@@ -197,6 +205,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which word ends with '-ly'?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "softly",
             "soft",
@@ -219,6 +228,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "What do many '-ly' words describe?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "How something happens",
             "Who someone is",
@@ -241,6 +251,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Complete the sentence: 'The baby slept ______.'",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "peacefully",
             "peaceful",
@@ -263,6 +274,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Complete the sentence: 'Please listen ______.'",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "carefully",
             "careful",
@@ -285,6 +297,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "The tortoise walked slowly.",
             "The tortoise walked slow.",
@@ -307,6 +320,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which word tells us how the girl smiled?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "happily",
             "happy",
@@ -329,6 +343,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which sentence uses an '-ly' word correctly?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "The class worked quietly.",
             "The class worked quiet.",
@@ -351,6 +366,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which word is formed by adding '-ly' to 'brave'?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "bravely",
             "braveness",
@@ -373,6 +389,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which sentence uses the correct spelling?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "The children played happily together.",
             "The children played happyly together.",
@@ -395,6 +412,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which sentence uses an adverb ending in '-ly'?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "The puppy barked loudly.",
             "The puppy barked loud.",
@@ -417,6 +435,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Why do writers use many '-ly' words?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "To describe how actions happen",
             "To ask questions",
@@ -439,6 +458,7 @@ const suffixesLy: SkillContent = {
         skillId: "suffixesLy",
         question: "Which sentence contains two correctly spelled '-ly' words?",
         stage: "recognise",
+        hint: "'-ly' words often describe how something happens.",
         options: [
             "The birds sang beautifully and loudly.",
             "The birds sang beautifuly and loudly.",

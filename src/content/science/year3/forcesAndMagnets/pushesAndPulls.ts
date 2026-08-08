@@ -28,6 +28,8 @@ const pushesAndPulls: SkillContent = {
             "A heavy object"
         ],
 
+        hint: "Think about the two basic ways you can make an object move with your hands.",
+
         explanation:
             "A force is simply a push or a pull acting on an object.",
 
@@ -49,6 +51,8 @@ const pushesAndPulls: SkillContent = {
             "Pulling a rope",
             "Picking up a bag"
         ],
+
+        hint: "A push moves something away from your body rather than towards you.",
 
         explanation:
             "Closing a door usually means pushing it away from you.",
@@ -72,6 +76,8 @@ const pushesAndPulls: SkillContent = {
             "Pushing a trolley"
         ],
 
+        hint: "A pull brings an object closer to you.",
+
         explanation:
             "You pull a drawer towards you to open it.",
 
@@ -93,6 +99,8 @@ const pushesAndPulls: SkillContent = {
             "Create light",
             "Change the time"
         ],
+
+        hint: "Think about what happens when you push a toy car sitting still.",
 
         explanation:
             "A force can make an object start moving.",
@@ -116,6 +124,8 @@ const pushesAndPulls: SkillContent = {
             "A bucket by its handle"
         ],
 
+        hint: "Choose the object that normally moves in front of you as you walk.",
+
         explanation:
             "A shopping trolley moves because you push it.",
 
@@ -137,6 +147,8 @@ const pushesAndPulls: SkillContent = {
             "A door you are closing",
             "A toy car you are pushing"
         ],
+
+        hint: "Think about something that usually rolls behind you when travelling.",
 
         explanation:
             "A wheeled suitcase is usually pulled behind you.",
@@ -160,6 +172,8 @@ const pushesAndPulls: SkillContent = {
             "Turn it into water"
         ],
 
+        hint: "Think about what happens when you catch a rolling ball.",
+
         explanation:
             "A force can slow down or stop a moving object.",
 
@@ -181,6 +195,8 @@ const pushesAndPulls: SkillContent = {
             "Create shadows",
             "Make sound disappear"
         ],
+
+        hint: "Imagine a football being kicked to the side while it is already rolling.",
 
         explanation:
             "A force can change the direction an object is moving.",
@@ -204,6 +220,8 @@ const pushesAndPulls: SkillContent = {
             "Gravity"
         ],
 
+        hint: "Your foot sends the ball away from you.",
+
         explanation:
             "Your foot pushes the football away.",
 
@@ -226,6 +244,8 @@ const pushesAndPulls: SkillContent = {
             "Forces cannot make objects move."
         ],
 
+        hint: "Remember the simple definition of a force that you've learned throughout this activity.",
+
         explanation:
             "Every force is a push, a pull or a combination of both.",
 
@@ -236,227 +256,247 @@ const pushesAndPulls: SkillContent = {
         tags: ["science", "forces"]
     },
 
-    {
-        id: "sci-pushpull-011",
-        skillId: "pushesAndPulls",
-        question: "A toy car is standing still. What could make it move?",
-        stage: "recognise",
-        options: [
-            "Pushing it",
-            "Watching it",
-            "Painting it",
-            "Measuring it"
-        ],
+ {
+    id: "sci-pushpull-011",
+    skillId: "pushesAndPulls",
+    question: "A toy car is standing still. What could make it move?",
+    stage: "recognise",
+    options: [
+        "Pushing it",
+        "Watching it",
+        "Painting it",
+        "Measuring it"
+    ],
 
-        explanation:
-            "A push is a force that can make the toy car move.",
+    hint: "A stationary object needs a force to start moving.",
 
-        difficulty: 2,
-        correctAnswer: "Pushing it",
-        estimatedSeconds: 20,
+    explanation:
+        "A push is a force that can make the toy car move.",
 
-        tags: ["science", "forces", "push"]
-    },
+    difficulty: 2,
+    correctAnswer: "Pushing it",
+    estimatedSeconds: 20,
 
-    {
-        id: "sci-pushpull-012",
-        skillId: "pushesAndPulls",
-        question: "A football is rolling. What could stop it more quickly?",
-        stage: "recognise",
-        options: [
-            "A force acting against it",
-            "More sunlight",
-            "A louder whistle",
-            "A bigger goal"
-        ],
+    tags: ["science", "forces", "push"]
+},
 
-        explanation:
-            "A force can slow down or stop a moving object.",
+{
+    id: "sci-pushpull-012",
+    skillId: "pushesAndPulls",
+    question: "A football is rolling. What could stop it more quickly?",
+    stage: "recognise",
+    options: [
+        "A force acting against it",
+        "More sunlight",
+        "A louder whistle",
+        "A bigger goal"
+    ],
 
-        difficulty: 2,
-        correctAnswer: "A force acting against it",
-        estimatedSeconds: 20,
+    hint: "Think about what happens when something pushes against a moving ball.",
 
-        tags: ["science", "forces"]
-    },
+    explanation:
+        "A force can slow down or stop a moving object.",
 
-    {
-        id: "sci-pushpull-013",
-        skillId: "pushesAndPulls",
-        question: "Which activity uses both a push and a pull?",
-        stage: "recognise",
-        options: [
-            "Using a swing",
-            "Reading a book",
-            "Watching television",
-            "Drawing a picture"
-        ],
+    difficulty: 2,
+    correctAnswer: "A force acting against it",
+    estimatedSeconds: 20,
 
-        explanation:
-            "When using a swing, you may push away and pull yourself back.",
+    tags: ["science", "forces"]
+},
 
-        difficulty: 2,
-        correctAnswer: "Using a swing",
-        estimatedSeconds: 20,
+{
+    id: "sci-pushpull-013",
+    skillId: "pushesAndPulls",
+    question: "Which activity uses both a push and a pull?",
+    stage: "recognise",
+    options: [
+        "Using a swing",
+        "Reading a book",
+        "Watching television",
+        "Drawing a picture"
+    ],
 
-        tags: ["science", "forces"]
-    },
+    hint: "Think about an activity where you move forwards and backwards.",
 
-    {
-        id: "sci-pushpull-014",
-        skillId: "pushesAndPulls",
-        question: "Why does a bicycle change direction when you turn the handlebars?",
-        stage: "recognise",
-        options: [
-            "A force changes its direction",
-            "The wheels stop moving",
-            "The bicycle becomes lighter",
-            "The pedals disappear"
-        ],
+    explanation:
+        "When using a swing, you may push away and pull yourself back.",
 
-        explanation:
-            "Turning the handlebars applies forces that change the bicycle's direction.",
+    difficulty: 2,
+    correctAnswer: "Using a swing",
+    estimatedSeconds: 20,
 
-        difficulty: 2,
-        correctAnswer: "A force changes its direction",
-        estimatedSeconds: 20,
+    tags: ["science", "forces"]
+},
 
-        tags: ["science", "forces"]
-    },
+{
+    id: "sci-pushpull-014",
+    skillId: "pushesAndPulls",
+    question: "Why does a bicycle change direction when you turn the handlebars?",
+    stage: "recognise",
+    options: [
+        "A force changes its direction",
+        "The wheels stop moving",
+        "The bicycle becomes lighter",
+        "The pedals disappear"
+    ],
 
-    {
-        id: "sci-pushpull-015",
-        skillId: "pushesAndPulls",
-        question: "Which force is used to open a fridge door?",
-        stage: "recognise",
-        options: [
-            "A pull",
-            "A push",
-            "Light",
-            "Sound"
-        ],
+    hint: "Turning the handlebars changes where the front wheel points.",
 
-        explanation:
-            "Most fridge doors are opened by pulling the handle.",
+    explanation:
+        "Turning the handlebars applies forces that change the bicycle's direction.",
 
-        difficulty: 2,
-        correctAnswer: "A pull",
-        estimatedSeconds: 20,
+    difficulty: 2,
+    correctAnswer: "A force changes its direction",
+    estimatedSeconds: 20,
 
-        tags: ["science", "forces", "pull"]
-    },
+    tags: ["science", "forces"]
+},
 
-    {
-        id: "sci-pushpull-016",
-        skillId: "pushesAndPulls",
-        question: "A child pushes a toy car harder. What usually happens?",
-        stage: "recognise",
-        options: [
-            "It moves faster",
-            "It disappears",
-            "It becomes smaller",
-            "It changes colour"
-        ],
+{
+    id: "sci-pushpull-015",
+    skillId: "pushesAndPulls",
+    question: "Which force is used to open a fridge door?",
+    stage: "recognise",
+    options: [
+        "A pull",
+        "A push",
+        "Light",
+        "Sound"
+    ],
 
-        explanation:
-            "A stronger push usually makes the toy car move faster.",
+    hint: "Think about what you do with the handle to bring the door towards you.",
 
-        difficulty: 2,
-        correctAnswer: "It moves faster",
-        estimatedSeconds: 20,
+    explanation:
+        "Most fridge doors are opened by pulling the handle.",
 
-        tags: ["science", "forces", "push"]
-    },
+    difficulty: 2,
+    correctAnswer: "A pull",
+    estimatedSeconds: 20,
 
-    {
-        id: "sci-pushpull-017",
-        skillId: "pushesAndPulls",
-        question: "Which of these is an example of pulling?",
-        stage: "recognise",
-        options: [
-            "Pulling a curtain closed",
-            "Kicking a ball",
-            "Pushing a chair",
-            "Closing a cupboard with your hand"
-        ],
+    tags: ["science", "forces", "pull"]
+},
 
-        explanation:
-            "Pulling a curtain towards you is an example of a pull.",
+{
+    id: "sci-pushpull-016",
+    skillId: "pushesAndPulls",
+    question: "A child pushes a toy car harder. What usually happens?",
+    stage: "recognise",
+    options: [
+        "It moves faster",
+        "It disappears",
+        "It becomes smaller",
+        "It changes colour"
+    ],
 
-        difficulty: 2,
-        correctAnswer: "Pulling a curtain closed",
-        estimatedSeconds: 20,
+    hint: "A bigger force usually has a bigger effect on how something moves.",
 
-        tags: ["science", "forces", "pull"]
-    },
+    explanation:
+        "A stronger push usually makes the toy car move faster.",
 
-    {
-        id: "sci-pushpull-018",
-        skillId: "pushesAndPulls",
-        question: "What can forces change?",
-        stage: "recognise",
-        options: [
-            "The speed and direction of an object",
-            "The colour of the sky",
-            "The time of day",
-            "The weather"
-        ],
+    difficulty: 2,
+    correctAnswer: "It moves faster",
+    estimatedSeconds: 20,
 
-        explanation:
-            "Forces can make objects speed up, slow down or change direction.",
+    tags: ["science", "forces", "push"]
+},
 
-        difficulty: 2,
-        correctAnswer: "The speed and direction of an object",
-        estimatedSeconds: 20,
+{
+    id: "sci-pushpull-017",
+    skillId: "pushesAndPulls",
+    question: "Which of these is an example of pulling?",
+    stage: "recognise",
+    options: [
+        "Pulling a curtain closed",
+        "Kicking a ball",
+        "Pushing a chair",
+        "Closing a cupboard with your hand"
+    ],
 
-        tags: ["science", "forces"]
-    },
+    hint: "Choose the action where something is moved towards you.",
 
-    {
-        id: "sci-pushpull-019",
-        skillId: "pushesAndPulls",
-        question: "Which investigation would help you learn about pushes?",
-        stage: "recognise",
-        options: [
-            "Rolling a toy car with different pushes",
-            "Watching clouds",
-            "Growing a plant",
-            "Melting ice"
-        ],
+    explanation:
+        "Pulling a curtain towards you is an example of a pull.",
 
-        explanation:
-            "Changing how hard you push a toy car is a simple investigation into forces.",
+    difficulty: 2,
+    correctAnswer: "Pulling a curtain closed",
+    estimatedSeconds: 20,
 
-        difficulty: 2,
-        correctAnswer: "Rolling a toy car with different pushes",
-        estimatedSeconds: 20,
+    tags: ["science", "forces", "pull"]
+},
 
-        tags: ["science", "forces", "working-scientifically"]
-    },
+{
+    id: "sci-pushpull-018",
+    skillId: "pushesAndPulls",
+    question: "What can forces change?",
+    stage: "recognise",
+    options: [
+        "The speed and direction of an object",
+        "The colour of the sky",
+        "The time of day",
+        "The weather"
+    ],
 
-    {
-        id: "sci-pushpull-020",
-        skillId: "pushesAndPulls",
-        question: "Which sentence best describes a force?",
-        stage: "recognise",
-        options: [
-            "A force is a push or pull that can change how an object moves.",
-            "A force is something only magnets have.",
-            "A force is a type of light.",
-            "A force only works on heavy objects."
-        ],
+    hint: "Think about what happens when you kick a moving football from the side.",
 
-        explanation:
-            "Forces are pushes and pulls that can start, stop, speed up, slow down or change the direction of objects.",
+    explanation:
+        "Forces can make objects speed up, slow down or change direction.",
 
-        difficulty: 2,
-        correctAnswer: "A force is a push or pull that can change how an object moves.",
-        estimatedSeconds: 20,
+    difficulty: 2,
+    correctAnswer: "The speed and direction of an object",
+    estimatedSeconds: 20,
 
-        tags: ["science", "forces", "push", "pull"]
-    }
+    tags: ["science", "forces"]
+},
 
-    ]
+{
+    id: "sci-pushpull-019",
+    skillId: "pushesAndPulls",
+    question: "Which investigation would help you learn about pushes?",
+    stage: "recognise",
+    options: [
+        "Rolling a toy car with different pushes",
+        "Watching clouds",
+        "Growing a plant",
+        "Melting ice"
+    ],
+
+    hint: "Choose the activity where you can change the force you apply and observe the result.",
+
+    explanation:
+        "Changing how hard you push a toy car is a simple investigation into forces.",
+
+    difficulty: 2,
+    correctAnswer: "Rolling a toy car with different pushes",
+    estimatedSeconds: 20,
+
+    tags: ["science", "forces", "working-scientifically"]
+},
+
+{
+    id: "sci-pushpull-020",
+    skillId: "pushesAndPulls",
+    question: "Which sentence best describes a force?",
+    stage: "recognise",
+    options: [
+        "A force is a push or pull that can change how an object moves.",
+        "A force is something only magnets have.",
+        "A force is a type of light.",
+        "A force only works on heavy objects."
+    ],
+
+    hint: "Pick the definition that includes both pushes and pulls and their effect on movement.",
+
+    explanation:
+        "Forces are pushes and pulls that can start, stop, speed up, slow down or change the direction of objects.",
+
+    difficulty: 2,
+    correctAnswer: "A force is a push or pull that can change how an object moves.",
+    estimatedSeconds: 20,
+
+    tags: ["science", "forces", "push", "pull"]
+}
+
+]
 
 };
 

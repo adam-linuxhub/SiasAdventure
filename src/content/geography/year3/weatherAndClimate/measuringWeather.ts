@@ -36,6 +36,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "To understand weather patterns and make forecasts",
         estimatedSeconds: 20,
 
+        hint: "Think about why keeping weather records is useful days or weeks later.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -59,6 +60,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Thermometer",
         estimatedSeconds: 20,
 
+        hint: "Match the instrument to what it measures, not what it looks like.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -82,6 +84,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Rain gauge",
         estimatedSeconds: 20,
 
+        hint: "Which tool is designed to collect falling water?",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -105,6 +108,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Anemometer",
         estimatedSeconds: 20,
 
+        hint: "Think about what 'speed' means when describing wind.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -128,6 +132,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "The direction the wind is blowing from",
         estimatedSeconds: 20,
 
+        hint: "Direction tells you where something comes from, not how fast it moves.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -151,6 +156,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Temperature",
         estimatedSeconds: 20,
 
+        hint: "Choose the measurement that tells you how warm or cold the air feels.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -174,6 +180,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Rainwater",
         estimatedSeconds: 20,
 
+        hint: "Imagine leaving the instrument outside during a rainy day.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -197,6 +204,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Millimetres",
         estimatedSeconds: 20,
 
+        hint: "Rainfall measures depth, not distance or weight.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -220,6 +228,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Degrees Celsius",
         estimatedSeconds: 20,
 
+        hint: "Look for the unit used on weather forecasts in the UK.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -243,6 +252,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "How much of the sky is covered by clouds",
         estimatedSeconds: 20,
 
+        hint: "Think about how much of the sky you can see filled with clouds.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -266,6 +276,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "To record and study weather conditions",
         estimatedSeconds: 20,
 
+        hint: "Why would scientists keep collecting the same information every day?",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -289,6 +300,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Showing and comparing weather information",
         estimatedSeconds: 20,
 
+        hint: "Charts help organise information so it is easier to compare.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -312,6 +324,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "To find patterns and changes",
         estimatedSeconds: 20,
 
+        hint: "Many observations over time reveal trends that one day cannot.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -335,6 +348,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "A record of daily weather observations",
         estimatedSeconds: 20,
 
+        hint: "Think of a diary that records weather instead of personal events.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -358,6 +372,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Temperature, rainfall and wind",
         estimatedSeconds: 20,
 
+        hint: "Choose the items someone could observe outside each day.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -381,6 +396,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Predicting future weather",
         estimatedSeconds: 20,
 
+        hint: "Forecasts rely on today's information to estimate tomorrow's weather.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -404,6 +420,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Different parts of weather need different measurements",
         estimatedSeconds: 20,
 
+        hint: "Each instrument has one special job rather than doing everything.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -427,6 +444,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Wind vane",
         estimatedSeconds: 20,
 
+        hint: "Wind direction is different from wind speed.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -450,6 +468,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "It helps people prepare and make decisions",
         estimatedSeconds: 20,
 
+        hint: "Reliable information helps people decide what to do.",
         tags: ["geography", "year3", "weather"]
     },
 
@@ -473,6 +492,7 @@ const measuringWeather: SkillContent = {
         correctAnswer: "Scientists use instruments to record weather conditions",
         estimatedSeconds: 25,
 
+        hint: "Focus on measuring and recording rather than changing weather.",
         tags: ["geography", "year3", "weather"]
     }
 

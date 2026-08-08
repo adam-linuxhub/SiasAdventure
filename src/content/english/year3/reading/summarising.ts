@@ -22,6 +22,7 @@ const summarising: SkillContent = {
         question:
             "Read the passage:\n\nTom woke up early. He brushed his teeth, ate breakfast and walked to school.\n\nWhich is the best summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Tom got ready for school.",
             "Tom brushed his teeth.",
@@ -45,6 +46,7 @@ const summarising: SkillContent = {
         question:
             "What is a summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "A short explanation of the main points",
             "A copy of every sentence",
@@ -68,6 +70,7 @@ const summarising: SkillContent = {
         question:
             "Read the passage:\n\nAva planted seeds in her garden. She watered them every day. Soon, colourful flowers grew.\n\nWhich is the best summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Ava grew flowers by planting and caring for seeds.",
             "Ava used a watering can.",
@@ -91,6 +94,7 @@ const summarising: SkillContent = {
         question:
             "When writing a summary, which information should you include?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "The most important ideas",
             "Every single detail",
@@ -114,6 +118,7 @@ const summarising: SkillContent = {
         question:
             "Read the passage:\n\nThe puppy was hungry. Sam gave it some food and fresh water. The puppy wagged its tail happily.\n\nWhich is the best summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Sam cared for a hungry puppy.",
             "The puppy wagged its tail.",
@@ -137,6 +142,7 @@ const summarising: SkillContent = {
         question:
             "Which should you remove when writing a summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Unimportant details",
             "The main idea",
@@ -160,6 +166,7 @@ const summarising: SkillContent = {
         question:
             "Read the passage:\n\nThe castle had tall towers, stone walls and a large wooden door. It was built hundreds of years ago.\n\nWhich is the best summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "The castle was an old building with strong features.",
             "The castle had a wooden door.",
@@ -183,6 +190,7 @@ const summarising: SkillContent = {
         question:
             "Which word means the same as 'main idea'?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Key point",
             "Tiny detail",
@@ -206,6 +214,7 @@ const summarising: SkillContent = {
         question:
             "Read the passage:\n\nBen trained every week for the race. He practised running and improved his speed.\n\nWhich is the best summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Ben prepared for a race through practice.",
             "Ben ran every week.",
@@ -229,6 +238,7 @@ const summarising: SkillContent = {
         question:
             "Why do readers write summaries?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "To show they understand the important parts of a text",
             "To make the story longer",
@@ -252,6 +262,7 @@ const summarising: SkillContent = {
         question:
             "Read the passage:\n\nThe Earth travels around the Sun. It takes one year to complete its journey. This movement causes the seasons.\n\nWhich is the best summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Earth's movement around the Sun causes seasons.",
             "Earth travels around the Sun.",
@@ -275,6 +286,7 @@ const summarising: SkillContent = {
         question:
             "Read the passage:\n\nThe rainforest is home to many plants and animals. Some animals cannot be found anywhere else in the world.\n\nWhich is the best summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Rainforests are important habitats for many living things.",
             "Rainforests have plants.",
@@ -298,6 +310,7 @@ const summarising: SkillContent = {
         question:
             "Which sentence would be least useful in a summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "A tiny detail that does not affect the main idea",
             "The main event",
@@ -321,6 +334,7 @@ const summarising: SkillContent = {
         question:
             "Read the passage:\n\nA group of children cleaned a local park. They collected rubbish and planted flowers.\n\nWhich is the best summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Children improved their local park.",
             "Children collected rubbish.",
@@ -344,6 +358,7 @@ const summarising: SkillContent = {
         question:
             "A good summary should usually be:",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Shorter than the original text",
             "Longer than the original text",
@@ -367,6 +382,7 @@ const summarising: SkillContent = {
         question:
             "Read the passage:\n\nThe astronaut put on a spacesuit, entered the rocket and travelled into space.\n\nWhich is the best summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "An astronaut travelled into space.",
             "The astronaut wore a spacesuit.",
@@ -390,6 +406,7 @@ const summarising: SkillContent = {
         question:
             "What question can help you find the main idea?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "What is this text mostly about?",
             "What is the longest word?",
@@ -413,6 +430,7 @@ const summarising: SkillContent = {
         question:
             "Read the passage:\n\nDogs make good pets because they can be friendly, loyal and helpful companions.\n\nWhich is the best summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Dogs can be good companions.",
             "Dogs have fur.",
@@ -436,6 +454,7 @@ const summarising: SkillContent = {
         question:
             "Which skill helps you write a good summary?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "Identifying important information",
             "Memorising every word",
@@ -459,6 +478,7 @@ const summarising: SkillContent = {
         question:
             "Which summary is best for a story about a child learning to ride a bike?",
         stage: "recognise",
+        hint: "Choose the main idea, not every small detail.",
         options: [
             "A child practised and learned to ride a bike.",
             "The bike had two wheels.",

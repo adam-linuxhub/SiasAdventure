@@ -21,6 +21,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "What does an apostrophe do in a contraction?",
         stage: "recognise",
+        hint: "Think about what an apostrophe replaces.",
         options: [
             "Shows that letters have been left out",
             "Ends a sentence",
@@ -43,6 +44,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which word is the correct contraction of 'do not'?",
         stage: "recognise",
+        hint: "Which spelling correctly shortens 'do not'?",
         options: [
             "don't",
             "dont",
@@ -65,6 +67,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which word is the correct contraction of 'cannot'?",
         stage: "recognise",
+        hint: "Look for the apostrophe showing missing letters.",
         options: [
             "can't",
             "cant",
@@ -87,6 +90,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which word is the contraction of 'I am'?",
         stage: "recognise",
+        hint: "How do we shorten 'I am'?",
         options: [
             "I'm",
             "Im",
@@ -109,6 +113,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which sentence is written correctly?",
         stage: "recognise",
+        hint: "Choose the sentence with the correct contraction.",
         options: [
             "I'm going to the park.",
             "Im going to the park.",
@@ -131,6 +136,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which word is the contraction of 'it is'?",
         stage: "recognise",
+        hint: "Remember: 'it's' is short for 'it is'.",
         options: [
             "it's",
             "its",
@@ -153,6 +159,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which sentence uses a contraction correctly?",
         stage: "recognise",
+        hint: "Look for the correctly placed apostrophe.",
         options: [
             "Don't run indoors.",
             "Dont run indoors.",
@@ -175,6 +182,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which word needs an apostrophe?",
         stage: "recognise",
+        hint: "Which word is short for 'we will'?",
         options: [
             "we'll",
             "well",
@@ -197,6 +205,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which contraction means 'you are'?",
         stage: "recognise",
+        hint: "Don't confuse 'you're' with 'your'.",
         options: [
             "you're",
             "your",
@@ -219,6 +228,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Why do writers use contractions?",
         stage: "recognise",
+        hint: "Contractions join two words into one.",
         options: [
             "To shorten two words into one",
             "To make sentences longer",
@@ -241,6 +251,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which sentence is punctuated correctly?",
         stage: "recognise",
+        hint: "Check where the apostrophe belongs.",
         options: [
             "We're ready to leave.",
             "Were ready to leave.",
@@ -263,6 +274,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which contraction means 'they are'?",
         stage: "recognise",
+        hint: "Which word is short for 'they are'?",
         options: [
             "they're",
             "their",
@@ -285,6 +297,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Look for the correct contraction of 'she is'.",
         options: [
             "She's my best friend.",
             "Shes my best friend.",
@@ -307,6 +320,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "What letters are missing in 'isn't'?",
         stage: "recognise",
+        hint: "Think about which letter disappears in 'is not'.",
         options: [
             "o",
             "i",
@@ -329,6 +343,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which contraction means 'he will'?",
         stage: "recognise",
+        hint: "How do we shorten 'he will'?",
         options: [
             "he'll",
             "hell",
@@ -351,6 +366,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which sentence uses contractions correctly?",
         stage: "recognise",
+        hint: "Look for the sentence with every apostrophe in the right place.",
         options: [
             "You'll enjoy today's lesson.",
             "Youll enjoy today's lesson.",
@@ -373,6 +389,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which contraction means 'we have'?",
         stage: "recognise",
+        hint: "Which word is short for 'we have'?",
         options: [
             "we've",
             "weve",
@@ -395,6 +412,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which sentence is written correctly?",
         stage: "recognise",
+        hint: "Choose the sentence with the correctly written contraction.",
         options: [
             "They've finished their work.",
             "Theyve finished their work.",
@@ -417,6 +435,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "What does the apostrophe replace in a contraction?",
         stage: "recognise",
+        hint: "An apostrophe marks where letters are missing.",
         options: [
             "Missing letters",
             "Missing words",
@@ -439,6 +458,7 @@ const apostrophesContractions: SkillContent = {
         skillId: "apostrophesContractions",
         question: "Which sentence uses all contractions correctly?",
         stage: "recognise",
+        hint: "Check every contraction carefully for its apostrophe.",
         options: [
             "I'm sure we'll finish because it's nearly done.",
             "Im sure well finish because its nearly done.",

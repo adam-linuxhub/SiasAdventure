@@ -28,6 +28,7 @@ const mountainsAndHills: SkillContent = {
             "A beach"
         ],
 
+        hint: "Think about how geographers describe very high land.",
         explanation:
             "A mountain is a very high natural feature that rises above the land around it.",
 
@@ -50,6 +51,7 @@ const mountainsAndHills: SkillContent = {
             "A cave"
         ],
 
+        hint: "Compare the height and shape with a mountain.",
         explanation:
             "A hill is raised land but is usually lower and less steep than a mountain.",
 
@@ -72,6 +74,7 @@ const mountainsAndHills: SkillContent = {
             "A river"
         ],
 
+        hint: "Focus on which landform is generally higher.",
         explanation:
             "Mountains are usually much taller than hills.",
 
@@ -94,6 +97,7 @@ const mountainsAndHills: SkillContent = {
             "Bridge"
         ],
 
+        hint: "Decide which option was formed by nature.",
         explanation:
             "Mountains are natural landforms.",
 
@@ -116,6 +120,7 @@ const mountainsAndHills: SkillContent = {
             "Bank"
         ],
 
+        hint: "Think of the geographical name for the highest point.",
         explanation:
             "The highest point of a mountain is called its peak or summit.",
 
@@ -138,6 +143,7 @@ const mountainsAndHills: SkillContent = {
             "Made by people"
         ],
 
+        hint: "Compare the steepness of hills and mountains.",
         explanation:
             "Mountains usually have steeper sides than hills.",
 
@@ -160,6 +166,7 @@ const mountainsAndHills: SkillContent = {
             "A harbour"
         ],
 
+        hint: "Picture where natural high land is usually found.",
         explanation:
             "Mountains are natural features often found in the countryside.",
 
@@ -182,6 +189,7 @@ const mountainsAndHills: SkillContent = {
             "Shopping"
         ],
 
+        hint: "Choose an activity suited to rough natural terrain.",
         explanation:
             "Many people enjoy walking and hiking in mountain areas.",
 
@@ -204,6 +212,7 @@ const mountainsAndHills: SkillContent = {
             "Hills are rivers."
         ],
 
+        hint: "Look for the accurate comparison between both landforms.",
         explanation:
             "Hills are generally lower and less steep than mountains.",
 
@@ -226,6 +235,7 @@ const mountainsAndHills: SkillContent = {
             "Vehicles"
         ],
 
+        hint: "Think about the general word for Earth's natural features.",
         explanation:
             "Landforms are natural features of the Earth's surface.",
 
@@ -248,6 +258,7 @@ const mountainsAndHills: SkillContent = {
             "Mountains are underwater."
         ],
 
+        hint: "Remember what usually happens to temperature as height increases.",
         explanation:
             "The temperature usually becomes cooler as you go higher.",
 
@@ -270,6 +281,7 @@ const mountainsAndHills: SkillContent = {
             "To visit factories"
         ],
 
+        hint: "Think about why people travel to beautiful natural places.",
         explanation:
             "Mountains are popular for walking, climbing and enjoying nature.",
 
@@ -292,6 +304,7 @@ const mountainsAndHills: SkillContent = {
             "Hills are man-made."
         ],
 
+        hint: "Compare both landforms instead of thinking about appearance alone.",
         explanation:
             "Hills and mountains are both raised land, but hills are generally lower.",
 
@@ -314,6 +327,7 @@ const mountainsAndHills: SkillContent = {
             "They stop plants from growing."
         ],
 
+        hint: "Consider what animals and plants need to survive.",
         explanation:
             "Different animals and plants are adapted to mountain environments.",
 
@@ -336,6 +350,7 @@ const mountainsAndHills: SkillContent = {
             "A motorway service station"
         ],
 
+        hint: "Think about the special name for a mountain's top.",
         explanation:
             "The highest point of a mountain is called its peak.",
 
@@ -358,6 +373,7 @@ const mountainsAndHills: SkillContent = {
             "A volcano erupting"
         ],
 
+        hint: "Choose the landform needing less effort to reach the top.",
         explanation:
             "Hills are usually lower and less steep than mountains.",
 
@@ -380,6 +396,7 @@ const mountainsAndHills: SkillContent = {
             "They only exist in winter."
         ],
 
+        hint: "Think about why maps include major natural features.",
         explanation:
             "Maps show mountains to help people understand the landscape.",
 
@@ -402,6 +419,7 @@ const mountainsAndHills: SkillContent = {
             "Underground station"
         ],
 
+        hint: "Picture the surface you would expect high up.",
         explanation:
             "Many mountains have steep, rocky slopes.",
 
@@ -424,6 +442,7 @@ const mountainsAndHills: SkillContent = {
             "Both are rivers."
         ],
 
+        hint: "Look for the option comparing both fairly.",
         explanation:
             "Mountains and hills are both landforms, but mountains are generally higher and steeper.",
 
@@ -446,6 +465,7 @@ const mountainsAndHills: SkillContent = {
             "They are man-made parks."
         ],
 
+        hint: "Think about the shared characteristics of both landforms.",
         explanation:
             "Mountains and hills are natural features that shape the landscape.",
 

@@ -4,7 +4,9 @@ import {
     type SkillProgress
 } from "./learning";
 
+
 export const PlayerStorage = {
+
 
     /*==================================================
       LOAD PLAYER
@@ -12,32 +14,47 @@ export const PlayerStorage = {
 
     load(): Player {
 
-        const saved = localStorage.getItem("siasAdventure");
+        const saved =
+            localStorage.getItem("siasAdventure");
+
 
         if (saved) {
 
-            const player = JSON.parse(saved) as Player;
+            const player =
+                JSON.parse(saved) as Player;
+
 
             /*==========================================
               BACKWARDS COMPATIBILITY
             ==========================================*/
 
             player.year ??= 3;
+
             player.adventurePoints ??= 0;
+
             player.world ??= 1;
+
             player.worldsCompleted ??= 0;
+
             player.questionsThisLevel ??= 0;
 
+
             player.badges ??= [];
+
             player.treasures ??= [];
+
             player.relics ??= [];
+
             player.worldTreasureCount ??= 0;
+
 
             return player;
 
         }
 
+
         return {
+
 
             /*==========================================
               PROFILE
@@ -45,46 +62,70 @@ export const PlayerStorage = {
 
             name: "Sia",
 
+
+
             /*==========================================
               PROGRESSION
             ==========================================*/
 
             level: 1,
+
             levelName: "Explorer",
+
             xp: 0,
+
             adventurePoints: 0,
+
+
 
             /*==========================================
               ADVENTURE
             ==========================================*/
 
             year: 3,
+
             world: 1,
+
             worldsCompleted: 0,
+
+
 
             /*==========================================
               REWARDS
             ==========================================*/
 
             stars: 0,
+
             treasureChests: 0,
+
             badges: [],
+
             treasures: [],
+
             relics: [],
+
             worldTreasureCount: 0,
+
+
 
             /*==========================================
               STATISTICS
             ==========================================*/
 
             questionsAnswered: 0,
+
             correct: 0,
+
             incorrect: 0,
+
             questionsThisLevel: 0
+
 
         };
 
     },
+
+
 
     /*==================================================
       SAVE PLAYER
@@ -92,14 +133,21 @@ export const PlayerStorage = {
 
     save(player: Player): void {
 
+
         localStorage.setItem(
+
             "siasAdventure",
+
             JSON.stringify(player)
+
         );
+
 
         this.saveLearning();
 
     },
+
+
 
     /*==================================================
       RESET PLAYER
@@ -107,12 +155,23 @@ export const PlayerStorage = {
 
     reset(): Player {
 
-        localStorage.removeItem("siasAdventure");
-        localStorage.removeItem("siasAdventureLearning");
+
+        localStorage.removeItem(
+            "siasAdventure"
+        );
+
+
+        localStorage.removeItem(
+            "siasAdventureLearning"
+        );
+
 
         LearningEngine.skills.clear();
 
+
+
         const player: Player = {
+
 
             /*==========================================
               PROFILE
@@ -120,50 +179,77 @@ export const PlayerStorage = {
 
             name: "Sia",
 
+
+
             /*==========================================
               PROGRESSION
             ==========================================*/
 
             level: 1,
+
             levelName: "Explorer",
+
             xp: 0,
+
             adventurePoints: 0,
+
+
 
             /*==========================================
               ADVENTURE
             ==========================================*/
 
             year: 3,
+
             world: 1,
+
             worldsCompleted: 0,
+
+ 
+
 
             /*==========================================
               REWARDS
             ==========================================*/
 
             stars: 0,
+
             treasureChests: 0,
+
             badges: [],
+
             treasures: [],
+
             relics: [],
+
             worldTreasureCount: 0,
+
+
 
             /*==========================================
               STATISTICS
             ==========================================*/
 
             questionsAnswered: 0,
+
             correct: 0,
+
             incorrect: 0,
+
             questionsThisLevel: 0
+
 
         };
 
+
         this.save(player);
+
 
         return player;
 
     },
+
+
 
     /*==================================================
       LOAD LEARNING
@@ -171,19 +257,30 @@ export const PlayerStorage = {
 
     loadLearning(): void {
 
-        const saved = localStorage.getItem(
-            "siasAdventureLearning"
-        );
+
+        const saved =
+            localStorage.getItem(
+                "siasAdventureLearning"
+            );
+
 
         if (!saved) {
+
             return;
+
         }
 
-        LearningEngine.skills = new Map(
-            JSON.parse(saved) as Array<[string, SkillProgress]>
-        );
+
+        LearningEngine.skills =
+            new Map(
+                JSON.parse(saved) as Array<
+                    [string, SkillProgress]
+                >
+            );
 
     },
+
+
 
     /*==================================================
       SAVE LEARNING
@@ -191,13 +288,18 @@ export const PlayerStorage = {
 
     saveLearning(): void {
 
+
         localStorage.setItem(
+
             "siasAdventureLearning",
+
             JSON.stringify(
                 [...LearningEngine.skills.entries()]
             )
+
         );
 
     }
+
 
 };

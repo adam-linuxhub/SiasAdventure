@@ -3,7 +3,6 @@
     START SCREEN
 ==================================================*/
 
-import { PlayerStorage } from "./storage";
 
 /*==================================================
     CHARACTER DIALOGUE
@@ -228,42 +227,6 @@ function initialiseStory(): void {
 
 }
 
-/*==================================================
-    RESET PROGRESS
-==================================================*/
-
-function initialiseResetButton(): void {
-
-    const button =
-        document.getElementById("reset-progress");
-
-    if (!button) {
-
-        return;
-
-    }
-
-    button.addEventListener("click", () => {
-
-        const confirmed = confirm(
-            "Reset all adventure progress?\n\nThis cannot be undone."
-        );
-
-        if (!confirmed) {
-
-            return;
-
-        }
-
-        PlayerStorage.reset();
-
-        alert("Adventure progress has been reset.");
-
-        location.reload();
-
-    });
-
-}
 
 /*==================================================
     START ADVENTURE
@@ -311,5 +274,3 @@ characterCards.forEach(card => {
 createStars();
 
 initialiseStory();
-
-initialiseResetButton();

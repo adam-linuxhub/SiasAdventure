@@ -31,6 +31,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Climate describes the typical weather of a place over many years.",
+        hint: "Focus on weather over many years, not a single day.",
 
         difficulty: 1,
         correctAnswer: "The usual weather conditions of a place over a long period of time",
@@ -54,6 +55,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Climate zones are areas that share similar weather patterns.",
+        hint: "Think about places that share similar long-term weather.",
 
         difficulty: 1,
         correctAnswer: "An area with a similar climate",
@@ -77,6 +79,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Location and physical factors affect the climate of a place.",
+        hint: "Think about the main geography idea in the question and compare what makes each option different.",
 
         difficulty: 2,
         correctAnswer: "Because of factors such as location, sunlight and altitude",
@@ -100,6 +103,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "The equator divides Earth into the Northern and Southern Hemispheres.",
+        hint: "Picture where the equator is on a globe and how sunlight reaches Earth.",
 
         difficulty: 1,
         correctAnswer: "An imaginary line around the middle of Earth",
@@ -123,6 +127,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "The Sun's rays are more direct near the equator, creating warmer temperatures.",
+        hint: "Picture where the equator is on a globe and how sunlight reaches Earth.",
 
         difficulty: 2,
         correctAnswer: "They receive more direct sunlight",
@@ -146,6 +151,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Areas near the equator usually have tropical climates.",
+        hint: "Picture where the equator is on a globe and how sunlight reaches Earth.",
 
         difficulty: 1,
         correctAnswer: "Tropical climate",
@@ -169,6 +175,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Tropical regions are usually warm and may have lots of rainfall.",
+        hint: "Imagine places close to the equator.",
 
         difficulty: 1,
         correctAnswer: "Hot and often wet",
@@ -192,6 +199,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Polar regions are extremely cold because they receive less direct sunlight.",
+        hint: "Think about the main geography idea in the question and compare what makes each option different.",
 
         difficulty: 1,
         correctAnswer: "Polar climate",
@@ -215,6 +223,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Polar climates have very low temperatures and frozen landscapes.",
+        hint: "Think about the coldest parts of Earth.",
 
         difficulty: 1,
         correctAnswer: "Very cold with ice and snow",
@@ -238,6 +247,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "The UK has a temperate climate with mild temperatures and changing weather.",
+        hint: "Think about the main geography idea in the question and compare what makes each option different.",
 
         difficulty: 1,
         correctAnswer: "Temperate climate",
@@ -261,6 +271,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Temperate climates usually have seasonal changes.",
+        hint: "Consider places with four changing seasons.",
 
         difficulty: 1,
         correctAnswer: "Moderate temperatures with changing seasons",
@@ -284,6 +295,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Deserts receive very little rainfall.",
+        hint: "Think about rainfall rather than temperature alone.",
 
         difficulty: 1,
         correctAnswer: "Very dry climate",
@@ -307,6 +319,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Rainforests are found in warm areas with high rainfall.",
+        hint: "Think about both heat and rainfall.",
 
         difficulty: 1,
         correctAnswer: "Hot and very wet",
@@ -330,6 +343,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Living things adapt to the conditions where they live.",
+        hint: "Think about places that share similar long-term weather.",
 
         difficulty: 2,
         correctAnswer: "They adapt to different conditions",
@@ -353,6 +367,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Polar regions contain large areas of ice.",
+        hint: "Think about places that share similar long-term weather.",
 
         difficulty: 1,
         correctAnswer: "Polar",
@@ -376,6 +391,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Climate maps help geographers understand global patterns.",
+        hint: "Think about places that share similar long-term weather.",
 
         difficulty: 2,
         correctAnswer: "To compare climates in different parts of Earth",
@@ -399,6 +415,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Temperature generally decreases as altitude increases.",
+        hint: "Focus on weather over many years, not a single day.",
 
         difficulty: 2,
         correctAnswer: "Higher places are usually colder",
@@ -422,6 +439,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Climate influences homes, farming and lifestyles.",
+        hint: "Consider everyday life such as homes, clothes and farming.",
 
         difficulty: 2,
         correctAnswer: "It affects how people live, work and grow food",
@@ -445,6 +463,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Climate zones show how climates are distributed across Earth.",
+        hint: "Think about places that share similar long-term weather.",
 
         difficulty: 2,
         correctAnswer: "Patterns of weather around the world",
@@ -468,6 +487,7 @@ const climateZones: SkillContent = {
 
         explanation:
             "Climate zones group places with similar climate conditions.",
+        hint: "Think about places that share similar long-term weather.",
 
         difficulty: 2,
         correctAnswer: "Areas of Earth with similar long-term weather patterns",

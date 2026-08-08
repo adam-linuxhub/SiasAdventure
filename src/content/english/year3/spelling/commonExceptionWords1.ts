@@ -21,6 +21,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "because",
             "becuse",
@@ -43,6 +44,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "people",
             "peeple",
@@ -65,6 +67,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "friend",
             "freind",
@@ -87,6 +90,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "busy",
             "bisy",
@@ -109,6 +113,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "beautiful",
             "beutiful",
@@ -131,6 +136,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "every",
             "evry",
@@ -153,6 +159,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "again",
             "agen",
@@ -175,6 +182,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "great",
             "grate",
@@ -197,6 +205,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "door",
             "dor",
@@ -219,6 +228,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which is the correct spelling?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "floor",
             "flor",
@@ -241,6 +251,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Complete the sentence: 'I like to play with my ______.'",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "friend",
             "freind",
@@ -263,6 +274,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Complete the sentence: 'Thank you ______ helping me.'",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "for",
             "four",
@@ -285,6 +297,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which sentence contains the correctly spelled word?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "The beautiful butterfly landed on a flower.",
             "The beutiful butterfly landed on a flower.",
@@ -307,6 +320,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "Because it was raining, we stayed inside.",
             "Becuse it was raining, we stayed inside.",
@@ -329,6 +343,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which word is spelled correctly?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "people",
             "peaple",
@@ -351,6 +366,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which word completes the sentence? 'The shop is over ______.'",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "there",
             "thair",
@@ -373,6 +389,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which spelling is correct?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "parents",
             "parrents",
@@ -395,6 +412,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which word is spelled correctly?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "everybody",
             "everyboddy",
@@ -417,6 +435,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "The door was open.",
             "The dor was open.",
@@ -439,6 +458,7 @@ const commonExceptionWords1: SkillContent = {
         skillId: "commonExceptionWords1",
         question: "Which sentence contains only correctly spelled words?",
         stage: "recognise",
+        hint: "Say the word carefully and picture its correct spelling.",
         options: [
             "My friend is busy because we have homework.",
             "My freind is busy becuse we have homework.",

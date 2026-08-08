@@ -29,6 +29,10 @@ const egyptianCivilisation: SkillContent = {
             "Northern Europe"
         ],
 
+        hint:
+            "Think about which part of Africa the pyramids and the Nile are found in.",
+
+
         explanation:
             "Ancient Egypt developed in North Africa, mainly around the River Nile.",
 
@@ -51,6 +55,10 @@ const egyptianCivilisation: SkillContent = {
             "The River Amazon",
             "The River Rhine"
         ],
+
+        hint:
+            "Choose the river that flows through Egypt, not one from another continent.",
+
 
         explanation:
             "The River Nile provided water, food and transport for Ancient Egyptians.",
@@ -75,6 +83,10 @@ const egyptianCivilisation: SkillContent = {
             "It made the land dry"
         ],
 
+        hint:
+            "Think about what people need every day to grow food and stay alive.",
+
+
         explanation:
             "The Nile flooded and left fertile soil for farming.",
 
@@ -97,6 +109,10 @@ const egyptianCivilisation: SkillContent = {
             "A type of animal",
             "A piece of jewellery"
         ],
+
+        hint:
+            "A civilisation is much bigger than one person or one building. Look for an organised society.",
+
 
         explanation:
             "A civilisation is a large organised society with its own culture and systems.",
@@ -121,6 +137,10 @@ const egyptianCivilisation: SkillContent = {
             "An ocean island"
         ],
 
+        hint:
+            "Early settlements grew beside a natural feature that supplied fresh water.",
+
+
         explanation:
             "The River Nile allowed farming and settlement.",
 
@@ -143,6 +163,10 @@ const egyptianCivilisation: SkillContent = {
             "Making weapons only",
             "Avoiding all travel"
         ],
+
+        hint:
+            "Which option includes several everyday uses of a river rather than just one?",
+
 
         explanation:
             "The Nile supported many parts of Egyptian life.",
@@ -167,6 +191,10 @@ const egyptianCivilisation: SkillContent = {
             "North America"
         ],
 
+        hint:
+            "Egypt is mostly in one continent—remember where it appears on a world map.",
+
+
         explanation:
             "Egypt is a country in North Africa.",
 
@@ -189,6 +217,10 @@ const egyptianCivilisation: SkillContent = {
             "The land could not be farmed",
             "It was always frozen"
         ],
+
+        hint:
+            "People settled where crops could grow, even though much of Egypt is desert.",
+
 
         explanation:
             "The Nile made farming possible in the surrounding desert.",
@@ -213,6 +245,10 @@ const egyptianCivilisation: SkillContent = {
             "Castles"
         ],
 
+        hint:
+            "Think of the huge stone structures built for pharaohs.",
+
+
         explanation:
             "The pyramids are some of the most famous Ancient Egyptian structures.",
 
@@ -235,6 +271,10 @@ const egyptianCivilisation: SkillContent = {
             "It had no farming.",
             "It had no rulers."
         ],
+
+        hint:
+            "Cross out answers that describe modern times or impossible societies.",
+
 
         explanation:
             "Ancient Egypt was one of the earliest major civilisations.",
@@ -259,6 +299,10 @@ const egyptianCivilisation: SkillContent = {
             "They made the desert larger"
         ],
 
+        hint:
+            "Floods can help if they leave something behind for crops to grow in.",
+
+
         explanation:
             "Floodwater deposited fertile soil that helped crops grow.",
 
@@ -281,6 +325,10 @@ const egyptianCivilisation: SkillContent = {
             "Future predictions",
             "Computer games"
         ],
+
+        hint:
+            "Historians rely on evidence left by people, not modern entertainment.",
+
 
         explanation:
             "Historians use evidence from the past to understand history.",
@@ -305,6 +353,10 @@ const egyptianCivilisation: SkillContent = {
             "Frozen lakes"
         ],
 
+        hint:
+            "Farmers need water nearby in a hot, dry country.",
+
+
         explanation:
             "The land near the Nile was best for farming.",
 
@@ -327,6 +379,10 @@ const egyptianCivilisation: SkillContent = {
             "It created oceans",
             "It stopped all trade"
         ],
+
+        hint:
+            "A harsh landscape can stop armies travelling easily.",
+
 
         explanation:
             "The desert acted as a natural barrier around Egypt.",
@@ -351,6 +407,10 @@ const egyptianCivilisation: SkillContent = {
             "Very fast"
         ],
 
+        hint:
+            "'Ancient' describes something from a very long time ago.",
+
+
         explanation:
             "Ancient describes something from a long time ago.",
 
@@ -373,6 +433,10 @@ const egyptianCivilisation: SkillContent = {
             "Cars and roads",
             "Electricity"
         ],
+
+        hint:
+            "Choose the answer that combines geography with farming success.",
+
 
         explanation:
             "The Nile supported farming, travel and settlements.",
@@ -397,6 +461,10 @@ const egyptianCivilisation: SkillContent = {
             "Growing crops"
         ],
 
+        hint:
+            "Before roads, rivers were the easiest way to move heavy loads.",
+
+
         explanation:
             "The Nile was an important route for transport and trade.",
 
@@ -419,6 +487,10 @@ const egyptianCivilisation: SkillContent = {
             "How to use modern technology",
             "Future inventions"
         ],
+
+        hint:
+            "Ruins are clues from the past, not predictions of the future.",
+
 
         explanation:
             "Ancient remains provide evidence about past societies.",
@@ -443,6 +515,10 @@ const egyptianCivilisation: SkillContent = {
             "To predict the future"
         ],
 
+        hint:
+            "History is about learning from the past rather than changing it.",
+
+
         explanation:
             "History helps us understand how people lived and changed over time.",
 
@@ -465,6 +541,10 @@ const egyptianCivilisation: SkillContent = {
             "A civilisation with no farming",
             "A place with no settlements"
         ],
+
+        hint:
+            "Look for the sentence that links Egypt with both the Nile and civilisation.",
+
 
         explanation:
             "Ancient Egypt developed around the Nile and became a powerful civilisation.",

@@ -29,6 +29,7 @@ const mountainFormation: SkillContent = {
             "By weather alone"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Many mountains form when sections of the Earth's crust move and push upwards.",
 
@@ -52,6 +53,7 @@ const mountainFormation: SkillContent = {
             "A river feature"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "The crust is the thin outer layer of the Earth where we live.",
 
@@ -75,6 +77,7 @@ const mountainFormation: SkillContent = {
             "Ocean waves"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Tectonic plates are large sections of the Earth's crust that slowly move.",
 
@@ -98,6 +101,7 @@ const mountainFormation: SkillContent = {
             "Weather stops"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Pressure from moving plates can create mountain ranges.",
 
@@ -121,6 +125,7 @@ const mountainFormation: SkillContent = {
             "A weather event"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Volcanoes allow hot material from inside Earth to reach the surface.",
 
@@ -144,6 +149,7 @@ const mountainFormation: SkillContent = {
             "They create rivers only"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Repeated volcanic eruptions can build volcanic mountains.",
 
@@ -167,6 +173,7 @@ const mountainFormation: SkillContent = {
             "A mountain animal"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Magma is melted rock found beneath the Earth's surface.",
 
@@ -190,6 +197,7 @@ const mountainFormation: SkillContent = {
             "A river feature"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "When magma escapes from a volcano, it is called lava.",
 
@@ -213,6 +221,7 @@ const mountainFormation: SkillContent = {
             "A river movement"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Earthquakes happen when energy is released inside the Earth.",
 
@@ -236,6 +245,7 @@ const mountainFormation: SkillContent = {
             "Because mountains disappear"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Movement of tectonic plates can cause earthquakes.",
 
@@ -259,6 +269,7 @@ const mountainFormation: SkillContent = {
             "They are built by people"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Mountain formation is usually a very slow process.",
 
@@ -282,6 +293,7 @@ const mountainFormation: SkillContent = {
             "Sunlight only"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Wind, water and ice can slowly wear away mountains.",
 
@@ -305,6 +317,7 @@ const mountainFormation: SkillContent = {
             "The growth of plants"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Erosion changes landscapes by moving material.",
 
@@ -328,6 +341,7 @@ const mountainFormation: SkillContent = {
             "By making rivers disappear"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Moving ice can carve valleys and reshape mountains.",
 
@@ -351,6 +365,7 @@ const mountainFormation: SkillContent = {
             "A flat area"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Mountain ranges contain groups of connected mountains.",
 
@@ -374,6 +389,7 @@ const mountainFormation: SkillContent = {
             "To change the weather"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Studying mountains helps us understand Earth's processes.",
 
@@ -397,6 +413,7 @@ const mountainFormation: SkillContent = {
             "It becomes clouds"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Cooling lava hardens into rock.",
 
@@ -420,6 +437,7 @@ const mountainFormation: SkillContent = {
             "Painting"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Natural processes such as erosion slowly reshape mountains.",
 
@@ -443,6 +461,7 @@ const mountainFormation: SkillContent = {
             "They are made by humans"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Plate movement creates many changes to Earth's surface.",
 
@@ -466,6 +485,7 @@ const mountainFormation: SkillContent = {
             "Mountains never change"
         ],
 
+        hint: "Think about the natural Earth process or key scientific word in the question.",
         explanation:
             "Mountains form and change through natural Earth processes.",
 

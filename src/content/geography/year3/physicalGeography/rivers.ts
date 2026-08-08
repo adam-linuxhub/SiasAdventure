@@ -28,6 +28,7 @@ const rivers: SkillContent = {
             "A forest"
         ],
 
+        hint: "Think about what makes a river a natural feature.",
         explanation:
             "A river is a natural flow of water that moves across the land.",
 
@@ -50,6 +51,7 @@ const rivers: SkillContent = {
             "At a bridge"
         ],
 
+        hint: "Remember the special name for where a river starts.",
         explanation:
             "The beginning of a river is called its source.",
 
@@ -72,6 +74,7 @@ const rivers: SkillContent = {
             "In a forest"
         ],
 
+        hint: "Think about the geographical name for a river's end.",
         explanation:
             "The mouth is where a river flows into the sea, a lake or another river.",
 
@@ -94,6 +97,7 @@ const rivers: SkillContent = {
             "Flows into the sky"
         ],
 
+        hint: "Picture which direction water naturally moves.",
         explanation:
             "Rivers usually flow downhill because of gravity.",
 
@@ -116,6 +120,7 @@ const rivers: SkillContent = {
             "Car park"
         ],
 
+        hint: "Choose the feature created by nature, not people.",
         explanation:
             "A river is a natural feature of the Earth's surface.",
 
@@ -138,6 +143,7 @@ const rivers: SkillContent = {
             "Bank"
         ],
 
+        hint: "Think of the correct geographical term for a river's beginning.",
         explanation:
             "A river starts at its source.",
 
@@ -160,6 +166,7 @@ const rivers: SkillContent = {
             "Spring"
         ],
 
+        hint: "Recall the matching term for the end of a river.",
         explanation:
             "The mouth is where a river finishes its journey.",
 
@@ -182,6 +189,7 @@ const rivers: SkillContent = {
             "Black"
         ],
 
+        hint: "Remember how water is usually coloured on maps.",
         explanation:
             "Water features such as rivers are usually coloured blue on maps.",
 
@@ -204,6 +212,7 @@ const rivers: SkillContent = {
             "A playground"
         ],
 
+        hint: "Think about where flowing water eventually reaches.",
         explanation:
             "Many rivers flow into the sea at their mouth.",
 
@@ -226,6 +235,7 @@ const rivers: SkillContent = {
             "People build all rivers."
         ],
 
+        hint: "Find the statement that is always true.",
         explanation:
             "Rivers are naturally formed features that flow across the land.",
 
@@ -248,6 +258,7 @@ const rivers: SkillContent = {
             "Rivers grow buildings."
         ],
 
+        hint: "Consider why people first settled beside rivers.",
         explanation:
             "People have settled near rivers for fresh water, transport and farming.",
 
@@ -270,6 +281,7 @@ const rivers: SkillContent = {
             "Trees pull it."
         ],
 
+        hint: "Think about the force that pulls everything towards Earth.",
         explanation:
             "Gravity causes water to flow from higher land to lower land.",
 
@@ -292,6 +304,7 @@ const rivers: SkillContent = {
             "Nothing lives near rivers."
         ],
 
+        hint: "Imagine the variety of living things near fresh water.",
         explanation:
             "Rivers provide habitats for many different living things.",
 
@@ -314,6 +327,7 @@ const rivers: SkillContent = {
             "The river disappears underground."
         ],
 
+        hint: "Picture what happens where a river finishes its journey.",
         explanation:
             "The mouth is where a river ends by flowing into another body of water.",
 
@@ -336,6 +350,7 @@ const rivers: SkillContent = {
             "They only exist in winter."
         ],
 
+        hint: "Think about why map readers need rivers shown.",
         explanation:
             "Rivers help people understand the landscape and navigate.",
 
@@ -358,6 +373,7 @@ const rivers: SkillContent = {
             "Driving trains"
         ],
 
+        hint: "Choose the activity that takes place on water.",
         explanation:
             "Many rivers are used for boating and other water activities.",
 
@@ -380,6 +396,7 @@ const rivers: SkillContent = {
             "Into a cave"
         ],
 
+        hint: "Imagine floating with the current, not against it.",
         explanation:
             "Downstream means travelling in the direction the river flows.",
 
@@ -402,6 +419,7 @@ const rivers: SkillContent = {
             "Glacier"
         ],
 
+        hint: "Think about the land directly beside flowing water.",
         explanation:
             "The land beside a river is called the river bank.",
 
@@ -424,6 +442,7 @@ const rivers: SkillContent = {
             "They make tractors."
         ],
 
+        hint: "Consider how farms get water during dry periods.",
         explanation:
             "Rivers provide an important source of water for farming.",
 
@@ -446,6 +465,7 @@ const rivers: SkillContent = {
             "A man-made canal."
         ],
 
+        hint: "Think about the journey every river makes.",
         explanation:
             "Rivers are natural watercourses that flow from their source to their mouth.",
 

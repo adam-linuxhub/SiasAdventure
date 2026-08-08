@@ -21,6 +21,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which word is a pronoun?",
         stage: "recognise",
+        hint: "Pronouns can replace people's names.",
         options: [
             "he",
             "boy",
@@ -43,6 +44,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which word is a pronoun?",
         stage: "recognise",
+        hint: "Look for the word that can stand instead of a girl's name.",
         options: [
             "she",
             "girl",
@@ -65,6 +67,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which word is a pronoun?",
         stage: "recognise",
+        hint: "Which word can replace the name of a thing or animal?",
         options: [
             "it",
             "cat",
@@ -87,6 +90,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which word is a pronoun?",
         stage: "recognise",
+        hint: "Think about the word used for more than one person.",
         options: [
             "they",
             "children",
@@ -109,6 +113,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which word can replace 'Oliver'?",
         stage: "recognise",
+        hint: "Which word could replace Oliver in a sentence?",
         options: [
             "he",
             "table",
@@ -131,6 +136,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which word can replace 'Emma'?",
         stage: "recognise",
+        hint: "Choose the word that could replace Emma.",
         options: [
             "she",
             "happy",
@@ -153,6 +159,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which word can replace 'the dog'?",
         stage: "recognise",
+        hint: "What word could replace 'the dog'?",
         options: [
             "it",
             "bark",
@@ -175,6 +182,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which sentence contains a pronoun?",
         stage: "recognise",
+        hint: "Find the sentence that uses a word instead of a name.",
         options: [
             "She laughed.",
             "The happy girl.",
@@ -197,6 +205,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which word is NOT a pronoun?",
         stage: "recognise",
+        hint: "Three words replace nouns. One is a naming word.",
         options: [
             "teacher",
             "we",
@@ -219,6 +228,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Why do we use pronouns?",
         stage: "recognise",
+        hint: "Think about why writers use pronouns.",
         options: [
             "To avoid repeating nouns",
             "To replace punctuation",
@@ -241,6 +251,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Choose the best replacement: 'Lucy found Lucy's book. ____ picked it up.'",
         stage: "recognise",
+        hint: "Replace the repeated name with a pronoun.",
         options: [
             "She",
             "Book",
@@ -263,6 +274,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which sentence uses a pronoun correctly?",
         stage: "recognise",
+        hint: "Look for words that replace both Sam and the ball.",
         options: [
             "Sam found the ball. He kicked it.",
             "Sam found the ball. Ball kicked Sam.",
@@ -285,6 +297,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which pronoun can replace 'my friends'?",
         stage: "recognise",
+        hint: "The answer should refer to more than one person.",
         options: [
             "they",
             "he",
@@ -307,6 +320,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "In the sentence 'The cat drank its milk.', which word is the pronoun?",
         stage: "recognise",
+        hint: "Which word replaces the noun to show ownership?",
         options: [
             "its",
             "cat",
@@ -329,6 +343,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which sentence contains two pronouns?",
         stage: "recognise",
+        hint: "Can you spot two words that replace nouns?",
         options: [
             "They helped us.",
             "The children helped.",
@@ -351,6 +366,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which pronoun could replace 'the bicycle'?",
         stage: "recognise",
+        hint: "The bicycle is one object.",
         options: [
             "it",
             "they",
@@ -373,6 +389,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Choose the best sentence.",
         stage: "recognise",
+        hint: "Choose the sentence that avoids repeating names.",
         options: [
             "Mia saw Ben. She waved to him.",
             "Mia saw Ben. Mia waved to Ben.",
@@ -395,6 +412,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which pronoun refers to the speaker?",
         stage: "recognise",
+        hint: "Which pronoun does the speaker use for themselves?",
         options: [
             "I",
             "he",
@@ -417,6 +435,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which pronoun refers to the person being spoken to?",
         stage: "recognise",
+        hint: "Which pronoun is used when talking to someone?",
         options: [
             "you",
             "he",
@@ -439,6 +458,7 @@ const pronouns: SkillContent = {
         skillId: "pronouns",
         question: "Which sentence uses pronouns correctly?",
         stage: "recognise",
+        hint: "Look for pronouns replacing both people and the activity.",
         options: [
             "Olivia and Noah played outside. They enjoyed it.",
             "Olivia and Noah played outside. Olivia and Noah enjoyed outside.",

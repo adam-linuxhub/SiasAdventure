@@ -29,6 +29,8 @@ const romanLegacy: SkillContent = {
             "A Roman soldier"
         ],
 
+        hint: "Think about something from the past that still affects people today.",
+
         explanation:
             "A legacy is something from the past that continues to affect people today.",
 
@@ -51,6 +53,8 @@ const romanLegacy: SkillContent = {
             "Computers",
             "Airports"
         ],
+
+        hint: "Choose the things you can still find or use in Britain.",
 
         explanation:
             "Roman roads, towns and buildings influenced Britain for many years.",
@@ -75,6 +79,8 @@ const romanLegacy: SkillContent = {
             "They were never used"
         ],
 
+        hint: "Look for an answer about long-lasting engineering, not just old roads.",
+
         explanation:
             "Roman roads were strong and many modern roads follow similar routes.",
 
@@ -97,6 +103,8 @@ const romanLegacy: SkillContent = {
             "Edinburgh",
             "Cardiff"
         ],
+
+        hint: "Remember the Roman name for London.",
 
         explanation:
             "The Romans founded Londinium, which later became London.",
@@ -121,6 +129,8 @@ const romanLegacy: SkillContent = {
             "Viking"
         ],
 
+        hint: "Which ancient language gave English many words?",
+
         explanation:
             "Latin influenced many words used in English today.",
 
@@ -143,6 +153,8 @@ const romanLegacy: SkillContent = {
             "Railways",
             "Cars"
         ],
+
+        hint: "Think about structures that help people cross rivers as well as travel.",
 
         explanation:
             "Roman roads and bridges helped people travel across Britain.",
@@ -167,6 +179,8 @@ const romanLegacy: SkillContent = {
             "Training soldiers"
         ],
 
+        hint: "This is the job of people who study artefacts and ruins.",
+
         explanation:
             "Archaeologists study evidence left behind by people in the past.",
 
@@ -189,6 +203,8 @@ const romanLegacy: SkillContent = {
             "Because of modern inventions",
             "Because there are no records"
         ],
+
+        hint: "Historians need evidence, not guesses.",
 
         explanation:
             "Historians use evidence to learn about the past.",
@@ -213,6 +229,8 @@ const romanLegacy: SkillContent = {
             "Airports"
         ],
 
+        hint: "Which Roman buildings are famous tourist sites today?",
+
         explanation:
             "Roman baths are examples of buildings that have survived.",
 
@@ -235,6 +253,8 @@ const romanLegacy: SkillContent = {
             "They removed all towns",
             "They stopped trade"
         ],
+
+        hint: "Consider changes that lasted after the Romans left.",
 
         explanation:
             "Roman rule changed many parts of life in Britain.",
@@ -259,6 +279,8 @@ const romanLegacy: SkillContent = {
             "They have no information"
         ],
 
+        hint: "Ruins are clues—what can clues tell us?",
+
         explanation:
             "Ruins provide clues about how people lived in the past.",
 
@@ -281,6 +303,8 @@ const romanLegacy: SkillContent = {
             "Computer programming",
             "Modern television"
         ],
+
+        hint: "Think about organised towns rather than modern inventions.",
 
         explanation:
             "Roman planning influenced how settlements were organised.",
@@ -305,6 +329,8 @@ const romanLegacy: SkillContent = {
             "They were only forests"
         ],
 
+        hint: "Busy towns attract people to buy, sell and live.",
+
         explanation:
             "Roman towns became important places for people and businesses.",
 
@@ -327,6 +353,8 @@ const romanLegacy: SkillContent = {
             "Cars",
             "Computer files"
         ],
+
+        hint: "Archaeologists often dig up small everyday objects.",
 
         explanation:
             "Objects from Roman sites help historians learn about the past.",
@@ -351,6 +379,8 @@ const romanLegacy: SkillContent = {
             "They were only used in Rome"
         ],
 
+        hint: "A legacy is something that continues after its creators are gone.",
+
         explanation:
             "Roman engineering continued to affect Britain.",
 
@@ -373,6 +403,8 @@ const romanLegacy: SkillContent = {
             "Electricity",
             "Internet"
         ],
+
+        hint: "Think beyond buildings—how people organised life also changed.",
 
         explanation:
             "Roman culture brought many changes to Britain.",
@@ -397,6 +429,8 @@ const romanLegacy: SkillContent = {
             "To ignore history"
         ],
 
+        hint: "One source can be wrong; several sources can confirm each other.",
+
         explanation:
             "Using different evidence helps historians make accurate conclusions.",
 
@@ -419,6 +453,8 @@ const romanLegacy: SkillContent = {
             "Telephones",
             "Airplanes"
         ],
+
+        hint: "Pick something you can still see across Britain today.",
 
         explanation:
             "Roads and towns are examples of Roman changes that lasted.",
@@ -443,6 +479,8 @@ const romanLegacy: SkillContent = {
             "There is no evidence"
         ],
 
+        hint: "The best reason links the past to modern Britain.",
+
         explanation:
             "Roman Britain had a lasting impact on the country.",
 
@@ -465,6 +503,8 @@ const romanLegacy: SkillContent = {
             "The Romans only built farms",
             "The Romans arrived recently"
         ],
+
+        hint: "Look for the option describing lasting influence, not a single event.",
 
         explanation:
             "Roman influence can still be seen in Britain today.",

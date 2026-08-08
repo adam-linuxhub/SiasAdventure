@@ -14,383 +14,441 @@ const compareOrderNumbers: SkillContent = {
 
     activities: <MultipleChoiceActivity[]>[
         {
-    id: "con-001",
-    skillId: "compare-order-numbers",
-    stage: "recognise",
-
-    question: "Which number is greater?",
-
-    options: [
-        "348",
-        "384",
-        "They are equal",
-        "Cannot tell"
-    ],
-
-    correctAnswer: "384",
-
-    explanation:
-        "Compare the tens digits. 8 tens is greater than 4 tens."
-},
-
-{
-    id: "con-002",
-    skillId: "compare-order-numbers",
-    stage: "recognise",
-
-    question: "Which number is smaller?",
-
-    options: [
-        "527",
-        "572",
-        "They are equal",
-        "Cannot tell"
-    ],
-
-    correctAnswer: "527",
-
-    explanation:
-        "Both have 5 hundreds. Compare the tens digits. 2 tens is smaller than 7 tens."
-},
-
-{
-    id: "con-003",
-    skillId: "compare-order-numbers",
-    stage: "recognise",
-
-    question: "Which symbol makes the sentence true? 416 ___ 461",
-
-    options: [
-        "<",
-        ">",
-        "=",
-        "+"
-    ],
-
-    correctAnswer: "<",
-
-    explanation:
-        "416 is less than 461."
-},
-
-{
-    id: "con-004",
-    skillId: "compare-order-numbers",
-    stage: "recognise",
-
-    question: "Which symbol makes the sentence true? 803 ___ 803",
-
-    options: [
-        "=",
-        "<",
-        ">",
-        "≠"
-    ],
-
-    correctAnswer: "=",
-
-    explanation:
-        "Both numbers are exactly the same."
-},
-
-{
-    id: "con-005",
-    skillId: "compare-order-numbers",
-    stage: "recognise",
-
-    question: "Which number is greater?",
-
-    options: [
-        "691",
-        "619",
-        "They are equal",
-        "Cannot tell"
-    ],
-
-    correctAnswer: "691",
-
-    explanation:
-        "Both have 6 hundreds. Compare the tens digits."
-},
-
-{
-    id: "con-006",
-    skillId: "compare-order-numbers",
-    stage: "recognise",
-
-    question: "Which number is smaller?",
-
-    options: [
-        "945",
-        "954",
-        "They are equal",
-        "Cannot tell"
-    ],
-
-    correctAnswer: "945",
-
-    explanation:
-        "Compare the tens digits. 4 tens is less than 5 tens."
-},
-
-{
-    id: "con-007",
-    skillId: "compare-order-numbers",
-    stage: "recognise",
-
-    question: "Which symbol makes the sentence true? 278 ___ 275",
-
-    options: [
-        ">",
-        "<",
-        "=",
-        "+"
-    ],
-
-    correctAnswer: ">",
-
-    explanation:
-        "278 is greater than 275."
-},
-
-{
-    id: "con-008",
-    skillId: "compare-order-numbers",
-    stage: "recognise",
-
-    question: "Which number is greater?",
-
-    options: [
-        "408",
-        "480",
-        "They are equal",
-        "Cannot tell"
-    ],
-
-    correctAnswer: "480",
-
-    explanation:
-        "Both have 4 hundreds. Compare the tens digits."
-},
-
-{
-    id: "con-009",
-    skillId: "compare-order-numbers",
-    stage: "recognise",
-
-    question: "Which number is smaller?",
-
-    options: [
-        "731",
-        "713",
-        "They are equal",
-        "Cannot tell"
-    ],
-
-    correctAnswer: "713",
-
-    explanation:
-        "Compare the tens digits first."
-},
-
-{
-    id: "con-010",
-    skillId: "compare-order-numbers",
-    stage: "recognise",
-
-    question: "Which symbol makes the sentence true? 600 ___ 599",
-
-    options: [
-        ">",
-        "<",
-        "=",
-        "+"
-    ],
-
-    correctAnswer: ">",
-
-    explanation:
-        "600 is greater than 599."
-},
-
-{
-    id: "con-011",
-    skillId: "compare-order-numbers",
-    stage: "apply",
-
-    question: "A library has 483 books. A school has 438 books. Which has more books?",
-
-    options: [
-        "Library",
-        "School",
-        "They have the same",
-        "Cannot tell"
-    ],
-
-    correctAnswer: "Library",
-
-    explanation:
-        "483 is greater than 438."
-},
-
-{
-    id: "con-012",
-    skillId: "compare-order-numbers",
-    stage: "apply",
-
-    question: "A zoo welcomed 756 visitors on Monday and 765 on Tuesday. Which day had more visitors?",
-
-    options: [
-        "Tuesday",
-        "Monday",
-        "Both days",
-        "Cannot tell"
-    ],
-
-    correctAnswer: "Tuesday",
-
-    explanation:
-        "765 is greater than 756."
-},
-
-{
-    id: "con-013",
-    skillId: "compare-order-numbers",
-    stage: "apply",
-
-    question: "A shop sold 612 toys and another sold 621 toys. Which shop sold fewer toys?",
-
-    options: [
-        "612 toys",
-        "621 toys",
-        "Both sold the same",
-        "Cannot tell"
-    ],
-
-    correctAnswer: "612 toys",
-
-    explanation:
-        "612 is less than 621."
-},
-
-{
-    id: "con-014",
-    skillId: "compare-order-numbers",
-    stage: "apply",
-
-    question: "A farmer counted 398 sheep and then 389 sheep. Which number is greater?",
-
-    options: [
-        "398",
-        "389",
-        "They are equal",
-        "Cannot tell"
-    ],
-
-    correctAnswer: "398",
-
-    explanation:
-        "Compare the tens digits. 9 tens is greater than 8 tens."
-},
-
-{
-    id: "con-015",
-    skillId: "compare-order-numbers",
-    stage: "apply",
-
-    question: "Which number is the greatest?",
-
-    options: [
-        "504",
-        "540",
-        "450",
-        "405"
-    ],
-
-    correctAnswer: "540",
-
-    explanation:
-        "540 has 5 hundreds and 4 tens, making it the greatest."
-},
-{
-    id: "con-016",
-    skillId: "compare-order-numbers",
-    stage: "understand",
-
-    question: "Which list is in ascending order?",
-
-    options: [
-        "245, 254, 425",
-        "425, 254, 245",
-        "254, 245, 425",
-        "425, 245, 254"
-    ],
-
-    correctAnswer: "245, 254, 425",
-
-    explanation:
-        "Ascending order means smallest to greatest."
-},
-
-{
-    id: "con-017",
-    skillId: "compare-order-numbers",
-    stage: "understand",
-
-    question: "Which list is in descending order?",
-
-    options: [
-        "891, 819, 198",
-        "198, 819, 891",
-        "819, 198, 891",
-        "819, 891, 198"
-    ],
-
-    correctAnswer: "891, 819, 198",
-
-    explanation:
-        "Descending order means greatest to smallest."
-},
-
-{
-    id: "con-018",
-    skillId: "compare-order-numbers",
-    stage: "understand",
-
-    question: "Which number is the smallest?",
-
-    options: [
-        "372",
-        "327",
-        "273",
-        "237"
-    ],
-
-    correctAnswer: "237",
-
-    explanation:
-        "237 has the smallest hundreds digit."
-},
-
-{
-    id: "con-019",
-    skillId: "compare-order-numbers",
-    stage: "understand",
-
-    question: "Which number is the greatest?",
-
-    options: [
-        "648",
-        "684",
-        "468",
-        "486"
-    ],
-
-    correctAnswer: "684",
-
-    explanation:
-        "684 has the greatest value."
-},
+            id: "con-001",
+            skillId: "compare-order-numbers",
+            stage: "recognise",
+
+            question: "Which number is greater?",
+
+            hint:
+                "Both numbers have 3 hundreds. Compare the tens digits first because they decide which number is larger.",
+
+            options: [
+                "348",
+                "384",
+                "They are equal",
+                "Cannot tell"
+            ],
+
+            correctAnswer: "384",
+
+            explanation:
+                "Compare the tens digits. 8 tens is greater than 4 tens."
+        },
+
+        {
+            id: "con-002",
+            skillId: "compare-order-numbers",
+            stage: "recognise",
+
+            question: "Which number is smaller?",
+
+            hint:
+                "The hundreds are equal, so ignore them. Look at the tens digits to find the smaller number.",
+
+            options: [
+                "527",
+                "572",
+                "They are equal",
+                "Cannot tell"
+            ],
+
+            correctAnswer: "527",
+
+            explanation:
+                "Both have 5 hundreds. Compare the tens digits. 2 tens is smaller than 7 tens."
+        },
+
+        {
+            id: "con-003",
+            skillId: "compare-order-numbers",
+            stage: "recognise",
+
+            question: "Which symbol makes the sentence true? 416 ___ 461",
+
+            hint:
+                "Compare the hundreds first. If they match, move to the tens digit to decide which number is greater.",
+
+            options: [
+                "<",
+                ">",
+                "=",
+                "+"
+            ],
+
+            correctAnswer: "<",
+
+            explanation:
+                "416 is less than 461."
+        },
+
+        {
+            id: "con-004",
+            skillId: "compare-order-numbers",
+            stage: "recognise",
+
+            question: "Which symbol makes the sentence true? 803 ___ 803",
+
+            hint:
+                "Check every digit from left to right. If every digit matches, neither number is bigger.",
+
+            options: [
+                "=",
+                "<",
+                ">",
+                "≠"
+            ],
+
+            correctAnswer: "=",
+
+            explanation:
+                "Both numbers are exactly the same."
+        },
+
+        {
+            id: "con-005",
+            skillId: "compare-order-numbers",
+            stage: "recognise",
+
+            question: "Which number is greater?",
+
+            hint:
+                "The hundreds are the same, so compare the tens digits before looking at the ones.",
+
+            options: [
+                "691",
+                "619",
+                "They are equal",
+                "Cannot tell"
+            ],
+
+            correctAnswer: "691",
+
+            explanation:
+                "Both have 6 hundreds. Compare the tens digits."
+        },
+
+        {
+            id: "con-006",
+            skillId: "compare-order-numbers",
+            stage: "recognise",
+
+            question: "Which number is smaller?",
+
+            hint:
+                "Start with the hundreds. Since they match, the tens digit tells you which number is smaller.",
+
+            options: [
+                "945",
+                "954",
+                "They are equal",
+                "Cannot tell"
+            ],
+
+            correctAnswer: "945",
+
+            explanation:
+                "Compare the tens digits. 4 tens is less than 5 tens."
+        },
+
+        {
+            id: "con-007",
+            skillId: "compare-order-numbers",
+            stage: "recognise",
+
+            question: "Which symbol makes the sentence true? 278 ___ 275",
+
+            hint:
+                "The hundreds and tens are identical. The ones digit decides which comparison symbol is correct.",
+
+            options: [
+                ">",
+                "<",
+                "=",
+                "+"
+            ],
+
+            correctAnswer: ">",
+
+            explanation:
+                "278 is greater than 275."
+        },
+
+        {
+            id: "con-008",
+            skillId: "compare-order-numbers",
+            stage: "recognise",
+
+            question: "Which number is greater?",
+
+            hint:
+                "Both numbers begin with 4 hundreds. Compare the tens digits to see which is larger.",
+
+            options: [
+                "408",
+                "480",
+                "They are equal",
+                "Cannot tell"
+            ],
+
+            correctAnswer: "480",
+
+            explanation:
+                "Both have 4 hundreds. Compare the tens digits."
+        },
+
+        {
+            id: "con-009",
+            skillId: "compare-order-numbers",
+            stage: "recognise",
+
+            question: "Which number is smaller?",
+
+            hint:
+                "Don't be distracted by the ones yet. The tens digits are different and decide the answer.",
+
+            options: [
+                "731",
+                "713",
+                "They are equal",
+                "Cannot tell"
+            ],
+
+            correctAnswer: "713",
+
+            explanation:
+                "Compare the tens digits first."
+        },
+
+        {
+            id: "con-010",
+            skillId: "compare-order-numbers",
+            stage: "recognise",
+
+            question: "Which symbol makes the sentence true? 600 ___ 599",
+
+            hint:
+                "One number has 6 hundreds while the other has only 5 hundreds. That alone tells you which is larger.",
+
+            options: [
+                ">",
+                "<",
+                "=",
+                "+"
+            ],
+
+            correctAnswer: ">",
+
+            explanation:
+                "600 is greater than 599."
+        },
+
+        {
+            id: "con-011",
+            skillId: "compare-order-numbers",
+            stage: "apply",
+
+            question: "A library has 483 books. A school has 438 books. Which has more books?",
+
+            hint:
+                "Both amounts have 4 hundreds. Compare the tens to work out which place has the larger collection.",
+
+            options: [
+                "Library",
+                "School",
+                "They have the same",
+                "Cannot tell"
+            ],
+
+            correctAnswer: "Library",
+
+            explanation:
+                "483 is greater than 438."
+        },
+
+        {
+            id: "con-012",
+            skillId: "compare-order-numbers",
+            stage: "apply",
+
+            question: "A zoo welcomed 756 visitors on Monday and 765 on Tuesday. Which day had more visitors?",
+
+            hint:
+                "The hundreds match. Compare the tens digits before deciding which day's total is higher.",
+
+            options: [
+                "Tuesday",
+                "Monday",
+                "Both days",
+                "Cannot tell"
+            ],
+
+            correctAnswer: "Tuesday",
+
+            explanation:
+                "765 is greater than 756."
+        },
+
+        {
+            id: "con-013",
+            skillId: "compare-order-numbers",
+            stage: "apply",
+
+            question: "A shop sold 612 toys and another sold 621 toys. Which shop sold fewer toys?",
+
+            hint:
+                "You're looking for the smaller number. Compare the tens after noticing the hundreds are the same.",
+
+            options: [
+                "612 toys",
+                "621 toys",
+                "Both sold the same",
+                "Cannot tell"
+            ],
+
+            correctAnswer: "612 toys",
+
+            explanation:
+                "612 is less than 621."
+        },
+
+        {
+            id: "con-014",
+            skillId: "compare-order-numbers",
+            stage: "apply",
+
+            question: "A farmer counted 398 sheep and then 389 sheep. Which number is greater?",
+
+            hint:
+                "The hundreds are equal. The tens place tells you which count is larger without needing the ones.",
+
+            options: [
+                "398",
+                "389",
+                "They are equal",
+                "Cannot tell"
+            ],
+
+            correctAnswer: "398",
+
+            explanation:
+                "Compare the tens digits. 9 tens is greater than 8 tens."
+        },
+
+        {
+            id: "con-015",
+            skillId: "compare-order-numbers",
+            stage: "apply",
+
+            question: "Which number is the greatest?",
+
+            hint:
+                "A number with more hundreds is always greater. If the hundreds match, compare the tens next.",
+
+            options: [
+                "504",
+                "540",
+                "450",
+                "405"
+            ],
+
+            correctAnswer: "540",
+
+            explanation:
+                "540 has 5 hundreds and 4 tens, making it the greatest."
+        },
+
+        {
+            id: "con-016",
+            skillId: "compare-order-numbers",
+            stage: "understand",
+
+            question: "Which list is in ascending order?",
+
+            hint:
+                "Ascending order means each number should be larger than the one before it. Check each step in the list.",
+
+            options: [
+                "245, 254, 425",
+                "425, 254, 245",
+                "254, 245, 425",
+                "425, 245, 254"
+            ],
+
+            correctAnswer: "245, 254, 425",
+
+            explanation:
+                "Ascending order means smallest to greatest."
+        },
+
+        {
+            id: "con-017",
+            skillId: "compare-order-numbers",
+            stage: "understand",
+
+            question: "Which list is in descending order?",
+
+            hint:
+                "Descending order starts with the largest number and gets smaller each time you move along the list.",
+
+            options: [
+                "891, 819, 198",
+                "198, 819, 891",
+                "819, 198, 891",
+                "819, 891, 198"
+            ],
+
+            correctAnswer: "891, 819, 198",
+
+            explanation:
+                "Descending order means greatest to smallest."
+        },
+
+        {
+            id: "con-018",
+            skillId: "compare-order-numbers",
+            stage: "understand",
+
+            question: "Which number is the smallest?",
+
+            hint:
+                "Start by comparing the hundreds digit. A smaller hundreds digit means a smaller number.",
+
+            options: [
+                "372",
+                "327",
+                "273",
+                "237"
+            ],
+
+            correctAnswer: "237",
+
+            explanation:
+                "237 has the smallest hundreds digit."
+        },
+
+        {
+            id: "con-019",
+            skillId: "compare-order-numbers",
+            stage: "understand",
+
+            question: "Which number is the greatest?",
+
+            hint:
+                "Look at the hundreds first. If more than one number has the same hundreds, compare their tens.",
+
+            options: [
+                "648",
+                "684",
+                "468",
+                "486"
+            ],
+
+            correctAnswer: "684",
+
+            explanation:
+                "684 has the greatest value."
+        },
 
 {
     id: "con-020",
@@ -398,6 +456,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "understand",
 
     question: "Which number belongs in the middle?",
+
+    hint:
+        "Arrange all four numbers from smallest to largest. The correct answer is neither the smallest nor the largest.",
 
     options: [
         "356",
@@ -419,6 +480,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Put these numbers in ascending order: 604, 640, 460",
 
+    hint:
+        "Ascending means smallest to largest. Compare the hundreds first before looking at the tens.",
+
     options: [
         "460, 604, 640",
         "604, 460, 640",
@@ -438,6 +502,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "apply",
 
     question: "Put these numbers in descending order: 715, 751, 571",
+
+    hint:
+        "Descending order starts with the largest value. Check the hundreds first, then compare the tens where needed.",
 
     options: [
         "751, 715, 571",
@@ -459,6 +526,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which number should come next? 345, 356, 367, ___",
 
+    hint:
+        "Find how much each number increases by. The same increase is used each time in the pattern.",
+
     options: [
         "378",
         "377",
@@ -478,6 +548,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "apply",
 
     question: "Which number should come between 508 and 510?",
+
+    hint:
+        "Think about counting forwards one number at a time. Which whole number fits exactly between them?",
 
     options: [
         "509",
@@ -499,6 +572,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "A school has classes with 312, 321 and 213 pupils. Which class has the fewest pupils?",
 
+    hint:
+        "The class with the fewest pupils has the smallest number. Compare the hundreds digit before anything else.",
+
     options: [
         "213",
         "312",
@@ -518,6 +594,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "apply",
 
     question: "A library has 824, 842 and 428 books in three rooms. Which room has the most books?",
+
+    hint:
+        "Start by comparing the hundreds. If two numbers have the same hundreds, compare their tens digits.",
 
     options: [
         "842",
@@ -539,6 +618,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which list is in ascending order?",
 
+    hint:
+        "Every number should be bigger than the one before it. Check the list from left to right.",
+
     options: [
         "199, 299, 399",
         "399, 299, 199",
@@ -558,6 +640,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "apply",
 
     question: "Which list is in descending order?",
+
+    hint:
+        "Each number should be smaller than the one before it. If the values increase anywhere, the list is incorrect.",
 
     options: [
         "960, 690, 609",
@@ -579,6 +664,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which number comes first in ascending order?",
 
+    hint:
+        "The first number in ascending order is the smallest. Compare the hundreds, then the tens if needed.",
+
     options: [
         "708",
         "780",
@@ -599,6 +687,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which number comes last in descending order?",
 
+    hint:
+        "Descending order ends with the smallest value. Look for the number that would appear last on a number line.",
+
     options: [
         "482",
         "428",
@@ -611,12 +702,16 @@ const compareOrderNumbers: SkillContent = {
     explanation:
         "In descending order, the smallest number comes last."
 },
+
 {
     id: "con-031",
     skillId: "compare-order-numbers",
     stage: "master",
 
     question: "Which number is greatest?",
+
+    hint:
+        "All the numbers use the same digits. Compare the hundreds first, then the tens to separate the closest values.",
 
     options: [
         "846",
@@ -638,6 +733,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which list is in ascending order?",
 
+    hint:
+        "Check that every number is larger than the previous one. Pay attention when the hundreds digit changes.",
+
     options: [
         "318, 381, 813, 831",
         "831, 813, 381, 318",
@@ -657,6 +755,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "master",
 
     question: "Which number should come first?",
+
+    hint:
+        "The first number is the smallest. Compare the hundreds before looking at the tens and ones.",
 
     options: [
         "509",
@@ -678,6 +779,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which symbol makes the sentence true? 732 ___ 723",
 
+    hint:
+        "The hundreds are equal, so compare the tens digits to decide which comparison symbol is correct.",
+
     options: [
         ">",
         "<",
@@ -697,6 +801,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "master",
 
     question: "Which list is NOT in descending order?",
+
+    hint:
+        "In descending order, each number should be smaller than the one before it. Look for the place where the numbers increase instead.",
 
     options: [
         "945, 954, 549",
@@ -718,6 +825,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which number belongs between 468 and 470?",
 
+    hint:
+        "Count forwards one number at a time. There is only one whole number between these two numbers.",
+
     options: [
         "469",
         "471",
@@ -737,6 +847,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "master",
 
     question: "Which number is the smallest?",
+
+    hint:
+        "Compare the hundreds digit first. A number with fewer hundreds is always smaller than one with more hundreds.",
 
     options: [
         "801",
@@ -758,6 +871,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Put these numbers in descending order: 624, 642, 426",
 
+    hint:
+        "Descending order starts with the greatest number. Compare the hundreds first, then use the tens to separate similar numbers.",
+
     options: [
         "642, 624, 426",
         "624, 642, 426",
@@ -777,6 +893,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "master",
 
     question: "Which number is greater than 598 but less than 602?",
+
+    hint:
+        "The answer must be bigger than 598 and still smaller than 602. Eliminate any number on or outside those limits.",
 
     options: [
         "600",
@@ -798,6 +917,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which list is in ascending order?",
 
+    hint:
+        "Ascending order means every number should be larger than the one before it. Read each list from left to right.",
+
     options: [
         "407, 470, 704",
         "704, 470, 407",
@@ -817,6 +939,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "master",
 
     question: "Which number comes last in ascending order?",
+
+    hint:
+        "The last number in ascending order is the greatest value. Compare the hundreds before anything else.",
 
     options: [
         "275",
@@ -838,6 +963,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which number is closest to 500?",
 
+    hint:
+        "Think about how many you would add or subtract to reach 500. The smallest distance wins.",
+
     options: [
         "498",
         "489",
@@ -857,6 +985,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "master",
 
     question: "Which list is correctly ordered from greatest to smallest?",
+
+    hint:
+        "Start with the largest hundreds value. The remaining numbers should get smaller each time.",
 
     options: [
         "803, 380, 308",
@@ -878,6 +1009,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which symbol makes the sentence true? 450 ___ 405",
 
+    hint:
+        "The hundreds match, so compare the tens digits to decide which symbol is correct.",
+
     options: [
         ">",
         "<",
@@ -897,6 +1031,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "master",
 
     question: "Which number belongs between 719 and 721?",
+
+    hint:
+        "Count forwards from 719. The very next whole number is the one that fits.",
 
     options: [
         "720",
@@ -918,6 +1055,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which number is the greatest?",
 
+    hint:
+        "All the numbers have 9 hundreds. Compare the tens digits next to find the largest value.",
+
     options: [
         "909",
         "990",
@@ -937,6 +1077,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "master",
 
     question: "Which list is NOT in ascending order?",
+
+    hint:
+        "An ascending list should never get smaller as you move from left to right. Find where that rule is broken.",
 
     options: [
         "205, 250, 520",
@@ -958,6 +1101,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Which number comes immediately before 600?",
 
+    hint:
+        "Think about counting backwards by one from 600. The answer is exactly one less.",
+
     options: [
         "599",
         "601",
@@ -977,6 +1123,9 @@ const compareOrderNumbers: SkillContent = {
     stage: "master",
 
     question: "Which number is greater?",
+
+    hint:
+        "Both numbers have the same hundreds digit. Compare the tens digits to decide which is larger.",
 
     options: [
         "671",
@@ -998,6 +1147,9 @@ const compareOrderNumbers: SkillContent = {
 
     question: "Put these numbers in ascending order: 902, 920, 209",
 
+    hint:
+        "Arrange the numbers from smallest to greatest. Start by comparing the hundreds before looking at the tens.",
+
     options: [
         "209, 902, 920",
         "902, 920, 209",
@@ -1010,14 +1162,12 @@ const compareOrderNumbers: SkillContent = {
     explanation:
         "209 is the smallest, followed by 902 and then 920."
 }
-    ]
-};
 
+]
+};
 
 export default compareOrderNumbers;
 
 export {
-
     compareOrderNumbers
-
 };

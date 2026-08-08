@@ -21,6 +21,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which word is a preposition?",
         stage: "recognise",
+        hint: "Look for the word that tells where something is.",
         options: [
             "under",
             "cat",
@@ -43,6 +44,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "The ball is ____ the table.",
         stage: "recognise",
+        hint: "Which word shows the ball's position?",
         options: [
             "under",
             "jump",
@@ -65,6 +67,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which word is a preposition?",
         stage: "recognise",
+        hint: "A preposition often shows place or position.",
         options: [
             "behind",
             "dog",
@@ -87,6 +90,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "The bird is ____ the tree.",
         stage: "recognise",
+        hint: "Think about where the bird is.",
         options: [
             "in",
             "fly",
@@ -109,6 +113,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which word is a preposition?",
         stage: "recognise",
+        hint: "Which word tells the position of something?",
         options: [
             "between",
             "rabbit",
@@ -131,6 +136,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "The cat sat ____ the chair.",
         stage: "recognise",
+        hint: "Choose the word that shows where the cat sat.",
         options: [
             "on",
             "sit",
@@ -153,6 +159,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which sentence contains a preposition?",
         stage: "recognise",
+        hint: "Find the sentence that tells where the toy is.",
         options: [
             "The toy is inside the box.",
             "The toy is colourful.",
@@ -175,6 +182,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which word tells where something is?",
         stage: "recognise",
+        hint: "Look for the words that show position.",
         options: [
             "next to",
             "apple",
@@ -197,6 +205,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which word is NOT a preposition?",
         stage: "recognise",
+        hint: "Three words show position. One names a person.",
         options: [
             "teacher",
             "above",
@@ -219,6 +228,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Why do we use prepositions?",
         stage: "recognise",
+        hint: "Think about what prepositions help us describe.",
         options: [
             "To show where or when something happens",
             "To describe nouns",
@@ -241,6 +251,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which word best completes the sentence? 'The shoes are ____ the bed.'",
         stage: "recognise",
+        hint: "The missing word should tell where the shoes are.",
         options: [
             "under",
             "jump",
@@ -263,6 +274,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which sentence uses a preposition correctly?",
         stage: "recognise",
+        hint: "Look for the sentence that clearly shows location.",
         options: [
             "The mouse hid behind the sofa.",
             "The mouse behind hid.",
@@ -285,6 +297,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "In the sentence 'The book is on the desk.', which word is the preposition?",
         stage: "recognise",
+        hint: "Which word links the book to the desk?",
         options: [
             "on",
             "book",
@@ -307,6 +320,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which word tells when something happens?",
         stage: "recognise",
+        hint: "Some prepositions tell us about time.",
         options: [
             "before",
             "write",
@@ -329,6 +343,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which sentence contains two prepositions?",
         stage: "recognise",
+        hint: "See if you can find one preposition for place and one for time.",
         options: [
             "The cat slept under the table after lunch.",
             "The cat slept.",
@@ -351,6 +366,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which preposition best completes the sentence? 'Stand ____ me.'",
         stage: "recognise",
+        hint: "The missing word should show where to stand.",
         options: [
             "beside",
             "stand",
@@ -373,6 +389,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which sentence uses a preposition of place?",
         stage: "recognise",
+        hint: "Look for the word that shows where the ball moved.",
         options: [
             "The ball rolled into the goal.",
             "The ball rolled.",
@@ -395,6 +412,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which preposition best completes the sentence? 'We arrived ____ lunchtime.'",
         stage: "recognise",
+        hint: "Think about the time relationship with lunchtime.",
         options: [
             "before",
             "lunch",
@@ -417,6 +435,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which sentence contains a preposition of time?",
         stage: "recognise",
+        hint: "A preposition of time tells you when something happens.",
         options: [
             "We will leave after dinner.",
             "We will leave soon.",
@@ -439,6 +458,7 @@ const prepositions: SkillContent = {
         skillId: "prepositions",
         question: "Which sentence uses prepositions correctly?",
         stage: "recognise",
+        hint: "Look for one preposition of place and one of time.",
         options: [
             "Oliver hid behind the tree before lunch.",
             "Oliver behind hid tree.",

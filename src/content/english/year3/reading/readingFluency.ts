@@ -22,6 +22,7 @@ const readingFluency: SkillContent = {
         question:
             "What does reading fluently mean?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Reading smoothly, accurately and with expression",
             "Reading as quickly as possible",
@@ -45,6 +46,7 @@ const readingFluency: SkillContent = {
         question:
             "Why is it important to read with expression?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "It helps show the meaning and feelings in the text",
             "It makes every word longer",
@@ -68,6 +70,7 @@ const readingFluency: SkillContent = {
         question:
             "What should you do when you see a full stop?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Pause briefly",
             "Keep reading without stopping",
@@ -91,6 +94,7 @@ const readingFluency: SkillContent = {
         question:
             "What should your voice do when reading a question?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Sound like you are asking something",
             "Always become louder",
@@ -114,6 +118,7 @@ const readingFluency: SkillContent = {
         question:
             "Why should readers avoid reading every word too quickly?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "They might miss the meaning",
             "The book will disappear",
@@ -137,6 +142,7 @@ const readingFluency: SkillContent = {
         question:
             "A fluent reader should:",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Recognise many words automatically",
             "Stop after every word",
@@ -160,6 +166,7 @@ const readingFluency: SkillContent = {
         question:
             "What does punctuation help a reader know?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "When to pause and how the sentence should sound",
             "How many pages are in a book",
@@ -183,6 +190,7 @@ const readingFluency: SkillContent = {
         question:
             "Which reader is most fluent?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "A reader who reads smoothly and understands the text",
             "A reader who rushes and guesses words",
@@ -206,6 +214,7 @@ const readingFluency: SkillContent = {
         question:
             "What should you do if you do not know a word?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Try to sound it out and use clues",
             "Always skip it",
@@ -229,6 +238,7 @@ const readingFluency: SkillContent = {
         question:
             "Why do fluent readers practise reading regularly?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Practice helps reading become smoother",
             "Practice makes books shorter",
@@ -252,6 +262,7 @@ const readingFluency: SkillContent = {
         question:
             "Which punctuation mark tells you to pause briefly?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Comma",
             "Question mark",
@@ -275,6 +286,7 @@ const readingFluency: SkillContent = {
         question:
             "How should you read a character speaking angrily?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Use a voice that shows anger",
             "Read in a whisper",
@@ -298,6 +310,7 @@ const readingFluency: SkillContent = {
         question:
             "Why should you look at punctuation before reading aloud?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "It helps you know how the sentence should sound",
             "It tells you the ending",
@@ -321,6 +334,7 @@ const readingFluency: SkillContent = {
         question:
             "Which is a sign of poor fluency?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Reading slowly word-by-word without understanding",
             "Reading smoothly",
@@ -344,6 +358,7 @@ const readingFluency: SkillContent = {
         question:
             "What should you do when reading a surprising part of a story?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Use expression to show surprise",
             "Ignore the meaning",
@@ -367,6 +382,7 @@ const readingFluency: SkillContent = {
         question:
             "Which skill helps readers understand longer texts?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Reading fluently",
             "Skipping words",
@@ -390,6 +406,7 @@ const readingFluency: SkillContent = {
         question:
             "When reading aloud, where should you pause?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "At punctuation marks",
             "After every letter",
@@ -413,6 +430,7 @@ const readingFluency: SkillContent = {
         question:
             "What is the best way to improve reading fluency?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Read regularly and practise aloud",
             "Avoid reading difficult books",
@@ -436,6 +454,7 @@ const readingFluency: SkillContent = {
         question:
             "Why do fluent readers group words together?",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "It helps them understand the meaning",
             "It makes sentences disappear",
@@ -459,6 +478,7 @@ const readingFluency: SkillContent = {
         question:
             "A good reader focuses on:",
         stage: "recognise",
+        hint: "Think about how a good reader would read this.",
         options: [
             "Accuracy, expression and understanding",
             "Only reading quickly",

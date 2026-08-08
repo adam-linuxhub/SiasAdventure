@@ -12,6 +12,7 @@ body {
 
     overflow: hidden;
     color: white;
+    background-image: url("../images/backgrounds/academy.jpg");
 }
 
 .adventure-container {

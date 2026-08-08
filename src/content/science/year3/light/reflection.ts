@@ -28,6 +28,8 @@ const reflection: SkillContent = {
             "They produce electricity"
         ],
 
+        hint: "Most everyday objects don't create light, so think about what happens to light shining on them.",
+
         explanation: "Most objects do not produce light. We see them because light reflects from them into our eyes.",
 
         difficulty: 1,
@@ -48,6 +50,8 @@ const reflection: SkillContent = {
             "It freezes",
             "It turns into sound"
         ],
+
+        hint: "Think about why you can see your face in a mirror.",
 
         explanation: "Mirrors reflect almost all of the light that reaches them.",
 
@@ -70,6 +74,8 @@ const reflection: SkillContent = {
             "A pillow"
         ],
 
+        hint: "Choose the smoothest and shiniest surface.",
+
         explanation: "Smooth, shiny surfaces like mirrors reflect light very well.",
 
         difficulty: 1,
@@ -90,6 +96,8 @@ const reflection: SkillContent = {
             "A woolly jumper",
             "A muddy path"
         ],
+
+        hint: "Light reflects best from surfaces that are smooth rather than rough.",
 
         explanation: "Smooth, shiny surfaces reflect more light than rough surfaces.",
 
@@ -112,6 +120,8 @@ const reflection: SkillContent = {
             "Only in the rain"
         ],
 
+        hint: "A book doesn't glow, so how does light from a lamp help you see it?",
+
         explanation: "Books do not make light. They reflect light into our eyes.",
 
         difficulty: 1,
@@ -132,6 +142,8 @@ const reflection: SkillContent = {
             "A chair",
             "A book"
         ],
+
+        hint: "Only one object is actually a light source.",
 
         explanation: "A candle is a light source. The other objects only reflect light.",
 
@@ -154,6 +166,8 @@ const reflection: SkillContent = {
             "Produce electricity"
         ],
 
+        hint: "Think about why you can see an image in a bathroom mirror.",
+
         explanation: "Mirrors reflect light, allowing us to see images.",
 
         difficulty: 1,
@@ -174,6 +188,8 @@ const reflection: SkillContent = {
             "A polished spoon",
             "A clean window"
         ],
+
+        hint: "Rough, dull surfaces scatter and absorb more light than shiny ones.",
 
         explanation: "Dark, rough surfaces reflect less light than smooth, shiny ones.",
 
@@ -196,6 +212,8 @@ const reflection: SkillContent = {
             "It shines like the Sun"
         ],
 
+        hint: "Light travels from you to the mirror and then back to your eyes.",
+
         explanation: "The mirror reflects light from your body into your eyes.",
 
         difficulty: 1,
@@ -217,6 +235,8 @@ const reflection: SkillContent = {
             "Books produce light."
         ],
 
+        hint: "Think about how you see ordinary objects like tables, books and chairs.",
+
         explanation: "Most objects are seen because they reflect light.",
 
         difficulty: 1,
@@ -227,219 +247,238 @@ const reflection: SkillContent = {
     },
 
     {
-        id: "sci-reflection-011",
-        skillId: "reflection",
-        question: "Why is it harder to see a black jumper at night than a white one?",
-        stage: "recognise",
-        options: [
-            "It reflects less light.",
-            "It disappears.",
-            "It becomes invisible.",
-            "It produces darkness."
-        ],
+    id: "sci-reflection-011",
+    skillId: "reflection",
+    question: "Why is it harder to see a black jumper at night than a white one?",
+    stage: "recognise",
+    options: [
+        "It reflects less light.",
+        "It disappears.",
+        "It becomes invisible.",
+        "It produces darkness."
+    ],
 
-        explanation: "Dark objects usually reflect less light than lighter objects.",
+    hint: "Darker colours bounce less light back to your eyes than lighter colours.",
 
-        difficulty: 2,
-        correctAnswer: "It reflects less light.",
-        estimatedSeconds: 20,
+    explanation: "Dark objects usually reflect less light than lighter objects.",
 
-        tags: ["science", "reflection", "light"]
-    },
+    difficulty: 2,
+    correctAnswer: "It reflects less light.",
+    estimatedSeconds: 20,
 
-    {
-        id: "sci-reflection-012",
-        skillId: "reflection",
-        question: "Which material would make the best mirror?",
-        stage: "recognise",
-        options: [
-            "Smooth polished glass",
-            "Cardboard",
-            "Fabric",
-            "Sand"
-        ],
+    tags: ["science", "reflection", "light"]
+},
 
-        explanation: "Mirrors need smooth, shiny surfaces to reflect light clearly.",
+{
+    id: "sci-reflection-012",
+    skillId: "reflection",
+    question: "Which material would make the best mirror?",
+    stage: "recognise",
+    options: [
+        "Smooth polished glass",
+        "Cardboard",
+        "Fabric",
+        "Sand"
+    ],
 
-        difficulty: 2,
-        correctAnswer: "Smooth polished glass",
-        estimatedSeconds: 20,
+    hint: "A good mirror needs a surface that is very smooth and shiny.",
 
-        tags: ["science", "reflection", "mirrors"]
-    },
+    explanation: "Mirrors need smooth, shiny surfaces to reflect light clearly.",
 
-    {
-        id: "sci-reflection-013",
-        skillId: "reflection",
-        question: "Why can you still see a tree even though it is not a light source?",
-        stage: "recognise",
-        options: [
-            "It reflects sunlight.",
-            "It glows.",
-            "It produces electricity.",
-            "It shines at night."
-        ],
+    difficulty: 2,
+    correctAnswer: "Smooth polished glass",
+    estimatedSeconds: 20,
 
-        explanation: "Trees reflect light from the Sun into our eyes.",
+    tags: ["science", "reflection", "mirrors"]
+},
 
-        difficulty: 2,
-        correctAnswer: "It reflects sunlight.",
-        estimatedSeconds: 20,
+{
+    id: "sci-reflection-013",
+    skillId: "reflection",
+    question: "Why can you still see a tree even though it is not a light source?",
+    stage: "recognise",
+    options: [
+        "It reflects sunlight.",
+        "It glows.",
+        "It produces electricity.",
+        "It shines at night."
+    ],
 
-        tags: ["science", "reflection", "sunlight"]
-    },
+    hint: "The tree doesn't make light—it sends existing light towards your eyes.",
 
-    {
-        id: "sci-reflection-014",
-        skillId: "reflection",
-        question: "Which object reflects light the best?",
-        stage: "recognise",
-        options: [
-            "A shiny metal spoon",
-            "A wool blanket",
-            "A muddy boot",
-            "A cardboard box"
-        ],
+    explanation: "Trees reflect light from the Sun into our eyes.",
 
-        explanation: "Smooth, shiny metal reflects light well.",
+    difficulty: 2,
+    correctAnswer: "It reflects sunlight.",
+    estimatedSeconds: 20,
 
-        difficulty: 2,
-        correctAnswer: "A shiny metal spoon",
-        estimatedSeconds: 20,
+    tags: ["science", "reflection", "sunlight"]
+},
 
-        tags: ["science", "reflection", "surfaces"]
-    },
+{
+    id: "sci-reflection-014",
+    skillId: "reflection",
+    question: "Which object reflects light the best?",
+    stage: "recognise",
+    options: [
+        "A shiny metal spoon",
+        "A wool blanket",
+        "A muddy boot",
+        "A cardboard box"
+    ],
 
-    {
-        id: "sci-reflection-015",
-        skillId: "reflection",
-        question: "What must happen before you can see an object?",
-        stage: "recognise",
-        options: [
-            "Light must enter your eyes.",
-            "The object must make sound.",
-            "The object must move.",
-            "The object must be warm."
-        ],
+    hint: "Smooth, shiny surfaces reflect much more light than rough ones.",
 
-        explanation: "We see objects when light reaches our eyes.",
+    explanation: "Smooth, shiny metal reflects light well.",
 
-        difficulty: 2,
-        correctAnswer: "Light must enter your eyes.",
-        estimatedSeconds: 20,
+    difficulty: 2,
+    correctAnswer: "A shiny metal spoon",
+    estimatedSeconds: 20,
 
-        tags: ["science", "reflection", "seeing"]
-    },
+    tags: ["science", "reflection", "surfaces"]
+},
 
-    {
-        id: "sci-reflection-016",
-        skillId: "reflection",
-        question: "Why are road signs often shiny?",
-        stage: "recognise",
-        options: [
-            "They reflect light from car headlights.",
-            "They produce their own light.",
-            "They absorb light.",
-            "They stop shadows."
-        ],
+{
+    id: "sci-reflection-015",
+    skillId: "reflection",
+    question: "What must happen before you can see an object?",
+    stage: "recognise",
+    options: [
+        "Light must enter your eyes.",
+        "The object must make sound.",
+        "The object must move.",
+        "The object must be warm."
+    ],
 
-        explanation: "Reflective signs are easier to see at night because they reflect headlights.",
+    hint: "Think about where light has to travel before your brain can detect an object.",
 
-        difficulty: 2,
-        correctAnswer: "They reflect light from car headlights.",
-        estimatedSeconds: 20,
+    explanation: "We see objects when light reaches our eyes.",
 
-        tags: ["science", "reflection", "everyday-life"]
-    },
+    difficulty: 2,
+    correctAnswer: "Light must enter your eyes.",
+    estimatedSeconds: 20,
 
-    {
-        id: "sci-reflection-017",
-        skillId: "reflection",
-        question: "Which statement about mirrors is correct?",
-        stage: "recognise",
-        options: [
-            "They reflect light into our eyes.",
-            "They make sunlight.",
-            "They create electricity.",
-            "They absorb all light."
-        ],
+    tags: ["science", "reflection", "seeing"]
+},
 
-        explanation: "Mirrors are designed to reflect light very well.",
+{
+    id: "sci-reflection-016",
+    skillId: "reflection",
+    question: "Why are road signs often shiny?",
+    stage: "recognise",
+    options: [
+        "They reflect light from car headlights.",
+        "They produce their own light.",
+        "They absorb light.",
+        "They stop shadows."
+    ],
 
-        difficulty: 2,
-        correctAnswer: "They reflect light into our eyes.",
-        estimatedSeconds: 20,
+    hint: "At night, road signs rely on another light source to make them easy to see.",
 
-        tags: ["science", "reflection", "mirrors"]
-    },
+    explanation: "Reflective signs are easier to see at night because they reflect headlights.",
 
-    {
-        id: "sci-reflection-018",
-        skillId: "reflection",
-        question: "Why is a shiny bicycle reflector useful?",
-        stage: "recognise",
-        options: [
-            "It reflects light from car headlights.",
-            "It creates its own light.",
-            "It makes the bicycle faster.",
-            "It stores sunlight."
-        ],
+    difficulty: 2,
+    correctAnswer: "They reflect light from car headlights.",
+    estimatedSeconds: 20,
 
-        explanation: "Reflectors help drivers see cyclists more easily in the dark.",
+    tags: ["science", "reflection", "everyday-life"]
+},
 
-        difficulty: 2,
-        correctAnswer: "It reflects light from car headlights.",
-        estimatedSeconds: 20,
+{
+    id: "sci-reflection-017",
+    skillId: "reflection",
+    question: "Which statement about mirrors is correct?",
+    stage: "recognise",
+    options: [
+        "They reflect light into our eyes.",
+        "They make sunlight.",
+        "They create electricity.",
+        "They absorb all light."
+    ],
 
-        tags: ["science", "reflection", "safety"]
-    },
+    hint: "Mirrors don't make light—they change the direction of existing light.",
 
-    {
-        id: "sci-reflection-019",
-        skillId: "reflection",
-        question: "Which surface would give the clearest reflection?",
-        stage: "recognise",
-        options: [
-            "A clean mirror",
-            "A rough stone",
-            "A brick wall",
-            "A wool jumper"
-        ],
+    explanation: "Mirrors are designed to reflect light very well.",
 
-        explanation: "A smooth mirror gives the clearest reflection.",
+    difficulty: 2,
+    correctAnswer: "They reflect light into our eyes.",
+    estimatedSeconds: 20,
 
-        difficulty: 2,
-        correctAnswer: "A clean mirror",
-        estimatedSeconds: 20,
+    tags: ["science", "reflection", "mirrors"]
+},
 
-        tags: ["science", "reflection", "mirrors"]
-    },
+{
+    id: "sci-reflection-018",
+    skillId: "reflection",
+    question: "Why is a shiny bicycle reflector useful?",
+    stage: "recognise",
+    options: [
+        "It reflects light from car headlights.",
+        "It creates its own light.",
+        "It makes the bicycle faster.",
+        "It stores sunlight."
+    ],
 
-    {
-        id: "sci-reflection-020",
-        skillId: "reflection",
-        question: "Which sentence best explains reflection?",
-        stage: "recognise",
-        options: [
-            "Reflection happens when light bounces off a surface.",
-            "Reflection happens when light disappears.",
-            "Reflection makes objects produce light.",
-            "Reflection only happens in mirrors."
-        ],
+    hint: "A reflector works because another vehicle shines light onto it.",
 
-        explanation: "Reflection is when light bounces off a surface. Mirrors reflect very well, but many other objects reflect light too.",
+    explanation: "Reflectors help drivers see cyclists more easily in the dark.",
 
-        difficulty: 2,
-        correctAnswer: "Reflection happens when light bounces off a surface.",
-        estimatedSeconds: 20,
+    difficulty: 2,
+    correctAnswer: "It reflects light from car headlights.",
+    estimatedSeconds: 20,
 
-        tags: ["science", "reflection", "light"]
-    }
+    tags: ["science", "reflection", "safety"]
+},
 
-    ]
+{
+    id: "sci-reflection-019",
+    skillId: "reflection",
+    question: "Which surface would give the clearest reflection?",
+    stage: "recognise",
+    options: [
+        "A clean mirror",
+        "A rough stone",
+        "A brick wall",
+        "A wool jumper"
+    ],
+
+    hint: "A clear reflection needs the smoothest surface available.",
+
+    explanation: "A smooth mirror gives the clearest reflection.",
+
+    difficulty: 2,
+    correctAnswer: "A clean mirror",
+    estimatedSeconds: 20,
+
+    tags: ["science", "reflection", "mirrors"]
+},
+
+{
+    id: "sci-reflection-020",
+    skillId: "reflection",
+    question: "Which sentence best explains reflection?",
+    stage: "recognise",
+    options: [
+        "Reflection happens when light bounces off a surface.",
+        "Reflection happens when light disappears.",
+        "Reflection makes objects produce light.",
+        "Reflection only happens in mirrors."
+    ],
+
+    hint: "Think about what light does when it hits a mirror, wall or book.",
+
+    explanation: "Reflection is when light bounces off a surface. Mirrors reflect very well, but many other objects reflect light too.",
+
+    difficulty: 2,
+    correctAnswer: "Reflection happens when light bounces off a surface.",
+    estimatedSeconds: 20,
+
+    tags: ["science", "reflection", "light"]
+}
+
+]
 
 };
-
 
 export default reflection;
 

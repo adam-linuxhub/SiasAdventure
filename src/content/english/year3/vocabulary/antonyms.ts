@@ -21,6 +21,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which word is the opposite of 'hot'?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "cold",
             "warm",
@@ -43,6 +44,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which word is the opposite of 'big'?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "small",
             "large",
@@ -65,6 +67,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which word is the opposite of 'happy'?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "sad",
             "glad",
@@ -87,6 +90,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which word is the opposite of 'fast'?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "slow",
             "quick",
@@ -109,6 +113,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which word is the opposite of 'up'?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "down",
             "high",
@@ -131,6 +136,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which word is the opposite of 'day'?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "night",
             "morning",
@@ -153,6 +159,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which word is the opposite of 'full'?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "empty",
             "filled",
@@ -175,6 +182,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which word is the opposite of 'young'?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "old",
             "new",
@@ -197,6 +205,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which word is the opposite of 'open'?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "closed",
             "wide",
@@ -219,6 +228,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "What are antonyms?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "Words with opposite meanings",
             "Words with the same meaning",
@@ -241,6 +251,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Choose the antonym of 'early'.",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "late",
             "soon",
@@ -263,6 +274,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Choose the antonym of 'light' (not heavy).",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "heavy",
             "bright",
@@ -285,6 +297,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which pair of words are antonyms?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "happy and sad",
             "big and large",
@@ -307,6 +320,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Complete the sentence: 'The bucket was full, but now it is ______.'",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "empty",
             "full",
@@ -329,6 +343,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which pair of words are antonyms?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "up and down",
             "cold and chilly",
@@ -351,6 +366,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which word could replace 'slow' with its opposite?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "fast",
             "careful",
@@ -373,6 +389,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which sentence uses antonyms correctly?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "The kitten was small, but the dog was big.",
             "The kitten was small, but the dog was tiny.",
@@ -395,6 +412,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Why do writers use antonyms?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "To compare opposite ideas",
             "To make words rhyme",
@@ -417,6 +435,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Choose the antonym of 'clean'.",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "dirty",
             "tidy",
@@ -439,6 +458,7 @@ const antonyms: SkillContent = {
         skillId: "antonyms",
         question: "Which sentence uses antonyms correctly?",
         stage: "recognise",
+        hint: "Think about the opposite meaning of the key word.",
         options: [
             "The soup was hot, but the ice cream was cold.",
             "The soup was hot, but the tea was warm.",

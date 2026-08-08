@@ -22,6 +22,7 @@ const sequencing: SkillContent = {
         question:
             "Read the sentences:\n\n1. Mia put on her coat.\n2. Mia left the house.\n3. Mia picked up her school bag.\n\nWhat happened first?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Mia put on her coat.",
             "Mia left the house.",
@@ -45,6 +46,7 @@ const sequencing: SkillContent = {
         question:
             "Read the sentences:\n\nFirst, Tom planted a seed.\nNext, he watered it.\nFinally, the plant grew.\n\nWhat happened second?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Tom watered the seed.",
             "The plant grew.",
@@ -68,6 +70,7 @@ const sequencing: SkillContent = {
         question:
             "Which word often tells us something happened at the beginning?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "First",
             "Finally",
@@ -91,6 +94,7 @@ const sequencing: SkillContent = {
         question:
             "Which word often tells us something happened at the end?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Finally",
             "Before",
@@ -114,6 +118,7 @@ const sequencing: SkillContent = {
         question:
             "Read the sentences:\n\n1. Jake ate his breakfast.\n2. Jake woke up.\n3. Jake brushed his teeth.\n\nWhich order is correct?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Wake up → eat breakfast → brush teeth",
             "Brush teeth → wake up → eat breakfast",
@@ -137,6 +142,7 @@ const sequencing: SkillContent = {
         question:
             "What does sequencing mean?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Putting events in the correct order",
             "Finding words that rhyme",
@@ -160,6 +166,7 @@ const sequencing: SkillContent = {
         question:
             "Read the sentences:\n\nFirst, Ella mixed the ingredients.\nThen, she baked the cake.\nFinally, she ate a slice.\n\nWhat happened last?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Ella ate a slice.",
             "Ella mixed the ingredients.",
@@ -183,6 +190,7 @@ const sequencing: SkillContent = {
         question:
             "Which word could replace 'then' in a sequence?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Next",
             "Yesterday",
@@ -206,6 +214,7 @@ const sequencing: SkillContent = {
         question:
             "Read the sentences:\n\n1. The alarm rang.\n2. Sam got out of bed.\n3. Sam went downstairs.\n\nWhat happened last?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Sam went downstairs.",
             "The alarm rang.",
@@ -229,6 +238,7 @@ const sequencing: SkillContent = {
         question:
             "Why is sequencing important when reading?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "It helps us understand what happened and when.",
             "It makes every story shorter.",
@@ -252,6 +262,7 @@ const sequencing: SkillContent = {
         question:
             "Read the passage:\n\nFirst, Lily filled a bowl with flour. Next, she added eggs. Then, she mixed everything together.\n\nWhat did Lily do after adding eggs?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "She mixed everything together.",
             "She filled the bowl with flour.",
@@ -275,6 +286,7 @@ const sequencing: SkillContent = {
         question:
             "Put these events in order:\n\nA. The seed became a plant.\nB. The seed was planted.\nC. The seed was watered.",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "B → C → A",
             "A → B → C",
@@ -298,6 +310,7 @@ const sequencing: SkillContent = {
         question:
             "Read the passage:\n\nAfter school, Noah finished his homework. Later, he played football.\n\nWhat did Noah do first?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Finished his homework.",
             "Played football.",
@@ -321,6 +334,7 @@ const sequencing: SkillContent = {
         question:
             "Which word shows something happened before something else?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Before",
             "Finally",
@@ -344,6 +358,7 @@ const sequencing: SkillContent = {
         question:
             "Read the passage:\n\nThe fox woke up. It searched for food. It returned to its den.\n\nWhat happened in the middle?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "The fox searched for food.",
             "The fox woke up.",
@@ -367,6 +382,7 @@ const sequencing: SkillContent = {
         question:
             "Which sequence word means the same as 'after that'?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Then",
             "First",
@@ -390,6 +406,7 @@ const sequencing: SkillContent = {
         question:
             "Read the passage:\n\nFirst, the children built a den. Next, they decorated it. Finally, they played inside it.\n\nWhat happened before decorating the den?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "They built the den.",
             "They played inside it.",
@@ -413,6 +430,7 @@ const sequencing: SkillContent = {
         question:
             "Why do authors use words like first, next and finally?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "To show the order of events",
             "To make words rhyme",
@@ -436,6 +454,7 @@ const sequencing: SkillContent = {
         question:
             "Read the passage:\n\nMum cooked dinner. Before eating, the family washed their hands.\n\nWhat happened first?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Mum cooked dinner.",
             "The family ate dinner.",
@@ -459,6 +478,7 @@ const sequencing: SkillContent = {
         question:
             "When sequencing a story, what should you look for?",
         stage: "recognise",
+        hint: "Look for the order that events happened.",
         options: [
             "Clues that show when events happen",
             "Only the longest sentence",

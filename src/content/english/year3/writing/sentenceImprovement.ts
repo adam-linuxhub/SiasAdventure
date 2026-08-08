@@ -22,6 +22,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Which sentence is more interesting?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The enormous dog ran across the field.",
             "The dog ran.",
@@ -45,6 +46,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Improve this sentence:\n\nThe bird flew.",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The colourful bird flew gracefully through the sky.",
             "The bird.",
@@ -68,6 +70,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Which word is a stronger verb than 'went'?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "raced",
             "was",
@@ -91,6 +94,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Improve this sentence:\n\nThe cat sat.",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The fluffy cat curled up quietly on the soft cushion.",
             "The cat.",
@@ -114,6 +118,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Which adjective improves this sentence?\n\nThe house had a door.",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "wooden",
             "went",
@@ -137,6 +142,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Why do writers add detail to sentences?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "To help readers create a clearer picture",
             "To make writing confusing",
@@ -160,6 +166,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Which sentence uses the strongest verb?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The lion roared loudly.",
             "The lion made a sound.",
@@ -183,6 +190,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Improve this sentence:\n\nThe boy walked.",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The tired boy slowly walked home after school.",
             "The boy.",
@@ -206,6 +214,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Which word makes this sentence more descriptive?\n\nThe flower grew.",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "beautiful",
             "grew",
@@ -229,6 +238,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "A good writer chooses words that are:",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "Interesting and precise",
             "Always the longest",
@@ -252,6 +262,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Which sentence creates the clearest image?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The tiny golden butterfly fluttered gently above the flowers.",
             "The butterfly moved.",
@@ -275,6 +286,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Replace the weak verb:\n\nThe dog went across the garden.",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The dog raced across the garden.",
             "The dog was across the garden.",
@@ -298,6 +310,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Which sentence uses an adverb to improve the writing?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The girl sang beautifully.",
             "The girl sang.",
@@ -321,6 +334,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Improve this sentence:\n\nThe storm came.",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The powerful storm crashed across the dark sky.",
             "The storm.",
@@ -344,6 +358,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Which word choice is most precise?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "whispered",
             "talked",
@@ -367,6 +382,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Why are powerful verbs useful?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "They make actions clearer for the reader",
             "They remove all details",
@@ -390,6 +406,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Which sentence has the most detail?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The old wooden ship sailed across the rough sea.",
             "The ship sailed.",
@@ -413,6 +430,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "What should you check when improving a sentence?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "Does it make the meaning clearer?",
             "Is every word the same length?",
@@ -436,6 +454,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Which sentence is the best improvement?",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "The excited children raced happily towards the playground.",
             "The children.",
@@ -459,6 +478,7 @@ const sentenceImprovement: SkillContent = {
         question:
             "Good writers improve sentences by:",
         stage: "recognise",
+        hint: "Look for the choice that makes the writing clearer and more descriptive.",
         options: [
             "Adding useful details and choosing better words",
             "Adding random words",

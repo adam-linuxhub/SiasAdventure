@@ -29,6 +29,10 @@ const dailyLife: SkillContent = {
             "Under the sea"
         ],
 
+        hint:
+            "Think about which place gave people fresh water and rich soil for farming.",
+
+
         explanation:
             "Many Egyptians lived near the Nile because it provided water and fertile land.",
 
@@ -51,6 +55,10 @@ const dailyLife: SkillContent = {
             "Driving cars",
             "Flying planes"
         ],
+
+        hint:
+            "Which job helped feed almost everyone in Ancient Egypt?",
+
 
         explanation:
             "Farming was one of the most important jobs because people needed food.",
@@ -75,6 +83,10 @@ const dailyLife: SkillContent = {
             "Metal trees"
         ],
 
+        hint:
+            "Choose real crops that grow from fields, not modern or impossible things.",
+
+
         explanation:
             "Farmers grew crops including wheat and barley near the Nile.",
 
@@ -97,6 +109,10 @@ const dailyLife: SkillContent = {
             "Glass",
             "Concrete"
         ],
+
+        hint:
+            "Think about what builders could make from the muddy banks of the Nile.",
+
 
         explanation:
             "Mud bricks were commonly used because they were available and suitable for the climate.",
@@ -121,6 +137,10 @@ const dailyLife: SkillContent = {
             "Plastic suits"
         ],
 
+        hint:
+            "Hot weather needs light clothing made from plant fibres.",
+
+
         explanation:
             "Linen made from flax was commonly used for clothing.",
 
@@ -143,6 +163,10 @@ const dailyLife: SkillContent = {
             "It built pyramids alone",
             "It replaced the Nile"
         ],
+
+        hint:
+            "Without farming, where would people's food come from?",
+
 
         explanation:
             "Farming provided food for Egyptian society.",
@@ -167,6 +191,10 @@ const dailyLife: SkillContent = {
             "Design websites"
         ],
 
+        hint:
+            "A craftsman makes things by hand rather than using modern machines.",
+
+
         explanation:
             "Craftsmen made useful and decorative objects.",
 
@@ -189,6 +217,10 @@ const dailyLife: SkillContent = {
             "Build ships only",
             "Train animals"
         ],
+
+        hint:
+            "Scribes were among the few people who could read and write.",
+
 
         explanation:
             "Scribes were skilled writers who kept records.",
@@ -213,6 +245,10 @@ const dailyLife: SkillContent = {
             "They invented cars"
         ],
 
+        hint:
+            "Why would a kingdom need people to keep written records?",
+
+
         explanation:
             "Written records help historians understand Ancient Egypt.",
 
@@ -235,6 +271,10 @@ const dailyLife: SkillContent = {
             "Pizza",
             "Potato crisps"
         ],
+
+        hint:
+            "Think of a simple food made from grain that people ate every day.",
+
 
         explanation:
             "Bread made from grains was an important part of the Egyptian diet.",
@@ -259,6 +299,10 @@ const dailyLife: SkillContent = {
             "It was far from farms"
         ],
 
+        hint:
+            "The Nile gave more than water—what did it help people grow?",
+
+
         explanation:
             "The Nile supported everyday life through farming and water supply.",
 
@@ -281,6 +325,10 @@ const dailyLife: SkillContent = {
             "Only children",
             "Visitors from other countries"
         ],
+
+        hint:
+            "Who was considered the ruler of all Egypt?",
+
 
         explanation:
             "The pharaoh was at the top of the social structure.",
@@ -305,6 +353,10 @@ const dailyLife: SkillContent = {
             "Made clothing"
         ],
 
+        hint:
+            "What useful food could people catch from the Nile?",
+
+
         explanation:
             "The Nile provided fish as an important food source.",
 
@@ -327,6 +379,10 @@ const dailyLife: SkillContent = {
             "They built all pyramids",
             "They controlled Egypt"
         ],
+
+        hint:
+            "Animals could help families in several different ways each day.",
+
 
         explanation:
             "Animals were used for food, transport and farming.",
@@ -351,6 +407,10 @@ const dailyLife: SkillContent = {
             "Glass"
         ],
 
+        hint:
+            "Papyrus wasn't wood or stone—think of a plant growing by the river.",
+
+
         explanation:
             "Papyrus was made from a plant and used for writing.",
 
@@ -373,6 +433,10 @@ const dailyLife: SkillContent = {
             "To predict the future",
             "To build new pyramids"
         ],
+
+        hint:
+            "Historians want to discover how ordinary people lived.",
+
 
         explanation:
             "Daily life evidence helps us understand ordinary people.",
@@ -397,6 +461,10 @@ const dailyLife: SkillContent = {
             "A builder"
         ],
 
+        hint:
+            "If someone wrote official documents, what job would they have?",
+
+
         explanation:
             "Scribes were trained writers and record keepers.",
 
@@ -419,6 +487,10 @@ const dailyLife: SkillContent = {
             "How modern machines work",
             "Future inventions"
         ],
+
+        hint:
+            "Objects from the past give clues about everyday life.",
+
 
         explanation:
             "Objects provide evidence about past societies.",
@@ -443,6 +515,10 @@ const dailyLife: SkillContent = {
             "There were no farmers"
         ],
 
+        hint:
+            "A successful society needs many different kinds of workers.",
+
+
         explanation:
             "Ancient Egyptian society included farmers, craftsmen, scribes and rulers.",
 
@@ -465,6 +541,10 @@ const dailyLife: SkillContent = {
             "People lived without water",
             "People had no jobs"
         ],
+
+        hint:
+            "Pick the sentence that includes several true facts about Egyptian life.",
+
 
         explanation:
             "The Nile shaped many parts of everyday Egyptian life.",

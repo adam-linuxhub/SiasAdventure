@@ -22,6 +22,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which is a complete sentence?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "The dog barked.",
             "The big dog.",
@@ -45,6 +46,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "What does every complete sentence need?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "A subject and a verb",
             "A question mark",
@@ -68,6 +70,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which word is the subject in this sentence?\n\nThe rabbit jumped over the log.",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "rabbit",
             "jumped",
@@ -91,6 +94,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which word is the verb in this sentence?\n\nThe rabbit jumped over the log.",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "jumped",
             "rabbit",
@@ -114,6 +118,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which sentence is written correctly?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "The bird flew away.",
             "the bird flew away",
@@ -137,6 +142,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which is a sentence fragment?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "Because I was tired",
             "I went to bed early.",
@@ -160,6 +166,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Choose the best way to complete the sentence:\n\nThe children ______ in the garden.",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "played",
             "happy",
@@ -183,6 +190,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which sentence has a clear subject?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "The teacher explained the lesson.",
             "Explained the lesson.",
@@ -206,6 +214,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which sentence has a verb?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "The puppy barked loudly.",
             "The fluffy puppy.",
@@ -229,6 +238,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Why do writers need complete sentences?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "They help readers understand ideas clearly.",
             "They make writing longer.",
@@ -252,6 +262,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which sentence is the strongest?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "The excited dog raced across the field.",
             "The dog went.",
@@ -275,6 +286,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Improve this sentence:\n\nThe boy ran.",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "The young boy ran quickly home.",
             "Boy.",
@@ -298,6 +310,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which sentence uses the correct word order?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "The cat chased the mouse.",
             "The cat the mouse chased.",
@@ -321,6 +334,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Choose the complete sentence.",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "Although it was raining, we played football.",
             "Although it was raining.",
@@ -344,6 +358,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which sentence has the correct punctuation?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "Where are you going?",
             "Where are you going.",
@@ -367,6 +382,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which sentence is a command?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "Close the door quietly.",
             "The door is closed.",
@@ -390,6 +406,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which sentence uses the correct tense?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "Yesterday, I walked to school.",
             "Yesterday, I walk to school.",
@@ -413,6 +430,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "What makes a sentence easier to understand?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "Clear word order and correct punctuation",
             "Using random words",
@@ -436,6 +454,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Which sentence contains both a subject and a verb?",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "The children laughed.",
             "The happy children.",
@@ -459,6 +478,7 @@ const sentenceConstruction: SkillContent = {
         question:
             "Before finishing a piece of writing, you should check that:",
         stage: "recognise",
+        hint: "Check that the sentence has the words needed to make complete sense.",
         options: [
             "Your sentences make sense",
             "Every word is the same length",

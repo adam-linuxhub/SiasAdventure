@@ -29,6 +29,7 @@ const humansAndMountains: SkillContent = {
             "Because there are no natural resources"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "People live in mountains because they can use the land and resources available.",
 
@@ -52,6 +53,7 @@ const humansAndMountains: SkillContent = {
             "Plants cannot grow anywhere"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Mountain environments can make travel and building more difficult.",
 
@@ -75,6 +77,7 @@ const humansAndMountains: SkillContent = {
             "By travelling underground"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Mountain transport often needs to adapt to steep and uneven land.",
 
@@ -98,6 +101,7 @@ const humansAndMountains: SkillContent = {
             "Mountains are flat"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Steep slopes and difficult terrain make construction harder.",
 
@@ -121,6 +125,7 @@ const humansAndMountains: SkillContent = {
             "Creating rivers"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Some communities farm using land available in mountain regions.",
 
@@ -144,6 +149,7 @@ const humansAndMountains: SkillContent = {
             "To remove soil"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Terraces help farmers grow crops on steep slopes.",
 
@@ -167,6 +173,7 @@ const humansAndMountains: SkillContent = {
             "To avoid nature"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Tourism is an important activity in many mountain areas.",
 
@@ -190,6 +197,7 @@ const humansAndMountains: SkillContent = {
             "Moving rocks"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Tourism involves people travelling for leisure or experiences.",
 
@@ -213,6 +221,7 @@ const humansAndMountains: SkillContent = {
             "It prevents visitors"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Tourism can support local businesses and jobs.",
 
@@ -236,6 +245,7 @@ const humansAndMountains: SkillContent = {
             "Rivers disappearing instantly"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Large numbers of visitors can harm fragile mountain environments.",
 
@@ -259,6 +269,7 @@ const humansAndMountains: SkillContent = {
             "To prevent weather"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Mountain environments contain important ecosystems.",
 
@@ -282,6 +293,7 @@ const humansAndMountains: SkillContent = {
             "By removing all plants"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Responsible behaviour helps protect mountain environments.",
 
@@ -305,6 +317,7 @@ const humansAndMountains: SkillContent = {
             "They only live in cities"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Mountain species often have adaptations for cold and steep environments.",
 
@@ -328,6 +341,7 @@ const humansAndMountains: SkillContent = {
             "No resources"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Mountains provide many natural resources.",
 
@@ -351,6 +365,7 @@ const humansAndMountains: SkillContent = {
             "Because transport is always easy"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "People adapt their homes, farming and transport to mountain environments.",
 
@@ -374,6 +389,7 @@ const humansAndMountains: SkillContent = {
             "Changing mountains"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Conservation means protecting natural environments.",
 
@@ -397,6 +413,7 @@ const humansAndMountains: SkillContent = {
             "They prevent all activity"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Mountains are valuable natural environments.",
 
@@ -420,6 +437,7 @@ const humansAndMountains: SkillContent = {
             "Growing tropical forests"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Snowy mountains are popular for skiing and other activities.",
 
@@ -443,6 +461,7 @@ const humansAndMountains: SkillContent = {
             "They are not natural"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "Mountain ecosystems can be sensitive to human impacts.",
 
@@ -466,6 +485,7 @@ const humansAndMountains: SkillContent = {
             "Humans never affect mountains"
         ],
 
+        hint: "Think about how mountains affect people or how people affect mountains.",
         explanation:
             "People depend on mountains while needing to protect them.",
 

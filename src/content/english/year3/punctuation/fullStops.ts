@@ -21,6 +21,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which punctuation mark is a full stop?",
         stage: "recognise",
+        hint: "Look for the punctuation mark that ends a statement.",
         options: [
             ".",
             "?",
@@ -43,6 +44,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which sentence ends correctly?",
         stage: "recognise",
+        hint: "Statements usually end with a full stop.",
         options: [
             "The cat is asleep.",
             "The cat is asleep?",
@@ -65,6 +67,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "When should you use a full stop?",
         stage: "recognise",
+        hint: "Think about what punctuation finishes a statement.",
         options: [
             "At the end of a statement",
             "At the end of every question",
@@ -87,6 +90,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which sentence needs a full stop?",
         stage: "recognise",
+        hint: "Is this sentence asking, shouting or telling?",
         options: [
             "I like ice cream",
             "Where is my bag?",
@@ -109,6 +113,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Choose the correctly punctuated sentence.",
         stage: "recognise",
+        hint: "Simple statements end with a full stop.",
         options: [
             "The bird sang.",
             "The bird sang?",
@@ -131,6 +136,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which sentence is a statement?",
         stage: "recognise",
+        hint: "Which sentence is just giving information?",
         options: [
             "The sun is shining.",
             "Is the sun shining?",
@@ -153,6 +159,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which sentence ends with the correct punctuation?",
         stage: "recognise",
+        hint: "Does the sentence ask a question or tell something?",
         options: [
             "Ben played football.",
             "Ben played football?",
@@ -175,6 +182,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "What does a full stop show?",
         stage: "recognise",
+        hint: "A full stop shows a sentence has finished.",
         options: [
             "The sentence has finished.",
             "Someone is asking a question.",
@@ -197,6 +205,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which punctuation mark should replace the blank? 'The dog barked__'",
         stage: "recognise",
+        hint: "The sentence is simply telling you something.",
         options: [
             ".",
             "?",
@@ -219,6 +228,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which sentence is punctuated correctly?",
         stage: "recognise",
+        hint: "Look for the ordinary statement.",
         options: [
             "My friend likes swimming.",
             "My friend likes swimming?",
@@ -241,6 +251,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which sentence is missing a full stop?",
         stage: "recognise",
+        hint: "One statement is missing its ending punctuation.",
         options: [
             "The rabbit hopped across the field",
             "The rabbit hopped across the field.",
@@ -263,6 +274,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "How many full stops are needed? 'Amy smiled She waved Goodbye everyone'",
         stage: "recognise",
+        hint: "Count how many separate statements there are.",
         options: [
             "2",
             "1",
@@ -285,6 +297,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which sentence has the correct ending punctuation?",
         stage: "recognise",
+        hint: "This sentence is not a question or exclamation.",
         options: [
             "The train arrived on time.",
             "The train arrived on time?",
@@ -307,6 +320,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Why do we use full stops?",
         stage: "recognise",
+        hint: "Why do readers need full stops?",
         options: [
             "To show the end of a statement",
             "To ask a question",
@@ -329,6 +343,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which sentence uses a full stop correctly?",
         stage: "recognise",
+        hint: "Is the sentence simply giving information?",
         options: [
             "Our class visited the museum.",
             "Our class visited the museum?",
@@ -351,6 +366,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Choose the sentence that needs a full stop instead of a question mark.",
         stage: "recognise",
+        hint: "Statements shouldn't end with question marks.",
         options: [
             "The cake tasted delicious?",
             "Where is the cake?",
@@ -373,6 +389,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which sentence contains correct punctuation?",
         stage: "recognise",
+        hint: "Choose the sentence that ends like a statement.",
         options: [
             "The children played outside.",
             "The children played outside?",
@@ -395,6 +412,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which punctuation mark should end this sentence? 'Dad washed the car__'",
         stage: "recognise",
+        hint: "Ask yourself if the sentence is just telling something.",
         options: [
             ".",
             "?",
@@ -417,6 +435,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "What happens if full stops are missing?",
         stage: "recognise",
+        hint: "Full stops help readers know where to pause.",
         options: [
             "Sentences become harder to read.",
             "Words become nouns.",
@@ -439,6 +458,7 @@ const fullStops: SkillContent = {
         skillId: "fullStops",
         question: "Which group of sentences is punctuated correctly?",
         stage: "recognise",
+        hint: "Both sentences are ordinary statements.",
         options: [
             "The dog barked. The cat slept.",
             "The dog barked? The cat slept.",

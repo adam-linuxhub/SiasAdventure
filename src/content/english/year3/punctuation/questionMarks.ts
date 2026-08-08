@@ -21,6 +21,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which punctuation mark is a question mark?",
         stage: "recognise",
+        hint: "Look for the punctuation mark used for asking.",
         options: [
             "?",
             ".",
@@ -43,6 +44,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which sentence is a question?",
         stage: "recognise",
+        hint: "Which sentence is asking for information?",
         options: [
             "Where is my coat?",
             "My coat is blue.",
@@ -65,6 +67,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which punctuation mark should end this sentence? 'How old are you__'",
         stage: "recognise",
+        hint: "Questions end with a special punctuation mark.",
         options: [
             "?",
             ".",
@@ -87,6 +90,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which sentence is punctuated correctly?",
         stage: "recognise",
+        hint: "Does the sentence ask something?",
         options: [
             "Can you swim?",
             "Can you swim.",
@@ -109,6 +113,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which sentence asks a question?",
         stage: "recognise",
+        hint: "Look for the sentence expecting an answer.",
         options: [
             "What is your favourite colour?",
             "My favourite colour is blue.",
@@ -131,6 +136,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "When should you use a question mark?",
         stage: "recognise",
+        hint: "Think about when you ask someone something.",
         options: [
             "At the end of a question",
             "At the end of every sentence",
@@ -153,6 +159,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which sentence is a question?",
         stage: "recognise",
+        hint: "Which sentence could be answered with yes or no?",
         options: [
             "Have you finished your homework?",
             "I finished my homework.",
@@ -175,6 +182,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which sentence ends correctly?",
         stage: "recognise",
+        hint: "Questions should end correctly.",
         options: [
             "Do birds fly?",
             "Do birds fly.",
@@ -197,6 +205,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which sentence is NOT a question?",
         stage: "recognise",
+        hint: "One sentence is telling, not asking.",
         options: [
             "The birds are flying.",
             "Where are the birds?",
@@ -219,6 +228,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Choose the correctly punctuated sentence.",
         stage: "recognise",
+        hint: "Find the correctly punctuated question.",
         options: [
             "Who is at the door?",
             "Who is at the door.",
@@ -241,6 +251,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which sentence needs a question mark?",
         stage: "recognise",
+        hint: "Does the sentence ask for information?",
         options: [
             "What time does school start",
             "School starts at nine.",
@@ -263,6 +274,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which sentence is punctuated correctly?",
         stage: "recognise",
+        hint: "Question words often need question marks.",
         options: [
             "Why did the baby cry?",
             "Why did the baby cry.",
@@ -285,6 +297,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which word often begins a question?",
         stage: "recognise",
+        hint: "Words like who, what and where often start questions.",
         options: [
             "Where",
             "Because",
@@ -307,6 +320,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Why do we use question marks?",
         stage: "recognise",
+        hint: "Why do readers need question marks?",
         options: [
             "To show that a sentence asks something",
             "To end every sentence",
@@ -329,6 +343,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which sentence asks for information?",
         stage: "recognise",
+        hint: "Which sentence expects an answer?",
         options: [
             "Which bus goes to the museum?",
             "The bus goes to the museum.",
@@ -351,6 +366,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Choose the correctly punctuated question.",
         stage: "recognise",
+        hint: "Every question should end the same way.",
         options: [
             "Can penguins swim?",
             "Can penguins swim.",
@@ -373,6 +389,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which punctuation mark belongs at the end of 'When is your birthday__'?",
         stage: "recognise",
+        hint: "Read the sentence aloud—is it asking something?",
         options: [
             "?",
             ".",
@@ -395,6 +412,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "What usually happens if a sentence begins with 'Who'?",
         stage: "recognise",
+        hint: "Think about how questions often begin.",
         options: [
             "It is usually a question.",
             "It is always a command.",
@@ -417,6 +435,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "Which pair are both questions?",
         stage: "recognise",
+        hint: "Are both sentences asking something?",
         options: [
             "Where are we going? Who is coming?",
             "We are going home. Who is coming?",
@@ -439,6 +458,7 @@ const questionMarks: SkillContent = {
         skillId: "questionMarks",
         question: "What does a question mark help the reader understand?",
         stage: "recognise",
+        hint: "Question marks tell readers a question is being asked.",
         options: [
             "The writer is asking something.",
             "The writer is shouting.",

@@ -29,6 +29,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "276",
 
+    hint: "Split 246 into hundreds, tens and ones. Only the tens part changes when you add 30.",
+
     explanation:
         "246 = 200 + 40 + 6. Adding 30 gives 200 + 70 + 6 = 276."
 },
@@ -48,6 +50,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "365",
+
+    hint: "Think of 385 as 300, 80 and 5. Removing 20 only affects the tens part.",
 
     explanation:
         "385 = 300 + 80 + 5. Taking away 20 leaves 365."
@@ -69,6 +73,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "427",
 
+    hint: "Only the ones digit changes because you're adding six ones.",
+
     explanation:
         "Add 6 ones to 421 to get 427."
 },
@@ -88,6 +94,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "650",
+
+    hint: "Subtract four ones while keeping the hundreds and tens the same.",
 
     explanation:
         "Subtract 4 ones from 654 to get 650."
@@ -109,6 +117,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "370",
 
+    hint: "Add five tens to the tens part without changing the hundreds.",
+
     explanation:
         "Add 5 tens to 320."
 },
@@ -128,6 +138,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "730",
+
+    hint: "Take away six tens. The hundreds stay the same.",
 
     explanation:
         "Subtract 6 tens from 790."
@@ -149,6 +161,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "286",
 
+    hint: "Increase only the tens part from 40 to 80 while keeping the hundreds and ones unchanged.",
+
     explanation:
         "Adding 40 changes only the tens."
 },
@@ -168,6 +182,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "508",
+
+    hint: "Remove the three tens but leave the hundreds and ones exactly as they are.",
 
     explanation:
         "Subtracting 30 removes 3 tens."
@@ -189,6 +205,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "All of these",
 
+    hint: "Work through each calculation mentally before deciding whether they all reach the same answer.",
+
     explanation:
         "Each calculation gives 462."
 },
@@ -208,6 +226,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "897",
+
+    hint: "Adding 90 means adding nine tens, not nine ones.",
 
     explanation:
         "Add 9 tens to 807."
@@ -229,6 +249,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "930",
 
+    hint: "Only the ones digit changes when six ones are taken away.",
+
     explanation:
         "Subtract 6 ones."
 },
@@ -248,6 +270,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "695",
+
+    hint: "Add eight tens while leaving the hundreds and ones untouched.",
 
     explanation:
         "615 + 80 = 695."
@@ -269,6 +293,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "Yes",
 
+    hint: "Ignore Ella's answer first and add four tens yourself.",
+
     explanation:
         "356 + 40 = 396."
 },
@@ -288,6 +314,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "Yes",
+
+    hint: "Check the value of each digit separately: hundreds, tens and ones.",
 
     explanation:
         "742 has 7 hundreds, 4 tens and 2 ones."
@@ -309,9 +337,12 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "All of these",
 
+    hint: "Different partitions can represent the same number. Check whether each one still equals 584.",
+
     explanation:
         "Each partition correctly represents 584 and helps subtract 20 mentally."
 },
+
 {
     id: "asup-016",
     skillId: "add-and-subtract-using-partitioning",
@@ -327,6 +358,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "483",
+
+    hint: "Break the number into 400, 60 and 3. Only the tens part changes.",
 
     explanation:
         "463 = 400 + 60 + 3. Adding 20 gives 400 + 80 + 3 = 483."
@@ -348,6 +381,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "688",
 
+    hint: "Subtract four tens from the tens part without changing the hundreds or ones.",
+
     explanation:
         "728 = 700 + 20 + 8. Taking away 40 leaves 688."
 },
@@ -367,6 +402,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "582 + 7",
+
+    hint: "Look for the calculation that only adds or subtracts ones, not tens or hundreds.",
 
     explanation:
         "Adding 7 changes only the ones."
@@ -388,6 +425,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "Ella: 631 - 30 = 601",
 
+    hint: "Subtract three tens yourself before checking each child's answer.",
+
     explanation:
         "Subtracting 30 removes 3 tens."
 },
@@ -407,6 +446,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "548",
+
+    hint: "The hundreds and tens stay the same. Only add eight to the ones place.",
 
     explanation:
         "Add 8 ones to 540."
@@ -428,6 +469,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "388",
 
+    hint: "Receiving 40 books means adding four tens while the hundreds and ones remain unchanged.",
+
     explanation:
         "348 + 40 = 388."
 },
@@ -447,6 +490,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "595",
+
+    hint: "Selling 20 removes two tens. Don't change the hundreds or ones.",
 
     explanation:
         "615 − 20 = 595."
@@ -468,6 +513,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "512",
 
+    hint: "Think of 472 as 400 + 70 + 2, then increase only the tens by 40.",
+
     explanation:
         "472 + 40 = 512."
 },
@@ -487,6 +534,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "739",
+
+    hint: "Subtracting 100 only changes the hundreds digit. The tens and ones stay the same.",
 
     explanation:
         "839 − 100 = 739."
@@ -508,6 +557,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "All of these",
 
+    hint: "Solve each calculation separately and check whether every one finishes on exactly the same number.",
+
     explanation:
         "Each calculation equals 754."
 },
@@ -527,6 +578,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "476",
+
+    hint: "Adding 50 means adding five tens without changing the hundreds or ones.",
 
     explanation:
         "426 + 50 = 476."
@@ -548,6 +601,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "723",
 
+    hint: "Take away eight ones. You will need to cross from 31 ones down into the twenties.",
+
     explanation:
         "731 − 8 = 723."
 },
@@ -567,6 +622,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "275",
+
+    hint: "Compare each pair of numbers to find the constant increase before extending the pattern.",
 
     explanation:
         "Each number is 20 more than the previous one."
@@ -588,6 +645,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "680",
 
+    hint: "Notice that only the hundreds value changes by the same amount each time.",
+
     explanation:
         "Each number is 100 less than the previous one."
 },
@@ -608,9 +667,12 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "Ben: 620",
 
+    hint: "Work out the answer yourself before reading the children's responses.",
+
     explanation:
         "580 + 40 = 620."
 },
+
 {
     id: "asup-031",
     skillId: "add-and-subtract-using-partitioning",
@@ -626,6 +688,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "714",
+
+    hint: "Split 684 into 600, 80 and 4. Add the extra three tens before recombining the parts.",
 
     explanation:
         "684 = 600 + 80 + 4. Adding 30 gives 600 + 110 + 4 = 714."
@@ -647,6 +711,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "902",
 
+    hint: "Remove the entire tens part while leaving the hundreds and ones untouched.",
+
     explanation:
         "952 = 900 + 50 + 2. Taking away 50 leaves 902."
 },
@@ -666,6 +732,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "All of these",
+
+    hint: "Calculate each expression mentally. If every route arrives at 840, choose the combined option.",
 
     explanation:
         "Each calculation equals 840."
@@ -687,6 +755,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "Ella: 507 + 90 = 597",
 
+    hint: "Adding 90 changes the tens value by nine tens, not the hundreds or ones.",
+
     explanation:
         "Adding 90 means adding 9 tens."
 },
@@ -706,6 +776,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "678",
+
+    hint: "Work out each clue separately. The correct answer must satisfy both conditions, not just one.",
 
     explanation:
         "648 + 30 = 678 and 778 − 100 = 678."
@@ -727,6 +799,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "626",
 
+    hint: "Adding 40 changes only the tens value. The hundreds and ones stay the same.",
+
     explanation:
         "586 + 40 = 626."
 },
@@ -746,6 +820,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "721",
+
+    hint: "Removing 20 means taking away two tens while leaving the hundreds and ones unchanged.",
 
     explanation:
         "741 − 20 = 721."
@@ -767,6 +843,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "800 + 60 + 3",
 
+    hint: "A standard partition separates the number into hundreds, tens and ones using place value.",
+
     explanation:
         "863 has 8 hundreds, 6 tens and 3 ones."
 },
@@ -786,6 +864,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "542",
+
+    hint: "Find the difference between consecutive numbers before extending the sequence.",
 
     explanation:
         "Each number is 30 more than the previous one."
@@ -807,6 +887,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "605",
 
+    hint: "Notice that exactly one hundred is removed at every step.",
+
     explanation:
         "Each number is 100 less than the previous one."
 },
@@ -826,6 +908,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "470",
+
+    hint: "Solve the story in order: first increase the total, then reduce it.",
 
     explanation:
         "420 + 80 = 500, then 500 − 30 = 470."
@@ -847,6 +931,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "635 + 40 = 675",
 
+    hint: "Check each calculation mentally rather than assuming the first one is correct.",
+
     explanation:
         "Adding 40 to 635 gives 675."
 },
@@ -866,6 +952,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "Ella: 548 = 500 + 40 + 8",
+
+    hint: "A correct place value partition has separate hundreds, tens and ones with no overlaps.",
 
     explanation:
         "548 has 5 hundreds, 4 tens and 8 ones."
@@ -887,6 +975,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "893",
 
+    hint: "Add nine tens to 803. The ones digit does not change.",
+
     explanation:
         "803 + 90 = 893."
 },
@@ -906,6 +996,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "890",
+
+    hint: "Subtract seven tens while keeping the hundreds digit unchanged.",
 
     explanation:
         "960 − 70 = 890."
@@ -927,6 +1019,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "470 + 60 = 540",
 
+    hint: "Evaluate every calculation carefully. Only one contains an arithmetic mistake.",
+
     explanation:
         "470 + 60 = 530, not 540."
 },
@@ -946,6 +1040,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "738",
+
+    hint: "Adding 20 increases the tens by two without changing the hundreds or ones.",
 
     explanation:
         "718 + 20 = 738."
@@ -967,6 +1063,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "215, 245, 275, 305",
 
+    hint: "Compare the gap between every neighbouring pair. The difference must stay the same throughout.",
+
     explanation:
         "Each number is 30 more than the previous one."
 },
@@ -986,6 +1084,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ],
 
     correctAnswer: "712",
+
+    hint: "Find the constant increase between the first two numbers and continue using the same step.",
 
     explanation:
         "Each step adds 40."
@@ -1007,6 +1107,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
 
     correctAnswer: "100 more than 639 is 739.",
 
+    hint: "Test each statement one at a time instead of choosing the one that looks most reasonable.",
+
     explanation:
         "639 + 100 = 739."
 },
@@ -1014,11 +1116,8 @@ const addAndSubtractUsingPartitioning: SkillContent = {
     ]
 };
 
-
 export default addAndSubtractUsingPartitioning;
 
 export {
-
     addAndSubtractUsingPartitioning
-
 };

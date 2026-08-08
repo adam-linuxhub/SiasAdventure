@@ -36,6 +36,8 @@ const riversAndTheWaterCycle: SkillContent = {
         correctAnswer: "The continuous movement of water around Earth",
         estimatedSeconds: 20,
 
+        hint: "Think about what keeps water moving around Earth again and again.",
+
         tags: ["geography", "year3", "rivers", "water-cycle"]
     },
 
@@ -58,6 +60,8 @@ const riversAndTheWaterCycle: SkillContent = {
         difficulty: 1,
         correctAnswer: "Water turns into water vapour",
         estimatedSeconds: 20,
+
+        hint: "Remember what heat from the Sun does to liquid water.",
 
         tags: ["geography", "year3", "water-cycle"]
     },
@@ -82,6 +86,8 @@ const riversAndTheWaterCycle: SkillContent = {
         correctAnswer: "The Sun",
         estimatedSeconds: 20,
 
+        hint: "Ask yourself what provides the heat needed for evaporation.",
+
         tags: ["geography", "year3", "water-cycle"]
     },
 
@@ -104,6 +110,8 @@ const riversAndTheWaterCycle: SkillContent = {
         difficulty: 1,
         correctAnswer: "When water vapour cools and forms tiny water droplets",
         estimatedSeconds: 20,
+
+        hint: "Think about what happens when warm water vapour cools.",
 
         tags: ["geography", "year3", "water-cycle"]
     },
@@ -128,6 +136,8 @@ const riversAndTheWaterCycle: SkillContent = {
         correctAnswer: "Clouds",
         estimatedSeconds: 20,
 
+        hint: "Picture millions of tiny droplets gathering high in the sky.",
+
         tags: ["geography", "year3", "water-cycle"]
     },
 
@@ -150,6 +160,8 @@ const riversAndTheWaterCycle: SkillContent = {
         difficulty: 1,
         correctAnswer: "Water falling from clouds as rain, snow or hail",
         estimatedSeconds: 20,
+
+        hint: "Choose the option describing water falling from clouds.",
 
         tags: ["geography", "year3", "water-cycle"]
     },
@@ -174,6 +186,8 @@ const riversAndTheWaterCycle: SkillContent = {
         correctAnswer: "From rainfall and water flowing across land",
         estimatedSeconds: 20,
 
+        hint: "Think about where river water comes from after it rains.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -196,6 +210,8 @@ const riversAndTheWaterCycle: SkillContent = {
         difficulty: 1,
         correctAnswer: "It can flow into rivers, lakes or soak into the soil",
         estimatedSeconds: 20,
+
+        hint: "Remember that rain can travel in more than one direction after landing.",
 
         tags: ["geography", "year3", "water-cycle"]
     },
@@ -220,6 +236,8 @@ const riversAndTheWaterCycle: SkillContent = {
         correctAnswer: "Water gathering in places such as rivers, lakes and oceans",
         estimatedSeconds: 20,
 
+        hint: "Think about where water gathers before starting another journey.",
+
         tags: ["geography", "year3", "water-cycle"]
     },
 
@@ -242,6 +260,8 @@ const riversAndTheWaterCycle: SkillContent = {
         difficulty: 2,
         correctAnswer: "They move collected water across the land",
         estimatedSeconds: 20,
+
+        hint: "Consider how rivers help move water, not create it.",
 
         tags: ["geography", "year3", "rivers", "water-cycle"]
     },
@@ -266,6 +286,8 @@ const riversAndTheWaterCycle: SkillContent = {
         correctAnswer: "It can cool and form clouds",
         estimatedSeconds: 20,
 
+        hint: "What usually happens after water vapour cools high above Earth?",
+
         tags: ["geography", "year3", "water-cycle"]
     },
 
@@ -288,6 +310,8 @@ const riversAndTheWaterCycle: SkillContent = {
         difficulty: 1,
         correctAnswer: "They provide water needed for life",
         estimatedSeconds: 20,
+
+        hint: "Think about why living things need a reliable supply of freshwater.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -312,6 +336,8 @@ const riversAndTheWaterCycle: SkillContent = {
         correctAnswer: "It can evaporate and return to the atmosphere",
         estimatedSeconds: 20,
 
+        hint: "Remember river water doesn't stay in one place forever.",
+
         tags: ["geography", "year3", "water-cycle"]
     },
 
@@ -334,6 +360,8 @@ const riversAndTheWaterCycle: SkillContent = {
         difficulty: 2,
         correctAnswer: "Water droplets become heavy and fall",
         estimatedSeconds: 20,
+
+        hint: "Ask what makes tiny droplets too heavy to stay in clouds.",
 
         tags: ["geography", "year3", "water-cycle"]
     },
@@ -358,6 +386,8 @@ const riversAndTheWaterCycle: SkillContent = {
         correctAnswer: "Water keeps moving through evaporation, condensation and precipitation",
         estimatedSeconds: 20,
 
+        hint: "Think about the repeating pattern, not a one-time event.",
+
         tags: ["geography", "year3", "water-cycle"]
     },
 
@@ -380,6 +410,8 @@ const riversAndTheWaterCycle: SkillContent = {
         difficulty: 1,
         correctAnswer: "They become liquid water",
         estimatedSeconds: 20,
+
+        hint: "Focus on the change from solid water to liquid water.",
 
         tags: ["geography", "year3", "water-cycle"]
     },
@@ -404,6 +436,8 @@ const riversAndTheWaterCycle: SkillContent = {
         correctAnswer: "More water joins them from rainfall and tributaries",
         estimatedSeconds: 20,
 
+        hint: "Think about what joins a river as it flows downstream.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -426,6 +460,8 @@ const riversAndTheWaterCycle: SkillContent = {
         difficulty: 1,
         correctAnswer: "Rainfall provides water that can flow into rivers",
         estimatedSeconds: 20,
+
+        hint: "Consider how rainfall reaches rivers after falling.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -450,6 +486,8 @@ const riversAndTheWaterCycle: SkillContent = {
         correctAnswer: "Evaporation → condensation → precipitation",
         estimatedSeconds: 25,
 
+        hint: "Remember the correct sequence of the water cycle stages.",
+
         tags: ["geography", "year3", "water-cycle"]
     },
 
@@ -472,6 +510,8 @@ const riversAndTheWaterCycle: SkillContent = {
         difficulty: 2,
         correctAnswer: "Rivers move water as part of Earth's continuous water cycle",
         estimatedSeconds: 25,
+
+        hint: "Think about the job rivers do within the whole water cycle.",
 
         tags: ["geography", "year3", "rivers", "water-cycle"]
     }

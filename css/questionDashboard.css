@@ -236,3 +236,29 @@ td:nth-child(5) {
     }
 
 }
+
+.danger-button {
+
+    background: #c62828;
+
+    color: white;
+
+}
+
+.danger-button:hover {
+
+    background: #b71c1c;
+
+}
+
+.overall-questions-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 16px;
+
+}

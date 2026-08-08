@@ -21,6 +21,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence starts with a capital letter?",
         stage: "recognise",
+        hint: "Every sentence begins with a capital letter.",
         options: [
             "The dog is sleeping.",
             "the dog is sleeping.",
@@ -43,6 +44,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which word should begin with a capital letter?",
         stage: "recognise",
+        hint: "People's names always start with capitals.",
         options: [
             "Emma",
             "school",
@@ -65,6 +67,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence is written correctly?",
         stage: "recognise",
+        hint: "Check the start of the sentence and the name.",
         options: [
             "My name is Jack.",
             "My name is jack.",
@@ -87,6 +90,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which day of the week needs a capital letter?",
         stage: "recognise",
+        hint: "Days of the week always need capitals.",
         options: [
             "Monday",
             "school",
@@ -109,6 +113,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which month begins with a capital letter?",
         stage: "recognise",
+        hint: "Months always begin with capital letters.",
         options: [
             "July",
             "summer",
@@ -131,6 +136,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Place names need capital letters too.",
         options: [
             "We visited London.",
             "We visited london.",
@@ -153,6 +159,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Why do we use a capital letter at the start of a sentence?",
         stage: "recognise",
+        hint: "Think about why sentences begin with capitals.",
         options: [
             "To show where a new sentence begins",
             "To show a question",
@@ -175,6 +182,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence is punctuated correctly?",
         stage: "recognise",
+        hint: "Check both the sentence and the person's name.",
         options: [
             "My friend Olivia likes reading.",
             "my friend Olivia likes reading.",
@@ -197,6 +205,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which word does NOT need a capital letter in the middle of a sentence?",
         stage: "recognise",
+        hint: "Common nouns usually don't need capitals.",
         options: [
             "apple",
             "Tuesday",
@@ -219,6 +228,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Make sure both names start with capitals.",
         options: [
             "Ben and Mia played football.",
             "ben and Mia played football.",
@@ -241,6 +251,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence uses capital letters correctly?",
         stage: "recognise",
+        hint: "Check the day, place and start of the sentence.",
         options: [
             "On Friday we visited Edinburgh.",
             "On friday we visited Edinburgh.",
@@ -263,6 +274,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Months of the year always use capitals.",
         options: [
             "My birthday is in December.",
             "My birthday is in december.",
@@ -285,6 +297,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence needs one more capital letter?",
         stage: "recognise",
+        hint: "Which place name needs a capital letter?",
         options: [
             "We went to paris.",
             "We went to Paris.",
@@ -307,6 +320,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence is written correctly?",
         stage: "recognise",
+        hint: "People and countries are proper nouns.",
         options: [
             "Sophie lives in Scotland.",
             "Sophie lives in scotland.",
@@ -329,6 +343,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence is correct?",
         stage: "recognise",
+        hint: "Days of the week begin with capitals.",
         options: [
             "We have PE on Wednesday.",
             "We have PE on wednesday.",
@@ -351,6 +366,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Why do names begin with capital letters?",
         stage: "recognise",
+        hint: "Proper nouns are special names.",
         options: [
             "To show they are special names of people or places",
             "To make them longer",
@@ -373,6 +389,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence uses every capital letter correctly?",
         stage: "recognise",
+        hint: "Check every name, place and day carefully.",
         options: [
             "Lucy visited Cardiff on Saturday.",
             "Lucy visited cardiff on Saturday.",
@@ -395,6 +412,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which word should always begin with a capital letter?",
         stage: "recognise",
+        hint: "Think about which words are months.",
         options: [
             "January",
             "winter",
@@ -417,6 +435,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "Which sentence is written correctly?",
         stage: "recognise",
+        hint: "Titles and surnames need capitals.",
         options: [
             "Our teacher is Mrs Brown.",
             "Our teacher is mrs Brown.",
@@ -439,6 +458,7 @@ const capitalLetters: SkillContent = {
         skillId: "capitalLetters",
         question: "What do capital letters help readers do?",
         stage: "recognise",
+        hint: "Capital letters help readers spot important information.",
         options: [
             "Spot the beginning of sentences and important names",
             "Find adjectives",

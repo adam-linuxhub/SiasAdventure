@@ -22,42 +22,80 @@ html{
 
 }
 
-
-/*==================================================
-  PAGE
-==================================================*/
-
 body{
 
-    position:relative;
-
-    font-family:
-        "Nunito",
-        Arial,
-        sans-serif;
-
-    background:
-        url("../images/backgrounds/academy.jpg")
-        center center
-        fixed;
+    font-family: 'Poppins', sans-serif;
 
     background-size:cover;
 
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    transition:background-image .75s ease-in-out;
+
 }
 
-body::after{
+body.world-1 {
+    background-image:
+        url("../images/backgrounds/crystal-caves.png");
+}
 
-    content:"";
 
-    position:fixed;
+body.world-2 {
+    background-image:
+        url("../images/backgrounds/enchanted-forest.png");
+}
 
-    inset:0;
 
-    background:
-        rgba(5,40,95,.35);
+body.world-3 {
+    background-image:
+        url("../images/backgrounds/pirate-isles.png");
+}
 
-    z-index:-1;
+body.world-4 {
+    background-image:
+        url("../images/backgrounds/dragon-mountains.png");
+}
 
+body.world-5 {
+    background-image:
+        url("../images/backgrounds/ancient-desert.png");
+}
+
+body.world-6 {
+    background-image:
+        url("../images/backgrounds/underwater-kingdom.png");
+}
+
+body.world-7 {
+    background-image:
+        url("../images/backgrounds/frozen-kingdom.png");
+}
+
+body.world-8 {
+    background-image:
+        url("../images/backgrounds/sky-kingdom.png");
+}
+
+body.world-9 {
+    background-image:
+        url("../images/backgrounds/dinosaur-valley.png");
+}
+
+body.world-10 {
+    background-image:
+        url("../images/backgrounds/space-station.png");
+}
+
+body.world-11 {
+    background-image:
+        url("../images/backgrounds/time-traveller.png");
+}
+
+body.world-12 {
+    background-image:
+        url("../images/backgrounds/wizards-castle.png");
 }
 
 
@@ -2267,5 +2305,23 @@ overflow-x:hidden;
     );
 
     transition:width .5s ease;
+
+}
+
+.game-message {
+
+    min-height: 24px;
+    margin: 12px 0;
+    text-align: center;
+    font-weight: 600;
+    color: #d9534f;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+
+}
+
+.game-message.visible {
+
+    opacity: 1;
 
 }

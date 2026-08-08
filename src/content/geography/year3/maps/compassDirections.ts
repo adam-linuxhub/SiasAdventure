@@ -28,6 +28,9 @@ const compassDirections: SkillContent = {
             "West"
         ],
 
+        hint:
+            "Imagine holding a standard map. Which direction is usually at the top?",
+
         explanation:
             "Most maps are drawn with north at the top.",
 
@@ -49,6 +52,9 @@ const compassDirections: SkillContent = {
             "West",
             "Left"
         ],
+
+        hint:
+            "Look for the direction directly across from north on a compass.",
 
         explanation:
             "South is directly opposite north on a compass.",
@@ -72,6 +78,9 @@ const compassDirections: SkillContent = {
             "Up"
         ],
 
+        hint:
+            "Think of the direction directly opposite east.",
+
         explanation:
             "West is opposite east on a compass.",
 
@@ -93,6 +102,9 @@ const compassDirections: SkillContent = {
             "South",
             "Up"
         ],
+
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
 
         explanation:
             "When north is at the top, east is on the right.",
@@ -116,6 +128,9 @@ const compassDirections: SkillContent = {
             "Down"
         ],
 
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
+
         explanation:
             "West is on the left side of most maps.",
 
@@ -137,6 +152,9 @@ const compassDirections: SkillContent = {
             "Five",
             "Eight"
         ],
+
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
 
         explanation:
             "The four main compass directions are north, east, south and west.",
@@ -160,6 +178,9 @@ const compassDirections: SkillContent = {
             "North again"
         ],
 
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
+
         explanation:
             "The order clockwise is north, east, south, west.",
 
@@ -181,6 +202,9 @@ const compassDirections: SkillContent = {
             "Calculator",
             "Thermometer"
         ],
+
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
 
         explanation:
             "A compass helps people find directions.",
@@ -204,6 +228,9 @@ const compassDirections: SkillContent = {
             "Towards the left of most maps"
         ],
 
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
+
         explanation:
             "South is shown at the bottom of most maps.",
 
@@ -225,6 +252,9 @@ const compassDirections: SkillContent = {
             "Every map has south at the top.",
             "Compasses measure distance."
         ],
+
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
 
         explanation:
             "The four main compass directions help us describe locations.",
@@ -248,6 +278,9 @@ const compassDirections: SkillContent = {
             "South"
         ],
 
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
+
         explanation:
             "If something is east of you, you travel east to reach it.",
 
@@ -269,6 +302,9 @@ const compassDirections: SkillContent = {
             "West",
             "North"
         ],
+
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
 
         explanation:
             "If one place is north of another, the other place is south of it.",
@@ -292,6 +328,9 @@ const compassDirections: SkillContent = {
             "To show the weather"
         ],
 
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
+
         explanation:
             "A compass helps readers understand the direction of places on a map.",
 
@@ -313,6 +352,9 @@ const compassDirections: SkillContent = {
             "South",
             "West"
         ],
+
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
 
         explanation:
             "Turning around means facing the opposite direction.",
@@ -336,6 +378,9 @@ const compassDirections: SkillContent = {
             "They measure height."
         ],
 
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
+
         explanation:
             "Compass directions help us describe and follow routes.",
 
@@ -357,6 +402,9 @@ const compassDirections: SkillContent = {
             "East, North, West, South",
             "South, East, North, West"
         ],
+
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
 
         explanation:
             "Moving clockwise around a compass gives the order north, east, south and west.",
@@ -380,6 +428,9 @@ const compassDirections: SkillContent = {
             "West"
         ],
 
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
+
         explanation:
             "If the river is west of the village, the village is east of the river.",
 
@@ -401,6 +452,9 @@ const compassDirections: SkillContent = {
             "East",
             "West"
         ],
+
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
 
         explanation:
             "The bottom of most maps points south.",
@@ -424,6 +478,9 @@ const compassDirections: SkillContent = {
             "It shows the map scale."
         ],
 
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
+
         explanation:
             "Once you know north, you can identify east, south and west.",
 
@@ -445,6 +502,9 @@ const compassDirections: SkillContent = {
             "They show how old a place is.",
             "They measure rainfall."
         ],
+
+        hint:
+            "Think about how maps are usually drawn or how opposite directions work.",
 
         explanation:
             "Compass directions are an important map-reading skill used to describe location and movement.",

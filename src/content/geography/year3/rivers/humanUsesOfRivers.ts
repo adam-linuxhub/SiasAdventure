@@ -36,6 +36,8 @@ const humanUsesOfRivers: SkillContent = {
         correctAnswer: "They provide water and resources people need",
         estimatedSeconds: 20,
 
+        hint: "List everyday jobs a river helps people do before choosing.",
+
         tags: ["geography", "year3", "rivers", "human-use"]
     },
 
@@ -58,6 +60,8 @@ const humanUsesOfRivers: SkillContent = {
         difficulty: 1,
         correctAnswer: "For drinking and washing",
         estimatedSeconds: 20,
+
+        hint: "Think about the water you use at home each day.",
 
         tags: ["geography", "year3", "rivers"]
     },
@@ -82,6 +86,8 @@ const humanUsesOfRivers: SkillContent = {
         correctAnswer: "To water crops and animals",
         estimatedSeconds: 20,
 
+        hint: "Consider what crops and farm animals need to survive.",
+
         tags: ["geography", "year3", "rivers", "farming"]
     },
 
@@ -104,6 +110,8 @@ const humanUsesOfRivers: SkillContent = {
         difficulty: 2,
         correctAnswer: "Supplying water to crops",
         estimatedSeconds: 20,
+
+        hint: "Focus on why crops need extra water in dry weather.",
 
         tags: ["geography", "year3", "rivers", "farming"]
     },
@@ -128,6 +136,8 @@ const humanUsesOfRivers: SkillContent = {
         correctAnswer: "Rivers provide water and help transport goods",
         estimatedSeconds: 20,
 
+        hint: "Imagine why early settlers chose places with reliable water.",
+
         tags: ["geography", "year3", "rivers", "settlements"]
     },
 
@@ -150,6 +160,8 @@ const humanUsesOfRivers: SkillContent = {
         difficulty: 1,
         correctAnswer: "Boats can travel along them",
         estimatedSeconds: 20,
+
+        hint: "Picture which type of transport can actually travel on water.",
 
         tags: ["geography", "year3", "rivers", "transport"]
     },
@@ -174,6 +186,8 @@ const humanUsesOfRivers: SkillContent = {
         correctAnswer: "Electricity made using moving water",
         estimatedSeconds: 20,
 
+        hint: "Think about what moving water can produce besides movement.",
+
         tags: ["geography", "year3", "rivers", "energy"]
     },
 
@@ -196,6 +210,8 @@ const humanUsesOfRivers: SkillContent = {
         difficulty: 2,
         correctAnswer: "A dam",
         estimatedSeconds: 20,
+
+        hint: "Consider what controls fast-flowing water before electricity is made.",
 
         tags: ["geography", "year3", "rivers", "energy"]
     },
@@ -220,6 +236,8 @@ const humanUsesOfRivers: SkillContent = {
         correctAnswer: "Harmful substances entering the environment",
         estimatedSeconds: 20,
 
+        hint: "Look for the option describing harm to the environment.",
+
         tags: ["geography", "year3", "rivers", "environment"]
     },
 
@@ -242,6 +260,8 @@ const humanUsesOfRivers: SkillContent = {
         difficulty: 1,
         correctAnswer: "Waste and chemicals entering the water",
         estimatedSeconds: 20,
+
+        hint: "Think about which actions make water unsafe to use.",
 
         tags: ["geography", "year3", "rivers", "environment"]
     },
@@ -266,6 +286,8 @@ const humanUsesOfRivers: SkillContent = {
         correctAnswer: "To keep water safe for people and wildlife",
         estimatedSeconds: 20,
 
+        hint: "Healthy rivers help more than just people.",
+
         tags: ["geography", "year3", "rivers", "environment"]
     },
 
@@ -288,6 +310,8 @@ const humanUsesOfRivers: SkillContent = {
         difficulty: 1,
         correctAnswer: "By reducing litter and pollution",
         estimatedSeconds: 20,
+
+        hint: "Choose the action that prevents damage rather than causes it.",
 
         tags: ["geography", "year3", "rivers", "environment"]
     },
@@ -312,6 +336,8 @@ const humanUsesOfRivers: SkillContent = {
         correctAnswer: "They provide habitats and water",
         estimatedSeconds: 20,
 
+        hint: "Animals need both somewhere to live and water.",
+
         tags: ["geography", "year3", "rivers", "wildlife"]
     },
 
@@ -334,6 +360,8 @@ const humanUsesOfRivers: SkillContent = {
         difficulty: 1,
         correctAnswer: "A place where living things live",
         estimatedSeconds: 20,
+
+        hint: "Think about what every living thing needs from its surroundings.",
 
         tags: ["geography", "year3", "environment"]
     },
@@ -358,6 +386,8 @@ const humanUsesOfRivers: SkillContent = {
         correctAnswer: "Boats can transport goods",
         estimatedSeconds: 20,
 
+        hint: "Consider the easiest way to move heavy goods long ago.",
+
         tags: ["geography", "year3", "rivers", "trade"]
     },
 
@@ -380,6 +410,8 @@ const humanUsesOfRivers: SkillContent = {
         difficulty: 2,
         correctAnswer: "Plants and animals may be harmed",
         estimatedSeconds: 20,
+
+        hint: "Think about the first living things affected by dirty water.",
 
         tags: ["geography", "year3", "rivers", "environment"]
     },
@@ -404,6 +436,8 @@ const humanUsesOfRivers: SkillContent = {
         correctAnswer: "Rivers provide water and support trade",
         estimatedSeconds: 20,
 
+        hint: "Cities grow where important resources and travel routes meet.",
+
         tags: ["geography", "year3", "rivers", "settlements"]
     },
 
@@ -426,6 +460,8 @@ const humanUsesOfRivers: SkillContent = {
         difficulty: 2,
         correctAnswer: "Hydroelectric power",
         estimatedSeconds: 20,
+
+        hint: "Renewable energy can be replaced naturally over time.",
 
         tags: ["geography", "year3", "rivers", "energy"]
     },
@@ -450,6 +486,8 @@ const humanUsesOfRivers: SkillContent = {
         correctAnswer: "Fresh water is a valuable resource",
         estimatedSeconds: 20,
 
+        hint: "Fresh water is limited even if Earth has lots of water.",
+
         tags: ["geography", "year3", "rivers"]
     },
 
@@ -472,6 +510,8 @@ const humanUsesOfRivers: SkillContent = {
         difficulty: 2,
         correctAnswer: "People use rivers for water, farming, transport and energy",
         estimatedSeconds: 25,
+
+        hint: "Pick the answer covering several different human uses.",
 
         tags: ["geography", "year3", "rivers"]
     }

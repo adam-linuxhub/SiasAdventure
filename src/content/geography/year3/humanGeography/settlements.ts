@@ -30,6 +30,7 @@ const settlements: SkillContent = {
 
         explanation:
             "A settlement is any place where people live, such as a village, town or city.",
+        hint: "Think about what is a settlement.",
 
         difficulty: 1,
         correctAnswer: "A place where people live",
@@ -52,6 +53,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Villages are usually smaller than towns and cities.",
+        hint: "Think about which is usually the smallest type of settlement.",
 
         difficulty: 1,
         correctAnswer: "Village",
@@ -74,6 +76,7 @@ const settlements: SkillContent = {
 
         explanation:
             "A town is usually larger than a village but smaller than a city.",
+        hint: "Think about which settlement is usually larger than a village but smaller than a city.",
 
         difficulty: 1,
         correctAnswer: "Town",
@@ -96,6 +99,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Cities usually have the largest populations and the most buildings.",
+        hint: "Think about which type of settlement is usually the largest.",
 
         difficulty: 1,
         correctAnswer: "City",
@@ -118,6 +122,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Settlements are places where people build homes and communities.",
+        hint: "Think about people live in settlements because they provide....",
 
         difficulty: 1,
         correctAnswer: "Homes",
@@ -140,6 +145,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Villages usually have smaller populations than towns and cities.",
+        hint: "Think about which place is most likely to have the fewest people.",
 
         difficulty: 1,
         correctAnswer: "Village",
@@ -162,6 +168,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Cities usually have many shops because more people live there.",
+        hint: "Think about which settlement usually has the most shops.",
 
         difficulty: 1,
         correctAnswer: "City",
@@ -184,6 +191,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Population means the number of people living in a place.",
+        hint: "Think about what is a population.",
 
         difficulty: 1,
         correctAnswer: "The number of people living in a place",
@@ -206,6 +214,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Large hospitals are usually found in cities where more people live.",
+        hint: "Think about which place is most likely to have a large hospital.",
 
         difficulty: 1,
         correctAnswer: "City",
@@ -228,6 +237,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Settlements come in different sizes, and people live in all of them.",
+        hint: "Think about which statement is true.",
 
         difficulty: 1,
         correctAnswer: "People live in villages, towns and cities.",
@@ -250,6 +260,7 @@ const settlements: SkillContent = {
 
         explanation:
             "People needed fresh water for drinking, farming and washing.",
+        hint: "Think about why were many settlements built near rivers.",
 
         difficulty: 2,
         correctAnswer: "Rivers provided fresh water.",
@@ -272,6 +283,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Roads help people travel to work, school and shops.",
+        hint: "Think about why do people build settlements near roads.",
 
         difficulty: 2,
         correctAnswer: "It makes travelling and transporting goods easier.",
@@ -294,6 +306,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Larger populations need more schools and other services.",
+        hint: "Think about why do cities usually have more schools than villages.",
 
         difficulty: 2,
         correctAnswer: "More people live there.",
@@ -316,6 +329,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Cities have more people and vehicles using the roads.",
+        hint: "Think about which settlement is most likely to have the busiest roads.",
 
         difficulty: 2,
         correctAnswer: "City",
@@ -338,6 +352,7 @@ const settlements: SkillContent = {
 
         explanation:
             "As more people move into an area, new homes and services are built.",
+        hint: "Think about why do settlements often grow larger over time.",
 
         difficulty: 2,
         correctAnswer: "More people move there.",
@@ -360,6 +375,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Cities usually have buses, trains and other transport because many people need them.",
+        hint: "Think about which place would probably have the most public transport.",
 
         difficulty: 2,
         correctAnswer: "City",
@@ -382,6 +398,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Shops provide food, clothes and other everyday items.",
+        hint: "Think about why do settlements need shops.",
 
         difficulty: 2,
         correctAnswer: "So people can buy the things they need.",
@@ -404,6 +421,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Cities usually have the largest populations.",
+        hint: "Think about which settlement is most likely to have the greatest population.",
 
         difficulty: 2,
         correctAnswer: "City",
@@ -426,6 +444,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Settlements offer homes and important services such as schools and shops.",
+        hint: "Think about why do people choose to live in settlements.",
 
         difficulty: 2,
         correctAnswer: "They provide homes, jobs and services.",
@@ -448,6 +467,7 @@ const settlements: SkillContent = {
 
         explanation:
             "Settlements include all places where people have built communities.",
+        hint: "Think about which sentence best describes a settlement.",
 
         difficulty: 2,
         correctAnswer: "A place where people live and work, such as a village, town or city.",

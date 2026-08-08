@@ -11,6 +11,7 @@ import { SkillProgressStorage } from "./storage/SkillProgressStorage";
 import { SkillMastery } from "./learning/SkillMastery";
 import { getAllQuestions } from "./questionAdapter";
 
+
 export interface GameResult {
 
     result: QuestionResult;
@@ -23,34 +24,45 @@ export interface GameResult {
 
 }
 
+
 export const GameController = {
+
 
     answer(
         player: Player,
         selectedAnswer: number
     ): GameResult {
 
+
         const result =
             QuestionEngine.submitAnswer(selectedAnswer);
+
 
         const question =
             QuestionEngine.getCurrentQuestion();
 
+
+
         if (question?.id) {
+
 
             LearningEngine.recordAnswer(
                 question.skillId ?? "",
                 result.correct
             );
 
+
             QuestionProgressStorage.recordAnswer(
                 question.id,
                 true
             );
 
+
+
             /*==============================================
               ADAPTIVE DIFFICULTY
             ==============================================*/
+
 
             if (
 
@@ -61,6 +73,7 @@ export const GameController = {
                 question.difficulty
 
             ) {
+
 
                 const difficultyMastered =
 
@@ -75,7 +88,9 @@ export const GameController = {
                     );
 
 
+
                 if (difficultyMastered) {
+
 
                     const currentDifficulty =
 
@@ -85,6 +100,8 @@ export const GameController = {
 
                         );
 
+
+
                     if (
 
                         currentDifficulty ===
@@ -93,17 +110,21 @@ export const GameController = {
 
                     ) {
 
+
                         SkillProgressStorage.advanceDifficulty(
 
                             question.skillId
 
                         );
 
+
                     }
 
                 }
 
             }
+
+
 
             const isReviewQuestion =
 
@@ -113,7 +134,10 @@ export const GameController = {
 
                 );
 
+
+
             if (isReviewQuestion) {
+
 
                 QuestionProgressStorage.completeReview(
 
@@ -123,8 +147,10 @@ export const GameController = {
 
                 );
 
+
             }
             else if (!result.correct) {
+
 
                 QuestionProgressStorage.scheduleReview(
 
@@ -134,14 +160,23 @@ export const GameController = {
 
                 );
 
+
             }
+
 
         }
 
+
+
+
         player.questionsAnswered++;
+
         player.questionsThisLevel++;
 
+
+
         if (result.correct) {
+
 
             player.correct++;
 
@@ -149,54 +184,105 @@ export const GameController = {
 
             player.stars += result.starsAwarded;
 
+
             switch (question?.stage) {
 
+
                 case "recognise":
+
                     player.adventurePoints += 1;
+
                     break;
+
 
                 case "understand":
+
                     player.adventurePoints += 2;
+
                     break;
+
 
                 case "apply":
+
                     player.adventurePoints += 3;
+
                     break;
+
 
                 case "master":
+
                     player.adventurePoints += 4;
+
                     break;
+
 
                 default:
+
                     player.adventurePoints += 1;
+
                     break;
 
+
             }
+
 
         }
         else {
 
+
             player.incorrect++;
+
 
         }
 
+
+
+
         const levelComplete =
+
             Levels.checkLevelComplete(player);
+
+
 
         if (levelComplete) {
 
+
             player.treasureChests++;
+
 
         }
 
+
+
+
         const levelUp =
+
             Levels.checkLevel(player);
+
+
+
+        /*
+            World progression is handled by Treasure.
+
+            Treasure.open() already:
+            - awards relics
+            - tracks collection
+            - unlocks the next world
+
+            GameController only reports that a world
+            completion has occurred.
+        */
 
         const worldComplete = false;
 
+
+
         PlayerStorage.save(player);
 
+
+
         return {
+
 
             result,
 
@@ -206,8 +292,11 @@ export const GameController = {
 
             worldComplete
 
+
         };
 
+
     }
+
 
 };

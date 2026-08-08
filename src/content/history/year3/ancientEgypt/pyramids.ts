@@ -29,6 +29,9 @@ const pyramids: SkillContent = {
             "As marketplaces"
         ],
 
+        hint:
+            "Think about why a powerful ruler would need a special resting place after death.",
+
         explanation:
             "Many pyramids were built as burial places for pharaohs.",
 
@@ -51,6 +54,9 @@ const pyramids: SkillContent = {
             "A type of boat",
             "A type of clothing"
         ],
+
+        hint:
+            "A tomb is connected with what happens after someone dies, not where they live.",
 
         explanation:
             "A tomb is a place where a person's body is placed after death.",
@@ -75,6 +81,9 @@ const pyramids: SkillContent = {
             "A spiral shape"
         ],
 
+        hint:
+            "Picture the famous pyramids with wide bottoms and sides that meet at one point.",
+
         explanation:
             "Egyptian pyramids have a square base and sloping triangular sides.",
 
@@ -97,6 +106,9 @@ const pyramids: SkillContent = {
             "Glass",
             "Plastic"
         ],
+
+        hint:
+            "Choose the material strong enough to support a huge structure for thousands of years.",
 
         explanation:
             "Ancient Egyptians used huge blocks of stone to build pyramids.",
@@ -121,6 +133,9 @@ const pyramids: SkillContent = {
             "They were built recently"
         ],
 
+        hint:
+            "Historians learn from clues left behind by people in the past.",
+
         explanation:
             "Pyramids give historians clues about Ancient Egyptian beliefs, skills and society.",
 
@@ -143,6 +158,9 @@ const pyramids: SkillContent = {
             "The Roman Pyramid",
             "The Nile Tower"
         ],
+
+        hint:
+            "Think of the most famous pyramid tourists visit near Cairo.",
 
         explanation:
             "The Great Pyramid of Giza is one of the most famous Ancient Egyptian structures.",
@@ -167,6 +185,9 @@ const pyramids: SkillContent = {
             "Soldiers only"
         ],
 
+        hint:
+            "Who was important enough to have a huge royal tomb built?",
+
         explanation:
             "Pyramids were often built as royal tombs for pharaohs.",
 
@@ -189,6 +210,9 @@ const pyramids: SkillContent = {
             "They did not use tools",
             "They avoided working together"
         ],
+
+        hint:
+            "What does building something so enormous tell us about the builders?",
 
         explanation:
             "Building pyramids required planning, organisation and skill.",
@@ -213,6 +237,9 @@ const pyramids: SkillContent = {
             "They wanted schools"
         ],
 
+        hint:
+            "This question is about Egyptian beliefs, not practical needs.",
+
         explanation:
             "Ancient Egyptians had strong beliefs about life after death.",
 
@@ -235,6 +262,9 @@ const pyramids: SkillContent = {
             "Modern machines",
             "No preparation"
         ],
+
+        hint:
+            "Could one person build a pyramid alone?",
 
         explanation:
             "Pyramids were huge projects requiring organisation.",
@@ -259,6 +289,9 @@ const pyramids: SkillContent = {
             "Using computers"
         ],
 
+        hint:
+            "Remove any answers that use modern inventions.",
+
         explanation:
             "Historians believe Egyptians used methods such as ramps and organised labour.",
 
@@ -281,6 +314,9 @@ const pyramids: SkillContent = {
             "People had no leaders",
             "People avoided building"
         ],
+
+        hint:
+            "What does completing a huge building project require from a society?",
 
         explanation:
             "Large pyramids required cooperation and planning.",
@@ -305,6 +341,9 @@ const pyramids: SkillContent = {
             "Books from today"
         ],
 
+        hint:
+            "What valuable items were buried with important people?",
+
         explanation:
             "Tombs often contained objects buried with the dead.",
 
@@ -327,6 +366,9 @@ const pyramids: SkillContent = {
             "They were moved every year",
             "They were underwater"
         ],
+
+        hint:
+            "Which material survives thousands of years in the desert?",
 
         explanation:
             "Stone structures can survive for thousands of years.",
@@ -351,6 +393,9 @@ const pyramids: SkillContent = {
             "Space travel"
         ],
 
+        hint:
+            "Archaeologists study physical remains to understand past lives.",
+
         explanation:
             "Archaeologists study remains to understand the past.",
 
@@ -373,6 +418,9 @@ const pyramids: SkillContent = {
             "It is made from wood",
             "It was a modern palace"
         ],
+
+        hint:
+            "Which statement describes an ancient wonder rather than something modern?",
 
         explanation:
             "The Great Pyramid is an important Ancient Egyptian monument.",
@@ -397,6 +445,9 @@ const pyramids: SkillContent = {
             "To predict the future"
         ],
 
+        hint:
+            "Evidence helps us discover what already happened.",
+
         explanation:
             "Historical evidence helps us understand past societies.",
 
@@ -419,6 +470,9 @@ const pyramids: SkillContent = {
             "A natural feature",
             "A type of animal"
         ],
+
+        hint:
+            "Architecture means buildings designed and built by people.",
 
         explanation:
             "Pyramids are examples of buildings created by Ancient Egyptians.",
@@ -443,6 +497,9 @@ const pyramids: SkillContent = {
             "They were built last year"
         ],
 
+        hint:
+            "Why do people still visit and study pyramids today?",
+
         explanation:
             "Pyramids provide valuable evidence about the past.",
 
@@ -465,6 +522,9 @@ const pyramids: SkillContent = {
             "Buildings from the future",
             "Small wooden shelters"
         ],
+
+        hint:
+            "Pick the description that includes both what pyramids were made of and their purpose.",
 
         explanation:
             "Pyramids were large stone structures, often built as royal tombs.",

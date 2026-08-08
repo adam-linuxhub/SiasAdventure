@@ -21,6 +21,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word is a synonym for 'big'?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "large",
             "tiny",
@@ -43,6 +44,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word is a synonym for 'happy'?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "glad",
             "angry",
@@ -65,6 +67,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word is a synonym for 'small'?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "tiny",
             "huge",
@@ -87,6 +90,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word is a synonym for 'quick'?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "fast",
             "slow",
@@ -109,6 +113,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word is a synonym for 'begin'?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "start",
             "stop",
@@ -131,6 +136,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word is a synonym for 'finish'?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "end",
             "begin",
@@ -153,6 +159,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word is a synonym for 'smart'?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "clever",
             "lazy",
@@ -175,6 +182,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word is a synonym for 'look'?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "see",
             "hear",
@@ -197,6 +205,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word is a synonym for 'shout'?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "yell",
             "whisper",
@@ -219,6 +228,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "What are synonyms?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "Words with the same or similar meanings",
             "Words with opposite meanings",
@@ -241,6 +251,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Choose the best synonym for 'cold'.",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "chilly",
             "hot",
@@ -263,6 +274,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Choose the best synonym for 'beautiful'.",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "pretty",
             "ugly",
@@ -285,6 +297,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Complete the sentence: 'The rabbit was _____.'",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "quick",
             "fast",
@@ -307,6 +320,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which pair of words are synonyms?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "happy and glad",
             "big and tiny",
@@ -329,6 +343,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which pair of words are synonyms?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "start and begin",
             "open and close",
@@ -351,6 +366,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word could replace 'large' without changing the meaning?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "big",
             "small",
@@ -373,6 +389,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which word could replace 'end'?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "finish",
             "begin",
@@ -395,6 +412,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Choose the best synonym for 'quiet'.",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "silent",
             "noisy",
@@ -417,6 +435,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Which sentence uses a synonym correctly?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "The large elephant was huge.",
             "The large elephant was tiny.",
@@ -439,6 +458,7 @@ const synonyms: SkillContent = {
         skillId: "synonyms",
         question: "Why do writers use synonyms?",
         stage: "recognise",
+        hint: "Look for the word with the same or a very similar meaning.",
         options: [
             "To make writing more interesting and avoid repeating the same words",
             "To make words longer",

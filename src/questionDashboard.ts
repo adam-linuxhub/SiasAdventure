@@ -9,6 +9,7 @@ import { content } from "./content";
 
 import type { Question } from "./questionEngine";
 
+import { PlayerStorage } from "./storage";
 
 /*==================================================
   TYPES
@@ -65,8 +66,45 @@ function initialise(): void {
 
     );
 
+    initialiseResetButton();
+
 }
 
+/*==================================================
+  RESET BUTTON
+==================================================*/
+function initialiseResetButton(): void {
+
+    const button =
+        document.getElementById("reset-progress");
+
+    if (!button) {
+
+        return;
+
+    }
+
+    button.addEventListener("click", () => {
+
+        const confirmed = confirm(
+            "Reset all adventure progress?\n\nThis cannot be undone."
+        );
+
+        if (!confirmed) {
+
+            return;
+
+        }
+
+        PlayerStorage.reset();
+
+        alert("Adventure progress has been reset.");
+
+        location.reload();
+
+    });
+
+}
 
 /*==================================================
   COLLECT DATA

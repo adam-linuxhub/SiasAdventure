@@ -22,6 +22,7 @@ const paragraphStructure: SkillContent = {
         question:
             "What is a paragraph?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "A group of sentences about the same idea",
             "One single word",
@@ -45,6 +46,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Why do writers use paragraphs?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "To organise ideas and make writing easier to read",
             "To make writing confusing",
@@ -68,6 +70,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Which sentence could be the topic sentence of a paragraph about pets?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "Many people enjoy having pets at home.",
             "The dog's tail was brown.",
@@ -91,6 +94,7 @@ const paragraphStructure: SkillContent = {
         question:
             "What should sentences in the same paragraph usually do?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "Talk about the same main idea",
             "Discuss completely different topics",
@@ -114,6 +118,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Which group of sentences makes the best paragraph?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "All sentences about looking after a dog",
             "Sentences about dogs, cars and holidays mixed together",
@@ -137,6 +142,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Where does a new paragraph usually begin?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "When the writer starts a new idea",
             "After every word",
@@ -160,6 +166,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Which sentence would fit in a paragraph about a school trip?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "The class visited the museum and learned about history.",
             "My favourite food is pizza.",
@@ -183,6 +190,7 @@ const paragraphStructure: SkillContent = {
         question:
             "What is the purpose of a topic sentence?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "To introduce the main idea",
             "To end the whole story",
@@ -206,6 +214,7 @@ const paragraphStructure: SkillContent = {
         question:
             "A paragraph about animals should mostly include:",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "Information about animals",
             "Information about space only",
@@ -229,6 +238,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Why are paragraphs helpful for readers?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "They make information easier to follow",
             "They remove the need for sentences",
@@ -252,6 +262,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Which sentence would NOT belong in a paragraph about football?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "My favourite cake is chocolate.",
             "The team scored two goals.",
@@ -275,6 +286,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Put these ideas in the best order:\n\nA. The plants grew taller.\nB. I planted seeds.\nC. I watered them every day.",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "B → C → A",
             "A → B → C",
@@ -298,6 +310,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Which sentence would make a good ending to a paragraph about friendship?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "Good friends support each other and have fun together.",
             "The weather was rainy.",
@@ -321,6 +334,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Which words can help connect ideas in writing?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "Firstly, next, finally",
             "Cat, dog, fish",
@@ -344,6 +358,7 @@ const paragraphStructure: SkillContent = {
         question:
             "A new paragraph is often needed when:",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "The focus changes to a new idea",
             "You write a longer word",
@@ -367,6 +382,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Which is the best structure for a simple story?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "Beginning, middle, ending",
             "Ending, beginning, middle",
@@ -390,6 +406,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Why should paragraphs contain related ideas?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "It helps the reader understand the writing",
             "It makes writing longer",
@@ -413,6 +430,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Which paragraph would be easiest to read?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "A paragraph with a clear topic and supporting details",
             "A paragraph with random sentences",
@@ -436,6 +454,7 @@ const paragraphStructure: SkillContent = {
         question:
             "What should supporting sentences do?",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "Give details about the main idea",
             "Change to a completely different topic",
@@ -459,6 +478,7 @@ const paragraphStructure: SkillContent = {
         question:
             "Good paragraph structure helps writers:",
         stage: "recognise",
+        hint: "Think about how ideas should be grouped and organised.",
         options: [
             "Organise ideas clearly",
             "Remove all details",

@@ -22,6 +22,7 @@ const storyWriting: SkillContent = {
         question:
             "What are the main parts of a story?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Beginning, middle and ending",
             "Title, picture and page number",
@@ -45,6 +46,7 @@ const storyWriting: SkillContent = {
         question:
             "What is a character in a story?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "A person or animal in the story",
             "The place where the story happens",
@@ -68,6 +70,7 @@ const storyWriting: SkillContent = {
         question:
             "What is the setting of a story?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Where and when the story happens",
             "The main character",
@@ -91,6 +94,7 @@ const storyWriting: SkillContent = {
         question:
             "What usually happens at the beginning of a story?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Characters and setting are introduced",
             "The problem is solved",
@@ -114,6 +118,7 @@ const storyWriting: SkillContent = {
         question:
             "Why do stories often have a problem?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "It creates something for the characters to solve",
             "It makes the story shorter",
@@ -137,6 +142,7 @@ const storyWriting: SkillContent = {
         question:
             "Which is a good story opening?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Ella opened the mysterious door and stepped inside.",
             "The end.",
@@ -160,6 +166,7 @@ const storyWriting: SkillContent = {
         question:
             "What makes a character interesting?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Their actions, thoughts and feelings",
             "Only their name",
@@ -183,6 +190,7 @@ const storyWriting: SkillContent = {
         question:
             "Which detail helps describe a setting?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "The dark forest with tall trees",
             "The character's name only",
@@ -206,6 +214,7 @@ const storyWriting: SkillContent = {
         question:
             "What should happen in the middle of a story?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Events happen and characters face challenges",
             "Only the title is shown",
@@ -229,6 +238,7 @@ const storyWriting: SkillContent = {
         question:
             "Why do writers plan stories before writing?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "To organise ideas and structure the story",
             "To avoid having characters",
@@ -252,6 +262,7 @@ const storyWriting: SkillContent = {
         question:
             "Which sentence creates the best atmosphere?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "The cold wind howled through the empty forest.",
             "The forest was there.",
@@ -275,6 +286,7 @@ const storyWriting: SkillContent = {
         question:
             "Which sentence shows a character's feelings?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Lily trembled because she was nervous.",
             "Lily walked.",
@@ -298,6 +310,7 @@ const storyWriting: SkillContent = {
         question:
             "What is a resolution in a story?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "How the problem is solved",
             "The name of the character",
@@ -321,6 +334,7 @@ const storyWriting: SkillContent = {
         question:
             "Which would improve a story?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Adding details about characters and settings",
             "Removing all descriptions",
@@ -344,6 +358,7 @@ const storyWriting: SkillContent = {
         question:
             "Which word helps show the order of events in a story?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Suddenly",
             "Blue",
@@ -367,6 +382,7 @@ const storyWriting: SkillContent = {
         question:
             "A strong story ending should:",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Finish the events and give the reader closure",
             "Introduce a new main character",
@@ -390,6 +406,7 @@ const storyWriting: SkillContent = {
         question:
             "Which sentence uses imagination?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "The dragon guarded a hidden cave beneath the mountain.",
             "The table was brown.",
@@ -413,6 +430,7 @@ const storyWriting: SkillContent = {
         question:
             "Why do writers use dialogue in stories?",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "To show what characters say and think",
             "To remove characters",
@@ -436,6 +454,7 @@ const storyWriting: SkillContent = {
         question:
             "Before writing a story, it is useful to decide:",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Who, where, what happens and how it ends",
             "Only the last word",
@@ -459,6 +478,7 @@ const storyWriting: SkillContent = {
         question:
             "A successful story usually has:",
         stage: "recognise",
+        hint: "Think about what makes a story interesting for the reader.",
         options: [
             "Interesting characters, a setting, events and an ending",
             "Only one sentence",

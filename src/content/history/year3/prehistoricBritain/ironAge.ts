@@ -35,6 +35,8 @@ const ironAge: SkillContent = {
         correctAnswer: "People began making tools from iron.",
         estimatedSeconds: 15,
 
+        hint: "Consider the new material that gave this era its name.",
+
         tags: ["history", "iron-age"]
     },
 
@@ -56,6 +58,8 @@ const ironAge: SkillContent = {
         difficulty: 1,
         correctAnswer: "Iron",
         estimatedSeconds: 15,
+
+        hint: "Think about which metal replaced bronze for many tools.",
 
         tags: ["history", "iron"]
     },
@@ -79,6 +83,8 @@ const ironAge: SkillContent = {
         correctAnswer: "Bronze",
         estimatedSeconds: 15,
 
+        hint: "Compare this period with the one before it.",
+
         tags: ["history", "tools"]
     },
 
@@ -100,6 +106,8 @@ const ironAge: SkillContent = {
         difficulty: 1,
         correctAnswer: "A settlement built on high ground",
         estimatedSeconds: 15,
+
+        hint: "High places often provide an important advantage.",
 
         tags: ["history", "hill-fort"]
     },
@@ -123,6 +131,8 @@ const ironAge: SkillContent = {
         correctAnswer: "They were easier to defend.",
         estimatedSeconds: 15,
 
+        hint: "Imagine defending a village from attackers.",
+
         tags: ["history", "hill-fort"]
     },
 
@@ -144,6 +154,8 @@ const ironAge: SkillContent = {
         difficulty: 1,
         correctAnswer: "Tribes",
         estimatedSeconds: 15,
+
+        hint: "A tribe is a community, not a country.",
 
         tags: ["history", "tribes"]
     },
@@ -167,6 +179,8 @@ const ironAge: SkillContent = {
         correctAnswer: "Celts",
         estimatedSeconds: 15,
 
+        hint: "Think about the main people living in Britain before the Romans arrived.",
+
         tags: ["history", "celts"]
     },
 
@@ -188,6 +202,8 @@ const ironAge: SkillContent = {
         difficulty: 1,
         correctAnswer: "Farm and build more effectively",
         estimatedSeconds: 20,
+
+        hint: "Better tools can improve everyday work.",
 
         tags: ["history", "tools"]
     },
@@ -211,6 +227,8 @@ const ironAge: SkillContent = {
         correctAnswer: "Iron spear",
         estimatedSeconds: 20,
 
+        hint: "Rule out anything needing modern technology.",
+
         tags: ["history", "artefacts"]
     },
 
@@ -232,6 +250,8 @@ const ironAge: SkillContent = {
         difficulty: 1,
         correctAnswer: "Iron became an important material for tools and weapons.",
         estimatedSeconds: 20,
+
+        hint: "Choose the statement that fits ancient Britain.",
 
         tags: ["history", "iron-age"]
     },
@@ -255,6 +275,8 @@ const ironAge: SkillContent = {
         correctAnswer: "It was usually stronger and tougher.",
         estimatedSeconds: 20,
 
+        hint: "Think about durability rather than appearance.",
+
         tags: ["history", "iron"]
     },
 
@@ -276,6 +298,8 @@ const ironAge: SkillContent = {
         difficulty: 2,
         correctAnswer: "To help protect their communities",
         estimatedSeconds: 20,
+
+        hint: "Protection was a key reason for these places.",
 
         tags: ["history", "hill-fort"]
     },
@@ -299,6 +323,8 @@ const ironAge: SkillContent = {
         correctAnswer: "Working together to survive",
         estimatedSeconds: 20,
 
+        hint: "Survival depended on cooperation.",
+
         tags: ["history", "tribes"]
     },
 
@@ -320,6 +346,8 @@ const ironAge: SkillContent = {
         difficulty: 2,
         correctAnswer: "They made farming easier and more efficient.",
         estimatedSeconds: 20,
+
+        hint: "Better tools change how work is done.",
 
         tags: ["history", "farming"]
     },
@@ -343,6 +371,8 @@ const ironAge: SkillContent = {
         correctAnswer: "People could help and protect one another.",
         estimatedSeconds: 20,
 
+        hint: "Living together brought shared safety.",
+
         tags: ["history", "tribes"]
     },
 
@@ -364,6 +394,8 @@ const ironAge: SkillContent = {
         difficulty: 2,
         correctAnswer: "Farming with iron tools",
         estimatedSeconds: 20,
+
+        hint: "Ignore any modern inventions.",
 
         tags: ["history", "farming"]
     },
@@ -387,6 +419,8 @@ const ironAge: SkillContent = {
         correctAnswer: "People could see danger from far away.",
         estimatedSeconds: 20,
 
+        hint: "Height helps people notice approaching visitors.",
+
         tags: ["history", "hill-fort"]
     },
 
@@ -408,6 +442,8 @@ const ironAge: SkillContent = {
         difficulty: 2,
         correctAnswer: "They help us understand how people lived.",
         estimatedSeconds: 20,
+
+        hint: "Objects from the past reveal everyday life.",
 
         tags: ["history", "evidence"]
     },
@@ -431,6 +467,8 @@ const ironAge: SkillContent = {
         correctAnswer: "Iron sword",
         estimatedSeconds: 20,
 
+        hint: "Eliminate anything made with modern materials.",
+
         tags: ["history", "artefacts"]
     },
 
@@ -452,6 +490,8 @@ const ironAge: SkillContent = {
         difficulty: 2,
         correctAnswer: "People used iron tools, lived in tribes and built hill forts for protection.",
         estimatedSeconds: 20,
+
+        hint: "Pick the option combining the period's main features.",
 
         tags: ["history", "iron-age", "hill-fort", "tribes"]
     }

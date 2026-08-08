@@ -34,6 +34,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 1,
         correctAnswer: "Stone Age",
         estimatedSeconds: 15,
+        hint: "Think about which period existed before people discovered metals.",
 
         tags: ["history", "timeline"]
     },
@@ -56,6 +57,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 1,
         correctAnswer: "Bronze Age",
         estimatedSeconds: 15,
+        hint: "Picture the historical timeline rather than the alphabet.",
 
         tags: ["history", "timeline"]
     },
@@ -78,6 +80,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 1,
         correctAnswer: "Iron Age",
         estimatedSeconds: 15,
+        hint: "What new age followed once bronze was already being used?",
 
         tags: ["history", "timeline"]
     },
@@ -100,6 +103,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 1,
         correctAnswer: "Stone",
         estimatedSeconds: 15,
+        hint: "The age is named after the material used most for tools.",
 
         tags: ["history", "stone-age"]
     },
@@ -122,6 +126,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 1,
         correctAnswer: "Bronze",
         estimatedSeconds: 15,
+        hint: "Look for the first metal widely used for tools.",
 
         tags: ["history", "bronze-age"]
     },
@@ -144,6 +149,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 1,
         correctAnswer: "Iron",
         estimatedSeconds: 15,
+        hint: "Choose the metal that replaced bronze as the main tool material.",
 
         tags: ["history", "iron-age"]
     },
@@ -166,6 +172,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 1,
         correctAnswer: "Stone Age",
         estimatedSeconds: 15,
+        hint: "The oldest tools belong to the earliest age.",
 
         tags: ["history", "tools"]
     },
@@ -188,6 +195,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 1,
         correctAnswer: "Iron",
         estimatedSeconds: 20,
+        hint: "Which metal replaced bronze because it made tougher tools?",
 
         tags: ["history", "iron"]
     },
@@ -210,6 +218,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 1,
         correctAnswer: "Iron Age",
         estimatedSeconds: 20,
+        hint: "Hill forts are a clue linked with one particular age.",
 
         tags: ["history", "hill-fort"]
     },
@@ -232,6 +241,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 1,
         correctAnswer: "Tools generally became stronger over time.",
         estimatedSeconds: 20,
+        hint: "Ignore the impossible statements and focus on how tools changed.",
 
         tags: ["history", "comparison"]
     },
@@ -254,6 +264,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 2,
         correctAnswer: "Bronze tools were usually stronger and lasted longer.",
         estimatedSeconds: 20,
+        hint: "Compare how long stone and bronze tools would last.",
 
         tags: ["history", "bronze-age"]
     },
@@ -276,6 +287,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 2,
         correctAnswer: "Iron tools were generally stronger.",
         estimatedSeconds: 20,
+        hint: "Think about which metal made stronger weapons than bronze.",
 
         tags: ["history", "iron-age"]
     },
@@ -298,6 +310,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 2,
         correctAnswer: "Stone Age → Bronze Age → Iron Age",
         estimatedSeconds: 20,
+        hint: "Put the three ages in the order children learn them.",
 
         tags: ["history", "timeline"]
     },
@@ -320,6 +333,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 2,
         correctAnswer: "Iron Age",
         estimatedSeconds: 20,
+        hint: "Celts and hill forts are usually taught together.",
 
         tags: ["history", "iron-age", "celts"]
     },
@@ -342,6 +356,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 2,
         correctAnswer: "People began using bronze tools and farming became more developed.",
         estimatedSeconds: 20,
+        hint: "Look for the answer describing gradual improvement, not fantasy inventions.",
 
         tags: ["history", "comparison"]
     },
@@ -364,6 +379,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 2,
         correctAnswer: "People began making stronger iron tools.",
         estimatedSeconds: 20,
+        hint: "What was the biggest new material people started using?",
 
         tags: ["history", "comparison"]
     },
@@ -386,6 +402,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 2,
         correctAnswer: "People needed food and shelter.",
         estimatedSeconds: 20,
+        hint: "Even when tools changed, basic human needs did not.",
 
         tags: ["history", "comparison"]
     },
@@ -408,6 +425,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 2,
         correctAnswer: "Because the materials used for tools changed over time.",
         estimatedSeconds: 20,
+        hint: "The names of the ages come from materials, not rulers.",
 
         tags: ["history", "prehistory"]
     },
@@ -430,6 +448,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 2,
         correctAnswer: "Stone tool, bronze axe, iron sword",
         estimatedSeconds: 20,
+        hint: "Arrange the objects by the material they are made from.",
 
         tags: ["history", "timeline"]
     },
@@ -452,6 +471,7 @@ const stoneBronzeIronComparison: SkillContent = {
         difficulty: 2,
         correctAnswer: "People gradually developed stronger materials and better tools, changing how they lived.",
         estimatedSeconds: 20,
+        hint: "Choose the sentence that describes change over thousands of years.",
 
         tags: ["history", "stone-age", "bronze-age", "iron-age", "comparison"]
     }

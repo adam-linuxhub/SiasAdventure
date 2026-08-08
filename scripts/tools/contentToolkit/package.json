@@ -1,0 +1,28 @@
+{
+  "name": "content-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "scan": "ts-node src/index.ts scan",
+    "validate": "ts-node src/index.ts validate",
+    "stats": "ts-node src/index.ts stats",
+    "spellcheck": "ts-node src/index.ts spellcheck",
+    "duplicates": "ts-node src/index.ts duplicates",
+    "fix": "ts-node src/index.ts fix",
+    "hints-export": "ts-node src/index.ts hints-export",
+    "hints-import": "ts-node src/index.ts hints-import"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "fast-glob": "^3.3.3",
+    "ts-morph": "^26.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

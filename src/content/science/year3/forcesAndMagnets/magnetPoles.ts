@@ -16,227 +16,257 @@ const magnetPoles: SkillContent = {
 
     activities: <MultipleChoiceActivity[]>[
 
-    {
-        id: "sci-magnet-poles-001",
-        skillId: "magnetPoles",
-        question: "How many poles does every magnet have?",
-        stage: "recognise",
-        options: [
-            "Two",
-            "One",
-            "Three",
-            "Four"
-        ],
+{
+    id: "sci-magnet-poles-001",
+    skillId: "magnetPoles",
+    question: "How many poles does every magnet have?",
+    stage: "recognise",
+    options: [
+        "Two",
+        "One",
+        "Three",
+        "Four"
+    ],
 
-        explanation:
-            "Every magnet has two poles: a north pole and a south pole.",
+    hint:
+        "Think about the two named ends found on every magnet.",
 
-        difficulty: 1,
-        correctAnswer: "Two",
-        estimatedSeconds: 15,
+    explanation:
+        "Every magnet has two poles: a north pole and a south pole.",
 
-        tags: ["science", "magnets", "poles"]
-    },
+    difficulty: 1,
+    correctAnswer: "Two",
+    estimatedSeconds: 15,
 
-    {
-        id: "sci-magnet-poles-002",
-        skillId: "magnetPoles",
-        question: "What are the two poles called?",
-        stage: "recognise",
-        options: [
-            "North and South",
-            "East and West",
-            "Top and Bottom",
-            "Left and Right"
-        ],
+    tags: ["science", "magnets", "poles"]
+},
 
-        explanation:
-            "The ends of a magnet are called the north pole and the south pole.",
+{
+    id: "sci-magnet-poles-002",
+    skillId: "magnetPoles",
+    question: "What are the two poles called?",
+    stage: "recognise",
+    options: [
+        "North and South",
+        "East and West",
+        "Top and Bottom",
+        "Left and Right"
+    ],
 
-        difficulty: 1,
-        correctAnswer: "North and South",
-        estimatedSeconds: 15,
+    hint:
+        "These are the same two directions shown on a compass.",
 
-        tags: ["science", "magnets", "poles"]
-    },
+    explanation:
+        "The ends of a magnet are called the north pole and the south pole.",
 
-    {
-        id: "sci-magnet-poles-003",
-        skillId: "magnetPoles",
-        question: "What happens when a north pole and a south pole are brought together?",
-        stage: "recognise",
-        options: [
-            "They attract",
-            "They repel",
-            "They disappear",
-            "Nothing happens"
-        ],
+    difficulty: 1,
+    correctAnswer: "North and South",
+    estimatedSeconds: 15,
 
-        explanation:
-            "Unlike poles attract each other.",
+    tags: ["science", "magnets", "poles"]
+},
 
-        difficulty: 1,
-        correctAnswer: "They attract",
-        estimatedSeconds: 15,
+{
+    id: "sci-magnet-poles-003",
+    skillId: "magnetPoles",
+    question: "What happens when a north pole and a south pole are brought together?",
+    stage: "recognise",
+    options: [
+        "They attract",
+        "They repel",
+        "They disappear",
+        "Nothing happens"
+    ],
 
-        tags: ["science", "magnets", "poles"]
-    },
+    hint:
+        "Remember the rule: opposite poles behave differently from matching poles.",
 
-    {
-        id: "sci-magnet-poles-004",
-        skillId: "magnetPoles",
-        question: "What happens when two north poles are brought together?",
-        stage: "recognise",
-        options: [
-            "They repel",
-            "They attract",
-            "They melt",
-            "They stick forever"
-        ],
+    explanation:
+        "Unlike poles attract each other.",
 
-        explanation:
-            "Like poles repel each other.",
+    difficulty: 1,
+    correctAnswer: "They attract",
+    estimatedSeconds: 15,
 
-        difficulty: 1,
-        correctAnswer: "They repel",
-        estimatedSeconds: 15,
+    tags: ["science", "magnets", "poles"]
+},
 
-        tags: ["science", "magnets", "poles"]
-    },
+{
+    id: "sci-magnet-poles-004",
+    skillId: "magnetPoles",
+    question: "What happens when two north poles are brought together?",
+    stage: "recognise",
+    options: [
+        "They repel",
+        "They attract",
+        "They melt",
+        "They stick forever"
+    ],
 
-    {
-        id: "sci-magnet-poles-005",
-        skillId: "magnetPoles",
-        question: "What happens when two south poles are brought together?",
-        stage: "recognise",
-        options: [
-            "They repel",
-            "They attract",
-            "They become stronger",
-            "Nothing happens"
-        ],
+    hint:
+        "These poles have the same name. Think about what like poles do.",
 
-        explanation:
-            "Like poles always repel.",
+    explanation:
+        "Like poles repel each other.",
 
-        difficulty: 1,
-        correctAnswer: "They repel",
-        estimatedSeconds: 15,
+    difficulty: 1,
+    correctAnswer: "They repel",
+    estimatedSeconds: 15,
 
-        tags: ["science", "magnets", "poles"]
-    },
+    tags: ["science", "magnets", "poles"]
+},
 
-    {
-        id: "sci-magnet-poles-006",
-        skillId: "magnetPoles",
-        question: "Which poles attract each other?",
-        stage: "recognise",
-        options: [
-            "North and South",
-            "North and North",
-            "South and South",
-            "All poles attract"
-        ],
+{
+    id: "sci-magnet-poles-005",
+    skillId: "magnetPoles",
+    question: "What happens when two south poles are brought together?",
+    stage: "recognise",
+    options: [
+        "They repel",
+        "They attract",
+        "They become stronger",
+        "Nothing happens"
+    ],
 
-        explanation:
-            "Opposite poles attract.",
+    hint:
+        "This is another example of two matching poles meeting.",
 
-        difficulty: 1,
-        correctAnswer: "North and South",
-        estimatedSeconds: 15,
+    explanation:
+        "Like poles always repel.",
 
-        tags: ["science", "magnets", "attract"]
-    },
+    difficulty: 1,
+    correctAnswer: "They repel",
+    estimatedSeconds: 15,
 
-    {
-        id: "sci-magnet-poles-007",
-        skillId: "magnetPoles",
-        question: "Which poles repel each other?",
-        stage: "recognise",
-        options: [
-            "Like poles",
-            "Unlike poles",
-            "Only north poles",
-            "Only south poles"
-        ],
+    tags: ["science", "magnets", "poles"]
+},
 
-        explanation:
-            "Like poles (north-north or south-south) repel each other.",
+{
+    id: "sci-magnet-poles-006",
+    skillId: "magnetPoles",
+    question: "Which poles attract each other?",
+    stage: "recognise",
+    options: [
+        "North and South",
+        "North and North",
+        "South and South",
+        "All poles attract"
+    ],
 
-        difficulty: 1,
-        correctAnswer: "Like poles",
-        estimatedSeconds: 15,
+    hint:
+        "Look for the pair with different names rather than matching ones.",
 
-        tags: ["science", "magnets", "repel"]
-    },
+    explanation:
+        "Opposite poles attract.",
 
-    {
-        id: "sci-magnet-poles-008",
-        skillId: "magnetPoles",
-        question: "Where is the magnetic force strongest on a bar magnet?",
-        stage: "recognise",
-        options: [
-            "At the poles",
-            "In the middle",
-            "Everywhere equally",
-            "Only underneath"
-        ],
+    difficulty: 1,
+    correctAnswer: "North and South",
+    estimatedSeconds: 15,
 
-        explanation:
-            "The magnetic force is strongest at the north and south poles.",
+    tags: ["science", "magnets", "attract"]
+},
 
-        difficulty: 1,
-        correctAnswer: "At the poles",
-        estimatedSeconds: 20,
+{
+    id: "sci-magnet-poles-007",
+    skillId: "magnetPoles",
+    question: "Which poles repel each other?",
+    stage: "recognise",
+    options: [
+        "Like poles",
+        "Unlike poles",
+        "Only north poles",
+        "Only south poles"
+    ],
 
-        tags: ["science", "magnets", "poles"]
-    },
+    hint:
+        "Think about the general rule that works for both north-north and south-south.",
 
-    {
-        id: "sci-magnet-poles-009",
-        skillId: "magnetPoles",
-        question: "Which statement is true?",
-        stage: "recognise",
-        options: [
-            "Every magnet has a north and south pole.",
-            "Magnets have only one pole.",
-            "Magnets have no poles.",
-            "Only large magnets have poles."
-        ],
+    explanation:
+        "Like poles (north-north or south-south) repel each other.",
 
-        explanation:
-            "Every magnet has two poles.",
+    difficulty: 1,
+    correctAnswer: "Like poles",
+    estimatedSeconds: 15,
 
-        difficulty: 1,
-        correctAnswer: "Every magnet has a north and south pole.",
-        estimatedSeconds: 20,
+    tags: ["science", "magnets", "repel"]
+},
 
-        tags: ["science", "magnets", "poles"]
-    },
+{
+    id: "sci-magnet-poles-008",
+    skillId: "magnetPoles",
+    question: "Where is the magnetic force strongest on a bar magnet?",
+    stage: "recognise",
+    options: [
+        "At the poles",
+        "In the middle",
+        "Everywhere equally",
+        "Only underneath"
+    ],
 
-    {
-        id: "sci-magnet-poles-010",
-        skillId: "magnetPoles",
-        question: "What do we call it when magnets push away from each other?",
-        stage: "recognise",
-        options: [
-            "Repel",
-            "Reflect",
-            "Melt",
-            "Bounce"
-        ],
+    hint:
+        "Paper clips usually cling most strongly to the ends of a bar magnet.",
 
-        explanation:
-            "Repel means magnets push apart.",
+    explanation:
+        "The magnetic force is strongest at the north and south poles.",
 
-        difficulty: 1,
-        correctAnswer: "Repel",
-        estimatedSeconds: 20,
+    difficulty: 1,
+    correctAnswer: "At the poles",
+    estimatedSeconds: 20,
 
-        tags: ["science", "magnets", "repel"]
-    },
+    tags: ["science", "magnets", "poles"]
+},
 
-    {
+{
+    id: "sci-magnet-poles-009",
+    skillId: "magnetPoles",
+    question: "Which statement is true?",
+    stage: "recognise",
+    options: [
+        "Every magnet has a north and south pole.",
+        "Magnets have only one pole.",
+        "Magnets have no poles.",
+        "Only large magnets have poles."
+    ],
+
+    hint:
+        "The size or shape of a magnet doesn't change this basic feature.",
+
+    explanation:
+        "Every magnet has two poles.",
+
+    difficulty: 1,
+    correctAnswer: "Every magnet has a north and south pole.",
+    estimatedSeconds: 20,
+
+    tags: ["science", "magnets", "poles"]
+},
+
+{
+    id: "sci-magnet-poles-010",
+    skillId: "magnetPoles",
+    question: "What do we call it when magnets push away from each other?",
+    stage: "recognise",
+    options: [
+        "Repel",
+        "Reflect",
+        "Melt",
+        "Bounce"
+    ],
+
+    hint:
+        "Choose the scientific word that means 'push apart' rather than 'pull together'.",
+
+    explanation:
+        "Repel means magnets push apart.",
+
+    difficulty: 1,
+    correctAnswer: "Repel",
+    estimatedSeconds: 20,
+
+    tags: ["science", "magnets", "repel"]
+},
+
+     {
         id: "sci-magnet-poles-011",
         skillId: "magnetPoles",
         question: "A north pole is brought near another north pole. What happens?",
@@ -247,6 +277,9 @@ const magnetPoles: SkillContent = {
             "One disappears",
             "Nothing changes"
         ],
+
+        hint:
+            "Both ends are north poles. Decide what happens when two like poles meet.",
 
         explanation:
             "North and north are like poles, so they repel.",
@@ -270,6 +303,9 @@ const magnetPoles: SkillContent = {
             "Nothing happens"
         ],
 
+        hint:
+            "The two poles are different. Think about the rule for unlike poles.",
+
         explanation:
             "Opposite poles attract each other.",
 
@@ -291,6 +327,9 @@ const magnetPoles: SkillContent = {
             "They are made of plastic",
             "They have run out of magnetism"
         ],
+
+        hint:
+            "When magnets repel, check which poles are facing one another rather than their size or material.",
 
         explanation:
             "Like poles repel one another.",
@@ -314,6 +353,9 @@ const magnetPoles: SkillContent = {
             "They are heavy"
         ],
 
+        hint:
+            "Think about which pole pairing creates an attractive force.",
+
         explanation:
             "North and south poles attract.",
 
@@ -335,6 +377,9 @@ const magnetPoles: SkillContent = {
             "South and South",
             "None of these"
         ],
+
+        hint:
+            "Choose the pair made of one of each type of pole.",
 
         explanation:
             "Unlike poles attract each other.",
@@ -358,6 +403,9 @@ const magnetPoles: SkillContent = {
             "Only small north poles attract."
         ],
 
+        hint:
+            "Imagine putting the north ends of two bar magnets together. Do they stick or push away?",
+
         explanation:
             "North-north is a pair of like poles, so they repel.",
 
@@ -379,6 +427,9 @@ const magnetPoles: SkillContent = {
             "Measure the magnets",
             "Paint the magnets"
         ],
+
+        hint:
+            "Scientists find evidence by trying each possible pairing, not by making assumptions.",
 
         explanation:
             "Testing different combinations is the best investigation.",
@@ -402,6 +453,9 @@ const magnetPoles: SkillContent = {
             "The ends are colder"
         ],
 
+        hint:
+            "Think about where the north and south labels are found on a bar magnet.",
+
         explanation:
             "The north and south poles are where the magnetic force is strongest.",
 
@@ -423,6 +477,9 @@ const magnetPoles: SkillContent = {
             "All poles attract.",
             "All poles repel."
         ],
+
+        hint:
+            "Remember the full rule: different poles behave one way, matching poles behave the opposite way.",
 
         explanation:
             "This is the basic rule for magnetic poles.",
@@ -446,6 +503,9 @@ const magnetPoles: SkillContent = {
             "Poles only matter for large magnets."
         ],
 
+        hint:
+            "The best answer should include both facts: how many poles magnets have and how those poles interact.",
+
         explanation:
             "All magnets have two poles. Opposite poles attract, while like poles repel.",
 
@@ -457,14 +517,10 @@ const magnetPoles: SkillContent = {
     }
 
     ]
-
 };
-
 
 export default magnetPoles;
 
 export {
-
     magnetPoles
-
 };
