@@ -34,6 +34,8 @@ body{
 
     transition:background-image .75s ease-in-out;
 
+    background-color: #101a43;
+
 }
 
 body.world-1 {
@@ -457,7 +459,7 @@ body.world-12 {
 
     gap:18px;
 
-    margin-top:20px;
+    margin-top:0px;
 
     flex-wrap:wrap;
 
@@ -1558,7 +1560,7 @@ TREASURE COLLECTION
 
     width: 100%;
 
-    height: 440px;
+    height: 260px;
 
     margin-top: 20px;
 
@@ -1574,7 +1576,7 @@ TREASURE COLLECTION
 
     width: 100%;
 
-    height: 100%;
+    height: 260px;
 
     display: block;
 
@@ -2310,8 +2312,8 @@ overflow-x:hidden;
 
 .game-message {
 
-    min-height: 24px;
-    margin: 12px 0;
+    min-height: 0;
+    margin: 0;
     text-align: center;
     font-weight: 600;
     color: #d9534f;
@@ -2322,6 +2324,8 @@ overflow-x:hidden;
 
 .game-message.visible {
 
+    min-height: 24px;
+    margin: 12px 0;
     opacity: 1;
 
 }

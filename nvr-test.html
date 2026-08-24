@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Sia's Adventure – NVR Test</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 30px;
+            font-family: Arial, sans-serif;
+            background: #f4f1ff;
+        }
+
+        .test-header {
+            max-width: 900px;
+            margin: 0 auto 20px;
+        }
+
+        .test-warning {
+            padding: 12px 16px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background: #fff3cd;
+            border: 1px solid #e6c84f;
+            font-weight: bold;
+        }
+
+        #question-text {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        #hint-text {
+            margin-bottom: 20px;
+        }
+
+        #answers {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        #nvr-canvas {
+            display: block;
+            width: 100%;
+            height: 420px;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+
+        <div class="test-header">
+
+            <h1>NVR Development Test</h1>
+
+            <div class="test-warning">
+                TEST MODE ONLY — this page does not save game progress.
+            </div>
+
+            <div id="question-text"></div>
+
+            <div id="hint-text"></div>
+
+        </div>
+
+        <div id="answers"></div>
+
+        <div id="test-result"></div>
+
+    </main>
+
+    <script type="module" src="/src/nvrTestPage.ts"></script>
+
+</body>
+
+</html>

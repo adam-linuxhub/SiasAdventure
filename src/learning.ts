@@ -2,7 +2,7 @@
   LEARNING ENGINE
 ==================================================*/
 
-import { SkillRegistry } from "./skills";
+import skillMetadata from "./content/generatedSkillMetadata";
 
 export interface SkillProgress {
 
@@ -188,9 +188,9 @@ export const LearningEngine = {
         this.getAllSkills().forEach(skill => {
 
             const subject =
-                SkillRegistry.getSubject(
+                skillMetadata[
                     skill.skillId
-                );
+                ]?.subject ?? "Unknown";
 
             let progress =
                 subjects.get(subject);

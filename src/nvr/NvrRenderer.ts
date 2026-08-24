@@ -41,6 +41,10 @@ export default class NvrRenderer {
 
     private layout: LayoutCell[] = [];
 
+    private selectedAnswer?: {
+        row: number;
+        column: number;
+    };
 
     /*==================================================
       CONSTRUCTOR
@@ -92,6 +96,7 @@ export default class NvrRenderer {
     ): void {
 
         this.currentQuestion = question;
+        
 
         this.clear();
 
@@ -116,7 +121,7 @@ export default class NvrRenderer {
     }
 
 
-    public resize(): void {
+   public resize(): void {
 
         const parent = this.canvas.parentElement;
 
@@ -126,9 +131,18 @@ export default class NvrRenderer {
 
         }
 
-        this.canvas.width = parent.clientWidth;
+        const width = parent.clientWidth;
 
-        this.canvas.height = parent.clientHeight;
+        /*
+        * Keep the NVR drawing area at a fixed
+        * aspect ratio rather than using the
+        * parent's arbitrary height.
+        */
+        const height = 260;
+
+        this.canvas.width = width;
+
+        this.canvas.height = height;
 
         if (this.currentQuestion) {
 
@@ -142,71 +156,85 @@ export default class NvrRenderer {
 
     }
 
+    public clearSelection(): void {
 
-    public attach(
+        this.selectedAnswer = undefined;
 
-        callback: (
+        if (this.currentQuestion) {
 
-            row: number,
+            this.render(
+                this.currentQuestion
+            );
 
-            column: number
-
-        ) => void
-
-    ): void {
-
-        this.canvas.addEventListener(
-
-            "click",
-
-            event => {
-
-                const rect =
-
-                    this.canvas.getBoundingClientRect();
-
-                const x =
-
-                    event.clientX -
-
-                    rect.left;
-
-                const y =
-
-                    event.clientY -
-
-                    rect.top;
-
-                const answer =
-
-                    this.hitTester.getAnswer(
-
-                        x,
-
-                        y
-
-                    );
-
-                if (!answer) {
-
-                    return;
-
-                }
-
-                callback(
-
-                    answer.row,
-
-                    answer.column
-
-                );
-
-            }
-
-        );
+        }
 
     }
 
+   public attach(
+
+    callback: (
+        row: number,
+        column: number
+    ) => void
+
+): void {
+
+    this.canvas.addEventListener(
+
+        "click",
+
+        event => {
+
+            const rect =
+                this.canvas.getBoundingClientRect();
+
+            const x =
+                event.clientX -
+                rect.left;
+
+            const y =
+                event.clientY -
+                rect.top;
+
+            const answer =
+                this.hitTester.getAnswer(
+                    x,
+                    y
+                );
+
+            if (!answer) {
+
+                return;
+
+            }
+
+            this.selectedAnswer = {
+
+                row: answer.row,
+
+                column: answer.column
+
+            };
+
+            this.render(
+
+                this.currentQuestion!
+
+            );
+
+            callback(
+
+                answer.row,
+
+                answer.column
+
+            );
+
+        }
+
+    );
+
+}
 
     public reset(): void {
 
@@ -297,6 +325,26 @@ export default class NvrRenderer {
         this.ctx.fill();
 
         this.ctx.stroke();
+
+        if (
+
+            this.selectedAnswer &&
+
+            this.selectedAnswer.row ===
+                layoutCell.row &&
+
+            this.selectedAnswer.column ===
+                layoutCell.column
+
+        ) {
+
+            this.ctx.strokeStyle = "#1976D2";
+
+            this.ctx.lineWidth = 5;
+
+            this.ctx.stroke();
+
+        }
 
         const centreX =
 
@@ -408,3 +456,4 @@ export default class NvrRenderer {
     }
 
 }
+

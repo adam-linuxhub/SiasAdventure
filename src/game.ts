@@ -4,12 +4,20 @@ import { PlayerStorage } from "./storage";
 import { Levels } from "./levels";
 import { Worlds } from "./worlds";
 import { Treasure } from "./treasure";
-import { Dashboard } from "./dashboard";
+import { Dashboard } from "./parentDashboard";
 import { initialiseTreasureUI } from "./treasureUI";
 import { getAllQuestions } from "./questionAdapter";
 import type { Relic } from "./treasure";
 import { QuestionEngine,type Question,type QuestionResult} from "./questionEngine";
 import {renderTreasureGallery} from "./treasureUI";
+import NvrRenderer from "./nvr/NvrRenderer";
+import {
+    convertNvrQuestion
+} from "./questionAdapter";
+
+import {
+    getNvrTestQuestions
+} from "./nvrTestMode";
 
 let player: Player;
 let completedWorldId: number | null = null;
@@ -19,6 +27,9 @@ let levelUp = false;
 let levelCompletePending = false;
 type CelebrationMode = "level" | "world";
 let celebrationMode: CelebrationMode = "level";
+let nvrRenderer: NvrRenderer | null = null;
+let nvrSelectedAnswer:
+    { row: number; column: number } | null = null;
 
 const wizzyWelcomeMessages = [
 
@@ -146,7 +157,6 @@ function updateWorldBackground(): void {
 
 
 function initialiseGame() {
-
     player = PlayerStorage.load();
 
     PlayerStorage.loadLearning();
@@ -175,16 +185,17 @@ function loadRandomQuestion() {
 
     }
 
+
     QuestionEngine.getNextQuestion(
         questions
     );
+
 
     displayQuestion();
 
     updateStats();
 
 }
-
 /*==================================================
   DISPLAY QUESTION
 ==================================================*/
@@ -199,7 +210,12 @@ function displayQuestion(): void {
     }
 
     clearAnswerSelection();
+    nvrSelectedAnswer = null;
+    if (nvrRenderer) {
 
+        nvrRenderer.clearSelection();
+
+    }
     const message =
         byId<HTMLDivElement>("game-message");
 
@@ -226,6 +242,54 @@ function displayQuestion(): void {
         byId<HTMLDivElement>("answers");
 
     answers.innerHTML = "";
+
+    const nvrContainer =
+    byId<HTMLDivElement>("nvr-container");
+
+
+    if (currentQuestion.type === "nvr") {
+
+        answers.style.display = "none";
+
+        nvrContainer.classList.add("active");
+
+        if (!nvrRenderer) {
+
+            const canvas =
+                byId<HTMLCanvasElement>("nvr-canvas");
+
+            nvrRenderer =
+                new NvrRenderer(canvas);
+                        nvrRenderer.attach(
+                (row, column) => {
+
+                    nvrSelectedAnswer = {
+
+                row,
+
+                column
+
+            };
+
+                }
+            );
+
+
+        }
+
+        nvrRenderer.render(
+            currentQuestion.data as import(
+                "./content/nonVerbalReasoning/nvrTypes"
+            ).NvrQuestion
+        );
+
+        return;
+
+    }
+
+    nvrContainer.classList.remove("active");
+
+    answers.style.display = "";
 
     currentQuestion.answers.forEach((answer, index) => {
 
@@ -320,11 +384,6 @@ const gameResult =
         selectedAnswer
     );
 
-    console.log(
-    "XP:", player.xp,
-    "Level:", player.level,
-    "LevelUp:", gameResult.levelUp
-);
 const result = gameResult.result;
 
 levelUp = gameResult.levelUp;
@@ -399,28 +458,104 @@ byId<HTMLButtonElement>("next-question")
 
     
 
-/*==================================================
-  SUBMIT ANSWER
-==================================================*/
+    /*==================================================
+    SUBMIT ANSWER
+    ==================================================*/
 
-function submitAnswer() {
+    function submitAnswer() {
 
-    const selected =
-        document.querySelector<HTMLInputElement>(
-            "input[name='answer']:checked"
+        const currentQuestion =
+            QuestionEngine.getCurrentQuestion();
+
+        if (!currentQuestion) {
+
+            return;
+
+        }
+
+        /*==================================================
+        NVR
+        ==================================================*/
+
+        if (currentQuestion.type === "nvr") {
+
+            if (!nvrSelectedAnswer) {
+
+                showMessage(
+                    "Choose an answer first."
+                );
+
+                return;
+
+            }
+
+            const nvrQuestion =
+                currentQuestion.data as import(
+                    "./content/nonVerbalReasoning/nvrTypes"
+                ).NvrQuestion;
+
+            const correct =
+                nvrQuestion.answer.row ===
+                    nvrSelectedAnswer.row &&
+
+                nvrQuestion.answer.column ===
+                    nvrSelectedAnswer.column;
+
+            showMessage(
+
+                correct
+                    ? "Correct!"
+                    : "Not quite. Try again."
+
+            );
+
+            /*
+            * NVR test flow only.
+            *
+            * Do not call checkAnswer().
+            * Do not save progress.
+            */
+
+            byId<HTMLButtonElement>(
+                "submit-answer"
+            ).style.display = "none";
+
+            byId<HTMLButtonElement>(
+                "dont-know"
+            ).style.display = "none";
+
+            byId<HTMLButtonElement>(
+                "next-question"
+            ).style.display = "inline-block";
+
+            return;
+
+        }
+
+        /*==================================================
+        NORMAL QUESTIONS
+        ==================================================*/
+
+        const selected =
+            document.querySelector<HTMLInputElement>(
+                "input[name='answer']:checked"
+            );
+
+        if (!selected) {
+
+            showMessage(
+                "Choose an answer first."
+            );
+
+            return;
+
+        }
+
+        checkAnswer(
+            Number(selected.value)
         );
 
-    if (!selected) {
-
-        showMessage("Choose an answer first.");
-
-        return;
-
     }
-
-    checkAnswer(Number(selected.value));
-
-}
 
 function showMessage(message: string): void {
 
@@ -604,8 +739,6 @@ function showLevelUp() {
 
     if (!reward) {
 
-        console.error("Treasure.open() returned undefined");
-
         return;
 
     }
@@ -712,7 +845,7 @@ function showCelebrationOverlay(): void {
         chestMessage.innerHTML = `
 
             You answered all
-            <strong>20 magical questions!</strong>
+            <strong>20 magical questions correctly!</strong>
 
             <br><br>
 
@@ -789,8 +922,6 @@ function openLevelTreasure(): void {
         Treasure.open(player);
 
     if (!reward) {
-
-        console.error("Treasure.open() returned undefined");
 
         return;
 
@@ -1128,8 +1259,10 @@ function updateStats() {
         player.stars.toString();
 
     byId<HTMLElement>("treasure-chests").textContent =
-        player.treasureChests.toString();
-
+        player.relics.filter(r =>
+            r.startsWith(`w${player.world}-`)
+        ).length.toString();
+        
     byId<HTMLElement>("level").textContent =
         player.levelName;
 
@@ -1457,7 +1590,10 @@ function stopFireworks(){
   START APPLICATION
 ==================================================*/
 
-questions = getAllQuestions();
+questions =
+    getNvrTestQuestions().map(
+        convertNvrQuestion
+    );
 
 QuestionEngine.initialise(
     questions

@@ -11,6 +11,12 @@ import type { Question } from "./questionEngine";
 
 import { PlayerStorage } from "./storage";
 
+import {
+    QuestionProgressStorage
+} from "./storage/QuestionProgressStorage";
+
+
+
 /*==================================================
   TYPES
 ==================================================*/
@@ -61,6 +67,12 @@ function initialise(): void {
 
 
     renderQuestions(
+
+        dashboardData
+
+    );
+
+    renderCoverage(
 
         dashboardData
 
@@ -691,6 +703,405 @@ function renderQuestions(
 
 }
 
+/*==================================================
+  QUESTION BANK COVERAGE
+==================================================*/
+
+function renderCoverage(
+
+    dashboardData: DashboardQuestion[]
+
+): void {
+
+
+    const container =
+
+        document.getElementById(
+
+            "coverage"
+
+        );
+
+
+    if (!container) {
+
+        return;
+
+    }
+
+
+    container.innerHTML = "";
+
+
+    const heading =
+
+        document.createElement("h2");
+
+
+    heading.textContent =
+
+        "Question Bank Coverage";
+
+
+    container.appendChild(
+
+        heading
+
+    );
+
+
+    const description =
+
+        document.createElement("p");
+
+
+    description.textContent =
+
+        "Shows how much of each category, skill and difficulty has been mastered. A question is counted as completed after Sia has answered it correctly three times.";
+
+
+    container.appendChild(
+
+        description
+
+    );
+
+
+    /*----------------------------------------------
+      EXISTING QUESTION PROGRESS
+    ----------------------------------------------*/
+
+    const progressMap =
+
+        new Map(
+
+            QuestionProgressStorage
+
+                .getAll()
+
+                .map(progress => [
+
+                    progress.questionId,
+
+                    progress
+
+                ])
+
+        );
+
+
+    /*----------------------------------------------
+      GROUP QUESTIONS
+    ----------------------------------------------*/
+
+    interface CoverageRow {
+
+        subject: string;
+
+        skill: string;
+
+        difficulty: number;
+
+        questions: number;
+
+        completed: number;
+
+    }
+
+
+    const coverage =
+
+        new Map<string, CoverageRow>();
+
+
+    for (
+
+        const item
+
+        of dashboardData
+
+    ) {
+
+
+        const difficulty =
+
+            Number(
+
+                item.question.difficulty ?? 0
+
+            );
+
+
+        const key =
+
+            `${item.subject}::${item.skill}::${difficulty}`;
+
+
+        let row =
+
+            coverage.get(key);
+
+
+        if (!row) {
+
+            row = {
+
+                subject:
+
+                    item.subject,
+
+                skill:
+
+                    item.skill,
+
+                difficulty,
+
+                questions: 0,
+
+                completed: 0
+
+            };
+
+
+            coverage.set(
+
+                key,
+
+                row
+
+            );
+
+        }
+
+
+        row.questions++;
+
+
+        const progress =
+            item.question.id
+                ? progressMap.get(item.question.id)
+                : undefined;
+
+
+        if (
+
+            progress &&
+
+            progress.correctCount >= 3
+
+        ) {
+
+            row.completed++;
+
+        }
+
+    }
+
+
+    /*----------------------------------------------
+      TABLE
+    ----------------------------------------------*/
+
+    const table =
+
+        document.createElement("table");
+
+
+    table.innerHTML = `
+
+        <thead>
+
+            <tr>
+
+                <th>Category</th>
+
+                <th>Skill</th>
+
+                <th>Difficulty</th>
+
+                <th>Questions</th>
+
+                <th>Completed</th>
+
+                <th>Completion</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody></tbody>
+
+    `;
+
+
+    const tbody =
+
+        table.querySelector("tbody")!;
+
+
+    const rows =
+
+        [...coverage.values()]
+
+            .sort((a, b) => {
+
+                const subjectCompare =
+
+                    formatSubjectName(a.subject)
+
+                        .localeCompare(
+
+                            formatSubjectName(
+
+                                b.subject
+
+                            )
+
+                        );
+
+
+                if (subjectCompare !== 0) {
+
+                    return subjectCompare;
+
+                }
+
+
+                const skillCompare =
+
+                    formatSkillName(a.skill)
+
+                        .localeCompare(
+
+                            formatSkillName(
+
+                                b.skill
+
+                            )
+
+                        );
+
+
+                if (skillCompare !== 0) {
+
+                    return skillCompare;
+
+                }
+
+
+                return (
+
+                    a.difficulty -
+
+                    b.difficulty
+
+                );
+
+            });
+
+
+    for (
+
+        const rowData
+
+        of rows
+
+    ) {
+
+
+        const percentage =
+
+            rowData.questions === 0
+
+                ? 0
+
+                : (
+
+                    rowData.completed /
+
+                    rowData.questions
+
+                ) * 100;
+
+
+        const row =
+
+            document.createElement("tr");
+
+
+        row.innerHTML = `
+
+            <td>
+
+                ${formatSubjectName(
+
+                    rowData.subject
+
+                )}
+
+            </td>
+
+            <td>
+
+                ${formatSkillName(
+
+                    rowData.skill
+
+                )}
+
+            </td>
+
+            <td>
+
+                Level ${rowData.difficulty}
+
+            </td>
+
+            <td>
+
+                <strong>
+
+                    ${rowData.questions.toLocaleString()}
+
+                </strong>
+
+            </td>
+
+            <td>
+
+                ${rowData.completed.toLocaleString()}
+
+            </td>
+
+            <td>
+
+                <strong>
+
+                    ${percentage.toFixed(0)}%
+
+                </strong>
+
+            </td>
+
+        `;
+
+
+        tbody.appendChild(
+
+            row
+
+        );
+
+    }
+
+
+    container.appendChild(
+
+        table
+
+    );
+
+}
 
 /*==================================================
   FORMAT SUBJECT

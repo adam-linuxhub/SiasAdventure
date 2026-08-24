@@ -4,10 +4,8 @@ import { LearningEngine } from "./learning";
 import { getAllSkills } from "./content";
 import { SkillProgressStorage } from "./storage/SkillProgressStorage";
 import { QuestionProgressStorage } from "./storage/QuestionProgressStorage";
-import {
-    SkillRegistry,
-    type Subject
-} from "./skills";
+import skillMetadata from "./content/generatedSkillMetadata";
+import { getSkill } from "./content/getSkill";
 
 function byId<T extends HTMLElement>(
     id: string
@@ -62,16 +60,16 @@ export const Dashboard = {
 
         const weakestSkill =
             weakest.length > 0
-                ? SkillRegistry.getName(
+                ? getSkill(
                     weakest[0].skillId
-                )
+                )?.title ?? weakest[0].skillId
                 : "no specific area";
 
         const strongestSkill =
             strongest.length > 0
-                ? SkillRegistry.getName(
+                ? getSkill(
                     strongest[0].skillId
-                )
+                )?.title ?? strongest[0].skillId
                 : "all skills";
 
         let progress = "";
@@ -371,6 +369,12 @@ export const Dashboard = {
         const skills =
 
             getAllSkills();
+            console.log(
+    QuestionProgressStorage.getAll()
+);
+console.log(
+    skills.map(skill => skill.skillId)
+);
 
         if (skills.length === 0) {
 
@@ -391,12 +395,18 @@ export const Dashboard = {
         const rows = skills.map(skill => {
 
             const difficulty =
-
                 SkillProgressStorage.getDifficulty(
-
                     skill.skillId
-
                 );
+
+            const questions =
+                skill.activities.filter(
+                    activity => activity.id
+                );
+
+            let answered = 0;
+
+            let correct = 0;
 
             let mastered = 0;
 
@@ -410,30 +420,41 @@ export const Dashboard = {
 
                 const activity of
 
-                skill.activities
+                questions
 
             ) {
 
-                if (!activity.id) {
+ const progress =
+    QuestionProgressStorage.get(
+        activity.id
+    );
 
-                    continue;
+if (skill.skillId === "planet-order") {
+
+    console.log(
+        activity.id,
+        progress.attempts,
+        progress.correctCount
+    );
+
+}
+                if (
+
+                    progress.attempts > 0
+
+                ) {
+
+                    answered++;
 
                 }
 
-                const progress =
-
-                    QuestionProgressStorage.get(
-
-                        activity.id
-
-                    );
+                correct +=
+                    progress.correctCount;
 
                 if (
 
                     QuestionProgressStorage.isMastered(
-
                         activity.id
-
                     )
 
                 ) {
@@ -469,53 +490,80 @@ export const Dashboard = {
 
             }
 
+            const accuracy =
+                answered > 0
+                    ? Math.round(
+                        (correct / answered) * 100
+                    )
+                    : 0;
+
+            let status = "Not Started";
+
+            if (answered > 0) {
+
+                status = "Learning";
+
+            }
+
+            if (
+
+                mastered === questions.length &&
+
+                questions.length > 0
+
+            ) {
+
+                status = "Mastered";
+
+            }
+
             return `
 
-            <tr>
+                <tr>
 
-                <td>
+                    <td>
 
-                    -
+                        ${skillMetadata[skill.skillId]?.subject ?? "Unknown"}
 
-                </td>
+                    </td>
 
-                <td>
+                    <td>
 
-                    ${skill.title}
+                        ${skill.title}
 
-                </td>
+                    </td>
 
-                <td>
+                    <td>
 
-                    Level ${difficulty}
+                        Level ${difficulty}
 
-                </td>
+                    </td>
 
-                <td>
+                    <td>
 
-                    ${mastered}
+                        ${answered}
 
-                </td>
+                    </td>
 
-                <td>
+                    <td>
 
-                    ${learning}
+                        ${correct}
 
-                </td>
+                    </td>
 
-                <td>
+                    <td>
 
-                    ${review}
+                        ${accuracy}%
 
-                </td>
+                    </td>
 
-                <td>
+                    <td>
 
-                    ${notAttempted}
+                        ${status}
 
-                </td>
+                    </td>
 
-            </tr>
+                </tr>
 
             `;
 
@@ -543,15 +591,16 @@ export const Dashboard = {
 
                             <th>Difficulty</th>
 
-                            <th>Mastered</th>
+                            <th>Questions</th>
 
-                            <th>Learning</th>
+                            <th>Correct</th>
 
-                            <th>Review</th>
+                            <th>Accuracy</th>
 
-                            <th>Not Attempted</th>
+                            <th>Status</th>
 
                         </tr>
+
                     </thead>
 
                     <tbody>
@@ -635,11 +684,11 @@ export const Dashboard = {
 
                                 <strong>
 
-                                    ${SkillRegistry.getName(skill.skillId)}
+                                    ${getSkill(skill.skillId)?.title ?? skill.skillId}
 
                                 </strong>
 
-                                (${SkillRegistry.getSubject(skill.skillId)})
+                                (${skillMetadata[skill.skillId]?.subject ?? "Unknown"})
 
                             </li>
 
@@ -664,11 +713,11 @@ export const Dashboard = {
 
                                 <strong>
 
-                                    ${SkillRegistry.getName(skill.skillId)}
+                                    ${getSkill(skill.skillId)?.title ?? skill.skillId}
 
                                 </strong>
 
-                                (${SkillRegistry.getSubject(skill.skillId)})
+                                (${skillMetadata[skill.skillId]?.subject ?? "Unknown"})
 
                             </li>
 

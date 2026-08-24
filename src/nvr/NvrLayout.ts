@@ -74,9 +74,9 @@ export default class NvrLayout {
 
             );
 
-        const padding = 30;
+        const padding = 20;
 
-        const gap = 20;
+        const gap = 12;
 
         const availableWidth =
 
@@ -94,17 +94,25 @@ export default class NvrLayout {
 
             gap * (rows - 1);
 
-        const cellWidth =
+        const cellSize =
+            Math.min(
+                availableWidth / columns,
+                availableHeight / rows,
+                100
+            );
 
-            availableWidth /
+        const gridWidth =
+            cellSize * columns +
+            gap * (columns - 1);
 
-            columns;
+        const gridHeight =
+            cellSize * rows +
+            gap * (rows - 1);
 
-        const cellHeight =
+        const offsetX =
+            (canvasWidth - gridWidth) / 2;
 
-            availableHeight /
-
-            rows;
+        const offsetY = padding ;
 
         question.figures.forEach(
 
@@ -132,37 +140,25 @@ export default class NvrLayout {
 
                             column: columnIndex,
 
-                            x:
+                    x:
+                        offsetX +
+                        columnIndex *
+                        (
+                            cellSize +
+                            gap
+                        ),
 
-                                padding +
+                    y:
+                        offsetY +
+                        rowIndex *
+                        (
+                            cellSize +
+                            gap
+                        ),
 
-                                columnIndex *
+                    width: cellSize,
 
-                                (
-
-                                    cellWidth +
-
-                                    gap
-
-                                ),
-
-                            y:
-
-                                padding +
-
-                                rowIndex *
-
-                                (
-
-                                    cellHeight +
-
-                                    gap
-
-                                ),
-
-                            width: cellWidth,
-
-                            height: cellHeight,
+                    height: cellSize,
 
                             cell
 

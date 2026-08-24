@@ -1,5 +1,5 @@
 import { PlayerStorage } from "./storage";
-import { Dashboard } from "./dashboard";
+import { Dashboard } from "./parentDashboard";
 import { SkillProgressStorage } from "./storage/SkillProgressStorage";
 import { QuestionProgressStorage } from "./storage/QuestionProgressStorage";
 

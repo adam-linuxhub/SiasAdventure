@@ -56,6 +56,69 @@ const INDEX_FILE = "index.ts";
 const MIN_GENERATED_DEPTH = 2;
 
 /*==================================================
+  SUBJECT
+==================================================*/
+
+function getSubject(relativePath: string): string {
+
+    const topLevelFolder = relativePath.split(path.sep)[0];
+
+    switch (topLevelFolder) {
+
+        case "mathematics":
+            return "Mathematics";
+
+        case "english":
+            return "English";
+
+        case "science":
+            return "Science";
+
+        case "history":
+            return "History";
+
+        case "geography":
+            return "Geography";
+
+        case "verbalReasoning":
+            return "Verbal Reasoning";
+
+        case "nonVerbalReasoning":
+            return "Non-Verbal Reasoning";
+
+        case "verbalSkills":
+            return "Verbal Skills";
+
+        default:
+            return "Unknown";
+
+    }
+
+}
+
+function getSkillId(filePath: string): string {
+
+    const source = fs.readFileSync(
+        filePath,
+        "utf8"
+    );
+
+    const match = source.match(
+        /skillId:\s*"([^"]+)"/
+    );
+
+    if (!match) {
+
+        throw new Error(
+            `Unable to find skillId in ${filePath}`
+        );
+
+    }
+
+    return match[1];
+
+}
+/*==================================================
   TYPES
 ==================================================*/
 
@@ -66,6 +129,22 @@ interface DirectoryContents {
     typescriptFiles: string[];
 
 }
+
+interface GeneratedSkillMetadata {
+
+    skillId: string;
+
+    subject: string;
+
+    yearGroup: string;
+
+    strand: string;
+
+    sourcePath: string;
+
+}
+
+const generatedSkillMetadata: GeneratedSkillMetadata[] = [];
 
 /*==================================================
   READ DIRECTORY
@@ -672,6 +751,51 @@ function processDirectory(
 
         );
 
+    /*==============================================
+  COLLECT SKILL METADATA
+==============================================*/
+
+if (
+    contents.typescriptFiles.length > 0 &&
+    contents.directories.length === 0
+) {
+
+    const relativeDirectory = path.relative(
+        CONTENT_ROOT,
+        directory
+    );
+
+    const parts = relativeDirectory.split(path.sep);
+
+    if (parts.length >= 3) {
+
+        const yearGroup = parts[1];
+        const strand = parts[2];
+
+        for (const file of contents.typescriptFiles) {
+
+                generatedSkillMetadata.push({
+
+                    skillId: getSkillId(
+                        path.join(directory, file)
+                    ),
+
+                    subject: getSubject(relativeDirectory),
+
+                    yearGroup,
+
+                    strand,
+
+                    sourcePath: path.join(relativeDirectory, file)
+
+                });
+
+            }
+
+        }
+
+    }
+
     for (
 
         const child
@@ -703,6 +827,109 @@ function processDirectory(
     );
 
 }
+
+function writeSkillMetadata(): void {
+
+    const outputPath = path.join(
+        CONTENT_ROOT,
+        "generatedSkillMetadata.ts"
+    );
+
+    const entries =
+
+            Array.from(
+
+                new Map(
+
+                    generatedSkillMetadata.map(
+
+                        metadata => [
+
+                            metadata.skillId,
+
+                            metadata
+
+                        ]
+
+                    )
+
+                ).values()
+
+            )
+
+            .sort(
+
+                (a, b) =>
+
+                    a.skillId.localeCompare(
+
+                        b.skillId
+
+                    )
+
+            )
+
+            .map(
+
+                metadata => `    "${metadata.skillId}": {
+                skillId: "${metadata.skillId}",
+                subject: "${metadata.subject}",
+                yearGroup: "${metadata.yearGroup}",
+                strand: "${metadata.strand}",
+                sourcePath: "${metadata.sourcePath}"
+            }`
+
+            )
+
+            .join(
+
+                ",\n\n"
+
+            );
+
+    const source = `/*==================================================
+  GENERATED FILE
+
+  DO NOT EDIT MANUALLY
+
+==================================================*/
+
+export interface SkillMetadata {
+
+    skillId: string;
+
+    subject: string;
+
+    yearGroup: string;
+
+    strand: string;
+
+    sourcePath: string;
+
+}
+
+export const skillMetadata: Record<string, SkillMetadata> = {
+
+${entries}
+
+};
+
+export default skillMetadata;
+`;
+
+    fs.writeFileSync(
+        outputPath,
+        source,
+        "utf8"
+    );
+
+    console.log(
+        "Generated:",
+        path.relative(PROJECT_ROOT, outputPath)
+    );
+
+}
+
 /*==================================================
   MAIN
 ==================================================*/
@@ -789,6 +1016,8 @@ function main(): void {
 
     }
 
+    writeSkillMetadata();
+
     console.log();
 
     console.log(
@@ -798,5 +1027,12 @@ function main(): void {
     );
 
 }
+
+/*==================================================
+  SKILL METADATA
+==================================================*/
+
+
+
 
 main();
