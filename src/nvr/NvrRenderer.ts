@@ -45,6 +45,7 @@ export default class NvrRenderer {
         row: number;
         column: number;
     };
+    private answerLocked = false;
 
     /*==================================================
       CONSTRUCTOR
@@ -160,6 +161,8 @@ export default class NvrRenderer {
 
         this.selectedAnswer = undefined;
 
+        this.answerLocked = false;
+
         if (this.currentQuestion) {
 
             this.render(
@@ -167,6 +170,12 @@ export default class NvrRenderer {
             );
 
         }
+
+    }
+
+    public lockAnswer(): void {
+
+        this.answerLocked = true;
 
     }
 
@@ -184,6 +193,10 @@ export default class NvrRenderer {
         "click",
 
         event => {
+
+            if (this.answerLocked) {
+               return;
+            }
 
             const rect =
                 this.canvas.getBoundingClientRect();

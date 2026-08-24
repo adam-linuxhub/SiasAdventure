@@ -456,7 +456,25 @@ byId<HTMLButtonElement>("next-question")
         openLevelTreasure
     );
 
-    
+    function getNvrCorrectAnswerText(
+        question: import("./content/nonVerbalReasoning/nvrTypes").NvrQuestion
+    ): string {
+
+        const cell =
+            question.figures[
+                question.answer.row
+            ]?.[
+                question.answer.column
+            ];
+
+        if (!cell || cell.shapes.length === 0) {
+            return "the correct card";
+        }
+
+        const shape = cell.shapes[0];
+
+        return `the ${shape.colour} ${shape.fill} ${shape.shape}`;
+    }
 
     /*==================================================
     SUBMIT ANSWER
@@ -501,14 +519,31 @@ byId<HTMLButtonElement>("next-question")
                 nvrQuestion.answer.column ===
                     nvrSelectedAnswer.column;
 
-            showMessage(
+            const result: QuestionResult = {
+                correct,
+                correctAnswerText: getNvrCorrectAnswerText(nvrQuestion),
+                explanation: currentQuestion.explanation,
+                xpAwarded: correct ? 0 : 0,
+                starsAwarded: correct ? 0 : 0
+            };
 
-                correct
-                    ? "Correct!"
-                    : "Not quite. Try again."
+            if (nvrRenderer) {
 
-            );
+                nvrRenderer.lockAnswer();
 
+            }
+
+            if (result.correct) {
+
+                showHop();
+                showCorrectExplanation(result);
+
+            }
+            else {
+
+                showIncorrectExplanation(result);
+
+            }
             /*
             * NVR test flow only.
             *
@@ -573,12 +608,27 @@ function showMessage(message: string): void {
 ==================================================*/
 
 function dontKnow() {
-const currentQuestion =
-    QuestionEngine.getCurrentQuestion();
+    const currentQuestion =
+        QuestionEngine.getCurrentQuestion();
 
-if (!currentQuestion) {
-    return;
-}
+    if (!currentQuestion) {
+        return;
+    }
+
+    if (currentQuestion.type === "nvr") {
+        typeWizzyMessage(
+            "That's perfectly okay! " +
+            "Every great wizard learns by practising.\n" +
+            currentQuestion.explanation
+        );
+
+        byId<HTMLButtonElement>("submit-answer").style.display = "none";
+        byId<HTMLButtonElement>("dont-know").style.display = "none";
+        byId<HTMLButtonElement>("next-question").style.display = "inline-block";
+
+        return;
+    }
+
     player.questionsAnswered++;
 
     PlayerStorage.save(player);
@@ -586,20 +636,15 @@ if (!currentQuestion) {
     updateStats();
 
     const message =
-
         "That's perfectly okay! " +
-
         "Every great wizard learns by practising.\n" +
-
         currentQuestion.explanation;
 
     typeWizzyMessage(message);
 
-
- byId<HTMLButtonElement>("submit-answer").style.display = "none";
-byId<HTMLButtonElement>("dont-know").style.display = "none";
-
-byId<HTMLButtonElement>("next-question").style.display = "inline-block";
+    byId<HTMLButtonElement>("submit-answer").style.display = "none";
+    byId<HTMLButtonElement>("dont-know").style.display = "none";
+    byId<HTMLButtonElement>("next-question").style.display = "inline-block";
 }
 
 /*==================================================
@@ -680,17 +725,15 @@ function showIncorrectExplanation(
             )
         ];
 
-    typeWizzyMessage(
+        typeWizzyMessage(
 
-        `${message}\n` +
+            `${message}\n` +
 
-        `The correct answer was: ` +
+            `The correct answer is ${result.correctAnswerText}.\n` +
 
-        `${result.correctAnswerText}\n` +
+            result.explanation
 
-        result.explanation
-
-    );
+        );
 
 }
 
@@ -1590,10 +1633,8 @@ function stopFireworks(){
   START APPLICATION
 ==================================================*/
 
-questions =
-    getNvrTestQuestions().map(
-        convertNvrQuestion
-    );
+questions = getAllQuestions();
+
 
 QuestionEngine.initialise(
     questions
