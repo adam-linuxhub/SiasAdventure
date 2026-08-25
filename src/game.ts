@@ -19,6 +19,13 @@ import {
     getNvrTestQuestions
 } from "./nvrTestMode";
 
+import {
+    startMysteryTest,
+    isMysteryTestActive,
+    completeMysteryTest,
+    resetMysteryTest
+} from "./mysteryTestMode";
+
 let player: Player;
 let completedWorldId: number | null = null;
 let questions: Question[] = [];
@@ -30,6 +37,14 @@ let celebrationMode: CelebrationMode = "level";
 let nvrRenderer: NvrRenderer | null = null;
 let nvrSelectedAnswer:
     { row: number; column: number } | null = null;
+/*==================================================
+  MYSTERY MAGIC KEY
+==================================================*/
+
+let mysteryActive = false;
+let mysteryKeyFound = false;
+let mysteryKeyX = 0;
+let mysteryKeyY = 0;
 
 const wizzyWelcomeMessages = [
 
@@ -157,6 +172,16 @@ function updateWorldBackground(): void {
 
 
 function initialiseGame() {
+    
+        const mysteryTest =
+        new URLSearchParams(
+            window.location.search
+        ).get("mysterytest");
+
+    if (mysteryTest === "1") {
+        startMysteryTest();
+    }
+
     player = PlayerStorage.load();
 
     PlayerStorage.loadLearning();
@@ -167,7 +192,17 @@ function initialiseGame() {
 
     initialiseFireworks();
 
-    loadRandomQuestion();
+    initialiseMysteryFireworks();
+
+    if (isMysteryTestActive()) {
+
+        showMysteryChallenge();
+
+    } else {
+
+        loadRandomQuestion();
+
+    }    
 
 }
 
@@ -177,6 +212,9 @@ function initialiseGame() {
 
 function loadRandomQuestion() {
 
+    if (isMysteryTestActive()) {
+        return;
+    }
     if (questions.length === 0) {
 
         alert("No questions available.");
@@ -196,6 +234,197 @@ function loadRandomQuestion() {
     updateStats();
 
 }
+
+/*==================================================
+  MYSTERY MAGIC KEY CHALLENGE
+==================================================*/
+
+function showMysteryChallenge(): void {
+
+    const mysteryTest =
+    new URLSearchParams(
+        window.location.search
+    ).get("mysterytest") === "1";
+
+     if (mysteryTest) {
+        startMysteryTest();
+    }
+
+    mysteryActive = true;
+    mysteryKeyFound = false;
+    initialiseMysteryFireworks();
+
+    const challenge =
+        byId<HTMLDivElement>("mystery-challenge");
+
+    const message =
+        byId<HTMLDivElement>("mystery-message");
+
+    const searchArea =
+        byId<HTMLDivElement>("mystery-search-area");
+
+    challenge.classList.remove("hidden");
+    message.classList.remove("hidden");
+    searchArea.classList.add("hidden");
+
+}
+
+function placeMysteryKey(): void {
+
+    const searchArea =
+        byId<HTMLDivElement>(
+            "mystery-search-area"
+        );
+
+    const key =
+        byId<HTMLDivElement>(
+            "mystery-key"
+        );
+
+    const padding = 35;
+
+    const maxX =
+        searchArea.clientWidth -
+        key.offsetWidth -
+        padding;
+
+    const maxY =
+        searchArea.clientHeight -
+        key.offsetHeight -
+        padding;
+
+    mysteryKeyX =
+        Math.floor(
+            Math.random() * maxX
+        ) + padding;
+
+    mysteryKeyY =
+        Math.floor(
+            Math.random() * maxY
+        ) + padding;
+
+    key.style.left =
+        `${mysteryKeyX}px`;
+
+    key.style.top =
+        `${mysteryKeyY}px`;
+
+    key.style.opacity = "0";
+}
+
+function mysterySearchClick(
+    event: MouseEvent
+): void {
+
+    if (!mysteryActive || mysteryKeyFound) {
+        return;
+    }
+
+    const searchArea =
+        byId<HTMLDivElement>(
+            "mystery-search-area"
+        );
+
+    const rect =
+        searchArea.getBoundingClientRect();
+
+    const clickX =
+        event.clientX - rect.left;
+
+    const clickY =
+        event.clientY - rect.top;
+
+    const distance =
+        Math.sqrt(
+            Math.pow(clickX - mysteryKeyX, 2) +
+            Math.pow(clickY - mysteryKeyY, 2)
+        );
+
+    const message =
+        byId<HTMLElement>(
+            "mystery-search-message"
+        );
+
+    if (distance < 100) {
+
+        message.textContent =
+            "✨ Something magical is nearby...";
+
+    }
+    else if (distance < 200) {
+
+        message.textContent =
+            "🌙 You feel a little magic here...";
+
+    }
+    else {
+
+        message.textContent =
+            "🔮 Keep searching...";
+    }
+}
+
+/*==================================================
+  BAT FLYOVER
+==================================================*/
+
+function showBatForQuestion(): void {
+
+    const batTest =
+        new URLSearchParams(window.location.search)
+            .get("battest");
+
+    const questionNumber =
+        batTest === "12" || batTest === "18"
+            ? Number(batTest)
+            : player.questionsThisLevel + 1;
+
+    if (
+        questionNumber !== 12 &&
+        questionNumber !== 18
+    ) {
+        return;
+    }
+
+    const existingBat =
+        document.getElementById("bat-flyover");
+
+    if (existingBat) {
+        existingBat.remove();
+    }
+
+    const bat =
+        document.createElement("div");
+
+    bat.id = "bat-flyover";
+    bat.className =
+        questionNumber === 12
+            ? "bat-flyover bat-left-to-right"
+            : "bat-flyover bat-right-to-left";
+
+    bat.setAttribute(
+        "aria-hidden",
+        "true"
+    );
+
+    bat.innerHTML = `
+        <img
+            src="images/characters/bat.png"
+            alt=""
+            class="bat-winged"
+        >
+    `;
+
+    document.body.appendChild(bat);
+
+    bat.addEventListener(
+        "animationend",
+        () => bat.remove(),
+        { once: true }
+    );
+}
+
+
 /*==================================================
   DISPLAY QUESTION
 ==================================================*/
@@ -208,6 +437,21 @@ function displayQuestion(): void {
     if (!currentQuestion) {
         return;
     }
+
+    const mysteryTest =
+        new URLSearchParams(
+            window.location.search
+        ).get("mysterytest") === "1";
+
+    if (
+        !mysteryTest &&
+        player.questionsThisLevel + 1 === 10 &&
+        !mysteryActive
+    ) {
+        showMysteryChallenge();
+    }
+
+    showBatForQuestion();
 
     clearAnswerSelection();
     nvrSelectedAnswer = null;
@@ -454,6 +698,111 @@ byId<HTMLButtonElement>("next-question")
     .addEventListener(
         "click",
         openLevelTreasure
+    );
+
+    byId<HTMLButtonElement>("start-mystery-challenge")
+    .addEventListener(
+        "click",
+        () => {
+
+            byId<HTMLDivElement>(
+                "mystery-message"
+            ).classList.add("hidden");
+
+            byId<HTMLDivElement>(
+                "mystery-search-area"
+            ).classList.remove("hidden");
+
+            placeMysteryKey();
+
+        }
+    );
+
+byId<HTMLDivElement>("mystery-key")
+    .addEventListener(
+        "click",
+        () => {
+
+            if (!mysteryActive || mysteryKeyFound) {
+                return;
+            }
+
+            mysteryKeyFound = true;
+            mysteryActive = false;
+
+            const mysteryTest =
+                new URLSearchParams(
+                    window.location.search
+                ).get("mysterytest") === "1";
+
+            if (mysteryTest) {
+                completeMysteryTest();
+            }
+
+            const key =
+                byId<HTMLDivElement>(
+                    "mystery-key"
+                );
+
+            const challenge =
+                byId<HTMLDivElement>(
+                    "mystery-challenge"
+                );
+
+            const message =
+                byId<HTMLElement>(
+                    "mystery-search-message"
+                );
+
+            key.style.opacity = "1";
+
+            key.classList.add("mystery-key-found");
+
+            message.textContent =
+                "🔑 THE MAGIC KEY IS YOURS!";
+
+            challenge.classList.add(
+                "mystery-discovery"
+            );
+
+            startMysteryFireworks();
+
+            const mysteryImage =
+                byId<HTMLImageElement>(
+                    "mystery-character"
+                ).querySelector("img");
+
+            if (mysteryImage) {
+                mysteryImage.classList.add(
+                    "mystery-celebrate"
+                );
+            }
+
+            setTimeout(() => {
+
+                challenge.classList.add("hidden");
+                stopMysteryFireworks();
+
+                key.style.opacity = "0";
+
+                const mysteryTest =
+                    new URLSearchParams(
+                        window.location.search
+                    ).get("mysterytest") === "1";
+
+                if (mysteryTest) {
+                    resetMysteryTest();
+                }
+
+            }, 6000);
+
+        }
+    );
+
+    byId<HTMLDivElement>("mystery-search-area")
+    .addEventListener(
+        "click",
+        mysterySearchClick
     );
 
     function getNvrCorrectAnswerText(
@@ -1345,6 +1694,245 @@ function showRandomWizzyMessage() {
 
     typeWizzyMessage(message);
 
+}
+
+/*==================================================
+  MYSTERY FIREWORKS
+==================================================*/
+
+interface MysteryFireworkParticle {
+
+    x: number;
+    y: number;
+    dx: number;
+    dy: number;
+    life: number;
+    size: number;
+}
+
+let mysteryFireworksCanvas:
+    HTMLCanvasElement;
+
+let mysteryFireworksContext:
+    CanvasRenderingContext2D;
+
+const mysteryParticles:
+    MysteryFireworkParticle[] = [];
+
+let mysteryFireworksRunning = false;
+
+
+/*==================================================
+  INITIALISE MYSTERY FIREWORKS
+==================================================*/
+
+function initialiseMysteryFireworks(): void {
+
+    if (mysteryFireworksCanvas) {
+        return;
+    }
+
+    mysteryFireworksCanvas =
+        byId<HTMLCanvasElement>(
+            "mystery-fireworks-canvas"
+        );
+
+    mysteryFireworksContext =
+        mysteryFireworksCanvas.getContext("2d")!;
+
+    resizeMysteryFireworks();
+
+    window.addEventListener(
+        "resize",
+        resizeMysteryFireworks
+    );
+}
+
+/*==================================================
+  RESIZE MYSTERY FIREWORKS
+==================================================*/
+
+function resizeMysteryFireworks(): void {
+
+    mysteryFireworksCanvas.width =
+        window.innerWidth;
+
+    mysteryFireworksCanvas.height =
+        window.innerHeight;
+}
+
+
+/*==================================================
+  LAUNCH MYSTERY FIREWORK
+==================================================*/
+
+function launchMysteryFirework(): void {
+
+    const x =
+        Math.random() *
+        mysteryFireworksCanvas.width;
+
+    const y =
+        Math.random() *
+        mysteryFireworksCanvas.height *
+        0.55;
+
+    for (let i = 0; i < 70; i++) {
+
+        const angle =
+            Math.random() *
+            Math.PI *
+            2;
+
+        const speed =
+            Math.random() * 5 + 2;
+
+        mysteryParticles.push({
+
+            x,
+            y,
+
+            dx:
+                Math.cos(angle) *
+                speed,
+
+            dy:
+                Math.sin(angle) *
+                speed,
+
+            life: 55,
+
+            size:
+                Math.random() * 3 + 2
+
+        });
+    }
+}
+
+
+/*==================================================
+  UPDATE MYSTERY FIREWORKS
+==================================================*/
+
+function updateMysteryFireworks(): void {
+
+    mysteryFireworksContext.clearRect(
+        0,
+        0,
+        mysteryFireworksCanvas.width,
+        mysteryFireworksCanvas.height
+    );
+
+    mysteryParticles.forEach(
+        particle => {
+
+            particle.x +=
+                particle.dx;
+
+            particle.y +=
+                particle.dy;
+
+            particle.dy += 0.05;
+
+            particle.life--;
+
+            mysteryFireworksContext.globalAlpha =
+                particle.life / 55;
+
+            mysteryFireworksContext.fillStyle =
+                "#ffe58a";
+
+            mysteryFireworksContext.beginPath();
+
+            mysteryFireworksContext.arc(
+                particle.x,
+                particle.y,
+                particle.size,
+                0,
+                Math.PI * 2
+            );
+
+            mysteryFireworksContext.fill();
+
+        }
+    );
+
+    mysteryFireworksContext.globalAlpha = 1;
+
+    for (
+        let i = mysteryParticles.length - 1;
+        i >= 0;
+        i--
+    ) {
+
+        if (
+            mysteryParticles[i].life <= 0
+        ) {
+
+            mysteryParticles.splice(i, 1);
+
+        }
+
+    }
+
+    if (mysteryFireworksRunning) {
+
+        requestAnimationFrame(
+            updateMysteryFireworks
+        );
+
+    }
+}
+
+
+/*==================================================
+  START MYSTERY FIREWORKS
+==================================================*/
+
+function startMysteryFireworks(): void {
+
+    if (mysteryFireworksRunning) {
+        return;
+    }
+
+    mysteryFireworksRunning = true;
+
+    launchMysteryFirework();
+
+    updateMysteryFireworks();
+
+    const timer =
+        setInterval(() => {
+
+            if (!mysteryFireworksRunning) {
+
+                clearInterval(timer);
+
+                return;
+            }
+
+            launchMysteryFirework();
+
+        }, 650);
+}
+
+
+/*==================================================
+  STOP MYSTERY FIREWORKS
+==================================================*/
+
+function stopMysteryFireworks(): void {
+
+    mysteryFireworksRunning = false;
+
+    mysteryParticles.length = 0;
+
+    mysteryFireworksContext.clearRect(
+        0,
+        0,
+        mysteryFireworksCanvas.width,
+        mysteryFireworksCanvas.height
+    );
 }
 
 /*==================================================

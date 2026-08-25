@@ -356,266 +356,301 @@ export const Dashboard = {
       SKILLS REPORT
     ==================================================*/
 
-    renderSkillsReport(): void {
+  renderSkillsReport(): void {
 
-        const container =
+    const container =
+        byId<HTMLDivElement>(
+            "skills-report"
+        );
 
-            byId<HTMLDivElement>(
+    const skills =
+        getAllSkills();
 
-                "skills-report"
-
-            );
-
-        const skills =
-
-            getAllSkills();
-            console.log(
-    QuestionProgressStorage.getAll()
-);
-console.log(
-    skills.map(skill => skill.skillId)
-);
-
-        if (skills.length === 0) {
-
-            container.innerHTML = `
-
-                <div class="card">
-
-                    No learning data available.
-
-                </div>
-
-            `;
-
-            return;
-
-        }
-
-        const rows = skills.map(skill => {
-
-            const difficulty =
-                SkillProgressStorage.getDifficulty(
-                    skill.skillId
-                );
-
-            const questions =
-                skill.activities.filter(
-                    activity => activity.id
-                );
-
-            let answered = 0;
-
-            let correct = 0;
-
-            let mastered = 0;
-
-            let learning = 0;
-
-            let review = 0;
-
-            let notAttempted = 0;
-
-            for (
-
-                const activity of
-
-                questions
-
-            ) {
-
- const progress =
-    QuestionProgressStorage.get(
-        activity.id
-    );
-
-if (skill.skillId === "planet-order") {
-
-    console.log(
-        activity.id,
-        progress.attempts,
-        progress.correctCount
-    );
-
-}
-                if (
-
-                    progress.attempts > 0
-
-                ) {
-
-                    answered++;
-
-                }
-
-                correct +=
-                    progress.correctCount;
-
-                if (
-
-                    QuestionProgressStorage.isMastered(
-                        activity.id
-                    )
-
-                ) {
-
-                    mastered++;
-
-                }
-                else if (
-
-                    progress.reviewAfterQuestion !== null ||
-
-                    progress.carryForward
-
-                ) {
-
-                    review++;
-
-                }
-                else if (
-
-                    progress.attempts > 0
-
-                ) {
-
-                    learning++;
-
-                }
-                else {
-
-                    notAttempted++;
-
-                }
-
-            }
-
-            const accuracy =
-                answered > 0
-                    ? Math.round(
-                        (correct / answered) * 100
-                    )
-                    : 0;
-
-            let status = "Not Started";
-
-            if (answered > 0) {
-
-                status = "Learning";
-
-            }
-
-            if (
-
-                mastered === questions.length &&
-
-                questions.length > 0
-
-            ) {
-
-                status = "Mastered";
-
-            }
-
-            return `
-
-                <tr>
-
-                    <td>
-
-                        ${skillMetadata[skill.skillId]?.subject ?? "Unknown"}
-
-                    </td>
-
-                    <td>
-
-                        ${skill.title}
-
-                    </td>
-
-                    <td>
-
-                        Level ${difficulty}
-
-                    </td>
-
-                    <td>
-
-                        ${answered}
-
-                    </td>
-
-                    <td>
-
-                        ${correct}
-
-                    </td>
-
-                    <td>
-
-                        ${accuracy}%
-
-                    </td>
-
-                    <td>
-
-                        ${status}
-
-                    </td>
-
-                </tr>
-
-            `;
-
-        }).join("");
+    if (skills.length === 0) {
 
         container.innerHTML = `
-
             <div class="card">
-
-                <h2>
-
-                    Adaptive Learning Report
-
-                </h2>
-
-                <table class="skills-table">
-
-                    <thead>
-
-                        <tr>
-
-                            <th>Category</th>
-
-                            <th>Skill</th>
-
-                            <th>Difficulty</th>
-
-                            <th>Questions</th>
-
-                            <th>Correct</th>
-
-                            <th>Accuracy</th>
-
-                            <th>Status</th>
-
-                        </tr>
-
-                    </thead>
-
-                    <tbody>
-
-                        ${rows}
-
-                    </tbody>
-
-                </table>
-
+                No learning data available.
             </div>
-
         `;
 
-    },
+        return;
+    }
+
+    const skillData = skills.map(skill => {
+    const questions =
+        skill.activities.filter(
+            activity => activity.id
+        );
+
+    const progress =
+        LearningEngine.skills.get(skill.skillId);
+
+    const questionsSeen =
+        progress?.questionsSeen ?? 0;
+
+    const correctAnswers =
+        progress?.correct ?? 0;
+
+    const accuracy =
+        questionsSeen > 0
+            ? Math.round(
+                (correctAnswers / questionsSeen) * 100
+            )
+            : null;
+
+    const progressCount =
+    Math.min(
+        questionsSeen,
+        questions.length
+    );
+
+    let status = "Not Started";
+
+    if (questionsSeen > 0) {
+
+        status = "Learning";
+
+    }
+
+    if (
+        progress?.mastery === 100 &&
+        questionsSeen >= 10
+    ) {
+
+        status = "Mastered";
+
+    }
+
+    return {
+
+        subject:
+            skillMetadata[skill.skillId]?.subject ??
+            "Unknown",
+
+        title:
+            skill.title,
+
+        totalQuestions:
+            questions.length,
+
+        mastered:
+            progressCount,
+
+        accuracy,
+
+        status
+
+    };
+
+});
+
+    // Skills that Sia has started working on
+    const activeSkills =
+        skillData
+            .filter(
+                skill => skill.accuracy !== null
+            )
+            .sort((a, b) => {
+
+                const subjectComparison =
+                    a.subject.localeCompare(
+                        b.subject
+                    );
+
+                if (subjectComparison !== 0) {
+                    return subjectComparison;
+                }
+
+                if (
+                    a.accuracy! !==
+                    b.accuracy!
+                ) {
+                    return (
+                        a.accuracy! -
+                        b.accuracy!
+                    );
+                }
+
+                return a.title.localeCompare(
+                    b.title
+                );
+
+            });
+
+    // Skills Sia has not started
+    const notStartedSkills =
+        skillData
+            .filter(
+                skill => skill.accuracy === null
+            )
+            .sort((a, b) => {
+
+                const subjectComparison =
+                    a.subject.localeCompare(
+                        b.subject
+                    );
+
+                if (subjectComparison !== 0) {
+                    return subjectComparison;
+                }
+
+                return a.title.localeCompare(
+                    b.title
+                );
+
+            });
+
+    const activeRows =
+        activeSkills
+            .map(skill => {
+
+                return `
+                    <tr>
+
+                        <td>
+                            ${skill.subject}
+                        </td>
+
+                        <td>
+                            ${skill.title}
+                        </td>
+
+                        <td>
+                            ${skill.mastered}
+                            /
+                            ${skill.totalQuestions}
+                        </td>
+
+                        <td>
+                            ${skill.accuracy}%
+                        </td>
+
+                        <td>
+                            ${skill.status}
+                        </td>
+
+                    </tr>
+                `;
+
+            })
+            .join("");
+
+    const notStartedRows =
+        notStartedSkills
+            .map(skill => {
+
+                return `
+                    <tr>
+
+                        <td>
+                            ${skill.subject}
+                        </td>
+
+                        <td>
+                            ${skill.title}
+                        </td>
+
+                        <td>
+                            0
+                            /
+                            ${skill.totalQuestions}
+                        </td>
+
+                        <td>
+                            —
+                        </td>
+
+                        <td>
+                            Not Started
+                        </td>
+
+                    </tr>
+                `;
+
+            })
+            .join("");
+
+    container.innerHTML = `
+
+        <div class="card">
+
+            <h2>
+                Skills in Progress
+            </h2>
+
+            <p>
+                These are the skills Sia has started
+                working on. They are shown from
+                lowest to highest accuracy.
+            </p>
+
+            <table class="skills-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Subject</th>
+                        <th>Skill</th>
+                        <th>Progress</th>
+                        <th>Accuracy</th>
+                        <th>Status</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    ${activeRows}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <div class="card">
+
+            <h2>
+                Not Yet Started
+            </h2>
+
+            <p>
+                These skills have not yet been
+                attempted.
+            </p>
+
+            <table class="skills-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Subject</th>
+                        <th>Skill</th>
+                        <th>Progress</th>
+                        <th>Accuracy</th>
+                        <th>Status</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    ${notStartedRows}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    `;
+
+},
     
     /*==================================================
       RECOMMENDATIONS

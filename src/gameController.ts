@@ -210,69 +210,6 @@ export const GameController = {
 
 
 
-        if (result.correct) {
-
-
-            player.correct++;
-
-            player.xp += result.xpAwarded;
-
-            player.stars += result.starsAwarded;
-
-
-            switch (question?.stage) {
-
-
-                case "recognise":
-
-                    player.adventurePoints += 1;
-
-                    break;
-
-
-                case "understand":
-
-                    player.adventurePoints += 2;
-
-                    break;
-
-
-                case "apply":
-
-                    player.adventurePoints += 3;
-
-                    break;
-
-
-                case "master":
-
-                    player.adventurePoints += 4;
-
-                    break;
-
-
-                default:
-
-                    player.adventurePoints += 1;
-
-                    break;
-
-
-            }
-
-
-        }
-        else {
-
-
-            player.incorrect++;
-
-
-        }
-
-
-
-
         const levelComplete =
 
             Levels.checkLevelComplete(player);

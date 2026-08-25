@@ -17,10 +17,10 @@
 
 
 
-  <script type="module" crossorigin src="/assets/game-DtWh9PXJ.js"></script>
+  <script type="module" crossorigin src="/assets/game-C8OOzam7.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/theme-DJb1Agj5.js">
   <link rel="stylesheet" crossorigin href="/assets/theme-DZ_lf1aP.css">
-  <link rel="stylesheet" crossorigin href="/assets/game-8pKhdk-8.css">
+  <link rel="stylesheet" crossorigin href="/assets/game-pG12boci.css">
 </head>
 
 <body>
@@ -354,7 +354,53 @@
         </div>
 
     </div>
+    
+    <!-- ==========================
+        Mystery Magic Key Challenge
+    ========================== -->
+    <div id="mystery-challenge" class="hidden">
 
+        <div id="mystery-character">
+            <img
+                src="/assets/mystery-BwzdI5XX.png"
+                alt="Mystery">
+        </div>
+
+        <div id="mystery-message">
+            <h2>Mystery's Secret Challenge</h2>
+
+            <p>
+                Sia... I've hidden a magic key somewhere
+                on this screen.
+            </p>
+
+            <p>
+                You can't see it, but you can find it!
+                Click carefully until you discover it.
+            </p>
+
+            <button
+                id="start-mystery-challenge"
+                type="button">
+                🔑 Find the Magic Key
+            </button>
+        </div>
+
+        <div id="mystery-search-area" class="hidden">
+            <div id="mystery-key">
+            <img
+                src="/assets/magic-key-CG2TijQp.png"
+                alt=""
+                draggable="false"
+            >
+        </div>
+
+            <p id="mystery-search-message">
+                The key is hidden somewhere here...
+            </p>
+        </div>
+
+    </div>
 
     <!-- ==========================
          Audio
@@ -402,6 +448,7 @@
     aria-hidden="true">
 
     <canvas id="fireworks-canvas"></canvas>
+   
 
     <div class="level-panel">
 
@@ -472,7 +519,9 @@
 
     </div>
 
+
 </div>
+<canvas id="mystery-fireworks-canvas"></canvas>
 </main>
 
 

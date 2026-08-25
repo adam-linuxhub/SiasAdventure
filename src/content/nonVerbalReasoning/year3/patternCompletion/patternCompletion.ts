@@ -17,7 +17,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Which figure completes the pattern?",
-    hint: "Look at the shapes.",
+    hint: "Look at the shapes from left to right. What shape comes after triangle?",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "blue", fill: "solid" }] },
@@ -33,7 +33,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The pattern is circle, square, triangle, star.",
+    explanation: "Read the first row from left to right: circle, square, triangle, then a missing shape. The second row shows that the sequence is circle, square, triangle, star. So the missing figure must be the blue solid star.",
     tags: ["year3","pattern-completion","shape"]
 },
 
@@ -43,7 +43,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Which figure completes the pattern?",
-    hint: "Look at the colours.",
+    hint: "Ignore the shape because it stays the same. Follow the colours from left to right.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "red", fill: "solid" }] },
@@ -59,7 +59,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The colours repeat red, green, blue, yellow.",
+    explanation: "The circle and its solid fill stay the same, but the colour changes in a repeating order: red, green, blue, yellow. After red, green and blue, the missing colour is yellow. So the answer is the solid yellow circle.",
     tags: ["year3","pattern-completion","colour"]
 },
 
@@ -69,7 +69,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Which figure completes the pattern?",
-    hint: "Look at the fill.",
+    hint: "The shape and colour stay the same. Look carefully at whether the inside is filled or empty.",
     figures: [
         [
             { shapes: [{ shape: "square", colour: "red", fill: "solid" }] },
@@ -85,7 +85,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The fill alternates solid and outline.",
+    explanation: "The square stays red throughout. Only the fill changes, alternating solid, outline, solid, outline. The first three figures are solid, outline, solid, so the missing fourth figure must be an outline red square.",
     tags: ["year3","pattern-completion","fill"]
 },
 
@@ -95,7 +95,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Which figure completes the pattern?",
-    hint: "Look at the size.",
+    hint: "Compare the size of each triangle. Is the size getting bigger, smaller, or alternating?",
     figures: [
         [
             { shapes: [{ shape: "triangle", colour: "green", fill: "solid", size: "small" }] },
@@ -111,7 +111,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The sizes alternate small and large.",
+    explanation: "The triangle stays green and solid, while its size alternates small, large, small, large. The first three sizes are small, large, small, so the missing fourth figure must be the large green triangle.",
     tags: ["year3","pattern-completion","size"]
 },
 
@@ -121,7 +121,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Which figure completes the pattern?",
-    hint: "Look at the direction.",
+    hint: "Follow the arrow one turn at a time. How many degrees does it rotate each time?",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "blue", fill: "solid", rotation: 0 }] },
@@ -137,7 +137,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The arrow rotates 90° each time.",
+    explanation: "The blue solid arrow turns 90° each time: 0°, 90°, 180°, then 270°. Therefore the missing fourth figure is the arrow rotated to 270°.",
     tags: ["year3","pattern-completion","rotation"]
 },
 
@@ -147,7 +147,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Which figure completes the pattern?",
-    hint: "Follow the repeating shapes.",
+    hint: "The two shapes take turns. Which shape appears first, and which appears second?",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "orange", fill: "solid" }] },
@@ -163,7 +163,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The pattern alternates star and heart.",
+    explanation: "The pattern alternates between star and heart: star, heart, star, heart. The first three figures already show star, heart, star, so the missing fourth figure must be the orange solid heart.",
     tags: ["year3","pattern-completion","shape"]
 },
 
@@ -173,7 +173,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Which figure completes the pattern?",
-    hint: "Watch the colours.",
+    hint: "The diamond stays the same shape. Follow its colours in order.",
     figures: [
         [
             { shapes: [{ shape: "diamond", colour: "purple", fill: "solid" }] },
@@ -189,7 +189,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The colours alternate purple and yellow.",
+    explanation: "The diamond stays solid, and its colours alternate purple, yellow, purple, yellow. The first three colours are purple, yellow, purple, so the missing fourth figure must be a yellow diamond.",
     tags: ["year3","pattern-completion","colour"]
 },
 
@@ -199,7 +199,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Which figure completes the pattern?",
-    hint: "Look at the fill pattern.",
+    hint: "The circle stays grey. Check whether each circle is filled in or only has an outline.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "grey", fill: "outline" }] },
@@ -215,7 +215,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The fill alternates outline and solid.",
+    explanation: "The shape and colour stay the same. The fill alternates outline, solid, outline, solid. Because the third figure is outline, the missing fourth figure must be the solid grey circle.",
     tags: ["year3","pattern-completion","fill"]
 },
 
@@ -225,7 +225,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Which figure completes the pattern?",
-    hint: "Look at the sizes.",
+    hint: "The hexagon stays the same. Compare only its sizes from left to right.",
     figures: [
         [
             { shapes: [{ shape: "hexagon", colour: "blue", fill: "solid", size: "large" }] },
@@ -241,7 +241,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The sizes alternate large and small.",
+    explanation: "The blue solid hexagon alternates between large and small: large, small, large, small. Since the third figure is large, the missing fourth figure must be the small blue hexagon.",
     tags: ["year3","pattern-completion","size"]
 },
 
@@ -251,7 +251,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Which figure completes the pattern?",
-    hint: "Watch the arrow turn.",
+    hint: "Track the direction of the arrow. It turns the same amount each time.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "green", fill: "solid", rotation: 90 }] },
@@ -267,16 +267,17 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The arrow rotates another 90°.",
+    explanation: "The green solid arrow rotates 90° each time: 90°, 180°, 270°, then 360°. A 360° turn is the same direction as 0°, so the missing fourth figure is the arrow at 0°.",
     tags: ["year3","pattern-completion","rotation"]
 },
+
 {
     id: "nvr-pc-011",
     skillId: "pattern-completion",
     stage: "understand",
     difficulty: 2,
     question: "Which figure completes the pattern?",
-    hint: "The shapes repeat in groups of three.",
+    hint: "Look for a group of shapes that repeats. Where does the group start again?",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "red", fill: "solid" }] },
@@ -292,7 +293,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The three-shape pattern starts again with a circle.",
+    explanation: "The repeating group is circle, square, triangle. After the third shape, the group starts again with circle. Therefore the missing fourth figure must be the red solid circle.",
     tags: ["year3","pattern-completion","shape"]
 },
 
@@ -302,7 +303,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Which figure completes the pattern?",
-    hint: "Watch the colours carefully.",
+    hint: "The star stays the same shape. Write the colour order in your head and find the colour that comes next.",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "red", fill: "solid" }] },
@@ -318,7 +319,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The colours repeat red, green, blue, yellow.",
+    explanation: "The star stays solid, while the colours follow the cycle red, green, blue, yellow. After red, green and blue, the next colour is yellow. So the missing figure is the solid yellow star.",
     tags: ["year3","pattern-completion","colour"]
 },
 
@@ -328,7 +329,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Which figure completes the pattern?",
-    hint: "The fill alternates.",
+    hint: "The diamond stays blue. Look only at the fill: filled or outline.",
     figures: [
         [
             { shapes: [{ shape: "diamond", colour: "blue", fill: "outline" }] },
@@ -344,7 +345,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The pattern alternates outline and solid.",
+    explanation: "The blue diamond alternates between outline and solid. The sequence is outline, solid, outline, so the next one must be solid. Therefore the missing figure is the solid blue diamond.",
     tags: ["year3","pattern-completion","fill"]
 },
 
@@ -354,7 +355,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Which figure completes the pattern?",
-    hint: "Look at the sizes.",
+    hint: "The circle stays green and solid. Watch its size move through the three sizes.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "green", fill: "solid", size: "small" }] },
@@ -370,7 +371,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The size pattern repeats from small again.",
+    explanation: "The size sequence is small, medium, large, then it starts again at small. The first three figures are small, medium and large, so the missing fourth figure must be the small green solid circle.",
     tags: ["year3","pattern-completion","size"]
 },
 
@@ -380,7 +381,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Which figure completes the pattern?",
-    hint: "Watch the rotation.",
+    hint: "The triangle turns by the same amount each time. Compare the first three directions.",
     figures: [
         [
             { shapes: [{ shape: "triangle", colour: "orange", fill: "solid", rotation: 0 }] },
@@ -396,7 +397,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The triangle rotates another 90°.",
+    explanation: "The orange solid triangle rotates 90° each time: 0°, 90°, 180°, then 270°. Therefore the missing fourth figure is the triangle rotated 270°.",
     tags: ["year3","pattern-completion","rotation"]
 },
 
@@ -406,7 +407,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Which figure completes the pattern?",
-    hint: "Two shapes repeat.",
+    hint: "There are two repeating shapes. Follow them in pairs: first shape, second shape, first shape...",
     figures: [
         [
             { shapes: [{ shape: "heart", colour: "pink", fill: "solid" }] },
@@ -422,7 +423,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The pattern alternates heart and circle.",
+    explanation: "The pattern alternates heart, circle, heart, circle. The first three figures are heart, circle, heart, so the missing fourth figure must be the pink solid circle.",
     tags: ["year3","pattern-completion","shape"]
 },
 
@@ -432,7 +433,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Which figure completes the pattern?",
-    hint: "Look at the colour order.",
+    hint: "Ignore the shape because it stays the same. Follow the colour sequence and look for the colour that starts the cycle again.",
     figures: [
         [
             { shapes: [{ shape: "hexagon", colour: "blue", fill: "solid" }] },
@@ -448,7 +449,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The next colour is red.",
+    explanation: "The colours follow a four-colour cycle: red, blue, yellow, green. The first three figures show blue, yellow, green, so the cycle must restart with red. The missing figure is the solid red hexagon.",
     tags: ["year3","pattern-completion","colour"]
 },
 
@@ -458,7 +459,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Which figure completes the pattern?",
-    hint: "Solid then outline.",
+    hint: "The rectangle stays grey. Look at the fill of each rectangle and see which two states repeat.",
     figures: [
         [
             { shapes: [{ shape: "rectangle", colour: "grey", fill: "solid" }] },
@@ -474,7 +475,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The fill alternates.",
+    explanation: "The fill alternates solid, outline, solid, outline. The first three rectangles are solid, outline, solid, so the missing fourth rectangle must be grey with an outline fill.",
     tags: ["year3","pattern-completion","fill"]
 },
 
@@ -484,7 +485,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Which figure completes the pattern?",
-    hint: "Small, medium, large.",
+    hint: "The star stays yellow and solid. Watch the sizes in order: small, medium, large...",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "yellow", fill: "solid", size: "small" }] },
@@ -500,7 +501,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The size sequence repeats.",
+    explanation: "The sizes follow a repeating three-step sequence: small, medium, large. After large, the sequence starts again with small. Therefore the missing figure is the small yellow solid star.",
     tags: ["year3","pattern-completion","size"]
 },
 
@@ -510,7 +511,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Which figure completes the pattern?",
-    hint: "The arrow keeps turning.",
+    hint: "Follow the arrow's direction. Each step makes the same clockwise turn.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "purple", fill: "solid", rotation: 270 }] },
@@ -526,7 +527,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The arrow rotates another 90° clockwise.",
+    explanation: "The purple solid arrow turns 90° clockwise each time: 270°, 0°, 90°, then 180°. Therefore the missing fourth figure must be the arrow rotated to 180°.",
     tags: ["year3","pattern-completion","rotation"]
 },
 {
@@ -535,7 +536,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "The shapes repeat in pairs.",
+    hint: "Look for pairs of the same shape. Which shape is repeated before the pattern moves on?",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "red", fill: "solid" }] },
@@ -551,7 +552,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The pattern is circle, circle, square, square.",
+    explanation: "The shapes occur in pairs: circle, circle, square, square. The first two positions are both circles, so positions three and four must both be squares. The missing figure is therefore the red solid square.",
     tags: ["year3","pattern-completion","shape"]
 },
 
@@ -561,7 +562,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Watch both the colour and fill.",
+    hint: "There are two properties changing. Check the colour first, then check whether each shape is solid or outlined.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "red", fill: "solid" }] },
@@ -577,7 +578,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Both the colour and fill alternate.",
+    explanation: "The first row alternates between a red solid circle and a blue outlined circle. The sequence is red-solid, blue-outline, red-solid, so the missing figure must be the blue outlined circle.",
     tags: ["year3","pattern-completion","colour","fill"]
 },
 
@@ -587,7 +588,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "The size repeats.",
+    hint: "The triangle stays the same colour and fill. Follow its three sizes in order.",
     figures: [
         [
             { shapes: [{ shape: "triangle", colour: "green", fill: "solid", size: "small" }] },
@@ -603,7 +604,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The size sequence repeats from small.",
+    explanation: "The size sequence is small, medium, large, then it starts again with small. The missing fourth figure must therefore be a small green solid triangle.",
     tags: ["year3","pattern-completion","size"]
 },
 
@@ -613,7 +614,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "The arrow keeps turning.",
+    hint: "The arrow turns by the same amount each time. Follow the directions carefully.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "orange", fill: "solid", rotation: 0 }] },
@@ -629,7 +630,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The arrow rotates 90° each step.",
+    explanation: "The arrow rotates 90° clockwise each time: 0°, 90°, 180°, 270°. The missing figure is therefore the orange solid arrow at 270°.",
     tags: ["year3","pattern-completion","rotation"]
 },
 
@@ -639,7 +640,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Two things are changing.",
+    hint: "The fill changes every time. Check whether the colour or shape actually changes in the first row.",
     figures: [
         [
             { shapes: [{ shape: "diamond", colour: "purple", fill: "solid" }] },
@@ -655,7 +656,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The fill alternates between solid and outline.",
+    explanation: "The shape and colour stay purple, while the fill alternates solid, outline, solid, outline. Therefore the missing figure is the purple outlined diamond.",
     tags: ["year3","pattern-completion","fill"]
 },
 
@@ -665,7 +666,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "The shapes repeat.",
+    hint: "Two shapes alternate. Find the two shapes that belong to the repeating pair.",
     figures: [
         [
             { shapes: [{ shape: "hexagon", colour: "blue", fill: "solid" }] },
@@ -681,7 +682,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The pattern alternates hexagon and circle.",
+    explanation: "The pattern alternates hexagon, circle, hexagon, circle. Since the third figure is a hexagon, the missing fourth figure must be the blue solid circle.",
     tags: ["year3","pattern-completion","shape"]
 },
 
@@ -691,7 +692,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "The colours repeat.",
+    hint: "The star stays the same. Follow the colours and look for the repeating pair.",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "yellow", fill: "solid" }] },
@@ -707,7 +708,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The colours alternate yellow and green.",
+    explanation: "The colours alternate yellow, green, yellow, green. The star remains solid throughout, so the missing figure is the solid green star.",
     tags: ["year3","pattern-completion","colour"]
 },
 
@@ -717,7 +718,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Follow the sizes.",
+    hint: "Ignore the shape and colour. Follow the three sizes from largest to smallest.",
     figures: [
         [
             { shapes: [{ shape: "square", colour: "grey", fill: "solid", size: "large" }] },
@@ -733,7 +734,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The sizes repeat large, medium, small.",
+    explanation: "The sizes follow large, medium, small and then repeat. After the small square, the next figure must be large. The missing figure is therefore the large grey solid square.",
     tags: ["year3","pattern-completion","size"]
 },
 
@@ -743,7 +744,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Watch the rotation.",
+    hint: "The line turns by the same amount each time. Count the degrees between the first three positions.",
     figures: [
         [
             { shapes: [{ shape: "line", colour: "black", fill: "solid", rotation: 0 }] },
@@ -759,7 +760,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The line rotates another 45°.",
+    explanation: "The line rotates 45° each time: 0°, 45°, 90°, then 135°. Therefore the missing figure is the black solid line at 135°.",
     tags: ["year3","pattern-completion","rotation"]
 },
 
@@ -769,7 +770,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Look at everything together.",
+    hint: "Several properties change, but start by comparing the first and third figures. What is repeated?",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "blue", fill: "solid", size: "small" }] },
@@ -785,16 +786,17 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The whole pattern repeats every two figures.",
+    explanation: "The first and third figures are identical: both are small, blue, solid circles. This shows a two-figure repeating pattern. Therefore the fourth figure must match the second: a medium red outlined circle.",
     tags: ["year3","pattern-completion","mixed"]
 },
+
 {
     id: "nvr-pc-031",
     skillId: "pattern-completion",
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Look at both the shape and the colour.",
+    hint: "Look at the shape and colour together. What happens when you compare the first three figures with the next row?",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "red", fill: "solid" }] },
@@ -810,7 +812,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The pattern continues with a yellow star.",
+    explanation: "The first row shows a sequence of different shapes and colours, and the second row provides the choices. The continuation required here is a yellow star, which is the first figure in the second row.",
     tags: ["year3","pattern-completion","shape","colour"]
 },
 
@@ -820,7 +822,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Follow the fill pattern.",
+    hint: "The heart stays pink. Watch the fill alternate between filled and outline.",
     figures: [
         [
             { shapes: [{ shape: "heart", colour: "pink", fill: "solid" }] },
@@ -836,7 +838,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The fill alternates solid and outline.",
+    explanation: "The pink heart alternates solid, outline, solid, outline. Therefore the missing fourth figure must be the pink outlined heart.",
     tags: ["year3","pattern-completion","fill"]
 },
 
@@ -846,7 +848,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Watch the arrow rotate.",
+    hint: "The arrow turns by 45° each time. Continue the turn after 135°.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "green", fill: "solid", rotation: 45 }] },
@@ -862,7 +864,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The arrow rotates another 45 degrees.",
+    explanation: "The arrow rotates 45° at each step: 45°, 90°, 135°, then 180°. Therefore the missing figure is the green solid arrow at 180°.",
     tags: ["year3","pattern-completion","rotation"]
 },
 
@@ -872,7 +874,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Look at the sizes.",
+    hint: "The diamond stays purple and solid. Follow the repeating size sequence.",
     figures: [
         [
             { shapes: [{ shape: "diamond", colour: "purple", fill: "solid", size: "small" }] },
@@ -888,7 +890,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The size sequence repeats from small.",
+    explanation: "The sizes follow small, medium, large and then start again with small. So after the large diamond, the missing figure must be the small purple solid diamond.",
     tags: ["year3","pattern-completion","size"]
 },
 
@@ -898,7 +900,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "The colours repeat.",
+    hint: "The circle stays the same. Write the colour sequence: blue, red, green... What comes next?",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "blue", fill: "solid" }] },
@@ -914,7 +916,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The colours follow a four-colour cycle.",
+    explanation: "The colour cycle is blue, red, green, yellow. The first three figures are blue, red and green, so the missing fourth figure must be the yellow solid circle.",
     tags: ["year3","pattern-completion","colour"]
 },
 
@@ -924,7 +926,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Look at both shapes.",
+    hint: "Look at the two shapes in each figure. Are the pairs repeating in the same order?",
     figures: [
         [
             { shapes: [
@@ -952,7 +954,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The pair repeats.",
+    explanation: "The first and third figures are the same pair: circle and square. Therefore the pattern repeats every two figures. The fourth figure must match the second figure: a red solid triangle and star.",
     tags: ["year3","pattern-completion","multiple-shapes"]
 },
 
@@ -962,7 +964,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Everything alternates.",
+    hint: "Check both the fill and the shape. What property is actually changing in the first row?",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "yellow", fill: "outline" }] },
@@ -978,7 +980,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The fill alternates.",
+    explanation: "The yellow star stays the same shape and colour. Only its fill changes: outline, solid, outline, solid. Therefore the missing figure is the solid yellow star.",
     tags: ["year3","pattern-completion","fill"]
 },
 
@@ -988,7 +990,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Watch the direction.",
+    hint: "The triangle points in two alternating directions. Look at the rotation of the first three triangles.",
     figures: [
         [
             { shapes: [{ shape: "triangle", colour: "blue", fill: "solid", rotation: 0 }] },
@@ -1004,7 +1006,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The triangle alternates between up and down.",
+    explanation: "The triangle alternates between 0° and 180°: up, down, up, down. Therefore the missing fourth figure must be the blue solid triangle at 180°.",
     tags: ["year3","pattern-completion","rotation"]
 },
 
@@ -1014,7 +1016,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Look at every property.",
+    hint: "Several properties are shown, but compare the first three figures carefully. Which property actually changes?",
     figures: [
         [
             { shapes: [{ shape: "hexagon", colour: "green", fill: "solid", size: "large" }] },
@@ -1030,7 +1032,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Only the fill changes in the sequence.",
+    explanation: "The shape, colour and size stay the same in the first row. Only the fill changes, alternating solid, outline, solid, outline. Therefore the missing figure is the large green outlined hexagon.",
     tags: ["year3","pattern-completion","mixed"]
 },
 
@@ -1040,7 +1042,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "The whole pattern repeats.",
+    hint: "Compare the first and third figures. If they are the same, what should the fourth figure look like?",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "red", fill: "solid" }] },
@@ -1056,7 +1058,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The two-figure pattern repeats.",
+    explanation: "The first and third figures are identical: both are red solid circles. This means the pattern alternates between the first figure and the second figure. Therefore the missing fourth figure must be the blue outlined square.",
     tags: ["year3","pattern-completion","mixed"]
 },
 {
@@ -1065,7 +1067,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "The colours repeat.",
+    hint: "The circle stays the same shape. Follow the four colours in their repeating order.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "red", fill: "solid" }] },
@@ -1081,7 +1083,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The four colours repeat in order.",
+    explanation: "The circle stays solid and the colours repeat in this order: red, green, blue, yellow. The first three colours are red, green and blue, so the missing fourth colour must be yellow. The answer is the solid yellow circle.",
     tags: ["year3","pattern-completion","colour"]
 },
 
@@ -1091,7 +1093,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Watch the fill.",
+    hint: "The purple square stays the same. Look at the fill: solid, outline, solid...",
     figures: [
         [
             { shapes: [{ shape: "square", colour: "purple", fill: "solid" }] },
@@ -1107,7 +1109,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The fill alternates between solid and outline.",
+    explanation: "The shape and colour stay the same. Only the fill changes, alternating solid, outline, solid, outline. Therefore the missing fourth figure is the purple square with an outline.",
     tags: ["year3","pattern-completion","fill"]
 },
 
@@ -1117,7 +1119,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Look at the sizes.",
+    hint: "The star stays yellow and solid. Follow the sizes from small to large, then start again.",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "yellow", fill: "solid", size: "small" }] },
@@ -1133,7 +1135,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The size sequence repeats from the beginning.",
+    explanation: "The sizes repeat small, medium, large. After the large star, the sequence starts again with small. So the missing figure is the small yellow solid star.",
     tags: ["year3","pattern-completion","size"]
 },
 
@@ -1143,7 +1145,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "The arrow keeps turning.",
+    hint: "The arrow turns by 90° each time. Continue the sequence after 180°.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "orange", fill: "solid", rotation: 0 }] },
@@ -1159,7 +1161,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The arrow rotates another 90°.",
+    explanation: "The arrow rotates 90° each time: 0°, 90°, 180°, then 270°. Therefore the missing fourth figure is the orange solid arrow pointing at 270°.",
     tags: ["year3","pattern-completion","rotation"]
 },
 
@@ -1169,7 +1171,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Two shapes repeat.",
+    hint: "Treat the two-shape figures as pairs. Which pair appears first, and which pair appears second?",
     figures: [
         [
             { shapes: [
@@ -1197,7 +1199,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The pair repeats.",
+    explanation: "The first pair is circle and triangle. The second pair is square and star. Then the first pair appears again: circle and triangle. So the missing fourth figure must repeat the second pair: a red solid square and star.",
     tags: ["year3","pattern-completion","multiple-shapes"]
 },
 
@@ -1207,7 +1209,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Watch the colour sequence.",
+    hint: "The diamond stays the same shape and fill. Follow the colour sequence and find where it starts again.",
     figures: [
         [
             { shapes: [{ shape: "diamond", colour: "blue", fill: "solid" }] },
@@ -1223,7 +1225,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The colour sequence continues with red.",
+    explanation: "The colours follow a repeating cycle: red, blue, green, yellow. The first three figures are blue, green and yellow, so the cycle must restart with red. The missing figure is the solid red diamond.",
     tags: ["year3","pattern-completion","colour"]
 },
 
@@ -1233,7 +1235,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "The fill repeats.",
+    hint: "The hexagon stays grey. Look only at its fill and follow the alternating pattern.",
     figures: [
         [
             { shapes: [{ shape: "hexagon", colour: "grey", fill: "outline" }] },
@@ -1249,7 +1251,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The fill alternates outline and solid.",
+    explanation: "The grey hexagon alternates between outline and solid: outline, solid, outline, solid. Therefore the missing fourth figure must be the solid grey hexagon.",
     tags: ["year3","pattern-completion","fill"]
 },
 
@@ -1259,7 +1261,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Look at the sizes.",
+    hint: "The heart stays pink and solid. Follow the sizes from large to small.",
     figures: [
         [
             { shapes: [{ shape: "heart", colour: "pink", fill: "solid", size: "large" }] },
@@ -1275,7 +1277,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The size pattern starts again with large.",
+    explanation: "The size sequence is large, medium, small, then it starts again with large. Therefore the missing fourth figure must be the large pink solid heart.",
     tags: ["year3","pattern-completion","size"]
 },
 
@@ -1285,7 +1287,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Watch the arrow.",
+    hint: "Follow the arrow through its four directions. It turns by the same amount each time.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "blue", fill: "outline", rotation: 90 }] },
@@ -1301,7 +1303,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The arrow completes another 90° turn.",
+    explanation: "The blue outlined arrow rotates 90° each time: 90°, 180°, 270°, then 360°. A 360° turn brings it back to 0°, so the missing figure is the blue outlined arrow at 0°.",
     tags: ["year3","pattern-completion","rotation"]
 },
 
@@ -1311,7 +1313,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Which figure completes the pattern?",
-    hint: "Everything repeats.",
+    hint: "There are several properties changing. Compare the pattern carefully and identify which figure should come next in the sequence.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "red", fill: "solid" }] },
@@ -1327,7 +1329,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The sequence continues with the next shape in the pattern.",
+    explanation: "The sequence of shapes continues through circle, square, triangle and then star. The fill alternates solid, outline, solid, so the next fill is outline. The missing figure is therefore the yellow outlined star.",
     tags: ["year3","pattern-completion","mixed"]
 }
 

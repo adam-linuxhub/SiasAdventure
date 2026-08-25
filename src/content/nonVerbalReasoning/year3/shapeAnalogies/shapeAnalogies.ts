@@ -8,7 +8,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "The first shape changes into the second shape. Apply the same change.",
+    hint: "Compare the first two shapes. The circle changes into a square, so make the same shape change to the triangle.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "blue", fill: "solid" }] },
@@ -24,7 +24,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Circle changes into square. Triangle changes into diamond.",
+    explanation: "Start with the first pair: the blue solid circle changes into a blue solid square. The colour and fill stay the same; only the shape changes. Now use that same shape change on the blue solid triangle. It changes into the blue solid diamond, which is the third choice.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -34,7 +34,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Find the same change.",
+    hint: "The triangle becomes a star. Make the same shape change to the circle.",
     figures: [
         [
             { shapes: [{ shape: "triangle", colour: "red", fill: "solid" }] },
@@ -50,7 +50,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Triangle becomes star. Circle becomes square.",
+    explanation: "The first pair shows that a red solid triangle changes into a red solid star. The colour and fill do not change. Apply the same shape change to the red solid circle. The circle changes into a square, so the third choice is correct.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -60,7 +60,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Look at the fill.",
+    hint: "The shape and colour stay the same. Only the fill changes from solid to outline.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "green", fill: "solid" }] },
@@ -76,7 +76,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The fill changes from solid to outline.",
+    explanation: "Look at the first pair. The green circle stays a circle and stays green, but its fill changes from solid to outline. Apply that same rule to the green solid square. It becomes a green outlined square, which is the first choice.",
     tags: ["year3","shape-analogies","fill"]
 },
 
@@ -86,7 +86,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Watch the colour.",
+    hint: "The shape stays the same, but blue changes to red. Make that colour change to the square.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "blue", fill: "solid" }] },
@@ -102,7 +102,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Blue changes to red.",
+    explanation: "The first pair shows a blue solid circle changing into a red solid circle. The shape and fill stay the same; only the colour changes from blue to red. So the blue solid square must also become a red solid square. That is the first choice.",
     tags: ["year3","shape-analogies","colour"]
 },
 
@@ -112,7 +112,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Watch the size.",
+    hint: "The star gets bigger: small changes to large. Do the same to the small triangle.",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "yellow", fill: "solid", size: "small" }] },
@@ -128,7 +128,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Small changes to large.",
+    explanation: "The first pair shows a small yellow solid star becoming a large yellow solid star. The shape, colour and fill stay the same; only the size changes from small to large. Apply that rule to the small yellow solid triangle. It becomes a large triangle, so the first choice is correct.",
     tags: ["year3","shape-analogies","size"]
 },
 
@@ -138,7 +138,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Watch the rotation.",
+    hint: "The arrow turns 90° clockwise. Turn the triangle by the same 90°.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "orange", fill: "solid", rotation: 0 }] },
@@ -154,7 +154,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The shape rotates 90° clockwise.",
+    explanation: "The arrow starts at 0° and turns to 90°, so it rotates 90° clockwise. The orange solid triangle also starts at 0°. Turning it 90° clockwise gives the orange solid triangle at 90°, which is the first choice.",
     tags: ["year3","shape-analogies","rotation"]
 },
 
@@ -164,7 +164,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Apply the same rule.",
+    hint: "The diamond becomes a heart. Find the choice where the square makes the same shape change.",
     figures: [
         [
             { shapes: [{ shape: "diamond", colour: "purple", fill: "solid" }] },
@@ -180,7 +180,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Diamond changes into heart. Square changes into circle.",
+    explanation: "The first pair shows that the purple solid diamond changes into a purple solid heart. The colour and fill stay the same, so this is a shape change. Apply the same shape change to the purple solid square. It becomes a circle, which is the third choice.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -190,7 +190,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Look at the change.",
+    hint: "The hexagon becomes a circle. Apply that same shape change to the star.",
     figures: [
         [
             { shapes: [{ shape: "hexagon", colour: "grey", fill: "solid" }] },
@@ -206,7 +206,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Hexagon changes into circle. Star changes into square.",
+    explanation: "The grey solid hexagon changes into a grey solid circle. Nothing except the shape changes. Apply the same shape change to the grey solid star. The star becomes a square, so the third choice is correct.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -216,7 +216,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Look at the first pair.",
+    hint: "The circle changes into a triangle. Now make the same change to the square.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "pink", fill: "solid" }] },
@@ -232,7 +232,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Circle changes into triangle. Square changes into circle.",
+    explanation: "The first pair shows a pink solid circle changing into a pink solid triangle. The colour and fill stay the same. Apply the same shape change to the pink solid square. It becomes a circle, which is the third choice.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -242,7 +242,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Apply the same transformation.",
+    hint: "The rectangle becomes an oval. Use the same shape change on the diamond.",
     figures: [
         [
             { shapes: [{ shape: "rectangle", colour: "brown", fill: "solid" }] },
@@ -258,16 +258,17 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Rectangle changes into oval. Diamond changes into triangle.",
+    explanation: "The brown solid rectangle changes into a brown solid oval. The colour and fill remain unchanged. Apply the same shape change to the brown solid diamond. It becomes a triangle, so the third choice is correct.",
     tags: ["year3","shape-analogies"]
 },
+
 {
     id: "nvr-sa-011",
     skillId: "shape-analogies",
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "The shape changes but the colour stays the same.",
+    hint: "The circle becomes a star. Make that same shape change to the square.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "green", fill: "solid" }] },
@@ -283,7 +284,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Circle becomes star. Square becomes diamond.",
+    explanation: "The first pair shows a green solid circle changing into a green solid star. The colour and fill stay the same. Applying that same shape change to the green solid square gives a diamond. The third choice is therefore correct.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -293,7 +294,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Watch the fill.",
+    hint: "The square stays blue, but its fill changes from solid to outline. Do the same to the triangle.",
     figures: [
         [
             { shapes: [{ shape: "square", colour: "blue", fill: "solid" }] },
@@ -309,7 +310,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The fill changes from solid to outline.",
+    explanation: "The blue solid square becomes a blue outlined square. The shape and colour stay the same; only the fill changes. Therefore the blue solid triangle must become a blue outlined triangle. That is the first choice.",
     tags: ["year3","shape-analogies","fill"]
 },
 
@@ -319,7 +320,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Look at the colours.",
+    hint: "The diamond changes from red to yellow. Keep the circle the same shape and make the same colour change.",
     figures: [
         [
             { shapes: [{ shape: "diamond", colour: "red", fill: "solid" }] },
@@ -335,7 +336,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The colour changes from red to yellow.",
+    explanation: "The first pair shows a red solid diamond changing into a yellow solid diamond. The shape and fill stay the same; only the colour changes from red to yellow. So the red solid circle must become a yellow solid circle. The first choice is correct.",
     tags: ["year3","shape-analogies","colour"]
 },
 
@@ -345,7 +346,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Look at the size.",
+    hint: "The heart grows from small to large. Apply the same size change to the small star.",
     figures: [
         [
             { shapes: [{ shape: "heart", colour: "pink", fill: "solid", size: "small" }] },
@@ -361,7 +362,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Small becomes large.",
+    explanation: "The pink solid heart changes from small to large. Its shape, colour and fill stay the same. Apply the same size change to the small pink solid star. It becomes a large star, which is the first choice.",
     tags: ["year3","shape-analogies","size"]
 },
 
@@ -371,7 +372,7 @@ const questions: NvrQuestion[] = [
     stage: "recognise",
     difficulty: 1,
     question: "Complete the analogy.",
-    hint: "Watch the direction.",
+    hint: "The arrow turns 90° clockwise. Turn the triangle by the same amount.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "orange", fill: "solid", rotation: 90 }] },
@@ -387,7 +388,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Each shape rotates 90° clockwise.",
+    explanation: "The arrow turns from 90° to 180°, which is a 90° clockwise rotation. The triangle starts at 90° too, so turning it 90° clockwise gives 180°. The first choice shows the correct triangle.",
     tags: ["year3","shape-analogies","rotation"]
 },
 
@@ -397,7 +398,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Complete the analogy.",
-    hint: "The same change happens twice.",
+    hint: "The circle becomes a triangle. Apply that same shape change to the square.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "purple", fill: "solid" }] },
@@ -413,7 +414,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Circle becomes triangle. Square becomes star.",
+    explanation: "In the first pair, the purple solid circle changes into a purple solid triangle. The colour and fill stay the same, so the important change is the shape. Applying the same change to the purple solid square gives a star. The third choice is the purple solid star.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -423,7 +424,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Complete the analogy.",
-    hint: "Watch the fill change.",
+    hint: "The circle changes from outline to solid. Keep the diamond's shape and colour the same and change its fill.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "grey", fill: "outline" }] },
@@ -439,7 +440,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Outline becomes solid.",
+    explanation: "The grey circle changes from outline to solid. Its shape and colour stay the same. Do exactly the same to the grey outlined diamond: change only its fill to solid. The first choice is therefore correct.",
     tags: ["year3","shape-analogies","fill"]
 },
 
@@ -449,7 +450,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Complete the analogy.",
-    hint: "Watch the colour change.",
+    hint: "The triangle changes from green to blue. Keep the heart's shape and change its colour in the same way.",
     figures: [
         [
             { shapes: [{ shape: "triangle", colour: "green", fill: "solid" }] },
@@ -465,7 +466,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Green becomes blue.",
+    explanation: "The first pair shows green changing to blue while the shape and fill stay the same. Apply that colour change to the green solid heart. It becomes a blue solid heart, which is the first choice.",
     tags: ["year3","shape-analogies","colour"]
 },
 
@@ -475,7 +476,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Complete the analogy.",
-    hint: "Watch the size change.",
+    hint: "The circle gets smaller: large becomes small. Apply the same size change to the large square.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "brown", fill: "solid", size: "large" }] },
@@ -491,7 +492,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Large becomes small.",
+    explanation: "The brown solid circle changes from large to small. The shape, colour and fill remain unchanged. Apply the same size change to the large brown solid square. It becomes a small square, which is the first choice.",
     tags: ["year3","shape-analogies","size"]
 },
 
@@ -501,7 +502,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Complete the analogy.",
-    hint: "Watch the rotation.",
+    hint: "The triangle turns 90° clockwise. Make the same turn to the arrow.",
     figures: [
         [
             { shapes: [{ shape: "triangle", colour: "red", fill: "solid", rotation: 180 }] },
@@ -517,7 +518,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Each shape rotates 90° clockwise.",
+    explanation: "The triangle starts at 180° and ends at 270°, so it turns 90° clockwise. The red solid arrow also starts at 180°. Turning it 90° clockwise gives 270°. That is the first choice.",
     tags: ["year3","shape-analogies","rotation"]
 },
 {
@@ -526,7 +527,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Complete the analogy.",
-    hint: "Look at how the shape changes.",
+    hint: "The star becomes a heart. Make the same shape change to the circle.",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "blue", fill: "solid" }] },
@@ -542,7 +543,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Star becomes heart. Circle becomes triangle.",
+    explanation: "The star changes to a heart. The colour and fill stay the same. Apply the same shape change to the circle. It becomes a triangle.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -552,7 +553,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Complete the analogy.",
-    hint: "Watch the fill pattern.",
+    hint: "Solid changes to outline. Apply that change to the square.",
     figures: [
         [
             { shapes: [{ shape: "diamond", colour: "green", fill: "solid" }] },
@@ -568,7 +569,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Solid becomes outline.",
+    explanation: "The diamond changes from solid to outline. Its shape and colour stay the same. The solid square must therefore become an outlined square.",
     tags: ["year3","shape-analogies","fill"]
 },
 
@@ -578,7 +579,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Complete the analogy.",
-    hint: "Watch the colour change.",
+    hint: "Orange changes to purple. Make the same colour change to the triangle.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "orange", fill: "solid" }] },
@@ -594,7 +595,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Orange changes to purple.",
+    explanation: "The circle changes from orange to purple. The shape and fill stay the same. The orange triangle must also become purple.",
     tags: ["year3","shape-analogies","colour"]
 },
 
@@ -604,7 +605,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Complete the analogy.",
-    hint: "Watch the size.",
+    hint: "Small becomes large. Do the same to the small circle.",
     figures: [
         [
             { shapes: [{ shape: "hexagon", colour: "red", fill: "solid", size: "small" }] },
@@ -620,7 +621,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Small becomes large.",
+    explanation: "The hexagon changes from small to large. The circle follows the same rule, so it becomes large.",
     tags: ["year3","shape-analogies","size"]
 },
 
@@ -630,7 +631,7 @@ const questions: NvrQuestion[] = [
     stage: "understand",
     difficulty: 2,
     question: "Complete the analogy.",
-    hint: "Watch the rotation.",
+    hint: "The arrow turns 90° clockwise. Turn the triangle the same amount.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "grey", fill: "solid", rotation: 270 }] },
@@ -646,7 +647,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Each shape rotates 90° clockwise.",
+    explanation: "The arrow turns from 270° to 0°, which is a 90° clockwise turn. The triangle also starts at 270°, so it must turn to 0°.",
     tags: ["year3","shape-analogies","rotation"]
 },
 
@@ -656,7 +657,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Both the shape and the colour change.",
+    hint: "The shape changes and blue becomes red. Apply both changes.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "blue", fill: "solid" }] },
@@ -672,7 +673,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Circle changes to a red square. Triangle changes to a red diamond.",
+    explanation: "The circle becomes a square and blue becomes red. Apply both changes to the blue triangle. It becomes a red diamond.",
     tags: ["year3","shape-analogies","colour"]
 },
 
@@ -682,7 +683,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Both the fill and the size change.",
+    hint: "Solid small becomes outline large. Apply both changes.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "green", fill: "solid", size: "small" }] },
@@ -698,7 +699,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Solid small becomes outline large.",
+    explanation: "The circle changes from solid and small to outline and large. The square must make the same two changes, giving an outlined large square.",
     tags: ["year3","shape-analogies","fill","size"]
 },
 
@@ -708,7 +709,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Shape and rotation both change.",
+    hint: "The arrow becomes a triangle and turns 90°. Use the same rule.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "orange", fill: "solid", rotation: 0 }] },
@@ -724,7 +725,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Arrow becomes a triangle rotated 90° further.",
+    explanation: "The arrow changes into a triangle and turns 90° clockwise. The second arrow is at 180°, so the matching triangle is at 270°.",
     tags: ["year3","shape-analogies","rotation"]
 },
 
@@ -734,7 +735,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Look at every property.",
+    hint: "An outline shape becomes a solid shape. The shape changes too.",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "yellow", fill: "outline" }] },
@@ -750,7 +751,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Outline stars become solid hearts. Outline diamonds become solid triangles.",
+    explanation: "The outline star becomes a solid heart. The outline diamond must make the same change, becoming a solid triangle.",
     tags: ["year3","shape-analogies","fill"]
 },
 
@@ -760,7 +761,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Apply exactly the same transformation.",
+    hint: "The shape changes and solid becomes outline. Apply both changes.",
     figures: [
         [
             { shapes: [{ shape: "rectangle", colour: "purple", fill: "solid" }] },
@@ -776,16 +777,17 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Rectangle becomes an outlined oval. Square becomes an outlined triangle.",
+    explanation: "The rectangle changes into an oval and solid becomes outline. Apply both changes to the square. It becomes an outlined triangle.",
     tags: ["year3","shape-analogies","fill"]
 },
+
 {
     id: "nvr-sa-031",
     skillId: "shape-analogies",
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "The colour and fill both change.",
+    hint: "Blue becomes red and solid becomes outline.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "blue", fill: "solid" }] },
@@ -801,7 +803,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Blue solid becomes red outline.",
+    explanation: "The circle changes from blue solid to red outline. The square must make the same colour and fill changes, giving a red outlined square.",
     tags: ["year3","shape-analogies","colour","fill"]
 },
 
@@ -811,7 +813,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "The shape rotates and changes.",
+    hint: "The arrow becomes a triangle and turns 90°. Repeat that rule.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "green", fill: "solid", rotation: 0 }] },
@@ -827,7 +829,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Arrow becomes a triangle rotated a further 90°.",
+    explanation: "The arrow changes into a triangle and rotates 90° clockwise. The second arrow is at 180°, so the matching triangle is at 270°.",
     tags: ["year3","shape-analogies","rotation"]
 },
 
@@ -837,7 +839,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Watch the size and fill.",
+    hint: "Small outline becomes large solid. Make both changes.",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "yellow", fill: "outline", size: "small" }] },
@@ -853,7 +855,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Outline small becomes solid large.",
+    explanation: "The star changes from outline small to solid large. The heart must make the same fill and size changes, becoming solid and large.",
     tags: ["year3","shape-analogies","size","fill"]
 },
 
@@ -863,7 +865,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Look at the colour and size.",
+    hint: "Red small becomes blue large. Apply both changes.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "red", fill: "solid", size: "small" }] },
@@ -879,7 +881,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Red small becomes blue large.",
+    explanation: "The circle changes from red small to blue large. Apply the same colour and size changes to the red small triangle. It becomes blue and large.",
     tags: ["year3","shape-analogies","colour","size"]
 },
 
@@ -889,7 +891,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "The shape changes but the rotation stays.",
+    hint: "The shape changes, but the rotation stays the same.",
     figures: [
         [
             { shapes: [{ shape: "triangle", colour: "purple", fill: "solid", rotation: 90 }] },
@@ -905,7 +907,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Triangle becomes diamond. Arrow becomes circle.",
+    explanation: "The triangle changes to a diamond while staying at 90°. The arrow is at 180°, so it changes into a circle while staying at 180°.",
     tags: ["year3","shape-analogies","rotation"]
 },
 
@@ -915,7 +917,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Everything stays except the fill.",
+    hint: "Only the fill changes. Outline becomes solid.",
     figures: [
         [
             { shapes: [{ shape: "hexagon", colour: "orange", fill: "outline" }] },
@@ -931,7 +933,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Outline becomes solid.",
+    explanation: "The hexagon changes from outline to solid without changing its shape or colour. The outlined circle must also become solid.",
     tags: ["year3","shape-analogies","fill"]
 },
 
@@ -941,7 +943,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Look at the shape and colour.",
+    hint: "Green changes to yellow and the shape changes too.",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "green", fill: "solid" }] },
@@ -957,7 +959,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Green star becomes yellow circle. Green heart becomes yellow diamond.",
+    explanation: "The green star becomes a yellow circle. Apply the same shape and colour changes to the green heart. It becomes a yellow diamond.",
     tags: ["year3","shape-analogies","colour"]
 },
 
@@ -967,7 +969,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Watch every property carefully.",
+    hint: "The shape changes, solid becomes outline, and 0° becomes 90°.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "grey", fill: "solid", rotation: 0 }] },
@@ -983,7 +985,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Every property changes in the same way.",
+    explanation: "The circle changes shape, becomes outlined, and turns from 0° to 90°. Apply all three changes to the triangle. It becomes a grey outlined diamond at 90°.",
     tags: ["year3","shape-analogies","rotation","fill"]
 },
 
@@ -993,7 +995,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Apply the same rule.",
+    hint: "The shape changes, blue becomes red, and solid becomes outline.",
     figures: [
         [
             { shapes: [{ shape: "diamond", colour: "blue", fill: "solid" }] },
@@ -1009,7 +1011,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Diamond becomes a red outlined heart. Square becomes a red outlined circle.",
+    explanation: "The diamond becomes a red outlined heart. Apply the same shape, colour and fill changes to the blue solid square. It becomes a red outlined circle.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -1019,7 +1021,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Everything changes in the same way.",
+    hint: "The shape changes, outline becomes solid, and small becomes large.",
     figures: [
         [
             { shapes: [{ shape: "rectangle", colour: "brown", fill: "outline", size: "small" }] },
@@ -1035,7 +1037,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Outlined small becomes solid large while the shape also changes.",
+    explanation: "The rectangle becomes an oval, outline becomes solid, and small becomes large. Apply those same changes to the diamond. It becomes a solid large circle.",
     tags: ["year3","shape-analogies","size","fill"]
 },
 {
@@ -1044,7 +1046,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Watch the colour and rotation.",
+    hint: "The arrow changes from blue to red and turns 90°. Apply both changes to the triangle.",
     figures: [
         [
             { shapes: [{ shape: "arrow", colour: "blue", fill: "solid", rotation: 0 }] },
@@ -1060,7 +1062,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "The colour changes to red and the shape rotates 90°.",
+    explanation: "The arrow changes in two ways: blue becomes red, and 0° becomes 90°. The shape stays the same. Apply both changes to the blue triangle at 0°. It becomes a red triangle at 90°, which is the first choice.",
     tags: ["year3","shape-analogies","colour","rotation"]
 },
 
@@ -1070,7 +1072,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Watch the fill and size.",
+    hint: "The circle changes from outline large to solid small. Apply both changes to the square.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "green", fill: "outline", size: "large" }] },
@@ -1086,7 +1088,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Outline large becomes solid small.",
+    explanation: "The circle changes from outline to solid and from large to small. Its shape and colour stay the same. Apply those same two changes to the large outlined square. It becomes a small solid square, which is the first choice.",
     tags: ["year3","shape-analogies","fill","size"]
 },
 
@@ -1096,7 +1098,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Apply exactly the same change.",
+    hint: "Purple solid becomes orange outline. The shape also changes. Apply all three changes.",
     figures: [
         [
             { shapes: [{ shape: "hexagon", colour: "purple", fill: "solid" }] },
@@ -1112,7 +1114,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Purple solid becomes orange outline while the shape changes.",
+    explanation: "The hexagon changes into a star, purple becomes orange, and solid becomes outline. Apply those same three changes to the purple solid circle. It becomes an orange outlined triangle.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -1122,7 +1124,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Watch the rotation.",
+    hint: "The triangle turns 90° clockwise. Apply the same rotation to the arrow.",
     figures: [
         [
             { shapes: [{ shape: "triangle", colour: "red", fill: "solid", rotation: 90 }] },
@@ -1138,7 +1140,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Each figure rotates another 90° clockwise.",
+    explanation: "The triangle rotates from 90° to 180°, so it turns 90° clockwise. The arrow starts at 90° too. Turning it by the same 90° gives 180°, so the first choice is correct.",
     tags: ["year3","shape-analogies","rotation"]
 },
 
@@ -1148,7 +1150,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Look at every property.",
+    hint: "The diamond becomes a large solid green circle. Check the shape, colour, fill and size one at a time.",
     figures: [
         [
             { shapes: [{ shape: "diamond", colour: "blue", fill: "outline", size: "small" }] },
@@ -1164,7 +1166,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Every property changes in the same way.",
+    explanation: "The diamond changes to a circle, blue changes to green, outline changes to solid, and small changes to large. Apply all four changes to the blue outlined small square. It becomes a green solid large heart.",
     tags: ["year3","shape-analogies","size","colour","fill"]
 },
 
@@ -1174,7 +1176,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Focus on the shape transformation.",
+    hint: "The heart becomes a star. Make the same shape change to the triangle.",
     figures: [
         [
             { shapes: [{ shape: "heart", colour: "pink", fill: "solid" }] },
@@ -1190,7 +1192,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Heart becomes star. Triangle becomes square.",
+    explanation: "The first pair shows the heart changing into a star while the colour and fill stay the same. Apply the same shape change to the pink solid triangle. It becomes a square, which is the third choice.",
     tags: ["year3","shape-analogies"]
 },
 
@@ -1200,7 +1202,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Look at the colour swap.",
+    hint: "Yellow changes to purple while the shape and fill stay the same.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "yellow", fill: "solid" }] },
@@ -1216,7 +1218,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Yellow changes to purple.",
+    explanation: "The circle stays the same shape and solid fill, but yellow changes to purple. Apply the same colour change to the yellow solid diamond. It becomes a purple solid diamond, which is the first choice.",
     tags: ["year3","shape-analogies","colour"]
 },
 
@@ -1226,7 +1228,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Watch the fill.",
+    hint: "Solid changes to outline while the shape and colour stay the same.",
     figures: [
         [
             { shapes: [{ shape: "star", colour: "grey", fill: "solid" }] },
@@ -1242,7 +1244,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Solid becomes outline.",
+    explanation: "The star stays grey and stays a star, but its fill changes from solid to outline. Apply the same fill change to the solid grey heart. It becomes a grey outlined heart, which is the first choice.",
     tags: ["year3","shape-analogies","fill"]
 },
 
@@ -1252,7 +1254,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Watch the size change.",
+    hint: "Medium becomes large. Keep the triangle's shape, colour and fill the same.",
     figures: [
         [
             { shapes: [{ shape: "circle", colour: "orange", fill: "solid", size: "medium" }] },
@@ -1268,7 +1270,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 0 },
-    explanation: "Medium becomes large.",
+    explanation: "The circle changes from medium to large while its shape, colour and fill stay the same. Apply the same size change to the medium orange solid triangle. It becomes a large triangle, which is the first choice.",
     tags: ["year3","shape-analogies","size"]
 },
 
@@ -1278,7 +1280,7 @@ const questions: NvrQuestion[] = [
     stage: "master",
     difficulty: 3,
     question: "Complete the analogy.",
-    hint: "Apply the same transformation one last time.",
+    hint: "The square becomes a circle, blue becomes red, outline becomes solid, and 0° becomes 90°. Apply all four changes to the diamond.",
     figures: [
         [
             { shapes: [{ shape: "square", colour: "blue", fill: "outline", rotation: 0 }] },
@@ -1294,7 +1296,7 @@ const questions: NvrQuestion[] = [
         ]
     ],
     answer: { row: 1, column: 2 },
-    explanation: "Every property changes in exactly the same way as the first pair.",
+    explanation: "The square changes into a circle, blue changes to red, outline changes to solid, and 0° changes to 90°. Apply all four rules to the blue outlined diamond at 0°. It becomes a red solid star at 90°, which is the third choice.",
     tags: ["year3","shape-analogies","rotation","colour","fill"]
 }
 

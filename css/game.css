@@ -794,6 +794,603 @@ footer{
 
 }
 
+/*==================================================
+  MYSTERY MAGIC KEY CHALLENGE
+==================================================*/
+
+#mystery-challenge{
+    position:fixed;
+    inset:0;
+    z-index:2000;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    padding:24px;
+    box-sizing:border-box;
+
+    overflow:hidden;
+
+    background:
+        radial-gradient(
+            circle at 50% 35%,
+            rgba(116,72,180,.98) 0%,
+            rgba(47,24,91,.98) 42%,
+            rgba(10,5,28,1) 100%
+        );
+
+    color:white;
+    text-align:center;
+}
+
+/* Magical stars floating around the challenge */
+
+#mystery-challenge::before{
+    content:"✦  ·  ✧  ·  ✦  ·  ✧  ·  ✦  ·  ✧  ·  ✦";
+
+    position:absolute;
+    inset:20px;
+
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+
+    padding-top:20px;
+
+    font-size:1.8rem;
+    letter-spacing:2rem;
+
+    color:rgba(255,235,150,.55);
+
+    pointer-events:none;
+
+    animation:
+        mysteryStars 5s ease-in-out infinite;
+}
+
+/* Mystery */
+
+#mystery-character{
+    position:relative;
+    z-index:2;
+
+    margin-bottom:8px;
+}
+
+#mystery-character img{
+    width:230px;
+    max-width:48vw;
+    height:auto;
+
+    filter:
+        drop-shadow(0 12px 18px rgba(0,0,0,.55))
+        drop-shadow(0 0 22px rgba(190,130,255,.45));
+
+    animation:
+        mysteryFloat 3s ease-in-out infinite;
+}
+
+/* Introduction panel */
+
+#mystery-message{
+    position:relative;
+    z-index:3;
+
+    max-width:650px;
+
+    padding:22px 30px;
+
+    border-radius:26px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.14),
+            rgba(160,110,230,.12)
+        );
+
+    border:
+        2px solid rgba(230,205,255,.45);
+
+    box-shadow:
+        0 18px 55px rgba(0,0,0,.45),
+        inset 0 0 25px rgba(255,255,255,.05);
+
+    backdrop-filter:blur(10px);
+}
+
+#mystery-message h2{
+    margin:0 0 12px;
+
+    font-size:2rem;
+
+    color:#ffe58a;
+
+    text-shadow:
+        0 0 8px rgba(255,220,120,.8),
+        0 0 20px rgba(255,190,80,.45);
+}
+
+#mystery-message p{
+    margin:8px 0;
+
+    font-size:1.1rem;
+    line-height:1.5;
+}
+
+/* Start button */
+
+#start-mystery-challenge{
+    margin-top:18px;
+
+    padding:14px 30px;
+
+    border:0;
+    border-radius:30px;
+
+    font-size:1.1rem;
+    font-weight:800;
+
+    cursor:pointer;
+
+    color:#35145d;
+
+    background:
+        linear-gradient(
+            180deg,
+            #fff4ae 0%,
+            #f7d35c 55%,
+            #d99c25 100%
+        );
+
+    box-shadow:
+        0 5px 0 #9c6815,
+        0 8px 25px rgba(255,210,90,.35);
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+}
+
+#start-mystery-challenge:hover{
+    transform:
+        translateY(-3px)
+        scale(1.04);
+
+    box-shadow:
+        0 5px 0 #9c6815,
+        0 0 30px rgba(255,225,120,.75);
+}
+
+/*==================================================
+  MYSTERY FIREWORKS
+==================================================*/
+
+#mystery-fireworks-canvas{
+
+    position:fixed;
+
+    inset:0;
+
+    width:100%;
+    height:100%;
+
+    z-index:3000;
+
+    pointer-events:none;
+}
+
+/*==================================================
+  SEARCH AREA
+==================================================*/
+
+#mystery-search-area{
+    position:relative;
+    z-index:3;
+
+    width:min(920px,92vw);
+    height:min(520px,58vh);
+
+    margin-top:18px;
+
+    overflow:hidden;
+
+    border-radius:30px;
+
+    cursor:crosshair;
+
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(145,92,220,.25) 0%,
+            rgba(65,35,120,.20) 35%,
+            rgba(8,4,25,.55) 100%
+        );
+
+    border:
+        2px solid rgba(225,200,255,.30);
+
+    box-shadow:
+        0 0 0 1px rgba(255,255,255,.05),
+        0 20px 60px rgba(0,0,0,.45),
+        inset 0 0 70px rgba(0,0,0,.35),
+        inset 0 0 25px rgba(190,130,255,.12);
+}
+
+/* Inner magical glow */
+
+#mystery-search-area::before{
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    border-radius:30px;
+
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(255,220,130,.08),
+            transparent 55%
+        );
+
+    pointer-events:none;
+
+    animation:
+        mysterySearchGlow 4s ease-in-out infinite;
+}
+
+/* Subtle magical particles */
+
+#mystery-search-area::after{
+    content:"✦     ✧        ·       ✦       ·       ✧       ✦";
+
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:1.6rem;
+    letter-spacing:1.2rem;
+
+    color:rgba(220,190,255,.18);
+
+    pointer-events:none;
+
+    animation:
+        mysteryParticles 6s linear infinite;
+}
+
+/* Search instruction */
+
+#mystery-search-message{
+    position:absolute;
+
+    left:50%;
+    bottom:16px;
+
+    transform:translateX(-50%);
+
+    z-index:5;
+
+    width:90%;
+
+    margin:0;
+
+    padding:10px 18px;
+
+    box-sizing:border-box;
+
+    border-radius:20px;
+
+    background:
+        rgba(20,8,45,.72);
+
+    border:
+        1px solid rgba(220,190,255,.20);
+
+    color:rgba(255,255,255,.88);
+
+    font-size:1rem;
+
+    text-shadow:
+        0 1px 4px rgba(0,0,0,.7);
+
+    pointer-events:none;
+}
+
+/* Invisible key */
+/*==================================================
+  MYSTERY MAGIC KEY
+==================================================*/
+
+#mystery-key{
+    position:absolute;
+
+    width:90px;
+    height:90px;
+
+    z-index:10;
+
+    opacity:0;
+
+    cursor:pointer;
+
+    transform:rotate(-8deg);
+
+    transition:
+        transform .2s ease;
+}
+
+#mystery-key img{
+    display:block;
+
+    width:100%;
+    height:100%;
+
+    object-fit:contain;
+
+    user-select:none;
+
+    pointer-events:none;
+}
+
+#mystery-key.mystery-key-found{
+    opacity:1 !important;
+
+    animation:
+        mysteryKeyReveal
+        1.2s
+        ease-out
+        forwards;
+}
+/* The key's magical glow when found */
+
+#mystery-key.mystery-key-found{
+    opacity:1 !important;
+
+    width:68px;
+    height:68px;
+
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #ffffff 0%,
+            #fff3a0 20%,
+            #ffd43b 48%,
+            #d58a18 100%
+        );
+
+    box-shadow:
+        0 0 18px #fff6a5,
+        0 0 40px #ffd45a,
+        0 0 75px #b46cff;
+
+    animation:
+        mysteryKeyReveal
+        1.2s
+        ease-out
+        forwards;
+}
+#mystery-key img{
+    display:block;
+
+    width:100%;
+    height:100%;
+
+    object-fit:contain;
+
+    user-select:none;
+    pointer-events:none;
+}
+/*==================================================
+  MYSTERY ANIMATIONS
+==================================================*/
+
+@keyframes mysteryFloat{
+
+    0%{
+        transform:translateY(0) rotate(0deg);
+    }
+
+    50%{
+        transform:translateY(-10px) rotate(-1deg);
+    }
+
+    100%{
+        transform:translateY(0) rotate(0deg);
+    }
+
+}
+
+@keyframes mysteryStars{
+
+    0%,
+    100%{
+        opacity:.35;
+        transform:translateY(0);
+    }
+
+    50%{
+        opacity:.75;
+        transform:translateY(-12px);
+    }
+
+}
+
+@keyframes mysterySearchGlow{
+
+    0%,
+    100%{
+        opacity:.45;
+        transform:scale(1);
+    }
+
+    50%{
+        opacity:.9;
+        transform:scale(1.04);
+    }
+
+}
+
+@keyframes mysteryParticles{
+
+    0%{
+        transform:translateX(-20px);
+        opacity:.15;
+    }
+
+    50%{
+        transform:translateX(20px);
+        opacity:.4;
+    }
+
+    100%{
+        transform:translateX(-20px);
+        opacity:.15;
+    }
+
+}
+
+/*==================================================
+  MAGIC KEY DISCOVERY
+==================================================*/
+
+#mystery-key.mystery-key-found{
+    opacity:1 !important;
+
+    background:
+        radial-gradient(
+            circle,
+            #fff9c4 0%,
+            #ffd84d 35%,
+            #b879ff 70%,
+            transparent 72%
+        );
+
+    box-shadow:
+        0 0 15px #fff4a8,
+        0 0 35px #d59cff,
+        0 0 65px #9d5cff;
+
+    animation:
+        mysteryKeyReveal 1.2s ease-out forwards;
+}
+
+#mystery-challenge.mystery-discovery{
+    animation:
+        mysteryDiscoveryFlash .9s ease-out;
+}
+
+@keyframes mysteryKeyReveal{
+
+    0%{
+        opacity:0;
+        transform:
+            scale(.1)
+            rotate(-180deg);
+        box-shadow:
+            0 0 0 rgba(255,220,100,0);
+    }
+
+    45%{
+        opacity:1;
+        transform:
+            scale(1.8)
+            rotate(20deg);
+    }
+
+    70%{
+        transform:
+            scale(.9)
+            rotate(-8deg);
+    }
+
+    100%{
+        opacity:1;
+        transform:
+            scale(1.25)
+            rotate(0deg);
+        box-shadow:
+            0 0 20px #fff4a8,
+            0 0 45px #d59cff,
+            0 0 80px #9d5cff;
+    }
+
+}
+
+@keyframes mysteryDiscoveryFlash{
+
+    0%{
+        filter:brightness(1);
+    }
+
+    25%{
+        filter:brightness(2.2);
+    }
+
+    55%{
+        filter:brightness(1.3);
+    }
+
+    100%{
+        filter:brightness(1);
+    }
+
+}
+
+/*==================================================
+  MYSTERY CELEBRATION
+==================================================*/
+
+#mystery-character img.mystery-celebrate{
+    animation:
+        mysteryCelebrate 1.4s ease-in-out;
+}
+
+@keyframes mysteryCelebrate{
+
+    0%{
+        transform:
+            scale(1)
+            rotate(0deg);
+    }
+
+    20%{
+        transform:
+            scale(1.15)
+            rotate(-6deg);
+    }
+
+    40%{
+        transform:
+            scale(1.2)
+            rotate(6deg);
+    }
+
+    60%{
+        transform:
+            scale(1.15)
+            rotate(-4deg);
+    }
+
+    80%{
+        transform:
+            scale(1.08)
+            rotate(3deg);
+    }
+
+    100%{
+        transform:
+            scale(1)
+            rotate(0deg);
+    }
+
+}
 
 /*==================================================
   RESPONSIVE
@@ -877,6 +1474,147 @@ footer{
 
         text-align:center;
 
+    }
+
+}
+
+
+/*==================================================
+  BAT FLYOVER
+==================================================*/
+
+.bat-flyover{
+
+    position:fixed;
+
+    top:18%;
+
+    left:0;
+
+    width:140px;
+
+    height:90px;
+
+    z-index:900;
+
+    pointer-events:none;
+
+    animation-duration:2.8s;
+
+    animation-timing-function:linear;
+
+    animation-fill-mode:forwards;
+
+}
+
+.bat-winged{
+
+    display:block;
+
+    width:140px;
+
+    height:auto;
+
+    filter:
+        drop-shadow(0 4px 5px rgba(0,0,0,.25));
+
+    animation:
+        batFlap .18s ease-in-out infinite alternate;
+
+}
+
+.bat-left-to-right .bat-winged{
+
+    --bat-direction:1;
+
+}
+
+.bat-right-to-left .bat-winged{
+
+    --bat-direction:-1;
+
+}
+
+.bat-left-to-right{
+
+    animation-name:batFlyLeftToRight;
+
+}
+
+.bat-right-to-left{
+
+    animation-name:batFlyRightToLeft;
+
+}
+
+@keyframes batFlyLeftToRight{
+
+    0%{
+        transform:translateX(-120px) translateY(12px);
+    }
+
+    25%{
+        transform:translateX(25vw) translateY(-8px);
+    }
+
+    50%{
+        transform:translateX(50vw) translateY(10px);
+    }
+
+    75%{
+        transform:translateX(75vw) translateY(-5px);
+    }
+
+    100%{
+        transform:translateX(calc(100vw + 120px)) translateY(8px);
+    }
+
+}
+
+@keyframes batFlyRightToLeft{
+
+    0%{
+        transform:translateX(calc(100vw + 120px)) translateY(8px);
+    }
+
+    25%{
+        transform:translateX(75vw) translateY(-5px);
+    }
+
+    50%{
+        transform:translateX(50vw) translateY(10px);
+    }
+
+    75%{
+        transform:translateX(25vw) translateY(-8px);
+    }
+
+    100%{
+        transform:translateX(-120px) translateY(12px);
+    }
+
+}
+
+@keyframes batFlap{
+
+    from{
+        transform:
+            scaleX(var(--bat-direction, 1))
+            scaleY(.9);
+    }
+
+    to{
+        transform:
+            scaleX(var(--bat-direction, 1))
+            scaleY(1.05);
+    }
+
+}
+
+@media (prefers-reduced-motion:reduce){
+
+    .bat-flyover{
+        display:none;
     }
 
 }

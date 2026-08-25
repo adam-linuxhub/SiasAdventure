@@ -1,38 +1,37 @@
 import {
-MultipleChoiceActivity,
-SkillContent
+    MultipleChoiceActivity,
+    SkillContent
 } from "../../../types";
 
 const rockTypes: SkillContent = {
 
-skillId: "rockTypes",
+    skillId: "rockTypes",
 
-title: "Rock Types",
+    title: "Rock Types",
 
-description:
-    "Learn about different kinds of rocks and compare their appearance and properties.",
+    description:
+        "Learn about different kinds of rocks and compare their appearance and properties.",
 
-version: 1,
+    version: 1,
 
-activities: <MultipleChoiceActivity[]>[
-
-{
+    activities: <MultipleChoiceActivity[]>[
+        {
     id: "sci-rock-types-001",
     skillId: "rockTypes",
     question: "What is a rock?",
     stage: "recognise",
     options: [
         "A natural material found on Earth",
-        "A type of plant",
-        "A kind of animal",
-        "A cloud in the sky"
+        "A living thing that grows in soil",
+        "A material made only inside factories",
+        "A cloud formed high in the atmosphere"
     ],
 
     explanation:
         "Rocks are natural materials that make up much of the Earth's surface.",
 
     hint:
-        "Think about things found naturally in the ground rather than things made by people.",
+        "Think about something that occurs naturally in the ground rather than something made by people.",
 
     difficulty: 1,
     correctAnswer: "A natural material found on Earth",
@@ -61,7 +60,7 @@ activities: <MultipleChoiceActivity[]>[
         "Granite is a common type of rock.",
 
     hint:
-        "Choose the material that is naturally formed inside the Earth.",
+        "Choose the material that forms naturally as rock inside the Earth.",
 
     difficulty: 1,
     correctAnswer: "Granite",
@@ -90,7 +89,7 @@ activities: <MultipleChoiceActivity[]>[
         "Chalk is a soft rock that has traditionally been used for writing on blackboards.",
 
     hint:
-        "Think of the soft white material that can leave a mark when rubbed on a board.",
+        "Think of the soft white material that leaves a mark when rubbed across a board.",
 
     difficulty: 1,
     correctAnswer: "Chalk",
@@ -119,7 +118,7 @@ activities: <MultipleChoiceActivity[]>[
         "Granite is hard and durable, making it a popular choice for worktops.",
 
     hint:
-        "A kitchen worktop needs a rock that is strong and does not scratch easily.",
+        "A kitchen worktop needs a rock that is strong and resistant to scratching.",
 
     difficulty: 1,
     correctAnswer: "Granite",
@@ -148,7 +147,7 @@ activities: <MultipleChoiceActivity[]>[
         "Rocks can be described using properties such as hard or soft.",
 
     hint:
-        "Look for a word that describes how a rock feels when you touch it.",
+        "Look for a word that describes a physical property you could notice when handling a rock.",
 
     difficulty: 1,
     correctAnswer: "Hard",
@@ -174,10 +173,10 @@ activities: <MultipleChoiceActivity[]>[
     ],
 
     explanation:
-        "Chalk is much softer than rocks such as granite or slate.",
+        "Chalk is much softer than rocks such as granite, slate or marble.",
 
     hint:
-        "Think about which rock can easily be rubbed into a powder.",
+        "Think about which rock can easily leave powder when it is rubbed against a surface.",
 
     difficulty: 1,
     correctAnswer: "Chalk",
@@ -204,10 +203,10 @@ activities: <MultipleChoiceActivity[]>[
     ],
 
     explanation:
-        "Slate is strong and splits into flat sheets, making it useful for roof tiles.",
+        "Slate is strong and can split into flat sheets, making it useful for roof tiles.",
 
     hint:
-        "Roof tiles are often flat pieces of a rock that can split into layers.",
+        "Roof tiles need a strong material that can form thin, flat pieces.",
 
     difficulty: 1,
     correctAnswer: "Slate",
@@ -228,15 +227,15 @@ activities: <MultipleChoiceActivity[]>[
     options: [
         "Their colour, texture and hardness",
         "Their favourite food",
-        "Their age in years",
-        "Their names"
+        "Their names only",
+        "Their ability to grow"
     ],
 
     explanation:
-        "Rocks can be compared by observing their properties, such as colour, texture and hardness.",
+        "Rocks can be compared by observing properties such as colour, texture and hardness.",
 
     hint:
-        "Scientists examine features they can see and test on the rock.",
+        "Scientists examine features they can see or test rather than things a rock cannot have.",
 
     difficulty: 1,
     correctAnswer: "Their colour, texture and hardness",
@@ -262,10 +261,10 @@ activities: <MultipleChoiceActivity[]>[
     ],
 
     explanation:
-        "Marble can be polished until it is smooth and shiny.",
+        "Marble can be polished until it becomes smooth and shiny, making it useful for statues and buildings.",
 
     hint:
-        "Think of a rock often used for shiny statues and fancy buildings.",
+        "Think of the rock often seen as a smooth, polished material in statues and impressive buildings.",
 
     difficulty: 1,
     correctAnswer: "Marble",
@@ -285,16 +284,16 @@ activities: <MultipleChoiceActivity[]>[
     stage: "recognise",
     options: [
         "To identify and compare them",
-        "To help rocks grow",
-        "To make the rocks change colour",
-        "To teach rocks to move"
+        "To help rocks grow larger",
+        "To make rocks change colour",
+        "To teach rocks how to move"
     ],
 
     explanation:
         "Looking at a rock's properties helps scientists identify and compare different types of rocks.",
 
     hint:
-        "Looking closely at rocks helps scientists tell different rocks apart.",
+        "Observing a rock's features can help scientists tell one type from another.",
 
     difficulty: 1,
     correctAnswer: "To identify and compare them",
@@ -308,7 +307,125 @@ activities: <MultipleChoiceActivity[]>[
     ]
 },
 
-  {
+{
+    id: "sci-rock-types-011",
+    skillId: "rockTypes",
+    question: "Which property describes how a rock feels when touched?",
+    stage: "recognise",
+    options: [
+        "Texture",
+        "Colour",
+        "Weight",
+        "Shape"
+    ],
+
+    explanation:
+        "Texture describes how the surface of a rock feels, such as smooth, rough or grainy.",
+
+    hint:
+        "Think about whether a rock feels smooth, rough or grainy when you touch its surface.",
+
+    difficulty: 2,
+    correctAnswer: "Texture",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "rocks",
+        "properties"
+    ]
+},
+
+{
+    id: "sci-rock-types-012",
+    skillId: "rockTypes",
+    question: "Which rock would be most suitable for a strong kitchen worktop?",
+    stage: "recognise",
+    options: [
+        "Granite",
+        "Soft chalk",
+        "Loose sand",
+        "Powdery clay"
+    ],
+
+    explanation:
+        "Granite is hard and durable, so it can be used for strong kitchen worktops.",
+
+    hint:
+        "A worktop needs to cope with heavy objects and everyday use. Think about a hard, durable rock.",
+
+    difficulty: 2,
+    correctAnswer: "Granite",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "rocks",
+        "granite",
+        "uses"
+    ]
+},
+
+{
+    id: "sci-rock-types-013",
+    skillId: "rockTypes",
+    question: "Which rock can be split into thin, flat sheets?",
+    stage: "recognise",
+    options: [
+        "Slate",
+        "Granite",
+        "Marble",
+        "Chalk"
+    ],
+
+    explanation:
+        "Slate naturally splits into thin, flat sheets, which makes it useful for roof tiles.",
+
+    hint:
+        "Think about the rock commonly used for roofs because it can form flat pieces.",
+
+    difficulty: 2,
+    correctAnswer: "Slate",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "rocks",
+        "slate",
+        "properties"
+    ]
+},
+
+{
+    id: "sci-rock-types-014",
+    skillId: "rockTypes",
+    question: "Which rock is easiest to scratch because it is relatively soft?",
+    stage: "recognise",
+    options: [
+        "Chalk",
+        "Granite",
+        "Marble",
+        "Slate"
+    ],
+
+    explanation:
+        "Chalk is relatively soft compared with rocks such as granite, marble and slate.",
+
+    hint:
+        "Think about the rock that is soft enough to leave a powdery mark when rubbed.",
+
+    difficulty: 2,
+    correctAnswer: "Chalk",
+    estimatedSeconds: 20,
+
+    tags: [
+        "science",
+        "rocks",
+        "chalk",
+        "properties"
+    ]
+},
+{
     id: "sci-rock-types-015",
     skillId: "rockTypes",
     question: "Which pair of words could describe a rock?",
@@ -324,7 +441,7 @@ activities: <MultipleChoiceActivity[]>[
         "Scientists describe rocks using properties such as hardness and texture.",
 
     hint:
-        "Choose words that describe how a rock looks or feels, not how a living thing behaves.",
+        "Choose words that describe how a rock looks or feels rather than how a living thing behaves.",
 
     difficulty: 2,
     correctAnswer: "Hard and rough",
@@ -344,16 +461,16 @@ activities: <MultipleChoiceActivity[]>[
     stage: "recognise",
     options: [
         "It is strong and splits into flat pieces.",
-        "It melts easily.",
-        "It is very soft.",
-        "It floats on water."
+        "It melts very easily in warm weather.",
+        "It is softer than most building materials.",
+        "It floats safely on water during heavy rain."
     ],
 
     explanation:
-        "Slate is strong and naturally splits into flat sheets that make good roof tiles.",
+        "Slate is strong and naturally splits into flat sheets that can be used as roof tiles.",
 
     hint:
-        "Roof tiles need to be strong and flat so they can protect buildings.",
+        "Roof tiles need to be strong and flat so they can protect a building from the weather.",
 
     difficulty: 2,
     correctAnswer: "It is strong and splits into flat pieces.",
@@ -375,15 +492,15 @@ activities: <MultipleChoiceActivity[]>[
     options: [
         "Granite",
         "Chalk",
-        "Clay",
-        "Sand"
+        "Soft clay",
+        "Loose sand"
     ],
 
     explanation:
-        "Granite is usually hard and often has a rough texture before it is polished.",
+        "Granite is usually hard and can have a rough, grainy texture.",
 
     hint:
-        "Think of the rock commonly used for strong buildings and worktops.",
+        "Think about the hard rock often used for buildings and kitchen worktops.",
 
     difficulty: 2,
     correctAnswer: "Granite",
@@ -406,14 +523,14 @@ activities: <MultipleChoiceActivity[]>[
         "Marble",
         "Chalk",
         "Sand",
-        "Clay"
+        "Soft clay"
     ],
 
     explanation:
-        "Marble is often polished for use in buildings and statues.",
+        "Marble can be polished to produce a smooth, shiny surface and is often used for statues and buildings.",
 
     hint:
-        "Look for the rock that is often used for decorative statues and shiny surfaces.",
+        "Think of the rock often seen as a smooth, polished material in statues and decorative buildings.",
 
     difficulty: 2,
     correctAnswer: "Marble",
@@ -433,16 +550,16 @@ activities: <MultipleChoiceActivity[]>[
     stage: "recognise",
     options: [
         "They have different properties.",
-        "They all weigh the same.",
-        "They all have the same colour.",
-        "They all come from the same place."
+        "They all weigh exactly the same.",
+        "They all have exactly the same colour.",
+        "They all come from exactly the same place."
     ],
 
     explanation:
-        "The properties of a rock, such as hardness and texture, affect how it can be used.",
+        "Different rocks have different properties, such as hardness and texture, which makes them suitable for different uses.",
 
     hint:
-        "A rock's features decide what jobs it is suitable for.",
+        "Think about why one rock might be suitable for a roof while another is better for a worktop.",
 
     difficulty: 2,
     correctAnswer: "They have different properties.",
@@ -463,16 +580,16 @@ activities: <MultipleChoiceActivity[]>[
     stage: "recognise",
     options: [
         "They observe properties such as colour, texture and hardness.",
-        "They ask the rocks where they came from.",
+        "They ask the rocks where they formed.",
         "They see which rock grows the fastest.",
-        "They check whether the rocks can move."
+        "They test whether the rocks can move by themselves."
     ],
 
     explanation:
-        "Scientists identify and compare rocks by observing their physical properties.",
+        "Scientists compare rocks by observing and testing their physical properties, such as colour, texture and hardness.",
 
     hint:
-        "Scientists use things they can see or test when comparing materials.",
+        "Scientists use features they can observe or test when comparing different rocks.",
 
     difficulty: 2,
     correctAnswer: "They observe properties such as colour, texture and hardness.",
