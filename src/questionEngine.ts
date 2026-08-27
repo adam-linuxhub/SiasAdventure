@@ -26,6 +26,11 @@ export interface Question {
 
     skillId?: string;
 
+    category?: {
+        subject: string;
+        subSubject: string;
+    };
+
     stage?:
         | "recognise"
         | "understand"

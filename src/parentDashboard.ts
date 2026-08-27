@@ -1,11 +1,24 @@
+/*==================================================
+  SIA'S ADVENTURE
+
+  PARENT DASHBOARD
+
+==================================================*/
+
 import type { Player } from "./types";
 import { Worlds } from "./worlds";
 import { LearningEngine } from "./learning";
+import { getAllQuestions } from "./questionAdapter";
 import { getAllSkills } from "./content";
 import { SkillProgressStorage } from "./storage/SkillProgressStorage";
 import { QuestionProgressStorage } from "./storage/QuestionProgressStorage";
 import skillMetadata from "./content/generatedSkillMetadata";
 import { getSkill } from "./content/getSkill";
+
+
+/*==================================================
+  HELPERS
+==================================================*/
 
 function byId<T extends HTMLElement>(
     id: string
@@ -23,10 +36,15 @@ function byId<T extends HTMLElement>(
     }
 
     return element as T;
-
 }
 
+
+/*==================================================
+  DASHBOARD
+==================================================*/
+
 export const Dashboard = {
+
 
     /*==================================================
       SUMMARY
@@ -41,6 +59,7 @@ export const Dashboard = {
                 "dashboard-summary"
             );
 
+
         const accuracy =
             player.questionsAnswered > 0
                 ? Math.round(
@@ -50,13 +69,16 @@ export const Dashboard = {
                 )
                 : 0;
 
+
         const weakest =
             LearningEngine
                 .getWeakestSkills();
 
+
         const strongest =
             LearningEngine
                 .getStrongestSkills();
+
 
         const weakestSkill =
             weakest.length > 0
@@ -65,6 +87,7 @@ export const Dashboard = {
                 )?.title ?? weakest[0].skillId
                 : "no specific area";
 
+
         const strongestSkill =
             strongest.length > 0
                 ? getSkill(
@@ -72,7 +95,9 @@ export const Dashboard = {
                 )?.title ?? strongest[0].skillId
                 : "all skills";
 
+
         let progress = "";
+
 
         if (accuracy >= 90) {
 
@@ -93,73 +118,50 @@ export const Dashboard = {
 
         }
 
+
         container.innerHTML = `
 
             <div class="card">
 
                 <h2>
-
                     Learning Summary
-
                 </h2>
 
                 <p>
-
                     Sia is making
                     <strong>${progress}</strong>
                     progress.
-
                 </p>
 
                 <p>
-
                     She has answered
                     <strong>
-
                         ${player.questionsAnswered}
-
                     </strong>
-
                     questions with an overall accuracy of
-
                     <strong>
-
                         ${accuracy}%
-
                     </strong>.
-
                 </p>
 
                 <p>
-
                     Her strongest area is
-
                     <strong>
-
                         ${strongestSkill}
-
                     </strong>.
-
                 </p>
 
                 <p>
-
                     The main area requiring additional practice is
-
                     <strong>
-
                         ${weakestSkill}
-
                     </strong>.
-
                 </p>
 
                 <p>
-
                     Short, regular practice sessions will help
                     maintain confidence while continuing to
                     strengthen weaker skills.
-
                 </p>
 
             </div>
@@ -167,6 +169,8 @@ export const Dashboard = {
         `;
 
     },
+
+
     /*==================================================
       OVERVIEW
     ==================================================*/
@@ -180,6 +184,7 @@ export const Dashboard = {
                 player.world
             );
 
+
         const accuracy =
             player.questionsAnswered > 0
                 ? Math.round(
@@ -188,6 +193,7 @@ export const Dashboard = {
                     100
                 )
                 : 0;
+
 
         byId<HTMLDivElement>(
             "overall-progress"
@@ -198,15 +204,11 @@ export const Dashboard = {
                 <div class="overview-card">
 
                     <div class="overview-title">
-
                         Questions Answered
-
                     </div>
 
                     <div class="overview-value">
-
                         ${player.questionsAnswered}
-
                     </div>
 
                 </div>
@@ -214,15 +216,11 @@ export const Dashboard = {
                 <div class="overview-card">
 
                     <div class="overview-title">
-
                         Correct Answers
-
                     </div>
 
                     <div class="overview-value">
-
                         ${player.correct}
-
                     </div>
 
                 </div>
@@ -230,15 +228,11 @@ export const Dashboard = {
                 <div class="overview-card">
 
                     <div class="overview-title">
-
                         Accuracy
-
                     </div>
 
                     <div class="overview-value">
-
                         ${accuracy}%
-
                     </div>
 
                 </div>
@@ -246,15 +240,11 @@ export const Dashboard = {
                 <div class="overview-card">
 
                     <div class="overview-title">
-
                         Current Level
-
                     </div>
 
                     <div class="overview-value">
-
                         ${player.levelName}
-
                     </div>
 
                 </div>
@@ -264,6 +254,7 @@ export const Dashboard = {
         `;
 
     },
+
 
     /*==================================================
       STATISTICS
@@ -282,6 +273,7 @@ export const Dashboard = {
                 )
                 : 0;
 
+
         byId<HTMLDivElement>(
             "statistics"
         ).innerHTML = `
@@ -289,9 +281,7 @@ export const Dashboard = {
             <div class="card">
 
                 <h2>
-
                     Statistics
-
                 </h2>
 
                 <div class="statistics-grid">
@@ -299,15 +289,11 @@ export const Dashboard = {
                     <div class="stat-card">
 
                         <div class="stat-title">
-
                             Questions Answered
-
                         </div>
 
                         <div class="stat-value">
-
                             ${player.questionsAnswered}
-
                         </div>
 
                     </div>
@@ -315,15 +301,11 @@ export const Dashboard = {
                     <div class="stat-card">
 
                         <div class="stat-title">
-
                             Correct Answers
-
                         </div>
 
                         <div class="stat-value">
-
                             ${player.correct}
-
                         </div>
 
                     </div>
@@ -331,15 +313,11 @@ export const Dashboard = {
                     <div class="stat-card">
 
                         <div class="stat-title">
-
                             Accuracy
-
                         </div>
 
                         <div class="stat-value">
-
                             ${accuracy}%
-
                         </div>
 
                     </div>
@@ -352,306 +330,550 @@ export const Dashboard = {
 
     },
 
+
     /*==================================================
       SKILLS REPORT
     ==================================================*/
 
-  renderSkillsReport(): void {
+    renderSkillsReport(): void {
 
-    const container =
-        byId<HTMLDivElement>(
-            "skills-report"
-        );
+        const container =
+            byId<HTMLDivElement>(
+                "skills-report"
+            );
 
-    const skills =
-        getAllSkills();
 
-    if (skills.length === 0) {
+        const skills =
+            getAllSkills();
 
-        container.innerHTML = `
-            <div class="card">
-                No learning data available.
-            </div>
-        `;
 
-        return;
-    }
+        const questions =
+            getAllQuestions();
 
-    const skillData = skills.map(skill => {
-    const questions =
-        skill.activities.filter(
-            activity => activity.id
-        );
 
-    const progress =
-        LearningEngine.skills.get(skill.skillId);
+        /*
+         * QuestionProgressStorage contains the
+         * persistent question-level progress.
+         *
+         * The Skills Overview uses this store rather
+         * than LearningEngine.skills because the latter
+         * is an in-memory learning state and may not yet
+         * have been populated when the parent dashboard
+         * is opened.
+         */
+        QuestionProgressStorage.load();
 
-    const questionsSeen =
-        progress?.questionsSeen ?? 0;
 
-    const correctAnswers =
-        progress?.correct ?? 0;
+        if (skills.length === 0) {
 
-    const accuracy =
-        questionsSeen > 0
-            ? Math.round(
-                (correctAnswers / questionsSeen) * 100
-            )
-            : null;
+            container.innerHTML = `
 
-    const progressCount =
-    Math.min(
-        questionsSeen,
-        questions.length
-    );
+                <div class="card">
+                    No learning data available.
+                </div>
 
-    let status = "Not Started";
+            `;
 
-    if (questionsSeen > 0) {
+            return;
 
-        status = "Learning";
+        }
 
-    }
 
-    if (
-        progress?.mastery === 100 &&
-        questionsSeen >= 10
-    ) {
+        /*==============================================
+          BUILD QUESTION → CATEGORY LOOKUP
+        ==============================================*/
 
-        status = "Mastered";
+        const categoryBySkill =
+            new Map<string, string>();
 
-    }
+        const subjectBySkill =
+            new Map<string, string>();
 
-    return {
 
-        subject:
-            skillMetadata[skill.skillId]?.subject ??
-            "Unknown",
+        for (const question of questions) {
 
-        title:
-            skill.title,
+            if (!question.skillId) {
+                continue;
+            }
 
-        totalQuestions:
-            questions.length,
 
-        mastered:
-            progressCount,
-
-        accuracy,
-
-        status
-
-    };
-
-});
-
-    // Skills that Sia has started working on
-    const activeSkills =
-        skillData
-            .filter(
-                skill => skill.accuracy !== null
-            )
-            .sort((a, b) => {
-
-                const subjectComparison =
-                    a.subject.localeCompare(
-                        b.subject
-                    );
-
-                if (subjectComparison !== 0) {
-                    return subjectComparison;
-                }
+            if (question.category?.subject) {
 
                 if (
-                    a.accuracy! !==
-                    b.accuracy!
+                    !subjectBySkill.has(
+                        question.skillId
+                    )
                 ) {
-                    return (
-                        a.accuracy! -
-                        b.accuracy!
+
+                    subjectBySkill.set(
+                        question.skillId,
+                        question.category.subject
                     );
+
                 }
 
-                return a.title.localeCompare(
-                    b.title
-                );
+            }
+
+
+            if (question.category?.subSubject) {
+
+                if (
+                    !categoryBySkill.has(
+                        question.skillId
+                    )
+                ) {
+
+                    categoryBySkill.set(
+                        question.skillId,
+                        question.category.subSubject
+                    );
+
+                }
+
+            }
+
+        }
+
+
+        /*==============================================
+          BUILD SKILL DATA
+        ==============================================*/
+
+        const skillData =
+            skills.map(skill => {
+
+                const skillQuestions =
+                    questions.filter(
+                        question =>
+                            question.skillId ===
+                            skill.skillId
+                    );
+
+
+                /*
+                 * Each skill contains a fixed set of
+                 * questions. A question is counted as
+                 * attempted when its stored attempt
+                 * count is greater than zero.
+                 */
+                let questionsAttempted = 0;
+
+                let correctAnswers = 0;
+
+                let totalAttempts = 0;
+
+
+                for (const question of skillQuestions) {
+
+                    const progress =
+                        QuestionProgressStorage.get(
+                            question.id
+                        );
+
+
+                    const attempts =
+                        progress?.attempts ?? 0;
+
+
+                    const correctCount =
+                        progress?.correctCount ?? 0;
+
+
+                    if (attempts > 0) {
+
+                        questionsAttempted++;
+
+                    }
+
+
+                    totalAttempts += attempts;
+
+                    correctAnswers += correctCount;
+
+                }
+
+
+                /*
+                 * Accuracy is based on all recorded
+                 * attempts, rather than the number of
+                 * unique questions attempted.
+                 */
+                const accuracy =
+                    totalAttempts > 0
+                        ? Math.round(
+                            (
+                                correctAnswers /
+                                totalAttempts
+                            ) *
+                            100
+                        )
+                        : null;
+
+
+                let status =
+                    "Not Started";
+
+
+                if (questionsAttempted > 0) {
+
+                    status =
+                        "Learning";
+
+                }
+
+
+                /*
+                 * A skill is considered mastered when
+                 * at least 10 questions have been
+                 * attempted and every recorded attempt
+                 * has been correct.
+                 */
+                if (
+                    totalAttempts > 0 &&
+                    accuracy === 100 &&
+                    questionsAttempted >= 10
+                ) {
+
+                    status =
+                        "Mastered";
+
+                }
+
+
+                return {
+
+                    subject:
+                        subjectBySkill.get(
+                            skill.skillId
+                        ) ??
+                        skillMetadata[
+                            skill.skillId
+                        ]?.subject ??
+                        "Unknown",
+
+
+                    category:
+                        categoryBySkill.get(
+                            skill.skillId
+                        ) ??
+                        "Unknown",
+
+
+                    title:
+                        skill.title,
+
+
+                    totalQuestions:
+                        skillQuestions.length,
+
+
+                    questionsAttempted,
+
+
+                    accuracy,
+
+
+                    status
+
+                };
 
             });
 
-    // Skills Sia has not started
-    const notStartedSkills =
-        skillData
-            .filter(
-                skill => skill.accuracy === null
-            )
-            .sort((a, b) => {
+
+        /*==============================================
+          SORT SKILLS
+        ==============================================*/
+
+        skillData.sort(
+            (a, b) => {
 
                 const subjectComparison =
                     a.subject.localeCompare(
                         b.subject
                     );
 
-                if (subjectComparison !== 0) {
+
+                if (
+                    subjectComparison !== 0
+                ) {
+
                     return subjectComparison;
+
                 }
+
+
+                const categoryComparison =
+                    a.category.localeCompare(
+                        b.category
+                    );
+
+
+                if (
+                    categoryComparison !== 0
+                ) {
+
+                    return categoryComparison;
+
+                }
+
+
+                if (
+                    a.accuracy !== null &&
+                    b.accuracy !== null &&
+                    a.accuracy !== b.accuracy
+                ) {
+
+                    return (
+                        a.accuracy -
+                        b.accuracy
+                    );
+
+                }
+
+
+                if (
+                    a.accuracy === null &&
+                    b.accuracy !== null
+                ) {
+
+                    return 1;
+
+                }
+
+
+                if (
+                    a.accuracy !== null &&
+                    b.accuracy === null
+                ) {
+
+                    return -1;
+
+                }
+
 
                 return a.title.localeCompare(
                     b.title
                 );
 
-            });
+            }
+        );
 
-    const activeRows =
-        activeSkills
-            .map(skill => {
 
-                return `
-                    <tr>
+        /*==============================================
+          GROUP BY SUBJECT
+        ==============================================*/
 
-                        <td>
-                            ${skill.subject}
-                        </td>
+        const subjects =
+            new Map<
+                string,
+                Map<string, typeof skillData>
+            >();
 
-                        <td>
-                            ${skill.title}
-                        </td>
 
-                        <td>
-                            ${skill.mastered}
-                            /
-                            ${skill.totalQuestions}
-                        </td>
+        for (const skill of skillData) {
 
-                        <td>
-                            ${skill.accuracy}%
-                        </td>
+            if (
+                !subjects.has(
+                    skill.subject
+                )
+            ) {
 
-                        <td>
-                            ${skill.status}
-                        </td>
+                subjects.set(
+                    skill.subject,
+                    new Map()
+                );
 
-                    </tr>
-                `;
+            }
 
-            })
-            .join("");
 
-    const notStartedRows =
-        notStartedSkills
-            .map(skill => {
+            const categories =
+                subjects.get(
+                    skill.subject
+                )!;
 
-                return `
-                    <tr>
 
-                        <td>
-                            ${skill.subject}
-                        </td>
+            if (
+                !categories.has(
+                    skill.category
+                )
+            ) {
 
-                        <td>
-                            ${skill.title}
-                        </td>
+                categories.set(
+                    skill.category,
+                    []
+                );
 
-                        <td>
-                            0
-                            /
-                            ${skill.totalQuestions}
-                        </td>
+            }
 
-                        <td>
-                            —
-                        </td>
 
-                        <td>
-                            Not Started
-                        </td>
+            categories
+                .get(skill.category)!
+                .push(skill);
 
-                    </tr>
-                `;
+        }
 
-            })
-            .join("");
 
-    container.innerHTML = `
+        /*==============================================
+          RENDER SUBJECTS
+        ==============================================*/
 
-        <div class="card">
+        const subjectSections =
+            [...subjects.entries()]
+                .map(
+                    (
+                        [
+                            subject,
+                            categories
+                        ]
+                    ) => {
 
-            <h2>
-                Skills in Progress
-            </h2>
+                        const categorySections =
+                            [...categories.entries()]
+                                .map(
+                                    (
+                                        [
+                                            category,
+                                            categorySkills
+                                        ]
+                                    ) => {
 
-            <p>
-                These are the skills Sia has started
-                working on. They are shown from
-                lowest to highest accuracy.
-            </p>
+                                        const rows =
+                                            categorySkills
+                                                .map(
+                                                    skill => {
 
-            <table class="skills-table">
+                                                        return `
 
-                <thead>
+                                                            <tr>
 
-                    <tr>
+                                                                <td>
+                                                                    ${skill.title}
+                                                                </td>
 
-                        <th>Subject</th>
-                        <th>Skill</th>
-                        <th>Progress</th>
-                        <th>Accuracy</th>
-                        <th>Status</th>
+                                                                <td>
+                                                                    ${
+                                                                        skill.questionsAttempted
+                                                                    }
+                                                                    /
+                                                                    ${
+                                                                        skill.totalQuestions
+                                                                    }
+                                                                </td>
 
-                    </tr>
+                                                                <td>
+                                                                    ${
+                                                                        skill.accuracy !== null
+                                                                            ? `${skill.accuracy}%`
+                                                                            : "—"
+                                                                    }
+                                                                </td>
 
-                </thead>
+                                                                <td>
+                                                                    ${skill.status}
+                                                                </td>
 
-                <tbody>
+                                                            </tr>
 
-                    ${activeRows}
+                                                        `;
 
-                </tbody>
+                                                    }
+                                                )
+                                                .join("");
 
-            </table>
 
-        </div>
+                                        return `
 
-        <div class="card">
+                                            <div class="card">
 
-            <h2>
-                Not Yet Started
-            </h2>
+                                                <h3>
+                                                    ${category}
+                                                </h3>
 
-            <p>
-                These skills have not yet been
-                attempted.
-            </p>
+                                                <table class="skills-table">
 
-            <table class="skills-table">
+                                                    <thead>
 
-                <thead>
+                                                        <tr>
 
-                    <tr>
+                                                            <th>
+                                                                Skill
+                                                            </th>
 
-                        <th>Subject</th>
-                        <th>Skill</th>
-                        <th>Progress</th>
-                        <th>Accuracy</th>
-                        <th>Status</th>
+                                                            <th>
+                                                                Questions
+                                                            </th>
 
-                    </tr>
+                                                            <th>
+                                                                Accuracy
+                                                            </th>
 
-                </thead>
+                                                            <th>
+                                                                Status
+                                                            </th>
 
-                <tbody>
+                                                        </tr>
 
-                    ${notStartedRows}
+                                                    </thead>
 
-                </tbody>
+                                                    <tbody>
 
-            </table>
+                                                        ${rows}
 
-        </div>
+                                                    </tbody>
 
-    `;
+                                                </table>
 
-},
-    
+                                            </div>
+
+                                        `;
+
+                                    }
+                                )
+                                .join("");
+
+
+                        return `
+
+                            <section class="skills-subject">
+
+                                <h2>
+                                    ${subject}
+                                </h2>
+
+                                ${categorySections}
+
+                            </section>
+
+                        `;
+
+                    }
+                )
+                .join("");
+
+
+        container.innerHTML = `
+
+            <div class="card">
+
+                <h2>
+                    Skills Overview
+                </h2>
+
+                <p>
+                    Skills are organised by subject and category.
+                    Accuracy shows how Sia has performed on the
+                    questions she has attempted.
+                </p>
+
+            </div>
+
+            ${subjectSections}
+
+        `;
+
+    },
+
+
     /*==================================================
       RECOMMENDATIONS
     ==================================================*/
@@ -663,20 +885,20 @@ export const Dashboard = {
                 "recommendations"
             );
 
+
         const weakest =
             LearningEngine
                 .getWeakestSkills();
+
 
         const strongest =
             LearningEngine
                 .getStrongestSkills();
 
+
         if (
-
             weakest.length === 0 ||
-
             strongest.length === 0
-
         ) {
 
             container.innerHTML = `
@@ -693,20 +915,17 @@ export const Dashboard = {
 
         }
 
+
         container.innerHTML = `
 
             <div class="card">
 
                 <h2>
-
                     Weekly Recommendations
-
                 </h2>
 
                 <h3>
-
                     Priority Skills
-
                 </h3>
 
                 <ul>
@@ -718,12 +937,22 @@ export const Dashboard = {
                             <li>
 
                                 <strong>
-
-                                    ${getSkill(skill.skillId)?.title ?? skill.skillId}
-
+                                    ${
+                                        getSkill(
+                                            skill.skillId
+                                        )?.title ??
+                                        skill.skillId
+                                    }
                                 </strong>
 
-                                (${skillMetadata[skill.skillId]?.subject ?? "Unknown"})
+                                (
+                                    ${
+                                        skillMetadata[
+                                            skill.skillId
+                                        ]?.subject ??
+                                        "Unknown"
+                                    }
+                                )
 
                             </li>
 
@@ -733,9 +962,7 @@ export const Dashboard = {
                 </ul>
 
                 <h3>
-
                     Strongest Skills
-
                 </h3>
 
                 <ul>
@@ -747,12 +974,22 @@ export const Dashboard = {
                             <li>
 
                                 <strong>
-
-                                    ${getSkill(skill.skillId)?.title ?? skill.skillId}
-
+                                    ${
+                                        getSkill(
+                                            skill.skillId
+                                        )?.title ??
+                                        skill.skillId
+                                    }
                                 </strong>
 
-                                (${skillMetadata[skill.skillId]?.subject ?? "Unknown"})
+                                (
+                                    ${
+                                        skillMetadata[
+                                            skill.skillId
+                                        ]?.subject ??
+                                        "Unknown"
+                                    }
+                                )
 
                             </li>
 
@@ -762,11 +999,9 @@ export const Dashboard = {
                 </ul>
 
                 <p>
-
                     Recommended practice:
                     15–20 minutes,
                     3 times this week.
-
                 </p>
 
             </div>

@@ -8,13 +8,15 @@
 
 ==================================================*/
 
-import { getAllSkills } from "./content";
+import {
+    content,
+    getAllActivitiesWithCategories
+} from "./content";
 
 import type { Question } from "./questionEngine";
 
 import type {
-    MultipleChoiceActivity,
-    SkillContent
+    MultipleChoiceActivity
 } from "./content/types";
 
 import type {
@@ -49,6 +51,8 @@ function convertActivity(
         id: activity.id,
 
         skillId: activity.skillId,
+
+        category: activity.category,
 
         stage: activity.stage,
 
@@ -87,6 +91,11 @@ export function convertNvrQuestion(
         id: question.id,
 
         skillId: question.skillId,
+
+        category: {
+            subject: "nonVerbalReasoning",
+            subSubject: question.skillId
+        },
 
         stage: question.stage,
 
@@ -130,15 +139,20 @@ export function convertNvrQuestion(
 
 export function getAllQuestions(): Question[] {
 
-const skills: SkillContent[] =
-    getAllSkills();
-
+    const activities =
+    getAllActivitiesWithCategories();
 
     const questions =
-        skills.flatMap(skill =>
-            skill.activities.map(convertActivity)
-        );
+        activities.map(convertActivity);
 
-    return questions;
+    const nvrQuestions =
+        content.nonVerbalReasoning.year3;
 
+    const convertedNvrQuestions =
+        nvrQuestions.map(convertNvrQuestion);
+
+    return [
+        ...questions,
+        ...convertedNvrQuestions
+    ];
 }

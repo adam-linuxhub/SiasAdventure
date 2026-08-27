@@ -15,7 +15,10 @@ import verbalSkills from "./verbalSkills";
 import nonVerbalReasoning from "./nonVerbalReasoning";
 
 import type { Question } from "../questionEngine";
-import type { SkillContent } from "./types";
+import type {
+    MultipleChoiceActivity,
+    SkillContent
+} from "./types";
 
 
 /*==================================================
@@ -47,103 +50,142 @@ export const content = {
   COLLECT QUESTIONS
 ==================================================*/
 
-function collectQuestions(
-
+function collectActivitiesWithCategories(
     node: unknown,
-
-    questions: Question[]
-
+    questions: MultipleChoiceActivity[],
+    subject: string = "",
+    subSubject: string = ""
 ): void {
 
+    if (Array.isArray(node)) {
 
-    if (
+        for (const item of node) {
 
-        Array.isArray(node)
-
-    ) {
-
-        for (
-
-            const item of node
-
-        ) {
-
-            collectQuestions(
-
+            collectActivitiesWithCategories(
                 item,
-
-                questions
-
+                questions,
+                subject,
+                subSubject
             );
-
         }
 
         return;
-
     }
 
-
     if (
-
-        node
-
-        &&
-
+        node &&
         typeof node === "object"
-
     ) {
 
-
         const object =
-
             node as Record<string, unknown>;
 
-
         // Actual question
+        if (
+            "question" in object &&
+            "correctAnswer" in object
+        ) {
+
+            questions.push({
+                ...(object as unknown as MultipleChoiceActivity),
+                category: {
+                    subject,
+                    subSubject
+                }
+            });
+
+            return;
+        }
+
+        // Continue through content tree
+        for (const [key, value] of Object.entries(object)) {
+
+            /*
+             * Year folders are structural only.
+             * They are not subjects or sub-subjects.
+             */
+            if (
+                key === "year3" ||
+                key === "year4" ||
+                key === "year5" ||
+                key === "year6"
+            ) {
+
+                collectActivitiesWithCategories(
+                    value,
+                    questions,
+                    subject,
+                    subSubject
+                );
+
+                continue;
+            }
+
+            const nextSubject =
+                subject || key;
+
+            const nextSubSubject =
+                subject && !subSubject
+                    ? key
+                    : subSubject;
+
+            collectActivitiesWithCategories(
+                value,
+                questions,
+                nextSubject,
+                nextSubSubject
+            );
+        }
+    }
+}
+
+function collectQuestions(
+    node: unknown,
+    questions: Question[]
+): void {
+
+    if (Array.isArray(node)) {
+
+        for (const item of node) {
+
+            collectQuestions(
+                item,
+                questions
+            );
+        }
+
+        return;
+    }
+
+    if (
+        node &&
+        typeof node === "object"
+    ) {
+
+        const object =
+            node as Record<string, unknown>;
 
         if (
-
-            "question" in object
-
-            &&
-
+            "question" in object &&
             "correctAnswer" in object
-
         ) {
 
             questions.push(
-
-                object as Question
-
+                object as unknown as Question
             );
 
             return;
-
         }
 
-
-        // Continue through SkillContent
-
-        for (
-
-            const value of Object.values(object)
-
-        ) {
+        for (const value of Object.values(object)) {
 
             collectQuestions(
-
                 value,
-
                 questions
-
             );
-
         }
-
     }
-
 }
-
 
 /*==================================================
   GET ALL QUESTIONS
@@ -151,22 +193,31 @@ function collectQuestions(
 
 export function getAllQuestions(): Question[] {
 
-
     const questions: Question[] = [];
 
-
     collectQuestions(
-
         content,
-
         questions
-
     );
 
     return questions;
-
 }
 
+/*==================================================
+  GET ALL ACTIVITIES WITH CATEGORIES
+==================================================*/
+
+export function getAllActivitiesWithCategories(): MultipleChoiceActivity[] {
+
+    const activities: MultipleChoiceActivity[] = [];
+
+    collectActivitiesWithCategories(
+        content,
+        activities
+    );
+
+    return activities;
+}
 
 /*==================================================
   COLLECT SKILLS

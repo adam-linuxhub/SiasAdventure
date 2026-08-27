@@ -13,6 +13,11 @@ export interface MultipleChoiceActivity {
 
     skillId: SkillId;
 
+    category?: {
+        subject: string;
+        subSubject: string;
+    };
+
     stage: LearningStage;
 
     question: string;
