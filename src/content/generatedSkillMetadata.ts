@@ -373,6 +373,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "mathematics/year3/numberPlaceValue/countInTwentyFives.ts"
             },
 
+    "countryFlags": {
+                skillId: "countryFlags",
+                subject: "Geography",
+                yearGroup: "year3",
+                strand: "continentsAndCountries",
+                sourcePath: "geography/year3/continentsAndCountries/countryFlags.ts"
+            },
+
     "dailyLife": {
                 skillId: "dailyLife",
                 subject: "History",

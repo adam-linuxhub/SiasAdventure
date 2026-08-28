@@ -324,6 +324,27 @@ body.world-12 {
 
 }
 
+/*==================================================
+  QUESTION IMAGE
+==================================================*/
+
+.question-image{
+
+    display:block;
+
+    width:auto;
+
+    max-width:300px;
+
+    max-height:180px;
+
+    height:auto;
+
+    margin:0 auto 22px;
+
+    object-fit:contain;
+
+}
 
 /*==================================================
   ANSWERS

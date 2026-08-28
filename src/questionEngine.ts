@@ -45,6 +45,8 @@ export interface Question {
 
     hint: string;
 
+    image?: string;
+
     /**
      * Text questions display these.
      *
@@ -177,6 +179,10 @@ export const QuestionEngine = {
 
         }
 
+
+
+
+
         this.currentIndex = 0;
         this.questionNumber = 0;
         this.currentQuestion = null;
@@ -193,6 +199,9 @@ export const QuestionEngine = {
         questions: Question[]
 
     ): Question {
+
+ 
+
 
         if (
 
@@ -446,14 +455,10 @@ if (
 
             }
 
-            selectedQuestion =
-
-                QuestionSelector.select(
-
-                    remainingQuestions
-
-                );
-
+        selectedQuestion =
+            QuestionSelector.select(
+                remainingQuestions
+            );
         }
 
         if (!selectedQuestion) {

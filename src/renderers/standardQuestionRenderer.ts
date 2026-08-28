@@ -36,6 +36,55 @@ export function renderStandardQuestion(
     byId<HTMLElement>("hint-text").textContent =
         question.hint;
 
+    const questionText =
+    byId<HTMLElement>("question-text");
+
+    let questionImage =
+        document.getElementById("question-image");
+
+    if (question.image) {
+
+        if (!questionImage) {
+
+            questionImage =
+                document.createElement("img");
+
+            questionImage.id =
+                "question-image";
+
+            questionImage.className =
+                "question-image";
+
+            questionText.insertAdjacentElement(
+                "afterend",
+                questionImage
+            );
+
+        }
+
+        questionImage.setAttribute(
+            "src",
+            question.image
+        );
+
+        questionImage.setAttribute(
+            "alt",
+            "Question image"
+        );
+
+        questionImage.classList.remove(
+            "hidden"
+        );
+
+    }
+    else if (questionImage) {
+
+        questionImage.classList.add(
+            "hidden"
+        );
+
+    }
+
     const answers =
         byId<HTMLDivElement>("answers");
 

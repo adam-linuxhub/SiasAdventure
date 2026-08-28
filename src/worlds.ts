@@ -27,42 +27,42 @@ export const Worlds = {
             relicsRequired: 30
         },
         {
-            id: 3,
+            id: 2,
             name: "Enchanted Forest",
             subtitle: "Where Magic Grows",
             description: "Friendly woodland creatures guard hidden relics.",
             relicsRequired: 30
         },
         {
-            id: 4,
+            id: 3,
             name: "Pirate Isles",
             subtitle: "Treasures of the Seven Seas",
             description: "Discover long-lost pirate relics.",
             relicsRequired: 30
         },
         {
-            id: 5,
+            id: 4,
             name: "Dragon Mountains",
             subtitle: "Home of Ancient Dragons",
             description: "Only the bravest explorers reach the summit.",
             relicsRequired: 30
         },
         {
-            id: 6,
+            id: 5,
             name: "Ancient Desert",
             subtitle: "The Lost Kingdom",
             description: "Ancient secrets lie beneath the sand.",
             relicsRequired: 30
         },
         {
-            id: 7,
+            id: 6,
             name: "Underwater Kingdom",
             subtitle: "The Coral Palace",
             description: "Search beneath the waves for magical relics.",
             relicsRequired: 30
         },
         {
-            id: 2,
+            id: 7,
             name: "Frozen Kingdom",
             subtitle: "The Ice Palace",
             description: "Frozen relics sparkle beneath the snow.",

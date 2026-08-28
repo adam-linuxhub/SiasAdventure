@@ -40,6 +40,8 @@ export interface MultipleChoiceActivity {
 
     hint?: string;
 
+    image?: string;
+
 }
 
 export interface SkillContent {

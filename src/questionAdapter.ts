@@ -64,8 +64,10 @@ function convertActivity(
 
         hint: activity.hint ?? "",
 
-        answers: [...activity.options],
+        image: activity.image,
 
+        answers: [...activity.options],
+        
         correct,
 
         explanation: activity.explanation,

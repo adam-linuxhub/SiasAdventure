@@ -415,6 +415,374 @@ const world1Relics: Relic[] = [
 
 ];
 
+/*==================================================
+  WORLD 2 RELICS
+==================================================*/
+
+const world2Relics: Relic[] = [
+
+    {
+        id: "w2-emerald-elven-quiver",
+        world: 2,
+        order: 1,
+        item: "Emerald Elven Quiver",
+        badge: "Forest Archer",
+        description: "An enchanted quiver woven with living vines and set with a glowing emerald.",
+        icon: "🏹",
+        image: "emerald_elven_quiver.png",
+        rarity: "Common"
+    },
+
+    {
+        id: "w2-emerald-enchanted-quill",
+        world: 2,
+        order: 2,
+        item: "Emerald Enchanted Quill",
+        badge: "Forest Scribe",
+        description: "A magical quill that writes with the green light of the enchanted forest.",
+        icon: "🪶",
+        image: "emerald_enchanted_quill.png",
+        rarity: "Rare"
+    },
+
+    {
+        id: "w2-emerald-flower-tiara",
+        world: 2,
+        order: 3,
+        item: "Emerald Flower Tiara",
+        badge: "Forest Royalty",
+        description: "A delicate golden tiara adorned with emeralds and enchanted woodland flowers.",
+        icon: "👑",
+        image: "emerald_flower_tiara.png",
+        rarity: "Epic"
+    },
+
+    {
+        id: "w2-emerald-leaf-crown",
+        world: 2,
+        order: 4,
+        item: "Emerald Leaf Crown",
+        badge: "Leaf Guardian",
+        description: "A magnificent crown of golden vines and emerald leaves from the ancient forest.",
+        icon: "👑",
+        image: "emerald_leaf_crown.png",
+        rarity: "Legendary"
+    },
+
+    {
+        id: "w2-emerald-leaf-tiara",
+        world: 2,
+        order: 5,
+        item: "Emerald Leaf Tiara",
+        badge: "Woodland Noble",
+        description: "A beautiful woodland tiara decorated with shining leaves and emerald crystals.",
+        icon: "👑",
+        image: "emerald_leaf_tiara.png",
+        rarity: "Rare"
+    },
+
+    {
+        id: "w2-emerald-spiral-vial",
+        world: 2,
+        order: 6,
+        item: "Emerald Spiral Vial",
+        badge: "Forest Alchemist",
+        description: "A mysterious vial containing swirling emerald magic gathered from the forest.",
+        icon: "🧪",
+        image: "emerald_spiral_vial.png",
+        rarity: "Common"
+    },
+
+    {
+        id: "w2-emerald-starflower-pendant",
+        world: 2,
+        order: 7,
+        item: "Emerald Starflower Pendant",
+        badge: "Starflower Keeper",
+        description: "A radiant pendant combining emerald magic with the delicate power of starflowers.",
+        icon: "💚",
+        image: "emerald_starflower_pendant.png",
+        rarity: "Epic"
+    },
+
+    {
+        id: "w2-emerald-vine-compass",
+        world: 2,
+        order: 8,
+        item: "Emerald Vine Compass",
+        badge: "Forest Pathfinder",
+        description: "An enchanted compass that guides explorers safely through the deepest woodland.",
+        icon: "🧭",
+        image: "emerald_vine_compass.png",
+        rarity: "Rare"
+    },
+
+    {
+        id: "w2-emerald-vine-hourglass",
+        world: 2,
+        order: 9,
+        item: "Emerald Vine Hourglass",
+        badge: "Keeper of Seasons",
+        description: "Its enchanted sands mark the changing seasons of the magical forest.",
+        icon: "⏳",
+        image: "emerald_vine_hourglass.png",
+        rarity: "Epic"
+    },
+
+    {
+        id: "w2-emerald-vine-ring",
+        world: 2,
+        order: 10,
+        item: "Emerald Vine Ring",
+        badge: "Vine Keeper",
+        description: "A golden ring entwined with magical vines and a brilliant emerald.",
+        icon: "💍",
+        image: "emerald_vine_ring.png",
+        rarity: "Rare"
+    },
+
+    {
+        id: "w2-enchanted-emerald-garden-lantern",
+        world: 2,
+        order: 11,
+        item: "Enchanted Emerald Garden Lantern",
+        badge: "Garden Light",
+        description: "A glowing lantern that illuminates hidden paths and secret gardens.",
+        icon: "🏮",
+        image: "enchanted_emerald_garden_lantern.png",
+        rarity: "Common"
+    },
+
+    {
+        id: "w2-enchanted-emerald-grimoire",
+        world: 2,
+        order: 12,
+        item: "Enchanted Emerald Grimoire",
+        badge: "Forest Spellkeeper",
+        description: "An ancient book containing spells passed down by the guardians of the forest.",
+        icon: "📚",
+        image: "enchanted_emerald_grimoire.png",
+        rarity: "Legendary"
+    },
+
+    {
+        id: "w2-enchanted-emerald-hourglass",
+        world: 2,
+        order: 13,
+        item: "Enchanted Emerald Hourglass",
+        badge: "Time of the Forest",
+        description: "An enchanted hourglass filled with sparkling emerald sands.",
+        icon: "⌛",
+        image: "enchanted_emerald_hourglass.png",
+        rarity: "Rare"
+    },
+
+    {
+        id: "w2-enchanted-emerald-telescope",
+        world: 2,
+        order: 14,
+        item: "Enchanted Emerald Telescope",
+        badge: "Forest Stargazer",
+        description: "A magical telescope that reveals wonders hidden beyond the forest canopy.",
+        icon: "🔭",
+        image: "enchanted_emerald_telescope.png",
+        rarity: "Epic"
+    },
+
+    {
+        id: "w2-enchanted-emerald-tree-orb",
+        world: 2,
+        order: 15,
+        item: "Enchanted Emerald Tree Orb",
+        badge: "Tree Whisperer",
+        description: "A glowing orb containing the living magic of an ancient enchanted tree.",
+        icon: "🔮",
+        image: "enchanted_emerald_tree_orb.png",
+        rarity: "Legendary"
+    },
+
+    {
+        id: "w2-enchanted-emerald-wand",
+        world: 2,
+        order: 16,
+        item: "Enchanted Emerald Wand",
+        badge: "Forest Spellcaster",
+        description: "A vine-wrapped wand channeling the bright magic of the enchanted forest.",
+        icon: "🪄",
+        image: "enchanted_emerald_wand.png",
+        rarity: "Epic"
+    },
+
+    {
+        id: "w2-enchanted-world-tree-orb",
+        world: 2,
+        order: 17,
+        item: "Enchanted World Tree Orb",
+        badge: "World Tree Guardian",
+        description: "A powerful orb said to contain a fragment of the magic of the World Tree.",
+        icon: "🌳",
+        image: "enchanted_world_tree_orb.png",
+        rarity: "Legendary"
+    },
+
+    {
+        id: "w2-jeweled-emerald-butterfly",
+        world: 2,
+        order: 18,
+        item: "Jeweled Emerald Butterfly",
+        badge: "Butterfly Friend",
+        description: "A magical butterfly crafted from emeralds and enchanted woodland jewels.",
+        icon: "🦋",
+        image: "jeweled_emerald_butterfly.png",
+        rarity: "Rare"
+    },
+
+    {
+        id: "w2-nature-amulet",
+        world: 2,
+        order: 19,
+        item: "Nature Amulet",
+        badge: "Friend of Nature",
+        description: "A powerful amulet blessed with the gentle magic of the natural world.",
+        icon: "🍃",
+        image: "nature_amulet.png",
+        rarity: "Common"
+    },
+
+    {
+        id: "w2-nature-crystal-orb",
+        world: 2,
+        order: 20,
+        item: "Nature Crystal Orb",
+        badge: "Crystal of Nature",
+        description: "A luminous crystal orb filled with the energy of the living forest.",
+        icon: "💎",
+        image: "nature_crystal_orb.png",
+        rarity: "Epic"
+    },
+
+    {
+        id: "w2-nature-deer-emblem",
+        world: 2,
+        order: 21,
+        item: "Nature Deer Emblem",
+        badge: "Forest Guardian",
+        description: "A sacred emblem honouring the graceful deer that guard the enchanted woodland.",
+        icon: "🦌",
+        image: "nature_deer_emblem.png",
+        rarity: "Legendary"
+    },
+
+    {
+        id: "w2-nature-grimoire",
+        world: 2,
+        order: 22,
+        item: "Nature Grimoire",
+        badge: "Nature Scholar",
+        description: "A magical tome filled with the secrets of plants, creatures and ancient trees.",
+        icon: "📖",
+        image: "nature_grimoire.png",
+        rarity: "Epic"
+    },
+
+    {
+        id: "w2-nature-key",
+        world: 2,
+        order: 23,
+        item: "Nature Key",
+        badge: "Secret Keeper",
+        description: "An enchanted key said to unlock a hidden place deep within the forest.",
+        icon: "🗝️",
+        image: "nature_key.png",
+        rarity: "Common"
+    },
+
+    {
+        id: "w2-nature-lantern",
+        world: 2,
+        order: 24,
+        item: "Nature Lantern",
+        badge: "Path Lighter",
+        description: "A woodland lantern whose gentle glow reveals hidden forest paths.",
+        icon: "🏮",
+        image: "nature_lantern.png",
+        rarity: "Rare"
+    },
+
+    {
+        id: "w2-nature-pendant",
+        world: 2,
+        order: 25,
+        item: "Nature Pendant",
+        badge: "Heart of the Forest",
+        description: "A beautiful pendant carrying the peaceful magic of the enchanted woodland.",
+        icon: "🍃",
+        image: "nature_pendant.png",
+        rarity: "Rare"
+    },
+
+    {
+        id: "w2-nature-ring",
+        world: 2,
+        order: 26,
+        item: "Nature Ring",
+        badge: "Nature's Bond",
+        description: "A magical ring woven with living vines and blessed with emerald energy.",
+        icon: "💍",
+        image: "nature_ring.png",
+        rarity: "Common"
+    },
+
+    {
+        id: "w2-nature-staff",
+        world: 2,
+        order: 27,
+        item: "Nature Staff",
+        badge: "Forest Mage",
+        description: "An ancient staff grown from enchanted wood and crowned with a glowing emerald.",
+        icon: "🪄",
+        image: "nature_staff.png",
+        rarity: "Epic"
+    },
+
+    {
+        id: "w2-nature-tree-orb",
+        world: 2,
+        order: 28,
+        item: "Nature Tree Orb",
+        badge: "Ancient Tree Keeper",
+        description: "A magical orb containing the spirit and wisdom of an ancient tree.",
+        icon: "🌳",
+        image: "nature_tree_orb.png",
+        rarity: "Legendary"
+    },
+
+    {
+        id: "w2-verdant-compass",
+        world: 2,
+        order: 29,
+        item: "Verdant Compass",
+        badge: "Master Pathfinder",
+        description: "An ornate emerald compass that always points towards the heart of the forest.",
+        icon: "🧭",
+        image: "verdant_compass.png",
+        rarity: "Epic"
+    },
+
+    {
+        id: "w2-verdant-pendant",
+        world: 2,
+        order: 30,
+        item: "Verdant Pendant",
+        badge: "Heart of Verdance",
+        description: "A magnificent emerald pendant glowing with the life-giving magic of the forest.",
+        icon: "💚",
+        image: "verdant_pendant.png",
+        rarity: "Legendary"
+    }
+
+];
+
 const worlds: TreasureWorld[] = [
 
     {
@@ -433,7 +801,7 @@ const worlds: TreasureWorld[] = [
 
         name: "Enchanted Forest",
 
-        relics: []
+        relics: world2Relics
 
     },
 

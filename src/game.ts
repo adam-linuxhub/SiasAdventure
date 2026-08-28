@@ -12,6 +12,9 @@ import { QuestionEngine,type Question,type QuestionResult} from "./questionEngin
 import {renderTreasureGallery} from "./treasureUI";
 import NvrRenderer from "./nvr/NvrRenderer";
 import {
+    renderQuestion
+} from "./renderers/rendererFactory";
+import {
     convertNvrQuestion
 } from "./questionAdapter";
 
@@ -535,41 +538,8 @@ function displayQuestion(): void {
 
     answers.style.display = "";
 
-    currentQuestion.answers.forEach((answer, index) => {
+    renderQuestion(currentQuestion);
 
-        const label =
-            document.createElement("label");
-
-        label.className = "answer-option";
-
-        label.innerHTML = `
-            <input
-                type="radio"
-                name="answer"
-                value="${index}">
-            ${answer}
-        `;
-
-        label
-            .querySelector<HTMLInputElement>("input")!
-            .addEventListener("change", () => {
-
-                document
-                    .querySelectorAll<HTMLElement>(".answer-option")
-                    .forEach(option => {
-                        option.classList.remove("selected");
-                    });
-
-                label.classList.add("selected");
-
-                message.classList.remove("visible");
-                message.textContent = "";
-
-            });
-
-        answers.appendChild(label);
-
-    });
 
 }
 
@@ -1482,7 +1452,7 @@ function showWorldComplete(): void {
     );
 
     const nextWorld =
-        Worlds.getNextWorld(player.world);
+        Worlds.getWorld(player.world);
 
     PlayerStorage.save(player);
 
