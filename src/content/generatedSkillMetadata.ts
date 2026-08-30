@@ -33,32 +33,40 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 skillId: "add-and-subtract-on-number-line",
                 subject: "Mathematics",
                 yearGroup: "year3",
-                strand: "numberPlaceValue",
-                sourcePath: "mathematics/year3/numberPlaceValue/addAndSubtractOnNumberLine.ts"
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/addAndSubtractOnNumberLine.ts"
             },
 
     "add-and-subtract-three-digit-numbers": {
                 skillId: "add-and-subtract-three-digit-numbers",
                 subject: "Mathematics",
                 yearGroup: "year3",
-                strand: "numberPlaceValue",
-                sourcePath: "mathematics/year3/numberPlaceValue/addAndSubtractThreeDigitNumbers.ts"
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/addAndSubtractThreeDigitNumbers.ts"
             },
 
     "add-and-subtract-using-partitioning": {
                 skillId: "add-and-subtract-using-partitioning",
                 subject: "Mathematics",
                 yearGroup: "year3",
-                strand: "numberPlaceValue",
-                sourcePath: "mathematics/year3/numberPlaceValue/addAndSubtractUsingPartitioning.ts"
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/addAndSubtractUsingPartitioning.ts"
             },
 
     "add-and-subtract-with-exchanging": {
                 skillId: "add-and-subtract-with-exchanging",
                 subject: "Mathematics",
                 yearGroup: "year3",
-                strand: "numberPlaceValue",
-                sourcePath: "mathematics/year3/numberPlaceValue/addAndSubtractWithExchanging.ts"
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/addAndSubtractWithExchanging.ts"
+            },
+
+    "adding-fractions": {
+                skillId: "adding-fractions",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "fractions",
+                sourcePath: "mathematics/year3/fractions/addingFractions.ts"
             },
 
     "addingSuffixes": {
@@ -67,6 +75,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "spelling",
                 sourcePath: "english/year3/spelling/addingSuffixes.ts"
+            },
+
+    "addition-problems": {
+                skillId: "addition-problems",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/additionProblems.ts"
             },
 
     "adjectives": {
@@ -115,6 +131,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "analogies",
                 sourcePath: "verbalSkills/year3/analogies/analogies1.ts"
+            },
+
+    "angles": {
+                skillId: "angles",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "geometry",
+                sourcePath: "mathematics/year3/geometry/angles.ts"
             },
 
     "angloSaxonArrival": {
@@ -173,12 +197,36 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "english/year3/reading/authorIntent.ts"
             },
 
+    "bar-charts": {
+                skillId: "bar-charts",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "statistics",
+                sourcePath: "mathematics/year3/statistics/barCharts.ts"
+            },
+
     "bronzeAge": {
                 skillId: "bronzeAge",
                 subject: "History",
                 yearGroup: "year3",
                 strand: "prehistoricBritain",
                 sourcePath: "history/year3/prehistoricBritain/bronzeAge.ts"
+            },
+
+    "capacity": {
+                skillId: "capacity",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "measurement",
+                sourcePath: "mathematics/year3/measurement/capacity.ts"
+            },
+
+    "capitalCities": {
+                skillId: "capitalCities",
+                subject: "Geography",
+                yearGroup: "year3",
+                strand: "continentsAndCountries",
+                sourcePath: "geography/year3/continentsAndCountries/capitalCities.ts"
             },
 
     "capitalLetters": {
@@ -201,8 +249,8 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 skillId: "check-answers-using-the-inverse",
                 subject: "Mathematics",
                 yearGroup: "year3",
-                strand: "numberPlaceValue",
-                sourcePath: "mathematics/year3/numberPlaceValue/checkAnswersUsingTheInverse.ts"
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/checkAnswersUsingTheInverse.ts"
             },
 
     "classification": {
@@ -293,6 +341,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "mathematics/year3/numberPlaceValue/compareOrderNumbers.ts"
             },
 
+    "comparing-numbers": {
+                skillId: "comparing-numbers",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "numberPlaceValue",
+                sourcePath: "mathematics/year3/numberPlaceValue/comparingNumbers.ts"
+            },
+
     "compassDirections": {
                 skillId: "compassDirections",
                 subject: "Geography",
@@ -373,6 +429,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "mathematics/year3/numberPlaceValue/countInTwentyFives.ts"
             },
 
+    "counting-in-fifties": {
+                skillId: "counting-in-fifties",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "numberPlaceValue",
+                sourcePath: "mathematics/year3/numberPlaceValue/countingInFifties.ts"
+            },
+
     "countryFlags": {
                 skillId: "countryFlags",
                 subject: "Geography",
@@ -405,6 +469,22 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "verbalSkills/year3/dictionarySkills/dictionarySkills1.ts"
             },
 
+    "division-facts": {
+                skillId: "division-facts",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "multiplicationAndDivision",
+                sourcePath: "mathematics/year3/multiplicationAndDivision/divisionFacts.ts"
+            },
+
+    "division-problems": {
+                skillId: "division-problems",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "multiplicationAndDivision",
+                sourcePath: "mathematics/year3/multiplicationAndDivision/divisionProblems.ts"
+            },
+
     "egyptianCivilisation": {
                 skillId: "egyptianCivilisation",
                 subject: "History",
@@ -429,12 +509,20 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "science/year4/livingThings/environmentalChange.ts"
             },
 
+    "equivalent-fractions": {
+                skillId: "equivalent-fractions",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "fractions",
+                sourcePath: "mathematics/year3/fractions/equivalentFractions.ts"
+            },
+
     "estimate-answers-to-calculations": {
                 skillId: "estimate-answers-to-calculations",
                 subject: "Mathematics",
                 yearGroup: "year3",
-                strand: "numberPlaceValue",
-                sourcePath: "mathematics/year3/numberPlaceValue/estimateAnswersToCalculations.ts"
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/estimateAnswersToCalculations.ts"
             },
 
     "estimate-on-number-line": {
@@ -533,6 +621,30 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "science/year3/rocks/fossils.ts"
             },
 
+    "fractions-of-amounts": {
+                skillId: "fractions-of-amounts",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "fractions",
+                sourcePath: "mathematics/year3/fractions/fractionsOfAmounts.ts"
+            },
+
+    "fractions-on-number-line": {
+                skillId: "fractions-on-number-line",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "fractions",
+                sourcePath: "mathematics/year3/fractions/fractionsOnNumberLine.ts"
+            },
+
+    "fractions-problem-solving": {
+                skillId: "fractions-problem-solving",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "fractions",
+                sourcePath: "mathematics/year3/fractions/fractionsProblemSolving.ts"
+            },
+
     "fullStops": {
                 skillId: "fullStops",
                 subject: "English",
@@ -621,6 +733,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "english/year3/reading/inference.ts"
             },
 
+    "inverse-operations": {
+                skillId: "inverse-operations",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/inverseOperations.ts"
+            },
+
     "ironAge": {
                 skillId: "ironAge",
                 subject: "History",
@@ -635,6 +755,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "angloSaxons",
                 sourcePath: "history/year3/angloSaxons/kingdomsAndReligion.ts"
+            },
+
+    "length": {
+                skillId: "length",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "measurement",
+                sourcePath: "mathematics/year3/measurement/length.ts"
             },
 
     "letter-codes": {
@@ -733,12 +861,36 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "geography/year3/maps/mapSymbols.ts"
             },
 
+    "mass": {
+                skillId: "mass",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "measurement",
+                sourcePath: "mathematics/year3/measurement/mass.ts"
+            },
+
     "measuringWeather": {
                 skillId: "measuringWeather",
                 subject: "Geography",
                 yearGroup: "year3",
                 strand: "weatherAndClimate",
                 sourcePath: "geography/year3/weatherAndClimate/measuringWeather.ts"
+            },
+
+    "mental-addition": {
+                skillId: "mental-addition",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/mentalAddition.ts"
+            },
+
+    "mental-subtraction": {
+                skillId: "mental-subtraction",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/mentalSubtraction.ts"
             },
 
     "missing-letters": {
@@ -749,12 +901,28 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "verbalSkills/year3/missingLetters/missingLetters1.ts"
             },
 
+    "missing-number-problems": {
+                skillId: "missing-number-problems",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "multiplicationAndDivision",
+                sourcePath: "mathematics/year3/multiplicationAndDivision/missingNumberProblems.ts"
+            },
+
     "mixed-verbal-reasoning": {
                 skillId: "mixed-verbal-reasoning",
                 subject: "Verbal Skills",
                 yearGroup: "year3",
                 strand: "mixedVerbalReasoning",
                 sourcePath: "verbalSkills/year3/mixedVerbalReasoning/mixedVerbalReasoning2.ts"
+            },
+
+    "money-problems": {
+                skillId: "money-problems",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "money",
+                sourcePath: "mathematics/year3/money/moneyProblems.ts"
             },
 
     "mountainBasics": {
@@ -797,6 +965,22 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "verbalSkills/year3/multipleMeaningWords/multipleMeaningWords1.ts"
             },
 
+    "multiplication-facts": {
+                skillId: "multiplication-facts",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "multiplicationAndDivision",
+                sourcePath: "mathematics/year3/multiplicationAndDivision/multiplicationFacts.ts"
+            },
+
+    "multiplication-problems": {
+                skillId: "multiplication-problems",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "multiplicationAndDivision",
+                sourcePath: "mathematics/year3/multiplicationAndDivision/multiplicationProblems.ts"
+            },
+
     "muscles": {
                 skillId: "muscles",
                 subject: "Science",
@@ -811,6 +995,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "grammar",
                 sourcePath: "english/year3/grammar/nouns.ts"
+            },
+
+    "number-sequences": {
+                skillId: "number-sequences",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "numberPlaceValue",
+                sourcePath: "mathematics/year3/numberPlaceValue/numberSequences.ts"
             },
 
     "nutrition": {
@@ -835,6 +1027,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "oddOneOut",
                 sourcePath: "verbalSkills/year3/oddOneOut/oddOneOut1.ts"
+            },
+
+    "ordering-numbers": {
+                skillId: "ordering-numbers",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "numberPlaceValue",
+                sourcePath: "mathematics/year3/numberPlaceValue/orderingNumbers.ts"
             },
 
     "paragraphStructure": {
@@ -869,12 +1069,28 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "nonVerbalReasoning/year3/patternCompletion/patternCompletion.ts"
             },
 
+    "perimeter": {
+                skillId: "perimeter",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "geometry",
+                sourcePath: "mathematics/year3/geometry/perimeter.ts"
+            },
+
     "pharaohs": {
                 skillId: "pharaohs",
                 subject: "History",
                 yearGroup: "year3",
                 strand: "ancientEgypt",
                 sourcePath: "history/year3/ancientEgypt/pharaohs.ts"
+            },
+
+    "pictograms": {
+                skillId: "pictograms",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "statistics",
+                sourcePath: "mathematics/year3/statistics/pictograms.ts"
             },
 
     "pitchAndVolume": {
@@ -907,6 +1123,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "planets",
                 sourcePath: "science/year3/planets/planetOrder.ts"
+            },
+
+    "pounds-and-pence": {
+                skillId: "pounds-and-pence",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "money",
+                sourcePath: "mathematics/year3/money/poundsAndPence.ts"
             },
 
     "prediction": {
@@ -947,6 +1171,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "grammar",
                 sourcePath: "english/year3/grammar/pronouns.ts"
+            },
+
+    "properties-of-2d-shapes": {
+                skillId: "properties-of-2d-shapes",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "geometry",
+                sourcePath: "mathematics/year3/geometry/propertiesOf2DShapes.ts"
             },
 
     "protectingEcosystems": {
@@ -1085,6 +1317,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "science/year3/planets/rockyAndGasGiants.ts"
             },
 
+    "roman-numerals-to-12": {
+                skillId: "roman-numerals-to-12",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "numberPlaceValue",
+                sourcePath: "mathematics/year3/numberPlaceValue/romanNumeralsTo12.ts"
+            },
+
     "romanArmyAndLife": {
                 skillId: "romanArmyAndLife",
                 subject: "History",
@@ -1123,6 +1363,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "numberPlaceValue",
                 sourcePath: "mathematics/year3/numberPlaceValue/roundToNearest10.ts"
+            },
+
+    "rounding": {
+                skillId: "rounding",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "numberPlaceValue",
+                sourcePath: "mathematics/year3/numberPlaceValue/rounding.ts"
             },
 
     "seed-dispersal": {
@@ -1249,16 +1497,16 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 skillId: "solve-one-step-addition-and-subtraction-problems",
                 subject: "Mathematics",
                 yearGroup: "year3",
-                strand: "numberPlaceValue",
-                sourcePath: "mathematics/year3/numberPlaceValue/solveOneStepAdditionAndSubtractionProblems.ts"
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/solveOneStepAdditionAndSubtractionProblems.ts"
             },
 
     "solve-two-step-addition-and-subtraction-problems": {
                 skillId: "solve-two-step-addition-and-subtraction-problems",
                 subject: "Mathematics",
                 yearGroup: "year3",
-                strand: "numberPlaceValue",
-                sourcePath: "mathematics/year3/numberPlaceValue/solveTwoStepAdditionAndSubtractionProblems.ts"
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/solveTwoStepAdditionAndSubtractionProblems.ts"
             },
 
     "soundTravelsThroughMaterials": {
@@ -1267,6 +1515,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year4",
                 strand: "sound",
                 sourcePath: "science/year4/sound/soundTravelsThroughMaterials.ts"
+            },
+
+    "statistics-problems": {
+                skillId: "statistics-problems",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "statistics",
+                sourcePath: "mathematics/year3/statistics/statisticsProblems.ts"
             },
 
     "stoneAge": {
@@ -1299,6 +1555,22 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "grammar",
                 sourcePath: "english/year3/grammar/subjectAndPredicate.ts"
+            },
+
+    "subtracting-fractions": {
+                skillId: "subtracting-fractions",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "fractions",
+                sourcePath: "mathematics/year3/fractions/subtractingFractions.ts"
+            },
+
+    "subtraction-problems": {
+                skillId: "subtraction-problems",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/subtractionProblems.ts"
             },
 
     "suffixes": {
@@ -1341,6 +1613,14 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "science/year4/statesOfMatter/switchesAndComponents.ts"
             },
 
+    "symmetry": {
+                skillId: "symmetry",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "geometry",
+                sourcePath: "mathematics/year3/geometry/symmetry.ts"
+            },
+
     "synonyms": {
                 skillId: "synonyms",
                 subject: "Verbal Skills",
@@ -1349,12 +1629,52 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "verbalSkills/year3/synonyms/synonyms2.ts"
             },
 
+    "tables": {
+                skillId: "tables",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "statistics",
+                sourcePath: "mathematics/year3/statistics/tables.ts"
+            },
+
+    "telling-the-time": {
+                skillId: "telling-the-time",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "time",
+                sourcePath: "mathematics/year3/time/tellingTheTime.ts"
+            },
+
+    "three-d-shapes": {
+                skillId: "three-d-shapes",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "geometry",
+                sourcePath: "mathematics/year3/geometry/threeDShapes.ts"
+            },
+
     "three-word-analogies": {
                 skillId: "three-word-analogies",
                 subject: "Verbal Skills",
                 yearGroup: "year3",
                 strand: "threeWordAnalogies",
                 sourcePath: "verbalSkills/year3/threeWordAnalogies/threeWordAnalogies1.ts"
+            },
+
+    "time-problems": {
+                skillId: "time-problems",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "time",
+                sourcePath: "mathematics/year3/time/timeProblems.ts"
+            },
+
+    "two-d-shapes": {
+                skillId: "two-d-shapes",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "geometry",
+                sourcePath: "mathematics/year3/geometry/twoDShapes.ts"
             },
 
     "usingContext": {
@@ -1499,6 +1819,22 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "vocabulary",
                 sourcePath: "english/year3/vocabulary/wordFamilies.ts"
+            },
+
+    "written-addition": {
+                skillId: "written-addition",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/writtenAddition.ts"
+            },
+
+    "written-subtraction": {
+                skillId: "written-subtraction",
+                subject: "Mathematics",
+                yearGroup: "year3",
+                strand: "additionAndSubtraction",
+                sourcePath: "mathematics/year3/additionAndSubtraction/writtenSubtraction.ts"
             }
 
 };
