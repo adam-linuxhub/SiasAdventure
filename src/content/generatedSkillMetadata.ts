@@ -1101,30 +1101,6 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 sourcePath: "science/year4/sound/pitchAndVolume.ts"
             },
 
-    "planet-facts": {
-                skillId: "planet-facts",
-                subject: "Science",
-                yearGroup: "year3",
-                strand: "planets",
-                sourcePath: "science/year3/planets/planetFacts.ts"
-            },
-
-    "planet-names": {
-                skillId: "planet-names",
-                subject: "Science",
-                yearGroup: "year3",
-                strand: "planets",
-                sourcePath: "science/year3/planets/planetNames.ts"
-            },
-
-    "planet-order": {
-                skillId: "planet-order",
-                subject: "Science",
-                yearGroup: "year3",
-                strand: "planets",
-                sourcePath: "science/year3/planets/planetOrder.ts"
-            },
-
     "pounds-and-pence": {
                 skillId: "pounds-and-pence",
                 subject: "Mathematics",
@@ -1307,14 +1283,6 @@ export const skillMetadata: Record<string, SkillMetadata> = {
                 yearGroup: "year3",
                 strand: "rocks",
                 sourcePath: "science/year3/rocks/rockTypes.ts"
-            },
-
-    "rocky-and-gas-giants": {
-                skillId: "rocky-and-gas-giants",
-                subject: "Science",
-                yearGroup: "year3",
-                strand: "planets",
-                sourcePath: "science/year3/planets/rockyAndGasGiants.ts"
             },
 
     "roman-numerals-to-12": {

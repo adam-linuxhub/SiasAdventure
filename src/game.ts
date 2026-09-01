@@ -420,11 +420,36 @@ function showBatForQuestion(): void {
 
     document.body.appendChild(bat);
 
-    bat.addEventListener(
-        "animationend",
-        () => bat.remove(),
-        { once: true }
-    );
+    let batExploded = false;
+
+    bat.addEventListener("pointerenter", (event) => {
+    if (event.pointerType === "touch") return;
+    if (batExploded) return;
+
+    batExploded = true;
+
+    const rect = bat.getBoundingClientRect();
+
+    const explosion = document.createElement("div");
+    explosion.className = "bat-explosion";
+    explosion.textContent = "💥";
+
+    explosion.style.position = "fixed";
+    explosion.style.left = `${rect.left + rect.width / 2}px`;
+    explosion.style.top = `${rect.top + rect.height / 2}px`;
+
+    document.body.appendChild(explosion);
+
+    bat.remove();
+
+    setTimeout(() => {
+        explosion.remove();
+    }, 700);
+});
+
+    bat.addEventListener("animationend", () => {
+        bat.remove();
+    });
 }
 
 

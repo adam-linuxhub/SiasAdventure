@@ -1518,7 +1518,7 @@ footer{
 
     z-index:900;
 
-    pointer-events:none;
+    pointer-events:auto;
 
     animation-duration:2.8s;
 
@@ -3087,4 +3087,38 @@ overflow-x:hidden;
     margin: 12px 0;
     opacity: 1;
 
+}
+
+/* BAT EXPLOSION */
+.bat-explosion {
+    position: fixed;
+    z-index: 1000;
+    transform: translate(-50%, -50%) scale(0.3);
+    font-size: 55px;
+    line-height: 1;
+    pointer-events: none;
+    animation: batExplosion 0.7s ease-out forwards;
+    filter: drop-shadow(0 3px 4px rgba(0,0,0,.25));
+}
+
+@keyframes batExplosion {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.2) rotate(-15deg);
+    }
+
+    20% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.25) rotate(8deg);
+    }
+
+    45% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1) rotate(-5deg);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1.7) rotate(12deg);
+    }
 }
